@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Collections Framework - List, Set, Map | Java | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="45+ practice questions on Collections Framework - List, Set, Map in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="collections framework - list, set, map practice, java questions, java practice problems, collections framework - list, set, map exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/collections-framework/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/collections-framework/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/collections-framework/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/collections-framework/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/collections-framework/practice">
+    <meta property="og:title" content="Practice Questions - Collections Framework - List, Set, Map | Java | Modern Age Coders">
+    <meta property="og:description" content="45+ practice questions on Collections Framework - List, Set, Map in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/collections-framework/practice">
+    <meta name="twitter:title" content="Practice Questions - Collections Framework - List, Set, Map | Java | Modern Age Coders">
+    <meta name="twitter:description" content="45+ practice questions on Collections Framework - List, Set, Map in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Collections Framework - List, Set, Map",
+    "description": "45+ practice questions on Collections Framework - List, Set, Map in Java.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Collections Framework - List, Set, Map"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/collections-framework/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Collections Framework - List, Set, Map",
+        "item": "https://learn.modernagecoders.com/resources/java/collections-framework"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/java/collections-framework/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java/collections-framework">Collections Framework - List, Set, Map</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 19</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">45 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Collections Framework - List, Set, Map</h1>
+            <a href="/resources/java/collections-framework" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>ArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();
+list.add("A");
+list.add("B");
+list.add("C");
+System.out.println(list);
+System.out.println(list.size());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">ArrayList's toString prints elements in brackets.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>[A, B, C]</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>ArrayList&lt;Integer&gt; nums = new ArrayList&lt;&gt;();
+nums.add(10);
+nums.add(20);
+nums.add(30);
+System.out.println(nums.get(1));
+System.out.println(nums.contains(20));
+System.out.println(nums.indexOf(30));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Indices start at 0. contains checks for value existence.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>20</code><br><code>true</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>HashSet&lt;String&gt; set = new HashSet&lt;&gt;();
+set.add("Java");
+set.add("Python");
+set.add("Java");
+set.add("C++");
+System.out.println(set.size());
+System.out.println(set.contains("Python"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">HashSet does not allow duplicates. "Java" is added twice.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>3</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>HashMap&lt;String, Integer&gt; map = new HashMap&lt;&gt;();
+map.put("A", 1);
+map.put("B", 2);
+map.put("C", 3);
+System.out.println(map.get("B"));
+System.out.println(map.get("D"));
+System.out.println(map.size());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">get returns null for a non-existent key.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>2</code><br><code>null</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>TreeSet&lt;Integer&gt; ts = new TreeSet&lt;&gt;();
+ts.add(30);
+ts.add(10);
+ts.add(50);
+ts.add(20);
+ts.add(40);
+System.out.println(ts);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">TreeSet maintains sorted order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>[10, 20, 30, 40, 50]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>ArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;();
+list.add(10);
+list.add(20);
+list.add(30);
+list.remove(1);
+System.out.println(list);
+list.remove(Integer.valueOf(10));
+System.out.println(list);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">remove(1) removes by index. remove(Integer.valueOf(10)) removes by value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>[10, 30]</code><br><code>[30]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>HashMap&lt;String, Integer&gt; map = new HashMap&lt;&gt;();
+map.put("Arjun", 85);
+map.put("Kavya", 90);
+map.put("Arjun", 95);
+System.out.println(map.size());
+System.out.println(map.get("Arjun"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Putting with an existing key replaces the value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>2</code><br><code>95</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>LinkedList&lt;String&gt; ll = new LinkedList&lt;&gt;();
+ll.add("B");
+ll.addFirst("A");
+ll.addLast("C");
+System.out.println(ll);
+System.out.println(ll.getFirst());
+System.out.println(ll.getLast());
+ll.removeFirst();
+System.out.println(ll);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">addFirst prepends, addLast appends.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>[A, B, C]</code><br><code>A</code><br><code>C</code><br><code>[B, C]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>HashMap&lt;String, Integer&gt; map = new HashMap&lt;&gt;();
+map.put("X", 1);
+map.put("Y", 2);
+map.put("Z", 3);
+
+System.out.println(map.containsKey("Y"));
+System.out.println(map.containsValue(5));
+System.out.println(map.getOrDefault("W", -1));
+System.out.println(map.keySet());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">containsKey/containsValue check existence. getOrDefault returns default for missing keys.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>true</code><br><code>false</code><br><code>-1</code><br><code>[X, Y, Z]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>ArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;();
+list.add(5);
+list.add(3);
+list.add(8);
+list.add(1);
+
+Collections.sort(list);
+System.out.println(list);
+
+System.out.println(Collections.min(list));
+System.out.println(Collections.max(list));
+
+Collections.reverse(list);
+System.out.println(list);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">sort() sorts ascending. reverse() reverses the current order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>[1, 3, 5, 8]</code><br><code>1</code><br><code>8</code><br><code>[8, 5, 3, 1]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>HashMap&lt;String, Integer&gt; map = new HashMap&lt;&gt;();
+String[] words = {"a", "b", "a", "c", "b", "a"};
+for (String w : words) {
+    map.put(w, map.getOrDefault(w, 0) + 1);
+}
+System.out.println(map);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">This is the word frequency counting pattern.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>{a=3, b=2, c=1}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>TreeMap&lt;String, Integer&gt; tm = new TreeMap&lt;&gt;();
+tm.put("Banana", 2);
+tm.put("Apple", 5);
+tm.put("Cherry", 1);
+
+System.out.println(tm);
+System.out.println(tm.firstKey());
+System.out.println(tm.lastKey());
+System.out.println(tm.headMap("Cherry"));
+System.out.println(tm.tailMap("Banana"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">TreeMap is sorted by keys. headMap is exclusive, tailMap is inclusive.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>{Apple=5, Banana=2, Cherry=1}</code><br><code>Apple</code><br><code>Cherry</code><br><code>{Apple=5, Banana=2}</code><br><code>{Banana=2, Cherry=1}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>HashSet&lt;ArrayList&lt;Integer&gt;&gt; set = new HashSet&lt;&gt;();
+ArrayList&lt;Integer&gt; list1 = new ArrayList&lt;&gt;();
+list1.add(1);
+list1.add(2);
+
+ArrayList&lt;Integer&gt; list2 = new ArrayList&lt;&gt;();
+list2.add(1);
+list2.add(2);
+
+set.add(list1);
+set.add(list2);
+System.out.println(set.size());
+
+list1.add(3);
+set.add(list1);
+System.out.println(set.size());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">ArrayList implements equals and hashCode based on contents. What happens when content changes?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>1</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>HashMap&lt;Integer, String&gt; map = new HashMap&lt;&gt;();
+map.put(1, "One");
+map.put(2, "Two");
+map.put(3, "Three");
+
+map.forEach((k, v) -> System.out.println(k + " => " + v));
+
+map.replaceAll((k, v) -> v.toUpperCase());
+System.out.println(map);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">forEach iterates. replaceAll transforms all values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>1 => One</code><br><code>2 => Two</code><br><code>3 => Three</code><br><code>{1=ONE, 2=TWO, 3=THREE}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>ArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;();
+list.add(1);
+list.add(2);
+list.add(3);
+list.add(4);
+list.add(5);
+
+List&lt;Integer&gt; sub = list.subList(1, 4);
+System.out.println(sub);
+
+sub.set(0, 99);
+System.out.println(list);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">subList returns a VIEW, not a copy. Changes to the sublist affect the original.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>[2, 3, 4]</code><br><code>[1, 99, 3, 4, 5]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>LinkedHashMap&lt;String, Integer&gt; lhm = new LinkedHashMap&lt;&gt;();
+lhm.put("C", 3);
+lhm.put("A", 1);
+lhm.put("B", 2);
+System.out.println(lhm);
+
+TreeMap&lt;String, Integer&gt; tm = new TreeMap&lt;&gt;(lhm);
+System.out.println(tm);
+
+HashMap&lt;String, Integer&gt; hm = new HashMap&lt;&gt;(lhm);
+System.out.println(hm.keySet());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">LinkedHashMap preserves insertion order. TreeMap sorts by key. HashMap has no guaranteed order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>{C=3, A=1, B=2}</code><br><code>{A=1, B=2, C=3}</code><br><code>[A, B, C]</code> (order may vary for HashMap)</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the main difference between ArrayList and LinkedList?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Think about the underlying data structure.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">ArrayList uses a dynamic array (contiguous memory), providing O(1) random access but O(n) insertions/deletions in the middle. LinkedList uses a doubly-linked list, providing O(1) insertions/deletions at ends but O(n) random access. Use ArrayList for most cases; LinkedList only when frequent insertions/deletions at the beginning are needed.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How does HashSet ensure that elements are unique?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Think about hashCode() and equals().</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">When adding an element, HashSet calls <code>hashCode()</code> to determine the bucket, then <code>equals()</code> to check if an identical element already exists in that bucket. If <code>equals()</code> returns true, the new element is rejected. This is why overriding <code>equals()</code> requires overriding <code>hashCode()</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>HashSet&lt;Integer&gt; set = new HashSet&lt;&gt;();
+System.out.println(set.add(10));
+System.out.println(set.add(20));
+System.out.println(set.add(10));
+System.out.println(set);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">add() returns true if the element was added, false if already present.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>true</code><br><code>true</code><br><code>false</code><br><code>[20, 10]</code> (order may vary)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>ArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();
+list.add("Banana");
+list.add("Apple");
+list.add("Cherry");
+
+Collections.sort(list);
+int idx = Collections.binarySearch(list, "Cherry");
+System.out.println("Found at: " + idx);
+
+idx = Collections.binarySearch(list, "Grape");
+System.out.println("Not found: " + idx);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">binarySearch requires a sorted list. It returns negative if not found.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Found at: 2</code><br><code>Not found: -4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When should you use HashMap vs TreeMap vs LinkedHashMap?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Think about ordering requirements.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><strong>HashMap</strong>: No ordering needed, fastest for put/get (O(1)). <strong>TreeMap</strong>: Need keys sorted in natural or custom order (O(log n) operations). <strong>LinkedHashMap</strong>: Need to preserve insertion order while maintaining O(1) operations. Use HashMap by default, TreeMap when you need sorted keys, LinkedHashMap when insertion order matters.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>ArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;(List.of(1, 2, 3, 4, 5));
+list.removeIf(n -> n % 2 == 0);
+System.out.println(list);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">removeIf removes all elements matching the predicate.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>[1, 3, 5]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>HashMap&lt;String, ArrayList&lt;Integer&gt;&gt; map = new HashMap&lt;&gt;();
+map.computeIfAbsent("even", k -> new ArrayList&lt;&gt;()).add(2);
+map.computeIfAbsent("odd", k -> new ArrayList&lt;&gt;()).add(1);
+map.computeIfAbsent("even", k -> new ArrayList&lt;&gt;()).add(4);
+map.computeIfAbsent("odd", k -> new ArrayList&lt;&gt;()).add(3);
+
+System.out.println(map);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">computeIfAbsent creates a new value only if the key is absent. If present, it returns the existing value.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>{even=[2, 4], odd=[1, 3]}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What happens internally when a HashMap has many hash collisions?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Think about what happens when multiple keys hash to the same bucket.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">When multiple keys hash to the same bucket, HashMap stores them in a linked list (chaining). Since Java 8, if a bucket grows beyond 8 entries (TREEIFY_THRESHOLD), the linked list is converted to a balanced red-black tree, improving worst-case lookup from O(n) to O(log n). This prevents denial-of-service attacks that exploit hash collisions.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>TreeSet&lt;String&gt; set = new TreeSet&lt;&gt;((a, b) -> b.compareTo(a));
+set.add("Arjun");
+set.add("Kavya");
+set.add("Ravi");
+set.add("Priya");
+System.out.println(set);
+System.out.println(set.first());
+System.out.println(set.last());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">The comparator reverses the natural order (b.compareTo(a) instead of a.compareTo(b)).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>[Ravi, Priya, Kavya, Arjun]</code><br><code>Ravi</code><br><code>Arjun</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why should you use <code>List</code> as the reference type instead of <code>ArrayList</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Think about programming to an interface.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">Using the interface type (<code>List</code>) instead of the implementation type (<code>ArrayList</code>) follows the "program to an interface" principle. It allows you to swap implementations later (e.g., change to <code>LinkedList</code>) without modifying code that uses the variable. It also documents that the code only relies on List behavior, not ArrayList-specific features.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which collection allows duplicate elements?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> HashSet</li><li><span class="mcq-option-label">B.</span> TreeSet</li><li><span class="mcq-option-label">C.</span> ArrayList</li><li><span class="mcq-option-label">D.</span> LinkedHashSet</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>ArrayList</code> (a List) allows duplicates. All Set implementations (HashSet, TreeSet, LinkedHashSet) reject duplicates.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does HashMap.get(key) return if the key does not exist?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> Empty string</li><li><span class="mcq-option-label">C.</span> null</li><li><span class="mcq-option-label">D.</span> Throws KeyNotFoundException</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>get()</code> returns <code>null</code> for a non-existent key. Use <code>getOrDefault(key, defaultValue)</code> to avoid null.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which collection maintains elements in sorted order?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ArrayList</li><li><span class="mcq-option-label">B.</span> HashSet</li><li><span class="mcq-option-label">C.</span> TreeSet</li><li><span class="mcq-option-label">D.</span> LinkedList</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>TreeSet</code> uses a Red-Black tree to maintain elements in sorted order. <code>ArrayList</code> and <code>LinkedList</code> maintain insertion order. <code>HashSet</code> has no guaranteed order.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is the time complexity of ArrayList.get(index)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(n)</li><li><span class="mcq-option-label">B.</span> O(1)</li><li><span class="mcq-option-label">C.</span> O(log n)</li><li><span class="mcq-option-label">D.</span> O(n^2)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> ArrayList uses a dynamic array with contiguous memory. Accessing by index is a simple offset calculation, which is O(1).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Can collections store primitive types like int or char?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, directly</li><li><span class="mcq-option-label">B.</span> No, use wrapper classes (Integer, Character)</li><li><span class="mcq-option-label">C.</span> Only with special syntax</li><li><span class="mcq-option-label">D.</span> Only in Java 17+</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> Collections use generics which require reference types. Use wrapper classes: <code>ArrayList&lt;Integer&gt;</code> instead of <code>ArrayList&lt;int&gt;</code>. Java autoboxes and unboxes automatically.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What exception is thrown when modifying a list during a for-each loop?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> IllegalStateException</li><li><span class="mcq-option-label">B.</span> ConcurrentModificationException</li><li><span class="mcq-option-label">C.</span> UnsupportedOperationException</li><li><span class="mcq-option-label">D.</span> IndexOutOfBoundsException</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> Modifying a collection during a for-each loop (which uses an Iterator internally) causes <code>ConcurrentModificationException</code>. Use <code>Iterator.remove()</code> or <code>removeIf()</code> instead.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Which Map implementation maintains insertion order?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> HashMap</li><li><span class="mcq-option-label">B.</span> TreeMap</li><li><span class="mcq-option-label">C.</span> LinkedHashMap</li><li><span class="mcq-option-label">D.</span> Hashtable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>LinkedHashMap</code> maintains insertion order using a doubly-linked list. <code>HashMap</code> has no order. <code>TreeMap</code> sorts by key.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What must you override along with equals() for correct HashSet behavior?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> toString()</li><li><span class="mcq-option-label">B.</span> compareTo()</li><li><span class="mcq-option-label">C.</span> hashCode()</li><li><span class="mcq-option-label">D.</span> clone()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> The hashCode/equals contract states: if two objects are equal, they must have the same hashCode. Without overriding hashCode, equal objects may end up in different buckets.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which is true about Map in the Collections Framework?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Map extends Collection</li><li><span class="mcq-option-label">B.</span> Map is not part of the Collection interface hierarchy</li><li><span class="mcq-option-label">C.</span> Map extends List</li><li><span class="mcq-option-label">D.</span> Map is deprecated in Java 8</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> Map stores key-value pairs and does NOT extend the Collection interface. However, it is considered part of the Collections Framework.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What does Collections.unmodifiableList() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A copy of the list</li><li><span class="mcq-option-label">B.</span> A read-only view that throws UnsupportedOperationException on modification</li><li><span class="mcq-option-label">C.</span> A synchronized list</li><li><span class="mcq-option-label">D.</span> A sorted list</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>unmodifiableList()</code> returns a read-only view of the list. Any attempt to add, remove, or set elements throws <code>UnsupportedOperationException</code>. It is a view, not a copy.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the average time complexity of HashMap.get(key)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(n)</li><li><span class="mcq-option-label">B.</span> O(log n)</li><li><span class="mcq-option-label">C.</span> O(1)</li><li><span class="mcq-option-label">D.</span> O(n log n)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> HashMap uses hashing to directly compute the bucket location, giving O(1) average-case get/put. In the worst case (all keys collide), it degrades to O(n) (or O(log n) with treeification in Java 8+).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">When does a HashMap bucket convert from a linked list to a tree (Java 8+)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> When the bucket has more than 4 entries</li><li><span class="mcq-option-label">B.</span> When the bucket has more than 8 entries</li><li><span class="mcq-option-label">C.</span> When the total map size exceeds 16</li><li><span class="mcq-option-label">D.</span> Never, HashMap always uses linked lists</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> In Java 8+, when a bucket (chain) has more than 8 entries (TREEIFY_THRESHOLD), it converts from a linked list to a red-black tree for O(log n) lookup instead of O(n).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the difference between Comparable and Comparator?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are the same thing</li><li><span class="mcq-option-label">B.</span> Comparable defines natural ordering inside the class; Comparator defines external custom ordering</li><li><span class="mcq-option-label">C.</span> Comparable is for sorting, Comparator is for searching</li><li><span class="mcq-option-label">D.</span> Comparable uses equals(), Comparator uses hashCode()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>Comparable</code> is implemented by the class itself (<code>compareTo()</code> method, defines natural ordering). <code>Comparator</code> is a separate class/lambda that defines a custom ordering externally.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does HashMap do when two different keys have the same hashCode?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It replaces the first entry</li><li><span class="mcq-option-label">B.</span> It throws an exception</li><li><span class="mcq-option-label">C.</span> It stores both entries in the same bucket (chaining)</li><li><span class="mcq-option-label">D.</span> It ignores the second entry</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> When two keys have the same hashCode (collision), both entries are stored in the same bucket. HashMap uses chaining (linked list or tree) within the bucket and uses <code>equals()</code> to distinguish between keys.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Remove Duplicates from ArrayList</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given an ArrayList<Integer> with duplicates, create a new list with duplicates removed while maintaining order. Use LinkedHashSet.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">[4, 2, 3, 2, 1, 4, 3, 5]</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Original: [4, 2, 3, 2, 1, 4, 3, 5]
+Unique: [4, 2, 3, 1, 5]</div>
+                </div><div class="challenge-constraints">Preserve insertion order. Use LinkedHashSet.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;(Arrays.asList(4, 2, 3, 2, 1, 4, 3, 5));
+        System.out.println(&quot;Original: &quot; + list);
+
+        ArrayList&lt;Integer&gt; unique = new ArrayList&lt;&gt;(new LinkedHashSet&lt;&gt;(list));
+        System.out.println(&quot;Unique: &quot; + unique);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Student Grade Book with HashMap</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a grade book using HashMap<String, ArrayList<Integer>> where keys are student names and values are lists of marks. Add marks for 3 students. Calculate and print each student's average marks sorted by name.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Arjun: [85, 90, 78], Kavya: [92, 88, 95], Ravi: [70, 75, 80]</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Arjun: [85, 90, 78] avg=84.33
+Kavya: [92, 88, 95] avg=91.67
+Ravi: [70, 75, 80] avg=75.00</div>
+                </div><div class="challenge-constraints">Sort output by student name. Calculate average to 2 decimal places.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        HashMap&lt;String, ArrayList&lt;Integer&gt;&gt; grades = new HashMap&lt;&gt;();
+        grades.put(&quot;Arjun&quot;, new ArrayList&lt;&gt;(Arrays.asList(85, 90, 78)));
+        grades.put(&quot;Kavya&quot;, new ArrayList&lt;&gt;(Arrays.asList(92, 88, 95)));
+        grades.put(&quot;Ravi&quot;, new ArrayList&lt;&gt;(Arrays.asList(70, 75, 80)));
+
+        TreeMap&lt;String, ArrayList&lt;Integer&gt;&gt; sorted = new TreeMap&lt;&gt;(grades);
+        for (Map.Entry&lt;String, ArrayList&lt;Integer&gt;&gt; e : sorted.entrySet()) {
+            double avg = e.getValue().stream().mapToInt(Integer::intValue).average().orElse(0);
+            System.out.printf(&quot;%s: %s avg=%.2f%n&quot;, e.getKey(), e.getValue(), avg);
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Find First Non-Repeating Character</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given a string, find the first character that does not repeat. Use LinkedHashMap to maintain insertion order while counting frequencies.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">&quot;aabbcdeff&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">First non-repeating: c</div>
+                </div><div class="challenge-constraints">Use LinkedHashMap for O(n) solution. Handle case where all characters repeat.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">import java.util.*;
+
+public class Main {
+    static Character firstNonRepeating(String s) {
+        LinkedHashMap&lt;Character, Integer&gt; freq = new LinkedHashMap&lt;&gt;();
+        for (char c : s.toCharArray()) {
+            freq.put(c, freq.getOrDefault(c, 0) + 1);
+        }
+        for (Map.Entry&lt;Character, Integer&gt; e : freq.entrySet()) {
+            if (e.getValue() == 1) return e.getKey();
+        }
+        return null;
+    }
+
+    public static void main(String[] args) {
+        String s = &quot;aabbcdeff&quot;;
+        Character result = firstNonRepeating(s);
+        System.out.println(&quot;First non-repeating: &quot; + (result != null ? result : &quot;none&quot;));
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Group Students by Grade</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given a list of (name, marks) pairs, group students by grade: A (90+), B (80-89), C (70-79), D (below 70). Use HashMap<String, ArrayList<String>> where keys are grades and values are student name lists. Print groups sorted by grade.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Arjun:85, Kavya:92, Ravi:70, Priya:65, Deepak:88, Meera:95</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A: [Kavya, Meera]
+B: [Arjun, Deepak]
+C: [Ravi]
+D: [Priya]</div>
+                </div><div class="challenge-constraints">Use computeIfAbsent for clean grouping. Sort output by grade.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">import java.util.*;
+
+public class Main {
+    static String getGrade(int marks) {
+        if (marks &gt;= 90) return &quot;A&quot;;
+        if (marks &gt;= 80) return &quot;B&quot;;
+        if (marks &gt;= 70) return &quot;C&quot;;
+        return &quot;D&quot;;
+    }
+
+    public static void main(String[] args) {
+        Map&lt;String, Integer&gt; students = Map.of(
+            &quot;Arjun&quot;, 85, &quot;Kavya&quot;, 92, &quot;Ravi&quot;, 70,
+            &quot;Priya&quot;, 65, &quot;Deepak&quot;, 88, &quot;Meera&quot;, 95
+        );
+
+        TreeMap&lt;String, ArrayList&lt;String&gt;&gt; groups = new TreeMap&lt;&gt;();
+        for (Map.Entry&lt;String, Integer&gt; e : students.entrySet()) {
+            String grade = getGrade(e.getValue());
+            groups.computeIfAbsent(grade, k -&gt; new ArrayList&lt;&gt;()).add(e.getKey());
+        }
+
+        for (Map.Entry&lt;String, ArrayList&lt;String&gt;&gt; e : groups.entrySet()) {
+            Collections.sort(e.getValue());
+            System.out.println(e.getKey() + &quot;: &quot; + e.getValue());
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: LRU Cache Simulation</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Implement a simple LRU (Least Recently Used) cache using LinkedHashMap with access-order. The cache should hold at most 3 entries. When a new entry is added and the cache is full, the least recently accessed entry is removed. Test with a sequence of get/put operations.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">put(1,&#39;A&#39;), put(2,&#39;B&#39;), put(3,&#39;C&#39;), get(1), put(4,&#39;D&#39;)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">After puts: {1=A, 2=B, 3=C}
+After get(1): accessed A
+After put(4,D): {3=C, 1=A, 4=D} (2=B evicted)</div>
+                </div><div class="challenge-constraints">Use LinkedHashMap with accessOrder=true and override removeEldestEntry.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">import java.util.*;
+
+class LRUCache&lt;K, V&gt; extends LinkedHashMap&lt;K, V&gt; {
+    private int capacity;
+
+    LRUCache(int capacity) {
+        super(capacity, 0.75f, true);  // accessOrder=true
+        this.capacity = capacity;
+    }
+
+    @Override
+    protected boolean removeEldestEntry(Map.Entry&lt;K, V&gt; eldest) {
+        return size() &gt; capacity;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        LRUCache&lt;Integer, String&gt; cache = new LRUCache&lt;&gt;(3);
+        cache.put(1, &quot;A&quot;);
+        cache.put(2, &quot;B&quot;);
+        cache.put(3, &quot;C&quot;);
+        System.out.println(&quot;After puts: &quot; + cache);
+
+        String val = cache.get(1);
+        System.out.println(&quot;After get(1): accessed &quot; + val);
+
+        cache.put(4, &quot;D&quot;);  // Evicts least recently used (2=B)
+        System.out.println(&quot;After put(4,D): &quot; + cache + &quot; (2=B evicted)&quot;);
+    }
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/java/exception-handling/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Exception Handling in Java</span>
+        </a>
+            <a href="/resources/java/generics-in-java/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Generics in Java</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/java/collections-framework" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

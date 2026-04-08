@@ -1,0 +1,744 @@
+{
+  "title": "Conditional Statements in Java (if, else, switch)",
+  "slug": "conditional-statements",
+  "language": "java",
+  "chapter": 7,
+  "difficulty": "Beginner",
+  "readingTime": "25 min",
+  "lastUpdated": "2026-04-08",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "Conditional Statements in Java - if, else, switch with Examples | Modern Age Coders",
+    "description": "Master Java conditional statements including if-else, nested if, ternary operator, switch-case, enhanced switch expressions, and String comparison with .equals(). Includes 60 practice questions.",
+    "keywords": "java if else, java switch case, conditional statements java, java ternary operator, java if else if, java switch expression, java enhanced switch, java string equals"
+  },
+  "content": {
+    "what": "<h2>What Are Conditional Statements?</h2><p>A <strong>conditional statement</strong> allows your program to make decisions. Instead of executing every line sequentially from top to bottom, the program evaluates a condition (a Boolean expression) and chooses which block of code to execute based on whether the condition is <code>true</code> or <code>false</code>.</p><p>Consider a real-world scenario: an ATM checks if your account balance is sufficient before processing a withdrawal. If the balance is enough, it dispenses cash. If not, it displays an error. This is exactly what conditional statements do in code.</p><p>Java provides four primary mechanisms for conditional logic:</p><ol><li><code>if</code>, <code>if-else</code>, <code>if-else if-else</code> statements</li><li>Nested <code>if</code> statements</li><li>The ternary operator (<code>?:</code>)</li><li><code>switch-case</code> statements (including enhanced switch expressions from Java 14+)</li></ol><p>Every non-trivial Java program uses conditional statements. They are one of the three fundamental control flow structures alongside sequence (straight-line execution) and loops (repeated execution).</p>",
+    "why": "<h2>Why Are Conditional Statements Essential?</h2><h3>1. Decision-Making Is the Core of Programming</h3><p>Without conditionals, your program would perform the exact same actions regardless of input. A login system must check credentials. An e-commerce site must verify payment. A game must determine win/lose conditions. All of these require the program to evaluate conditions and branch accordingly.</p><h3>2. Input Validation and Error Handling</h3><p>When your program receives input from users, files, or APIs, you must validate it. Is the age a positive number? Is the email in a valid format? Is the password strong enough? Conditional statements let you check these conditions and respond appropriately, preventing bugs and crashes.</p><h3>3. Business Logic Implementation</h3><p>Most business rules translate directly into conditional statements. Tax calculation depends on income slabs. Shipping cost depends on order weight and destination. Discount eligibility depends on customer tier. Mastering conditionals is essential for translating real-world requirements into working code.</p><h3>4. Foundation for Algorithms</h3><p>Every algorithm, from simple sorting to complex graph traversal, relies on conditional logic. Binary search checks if the target is in the left or right half. QuickSort partitions based on comparisons. Understanding conditionals deeply is a prerequisite for DSA (Data Structures and Algorithms), which is the backbone of placement preparation.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The if Statement</h3><p>The <code>if</code> statement evaluates a Boolean expression. If the expression is <code>true</code>, the block inside the curly braces executes. If <code>false</code>, the block is skipped entirely.</p><pre><code>int age = 20;\n\nif (age >= 18) {\n    System.out.println(\"You are eligible to vote.\");\n}\n\nSystem.out.println(\"Program continues.\");</code></pre><p>Since <code>20 >= 18</code> is true, \"You are eligible to vote.\" prints. The last line always executes because it is outside the if block. If age were 15, the if block would be skipped but \"Program continues.\" would still print.</p><h4>Curly Braces Are Not Optional (Best Practice)</h4><p>Java allows omitting curly braces when the if block has only one statement. However, this is widely considered bad practice because it is error-prone:</p><pre><code>// Legal but dangerous:\nif (age >= 18)\n    System.out.println(\"Adult\");\n    System.out.println(\"Can vote\"); // This ALWAYS executes! Not inside if.</code></pre><p>The second print statement is NOT inside the if block (indentation does not matter in Java, unlike Python). Always use curly braces, even for single statements.</p><h3>2. The if-else Statement</h3><p>The <code>if-else</code> provides two branches: one for when the condition is true, and another for when it is false. Exactly one of the two blocks always executes.</p><pre><code>int marks = 35;\n\nif (marks >= 40) {\n    System.out.println(\"You passed.\");\n} else {\n    System.out.println(\"You failed.\");\n}</code></pre><p>Since 35 >= 40 is false, the else block runs. There is no scenario where both blocks or neither block executes.</p><h3>3. The if-else if-else Ladder</h3><p>When you need to check multiple conditions, use <code>else if</code>. Java checks conditions from top to bottom and executes the block for the <strong>first</strong> condition that is true. If no condition is true, the <code>else</code> block (if present) runs.</p><pre><code>int marks = 75;\n\nif (marks >= 90) {\n    System.out.println(\"Grade: A\");\n} else if (marks >= 80) {\n    System.out.println(\"Grade: B\");\n} else if (marks >= 70) {\n    System.out.println(\"Grade: C\");\n} else if (marks >= 60) {\n    System.out.println(\"Grade: D\");\n} else {\n    System.out.println(\"Grade: F\");\n}</code></pre><p>For marks = 75: 75 >= 90? No. 75 >= 80? No. 75 >= 70? Yes. \"Grade: C\" prints and all remaining else-if/else blocks are skipped. Order matters: always put the most restrictive condition first.</p><h3>4. Nested if Statements</h3><p>An <code>if</code> statement inside another <code>if</code> statement is called nesting. The inner condition is only evaluated when the outer condition is true.</p><pre><code>int age = 22;\nboolean hasLicense = true;\n\nif (age >= 18) {\n    if (hasLicense) {\n        System.out.println(\"You can drive.\");\n    } else {\n        System.out.println(\"Get a license first.\");\n    }\n} else {\n    System.out.println(\"You are too young to drive.\");\n}</code></pre><p>Avoid deep nesting (3+ levels). Flatten conditions using logical operators (<code>&&</code>, <code>||</code>) or use early returns.</p><h3>5. The Ternary Operator (?:)</h3><p>The ternary operator is a shorthand for a simple if-else that produces a value. It is the only operator in Java that takes three operands.</p><pre><code>condition ? valueIfTrue : valueIfFalse</code></pre><p>Example:</p><pre><code>int age = 20;\nString status = (age >= 18) ? \"Adult\" : \"Minor\";\nSystem.out.println(status); // Adult</code></pre><p>The ternary operator is an <strong>expression</strong>, not a statement. This means it produces a value and can be used in assignments, method arguments, and print statements. Use it only for simple conditions; complex ternary expressions are hard to read.</p><h3>6. switch-case Statement</h3><p>The <code>switch</code> statement compares a single variable against multiple constant values. It is cleaner than a long if-else if chain when you are comparing one variable against many possible values.</p><pre><code>int day = 3;\n\nswitch (day) {\n    case 1:\n        System.out.println(\"Monday\");\n        break;\n    case 2:\n        System.out.println(\"Tuesday\");\n        break;\n    case 3:\n        System.out.println(\"Wednesday\");\n        break;\n    default:\n        System.out.println(\"Other day\");\n}</code></pre><h4>Key Rules for switch</h4><ul><li>The switch expression can be: <code>byte</code>, <code>short</code>, <code>int</code>, <code>char</code>, <code>String</code> (Java 7+), or an <code>enum</code>.</li><li>Each <code>case</code> value must be a <strong>compile-time constant</strong> (literal or final variable).</li><li>The <code>break</code> statement exits the switch block. Without it, execution \"falls through\" to the next case.</li><li>The <code>default</code> block is optional and runs when no case matches. It is analogous to <code>else</code> in if-else.</li></ul><h4>Fall-Through Behavior</h4><p>If you omit <code>break</code>, execution continues into the next case regardless of whether it matches. This is called <strong>fall-through</strong> and is usually a bug, but sometimes intentional:</p><pre><code>int month = 2;\nswitch (month) {\n    case 12:\n    case 1:\n    case 2:\n        System.out.println(\"Winter\");\n        break;\n    case 3:\n    case 4:\n    case 5:\n        System.out.println(\"Spring\");\n        break;\n}</code></pre><p>Here, months 12, 1, and 2 all fall through to print \"Winter\". This is intentional grouping.</p><h3>7. switch with Strings (Java 7+)</h3><p>Starting from Java 7, you can use String values in switch statements:</p><pre><code>String command = \"start\";\n\nswitch (command) {\n    case \"start\":\n        System.out.println(\"Starting...\");\n        break;\n    case \"stop\":\n        System.out.println(\"Stopping...\");\n        break;\n    default:\n        System.out.println(\"Unknown command\");\n}</code></pre><p>Internally, Java uses the String's <code>hashCode()</code> for efficient comparison. The comparison is case-sensitive: \"Start\" and \"start\" are different cases.</p><h3>8. Enhanced switch Expressions (Java 14+)</h3><p>Java 14 introduced a modern switch syntax using arrow (<code>-></code>) notation. It eliminates the need for <code>break</code> statements and allows switch to return a value:</p><pre><code>int day = 3;\nString dayName = switch (day) {\n    case 1 -> \"Monday\";\n    case 2 -> \"Tuesday\";\n    case 3 -> \"Wednesday\";\n    case 4 -> \"Thursday\";\n    case 5 -> \"Friday\";\n    case 6 -> \"Saturday\";\n    case 7 -> \"Sunday\";\n    default -> \"Invalid\";\n};\nSystem.out.println(dayName); // Wednesday</code></pre><p>Key benefits: no fall-through bugs, returns values directly, multiple labels per case (<code>case 1, 7 -></code>), and the compiler checks exhaustiveness.</p><h3>9. Comparing Strings: .equals() vs ==</h3><p>This is one of the most important concepts for Java interviews and exams. In Java, <code>==</code> compares <strong>references</strong> (memory addresses), not the actual content of strings. Use <code>.equals()</code> to compare string content.</p><pre><code>String a = new String(\"hello\");\nString b = new String(\"hello\");\n\nSystem.out.println(a == b);       // false (different objects)\nSystem.out.println(a.equals(b));  // true (same content)</code></pre><p>String literals are interned by Java (stored in a string pool), so <code>==</code> may work for literals, but this is unreliable and should never be used for string comparison in production code. Always use <code>.equals()</code>.</p>",
+    "codeExamples": [
+      {
+        "title": "Simple if-else Statement",
+        "code": "public class IfElseDemo {\n    public static void main(String[] args) {\n        int temperature = 38;\n\n        if (temperature > 37) {\n            System.out.println(\"You have a fever.\");\n            System.out.println(\"Please consult a doctor.\");\n        } else {\n            System.out.println(\"Your temperature is normal.\");\n        }\n\n        System.out.println(\"Take care!\");\n    }\n}",
+        "language": "java",
+        "explanation": "Since 38 > 37 is true, the if block executes and prints two lines. The else block is skipped. The final print statement is outside the if-else and always executes.",
+        "output": "You have a fever.\nPlease consult a doctor.\nTake care!"
+      },
+      {
+        "title": "if-else if-else Ladder: Grade Calculator",
+        "code": "import java.util.Scanner;\n\npublic class GradeCalc {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter marks: \");\n        int marks = sc.nextInt();\n\n        if (marks >= 90) {\n            System.out.println(\"Grade: A\");\n        } else if (marks >= 80) {\n            System.out.println(\"Grade: B\");\n        } else if (marks >= 70) {\n            System.out.println(\"Grade: C\");\n        } else if (marks >= 60) {\n            System.out.println(\"Grade: D\");\n        } else if (marks >= 40) {\n            System.out.println(\"Grade: E\");\n        } else {\n            System.out.println(\"Grade: F (Fail)\");\n        }\n\n        sc.close();\n    }\n}",
+        "language": "java",
+        "explanation": "If Suresh enters 82, Java checks from top: 82 >= 90? No. 82 >= 80? Yes. So \"Grade: B\" prints and all remaining else-if/else blocks are skipped. Even though 82 >= 70, 82 >= 60, and 82 >= 40 are all true, they are never evaluated because the first matching condition wins.",
+        "output": "Enter marks: 82\nGrade: B"
+      },
+      {
+        "title": "Nested if with Logical Operators",
+        "code": "public class VoterEligibility {\n    public static void main(String[] args) {\n        int age = 20;\n        String citizenship = \"Indian\";\n        boolean hasVoterId = true;\n\n        if (age >= 18) {\n            if (citizenship.equals(\"Indian\")) {\n                if (hasVoterId) {\n                    System.out.println(\"Eligible to vote.\");\n                } else {\n                    System.out.println(\"Get a voter ID first.\");\n                }\n            } else {\n                System.out.println(\"Only Indian citizens can vote here.\");\n            }\n        } else {\n            System.out.println(\"Must be at least 18 to vote.\");\n        }\n\n        // Flattened version (preferred):\n        if (age >= 18 && citizenship.equals(\"Indian\") && hasVoterId) {\n            System.out.println(\"Eligible to vote (flat check).\");\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "The nested version checks conditions one by one. The flattened version combines them with <code>&&</code> (logical AND). Both achieve the same result, but the flat version is easier to read. Note the use of <code>.equals()</code> for string comparison, not <code>==</code>.",
+        "output": "Eligible to vote.\nEligible to vote (flat check)."
+      },
+      {
+        "title": "Ternary Operator in Practice",
+        "code": "public class TernaryDemo {\n    public static void main(String[] args) {\n        int age = 16;\n\n        // Basic ternary\n        String status = (age >= 18) ? \"Adult\" : \"Minor\";\n        System.out.println(\"Status: \" + status);\n\n        // Ternary inside println\n        System.out.println(\"Can vote: \" + ((age >= 18) ? \"Yes\" : \"No\"));\n\n        // Ternary for max of two numbers\n        int a = 15, b = 22;\n        int max = (a > b) ? a : b;\n        System.out.println(\"Max: \" + max);\n\n        // Nested ternary (avoid in production code)\n        int marks = 75;\n        String grade = (marks >= 90) ? \"A\" : (marks >= 80) ? \"B\" : (marks >= 70) ? \"C\" : \"D\";\n        System.out.println(\"Grade: \" + grade);\n    }\n}",
+        "language": "java",
+        "explanation": "The ternary operator <code>condition ? valueIfTrue : valueIfFalse</code> produces a value. For age 16, <code>(16 >= 18)</code> is false, so \"Minor\" is chosen. Nested ternaries work but are hard to read; use if-else for complex conditions.",
+        "output": "Status: Minor\nCan vote: No\nMax: 22\nGrade: C"
+      },
+      {
+        "title": "switch-case with Fall-Through",
+        "code": "public class SwitchDemo {\n    public static void main(String[] args) {\n        int month = 4;\n\n        // Standard switch\n        switch (month) {\n            case 1:\n                System.out.println(\"January\");\n                break;\n            case 2:\n                System.out.println(\"February\");\n                break;\n            case 3:\n                System.out.println(\"March\");\n                break;\n            case 4:\n                System.out.println(\"April\");\n                break;\n            default:\n                System.out.println(\"Other month\");\n        }\n\n        // Fall-through for grouping seasons\n        System.out.println(\"\\nSeason:\");\n        switch (month) {\n            case 12: case 1: case 2:\n                System.out.println(\"Winter\");\n                break;\n            case 3: case 4: case 5:\n                System.out.println(\"Spring\");\n                break;\n            case 6: case 7: case 8:\n                System.out.println(\"Summer\");\n                break;\n            case 9: case 10: case 11:\n                System.out.println(\"Autumn\");\n                break;\n            default:\n                System.out.println(\"Invalid month\");\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "The first switch matches case 4 and prints \"April\". The <code>break</code> exits the switch. In the season switch, multiple cases share the same block using fall-through: cases 3, 4, 5 all reach the \"Spring\" print. Without <code>break</code>, execution would continue into the next case's code.",
+        "output": "April\n\nSeason:\nSpring"
+      },
+      {
+        "title": "switch with Strings (Java 7+)",
+        "code": "import java.util.Scanner;\n\npublic class StringSwitch {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter day name: \");\n        String day = sc.nextLine().toLowerCase();\n\n        switch (day) {\n            case \"monday\":\n            case \"tuesday\":\n            case \"wednesday\":\n            case \"thursday\":\n            case \"friday\":\n                System.out.println(day + \" is a weekday.\");\n                break;\n            case \"saturday\":\n            case \"sunday\":\n                System.out.println(day + \" is a weekend.\");\n                break;\n            default:\n                System.out.println(\"Invalid day name.\");\n        }\n\n        sc.close();\n    }\n}",
+        "language": "java",
+        "explanation": "Since Java 7, switch supports String expressions. We convert the input to lowercase with <code>toLowerCase()</code> so the comparison is case-insensitive. Multiple cases fall through to share the \"weekday\" or \"weekend\" print. The comparison uses the string's <code>hashCode()</code> internally for efficiency.",
+        "output": "Enter day name: Thursday\nthursday is a weekday."
+      },
+      {
+        "title": "Enhanced switch Expression (Java 14+)",
+        "code": "public class EnhancedSwitch {\n    public static void main(String[] args) {\n        int dayNum = 3;\n\n        // Arrow syntax - no break needed, no fall-through\n        String dayName = switch (dayNum) {\n            case 1 -> \"Monday\";\n            case 2 -> \"Tuesday\";\n            case 3 -> \"Wednesday\";\n            case 4 -> \"Thursday\";\n            case 5 -> \"Friday\";\n            case 6, 7 -> \"Weekend\";  // Multiple labels\n            default -> \"Invalid\";\n        };\n\n        System.out.println(\"Day: \" + dayName);\n\n        // Switch expression with blocks\n        String type = switch (dayNum) {\n            case 1, 2, 3, 4, 5 -> {\n                System.out.println(\"Processing weekday...\");\n                yield \"Weekday\";  // yield returns value from block\n            }\n            case 6, 7 -> {\n                System.out.println(\"Processing weekend...\");\n                yield \"Weekend\";\n            }\n            default -> \"Unknown\";\n        };\n\n        System.out.println(\"Type: \" + type);\n    }\n}",
+        "language": "java",
+        "explanation": "The enhanced switch (Java 14+) uses arrow syntax (<code>-></code>) which eliminates fall-through and break. The switch can return a value directly. Multiple labels can be grouped with commas (<code>case 6, 7</code>). When a case body needs multiple statements, use a block and the <code>yield</code> keyword to return the value.",
+        "output": "Day: Wednesday\nProcessing weekday...\nType: Weekday"
+      },
+      {
+        "title": "String Comparison: .equals() vs ==",
+        "code": "public class StringComparison {\n    public static void main(String[] args) {\n        String a = \"hello\";\n        String b = \"hello\";\n        String c = new String(\"hello\");\n\n        // == compares references (memory addresses)\n        System.out.println(\"a == b: \" + (a == b));       // true (string pool)\n        System.out.println(\"a == c: \" + (a == c));       // false (different objects)\n\n        // .equals() compares content\n        System.out.println(\"a.equals(b): \" + a.equals(b)); // true\n        System.out.println(\"a.equals(c): \" + a.equals(c)); // true\n\n        // In conditionals, ALWAYS use .equals()\n        String userInput = new String(\"admin\");\n        if (userInput.equals(\"admin\")) {\n            System.out.println(\"Access granted.\");\n        }\n\n        // Safer: put the literal first to avoid NullPointerException\n        String name = null;\n        if (\"admin\".equals(name)) { // No NullPointerException!\n            System.out.println(\"Admin\");\n        } else {\n            System.out.println(\"Not admin\");\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "String literals <code>a</code> and <code>b</code> point to the same object in the string pool, so <code>==</code> returns true. But <code>c</code> created with <code>new</code> is a separate object, so <code>a == c</code> is false even though the content is identical. Always use <code>.equals()</code> for string comparison. Putting the literal first (\"admin\".equals(name)) prevents NullPointerException when name is null.",
+        "output": "a == b: true\na == c: false\na.equals(b): true\na.equals(c): true\nAccess granted.\nNot admin"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using == Instead of .equals() for Strings",
+        "wrongCode": "String name = new String(\"Ravi\");\nif (name == \"Ravi\") {\n    System.out.println(\"Match\");\n} else {\n    System.out.println(\"No match\");\n}",
+        "error": "No compilation error, but prints 'No match' because == compares references, not content.",
+        "correctCode": "String name = new String(\"Ravi\");\nif (name.equals(\"Ravi\")) {\n    System.out.println(\"Match\");\n}",
+        "explanation": "The <code>==</code> operator checks if two references point to the same object in memory. Since <code>new String(\"Ravi\")</code> creates a new object, it is a different reference from the string literal \"Ravi\" in the string pool. Always use <code>.equals()</code> to compare string content. This is one of the most commonly tested topics in Java placement interviews."
+      },
+      {
+        "title": "Missing break in switch Causing Fall-Through",
+        "wrongCode": "int x = 1;\nswitch (x) {\n    case 1:\n        System.out.println(\"One\");\n    case 2:\n        System.out.println(\"Two\");\n    case 3:\n        System.out.println(\"Three\");\n}",
+        "error": "No compilation error, but prints 'One', 'Two', AND 'Three' due to fall-through.",
+        "correctCode": "int x = 1;\nswitch (x) {\n    case 1:\n        System.out.println(\"One\");\n        break;\n    case 2:\n        System.out.println(\"Two\");\n        break;\n    case 3:\n        System.out.println(\"Three\");\n        break;\n}",
+        "explanation": "Without <code>break</code>, execution falls through to the next case regardless of whether it matches. After matching case 1, the code continues executing case 2 and case 3 code. This is a very common bug. In the enhanced switch (Java 14+), arrow syntax eliminates this problem entirely."
+      },
+      {
+        "title": "Using = Instead of == in Conditions",
+        "wrongCode": "int x = 10;\nif (x = 5) {\n    System.out.println(\"Five\");\n}",
+        "error": "error: incompatible types: int cannot be converted to boolean",
+        "correctCode": "int x = 10;\nif (x == 5) {\n    System.out.println(\"Five\");\n}",
+        "explanation": "A single <code>=</code> is the assignment operator. <code>x = 5</code> assigns 5 to x and returns an int, which cannot be used as a boolean condition. Use <code>==</code> for comparison. Java catches this at compile time for int types (unlike C/C++), but for boolean variables, <code>if (flag = true)</code> compiles and silently overwrites the variable."
+      },
+      {
+        "title": "Wrong Order in if-else if Causing Wrong Results",
+        "wrongCode": "int marks = 95;\nif (marks >= 40) {\n    System.out.println(\"Grade: E\");\n} else if (marks >= 70) {\n    System.out.println(\"Grade: C\");\n} else if (marks >= 90) {\n    System.out.println(\"Grade: A\");\n}",
+        "error": "No compilation error, but prints 'Grade: E' instead of 'Grade: A'. Conditions are in the wrong order.",
+        "correctCode": "int marks = 95;\nif (marks >= 90) {\n    System.out.println(\"Grade: A\");\n} else if (marks >= 70) {\n    System.out.println(\"Grade: C\");\n} else if (marks >= 40) {\n    System.out.println(\"Grade: E\");\n}",
+        "explanation": "Java checks conditions top to bottom and stops at the first true one. Since 95 >= 40 is true, \"Grade: E\" prints immediately and the other conditions are never checked. Always put the most restrictive (highest threshold) condition first in an if-else if chain."
+      },
+      {
+        "title": "Omitting Curly Braces Leading to Logic Errors",
+        "wrongCode": "int score = 30;\nif (score >= 40)\n    System.out.println(\"Passed\");\n    System.out.println(\"Congratulations!\");  // Always executes!",
+        "error": "No compilation error, but 'Congratulations!' prints even when score is 30 because it is not inside the if block.",
+        "correctCode": "int score = 30;\nif (score >= 40) {\n    System.out.println(\"Passed\");\n    System.out.println(\"Congratulations!\");\n}",
+        "explanation": "Without curly braces, only the first statement after <code>if</code> belongs to the if block. The second print is outside the if and always executes. Indentation is cosmetic in Java and does not affect control flow. Always use curly braces to avoid this error."
+      }
+    ],
+    "summary": [
+      "The if statement checks a boolean condition. If true, the block executes. If false, it is skipped. Always use curly braces, even for single statements.",
+      "The if-else statement provides two branches: one for true, one for false. Exactly one block always executes.",
+      "The if-else if-else ladder checks multiple conditions from top to bottom. Only the first true condition's block executes. Put the most restrictive condition first.",
+      "Nested if places one if inside another. Avoid more than 2-3 levels; flatten conditions using && and || operators.",
+      "The ternary operator (condition ? a : b) is a compact if-else that produces a value. Use it for simple assignments only.",
+      "switch-case compares one variable against multiple constant values. Always include break to prevent fall-through. Use default for unmatched cases.",
+      "Since Java 7, switch supports String values. Comparison is case-sensitive. Internally uses hashCode() for efficiency.",
+      "Java 14+ enhanced switch uses arrow syntax (->), eliminates fall-through, allows switch to return values, and supports yield for multi-statement cases.",
+      "Always compare Strings with .equals(), never with ==. The == operator compares references (memory addresses), not content. Placing the literal first (\"text\".equals(variable)) prevents NullPointerException.",
+      "In if conditions, == is comparison and = is assignment. For int types, accidental assignment in if causes a compilation error. For boolean, it silently compiles (if (flag = true)), which is a subtle bug."
+    ]
+  },
+  "relatedTopics": [
+    "operators-in-java",
+    "loops-in-java"
+  ],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int x = 10;\nif (x > 5) {\n    System.out.println(\"Big\");\n}\nSystem.out.println(\"Done\");</code></pre>",
+        "hint": "Check if 10 > 5. The last line is outside the if block.",
+        "answer": "<code>Big</code><br><code>Done</code>",
+        "explanation": "<code>10 > 5</code> is true, so \"Big\" prints. \"Done\" is outside the if block, so it always prints."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int x = 3;\nif (x > 5) {\n    System.out.println(\"Big\");\n}\nSystem.out.println(\"Done\");</code></pre>",
+        "hint": "Is 3 > 5?",
+        "answer": "<code>Done</code>",
+        "explanation": "<code>3 > 5</code> is false, so the if block is skipped. Only \"Done\" prints."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int num = 7;\nif (num % 2 == 0) {\n    System.out.println(\"Even\");\n} else {\n    System.out.println(\"Odd\");\n}</code></pre>",
+        "hint": "What is 7 % 2?",
+        "answer": "<code>Odd</code>",
+        "explanation": "<code>7 % 2</code> = 1 (not 0), so the condition is false. The else block runs, printing \"Odd\"."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int marks = 85;\nif (marks >= 90) {\n    System.out.println(\"A\");\n} else if (marks >= 80) {\n    System.out.println(\"B\");\n} else if (marks >= 70) {\n    System.out.println(\"C\");\n} else {\n    System.out.println(\"D\");\n}</code></pre>",
+        "hint": "Check conditions top to bottom. Which is the first true condition?",
+        "answer": "<code>B</code>",
+        "explanation": "<code>85 >= 90</code> is false. <code>85 >= 80</code> is true. \"B\" prints and all remaining else-if/else are skipped."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int a = 5, b = 5;\nif (a == b) {\n    System.out.println(\"Equal\");\n} else {\n    System.out.println(\"Not equal\");\n}</code></pre>",
+        "hint": "Does 5 equal 5?",
+        "answer": "<code>Equal</code>",
+        "explanation": "<code>5 == 5</code> is true, so the if block executes and \"Equal\" prints."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int x = 15;\nif (x > 10) {\n    System.out.println(\"A\");\n}\nif (x > 5) {\n    System.out.println(\"B\");\n}\nif (x > 0) {\n    System.out.println(\"C\");\n}</code></pre>",
+        "hint": "These are three SEPARATE if statements, not if-else if.",
+        "answer": "<code>A</code><br><code>B</code><br><code>C</code>",
+        "explanation": "These are three separate if statements, each checked independently. 15 > 10 is true (prints A). 15 > 5 is true (prints B). 15 > 0 is true (prints C). All three print."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output? Compare with the previous question.<br><pre><code>int x = 15;\nif (x > 10) {\n    System.out.println(\"A\");\n} else if (x > 5) {\n    System.out.println(\"B\");\n} else if (x > 0) {\n    System.out.println(\"C\");\n}</code></pre>",
+        "hint": "This IS an if-else if chain. Only the first true condition's block runs.",
+        "answer": "<code>A</code>",
+        "explanation": "This is an if-else if chain. <code>15 > 10</code> is true, so \"A\" prints and all remaining else-if blocks are skipped. Compare with the previous question."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int x = 10, y = 20;\nif (x > 5 && y > 15) {\n    System.out.println(\"Both\");\n} else if (x > 5 || y > 15) {\n    System.out.println(\"At least one\");\n} else {\n    System.out.println(\"Neither\");\n}</code></pre>",
+        "hint": "Check if BOTH conditions are true with &&.",
+        "answer": "<code>Both</code>",
+        "explanation": "<code>10 > 5</code> is true and <code>20 > 15</code> is true. <code>true && true</code> = true. \"Both\" prints."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>String result = (85 >= 40) ? \"Pass\" : \"Fail\";\nSystem.out.println(result);</code></pre>",
+        "hint": "This is a ternary operator. Check the condition.",
+        "answer": "<code>Pass</code>",
+        "explanation": "The ternary operator checks <code>85 >= 40</code> which is true. The value before <code>:</code> is chosen: \"Pass\"."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int day = 2;\nswitch (day) {\n    case 1:\n        System.out.println(\"Mon\");\n    case 2:\n        System.out.println(\"Tue\");\n    case 3:\n        System.out.println(\"Wed\");\n        break;\n    default:\n        System.out.println(\"Other\");\n}</code></pre>",
+        "hint": "There is no break after case 1 and case 2.",
+        "answer": "<code>Tue</code><br><code>Wed</code>",
+        "explanation": "Matches case 2, prints \"Tue\". No break, so it falls through to case 3, prints \"Wed\". The break after case 3 stops the fall-through. \"Other\" does not print."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int x = 5;\nif (x > 3) {\n    if (x > 7) {\n        System.out.println(\"A\");\n    } else {\n        System.out.println(\"B\");\n    }\n} else {\n    if (x > 1) {\n        System.out.println(\"C\");\n    } else {\n        System.out.println(\"D\");\n    }\n}</code></pre>",
+        "hint": "First check the outer if. Then the inner if within the matching block.",
+        "answer": "<code>B</code>",
+        "explanation": "Outer: <code>5 > 3</code> is true, enter first block. Inner: <code>5 > 7</code> is false, so inner else runs: \"B\". The outer else block (C, D) is never reached."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>String a = new String(\"hello\");\nString b = \"hello\";\nif (a == b) {\n    System.out.println(\"Same\");\n} else {\n    System.out.println(\"Different\");\n}\nif (a.equals(b)) {\n    System.out.println(\"Equal\");\n}</code></pre>",
+        "hint": "== compares references. .equals() compares content.",
+        "answer": "<code>Different</code><br><code>Equal</code>",
+        "explanation": "<code>new String(\"hello\")</code> creates a new object outside the string pool. <code>==</code> compares references: different objects, so \"Different\". <code>.equals()</code> compares content: both are \"hello\", so \"Equal\"."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int x = 2;\nswitch (x) {\n    case 1:\n        System.out.println(\"One\");\n        break;\n    case 2:\n        System.out.println(\"Two\");\n    case 3:\n        System.out.println(\"Three\");\n    case 4:\n        System.out.println(\"Four\");\n        break;\n    case 5:\n        System.out.println(\"Five\");\n}</code></pre>",
+        "hint": "Case 2 has no break. Fall-through continues until a break is hit.",
+        "answer": "<code>Two</code><br><code>Three</code><br><code>Four</code>",
+        "explanation": "Case 2 matches: prints \"Two\". No break, falls through to case 3: prints \"Three\". Still no break, falls through to case 4: prints \"Four\". Break stops the fall-through. \"Five\" is not printed."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>boolean a = true, b = false, c = true;\n\nif (a && b || c) {\n    System.out.println(\"X\");\n}\nif ((a && b) || c) {\n    System.out.println(\"Y\");\n}\nif (a && (b || c)) {\n    System.out.println(\"Z\");\n}</code></pre>",
+        "hint": "&& has higher precedence than ||.",
+        "answer": "<code>X</code><br><code>Y</code><br><code>Z</code>",
+        "explanation": "Line 1: <code>&&</code> binds tighter than <code>||</code>: <code>(true && false) || true</code> = <code>false || true</code> = true (prints X). Line 2: Same with explicit parentheses: true (prints Y). Line 3: <code>true && (false || true)</code> = <code>true && true</code> = true (prints Z). All three print."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between using separate if statements and an if-else if chain? When would you use each?",
+        "hint": "Think about whether conditions are independent or mutually exclusive.",
+        "answer": "With <strong>separate if statements</strong>, every condition is checked independently; multiple blocks can execute. With <strong>if-else if</strong>, checking stops at the first true condition; only one block executes. Use if-else if for mutually exclusive conditions (like grade ranges). Use separate ifs when conditions are independent and multiple might apply.",
+        "explanation": "For <code>x = 15</code>, three separate <code>if (x > 10)</code>, <code>if (x > 5)</code>, <code>if (x > 0)</code> would execute all three blocks. But <code>if (x > 10) else if (x > 5) else if (x > 0)</code> would execute only the first."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why should you use .equals() instead of == for String comparison in Java? Can == ever give the correct result for Strings?",
+        "hint": "Think about the string pool and the new keyword.",
+        "answer": "<code>==</code> compares object references (memory addresses), not content. <code>.equals()</code> compares the actual character content. <code>==</code> CAN return true for string literals due to the string pool (Java interns literals), but it fails for strings created with <code>new</code> or obtained from methods like <code>substring()</code>, <code>concat()</code>, user input, etc. Relying on <code>==</code> for strings is unreliable and is a bug.",
+        "explanation": "String literals like <code>\"hello\"</code> are stored in a shared string pool. Two literals with the same content point to the same object, so <code>==</code> returns true. But <code>new String(\"hello\")</code> creates a separate object. Since you cannot predict which strings are pooled, always use <code>.equals()</code>."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that takes a number and prints whether it is positive, negative, or zero.",
+        "hint": "Use if-else if-else with comparisons to 0.",
+        "answer": "<pre><code>import java.util.Scanner;\n\npublic class SignCheck {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int num = sc.nextInt();\n        if (num > 0) {\n            System.out.println(\"Positive\");\n        } else if (num < 0) {\n            System.out.println(\"Negative\");\n        } else {\n            System.out.println(\"Zero\");\n        }\n        sc.close();\n    }\n}</code></pre>",
+        "explanation": "Three cases: greater than 0, less than 0, or exactly 0. The if-else if-else chain handles all three. Exactly one block executes."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int age = 16;\nif (age >= 18) {\n    System.out.println(\"Can vote\");\n}\nSystem.out.println(\"Done\");</code></pre>",
+        "hint": "16 is not >= 18. The last line is outside the if.",
+        "answer": "<code>Done</code>",
+        "explanation": "<code>16 >= 18</code> is false, so \"Can vote\" is skipped. \"Done\" is outside the if block and always prints."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int x = 5;\nif (x > 2) {\n    System.out.println(\"A\");\n    if (x > 4) {\n        System.out.println(\"B\");\n    }\n    System.out.println(\"C\");\n}\nSystem.out.println(\"D\");</code></pre>",
+        "hint": "Trace the nesting. 'C' is inside the outer if but outside the inner if.",
+        "answer": "<code>A</code><br><code>B</code><br><code>C</code><br><code>D</code>",
+        "explanation": "<code>5 > 2</code> is true: print \"A\". Inner: <code>5 > 4</code> is true: print \"B\". \"C\" is inside the outer if but outside the inner if, so it prints. \"D\" is outside everything, always prints."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Kavya needs a program that takes age and nationality as input. Print 'Eligible' if age >= 18 AND nationality is 'Indian'. Otherwise, print 'Not Eligible'. Use String comparison correctly.",
+        "hint": "Use && to combine conditions. Use .equals() for String comparison.",
+        "answer": "<pre><code>import java.util.Scanner;\n\npublic class Eligibility {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter age: \");\n        int age = sc.nextInt();\n        sc.nextLine();\n        System.out.print(\"Enter nationality: \");\n        String nationality = sc.nextLine();\n        if (age >= 18 && nationality.equals(\"Indian\")) {\n            System.out.println(\"Eligible\");\n        } else {\n            System.out.println(\"Not Eligible\");\n        }\n        sc.close();\n    }\n}</code></pre>",
+        "explanation": "We use <code>&&</code> to require both conditions. We use <code>.equals()</code> for string comparison. We also handle the nextLine() bug by consuming the leftover newline after <code>nextInt()</code>."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int num = 15;\nif (num % 3 == 0 && num % 5 == 0) {\n    System.out.println(\"FizzBuzz\");\n} else if (num % 3 == 0) {\n    System.out.println(\"Fizz\");\n} else if (num % 5 == 0) {\n    System.out.println(\"Buzz\");\n} else {\n    System.out.println(num);\n}</code></pre>",
+        "hint": "Is 15 divisible by both 3 and 5?",
+        "answer": "<code>FizzBuzz</code>",
+        "explanation": "<code>15 % 3 == 0</code> is true and <code>15 % 5 == 0</code> is true. <code>true && true</code> = true. \"FizzBuzz\" prints. The rest are skipped."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>char grade = 'B';\nswitch (grade) {\n    case 'A':\n        System.out.println(\"Excellent\");\n        break;\n    case 'B':\n        System.out.println(\"Good\");\n        break;\n    case 'C':\n        System.out.println(\"Average\");\n        break;\n    default:\n        System.out.println(\"Invalid\");\n}</code></pre>",
+        "hint": "switch works with char type.",
+        "answer": "<code>Good</code>",
+        "explanation": "grade is 'B', which matches case 'B'. \"Good\" prints. The break prevents fall-through."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int x = 10;\nif (x > 5) {\n    x = x - 3;\n    if (x > 5) {\n        x = x - 3;\n        if (x > 5) {\n            System.out.println(\"Still big\");\n        } else {\n            System.out.println(\"Getting small\");\n        }\n    } else {\n        System.out.println(\"Small\");\n    }\n}\nSystem.out.println(\"x = \" + x);</code></pre>",
+        "hint": "Trace x: starts at 10, then 7, then 4.",
+        "answer": "<code>Getting small</code><br><code>x = 4</code>",
+        "explanation": "x = 10. <code>10 > 5</code>: true. x = 7. <code>7 > 5</code>: true. x = 4. <code>4 > 5</code>: false. Else: \"Getting small\". Final x = 4."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>String s = \"\";\nif (s != null && !s.isEmpty()) {\n    System.out.println(\"Has content\");\n} else {\n    System.out.println(\"Empty or null\");\n}\n\nString t = null;\nif (t != null && t.length() > 0) {\n    System.out.println(\"Has content\");\n} else {\n    System.out.println(\"Empty or null\");\n}</code></pre>",
+        "hint": "Short-circuit evaluation: if the left side of && is false, the right side is not evaluated.",
+        "answer": "<code>Empty or null</code><br><code>Empty or null</code>",
+        "explanation": "For s = \"\": <code>s != null</code> is true, <code>!s.isEmpty()</code> is false. <code>true && false</code> = false. Else runs. For t = null: <code>t != null</code> is false. Due to short-circuit evaluation, <code>t.length()</code> is NOT called (which would throw NullPointerException). Else runs."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int a = 10, b = 20, c = 30;\n\nif (a > b) {\n    System.out.println(\"X\");\n} else if (b > c) {\n    System.out.println(\"Y\");\n} else if (a + b == c) {\n    System.out.println(\"Z\");\n} else {\n    System.out.println(\"W\");\n}</code></pre>",
+        "hint": "Check each condition: 10 > 20? 20 > 30? 10 + 20 == 30?",
+        "answer": "<code>Z</code>",
+        "explanation": "<code>10 > 20</code> is false. <code>20 > 30</code> is false. <code>10 + 20 == 30</code> is true. \"Z\" prints."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program that reads three numbers and prints the largest using only if-else statements (no Math.max).",
+        "hint": "Compare each number with the other two using &&.",
+        "answer": "<pre><code>import java.util.Scanner;\n\npublic class Largest {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int a = sc.nextInt();\n        int b = sc.nextInt();\n        int c = sc.nextInt();\n        if (a >= b && a >= c) {\n            System.out.println(\"Largest: \" + a);\n        } else if (b >= a && b >= c) {\n            System.out.println(\"Largest: \" + b);\n        } else {\n            System.out.println(\"Largest: \" + c);\n        }\n        sc.close();\n    }\n}</code></pre>",
+        "explanation": "We check if <code>a</code> is >= both b and c. If not, check if <code>b</code> is >= both. If neither, <code>c</code> must be the largest."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int x = 5;\nint result = (x > 10) ? 100 : (x > 3) ? 50 : 10;\nSystem.out.println(result);</code></pre>",
+        "hint": "Nested ternary evaluates from right to left.",
+        "answer": "<code>50</code>",
+        "explanation": "Evaluated as: <code>(x > 10) ? 100 : ((x > 3) ? 50 : 10)</code>. <code>5 > 10</code> is false, go to else. <code>5 > 3</code> is true, so 50 is chosen."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>String s1 = \"Java\";\nString s2 = \"Ja\" + \"va\";\nString s3 = \"Ja\";\ns3 = s3 + \"va\";\n\nSystem.out.println(s1 == s2);\nSystem.out.println(s1 == s3);\nSystem.out.println(s1.equals(s3));</code></pre>",
+        "hint": "Compile-time constant expressions are interned. Runtime concatenation creates new objects.",
+        "answer": "<code>true</code><br><code>false</code><br><code>true</code>",
+        "explanation": "<code>s2 = \"Ja\" + \"va\"</code> is evaluated at compile time (constant folding) and interned, so <code>s1 == s2</code> is true. <code>s3</code> is concatenated at runtime, creating a new object, so <code>s1 == s3</code> is false. <code>.equals()</code> compares content, so it returns true."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int x = 0;\nif (x != 0) {\n    System.out.println(\"Non-zero\");\n} else {\n    System.out.println(\"Zero\");\n}</code></pre>",
+        "hint": "Is 0 not equal to 0?",
+        "answer": "<code>Zero</code>",
+        "explanation": "<code>0 != 0</code> is false, so the else block runs."
+      },
+      {
+        "id": "mx-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int a = 5, b = 10;\nint max = (a > b) ? a : b;\nint min = (a < b) ? a : b;\nSystem.out.println(\"Range: \" + min + \"-\" + max);</code></pre>",
+        "hint": "Ternary picks the larger and smaller values.",
+        "answer": "<code>Range: 5-10</code>",
+        "explanation": "max = 10 (since 5 > 10 is false, b is chosen). min = 5 (since 5 < 10 is true, a is chosen)."
+      },
+      {
+        "id": "mx-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int x = 5;\nswitch (x) {\n    default:\n        System.out.println(\"Default\");\n    case 5:\n        System.out.println(\"Five\");\n        break;\n    case 10:\n        System.out.println(\"Ten\");\n}</code></pre>",
+        "hint": "default does not have to be at the end. Case 5 matches.",
+        "answer": "<code>Five</code>",
+        "explanation": "Even though default is first, Java checks all cases before falling to default. Case 5 matches, prints \"Five\", and break exits. Default is only reached if no case matches."
+      },
+      {
+        "id": "mx-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int x = 3;\nswitch (x) {\n    default:\n        System.out.println(\"Default\");\n    case 5:\n        System.out.println(\"Five\");\n        break;\n    case 10:\n        System.out.println(\"Ten\");\n}</code></pre>",
+        "hint": "x = 3 does not match any case. default runs, but no break follows.",
+        "answer": "<code>Default</code><br><code>Five</code>",
+        "explanation": "No case matches x = 3, so default runs (prints \"Default\"). There is no break after default, so it falls through to case 5 (prints \"Five\"). The break after case 5 stops further fall-through."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which keyword starts a conditional statement in Java?",
+        "options": [
+          "when",
+          "check",
+          "if",
+          "condition"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>if</code> keyword starts a conditional statement in Java."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What must a condition in an if statement evaluate to?",
+        "options": [
+          "An int",
+          "A String",
+          "A boolean",
+          "Any type"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In Java, the condition in an <code>if</code> statement must be a boolean expression (true or false). Unlike C/C++, integers cannot be used as conditions in Java."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is the else keyword used for?",
+        "options": [
+          "To check another condition",
+          "To execute code when the if condition is false",
+          "To end the if block",
+          "To loop back to the if"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>else</code> block executes when the preceding <code>if</code> (and all <code>else if</code>) conditions are false."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the output of: System.out.println((10 > 5) ? \"Yes\" : \"No\");",
+        "options": [
+          "Yes",
+          "No",
+          "true",
+          "Error"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>10 > 5</code> is true, so the value before <code>:</code> is chosen: \"Yes\"."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which data types can be used in a switch statement (pre-Java 14)?",
+        "options": [
+          "Only int",
+          "int, char, String, enum",
+          "Any type including double",
+          "Only String"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> switch supports byte, short, int, char, String (Java 7+), and enum types. It does NOT support long, float, double, or boolean."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What happens if you omit break in a switch case?",
+        "options": [
+          "Compilation error",
+          "Only the matching case executes",
+          "Execution falls through to subsequent cases",
+          "The default case executes"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Without break, execution continues into the next case (fall-through) regardless of whether that case's value matches. This is often a bug but can be intentional for grouping."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "How should you compare String content in Java?",
+        "options": [
+          "Using ==",
+          "Using .equals()",
+          "Using .compare()",
+          "Using >"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>.equals()</code> compares the actual character content of strings. <code>==</code> compares references (memory addresses) and is unreliable for strings."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "In an if-else if-else chain, how many blocks can execute?",
+        "options": [
+          "All of them",
+          "At most one",
+          "At least one",
+          "Exactly one (when else is present)"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct</strong> when an else block is present. With else, exactly one block executes: either the first true if/else-if, or the else. Without else, at most one block executes."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the Java ternary operator syntax?",
+        "options": [
+          "value if condition else value",
+          "condition ? valueIfTrue : valueIfFalse",
+          "if condition then value1 else value2",
+          "condition -> value1, value2"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Java's ternary syntax is <code>condition ? valueIfTrue : valueIfFalse</code>. Option A is Python syntax. The others are not valid Java."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Can you use float or double in a switch statement?",
+        "options": [
+          "Yes, since Java 7",
+          "Yes, since Java 14",
+          "No, switch does not support floating-point types",
+          "Only double, not float"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> switch does not support float or double because floating-point comparison is imprecise. Only byte, short, int, char, String, and enum are allowed."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What does the enhanced switch (Java 14+) use instead of break?",
+        "options": [
+          "stop",
+          "Arrow syntax (->)",
+          "return",
+          "exit"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Enhanced switch uses arrow syntax (<code>-></code>) which inherently prevents fall-through. No <code>break</code> is needed. For multi-statement blocks, use <code>yield</code> to return a value."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the output of: System.out.println(\"hello\" == \"hello\");",
+        "options": [
+          "true",
+          "false",
+          "Error",
+          "Depends on JVM"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> String literals are interned (stored in a shared string pool). Both \"hello\" references point to the same pool object, so <code>==</code> returns true. However, this should not be relied upon in production code."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is short-circuit evaluation in the context of && and ||?",
+        "options": [
+          "Both operands are always evaluated",
+          "The right operand is skipped if the left determines the result",
+          "The operator returns an int instead of boolean",
+          "It only works inside if statements"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> With <code>&&</code>, if the left operand is false, the right is not evaluated (result is already false). With <code>||</code>, if the left is true, the right is not evaluated (result is already true). This is important for null checks: <code>s != null && s.length() > 0</code> is safe because <code>s.length()</code> is not called when s is null."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which of these is a compile-time error?",
+        "options": [
+          "if (true) {}",
+          "if (1) {}",
+          "if (x == 5) {}",
+          "if (x != null) {}"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In Java, the condition must be a boolean. <code>if (1)</code> passes an int, which is a compile-time error. In C/C++, this would be valid (non-zero is truthy), but Java is strict about boolean types."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What keyword is used to return a value from an enhanced switch block?",
+        "options": [
+          "return",
+          "break",
+          "yield",
+          "give"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In enhanced switch expressions, when a case body is a block (curly braces), the <code>yield</code> keyword returns the value. <code>return</code> would exit the enclosing method, not just the switch."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What is the output of: System.out.println(5 > 3);",
+        "options": [
+          "true",
+          "false",
+          "1",
+          "Error"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>5 > 3</code> evaluates to the boolean value <code>true</code>, which is printed."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "What is the difference between & and && in Java?",
+        "options": [
+          "They are identical",
+          "& always evaluates both operands; && short-circuits",
+          "&& always evaluates both operands; & short-circuits",
+          "& is for bitwise only; && is for logical only"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>&&</code> is the short-circuit AND: if the left is false, the right is not evaluated. <code>&</code> always evaluates both operands (no short-circuit). Both can be used as logical operators with booleans, but <code>&&</code> is preferred for conditional checks."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "What does the default case in switch do?",
+        "options": [
+          "Executes first",
+          "Executes when no case matches",
+          "Must always be present",
+          "Executes after every case"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>default</code> block executes when none of the case values match the switch expression. It is optional and analogous to the <code>else</code> in an if-else chain."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Voting Eligibility",
+        "difficulty": "Easy",
+        "description": "Write a program that takes a user's age and prints whether they are eligible to vote (age >= 18). If not, print how many years they need to wait.",
+        "sampleInput": "Enter your age: 15",
+        "sampleOutput": "You cannot vote yet. Wait 3 more years.",
+        "constraints": "Use if-else.",
+        "solution": "import java.util.Scanner;\n\npublic class VotingAge {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter your age: \");\n        int age = sc.nextInt();\n        if (age >= 18) {\n            System.out.println(\"You can vote!\");\n        } else {\n            System.out.println(\"You cannot vote yet. Wait \" + (18 - age) + \" more years.\");\n        }\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Ticket Price Calculator",
+        "difficulty": "Easy",
+        "description": "A cinema charges: Children (under 12): Rs 100, Teens (12-17): Rs 200, Adults (18-59): Rs 300, Seniors (60+): Rs 150. Take age as input and print the ticket price.",
+        "sampleInput": "Enter age: 14",
+        "sampleOutput": "Ticket price: Rs 200",
+        "constraints": "Use if-else if-else chain.",
+        "solution": "import java.util.Scanner;\n\npublic class TicketPrice {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter age: \");\n        int age = sc.nextInt();\n        int price;\n        if (age < 12) { price = 100; }\n        else if (age <= 17) { price = 200; }\n        else if (age <= 59) { price = 300; }\n        else { price = 150; }\n        System.out.println(\"Ticket price: Rs \" + price);\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Day of the Week (switch)",
+        "difficulty": "Medium",
+        "description": "Read a number (1-7) from the user and print the corresponding day of the week using a switch statement. Also print whether it is a weekday or weekend. Handle invalid input.",
+        "sampleInput": "Enter day number (1-7): 6",
+        "sampleOutput": "Saturday\nWeekend",
+        "constraints": "Use switch-case. Use fall-through for weekend grouping.",
+        "solution": "import java.util.Scanner;\n\npublic class DayOfWeek {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter day number (1-7): \");\n        int day = sc.nextInt();\n        String dayName;\n        switch (day) {\n            case 1: dayName = \"Monday\"; break;\n            case 2: dayName = \"Tuesday\"; break;\n            case 3: dayName = \"Wednesday\"; break;\n            case 4: dayName = \"Thursday\"; break;\n            case 5: dayName = \"Friday\"; break;\n            case 6: dayName = \"Saturday\"; break;\n            case 7: dayName = \"Sunday\"; break;\n            default: dayName = \"Invalid\"; break;\n        }\n        System.out.println(dayName);\n        switch (day) {\n            case 1: case 2: case 3: case 4: case 5:\n                System.out.println(\"Weekday\"); break;\n            case 6: case 7:\n                System.out.println(\"Weekend\"); break;\n            default:\n                System.out.println(\"Invalid day number\");\n        }\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Leap Year Checker",
+        "difficulty": "Medium",
+        "description": "Take a year and determine if it is a leap year. Rules: divisible by 4 AND not by 100, OR divisible by 400. Test with 2024, 1900, 2000.",
+        "sampleInput": "Enter year: 1900",
+        "sampleOutput": "1900 is NOT a leap year",
+        "constraints": "Use logical operators (&&, ||, !).",
+        "solution": "import java.util.Scanner;\n\npublic class LeapYear {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter year: \");\n        int year = sc.nextInt();\n        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {\n            System.out.println(year + \" is a leap year\");\n        } else {\n            System.out.println(year + \" is NOT a leap year\");\n        }\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Simple Calculator (switch)",
+        "difficulty": "Medium",
+        "description": "Build a calculator that takes two numbers and an operation (+, -, *, /) as a char. Use switch to perform the operation. Handle division by zero.",
+        "sampleInput": "Enter two numbers: 20 0\nEnter operation: /",
+        "sampleOutput": "Error: Division by zero!",
+        "constraints": "Use switch-case on char type.",
+        "solution": "import java.util.Scanner;\n\npublic class Calculator {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter two numbers: \");\n        double a = sc.nextDouble();\n        double b = sc.nextDouble();\n        sc.nextLine();\n        System.out.print(\"Enter operation (+, -, *, /): \");\n        char op = sc.nextLine().charAt(0);\n        switch (op) {\n            case '+': System.out.println(\"Result: \" + (a + b)); break;\n            case '-': System.out.println(\"Result: \" + (a - b)); break;\n            case '*': System.out.println(\"Result: \" + (a * b)); break;\n            case '/':\n                if (b == 0) { System.out.println(\"Error: Division by zero!\"); }\n                else { System.out.println(\"Result: \" + (a / b)); }\n                break;\n            default: System.out.println(\"Invalid operation!\");\n        }\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Triangle Type Identifier",
+        "difficulty": "Medium",
+        "description": "Take three sides and determine: (1) if they form a valid triangle, (2) if valid, whether it is equilateral, isosceles, or scalene.",
+        "sampleInput": "Enter three sides: 5 5 8",
+        "sampleOutput": "Valid triangle\nType: Isosceles",
+        "constraints": "Validate with triangle inequality theorem. Use nested if for type.",
+        "solution": "import java.util.Scanner;\n\npublic class TriangleType {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter three sides: \");\n        int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt();\n        if (a + b > c && b + c > a && a + c > b) {\n            System.out.println(\"Valid triangle\");\n            if (a == b && b == c) {\n                System.out.println(\"Type: Equilateral\");\n            } else if (a == b || b == c || a == c) {\n                System.out.println(\"Type: Isosceles\");\n            } else {\n                System.out.println(\"Type: Scalene\");\n            }\n        } else {\n            System.out.println(\"Not a valid triangle\");\n        }\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-7",
+        "title": "BMI Calculator with Health Category",
+        "difficulty": "Hard",
+        "description": "Take weight (kg) and height (m). Calculate BMI = weight / (height^2). Classify: Underweight (<18.5), Normal (18.5-24.9), Overweight (25-29.9), Obese (30+). Print BMI rounded to 1 decimal.",
+        "sampleInput": "Enter weight (kg): 70\nEnter height (m): 1.75",
+        "sampleOutput": "BMI: 22.9\nCategory: Normal weight",
+        "constraints": "Validate positive inputs. Use printf for formatting.",
+        "solution": "import java.util.Scanner;\n\npublic class BMICalc {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter weight (kg): \");\n        double weight = sc.nextDouble();\n        System.out.print(\"Enter height (m): \");\n        double height = sc.nextDouble();\n        if (weight <= 0 || height <= 0) {\n            System.out.println(\"Invalid input.\");\n        } else {\n            double bmi = weight / (height * height);\n            System.out.printf(\"BMI: %.1f%n\", bmi);\n            if (bmi < 18.5) {\n                System.out.println(\"Category: Underweight\");\n            } else if (bmi < 25) {\n                System.out.println(\"Category: Normal weight\");\n            } else if (bmi < 30) {\n                System.out.println(\"Category: Overweight\");\n            } else {\n                System.out.println(\"Category: Obese\");\n            }\n        }\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-8",
+        "title": "Electricity Bill Calculator",
+        "difficulty": "Hard",
+        "description": "Calculate electricity bill with tiered pricing: first 100 units at Rs 5/unit, next 100 (101-200) at Rs 7/unit, next 100 (201-300) at Rs 10/unit, above 300 at Rs 15/unit. Add Rs 100 fixed charge.",
+        "sampleInput": "Enter units consumed: 250",
+        "sampleOutput": "Units: 250\nTotal bill: Rs 1600",
+        "constraints": "Use if-else if for slab calculation.",
+        "solution": "import java.util.Scanner;\n\npublic class ElecBill {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter units consumed: \");\n        int units = sc.nextInt();\n        int bill;\n        if (units <= 100) {\n            bill = units * 5;\n        } else if (units <= 200) {\n            bill = 100 * 5 + (units - 100) * 7;\n        } else if (units <= 300) {\n            bill = 100 * 5 + 100 * 7 + (units - 200) * 10;\n        } else {\n            bill = 100 * 5 + 100 * 7 + 100 * 10 + (units - 300) * 15;\n        }\n        int total = bill + 100;\n        System.out.println(\"Units: \" + units);\n        System.out.println(\"Total bill: Rs \" + total);\n        sc.close();\n    }\n}"
+      }
+    ]
+  }
+}

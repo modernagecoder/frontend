@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Abstraction - Abstract Classes and Interfaces | Java | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="49+ practice questions on Abstraction - Abstract Classes and Interfaces in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="abstraction - abstract classes and interfaces practice, java questions, java practice problems, abstraction - abstract classes and interfaces exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/abstraction-and-interfaces/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/abstraction-and-interfaces/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/abstraction-and-interfaces/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/abstraction-and-interfaces/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/abstraction-and-interfaces/practice">
+    <meta property="og:title" content="Practice Questions - Abstraction - Abstract Classes and Interfaces | Java | Modern Age Coders">
+    <meta property="og:description" content="49+ practice questions on Abstraction - Abstract Classes and Interfaces in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/abstraction-and-interfaces/practice">
+    <meta name="twitter:title" content="Practice Questions - Abstraction - Abstract Classes and Interfaces | Java | Modern Age Coders">
+    <meta name="twitter:description" content="49+ practice questions on Abstraction - Abstract Classes and Interfaces in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Abstraction - Abstract Classes and Interfaces",
+    "description": "49+ practice questions on Abstraction - Abstract Classes and Interfaces in Java.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Abstraction - Abstract Classes and Interfaces"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/abstraction-and-interfaces/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Abstraction - Abstract Classes and Interfaces",
+        "item": "https://learn.modernagecoders.com/resources/java/abstraction-and-interfaces"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/java/abstraction-and-interfaces/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java/abstraction-and-interfaces">Abstraction - Abstract Classes and Interfaces</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 17</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">49 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Abstraction - Abstract Classes and Interfaces</h1>
+            <a href="/resources/java/abstraction-and-interfaces" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>abstract class Shape {
+    abstract double area();
+}
+class Circle extends Shape {
+    double r;
+    Circle(double r) { this.r = r; }
+    double area() { return 3.14 * r * r; }
+}
+public class Main {
+    public static void main(String[] args) {
+        Shape s = new Circle(5);
+        System.out.println(s.area());
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Circle implements area(). The object is Circle, reference is Shape.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>78.5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Does this code compile?<br><pre><code>abstract class Animal {
+    abstract void sound();
+}
+public class Main {
+    public static void main(String[] args) {
+        Animal a = new Animal();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Can you instantiate an abstract class?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2">No, it does not compile. <code>Compilation error: Animal is abstract; cannot be instantiated.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>interface Greetable {
+    void greet();
+}
+class HelloGreeter implements Greetable {
+    public void greet() {
+        System.out.println("Hello!");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Greetable g = new HelloGreeter();
+        g.greet();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">HelloGreeter implements the interface method. The reference is the interface type.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>Hello!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>interface Constants {
+    int VALUE = 100;
+}
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(Constants.VALUE);
+        // Constants.VALUE = 200;  // Would this work?
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Interface variables are public static final by default.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>100</code><br>The commented line would NOT work (compilation error: cannot assign a value to a final variable).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>abstract class Base {
+    void concrete() {
+        System.out.println("Concrete method");
+    }
+    abstract void abstractMethod();
+}
+class Derived extends Base {
+    void abstractMethod() {
+        System.out.println("Implemented!");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Base b = new Derived();
+        b.concrete();
+        b.abstractMethod();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Abstract classes can have concrete methods that are inherited.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>Concrete method</code><br><code>Implemented!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>abstract class Animal {
+    String name;
+    Animal(String name) {
+        this.name = name;
+        System.out.println("Animal: " + name);
+    }
+    abstract void sound();
+}
+class Cat extends Animal {
+    Cat(String name) {
+        super(name);
+        System.out.println("Cat: " + name);
+    }
+    void sound() { System.out.println(name + " says Meow"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Animal a = new Cat("Whiskers");
+        a.sound();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Abstract class constructors are called via super() from the subclass constructor.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Animal: Whiskers</code><br><code>Cat: Whiskers</code><br><code>Whiskers says Meow</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>interface A {
+    default void show() { System.out.println("A"); }
+}
+interface B {
+    default void show() { System.out.println("B"); }
+}
+class C implements A, B {
+    public void show() {
+        A.super.show();
+        B.super.show();
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        C c = new C();
+        c.show();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">When two interfaces have the same default method, the class must override it. Use InterfaceName.super to call a specific one.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>A</code><br><code>B</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>interface Calculable {
+    int calculate(int a, int b);
+    
+    default void printResult(int a, int b) {
+        System.out.println("Result: " + calculate(a, b));
+    }
+}
+class Adder implements Calculable {
+    public int calculate(int a, int b) { return a + b; }
+}
+class Multiplier implements Calculable {
+    public int calculate(int a, int b) { return a * b; }
+}
+public class Main {
+    public static void main(String[] args) {
+        Calculable c1 = new Adder();
+        Calculable c2 = new Multiplier();
+        c1.printResult(3, 4);
+        c2.printResult(3, 4);
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">The default method calls the abstract method, which is resolved polymorphically.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Result: 7</code><br><code>Result: 12</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>interface Util {
+    static int doubleIt(int n) { return n * 2; }
+}
+class MyClass implements Util { }
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(Util.doubleIt(5));
+        // MyClass m = new MyClass();
+        // m.doubleIt(5);  // Would this work?
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Static methods in interfaces are called on the interface, not on implementing classes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>10</code><br>The commented call would NOT compile. Static interface methods are not inherited.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>abstract class AbstractLogger {
+    abstract void log(String msg);
+    
+    void logWithTimestamp(String msg) {
+        System.out.print("[LOG] ");
+        log(msg);
+    }
+}
+class ConsoleLogger extends AbstractLogger {
+    void log(String msg) {
+        System.out.println(msg);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        AbstractLogger logger = new ConsoleLogger();
+        logger.log("Direct message");
+        logger.logWithTimestamp("Timestamped message");
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">logWithTimestamp is concrete and calls the abstract log() which is implemented in ConsoleLogger.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>Direct message</code><br><code>[LOG] Timestamped message</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>abstract class Base {
+    Base() {
+        System.out.println("Base init");
+        init();
+    }
+    abstract void init();
+}
+class Child extends Base {
+    int value = 5;
+    
+    Child() {
+        System.out.println("Child init, value=" + value);
+    }
+    
+    void init() {
+        System.out.println("init called, value=" + value);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Child c = new Child();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">The Base constructor calls init() before Child's fields are initialized.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>Base init</code><br><code>init called, value=0</code><br><code>Child init, value=5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Does this code compile? If yes, what is the output?<br><pre><code>interface X {
+    default void show() { System.out.println("X"); }
+}
+interface Y extends X {
+    default void show() { System.out.println("Y"); }
+}
+class Z implements X, Y { }
+public class Main {
+    public static void main(String[] args) {
+        Z z = new Z();
+        z.show();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Y extends X and overrides show(). Z implements both. Is there a conflict?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Y</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>@FunctionalInterface
+interface Transformer {
+    String transform(String s);
+}
+public class Main {
+    static String applyTwice(Transformer t, String s) {
+        return t.transform(t.transform(s));
+    }
+    public static void main(String[] args) {
+        Transformer upper = s -> s.toUpperCase();
+        Transformer addBang = s -> s + "!";
+
+        System.out.println(applyTwice(upper, "hello"));
+        System.out.println(applyTwice(addBang, "hi"));
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">applyTwice applies the transformer twice. Upper on 'hello' then upper again.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>HELLO</code><br><code>hi!!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>interface Drawable { void draw(); }
+interface Resizable { void resize(int factor); }
+
+abstract class UIComponent implements Drawable {
+    String id;
+    UIComponent(String id) { this.id = id; }
+}
+
+class Button extends UIComponent implements Resizable {
+    int size = 10;
+    Button(String id) { super(id); }
+    
+    public void draw() { System.out.println("Button[" + id + "] size=" + size); }
+    public void resize(int f) { size *= f; }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Button b = new Button("btn1");
+        b.draw();
+        b.resize(3);
+        b.draw();
+        
+        Drawable d = b;
+        d.draw();
+        
+        Resizable r = b;
+        r.resize(2);
+        d.draw();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">All references point to the same Button object. Changes through one affect all.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>Button[btn1] size=10</code><br><code>Button[btn1] size=30</code><br><code>Button[btn1] size=30</code><br><code>Button[btn1] size=60</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Does this code compile?<br><pre><code>abstract class A {
+    abstract void foo();
+}
+abstract class B extends A {
+    abstract void bar();
+}
+class C extends B {
+    void bar() { System.out.println("bar"); }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">C extends B which extends A. Does C implement ALL abstract methods?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">No, it does not compile. <code>C</code> must also implement <code>foo()</code> from <code>A</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>interface Processor {
+    default String process(String input) {
+        return input.trim();
+    }
+}
+class UpperProcessor implements Processor {
+    @Override
+    public String process(String input) {
+        String trimmed = Processor.super.process(input);
+        return trimmed.toUpperCase();
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Processor p = new UpperProcessor();
+        System.out.println(p.process("  hello world  "));
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">The overriding method calls the default method via Processor.super, then converts to uppercase.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>HELLO WORLD</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Can an abstract class have a constructor?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Think about how subclass constructors call super().</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">Yes, abstract classes can have constructors. They are called when a subclass is instantiated, via <code>super()</code>. The constructor initializes shared state (fields) for all subclasses.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the key difference between <code>extends</code> and <code>implements</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">One is for classes/abstract classes, the other for interfaces.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>extends</code> is used for class-to-class inheritance (including abstract classes). <code>implements</code> is used when a class implements an interface. A class can extend only one class but implement multiple interfaces.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>interface Speakable {
+    void speak();
+}
+class Person implements Speakable {
+    String name;
+    Person(String name) { this.name = name; }
+    public void speak() { System.out.println(name + " is speaking"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Speakable s = new Person("Arjun");
+        s.speak();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">A Person object is referenced by a Speakable interface variable.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>Arjun is speaking</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>abstract class Template {
+    final void execute() {
+        step1();
+        step2();
+        step3();
+    }
+    void step1() { System.out.println("Default step 1"); }
+    abstract void step2();
+    void step3() { System.out.println("Default step 3"); }
+}
+class MyProcess extends Template {
+    void step2() { System.out.println("Custom step 2"); }
+    void step3() { System.out.println("Custom step 3"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Template t = new MyProcess();
+        t.execute();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">This is the Template Method design pattern. execute() is final, step2 is abstract, step3 is overridden.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Default step 1</code><br><code>Custom step 2</code><br><code>Custom step 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is a marker interface? Give two examples.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Think about interfaces with zero methods.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">A marker interface has no methods or constants. It 'marks' a class as having a certain property. Examples: <code>java.io.Serializable</code> (marks objects that can be serialized) and <code>java.lang.Cloneable</code> (marks objects that can be cloned). The JVM or framework checks for the marker using <code>instanceof</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>interface Shape {
+    double area();
+    default String describe() {
+        return "Shape with area " + area();
+    }
+}
+class Square implements Shape {
+    double side;
+    Square(double s) { this.side = s; }
+    public double area() { return side * side; }
+}
+public class Main {
+    public static void main(String[] args) {
+        Shape s = new Square(4);
+        System.out.println(s.describe());
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">The default method calls the abstract area(), which is resolved polymorphically.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>Shape with area 16.0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why were default methods added to interfaces in Java 8?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Think about backward compatibility.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">Default methods were added to allow interface evolution without breaking existing implementations. Before Java 8, adding a new method to an interface would break all classes that implement it. With default methods, new methods can be added with a default implementation, and existing classes continue to work without changes.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>interface A {
+    default void show() {
+        System.out.println("A");
+    }
+}
+class B implements A {
+    public void show() {
+        System.out.println("B");
+    }
+}
+class C extends B {
+}
+public class Main {
+    public static void main(String[] args) {
+        A obj = new C();
+        obj.show();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">C extends B which overrides the default method from A. C inherits B's version.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>B</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>abstract class Account {
+    double balance;
+    Account(double balance) { this.balance = balance; }
+    
+    abstract double interestRate();
+    
+    double futureValue(int years) {
+        return balance * Math.pow(1 + interestRate(), years);
+    }
+}
+class SavingsAccount extends Account {
+    SavingsAccount(double bal) { super(bal); }
+    double interestRate() { return 0.04; }
+}
+class FixedDeposit extends Account {
+    FixedDeposit(double bal) { super(bal); }
+    double interestRate() { return 0.07; }
+}
+public class Main {
+    public static void main(String[] args) {
+        Account[] accounts = {
+            new SavingsAccount(10000),
+            new FixedDeposit(10000)
+        };
+        for (Account a : accounts) {
+            System.out.printf("%.2f at %.0f%% for 5 years = %.2f%n",
+                a.balance, a.interestRate()*100, a.futureValue(5));
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">futureValue uses interestRate() which is abstract and resolved polymorphically.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>10000.00 at 4% for 5 years = 12166.53</code><br><code>10000.00 at 7% for 5 years = 14025.52</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the diamond problem and how does Java solve it?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Consider what happens when two parent classes have the same method.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">The diamond problem occurs when a class inherits from two classes that share a common ancestor, creating ambiguity about which version of a method to use. Java avoids this by disallowing multiple class inheritance (single extends only). For interfaces with conflicting default methods, the implementing class MUST override the conflicting method to resolve the ambiguity.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>interface Validator {
+    boolean validate(String input);
+    
+    default Validator and(Validator other) {
+        return input -> this.validate(input) && other.validate(input);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Validator notEmpty = s -> !s.isEmpty();
+        Validator shortEnough = s -> s.length() <= 10;
+        Validator combined = notEmpty.and(shortEnough);
+        
+        System.out.println(combined.validate(""));
+        System.out.println(combined.validate("Hello"));
+        System.out.println(combined.validate("This is a very long string"));
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">The and() default method returns a new Validator that requires both conditions to be true.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>false</code><br><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Can an abstract class implement an interface without providing method implementations?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Abstract classes can leave methods unimplemented.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">Yes. An abstract class can implement an interface without providing implementations for the interface's abstract methods. The abstract class simply inherits those methods as abstract. The first concrete (non-abstract) subclass must implement all remaining abstract methods.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which keyword is used to define an abstract class in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> virtual</li><li><span class="mcq-option-label">B.</span> abstract</li><li><span class="mcq-option-label">C.</span> interface</li><li><span class="mcq-option-label">D.</span> abstraction</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>abstract</code> keyword is placed before the <code>class</code> keyword: <code>abstract class MyClass { }</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which is true about interface variables?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They can be changed at runtime</li><li><span class="mcq-option-label">B.</span> They are public static final by default</li><li><span class="mcq-option-label">C.</span> They can be private</li><li><span class="mcq-option-label">D.</span> They are instance variables</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> All variables in an interface are implicitly <code>public static final</code>. They are constants that must be initialized at declaration and cannot be changed.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">How many classes can a Java class extend?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Zero</li><li><span class="mcq-option-label">B.</span> One</li><li><span class="mcq-option-label">C.</span> Two</li><li><span class="mcq-option-label">D.</span> Unlimited</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Java supports single inheritance for classes. A class can extend at most one other class. For multiple inheritance of type, use interfaces.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Can an abstract class have concrete (non-abstract) methods?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, all methods must be abstract</li><li><span class="mcq-option-label">B.</span> Yes, it can mix abstract and concrete methods</li><li><span class="mcq-option-label">C.</span> Only static methods can be concrete</li><li><span class="mcq-option-label">D.</span> Only if it implements an interface</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> Abstract classes can have both abstract methods (no body) and concrete methods (with body). This is one of their main advantages over interfaces (before Java 8).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which keyword does a class use to implement an interface?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> extends</li><li><span class="mcq-option-label">B.</span> implements</li><li><span class="mcq-option-label">C.</span> inherits</li><li><span class="mcq-option-label">D.</span> uses</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> Classes use <code>implements</code> for interfaces: <code>class Dog implements Pet { }</code>. <code>extends</code> is used for class-to-class or interface-to-interface inheritance.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is a functional interface?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> An interface with no methods</li><li><span class="mcq-option-label">B.</span> An interface with exactly one abstract method</li><li><span class="mcq-option-label">C.</span> An interface with only default methods</li><li><span class="mcq-option-label">D.</span> An interface that extends Function</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> A functional interface has exactly one abstract method. It can have any number of default and static methods. It can be used with lambda expressions.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">When should you use an abstract class over an interface?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> When you need multiple inheritance</li><li><span class="mcq-option-label">B.</span> When you need to define a contract</li><li><span class="mcq-option-label">C.</span> When subclasses share common state (fields) and partial implementation</li><li><span class="mcq-option-label">D.</span> When you want to use lambda expressions</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> Abstract classes are ideal when subclasses share instance variables and some common behavior. Interfaces cannot have instance variables, making abstract classes the better choice for shared state.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What happens if a class implements two interfaces that both have the same default method?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The class inherits both versions</li><li><span class="mcq-option-label">B.</span> Compilation error unless the class overrides the method</li><li><span class="mcq-option-label">C.</span> The first interface&#39;s method wins</li><li><span class="mcq-option-label">D.</span> Runtime exception</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> If two interfaces provide conflicting default methods, the implementing class must override the method to resolve the ambiguity. The class can call <code>InterfaceName.super.method()</code> to delegate.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Can an interface extend another interface?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, only classes can extend</li><li><span class="mcq-option-label">B.</span> Yes, using extends</li><li><span class="mcq-option-label">C.</span> Yes, using implements</li><li><span class="mcq-option-label">D.</span> Only if the parent is a functional interface</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> An interface can extend one or more interfaces using <code>extends</code>: <code>interface ReadWrite extends Readable, Writable { }</code>. Note: classes implement interfaces, but interfaces extend interfaces.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Are static methods in interfaces inherited by implementing classes?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, like default methods</li><li><span class="mcq-option-label">B.</span> No, they must be called on the interface itself</li><li><span class="mcq-option-label">C.</span> Yes, but only if public</li><li><span class="mcq-option-label">D.</span> Only in Java 9+</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Static methods in interfaces are not inherited by implementing classes. They can only be called using the interface name: <code>MyInterface.staticMethod()</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Which of the following is NOT a valid functional interface?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> An interface with one abstract method and two default methods</li><li><span class="mcq-option-label">B.</span> An interface with one abstract method and one static method</li><li><span class="mcq-option-label">C.</span> An interface with two abstract methods</li><li><span class="mcq-option-label">D.</span> An interface extending another functional interface without adding abstract methods</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> A functional interface must have exactly ONE abstract method. Two abstract methods disqualify it. Options A, B, and D all have exactly one abstract method.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the purpose of <code>@FunctionalInterface</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It makes the interface faster at runtime</li><li><span class="mcq-option-label">B.</span> It is required for lambda expressions to work</li><li><span class="mcq-option-label">C.</span> It is a compile-time check ensuring exactly one abstract method</li><li><span class="mcq-option-label">D.</span> It automatically generates lambda implementations</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>@FunctionalInterface</code> is optional but causes a compile-time error if the interface has more or fewer than one abstract method. Lambda expressions work with any functional interface, even without the annotation.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Can an abstract class have <code>final</code> methods?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, abstract and final are incompatible</li><li><span class="mcq-option-label">B.</span> Yes, the class can be abstract but individual methods can be final</li><li><span class="mcq-option-label">C.</span> Only static methods can be final</li><li><span class="mcq-option-label">D.</span> Only if the class is also final</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> An abstract class can have final methods (methods that cannot be overridden by subclasses). The class itself cannot be both abstract and final (that would be contradictory), but individual methods can be final.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the Serializable interface an example of?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A functional interface</li><li><span class="mcq-option-label">B.</span> A marker interface</li><li><span class="mcq-option-label">C.</span> An abstract interface</li><li><span class="mcq-option-label">D.</span> A default interface</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>Serializable</code> is a marker interface (no methods). It marks a class as serializable. The JVM checks for this marker when serialization is attempted.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">In Java 8+, which features can interfaces have that they could NOT have before?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Constructors and instance variables</li><li><span class="mcq-option-label">B.</span> Default methods and static methods</li><li><span class="mcq-option-label">C.</span> Private methods and protected methods</li><li><span class="mcq-option-label">D.</span> Abstract methods and constants</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Java 8 added default methods (with body, inherited by implementations) and static methods (called on the interface). Java 9 added private methods. Constructors and instance variables are still not allowed.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What happens if a concrete class extends an abstract class but does not implement all abstract methods?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The unimplemented methods return null</li><li><span class="mcq-option-label">B.</span> Runtime error</li><li><span class="mcq-option-label">C.</span> Compilation error</li><li><span class="mcq-option-label">D.</span> The methods are ignored</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: C</strong><br><strong>C is correct.</strong> A concrete class must implement all abstract methods from its parent. Failure to do so results in a compilation error. Alternatively, the class can declare itself abstract.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Shape Hierarchy with Abstract Class</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create an abstract class Shape with abstract methods area() and perimeter(). Implement Circle, Rectangle, and Triangle. Print each shape's area and perimeter using a Shape array.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Circle r=5, Rectangle 4x6, Triangle 3-4-5</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Circle: area=78.54, perimeter=31.42
+Rectangle: area=24.00, perimeter=20.00
+Triangle: area=6.00, perimeter=12.00</div>
+                </div><div class="challenge-constraints">Use abstract class and @Override. Calculate triangle area using Heron&#39;s formula or base*height/2.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">abstract class Shape {
+    abstract double area();
+    abstract double perimeter();
+    abstract String name();
+}
+
+class Circle extends Shape {
+    double r;
+    Circle(double r) { this.r = r; }
+    @Override double area() { return Math.PI * r * r; }
+    @Override double perimeter() { return 2 * Math.PI * r; }
+    @Override String name() { return &quot;Circle&quot;; }
+}
+
+class Rectangle extends Shape {
+    double w, h;
+    Rectangle(double w, double h) { this.w = w; this.h = h; }
+    @Override double area() { return w * h; }
+    @Override double perimeter() { return 2 * (w + h); }
+    @Override String name() { return &quot;Rectangle&quot;; }
+}
+
+class Triangle extends Shape {
+    double a, b, c;
+    Triangle(double a, double b, double c) { this.a = a; this.b = b; this.c = c; }
+    @Override double area() {
+        double s = (a + b + c) / 2;
+        return Math.sqrt(s * (s - a) * (s - b) * (s - c));
+    }
+    @Override double perimeter() { return a + b + c; }
+    @Override String name() { return &quot;Triangle&quot;; }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Shape[] shapes = { new Circle(5), new Rectangle(4, 6), new Triangle(3, 4, 5) };
+        for (Shape s : shapes) {
+            System.out.printf(&quot;%s: area=%.2f, perimeter=%.2f%n&quot;, s.name(), s.area(), s.perimeter());
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Payment Gateway with Interfaces</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create an interface PaymentGateway with methods processPayment(double amount) and getProviderName(). Add a default method receipt(double amount) that prints a formatted receipt. Implement CreditCardPayment, UPIPayment, and WalletPayment. Process all payments through a PaymentGateway array.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Amount = 2500.0</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Processing 2500.0 via Credit Card (2% fee)
+--- Receipt from Credit Card: 2550.0 ---
+Processing 2500.0 via UPI (no fee)
+--- Receipt from UPI: 2500.0 ---
+Processing 2500.0 via Digital Wallet
+--- Receipt from Digital Wallet: 2500.0 ---</div>
+                </div><div class="challenge-constraints">Use interface with default method. Use polymorphism with interface array.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">interface PaymentGateway {
+    void processPayment(double amount);
+    String getProviderName();
+    default void receipt(double amount) {
+        System.out.println(&quot;--- Receipt from &quot; + getProviderName() + &quot;: &quot; + amount + &quot; ---&quot;);
+    }
+}
+
+class CreditCardPayment implements PaymentGateway {
+    public void processPayment(double amount) {
+        double fee = amount * 0.02;
+        System.out.println(&quot;Processing &quot; + amount + &quot; via Credit Card (2% fee)&quot;);
+        receipt(amount + fee);
+    }
+    public String getProviderName() { return &quot;Credit Card&quot;; }
+}
+
+class UPIPayment implements PaymentGateway {
+    public void processPayment(double amount) {
+        System.out.println(&quot;Processing &quot; + amount + &quot; via UPI (no fee)&quot;);
+        receipt(amount);
+    }
+    public String getProviderName() { return &quot;UPI&quot;; }
+}
+
+class WalletPayment implements PaymentGateway {
+    public void processPayment(double amount) {
+        System.out.println(&quot;Processing &quot; + amount + &quot; via Digital Wallet&quot;);
+        receipt(amount);
+    }
+    public String getProviderName() { return &quot;Digital Wallet&quot;; }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        PaymentGateway[] gateways = { new CreditCardPayment(), new UPIPayment(), new WalletPayment() };
+        for (PaymentGateway pg : gateways) {
+            pg.processPayment(2500.0);
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Functional Interface Calculator</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a @FunctionalInterface called Operation with method int apply(int a, int b). Use lambda expressions to create add, subtract, multiply, divide, and modulus operations. Write a method compute(int a, int b, Operation op) that applies the operation and prints the result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">a=10, b=3</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Add: 13
+Subtract: 7
+Multiply: 30
+Divide: 3
+Modulus: 1</div>
+                </div><div class="challenge-constraints">Use @FunctionalInterface and lambda expressions.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">@FunctionalInterface
+interface Operation {
+    int apply(int a, int b);
+}
+
+public class Main {
+    static void compute(String label, int a, int b, Operation op) {
+        System.out.println(label + &quot;: &quot; + op.apply(a, b));
+    }
+    public static void main(String[] args) {
+        compute(&quot;Add&quot;, 10, 3, (a, b) -&gt; a + b);
+        compute(&quot;Subtract&quot;, 10, 3, (a, b) -&gt; a - b);
+        compute(&quot;Multiply&quot;, 10, 3, (a, b) -&gt; a * b);
+        compute(&quot;Divide&quot;, 10, 3, (a, b) -&gt; a / b);
+        compute(&quot;Modulus&quot;, 10, 3, (a, b) -&gt; a % b);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Database Abstraction Layer</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create an abstract class Database with abstract methods connect(), disconnect(), and query(String sql). Add a concrete method executeAndClose(String sql) that calls connect, query, and disconnect in sequence. Implement MySQLDatabase and MongoDBDatabase. Test with the abstract reference.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">SQL: SELECT * FROM users</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Connecting to MySQL on port 3306
+MySQL executing: SELECT * FROM users
+Disconnecting from MySQL
+---
+Connecting to MongoDB on port 27017
+MongoDB executing: SELECT * FROM users
+Disconnecting from MongoDB</div>
+                </div><div class="challenge-constraints">Use abstract class with Template Method pattern.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">abstract class Database {
+    abstract void connect();
+    abstract void disconnect();
+    abstract void query(String sql);
+    
+    void executeAndClose(String sql) {
+        connect();
+        query(sql);
+        disconnect();
+    }
+}
+
+class MySQLDatabase extends Database {
+    void connect() { System.out.println(&quot;Connecting to MySQL on port 3306&quot;); }
+    void disconnect() { System.out.println(&quot;Disconnecting from MySQL&quot;); }
+    void query(String sql) { System.out.println(&quot;MySQL executing: &quot; + sql); }
+}
+
+class MongoDBDatabase extends Database {
+    void connect() { System.out.println(&quot;Connecting to MongoDB on port 27017&quot;); }
+    void disconnect() { System.out.println(&quot;Disconnecting from MongoDB&quot;); }
+    void query(String sql) { System.out.println(&quot;MongoDB executing: &quot; + sql); }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Database[] dbs = { new MySQLDatabase(), new MongoDBDatabase() };
+        for (Database db : dbs) {
+            db.executeAndClose(&quot;SELECT * FROM users&quot;);
+            System.out.println(&quot;---&quot;);
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Multi-Interface Robot</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create interfaces Walkable (walk()), Talkable (talk()), and Flyable (fly()). Create classes: HumanoidRobot (implements Walkable, Talkable), DroneRobot (implements Flyable), and AdvancedRobot (implements all three). Write a method that accepts Object and uses instanceof to call appropriate methods.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">HumanoidRobot: Walking... Talking...
+DroneRobot: Flying...
+AdvancedRobot: Walking... Talking... Flying...</div>
+                </div><div class="challenge-constraints">Use instanceof for runtime type checking. Demonstrate multiple interface implementation.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">interface Walkable { void walk(); }
+interface Talkable { void talk(); }
+interface Flyable { void fly(); }
+
+class HumanoidRobot implements Walkable, Talkable {
+    public void walk() { System.out.print(&quot;Walking... &quot;); }
+    public void talk() { System.out.print(&quot;Talking... &quot;); }
+}
+
+class DroneRobot implements Flyable {
+    public void fly() { System.out.print(&quot;Flying... &quot;); }
+}
+
+class AdvancedRobot implements Walkable, Talkable, Flyable {
+    public void walk() { System.out.print(&quot;Walking... &quot;); }
+    public void talk() { System.out.print(&quot;Talking... &quot;); }
+    public void fly() { System.out.print(&quot;Flying... &quot;); }
+}
+
+public class Main {
+    static void demonstrate(Object robot, String label) {
+        System.out.print(label + &quot;: &quot;);
+        if (robot instanceof Walkable) ((Walkable) robot).walk();
+        if (robot instanceof Talkable) ((Talkable) robot).talk();
+        if (robot instanceof Flyable) ((Flyable) robot).fly();
+        System.out.println();
+    }
+    public static void main(String[] args) {
+        demonstrate(new HumanoidRobot(), &quot;HumanoidRobot&quot;);
+        demonstrate(new DroneRobot(), &quot;DroneRobot&quot;);
+        demonstrate(new AdvancedRobot(), &quot;AdvancedRobot&quot;);
+    }
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/java/polymorphism-in-java/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Polymorphism in Java</span>
+        </a>
+            <a href="/resources/java/exception-handling/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Exception Handling in Java</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/java/abstraction-and-interfaces" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

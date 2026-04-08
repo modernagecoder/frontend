@@ -1,0 +1,740 @@
+{
+  "title": "Loops in Java (for, while, do-while)",
+  "slug": "loops-in-java",
+  "language": "java",
+  "chapter": 8,
+  "difficulty": "Beginner",
+  "readingTime": "28 min",
+  "lastUpdated": "2026-04-08",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "Loops in Java - for, while, do-while with Examples | Modern Age Coders",
+    "description": "Master Java loops including for, while, do-while, enhanced for-each, nested loops, and common loop patterns. Includes 62 practice questions with output prediction and coding challenges.",
+    "keywords": "java for loop, java while loop, java do while loop, java loops tutorial, java for each loop, java nested loops, java loop examples, java infinite loop"
+  },
+  "content": {
+    "what": "<h2>What Are Loops?</h2><p>A <strong>loop</strong> is a control flow structure that repeats a block of code multiple times. Instead of writing the same code 100 times, you write it once inside a loop and let the loop execute it repeatedly until a specified condition becomes false.</p><p>Consider printing numbers 1 to 1000. Without loops, you would need 1000 print statements. With a loop, you need 3 lines of code. Loops are one of the three fundamental building blocks of all programs (alongside sequence and conditional statements).</p><p>Java provides four types of loops:</p><ol><li><strong>for loop</strong> -- when you know the number of iterations in advance</li><li><strong>while loop</strong> -- when you want to repeat while a condition is true (condition checked before each iteration)</li><li><strong>do-while loop</strong> -- like while, but the body executes at least once (condition checked after each iteration)</li><li><strong>enhanced for-each loop</strong> -- for iterating over arrays and collections without an index</li></ol>",
+    "why": "<h2>Why Are Loops Essential?</h2><h3>1. Eliminating Repetition</h3><p>Any task that involves repetition requires loops. Printing a multiplication table, processing each element of an array, reading lines from a file, handling multiple user requests in a server -- all are impossible (or impractical) without loops. They are the foundation of automation in programming.</p><h3>2. Processing Collections of Data</h3><p>Real programs work with collections: arrays, lists, database rows, API responses. Loops let you iterate over each element, apply transformations, filter results, compute aggregates (sum, average, min, max), and search for specific values. Without loops, you cannot work with data of variable size.</p><h3>3. Algorithm Implementation</h3><p>Almost every algorithm uses loops. Searching (linear search, binary search), sorting (bubble sort, selection sort), matrix operations, string processing, mathematical computations (factorial, Fibonacci, prime checking) -- all require loops. For placement preparation, mastering loops is non-negotiable.</p><h3>4. User Interaction</h3><p>Interactive programs often use loops to keep running until the user decides to exit. A menu-driven program shows options, processes the user's choice, and repeats. Without loops, the program would end after handling one request.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The for Loop</h3><p>The <code>for</code> loop is the most commonly used loop when you know (or can calculate) the number of iterations beforehand. It has three parts in the header: initialization, condition, and update.</p><pre><code>for (initialization; condition; update) {\n    // body\n}</code></pre><p>Execution flow:</p><ol><li><strong>Initialization</strong> executes once, at the very beginning.</li><li><strong>Condition</strong> is checked before each iteration. If true, the body executes. If false, the loop ends.</li><li><strong>Update</strong> executes after each iteration of the body.</li></ol><pre><code>for (int i = 1; i <= 5; i++) {\n    System.out.println(\"Iteration: \" + i);\n}</code></pre><p>This prints \"Iteration: 1\" through \"Iteration: 5\". The variable <code>i</code> is declared inside the loop and is not accessible outside it (block scope).</p><h4>Variations of for Loop</h4><ul><li><strong>Counting down:</strong> <code>for (int i = 10; i >= 1; i--)</code></li><li><strong>Step by 2:</strong> <code>for (int i = 0; i <= 20; i += 2)</code></li><li><strong>Multiple variables:</strong> <code>for (int i = 0, j = 10; i < j; i++, j--)</code></li><li><strong>Empty parts:</strong> Any of the three parts can be omitted: <code>for (;;)</code> is an infinite loop.</li></ul><h3>2. The while Loop</h3><p>The <code>while</code> loop repeats as long as its condition is true. The condition is checked <strong>before</strong> each iteration, so if the condition is false from the start, the body never executes.</p><pre><code>while (condition) {\n    // body\n}</code></pre><p>Use <code>while</code> when you do not know the number of iterations in advance, such as reading input until the user types \"quit\" or searching for a value in a data stream.</p><pre><code>int count = 1;\nwhile (count <= 5) {\n    System.out.println(\"Count: \" + count);\n    count++;\n}</code></pre><p>If you forget <code>count++</code>, the condition <code>count <= 5</code> is always true, causing an <strong>infinite loop</strong>. The program hangs and must be terminated manually.</p><h3>3. The do-while Loop</h3><p>The <code>do-while</code> loop is similar to <code>while</code>, but the condition is checked <strong>after</strong> the body executes. This guarantees that the body runs at least once, even if the condition is false from the start.</p><pre><code>do {\n    // body\n} while (condition);</code></pre><p>Note the semicolon after <code>while(condition);</code> -- it is required.</p><pre><code>int num = 10;\ndo {\n    System.out.println(\"num = \" + num);\n    num++;\n} while (num <= 5);</code></pre><p>Even though <code>10 <= 5</code> is false, the body executes once and prints \"num = 10\". The condition is checked after the first execution.</p><h4>When to Use do-while</h4><p>Use do-while when the body must execute at least once. Common use cases: menu-driven programs (show the menu at least once), input validation (ask for input at least once), and game loops (play at least one round).</p><h3>4. The Enhanced for-each Loop</h3><p>The for-each loop (introduced in Java 5) provides a cleaner way to iterate over arrays and collections without managing an index variable.</p><pre><code>for (type variable : arrayOrCollection) {\n    // body\n}</code></pre><pre><code>int[] nums = {10, 20, 30, 40, 50};\nfor (int n : nums) {\n    System.out.println(n);\n}</code></pre><p>The variable <code>n</code> takes each element's value in order. You cannot modify the array through <code>n</code> (it is a copy, not a reference to the element). You also cannot access the index directly. For index-based operations, use a regular for loop.</p><h3>5. Infinite Loops</h3><p>An infinite loop runs forever (or until externally stopped). These are sometimes intentional (server event loops) but usually bugs (forgot to update the loop variable).</p><pre><code>// Intentional infinite loops:\nfor (;;) { /* ... break when done ... */ }\nwhile (true) { /* ... break when done ... */ }</code></pre><p>Use <code>break</code> inside an infinite loop to exit when a condition is met.</p><h3>6. Nested Loops</h3><p>A loop inside another loop is called a <strong>nested loop</strong>. The inner loop runs completely for each iteration of the outer loop. If the outer loop runs N times and the inner loop runs M times, the innermost body executes N * M times.</p><pre><code>for (int i = 1; i <= 3; i++) {\n    for (int j = 1; j <= 3; j++) {\n        System.out.print(i + \",\" + j + \"  \");\n    }\n    System.out.println();\n}</code></pre><p>This produces a 3x3 grid. Nested loops are used for matrix operations, pattern printing, and generating combinations.</p><h3>7. Common Loop Patterns</h3><h4>Sum / Accumulator Pattern</h4><pre><code>int sum = 0;\nfor (int i = 1; i <= 100; i++) {\n    sum += i;\n}\nSystem.out.println(\"Sum: \" + sum); // 5050</code></pre><h4>Counting Pattern</h4><pre><code>int count = 0;\nfor (int i = 1; i <= 100; i++) {\n    if (i % 2 == 0) count++;\n}\nSystem.out.println(\"Even numbers: \" + count); // 50</code></pre><h4>Search Pattern</h4><pre><code>int[] arr = {5, 12, 8, 3, 17};\nint target = 8;\nboolean found = false;\nfor (int i = 0; i < arr.length; i++) {\n    if (arr[i] == target) {\n        System.out.println(\"Found at index \" + i);\n        found = true;\n        break;\n    }\n}\nif (!found) System.out.println(\"Not found\");</code></pre><h4>Min/Max Pattern</h4><pre><code>int[] arr = {5, 12, 8, 3, 17};\nint min = arr[0], max = arr[0];\nfor (int i = 1; i < arr.length; i++) {\n    if (arr[i] < min) min = arr[i];\n    if (arr[i] > max) max = arr[i];\n}\nSystem.out.println(\"Min: \" + min + \", Max: \" + max);</code></pre>",
+    "codeExamples": [
+      {
+        "title": "for Loop: Multiplication Table",
+        "code": "import java.util.Scanner;\n\npublic class MultiTable {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int num = sc.nextInt();\n\n        for (int i = 1; i <= 10; i++) {\n            System.out.println(num + \" x \" + i + \" = \" + (num * i));\n        }\n\n        sc.close();\n    }\n}",
+        "language": "java",
+        "explanation": "The for loop runs from i = 1 to i = 10. Each iteration prints one line of the multiplication table. If the user enters 7, it prints \"7 x 1 = 7\" through \"7 x 10 = 70\".",
+        "output": "Enter a number: 7\n7 x 1 = 7\n7 x 2 = 14\n7 x 3 = 21\n7 x 4 = 28\n7 x 5 = 35\n7 x 6 = 42\n7 x 7 = 49\n7 x 8 = 56\n7 x 9 = 63\n7 x 10 = 70"
+      },
+      {
+        "title": "while Loop: Sum Until Sentinel",
+        "code": "import java.util.Scanner;\n\npublic class SumUntilZero {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int sum = 0;\n        int count = 0;\n\n        System.out.println(\"Enter numbers (0 to stop):\");\n        int num = sc.nextInt();\n\n        while (num != 0) {\n            sum += num;\n            count++;\n            num = sc.nextInt();\n        }\n\n        System.out.println(\"Sum: \" + sum);\n        System.out.println(\"Count: \" + count);\n        if (count > 0) {\n            System.out.println(\"Average: \" + (double) sum / count);\n        }\n\n        sc.close();\n    }\n}",
+        "language": "java",
+        "explanation": "This uses a <strong>sentinel value</strong> (0) to end input. The while loop runs as long as the entered number is not 0. We do not know in advance how many numbers the user will enter, making while the right choice over for.",
+        "output": "Enter numbers (0 to stop):\n10\n20\n30\n0\nSum: 60\nCount: 3\nAverage: 20.0"
+      },
+      {
+        "title": "do-while Loop: Menu-Driven Program",
+        "code": "import java.util.Scanner;\n\npublic class MenuDemo {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int choice;\n\n        do {\n            System.out.println(\"\\n--- Menu ---\");\n            System.out.println(\"1. Say Hello\");\n            System.out.println(\"2. Say Goodbye\");\n            System.out.println(\"3. Exit\");\n            System.out.print(\"Choice: \");\n            choice = sc.nextInt();\n\n            switch (choice) {\n                case 1: System.out.println(\"Hello!\"); break;\n                case 2: System.out.println(\"Goodbye!\"); break;\n                case 3: System.out.println(\"Exiting...\"); break;\n                default: System.out.println(\"Invalid choice.\");\n            }\n        } while (choice != 3);\n\n        sc.close();\n    }\n}",
+        "language": "java",
+        "explanation": "The do-while loop guarantees the menu displays at least once. The loop continues until the user enters 3 (Exit). This is the classic use case for do-while: show the menu, get input, process it, and repeat.",
+        "output": "--- Menu ---\n1. Say Hello\n2. Say Goodbye\n3. Exit\nChoice: 1\nHello!\n\n--- Menu ---\n1. Say Hello\n2. Say Goodbye\n3. Exit\nChoice: 3\nExiting..."
+      },
+      {
+        "title": "Enhanced for-each Loop",
+        "code": "public class ForEachDemo {\n    public static void main(String[] args) {\n        String[] names = {\"Aarav\", \"Neha\", \"Rohan\", \"Priya\", \"Karan\"};\n\n        System.out.println(\"Students:\");\n        for (String name : names) {\n            System.out.println(\"  - \" + name);\n        }\n\n        // Sum using for-each\n        int[] marks = {85, 92, 78, 95, 88};\n        int total = 0;\n        for (int m : marks) {\n            total += m;\n        }\n        System.out.println(\"Total marks: \" + total);\n        System.out.println(\"Average: \" + (double) total / marks.length);\n    }\n}",
+        "language": "java",
+        "explanation": "The for-each loop iterates over each element without needing an index variable. For the names array, <code>name</code> takes each string in order. For the marks array, <code>m</code> takes each integer value. The for-each loop is cleaner when you do not need the index, but use a regular for loop when you need index-based access.",
+        "output": "Students:\n  - Aarav\n  - Neha\n  - Rohan\n  - Priya\n  - Karan\nTotal marks: 438\nAverage: 87.6"
+      },
+      {
+        "title": "Nested Loops: Multiplication Grid",
+        "code": "public class MultiGrid {\n    public static void main(String[] args) {\n        System.out.println(\"Multiplication Table (1-5):\");\n        System.out.print(\"\\t\");\n        for (int i = 1; i <= 5; i++) {\n            System.out.print(i + \"\\t\");\n        }\n        System.out.println();\n        System.out.println(\"-------------------------------\");\n\n        for (int i = 1; i <= 5; i++) {\n            System.out.print(i + \" |\\t\");\n            for (int j = 1; j <= 5; j++) {\n                System.out.print((i * j) + \"\\t\");\n            }\n            System.out.println();\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "The outer loop controls the row (i = 1 to 5). For each row, the inner loop prints 5 products (i * j for j = 1 to 5). The inner loop runs 5 times for each of the 5 outer iterations, producing 25 total products in a 5x5 grid.",
+        "output": "Multiplication Table (1-5):\n\t1\t2\t3\t4\t5\n-------------------------------\n1 |\t1\t2\t3\t4\t5\n2 |\t2\t4\t6\t8\t10\n3 |\t3\t6\t9\t12\t15\n4 |\t4\t8\t12\t16\t20\n5 |\t5\t10\t15\t20\t25"
+      },
+      {
+        "title": "while Loop vs do-while Comparison",
+        "code": "public class WhileVsDoWhile {\n    public static void main(String[] args) {\n        int x = 10;\n\n        // while: condition checked FIRST\n        System.out.println(\"while loop:\");\n        while (x < 5) {\n            System.out.println(\"x = \" + x);\n            x++;\n        }\n        System.out.println(\"(nothing printed, condition was false)\\n\");\n\n        // do-while: body runs FIRST\n        x = 10;\n        System.out.println(\"do-while loop:\");\n        do {\n            System.out.println(\"x = \" + x);\n            x++;\n        } while (x < 5);\n        System.out.println(\"(printed once, then condition was false)\");\n    }\n}",
+        "language": "java",
+        "explanation": "With x = 10, the while loop checks <code>10 < 5</code> immediately (false), so the body never executes. The do-while loop executes the body first (prints x = 10), then checks <code>11 < 5</code> (false) and stops. This demonstrates the key difference: do-while always executes at least once.",
+        "output": "while loop:\n(nothing printed, condition was false)\n\ndo-while loop:\nx = 10\n(printed once, then condition was false)"
+      },
+      {
+        "title": "Loop with Array: Search and Count",
+        "code": "public class ArrayLoops {\n    public static void main(String[] args) {\n        int[] scores = {78, 92, 65, 88, 45, 92, 73, 88, 92};\n\n        // Count occurrences of 92\n        int count = 0;\n        for (int score : scores) {\n            if (score == 92) {\n                count++;\n            }\n        }\n        System.out.println(\"92 appears \" + count + \" times.\");\n\n        // Find index of first score below 50\n        int lowIndex = -1;\n        for (int i = 0; i < scores.length; i++) {\n            if (scores[i] < 50) {\n                lowIndex = i;\n                break;\n            }\n        }\n        if (lowIndex != -1) {\n            System.out.println(\"First low score at index: \" + lowIndex);\n        }\n\n        // Sum, min, max\n        int sum = 0, min = scores[0], max = scores[0];\n        for (int score : scores) {\n            sum += score;\n            if (score < min) min = score;\n            if (score > max) max = score;\n        }\n        System.out.println(\"Sum: \" + sum);\n        System.out.println(\"Min: \" + min + \", Max: \" + max);\n        System.out.printf(\"Average: %.1f%n\", (double) sum / scores.length);\n    }\n}",
+        "language": "java",
+        "explanation": "This demonstrates four common loop patterns with arrays. Counting uses for-each (no index needed). Searching uses a regular for loop (needs the index) with break for early exit. Sum/min/max uses for-each with accumulators.",
+        "output": "92 appears 3 times.\nFirst low score at index: 4\nSum: 713\nMin: 45, Max: 92\nAverage: 79.2"
+      },
+      {
+        "title": "for Loop with Multiple Variables",
+        "code": "public class MultiVarLoop {\n    public static void main(String[] args) {\n        // Two variables moving toward each other\n        for (int left = 0, right = 10; left < right; left++, right--) {\n            System.out.println(\"left=\" + left + \", right=\" + right);\n        }\n\n        System.out.println();\n\n        // Reverse an array in-place\n        int[] arr = {1, 2, 3, 4, 5};\n        for (int i = 0, j = arr.length - 1; i < j; i++, j--) {\n            int temp = arr[i];\n            arr[i] = arr[j];\n            arr[j] = temp;\n        }\n\n        System.out.print(\"Reversed: \");\n        for (int n : arr) {\n            System.out.print(n + \" \");\n        }\n        System.out.println();\n    }\n}",
+        "language": "java",
+        "explanation": "The for loop supports declaring multiple variables in the initialization (comma-separated, same type) and multiple update expressions. The first loop uses two pointers moving inward. The second applies this pattern to reverse an array in-place, a classic interview problem.",
+        "output": "left=0, right=10\nleft=1, right=9\nleft=2, right=8\nleft=3, right=7\nleft=4, right=6\n\nReversed: 5 4 3 2 1"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Off-by-One Error in Loop Bounds",
+        "wrongCode": "// Intended: print 1 to 5\nfor (int i = 1; i < 5; i++) {\n    System.out.println(i);\n}\n// Only prints 1, 2, 3, 4 (misses 5)",
+        "error": "Prints 1 through 4 instead of 1 through 5. The condition should be <= 5, not < 5.",
+        "correctCode": "for (int i = 1; i <= 5; i++) {\n    System.out.println(i);\n}",
+        "explanation": "Off-by-one errors are the most common loop bug. When iterating from 1 to N (inclusive), use <code>i <= N</code>. When iterating over an array of length N (indices 0 to N-1), use <code>i < N</code> or <code>i < arr.length</code>. Always verify the first and last values."
+      },
+      {
+        "title": "Infinite Loop Due to Missing Update",
+        "wrongCode": "int i = 1;\nwhile (i <= 5) {\n    System.out.println(i);\n    // Forgot i++;\n}",
+        "error": "Infinite loop. The program prints 1 forever because i never changes.",
+        "correctCode": "int i = 1;\nwhile (i <= 5) {\n    System.out.println(i);\n    i++;\n}",
+        "explanation": "In a while loop, you must update the loop variable inside the body. Forgetting to increment (or decrement) causes the condition to remain true forever. In a for loop, the update is in the header, making this mistake less likely."
+      },
+      {
+        "title": "Using == Instead of .equals() in Loop Condition for Strings",
+        "wrongCode": "Scanner sc = new Scanner(System.in);\nString input = \"\";\nwhile (input != \"quit\") {  // Bug: == compares references\n    input = sc.nextLine();\n    System.out.println(\"You typed: \" + input);\n}",
+        "error": "The loop never exits because == compares references, not content. Even when the user types 'quit', the condition remains true.",
+        "correctCode": "Scanner sc = new Scanner(System.in);\nString input = \"\";\nwhile (!input.equals(\"quit\")) {\n    input = sc.nextLine();\n    System.out.println(\"You typed: \" + input);\n}",
+        "explanation": "In Java, <code>!=</code> and <code>==</code> compare object references for Strings, not their content. User input from Scanner creates new String objects each time, so <code>input != \"quit\"</code> is always true even when the content is identical. Always use <code>.equals()</code> for string comparison."
+      },
+      {
+        "title": "Semicolon After for Loop Header",
+        "wrongCode": "for (int i = 0; i < 5; i++); {  // Stray semicolon!\n    System.out.println(i);\n}",
+        "error": "Compilation error: i cannot be resolved to a variable. The semicolon ends the for loop with an empty body.",
+        "correctCode": "for (int i = 0; i < 5; i++) {\n    System.out.println(i);\n}",
+        "explanation": "A semicolon after the for header (<code>for (...) ;</code>) creates an empty loop body. The loop runs 5 times doing nothing. Then the block <code>{...}</code> executes once, but <code>i</code> is out of scope. This is a subtle bug that the compiler may not catch in all cases."
+      },
+      {
+        "title": "Modifying Array Elements with for-each Does Not Work",
+        "wrongCode": "int[] arr = {1, 2, 3, 4, 5};\nfor (int n : arr) {\n    n = n * 2;  // Does NOT modify the array!\n}\n// arr is still {1, 2, 3, 4, 5}",
+        "error": "Array elements are unchanged because the for-each variable is a copy of the element, not a reference to it.",
+        "correctCode": "int[] arr = {1, 2, 3, 4, 5};\nfor (int i = 0; i < arr.length; i++) {\n    arr[i] = arr[i] * 2;  // Modifies the array\n}\n// arr is now {2, 4, 6, 8, 10}",
+        "explanation": "In a for-each loop, the variable (<code>n</code>) is a <strong>copy</strong> of the array element. Assigning a new value to <code>n</code> does not modify the original array. Use a regular indexed for loop when you need to modify array elements."
+      }
+    ],
+    "summary": [
+      "The for loop has three parts: initialization (runs once), condition (checked before each iteration), and update (runs after each iteration). Use it when the number of iterations is known.",
+      "The while loop checks its condition before each iteration. If the condition is false initially, the body never executes. Use it when the number of iterations is unknown.",
+      "The do-while loop checks its condition after each iteration, guaranteeing at least one execution. Use it for menus, input validation, and game loops.",
+      "The enhanced for-each loop (for (type var : array)) iterates over arrays and collections without an index. Use it for read-only iteration; it cannot modify elements.",
+      "Nested loops: the inner loop runs completely for each outer iteration. If outer runs N times and inner M times, the body executes N * M times.",
+      "Common loop patterns: accumulator (sum), counter (count), search (find + break), and min/max tracking.",
+      "Off-by-one errors are the most common loop bug. For 1 to N inclusive, use i <= N. For array indices 0 to N-1, use i < N.",
+      "Infinite loops occur when the loop variable is not updated or the condition never becomes false. Use break to exit intentional infinite loops.",
+      "A semicolon after for(...); creates an empty loop body, which is almost always a bug.",
+      "In for-each loops, the loop variable is a copy. Modifying it does not affect the original array. Use indexed for loops to modify array elements."
+    ]
+  },
+  "relatedTopics": [
+    "conditional-statements",
+    "loop-control-and-patterns"
+  ],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 5; i++) {\n    System.out.print(i + \" \");\n}</code></pre>",
+        "hint": "i goes from 1 to 5 inclusive.",
+        "answer": "<code>1 2 3 4 5 </code>",
+        "explanation": "The loop starts at i = 1, increments by 1 each time, and stops when i > 5. Prints 1 through 5."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for (int i = 5; i >= 1; i--) {\n    System.out.print(i + \" \");\n}</code></pre>",
+        "hint": "Counting downward from 5 to 1.",
+        "answer": "<code>5 4 3 2 1 </code>",
+        "explanation": "The loop starts at 5, decrements by 1, and stops when i < 1. Prints 5 down to 1."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int x = 1;\nwhile (x <= 3) {\n    System.out.println(\"Hello\");\n    x++;\n}</code></pre>",
+        "hint": "x starts at 1 and increments to 4.",
+        "answer": "<code>Hello</code><br><code>Hello</code><br><code>Hello</code>",
+        "explanation": "x = 1: 1 <= 3 true, print Hello, x = 2. x = 2: 2 <= 3 true, print Hello, x = 3. x = 3: 3 <= 3 true, print Hello, x = 4. x = 4: 4 <= 3 false, exit. Prints 3 times."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int n = 10;\ndo {\n    System.out.println(n);\n    n++;\n} while (n < 5);</code></pre>",
+        "hint": "do-while executes the body at least once before checking the condition.",
+        "answer": "<code>10</code>",
+        "explanation": "The body runs first: prints 10, n becomes 11. Then checks 11 < 5 which is false. The loop exits. do-while always runs at least once."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for (int i = 0; i < 5; i++) {\n    System.out.print(i + \" \");\n}</code></pre>",
+        "hint": "Starts at 0, goes up to but not including 5.",
+        "answer": "<code>0 1 2 3 4 </code>",
+        "explanation": "i starts at 0 and the condition is <code>i < 5</code> (not <=). So i takes values 0, 1, 2, 3, 4. Five iterations, matching typical array indexing."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 3; i++) {\n    for (int j = 1; j <= 2; j++) {\n        System.out.print(i + \"\" + j + \" \");\n    }\n}\n</code></pre>",
+        "hint": "Inner loop runs completely for each outer iteration.",
+        "answer": "<code>11 12 21 22 31 32 </code>",
+        "explanation": "i=1: j=1 (print 11), j=2 (print 12). i=2: j=1 (print 21), j=2 (print 22). i=3: j=1 (print 31), j=2 (print 32). Total: 3 * 2 = 6 outputs."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int sum = 0;\nfor (int i = 1; i <= 10; i++) {\n    if (i % 2 == 0) {\n        sum += i;\n    }\n}\nSystem.out.println(sum);</code></pre>",
+        "hint": "Sum of even numbers from 1 to 10.",
+        "answer": "<code>30</code>",
+        "explanation": "Even numbers: 2 + 4 + 6 + 8 + 10 = 30."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 4; i++) {\n    if (i == 3) continue;\n    System.out.print(i + \" \");\n}</code></pre>",
+        "hint": "continue skips the rest of the current iteration.",
+        "answer": "<code>1 2 4 </code>",
+        "explanation": "When i = 3, <code>continue</code> skips the print statement and moves to the next iteration (i = 4). Values 1, 2, and 4 are printed; 3 is skipped."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How many times does \"Hello\" print?<br><pre><code>for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 4; j++) {\n        System.out.println(\"Hello\");\n    }\n}</code></pre>",
+        "hint": "Outer: 3 iterations. Inner: 4 iterations each.",
+        "answer": "<code>12</code> times",
+        "explanation": "The outer loop runs 3 times (i = 0, 1, 2). For each, the inner loop runs 4 times (j = 0, 1, 2, 3). Total: 3 * 4 = 12."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int i = 5;\nwhile (i > 0) {\n    System.out.print(i + \" \");\n    i -= 2;\n}</code></pre>",
+        "hint": "i decreases by 2 each time: 5, 3, 1, then -1.",
+        "answer": "<code>5 3 1 </code>",
+        "explanation": "i=5: 5>0 true, print 5, i=3. i=3: 3>0 true, print 3, i=1. i=1: 1>0 true, print 1, i=-1. i=-1: -1>0 false, exit."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (int i = 0; i < 5; i++) {\n    if (i == 3) break;\n    System.out.print(i + \" \");\n}</code></pre>",
+        "hint": "break exits the loop entirely when i equals 3.",
+        "answer": "<code>0 1 2 </code>",
+        "explanation": "i=0: print 0. i=1: print 1. i=2: print 2. i=3: break exits the loop. i=4 is never reached."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int x = 1;\nfor (int i = 1; i <= 4; i++) {\n    x *= i;\n}\nSystem.out.println(x);</code></pre>",
+        "hint": "This computes x = 1 * 1 * 2 * 3 * 4.",
+        "answer": "<code>24</code>",
+        "explanation": "x starts at 1. i=1: x=1*1=1. i=2: x=1*2=2. i=3: x=2*3=6. i=4: x=6*4=24. This is 4! (factorial)."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 3; i++) {\n    for (int j = 1; j <= 3; j++) {\n        if (i == j) continue;\n        System.out.print(i + \"\" + j + \" \");\n    }\n}</code></pre>",
+        "hint": "continue in the inner loop skips pairs where i equals j.",
+        "answer": "<code>12 13 21 23 31 32 </code>",
+        "explanation": "When i==j, the pair is skipped. Skipped: (1,1), (2,2), (3,3). Remaining: 12, 13, 21, 23, 31, 32."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between a while loop and a do-while loop? When would you choose one over the other?",
+        "hint": "Think about when the condition is checked.",
+        "answer": "A <code>while</code> loop checks the condition <strong>before</strong> each iteration; if the condition is false initially, the body never executes. A <code>do-while</code> loop checks the condition <strong>after</strong> each iteration, so the body always executes at least once. Use do-while when the body must run at least once (menus, input validation). Use while when the body should not run if the condition is initially false.",
+        "explanation": "Example: reading a file while data exists (while). Showing a menu at least once (do-while). The choice depends on whether zero iterations is a valid scenario."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Can you convert any for loop to a while loop and vice versa? Explain.",
+        "hint": "Think about the three parts of a for loop.",
+        "answer": "Yes, any for loop can be rewritten as a while loop and vice versa. A for loop <code>for (init; cond; update) { body; }</code> is equivalent to <code>init; while (cond) { body; update; }</code>. However, a for loop's init variable has block scope (only visible inside the loop), while the while version's variable remains in the enclosing scope. The do-while loop is the exception: its guarantee of at least one execution can be replicated with a while loop by executing the body once before the loop or using a flag.",
+        "explanation": "In practice, use for when you have a clear counter, while for condition-based loops, and do-while for at-least-once scenarios. They are interchangeable but each has a natural use case."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for (int i = 0; i < 3; i++) {\n    System.out.print(\"Hi \");\n}</code></pre>",
+        "hint": "i goes 0, 1, 2. Three iterations.",
+        "answer": "<code>Hi Hi Hi </code>",
+        "explanation": "The loop runs 3 times (i = 0, 1, 2), printing \"Hi \" each time."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for (int i = 2; i <= 10; i += 3) {\n    System.out.print(i + \" \");\n}</code></pre>",
+        "hint": "i starts at 2 and increases by 3: 2, 5, 8, 11.",
+        "answer": "<code>2 5 8 </code>",
+        "explanation": "i = 2 (print), i = 5 (print), i = 8 (print), i = 11 (11 <= 10 is false, exit). Three values printed."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int[] arr = {4, 7, 2, 9};\nint sum = 0;\nfor (int n : arr) {\n    sum += n;\n}\nSystem.out.println(\"Sum: \" + sum);</code></pre>",
+        "hint": "Add all elements: 4 + 7 + 2 + 9.",
+        "answer": "<code>Sum: 22</code>",
+        "explanation": "The for-each loop adds each element: 4 + 7 + 2 + 9 = 22."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int i = 1;\ndo {\n    System.out.print(i + \" \");\n    i *= 2;\n} while (i <= 16);</code></pre>",
+        "hint": "i doubles: 1, 2, 4, 8, 16, then 32.",
+        "answer": "<code>1 2 4 8 16 </code>",
+        "explanation": "i = 1 (print, i=2), i = 2 (print, i=4), i = 4 (print, i=8), i = 8 (print, i=16), i = 16 (print, i=32). Check: 32 <= 16 false, exit."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (int i = 100; i >= 1; i /= 3) {\n    System.out.print(i + \" \");\n}\n</code></pre>",
+        "hint": "Integer division: 100/3=33, 33/3=11, 11/3=3, 3/3=1, 1/3=0.",
+        "answer": "<code>100 33 11 3 1 </code>",
+        "explanation": "i = 100 (print), 33 (print), 11 (print), 3 (print), 1 (print), then i = 0, 0 >= 1 is false."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that prints even numbers from 2 to 20 using a for loop.",
+        "hint": "Start at 2, increment by 2.",
+        "answer": "<pre><code>for (int i = 2; i <= 20; i += 2) {\n    System.out.print(i + \" \");\n}</code></pre>",
+        "explanation": "Starting at 2 and incrementing by 2 ensures only even numbers. Alternative: start at 1, go to 20, and check <code>if (i % 2 == 0)</code>."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int sum = 0;\nfor (int i = 1; i <= 5; i++) {\n    sum = sum + i;\n}\nSystem.out.println(sum);</code></pre>",
+        "hint": "Add 1 + 2 + 3 + 4 + 5.",
+        "answer": "<code>15</code>",
+        "explanation": "sum accumulates: 0+1=1, 1+2=3, 3+3=6, 6+4=10, 10+5=15."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int i = 0;\nwhile (i < 5) {\n    i++;\n    if (i == 3) continue;\n    System.out.print(i + \" \");\n}</code></pre>",
+        "hint": "i is incremented before the continue check.",
+        "answer": "<code>1 2 4 5 </code>",
+        "explanation": "i increments first: i=1 (print 1), i=2 (print 2), i=3 (continue, skip print), i=4 (print 4), i=5 (print 5). i=5 after print: 5<5 false, exit."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program to compute the factorial of a given number N using a while loop.",
+        "hint": "Factorial(5) = 5 * 4 * 3 * 2 * 1 = 120.",
+        "answer": "<pre><code>import java.util.Scanner;\n\npublic class Factorial {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        long factorial = 1;\n        int i = 1;\n        while (i <= n) {\n            factorial *= i;\n            i++;\n        }\n        System.out.println(n + \"! = \" + factorial);\n        sc.close();\n    }\n}</code></pre>",
+        "explanation": "We use <code>long</code> for factorial because factorials grow rapidly (13! exceeds int range). The while loop multiplies 1 * 2 * 3 * ... * n."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for (int i = 10; i >= 1; i /= 2) {\n    System.out.print(i + \" \");\n}</code></pre>",
+        "hint": "Integer division: 10/2=5, 5/2=2, 2/2=1, 1/2=0.",
+        "answer": "<code>10 5 2 1 </code>",
+        "explanation": "i=10: print 10, i=5. i=5: print 5, i=2 (integer division). i=2: print 2, i=1. i=1: print 1, i=0. i=0: 0>=1 false, exit."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 5; i++) {\n    for (int j = 1; j <= i; j++) {\n        System.out.print(\"* \");\n    }\n    System.out.println();\n}</code></pre>",
+        "hint": "Inner loop runs from 1 to i. So row 1 has 1 star, row 2 has 2, etc.",
+        "answer": "<code>* <br>* * <br>* * * <br>* * * * <br>* * * * * </code>",
+        "explanation": "Row i prints i stars. Row 1: 1 star. Row 2: 2 stars. Row 3: 3 stars. Row 4: 4 stars. Row 5: 5 stars. This forms a right triangle pattern."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int count = 0;\nfor (int i = 2; i <= 20; i++) {\n    boolean isPrime = true;\n    for (int j = 2; j < i; j++) {\n        if (i % j == 0) {\n            isPrime = false;\n            break;\n        }\n    }\n    if (isPrime) count++;\n}\nSystem.out.println(count);</code></pre>",
+        "hint": "Count prime numbers from 2 to 20.",
+        "answer": "<code>8</code>",
+        "explanation": "Primes from 2 to 20: 2, 3, 5, 7, 11, 13, 17, 19. Count = 8."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int[] arr = {3, 7, 2, 8, 1};\nfor (int i = 0; i < arr.length - 1; i++) {\n    for (int j = 0; j < arr.length - 1 - i; j++) {\n        if (arr[j] > arr[j + 1]) {\n            int temp = arr[j];\n            arr[j] = arr[j + 1];\n            arr[j + 1] = temp;\n        }\n    }\n}\nfor (int n : arr) {\n    System.out.print(n + \" \");\n}</code></pre>",
+        "hint": "This is the bubble sort algorithm.",
+        "answer": "<code>1 2 3 7 8 </code>",
+        "explanation": "This is bubble sort. It repeatedly compares adjacent elements and swaps them if they are in the wrong order. After sorting, the array is {1, 2, 3, 7, 8}."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n        if (j == 1) break;\n        System.out.print(i + \"\" + j + \" \");\n    }\n}</code></pre>",
+        "hint": "break exits only the inner loop.",
+        "answer": "<code>00 10 20 </code>",
+        "explanation": "For each i, the inner loop starts at j=0 (prints i0), then j=1 triggers break (exits inner loop only). So we get: i=0 prints 00, i=1 prints 10, i=2 prints 20. The outer loop continues normally."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that prints all numbers from 1 to 50 that are divisible by both 3 and 5.",
+        "hint": "Check if n % 15 == 0 (or n % 3 == 0 && n % 5 == 0).",
+        "answer": "<pre><code>for (int i = 1; i <= 50; i++) {\n    if (i % 3 == 0 && i % 5 == 0) {\n        System.out.print(i + \" \");\n    }\n}</code></pre>",
+        "explanation": "Numbers divisible by both 3 and 5 are divisible by 15: 15, 30, 45."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int n = 5;\nint result = 1;\nfor (int i = n; i >= 1; i--) {\n    result *= i;\n}\nSystem.out.println(result);</code></pre>",
+        "hint": "This computes 5 * 4 * 3 * 2 * 1.",
+        "answer": "<code>120</code>",
+        "explanation": "This computes factorial: 5 * 4 * 3 * 2 * 1 = 120."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int count = 0;\nfor (int i = 1; i <= 100; i++) {\n    if (i % 7 == 0) count++;\n}\nSystem.out.println(count);</code></pre>",
+        "hint": "Count multiples of 7 from 1 to 100.",
+        "answer": "<code>14</code>",
+        "explanation": "Multiples of 7 up to 100: 7, 14, 21, ..., 98. That is 100/7 = 14 (integer division)."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>String s = \"Hello\";\nfor (int i = s.length() - 1; i >= 0; i--) {\n    System.out.print(s.charAt(i));\n}</code></pre>",
+        "hint": "Iterate the string in reverse.",
+        "answer": "<code>olleH</code>",
+        "explanation": "Starting from the last character (index 4 = 'o') to the first (index 0 = 'H'), printing each gives \"olleH\"."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which loop is best when the number of iterations is known in advance?",
+        "options": [
+          "while",
+          "do-while",
+          "for",
+          "for-each"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>for</code> loop is designed for counted iterations with its init-condition-update structure."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "How many times does the loop body execute?<br><code>for (int i = 0; i < 10; i++) { ... }</code>",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "Infinite"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> i takes values 0 through 9 (10 values). When i = 10, <code>10 < 10</code> is false, so the loop exits."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which loop always executes its body at least once?",
+        "options": [
+          "for",
+          "while",
+          "do-while",
+          "for-each"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The do-while loop checks its condition after the body executes, guaranteeing at least one execution."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the correct syntax for a for-each loop over an int array?",
+        "options": [
+          "for (int i in arr)",
+          "for (int n : arr)",
+          "foreach (int n : arr)",
+          "for each (int n in arr)"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Java's for-each syntax is <code>for (type variable : arrayOrCollection)</code>. The <code>in</code> keyword (option A) is not used in Java."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does the continue statement do inside a loop?",
+        "options": [
+          "Exits the loop entirely",
+          "Skips to the next iteration",
+          "Pauses the loop",
+          "Restarts the loop from the beginning"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>continue</code> skips the remaining body of the current iteration and jumps to the next iteration (checking the condition first)."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><code>for (int i = 1; i <= 3; i++) System.out.print(i); System.out.print(4);</code>",
+        "options": [
+          "1234",
+          "12344",
+          "1234 (then 4 on a new line)",
+          "Error"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Without curly braces, only the first statement after for is in the loop body. So print(i) runs 3 times (prints 123). Then print(4) runs once outside the loop (prints 4). Total: 1234."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Which creates an infinite loop?",
+        "options": [
+          "for (int i = 0; i < 10; i++) {}",
+          "while (false) {}",
+          "for (;;) {}",
+          "do {} while (false);"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>for (;;)</code> has no condition, which defaults to true, creating an infinite loop. <code>while (false)</code> never executes. <code>do {} while (false)</code> executes once and exits."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What happens if you put a semicolon after for (int i = 0; i < 5; i++);?",
+        "options": [
+          "Compilation error",
+          "The loop runs with an empty body",
+          "The loop does not run at all",
+          "Infinite loop"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The semicolon acts as an empty statement, becoming the loop body. The loop runs 5 times doing nothing. Any code in a block after it runs once, outside the loop."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Can you modify array elements using a for-each loop?",
+        "options": [
+          "Yes, always",
+          "Yes, for object arrays only",
+          "No, the loop variable is a copy",
+          "Only with the final keyword"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct</strong> for primitive arrays. The for-each variable is a copy of the element, so assigning to it does not change the original array. For object arrays, you can modify the object's fields (since you have a reference copy), but you cannot replace the reference itself."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What does break do inside a nested loop?",
+        "options": [
+          "Exits all loops",
+          "Exits only the innermost loop",
+          "Exits the method",
+          "Causes a compilation error in nested loops"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>break</code> exits only the innermost enclosing loop. The outer loop continues normally. To exit multiple loops, use labeled break."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the time complexity of this code?<br><code>for (int i = 0; i < n; i++) { for (int j = 0; j < n; j++) { ... } }</code>",
+        "options": [
+          "O(n)",
+          "O(n log n)",
+          "O(n^2)",
+          "O(2^n)"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The outer loop runs n times. For each outer iteration, the inner loop runs n times. Total: n * n = n^2 operations. This is quadratic time complexity."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "How many iterations does this loop execute?<br><code>for (int i = 1; i < 1000; i *= 2) { ... }</code>",
+        "options": [
+          "500",
+          "10",
+          "999",
+          "Infinite"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> i doubles each time: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512. The next value would be 1024, which is not < 1000. So 10 iterations. This is logarithmic growth: approximately log2(1000) = ~10."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><code>int x = 0; for (int i = 0; i < 3; i++) for (int j = 0; j <= i; j++) x++; System.out.println(x);</code>",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "12"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> i=0: j runs 0 to 0 (1 increment). i=1: j runs 0 to 1 (2 increments). i=2: j runs 0 to 2 (3 increments). Total: 1 + 2 + 3 = 6."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which of the following is NOT a valid for loop in Java?",
+        "options": [
+          "for (;;) {}",
+          "for (int i=0, j=10; i<j; i++, j--) {}",
+          "for (int i=0; i<5; ) { i++; }",
+          "for (int i=0, long j=10; i<5; i++) {}"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> In a for loop's initialization, you can declare multiple variables of the <strong>same type</strong> (option B). You cannot declare variables of different types (int and long) in the same initialization. The other options are all valid."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "What is the syntax for a do-while loop?",
+        "options": [
+          "do { } while (condition)",
+          "do { } while (condition);",
+          "while (condition) do { }",
+          "loop { } until (condition);"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The do-while loop syntax requires a semicolon after the while condition: <code>do { body } while (condition);</code>."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "How many times does the body of this loop execute?<br><code>int i = 10; while (i < 10) { i++; }</code>",
+        "options": [
+          "0",
+          "1",
+          "10",
+          "Infinite"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> The condition <code>10 < 10</code> is false from the start, so the while loop body never executes."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><code>for (int i = 0; i < 5; i++) { if (i % 2 == 0) continue; System.out.print(i); }</code>",
+        "options": [
+          "024",
+          "13",
+          "01234",
+          "12345"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When i is even (0, 2, 4), continue skips the print. When i is odd (1, 3), it prints. Output: 13."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Sum of Digits",
+        "difficulty": "Easy",
+        "description": "Take an integer N from the user and calculate the sum of its digits using a while loop. Example: 1234 -> 1+2+3+4 = 10.",
+        "sampleInput": "Enter a number: 1234",
+        "sampleOutput": "Sum of digits: 10",
+        "constraints": "Use % 10 to get the last digit and / 10 to remove it. Use while loop.",
+        "solution": "import java.util.Scanner;\n\npublic class SumDigits {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int n = sc.nextInt();\n        int sum = 0;\n        int temp = n;\n        while (temp > 0) {\n            sum += temp % 10;\n            temp /= 10;\n        }\n        System.out.println(\"Sum of digits: \" + sum);\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Reverse a Number",
+        "difficulty": "Easy",
+        "description": "Take an integer and print its reverse. Example: 12345 -> 54321.",
+        "sampleInput": "Enter a number: 12345",
+        "sampleOutput": "Reversed: 54321",
+        "constraints": "Use a while loop with % 10 and / 10.",
+        "solution": "import java.util.Scanner;\n\npublic class ReverseNum {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int n = sc.nextInt();\n        int reversed = 0;\n        while (n > 0) {\n            reversed = reversed * 10 + n % 10;\n            n /= 10;\n        }\n        System.out.println(\"Reversed: \" + reversed);\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Fibonacci Series",
+        "difficulty": "Medium",
+        "description": "Print the first N Fibonacci numbers. Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13, ...",
+        "sampleInput": "Enter N: 8",
+        "sampleOutput": "0 1 1 2 3 5 8 13",
+        "constraints": "Use a for loop. Track the previous two numbers.",
+        "solution": "import java.util.Scanner;\n\npublic class Fibonacci {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter N: \");\n        int n = sc.nextInt();\n        int a = 0, b = 1;\n        for (int i = 0; i < n; i++) {\n            System.out.print(a + \" \");\n            int next = a + b;\n            a = b;\n            b = next;\n        }\n        System.out.println();\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Prime Number Checker",
+        "difficulty": "Medium",
+        "description": "Take a number and determine if it is a prime number. Optimize: check divisors only up to the square root of N.",
+        "sampleInput": "Enter a number: 29",
+        "sampleOutput": "29 is a prime number",
+        "constraints": "Use a for loop up to Math.sqrt(n). Handle edge cases (0, 1, negative).",
+        "solution": "import java.util.Scanner;\n\npublic class PrimeCheck {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int n = sc.nextInt();\n        if (n <= 1) {\n            System.out.println(n + \" is not a prime number\");\n        } else {\n            boolean isPrime = true;\n            for (int i = 2; i <= Math.sqrt(n); i++) {\n                if (n % i == 0) {\n                    isPrime = false;\n                    break;\n                }\n            }\n            System.out.println(n + (isPrime ? \" is a prime number\" : \" is not a prime number\"));\n        }\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Number Guessing Game",
+        "difficulty": "Medium",
+        "description": "Generate a random number between 1 and 100. Let the user guess until they get it right. Give hints (too high/too low) and count the number of attempts.",
+        "sampleInput": "Guess: 50\nToo high!\nGuess: 25\nToo low!\nGuess: 37\nCorrect!",
+        "sampleOutput": "You guessed it in 3 attempts!",
+        "constraints": "Use do-while loop. Use Math.random() or java.util.Random.",
+        "solution": "import java.util.Scanner;\nimport java.util.Random;\n\npublic class GuessGame {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int target = new Random().nextInt(100) + 1;\n        int guess, attempts = 0;\n        do {\n            System.out.print(\"Guess (1-100): \");\n            guess = sc.nextInt();\n            attempts++;\n            if (guess < target) System.out.println(\"Too low!\");\n            else if (guess > target) System.out.println(\"Too high!\");\n            else System.out.println(\"Correct! You guessed it in \" + attempts + \" attempts!\");\n        } while (guess != target);\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "GCD Using Euclidean Algorithm",
+        "difficulty": "Medium",
+        "description": "Find the GCD (Greatest Common Divisor) of two numbers using the Euclidean algorithm with a while loop.",
+        "sampleInput": "Enter two numbers: 48 18",
+        "sampleOutput": "GCD: 6",
+        "constraints": "Use while loop: while (b != 0) { temp = b; b = a % b; a = temp; }",
+        "solution": "import java.util.Scanner;\n\npublic class GCD {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter two numbers: \");\n        int a = sc.nextInt(), b = sc.nextInt();\n        int origA = a, origB = b;\n        while (b != 0) {\n            int temp = b;\n            b = a % b;\n            a = temp;\n        }\n        System.out.println(\"GCD of \" + origA + \" and \" + origB + \": \" + a);\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-7",
+        "title": "Armstrong Number Checker",
+        "difficulty": "Hard",
+        "description": "Check if a number is an Armstrong number. An N-digit number is Armstrong if the sum of its digits each raised to the power N equals the number itself. Example: 153 = 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153.",
+        "sampleInput": "Enter a number: 153",
+        "sampleOutput": "153 is an Armstrong number",
+        "constraints": "First count digits, then compute sum of powers.",
+        "solution": "import java.util.Scanner;\n\npublic class Armstrong {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int n = sc.nextInt();\n        int digits = String.valueOf(n).length();\n        int sum = 0, temp = n;\n        while (temp > 0) {\n            int d = temp % 10;\n            sum += Math.pow(d, digits);\n            temp /= 10;\n        }\n        System.out.println(n + (sum == n ? \" is\" : \" is not\") + \" an Armstrong number\");\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-8",
+        "title": "Print All Prime Numbers in a Range",
+        "difficulty": "Hard",
+        "description": "Take two numbers L and R from the user and print all prime numbers in the range [L, R] inclusive. Also print the count of primes found.",
+        "sampleInput": "Enter range: 10 30",
+        "sampleOutput": "Primes: 11 13 17 19 23 29\nCount: 6",
+        "constraints": "Use nested loops: outer for range, inner for prime checking. Optimize with sqrt.",
+        "solution": "import java.util.Scanner;\n\npublic class PrimesInRange {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter range: \");\n        int l = sc.nextInt(), r = sc.nextInt();\n        int count = 0;\n        System.out.print(\"Primes: \");\n        for (int num = l; num <= r; num++) {\n            if (num <= 1) continue;\n            boolean isPrime = true;\n            for (int i = 2; i <= Math.sqrt(num); i++) {\n                if (num % i == 0) { isPrime = false; break; }\n            }\n            if (isPrime) {\n                System.out.print(num + \" \");\n                count++;\n            }\n        }\n        System.out.println(\"\\nCount: \" + count);\n        sc.close();\n    }\n}"
+      }
+    ]
+  }
+}

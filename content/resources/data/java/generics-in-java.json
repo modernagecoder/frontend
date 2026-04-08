@@ -1,0 +1,564 @@
+{
+  "title": "Generics in Java",
+  "slug": "generics-in-java",
+  "language": "java",
+  "chapter": 20,
+  "difficulty": "Advanced",
+  "readingTime": "45 min",
+  "lastUpdated": "2026-04-08",
+  "totalQuestions": 42,
+  "seo": {
+    "title": "Generics in Java - Generic Classes, Methods, Wildcards, PECS | Modern Age Coders",
+    "description": "Master Java generics including generic classes, generic methods, bounded type parameters, wildcards (? extends, ? super), PECS principle, type erasure, and generic interfaces. Includes 42+ practice questions for interviews and placement preparation.",
+    "keywords": "java generics, generic class java, wildcard java, bounded type parameter java, java pecs principle, java type erasure, java generic method, java generics tutorial, java generics interview questions"
+  },
+  "content": {
+    "what": "<h2>What Are Generics in Java?</h2><p><strong>Generics</strong> allow you to write classes, interfaces, and methods that operate on a type parameter instead of a specific type. Instead of writing separate <code>IntBox</code>, <code>StringBox</code>, and <code>DoubleBox</code> classes, you write one <code>Box&lt;T&gt;</code> that works with any type.</p><pre><code>// Without generics (before Java 5)\nArrayList list = new ArrayList();\nlist.add(\"Hello\");\nlist.add(42);            // No error at compile time!\nString s = (String) list.get(1);  // ClassCastException at runtime!\n\n// With generics\nArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();\nlist.add(\"Hello\");\n// list.add(42);          // Compilation error! Type safety enforced.\nString s = list.get(0);  // No cast needed.</code></pre><p>Generics were introduced in Java 5 to provide <strong>compile-time type safety</strong> and <strong>eliminate the need for explicit casting</strong>. The type parameter (like <code>T</code>) is a placeholder that gets replaced by a concrete type when the generic class or method is used.</p><pre><code>// Generic class\nclass Box&lt;T&gt; {\n    private T value;\n    \n    Box(T value) { this.value = value; }\n    T getValue() { return value; }\n}\n\n// Usage\nBox&lt;String&gt; stringBox = new Box&lt;&gt;(\"Hello\");\nBox&lt;Integer&gt; intBox = new Box&lt;&gt;(42);\n\nString s = stringBox.getValue();  // No cast\nint n = intBox.getValue();        // No cast (auto-unboxing)</code></pre>",
+    "why": "<h2>Why Do Generics Matter?</h2><p>Before generics, Java collections held <code>Object</code> references, requiring unsafe casting at every retrieval. Generics transformed Java from a loosely typed collections world into a type-safe one.</p><h3>1. Type Safety at Compile Time</h3><p>Without generics, type errors surface at runtime as <code>ClassCastException</code>. With generics, the compiler catches type mismatches before the code runs. When Arjun writes <code>ArrayList&lt;Student&gt;</code>, the compiler guarantees that only <code>Student</code> objects go in. No surprises at runtime.</p><h3>2. Elimination of Casting</h3><p>Without generics: <code>String s = (String) list.get(0);</code>. With generics: <code>String s = list.get(0);</code>. The compiler knows the type, so no explicit cast is needed. This reduces boilerplate and potential errors.</p><h3>3. Code Reusability</h3><p>A single generic class or method works with all types. Kavya writes <code>Pair&lt;K, V&gt;</code> once and uses it as <code>Pair&lt;String, Integer&gt;</code>, <code>Pair&lt;Student, Grade&gt;</code>, or any other combination. One implementation, infinite type combinations.</p><h3>4. Algorithm Abstraction</h3><p>Generic methods allow writing type-independent algorithms. A <code>max</code> method works for any <code>Comparable</code> type without knowing whether it compares Integers, Strings, or custom objects.</p><h3>5. Foundation of the Collections Framework</h3><p>Every collection class (<code>ArrayList&lt;E&gt;</code>, <code>HashMap&lt;K,V&gt;</code>, <code>HashSet&lt;E&gt;</code>) uses generics. Understanding generics is essential to understanding collections.</p><h3>6. Interview Importance</h3><p>Generics, particularly wildcards and the PECS principle, are among the trickiest Java interview topics. Questions about type erasure, bounded types, and wildcard captures are common in placement interviews at product-based companies.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Generic Classes</h3><p>A generic class declares one or more type parameters in angle brackets after the class name:</p><pre><code>class Pair&lt;K, V&gt; {\n    private K key;\n    private V value;\n    \n    Pair(K key, V value) {\n        this.key = key;\n        this.value = value;\n    }\n    \n    K getKey() { return key; }\n    V getValue() { return value; }\n    \n    @Override\n    public String toString() {\n        return key + \" = \" + value;\n    }\n}\n\n// Usage\nPair&lt;String, Integer&gt; age = new Pair&lt;&gt;(\"Arjun\", 20);\nPair&lt;String, String&gt; city = new Pair&lt;&gt;(\"Kavya\", \"Bangalore\");\n\nString name = age.getKey();    // No cast\nint years = age.getValue();    // No cast (auto-unboxing)</code></pre><p>Common type parameter naming conventions: <code>T</code> (Type), <code>E</code> (Element), <code>K</code> (Key), <code>V</code> (Value), <code>N</code> (Number), <code>S, U</code> (additional types).</p><h3>2. Generic Methods</h3><p>A generic method declares its own type parameter(s), independent of the class's type parameters:</p><pre><code>class Utility {\n    // Generic method: &lt;T&gt; before return type\n    static &lt;T&gt; void printArray(T[] array) {\n        for (T element : array) {\n            System.out.print(element + \" \");\n        }\n        System.out.println();\n    }\n    \n    static &lt;T&gt; T getFirst(T[] array) {\n        return array[0];\n    }\n}\n\n// Usage: type is inferred from arguments\nInteger[] ints = {1, 2, 3, 4, 5};\nString[] strs = {\"A\", \"B\", \"C\"};\n\nUtility.printArray(ints);   // 1 2 3 4 5\nUtility.printArray(strs);   // A B C\n\nInteger first = Utility.getFirst(ints);  // 1\nString firstStr = Utility.getFirst(strs);  // A</code></pre><h3>3. Bounded Type Parameters</h3><p>You can restrict type parameters to certain types using <code>extends</code>:</p><pre><code>// T must be a subclass of Number\nclass NumericBox&lt;T extends Number&gt; {\n    private T value;\n    \n    NumericBox(T value) { this.value = value; }\n    \n    double doubleValue() {\n        return value.doubleValue();  // Safe: Number has doubleValue()\n    }\n}\n\nNumericBox&lt;Integer&gt; intBox = new NumericBox&lt;&gt;(42);\nNumericBox&lt;Double&gt; dblBox = new NumericBox&lt;&gt;(3.14);\n// NumericBox&lt;String&gt; strBox = new NumericBox&lt;&gt;(\"Hi\");  // Compilation error!</code></pre><h3>4. Multiple Bounds</h3><p>A type parameter can have multiple bounds using <code>&amp;</code>:</p><pre><code>// T must extend Number AND implement Comparable\nclass SortableBox&lt;T extends Number &amp; Comparable&lt;T&gt;&gt; {\n    private T value;\n    \n    SortableBox(T value) { this.value = value; }\n    \n    boolean isGreaterThan(SortableBox&lt;T&gt; other) {\n        return this.value.compareTo(other.value) &gt; 0;\n    }\n}\n\nSortableBox&lt;Integer&gt; a = new SortableBox&lt;&gt;(10);\nSortableBox&lt;Integer&gt; b = new SortableBox&lt;&gt;(5);\nSystem.out.println(a.isGreaterThan(b));  // true</code></pre><p>With multiple bounds, the class must come first, followed by interfaces: <code>T extends ClassName &amp; Interface1 &amp; Interface2</code>.</p><h3>5. Wildcards</h3><p>Wildcards (<code>?</code>) represent an unknown type. They are used in method parameters when you want flexibility:</p><h4>Unbounded Wildcard: <code>?</code></h4><pre><code>// Accepts a list of any type\nvoid printList(List&lt;?&gt; list) {\n    for (Object element : list) {\n        System.out.println(element);\n    }\n}\n\nprintList(List.of(1, 2, 3));       // Works\nprintList(List.of(\"A\", \"B\"));      // Works\nprintList(List.of(new Student()));  // Works</code></pre><h4>Upper Bounded Wildcard: <code>? extends T</code></h4><pre><code>// Accepts List of Number or any subclass of Number\ndouble sum(List&lt;? extends Number&gt; list) {\n    double total = 0;\n    for (Number n : list) {\n        total += n.doubleValue();\n    }\n    return total;\n}\n\nsum(List.of(1, 2, 3));           // List&lt;Integer&gt; works\nsum(List.of(1.5, 2.5, 3.5));     // List&lt;Double&gt; works\n// sum(List.of(\"A\", \"B\"));       // List&lt;String&gt; fails (String is not Number)</code></pre><h4>Lower Bounded Wildcard: <code>? super T</code></h4><pre><code>// Accepts List of Integer or any superclass of Integer\nvoid addIntegers(List&lt;? super Integer&gt; list) {\n    list.add(1);\n    list.add(2);\n    list.add(3);\n}\n\nList&lt;Integer&gt; intList = new ArrayList&lt;&gt;();\nList&lt;Number&gt; numList = new ArrayList&lt;&gt;();\nList&lt;Object&gt; objList = new ArrayList&lt;&gt;();\n\naddIntegers(intList);  // Works\naddIntegers(numList);  // Works (Number is super of Integer)\naddIntegers(objList);  // Works (Object is super of Integer)</code></pre><h3>6. PECS Principle (Producer Extends, Consumer Super)</h3><p>This is the golden rule for deciding between <code>extends</code> and <code>super</code>:</p><ul><li><strong>Producer Extends</strong>: If you only READ from the collection (it produces items), use <code>? extends T</code></li><li><strong>Consumer Super</strong>: If you only WRITE to the collection (it consumes items), use <code>? super T</code></li></ul><pre><code>// Producer: reading from source (extends)\nstatic &lt;T&gt; void copy(List&lt;? extends T&gt; source, List&lt;? super T&gt; dest) {\n    for (T item : source) {  // Reading from source (producer)\n        dest.add(item);      // Writing to dest (consumer)\n    }\n}\n\nList&lt;Integer&gt; ints = List.of(1, 2, 3);\nList&lt;Number&gt; nums = new ArrayList&lt;&gt;();\ncopy(ints, nums);  // Copies Integer list into Number list</code></pre><p>Think of it this way: <code>extends</code> gives you a read-only view (you know you are getting at least T). <code>super</code> gives you a write-only view (you know you can put at least T).</p><h3>7. Type Erasure</h3><p>Generics are a compile-time feature. At runtime, all generic type information is erased (replaced by <code>Object</code> or the bound). This is called <strong>type erasure</strong>.</p><pre><code>// At compile time\nArrayList&lt;String&gt; strings = new ArrayList&lt;&gt;();\nArrayList&lt;Integer&gt; ints = new ArrayList&lt;&gt;();\n\n// At runtime (after erasure)\nArrayList strings = new ArrayList();  // Both become raw ArrayList\nArrayList ints = new ArrayList();\n\n// They have the same class at runtime!\nSystem.out.println(strings.getClass() == ints.getClass());  // true</code></pre><p>Consequences of type erasure:</p><ul><li>Cannot use <code>new T()</code> (type is erased at runtime)</li><li>Cannot use <code>instanceof</code> with generic types (<code>obj instanceof List&lt;String&gt;</code> is illegal)</li><li>Cannot create generic arrays (<code>new T[10]</code> is illegal)</li><li>Cannot have static fields of generic type</li></ul><h3>8. Generic Interfaces</h3><p>Interfaces can be generic:</p><pre><code>interface Repository&lt;T&gt; {\n    void save(T entity);\n    T findById(int id);\n    List&lt;T&gt; findAll();\n}\n\nclass StudentRepository implements Repository&lt;Student&gt; {\n    private List&lt;Student&gt; students = new ArrayList&lt;&gt;();\n    \n    @Override\n    public void save(Student s) { students.add(s); }\n    \n    @Override\n    public Student findById(int id) {\n        return students.stream()\n            .filter(s -&gt; s.getId() == id)\n            .findFirst()\n            .orElse(null);\n    }\n    \n    @Override\n    public List&lt;Student&gt; findAll() { return students; }\n}</code></pre><h3>9. Restrictions on Generics</h3><ul><li>No primitive types: <code>Box&lt;int&gt;</code> is illegal; use <code>Box&lt;Integer&gt;</code></li><li>No <code>new T()</code>: Cannot instantiate type parameter</li><li>No <code>new T[]</code>: Cannot create generic arrays</li><li>No static fields of type T: <code>static T value;</code> is illegal</li><li>No <code>instanceof</code> with parameterized types: <code>obj instanceof List&lt;String&gt;</code> is illegal (use <code>obj instanceof List&lt;?&gt;</code>)</li><li>Cannot extend <code>Throwable</code>: <code>class MyException&lt;T&gt; extends Exception</code> is illegal</li></ul>",
+    "codeExamples": [
+      {
+        "title": "Generic Class: Box<T>",
+        "code": "class Box<T> {\n    private T item;\n\n    Box(T item) {\n        this.item = item;\n    }\n\n    T getItem() {\n        return item;\n    }\n\n    void setItem(T item) {\n        this.item = item;\n    }\n\n    @Override\n    public String toString() {\n        return \"Box[\" + item + \"]\";\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Box<String> stringBox = new Box<>(\"Hello\");\n        Box<Integer> intBox = new Box<>(42);\n        Box<Double> doubleBox = new Box<>(3.14);\n\n        System.out.println(stringBox);\n        System.out.println(intBox);\n        System.out.println(doubleBox);\n\n        // Type safety: compiler catches errors\n        String s = stringBox.getItem();  // No cast needed\n        int n = intBox.getItem();        // Auto-unboxing\n        System.out.println(\"String: \" + s);\n        System.out.println(\"Int: \" + n);\n\n        // stringBox.setItem(123);  // Compilation error: type mismatch\n    }\n}",
+        "language": "java",
+        "explanation": "<code>Box&lt;T&gt;</code> can hold any type. When instantiated as <code>Box&lt;String&gt;</code>, only Strings are accepted. The compiler prevents type mismatches at compile time, and no casting is needed when retrieving values.",
+        "output": "Box[Hello]\nBox[42]\nBox[3.14]\nString: Hello\nInt: 42"
+      },
+      {
+        "title": "Generic Method: Working with Any Array Type",
+        "code": "public class Main {\n    // Generic method: <T> before return type\n    static <T> T getMiddle(T[] array) {\n        return array[array.length / 2];\n    }\n\n    static <T> void swap(T[] array, int i, int j) {\n        T temp = array[i];\n        array[i] = array[j];\n        array[j] = temp;\n    }\n\n    static <T> String arrayToString(T[] array) {\n        StringBuilder sb = new StringBuilder(\"[\");\n        for (int i = 0; i < array.length; i++) {\n            if (i > 0) sb.append(\", \");\n            sb.append(array[i]);\n        }\n        return sb.append(\"]\").toString();\n    }\n\n    public static void main(String[] args) {\n        Integer[] ints = {10, 20, 30, 40, 50};\n        String[] strs = {\"Arjun\", \"Kavya\", \"Ravi\"};\n\n        System.out.println(\"Middle int: \" + getMiddle(ints));\n        System.out.println(\"Middle str: \" + getMiddle(strs));\n\n        System.out.println(\"Before swap: \" + arrayToString(ints));\n        swap(ints, 0, 4);\n        System.out.println(\"After swap: \" + arrayToString(ints));\n\n        System.out.println(\"Before swap: \" + arrayToString(strs));\n        swap(strs, 0, 2);\n        System.out.println(\"After swap: \" + arrayToString(strs));\n    }\n}",
+        "language": "java",
+        "explanation": "Generic methods declare type parameters before the return type. The compiler infers <code>T</code> from the arguments. <code>getMiddle</code> works with Integer[] and String[] without separate implementations. <code>swap</code> swaps elements in any array type.",
+        "output": "Middle int: 30\nMiddle str: Kavya\nBefore swap: [10, 20, 30, 40, 50]\nAfter swap: [50, 20, 30, 40, 10]\nBefore swap: [Arjun, Kavya, Ravi]\nAfter swap: [Ravi, Kavya, Arjun]"
+      },
+      {
+        "title": "Bounded Type Parameters",
+        "code": "class MathBox<T extends Number> {\n    private T value;\n\n    MathBox(T value) {\n        this.value = value;\n    }\n\n    double sqrt() {\n        return Math.sqrt(value.doubleValue());\n    }\n\n    boolean isPositive() {\n        return value.doubleValue() > 0;\n    }\n\n    T getValue() {\n        return value;\n    }\n}\n\npublic class Main {\n    // Bounded generic method\n    static <T extends Comparable<T>> T max(T a, T b) {\n        return a.compareTo(b) >= 0 ? a : b;\n    }\n\n    public static void main(String[] args) {\n        MathBox<Integer> intBox = new MathBox<>(16);\n        MathBox<Double> dblBox = new MathBox<>(2.25);\n\n        System.out.println(\"sqrt(16) = \" + intBox.sqrt());\n        System.out.println(\"sqrt(2.25) = \" + dblBox.sqrt());\n        System.out.println(\"16 positive? \" + intBox.isPositive());\n\n        // MathBox<String> strBox = new MathBox<>(\"Hi\");  // Error: String not Number\n\n        System.out.println(\"max(10, 20) = \" + max(10, 20));\n        System.out.println(\"max(A, Z) = \" + max(\"A\", \"Z\"));\n        System.out.println(\"max(3.14, 2.71) = \" + max(3.14, 2.71));\n    }\n}",
+        "language": "java",
+        "explanation": "<code>T extends Number</code> restricts T to Number and its subclasses. This allows calling Number methods like <code>doubleValue()</code>. The <code>max</code> method uses <code>T extends Comparable&lt;T&gt;</code> to ensure elements can be compared.",
+        "output": "sqrt(16) = 4.0\nsqrt(2.25) = 1.5\n16 positive? true\nmax(10, 20) = 20\nmax(A, Z) = Z\nmax(3.14, 2.71) = 3.14"
+      },
+      {
+        "title": "Wildcards: Unbounded, Upper, and Lower",
+        "code": "import java.util.List;\nimport java.util.ArrayList;\n\npublic class Main {\n    // Unbounded: read-only, any type\n    static void printAll(List<?> list) {\n        for (Object item : list) {\n            System.out.print(item + \" \");\n        }\n        System.out.println();\n    }\n\n    // Upper bounded: read Numbers (producer extends)\n    static double sum(List<? extends Number> list) {\n        double total = 0;\n        for (Number n : list) {\n            total += n.doubleValue();\n        }\n        return total;\n    }\n\n    // Lower bounded: write Integers (consumer super)\n    static void addNumbers(List<? super Integer> list) {\n        list.add(1);\n        list.add(2);\n        list.add(3);\n    }\n\n    public static void main(String[] args) {\n        // Unbounded\n        printAll(List.of(\"A\", \"B\", \"C\"));\n        printAll(List.of(1, 2, 3));\n\n        // Upper bounded\n        System.out.println(\"Sum of ints: \" + sum(List.of(1, 2, 3)));\n        System.out.println(\"Sum of doubles: \" + sum(List.of(1.5, 2.5)));\n\n        // Lower bounded\n        List<Number> numList = new ArrayList<>();\n        addNumbers(numList);\n        System.out.println(\"Numbers added: \" + numList);\n\n        List<Object> objList = new ArrayList<>();\n        addNumbers(objList);\n        System.out.println(\"Objects added: \" + objList);\n    }\n}",
+        "language": "java",
+        "explanation": "<code>List&lt;?&gt;</code> accepts any list (read-only). <code>List&lt;? extends Number&gt;</code> reads from any Number subtype (producer). <code>List&lt;? super Integer&gt;</code> writes Integers to any supertype list (consumer). This demonstrates the PECS principle.",
+        "output": "A B C \n1 2 3 \nSum of ints: 6.0\nSum of doubles: 4.0\nNumbers added: [1, 2, 3]\nObjects added: [1, 2, 3]"
+      },
+      {
+        "title": "PECS: Producer Extends, Consumer Super",
+        "code": "import java.util.List;\nimport java.util.ArrayList;\n\npublic class Main {\n    // Copy from source (producer: extends) to dest (consumer: super)\n    static <T> void copy(List<? extends T> source, List<? super T> dest) {\n        for (T item : source) {\n            dest.add(item);\n        }\n    }\n\n    // Find max in a producer list\n    static <T extends Comparable<T>> T findMax(List<? extends T> list) {\n        T max = list.get(0);\n        for (T item : list) {\n            if (item.compareTo(max) > 0) {\n                max = item;\n            }\n        }\n        return max;\n    }\n\n    public static void main(String[] args) {\n        List<Integer> ints = List.of(3, 1, 4, 1, 5);\n        List<Number> nums = new ArrayList<>();\n\n        copy(ints, nums);  // Integer -> Number\n        System.out.println(\"Copied: \" + nums);\n\n        System.out.println(\"Max int: \" + findMax(ints));\n        System.out.println(\"Max string: \" + findMax(List.of(\"Ravi\", \"Arjun\", \"Kavya\")));\n    }\n}",
+        "language": "java",
+        "explanation": "The <code>copy</code> method reads from <code>source</code> (producer, uses <code>extends</code>) and writes to <code>dest</code> (consumer, uses <code>super</code>). <code>findMax</code> reads from a producer list. PECS is the key to writing flexible, type-safe generic methods.",
+        "output": "Copied: [3, 1, 4, 1, 5]\nMax int: 5\nMax string: Ravi"
+      },
+      {
+        "title": "Generic Interface: Repository Pattern",
+        "code": "import java.util.ArrayList;\nimport java.util.List;\n\ninterface Repository<T> {\n    void save(T entity);\n    T findById(int id);\n    List<T> findAll();\n    int count();\n}\n\nclass Student {\n    int id;\n    String name;\n    Student(int id, String name) { this.id = id; this.name = name; }\n    @Override\n    public String toString() { return \"Student{\" + id + \", \" + name + \"}\"; }\n}\n\nclass StudentRepository implements Repository<Student> {\n    private List<Student> store = new ArrayList<>();\n\n    @Override\n    public void save(Student s) {\n        store.add(s);\n        System.out.println(\"Saved: \" + s);\n    }\n\n    @Override\n    public Student findById(int id) {\n        for (Student s : store) {\n            if (s.id == id) return s;\n        }\n        return null;\n    }\n\n    @Override\n    public List<Student> findAll() { return store; }\n\n    @Override\n    public int count() { return store.size(); }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Repository<Student> repo = new StudentRepository();\n        repo.save(new Student(1, \"Arjun\"));\n        repo.save(new Student(2, \"Kavya\"));\n        repo.save(new Student(3, \"Ravi\"));\n\n        System.out.println(\"Find 2: \" + repo.findById(2));\n        System.out.println(\"Count: \" + repo.count());\n        System.out.println(\"All: \" + repo.findAll());\n    }\n}",
+        "language": "java",
+        "explanation": "The <code>Repository&lt;T&gt;</code> interface defines a generic CRUD contract. <code>StudentRepository</code> implements it with <code>Student</code> as the type parameter. The same interface could be implemented for <code>Course</code>, <code>Teacher</code>, or any entity.",
+        "output": "Saved: Student{1, Arjun}\nSaved: Student{2, Kavya}\nSaved: Student{3, Ravi}\nFind 2: Student{2, Kavya}\nCount: 3\nAll: [Student{1, Arjun}, Student{2, Kavya}, Student{3, Ravi}]"
+      },
+      {
+        "title": "Type Erasure Demonstration",
+        "code": "import java.util.ArrayList;\nimport java.util.List;\n\npublic class Main {\n    public static void main(String[] args) {\n        ArrayList<String> strings = new ArrayList<>();\n        ArrayList<Integer> integers = new ArrayList<>();\n\n        // At runtime, both are just ArrayList (type erasure)\n        System.out.println(strings.getClass().getName());\n        System.out.println(integers.getClass().getName());\n        System.out.println(strings.getClass() == integers.getClass());\n\n        // Cannot use instanceof with parameterized types\n        List<?> list = new ArrayList<String>();\n        System.out.println(list instanceof List);     // OK\n        System.out.println(list instanceof List<?>);   // OK\n        // System.out.println(list instanceof List<String>);  // Compilation error!\n\n        // Generics provide safety at compile time, not runtime\n        List rawList = strings;   // Raw type (no generics)\n        rawList.add(42);          // No compile error with raw type!\n        // String s = strings.get(0);  // ClassCastException at runtime!\n        System.out.println(\"Raw type bypasses generic safety\");\n    }\n}",
+        "language": "java",
+        "explanation": "At runtime, <code>ArrayList&lt;String&gt;</code> and <code>ArrayList&lt;Integer&gt;</code> are both just <code>ArrayList</code> (type parameters are erased). This is why you cannot use <code>instanceof</code> with parameterized types. Raw types bypass generic safety but risk runtime errors.",
+        "output": "java.util.ArrayList\njava.util.ArrayList\ntrue\ntrue\ntrue\nRaw type bypasses generic safety"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Primitive Types as Type Parameters",
+        "wrongCode": "ArrayList<int> numbers = new ArrayList<>();  // Compilation error!\nBox<double> box = new Box<>(3.14);            // Compilation error!",
+        "error": "Compilation error: type argument cannot be a primitive type.",
+        "correctCode": "ArrayList<Integer> numbers = new ArrayList<>();  // Use wrapper class\nBox<Double> box = new Box<>(3.14);                // Autoboxing handles conversion",
+        "explanation": "Generics work only with reference types (objects), not primitive types. Use wrapper classes: <code>Integer</code> for <code>int</code>, <code>Double</code> for <code>double</code>, <code>Boolean</code> for <code>boolean</code>, etc. Java autoboxes and unboxes automatically."
+      },
+      {
+        "title": "Trying to Instantiate a Type Parameter",
+        "wrongCode": "class Factory<T> {\n    T create() {\n        return new T();  // Compilation error!\n    }\n}",
+        "error": "Compilation error: cannot instantiate the type T.",
+        "correctCode": "import java.util.function.Supplier;\n\nclass Factory<T> {\n    private Supplier<T> constructor;\n\n    Factory(Supplier<T> constructor) {\n        this.constructor = constructor;\n    }\n\n    T create() {\n        return constructor.get();\n    }\n}\n\n// Usage: pass constructor reference\nFactory<ArrayList> factory = new Factory<>(ArrayList::new);\nArrayList list = factory.create();",
+        "explanation": "Due to type erasure, the JVM does not know what <code>T</code> is at runtime, so <code>new T()</code> is impossible. The workaround is to pass a <code>Supplier&lt;T&gt;</code> (a factory function) that creates the object."
+      },
+      {
+        "title": "Adding to a List<? extends T> (Producer Is Read-Only)",
+        "wrongCode": "List<? extends Number> numbers = new ArrayList<Integer>();\nnumbers.add(42);  // Compilation error!",
+        "error": "Compilation error: cannot add Integer to List<? extends Number>.",
+        "correctCode": "// Use ? extends for READING (producer)\nList<? extends Number> producer = List.of(1, 2, 3);\nNumber n = producer.get(0);  // Reading is safe\n\n// Use ? super for WRITING (consumer)\nList<? super Integer> consumer = new ArrayList<Number>();\nconsumer.add(42);  // Writing is safe",
+        "explanation": "<code>List&lt;? extends Number&gt;</code> could be a <code>List&lt;Integer&gt;</code>, <code>List&lt;Double&gt;</code>, or <code>List&lt;Number&gt;</code>. The compiler cannot guarantee that adding an Integer is safe (what if it is a List&lt;Double&gt;?). PECS: Producer Extends (read-only), Consumer Super (write-only)."
+      },
+      {
+        "title": "Comparing Generic Types with == (Type Erasure Confusion)",
+        "wrongCode": "ArrayList<String> a = new ArrayList<>();\nArrayList<Integer> b = new ArrayList<>();\n\n// This is TRUE due to type erasure!\nif (a.getClass() == b.getClass()) {\n    System.out.println(\"Same class at runtime!\");\n}\n\n// This does NOT compile\n// if (a instanceof ArrayList<String>) { }",
+        "error": "Logical error: thinking generic types are different at runtime. They are not.",
+        "correctCode": "// Use instanceof with unbounded wildcard\nObject obj = new ArrayList<String>();\nif (obj instanceof ArrayList<?>) {\n    System.out.println(\"It is an ArrayList\");\n}\n// Cannot determine if it is ArrayList<String> vs ArrayList<Integer> at runtime",
+        "explanation": "Due to type erasure, <code>ArrayList&lt;String&gt;</code> and <code>ArrayList&lt;Integer&gt;</code> are the same class at runtime. You cannot use <code>instanceof</code> with parameterized types. Use <code>instanceof ArrayList&lt;?&gt;</code> (unbounded wildcard) instead."
+      },
+      {
+        "title": "Creating Generic Arrays",
+        "wrongCode": "class Container<T> {\n    T[] items = new T[10];  // Compilation error!\n}",
+        "error": "Compilation error: generic array creation.",
+        "correctCode": "class Container<T> {\n    private Object[] items;  // Use Object array internally\n    private int size = 0;\n\n    @SuppressWarnings(\"unchecked\")\n    Container(int capacity) {\n        items = new Object[capacity];\n    }\n\n    void add(T item) {\n        items[size++] = item;\n    }\n\n    @SuppressWarnings(\"unchecked\")\n    T get(int index) {\n        return (T) items[index];\n    }\n}",
+        "explanation": "Generic arrays cannot be created because arrays carry type information at runtime (covariant), while generics are erased. The workaround is to use <code>Object[]</code> internally and cast when returning. The <code>@SuppressWarnings(\"unchecked\")</code> annotation silences the compiler warning."
+      }
+    ],
+    "summary": [
+      "Generics allow writing classes, interfaces, and methods that work with any type while maintaining compile-time type safety. They were introduced in Java 5.",
+      "Generic classes use type parameters: class Box<T> { T value; }. Common conventions: T (Type), E (Element), K (Key), V (Value), N (Number).",
+      "Generic methods declare their own type parameters: static <T> T max(T a, T b). The type is inferred from arguments.",
+      "Bounded type parameters restrict types: <T extends Number> limits T to Number and its subclasses. Multiple bounds use &: <T extends Number & Comparable<T>>.",
+      "Wildcards (?) represent unknown types. Unbounded: List<?>. Upper bounded: List<? extends Number>. Lower bounded: List<? super Integer>.",
+      "PECS (Producer Extends, Consumer Super): Use extends when reading from a collection (producer), super when writing to it (consumer). This is the golden rule for wildcard usage.",
+      "Type erasure removes generic type information at runtime. ArrayList<String> and ArrayList<Integer> are both ArrayList at runtime. This limits generics: no new T(), no instanceof with parameterized types, no generic arrays.",
+      "Generics prevent ClassCastException by catching type errors at compile time. Without generics, every retrieval from a collection requires an unsafe cast.",
+      "Generic interfaces (Repository<T>) define type-safe contracts. Implementing classes specify the concrete type.",
+      "Restrictions: No primitive types (use wrappers), no new T(), no T[] creation, no static generic fields, no generic exceptions.",
+      "All Java collections (ArrayList<E>, HashMap<K,V>, HashSet<E>) use generics. Understanding generics is essential for using collections effectively."
+    ]
+  },
+  "relatedTopics": ["collections-framework", "file-handling-in-java"],
+  "practice": {
+    "totalQuestions": 42,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Box&lt;T&gt; {\n    T value;\n    Box(T v) { this.value = v; }\n    T get() { return value; }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Box&lt;String&gt; b = new Box&lt;&gt;(\"Hello\");\n        System.out.println(b.get());\n        System.out.println(b.get().length());\n    }\n}</code></pre>",
+        "hint": "T is String. get() returns a String. No cast needed.",
+        "answer": "<code>Hello</code><br><code>5</code>",
+        "explanation": "<code>Box&lt;String&gt;</code> makes T=String. <code>get()</code> returns \"Hello\" (String). <code>length()</code> returns 5. No casting needed because the compiler knows the type."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Pair&lt;A, B&gt; {\n    A first;\n    B second;\n    Pair(A a, B b) { first = a; second = b; }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Pair&lt;String, Integer&gt; p = new Pair&lt;&gt;(\"Arjun\", 20);\n        System.out.println(p.first);\n        System.out.println(p.second);\n        System.out.println(p.first.getClass().getSimpleName());\n        System.out.println(p.second.getClass().getSimpleName());\n    }\n}</code></pre>",
+        "hint": "A=String, B=Integer. getClass().getSimpleName() returns the class name.",
+        "answer": "<code>Arjun</code><br><code>20</code><br><code>String</code><br><code>Integer</code>",
+        "explanation": "The Pair holds String and Integer. <code>first</code> is \"Arjun\" (String), <code>second</code> is 20 (Integer, auto-boxed). <code>getSimpleName()</code> returns the short class name."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Does this code compile?<br><pre><code>ArrayList&lt;int&gt; list = new ArrayList&lt;&gt;();</code></pre>",
+        "hint": "Can generics use primitive types?",
+        "answer": "No, it does not compile. Compilation error: type argument cannot be a primitive type.",
+        "explanation": "Generics require reference types. <code>int</code> is a primitive. Use <code>ArrayList&lt;Integer&gt;</code> instead. Java autoboxes <code>int</code> to <code>Integer</code> automatically when adding elements."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>public class Main {\n    static &lt;T&gt; T getFirst(T[] array) {\n        return array[0];\n    }\n    public static void main(String[] args) {\n        Integer[] ints = {10, 20, 30};\n        String[] strs = {\"A\", \"B\", \"C\"};\n        System.out.println(getFirst(ints));\n        System.out.println(getFirst(strs));\n    }\n}</code></pre>",
+        "hint": "The generic method infers T from the array type.",
+        "answer": "<code>10</code><br><code>A</code>",
+        "explanation": "For <code>getFirst(ints)</code>, T is inferred as Integer. For <code>getFirst(strs)</code>, T is inferred as String. The method returns the first element of any array type."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>ArrayList&lt;String&gt; a = new ArrayList&lt;&gt;();\nArrayList&lt;Integer&gt; b = new ArrayList&lt;&gt;();\nSystem.out.println(a.getClass() == b.getClass());</code></pre>",
+        "hint": "Due to type erasure, what are these at runtime?",
+        "answer": "<code>true</code>",
+        "explanation": "Due to type erasure, both are <code>ArrayList</code> at runtime. Generic type information is removed after compilation. They have the same class."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class MathBox&lt;T extends Number&gt; {\n    T value;\n    MathBox(T v) { value = v; }\n    double doubleVal() { return value.doubleValue(); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        MathBox&lt;Integer&gt; a = new MathBox&lt;&gt;(42);\n        MathBox&lt;Double&gt; b = new MathBox&lt;&gt;(3.14);\n        System.out.println(a.doubleVal());\n        System.out.println(b.doubleVal());\n    }\n}</code></pre>",
+        "hint": "T extends Number, so doubleValue() is available.",
+        "answer": "<code>42.0</code><br><code>3.14</code>",
+        "explanation": "<code>T extends Number</code> allows calling <code>doubleValue()</code>. For Integer 42, <code>doubleValue()</code> returns 42.0. For Double 3.14, it returns 3.14."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Does this code compile?<br><pre><code>class Box&lt;T&gt; {\n    static T staticField;  // Is this valid?\n}</code></pre>",
+        "hint": "Static fields belong to the class, not to instances. But each instance can have different T.",
+        "answer": "No, it does not compile. Compilation error: cannot make a static reference to the non-static type T.",
+        "explanation": "Static fields are shared across all instances. But <code>Box&lt;String&gt;</code> and <code>Box&lt;Integer&gt;</code> are the same class at runtime (type erasure). A static field of type T would have conflicting types. Hence, static generic fields are forbidden."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import java.util.List;\npublic class Main {\n    static double sum(List&lt;? extends Number&gt; list) {\n        double total = 0;\n        for (Number n : list) total += n.doubleValue();\n        return total;\n    }\n    public static void main(String[] args) {\n        System.out.println(sum(List.of(1, 2, 3)));\n        System.out.println(sum(List.of(1.5, 2.5)));\n    }\n}</code></pre>",
+        "hint": "? extends Number accepts List<Integer> and List<Double>.",
+        "answer": "<code>6.0</code><br><code>4.0</code>",
+        "explanation": "<code>List.of(1, 2, 3)</code> creates a <code>List&lt;Integer&gt;</code>. <code>List.of(1.5, 2.5)</code> creates a <code>List&lt;Double&gt;</code>. Both match <code>? extends Number</code>. Sum of [1,2,3] = 6.0. Sum of [1.5,2.5] = 4.0."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Does this code compile?<br><pre><code>List&lt;? extends Number&gt; list = new ArrayList&lt;Integer&gt;();\nlist.add(42);</code></pre>",
+        "hint": "Can you add elements to a List<? extends Number>?",
+        "answer": "No, it does not compile. Compilation error: cannot add Integer to List<? extends Number>.",
+        "explanation": "<code>List&lt;? extends Number&gt;</code> could be <code>List&lt;Integer&gt;</code>, <code>List&lt;Double&gt;</code>, etc. The compiler cannot guarantee that adding an Integer is safe (what if it is actually a <code>List&lt;Double&gt;</code>?). Extends means read-only (PECS: Producer Extends)."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import java.util.ArrayList;\nimport java.util.List;\npublic class Main {\n    static void addInts(List&lt;? super Integer&gt; list) {\n        list.add(10);\n        list.add(20);\n    }\n    public static void main(String[] args) {\n        List&lt;Number&gt; nums = new ArrayList&lt;&gt;();\n        addInts(nums);\n        System.out.println(nums);\n\n        List&lt;Object&gt; objs = new ArrayList&lt;&gt;();\n        addInts(objs);\n        System.out.println(objs);\n    }\n}</code></pre>",
+        "hint": "? super Integer accepts List<Integer>, List<Number>, and List<Object>.",
+        "answer": "<code>[10, 20]</code><br><code>[10, 20]</code>",
+        "explanation": "<code>? super Integer</code> accepts any list whose element type is Integer or a supertype. <code>List&lt;Number&gt;</code> and <code>List&lt;Object&gt;</code> both qualify. Adding Integers is safe because Integer IS-A Number and IS-A Object."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>public class Main {\n    static &lt;T extends Comparable&lt;T&gt;&gt; T max(T a, T b, T c) {\n        T result = a;\n        if (b.compareTo(result) &gt; 0) result = b;\n        if (c.compareTo(result) &gt; 0) result = c;\n        return result;\n    }\n    public static void main(String[] args) {\n        System.out.println(max(3, 7, 2));\n        System.out.println(max(\"apple\", \"banana\", \"cherry\"));\n        System.out.println(max(3.14, 2.71, 1.41));\n    }\n}</code></pre>",
+        "hint": "The method works for any Comparable type. String comparison is lexicographic.",
+        "answer": "<code>7</code><br><code>cherry</code><br><code>3.14</code>",
+        "explanation": "For integers: max(3, 7, 2) = 7. For strings: lexicographic comparison gives \"cherry\" > \"banana\" > \"apple\". For doubles: 3.14 > 2.71 > 1.41. The generic method works for all Comparable types."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Does this code compile?<br><pre><code>class Container&lt;T&gt; {\n    T create() {\n        return new T();  // ?\n    }\n}</code></pre>",
+        "hint": "What does T become at runtime due to type erasure?",
+        "answer": "No, it does not compile. Compilation error: cannot instantiate the type T.",
+        "explanation": "Due to type erasure, the JVM does not know what <code>T</code> is at runtime. <code>new T()</code> is impossible because the constructor call needs a concrete class. Use a factory pattern (<code>Supplier&lt;T&gt;</code>) as a workaround."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import java.util.*;\npublic class Main {\n    static &lt;T&gt; void copy(List&lt;? extends T&gt; src, List&lt;? super T&gt; dst) {\n        for (T item : src) {\n            dst.add(item);\n        }\n    }\n    public static void main(String[] args) {\n        List&lt;Integer&gt; ints = List.of(1, 2, 3);\n        List&lt;Object&gt; objs = new ArrayList&lt;&gt;();\n        copy(ints, objs);\n        System.out.println(objs);\n    }\n}</code></pre>",
+        "hint": "src is a producer (extends), dst is a consumer (super). T is inferred.",
+        "answer": "<code>[1, 2, 3]</code>",
+        "explanation": "T is inferred as Integer. <code>List&lt;Integer&gt;</code> matches <code>? extends Integer</code> (producer: we read Integers from it). <code>List&lt;Object&gt;</code> matches <code>? super Integer</code> (consumer: we write Integers to it). The integers are copied to the object list."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import java.util.*;\npublic class Main {\n    public static void main(String[] args) {\n        List&lt;String&gt; strings = new ArrayList&lt;&gt;();\n        strings.add(\"A\");\n        strings.add(\"B\");\n\n        List raw = strings;   // Raw type\n        raw.add(100);          // No compile error!\n\n        System.out.println(strings.size());\n\n        for (Object o : strings) {\n            System.out.println(o);\n        }\n    }\n}</code></pre>",
+        "hint": "Raw types bypass generic type checking. What happens when iterating?",
+        "answer": "<code>3</code><br><code>A</code><br><code>B</code><br><code>100</code>",
+        "explanation": "The raw type <code>List</code> bypasses generic safety, allowing <code>add(100)</code> to an allegedly String-only list. The list now contains 2 Strings and 1 Integer. Iterating with <code>Object</code> works, but <code>for (String s : strings)</code> would throw ClassCastException on 100."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class Wrapper&lt;T extends Comparable&lt;T&gt;&gt; {\n    T value;\n    Wrapper(T v) { value = v; }\n\n    boolean isGreater(Wrapper&lt;T&gt; other) {\n        return value.compareTo(other.value) &gt; 0;\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Wrapper&lt;Integer&gt; a = new Wrapper&lt;&gt;(10);\n        Wrapper&lt;Integer&gt; b = new Wrapper&lt;&gt;(5);\n        Wrapper&lt;String&gt; c = new Wrapper&lt;&gt;(\"Hello\");\n        Wrapper&lt;String&gt; d = new Wrapper&lt;&gt;(\"World\");\n\n        System.out.println(a.isGreater(b));\n        System.out.println(b.isGreater(a));\n        System.out.println(c.isGreater(d));\n    }\n}</code></pre>",
+        "hint": "compareTo returns positive if this > other. String comparison is lexicographic.",
+        "answer": "<code>true</code><br><code>false</code><br><code>false</code>",
+        "explanation": "10 > 5 is true. 5 > 10 is false. \"Hello\" vs \"World\": lexicographically 'H' < 'W', so \"Hello\" is NOT greater than \"World\" (false)."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the purpose of generics in Java?",
+        "hint": "Think about type safety and code reuse.",
+        "answer": "Generics provide compile-time type safety and eliminate the need for explicit casting. They allow writing classes and methods that work with any type while catching type errors at compile time instead of runtime. A single generic class (<code>Box&lt;T&gt;</code>) replaces multiple type-specific classes.",
+        "explanation": "Without generics, collections hold Object references, requiring unsafe casting at every retrieval. With generics, the compiler verifies type correctness, preventing ClassCastException at runtime."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is type erasure?",
+        "hint": "Think about what happens to generic type information at runtime.",
+        "answer": "Type erasure is the process by which the Java compiler removes all generic type information during compilation. At runtime, <code>ArrayList&lt;String&gt;</code> and <code>ArrayList&lt;Integer&gt;</code> are both just <code>ArrayList</code>. Generics are a compile-time-only feature.",
+        "explanation": "Type erasure was introduced for backward compatibility with pre-generics code. It means you cannot use instanceof with parameterized types, cannot create T[], and cannot do new T()."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Container&lt;T&gt; {\n    T value;\n    Container(T v) { value = v; }\n    String getType() { return value.getClass().getSimpleName(); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Container&lt;Integer&gt; a = new Container&lt;&gt;(42);\n        Container&lt;String&gt; b = new Container&lt;&gt;(\"Hi\");\n        System.out.println(a.getType());\n        System.out.println(b.getType());\n    }\n}</code></pre>",
+        "hint": "getClass() works on the actual object at runtime.",
+        "answer": "<code>Integer</code><br><code>String</code>",
+        "explanation": "Even though T is erased at runtime, the actual objects (Integer 42, String \"Hi\") retain their class information. <code>getClass().getSimpleName()</code> returns the runtime class name."
+      },
+      {
+        "id": "mx-4",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>List&lt;Object&gt;</code> and <code>List&lt;?&gt;</code>?",
+        "hint": "One accepts any object for add. The other is read-only.",
+        "answer": "<code>List&lt;Object&gt;</code> is a list that holds Objects. You can add any object to it. <code>List&lt;?&gt;</code> is a list of unknown type. You can only read from it (as Object) and cannot add to it (except null). <code>List&lt;String&gt;</code> IS-NOT a <code>List&lt;Object&gt;</code>, but it IS a <code>List&lt;?&gt;</code>.",
+        "explanation": "Generics are invariant: <code>List&lt;String&gt;</code> is not a subtype of <code>List&lt;Object&gt;</code>. But <code>List&lt;String&gt;</code> is a subtype of <code>List&lt;?&gt;</code>. Wildcards provide flexibility that plain parameterized types do not."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Explain the PECS principle with an example.",
+        "hint": "Producer Extends, Consumer Super.",
+        "answer": "PECS stands for Producer Extends, Consumer Super. If a collection produces items (you read from it), use <code>? extends T</code>. If it consumes items (you write to it), use <code>? super T</code>. Example: <code>void copy(List&lt;? extends T&gt; source, List&lt;? super T&gt; dest)</code>. Source produces items (extends), dest consumes them (super).",
+        "explanation": "<code>? extends T</code> guarantees elements are at least T (safe to read as T). <code>? super T</code> guarantees the list accepts T (safe to write T). Using the wrong one causes compilation errors."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Does this compile?<br><pre><code>class Pair&lt;T&gt; {\n    T first, second;\n    Pair(T a, T b) { first = a; second = b; }\n}\n\nPair&lt;Number&gt; p = new Pair&lt;&gt;(1, 2.5);</code></pre>",
+        "hint": "1 is Integer, 2.5 is Double. Both are Number subclasses.",
+        "answer": "Yes, it compiles. T is Number. Integer (1) and Double (2.5) are both subtypes of Number.",
+        "explanation": "When T is explicitly <code>Number</code>, both arguments must be assignable to Number. Integer and Double are both Number subclasses, so they can be passed where Number is expected."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import java.util.*;\npublic class Main {\n    static &lt;T&gt; List&lt;T&gt; merge(List&lt;? extends T&gt; a, List&lt;? extends T&gt; b) {\n        List&lt;T&gt; result = new ArrayList&lt;&gt;();\n        result.addAll(a);\n        result.addAll(b);\n        return result;\n    }\n    public static void main(String[] args) {\n        List&lt;Integer&gt; ints = List.of(1, 2);\n        List&lt;Double&gt; dbls = List.of(3.0, 4.0);\n        List&lt;Number&gt; merged = merge(ints, dbls);\n        System.out.println(merged);\n    }\n}</code></pre>",
+        "hint": "T is inferred as Number (common supertype of Integer and Double).",
+        "answer": "<code>[1, 2, 3.0, 4.0]</code>",
+        "explanation": "T is inferred as Number. <code>List&lt;Integer&gt;</code> matches <code>? extends Number</code>. <code>List&lt;Double&gt;</code> matches <code>? extends Number</code>. Both are read (producers) and merged into a <code>List&lt;Number&gt;</code>."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why can you not create generic arrays like <code>new T[10]</code>?",
+        "hint": "Think about the relationship between arrays and generics at runtime.",
+        "answer": "Arrays carry runtime type information (they are reified and covariant). Generics are erased at runtime. If <code>new T[10]</code> were allowed, the array would be <code>Object[]</code> at runtime, violating the array's type guarantee. This could lead to ArrayStoreException being missed, creating type-unsafe situations.",
+        "explanation": "A <code>String[]</code> at runtime knows it holds Strings and throws ArrayStoreException if you try to store an Integer. A <code>T[]</code> would become <code>Object[]</code> at runtime, losing this safety. Java prevents this inconsistency by disallowing generic array creation."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import java.util.*;\npublic class Main {\n    static void addToList(List&lt;? super Integer&gt; list) {\n        list.add(1);\n        list.add(2);\n    }\n    public static void main(String[] args) {\n        List&lt;Number&gt; nums = new ArrayList&lt;&gt;();\n        nums.add(0.5);  // Double\n        addToList(nums);\n        System.out.println(nums);\n        System.out.println(nums.get(0).getClass().getSimpleName());\n        System.out.println(nums.get(1).getClass().getSimpleName());\n    }\n}</code></pre>",
+        "hint": "List<Number> contains a Double and two Integers after addToList.",
+        "answer": "<code>[0.5, 1, 2]</code><br><code>Double</code><br><code>Integer</code>",
+        "explanation": "The <code>List&lt;Number&gt;</code> starts with 0.5 (Double). <code>addToList</code> adds 1 and 2 (Integers). The list now holds mixed Number subtypes. Each element retains its actual runtime type."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between a bounded type parameter (<code>&lt;T extends Number&gt;</code>) and an upper bounded wildcard (<code>&lt;? extends Number&gt;</code>)?",
+        "hint": "One is used in class/method declarations, the other in method parameters.",
+        "answer": "Bounded type parameters (<code>&lt;T extends Number&gt;</code>) are used in class or method declarations. They give you a named type T that you can reference throughout the class/method. Upper bounded wildcards (<code>&lt;? extends Number&gt;</code>) are used in method parameters when you do not need to reference the specific type. Wildcards provide more flexibility but less control.",
+        "explanation": "Use bounded type parameters when you need to use T in multiple places (return type, multiple parameters). Use wildcards when you just need to accept a range of types in a parameter and do not need to reference the specific type elsewhere."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does <T> represent in a generic class?",
+        "options": [
+          "A specific type called T",
+          "A type parameter placeholder that is replaced by an actual type",
+          "The Thread class",
+          "The Throwable class"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>T</code> is a type parameter (placeholder) that gets replaced by an actual type (like <code>String</code>, <code>Integer</code>) when the generic class is instantiated."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which of these is a valid generic declaration?",
+        "options": [
+          "class Box<int> { }",
+          "class Box<T> { }",
+          "class Box(T) { }",
+          "class Box{T} { }"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Generic type parameters are declared in angle brackets: <code>class Box&lt;T&gt;</code>. Primitive types (int) cannot be used. Parentheses and braces are invalid syntax."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Why were generics introduced in Java?",
+        "options": [
+          "To make code run faster",
+          "To provide compile-time type safety and eliminate casting",
+          "To allow multiple inheritance",
+          "To replace arrays"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Generics provide compile-time type safety (catching type errors before runtime) and eliminate the need for explicit casting when retrieving elements from collections."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What happens to generic type information at runtime?",
+        "options": [
+          "It is preserved for instanceof checks",
+          "It is erased (type erasure)",
+          "It is stored in a metadata file",
+          "It is converted to primitive types"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Java uses type erasure: all generic type parameters are replaced by Object (or the bound) at compile time. No generic type information exists at runtime."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "What does <code>? extends Number</code> mean in a method parameter?",
+        "options": [
+          "Exactly Number",
+          "Number or any subclass of Number",
+          "Number or any superclass of Number",
+          "Any type that has a method called extends"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>? extends Number</code> is an upper bounded wildcard. It accepts Number or any subclass (Integer, Double, Long, etc.). You can read from such a collection but not write to it."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does <code>? super Integer</code> mean?",
+        "options": [
+          "Exactly Integer",
+          "Integer or any subclass of Integer",
+          "Integer or any superclass of Integer",
+          "Any type except Integer"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>? super Integer</code> is a lower bounded wildcard. It accepts Integer or any superclass (Number, Object). You can write Integers to such a collection."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does PECS stand for?",
+        "options": [
+          "Polymorphism Encapsulation Class Subtype",
+          "Producer Extends Consumer Super",
+          "Parameter Extension Casting System",
+          "Private Enum Class Static"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> PECS: Producer Extends, Consumer Super. Use <code>extends</code> when reading from a collection (it produces items). Use <code>super</code> when writing to it (it consumes items)."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which of these is NOT allowed with generics?",
+        "options": [
+          "Generic classes",
+          "Generic methods",
+          "Generic arrays (new T[])",
+          "Generic interfaces"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Generic array creation (<code>new T[]</code>) is not allowed because arrays carry runtime type information (reified) while generics are erased. This would create a type safety hole."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Hard",
+        "question": "Is <code>List&lt;String&gt;</code> a subtype of <code>List&lt;Object&gt;</code>?",
+        "options": [
+          "Yes, because String extends Object",
+          "No, generics are invariant",
+          "Only with wildcards",
+          "Depends on the JVM version"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Generics are invariant. <code>List&lt;String&gt;</code> is NOT a <code>List&lt;Object&gt;</code>, even though String extends Object. If it were, you could add an Integer to a String list through the Object reference. Use <code>List&lt;? extends Object&gt;</code> for covariance."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "What is the purpose of <code>&lt;T extends Number &amp; Comparable&lt;T&gt;&gt;</code>?",
+        "options": [
+          "T must extend Number OR implement Comparable",
+          "T must extend Number AND implement Comparable",
+          "T must be exactly Number",
+          "This is invalid syntax"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Multiple bounds use <code>&amp;</code> (not <code>|</code>). T must satisfy ALL bounds: extend Number AND implement Comparable. The class bound must come first, followed by interface bounds."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "Can you overload methods that differ only in generic type parameters?",
+        "options": [
+          "Yes, they are different methods",
+          "No, due to type erasure they become the same method",
+          "Only if the return types differ",
+          "Only in Java 17+"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>void process(List&lt;String&gt; list)</code> and <code>void process(List&lt;Integer&gt; list)</code> cannot coexist. After type erasure, both become <code>void process(List list)</code>, which is a duplicate method definition."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "Which is a valid restriction of generics?",
+        "options": [
+          "Cannot use generic types in loops",
+          "Cannot create instances of type parameters (new T())",
+          "Cannot have more than one type parameter",
+          "Cannot use generics with interfaces"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>new T()</code> is illegal because the JVM does not know what T is at runtime (type erasure). Multiple type parameters (<code>Map&lt;K,V&gt;</code>) and generic interfaces are fully supported."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Generic Stack",
+        "difficulty": "Easy",
+        "description": "Implement a generic Stack<T> using an ArrayList internally. It should support push(T), pop(), peek(), isEmpty(), and size(). Test with Integer and String stacks.",
+        "sampleInput": "Push 10, 20, 30. Pop twice.",
+        "sampleOutput": "Stack: [10, 20, 30]\nPop: 30\nPop: 20\nPeek: 10\nSize: 1",
+        "constraints": "Use generics. Handle empty stack with IllegalStateException.",
+        "solution": "import java.util.ArrayList;\n\nclass Stack<T> {\n    private ArrayList<T> items = new ArrayList<>();\n    void push(T item) { items.add(item); }\n    T pop() {\n        if (isEmpty()) throw new IllegalStateException(\"Stack is empty\");\n        return items.remove(items.size() - 1);\n    }\n    T peek() {\n        if (isEmpty()) throw new IllegalStateException(\"Stack is empty\");\n        return items.get(items.size() - 1);\n    }\n    boolean isEmpty() { return items.isEmpty(); }\n    int size() { return items.size(); }\n    @Override\n    public String toString() { return items.toString(); }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Stack<Integer> stack = new Stack<>();\n        stack.push(10);\n        stack.push(20);\n        stack.push(30);\n        System.out.println(\"Stack: \" + stack);\n        System.out.println(\"Pop: \" + stack.pop());\n        System.out.println(\"Pop: \" + stack.pop());\n        System.out.println(\"Peek: \" + stack.peek());\n        System.out.println(\"Size: \" + stack.size());\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Generic Pair with Swap",
+        "difficulty": "Easy",
+        "description": "Create a generic Pair<A, B> class with methods getFirst(), getSecond(), and swap() that returns a new Pair<B, A> with swapped types. Test with Pair<String, Integer>.",
+        "sampleInput": "Pair('Arjun', 20)",
+        "sampleOutput": "Original: (Arjun, 20)\nSwapped: (20, Arjun)",
+        "constraints": "swap() must return a new Pair with swapped type parameters.",
+        "solution": "class Pair<A, B> {\n    A first;\n    B second;\n    Pair(A a, B b) { first = a; second = b; }\n    A getFirst() { return first; }\n    B getSecond() { return second; }\n    Pair<B, A> swap() { return new Pair<>(second, first); }\n    @Override\n    public String toString() { return \"(\" + first + \", \" + second + \")\"; }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Pair<String, Integer> p = new Pair<>(\"Arjun\", 20);\n        System.out.println(\"Original: \" + p);\n        Pair<Integer, String> swapped = p.swap();\n        System.out.println(\"Swapped: \" + swapped);\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Generic Min/Max Finder",
+        "difficulty": "Medium",
+        "description": "Write generic methods min() and max() that find the minimum and maximum elements in a List<T extends Comparable<T>>. Also write a range() method that returns a Pair<T,T> of (min, max). Test with Integer and String lists.",
+        "sampleInput": "List: [30, 10, 50, 20, 40]",
+        "sampleOutput": "Min: 10, Max: 50\nRange: (10, 50)\nString min: Apple, max: Cherry",
+        "constraints": "Use bounded type parameters with Comparable.",
+        "solution": "import java.util.List;\n\nclass Pair<A, B> {\n    A first; B second;\n    Pair(A a, B b) { first = a; second = b; }\n    @Override\n    public String toString() { return \"(\" + first + \", \" + second + \")\"; }\n}\n\npublic class Main {\n    static <T extends Comparable<T>> T min(List<T> list) {\n        T result = list.get(0);\n        for (T item : list) {\n            if (item.compareTo(result) < 0) result = item;\n        }\n        return result;\n    }\n    static <T extends Comparable<T>> T max(List<T> list) {\n        T result = list.get(0);\n        for (T item : list) {\n            if (item.compareTo(result) > 0) result = item;\n        }\n        return result;\n    }\n    static <T extends Comparable<T>> Pair<T, T> range(List<T> list) {\n        return new Pair<>(min(list), max(list));\n    }\n    public static void main(String[] args) {\n        var nums = List.of(30, 10, 50, 20, 40);\n        System.out.println(\"Min: \" + min(nums) + \", Max: \" + max(nums));\n        System.out.println(\"Range: \" + range(nums));\n        var strs = List.of(\"Banana\", \"Apple\", \"Cherry\");\n        System.out.println(\"String min: \" + min(strs) + \", max: \" + max(strs));\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Generic Filter Method",
+        "difficulty": "Medium",
+        "description": "Write a generic method filter(List<T> list, Predicate<T> condition) that returns a new list containing only elements that satisfy the condition. Test with filtering even numbers and strings longer than 3 characters.",
+        "sampleInput": "Numbers: [1,2,3,4,5,6], Strings: ['Hi','Hello','Hey','Howdy']",
+        "sampleOutput": "Even numbers: [2, 4, 6]\nLong strings: [Hello, Howdy]",
+        "constraints": "Use generics and Predicate functional interface.",
+        "solution": "import java.util.*;\nimport java.util.function.Predicate;\n\npublic class Main {\n    static <T> List<T> filter(List<T> list, Predicate<T> condition) {\n        List<T> result = new ArrayList<>();\n        for (T item : list) {\n            if (condition.test(item)) result.add(item);\n        }\n        return result;\n    }\n    public static void main(String[] args) {\n        List<Integer> nums = List.of(1, 2, 3, 4, 5, 6);\n        System.out.println(\"Even numbers: \" + filter(nums, n -> n % 2 == 0));\n\n        List<String> strs = List.of(\"Hi\", \"Hello\", \"Hey\", \"Howdy\");\n        System.out.println(\"Long strings: \" + filter(strs, s -> s.length() > 3));\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Generic Transform (Map) Method",
+        "difficulty": "Hard",
+        "description": "Write a generic method transform(List<T> list, Function<T, R> mapper) that applies a transformation function to each element and returns a List<R>. Test with: numbers to their squares, strings to their lengths, students to their names.",
+        "sampleInput": "Numbers: [1,2,3,4], Strings: ['Java','Go','Python']",
+        "sampleOutput": "Squares: [1, 4, 9, 16]\nLengths: [4, 2, 6]",
+        "constraints": "Use two type parameters T and R. Use Function<T,R> interface.",
+        "solution": "import java.util.*;\nimport java.util.function.Function;\n\npublic class Main {\n    static <T, R> List<R> transform(List<T> list, Function<T, R> mapper) {\n        List<R> result = new ArrayList<>();\n        for (T item : list) {\n            result.add(mapper.apply(item));\n        }\n        return result;\n    }\n    public static void main(String[] args) {\n        List<Integer> nums = List.of(1, 2, 3, 4);\n        System.out.println(\"Squares: \" + transform(nums, n -> n * n));\n\n        List<String> strs = List.of(\"Java\", \"Go\", \"Python\");\n        System.out.println(\"Lengths: \" + transform(strs, String::length));\n\n        System.out.println(\"Uppercase: \" + transform(strs, String::toUpperCase));\n    }\n}"
+      }
+    ]
+  }
+}

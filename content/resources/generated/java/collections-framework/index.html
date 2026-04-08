@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections Framework - List, Set, Map - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Work with ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap, and understand the Collections hierarchy.">
+    <meta name="keywords" content="collections framework - list, set, map, java tutorial, java collections framework - list, set, map, learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/collections-framework">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/collections-framework">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/collections-framework">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/collections-framework">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/collections-framework">
+    <meta property="og:title" content="Collections Framework - List, Set, Map - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Work with ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap, and understand the Collections hierarchy.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/collections-framework">
+    <meta name="twitter:title" content="Collections Framework - List, Set, Map - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Work with ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap, and understand the Collections hierarchy.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Collections Framework - List, Set, Map",
+    "description": "Work with ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap, and understand the Collections hierarchy.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/collections-framework"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/collections-framework"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Collections Framework - List, Set, Map",
+        "item": "https://learn.modernagecoders.com/resources/java/collections-framework"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Removing Elements During for-each Loop",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Modifying a collection during a for-each loop causes <code>ConcurrentModificationException</code>. Use <code>Iterator.remove()</code> or <code>list.removeIf()</code> (Java 8) for safe removal during iteration."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using ArrayList<int> Instead of ArrayList<Integer>",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Generics do not work with primitive types. Use wrapper classes: <code>Integer</code> for <code>int</code>, <code>Double</code> for <code>double</code>, <code>Character</code> for <code>char</code>, etc. Java autoboxes and unboxes automatically."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Overriding hashCode When Overriding equals",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "HashSet uses <code>hashCode()</code> to find the bucket and <code>equals()</code> to check for duplicates. If you override <code>equals()</code> without overriding <code>hashCode()</code>, equal objects may land in different buckets, and the set fails to detect duplicates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing HashMap.remove(key) with ArrayList.remove(index/object)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For <code>ArrayList&lt;Integer&gt;</code>, <code>remove(1)</code> calls <code>remove(int index)</code> (removes at index 1), not <code>remove(Object)</code>. To remove by value, use <code>remove(Integer.valueOf(20))</code>."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Collections Framework - List, Set, Map</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 19</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">50 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-08</span>
+            </div>
+            <h1 class="resource-title">Collections Framework - List, Set, Map</h1>
+            <a href="/resources/java/collections-framework/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is the Collections Framework?</h2><p>The <strong>Java Collections Framework</strong> is a unified architecture for representing and manipulating groups of objects. It provides interfaces, implementations, and algorithms that let you store, retrieve, and process data efficiently.</p><p>Before collections, Java developers used arrays, <code>Vector</code>, and <code>Hashtable</code>, which were inconsistent in design and limited in functionality. The Collections Framework (introduced in Java 2) provides a clean, consistent API for all data structure needs.</p><pre><code>// Array: fixed size, primitive types allowed
+int[] arr = new int[5];
+
+// Collections: dynamic size, objects only
+ArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;();
+list.add(10);
+list.add(20);
+list.add(30);
+System.out.println(list);  // [10, 20, 30]</code></pre><h3>The Collection Hierarchy</h3><pre><code>java.lang.Iterable
+  └── java.util.Collection
+        ├── List (ordered, duplicates allowed)
+        │     ├── ArrayList
+        │     ├── LinkedList
+        │     └── Vector (legacy)
+        ├── Set (no duplicates)
+        │     ├── HashSet (unordered)
+        │     ├── LinkedHashSet (insertion order)
+        │     └── TreeSet (sorted)
+        └── Queue (FIFO)
+              ├── LinkedList
+              └── PriorityQueue
+
+java.util.Map (NOT part of Collection interface)
+  ├── HashMap (unordered)
+  ├── LinkedHashMap (insertion order)
+  ├── TreeMap (sorted by keys)
+  └── Hashtable (legacy)</code></pre><p><code>Map</code> is separate from <code>Collection</code> because it stores key-value pairs, not single elements. But it is considered part of the Collections Framework.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Does the Collections Framework Matter?</h2><p>The Collections Framework is used in virtually every Java application. Understanding it is essential for writing efficient, clean code and for clearing any Java interview.</p><h3>1. Dynamic Size</h3><p>Arrays have a fixed size determined at creation. Collections grow and shrink dynamically. When Arjun does not know how many students will register, an <code>ArrayList</code> adapts automatically.</p><h3>2. Rich Operations</h3><p>Collections provide built-in methods for searching, sorting, filtering, and transforming data. Instead of writing a search algorithm from scratch, Kavya uses <code>list.contains()</code>, <code>Collections.sort()</code>, or <code>map.get(key)</code>.</p><h3>3. Type Safety with Generics</h3><p>Generic collections (<code>ArrayList&lt;String&gt;</code>) prevent type errors at compile time. Without generics, a list could hold any object, and casting would be required at every retrieval, risking <code>ClassCastException</code>.</p><h3>4. Choosing the Right Data Structure</h3><p>Different problems need different data structures. Need fast lookup by key? Use <code>HashMap</code>. Need unique elements? Use <code>HashSet</code>. Need sorted data? Use <code>TreeSet</code> or <code>TreeMap</code>. Understanding when to use which is a core interview skill.</p><h3>5. Interoperability</h3><p>All collections implement common interfaces (<code>Collection</code>, <code>List</code>, <code>Set</code>). Code that accepts <code>List</code> works with <code>ArrayList</code>, <code>LinkedList</code>, or any future implementation. This is polymorphism in action.</p><h3>6. Interview and Placement Importance</h3><p>Collections questions are among the most frequently asked in Java interviews. "ArrayList vs LinkedList", "HashMap internals", "how HashSet ensures uniqueness", and "when to use TreeMap" are standard placement questions.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. ArrayList</h3><p><code>ArrayList</code> is a dynamic array. It stores elements in a contiguous memory block, grows automatically when needed (typically by 50%), and provides fast random access by index.</p><pre><code>import java.util.ArrayList;
+
+ArrayList&lt;String&gt; names = new ArrayList&lt;&gt;();
+
+// Adding elements
+names.add("Arjun");          // Appends to end
+names.add("Kavya");          // [Arjun, Kavya]
+names.add(0, "Ravi");        // Insert at index 0: [Ravi, Arjun, Kavya]
+
+// Accessing elements
+String first = names.get(0); // Ravi
+int size = names.size();     // 3
+
+// Modifying elements
+names.set(1, "Priya");       // Replace at index 1: [Ravi, Priya, Kavya]
+
+// Removing elements
+names.remove(0);             // Remove by index: [Priya, Kavya]
+names.remove("Kavya");       // Remove by value: [Priya]
+
+// Searching
+boolean has = names.contains("Priya");  // true
+int idx = names.indexOf("Priya");       // 0
+
+// Checking empty
+boolean empty = names.isEmpty();  // false</code></pre><p><strong>Time complexity:</strong> <code>get(i)</code> O(1), <code>add(e)</code> amortized O(1), <code>add(i, e)</code> O(n), <code>remove(i)</code> O(n), <code>contains()</code> O(n).</p><h3>2. LinkedList</h3><p><code>LinkedList</code> is a doubly-linked list. Each element (node) holds a reference to the previous and next node. It implements both <code>List</code> and <code>Deque</code> interfaces.</p><pre><code>import java.util.LinkedList;
+
+LinkedList&lt;String&gt; list = new LinkedList&lt;&gt;();
+list.add("Arjun");
+list.add("Kavya");
+
+// LinkedList-specific methods
+list.addFirst("First");      // [First, Arjun, Kavya]
+list.addLast("Last");        // [First, Arjun, Kavya, Last]
+String f = list.getFirst();  // First
+String l = list.getLast();   // Last
+list.removeFirst();          // [Arjun, Kavya, Last]
+list.removeLast();           // [Arjun, Kavya]</code></pre><p><strong>ArrayList vs LinkedList:</strong></p><table><tr><th>Operation</th><th>ArrayList</th><th>LinkedList</th></tr><tr><td>Random access (get)</td><td>O(1)</td><td>O(n)</td></tr><tr><td>Add at end</td><td>O(1) amortized</td><td>O(1)</td></tr><tr><td>Add/remove at beginning</td><td>O(n)</td><td>O(1)</td></tr><tr><td>Add/remove in middle</td><td>O(n)</td><td>O(1) if at node</td></tr><tr><td>Memory</td><td>Less (contiguous)</td><td>More (node + 2 pointers)</td></tr></table><p>Use <code>ArrayList</code> for most cases (random access is common). Use <code>LinkedList</code> only when you frequently add/remove from the beginning or need a queue/deque.</p><h3>3. HashSet</h3><p><code>HashSet</code> stores unique elements with no guaranteed order. It uses a hash table internally (backed by <code>HashMap</code>).</p><pre><code>import java.util.HashSet;
+
+HashSet&lt;String&gt; set = new HashSet&lt;&gt;();
+set.add("Arjun");
+set.add("Kavya");
+set.add("Ravi");
+set.add("Arjun");  // Duplicate! Not added.
+
+System.out.println(set);             // [Kavya, Ravi, Arjun] (order may vary)
+System.out.println(set.size());      // 3
+System.out.println(set.contains("Ravi"));  // true
+
+set.remove("Ravi");
+System.out.println(set);             // [Kavya, Arjun]</code></pre><p><strong>How uniqueness works:</strong> When you add an element, Java calls <code>hashCode()</code> to find the bucket, then <code>equals()</code> to check for duplicates in that bucket. If <code>equals()</code> returns true, the element is rejected.</p><p><strong>hashCode/equals contract:</strong> If two objects are <code>equal()</code>, they must have the same <code>hashCode()</code>. If you override <code>equals()</code>, you must override <code>hashCode()</code>.</p><h3>4. TreeSet</h3><p><code>TreeSet</code> stores unique elements in sorted order. It uses a Red-Black tree internally.</p><pre><code>import java.util.TreeSet;
+
+TreeSet&lt;Integer&gt; ts = new TreeSet&lt;&gt;();
+ts.add(30);
+ts.add(10);
+ts.add(50);
+ts.add(20);
+
+System.out.println(ts);         // [10, 20, 30, 50] (sorted)
+System.out.println(ts.first()); // 10
+System.out.println(ts.last());  // 50</code></pre><p>Elements must implement <code>Comparable</code>, or you must provide a <code>Comparator</code> to the TreeSet constructor.</p><h3>5. HashMap</h3><p><code>HashMap</code> stores key-value pairs. Keys are unique; values can be duplicated. No guaranteed order.</p><pre><code>import java.util.HashMap;
+
+HashMap&lt;String, Integer&gt; marks = new HashMap&lt;&gt;();
+
+// Adding entries
+marks.put("Arjun", 85);
+marks.put("Kavya", 92);
+marks.put("Ravi", 78);
+
+// Accessing
+int score = marks.get("Arjun");     // 85
+boolean has = marks.containsKey("Kavya");  // true
+boolean hasVal = marks.containsValue(92);  // true
+int size = marks.size();             // 3
+
+// Updating (put with existing key replaces value)
+marks.put("Arjun", 90);  // Arjun's score updated to 90
+
+// Default value
+int def = marks.getOrDefault("Priya", 0);  // 0 (not found)
+
+// Removing
+marks.remove("Ravi");  // Removes Ravi
+
+// Iterating
+for (String key : marks.keySet()) {
+    System.out.println(key + ": " + marks.get(key));
+}
+
+for (var entry : marks.entrySet()) {
+    System.out.println(entry.getKey() + " = " + entry.getValue());
+}</code></pre><p><strong>Time complexity:</strong> <code>put</code>, <code>get</code>, <code>remove</code>, <code>containsKey</code> are all O(1) average case.</p><h3>6. TreeMap</h3><p><code>TreeMap</code> stores key-value pairs sorted by keys:</p><pre><code>import java.util.TreeMap;
+
+TreeMap&lt;String, Integer&gt; tm = new TreeMap&lt;&gt;();
+tm.put("Ravi", 78);
+tm.put("Arjun", 85);
+tm.put("Kavya", 92);
+
+System.out.println(tm);           // {Arjun=85, Kavya=92, Ravi=78} (sorted by key)
+System.out.println(tm.firstKey()); // Arjun
+System.out.println(tm.lastKey());  // Ravi</code></pre><h3>7. LinkedHashMap</h3><p><code>LinkedHashMap</code> maintains insertion order (the order in which entries were added):</p><pre><code>import java.util.LinkedHashMap;
+
+LinkedHashMap&lt;String, Integer&gt; lhm = new LinkedHashMap&lt;&gt;();
+lhm.put("Ravi", 78);
+lhm.put("Arjun", 85);
+lhm.put("Kavya", 92);
+
+System.out.println(lhm);  // {Ravi=78, Arjun=85, Kavya=92} (insertion order)</code></pre><h3>8. Iterator and for-each</h3><p>All collections are <code>Iterable</code>, supporting for-each loops and explicit iterators:</p><pre><code>ArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();
+list.add("A");
+list.add("B");
+list.add("C");
+
+// For-each loop
+for (String s : list) {
+    System.out.println(s);
+}
+
+// Iterator (allows removal during iteration)
+import java.util.Iterator;
+Iterator&lt;String&gt; it = list.iterator();
+while (it.hasNext()) {
+    String s = it.next();
+    if (s.equals("B")) {
+        it.remove();  // Safe removal during iteration
+    }
+}
+System.out.println(list);  // [A, C]</code></pre><p>Using <code>list.remove()</code> inside a for-each loop throws <code>ConcurrentModificationException</code>. Use <code>Iterator.remove()</code> instead.</p><h3>9. Collections Utility Class</h3><p><code>java.util.Collections</code> provides static utility methods:</p><pre><code>import java.util.Collections;
+import java.util.ArrayList;
+
+ArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;();
+list.add(30);
+list.add(10);
+list.add(50);
+list.add(20);
+
+Collections.sort(list);        // [10, 20, 30, 50]
+Collections.reverse(list);     // [50, 30, 20, 10]
+Collections.shuffle(list);     // Random order
+int min = Collections.min(list);  // Minimum element
+int max = Collections.max(list);  // Maximum element
+
+// Unmodifiable list
+var immutable = Collections.unmodifiableList(list);
+// immutable.add(100);  // UnsupportedOperationException</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">ArrayList: Complete Operations</div><pre><code class="language-python">import java.util.ArrayList;
+import java.util.Collections;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList&lt;String&gt; students = new ArrayList&lt;&gt;();
+
+        // Add
+        students.add(&quot;Arjun&quot;);
+        students.add(&quot;Kavya&quot;);
+        students.add(&quot;Ravi&quot;);
+        students.add(&quot;Priya&quot;);
+        System.out.println(&quot;Initial: &quot; + students);
+
+        // Insert at index
+        students.add(1, &quot;Deepak&quot;);
+        System.out.println(&quot;After insert: &quot; + students);
+
+        // Access and modify
+        System.out.println(&quot;Element at 0: &quot; + students.get(0));
+        students.set(2, &quot;Meera&quot;);
+        System.out.println(&quot;After set: &quot; + students);
+
+        // Search
+        System.out.println(&quot;Contains Ravi? &quot; + students.contains(&quot;Ravi&quot;));
+        System.out.println(&quot;Index of Meera: &quot; + students.indexOf(&quot;Meera&quot;));
+
+        // Remove
+        students.remove(0);
+        students.remove(&quot;Priya&quot;);
+        System.out.println(&quot;After remove: &quot; + students);
+
+        // Sort
+        Collections.sort(students);
+        System.out.println(&quot;Sorted: &quot; + students);
+
+        // Size and isEmpty
+        System.out.println(&quot;Size: &quot; + students.size());
+        System.out.println(&quot;Empty? &quot; + students.isEmpty());
+    }
+}</code></pre><div class="code-example-explanation">This demonstrates all major ArrayList operations: adding (append and insert), accessing by index, modifying with set, searching with contains/indexOf, removing by index and value, and sorting with Collections.sort.</div><div class="code-example-output">Initial: [Arjun, Kavya, Ravi, Priya]
+After insert: [Arjun, Deepak, Kavya, Ravi, Priya]
+Element at 0: Arjun
+After set: [Arjun, Deepak, Meera, Ravi, Priya]
+Contains Ravi? true
+Index of Meera: 2
+After remove: [Deepak, Meera, Ravi]
+Sorted: [Deepak, Meera, Ravi]
+Size: 3
+Empty? false</div></div>
+<div class="code-example"><div class="code-example-title">HashSet: Uniqueness and Set Operations</div><pre><code class="language-python">import java.util.HashSet;
+import java.util.TreeSet;
+
+public class Main {
+    public static void main(String[] args) {
+        HashSet&lt;String&gt; set = new HashSet&lt;&gt;();
+        set.add(&quot;Java&quot;);
+        set.add(&quot;Python&quot;);
+        set.add(&quot;Java&quot;);      // Duplicate, not added
+        set.add(&quot;JavaScript&quot;);
+        set.add(&quot;Python&quot;);    // Duplicate, not added
+
+        System.out.println(&quot;HashSet: &quot; + set);
+        System.out.println(&quot;Size: &quot; + set.size());
+        System.out.println(&quot;Contains Java? &quot; + set.contains(&quot;Java&quot;));
+
+        // Set operations
+        HashSet&lt;String&gt; backend = new HashSet&lt;&gt;();
+        backend.add(&quot;Java&quot;);
+        backend.add(&quot;Python&quot;);
+        backend.add(&quot;Go&quot;);
+
+        HashSet&lt;String&gt; frontend = new HashSet&lt;&gt;();
+        frontend.add(&quot;JavaScript&quot;);
+        frontend.add(&quot;Python&quot;);
+        frontend.add(&quot;TypeScript&quot;);
+
+        // Union
+        HashSet&lt;String&gt; union = new HashSet&lt;&gt;(backend);
+        union.addAll(frontend);
+        System.out.println(&quot;Union: &quot; + union);
+
+        // Intersection
+        HashSet&lt;String&gt; intersection = new HashSet&lt;&gt;(backend);
+        intersection.retainAll(frontend);
+        System.out.println(&quot;Intersection: &quot; + intersection);
+
+        // Difference
+        HashSet&lt;String&gt; difference = new HashSet&lt;&gt;(backend);
+        difference.removeAll(frontend);
+        System.out.println(&quot;Backend - Frontend: &quot; + difference);
+
+        // TreeSet (sorted)
+        TreeSet&lt;String&gt; sorted = new TreeSet&lt;&gt;(set);
+        System.out.println(&quot;Sorted: &quot; + sorted);
+    }
+}</code></pre><div class="code-example-explanation">HashSet rejects duplicates silently (add returns false). Set operations like union (addAll), intersection (retainAll), and difference (removeAll) work on copies to preserve originals. TreeSet sorts the elements.</div><div class="code-example-output">HashSet: [Java, JavaScript, Python]
+Size: 3
+Contains Java? true
+Union: [Java, TypeScript, JavaScript, Go, Python]
+Intersection: [Python]
+Backend - Frontend: [Java, Go]
+Sorted: [Java, JavaScript, Python]</div></div>
+<div class="code-example"><div class="code-example-title">HashMap: Key-Value Operations</div><pre><code class="language-python">import java.util.HashMap;
+import java.util.Map;
+
+public class Main {
+    public static void main(String[] args) {
+        HashMap&lt;String, Integer&gt; marks = new HashMap&lt;&gt;();
+
+        // Put entries
+        marks.put(&quot;Arjun&quot;, 85);
+        marks.put(&quot;Kavya&quot;, 92);
+        marks.put(&quot;Ravi&quot;, 78);
+        marks.put(&quot;Priya&quot;, 88);
+        System.out.println(&quot;Marks: &quot; + marks);
+
+        // Get and getOrDefault
+        System.out.println(&quot;Arjun: &quot; + marks.get(&quot;Arjun&quot;));
+        System.out.println(&quot;Unknown: &quot; + marks.getOrDefault(&quot;Unknown&quot;, 0));
+
+        // Update (put with existing key)
+        marks.put(&quot;Arjun&quot;, 90);
+        System.out.println(&quot;After update: &quot; + marks.get(&quot;Arjun&quot;));
+
+        // Check existence
+        System.out.println(&quot;Has Kavya? &quot; + marks.containsKey(&quot;Kavya&quot;));
+        System.out.println(&quot;Has value 78? &quot; + marks.containsValue(78));
+
+        // Iterate with entrySet
+        System.out.println(&quot;\nAll entries:&quot;);
+        for (Map.Entry&lt;String, Integer&gt; entry : marks.entrySet()) {
+            System.out.println(&quot;  &quot; + entry.getKey() + &quot; -&gt; &quot; + entry.getValue());
+        }
+
+        // Keys and values
+        System.out.println(&quot;Keys: &quot; + marks.keySet());
+        System.out.println(&quot;Values: &quot; + marks.values());
+
+        // Remove
+        marks.remove(&quot;Ravi&quot;);
+        System.out.println(&quot;After remove: &quot; + marks);
+    }
+}</code></pre><div class="code-example-explanation">HashMap stores key-value pairs. Keys must be unique; putting an existing key replaces the value. <code>getOrDefault</code> avoids null when a key is not found. <code>entrySet()</code> provides both key and value for iteration.</div><div class="code-example-output">Marks: {Arjun=85, Kavya=92, Ravi=78, Priya=88}
+Arjun: 85
+Unknown: 0
+After update: 90
+Has Kavya? true
+Has value 78? true
+
+All entries:
+  Arjun -&gt; 90
+  Kavya -&gt; 92
+  Ravi -&gt; 78
+  Priya -&gt; 88
+Keys: [Arjun, Kavya, Ravi, Priya]
+Values: [90, 92, 78, 88]
+After remove: {Arjun=90, Kavya=92, Priya=88}</div></div>
+<div class="code-example"><div class="code-example-title">Word Frequency Counter with HashMap</div><pre><code class="language-python">import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class Main {
+    public static void main(String[] args) {
+        String text = &quot;java is great java is powerful and java is everywhere&quot;;
+        String[] words = text.split(&quot; &quot;);
+
+        // Count word frequencies
+        HashMap&lt;String, Integer&gt; freq = new HashMap&lt;&gt;();
+        for (String word : words) {
+            freq.put(word, freq.getOrDefault(word, 0) + 1);
+        }
+        System.out.println(&quot;Frequencies: &quot; + freq);
+
+        // Find the most frequent word
+        String maxWord = &quot;&quot;;
+        int maxCount = 0;
+        for (Map.Entry&lt;String, Integer&gt; entry : freq.entrySet()) {
+            if (entry.getValue() &gt; maxCount) {
+                maxCount = entry.getValue();
+                maxWord = entry.getKey();
+            }
+        }
+        System.out.println(&quot;Most frequent: \&quot;&quot; + maxWord + &quot;\&quot; (&quot; + maxCount + &quot; times)&quot;);
+
+        // Sorted by word (alphabetical)
+        TreeMap&lt;String, Integer&gt; sorted = new TreeMap&lt;&gt;(freq);
+        System.out.println(&quot;Sorted: &quot; + sorted);
+    }
+}</code></pre><div class="code-example-explanation">A classic interview problem. <code>getOrDefault(word, 0) + 1</code> increments the count (or starts at 1). Iterating <code>entrySet()</code> finds the maximum. <code>TreeMap</code> sorts by key for alphabetical output.</div><div class="code-example-output">Frequencies: {java=3, is=3, great=1, powerful=1, and=1, everywhere=1}
+Most frequent: &quot;java&quot; (3 times)
+Sorted: {and=1, everywhere=1, great=1, is=3, java=3, powerful=1}</div></div>
+<div class="code-example"><div class="code-example-title">Iterator: Safe Removal During Iteration</div><pre><code class="language-python">import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList&lt;Integer&gt; numbers = new ArrayList&lt;&gt;();
+        for (int i = 1; i &lt;= 10; i++) {
+            numbers.add(i);
+        }
+        System.out.println(&quot;Original: &quot; + numbers);
+
+        // Remove even numbers using Iterator
+        Iterator&lt;Integer&gt; it = numbers.iterator();
+        while (it.hasNext()) {
+            int num = it.next();
+            if (num % 2 == 0) {
+                it.remove();  // Safe removal
+            }
+        }
+        System.out.println(&quot;Odd only: &quot; + numbers);
+
+        // What NOT to do:
+        ArrayList&lt;Integer&gt; list2 = new ArrayList&lt;&gt;();
+        list2.add(1);
+        list2.add(2);
+        list2.add(3);
+        try {
+            for (int n : list2) {
+                if (n == 2) {
+                    list2.remove(Integer.valueOf(2));  // ConcurrentModificationException!
+                }
+            }
+        } catch (java.util.ConcurrentModificationException e) {
+            System.out.println(&quot;ConcurrentModificationException caught!&quot;);
+        }
+    }
+}</code></pre><div class="code-example-explanation">Use <code>Iterator.remove()</code> to safely remove elements during iteration. Using <code>list.remove()</code> inside a for-each loop causes <code>ConcurrentModificationException</code> because the underlying structure changes during iteration.</div><div class="code-example-output">Original: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Odd only: [1, 3, 5, 7, 9]
+ConcurrentModificationException caught!</div></div>
+<div class="code-example"><div class="code-example-title">Collections Utility Class</div><pre><code class="language-python">import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList&lt;Integer&gt; numbers = new ArrayList&lt;&gt;();
+        numbers.add(40);
+        numbers.add(10);
+        numbers.add(50);
+        numbers.add(20);
+        numbers.add(30);
+
+        System.out.println(&quot;Original: &quot; + numbers);
+
+        Collections.sort(numbers);
+        System.out.println(&quot;Sorted: &quot; + numbers);
+
+        Collections.reverse(numbers);
+        System.out.println(&quot;Reversed: &quot; + numbers);
+
+        System.out.println(&quot;Min: &quot; + Collections.min(numbers));
+        System.out.println(&quot;Max: &quot; + Collections.max(numbers));
+        System.out.println(&quot;Frequency of 30: &quot; + Collections.frequency(numbers, 30));
+
+        Collections.shuffle(numbers);
+        System.out.println(&quot;Shuffled: &quot; + numbers);
+
+        // Unmodifiable list
+        List&lt;Integer&gt; readOnly = Collections.unmodifiableList(numbers);
+        System.out.println(&quot;Read-only: &quot; + readOnly);
+        try {
+            readOnly.add(100);
+        } catch (UnsupportedOperationException e) {
+            System.out.println(&quot;Cannot modify unmodifiable list!&quot;);
+        }
+    }
+}</code></pre><div class="code-example-explanation">The <code>Collections</code> utility class provides static methods for sorting, reversing, shuffling, finding min/max, counting frequency, and creating unmodifiable views. <code>unmodifiableList</code> prevents any modifications.</div><div class="code-example-output">Original: [40, 10, 50, 20, 30]
+Sorted: [10, 20, 30, 40, 50]
+Reversed: [50, 40, 30, 20, 10]
+Min: 10
+Max: 50
+Frequency of 30: 1
+Shuffled: [varies]
+Read-only: [varies]
+Cannot modify unmodifiable list!</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Removing Elements During for-each Loop</h3>
+                <div class="wrong-code"><pre><code class="language-python">ArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();
+list.add(&quot;A&quot;);
+list.add(&quot;B&quot;);
+list.add(&quot;C&quot;);
+
+for (String s : list) {
+    if (s.equals(&quot;B&quot;)) {
+        list.remove(s);  // ConcurrentModificationException!
+    }
+}</code></pre></div><div class="error-message">java.util.ConcurrentModificationException</div><div class="correct-code"><pre><code class="language-python">ArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();
+list.add(&quot;A&quot;);
+list.add(&quot;B&quot;);
+list.add(&quot;C&quot;);
+
+Iterator&lt;String&gt; it = list.iterator();
+while (it.hasNext()) {
+    if (it.next().equals(&quot;B&quot;)) {
+        it.remove();  // Safe!
+    }
+}
+// Or use removeIf: list.removeIf(s -&gt; s.equals(&quot;B&quot;));</code></pre></div><div class="mistake-explanation">Modifying a collection during a for-each loop causes <code>ConcurrentModificationException</code>. Use <code>Iterator.remove()</code> or <code>list.removeIf()</code> (Java 8) for safe removal during iteration.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using ArrayList&lt;int&gt; Instead of ArrayList&lt;Integer&gt;</h3>
+                <div class="wrong-code"><pre><code class="language-python">ArrayList&lt;int&gt; numbers = new ArrayList&lt;&gt;();  // Compilation error!</code></pre></div><div class="error-message">Compilation error: type argument cannot be a primitive type.</div><div class="correct-code"><pre><code class="language-python">ArrayList&lt;Integer&gt; numbers = new ArrayList&lt;&gt;();
+numbers.add(10);       // Autoboxing: int -&gt; Integer
+int first = numbers.get(0);  // Auto-unboxing: Integer -&gt; int</code></pre></div><div class="mistake-explanation">Generics do not work with primitive types. Use wrapper classes: <code>Integer</code> for <code>int</code>, <code>Double</code> for <code>double</code>, <code>Character</code> for <code>char</code>, etc. Java autoboxes and unboxes automatically.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Overriding hashCode When Overriding equals</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Student {
+    String name;
+    Student(String name) { this.name = name; }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o instanceof Student) {
+            return this.name.equals(((Student) o).name);
+        }
+        return false;
+    }
+    // hashCode NOT overridden!
+}
+
+HashSet&lt;Student&gt; set = new HashSet&lt;&gt;();
+set.add(new Student(&quot;Arjun&quot;));
+set.add(new Student(&quot;Arjun&quot;));  // Both added! Duplicate not detected.
+System.out.println(set.size());  // 2 (expected 1)</code></pre></div><div class="error-message">No compilation or runtime error, but the set contains duplicates because hashCode is not consistent with equals.</div><div class="correct-code"><pre><code class="language-python">class Student {
+    String name;
+    Student(String name) { this.name = name; }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o instanceof Student) {
+            return this.name.equals(((Student) o).name);
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return name.hashCode();
+    }
+}
+
+HashSet&lt;Student&gt; set = new HashSet&lt;&gt;();
+set.add(new Student(&quot;Arjun&quot;));
+set.add(new Student(&quot;Arjun&quot;));  // Duplicate detected!
+System.out.println(set.size());  // 1</code></pre></div><div class="mistake-explanation">HashSet uses <code>hashCode()</code> to find the bucket and <code>equals()</code> to check for duplicates. If you override <code>equals()</code> without overriding <code>hashCode()</code>, equal objects may land in different buckets, and the set fails to detect duplicates.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing HashMap.remove(key) with ArrayList.remove(index/object)</h3>
+                <div class="wrong-code"><pre><code class="language-python">ArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;();
+list.add(10);
+list.add(20);
+list.add(30);
+
+list.remove(1);      // Removes element at index 1 (20), not the value 1!
+System.out.println(list);  // [10, 30]
+
+// To remove the value 1:
+// list.remove(Integer.valueOf(1));</code></pre></div><div class="error-message">No error, but the wrong element is removed. remove(1) removes by index, not by value.</div><div class="correct-code"><pre><code class="language-python">ArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;();
+list.add(10);
+list.add(20);
+list.add(30);
+
+list.remove(Integer.valueOf(20));  // Removes the value 20
+System.out.println(list);  // [10, 30]
+
+list.remove(0);  // Removes element at index 0
+System.out.println(list);  // [30]</code></pre></div><div class="mistake-explanation">For <code>ArrayList&lt;Integer&gt;</code>, <code>remove(1)</code> calls <code>remove(int index)</code> (removes at index 1), not <code>remove(Object)</code>. To remove by value, use <code>remove(Integer.valueOf(20))</code>.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>The Collections Framework provides interfaces (List, Set, Queue, Map) and implementations (ArrayList, HashSet, HashMap, etc.) for storing and manipulating groups of objects.</li>
+<li>ArrayList is a dynamic array with O(1) random access. Use it for most list needs. It is the most commonly used collection in Java.</li>
+<li>LinkedList is a doubly-linked list with O(1) add/remove at ends. Use it only when you frequently insert/remove from the beginning or need a deque.</li>
+<li>HashSet stores unique elements with no order. Uniqueness is determined by hashCode() and equals(). If you override equals(), you MUST override hashCode().</li>
+<li>TreeSet stores unique elements in sorted order (natural ordering or custom Comparator). Elements must implement Comparable or a Comparator must be provided.</li>
+<li>HashMap stores key-value pairs with O(1) average put/get. Keys must be unique. getOrDefault() avoids null returns for missing keys.</li>
+<li>TreeMap stores key-value pairs sorted by keys. LinkedHashMap maintains insertion order.</li>
+<li>Use Iterator.remove() for safe removal during iteration. for-each with list.remove() causes ConcurrentModificationException.</li>
+<li>Generics prevent type errors at compile time. Collections cannot hold primitives; use wrapper classes (Integer, Double, etc.) with autoboxing.</li>
+<li>Collections utility class provides sort(), reverse(), shuffle(), min(), max(), frequency(), and unmodifiableList().</li>
+<li>Choose the right collection: List for ordered data with duplicates, Set for unique elements, Map for key-value associations. Prefer interfaces as reference types (List over ArrayList).</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/exception-handling" class="related-topic-link">Exception Handling in Java</a>
+<a href="/resources/java/generics-in-java" class="related-topic-link">Generics in Java</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/java/exception-handling" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Exception Handling in Java</span>
+        </a>
+            <a href="/resources/java/generics-in-java" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Generics in Java</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/collections-framework/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

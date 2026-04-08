@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Java - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn what Java is, where it is used, and why it remains one of the most in-demand programming languages in the industry.">
+    <meta name="keywords" content="introduction to java, java tutorial, java introduction to java, learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/introduction-to-java">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/introduction-to-java">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/introduction-to-java">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/introduction-to-java">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/introduction-to-java">
+    <meta property="og:title" content="Introduction to Java - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Learn what Java is, where it is used, and why it remains one of the most in-demand programming languages in the industry.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/introduction-to-java">
+    <meta name="twitter:title" content="Introduction to Java - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Learn what Java is, where it is used, and why it remains one of the most in-demand programming languages in the industry.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Introduction to Java",
+    "description": "Learn what Java is, where it is used, and why it remains one of the most in-demand programming languages in the industry.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-07",
+    "dateModified": "2026-04-07",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/introduction-to-java"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/introduction-to-java"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Introduction to Java",
+        "item": "https://learn.modernagecoders.com/resources/java/introduction-to-java"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Confusing JDK, JRE, and JVM",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The JRE only lets you <strong>run</strong> Java programs. To <strong>compile</strong> Java source code, you need the JDK, which includes the <code>javac</code> compiler. Always install the JDK for development. The JDK includes everything in the JRE plus development tools."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Thinking Java Is the Same as JavaScript",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Java and JavaScript are as different as \"car\" and \"carpet.\" Java is a compiled, statically typed, class-based language that runs on the JVM. JavaScript is an interpreted, dynamically typed, prototype-based language that runs in browsers or Node.js. They share some syntax similarities (C-style braces and semicolons) because both were influenced by C, but their design philosophies and use cases are completely different."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Assuming Java Code Runs Directly on the OS",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Java bytecode (<code>.class</code> files) is not machine code. It cannot be understood directly by your operating system. You must use the <code>java</code> command (which starts the JVM) to execute the bytecode. Also note that you run <code>java HelloWorld</code>, not <code>java HelloWorld.class</code> -- you provide the class name, not the file name."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Expecting Java to Be Interpreted Like Python",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Unlike Python where you run <code>python script.py</code> directly, Java traditionally requires a separate compilation step. The <code>javac</code> command compiles <code>.java</code> to <code>.class</code>, and the <code>java</code> command runs the <code>.class</code> file. Java 11 introduced single-file source-code execution (<code>java HelloWorld.java</code>) for convenience, but this is a shortcut for single-file programs only."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing Java SE, EE, and ME",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For learning and most development tasks, you need <strong>Java SE</strong>. Java EE (now Jakarta EE) is for enterprise web applications and adds APIs on top of SE -- you do not need it until you start building enterprise software. Java ME is for embedded/IoT devices. Start with Java SE, and you will naturally progress to EE or other editions when needed."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Introduction to Java</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 1</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">20 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-07</span>
+            </div>
+            <h1 class="resource-title">Introduction to Java</h1>
+            <a href="/resources/java/introduction-to-java/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Java?</h2><p><strong>Java</strong> is a general-purpose, object-oriented programming language developed by <strong>James Gosling</strong> and his team at <strong>Sun Microsystems</strong> in <strong>1995</strong>. It was later acquired by <strong>Oracle Corporation</strong> in 2010. Java was designed with one revolutionary principle: <strong>"Write Once, Run Anywhere" (WORA)</strong>. This means that code written in Java on one machine can run on any other machine that has a Java Virtual Machine (JVM), regardless of the underlying operating system or hardware.</p><p>Java is a <strong>compiled and interpreted</strong> language. Your source code (<code>.java</code> files) is first compiled into an intermediate format called <strong>bytecode</strong> (<code>.class</code> files) by the Java compiler (<code>javac</code>). This bytecode is then interpreted and executed by the JVM. This two-step process is what gives Java its platform independence.</p><h3>Key Characteristics of Java</h3><p>Java is <strong>statically typed</strong>, meaning you must declare the data type of every variable before using it. It is <strong>object-oriented</strong>, meaning everything in Java revolves around classes and objects. It is <strong>platform-independent</strong> at the bytecode level, <strong>robust</strong> with strong memory management and exception handling, and <strong>secure</strong> with built-in security features like bytecode verification and a security manager.</p><p>Java also supports <strong>multithreading</strong> (running multiple tasks concurrently), <strong>automatic garbage collection</strong> (the JVM automatically frees unused memory), and has one of the largest standard libraries of any programming language.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn Java?</h2><p>If you are a college student preparing for campus placements or building a career in software engineering, Java is arguably the most important language to learn. Here is why:</p><h3>1. Industry Demand Is Massive</h3><p>Java consistently ranks among the top 3 most-used programming languages worldwide. Companies like Google, Amazon, Flipkart, Infosys, TCS, Wipro, and virtually every major bank use Java extensively. According to industry surveys, over 35 million developers worldwide use Java, and it powers more than 3 billion devices.</p><h3>2. Placement Interviews Favor Java</h3><p>The majority of campus placement coding rounds and technical interviews in India are conducted in Java or C++. Data structures and algorithms questions, which form the core of placement tests, are most commonly solved and discussed in Java. Understanding Java gives you a direct advantage in these interviews.</p><h3>3. Android Development</h3><p>Java was the primary language for Android app development for over a decade. While Kotlin has gained popularity, Java remains widely used in Android development, and understanding Java is essential for maintaining the millions of existing Android apps.</p><h3>4. Enterprise and Backend Development</h3><p>Java dominates enterprise software. Frameworks like Spring Boot, Hibernate, and Jakarta EE power the backend systems of banking, healthcare, e-commerce, and government applications. If you aim for a career in backend development, Java is the de facto standard.</p><h3>5. Strong Foundation for Other Languages</h3><p>Java's syntax and concepts (OOP, static typing, exception handling) transfer directly to languages like C#, Kotlin, Scala, and even TypeScript. Learning Java well makes picking up other languages significantly easier.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The History of Java</h3><p>Java's story begins in 1991 when James Gosling, Mike Sheridan, and Patrick Naughton at Sun Microsystems started the <strong>Green Project</strong>. The original goal was to create a language for interactive television, but the technology was too advanced for the cable TV industry at the time. The language was initially called <strong>Oak</strong> (named after an oak tree outside Gosling's office), but was later renamed to <strong>Java</strong> (inspired by Java coffee from Indonesia).</p><p>Java 1.0 was publicly released in 1996 with the promise of "Write Once, Run Anywhere." The language quickly gained popularity because of its platform independence, security features, and suitability for the emerging World Wide Web. Java applets allowed interactive content in web browsers, which was revolutionary at the time.</p><h4>Major Java Versions</h4><table><tr><th>Version</th><th>Year</th><th>Key Features</th></tr><tr><td>Java 1.0</td><td>1996</td><td>Initial release, applets, AWT</td></tr><tr><td>Java 2 (1.2)</td><td>1998</td><td>Collections framework, Swing GUI</td></tr><tr><td>Java 5</td><td>2004</td><td>Generics, enhanced for-loop, autoboxing, enums, varargs</td></tr><tr><td>Java 8</td><td>2014</td><td>Lambda expressions, Stream API, Optional, default methods</td></tr><tr><td>Java 11</td><td>2018</td><td>LTS release, var in lambdas, HTTP client</td></tr><tr><td>Java 17</td><td>2021</td><td>LTS release, sealed classes, pattern matching</td></tr><tr><td>Java 21</td><td>2023</td><td>LTS release, virtual threads, record patterns</td></tr></table><p>Since Java 9, Oracle follows a six-month release cycle. However, only certain versions are designated as <strong>Long-Term Support (LTS)</strong> releases. For production use and learning, it is recommended to use the latest LTS version (Java 21 as of this writing).</p><h3>2. Write Once, Run Anywhere (WORA)</h3><p>The WORA principle is what sets Java apart from languages like C and C++. In C/C++, your source code is compiled directly into <strong>machine code</strong> specific to the operating system and processor. A program compiled on Windows will not run on Linux without recompilation.</p><p>Java takes a different approach. The Java compiler (<code>javac</code>) compiles your source code into <strong>bytecode</strong>, which is a platform-independent intermediate representation. This bytecode runs on the <strong>Java Virtual Machine (JVM)</strong>, which is available for every major operating system. The JVM translates bytecode into the native machine code of whatever platform it is running on.</p><p>This means you compile your Java code once, and the resulting <code>.class</code> file can run on Windows, Linux, macOS, or any other platform that has a JVM installed.</p><h3>3. JDK vs JRE vs JVM</h3><p>Understanding the distinction between JDK, JRE, and JVM is critical. These three components form a nested hierarchy:</p><h4>JVM (Java Virtual Machine)</h4><p>The JVM is an abstract computing machine that executes Java bytecode. It is responsible for: loading bytecode, verifying it for security, interpreting or compiling it to native machine code (using JIT - Just-In-Time compilation), managing memory through garbage collection, and handling exceptions. The JVM is <strong>platform-dependent</strong> (each OS has its own JVM implementation), but it runs the same platform-independent bytecode.</p><h4>JRE (Java Runtime Environment)</h4><p>The JRE contains the JVM plus the standard Java class libraries (like <code>java.lang</code>, <code>java.util</code>, <code>java.io</code>) and other supporting files needed to run Java applications. If you only want to <strong>run</strong> Java programs (not develop them), you need the JRE. The JRE = JVM + standard libraries.</p><h4>JDK (Java Development Kit)</h4><p>The JDK contains the JRE plus development tools like the Java compiler (<code>javac</code>), debugger (<code>jdb</code>), documentation generator (<code>javadoc</code>), and archiver (<code>jar</code>). If you want to <strong>develop</strong> Java programs, you need the JDK. The JDK = JRE + development tools = JVM + libraries + development tools.</p><h3>4. Java Editions</h3><p>Java comes in three main editions, each targeting a different type of application:</p><h4>Java SE (Standard Edition)</h4><p>This is the core Java platform. It includes the fundamental libraries and APIs for general-purpose programming: data types, collections, I/O, networking, concurrency, and more. When people say "learn Java," they typically mean Java SE. This is what you will learn in this tutorial series.</p><h4>Java EE (Enterprise Edition) / Jakarta EE</h4><p>Built on top of Java SE, this edition provides additional APIs for building large-scale, distributed, enterprise applications. It includes technologies like Servlets, JSP, EJB, JPA, and JMS. Java EE was renamed to <strong>Jakarta EE</strong> when it was transferred from Oracle to the Eclipse Foundation.</p><h4>Java ME (Micro Edition)</h4><p>A stripped-down version of Java designed for resource-constrained devices like embedded systems, IoT devices, and older mobile phones. It is less commonly used today but still relevant in IoT development.</p><h3>5. Where Java Is Used</h3><p>Java is one of the most versatile languages in terms of application domains:</p><ul><li><strong>Android Development:</strong> Millions of Android apps are built with Java using Android SDK</li><li><strong>Enterprise Software:</strong> Banking systems (core banking at SBI, HDFC), insurance platforms, government portals</li><li><strong>Web Applications:</strong> Backend services using Spring Boot, Hibernate, and Microservices architecture</li><li><strong>Big Data:</strong> Apache Hadoop, Apache Spark, Apache Kafka are all written in Java or Scala (which runs on JVM)</li><li><strong>Cloud Computing:</strong> AWS, Google Cloud, and Azure all have first-class Java support</li><li><strong>Scientific Applications:</strong> MATLAB alternatives, bioinformatics tools</li><li><strong>Trading Systems:</strong> High-frequency trading platforms at stock exchanges use Java for its performance and reliability</li><li><strong>Desktop Applications:</strong> IntelliJ IDEA, Eclipse, and NetBeans IDEs are themselves built in Java</li></ul><h3>6. Java vs Python vs C++</h3><table><tr><th>Feature</th><th>Java</th><th>Python</th><th>C++</th></tr><tr><td>Typing</td><td>Static (declare types)</td><td>Dynamic (no type declarations needed)</td><td>Static (declare types)</td></tr><tr><td>Speed</td><td>Fast (JIT compiled)</td><td>Slower (interpreted)</td><td>Fastest (compiled to machine code)</td></tr><tr><td>Memory Management</td><td>Automatic (garbage collection)</td><td>Automatic (garbage collection)</td><td>Manual (new/delete)</td></tr><tr><td>Platform Independence</td><td>Yes (via JVM)</td><td>Yes (via interpreter)</td><td>No (compiled per platform)</td></tr><tr><td>Primary Use</td><td>Enterprise, Android, backend</td><td>Data science, ML, scripting</td><td>Systems, games, competitive programming</td></tr><tr><td>Learning Curve</td><td>Moderate (verbose syntax)</td><td>Easy (concise syntax)</td><td>Steep (pointers, manual memory)</td></tr><tr><td>OOP</td><td>Pure OOP (everything in classes)</td><td>Supports OOP and procedural</td><td>Supports OOP and procedural</td></tr></table><p>Java strikes a balance between Python's ease of use and C++'s performance. It is more verbose than Python (you must declare types, write class boilerplate), but this verbosity makes large codebases easier to maintain and debug. It is safer than C++ because the JVM handles memory management, eliminating entire categories of bugs like memory leaks and dangling pointers.</p><h3>7. Java's Compilation Process</h3><p>Understanding how Java code goes from source to execution is fundamental:</p><ol><li><strong>Write:</strong> You write source code in a <code>.java</code> file (e.g., <code>HelloWorld.java</code>)</li><li><strong>Compile:</strong> The Java compiler (<code>javac</code>) converts your source code to bytecode, producing a <code>.class</code> file (e.g., <code>HelloWorld.class</code>)</li><li><strong>Load:</strong> The JVM's class loader loads the bytecode into memory</li><li><strong>Verify:</strong> The bytecode verifier checks the code for security violations</li><li><strong>Execute:</strong> The JVM's execution engine runs the bytecode, using Just-In-Time (JIT) compilation to convert frequently executed bytecode into native machine code for better performance</li></ol><p>The JIT compiler is a key performance optimization. Instead of interpreting bytecode line by line (which is slow), the JIT compiler identifies "hot" code paths that are executed frequently and compiles them to native machine code. This is why Java's runtime performance can approach that of C++ in many scenarios.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Your First Look at Java Code</div><pre><code class="language-python">public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println(&quot;Hello, World!&quot;);
+    }
+}</code></pre><div class="code-example-explanation">This is the simplest possible Java program. Every Java program must have at least one <strong>class</strong> (here, <code>HelloWorld</code>). The <code>main</code> method is the entry point where execution begins. <code>System.out.println</code> prints text to the console. We will break down every part of this code in Chapter 3.</div><div class="code-example-output">Hello, World!</div></div>
+<div class="code-example"><div class="code-example-title">Checking Your Java Version</div><pre><code class="language-python">// Run these commands in your terminal (not in a Java file)
+// java -version
+// javac -version
+
+// You can also check from within Java:
+public class CheckVersion {
+    public static void main(String[] args) {
+        System.out.println(&quot;Java Version: &quot; + System.getProperty(&quot;java.version&quot;));
+        System.out.println(&quot;JVM Name: &quot; + System.getProperty(&quot;java.vm.name&quot;));
+        System.out.println(&quot;OS: &quot; + System.getProperty(&quot;os.name&quot;));
+    }
+}</code></pre><div class="code-example-explanation">The <code>System.getProperty()</code> method retrieves system-level information. <code>java.version</code> tells you which version of Java is running. <code>java.vm.name</code> shows the JVM implementation name (e.g., "Java HotSpot(TM) 64-Bit Server VM"). This is useful for verifying your setup and for debugging environment-related issues.</div><div class="code-example-output">Java Version: 21.0.2
+JVM Name: Java HotSpot(TM) 64-Bit Server VM
+OS: Windows 11</div></div>
+<div class="code-example"><div class="code-example-title">Java Is Statically Typed</div><pre><code class="language-python">public class StaticTyping {
+    public static void main(String[] args) {
+        int age = 20;              // integer
+        double gpa = 8.75;         // decimal number
+        String name = &quot;Aarav&quot;;     // text
+        boolean isPlaced = false;  // true or false
+
+        System.out.println(&quot;Name: &quot; + name);
+        System.out.println(&quot;Age: &quot; + age);
+        System.out.println(&quot;GPA: &quot; + gpa);
+        System.out.println(&quot;Placed: &quot; + isPlaced);
+    }
+}</code></pre><div class="code-example-explanation">Unlike Python where you can write <code>age = 20</code> without specifying a type, Java requires you to explicitly declare the data type: <code>int age = 20</code>. This is called <strong>static typing</strong>. The compiler checks types at compile time, catching type errors before your program even runs. This makes Java programs more predictable and easier to debug in large codebases.</div><div class="code-example-output">Name: Aarav
+Age: 20
+GPA: 8.75
+Placed: false</div></div>
+<div class="code-example"><div class="code-example-title">Everything in Java Lives Inside a Class</div><pre><code class="language-python">public class Student {
+    // Fields (data)
+    String name;
+    int rollNumber;
+    double percentage;
+
+    // Method (behavior)
+    void displayInfo() {
+        System.out.println(&quot;Name: &quot; + name);
+        System.out.println(&quot;Roll No: &quot; + rollNumber);
+        System.out.println(&quot;Percentage: &quot; + percentage + &quot;%&quot;);
+    }
+
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        s1.name = &quot;Priya&quot;;
+        s1.rollNumber = 42;
+        s1.percentage = 89.5;
+        s1.displayInfo();
+    }
+}</code></pre><div class="code-example-explanation">Java is a <strong>purely object-oriented language</strong> (with the exception of primitive types). You cannot write a standalone function outside a class. This example shows a <code>Student</code> class with fields (name, rollNumber, percentage) and a method (displayInfo). In the <code>main</code> method, we create a Student object using <code>new</code>, set its fields, and call its method. This is the fundamental pattern of Java programming.</div><div class="code-example-output">Name: Priya
+Roll No: 42
+Percentage: 89.5%</div></div>
+<div class="code-example"><div class="code-example-title">Platform Independence Demonstration</div><pre><code class="language-python">public class PlatformInfo {
+    public static void main(String[] args) {
+        System.out.println(&quot;This bytecode runs on any OS with a JVM!&quot;);
+        System.out.println();
+        System.out.println(&quot;Current Platform Details:&quot;);
+        System.out.println(&quot;OS: &quot; + System.getProperty(&quot;os.name&quot;));
+        System.out.println(&quot;Architecture: &quot; + System.getProperty(&quot;os.arch&quot;));
+        System.out.println(&quot;Java Home: &quot; + System.getProperty(&quot;java.home&quot;));
+        System.out.println();
+        System.out.println(&quot;The .class file compiled on this machine&quot;);
+        System.out.println(&quot;will also run on Linux, macOS, or any&quot;);
+        System.out.println(&quot;other OS that has a JVM installed.&quot;);
+    }
+}</code></pre><div class="code-example-explanation">This program prints information about the current platform. The key point is that this same <code>.class</code> file (compiled bytecode) will run identically on Windows, Linux, or macOS. The JVM on each platform translates the bytecode to the appropriate native instructions. This is the essence of Write Once, Run Anywhere.</div><div class="code-example-output">This bytecode runs on any OS with a JVM!
+
+Current Platform Details:
+OS: Windows 11
+Architecture: amd64
+Java Home: C:\Program Files\Java\jdk-21
+
+The .class file compiled on this machine
+will also run on Linux, macOS, or any
+other OS that has a JVM installed.</div></div>
+<div class="code-example"><div class="code-example-title">Java vs Python Syntax Comparison</div><pre><code class="language-python">// Java version: Calculate sum of two numbers
+public class SumExample {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+        int sum = a + b;
+        System.out.println(&quot;Sum: &quot; + sum);
+    }
+}
+
+// Python equivalent (for comparison, not runnable in Java):
+// a = 10
+// b = 20
+// sum = a + b
+// print(&quot;Sum:&quot;, sum)
+
+// Key differences:
+// 1. Java requires a class wrapper
+// 2. Java requires the main method
+// 3. Java requires type declarations (int)
+// 4. Java statements end with semicolons
+// 5. Java uses curly braces {} for blocks</code></pre><div class="code-example-explanation">This side-by-side comparison highlights the syntactic differences between Java and Python. Java requires more boilerplate (class definition, main method, type declarations, semicolons, curly braces), but this verbosity serves a purpose: it makes the code explicit and unambiguous, which is valuable in large enterprise codebases with hundreds of developers.</div><div class="code-example-output">Sum: 30</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Confusing JDK, JRE, and JVM</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Student installs only JRE and tries to compile:
+// Terminal: javac HelloWorld.java
+// Error: &#39;javac&#39; is not recognized as an internal or external command</code></pre></div><div class="error-message">&#39;javac&#39; is not recognized as an internal or external command (Windows) or &#39;javac: command not found&#39; (Linux/Mac)</div><div class="correct-code"><pre><code class="language-python">// Install the JDK (which includes JRE and JVM)
+// Then compile: javac HelloWorld.java
+// Then run: java HelloWorld</code></pre></div><div class="mistake-explanation">The JRE only lets you <strong>run</strong> Java programs. To <strong>compile</strong> Java source code, you need the JDK, which includes the <code>javac</code> compiler. Always install the JDK for development. The JDK includes everything in the JRE plus development tools.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Thinking Java Is the Same as JavaScript</h3>
+                <div class="wrong-code"><pre><code class="language-python">// A student assumes JavaScript knowledge applies to Java
+// JavaScript: let name = &quot;Aarav&quot;;
+// Java equivalent is NOT the same syntax rules</code></pre></div><div class="error-message">Conceptual error: Java and JavaScript are completely different languages despite similar names.</div><div class="correct-code"><pre><code class="language-python">// Java:
+String name = &quot;Aarav&quot;;  // Requires type declaration, semicolon
+
+// JavaScript:
+// let name = &quot;Aarav&quot;;  // Dynamic typing, different runtime</code></pre></div><div class="mistake-explanation">Java and JavaScript are as different as "car" and "carpet." Java is a compiled, statically typed, class-based language that runs on the JVM. JavaScript is an interpreted, dynamically typed, prototype-based language that runs in browsers or Node.js. They share some syntax similarities (C-style braces and semicolons) because both were influenced by C, but their design philosophies and use cases are completely different.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Assuming Java Code Runs Directly on the OS</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Student tries to run a .class file directly:
+// Double-clicks HelloWorld.class
+// Nothing happens or an error appears</code></pre></div><div class="error-message">A .class file cannot be executed directly by the operating system. It contains bytecode, not machine code.</div><div class="correct-code"><pre><code class="language-python">// Correct way to run:
+// Step 1: Open terminal/command prompt
+// Step 2: Navigate to the directory containing the .class file
+// Step 3: Run: java HelloWorld
+// (Note: no .class extension in the command)</code></pre></div><div class="mistake-explanation">Java bytecode (<code>.class</code> files) is not machine code. It cannot be understood directly by your operating system. You must use the <code>java</code> command (which starts the JVM) to execute the bytecode. Also note that you run <code>java HelloWorld</code>, not <code>java HelloWorld.class</code> -- you provide the class name, not the file name.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Expecting Java to Be Interpreted Like Python</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Student tries to run Java like Python:
+// Terminal: java HelloWorld.java
+// (This works in Java 11+ but NOT in earlier versions)</code></pre></div><div class="error-message">In Java versions before 11, you must compile first with javac and then run with java. Direct source execution was added in Java 11.</div><div class="correct-code"><pre><code class="language-python">// Traditional (works in all versions):
+// Step 1: javac HelloWorld.java   (compile)
+// Step 2: java HelloWorld          (run)
+
+// Single-file shortcut (Java 11+):
+// java HelloWorld.java             (compile and run in one step)</code></pre></div><div class="mistake-explanation">Unlike Python where you run <code>python script.py</code> directly, Java traditionally requires a separate compilation step. The <code>javac</code> command compiles <code>.java</code> to <code>.class</code>, and the <code>java</code> command runs the <code>.class</code> file. Java 11 introduced single-file source-code execution (<code>java HelloWorld.java</code>) for convenience, but this is a shortcut for single-file programs only.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing Java SE, EE, and ME</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Student downloads Java ME to build a web application
+// or Java EE thinking they need it for basic programming</code></pre></div><div class="error-message">Choosing the wrong Java edition wastes time and leads to confusion.</div><div class="correct-code"><pre><code class="language-python">// For learning Java and general programming:
+// Download Java SE (Standard Edition) JDK
+// From: https://www.oracle.com/java/technologies/downloads/
+// Or: https://adoptium.net/ (OpenJDK)</code></pre></div><div class="mistake-explanation">For learning and most development tasks, you need <strong>Java SE</strong>. Java EE (now Jakarta EE) is for enterprise web applications and adds APIs on top of SE -- you do not need it until you start building enterprise software. Java ME is for embedded/IoT devices. Start with Java SE, and you will naturally progress to EE or other editions when needed.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Java is a general-purpose, object-oriented programming language created by James Gosling at Sun Microsystems in 1995, now owned by Oracle Corporation.</li>
+<li>Java follows the Write Once, Run Anywhere (WORA) principle: code is compiled to platform-independent bytecode that runs on any JVM.</li>
+<li>JVM (Java Virtual Machine) executes bytecode. JRE (Java Runtime Environment) = JVM + standard libraries. JDK (Java Development Kit) = JRE + development tools like javac compiler.</li>
+<li>Java is statically typed (you must declare variable types), purely object-oriented (everything lives in classes), and uses automatic garbage collection for memory management.</li>
+<li>Java has three editions: SE (Standard Edition) for general programming, EE/Jakarta EE for enterprise applications, and ME (Micro Edition) for embedded devices.</li>
+<li>Java is used in Android development, enterprise backend systems, banking software, big data tools (Hadoop, Kafka), cloud computing, and trading platforms.</li>
+<li>The compilation process: .java source code -&gt; javac compiler -&gt; .class bytecode -&gt; JVM loads, verifies, and executes using JIT compilation for performance.</li>
+<li>Java is more verbose than Python but more maintainable in large codebases. It is safer than C++ due to automatic memory management and no pointer arithmetic.</li>
+<li>Major Java milestones: Java 5 (generics, enums), Java 8 (lambdas, streams), Java 11 (LTS, var in lambdas), Java 17 (LTS, sealed classes), Java 21 (LTS, virtual threads).</li>
+<li>For placements and interviews, Java is one of the most tested languages. Understanding Java fundamentals gives a strong foundation for DSA and system design.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/installing-java-and-setup" class="related-topic-link">Installing Java and Setting Up Your Environment</a>
+<a href="/resources/java/your-first-java-program" class="related-topic-link">Your First Java Program</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            
+            <a href="/resources/java/installing-java-and-setup" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Installing Java and Setting Up Your Environment</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/introduction-to-java/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

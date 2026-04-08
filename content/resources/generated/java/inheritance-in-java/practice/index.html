@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Inheritance in Java | Java | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="62+ practice questions on Inheritance in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="inheritance in java practice, java questions, java practice problems, inheritance in java exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/inheritance-in-java/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/inheritance-in-java/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/inheritance-in-java/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/inheritance-in-java/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/inheritance-in-java/practice">
+    <meta property="og:title" content="Practice Questions - Inheritance in Java | Java | Modern Age Coders">
+    <meta property="og:description" content="62+ practice questions on Inheritance in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/inheritance-in-java/practice">
+    <meta name="twitter:title" content="Practice Questions - Inheritance in Java | Java | Modern Age Coders">
+    <meta name="twitter:description" content="62+ practice questions on Inheritance in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Inheritance in Java",
+    "description": "62+ practice questions on Inheritance in Java in Java.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Inheritance in Java"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/inheritance-in-java/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Inheritance in Java",
+        "item": "https://learn.modernagecoders.com/resources/java/inheritance-in-java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/java/inheritance-in-java/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java/inheritance-in-java">Inheritance in Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 15</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">62 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Inheritance in Java</h1>
+            <a href="/resources/java/inheritance-in-java" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>class Animal {
+    void sound() { System.out.println("Some sound"); }
+}
+class Dog extends Animal {
+    void bark() { System.out.println("Woof!"); }
+}
+
+Dog d = new Dog();
+d.sound();
+d.bark();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Dog inherits sound() from Animal and has its own bark() method.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Some sound</code><br><code>Woof!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    int x = 10;
+}
+class B extends A {
+    int y = 20;
+}
+
+B obj = new B();
+System.out.println(obj.x + obj.y);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">B inherits x from A and has its own y.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Parent {
+    void greet() { System.out.println("Hello from Parent"); }
+}
+class Child extends Parent {
+    @Override
+    void greet() { System.out.println("Hello from Child"); }
+}
+
+Child c = new Child();
+c.greet();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">The overridden method in Child replaces the Parent's version.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>Hello from Child</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    A() { System.out.println("A constructor"); }
+}
+class B extends A {
+    B() { System.out.println("B constructor"); }
+}
+
+B obj = new B();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Java automatically calls super() if you do not write it. Parent constructor runs first.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>A constructor</code><br><code>B constructor</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>Dog d = new Dog();
+System.out.println(d instanceof Dog);
+System.out.println(d instanceof Animal);
+System.out.println(d instanceof Object);</code></pre><p>(Assume Dog extends Animal)</p></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">instanceof checks the entire inheritance chain.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>true</code><br><code>true</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Animal {
+    void eat() { System.out.println("Animal eating"); }
+}
+class Dog extends Animal {
+    @Override
+    void eat() {
+        super.eat();
+        System.out.println("Dog eating bones");
+    }
+}
+
+Dog d = new Dog();
+d.eat();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">super.eat() calls the parent's version first, then the child adds its own behavior.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Animal eating</code><br><code>Dog eating bones</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    String type = "A";
+}
+class B extends A {
+    String type = "B";
+
+    void show() {
+        System.out.println(this.type);
+        System.out.println(super.type);
+    }
+}
+
+new B().show();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">this.type refers to B's field. super.type refers to A's field.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>B</code><br><code>A</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    A() { System.out.println("A()"); }
+    A(int x) { System.out.println("A(" + x + ")"); }
+}
+class B extends A {
+    B() {
+        super(10);
+        System.out.println("B()");
+    }
+}
+
+B obj = new B();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">super(10) calls A's parameterized constructor, not the no-arg one.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>A(10)</code><br><code>B()</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Animal {
+    String name;
+    Animal(String name) { this.name = name; }
+    public String toString() { return "Animal: " + name; }
+}
+class Dog extends Animal {
+    String breed;
+    Dog(String name, String breed) {
+        super(name);
+        this.breed = breed;
+    }
+    public String toString() { return "Dog: " + name + " (" + breed + ")"; }
+}
+
+Animal a = new Dog("Buddy", "Lab");
+System.out.println(a);
+System.out.println(a instanceof Dog);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">The variable type is Animal but the actual object is Dog. Which toString() runs?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>Dog: Buddy (Lab)</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    A() { System.out.println("A"); }
+}
+class B extends A {
+    B() { System.out.println("B"); }
+}
+class C extends B {
+    C() { System.out.println("C"); }
+}
+
+C obj = new C();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Multilevel inheritance: constructors execute from top to bottom.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>A</code><br><code>B</code><br><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Parent {
+    int x = 10;
+    int getX() { return x; }
+}
+class Child extends Parent {
+    int x = 20;
+    @Override
+    int getX() { return x; }
+}
+
+Parent p = new Child();
+System.out.println(p.x);
+System.out.println(p.getX());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Fields are resolved at compile time (based on reference type). Methods are resolved at runtime (based on object type).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>10</code><br><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Base {
+    void display() { System.out.println("Base: " + getValue()); }
+    int getValue() { return 10; }
+}
+class Derived extends Base {
+    @Override
+    int getValue() { return 20; }
+}
+
+Base b = new Derived();
+b.display();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">display() is inherited from Base but calls getValue() which is overridden in Derived.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Base: 20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    A() { print(); }
+    void print() { System.out.println("A"); }
+}
+class B extends A {
+    int value = 10;
+    @Override
+    void print() { System.out.println("B: " + value); }
+}
+
+B obj = new B();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">A's constructor calls print(). But the actual object is B, so B's print() runs. What is value at that point?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>B: 0</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Vehicle {
+    int speed = 0;
+    void accelerate() { speed += 10; }
+}
+class Car extends Vehicle {
+    void turbo() { speed += 50; }
+}
+
+Car c = new Car();
+c.accelerate();
+c.turbo();
+System.out.println(c.speed);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Car inherits speed and accelerate(). Both methods modify the same speed field.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>60</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>final int x = 10;
+// x = 20; // Would this compile?
+System.out.println(x);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">final variables cannot be reassigned after initialization.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>10</code> (The commented line would cause a compilation error if uncommented)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between method overloading and method overriding?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">One is within a class, the other is between parent and child classes.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><strong>Overloading:</strong> Same method name, different parameter list, within the same class (or inherited). Resolved at compile time. <strong>Overriding:</strong> Same method name and parameter list, in a subclass. Replaces the parent's behavior. Resolved at runtime.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    static void hello() { System.out.println("A"); }
+}
+class B extends A {
+    static void hello() { System.out.println("B"); }
+}
+
+A obj = new B();
+obj.hello();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Static methods are resolved based on the reference type (compile time), not the object type.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>A</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Shape {
+    double area() { return 0; }
+    public String toString() { return "Area: " + area(); }
+}
+class Circle extends Shape {
+    double r;
+    Circle(double r) { this.r = r; }
+    @Override
+    double area() { return Math.PI * r * r; }
+}
+class Square extends Shape {
+    double side;
+    Square(double side) { this.side = side; }
+    @Override
+    double area() { return side * side; }
+}
+
+Shape[] shapes = { new Circle(5), new Square(4) };
+for (Shape s : shapes) {
+    System.out.printf("%.2f%n", s.area());
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Each subclass overrides area(). The correct version is called at runtime.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>78.54</code><br><code>16.00</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does Java not support multiple inheritance with classes?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Think about the diamond problem.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">Java does not support multiple class inheritance to avoid the <strong>diamond problem</strong>: if a class inherits from two classes that have a method with the same signature, it would be ambiguous which version to call. Java uses interfaces to achieve a form of multiple inheritance without this ambiguity, because interfaces (before Java 8) had no method implementations, and default methods have explicit conflict resolution rules.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    int x = 5;
+    A() { this.x = 10; }
+}
+class B extends A {
+    int x = 20;
+    B() { this.x = 30; }
+}
+
+B obj = new B();
+System.out.println(((A) obj).x);
+System.out.println(obj.x);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Fields are resolved at compile time based on the reference type. A has its own x, B has its own x.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>10</code><br><code>30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Animal {
+    void eat() { System.out.println("Animal eat"); }
+}
+class Dog extends Animal {
+    @Override
+    void eat() { System.out.println("Dog eat"); }
+    void bark() { System.out.println("Woof"); }
+}
+
+Animal a = new Dog();
+a.eat();
+// a.bark(); // Would this compile?</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">The reference type determines what methods can be called. The runtime type determines which overridden version runs.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>Dog eat</code><br>(The commented line would NOT compile: <code>bark()</code> is not in Animal)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the contract between equals() and hashCode()? Why must both be overridden together?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about how HashMaps use both methods to store and retrieve objects.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">The contract states: <strong>if two objects are equal according to equals(), they must have the same hashCode()</strong>. If you override equals() without hashCode(), objects that are "equal" may be placed in different hash buckets in a HashMap, making them unfindable. If you override hashCode() without equals(), objects with the same hash code may not be considered equal, leading to duplicates.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which keyword is used to inherit a class in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> implements</li><li><span class="mcq-option-label">B.</span> inherits</li><li><span class="mcq-option-label">C.</span> extends</li><li><span class="mcq-option-label">D.</span> super</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>extends</code> keyword is used for class inheritance. <code>implements</code> (A) is for interfaces. <code>inherits</code> (B) is not a Java keyword. <code>super</code> (D) refers to the parent class but does not declare inheritance.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What type of inheritance is NOT supported in Java with classes?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Single inheritance</li><li><span class="mcq-option-label">B.</span> Multilevel inheritance</li><li><span class="mcq-option-label">C.</span> Multiple inheritance</li><li><span class="mcq-option-label">D.</span> Hierarchical inheritance</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> Java does not support multiple inheritance with classes — a class can extend only one class. Single (A), multilevel (B), and hierarchical (D) are all supported.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does the @Override annotation do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It is required to override a method</li><li><span class="mcq-option-label">B.</span> It tells the compiler to verify the method actually overrides a superclass method</li><li><span class="mcq-option-label">C.</span> It prevents the method from being overridden further</li><li><span class="mcq-option-label">D.</span> It makes the method public</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>@Override</code> is optional but causes the compiler to verify that the method signature matches a superclass method. If it does not match (typo in name or wrong parameters), the compiler reports an error. It is not required (A), does not prevent further overriding (C — that is <code>final</code>), and does not change access (D).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">If class B extends class A, which constructor runs first when creating a B object?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> B&#39;s constructor</li><li><span class="mcq-option-label">B.</span> A&#39;s constructor</li><li><span class="mcq-option-label">C.</span> Object&#39;s constructor</li><li><span class="mcq-option-label">D.</span> They run simultaneously</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct (more precisely, C runs before B, and B runs before the current class).</strong> The chain is Object -> A -> B. Among the listed options, A's constructor runs before B's. The superclass is always initialized before the subclass.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which of the following can be overridden?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A static method</li><li><span class="mcq-option-label">B.</span> A final method</li><li><span class="mcq-option-label">C.</span> A private method</li><li><span class="mcq-option-label">D.</span> A public instance method</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: D</strong><br><strong>D is correct.</strong> Only non-static, non-final, non-private instance methods can be overridden. Static methods (A) are hidden, not overridden. Final methods (B) cannot be overridden by definition. Private methods (C) are not visible to subclasses.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What happens if you do not call super() in a subclass constructor?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Compilation error</li><li><span class="mcq-option-label">B.</span> Java automatically inserts super() (no-arg) as the first statement</li><li><span class="mcq-option-label">C.</span> The superclass is not initialized</li><li><span class="mcq-option-label">D.</span> The subclass constructor does not run</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> If you do not explicitly call <code>super()</code> or <code>this()</code>, Java inserts <code>super()</code> (no-arg) as the first statement. This only causes an error if the superclass does not have a no-arg constructor.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is a covariant return type?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Returning void instead of a type</li><li><span class="mcq-option-label">B.</span> An overriding method returns a subtype of the original return type</li><li><span class="mcq-option-label">C.</span> Returning a different type altogether</li><li><span class="mcq-option-label">D.</span> Returning an array instead of a single object</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> Covariant return types allow an overriding method to return a more specific type. If the parent returns <code>Animal</code>, the child can return <code>Dog</code> (since Dog IS-A Animal). This avoids casting at the call site.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What does instanceof return when the object is null?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> true</li><li><span class="mcq-option-label">B.</span> false</li><li><span class="mcq-option-label">C.</span> NullPointerException</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>null instanceof AnyType</code> always returns <code>false</code>. No exception is thrown. This makes instanceof safe to use without null checks.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Can a final class have final methods?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, but it is redundant since the class cannot be extended anyway</li><li><span class="mcq-option-label">B.</span> No, only one final is allowed per class</li><li><span class="mcq-option-label">C.</span> Yes, and it adds additional protection</li><li><span class="mcq-option-label">D.</span> No, final classes cannot have methods</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: A</strong><br><strong>A is correct.</strong> A final class cannot be extended, so no subclass exists to override any of its methods. Making methods final in a final class is syntactically valid but redundant — there is no subclass to prevent overriding in.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    void show() { System.out.println("A"); }
+}
+class B extends A {
+    void show() { System.out.println("B"); }
+}
+class C extends B {
+    void show() { System.out.println("C"); }
+}
+
+A obj = new C();
+obj.show();</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A</li><li><span class="mcq-option-label">B.</span> B</li><li><span class="mcq-option-label">C.</span> C</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> The actual object is C, and C overrides <code>show()</code>. Method resolution at runtime uses the actual type (C), so C's version runs. The reference type (A) only determines what methods can be called, not which version runs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Which of the following is true about calling super() and this() in a constructor?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Both can be called in the same constructor</li><li><span class="mcq-option-label">B.</span> Only one can be the first statement — they are mutually exclusive</li><li><span class="mcq-option-label">C.</span> super() can be called anywhere in the constructor</li><li><span class="mcq-option-label">D.</span> this() is not allowed in constructors</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> Both <code>super()</code> and <code>this()</code> must be the first statement in a constructor. Since only one statement can be first, you cannot have both in the same constructor. You choose super() to call a parent constructor or this() to chain to another constructor in the same class.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the relationship between fields and inheritance in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Fields are overridden just like methods</li><li><span class="mcq-option-label">B.</span> Fields are hidden (not overridden) — the subclass field exists alongside the parent field</li><li><span class="mcq-option-label">C.</span> Fields cannot be declared in subclasses if they exist in the superclass</li><li><span class="mcq-option-label">D.</span> Fields are always inherited as public</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> When a subclass declares a field with the same name as a superclass field, it hides the parent's field (both coexist). This is different from method overriding. The parent's field is accessed via <code>super.fieldName</code> or through a parent-type reference. Fields are resolved at compile time by declared type.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Which Object method should you always override together with equals()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> toString()</li><li><span class="mcq-option-label">B.</span> hashCode()</li><li><span class="mcq-option-label">C.</span> clone()</li><li><span class="mcq-option-label">D.</span> finalize()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> The equals-hashCode contract requires that equal objects have equal hash codes. If you override equals() without hashCode(), hash-based collections (HashMap, HashSet) will malfunction. toString() (A) should also be overridden but is not part of the equals contract.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Shape Hierarchy with Area Calculation</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a Shape class with a method area() that returns 0. Create Circle (with radius) and Rectangle (with width and height) subclasses that override area(). Create objects and print their areas.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Circle area: 78.54
+Rectangle area: 24.00</div>
+                </div><div class="challenge-constraints">Use inheritance and method overriding. Format output to 2 decimal places.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">class Shape {
+    double area() { return 0; }
+}
+
+class Circle extends Shape {
+    double radius;
+    Circle(double radius) { this.radius = radius; }
+    @Override
+    double area() { return Math.PI * radius * radius; }
+}
+
+class Rectangle extends Shape {
+    double width, height;
+    Rectangle(double width, double height) {
+        this.width = width;
+        this.height = height;
+    }
+    @Override
+    double area() { return width * height; }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Shape c = new Circle(5);
+        Shape r = new Rectangle(4, 6);
+        System.out.printf(&quot;Circle area: %.2f%n&quot;, c.area());
+        System.out.printf(&quot;Rectangle area: %.2f%n&quot;, r.area());
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Animal Sound Polymorphism</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create an Animal class with a makeSound() method. Create Dog, Cat, and Cow subclasses that override makeSound(). Store them in an Animal array and call makeSound() on each using a loop.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Dog says: Woof!
+Cat says: Meow!
+Cow says: Moo!</div>
+                </div><div class="challenge-constraints">Use an Animal array and a for-each loop to demonstrate polymorphism.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">class Animal {
+    String name;
+    Animal(String name) { this.name = name; }
+    void makeSound() { System.out.println(name + &quot; says: ...&quot;); }
+}
+
+class Dog extends Animal {
+    Dog() { super(&quot;Dog&quot;); }
+    @Override
+    void makeSound() { System.out.println(name + &quot; says: Woof!&quot;); }
+}
+
+class Cat extends Animal {
+    Cat() { super(&quot;Cat&quot;); }
+    @Override
+    void makeSound() { System.out.println(name + &quot; says: Meow!&quot;); }
+}
+
+class Cow extends Animal {
+    Cow() { super(&quot;Cow&quot;); }
+    @Override
+    void makeSound() { System.out.println(name + &quot; says: Moo!&quot;); }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal[] animals = { new Dog(), new Cat(), new Cow() };
+        for (Animal a : animals) {
+            a.makeSound();
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Employee Payroll System</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create an Employee class with name and baseSalary. Create Manager (with bonus) and Developer (with overtimeHours at Rs.500/hr) subclasses. Override a calculatePay() method. Print payroll for all employees.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Kavitha (Manager): Rs.95000.0
+Rohan (Developer): Rs.70000.0
+Deepak (Developer): Rs.62500.0</div>
+                </div><div class="challenge-constraints">Use super.calculatePay() to avoid duplicating base salary logic.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">class Employee {
+    String name;
+    double baseSalary;
+    Employee(String name, double baseSalary) {
+        this.name = name;
+        this.baseSalary = baseSalary;
+    }
+    double calculatePay() { return baseSalary; }
+}
+
+class Manager extends Employee {
+    double bonus;
+    Manager(String name, double baseSalary, double bonus) {
+        super(name, baseSalary);
+        this.bonus = bonus;
+    }
+    @Override
+    double calculatePay() { return super.calculatePay() + bonus; }
+}
+
+class Developer extends Employee {
+    int overtimeHours;
+    Developer(String name, double baseSalary, int overtimeHours) {
+        super(name, baseSalary);
+        this.overtimeHours = overtimeHours;
+    }
+    @Override
+    double calculatePay() { return super.calculatePay() + overtimeHours * 500; }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Employee[] team = {
+            new Manager(&quot;Kavitha&quot;, 80000, 15000),
+            new Developer(&quot;Rohan&quot;, 60000, 20),
+            new Developer(&quot;Deepak&quot;, 55000, 15)
+        };
+        for (Employee e : team) {
+            System.out.println(e.name + &quot; (&quot; + e.getClass().getSimpleName() + &quot;): Rs.&quot; + e.calculatePay());
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Bank Account Hierarchy</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a BankAccount class with accountHolder and balance. Create SavingsAccount (with interest rate) and CurrentAccount (with overdraft limit). SavingsAccount has addInterest(). CurrentAccount allows withdrawal beyond balance up to the overdraft limit. Demonstrate both.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Savings - Priya: Rs.10000.0
+After interest: Rs.10500.0
+Current - Aarav: Rs.5000.0
+Withdrew Rs.7000.0 (using overdraft)
+Balance: Rs.-2000.0</div>
+                </div><div class="challenge-constraints">Use inheritance with super constructors. Override withdraw() in CurrentAccount.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">class BankAccount {
+    String holder;
+    double balance;
+    BankAccount(String holder, double balance) {
+        this.holder = holder;
+        this.balance = balance;
+    }
+    void withdraw(double amount) {
+        if (amount &gt; balance) {
+            System.out.println(&quot;Insufficient funds&quot;);
+        } else {
+            balance -= amount;
+            System.out.println(&quot;Withdrew Rs.&quot; + amount);
+        }
+    }
+    public String toString() {
+        return holder + &quot;: Rs.&quot; + balance;
+    }
+}
+
+class SavingsAccount extends BankAccount {
+    double interestRate;
+    SavingsAccount(String holder, double balance, double rate) {
+        super(holder, balance);
+        this.interestRate = rate;
+    }
+    void addInterest() {
+        balance += balance * interestRate;
+        System.out.println(&quot;After interest: Rs.&quot; + balance);
+    }
+}
+
+class CurrentAccount extends BankAccount {
+    double overdraftLimit;
+    CurrentAccount(String holder, double balance, double limit) {
+        super(holder, balance);
+        this.overdraftLimit = limit;
+    }
+    @Override
+    void withdraw(double amount) {
+        if (amount &gt; balance + overdraftLimit) {
+            System.out.println(&quot;Exceeds overdraft limit&quot;);
+        } else {
+            balance -= amount;
+            System.out.println(&quot;Withdrew Rs.&quot; + amount + (balance &lt; 0 ? &quot; (using overdraft)&quot; : &quot;&quot;));
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        SavingsAccount sa = new SavingsAccount(&quot;Priya&quot;, 10000, 0.05);
+        System.out.println(&quot;Savings - &quot; + sa);
+        sa.addInterest();
+
+        CurrentAccount ca = new CurrentAccount(&quot;Aarav&quot;, 5000, 10000);
+        System.out.println(&quot;Current - &quot; + ca);
+        ca.withdraw(7000);
+        System.out.println(&quot;Balance: Rs.&quot; + ca.balance);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Vehicle Hierarchy with toString and equals</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a Vehicle class with brand and year. Override toString() and equals() (and hashCode()). Create Car (with numDoors) and Motorcycle (with hasSidecar) subclasses that extend toString() and equals(). Demonstrate equality checks.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Car{brand=&#39;Toyota&#39;, year=2024, doors=4}
+Car{brand=&#39;Toyota&#39;, year=2024, doors=4}
+Are they equal? true
+Motorcycle{brand=&#39;Honda&#39;, year=2023, sidecar=false}
+Car equals Motorcycle? false</div>
+                </div><div class="challenge-constraints">Override equals() and hashCode() in both parent and child classes. Use @Override annotation.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">class Vehicle {
+    String brand;
+    int year;
+    Vehicle(String brand, int year) {
+        this.brand = brand;
+        this.year = year;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Vehicle v = (Vehicle) obj;
+        return year == v.year &amp;&amp; brand.equals(v.brand);
+    }
+    @Override
+    public int hashCode() { return 31 * brand.hashCode() + year; }
+    @Override
+    public String toString() { return &quot;Vehicle{&quot; + brand + &quot;, &quot; + year + &quot;}&quot;; }
+}
+
+class Car extends Vehicle {
+    int numDoors;
+    Car(String brand, int year, int numDoors) {
+        super(brand, year);
+        this.numDoors = numDoors;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (!super.equals(obj)) return false;
+        Car c = (Car) obj;
+        return numDoors == c.numDoors;
+    }
+    @Override
+    public int hashCode() { return 31 * super.hashCode() + numDoors; }
+    @Override
+    public String toString() {
+        return &quot;Car{brand=&#39;&quot; + brand + &quot;&#39;, year=&quot; + year + &quot;, doors=&quot; + numDoors + &quot;}&quot;;
+    }
+}
+
+class Motorcycle extends Vehicle {
+    boolean hasSidecar;
+    Motorcycle(String brand, int year, boolean hasSidecar) {
+        super(brand, year);
+        this.hasSidecar = hasSidecar;
+    }
+    @Override
+    public String toString() {
+        return &quot;Motorcycle{brand=&#39;&quot; + brand + &quot;&#39;, year=&quot; + year + &quot;, sidecar=&quot; + hasSidecar + &quot;}&quot;;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Car c1 = new Car(&quot;Toyota&quot;, 2024, 4);
+        Car c2 = new Car(&quot;Toyota&quot;, 2024, 4);
+        System.out.println(c1);
+        System.out.println(c2);
+        System.out.println(&quot;Are they equal? &quot; + c1.equals(c2));
+
+        Motorcycle m = new Motorcycle(&quot;Honda&quot;, 2023, false);
+        System.out.println(m);
+        System.out.println(&quot;Car equals Motorcycle? &quot; + c1.equals(m));
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Custom Exception Hierarchy</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a custom exception hierarchy: AppException extends Exception, ValidationException extends AppException, and NotFoundException extends AppException. Each should have a constructor that takes a message. Write a method that throws different exceptions based on input and catch them appropriately.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">ValidationException: Age must be positive: -5
+NotFoundException: Student not found: ID 999
+AppException: General application error</div>
+                </div><div class="challenge-constraints">Use inheritance for the exception hierarchy. Demonstrate catching specific and general exceptions.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">class AppException extends Exception {
+    AppException(String msg) { super(msg); }
+}
+
+class ValidationException extends AppException {
+    ValidationException(String msg) { super(msg); }
+}
+
+class NotFoundException extends AppException {
+    NotFoundException(String msg) { super(msg); }
+}
+
+public class Main {
+    static void process(int code) throws AppException {
+        if (code == 1) throw new ValidationException(&quot;Age must be positive: -5&quot;);
+        if (code == 2) throw new NotFoundException(&quot;Student not found: ID 999&quot;);
+        if (code == 3) throw new AppException(&quot;General application error&quot;);
+    }
+
+    public static void main(String[] args) {
+        for (int i = 1; i &lt;= 3; i++) {
+            try {
+                process(i);
+            } catch (ValidationException e) {
+                System.out.println(&quot;ValidationException: &quot; + e.getMessage());
+            } catch (NotFoundException e) {
+                System.out.println(&quot;NotFoundException: &quot; + e.getMessage());
+            } catch (AppException e) {
+                System.out.println(&quot;AppException: &quot; + e.getMessage());
+            }
+        }
+    }
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/java/encapsulation-and-access-modifiers/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Encapsulation and Access Modifiers</span>
+        </a>
+            <a href="/resources/java/polymorphism-in-java/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Polymorphism in Java</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/java/inheritance-in-java" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

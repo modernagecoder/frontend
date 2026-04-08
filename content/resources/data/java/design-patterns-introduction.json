@@ -1,0 +1,547 @@
+{
+  "title": "Introduction to Design Patterns",
+  "slug": "design-patterns-introduction",
+  "language": "java",
+  "chapter": 25,
+  "difficulty": "Advanced",
+  "readingTime": "50 min",
+  "lastUpdated": "2026-04-08",
+  "totalQuestions": 57,
+  "seo": {
+    "title": "Java Design Patterns - Singleton, Factory, Builder, Observer, Strategy | Modern Age Coders",
+    "description": "Learn Java design patterns including Singleton (eager, lazy, thread-safe, enum), Factory, Builder, Observer, and Strategy patterns. Understand when to use each pattern and anti-patterns to avoid. Includes 57+ practice questions.",
+    "keywords": "java design patterns, singleton pattern java, factory pattern java, observer pattern java, builder pattern java, strategy pattern java, design patterns interview, GoF patterns java, creational patterns, behavioral patterns"
+  },
+  "content": {
+    "what": "<h2>What Are Design Patterns?</h2><p>A <strong>design pattern</strong> is a reusable solution to a commonly occurring problem in software design. Design patterns are not code -- they are templates or blueprints that describe how to solve a problem in a way that is proven to work across many projects.</p><p>The concept was popularized by the book <em>\"Design Patterns: Elements of Reusable Object-Oriented Software\"</em> (1994) by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides -- collectively known as the <strong>Gang of Four (GoF)</strong>. The book describes 23 patterns organized into three categories:</p><ul><li><strong>Creational Patterns</strong>: How objects are created (Singleton, Factory, Builder, Prototype, Abstract Factory)</li><li><strong>Structural Patterns</strong>: How objects are composed (Adapter, Decorator, Proxy, Facade, Composite)</li><li><strong>Behavioral Patterns</strong>: How objects communicate (Observer, Strategy, Command, Iterator, State)</li></ul><pre><code class=\"language-java\">// Without pattern: messy object creation\nDBConnection conn = new DBConnection();\nconn.setHost(\"localhost\");\nconn.setPort(3306);\nconn.setDatabase(\"students\");\nconn.setUsername(\"admin\");\nconn.setPassword(\"secret\");\nconn.setPoolSize(10);\n\n// With Builder pattern: clean, readable\nDBConnection conn = DBConnection.builder()\n    .host(\"localhost\")\n    .port(3306)\n    .database(\"students\")\n    .username(\"admin\")\n    .password(\"secret\")\n    .poolSize(10)\n    .build();</code></pre><p>Patterns give developers a shared vocabulary. When Arjun says \"use a Singleton for the database connection pool,\" every developer on the team understands exactly what that means.</p>",
+    "why": "<h2>Why Are Design Patterns Important?</h2><h3>1. Proven Solutions to Common Problems</h3><p>Design patterns represent decades of collective experience. Instead of reinventing solutions, you use battle-tested approaches. When Priya needs a single configuration manager shared across her application, she does not need to figure out thread-safe global access from scratch -- the Singleton pattern already solves this.</p><h3>2. Common Vocabulary for Teams</h3><p>Patterns provide a shared language among developers. Saying \"use the Observer pattern\" is more precise and concise than explaining the entire publish-subscribe mechanism. This improves communication during code reviews, design discussions, and documentation.</p><h3>3. Better Software Architecture</h3><p>Patterns promote loose coupling, high cohesion, and the SOLID principles. The Strategy pattern lets you swap algorithms without changing client code. The Observer pattern decouples event producers from consumers. These principles lead to code that is easier to maintain and extend.</p><h3>4. Framework Understanding</h3><p>Every major Java framework uses design patterns. Spring Framework uses Singleton (bean scope), Factory (BeanFactory), Proxy (AOP), and Observer (event system). Understanding patterns helps you understand frameworks at a deeper level.</p><h3>5. Interview and Placement Significance</h3><p>Design pattern questions are standard in interviews at companies like Amazon, Google, Microsoft, Flipkart, and Goldman Sachs. Interviewers ask candidates to implement Singleton, explain Factory vs Abstract Factory, or identify which pattern to use for a given scenario.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Singleton Pattern</h3><p>The <strong>Singleton</strong> pattern ensures that a class has only one instance and provides a global point of access to it. Use it when exactly one object is needed to coordinate actions (e.g., database connection pool, configuration manager, logger).</p><h4>Eager Initialization</h4><pre><code class=\"language-java\">public class EagerSingleton {\n    // Instance created at class loading time\n    private static final EagerSingleton INSTANCE = new EagerSingleton();\n\n    private EagerSingleton() {} // Private constructor prevents external instantiation\n\n    public static EagerSingleton getInstance() {\n        return INSTANCE;\n    }\n}</code></pre><p>Pros: Simple, thread-safe (class loading is thread-safe). Cons: Instance is created even if never used (wastes memory if construction is expensive).</p><h4>Lazy Initialization (Not Thread-Safe)</h4><pre><code class=\"language-java\">public class LazySingleton {\n    private static LazySingleton instance;\n\n    private LazySingleton() {}\n\n    public static LazySingleton getInstance() {\n        if (instance == null) {\n            instance = new LazySingleton(); // Created on first call\n        }\n        return instance;\n    }\n}</code></pre><p>Pros: Instance created only when needed. Cons: NOT thread-safe. Two threads could both see <code>instance == null</code> and create two instances.</p><h4>Thread-Safe with Double-Checked Locking</h4><pre><code class=\"language-java\">public class ThreadSafeSingleton {\n    private static volatile ThreadSafeSingleton instance;\n\n    private ThreadSafeSingleton() {}\n\n    public static ThreadSafeSingleton getInstance() {\n        if (instance == null) {                    // First check (no locking)\n            synchronized (ThreadSafeSingleton.class) {\n                if (instance == null) {            // Second check (with lock)\n                    instance = new ThreadSafeSingleton();\n                }\n            }\n        }\n        return instance;\n    }\n}</code></pre><p>The first check avoids synchronization overhead on every call. The second check (inside synchronized block) ensures only one instance is created. The <code>volatile</code> keyword prevents instruction reordering that could expose a partially constructed object.</p><h4>Enum Singleton (Recommended)</h4><pre><code class=\"language-java\">public enum EnumSingleton {\n    INSTANCE;\n\n    private int count = 0;\n\n    public void increment() { count++; }\n    public int getCount() { return count; }\n}\n\n// Usage\nEnumSingleton.INSTANCE.increment();\nSystem.out.println(EnumSingleton.INSTANCE.getCount()); // 1</code></pre><p>The enum approach is the most robust Singleton implementation. It is inherently thread-safe, prevents reflection attacks (cannot create new enum instances via reflection), and handles serialization correctly (always returns the same instance). Joshua Bloch (Effective Java) recommends this approach.</p><h3>2. Factory Pattern</h3><p>The <strong>Factory</strong> pattern defines an interface for creating objects but lets subclasses decide which class to instantiate. It decouples object creation from the code that uses the objects.</p><pre><code class=\"language-java\">// Product interface\ninterface Shape {\n    void draw();\n}\n\n// Concrete products\nclass Circle implements Shape {\n    public void draw() { System.out.println(\"Drawing Circle\"); }\n}\nclass Rectangle implements Shape {\n    public void draw() { System.out.println(\"Drawing Rectangle\"); }\n}\nclass Triangle implements Shape {\n    public void draw() { System.out.println(\"Drawing Triangle\"); }\n}\n\n// Factory\nclass ShapeFactory {\n    public static Shape createShape(String type) {\n        return switch (type.toLowerCase()) {\n            case \"circle\" -> new Circle();\n            case \"rectangle\" -> new Rectangle();\n            case \"triangle\" -> new Triangle();\n            default -> throw new IllegalArgumentException(\"Unknown shape: \" + type);\n        };\n    }\n}\n\n// Client code -- does not know concrete classes\nShape s1 = ShapeFactory.createShape(\"circle\");\nShape s2 = ShapeFactory.createShape(\"rectangle\");\ns1.draw(); // Drawing Circle\ns2.draw(); // Drawing Rectangle</code></pre><p>Benefits: (1) Client code depends on the interface (Shape), not concrete classes. (2) Adding a new shape requires modifying only the factory, not client code. (3) Object creation logic is centralized.</p><h3>3. Builder Pattern</h3><p>The <strong>Builder</strong> pattern separates the construction of a complex object from its representation. Use it when an object has many optional parameters or when construction involves multiple steps.</p><pre><code class=\"language-java\">public class Student {\n    private final String name;       // required\n    private final int age;           // required\n    private final String email;      // optional\n    private final String phone;      // optional\n    private final String address;    // optional\n    private final String department; // optional\n\n    private Student(Builder builder) {\n        this.name = builder.name;\n        this.age = builder.age;\n        this.email = builder.email;\n        this.phone = builder.phone;\n        this.address = builder.address;\n        this.department = builder.department;\n    }\n\n    @Override\n    public String toString() {\n        return \"Student{name='\" + name + \"', age=\" + age\n            + \", email='\" + email + \"', dept='\" + department + \"'}\";\n    }\n\n    public static class Builder {\n        private final String name; // required\n        private final int age;     // required\n        private String email = \"\";\n        private String phone = \"\";\n        private String address = \"\";\n        private String department = \"\";\n\n        public Builder(String name, int age) {\n            this.name = name;\n            this.age = age;\n        }\n\n        public Builder email(String email) { this.email = email; return this; }\n        public Builder phone(String phone) { this.phone = phone; return this; }\n        public Builder address(String addr) { this.address = addr; return this; }\n        public Builder department(String dept) { this.department = dept; return this; }\n\n        public Student build() { return new Student(this); }\n    }\n}\n\n// Usage: method chaining\nStudent s = new Student.Builder(\"Arjun\", 20)\n    .email(\"arjun@email.com\")\n    .department(\"CS\")\n    .build();\nSystem.out.println(s);</code></pre><p>Benefits: (1) Readable object construction (named parameters via method chaining). (2) Immutable objects (all fields are final). (3) No telescoping constructor anti-pattern (constructors with many parameters). (4) Optional parameters have sensible defaults.</p><h3>4. Observer Pattern</h3><p>The <strong>Observer</strong> pattern defines a one-to-many dependency. When one object (the subject) changes state, all its dependents (observers) are notified automatically. This is the foundation of event systems.</p><pre><code class=\"language-java\">import java.util.ArrayList;\nimport java.util.List;\n\n// Observer interface\ninterface Observer {\n    void update(String event, Object data);\n}\n\n// Subject (Observable)\nclass EventBus {\n    private final List&lt;Observer&gt; observers = new ArrayList&lt;&gt;();\n\n    public void subscribe(Observer observer) {\n        observers.add(observer);\n    }\n\n    public void unsubscribe(Observer observer) {\n        observers.remove(observer);\n    }\n\n    public void publish(String event, Object data) {\n        for (Observer observer : observers) {\n            observer.update(event, data);\n        }\n    }\n}\n\n// Concrete observers\nclass EmailNotifier implements Observer {\n    public void update(String event, Object data) {\n        System.out.println(\"Email: [\" + event + \"] \" + data);\n    }\n}\n\nclass LogNotifier implements Observer {\n    public void update(String event, Object data) {\n        System.out.println(\"Log: [\" + event + \"] \" + data);\n    }\n}\n\n// Usage\nEventBus bus = new EventBus();\nbus.subscribe(new EmailNotifier());\nbus.subscribe(new LogNotifier());\nbus.publish(\"ORDER_PLACED\", \"Order #1234\");\n// Both observers receive the notification</code></pre><p>Benefits: (1) Loose coupling -- the subject does not need to know the concrete observer types. (2) Open/Closed principle -- new observers can be added without modifying the subject. (3) Runtime flexibility -- observers can subscribe and unsubscribe dynamically.</p><h3>5. Strategy Pattern</h3><p>The <strong>Strategy</strong> pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. The client selects the algorithm at runtime without changing its code.</p><pre><code class=\"language-java\">// Strategy interface\ninterface SortStrategy {\n    void sort(int[] data);\n}\n\n// Concrete strategies\nclass BubbleSort implements SortStrategy {\n    public void sort(int[] data) {\n        System.out.println(\"Sorting with Bubble Sort\");\n        for (int i = 0; i < data.length - 1; i++)\n            for (int j = 0; j < data.length - i - 1; j++)\n                if (data[j] > data[j+1]) {\n                    int temp = data[j]; data[j] = data[j+1]; data[j+1] = temp;\n                }\n    }\n}\n\nclass QuickSort implements SortStrategy {\n    public void sort(int[] data) {\n        System.out.println(\"Sorting with Quick Sort\");\n        java.util.Arrays.sort(data); // simplified\n    }\n}\n\n// Context\nclass Sorter {\n    private SortStrategy strategy;\n\n    public void setStrategy(SortStrategy strategy) {\n        this.strategy = strategy;\n    }\n\n    public void performSort(int[] data) {\n        strategy.sort(data);\n    }\n}\n\n// Usage: strategy selected at runtime\nSorter sorter = new Sorter();\nint[] data = {5, 3, 8, 1, 9};\n\nsorter.setStrategy(new BubbleSort());\nsorter.performSort(data);  // Uses Bubble Sort\n\nsorter.setStrategy(new QuickSort());\nsorter.performSort(data);  // Uses Quick Sort</code></pre><p>Benefits: (1) Algorithms are interchangeable at runtime. (2) Adding a new algorithm means adding a new class, not modifying existing code (Open/Closed Principle). (3) Eliminates complex conditional statements (if-else or switch) for selecting algorithms.</p><h3>6. When to Use Each Pattern</h3><table><tr><th>Pattern</th><th>When to Use</th><th>Real-World Example</th></tr><tr><td>Singleton</td><td>Exactly one instance needed globally</td><td>Database connection pool, Logger, Configuration</td></tr><tr><td>Factory</td><td>Object creation depends on input/conditions</td><td>Shape creator, Document parser (PDF/XML/JSON)</td></tr><tr><td>Builder</td><td>Complex object with many optional parameters</td><td>HTTP request builder, SQL query builder</td></tr><tr><td>Observer</td><td>One-to-many notification needed</td><td>Event systems, UI event handlers, pub-sub messaging</td></tr><tr><td>Strategy</td><td>Multiple algorithms, selected at runtime</td><td>Payment methods, sorting algorithms, compression</td></tr></table><h3>7. Anti-Patterns to Avoid</h3><ul><li><strong>God Object</strong>: A single class that does everything. Violates Single Responsibility Principle.</li><li><strong>Singleton Overuse</strong>: Using Singleton for everything makes code tightly coupled and hard to test. Use dependency injection instead.</li><li><strong>Premature Pattern Application</strong>: Do not use patterns just because they exist. Apply them when the problem clearly matches.</li><li><strong>Copy-Paste Programming</strong>: Duplicating code instead of abstracting common behavior into a pattern.</li></ul>"
+  },
+  "codeExamples": [
+    {
+      "title": "Singleton: Thread-Safe Database Connection Pool",
+      "code": "public class ConnectionPool {\n    private static volatile ConnectionPool instance;\n    private final int poolSize;\n    private int activeConnections = 0;\n\n    private ConnectionPool(int poolSize) {\n        this.poolSize = poolSize;\n        System.out.println(\"ConnectionPool created with size: \" + poolSize);\n    }\n\n    public static ConnectionPool getInstance() {\n        if (instance == null) {\n            synchronized (ConnectionPool.class) {\n                if (instance == null) {\n                    instance = new ConnectionPool(10);\n                }\n            }\n        }\n        return instance;\n    }\n\n    public synchronized boolean getConnection() {\n        if (activeConnections < poolSize) {\n            activeConnections++;\n            System.out.println(\"Connection granted. Active: \" + activeConnections);\n            return true;\n        }\n        System.out.println(\"Pool exhausted!\");\n        return false;\n    }\n\n    public synchronized void releaseConnection() {\n        if (activeConnections > 0) {\n            activeConnections--;\n            System.out.println(\"Connection released. Active: \" + activeConnections);\n        }\n    }\n\n    public static void main(String[] args) {\n        ConnectionPool pool1 = ConnectionPool.getInstance();\n        ConnectionPool pool2 = ConnectionPool.getInstance();\n        System.out.println(\"Same instance: \" + (pool1 == pool2));\n\n        pool1.getConnection();\n        pool1.getConnection();\n        pool2.releaseConnection(); // same object as pool1\n    }\n}",
+      "language": "java",
+      "explanation": "This is a practical Singleton using double-checked locking. The <code>volatile</code> keyword prevents instruction reordering. The private constructor prevents external instantiation. <code>getInstance()</code> is the only way to get the object. Both <code>pool1</code> and <code>pool2</code> reference the same instance.",
+      "output": "ConnectionPool created with size: 10\nSame instance: true\nConnection granted. Active: 1\nConnection granted. Active: 2\nConnection released. Active: 1"
+    },
+    {
+      "title": "Factory Pattern: Notification System",
+      "code": "interface Notification {\n    void send(String message);\n}\n\nclass EmailNotification implements Notification {\n    public void send(String message) {\n        System.out.println(\"Email sent: \" + message);\n    }\n}\n\nclass SMSNotification implements Notification {\n    public void send(String message) {\n        System.out.println(\"SMS sent: \" + message);\n    }\n}\n\nclass PushNotification implements Notification {\n    public void send(String message) {\n        System.out.println(\"Push notification: \" + message);\n    }\n}\n\nclass NotificationFactory {\n    public static Notification create(String channel) {\n        return switch (channel.toLowerCase()) {\n            case \"email\" -> new EmailNotification();\n            case \"sms\" -> new SMSNotification();\n            case \"push\" -> new PushNotification();\n            default -> throw new IllegalArgumentException(\"Unknown channel: \" + channel);\n        };\n    }\n}\n\npublic class FactoryDemo {\n    public static void main(String[] args) {\n        String[] channels = {\"email\", \"sms\", \"push\"};\n\n        for (String channel : channels) {\n            Notification notif = NotificationFactory.create(channel);\n            notif.send(\"Your order has been shipped!\");\n        }\n\n        // Client code never mentions EmailNotification, SMSNotification, etc.\n        // Adding a new channel (e.g., WhatsApp) only requires:\n        // 1. New class WhatsAppNotification implements Notification\n        // 2. New case in the factory switch\n    }\n}",
+      "language": "java",
+      "explanation": "The Factory pattern centralizes object creation. Client code uses the <code>Notification</code> interface and never mentions concrete classes. To add a new notification channel, you create a new class and add one case to the factory -- no client code changes needed. This is the Open/Closed Principle in action.",
+      "output": "Email sent: Your order has been shipped!\nSMS sent: Your order has been shipped!\nPush notification: Your order has been shipped!"
+    },
+    {
+      "title": "Builder Pattern: HTTP Request Builder",
+      "code": "public class HttpRequest {\n    private final String method;\n    private final String url;\n    private final String body;\n    private final java.util.Map<String, String> headers;\n    private final int timeout;\n\n    private HttpRequest(Builder builder) {\n        this.method = builder.method;\n        this.url = builder.url;\n        this.body = builder.body;\n        this.headers = builder.headers;\n        this.timeout = builder.timeout;\n    }\n\n    @Override\n    public String toString() {\n        return method + \" \" + url + \"\\nHeaders: \" + headers\n            + \"\\nBody: \" + (body != null ? body : \"(none)\")\n            + \"\\nTimeout: \" + timeout + \"ms\";\n    }\n\n    public static class Builder {\n        private final String method;\n        private final String url;\n        private String body;\n        private java.util.Map<String, String> headers = new java.util.HashMap<>();\n        private int timeout = 5000;\n\n        public Builder(String method, String url) {\n            this.method = method;\n            this.url = url;\n        }\n\n        public Builder body(String body) { this.body = body; return this; }\n        public Builder header(String key, String value) {\n            this.headers.put(key, value); return this;\n        }\n        public Builder timeout(int ms) { this.timeout = ms; return this; }\n\n        public HttpRequest build() { return new HttpRequest(this); }\n    }\n\n    public static void main(String[] args) {\n        HttpRequest get = new HttpRequest.Builder(\"GET\", \"/api/students\")\n            .header(\"Accept\", \"application/json\")\n            .header(\"Authorization\", \"Bearer token123\")\n            .timeout(3000)\n            .build();\n        System.out.println(get);\n\n        System.out.println();\n\n        HttpRequest post = new HttpRequest.Builder(\"POST\", \"/api/students\")\n            .header(\"Content-Type\", \"application/json\")\n            .body(\"{\\\"name\\\": \\\"Arjun\\\", \\\"marks\\\": 85}\")\n            .build();\n        System.out.println(post);\n    }\n}",
+      "language": "java",
+      "explanation": "The Builder pattern creates an immutable HttpRequest through method chaining. Required parameters (method, url) are in the Builder constructor. Optional parameters have defaults. Each setter returns <code>this</code> for chaining. <code>build()</code> creates the final immutable object. This pattern is used extensively in libraries like OkHttp, Retrofit, and Lombok.",
+      "output": "GET /api/students\nHeaders: {Accept=application/json, Authorization=Bearer token123}\nBody: (none)\nTimeout: 3000ms\n\nPOST /api/students\nHeaders: {Content-Type=application/json}\nBody: {\"name\": \"Arjun\", \"marks\": 85}\nTimeout: 5000ms"
+    },
+    {
+      "title": "Observer Pattern: Stock Price Monitor",
+      "code": "import java.util.ArrayList;\nimport java.util.List;\n\ninterface StockObserver {\n    void onPriceChange(String stock, double oldPrice, double newPrice);\n}\n\nclass StockMarket {\n    private final List<StockObserver> observers = new ArrayList<>();\n    private final java.util.Map<String, Double> prices = new java.util.HashMap<>();\n\n    public void subscribe(StockObserver observer) {\n        observers.add(observer);\n    }\n\n    public void unsubscribe(StockObserver observer) {\n        observers.remove(observer);\n    }\n\n    public void updatePrice(String stock, double newPrice) {\n        double oldPrice = prices.getOrDefault(stock, 0.0);\n        prices.put(stock, newPrice);\n        for (StockObserver observer : observers) {\n            observer.onPriceChange(stock, oldPrice, newPrice);\n        }\n    }\n}\n\nclass PriceDisplay implements StockObserver {\n    private String name;\n    PriceDisplay(String name) { this.name = name; }\n\n    public void onPriceChange(String stock, double oldPrice, double newPrice) {\n        String direction = newPrice > oldPrice ? \"UP\" : \"DOWN\";\n        System.out.printf(\"%s: %s %.2f -> %.2f (%s)%n\",\n                          name, stock, oldPrice, newPrice, direction);\n    }\n}\n\nclass AlertSystem implements StockObserver {\n    private double threshold;\n    AlertSystem(double threshold) { this.threshold = threshold; }\n\n    public void onPriceChange(String stock, double oldPrice, double newPrice) {\n        double change = Math.abs(newPrice - oldPrice) / Math.max(oldPrice, 0.01) * 100;\n        if (change > threshold) {\n            System.out.printf(\"ALERT: %s moved %.1f%% (threshold: %.1f%%)%n\",\n                              stock, change, threshold);\n        }\n    }\n}\n\npublic class ObserverDemo {\n    public static void main(String[] args) {\n        StockMarket market = new StockMarket();\n        market.subscribe(new PriceDisplay(\"Display-1\"));\n        market.subscribe(new AlertSystem(5.0));\n\n        market.updatePrice(\"TCS\", 3500.0);\n        System.out.println();\n        market.updatePrice(\"TCS\", 3700.0);  // ~5.7% change -> triggers alert\n    }\n}",
+      "language": "java",
+      "explanation": "The stock market is the Subject. PriceDisplay and AlertSystem are Observers. When a price changes, all subscribed observers are notified. The market does not know the concrete observer types -- it only knows the <code>StockObserver</code> interface. New observer types (e.g., a mobile notification sender) can be added without modifying the market class.",
+      "output": "Display-1: TCS 0.00 -> 3500.00 (UP)\n\nDisplay-1: TCS 3500.00 -> 3700.00 (UP)\nALERT: TCS moved 5.7% (threshold: 5.0%)"
+    },
+    {
+      "title": "Strategy Pattern: Payment Processing",
+      "code": "interface PaymentStrategy {\n    boolean pay(double amount);\n    String getName();\n}\n\nclass CreditCardPayment implements PaymentStrategy {\n    private String cardNumber;\n    CreditCardPayment(String cardNumber) { this.cardNumber = cardNumber; }\n\n    public boolean pay(double amount) {\n        String masked = \"****\" + cardNumber.substring(cardNumber.length() - 4);\n        System.out.printf(\"Paid %.2f via Credit Card %s%n\", amount, masked);\n        return true;\n    }\n    public String getName() { return \"Credit Card\"; }\n}\n\nclass UPIPayment implements PaymentStrategy {\n    private String upiId;\n    UPIPayment(String upiId) { this.upiId = upiId; }\n\n    public boolean pay(double amount) {\n        System.out.printf(\"Paid %.2f via UPI %s%n\", amount, upiId);\n        return true;\n    }\n    public String getName() { return \"UPI\"; }\n}\n\nclass WalletPayment implements PaymentStrategy {\n    private double balance;\n    WalletPayment(double balance) { this.balance = balance; }\n\n    public boolean pay(double amount) {\n        if (balance >= amount) {\n            balance -= amount;\n            System.out.printf(\"Paid %.2f via Wallet. Remaining: %.2f%n\", amount, balance);\n            return true;\n        }\n        System.out.println(\"Wallet: insufficient balance!\");\n        return false;\n    }\n    public String getName() { return \"Wallet\"; }\n}\n\nclass ShoppingCart {\n    private PaymentStrategy paymentStrategy;\n\n    public void setPaymentStrategy(PaymentStrategy strategy) {\n        this.paymentStrategy = strategy;\n        System.out.println(\"Payment method set to: \" + strategy.getName());\n    }\n\n    public void checkout(double amount) {\n        if (paymentStrategy == null) {\n            System.out.println(\"No payment method selected!\");\n            return;\n        }\n        paymentStrategy.pay(amount);\n    }\n}\n\npublic class StrategyDemo {\n    public static void main(String[] args) {\n        ShoppingCart cart = new ShoppingCart();\n\n        cart.setPaymentStrategy(new CreditCardPayment(\"4111222233334444\"));\n        cart.checkout(1500.00);\n\n        System.out.println();\n        cart.setPaymentStrategy(new UPIPayment(\"arjun@upi\"));\n        cart.checkout(750.00);\n\n        System.out.println();\n        cart.setPaymentStrategy(new WalletPayment(500.00));\n        cart.checkout(300.00);\n        cart.checkout(300.00); // insufficient balance\n    }\n}",
+      "language": "java",
+      "explanation": "The Strategy pattern encapsulates each payment method in its own class. <code>ShoppingCart</code> does not contain any payment logic -- it delegates to the current <code>PaymentStrategy</code>. Adding a new payment method (e.g., Net Banking) means creating a new class, not modifying the cart. This is common in Indian e-commerce applications that support credit cards, UPI, wallets, and COD.",
+      "output": "Payment method set to: Credit Card\nPaid 1500.00 via Credit Card ****4444\n\nPayment method set to: UPI\nPaid 750.00 via UPI arjun@upi\n\nPayment method set to: Wallet\nPaid 300.00 via Wallet. Remaining: 200.00\nWallet: insufficient balance!"
+    },
+    {
+      "title": "Enum Singleton: Application Configuration",
+      "code": "import java.util.HashMap;\nimport java.util.Map;\n\npublic enum AppConfig {\n    INSTANCE;\n\n    private final Map<String, String> properties = new HashMap<>();\n\n    AppConfig() {\n        // Simulate loading configuration\n        properties.put(\"db.host\", \"localhost\");\n        properties.put(\"db.port\", \"3306\");\n        properties.put(\"db.name\", \"students\");\n        properties.put(\"app.name\", \"Student Portal\");\n        properties.put(\"app.version\", \"2.1.0\");\n        System.out.println(\"Configuration loaded.\");\n    }\n\n    public String get(String key) {\n        return properties.getOrDefault(key, \"NOT_SET\");\n    }\n\n    public void set(String key, String value) {\n        properties.put(key, value);\n    }\n\n    public static void main(String[] args) {\n        // Access from anywhere in the application\n        System.out.println(\"App: \" + AppConfig.INSTANCE.get(\"app.name\"));\n        System.out.println(\"DB: \" + AppConfig.INSTANCE.get(\"db.host\") + \":\" + AppConfig.INSTANCE.get(\"db.port\"));\n\n        // Modify configuration\n        AppConfig.INSTANCE.set(\"db.host\", \"192.168.1.100\");\n        System.out.println(\"Updated DB: \" + AppConfig.INSTANCE.get(\"db.host\"));\n\n        // Verify singleton\n        AppConfig c1 = AppConfig.INSTANCE;\n        AppConfig c2 = AppConfig.INSTANCE;\n        System.out.println(\"Same instance: \" + (c1 == c2));\n    }\n}",
+      "language": "java",
+      "explanation": "The enum Singleton is the recommended approach by Joshua Bloch (Effective Java). The JVM guarantees exactly one instance per enum constant. It is inherently thread-safe, serialization-safe, and reflection-proof. The constructor runs exactly once when the enum is first accessed.",
+      "output": "Configuration loaded.\nApp: Student Portal\nDB: localhost:3306\nUpdated DB: 192.168.1.100\nSame instance: true"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Making Singleton Constructor Public",
+      "wrongCode": "class Singleton {\n    private static Singleton instance;\n\n    public Singleton() {} // PUBLIC constructor!\n\n    public static Singleton getInstance() {\n        if (instance == null) instance = new Singleton();\n        return instance;\n    }\n}\n\n// Anyone can do: new Singleton() -- breaks the pattern!",
+      "error": "The public constructor allows external code to create multiple instances, completely defeating the purpose of the Singleton pattern.",
+      "correctCode": "class Singleton {\n    private static Singleton instance;\n\n    private Singleton() {} // PRIVATE constructor\n\n    public static Singleton getInstance() {\n        if (instance == null) instance = new Singleton();\n        return instance;\n    }\n}",
+      "explanation": "The private constructor is the core of the Singleton pattern. It prevents any code outside the class from using <code>new Singleton()</code>. The only way to get an instance is through <code>getInstance()</code>."
+    },
+    {
+      "title": "Lazy Singleton Without Thread Safety",
+      "wrongCode": "class Singleton {\n    private static Singleton instance;\n    private Singleton() {}\n\n    public static Singleton getInstance() {\n        if (instance == null) {           // Thread A checks: null\n            instance = new Singleton();   // Thread B also checks: null (race condition)\n        }                                 // Two instances created!\n        return instance;\n    }\n}",
+      "error": "In a multi-threaded environment, two threads can simultaneously pass the null check and create two instances.",
+      "correctCode": "class Singleton {\n    private static volatile Singleton instance;\n    private Singleton() {}\n\n    public static Singleton getInstance() {\n        if (instance == null) {\n            synchronized (Singleton.class) {\n                if (instance == null) {\n                    instance = new Singleton();\n                }\n            }\n        }\n        return instance;\n    }\n}",
+      "explanation": "Double-checked locking with <code>volatile</code> ensures thread safety. The outer check avoids synchronization overhead on every call. The inner check (inside synchronized) ensures only one instance is created. The <code>volatile</code> keyword prevents the JVM from reordering instructions that could expose a partially constructed object."
+    },
+    {
+      "title": "Factory Returning Concrete Types Instead of Interface",
+      "wrongCode": "// Factory returns concrete type -- defeats the purpose\nclass ShapeFactory {\n    public static Circle createCircle() {\n        return new Circle();\n    }\n    public static Rectangle createRectangle() {\n        return new Rectangle();\n    }\n}\n// Client is coupled to concrete classes",
+      "error": "The client code must know about Circle and Rectangle, which defeats the factory's purpose of abstracting object creation.",
+      "correctCode": "class ShapeFactory {\n    public static Shape createShape(String type) {\n        return switch (type) {\n            case \"circle\" -> new Circle();\n            case \"rectangle\" -> new Rectangle();\n            default -> throw new IllegalArgumentException(\"Unknown: \" + type);\n        };\n    }\n}\n// Client uses Shape interface only\nShape s = ShapeFactory.createShape(\"circle\");",
+      "explanation": "A factory should return the interface type (Shape), not concrete types. This way, the client depends only on the interface. Concrete classes can be changed, added, or removed without affecting client code."
+    },
+    {
+      "title": "Overusing Singleton for Everything",
+      "wrongCode": "// Making every service a Singleton\nclass UserService { private static UserService instance; ... }\nclass OrderService { private static OrderService instance; ... }\nclass PaymentService { private static PaymentService instance; ... }\nclass EmailService { private static EmailService instance; ... }\n// Tight coupling, impossible to test independently",
+      "error": "Global state everywhere. Cannot substitute mock implementations for testing. Cannot run services with different configurations simultaneously.",
+      "correctCode": "// Use dependency injection instead\nclass OrderService {\n    private final UserService userService;\n    private final PaymentService paymentService;\n\n    OrderService(UserService userService, PaymentService paymentService) {\n        this.userService = userService;\n        this.paymentService = paymentService;\n    }\n}\n// Dependencies are injected, not globally accessed",
+      "explanation": "Singleton overuse creates tightly coupled code that is hard to test and maintain. Use dependency injection (constructor injection) to manage object lifecycles. Frameworks like Spring handle singleton scope through DI containers, not the Singleton pattern."
+    }
+  ],
+  "summary": [
+    "Design patterns are reusable solutions to common software design problems. They are organized into three categories: Creational (how objects are created), Structural (how objects are composed), and Behavioral (how objects communicate).",
+    "The Singleton pattern ensures exactly one instance of a class. Implementations include eager initialization (simple, thread-safe), lazy with double-checked locking (thread-safe, deferred), and enum (recommended: thread-safe, serialization-safe, reflection-proof).",
+    "The Factory pattern centralizes object creation behind an interface. Client code depends on the interface (Shape), not concrete classes (Circle, Rectangle). Adding new types requires changes only in the factory.",
+    "The Builder pattern constructs complex objects step by step using method chaining. It eliminates telescoping constructors, produces immutable objects, and makes code readable. Use it when a class has many optional parameters.",
+    "The Observer pattern establishes a one-to-many dependency. When the subject changes state, all registered observers are notified. This decouples the subject from its observers and is the foundation of event-driven systems.",
+    "The Strategy pattern encapsulates algorithms into interchangeable classes. The client selects the algorithm at runtime without conditional logic. Use it when multiple algorithms exist for the same task (sorting, payment, compression).",
+    "A private constructor is essential for Singleton. Without it, external code can bypass getInstance() and create multiple instances.",
+    "For thread-safe Singleton, use double-checked locking with volatile, or use the enum approach (simplest and most robust).",
+    "Anti-patterns to avoid: God Object (class does everything), Singleton overuse (use dependency injection instead), premature pattern application (do not add complexity without a clear need).",
+    "Design patterns provide a shared vocabulary. Saying 'use Factory' or 'apply Observer' communicates complete design intent in a few words."
+  ],
+  "relatedTopics": ["java-memory-and-garbage-collection", "abstraction-and-interfaces"],
+  "practice": {
+    "totalQuestions": 57,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">public enum Config {\n    INSTANCE;\n    private int value = 0;\n    public void set(int v) { value = v; }\n    public int get() { return value; }\n}\n\nConfig c1 = Config.INSTANCE;\nConfig c2 = Config.INSTANCE;\nc1.set(42);\nSystem.out.println(c2.get());</code></pre>",
+        "hint": "Enum constants are singletons. c1 and c2 are the same object.",
+        "answer": "<code>42</code>",
+        "explanation": "<code>c1</code> and <code>c2</code> both reference the same <code>INSTANCE</code> enum constant. Setting value to 42 through c1 is visible through c2 because they are the same object."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">class Singleton {\n    private static Singleton instance = new Singleton();\n    private int count = 0;\n    private Singleton() { count++; }\n    public static Singleton getInstance() { return instance; }\n    public int getCount() { return count; }\n}\n\nSingleton s1 = Singleton.getInstance();\nSingleton s2 = Singleton.getInstance();\nSystem.out.println(s1 == s2);\nSystem.out.println(s1.getCount());</code></pre>",
+        "hint": "The constructor runs only once (eager initialization).",
+        "answer": "<code>true</code><br><code>1</code>",
+        "explanation": "Eager initialization creates the instance at class loading time. The constructor runs once, setting count to 1. Both <code>s1</code> and <code>s2</code> reference the same instance (==  true). <code>getCount()</code> returns 1."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">interface Animal { String speak(); }\nclass Dog implements Animal { public String speak() { return \"Woof\"; } }\nclass Cat implements Animal { public String speak() { return \"Meow\"; } }\n\nclass AnimalFactory {\n    static Animal create(String type) {\n        if (type.equals(\"dog\")) return new Dog();\n        if (type.equals(\"cat\")) return new Cat();\n        throw new IllegalArgumentException(\"Unknown\");\n    }\n}\n\nAnimal a = AnimalFactory.create(\"cat\");\nSystem.out.println(a.speak());</code></pre>",
+        "hint": "The factory creates a Cat when given \"cat\".",
+        "answer": "<code>Meow</code>",
+        "explanation": "The factory receives \"cat\" and returns a new <code>Cat</code> object. <code>a.speak()</code> calls Cat's speak() method, returning \"Meow\"."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">interface Greeting { void greet(String name); }\n\nclass Formal implements Greeting {\n    public void greet(String name) { System.out.println(\"Good day, \" + name); }\n}\nclass Casual implements Greeting {\n    public void greet(String name) { System.out.println(\"Hey, \" + name + \"!\"); }\n}\n\nGreeting g = new Casual();\ng.greet(\"Arjun\");\ng = new Formal();\ng.greet(\"Arjun\");</code></pre>",
+        "hint": "The strategy (greeting style) changes at runtime.",
+        "answer": "<code>Hey, Arjun!</code><br><code>Good day, Arjun</code>",
+        "explanation": "First, <code>g</code> is a Casual greeting. Then it is reassigned to Formal. The behavior changes based on the current implementation -- this is the Strategy pattern."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">class Builder {\n    private String name = \"\";\n    private int value = 0;\n    Builder name(String n) { name = n; return this; }\n    Builder value(int v) { value = v; return this; }\n    String build() { return name + \":\" + value; }\n}\n\nString result = new Builder().name(\"test\").value(42).build();\nSystem.out.println(result);</code></pre>",
+        "hint": "Each method returns 'this' for chaining.",
+        "answer": "<code>test:42</code>",
+        "explanation": "Method chaining: <code>name(\"test\")</code> sets name and returns the builder. <code>value(42)</code> sets value and returns the builder. <code>build()</code> combines them into \"test:42\"."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">interface Observer { void update(String msg); }\n\nclass Subject {\n    List&lt;Observer&gt; observers = new ArrayList&lt;&gt;();\n    void add(Observer o) { observers.add(o); }\n    void notifyAll(String msg) {\n        for (Observer o : observers) o.update(msg);\n    }\n}\n\nSubject s = new Subject();\ns.add(msg -> System.out.println(\"A: \" + msg));\ns.add(msg -> System.out.println(\"B: \" + msg));\ns.notifyAll(\"Hello\");</code></pre>",
+        "hint": "Two observers are registered. Both receive the notification.",
+        "answer": "<code>A: Hello</code><br><code>B: Hello</code>",
+        "explanation": "Two lambda observers are registered. When <code>notifyAll(\"Hello\")</code> is called, both are invoked in order, printing \"A: Hello\" and \"B: Hello\"."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens when this code runs?<br><pre><code class=\"language-java\">class Singleton {\n    private static Singleton instance;\n    private Singleton() {}\n    public static Singleton getInstance() {\n        if (instance == null) instance = new Singleton();\n        return instance;\n    }\n}\n\n// Called from two threads simultaneously:\n// Thread 1: Singleton.getInstance()\n// Thread 2: Singleton.getInstance()</code></pre>",
+        "hint": "This lazy initialization is not thread-safe.",
+        "answer": "Both threads could see <code>instance == null</code> simultaneously and create two separate instances. This violates the Singleton contract. The first thread creates one instance, the second creates another.",
+        "explanation": "Without synchronization, two threads can interleave the null check and the assignment. Thread 1 checks null (true), then Thread 2 checks null (also true, because Thread 1 has not finished creating yet). Both create instances. Use double-checked locking with <code>volatile</code> or enum Singleton to fix."
+      },
+      {
+        "id": "ts-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between the Factory pattern and the Builder pattern?",
+        "hint": "Think about what problem each solves.",
+        "answer": "The <strong>Factory</strong> pattern selects which class to instantiate based on input (choosing between Circle, Rectangle, Triangle). The <strong>Builder</strong> pattern constructs a single complex object step by step with many optional parameters (setting name, email, phone, address on a Student). Factory answers 'which type?' while Builder answers 'how to configure it?'.",
+        "explanation": "Factory: one method call, returns different types. Builder: multiple method calls (chaining), returns one type with different configurations. Use Factory when you have a family of related classes. Use Builder when one class has many optional fields."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is the enum Singleton considered the best implementation? What problems does it solve that other approaches do not?",
+        "hint": "Think about reflection, serialization, and thread safety.",
+        "answer": "Enum Singleton solves three problems: (1) <strong>Thread safety</strong>: the JVM guarantees that enum instances are created exactly once in a thread-safe manner. (2) <strong>Serialization safety</strong>: enum deserialization always returns the same instance (Java handles this specially). Other Singletons may create a new instance during deserialization. (3) <strong>Reflection safety</strong>: you cannot create new enum instances via reflection (the JVM prevents it). Other Singletons can be broken by <code>Constructor.setAccessible(true)</code>.",
+        "explanation": "Joshua Bloch (Effective Java, Item 3) recommends the enum approach as the simplest and most robust Singleton. The JVM handles all the edge cases that other approaches must manually address."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "When should you NOT use the Singleton pattern?",
+        "hint": "Think about testability and coupling.",
+        "answer": "Avoid Singleton when: (1) You need testability -- Singletons are hard to mock/stub in unit tests because they carry global state. (2) You need different configurations -- Singleton provides one fixed instance, which cannot be configured differently per context. (3) The class does not truly need to be unique. Prefer <strong>dependency injection</strong> -- let a DI container manage singleton scope instead of hardcoding it into the class. This allows easy substitution for testing and different environments.",
+        "explanation": "Singleton overuse is an anti-pattern. In modern Java development (Spring, Guice), dependency injection containers manage object lifecycle. You get singleton behavior through container configuration, not the Singleton pattern."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "How does the Observer pattern support the Open/Closed Principle?",
+        "hint": "Think about adding new observers without modifying the subject.",
+        "answer": "The Open/Closed Principle states that classes should be open for extension but closed for modification. The Observer pattern supports this because you can add new observer types (new classes implementing the Observer interface) without modifying the Subject class. The Subject only knows the Observer interface, not concrete types. Adding an SMS notifier, Slack notifier, or any other observer requires zero changes to the Subject.",
+        "explanation": "The key is that the Subject depends on an abstraction (the Observer interface), not concrete implementations. Any new implementation can be plugged in at runtime."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">class Logger {\n    private static final Logger INSTANCE = new Logger();\n    private int logCount = 0;\n    private Logger() {}\n    static Logger getInstance() { return INSTANCE; }\n    void log(String msg) {\n        logCount++;\n        System.out.println(logCount + \": \" + msg);\n    }\n}\n\nLogger.getInstance().log(\"Start\");\nLogger.getInstance().log(\"Process\");\nLogger.getInstance().log(\"End\");</code></pre>",
+        "hint": "All three calls use the same Singleton instance.",
+        "answer": "<code>1: Start</code><br><code>2: Process</code><br><code>3: End</code>",
+        "explanation": "All three <code>getInstance()</code> calls return the same object. <code>logCount</code> increments across calls: 1, 2, 3."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">interface Formatter { String format(String text); }\nclass Upper implements Formatter { public String format(String t) { return t.toUpperCase(); } }\nclass Lower implements Formatter { public String format(String t) { return t.toLowerCase(); } }\n\nFormatter f = new Upper();\nSystem.out.println(f.format(\"Hello\"));\nf = new Lower();\nSystem.out.println(f.format(\"Hello\"));</code></pre>",
+        "hint": "The strategy (formatter) changes at runtime.",
+        "answer": "<code>HELLO</code><br><code>hello</code>",
+        "explanation": "First, the Upper strategy transforms to uppercase. Then the Lower strategy transforms to lowercase. The behavior changes based on which implementation is assigned."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">class Pizza {\n    String size, crust;\n    boolean cheese, pepperoni;\n    public String toString() { return size + \"/\" + crust\n        + (cheese ? \"+cheese\" : \"\") + (pepperoni ? \"+pepperoni\" : \"\"); }\n    static class Builder {\n        String size, crust = \"thin\";\n        boolean cheese, pepperoni;\n        Builder(String size) { this.size = size; }\n        Builder crust(String c) { crust = c; return this; }\n        Builder cheese() { cheese = true; return this; }\n        Builder pepperoni() { pepperoni = true; return this; }\n        Pizza build() {\n            Pizza p = new Pizza(); p.size = size; p.crust = crust;\n            p.cheese = cheese; p.pepperoni = pepperoni; return p;\n        }\n    }\n}\n\nPizza p = new Pizza.Builder(\"Large\").cheese().pepperoni().build();\nSystem.out.println(p);</code></pre>",
+        "hint": "Default crust is \"thin\". cheese() and pepperoni() are called.",
+        "answer": "<code>Large/thin+cheese+pepperoni</code>",
+        "explanation": "The Builder starts with size=\"Large\" and default crust=\"thin\". <code>cheese()</code> sets cheese=true. <code>pepperoni()</code> sets pepperoni=true. <code>build()</code> creates the Pizza. toString formats it."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">interface Calculator { int compute(int a, int b); }\n\nclass Add implements Calculator { public int compute(int a, int b) { return a + b; } }\nclass Multiply implements Calculator { public int compute(int a, int b) { return a * b; } }\n\nclass Engine {\n    Calculator strategy;\n    void setStrategy(Calculator c) { strategy = c; }\n    int execute(int a, int b) { return strategy.compute(a, b); }\n}\n\nEngine e = new Engine();\ne.setStrategy(new Add());\nSystem.out.println(e.execute(3, 4));\ne.setStrategy(new Multiply());\nSystem.out.println(e.execute(3, 4));</code></pre>",
+        "hint": "The strategy changes from Add to Multiply.",
+        "answer": "<code>7</code><br><code>12</code>",
+        "explanation": "First execution uses Add: 3 + 4 = 7. Second uses Multiply: 3 * 4 = 12. Same engine, different behavior based on the strategy."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-java\">interface Observer { void notify(int val); }\nclass Subject {\n    List&lt;Observer&gt; obs = new ArrayList&lt;&gt;();\n    int value;\n    void add(Observer o) { obs.add(o); }\n    void remove(Observer o) { obs.remove(o); }\n    void setValue(int v) {\n        value = v;\n        obs.forEach(o -> o.notify(v));\n    }\n}\n\nSubject s = new Subject();\nObserver o1 = v -> System.out.println(\"O1: \" + v);\nObserver o2 = v -> System.out.println(\"O2: \" + v);\ns.add(o1);\ns.add(o2);\ns.setValue(10);\ns.remove(o1);\ns.setValue(20);</code></pre>",
+        "hint": "o1 is removed before the second setValue call.",
+        "answer": "<code>O1: 10</code><br><code>O2: 10</code><br><code>O2: 20</code>",
+        "explanation": "First setValue(10): both o1 and o2 are notified. Then o1 is removed. Second setValue(20): only o2 is notified. This demonstrates the dynamic subscribe/unsubscribe behavior of the Observer pattern."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What are the three categories of design patterns defined by the Gang of Four?",
+        "hint": "Think about creating, composing, and communicating.",
+        "answer": "(1) <strong>Creational</strong>: patterns for object creation (Singleton, Factory, Builder, Prototype, Abstract Factory). (2) <strong>Structural</strong>: patterns for composing objects into larger structures (Adapter, Decorator, Proxy, Facade, Composite). (3) <strong>Behavioral</strong>: patterns for object communication and responsibility distribution (Observer, Strategy, Command, Iterator, State).",
+        "explanation": "Creational = how objects are born. Structural = how objects are organized. Behavioral = how objects interact. Each category addresses a different aspect of software design."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What real-world Java framework uses the Observer pattern, and how?",
+        "hint": "Think about event handling in Java GUI or Spring.",
+        "answer": "Multiple frameworks use Observer: (1) <strong>Java Swing/AWT</strong>: ActionListener, MouseListener are observers registered on GUI components (subjects). (2) <strong>Spring Framework</strong>: ApplicationListener observes ApplicationEvents published by the event system. (3) <strong>Java Beans</strong>: PropertyChangeListener observes property changes. The common theme is decoupling event producers from event consumers.",
+        "explanation": "The Observer pattern is fundamental to event-driven programming. Any system where components need to react to changes in other components without tight coupling uses some form of this pattern."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Compare the Singleton pattern with dependency injection. When would you prefer one over the other?",
+        "hint": "Think about testability and coupling.",
+        "answer": "<strong>Singleton pattern</strong>: hardcodes single-instance behavior into the class. Simple but creates tight coupling (code directly calls <code>getInstance()</code>). Difficult to mock in tests. <strong>Dependency injection</strong>: a DI container (like Spring) manages the lifecycle. The class receives its dependencies through the constructor. Singleton scope is a container configuration, not a class design choice. Prefer DI when: testability matters, different environments need different configurations, or you use a framework (Spring, Guice). Prefer Singleton pattern when: no DI framework is available and you genuinely need a single global instance.",
+        "explanation": "In modern Java development, DI has largely replaced the Singleton pattern. Spring's default bean scope is singleton -- you get single-instance behavior without any Singleton boilerplate, and the class remains easily testable with mock dependencies."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does the Singleton pattern guarantee?",
+        "options": [
+          "A class can only have one method",
+          "A class has exactly one instance with global access",
+          "A class cannot be inherited",
+          "A class is immutable"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Singleton ensures exactly one instance of the class exists and provides a global access point (usually through <code>getInstance()</code>)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the key element that prevents external instantiation in Singleton?",
+        "options": [
+          "A static variable",
+          "A private constructor",
+          "A final class",
+          "An abstract method"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A private constructor prevents code outside the class from using <code>new</code> to create instances. Only the class itself (through <code>getInstance()</code>) can create the instance."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which pattern creates objects without exposing the creation logic to the client?",
+        "options": [
+          "Observer",
+          "Strategy",
+          "Factory",
+          "Builder"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The Factory pattern hides object creation behind a factory method. The client requests an object by type and receives it without knowing which concrete class was instantiated."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What problem does the Builder pattern solve?",
+        "options": [
+          "Creating a single global instance",
+          "Constructing complex objects with many optional parameters",
+          "Notifying multiple objects about changes",
+          "Selecting algorithms at runtime"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Builder solves the problem of constructing objects with many optional parameters. It avoids telescoping constructors and produces readable, immutable objects."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "The Gang of Four book organizes patterns into how many categories?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The GoF organizes 23 patterns into three categories: Creational, Structural, and Behavioral."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Why is the enum Singleton recommended over other implementations?",
+        "options": [
+          "It is faster",
+          "It is thread-safe, serialization-safe, and reflection-proof",
+          "It uses less memory",
+          "It can have multiple instances"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Enum Singleton is inherently thread-safe (JVM guarantee), serialization-safe (always returns the same instance), and reflection-proof (cannot create new enum instances via reflection)."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "In the Observer pattern, what is the Subject?",
+        "options": [
+          "The object that receives notifications",
+          "The object that maintains a list of observers and notifies them",
+          "The interface that observers implement",
+          "The event data"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The Subject (or Observable) maintains a list of observers, and when its state changes, it notifies all of them. Observers subscribe to and unsubscribe from the Subject."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What technique does the Builder pattern use to make code readable?",
+        "options": [
+          "Inheritance",
+          "Method chaining (each setter returns 'this')",
+          "Recursion",
+          "Static imports"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Each setter method in the Builder returns <code>this</code>, enabling method chaining: <code>builder.name(\"X\").age(20).build()</code>. This creates a fluent, readable API."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which pattern allows selecting an algorithm at runtime?",
+        "options": [
+          "Singleton",
+          "Factory",
+          "Builder",
+          "Strategy"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> The Strategy pattern encapsulates algorithms into interchangeable classes. The client selects which algorithm to use at runtime by setting the strategy object."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is the volatile keyword used for in double-checked locking Singleton?",
+        "options": [
+          "To make the variable faster to access",
+          "To prevent the compiler from reordering instructions that could expose a partially constructed object",
+          "To make the variable thread-local",
+          "To prevent the variable from being garbage collected"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without <code>volatile</code>, the JVM might reorder the assignment and constructor call, allowing a thread to see a non-null but incompletely initialized instance. <code>volatile</code> prevents this reordering."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "Which is an anti-pattern to avoid?",
+        "options": [
+          "Using Factory to create objects",
+          "Using Builder for complex construction",
+          "Using Singleton for every service class (Singleton overuse)",
+          "Using Observer for event notifications"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Making every service a Singleton creates tight coupling, makes testing difficult, and introduces global state. Use dependency injection instead."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the difference between Factory Method and Abstract Factory?",
+        "options": [
+          "There is no difference",
+          "Factory Method creates one product type; Abstract Factory creates families of related products",
+          "Abstract Factory is simpler than Factory Method",
+          "Factory Method uses inheritance; Abstract Factory does not"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Factory Method creates one type of product. Abstract Factory creates families of related products (e.g., a UI factory that creates both buttons and checkboxes for a specific platform)."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "How can reflection break a Singleton (non-enum)?",
+        "options": [
+          "Reflection can delete the instance",
+          "Reflection can set the private constructor to accessible and create a new instance",
+          "Reflection can change the class name",
+          "Reflection cannot affect Singletons"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>Constructor.setAccessible(true)</code> bypasses the private modifier, allowing creation of new instances. Enum Singletons are immune because the JVM prevents enum instantiation via reflection."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which SOLID principle does the Strategy pattern primarily support?",
+        "options": [
+          "Single Responsibility Principle",
+          "Open/Closed Principle",
+          "Liskov Substitution Principle",
+          "Interface Segregation Principle"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The Strategy pattern supports the Open/Closed Principle: new algorithms (strategies) can be added by creating new classes, without modifying existing client code or the context class."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "What is the return type of each setter method in a Builder class?",
+        "options": [
+          "void",
+          "The type of the field being set",
+          "The Builder type itself (for method chaining)",
+          "The final product type"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Each setter returns <code>this</code> (the Builder instance) to enable method chaining. Only the <code>build()</code> method returns the final product."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "Which of these is a Behavioral design pattern?",
+        "options": [
+          "Singleton",
+          "Builder",
+          "Observer",
+          "Factory"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Observer is a Behavioral pattern (how objects communicate). Singleton, Builder, and Factory are Creational patterns (how objects are created)."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Enum Singleton Logger",
+        "difficulty": "Easy",
+        "description": "Implement a Logger as an enum Singleton with methods: info(msg), warn(msg), error(msg). Each method should print the log level, timestamp (simplified as a counter), and message. Verify that multiple references point to the same instance.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[1] INFO: Application started\n[2] WARN: Low memory\n[3] ERROR: NullPointerException\nSame instance: true",
+        "constraints": "Use enum Singleton. Include a message counter.",
+        "solution": "public enum Logger {\n    INSTANCE;\n    private int counter = 0;\n\n    public void info(String msg) { log(\"INFO\", msg); }\n    public void warn(String msg) { log(\"WARN\", msg); }\n    public void error(String msg) { log(\"ERROR\", msg); }\n\n    private void log(String level, String msg) {\n        counter++;\n        System.out.printf(\"[%d] %s: %s%n\", counter, level, msg);\n    }\n\n    public static void main(String[] args) {\n        Logger.INSTANCE.info(\"Application started\");\n        Logger.INSTANCE.warn(\"Low memory\");\n        Logger.INSTANCE.error(\"NullPointerException\");\n        System.out.println(\"Same instance: \" + (Logger.INSTANCE == Logger.INSTANCE));\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Shape Factory with Area Calculation",
+        "difficulty": "Medium",
+        "description": "Create a Shape interface with getArea() and getName(). Implement Circle, Rectangle, and Triangle. Build a ShapeFactory that creates shapes from string input. Calculate and print the area of each shape.",
+        "sampleInput": "create(\"circle\", 5), create(\"rectangle\", 4, 6), create(\"triangle\", 3, 8)",
+        "sampleOutput": "Circle: area = 78.54\nRectangle: area = 24.00\nTriangle: area = 12.00",
+        "constraints": "Use the Factory pattern. Return the Shape interface type, not concrete types.",
+        "solution": "interface Shape {\n    double getArea();\n    String getName();\n}\n\nclass Circle implements Shape {\n    double radius;\n    Circle(double r) { radius = r; }\n    public double getArea() { return Math.PI * radius * radius; }\n    public String getName() { return \"Circle\"; }\n}\n\nclass Rectangle implements Shape {\n    double width, height;\n    Rectangle(double w, double h) { width = w; height = h; }\n    public double getArea() { return width * height; }\n    public String getName() { return \"Rectangle\"; }\n}\n\nclass Triangle implements Shape {\n    double base, height;\n    Triangle(double b, double h) { base = b; height = h; }\n    public double getArea() { return 0.5 * base * height; }\n    public String getName() { return \"Triangle\"; }\n}\n\nclass ShapeFactory {\n    static Shape create(String type, double... dims) {\n        return switch (type.toLowerCase()) {\n            case \"circle\" -> new Circle(dims[0]);\n            case \"rectangle\" -> new Rectangle(dims[0], dims[1]);\n            case \"triangle\" -> new Triangle(dims[0], dims[1]);\n            default -> throw new IllegalArgumentException(\"Unknown: \" + type);\n        };\n    }\n}\n\npublic class FactoryChallenge {\n    public static void main(String[] args) {\n        Shape[] shapes = {\n            ShapeFactory.create(\"circle\", 5),\n            ShapeFactory.create(\"rectangle\", 4, 6),\n            ShapeFactory.create(\"triangle\", 3, 8)\n        };\n        for (Shape s : shapes) {\n            System.out.printf(\"%s: area = %.2f%n\", s.getName(), s.getArea());\n        }\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Student Builder with Validation",
+        "difficulty": "Medium",
+        "description": "Create a Student class using the Builder pattern. Required fields: name and age. Optional: email, phone, department, gpa. The build() method should validate: name must not be empty, age must be 16-30, gpa (if set) must be 0.0-10.0. Throw IllegalArgumentException for invalid data.",
+        "sampleInput": "Builder(\"Arjun\", 20).email(\"arjun@email.com\").gpa(8.5).build()",
+        "sampleOutput": "Student{name=Arjun, age=20, email=arjun@email.com, gpa=8.5}",
+        "constraints": "Use Builder pattern with method chaining. Validate in build(). Make Student immutable (final fields).",
+        "solution": "public class Student {\n    private final String name;\n    private final int age;\n    private final String email;\n    private final String phone;\n    private final String department;\n    private final double gpa;\n\n    private Student(Builder b) {\n        this.name = b.name; this.age = b.age;\n        this.email = b.email; this.phone = b.phone;\n        this.department = b.department; this.gpa = b.gpa;\n    }\n\n    public String toString() {\n        return String.format(\"Student{name=%s, age=%d, email=%s, gpa=%.1f}\", name, age, email, gpa);\n    }\n\n    public static class Builder {\n        private final String name;\n        private final int age;\n        private String email = \"\"; private String phone = \"\";\n        private String department = \"\"; private double gpa = -1;\n\n        public Builder(String name, int age) { this.name = name; this.age = age; }\n        public Builder email(String e) { email = e; return this; }\n        public Builder phone(String p) { phone = p; return this; }\n        public Builder department(String d) { department = d; return this; }\n        public Builder gpa(double g) { gpa = g; return this; }\n\n        public Student build() {\n            if (name == null || name.isEmpty()) throw new IllegalArgumentException(\"Name required\");\n            if (age < 16 || age > 30) throw new IllegalArgumentException(\"Age must be 16-30\");\n            if (gpa != -1 && (gpa < 0 || gpa > 10)) throw new IllegalArgumentException(\"GPA must be 0-10\");\n            return new Student(this);\n        }\n    }\n\n    public static void main(String[] args) {\n        Student s = new Student.Builder(\"Arjun\", 20).email(\"arjun@email.com\").gpa(8.5).build();\n        System.out.println(s);\n        try {\n            new Student.Builder(\"\", 20).build();\n        } catch (IllegalArgumentException e) {\n            System.out.println(\"Error: \" + e.getMessage());\n        }\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Event System with Observer Pattern",
+        "difficulty": "Hard",
+        "description": "Build an EventBus that supports multiple event types (strings). Observers subscribe to specific event types. When an event is published, only observers subscribed to that type are notified. Support subscribe, unsubscribe, and publish.",
+        "sampleInput": "Subscribe o1 to 'login', o2 to 'purchase', o3 to both. Publish 'login' and 'purchase'.",
+        "sampleOutput": "On login: o1 notified, o3 notified\nOn purchase: o2 notified, o3 notified",
+        "constraints": "Use Observer pattern with Map<String, List<Observer>> for topic-based routing.",
+        "solution": "import java.util.*;\n\ninterface EventListener {\n    void onEvent(String eventType, String data);\n}\n\nclass EventBus {\n    private Map<String, List<EventListener>> subscribers = new HashMap<>();\n\n    void subscribe(String event, EventListener listener) {\n        subscribers.computeIfAbsent(event, k -> new ArrayList<>()).add(listener);\n    }\n\n    void unsubscribe(String event, EventListener listener) {\n        List<EventListener> list = subscribers.get(event);\n        if (list != null) list.remove(listener);\n    }\n\n    void publish(String event, String data) {\n        List<EventListener> list = subscribers.getOrDefault(event, Collections.emptyList());\n        for (EventListener l : list) l.onEvent(event, data);\n    }\n}\n\npublic class EventSystemChallenge {\n    public static void main(String[] args) {\n        EventBus bus = new EventBus();\n\n        EventListener authLogger = (type, data) -> System.out.println(\"AuthLog: [\" + type + \"] \" + data);\n        EventListener purchaseTracker = (type, data) -> System.out.println(\"Purchase: [\" + type + \"] \" + data);\n        EventListener allEvents = (type, data) -> System.out.println(\"Monitor: [\" + type + \"] \" + data);\n\n        bus.subscribe(\"login\", authLogger);\n        bus.subscribe(\"purchase\", purchaseTracker);\n        bus.subscribe(\"login\", allEvents);\n        bus.subscribe(\"purchase\", allEvents);\n\n        System.out.println(\"--- Login Event ---\");\n        bus.publish(\"login\", \"User Arjun logged in\");\n        System.out.println(\"\\n--- Purchase Event ---\");\n        bus.publish(\"purchase\", \"Order #1234 placed\");\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Discount Strategy System",
+        "difficulty": "Hard",
+        "description": "Create a shopping discount system using the Strategy pattern. Implement three discount strategies: NoDiscount, PercentageDiscount(percent), and FlatDiscount(amount). A ShoppingCart should accept a discount strategy and calculate the final price after discount.",
+        "sampleInput": "Cart with items totaling 1000. Apply 10% discount, then flat 200 discount.",
+        "sampleOutput": "No discount: 1000.00\n10% discount: 900.00\nFlat 200 discount: 800.00",
+        "constraints": "Use Strategy pattern with a DiscountStrategy interface. Support switching strategies at runtime.",
+        "solution": "import java.util.*;\n\ninterface DiscountStrategy {\n    double applyDiscount(double total);\n    String describe();\n}\n\nclass NoDiscount implements DiscountStrategy {\n    public double applyDiscount(double total) { return total; }\n    public String describe() { return \"No discount\"; }\n}\n\nclass PercentageDiscount implements DiscountStrategy {\n    private double percent;\n    PercentageDiscount(double p) { percent = p; }\n    public double applyDiscount(double total) { return total * (1 - percent / 100); }\n    public String describe() { return percent + \"% discount\"; }\n}\n\nclass FlatDiscount implements DiscountStrategy {\n    private double amount;\n    FlatDiscount(double a) { amount = a; }\n    public double applyDiscount(double total) { return Math.max(0, total - amount); }\n    public String describe() { return \"Flat \" + (int) amount + \" discount\"; }\n}\n\nclass ShoppingCart {\n    private List<Double> items = new ArrayList<>();\n    private DiscountStrategy strategy = new NoDiscount();\n\n    void addItem(double price) { items.add(price); }\n    void setDiscount(DiscountStrategy s) { strategy = s; }\n\n    double checkout() {\n        double total = items.stream().mapToDouble(Double::doubleValue).sum();\n        double finalPrice = strategy.applyDiscount(total);\n        System.out.printf(\"%s: %.2f -> %.2f%n\", strategy.describe(), total, finalPrice);\n        return finalPrice;\n    }\n}\n\npublic class DiscountChallenge {\n    public static void main(String[] args) {\n        ShoppingCart cart = new ShoppingCart();\n        cart.addItem(500); cart.addItem(300); cart.addItem(200);\n\n        cart.setDiscount(new NoDiscount());\n        cart.checkout();\n\n        cart.setDiscount(new PercentageDiscount(10));\n        cart.checkout();\n\n        cart.setDiscount(new FlatDiscount(200));\n        cart.checkout();\n    }\n}"
+      }
+    ]
+  }
+}

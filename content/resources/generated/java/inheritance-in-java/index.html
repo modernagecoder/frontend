@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance in Java - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Extend classes with inheritance, use super keyword, understand method overriding, and the Object class.">
+    <meta name="keywords" content="inheritance in java, java tutorial, java inheritance in java, learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/inheritance-in-java">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/inheritance-in-java">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/inheritance-in-java">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/inheritance-in-java">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/inheritance-in-java">
+    <meta property="og:title" content="Inheritance in Java - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Extend classes with inheritance, use super keyword, understand method overriding, and the Object class.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/inheritance-in-java">
+    <meta name="twitter:title" content="Inheritance in Java - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Extend classes with inheritance, use super keyword, understand method overriding, and the Object class.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Inheritance in Java",
+    "description": "Extend classes with inheritance, use super keyword, understand method overriding, and the Object class.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/inheritance-in-java"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/inheritance-in-java"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Inheritance in Java",
+        "item": "https://learn.modernagecoders.com/resources/java/inheritance-in-java"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting to Call super() When Superclass Has No No-Arg Constructor",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If the superclass does not have a no-argument constructor, the subclass must explicitly call one of the superclass's constructors using <code>super(args)</code>. Java automatically inserts <code>super()</code> (no-arg) if you do not write any super() call. If the superclass has no no-arg constructor, this causes a compilation error."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Trying to Override a final Method",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A <code>final</code> method cannot be overridden in any subclass. The superclass author marks a method as final when the implementation must not change. If you need different behavior, add a new method instead."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Attempting Multiple Inheritance with Classes",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Java does not allow a class to extend multiple classes to avoid the diamond problem. Use interfaces instead: a class can implement multiple interfaces. This achieves a form of multiple inheritance for behavior without the ambiguity issues."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Making the Overriding Method More Restrictive",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An overriding method cannot have a more restrictive access modifier than the overridden method. If the parent method is <code>public</code>, the child method must also be <code>public</code>. If the parent is <code>protected</code>, the child can be <code>protected</code> or <code>public</code>. This rule ensures that substituting a subclass object for a superclass reference always works."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing Method Overloading with Method Overriding",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Overriding requires the exact same method name AND parameter list. If the parameter list is different, it is overloading (a new method), not overriding. The <code>@Override</code> annotation would have caught this: the compiler would report an error because <code>makeSound(String)</code> does not override any method in Animal."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Inheritance in Java</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 15</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">32 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-08</span>
+            </div>
+            <h1 class="resource-title">Inheritance in Java</h1>
+            <a href="/resources/java/inheritance-in-java/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Inheritance in Java?</h2><p><strong>Inheritance</strong> is one of the four pillars of Object-Oriented Programming that allows a class to acquire the fields and methods of another class. The class that inherits is called the <strong>subclass</strong> (child class, derived class), and the class being inherited from is called the <strong>superclass</strong> (parent class, base class).</p><p>Inheritance establishes an <strong>IS-A relationship</strong>: a Dog IS-A Animal, a Car IS-A Vehicle, a SavingsAccount IS-A BankAccount. The subclass inherits all non-private members of the superclass and can add new members or override existing behavior.</p><h3>The extends Keyword</h3><p>In Java, inheritance is declared using the <code>extends</code> keyword:</p><pre><code>class Animal {                    // Superclass
+    String name;
+    void eat() {
+        System.out.println(name + " is eating");
+    }
+}
+
+class Dog extends Animal {        // Dog inherits from Animal
+    void bark() {
+        System.out.println(name + " says Woof!");
+    }
+}</code></pre><p>The Dog class inherits the <code>name</code> field and <code>eat()</code> method from Animal, and adds its own <code>bark()</code> method.</p><h3>Types of Inheritance in Java</h3><p><strong>Single Inheritance:</strong> A class extends exactly one class. <code>Dog extends Animal</code>.</p><p><strong>Multilevel Inheritance:</strong> A chain of inheritance. <code>Puppy extends Dog extends Animal</code>.</p><p><strong>Hierarchical Inheritance:</strong> Multiple classes extend the same superclass. <code>Dog extends Animal</code> and <code>Cat extends Animal</code>.</p><p><strong>Multiple Inheritance with Classes:</strong> NOT supported in Java. A class cannot extend more than one class. This avoids the diamond problem. However, a class can implement multiple interfaces, which is Java's way of achieving a form of multiple inheritance.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is Inheritance Important?</h2><p>Inheritance is one of the most powerful features of OOP and is fundamental to Java's design. Here is why it matters:</p><h3>1. Code Reuse Without Duplication</h3><p>Instead of copying fields and methods from one class to another, inheritance lets a subclass reuse everything from the superclass. If Animal has 10 methods, Dog inherits all 10 without writing them again. If you fix a bug in Animal's <code>eat()</code> method, all subclasses get the fix automatically.</p><h3>2. Establishes Type Hierarchies</h3><p>Inheritance creates type hierarchies: a Dog object can be treated as an Animal anywhere an Animal is expected. This is the foundation of polymorphism. A method that accepts an Animal parameter works with Dog, Cat, or any future Animal subclass.</p><h3>3. Method Overriding Enables Polymorphism</h3><p>Subclasses can override superclass methods to provide specialized behavior. When you call <code>animal.makeSound()</code>, the actual method that runs depends on whether the object is a Dog, Cat, or Bird. This runtime dispatch is the heart of polymorphism.</p><h3>4. Frameworks Rely on Inheritance</h3><p>Java's standard library and popular frameworks use inheritance extensively. <code>HttpServlet</code> extends <code>GenericServlet</code>. Custom exceptions extend <code>Exception</code>. Android activities extend <code>AppCompatActivity</code>. Understanding inheritance is essential for using any Java framework.</p><h3>5. Interview and Exam Essential</h3><p>Inheritance questions dominate Java interviews: method overriding rules, the super keyword, the final keyword, constructor chaining with super(), the Object class, and the instanceof operator. These are tested at every level from campus placements to senior developer interviews.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The extends Keyword</h3><p>A Java class can extend exactly one other class using <code>extends</code>. The subclass inherits all non-private members (fields, methods, nested classes) of the superclass.</p><pre><code>class Vehicle {
+    String brand;
+    int speed;
+
+    void accelerate() {
+        speed += 10;
+    }
+}
+
+class Car extends Vehicle {
+    int doors;
+
+    void honk() {
+        System.out.println(brand + " honks!");
+    }
+}</code></pre><p>Car inherits <code>brand</code>, <code>speed</code>, and <code>accelerate()</code> from Vehicle, and adds <code>doors</code> and <code>honk()</code>. Private members of Vehicle are NOT directly accessible in Car, but they still exist in memory as part of the Car object.</p><h3>2. The super Keyword</h3><p>The <code>super</code> keyword refers to the superclass and has three uses:</p><p><strong>super.variable:</strong> Accesses a superclass field that is hidden by a subclass field with the same name.</p><pre><code>class Animal {
+    String type = "Animal";
+}
+class Dog extends Animal {
+    String type = "Dog";
+    void showTypes() {
+        System.out.println(super.type); // "Animal"
+        System.out.println(this.type);  // "Dog"
+    }
+}</code></pre><p><strong>super.method():</strong> Calls a superclass method that has been overridden in the subclass.</p><pre><code>class Animal {
+    void eat() { System.out.println("Animal eating"); }
+}
+class Dog extends Animal {
+    @Override
+    void eat() {
+        super.eat(); // calls Animal's eat()
+        System.out.println("Dog eating bones");
+    }
+}</code></pre><p><strong>super():</strong> Calls a superclass constructor. Must be the first statement in the subclass constructor. If not explicitly called, Java inserts <code>super()</code> (no-arg) automatically.</p><pre><code>class Animal {
+    String name;
+    Animal(String name) {
+        this.name = name;
+    }
+}
+class Dog extends Animal {
+    String breed;
+    Dog(String name, String breed) {
+        super(name);          // calls Animal(name)
+        this.breed = breed;
+    }
+}</code></pre><h3>3. Method Overriding</h3><p>When a subclass provides its own implementation of a method that exists in the superclass (same name, same parameters, same or covariant return type), it is called <strong>method overriding</strong>.</p><p>Rules of method overriding:</p><p>1. The method name and parameter list must be identical.</p><p>2. The return type must be the same or a subtype (covariant return type).</p><p>3. The access modifier cannot be more restrictive (public in parent cannot become private in child).</p><p>4. The method cannot throw broader checked exceptions.</p><p>5. <code>static</code>, <code>final</code>, and <code>private</code> methods cannot be overridden.</p><p>6. The <code>@Override</code> annotation is optional but strongly recommended — it catches typos at compile time.</p><pre><code>class Shape {
+    double area() {
+        return 0;
+    }
+}
+class Circle extends Shape {
+    double radius;
+    Circle(double radius) { this.radius = radius; }
+
+    @Override
+    double area() {
+        return Math.PI * radius * radius;
+    }
+}</code></pre><h3>4. The final Keyword</h3><p>The <code>final</code> keyword prevents modification at three levels:</p><p><strong>final class:</strong> Cannot be extended (no subclasses). Example: <code>String</code>, <code>Integer</code>, <code>Math</code>.</p><pre><code>final class Constants {
+    // Cannot be extended
+}
+// class MyConstants extends Constants {} // ERROR</code></pre><p><strong>final method:</strong> Cannot be overridden in subclasses.</p><pre><code>class Animal {
+    final void breathe() { System.out.println("Breathing"); }
+}
+class Dog extends Animal {
+    // void breathe() {} // ERROR: cannot override final method
+}</code></pre><p><strong>final variable:</strong> Can be assigned only once. For primitives, the value cannot change. For objects, the reference cannot change (but the object's content can).</p><pre><code>final int MAX = 100;
+// MAX = 200; // ERROR: cannot assign to final variable
+
+final StringBuilder sb = new StringBuilder("Hello");
+sb.append(" World"); // OK: modifying the object's content
+// sb = new StringBuilder(); // ERROR: cannot reassign the reference</code></pre><h3>5. The Object Class</h3><p>Every class in Java implicitly extends <code>java.lang.Object</code>. If a class does not explicitly extend another class, it extends Object directly. Object provides several methods that every Java object inherits:</p><p><strong>toString():</strong> Returns a string representation. Default: <code>ClassName@hexHashCode</code>. Override for meaningful output.</p><p><strong>equals(Object obj):</strong> Default behavior checks reference equality (same as ==). Override to check content equality.</p><p><strong>hashCode():</strong> Returns an integer hash code. If you override equals(), you must also override hashCode() to maintain the contract: equal objects must have equal hash codes.</p><p><strong>getClass():</strong> Returns the runtime class of the object.</p><p><strong>clone():</strong> Creates a copy of the object (requires implementing Cloneable).</p><h3>6. The instanceof Operator</h3><p><code>instanceof</code> checks whether an object is an instance of a specific class or implements a specific interface. It returns <code>true</code> or <code>false</code>.</p><pre><code>Dog d = new Dog();
+System.out.println(d instanceof Dog);    // true
+System.out.println(d instanceof Animal); // true (Dog IS-A Animal)
+System.out.println(d instanceof Object); // true (everything IS-A Object)</code></pre><p>This operator is useful before performing type casts to avoid <code>ClassCastException</code>.</p><h3>7. Covariant Return Types</h3><p>Java allows an overriding method to return a subtype of the return type declared in the superclass method. This is called a covariant return type.</p><pre><code>class Animal {
+    Animal create() {
+        return new Animal();
+    }
+}
+class Dog extends Animal {
+    @Override
+    Dog create() {         // Returns Dog instead of Animal — valid!
+        return new Dog();
+    }
+}</code></pre><p>This is useful because the overriding method can return a more specific type, avoiding the need for casts at the call site.</p><h3>8. Constructor Chaining in Inheritance</h3><p>When you create a subclass object, the superclass constructor runs first. If the superclass does not have a no-arg constructor, you must explicitly call <code>super(args)</code> in the subclass constructor.</p><p>The chain goes from the most specific class up to Object: Object constructor -> ... -> immediate superclass constructor -> current class constructor. This ensures every level of the hierarchy is properly initialized.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Basic Inheritance — extends and Inheriting Members</div><pre><code class="language-python">class Animal {
+    String name;
+
+    Animal(String name) {
+        this.name = name;
+    }
+
+    void eat() {
+        System.out.println(name + &quot; is eating&quot;);
+    }
+
+    void sleep() {
+        System.out.println(name + &quot; is sleeping&quot;);
+    }
+}
+
+class Dog extends Animal {
+    String breed;
+
+    Dog(String name, String breed) {
+        super(name);           // Call Animal&#39;s constructor
+        this.breed = breed;
+    }
+
+    void bark() {
+        System.out.println(name + &quot; (&quot; + breed + &quot;) says Woof!&quot;);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog d = new Dog(&quot;Buddy&quot;, &quot;Labrador&quot;);
+        d.eat();     // Inherited from Animal
+        d.sleep();   // Inherited from Animal
+        d.bark();    // Defined in Dog
+        System.out.println(&quot;Name: &quot; + d.name);   // Inherited field
+        System.out.println(&quot;Breed: &quot; + d.breed);  // Own field
+    }
+}</code></pre><div class="code-example-explanation">Dog extends Animal, inheriting <code>name</code>, <code>eat()</code>, and <code>sleep()</code>. Dog adds its own <code>breed</code> field and <code>bark()</code> method. The <code>super(name)</code> call in Dog's constructor invokes Animal's constructor to initialize the name field.</div><div class="code-example-output">Buddy is eating
+Buddy is sleeping
+Buddy (Labrador) says Woof!
+Name: Buddy
+Breed: Labrador</div></div>
+<div class="code-example"><div class="code-example-title">Method Overriding and @Override</div><pre><code class="language-python">class Shape {
+    String color;
+
+    Shape(String color) {
+        this.color = color;
+    }
+
+    double area() {
+        return 0;
+    }
+
+    void display() {
+        System.out.printf(&quot;%s shape, area = %.2f%n&quot;, color, area());
+    }
+}
+
+class Circle extends Shape {
+    double radius;
+
+    Circle(String color, double radius) {
+        super(color);
+        this.radius = radius;
+    }
+
+    @Override
+    double area() {
+        return Math.PI * radius * radius;
+    }
+}
+
+class Rectangle extends Shape {
+    double width, height;
+
+    Rectangle(String color, double width, double height) {
+        super(color);
+        this.width = width;
+        this.height = height;
+    }
+
+    @Override
+    double area() {
+        return width * height;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Shape s1 = new Circle(&quot;Red&quot;, 5);
+        Shape s2 = new Rectangle(&quot;Blue&quot;, 4, 6);
+
+        s1.display();
+        s2.display();
+    }
+}</code></pre><div class="code-example-explanation">Both Circle and Rectangle override the <code>area()</code> method from Shape. When <code>display()</code> calls <code>area()</code>, the overridden version runs based on the actual object type — Circle's area for s1 and Rectangle's area for s2. This is runtime polymorphism. The <code>@Override</code> annotation ensures the compiler verifies the method signature matches the superclass.</div><div class="code-example-output">Red shape, area = 78.54
+Blue shape, area = 24.00</div></div>
+<div class="code-example"><div class="code-example-title">The super Keyword — Variable, Method, and Constructor</div><pre><code class="language-python">class Employee {
+    String name;
+    double baseSalary;
+
+    Employee(String name, double baseSalary) {
+        this.name = name;
+        this.baseSalary = baseSalary;
+    }
+
+    double calculatePay() {
+        return baseSalary;
+    }
+
+    String getDetails() {
+        return name + &quot; | Base: &quot; + baseSalary;
+    }
+}
+
+class Manager extends Employee {
+    double bonus;
+
+    Manager(String name, double baseSalary, double bonus) {
+        super(name, baseSalary);     // super() — calls Employee constructor
+        this.bonus = bonus;
+    }
+
+    @Override
+    double calculatePay() {
+        return super.calculatePay() + bonus; // super.method() — calls Employee&#39;s version
+    }
+
+    @Override
+    String getDetails() {
+        return super.getDetails() + &quot; | Bonus: &quot; + bonus + &quot; | Total: &quot; + calculatePay();
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Manager m = new Manager(&quot;Kavitha&quot;, 80000, 15000);
+        System.out.println(m.getDetails());
+        System.out.println(&quot;Pay: &quot; + m.calculatePay());
+    }
+}</code></pre><div class="code-example-explanation"><code>super(name, baseSalary)</code> calls the Employee constructor to initialize inherited fields. <code>super.calculatePay()</code> calls Employee's version to get the base salary, then adds the bonus. <code>super.getDetails()</code> reuses the parent's implementation and extends it. This pattern avoids duplicating the base logic in the subclass.</div><div class="code-example-output">Kavitha | Base: 80000.0 | Bonus: 15000.0 | Total: 95000.0
+Pay: 95000.0</div></div>
+<div class="code-example"><div class="code-example-title">The final Keyword — Class, Method, and Variable</div><pre><code class="language-python">class Animal {
+    final void breathe() {
+        System.out.println(&quot;Breathing air&quot;);
+    }
+
+    void makeSound() {
+        System.out.println(&quot;Some sound&quot;);
+    }
+}
+
+class Dog extends Animal {
+    // void breathe() {} // ERROR: Cannot override final method
+
+    @Override
+    void makeSound() {
+        System.out.println(&quot;Woof!&quot;);
+    }
+}
+
+// final class — cannot be extended
+final class Utility {
+    static int add(int a, int b) { return a + b; }
+}
+// class ExtendedUtility extends Utility {} // ERROR: cannot extend final class
+
+public class Main {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.breathe();     // Uses Animal&#39;s version (cannot be overridden)
+        d.makeSound();   // Uses Dog&#39;s overridden version
+
+        // final variable
+        final int MAX = 100;
+        System.out.println(&quot;MAX: &quot; + MAX);
+        // MAX = 200; // ERROR: cannot assign to final variable
+
+        // final reference — object content can change, reference cannot
+        final StringBuilder sb = new StringBuilder(&quot;Hello&quot;);
+        sb.append(&quot; World&quot;);
+        System.out.println(sb);
+        // sb = new StringBuilder(); // ERROR: cannot reassign
+    }
+}</code></pre><div class="code-example-explanation"><code>final</code> on a method prevents overriding: Dog cannot override <code>breathe()</code>. <code>final</code> on a class prevents extension: no class can extend Utility. <code>final</code> on a variable prevents reassignment: MAX cannot be changed to 200. For object references, <code>final</code> prevents reassigning the reference but the object's content can still be modified through its methods.</div><div class="code-example-output">Breathing air
+Woof!
+MAX: 100
+Hello World</div></div>
+<div class="code-example"><div class="code-example-title">The Object Class — toString, equals, hashCode</div><pre><code class="language-python">class Student {
+    String name;
+    int rollNo;
+
+    Student(String name, int rollNo) {
+        this.name = name;
+        this.rollNo = rollNo;
+    }
+
+    @Override
+    public String toString() {
+        return &quot;Student{&quot; + name + &quot;, &quot; + rollNo + &quot;}&quot;;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Student other = (Student) obj;
+        return rollNo == other.rollNo &amp;&amp; name.equals(other.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return 31 * name.hashCode() + rollNo;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s1 = new Student(&quot;Aarav&quot;, 101);
+        Student s2 = new Student(&quot;Aarav&quot;, 101);
+        Student s3 = new Student(&quot;Priya&quot;, 102);
+
+        System.out.println(s1);                     // toString()
+        System.out.println(s1 == s2);               // false (different objects)
+        System.out.println(s1.equals(s2));           // true (same content)
+        System.out.println(s1.equals(s3));           // false (different content)
+        System.out.println(s1.hashCode() == s2.hashCode()); // true
+        System.out.println(s1.getClass().getName()); // Student
+    }
+}</code></pre><div class="code-example-explanation"><code>toString()</code> provides a meaningful string representation. <code>equals()</code> checks content equality: same name and rollNo. The implementation first checks reference equality (<code>this == obj</code>), then null/type checks, then field comparison. <code>hashCode()</code> must be consistent with equals: equal objects must have equal hash codes. <code>getClass()</code> returns the runtime class.</div><div class="code-example-output">Student{Aarav, 101}
+false
+true
+false
+true
+Student</div></div>
+<div class="code-example"><div class="code-example-title">instanceof and Type Casting</div><pre><code class="language-python">class Animal {
+    void eat() { System.out.println(&quot;Animal eating&quot;); }
+}
+
+class Dog extends Animal {
+    void bark() { System.out.println(&quot;Woof!&quot;); }
+}
+
+class Cat extends Animal {
+    void meow() { System.out.println(&quot;Meow!&quot;); }
+}
+
+public class Main {
+    static void handleAnimal(Animal a) {
+        a.eat(); // Always safe — eat() is in Animal
+
+        if (a instanceof Dog) {
+            Dog d = (Dog) a;     // Safe downcast
+            d.bark();
+        } else if (a instanceof Cat) {
+            Cat c = (Cat) a;     // Safe downcast
+            c.meow();
+        }
+
+        // Java 16+ pattern matching:
+        // if (a instanceof Dog d) { d.bark(); }
+    }
+
+    public static void main(String[] args) {
+        System.out.println(&quot;--- Dog ---&quot;);
+        handleAnimal(new Dog());
+
+        System.out.println(&quot;\n--- Cat ---&quot;);
+        handleAnimal(new Cat());
+
+        // instanceof checks
+        Animal a = new Dog();
+        System.out.println(&quot;\na instanceof Animal: &quot; + (a instanceof Animal));
+        System.out.println(&quot;a instanceof Dog: &quot; + (a instanceof Dog));
+        System.out.println(&quot;a instanceof Cat: &quot; + (a instanceof Cat));
+        System.out.println(&quot;a instanceof Object: &quot; + (a instanceof Object));
+    }
+}</code></pre><div class="code-example-explanation"><code>instanceof</code> checks the actual runtime type of an object. A Dog reference stored in an Animal variable is still a Dog at runtime. Using <code>instanceof</code> before casting prevents <code>ClassCastException</code>. The method accepts any Animal and uses instanceof to determine the actual type before calling type-specific methods.</div><div class="code-example-output">--- Dog ---
+Animal eating
+Woof!
+
+--- Cat ---
+Animal eating
+Meow!
+
+a instanceof Animal: true
+a instanceof Dog: true
+a instanceof Cat: false
+a instanceof Object: true</div></div>
+<div class="code-example"><div class="code-example-title">Multilevel Inheritance and Constructor Chaining</div><pre><code class="language-python">class Animal {
+    String name;
+
+    Animal(String name) {
+        this.name = name;
+        System.out.println(&quot;Animal constructor: &quot; + name);
+    }
+}
+
+class Dog extends Animal {
+    String breed;
+
+    Dog(String name, String breed) {
+        super(name);
+        this.breed = breed;
+        System.out.println(&quot;Dog constructor: &quot; + breed);
+    }
+}
+
+class Puppy extends Dog {
+    int age;
+
+    Puppy(String name, String breed, int age) {
+        super(name, breed);
+        this.age = age;
+        System.out.println(&quot;Puppy constructor: &quot; + age + &quot; months&quot;);
+    }
+
+    @Override
+    public String toString() {
+        return name + &quot; (&quot; + breed + &quot;), &quot; + age + &quot; months old&quot;;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Puppy p = new Puppy(&quot;Buddy&quot;, &quot;Golden Retriever&quot;, 6);
+        System.out.println(&quot;\n&quot; + p);
+
+        // instanceof checks the entire chain
+        System.out.println(p instanceof Puppy);  // true
+        System.out.println(p instanceof Dog);    // true
+        System.out.println(p instanceof Animal); // true
+        System.out.println(p instanceof Object); // true
+    }
+}</code></pre><div class="code-example-explanation">Multilevel inheritance: Puppy extends Dog, which extends Animal (which implicitly extends Object). When creating a Puppy, constructors execute from the top of the hierarchy down: Animal -> Dog -> Puppy. Each constructor calls <code>super()</code> to initialize the parent first. A Puppy object is an instance of Puppy, Dog, Animal, and Object.</div><div class="code-example-output">Animal constructor: Buddy
+Dog constructor: Golden Retriever
+Puppy constructor: 6 months
+
+Buddy (Golden Retriever), 6 months old
+true
+true
+true
+true</div></div>
+<div class="code-example"><div class="code-example-title">Covariant Return Types</div><pre><code class="language-python">class Animal {
+    String name;
+
+    Animal(String name) { this.name = name; }
+
+    Animal create(String name) {
+        return new Animal(name);
+    }
+
+    public String toString() { return &quot;Animal: &quot; + name; }
+}
+
+class Dog extends Animal {
+    String breed;
+
+    Dog(String name, String breed) {
+        super(name);
+        this.breed = breed;
+    }
+
+    @Override
+    Dog create(String name) {            // Covariant return: Dog instead of Animal
+        return new Dog(name, &quot;Unknown&quot;);
+    }
+
+    public String toString() { return &quot;Dog: &quot; + name + &quot; (&quot; + breed + &quot;)&quot;; }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal a = new Animal(&quot;Generic&quot;);
+        Animal created1 = a.create(&quot;Simba&quot;);
+        System.out.println(created1);
+
+        Dog d = new Dog(&quot;Buddy&quot;, &quot;Lab&quot;);
+        Dog created2 = d.create(&quot;Max&quot;);   // No cast needed! Returns Dog
+        System.out.println(created2);
+    }
+}</code></pre><div class="code-example-explanation">The overriding method <code>Dog.create()</code> returns <code>Dog</code> instead of <code>Animal</code>. This is valid because Dog IS-A Animal (covariant return). The benefit: when you call <code>create()</code> on a Dog reference, you get a Dog back without needing to cast. This makes the API more type-safe and convenient.</div><div class="code-example-output">Animal: Simba
+Dog: Max (Unknown)</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting to Call super() When Superclass Has No No-Arg Constructor</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Animal {
+    String name;
+    Animal(String name) {
+        this.name = name;
+    }
+}
+
+class Dog extends Animal {
+    Dog() {
+        // Java inserts super() here — but Animal has no no-arg constructor!
+    }
+}</code></pre></div><div class="error-message">error: constructor Animal in class Animal cannot be applied to given types; required: String; found: no arguments</div><div class="correct-code"><pre><code class="language-python">class Dog extends Animal {
+    Dog() {
+        super(&quot;Unknown&quot;);  // Explicitly call the parameterized constructor
+    }
+
+    Dog(String name) {
+        super(name);
+    }
+}</code></pre></div><div class="mistake-explanation">If the superclass does not have a no-argument constructor, the subclass must explicitly call one of the superclass's constructors using <code>super(args)</code>. Java automatically inserts <code>super()</code> (no-arg) if you do not write any super() call. If the superclass has no no-arg constructor, this causes a compilation error.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Trying to Override a final Method</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Animal {
+    final void breathe() {
+        System.out.println(&quot;Breathing&quot;);
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    void breathe() {  // ERROR: cannot override final method
+        System.out.println(&quot;Dog breathing&quot;);
+    }
+}</code></pre></div><div class="error-message">error: breathe() in Dog cannot override breathe() in Animal; overridden method is final</div><div class="correct-code"><pre><code class="language-python">class Dog extends Animal {
+    // Cannot override breathe(), but can add new methods
+    void pant() {
+        System.out.println(&quot;Dog panting&quot;);
+    }
+}</code></pre></div><div class="mistake-explanation">A <code>final</code> method cannot be overridden in any subclass. The superclass author marks a method as final when the implementation must not change. If you need different behavior, add a new method instead.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Attempting Multiple Inheritance with Classes</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Flyable {
+    void fly() { System.out.println(&quot;Flying&quot;); }
+}
+
+class Swimmable {
+    void swim() { System.out.println(&quot;Swimming&quot;); }
+}
+
+class Duck extends Flyable, Swimmable { } // ERROR</code></pre></div><div class="error-message">error: &#39;{&#39; expected (Java does not support multiple class inheritance)</div><div class="correct-code"><pre><code class="language-python">interface Flyable {
+    void fly();
+}
+
+interface Swimmable {
+    void swim();
+}
+
+class Duck implements Flyable, Swimmable {
+    public void fly() { System.out.println(&quot;Duck flying&quot;); }
+    public void swim() { System.out.println(&quot;Duck swimming&quot;); }
+}</code></pre></div><div class="mistake-explanation">Java does not allow a class to extend multiple classes to avoid the diamond problem. Use interfaces instead: a class can implement multiple interfaces. This achieves a form of multiple inheritance for behavior without the ambiguity issues.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Making the Overriding Method More Restrictive</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Animal {
+    public void eat() {
+        System.out.println(&quot;Animal eating&quot;);
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    private void eat() {  // ERROR: cannot reduce visibility
+        System.out.println(&quot;Dog eating&quot;);
+    }
+}</code></pre></div><div class="error-message">error: eat() in Dog cannot override eat() in Animal; attempting to assign weaker access privileges; was public</div><div class="correct-code"><pre><code class="language-python">class Dog extends Animal {
+    @Override
+    public void eat() {  // Same or wider access
+        System.out.println(&quot;Dog eating&quot;);
+    }
+}</code></pre></div><div class="mistake-explanation">An overriding method cannot have a more restrictive access modifier than the overridden method. If the parent method is <code>public</code>, the child method must also be <code>public</code>. If the parent is <code>protected</code>, the child can be <code>protected</code> or <code>public</code>. This rule ensures that substituting a subclass object for a superclass reference always works.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing Method Overloading with Method Overriding</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Animal {
+    void makeSound() {
+        System.out.println(&quot;Some sound&quot;);
+    }
+}
+
+class Dog extends Animal {
+    // This is OVERLOADING, not overriding (different parameter list)
+    void makeSound(String sound) {
+        System.out.println(sound);
+    }
+}
+
+Animal a = new Dog();
+a.makeSound();            // Calls Animal&#39;s version (not overridden!)
+// a.makeSound(&quot;Woof&quot;);  // ERROR: Animal does not have makeSound(String)</code></pre></div><div class="error-message">No compilation error, but the behavior is unexpected. Animal&#39;s makeSound() is not overridden — Dog has a different method with the same name but different parameters.</div><div class="correct-code"><pre><code class="language-python">class Dog extends Animal {
+    @Override   // Use @Override to catch this mistake at compile time
+    void makeSound() {
+        System.out.println(&quot;Woof!&quot;);
+    }
+}
+
+Animal a = new Dog();
+a.makeSound(); // Now calls Dog&#39;s version: &quot;Woof!&quot;</code></pre></div><div class="mistake-explanation">Overriding requires the exact same method name AND parameter list. If the parameter list is different, it is overloading (a new method), not overriding. The <code>@Override</code> annotation would have caught this: the compiler would report an error because <code>makeSound(String)</code> does not override any method in Animal.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Inheritance allows a subclass to acquire fields and methods from a superclass using the extends keyword, establishing an IS-A relationship.</li>
+<li>Java supports single, multilevel, and hierarchical inheritance. Multiple inheritance with classes is NOT supported — use interfaces instead.</li>
+<li>The super keyword has three uses: super.variable (access hidden superclass field), super.method() (call overridden superclass method), and super() (call superclass constructor — must be the first statement).</li>
+<li>Method overriding provides a specialized implementation in the subclass with the same name and parameters as the superclass method. Use @Override annotation to let the compiler verify correctness.</li>
+<li>Overriding rules: same name and parameters, same or covariant return type, access cannot be more restrictive, cannot override static/final/private methods.</li>
+<li>The final keyword prevents modification: final class cannot be extended, final method cannot be overridden, final variable cannot be reassigned.</li>
+<li>Every class in Java implicitly extends java.lang.Object. Key Object methods: toString(), equals(), hashCode(), getClass().</li>
+<li>Override equals() for content comparison and hashCode() for consistency. The contract: equal objects must have equal hash codes.</li>
+<li>instanceof checks the runtime type of an object, including the entire inheritance chain. Use it before downcasting to prevent ClassCastException.</li>
+<li>Constructor chaining in inheritance: when creating a subclass object, constructors execute from the top of the hierarchy (Object) down to the subclass. Each constructor calls super() to initialize the parent first.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/encapsulation-and-access-modifiers" class="related-topic-link">Encapsulation and Access Modifiers</a>
+<a href="/resources/java/polymorphism-in-java" class="related-topic-link">Polymorphism in Java</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/java/encapsulation-and-access-modifiers" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Encapsulation and Access Modifiers</span>
+        </a>
+            <a href="/resources/java/polymorphism-in-java" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Polymorphism in Java</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/inheritance-in-java/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

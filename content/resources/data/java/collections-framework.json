@@ -1,0 +1,585 @@
+{
+  "title": "Collections Framework - List, Set, Map",
+  "slug": "collections-framework",
+  "language": "java",
+  "chapter": 19,
+  "difficulty": "Advanced",
+  "readingTime": "50 min",
+  "lastUpdated": "2026-04-08",
+  "totalQuestions": 45,
+  "seo": {
+    "title": "Java Collections Framework - ArrayList, HashSet, HashMap Tutorial | Modern Age Coders",
+    "description": "Master the Java Collections Framework including ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap, Iterator, and Collections utility class. Includes 45+ practice questions with interview-style problems for placement preparation.",
+    "keywords": "java collections, arraylist java, hashmap java, java collections framework tutorial, java hashset, java treemap, java linkedlist, java iterator, java collections interview questions, arraylist vs linkedlist"
+  },
+  "content": {
+    "what": "<h2>What Is the Collections Framework?</h2><p>The <strong>Java Collections Framework</strong> is a unified architecture for representing and manipulating groups of objects. It provides interfaces, implementations, and algorithms that let you store, retrieve, and process data efficiently.</p><p>Before collections, Java developers used arrays, <code>Vector</code>, and <code>Hashtable</code>, which were inconsistent in design and limited in functionality. The Collections Framework (introduced in Java 2) provides a clean, consistent API for all data structure needs.</p><pre><code>// Array: fixed size, primitive types allowed\nint[] arr = new int[5];\n\n// Collections: dynamic size, objects only\nArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;();\nlist.add(10);\nlist.add(20);\nlist.add(30);\nSystem.out.println(list);  // [10, 20, 30]</code></pre><h3>The Collection Hierarchy</h3><pre><code>java.lang.Iterable\n  └── java.util.Collection\n        ├── List (ordered, duplicates allowed)\n        │     ├── ArrayList\n        │     ├── LinkedList\n        │     └── Vector (legacy)\n        ├── Set (no duplicates)\n        │     ├── HashSet (unordered)\n        │     ├── LinkedHashSet (insertion order)\n        │     └── TreeSet (sorted)\n        └── Queue (FIFO)\n              ├── LinkedList\n              └── PriorityQueue\n\njava.util.Map (NOT part of Collection interface)\n  ├── HashMap (unordered)\n  ├── LinkedHashMap (insertion order)\n  ├── TreeMap (sorted by keys)\n  └── Hashtable (legacy)</code></pre><p><code>Map</code> is separate from <code>Collection</code> because it stores key-value pairs, not single elements. But it is considered part of the Collections Framework.</p>",
+    "why": "<h2>Why Does the Collections Framework Matter?</h2><p>The Collections Framework is used in virtually every Java application. Understanding it is essential for writing efficient, clean code and for clearing any Java interview.</p><h3>1. Dynamic Size</h3><p>Arrays have a fixed size determined at creation. Collections grow and shrink dynamically. When Arjun does not know how many students will register, an <code>ArrayList</code> adapts automatically.</p><h3>2. Rich Operations</h3><p>Collections provide built-in methods for searching, sorting, filtering, and transforming data. Instead of writing a search algorithm from scratch, Kavya uses <code>list.contains()</code>, <code>Collections.sort()</code>, or <code>map.get(key)</code>.</p><h3>3. Type Safety with Generics</h3><p>Generic collections (<code>ArrayList&lt;String&gt;</code>) prevent type errors at compile time. Without generics, a list could hold any object, and casting would be required at every retrieval, risking <code>ClassCastException</code>.</p><h3>4. Choosing the Right Data Structure</h3><p>Different problems need different data structures. Need fast lookup by key? Use <code>HashMap</code>. Need unique elements? Use <code>HashSet</code>. Need sorted data? Use <code>TreeSet</code> or <code>TreeMap</code>. Understanding when to use which is a core interview skill.</p><h3>5. Interoperability</h3><p>All collections implement common interfaces (<code>Collection</code>, <code>List</code>, <code>Set</code>). Code that accepts <code>List</code> works with <code>ArrayList</code>, <code>LinkedList</code>, or any future implementation. This is polymorphism in action.</p><h3>6. Interview and Placement Importance</h3><p>Collections questions are among the most frequently asked in Java interviews. \"ArrayList vs LinkedList\", \"HashMap internals\", \"how HashSet ensures uniqueness\", and \"when to use TreeMap\" are standard placement questions.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. ArrayList</h3><p><code>ArrayList</code> is a dynamic array. It stores elements in a contiguous memory block, grows automatically when needed (typically by 50%), and provides fast random access by index.</p><pre><code>import java.util.ArrayList;\n\nArrayList&lt;String&gt; names = new ArrayList&lt;&gt;();\n\n// Adding elements\nnames.add(\"Arjun\");          // Appends to end\nnames.add(\"Kavya\");          // [Arjun, Kavya]\nnames.add(0, \"Ravi\");        // Insert at index 0: [Ravi, Arjun, Kavya]\n\n// Accessing elements\nString first = names.get(0); // Ravi\nint size = names.size();     // 3\n\n// Modifying elements\nnames.set(1, \"Priya\");       // Replace at index 1: [Ravi, Priya, Kavya]\n\n// Removing elements\nnames.remove(0);             // Remove by index: [Priya, Kavya]\nnames.remove(\"Kavya\");       // Remove by value: [Priya]\n\n// Searching\nboolean has = names.contains(\"Priya\");  // true\nint idx = names.indexOf(\"Priya\");       // 0\n\n// Checking empty\nboolean empty = names.isEmpty();  // false</code></pre><p><strong>Time complexity:</strong> <code>get(i)</code> O(1), <code>add(e)</code> amortized O(1), <code>add(i, e)</code> O(n), <code>remove(i)</code> O(n), <code>contains()</code> O(n).</p><h3>2. LinkedList</h3><p><code>LinkedList</code> is a doubly-linked list. Each element (node) holds a reference to the previous and next node. It implements both <code>List</code> and <code>Deque</code> interfaces.</p><pre><code>import java.util.LinkedList;\n\nLinkedList&lt;String&gt; list = new LinkedList&lt;&gt;();\nlist.add(\"Arjun\");\nlist.add(\"Kavya\");\n\n// LinkedList-specific methods\nlist.addFirst(\"First\");      // [First, Arjun, Kavya]\nlist.addLast(\"Last\");        // [First, Arjun, Kavya, Last]\nString f = list.getFirst();  // First\nString l = list.getLast();   // Last\nlist.removeFirst();          // [Arjun, Kavya, Last]\nlist.removeLast();           // [Arjun, Kavya]</code></pre><p><strong>ArrayList vs LinkedList:</strong></p><table><tr><th>Operation</th><th>ArrayList</th><th>LinkedList</th></tr><tr><td>Random access (get)</td><td>O(1)</td><td>O(n)</td></tr><tr><td>Add at end</td><td>O(1) amortized</td><td>O(1)</td></tr><tr><td>Add/remove at beginning</td><td>O(n)</td><td>O(1)</td></tr><tr><td>Add/remove in middle</td><td>O(n)</td><td>O(1) if at node</td></tr><tr><td>Memory</td><td>Less (contiguous)</td><td>More (node + 2 pointers)</td></tr></table><p>Use <code>ArrayList</code> for most cases (random access is common). Use <code>LinkedList</code> only when you frequently add/remove from the beginning or need a queue/deque.</p><h3>3. HashSet</h3><p><code>HashSet</code> stores unique elements with no guaranteed order. It uses a hash table internally (backed by <code>HashMap</code>).</p><pre><code>import java.util.HashSet;\n\nHashSet&lt;String&gt; set = new HashSet&lt;&gt;();\nset.add(\"Arjun\");\nset.add(\"Kavya\");\nset.add(\"Ravi\");\nset.add(\"Arjun\");  // Duplicate! Not added.\n\nSystem.out.println(set);             // [Kavya, Ravi, Arjun] (order may vary)\nSystem.out.println(set.size());      // 3\nSystem.out.println(set.contains(\"Ravi\"));  // true\n\nset.remove(\"Ravi\");\nSystem.out.println(set);             // [Kavya, Arjun]</code></pre><p><strong>How uniqueness works:</strong> When you add an element, Java calls <code>hashCode()</code> to find the bucket, then <code>equals()</code> to check for duplicates in that bucket. If <code>equals()</code> returns true, the element is rejected.</p><p><strong>hashCode/equals contract:</strong> If two objects are <code>equal()</code>, they must have the same <code>hashCode()</code>. If you override <code>equals()</code>, you must override <code>hashCode()</code>.</p><h3>4. TreeSet</h3><p><code>TreeSet</code> stores unique elements in sorted order. It uses a Red-Black tree internally.</p><pre><code>import java.util.TreeSet;\n\nTreeSet&lt;Integer&gt; ts = new TreeSet&lt;&gt;();\nts.add(30);\nts.add(10);\nts.add(50);\nts.add(20);\n\nSystem.out.println(ts);         // [10, 20, 30, 50] (sorted)\nSystem.out.println(ts.first()); // 10\nSystem.out.println(ts.last());  // 50</code></pre><p>Elements must implement <code>Comparable</code>, or you must provide a <code>Comparator</code> to the TreeSet constructor.</p><h3>5. HashMap</h3><p><code>HashMap</code> stores key-value pairs. Keys are unique; values can be duplicated. No guaranteed order.</p><pre><code>import java.util.HashMap;\n\nHashMap&lt;String, Integer&gt; marks = new HashMap&lt;&gt;();\n\n// Adding entries\nmarks.put(\"Arjun\", 85);\nmarks.put(\"Kavya\", 92);\nmarks.put(\"Ravi\", 78);\n\n// Accessing\nint score = marks.get(\"Arjun\");     // 85\nboolean has = marks.containsKey(\"Kavya\");  // true\nboolean hasVal = marks.containsValue(92);  // true\nint size = marks.size();             // 3\n\n// Updating (put with existing key replaces value)\nmarks.put(\"Arjun\", 90);  // Arjun's score updated to 90\n\n// Default value\nint def = marks.getOrDefault(\"Priya\", 0);  // 0 (not found)\n\n// Removing\nmarks.remove(\"Ravi\");  // Removes Ravi\n\n// Iterating\nfor (String key : marks.keySet()) {\n    System.out.println(key + \": \" + marks.get(key));\n}\n\nfor (var entry : marks.entrySet()) {\n    System.out.println(entry.getKey() + \" = \" + entry.getValue());\n}</code></pre><p><strong>Time complexity:</strong> <code>put</code>, <code>get</code>, <code>remove</code>, <code>containsKey</code> are all O(1) average case.</p><h3>6. TreeMap</h3><p><code>TreeMap</code> stores key-value pairs sorted by keys:</p><pre><code>import java.util.TreeMap;\n\nTreeMap&lt;String, Integer&gt; tm = new TreeMap&lt;&gt;();\ntm.put(\"Ravi\", 78);\ntm.put(\"Arjun\", 85);\ntm.put(\"Kavya\", 92);\n\nSystem.out.println(tm);           // {Arjun=85, Kavya=92, Ravi=78} (sorted by key)\nSystem.out.println(tm.firstKey()); // Arjun\nSystem.out.println(tm.lastKey());  // Ravi</code></pre><h3>7. LinkedHashMap</h3><p><code>LinkedHashMap</code> maintains insertion order (the order in which entries were added):</p><pre><code>import java.util.LinkedHashMap;\n\nLinkedHashMap&lt;String, Integer&gt; lhm = new LinkedHashMap&lt;&gt;();\nlhm.put(\"Ravi\", 78);\nlhm.put(\"Arjun\", 85);\nlhm.put(\"Kavya\", 92);\n\nSystem.out.println(lhm);  // {Ravi=78, Arjun=85, Kavya=92} (insertion order)</code></pre><h3>8. Iterator and for-each</h3><p>All collections are <code>Iterable</code>, supporting for-each loops and explicit iterators:</p><pre><code>ArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();\nlist.add(\"A\");\nlist.add(\"B\");\nlist.add(\"C\");\n\n// For-each loop\nfor (String s : list) {\n    System.out.println(s);\n}\n\n// Iterator (allows removal during iteration)\nimport java.util.Iterator;\nIterator&lt;String&gt; it = list.iterator();\nwhile (it.hasNext()) {\n    String s = it.next();\n    if (s.equals(\"B\")) {\n        it.remove();  // Safe removal during iteration\n    }\n}\nSystem.out.println(list);  // [A, C]</code></pre><p>Using <code>list.remove()</code> inside a for-each loop throws <code>ConcurrentModificationException</code>. Use <code>Iterator.remove()</code> instead.</p><h3>9. Collections Utility Class</h3><p><code>java.util.Collections</code> provides static utility methods:</p><pre><code>import java.util.Collections;\nimport java.util.ArrayList;\n\nArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;();\nlist.add(30);\nlist.add(10);\nlist.add(50);\nlist.add(20);\n\nCollections.sort(list);        // [10, 20, 30, 50]\nCollections.reverse(list);     // [50, 30, 20, 10]\nCollections.shuffle(list);     // Random order\nint min = Collections.min(list);  // Minimum element\nint max = Collections.max(list);  // Maximum element\n\n// Unmodifiable list\nvar immutable = Collections.unmodifiableList(list);\n// immutable.add(100);  // UnsupportedOperationException</code></pre>",
+    "codeExamples": [
+      {
+        "title": "ArrayList: Complete Operations",
+        "code": "import java.util.ArrayList;\nimport java.util.Collections;\n\npublic class Main {\n    public static void main(String[] args) {\n        ArrayList<String> students = new ArrayList<>();\n\n        // Add\n        students.add(\"Arjun\");\n        students.add(\"Kavya\");\n        students.add(\"Ravi\");\n        students.add(\"Priya\");\n        System.out.println(\"Initial: \" + students);\n\n        // Insert at index\n        students.add(1, \"Deepak\");\n        System.out.println(\"After insert: \" + students);\n\n        // Access and modify\n        System.out.println(\"Element at 0: \" + students.get(0));\n        students.set(2, \"Meera\");\n        System.out.println(\"After set: \" + students);\n\n        // Search\n        System.out.println(\"Contains Ravi? \" + students.contains(\"Ravi\"));\n        System.out.println(\"Index of Meera: \" + students.indexOf(\"Meera\"));\n\n        // Remove\n        students.remove(0);\n        students.remove(\"Priya\");\n        System.out.println(\"After remove: \" + students);\n\n        // Sort\n        Collections.sort(students);\n        System.out.println(\"Sorted: \" + students);\n\n        // Size and isEmpty\n        System.out.println(\"Size: \" + students.size());\n        System.out.println(\"Empty? \" + students.isEmpty());\n    }\n}",
+        "language": "java",
+        "explanation": "This demonstrates all major ArrayList operations: adding (append and insert), accessing by index, modifying with set, searching with contains/indexOf, removing by index and value, and sorting with Collections.sort.",
+        "output": "Initial: [Arjun, Kavya, Ravi, Priya]\nAfter insert: [Arjun, Deepak, Kavya, Ravi, Priya]\nElement at 0: Arjun\nAfter set: [Arjun, Deepak, Meera, Ravi, Priya]\nContains Ravi? true\nIndex of Meera: 2\nAfter remove: [Deepak, Meera, Ravi]\nSorted: [Deepak, Meera, Ravi]\nSize: 3\nEmpty? false"
+      },
+      {
+        "title": "HashSet: Uniqueness and Set Operations",
+        "code": "import java.util.HashSet;\nimport java.util.TreeSet;\n\npublic class Main {\n    public static void main(String[] args) {\n        HashSet<String> set = new HashSet<>();\n        set.add(\"Java\");\n        set.add(\"Python\");\n        set.add(\"Java\");      // Duplicate, not added\n        set.add(\"JavaScript\");\n        set.add(\"Python\");    // Duplicate, not added\n\n        System.out.println(\"HashSet: \" + set);\n        System.out.println(\"Size: \" + set.size());\n        System.out.println(\"Contains Java? \" + set.contains(\"Java\"));\n\n        // Set operations\n        HashSet<String> backend = new HashSet<>();\n        backend.add(\"Java\");\n        backend.add(\"Python\");\n        backend.add(\"Go\");\n\n        HashSet<String> frontend = new HashSet<>();\n        frontend.add(\"JavaScript\");\n        frontend.add(\"Python\");\n        frontend.add(\"TypeScript\");\n\n        // Union\n        HashSet<String> union = new HashSet<>(backend);\n        union.addAll(frontend);\n        System.out.println(\"Union: \" + union);\n\n        // Intersection\n        HashSet<String> intersection = new HashSet<>(backend);\n        intersection.retainAll(frontend);\n        System.out.println(\"Intersection: \" + intersection);\n\n        // Difference\n        HashSet<String> difference = new HashSet<>(backend);\n        difference.removeAll(frontend);\n        System.out.println(\"Backend - Frontend: \" + difference);\n\n        // TreeSet (sorted)\n        TreeSet<String> sorted = new TreeSet<>(set);\n        System.out.println(\"Sorted: \" + sorted);\n    }\n}",
+        "language": "java",
+        "explanation": "HashSet rejects duplicates silently (add returns false). Set operations like union (addAll), intersection (retainAll), and difference (removeAll) work on copies to preserve originals. TreeSet sorts the elements.",
+        "output": "HashSet: [Java, JavaScript, Python]\nSize: 3\nContains Java? true\nUnion: [Java, TypeScript, JavaScript, Go, Python]\nIntersection: [Python]\nBackend - Frontend: [Java, Go]\nSorted: [Java, JavaScript, Python]"
+      },
+      {
+        "title": "HashMap: Key-Value Operations",
+        "code": "import java.util.HashMap;\nimport java.util.Map;\n\npublic class Main {\n    public static void main(String[] args) {\n        HashMap<String, Integer> marks = new HashMap<>();\n\n        // Put entries\n        marks.put(\"Arjun\", 85);\n        marks.put(\"Kavya\", 92);\n        marks.put(\"Ravi\", 78);\n        marks.put(\"Priya\", 88);\n        System.out.println(\"Marks: \" + marks);\n\n        // Get and getOrDefault\n        System.out.println(\"Arjun: \" + marks.get(\"Arjun\"));\n        System.out.println(\"Unknown: \" + marks.getOrDefault(\"Unknown\", 0));\n\n        // Update (put with existing key)\n        marks.put(\"Arjun\", 90);\n        System.out.println(\"After update: \" + marks.get(\"Arjun\"));\n\n        // Check existence\n        System.out.println(\"Has Kavya? \" + marks.containsKey(\"Kavya\"));\n        System.out.println(\"Has value 78? \" + marks.containsValue(78));\n\n        // Iterate with entrySet\n        System.out.println(\"\\nAll entries:\");\n        for (Map.Entry<String, Integer> entry : marks.entrySet()) {\n            System.out.println(\"  \" + entry.getKey() + \" -> \" + entry.getValue());\n        }\n\n        // Keys and values\n        System.out.println(\"Keys: \" + marks.keySet());\n        System.out.println(\"Values: \" + marks.values());\n\n        // Remove\n        marks.remove(\"Ravi\");\n        System.out.println(\"After remove: \" + marks);\n    }\n}",
+        "language": "java",
+        "explanation": "HashMap stores key-value pairs. Keys must be unique; putting an existing key replaces the value. <code>getOrDefault</code> avoids null when a key is not found. <code>entrySet()</code> provides both key and value for iteration.",
+        "output": "Marks: {Arjun=85, Kavya=92, Ravi=78, Priya=88}\nArjun: 85\nUnknown: 0\nAfter update: 90\nHas Kavya? true\nHas value 78? true\n\nAll entries:\n  Arjun -> 90\n  Kavya -> 92\n  Ravi -> 78\n  Priya -> 88\nKeys: [Arjun, Kavya, Ravi, Priya]\nValues: [90, 92, 78, 88]\nAfter remove: {Arjun=90, Kavya=92, Priya=88}"
+      },
+      {
+        "title": "Word Frequency Counter with HashMap",
+        "code": "import java.util.HashMap;\nimport java.util.Map;\nimport java.util.TreeMap;\n\npublic class Main {\n    public static void main(String[] args) {\n        String text = \"java is great java is powerful and java is everywhere\";\n        String[] words = text.split(\" \");\n\n        // Count word frequencies\n        HashMap<String, Integer> freq = new HashMap<>();\n        for (String word : words) {\n            freq.put(word, freq.getOrDefault(word, 0) + 1);\n        }\n        System.out.println(\"Frequencies: \" + freq);\n\n        // Find the most frequent word\n        String maxWord = \"\";\n        int maxCount = 0;\n        for (Map.Entry<String, Integer> entry : freq.entrySet()) {\n            if (entry.getValue() > maxCount) {\n                maxCount = entry.getValue();\n                maxWord = entry.getKey();\n            }\n        }\n        System.out.println(\"Most frequent: \\\"\" + maxWord + \"\\\" (\" + maxCount + \" times)\");\n\n        // Sorted by word (alphabetical)\n        TreeMap<String, Integer> sorted = new TreeMap<>(freq);\n        System.out.println(\"Sorted: \" + sorted);\n    }\n}",
+        "language": "java",
+        "explanation": "A classic interview problem. <code>getOrDefault(word, 0) + 1</code> increments the count (or starts at 1). Iterating <code>entrySet()</code> finds the maximum. <code>TreeMap</code> sorts by key for alphabetical output.",
+        "output": "Frequencies: {java=3, is=3, great=1, powerful=1, and=1, everywhere=1}\nMost frequent: \"java\" (3 times)\nSorted: {and=1, everywhere=1, great=1, is=3, java=3, powerful=1}"
+      },
+      {
+        "title": "Iterator: Safe Removal During Iteration",
+        "code": "import java.util.ArrayList;\nimport java.util.Iterator;\n\npublic class Main {\n    public static void main(String[] args) {\n        ArrayList<Integer> numbers = new ArrayList<>();\n        for (int i = 1; i <= 10; i++) {\n            numbers.add(i);\n        }\n        System.out.println(\"Original: \" + numbers);\n\n        // Remove even numbers using Iterator\n        Iterator<Integer> it = numbers.iterator();\n        while (it.hasNext()) {\n            int num = it.next();\n            if (num % 2 == 0) {\n                it.remove();  // Safe removal\n            }\n        }\n        System.out.println(\"Odd only: \" + numbers);\n\n        // What NOT to do:\n        ArrayList<Integer> list2 = new ArrayList<>();\n        list2.add(1);\n        list2.add(2);\n        list2.add(3);\n        try {\n            for (int n : list2) {\n                if (n == 2) {\n                    list2.remove(Integer.valueOf(2));  // ConcurrentModificationException!\n                }\n            }\n        } catch (java.util.ConcurrentModificationException e) {\n            System.out.println(\"ConcurrentModificationException caught!\");\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "Use <code>Iterator.remove()</code> to safely remove elements during iteration. Using <code>list.remove()</code> inside a for-each loop causes <code>ConcurrentModificationException</code> because the underlying structure changes during iteration.",
+        "output": "Original: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nOdd only: [1, 3, 5, 7, 9]\nConcurrentModificationException caught!"
+      },
+      {
+        "title": "Collections Utility Class",
+        "code": "import java.util.ArrayList;\nimport java.util.Collections;\nimport java.util.List;\n\npublic class Main {\n    public static void main(String[] args) {\n        ArrayList<Integer> numbers = new ArrayList<>();\n        numbers.add(40);\n        numbers.add(10);\n        numbers.add(50);\n        numbers.add(20);\n        numbers.add(30);\n\n        System.out.println(\"Original: \" + numbers);\n\n        Collections.sort(numbers);\n        System.out.println(\"Sorted: \" + numbers);\n\n        Collections.reverse(numbers);\n        System.out.println(\"Reversed: \" + numbers);\n\n        System.out.println(\"Min: \" + Collections.min(numbers));\n        System.out.println(\"Max: \" + Collections.max(numbers));\n        System.out.println(\"Frequency of 30: \" + Collections.frequency(numbers, 30));\n\n        Collections.shuffle(numbers);\n        System.out.println(\"Shuffled: \" + numbers);\n\n        // Unmodifiable list\n        List<Integer> readOnly = Collections.unmodifiableList(numbers);\n        System.out.println(\"Read-only: \" + readOnly);\n        try {\n            readOnly.add(100);\n        } catch (UnsupportedOperationException e) {\n            System.out.println(\"Cannot modify unmodifiable list!\");\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "The <code>Collections</code> utility class provides static methods for sorting, reversing, shuffling, finding min/max, counting frequency, and creating unmodifiable views. <code>unmodifiableList</code> prevents any modifications.",
+        "output": "Original: [40, 10, 50, 20, 30]\nSorted: [10, 20, 30, 40, 50]\nReversed: [50, 40, 30, 20, 10]\nMin: 10\nMax: 50\nFrequency of 30: 1\nShuffled: [varies]\nRead-only: [varies]\nCannot modify unmodifiable list!"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Removing Elements During for-each Loop",
+        "wrongCode": "ArrayList<String> list = new ArrayList<>();\nlist.add(\"A\");\nlist.add(\"B\");\nlist.add(\"C\");\n\nfor (String s : list) {\n    if (s.equals(\"B\")) {\n        list.remove(s);  // ConcurrentModificationException!\n    }\n}",
+        "error": "java.util.ConcurrentModificationException",
+        "correctCode": "ArrayList<String> list = new ArrayList<>();\nlist.add(\"A\");\nlist.add(\"B\");\nlist.add(\"C\");\n\nIterator<String> it = list.iterator();\nwhile (it.hasNext()) {\n    if (it.next().equals(\"B\")) {\n        it.remove();  // Safe!\n    }\n}\n// Or use removeIf: list.removeIf(s -> s.equals(\"B\"));",
+        "explanation": "Modifying a collection during a for-each loop causes <code>ConcurrentModificationException</code>. Use <code>Iterator.remove()</code> or <code>list.removeIf()</code> (Java 8) for safe removal during iteration."
+      },
+      {
+        "title": "Using ArrayList<int> Instead of ArrayList<Integer>",
+        "wrongCode": "ArrayList<int> numbers = new ArrayList<>();  // Compilation error!",
+        "error": "Compilation error: type argument cannot be a primitive type.",
+        "correctCode": "ArrayList<Integer> numbers = new ArrayList<>();\nnumbers.add(10);       // Autoboxing: int -> Integer\nint first = numbers.get(0);  // Auto-unboxing: Integer -> int",
+        "explanation": "Generics do not work with primitive types. Use wrapper classes: <code>Integer</code> for <code>int</code>, <code>Double</code> for <code>double</code>, <code>Character</code> for <code>char</code>, etc. Java autoboxes and unboxes automatically."
+      },
+      {
+        "title": "Not Overriding hashCode When Overriding equals",
+        "wrongCode": "class Student {\n    String name;\n    Student(String name) { this.name = name; }\n\n    @Override\n    public boolean equals(Object o) {\n        if (o instanceof Student) {\n            return this.name.equals(((Student) o).name);\n        }\n        return false;\n    }\n    // hashCode NOT overridden!\n}\n\nHashSet<Student> set = new HashSet<>();\nset.add(new Student(\"Arjun\"));\nset.add(new Student(\"Arjun\"));  // Both added! Duplicate not detected.\nSystem.out.println(set.size());  // 2 (expected 1)",
+        "error": "No compilation or runtime error, but the set contains duplicates because hashCode is not consistent with equals.",
+        "correctCode": "class Student {\n    String name;\n    Student(String name) { this.name = name; }\n\n    @Override\n    public boolean equals(Object o) {\n        if (o instanceof Student) {\n            return this.name.equals(((Student) o).name);\n        }\n        return false;\n    }\n\n    @Override\n    public int hashCode() {\n        return name.hashCode();\n    }\n}\n\nHashSet<Student> set = new HashSet<>();\nset.add(new Student(\"Arjun\"));\nset.add(new Student(\"Arjun\"));  // Duplicate detected!\nSystem.out.println(set.size());  // 1",
+        "explanation": "HashSet uses <code>hashCode()</code> to find the bucket and <code>equals()</code> to check for duplicates. If you override <code>equals()</code> without overriding <code>hashCode()</code>, equal objects may land in different buckets, and the set fails to detect duplicates."
+      },
+      {
+        "title": "Confusing HashMap.remove(key) with ArrayList.remove(index/object)",
+        "wrongCode": "ArrayList<Integer> list = new ArrayList<>();\nlist.add(10);\nlist.add(20);\nlist.add(30);\n\nlist.remove(1);      // Removes element at index 1 (20), not the value 1!\nSystem.out.println(list);  // [10, 30]\n\n// To remove the value 1:\n// list.remove(Integer.valueOf(1));",
+        "error": "No error, but the wrong element is removed. remove(1) removes by index, not by value.",
+        "correctCode": "ArrayList<Integer> list = new ArrayList<>();\nlist.add(10);\nlist.add(20);\nlist.add(30);\n\nlist.remove(Integer.valueOf(20));  // Removes the value 20\nSystem.out.println(list);  // [10, 30]\n\nlist.remove(0);  // Removes element at index 0\nSystem.out.println(list);  // [30]",
+        "explanation": "For <code>ArrayList&lt;Integer&gt;</code>, <code>remove(1)</code> calls <code>remove(int index)</code> (removes at index 1), not <code>remove(Object)</code>. To remove by value, use <code>remove(Integer.valueOf(20))</code>."
+      }
+    ],
+    "summary": [
+      "The Collections Framework provides interfaces (List, Set, Queue, Map) and implementations (ArrayList, HashSet, HashMap, etc.) for storing and manipulating groups of objects.",
+      "ArrayList is a dynamic array with O(1) random access. Use it for most list needs. It is the most commonly used collection in Java.",
+      "LinkedList is a doubly-linked list with O(1) add/remove at ends. Use it only when you frequently insert/remove from the beginning or need a deque.",
+      "HashSet stores unique elements with no order. Uniqueness is determined by hashCode() and equals(). If you override equals(), you MUST override hashCode().",
+      "TreeSet stores unique elements in sorted order (natural ordering or custom Comparator). Elements must implement Comparable or a Comparator must be provided.",
+      "HashMap stores key-value pairs with O(1) average put/get. Keys must be unique. getOrDefault() avoids null returns for missing keys.",
+      "TreeMap stores key-value pairs sorted by keys. LinkedHashMap maintains insertion order.",
+      "Use Iterator.remove() for safe removal during iteration. for-each with list.remove() causes ConcurrentModificationException.",
+      "Generics prevent type errors at compile time. Collections cannot hold primitives; use wrapper classes (Integer, Double, etc.) with autoboxing.",
+      "Collections utility class provides sort(), reverse(), shuffle(), min(), max(), frequency(), and unmodifiableList().",
+      "Choose the right collection: List for ordered data with duplicates, Set for unique elements, Map for key-value associations. Prefer interfaces as reference types (List over ArrayList)."
+    ]
+  },
+  "relatedTopics": ["exception-handling", "generics-in-java"],
+  "practice": {
+    "totalQuestions": 45,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>ArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();\nlist.add(\"A\");\nlist.add(\"B\");\nlist.add(\"C\");\nSystem.out.println(list);\nSystem.out.println(list.size());</code></pre>",
+        "hint": "ArrayList's toString prints elements in brackets.",
+        "answer": "<code>[A, B, C]</code><br><code>3</code>",
+        "explanation": "Elements are added in order. <code>toString()</code> prints <code>[A, B, C]</code>. <code>size()</code> returns the number of elements: 3."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>ArrayList&lt;Integer&gt; nums = new ArrayList&lt;&gt;();\nnums.add(10);\nnums.add(20);\nnums.add(30);\nSystem.out.println(nums.get(1));\nSystem.out.println(nums.contains(20));\nSystem.out.println(nums.indexOf(30));</code></pre>",
+        "hint": "Indices start at 0. contains checks for value existence.",
+        "answer": "<code>20</code><br><code>true</code><br><code>2</code>",
+        "explanation": "<code>get(1)</code> returns the element at index 1 (20). <code>contains(20)</code> returns true. <code>indexOf(30)</code> returns 2 (third element, index starts at 0)."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>HashSet&lt;String&gt; set = new HashSet&lt;&gt;();\nset.add(\"Java\");\nset.add(\"Python\");\nset.add(\"Java\");\nset.add(\"C++\");\nSystem.out.println(set.size());\nSystem.out.println(set.contains(\"Python\"));</code></pre>",
+        "hint": "HashSet does not allow duplicates. \"Java\" is added twice.",
+        "answer": "<code>3</code><br><code>true</code>",
+        "explanation": "\"Java\" is added twice but stored only once. The set has 3 unique elements: Java, Python, C++. <code>contains(\"Python\")</code> returns true."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>HashMap&lt;String, Integer&gt; map = new HashMap&lt;&gt;();\nmap.put(\"A\", 1);\nmap.put(\"B\", 2);\nmap.put(\"C\", 3);\nSystem.out.println(map.get(\"B\"));\nSystem.out.println(map.get(\"D\"));\nSystem.out.println(map.size());</code></pre>",
+        "hint": "get returns null for a non-existent key.",
+        "answer": "<code>2</code><br><code>null</code><br><code>3</code>",
+        "explanation": "<code>get(\"B\")</code> returns 2. <code>get(\"D\")</code> returns null (key not found). <code>size()</code> returns 3."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>TreeSet&lt;Integer&gt; ts = new TreeSet&lt;&gt;();\nts.add(30);\nts.add(10);\nts.add(50);\nts.add(20);\nts.add(40);\nSystem.out.println(ts);</code></pre>",
+        "hint": "TreeSet maintains sorted order.",
+        "answer": "<code>[10, 20, 30, 40, 50]</code>",
+        "explanation": "TreeSet stores elements in sorted (ascending) order regardless of insertion order."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>ArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;();\nlist.add(10);\nlist.add(20);\nlist.add(30);\nlist.remove(1);\nSystem.out.println(list);\nlist.remove(Integer.valueOf(10));\nSystem.out.println(list);</code></pre>",
+        "hint": "remove(1) removes by index. remove(Integer.valueOf(10)) removes by value.",
+        "answer": "<code>[10, 30]</code><br><code>[30]</code>",
+        "explanation": "<code>remove(1)</code> removes the element at index 1 (which is 20), leaving [10, 30]. <code>remove(Integer.valueOf(10))</code> removes the value 10, leaving [30]."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>HashMap&lt;String, Integer&gt; map = new HashMap&lt;&gt;();\nmap.put(\"Arjun\", 85);\nmap.put(\"Kavya\", 90);\nmap.put(\"Arjun\", 95);\nSystem.out.println(map.size());\nSystem.out.println(map.get(\"Arjun\"));</code></pre>",
+        "hint": "Putting with an existing key replaces the value.",
+        "answer": "<code>2</code><br><code>95</code>",
+        "explanation": "The second <code>put(\"Arjun\", 95)</code> replaces the previous value 85. The map has 2 entries. <code>get(\"Arjun\")</code> returns the updated value 95."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>LinkedList&lt;String&gt; ll = new LinkedList&lt;&gt;();\nll.add(\"B\");\nll.addFirst(\"A\");\nll.addLast(\"C\");\nSystem.out.println(ll);\nSystem.out.println(ll.getFirst());\nSystem.out.println(ll.getLast());\nll.removeFirst();\nSystem.out.println(ll);</code></pre>",
+        "hint": "addFirst prepends, addLast appends.",
+        "answer": "<code>[A, B, C]</code><br><code>A</code><br><code>C</code><br><code>[B, C]</code>",
+        "explanation": "\"B\" is added. \"A\" is prepended. \"C\" is appended. Result: [A, B, C]. <code>getFirst()</code>=A, <code>getLast()</code>=C. After <code>removeFirst()</code>: [B, C]."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>HashMap&lt;String, Integer&gt; map = new HashMap&lt;&gt;();\nmap.put(\"X\", 1);\nmap.put(\"Y\", 2);\nmap.put(\"Z\", 3);\n\nSystem.out.println(map.containsKey(\"Y\"));\nSystem.out.println(map.containsValue(5));\nSystem.out.println(map.getOrDefault(\"W\", -1));\nSystem.out.println(map.keySet());</code></pre>",
+        "hint": "containsKey/containsValue check existence. getOrDefault returns default for missing keys.",
+        "answer": "<code>true</code><br><code>false</code><br><code>-1</code><br><code>[X, Y, Z]</code>",
+        "explanation": "\"Y\" is a key (true). 5 is not a value (false). \"W\" is not a key, so getOrDefault returns -1. keySet() returns all keys."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>ArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;();\nlist.add(5);\nlist.add(3);\nlist.add(8);\nlist.add(1);\n\nCollections.sort(list);\nSystem.out.println(list);\n\nSystem.out.println(Collections.min(list));\nSystem.out.println(Collections.max(list));\n\nCollections.reverse(list);\nSystem.out.println(list);</code></pre>",
+        "hint": "sort() sorts ascending. reverse() reverses the current order.",
+        "answer": "<code>[1, 3, 5, 8]</code><br><code>1</code><br><code>8</code><br><code>[8, 5, 3, 1]</code>",
+        "explanation": "<code>sort</code> arranges in ascending order. <code>min</code>=1, <code>max</code>=8. <code>reverse</code> flips the order to descending."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>HashMap&lt;String, Integer&gt; map = new HashMap&lt;&gt;();\nString[] words = {\"a\", \"b\", \"a\", \"c\", \"b\", \"a\"};\nfor (String w : words) {\n    map.put(w, map.getOrDefault(w, 0) + 1);\n}\nSystem.out.println(map);</code></pre>",
+        "hint": "This is the word frequency counting pattern.",
+        "answer": "<code>{a=3, b=2, c=1}</code>",
+        "explanation": "Each occurrence increments the count. \"a\" appears 3 times, \"b\" 2 times, \"c\" 1 time. <code>getOrDefault(w, 0)</code> returns 0 for new words."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>TreeMap&lt;String, Integer&gt; tm = new TreeMap&lt;&gt;();\ntm.put(\"Banana\", 2);\ntm.put(\"Apple\", 5);\ntm.put(\"Cherry\", 1);\n\nSystem.out.println(tm);\nSystem.out.println(tm.firstKey());\nSystem.out.println(tm.lastKey());\nSystem.out.println(tm.headMap(\"Cherry\"));\nSystem.out.println(tm.tailMap(\"Banana\"));</code></pre>",
+        "hint": "TreeMap is sorted by keys. headMap is exclusive, tailMap is inclusive.",
+        "answer": "<code>{Apple=5, Banana=2, Cherry=1}</code><br><code>Apple</code><br><code>Cherry</code><br><code>{Apple=5, Banana=2}</code><br><code>{Banana=2, Cherry=1}</code>",
+        "explanation": "TreeMap sorts by key alphabetically. <code>firstKey()</code>=Apple, <code>lastKey()</code>=Cherry. <code>headMap(\"Cherry\")</code> returns entries before \"Cherry\" (exclusive). <code>tailMap(\"Banana\")</code> returns entries from \"Banana\" onward (inclusive)."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>HashSet&lt;ArrayList&lt;Integer&gt;&gt; set = new HashSet&lt;&gt;();\nArrayList&lt;Integer&gt; list1 = new ArrayList&lt;&gt;();\nlist1.add(1);\nlist1.add(2);\n\nArrayList&lt;Integer&gt; list2 = new ArrayList&lt;&gt;();\nlist2.add(1);\nlist2.add(2);\n\nset.add(list1);\nset.add(list2);\nSystem.out.println(set.size());\n\nlist1.add(3);\nset.add(list1);\nSystem.out.println(set.size());</code></pre>",
+        "hint": "ArrayList implements equals and hashCode based on contents. What happens when content changes?",
+        "answer": "<code>1</code><br><code>2</code>",
+        "explanation": "list1 and list2 have the same content [1,2], so <code>equals()</code> returns true. The set has 1 element. After modifying list1 to [1,2,3], its hashCode changes. Adding it again puts it in a different bucket (the set now thinks it is a new element), resulting in size 2. This is why mutable objects in sets are dangerous."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>HashMap&lt;Integer, String&gt; map = new HashMap&lt;&gt;();\nmap.put(1, \"One\");\nmap.put(2, \"Two\");\nmap.put(3, \"Three\");\n\nmap.forEach((k, v) -> System.out.println(k + \" => \" + v));\n\nmap.replaceAll((k, v) -> v.toUpperCase());\nSystem.out.println(map);</code></pre>",
+        "hint": "forEach iterates. replaceAll transforms all values.",
+        "answer": "<code>1 => One</code><br><code>2 => Two</code><br><code>3 => Three</code><br><code>{1=ONE, 2=TWO, 3=THREE}</code>",
+        "explanation": "<code>forEach</code> prints each key-value pair. <code>replaceAll</code> applies the lambda to all values, converting them to uppercase."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>ArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;();\nlist.add(1);\nlist.add(2);\nlist.add(3);\nlist.add(4);\nlist.add(5);\n\nList&lt;Integer&gt; sub = list.subList(1, 4);\nSystem.out.println(sub);\n\nsub.set(0, 99);\nSystem.out.println(list);</code></pre>",
+        "hint": "subList returns a VIEW, not a copy. Changes to the sublist affect the original.",
+        "answer": "<code>[2, 3, 4]</code><br><code>[1, 99, 3, 4, 5]</code>",
+        "explanation": "<code>subList(1, 4)</code> returns elements at indices 1, 2, 3 (exclusive end): [2, 3, 4]. It is a view, not a copy. <code>sub.set(0, 99)</code> changes index 0 of the sublist (which is index 1 of the original list), so 2 becomes 99."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>LinkedHashMap&lt;String, Integer&gt; lhm = new LinkedHashMap&lt;&gt;();\nlhm.put(\"C\", 3);\nlhm.put(\"A\", 1);\nlhm.put(\"B\", 2);\nSystem.out.println(lhm);\n\nTreeMap&lt;String, Integer&gt; tm = new TreeMap&lt;&gt;(lhm);\nSystem.out.println(tm);\n\nHashMap&lt;String, Integer&gt; hm = new HashMap&lt;&gt;(lhm);\nSystem.out.println(hm.keySet());</code></pre>",
+        "hint": "LinkedHashMap preserves insertion order. TreeMap sorts by key. HashMap has no guaranteed order.",
+        "answer": "<code>{C=3, A=1, B=2}</code><br><code>{A=1, B=2, C=3}</code><br><code>[A, B, C]</code> (order may vary for HashMap)",
+        "explanation": "LinkedHashMap preserves insertion order: C, A, B. TreeMap sorts alphabetically: A, B, C. HashMap has no guaranteed order (though it often looks sorted for small sizes, do not rely on it)."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the main difference between ArrayList and LinkedList?",
+        "hint": "Think about the underlying data structure.",
+        "answer": "ArrayList uses a dynamic array (contiguous memory), providing O(1) random access but O(n) insertions/deletions in the middle. LinkedList uses a doubly-linked list, providing O(1) insertions/deletions at ends but O(n) random access. Use ArrayList for most cases; LinkedList only when frequent insertions/deletions at the beginning are needed.",
+        "explanation": "ArrayList is faster for reading (index-based access). LinkedList is faster for inserting/removing at the head. In practice, ArrayList outperforms LinkedList for most real-world use cases due to CPU cache locality."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "How does HashSet ensure that elements are unique?",
+        "hint": "Think about hashCode() and equals().",
+        "answer": "When adding an element, HashSet calls <code>hashCode()</code> to determine the bucket, then <code>equals()</code> to check if an identical element already exists in that bucket. If <code>equals()</code> returns true, the new element is rejected. This is why overriding <code>equals()</code> requires overriding <code>hashCode()</code>.",
+        "explanation": "Two objects that are equal (equals returns true) must have the same hashCode. If they do not, they may end up in different buckets, and the set will fail to detect duplicates."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>HashSet&lt;Integer&gt; set = new HashSet&lt;&gt;();\nSystem.out.println(set.add(10));\nSystem.out.println(set.add(20));\nSystem.out.println(set.add(10));\nSystem.out.println(set);</code></pre>",
+        "hint": "add() returns true if the element was added, false if already present.",
+        "answer": "<code>true</code><br><code>true</code><br><code>false</code><br><code>[20, 10]</code> (order may vary)",
+        "explanation": "First add(10) returns true (new). add(20) returns true (new). Second add(10) returns false (duplicate). The set has 2 elements."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>ArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();\nlist.add(\"Banana\");\nlist.add(\"Apple\");\nlist.add(\"Cherry\");\n\nCollections.sort(list);\nint idx = Collections.binarySearch(list, \"Cherry\");\nSystem.out.println(\"Found at: \" + idx);\n\nidx = Collections.binarySearch(list, \"Grape\");\nSystem.out.println(\"Not found: \" + idx);</code></pre>",
+        "hint": "binarySearch requires a sorted list. It returns negative if not found.",
+        "answer": "<code>Found at: 2</code><br><code>Not found: -4</code>",
+        "explanation": "After sorting: [Apple, Banana, Cherry]. \"Cherry\" is at index 2. \"Grape\" is not found. binarySearch returns -(insertion point) - 1. Grape would be inserted at index 3, so it returns -4."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When should you use HashMap vs TreeMap vs LinkedHashMap?",
+        "hint": "Think about ordering requirements.",
+        "answer": "<strong>HashMap</strong>: No ordering needed, fastest for put/get (O(1)). <strong>TreeMap</strong>: Need keys sorted in natural or custom order (O(log n) operations). <strong>LinkedHashMap</strong>: Need to preserve insertion order while maintaining O(1) operations. Use HashMap by default, TreeMap when you need sorted keys, LinkedHashMap when insertion order matters.",
+        "explanation": "HashMap is the default choice. TreeMap is used for range queries (headMap, tailMap) or when you need sorted iteration. LinkedHashMap is used for caches (LRU cache) or when processing order matters."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>ArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;(List.of(1, 2, 3, 4, 5));\nlist.removeIf(n -> n % 2 == 0);\nSystem.out.println(list);</code></pre>",
+        "hint": "removeIf removes all elements matching the predicate.",
+        "answer": "<code>[1, 3, 5]</code>",
+        "explanation": "<code>removeIf</code> removes all elements where the lambda returns true. <code>n % 2 == 0</code> is true for even numbers (2 and 4), so they are removed. Remaining: [1, 3, 5]."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>HashMap&lt;String, ArrayList&lt;Integer&gt;&gt; map = new HashMap&lt;&gt;();\nmap.computeIfAbsent(\"even\", k -> new ArrayList&lt;&gt;()).add(2);\nmap.computeIfAbsent(\"odd\", k -> new ArrayList&lt;&gt;()).add(1);\nmap.computeIfAbsent(\"even\", k -> new ArrayList&lt;&gt;()).add(4);\nmap.computeIfAbsent(\"odd\", k -> new ArrayList&lt;&gt;()).add(3);\n\nSystem.out.println(map);</code></pre>",
+        "hint": "computeIfAbsent creates a new value only if the key is absent. If present, it returns the existing value.",
+        "answer": "<code>{even=[2, 4], odd=[1, 3]}</code>",
+        "explanation": "First call creates \"even\" -> [2]. Second creates \"odd\" -> [1]. Third: \"even\" already exists, returns existing list, adds 4 -> [2, 4]. Fourth: \"odd\" already exists, adds 3 -> [1, 3]."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What happens internally when a HashMap has many hash collisions?",
+        "hint": "Think about what happens when multiple keys hash to the same bucket.",
+        "answer": "When multiple keys hash to the same bucket, HashMap stores them in a linked list (chaining). Since Java 8, if a bucket grows beyond 8 entries (TREEIFY_THRESHOLD), the linked list is converted to a balanced red-black tree, improving worst-case lookup from O(n) to O(log n). This prevents denial-of-service attacks that exploit hash collisions.",
+        "explanation": "The treeification threshold is 8. When the bucket size drops below 6 (UNTREEIFY_THRESHOLD), it converts back to a linked list. This is an important optimization for HashMap's worst-case performance."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>TreeSet&lt;String&gt; set = new TreeSet&lt;&gt;((a, b) -> b.compareTo(a));\nset.add(\"Arjun\");\nset.add(\"Kavya\");\nset.add(\"Ravi\");\nset.add(\"Priya\");\nSystem.out.println(set);\nSystem.out.println(set.first());\nSystem.out.println(set.last());</code></pre>",
+        "hint": "The comparator reverses the natural order (b.compareTo(a) instead of a.compareTo(b)).",
+        "answer": "<code>[Ravi, Priya, Kavya, Arjun]</code><br><code>Ravi</code><br><code>Arjun</code>",
+        "explanation": "The comparator <code>(a, b) -> b.compareTo(a)</code> sorts in reverse alphabetical order. <code>first()</code> returns the first element in this order (\"Ravi\"), and <code>last()</code> returns the last (\"Arjun\")."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why should you use <code>List</code> as the reference type instead of <code>ArrayList</code>?",
+        "hint": "Think about programming to an interface.",
+        "answer": "Using the interface type (<code>List</code>) instead of the implementation type (<code>ArrayList</code>) follows the \"program to an interface\" principle. It allows you to swap implementations later (e.g., change to <code>LinkedList</code>) without modifying code that uses the variable. It also documents that the code only relies on List behavior, not ArrayList-specific features.",
+        "explanation": "Example: <code>List&lt;String&gt; names = new ArrayList&lt;&gt;()</code>. If you later need <code>LinkedList</code>, only the right side changes. All code using <code>names</code> still works because it depends on the <code>List</code> interface."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which collection allows duplicate elements?",
+        "options": [
+          "HashSet",
+          "TreeSet",
+          "ArrayList",
+          "LinkedHashSet"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>ArrayList</code> (a List) allows duplicates. All Set implementations (HashSet, TreeSet, LinkedHashSet) reject duplicates."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does HashMap.get(key) return if the key does not exist?",
+        "options": [
+          "0",
+          "Empty string",
+          "null",
+          "Throws KeyNotFoundException"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>get()</code> returns <code>null</code> for a non-existent key. Use <code>getOrDefault(key, defaultValue)</code> to avoid null."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which collection maintains elements in sorted order?",
+        "options": [
+          "ArrayList",
+          "HashSet",
+          "TreeSet",
+          "LinkedList"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>TreeSet</code> uses a Red-Black tree to maintain elements in sorted order. <code>ArrayList</code> and <code>LinkedList</code> maintain insertion order. <code>HashSet</code> has no guaranteed order."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the time complexity of ArrayList.get(index)?",
+        "options": [
+          "O(n)",
+          "O(1)",
+          "O(log n)",
+          "O(n^2)"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> ArrayList uses a dynamic array with contiguous memory. Accessing by index is a simple offset calculation, which is O(1)."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Can collections store primitive types like int or char?",
+        "options": [
+          "Yes, directly",
+          "No, use wrapper classes (Integer, Character)",
+          "Only with special syntax",
+          "Only in Java 17+"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Collections use generics which require reference types. Use wrapper classes: <code>ArrayList&lt;Integer&gt;</code> instead of <code>ArrayList&lt;int&gt;</code>. Java autoboxes and unboxes automatically."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What exception is thrown when modifying a list during a for-each loop?",
+        "options": [
+          "IllegalStateException",
+          "ConcurrentModificationException",
+          "UnsupportedOperationException",
+          "IndexOutOfBoundsException"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Modifying a collection during a for-each loop (which uses an Iterator internally) causes <code>ConcurrentModificationException</code>. Use <code>Iterator.remove()</code> or <code>removeIf()</code> instead."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Which Map implementation maintains insertion order?",
+        "options": [
+          "HashMap",
+          "TreeMap",
+          "LinkedHashMap",
+          "Hashtable"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>LinkedHashMap</code> maintains insertion order using a doubly-linked list. <code>HashMap</code> has no order. <code>TreeMap</code> sorts by key."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What must you override along with equals() for correct HashSet behavior?",
+        "options": [
+          "toString()",
+          "compareTo()",
+          "hashCode()",
+          "clone()"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The hashCode/equals contract states: if two objects are equal, they must have the same hashCode. Without overriding hashCode, equal objects may end up in different buckets."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which is true about Map in the Collections Framework?",
+        "options": [
+          "Map extends Collection",
+          "Map is not part of the Collection interface hierarchy",
+          "Map extends List",
+          "Map is deprecated in Java 8"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Map stores key-value pairs and does NOT extend the Collection interface. However, it is considered part of the Collections Framework."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What does Collections.unmodifiableList() return?",
+        "options": [
+          "A copy of the list",
+          "A read-only view that throws UnsupportedOperationException on modification",
+          "A synchronized list",
+          "A sorted list"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>unmodifiableList()</code> returns a read-only view of the list. Any attempt to add, remove, or set elements throws <code>UnsupportedOperationException</code>. It is a view, not a copy."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the average time complexity of HashMap.get(key)?",
+        "options": [
+          "O(n)",
+          "O(log n)",
+          "O(1)",
+          "O(n log n)"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> HashMap uses hashing to directly compute the bucket location, giving O(1) average-case get/put. In the worst case (all keys collide), it degrades to O(n) (or O(log n) with treeification in Java 8+)."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "When does a HashMap bucket convert from a linked list to a tree (Java 8+)?",
+        "options": [
+          "When the bucket has more than 4 entries",
+          "When the bucket has more than 8 entries",
+          "When the total map size exceeds 16",
+          "Never, HashMap always uses linked lists"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In Java 8+, when a bucket (chain) has more than 8 entries (TREEIFY_THRESHOLD), it converts from a linked list to a red-black tree for O(log n) lookup instead of O(n)."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the difference between Comparable and Comparator?",
+        "options": [
+          "They are the same thing",
+          "Comparable defines natural ordering inside the class; Comparator defines external custom ordering",
+          "Comparable is for sorting, Comparator is for searching",
+          "Comparable uses equals(), Comparator uses hashCode()"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>Comparable</code> is implemented by the class itself (<code>compareTo()</code> method, defines natural ordering). <code>Comparator</code> is a separate class/lambda that defines a custom ordering externally."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What does HashMap do when two different keys have the same hashCode?",
+        "options": [
+          "It replaces the first entry",
+          "It throws an exception",
+          "It stores both entries in the same bucket (chaining)",
+          "It ignores the second entry"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> When two keys have the same hashCode (collision), both entries are stored in the same bucket. HashMap uses chaining (linked list or tree) within the bucket and uses <code>equals()</code> to distinguish between keys."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Remove Duplicates from ArrayList",
+        "difficulty": "Easy",
+        "description": "Given an ArrayList<Integer> with duplicates, create a new list with duplicates removed while maintaining order. Use LinkedHashSet.",
+        "sampleInput": "[4, 2, 3, 2, 1, 4, 3, 5]",
+        "sampleOutput": "Original: [4, 2, 3, 2, 1, 4, 3, 5]\nUnique: [4, 2, 3, 1, 5]",
+        "constraints": "Preserve insertion order. Use LinkedHashSet.",
+        "solution": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(4, 2, 3, 2, 1, 4, 3, 5));\n        System.out.println(\"Original: \" + list);\n\n        ArrayList<Integer> unique = new ArrayList<>(new LinkedHashSet<>(list));\n        System.out.println(\"Unique: \" + unique);\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Student Grade Book with HashMap",
+        "difficulty": "Medium",
+        "description": "Create a grade book using HashMap<String, ArrayList<Integer>> where keys are student names and values are lists of marks. Add marks for 3 students. Calculate and print each student's average marks sorted by name.",
+        "sampleInput": "Arjun: [85, 90, 78], Kavya: [92, 88, 95], Ravi: [70, 75, 80]",
+        "sampleOutput": "Arjun: [85, 90, 78] avg=84.33\nKavya: [92, 88, 95] avg=91.67\nRavi: [70, 75, 80] avg=75.00",
+        "constraints": "Sort output by student name. Calculate average to 2 decimal places.",
+        "solution": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        HashMap<String, ArrayList<Integer>> grades = new HashMap<>();\n        grades.put(\"Arjun\", new ArrayList<>(Arrays.asList(85, 90, 78)));\n        grades.put(\"Kavya\", new ArrayList<>(Arrays.asList(92, 88, 95)));\n        grades.put(\"Ravi\", new ArrayList<>(Arrays.asList(70, 75, 80)));\n\n        TreeMap<String, ArrayList<Integer>> sorted = new TreeMap<>(grades);\n        for (Map.Entry<String, ArrayList<Integer>> e : sorted.entrySet()) {\n            double avg = e.getValue().stream().mapToInt(Integer::intValue).average().orElse(0);\n            System.out.printf(\"%s: %s avg=%.2f%n\", e.getKey(), e.getValue(), avg);\n        }\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Find First Non-Repeating Character",
+        "difficulty": "Medium",
+        "description": "Given a string, find the first character that does not repeat. Use LinkedHashMap to maintain insertion order while counting frequencies.",
+        "sampleInput": "\"aabbcdeff\"",
+        "sampleOutput": "First non-repeating: c",
+        "constraints": "Use LinkedHashMap for O(n) solution. Handle case where all characters repeat.",
+        "solution": "import java.util.*;\n\npublic class Main {\n    static Character firstNonRepeating(String s) {\n        LinkedHashMap<Character, Integer> freq = new LinkedHashMap<>();\n        for (char c : s.toCharArray()) {\n            freq.put(c, freq.getOrDefault(c, 0) + 1);\n        }\n        for (Map.Entry<Character, Integer> e : freq.entrySet()) {\n            if (e.getValue() == 1) return e.getKey();\n        }\n        return null;\n    }\n\n    public static void main(String[] args) {\n        String s = \"aabbcdeff\";\n        Character result = firstNonRepeating(s);\n        System.out.println(\"First non-repeating: \" + (result != null ? result : \"none\"));\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Group Students by Grade",
+        "difficulty": "Hard",
+        "description": "Given a list of (name, marks) pairs, group students by grade: A (90+), B (80-89), C (70-79), D (below 70). Use HashMap<String, ArrayList<String>> where keys are grades and values are student name lists. Print groups sorted by grade.",
+        "sampleInput": "Arjun:85, Kavya:92, Ravi:70, Priya:65, Deepak:88, Meera:95",
+        "sampleOutput": "A: [Kavya, Meera]\nB: [Arjun, Deepak]\nC: [Ravi]\nD: [Priya]",
+        "constraints": "Use computeIfAbsent for clean grouping. Sort output by grade.",
+        "solution": "import java.util.*;\n\npublic class Main {\n    static String getGrade(int marks) {\n        if (marks >= 90) return \"A\";\n        if (marks >= 80) return \"B\";\n        if (marks >= 70) return \"C\";\n        return \"D\";\n    }\n\n    public static void main(String[] args) {\n        Map<String, Integer> students = Map.of(\n            \"Arjun\", 85, \"Kavya\", 92, \"Ravi\", 70,\n            \"Priya\", 65, \"Deepak\", 88, \"Meera\", 95\n        );\n\n        TreeMap<String, ArrayList<String>> groups = new TreeMap<>();\n        for (Map.Entry<String, Integer> e : students.entrySet()) {\n            String grade = getGrade(e.getValue());\n            groups.computeIfAbsent(grade, k -> new ArrayList<>()).add(e.getKey());\n        }\n\n        for (Map.Entry<String, ArrayList<String>> e : groups.entrySet()) {\n            Collections.sort(e.getValue());\n            System.out.println(e.getKey() + \": \" + e.getValue());\n        }\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "LRU Cache Simulation",
+        "difficulty": "Hard",
+        "description": "Implement a simple LRU (Least Recently Used) cache using LinkedHashMap with access-order. The cache should hold at most 3 entries. When a new entry is added and the cache is full, the least recently accessed entry is removed. Test with a sequence of get/put operations.",
+        "sampleInput": "put(1,'A'), put(2,'B'), put(3,'C'), get(1), put(4,'D')",
+        "sampleOutput": "After puts: {1=A, 2=B, 3=C}\nAfter get(1): accessed A\nAfter put(4,D): {3=C, 1=A, 4=D} (2=B evicted)",
+        "constraints": "Use LinkedHashMap with accessOrder=true and override removeEldestEntry.",
+        "solution": "import java.util.*;\n\nclass LRUCache<K, V> extends LinkedHashMap<K, V> {\n    private int capacity;\n\n    LRUCache(int capacity) {\n        super(capacity, 0.75f, true);  // accessOrder=true\n        this.capacity = capacity;\n    }\n\n    @Override\n    protected boolean removeEldestEntry(Map.Entry<K, V> eldest) {\n        return size() > capacity;\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        LRUCache<Integer, String> cache = new LRUCache<>(3);\n        cache.put(1, \"A\");\n        cache.put(2, \"B\");\n        cache.put(3, \"C\");\n        System.out.println(\"After puts: \" + cache);\n\n        String val = cache.get(1);\n        System.out.println(\"After get(1): accessed \" + val);\n\n        cache.put(4, \"D\");  // Evicts least recently used (2=B)\n        System.out.println(\"After put(4,D): \" + cache + \" (2=B evicted)\");\n    }\n}"
+      }
+    ]
+  }
+}

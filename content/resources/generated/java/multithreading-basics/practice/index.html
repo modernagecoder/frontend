@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Multithreading Basics | Java | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="58+ practice questions on Multithreading Basics in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="multithreading basics practice, java questions, java practice problems, multithreading basics exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/multithreading-basics/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/multithreading-basics/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/multithreading-basics/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/multithreading-basics/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/multithreading-basics/practice">
+    <meta property="og:title" content="Practice Questions - Multithreading Basics | Java | Modern Age Coders">
+    <meta property="og:description" content="58+ practice questions on Multithreading Basics in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/multithreading-basics/practice">
+    <meta name="twitter:title" content="Practice Questions - Multithreading Basics | Java | Modern Age Coders">
+    <meta name="twitter:description" content="58+ practice questions on Multithreading Basics in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Multithreading Basics",
+    "description": "58+ practice questions on Multithreading Basics in Java.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Multithreading Basics"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/multithreading-basics/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Multithreading Basics",
+        "item": "https://learn.modernagecoders.com/resources/java/multithreading-basics"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/java/multithreading-basics/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java/multithreading-basics">Multithreading Basics</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 22</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">58 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Multithreading Basics</h1>
+            <a href="/resources/java/multithreading-basics" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code class="language-java">public class Main {
+    public static void main(String[] args) {
+        System.out.println(Thread.currentThread().getName());
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Every Java program starts with a main thread.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>main</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Thread t = new Thread(() -> System.out.println("Hello"));
+t.run();
+System.out.println("World");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">run() is called directly, not start().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>Hello</code><br><code>World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Thread t = new Thread(() -> System.out.println("Background"));
+System.out.println("State: " + t.getState());
+t.start();
+System.out.println("State: " + t.getState());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Check the thread state before and after calling start().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>State: NEW</code><br><code>State: RUNNABLE</code><br><code>Background</code><br>(Output order of last two lines may vary)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Thread t = new Thread(() -> {
+    System.out.println(Thread.currentThread().getName());
+});
+t.setName("Worker");
+t.start();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">setName() changes the thread's name before it starts.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Worker</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Thread t = new Thread(() -> {
+    for (int i = 0; i < 3; i++) {
+        System.out.println("A");
+    }
+});
+t.start();
+t.join();
+System.out.println("B");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">join() makes the main thread wait for t to finish.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>A</code><br><code>A</code><br><code>A</code><br><code>B</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Thread t = new Thread(() -> {
+    try {
+        Thread.sleep(2000);
+    } catch (InterruptedException e) {
+        System.out.println("Interrupted!");
+    }
+    System.out.println("Done");
+});
+t.start();
+t.interrupt();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">interrupt() wakes a sleeping thread by throwing InterruptedException.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Interrupted!</code><br><code>Done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">class MyThread extends Thread {
+    public void run() {
+        System.out.println("run");
+    }
+    public void start() {
+        System.out.println("start");
+    }
+}
+
+MyThread t = new MyThread();
+t.start();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">The start() method is overridden. What does the overridden version do?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>start</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Thread t = new Thread(() -> System.out.println("Hello"));
+t.start();
+t.start(); // start() called twice</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Can a thread be started more than once?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Hello</code><br>Then <code>IllegalThreadStateException</code> is thrown on the second <code>start()</code> call.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">synchronized void methodA() {
+    System.out.println("A");
+    methodB();
+}
+
+synchronized void methodB() {
+    System.out.println("B");
+}
+
+// Called from one thread on the same object</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Can a thread re-enter a synchronized method on the same object?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>A</code><br><code>B</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Thread t1 = new Thread(() -> {
+    synchronized (Main.class) {
+        System.out.println("T1 locked");
+        try { Thread.sleep(100); } catch (InterruptedException e) {}
+        System.out.println("T1 done");
+    }
+});
+
+Thread t2 = new Thread(() -> {
+    synchronized (Main.class) {
+        System.out.println("T2 locked");
+    }
+});
+
+t1.start();
+Thread.sleep(20); // give t1 time to acquire lock
+t2.start();
+t1.join();
+t2.join();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Both threads synchronize on the same lock (Main.class). T1 acquires it first.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>T1 locked</code><br><code>T1 done</code><br><code>T2 locked</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>sleep()</code> and <code>wait()</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Think about lock behavior and where each can be called.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>sleep()</code> pauses the current thread for a specified time and does NOT release any lock it holds. It can be called anywhere. <code>wait()</code> releases the lock on the object and waits until <code>notify()</code> or <code>notifyAll()</code> is called. It must be called inside a <code>synchronized</code> block. <code>sleep()</code> is a static method of Thread, while <code>wait()</code> is an instance method of Object.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why should you prefer implementing Runnable over extending Thread?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Think about Java's inheritance model and the Executor framework.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">Three reasons: (1) Java supports only single inheritance. If you extend Thread, you cannot extend any other class. Implementing Runnable preserves your inheritance slot. (2) Runnable separates the task (what to do) from the thread mechanism (how to run it), following better OOP design. (3) Runnable objects can be submitted to ExecutorService thread pools, enabling thread reuse and better resource management.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the difference between <code>synchronized</code> and <code>volatile</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Think about atomicity vs visibility.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>synchronized</code> provides both mutual exclusion (only one thread executes the critical section) and visibility (changes are flushed to main memory). <code>volatile</code> provides only visibility (reads/writes go to main memory) but NOT mutual exclusion. Use <code>synchronized</code> for compound operations (check-then-act, read-modify-write). Use <code>volatile</code> for simple flags that are written by one thread and read by others.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What are four conditions required for a deadlock to occur (Coffman conditions)?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">All four must be present simultaneously for deadlock.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14">(1) <strong>Mutual Exclusion</strong>: At least one resource is held in a non-sharable mode. (2) <strong>Hold and Wait</strong>: A thread holds at least one resource and waits for another. (3) <strong>No Preemption</strong>: Resources cannot be forcibly taken from a thread; it must release them voluntarily. (4) <strong>Circular Wait</strong>: A circular chain of threads exists, each waiting for a resource held by the next. Eliminating any one condition prevents deadlock.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Thread t = new Thread(() -> System.out.println("Go"));
+System.out.println(t.isAlive());
+t.start();
+System.out.println(t.isAlive());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">isAlive() returns true if the thread has been started and has not yet terminated.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>false</code><br><code>true</code><br><code>Go</code><br>(The last two lines may appear in either order)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Thread t = new Thread(() -> {
+    System.out.println("Running");
+});
+t.setDaemon(true);
+t.start();
+System.out.println("Main done");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Daemon threads are terminated when all non-daemon threads finish.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>Main done</code><br>("Running" may or may not appear)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Thread t1 = new Thread(() -> {
+    for (int i = 0; i < 3; i++) System.out.print("A");
+});
+Thread t2 = new Thread(() -> {
+    for (int i = 0; i < 3; i++) System.out.print("B");
+});
+t1.start();
+t1.join();
+t2.start();
+t2.join();
+System.out.println();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">join() after t1.start() means t1 finishes before t2 starts.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>AAABBB</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">class Shared {
+    synchronized void method1() {
+        System.out.println("method1 start");
+        try { Thread.sleep(1000); } catch (InterruptedException e) {}
+        System.out.println("method1 end");
+    }
+    void method2() {
+        System.out.println("method2");
+    }
+}
+
+Shared obj = new Shared();
+new Thread(() -> obj.method1()).start();
+Thread.sleep(100);
+new Thread(() -> obj.method2()).start();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">method2() is not synchronized.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>method1 start</code><br><code>method2</code><br><code>method1 end</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">ExecutorService exec = Executors.newSingleThreadExecutor();
+exec.submit(() -> System.out.println("Task 1"));
+exec.submit(() -> System.out.println("Task 2"));
+exec.submit(() -> System.out.println("Task 3"));
+exec.shutdown();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">A single-thread executor runs tasks sequentially.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>Task 1</code><br><code>Task 2</code><br><code>Task 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Thread t = new Thread(() -> {
+    System.out.println("Priority: " + Thread.currentThread().getPriority());
+});
+t.setPriority(8);
+t.start();
+t.join();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">setPriority() sets the thread's priority before it starts.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>Priority: 8</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">class Counter {
+    private int count = 0;
+    public synchronized void add(int n) {
+        for (int i = 0; i < n; i++) count++;
+    }
+    public int getCount() { return count; }
+}
+
+Counter c = new Counter();
+Thread t1 = new Thread(() -> c.add(5000));
+Thread t2 = new Thread(() -> c.add(5000));
+t1.start();
+t2.start();
+t1.join();
+t2.join();
+System.out.println(c.getCount());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">add() is synchronized. Is there a race condition?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>10000</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Object lock = new Object();
+Thread t1 = new Thread(() -> {
+    synchronized (lock) {
+        try {
+            System.out.println("T1 waiting");
+            lock.wait();
+            System.out.println("T1 resumed");
+        } catch (InterruptedException e) {}
+    }
+});
+
+Thread t2 = new Thread(() -> {
+    try { Thread.sleep(500); } catch (InterruptedException e) {}
+    synchronized (lock) {
+        System.out.println("T2 notifying");
+        lock.notify();
+    }
+});
+
+t1.start();
+t2.start();
+t1.join();
+t2.join();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">T1 calls wait(), T2 calls notify() after 500ms.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>T1 waiting</code><br><code>T2 notifying</code><br><code>T1 resumed</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between a thread and a process?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about memory sharing and weight.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">A <strong>process</strong> is an independent program with its own memory space. A <strong>thread</strong> is a lightweight unit of execution within a process. Threads within the same process share heap memory but have separate stacks. Creating a thread is cheaper than creating a process. Threads communicate through shared memory; processes need IPC mechanisms.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is a thread pool, and why is it better than creating threads manually?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Think about the cost of creating and destroying threads.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">A <strong>thread pool</strong> maintains a fixed number of reusable threads. Tasks are submitted to a queue, and available threads pick them up. Benefits: (1) Avoids the overhead of creating/destroying threads for each task. (2) Controls the maximum number of concurrent threads, preventing resource exhaustion. (3) Provides task queuing when all threads are busy. (4) Simplifies thread management code. Java's <code>ExecutorService</code> (e.g., <code>Executors.newFixedThreadPool()</code>) provides this.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which method must you call to start a new thread in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> run()</li><li><span class="mcq-option-label">B.</span> start()</li><li><span class="mcq-option-label">C.</span> execute()</li><li><span class="mcq-option-label">D.</span> begin()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>start()</code> creates a new thread and calls <code>run()</code> on it. Calling <code>run()</code> directly executes the method on the current thread.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What interface should you implement to define a thread's task?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Runnable</li><li><span class="mcq-option-label">B.</span> Callable</li><li><span class="mcq-option-label">C.</span> Executable</li><li><span class="mcq-option-label">D.</span> Threadable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>Runnable</code> is the standard interface for defining a thread's task. <code>Callable</code> is also valid (it can return a value), but Runnable is the basic one.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is the default name of the thread that runs the main() method?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Thread-0</li><li><span class="mcq-option-label">B.</span> main</li><li><span class="mcq-option-label">C.</span> primary</li><li><span class="mcq-option-label">D.</span> default</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> The main thread is named "main". Threads created with <code>new Thread()</code> are named "Thread-0", "Thread-1", etc. by default.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does Thread.sleep(1000) do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Creates a thread that runs for 1 second</li><li><span class="mcq-option-label">B.</span> Pauses the current thread for 1000 milliseconds</li><li><span class="mcq-option-label">C.</span> Terminates the current thread after 1 second</li><li><span class="mcq-option-label">D.</span> Waits for another thread for 1 second</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>Thread.sleep(1000)</code> pauses the currently executing thread for 1000 milliseconds (1 second). It does not release any locks held.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Can a terminated thread be restarted?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, by calling start() again</li><li><span class="mcq-option-label">B.</span> Yes, by calling run() again</li><li><span class="mcq-option-label">C.</span> No, a terminated thread cannot be restarted</li><li><span class="mcq-option-label">D.</span> Yes, by calling restart()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> A terminated thread cannot be restarted. Calling <code>start()</code> on a terminated thread throws <code>IllegalThreadStateException</code>. You must create a new Thread object.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does the synchronized keyword do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Makes the method run faster</li><li><span class="mcq-option-label">B.</span> Ensures only one thread can execute the method/block at a time on the same object</li><li><span class="mcq-option-label">C.</span> Prevents the method from throwing exceptions</li><li><span class="mcq-option-label">D.</span> Makes the method run on a separate thread</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>synchronized</code> acquires a lock on the object, ensuring mutual exclusion. Only one thread can execute synchronized methods/blocks on the same object at a time.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What exception does Thread.sleep() throw?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> IOException</li><li><span class="mcq-option-label">B.</span> InterruptedException</li><li><span class="mcq-option-label">C.</span> IllegalStateException</li><li><span class="mcq-option-label">D.</span> TimeoutException</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>Thread.sleep()</code> throws <code>InterruptedException</code> if another thread interrupts the sleeping thread. It is a checked exception that must be handled.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is a daemon thread?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A thread with the highest priority</li><li><span class="mcq-option-label">B.</span> A background thread that is terminated when all non-daemon threads finish</li><li><span class="mcq-option-label">C.</span> A thread that cannot be interrupted</li><li><span class="mcq-option-label">D.</span> A thread that runs only once</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> Daemon threads are background threads (e.g., garbage collector). The JVM exits when only daemon threads remain. Set with <code>thread.setDaemon(true)</code> before <code>start()</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the purpose of the join() method?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To combine two threads into one</li><li><span class="mcq-option-label">B.</span> To make the calling thread wait until the target thread finishes</li><li><span class="mcq-option-label">C.</span> To synchronize two threads</li><li><span class="mcq-option-label">D.</span> To start two threads simultaneously</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>t.join()</code> makes the calling thread (usually main) block until thread <code>t</code> terminates. It is used when you need the result of a thread before proceeding.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What does volatile ensure?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Atomicity of operations</li><li><span class="mcq-option-label">B.</span> Mutual exclusion</li><li><span class="mcq-option-label">C.</span> Visibility of changes across threads</li><li><span class="mcq-option-label">D.</span> Thread-safe compound operations</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>volatile</code> ensures that reads and writes go to main memory, not a thread-local cache. It guarantees visibility but NOT atomicity or mutual exclusion.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What happens if you call wait() outside a synchronized block?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The thread waits normally</li><li><span class="mcq-option-label">B.</span> A compile error occurs</li><li><span class="mcq-option-label">C.</span> IllegalMonitorStateException is thrown at runtime</li><li><span class="mcq-option-label">D.</span> The thread terminates</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>wait()</code> must be called while holding the object's monitor (inside a synchronized block). Calling it without the lock throws <code>IllegalMonitorStateException</code> at runtime (not a compile error).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the difference between notify() and notifyAll()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> notify() wakes all threads; notifyAll() wakes one</li><li><span class="mcq-option-label">B.</span> notify() wakes one waiting thread; notifyAll() wakes all waiting threads</li><li><span class="mcq-option-label">C.</span> They are identical</li><li><span class="mcq-option-label">D.</span> notify() is for threads; notifyAll() is for processes</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>notify()</code> wakes up one arbitrary thread waiting on the object's monitor. <code>notifyAll()</code> wakes up all waiting threads, and they compete for the lock. Use <code>notifyAll()</code> when multiple threads might be waiting for different conditions.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Which is NOT a way to prevent deadlock?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Always acquire locks in the same order</li><li><span class="mcq-option-label">B.</span> Use tryLock() with timeouts</li><li><span class="mcq-option-label">C.</span> Increase thread priority</li><li><span class="mcq-option-label">D.</span> Minimize lock scope</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> Increasing thread priority does not prevent deadlock. Deadlock is about the order and duration of lock acquisition, not thread priority. Options A, B, and D are all valid deadlock prevention strategies.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does Executors.newFixedThreadPool(5) create?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 5 threads that each run once</li><li><span class="mcq-option-label">B.</span> A pool of 5 reusable threads that process tasks from a queue</li><li><span class="mcq-option-label">C.</span> 5 daemon threads</li><li><span class="mcq-option-label">D.</span> A thread that runs 5 tasks sequentially</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> A fixed thread pool maintains 5 threads that pick up tasks from a shared queue. If more than 5 tasks are submitted, excess tasks wait in the queue until a thread becomes available. Threads are reused, not destroyed after each task.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the range of thread priorities in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0 to 5</li><li><span class="mcq-option-label">B.</span> 1 to 10</li><li><span class="mcq-option-label">C.</span> 0 to 100</li><li><span class="mcq-option-label">D.</span> 1 to 5</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Thread priorities range from 1 (MIN_PRIORITY) to 10 (MAX_PRIORITY), with 5 (NORM_PRIORITY) as the default. Priority is a hint to the scheduler and does not guarantee execution order.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Why should you use while (not if) before wait()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> while is faster than if</li><li><span class="mcq-option-label">B.</span> To guard against spurious wakeups and re-check the condition</li><li><span class="mcq-option-label">C.</span> wait() only works inside while loops</li><li><span class="mcq-option-label">D.</span> To prevent deadlock</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> Spurious wakeups can cause a thread to wake up even without <code>notify()</code>. Using <code>while</code> re-checks the condition after every wakeup, ensuring the thread only proceeds when the condition is truly met.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Thread-Safe Counter</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a thread-safe Counter class with increment(), decrement(), and getCount() methods. Test it with two threads incrementing 10000 times each and verify the final count is 20000.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Expected: 20000
+Actual: 20000</div>
+                </div><div class="challenge-constraints">Use synchronized methods. Use join() to wait for threads before checking the count.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">class Counter {
+    private int count = 0;
+    public synchronized void increment() { count++; }
+    public synchronized void decrement() { count--; }
+    public synchronized int getCount() { return count; }
+}
+
+public class ThreadSafeCounter {
+    public static void main(String[] args) throws InterruptedException {
+        Counter counter = new Counter();
+        Thread t1 = new Thread(() -&gt; {
+            for (int i = 0; i &lt; 10000; i++) counter.increment();
+        });
+        Thread t2 = new Thread(() -&gt; {
+            for (int i = 0; i &lt; 10000; i++) counter.increment();
+        });
+        t1.start();
+        t2.start();
+        t1.join();
+        t2.join();
+        System.out.println(&quot;Expected: 20000&quot;);
+        System.out.println(&quot;Actual: &quot; + counter.getCount());
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Parallel Array Sum</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Split an array into two halves and compute the sum of each half in a separate thread. Then combine the results on the main thread. Compare with single-threaded sum.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Array: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Thread-1 sum: 15
+Thread-2 sum: 40
+Total: 55</div>
+                </div><div class="challenge-constraints">Use Runnable. Store each thread&#39;s result in a shared array or use a wrapper class.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">public class ParallelSum {
+    public static void main(String[] args) throws InterruptedException {
+        int[] data = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] results = new int[2];
+        int mid = data.length / 2;
+
+        Thread t1 = new Thread(() -&gt; {
+            int sum = 0;
+            for (int i = 0; i &lt; mid; i++) sum += data[i];
+            results[0] = sum;
+            System.out.println(&quot;Thread-1 sum: &quot; + sum);
+        });
+
+        Thread t2 = new Thread(() -&gt; {
+            int sum = 0;
+            for (int i = mid; i &lt; data.length; i++) sum += data[i];
+            results[1] = sum;
+            System.out.println(&quot;Thread-2 sum: &quot; + sum);
+        });
+
+        t1.start();
+        t2.start();
+        t1.join();
+        t2.join();
+        System.out.println(&quot;Total: &quot; + (results[0] + results[1]));
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Producer-Consumer with Buffer</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Implement a bounded buffer (capacity 5) with produce() and consume() methods using wait/notify. The producer should produce 10 items, and the consumer should consume all 10.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Produced: 1
+Produced: 2
+...
+Consumed: 1
+Consumed: 2
+...</div>
+                </div><div class="challenge-constraints">Use synchronized, wait(), and notify(). Use a LinkedList as the buffer.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">import java.util.LinkedList;
+
+class BoundedBuffer {
+    private LinkedList&lt;Integer&gt; buffer = new LinkedList&lt;&gt;();
+    private int capacity;
+
+    public BoundedBuffer(int capacity) { this.capacity = capacity; }
+
+    public synchronized void produce(int item) throws InterruptedException {
+        while (buffer.size() == capacity) {
+            wait();
+        }
+        buffer.add(item);
+        System.out.println(&quot;Produced: &quot; + item);
+        notifyAll();
+    }
+
+    public synchronized int consume() throws InterruptedException {
+        while (buffer.isEmpty()) {
+            wait();
+        }
+        int item = buffer.removeFirst();
+        System.out.println(&quot;Consumed: &quot; + item);
+        notifyAll();
+        return item;
+    }
+}
+
+public class ProducerConsumerBuffer {
+    public static void main(String[] args) {
+        BoundedBuffer buffer = new BoundedBuffer(5);
+
+        Thread producer = new Thread(() -&gt; {
+            try {
+                for (int i = 1; i &lt;= 10; i++) {
+                    buffer.produce(i);
+                    Thread.sleep(100);
+                }
+            } catch (InterruptedException e) { e.printStackTrace(); }
+        });
+
+        Thread consumer = new Thread(() -&gt; {
+            try {
+                for (int i = 0; i &lt; 10; i++) {
+                    buffer.consume();
+                    Thread.sleep(200);
+                }
+            } catch (InterruptedException e) { e.printStackTrace(); }
+        });
+
+        producer.start();
+        consumer.start();
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Thread Pool Task Processor</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Use ExecutorService with a fixed thread pool of 3 threads to process 8 tasks. Each task should print its ID and the thread executing it, then simulate work with Thread.sleep(). Print when all tasks are complete.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Task 1 on pool-1-thread-1
+Task 2 on pool-1-thread-2
+... (all 8 tasks)
+All tasks completed.</div>
+                </div><div class="challenge-constraints">Use Executors.newFixedThreadPool(). Use shutdown() and awaitTermination().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+
+public class TaskProcessor {
+    public static void main(String[] args) throws InterruptedException {
+        ExecutorService pool = Executors.newFixedThreadPool(3);
+
+        for (int i = 1; i &lt;= 8; i++) {
+            int taskId = i;
+            pool.submit(() -&gt; {
+                System.out.println(&quot;Task &quot; + taskId + &quot; on &quot; + Thread.currentThread().getName());
+                try { Thread.sleep(500); } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                }
+            });
+        }
+
+        pool.shutdown();
+        pool.awaitTermination(30, TimeUnit.SECONDS);
+        System.out.println(&quot;All tasks completed.&quot;);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Deadlock Detector and Fix</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">First, write code that creates a deadlock between two threads. Then fix it by using a consistent lock ordering strategy. Print messages to show the execution flow in both versions.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">=== DEADLOCK VERSION ===
+T1: locked A
+T2: locked B
+(hangs)
+
+=== FIXED VERSION ===
+T1: locked A
+T1: locked B
+T1: done
+T2: locked A
+T2: locked B
+T2: done</div>
+                </div><div class="challenge-constraints">Demonstrate the deadlock scenario. Fix by acquiring locks in the same order in both threads.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">public class DeadlockFix {
+    private static final Object LOCK_A = new Object();
+    private static final Object LOCK_B = new Object();
+
+    public static void main(String[] args) throws InterruptedException {
+        System.out.println(&quot;=== FIXED VERSION (consistent lock order) ===&quot;);
+        // Both threads acquire LOCK_A first, then LOCK_B
+        Thread t1 = new Thread(() -&gt; {
+            synchronized (LOCK_A) {
+                System.out.println(&quot;T1: locked A&quot;);
+                try { Thread.sleep(50); } catch (InterruptedException e) {}
+                synchronized (LOCK_B) {
+                    System.out.println(&quot;T1: locked B&quot;);
+                }
+            }
+            System.out.println(&quot;T1: done&quot;);
+        });
+
+        Thread t2 = new Thread(() -&gt; {
+            synchronized (LOCK_A) { // Same order: A then B
+                System.out.println(&quot;T2: locked A&quot;);
+                try { Thread.sleep(50); } catch (InterruptedException e) {}
+                synchronized (LOCK_B) {
+                    System.out.println(&quot;T2: locked B&quot;);
+                }
+            }
+            System.out.println(&quot;T2: done&quot;);
+        });
+
+        t1.start();
+        t2.start();
+        t1.join();
+        t2.join();
+        System.out.println(&quot;No deadlock!&quot;);
+    }
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/java/file-handling-in-java/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">File Handling in Java</span>
+        </a>
+            <a href="/resources/java/lambda-expressions-and-streams/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Lambda Expressions and Streams API</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/java/multithreading-basics" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

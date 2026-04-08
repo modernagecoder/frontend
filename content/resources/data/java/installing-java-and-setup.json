@@ -1,0 +1,573 @@
+{
+  "title": "Installing Java and Setting Up Your Environment",
+  "slug": "installing-java-and-setup",
+  "language": "java",
+  "chapter": 2,
+  "difficulty": "Beginner",
+  "readingTime": "18 min",
+  "lastUpdated": "2026-04-07",
+  "totalQuestions": 52,
+  "seo": {
+    "title": "Installing Java JDK and Setting Up IDE - IntelliJ IDEA, Eclipse, VS Code Setup | Modern Age Coders",
+    "description": "Step-by-step guide to install Java JDK, set JAVA_HOME and PATH, verify installation, and set up IntelliJ IDEA, Eclipse, or VS Code for Java development. Includes 52 practice questions.",
+    "keywords": "install java jdk, java ide setup, intellij idea setup, java environment setup, java home path, javac java commands, eclipse java setup, vs code java, openjdk download, java development environment"
+  },
+  "content": {
+    "what": "<h2>What Is Java Environment Setup?</h2><p>Setting up a Java development environment means installing the software tools you need to write, compile, and run Java programs on your computer. At a minimum, you need the <strong>Java Development Kit (JDK)</strong>, which provides the Java compiler (<code>javac</code>), the Java runtime (<code>java</code>), and the standard class libraries.</p><p>Beyond the JDK, most developers use an <strong>Integrated Development Environment (IDE)</strong> -- a specialized text editor that provides code completion, syntax highlighting, debugging tools, project management, and integrated compilation. The three most popular Java IDEs are <strong>IntelliJ IDEA</strong>, <strong>Eclipse</strong>, and <strong>VS Code with Java extensions</strong>.</p><p>This chapter walks you through downloading and installing the JDK, configuring environment variables (<code>JAVA_HOME</code> and <code>PATH</code>), verifying your installation, choosing and setting up an IDE, and compiling your first program from the command line.</p>",
+    "why": "<h2>Why Does Proper Setup Matter?</h2><p>A correctly configured development environment is the foundation of productive Java programming. Here is why each step matters:</p><h3>1. Without the JDK, You Cannot Compile</h3><p>The JDK provides the <code>javac</code> compiler that converts your source code to bytecode. Without it, you can only run pre-compiled Java programs (using the JRE), not create your own. Installing the correct JDK version ensures compatibility with the Java features you want to use.</p><h3>2. Environment Variables Enable Command-Line Access</h3><p>Setting <code>JAVA_HOME</code> and adding Java's <code>bin</code> directory to your system <code>PATH</code> allows you to run <code>javac</code> and <code>java</code> commands from any directory in your terminal. Without this configuration, you would need to type the full path to these executables every time, which is impractical.</p><h3>3. IDEs Dramatically Increase Productivity</h3><p>While you can write Java in a plain text editor and compile from the terminal, an IDE catches errors as you type, suggests code completions, helps you navigate large codebases, and provides integrated debugging. Professional Java developers universally use IDEs. Getting comfortable with one early saves countless hours.</p><h3>4. Correct Setup Prevents Frustrating Errors</h3><p>Many beginners spend hours debugging errors that are actually environment issues: wrong Java version, <code>javac</code> not found in PATH, JAVA_HOME pointing to JRE instead of JDK, or multiple Java installations conflicting. Getting the setup right from the start eliminates these distractions.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Choosing a JDK Distribution</h3><p>There are several JDK distributions available, all based on the same OpenJDK source code:</p><table><tr><th>Distribution</th><th>Provider</th><th>License</th><th>Recommendation</th></tr><tr><td>Oracle JDK</td><td>Oracle</td><td>Free for development (NFTC license since Java 17)</td><td>Good for learning</td></tr><tr><td>Eclipse Temurin</td><td>Adoptium</td><td>Free, open source (GPLv2+CE)</td><td>Recommended for beginners</td></tr><tr><td>Amazon Corretto</td><td>Amazon</td><td>Free, open source</td><td>Good for AWS projects</td></tr><tr><td>Azul Zulu</td><td>Azul Systems</td><td>Free community edition</td><td>Good alternative</td></tr><tr><td>Microsoft Build</td><td>Microsoft</td><td>Free, open source</td><td>Good for Azure projects</td></tr></table><p>For college students, <strong>Eclipse Temurin</strong> (from Adoptium) or <strong>Oracle JDK</strong> are the best choices. Both provide the full JDK with no licensing concerns for learning and personal projects. Always install the latest <strong>LTS version</strong> (Java 21 as of this writing).</p><h3>2. Downloading and Installing the JDK</h3><h4>On Windows</h4><ol><li>Visit <a href=\"https://adoptium.net/\">https://adoptium.net/</a> or <a href=\"https://www.oracle.com/java/technologies/downloads/\">Oracle's download page</a></li><li>Download the <strong>JDK 21 (LTS)</strong> installer for Windows x64 (.msi)</li><li>Run the installer and follow the prompts</li><li>Note the installation directory (typically <code>C:\\Program Files\\Java\\jdk-21</code>)</li></ol><h4>On macOS</h4><ol><li>Download the JDK 21 .dmg or .pkg installer from Adoptium or Oracle</li><li>Double-click the downloaded file and follow the installation wizard</li><li>The JDK is typically installed in <code>/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home</code></li><li>Alternatively, use Homebrew: <code>brew install --cask temurin</code></li></ol><h4>On Linux (Ubuntu/Debian)</h4><ol><li>Open a terminal and run: <code>sudo apt update</code></li><li>Install OpenJDK: <code>sudo apt install openjdk-21-jdk</code></li><li>Verify: <code>java -version</code> and <code>javac -version</code></li></ol><h3>3. Setting JAVA_HOME and PATH</h3><p>After installing the JDK, you need to configure two environment variables so your system knows where Java is located:</p><h4>JAVA_HOME</h4><p><code>JAVA_HOME</code> should point to the root directory of your JDK installation. Many tools (Maven, Gradle, IDEs) use this variable to locate the JDK.</p><h4>PATH</h4><p>The <code>PATH</code> variable tells your operating system where to look for executable programs. You need to add the JDK's <code>bin</code> directory to PATH so you can run <code>javac</code> and <code>java</code> from any directory.</p><h4>Windows Configuration</h4><ol><li>Open <strong>System Properties</strong> > <strong>Environment Variables</strong> (search \"Environment Variables\" in Start)</li><li>Under <strong>System Variables</strong>, click <strong>New</strong>:<br>Variable name: <code>JAVA_HOME</code><br>Variable value: <code>C:\\Program Files\\Java\\jdk-21</code></li><li>Find the <strong>Path</strong> variable in System Variables, click <strong>Edit</strong></li><li>Click <strong>New</strong> and add: <code>%JAVA_HOME%\\bin</code></li><li>Click OK on all dialogs</li><li>Open a <strong>new</strong> Command Prompt (existing ones will not have the updated PATH)</li></ol><h4>macOS/Linux Configuration</h4><p>Add the following lines to your shell profile file (<code>~/.bashrc</code>, <code>~/.zshrc</code>, or <code>~/.bash_profile</code>):</p><pre><code>export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home\nexport PATH=$JAVA_HOME/bin:$PATH</code></pre><p>Then run <code>source ~/.zshrc</code> (or the appropriate file) to apply the changes.</p><h3>4. Verifying Your Installation</h3><p>After setting environment variables, verify your installation by running two commands in a terminal:</p><pre><code>java -version</code></pre><p>This shows the JRE/JVM version and confirms that the <code>java</code> command is accessible. Expected output:</p><pre><code>openjdk version \"21.0.2\" 2024-01-16\nOpenJDK Runtime Environment Temurin-21.0.2+13 (build 21.0.2+13)\nOpenJDK 64-Bit Server VM Temurin-21.0.2+13 (build 21.0.2+13, mixed mode, sharing)</code></pre><pre><code>javac -version</code></pre><p>This confirms the compiler is accessible. Expected output:</p><pre><code>javac 21.0.2</code></pre><p>If either command fails with \"command not found\" or \"not recognized,\" your PATH is not configured correctly. Go back and verify the environment variables.</p><h3>5. IDE Setup</h3><h4>IntelliJ IDEA (Recommended)</h4><p>IntelliJ IDEA by JetBrains is widely considered the best Java IDE. The <strong>Community Edition</strong> is free and sufficient for learning.</p><ol><li>Download from <a href=\"https://www.jetbrains.com/idea/download/\">jetbrains.com/idea</a></li><li>Install and launch IntelliJ IDEA</li><li>Click <strong>New Project</strong></li><li>Select <strong>Java</strong> from the left panel</li><li>Choose your installed JDK from the SDK dropdown (IntelliJ usually detects it automatically)</li><li>Give your project a name (e.g., \"JavaLearning\") and click Create</li><li>Right-click on the <code>src</code> folder > New > Java Class > Name it \"HelloWorld\"</li></ol><h4>Eclipse</h4><p>Eclipse is a free, open-source IDE that has been the standard Java IDE in many companies for decades.</p><ol><li>Download Eclipse IDE for Java Developers from <a href=\"https://www.eclipse.org/downloads/\">eclipse.org</a></li><li>Extract and run the installer</li><li>Choose a workspace directory (where your projects will be stored)</li><li>Go to File > New > Java Project</li><li>Name the project and click Finish</li><li>Right-click on <code>src</code> > New > Class > Name it \"HelloWorld\" and check \"public static void main\"</li></ol><h4>VS Code</h4><p>Visual Studio Code is a lightweight editor that becomes a capable Java IDE with extensions.</p><ol><li>Install VS Code from <a href=\"https://code.visualstudio.com/\">code.visualstudio.com</a></li><li>Open VS Code and go to Extensions (Ctrl+Shift+X)</li><li>Search for and install <strong>\"Extension Pack for Java\"</strong> by Microsoft</li><li>This installs Language Support for Java, Debugger for Java, Maven, Test Runner, and Project Manager</li><li>Create a new file with <code>.java</code> extension and start coding</li></ol><h3>6. Compiling and Running from the Terminal</h3><p>Understanding command-line compilation is essential even if you use an IDE, because it teaches you what happens behind the scenes.</p><h4>Step 1: Create a Source File</h4><p>Create a file named <code>HelloWorld.java</code> (the file name must match the public class name).</p><h4>Step 2: Compile</h4><pre><code>javac HelloWorld.java</code></pre><p>This produces <code>HelloWorld.class</code> in the same directory. If there are errors, the compiler will display them with line numbers.</p><h4>Step 3: Run</h4><pre><code>java HelloWorld</code></pre><p>Note: You provide the <strong>class name</strong>, not the file name. Do NOT write <code>java HelloWorld.class</code>.</p><h4>Common Compilation Flags</h4><table><tr><th>Flag</th><th>Purpose</th><th>Example</th></tr><tr><td><code>-d</code></td><td>Specify output directory for .class files</td><td><code>javac -d bin HelloWorld.java</code></td></tr><tr><td><code>-cp</code> or <code>-classpath</code></td><td>Specify classpath for dependencies</td><td><code>java -cp bin HelloWorld</code></td></tr><tr><td><code>-source</code></td><td>Specify source compatibility version</td><td><code>javac -source 17 HelloWorld.java</code></td></tr><tr><td><code>-verbose</code></td><td>Show detailed compilation info</td><td><code>javac -verbose HelloWorld.java</code></td></tr></table><h3>7. Project Directory Structure</h3><p>As your projects grow, organizing files becomes important. A standard Java project follows this structure:</p><pre><code>MyProject/\n  src/\n    com/\n      example/\n        Main.java\n        Student.java\n  bin/\n    com/\n      example/\n        Main.class\n        Student.class\n  lib/\n    (external .jar files)</code></pre><p>Source files go in <code>src/</code>, compiled classes go in <code>bin/</code>, and external libraries go in <code>lib/</code>. IDEs manage this structure automatically, but understanding it helps when working with build tools like Maven or Gradle.</p>",
+    "codeExamples": [
+      {
+        "title": "Verifying Java Installation from Terminal",
+        "code": "// Run these commands in your terminal (not in a Java file)\n\n// Check JVM/JRE version:\n// $ java -version\n// openjdk version \"21.0.2\" 2024-01-16\n// OpenJDK Runtime Environment Temurin-21.0.2+13\n// OpenJDK 64-Bit Server VM Temurin-21.0.2+13\n\n// Check compiler version:\n// $ javac -version\n// javac 21.0.2\n\n// Check JAVA_HOME:\n// Windows: echo %JAVA_HOME%\n// Linux/Mac: echo $JAVA_HOME\n\n// Verify from within Java:\npublic class VerifySetup {\n    public static void main(String[] args) {\n        System.out.println(\"Java Version: \" + System.getProperty(\"java.version\"));\n        System.out.println(\"Java Home: \" + System.getProperty(\"java.home\"));\n        System.out.println(\"Java Vendor: \" + System.getProperty(\"java.vendor\"));\n        System.out.println(\"JVM: \" + System.getProperty(\"java.vm.name\"));\n        System.out.println(\"OS: \" + System.getProperty(\"os.name\") + \" \" + System.getProperty(\"os.arch\"));\n    }\n}",
+        "language": "java",
+        "explanation": "The terminal commands <code>java -version</code> and <code>javac -version</code> confirm that both the runtime and compiler are accessible from your PATH. The Java program uses <code>System.getProperty()</code> to display detailed environment information. If <code>java -version</code> works but <code>javac -version</code> fails, you have the JRE but not the JDK -- install the JDK.",
+        "output": "Java Version: 21.0.2\nJava Home: C:\\Program Files\\Java\\jdk-21\nJava Vendor: Eclipse Adoptium\nJVM: OpenJDK 64-Bit Server VM\nOS: Windows 11 amd64"
+      },
+      {
+        "title": "Compiling and Running from Command Line",
+        "code": "// Step 1: Create this file as Greeting.java\npublic class Greeting {\n    public static void main(String[] args) {\n        String name = \"Aarav\";\n        System.out.println(\"Welcome to Java, \" + name + \"!\");\n        System.out.println(\"You compiled and ran this from the terminal.\");\n    }\n}\n\n// Step 2: Open terminal and navigate to the file's directory\n// $ cd path/to/your/file\n\n// Step 3: Compile (creates Greeting.class)\n// $ javac Greeting.java\n\n// Step 4: Run (note: no .class extension)\n// $ java Greeting",
+        "language": "java",
+        "explanation": "This demonstrates the fundamental compile-and-run workflow. The file must be named exactly <code>Greeting.java</code> (matching the public class name). The <code>javac</code> command compiles it to <code>Greeting.class</code>. The <code>java</code> command runs the class by name (not file name). Note the absence of <code>.class</code> extension in the run command -- a common beginner mistake.",
+        "output": "Welcome to Java, Aarav!\nYou compiled and ran this from the terminal."
+      },
+      {
+        "title": "Compiling to a Separate Output Directory",
+        "code": "// File: src/Calculator.java\npublic class Calculator {\n    public static void main(String[] args) {\n        int a = 25;\n        int b = 10;\n        System.out.println(a + \" + \" + b + \" = \" + (a + b));\n        System.out.println(a + \" - \" + b + \" = \" + (a - b));\n        System.out.println(a + \" * \" + b + \" = \" + (a * b));\n    }\n}\n\n// Compile to bin/ directory:\n// $ mkdir bin\n// $ javac -d bin src/Calculator.java\n\n// Run from bin/ directory:\n// $ java -cp bin Calculator",
+        "language": "java",
+        "explanation": "The <code>-d bin</code> flag tells the compiler to place the output <code>.class</code> file in the <code>bin/</code> directory instead of the source directory. The <code>-cp bin</code> (classpath) flag tells the JVM where to find the compiled class files. This separation of source and compiled files is a professional best practice that IDEs follow automatically.",
+        "output": "25 + 10 = 35\n25 - 10 = 15\n25 * 10 = 250"
+      },
+      {
+        "title": "Handling Compilation Errors",
+        "code": "// This file has intentional errors to demonstrate compiler messages\npublic class ErrorDemo {\n    public static void main(String[] args) {\n        // Error 1: Missing semicolon\n        // System.out.println(\"Hello\")\n        // Fix:\n        System.out.println(\"Hello\");\n\n        // Error 2: Undeclared variable\n        // System.out.println(x);\n        // Fix:\n        int x = 42;\n        System.out.println(x);\n\n        // Error 3: Type mismatch\n        // int name = \"Priya\";\n        // Fix:\n        String name = \"Priya\";\n        System.out.println(name);\n\n        System.out.println(\"All errors fixed!\");\n    }\n}",
+        "language": "java",
+        "explanation": "The Java compiler provides detailed error messages with line numbers. A missing semicolon gives: <code>error: ';' expected</code>. An undeclared variable gives: <code>error: cannot find symbol</code>. A type mismatch gives: <code>error: incompatible types</code>. Learning to read compiler error messages is an essential skill. Always fix errors from top to bottom, as one error can cascade into multiple error messages.",
+        "output": "Hello\n42\nPriya\nAll errors fixed!"
+      },
+      {
+        "title": "Using Java 11+ Single-File Source Execution",
+        "code": "// Since Java 11, you can run single-file programs directly:\n// $ java QuickTest.java\n// (No separate javac step needed!)\n\npublic class QuickTest {\n    public static void main(String[] args) {\n        System.out.println(\"This file was compiled and run in one step!\");\n        System.out.println(\"Java version: \" + System.getProperty(\"java.version\"));\n\n        // This shortcut works for:\n        // - Single-file programs\n        // - Quick testing and prototyping\n        // - Learning exercises\n\n        // It does NOT work for:\n        // - Multi-file projects\n        // - Programs that need external libraries\n        // - Production code\n    }\n}",
+        "language": "java",
+        "explanation": "Java 11 introduced the ability to run a single-file Java program without explicitly compiling it first. Instead of <code>javac QuickTest.java</code> followed by <code>java QuickTest</code>, you can simply run <code>java QuickTest.java</code>. The JVM compiles the source in memory and executes it. This is convenient for quick tests and learning, but professional projects still use explicit compilation with build tools.",
+        "output": "This file was compiled and run in one step!\nJava version: 21.0.2"
+      },
+      {
+        "title": "Checking Classpath and Multiple Directories",
+        "code": "// Project structure:\n// project/\n//   src/\n//     Main.java\n//     MathHelper.java\n\n// --- MathHelper.java ---\n// public class MathHelper {\n//     public static int add(int a, int b) { return a + b; }\n//     public static int multiply(int a, int b) { return a * b; }\n// }\n\n// --- Main.java ---\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(\"5 + 3 = \" + MathHelper.add(5, 3));\n        System.out.println(\"5 * 3 = \" + MathHelper.multiply(5, 3));\n    }\n}\n\n// Compile both files:\n// $ javac -d bin src/Main.java src/MathHelper.java\n// Or compile all .java files in src/:\n// $ javac -d bin src/*.java\n\n// Run:\n// $ java -cp bin Main",
+        "language": "java",
+        "explanation": "When a project has multiple Java files, you can compile them all at once using wildcards (<code>src/*.java</code>). The compiler automatically resolves dependencies between classes. The <code>-cp</code> flag specifies the classpath where the JVM looks for compiled classes. This example shows a simple two-class project where <code>Main</code> depends on <code>MathHelper</code>.",
+        "output": "5 + 3 = 8\n5 * 3 = 15"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "javac Not Found After Installation",
+        "wrongCode": "// Terminal:\n// C:\\Users\\Priya> javac HelloWorld.java\n// 'javac' is not recognized as an internal or external command",
+        "error": "'javac' is not recognized as an internal or external command, operable program or batch file.",
+        "correctCode": "// Fix: Add JDK bin to PATH\n// 1. Set JAVA_HOME = C:\\Program Files\\Java\\jdk-21\n// 2. Add %JAVA_HOME%\\bin to PATH\n// 3. Open a NEW terminal (existing terminals have old PATH)\n// 4. Verify: javac -version",
+        "explanation": "This is the most common setup issue. The <code>javac</code> command is located in the JDK's <code>bin</code> directory. If this directory is not in your system PATH, the terminal cannot find it. After modifying environment variables on Windows, you must open a <strong>new</strong> Command Prompt -- existing terminals retain the old PATH values."
+      },
+      {
+        "title": "JAVA_HOME Points to JRE Instead of JDK",
+        "wrongCode": "// JAVA_HOME = C:\\Program Files\\Java\\jre-21\n// Result: javac works from PATH but build tools fail",
+        "error": "Build tools (Maven, Gradle) report: 'JAVA_HOME points to a JRE, not a JDK. Please set JAVA_HOME to a JDK installation.'",
+        "correctCode": "// JAVA_HOME should point to JDK, not JRE:\n// Correct: JAVA_HOME = C:\\Program Files\\Java\\jdk-21\n// Wrong:   JAVA_HOME = C:\\Program Files\\Java\\jre-21\n// The path should contain bin/javac, not just bin/java",
+        "explanation": "JAVA_HOME must point to the JDK root directory (which contains <code>bin/javac</code>), not the JRE directory. Build tools like Maven and Gradle check JAVA_HOME to find the compiler. If it points to the JRE, they cannot compile your code. Verify by checking that <code>%JAVA_HOME%/bin/javac</code> exists."
+      },
+      {
+        "title": "Running with .class Extension",
+        "wrongCode": "// Terminal:\n// $ javac HelloWorld.java     (compiles correctly)\n// $ java HelloWorld.class      (ERROR!)",
+        "error": "Error: Could not find or load main class HelloWorld.class\nCaused by: java.lang.ClassNotFoundException: HelloWorld.class",
+        "correctCode": "// Correct: use class name without extension\n// $ java HelloWorld",
+        "explanation": "The <code>java</code> command expects a <strong>class name</strong>, not a file name. When you write <code>java HelloWorld.class</code>, Java looks for a class literally named <code>HelloWorld.class</code> (with the dot and \"class\" being part of the name), which does not exist. Always use just the class name: <code>java HelloWorld</code>."
+      },
+      {
+        "title": "File Name Does Not Match Class Name",
+        "wrongCode": "// File saved as: hello.java\npublic class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello\");\n    }\n}",
+        "error": "error: class HelloWorld is public, should be declared in a file named HelloWorld.java",
+        "correctCode": "// File must be saved as: HelloWorld.java\npublic class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello\");\n    }\n}",
+        "explanation": "In Java, the file name must exactly match the public class name, including capitalization. A public class named <code>HelloWorld</code> must be in a file named <code>HelloWorld.java</code>. This is not just a convention -- it is a compiler requirement. This is different from Python, where file names and class names can differ."
+      },
+      {
+        "title": "Multiple Java Versions Conflict",
+        "wrongCode": "// Terminal:\n// $ java -version\n// java version \"1.8.0_301\"  (old version!)\n// $ javac -version\n// javac 21.0.2              (new version!)\n// Mismatch causes runtime errors",
+        "error": "UnsupportedClassVersionError: HelloWorld has been compiled by a more recent version of the Java Runtime",
+        "correctCode": "// Ensure java and javac are from the same JDK:\n// $ where java      (Windows)\n// $ which java      (Linux/Mac)\n// Both should point to the same JDK installation.\n// Remove old Java versions from PATH or uninstall them.",
+        "explanation": "Having multiple Java installations can cause version mismatches where <code>javac</code> (compiler) and <code>java</code> (runtime) come from different versions. If you compile with JDK 21 but run with JRE 8, you get an <code>UnsupportedClassVersionError</code>. Use <code>where java</code> (Windows) or <code>which java</code> (Linux/Mac) to check which Java executable is being used, and ensure both tools come from the same installation."
+      }
+    ],
+    "summary": [
+      "You need the JDK (Java Development Kit) to develop Java programs. It includes the javac compiler, java runtime, and standard libraries. Use the latest LTS version (Java 21).",
+      "Popular JDK distributions include Oracle JDK, Eclipse Temurin (Adoptium), Amazon Corretto, and Azul Zulu. All are based on the same OpenJDK source code.",
+      "Set the JAVA_HOME environment variable to your JDK installation directory, and add %JAVA_HOME%\\bin (Windows) or $JAVA_HOME/bin (Linux/Mac) to your PATH.",
+      "Verify your installation with `java -version` (checks runtime) and `javac -version` (checks compiler). Both should show the same version number.",
+      "IntelliJ IDEA Community Edition is the recommended IDE for Java development. Eclipse and VS Code with Java extensions are good alternatives.",
+      "To compile from terminal: `javac FileName.java` produces a .class file. To run: `java ClassName` (without .class extension).",
+      "The file name must exactly match the public class name (case-sensitive). HelloWorld class must be in HelloWorld.java.",
+      "Use `-d` flag to specify output directory: `javac -d bin src/Main.java`. Use `-cp` to set classpath: `java -cp bin Main`.",
+      "Java 11+ supports single-file source execution: `java HelloWorld.java` compiles and runs in one step, useful for quick tests.",
+      "Always fix compilation errors from top to bottom. One error can cascade into multiple error messages. Read the first error carefully."
+    ]
+  },
+  "relatedTopics": ["introduction-to-java", "your-first-java-program"],
+  "practice": {
+    "totalQuestions": 52,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the command to compile a Java source file named Student.java?",
+        "hint": "The Java compiler command starts with javac.",
+        "answer": "The command is <code>javac Student.java</code>. This compiles the source file and produces a <code>Student.class</code> bytecode file in the same directory.",
+        "explanation": "The <code>javac</code> command is the Java compiler included in the JDK. It reads .java source files and produces .class bytecode files. If the source code has errors, the compiler will display error messages with line numbers instead of producing the .class file."
+      },
+      {
+        "id": "ts-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the command to run a compiled Java class named Student?",
+        "hint": "You use the java command, not javac. Do not include .class.",
+        "answer": "The command is <code>java Student</code> (without the .class extension). This starts the JVM and executes the <code>main</code> method of the <code>Student</code> class.",
+        "explanation": "The <code>java</code> command launches the JVM and looks for a class with the specified name. A common mistake is writing <code>java Student.class</code>, which will fail because the JVM interprets \"Student.class\" as a class named \"class\" inside a package named \"Student\"."
+      },
+      {
+        "id": "ts-3",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What does the JAVA_HOME environment variable point to?",
+        "hint": "It points to the root directory of a JDK installation.",
+        "answer": "<code>JAVA_HOME</code> points to the root directory of the JDK installation (e.g., <code>C:\\Program Files\\Java\\jdk-21</code> on Windows). It is used by build tools like Maven and Gradle to locate the JDK.",
+        "explanation": "JAVA_HOME should point to the JDK directory, not the JRE directory and not the bin directory. The bin subdirectory (containing javac and java executables) is added to PATH separately as <code>%JAVA_HOME%\\bin</code>."
+      },
+      {
+        "id": "ts-4",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Name the three most popular Java IDEs.",
+        "hint": "One is by JetBrains, one is open-source by Eclipse Foundation, one is by Microsoft.",
+        "answer": "The three most popular Java IDEs are: (1) <strong>IntelliJ IDEA</strong> by JetBrains, (2) <strong>Eclipse</strong> by the Eclipse Foundation, and (3) <strong>Visual Studio Code</strong> by Microsoft (with Java extensions).",
+        "explanation": "IntelliJ IDEA is considered the most advanced and is widely used in industry. Eclipse has been the standard for decades and is fully open source. VS Code is lightweight and popular among students who also work with other languages. All three are free for Java development."
+      },
+      {
+        "id": "ts-5",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What two terminal commands should you run to verify that Java is correctly installed?",
+        "hint": "One checks the runtime version, the other checks the compiler version.",
+        "answer": "Run <code>java -version</code> to verify the Java runtime (JVM) and <code>javac -version</code> to verify the Java compiler. Both should show the same version number.",
+        "explanation": "If <code>java -version</code> works but <code>javac -version</code> does not, you have only the JRE installed, not the JDK. If neither works, Java is not in your PATH. If they show different version numbers, you have multiple Java installations and the PATH is resolving to different ones."
+      },
+      {
+        "id": "ts-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What happens if you name your file hello.java but the public class inside is named HelloWorld?",
+        "hint": "Java enforces a strict naming rule between file names and public class names.",
+        "answer": "The compiler will produce an error: <code>error: class HelloWorld is public, should be declared in a file named HelloWorld.java</code>. In Java, the file name must exactly match the public class name, including capitalization.",
+        "explanation": "This is a compiler-enforced rule, not just a convention. The reason is that the JVM uses the class name to locate the .class file on disk. If the public class is named HelloWorld, the JVM expects to find it in HelloWorld.class. The source file must use the same name to maintain this mapping."
+      },
+      {
+        "id": "ts-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the purpose of the -d flag in the javac command? Give an example.",
+        "hint": "It specifies where the compiled .class files should be placed.",
+        "answer": "The <code>-d</code> flag specifies the destination directory for compiled .class files. Example: <code>javac -d bin src/HelloWorld.java</code> compiles the source file and places <code>HelloWorld.class</code> in the <code>bin/</code> directory.",
+        "explanation": "Without <code>-d</code>, the .class file is placed in the same directory as the .java file, mixing source and compiled files. Using <code>-d</code> keeps them separate, which is the professional convention. IDEs do this automatically."
+      },
+      {
+        "id": "ts-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the -cp (or -classpath) flag in the java command? Why is it needed?",
+        "hint": "It tells the JVM where to look for .class files.",
+        "answer": "The <code>-cp</code> (classpath) flag tells the JVM which directories and JAR files to search when loading classes. Example: <code>java -cp bin HelloWorld</code> tells the JVM to look for <code>HelloWorld.class</code> in the <code>bin/</code> directory.",
+        "explanation": "By default, the JVM looks for classes in the current directory. If your .class files are in a different directory (like bin/), you must specify the classpath with <code>-cp</code>. For projects with external libraries, the classpath includes both your compiled classes and the library JARs."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between Oracle JDK and OpenJDK? Which should a student use?",
+        "hint": "They share the same source code. The difference is mainly licensing.",
+        "answer": "Both are based on the same OpenJDK source code and are functionally equivalent. <strong>Oracle JDK</strong> is Oracle's distribution with a commercial license (free for development since Java 17). <strong>OpenJDK</strong> distributions (like Eclipse Temurin, Amazon Corretto) are fully open source with no licensing restrictions. Students should use either; <strong>Eclipse Temurin</strong> is recommended for simplicity.",
+        "explanation": "In the past (Java 11-16), Oracle JDK required a paid license for production use, causing many organizations to switch to OpenJDK distributions. Since Java 17, Oracle JDK is again free under the NFTC license. For learning purposes, any distribution works identically."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Rohan gets this error: 'UnsupportedClassVersionError: HelloWorld has been compiled by a more recent version of the Java Runtime.' What caused this?",
+        "hint": "The file was compiled with a newer JDK than the JRE trying to run it.",
+        "answer": "This error means Rohan compiled the code with a newer JDK (e.g., JDK 21) but is trying to run it with an older JRE (e.g., JRE 8). The JVM cannot execute bytecode compiled for a version newer than itself. Rohan needs to either update his runtime to match the compiler version, or compile with the older version using <code>javac -source 8 -target 8</code>.",
+        "explanation": "Java bytecode has a version number embedded in it. Each JDK version produces bytecode with a higher major version number. JDK 8 = version 52, JDK 11 = 55, JDK 17 = 61, JDK 21 = 65. A JRE can run bytecode from its own version or any older version, but not newer. Use <code>where java</code> and <code>where javac</code> to check if they come from the same installation."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain what happens step by step when you run `javac -d bin src/Main.java` followed by `java -cp bin Main`.",
+        "hint": "First command compiles, second command runs. Think about what files are created and where.",
+        "answer": "(1) <code>javac -d bin src/Main.java</code>: The compiler reads <code>src/Main.java</code>, parses the source code, checks for errors, generates bytecode, and writes <code>Main.class</code> to the <code>bin/</code> directory. (2) <code>java -cp bin Main</code>: The JVM starts, sets the classpath to <code>bin/</code>, loads <code>Main.class</code> from <code>bin/</code>, verifies the bytecode, finds the <code>main(String[] args)</code> method, and executes it using the interpreter and JIT compiler.",
+        "explanation": "Understanding this two-step process is fundamental. The <code>-d bin</code> flag creates the bin directory structure if needed and places .class files there. The <code>-cp bin</code> flag adds bin to the classpath so the JVM can find the classes. Without <code>-cp bin</code>, the JVM would look only in the current directory and fail with ClassNotFoundException."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the Java classpath? How is it different from the system PATH? Why do both matter?",
+        "hint": "PATH tells the OS where to find executables. Classpath tells the JVM where to find .class files.",
+        "answer": "<strong>PATH</strong> is a system environment variable that tells the operating system where to find executable programs (like <code>javac</code> and <code>java</code>). <strong>Classpath</strong> is a JVM-specific setting that tells the JVM where to find compiled <code>.class</code> files and JAR libraries. PATH is needed so you can run <code>javac</code> and <code>java</code> from any directory. Classpath is needed so the JVM can load the classes your program depends on.",
+        "explanation": "A common confusion is that PATH and classpath serve different purposes. PATH is about finding the Java tools themselves (javac, java). Classpath is about finding your application's compiled classes and libraries. You configure PATH once during setup. You configure classpath per project, either via <code>-cp</code> flag, the CLASSPATH environment variable, or through your IDE/build tool settings."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the single-file source-code execution feature introduced in Java 11? What are its limitations?",
+        "hint": "It lets you run a .java file directly with the java command.",
+        "answer": "Java 11 introduced the ability to run single-file Java programs directly: <code>java HelloWorld.java</code> compiles the source in memory and executes it without producing a .class file on disk. <strong>Limitations:</strong> (1) Only works for single-file programs. (2) Cannot reference classes in other source files. (3) Cannot use external library JARs. (4) Recompiles every time (no caching). (5) Not suitable for production code.",
+        "explanation": "This feature was added for convenience in scripting, quick testing, and learning. Behind the scenes, the JVM compiles the source to bytecode in memory and immediately executes it. For multi-file projects, you still need explicit compilation with javac or a build tool."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What JDK version should a student install in 2026 for learning Java?",
+        "hint": "Always use the latest Long-Term Support version.",
+        "answer": "Students should install <strong>JDK 21</strong>, which is the latest Long-Term Support (LTS) version. LTS versions receive extended security updates and are the standard choice for both learning and production use.",
+        "explanation": "While newer non-LTS versions may be available, LTS versions are preferred because they are stable, widely documented, and supported by all major IDEs and build tools. Java 21 includes all modern features (records, sealed classes, pattern matching, virtual threads) while being a stable, well-supported release."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Neha installed JDK 21 on Windows but gets 'javac is not recognized.' She verified the JDK is installed at C:\\Program Files\\Java\\jdk-21. What steps should she take to fix this?",
+        "hint": "She needs to set environment variables and open a new terminal.",
+        "answer": "Neha should: (1) Open System Properties > Environment Variables. (2) Create a new system variable <code>JAVA_HOME</code> with value <code>C:\\Program Files\\Java\\jdk-21</code>. (3) Edit the <code>Path</code> system variable and add <code>%JAVA_HOME%\\bin</code>. (4) Click OK on all dialogs. (5) Open a <strong>new</strong> Command Prompt (the old one has the old PATH). (6) Run <code>javac -version</code> to verify.",
+        "explanation": "The key detail that most beginners miss is step 5: you must open a new terminal window after changing environment variables. Existing terminal windows retain the old PATH values. If it still does not work, verify that the path <code>C:\\Program Files\\Java\\jdk-21\\bin\\javac.exe</code> actually exists."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What file extension do Java source code files have? What extension do compiled bytecode files have?",
+        "hint": "One is the code you write, the other is what the compiler produces.",
+        "answer": "Java source code files have the <code>.java</code> extension. Compiled bytecode files have the <code>.class</code> extension. The compiler (<code>javac</code>) converts <code>.java</code> files into <code>.class</code> files.",
+        "explanation": "The naming is straightforward: you write code in .java files, and the compiler produces .class files containing bytecode. Each public class in your source code produces one .class file. If you have inner classes, they produce separate .class files with names like OuterClass$InnerClass.class."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Vikram downloads and installs the JRE but cannot compile his Java program. Why?",
+        "hint": "What does the JRE include vs what does the JDK include?",
+        "answer": "The JRE (Java Runtime Environment) only includes the JVM and standard libraries needed to <strong>run</strong> Java programs. It does not include the <code>javac</code> compiler needed to <strong>compile</strong> Java programs. Vikram needs to install the <strong>JDK</strong> (Java Development Kit) which includes both the JRE and development tools.",
+        "explanation": "This is one of the most common beginner mistakes. The distinction is: JRE = for running Java programs, JDK = for developing Java programs. Since Java 11, Oracle no longer provides a standalone JRE download, but the conceptual distinction remains important for understanding the Java ecosystem."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Ananya has two Java installations on her Windows machine: JDK 8 and JDK 21. When she types `java -version`, it shows Java 8. But she wants to use Java 21. How should she fix this?",
+        "hint": "The system uses whichever Java comes first in the PATH.",
+        "answer": "Ananya should: (1) Update <code>JAVA_HOME</code> to point to the JDK 21 directory. (2) Ensure <code>%JAVA_HOME%\\bin</code> appears <strong>before</strong> the JDK 8 path in the <code>PATH</code> variable. (3) Alternatively, remove JDK 8 from PATH entirely if she no longer needs it. (4) Open a new terminal and verify with <code>java -version</code>.",
+        "explanation": "The operating system searches the PATH variable from left to right and uses the first match. If JDK 8's bin directory appears before JDK 21's, the system will always find Java 8 first. By placing <code>%JAVA_HOME%\\bin</code> at the beginning of PATH and pointing JAVA_HOME to JDK 21, she ensures the correct version is used."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write the terminal commands (not Java code) to: (a) create a directory called 'bin', (b) compile a file called Calculator.java into the bin directory, and (c) run the compiled Calculator class from the bin directory.",
+        "hint": "Use mkdir, javac with -d, and java with -cp.",
+        "answer": "<pre><code>mkdir bin\njavac -d bin Calculator.java\njava -cp bin Calculator</code></pre>",
+        "explanation": "<code>mkdir bin</code> creates the output directory. <code>javac -d bin Calculator.java</code> compiles the source and places Calculator.class in bin/. <code>java -cp bin Calculator</code> runs the class, telling the JVM to look in bin/ for .class files. The <code>-cp</code> flag sets the classpath."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the standard directory structure for a Java project? What goes in src/, bin/, and lib/?",
+        "hint": "Source code, compiled classes, and external libraries each have their directory.",
+        "answer": "<code>src/</code> contains Java source code (.java files), organized in package directories. <code>bin/</code> (or <code>target/classes/</code>) contains compiled bytecode (.class files), mirroring the package structure. <code>lib/</code> contains external library JAR files that the project depends on.",
+        "explanation": "This separation keeps the project organized and makes it easy to distribute compiled code without source, or vice versa. Modern build tools (Maven, Gradle) enforce an even more specific structure: Maven uses <code>src/main/java/</code> for source and <code>src/test/java/</code> for tests."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain the difference between compiling with `javac HelloWorld.java` and running with `java HelloWorld.java` (Java 11+). What happens internally in each case?",
+        "hint": "One produces a .class file on disk, the other compiles in memory.",
+        "answer": "<code>javac HelloWorld.java</code> compiles the source file and writes <code>HelloWorld.class</code> to disk. You then run it separately with <code>java HelloWorld</code>. <code>java HelloWorld.java</code> (Java 11+) compiles the source in memory, does NOT produce a .class file on disk, and immediately executes the program. The in-memory compilation happens every time you run the command (no caching).",
+        "explanation": "The traditional two-step approach (javac + java) is required for multi-file projects and produces persistent .class files. The single-step approach (java File.java) is a convenience feature for single-file programs. Use the traditional approach for real projects and the shortcut for quick tests and learning exercises."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Aarav is setting up IntelliJ IDEA for the first time. He creates a new project but the IDE says 'No JDK found.' What should he do? How does IntelliJ detect the JDK?",
+        "hint": "IntelliJ needs to know where the JDK is installed. It can auto-detect or you can specify manually.",
+        "answer": "Aarav should: (1) Click the SDK dropdown in the New Project dialog and select 'Download JDK' (IntelliJ can download it for you). (2) Alternatively, click 'Add JDK' and browse to his JDK installation directory. (3) If JAVA_HOME is set correctly, IntelliJ often detects it automatically. IntelliJ looks for JDKs in standard locations and checks the JAVA_HOME environment variable.",
+        "explanation": "IntelliJ IDEA searches several locations for JDKs: the JAVA_HOME variable, standard installation directories (like C:\\Program Files\\Java\\), and any JDKs previously configured in the IDE. The 'Download JDK' feature is convenient because IntelliJ can download, install, and configure the JDK automatically. Once configured, the JDK is saved in the project settings and does not need to be set again."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is a JAR file? How do you run a Java program packaged as a JAR?",
+        "hint": "JAR stands for Java Archive. It bundles .class files into a single file.",
+        "answer": "A <strong>JAR (Java Archive)</strong> file is a ZIP-format archive that bundles compiled .class files, resources, and metadata into a single file for distribution. It is created using the <code>jar</code> command: <code>jar cf MyApp.jar -C bin .</code>. To run an executable JAR: <code>java -jar MyApp.jar</code>. The JAR's manifest file (<code>META-INF/MANIFEST.MF</code>) specifies the main class to execute.",
+        "explanation": "JAR files are the standard way to distribute Java applications and libraries. When you add external libraries to your project, they come as JAR files. An executable JAR has a manifest entry <code>Main-Class: com.example.Main</code> that tells the JVM which class to run. Build tools like Maven and Gradle automate JAR creation."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why should you install the latest LTS version of Java rather than the latest non-LTS version?",
+        "hint": "Think about support duration and stability.",
+        "answer": "LTS (Long-Term Support) versions receive security updates and bug fixes for several years, while non-LTS versions only receive 6 months of support. LTS versions are more stable, better documented, widely supported by all tools and libraries, and are what companies use in production. Current LTS versions: Java 11, 17, and 21.",
+        "explanation": "Non-LTS versions (like Java 18, 19, 20, 22) are useful for testing new features but should not be used for production or long-term learning. If you learn on Java 20 and a library only supports up to Java 21 LTS, you may face compatibility issues. Sticking with LTS ensures a consistent, well-supported development experience."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Can you write and compile Java programs without an IDE? What tools do you minimally need?",
+        "hint": "An IDE is convenient but not required.",
+        "answer": "Yes, you can write Java programs with any text editor (Notepad, Vim, Nano, Sublime Text) and compile them using the <code>javac</code> command in the terminal. You minimally need: (1) A text editor to write .java files. (2) The JDK installed and in your PATH for <code>javac</code> and <code>java</code> commands.",
+        "explanation": "IDEs are productivity tools, not requirements. Understanding command-line compilation is valuable because it teaches what happens behind the scenes. Many coding interviews and competitive programming contests require command-line familiarity. However, for real projects, an IDE is strongly recommended."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the difference between Homebrew installation (`brew install --cask temurin`) on macOS and manual installation? Are there any advantages to using a package manager?",
+        "hint": "Package managers automate download, installation, PATH configuration, and updates.",
+        "answer": "Homebrew automates the entire JDK installation: it downloads the correct binary for your architecture, installs it in the standard location, configures symlinks so <code>java</code> and <code>javac</code> are in PATH, and makes future updates easy (<code>brew upgrade temurin</code>). Manual installation requires downloading the binary, extracting it, setting JAVA_HOME, and updating PATH yourself. The advantage of a package manager is <strong>consistency, easy updates, and automated PATH configuration</strong>.",
+        "explanation": "On Linux, similar benefits come from using apt (<code>sudo apt install openjdk-21-jdk</code>) or yum. Package managers also handle multiple version installations cleanly. Tools like SDKMAN (<code>sdk install java 21-tem</code>) are specifically designed for managing multiple JDK versions on any OS and are popular among Java developers."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which command compiles a Java source file?",
+        "options": {"A": "java", "B": "javac", "C": "javadoc", "D": "jar"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>javac</code> (Java Compiler) compiles .java source files into .class bytecode files. <code>java</code> (A) runs compiled programs. <code>javadoc</code> (C) generates documentation. <code>jar</code> (D) creates archive files."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does JAVA_HOME typically point to?",
+        "options": {"A": "The JRE installation directory", "B": "The JDK installation directory", "C": "The bin directory inside JDK", "D": "The user's home directory"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> JAVA_HOME should point to the root directory of the JDK installation (e.g., C:\\Program Files\\Java\\jdk-21). It should NOT point to the JRE (A), the bin directory (C), or the user's home (D). Build tools use JAVA_HOME to locate the JDK."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What file is produced when you run `javac HelloWorld.java`?",
+        "options": {"A": "HelloWorld.exe", "B": "HelloWorld.class", "C": "HelloWorld.jar", "D": "HelloWorld.byte"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The Java compiler produces a .class file containing bytecode. Java does not produce .exe files (A) or .byte files (D). A .jar file (C) is an archive created separately using the jar tool."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which of the following is a free, open-source Java IDE?",
+        "options": {"A": "IntelliJ IDEA Ultimate", "B": "Eclipse", "C": "Xcode", "D": "PyCharm Professional"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Eclipse is completely free and open source. IntelliJ IDEA Ultimate (A) requires a paid license (though Community Edition is free). Xcode (C) is for Apple/iOS development. PyCharm Professional (D) is for Python and requires a license."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is the correct command to run a compiled Java class named Main?",
+        "options": {"A": "java Main.class", "B": "java Main.java", "C": "java Main", "D": "javac Main"},
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The correct command is <code>java Main</code> (class name without extension). <code>java Main.class</code> (A) would look for a class literally named \"Main.class\". <code>java Main.java</code> (B) would try to compile and run from source (Java 11+). <code>javac Main</code> (D) is the compiler, not the runner."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "If your file is named MyProgram.java, what MUST the public class inside be named?",
+        "options": {"A": "myprogram", "B": "MyProgram", "C": "Myprogram", "D": "Any name is fine"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The public class name must exactly match the file name, including capitalization. <code>MyProgram.java</code> must contain <code>public class MyProgram</code>. Options A and C have different capitalization, which will cause a compiler error. Option D is wrong because Java enforces this naming rule."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does the `-d bin` flag do in `javac -d bin HelloWorld.java`?",
+        "options": {"A": "Debugs the program", "B": "Deletes the bin directory", "C": "Places the compiled .class file in the bin directory", "D": "Downloads dependencies to bin"},
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>-d</code> flag specifies the destination directory for compiled .class files. <code>-d bin</code> tells the compiler to place output files in the bin/ directory. It does not debug (A), delete (B), or download (D)."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does `-cp` stand for in the java command?",
+        "options": {"A": "Copy", "B": "Compile path", "C": "Classpath", "D": "Current path"},
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>-cp</code> is shorthand for <code>-classpath</code>. It specifies the directories and JAR files where the JVM should look for compiled .class files. It is not about copying (A), compilation (B), or the current directory (D)."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which Java version introduced single-file source-code execution (`java File.java`)?",
+        "options": {"A": "Java 8", "B": "Java 9", "C": "Java 11", "D": "Java 17"},
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Java 11 (JEP 330) introduced the ability to run single-file Java programs directly with <code>java File.java</code>. Java 8 (A) and 9 (B) require explicit compilation. Java 17 (D) is an LTS release but this feature came in Java 11."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which JDK distribution is provided by the Eclipse Foundation?",
+        "options": {"A": "Amazon Corretto", "B": "Eclipse Temurin", "C": "Azul Zulu", "D": "Microsoft Build of OpenJDK"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Eclipse Temurin (formerly AdoptOpenJDK) is the Eclipse Foundation's distribution of OpenJDK via the Adoptium project. Amazon Corretto (A) is from Amazon. Azul Zulu (C) is from Azul Systems. Microsoft Build (D) is from Microsoft."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What error do you get if you compile with JDK 21 but try to run with JRE 8?",
+        "options": {"A": "ClassNotFoundException", "B": "UnsupportedClassVersionError", "C": "NoSuchMethodError", "D": "FileNotFoundException"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>UnsupportedClassVersionError</code> occurs when bytecode compiled for a newer JDK version is run on an older JRE. The JRE cannot interpret bytecode from a version higher than its own. ClassNotFoundException (A) means the class file was not found. NoSuchMethodError (C) means a method is missing. FileNotFoundException (D) is for file I/O operations."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "On Windows, after setting JAVA_HOME and PATH, the `javac` command still does not work in the current terminal. What is the most likely cause?",
+        "options": {"A": "The JDK is not installed", "B": "The existing terminal has the old PATH; open a new one", "C": "You need to restart the computer", "D": "JAVA_HOME is read-only"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> On Windows, existing terminal windows retain the PATH values from when they were opened. After changing environment variables, you must open a <strong>new</strong> Command Prompt or PowerShell window. Restarting the computer (C) would also work but is unnecessary. The JDK being not installed (A) is possible but less likely if you just set JAVA_HOME."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the purpose of the META-INF/MANIFEST.MF file inside a JAR?",
+        "options": {"A": "It contains the source code", "B": "It lists metadata like the main class and version information", "C": "It contains compilation errors", "D": "It is the bytecode for the main class"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The manifest file contains metadata about the JAR, including the main class to execute (Main-Class attribute), the classpath, version information, and other properties. It does not contain source code (A), errors (C), or bytecode (D)."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which of the following is NOT a valid way to install JDK on Linux?",
+        "options": {"A": "sudo apt install openjdk-21-jdk", "B": "Download .tar.gz from Oracle and extract manually", "C": "sdk install java 21-tem (using SDKMAN)", "D": "pip install java-jdk-21"},
+        "correct": "D",
+        "explanation": "<strong>D is correct (this is NOT valid).</strong> <code>pip</code> is the Python package manager and cannot install the Java JDK. Options A (apt), B (manual download), and C (SDKMAN) are all valid methods to install JDK on Linux."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "When you run `javac src/*.java -d bin`, what happens?",
+        "options": {"A": "Only the first .java file is compiled", "B": "All .java files in src/ are compiled and .class files are placed in bin/", "C": "An error occurs because wildcards are not supported", "D": "The bin directory is deleted and recreated"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The wildcard <code>*.java</code> matches all Java source files in the src/ directory. The compiler processes all of them, resolves dependencies between classes, and places the compiled .class files in the bin/ directory. Wildcards are supported by both javac and the shell."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "Which of the following is the recommended JDK version type for production and learning?",
+        "options": {"A": "Beta release", "B": "Early Access", "C": "Long-Term Support (LTS)", "D": "Non-LTS feature release"},
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> LTS versions receive extended support and security patches for years. Beta (A) and Early Access (B) versions are for testing unreleased features. Non-LTS (D) versions only get 6 months of support. Always use LTS for stability."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "Which command checks where the java executable is located on Windows?",
+        "options": {"A": "which java", "B": "where java", "C": "find java", "D": "locate java"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> On Windows, <code>where java</code> shows the full path of the java executable. On Linux/Mac, <code>which java</code> (A) is the equivalent command. <code>find</code> (C) searches for files. <code>locate</code> (D) uses a file database on Linux."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is SDKMAN and why is it useful for Java developers?",
+        "options": {"A": "A Java framework for building web apps", "B": "A tool for managing multiple JDK versions on one machine", "C": "An IDE plugin for code generation", "D": "A Java profiling and debugging tool"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> SDKMAN (Software Development Kit Manager) allows developers to install, switch between, and manage multiple JDK versions and other JVM-based tools (Maven, Gradle, Kotlin). Commands like <code>sdk install java 21-tem</code> and <code>sdk use java 17-tem</code> make version management effortless. It is not a framework (A), IDE plugin (C), or profiler (D)."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Environment Verification Program",
+        "difficulty": "Easy",
+        "description": "Write a Java program called EnvCheck that prints the Java version, Java home directory, operating system name, and available processors. This verifies your development environment is correctly set up.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== Environment Check ===\nJava Version: 21.0.2\nJava Home: C:\\Program Files\\Java\\jdk-21\nOS: Windows 11\nProcessors: 8\nSetup Status: READY",
+        "constraints": "Use System.getProperty() and Runtime.getRuntime().availableProcessors(). Name the class EnvCheck.",
+        "solution": "public class EnvCheck {\n    public static void main(String[] args) {\n        System.out.println(\"=== Environment Check ===\");\n        System.out.println(\"Java Version: \" + System.getProperty(\"java.version\"));\n        System.out.println(\"Java Home: \" + System.getProperty(\"java.home\"));\n        System.out.println(\"OS: \" + System.getProperty(\"os.name\"));\n        System.out.println(\"Processors: \" + Runtime.getRuntime().availableProcessors());\n        System.out.println(\"Setup Status: READY\");\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Multi-Line Greeting",
+        "difficulty": "Easy",
+        "description": "Write a Java program called WelcomeMessage that prints a welcome message for a new Java developer. Include 5 lines: the developer's name (Priya), Java version, IDE recommendation, and two learning tips.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Welcome, Priya!\nYou are using Java 21.\nRecommended IDE: IntelliJ IDEA Community Edition\nTip 1: Always compile before running (javac then java)\nTip 2: Read compiler error messages carefully - they tell you exactly what is wrong",
+        "constraints": "Use System.out.println for each line. Use string concatenation with + for the Java version.",
+        "solution": "public class WelcomeMessage {\n    public static void main(String[] args) {\n        String name = \"Priya\";\n        System.out.println(\"Welcome, \" + name + \"!\");\n        System.out.println(\"You are using Java \" + System.getProperty(\"java.version\") + \".\");\n        System.out.println(\"Recommended IDE: IntelliJ IDEA Community Edition\");\n        System.out.println(\"Tip 1: Always compile before running (javac then java)\");\n        System.out.println(\"Tip 2: Read compiler error messages carefully - they tell you exactly what is wrong\");\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Compilation Steps Printer",
+        "difficulty": "Easy",
+        "description": "Write a Java program called CompileSteps that prints the three steps needed to create and run a Java program: (1) Create .java file, (2) Compile with javac, (3) Run with java. Include example commands for a file called StudentApp.java.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== How to Compile and Run Java ===\nStep 1: Create source file\n  File: StudentApp.java\n\nStep 2: Compile\n  Command: javac StudentApp.java\n  Output: StudentApp.class\n\nStep 3: Run\n  Command: java StudentApp\n  (Note: no .class extension!)",
+        "constraints": "Use System.out.println for each line. Include the note about not using .class extension.",
+        "solution": "public class CompileSteps {\n    public static void main(String[] args) {\n        System.out.println(\"=== How to Compile and Run Java ===\");\n        System.out.println(\"Step 1: Create source file\");\n        System.out.println(\"  File: StudentApp.java\");\n        System.out.println();\n        System.out.println(\"Step 2: Compile\");\n        System.out.println(\"  Command: javac StudentApp.java\");\n        System.out.println(\"  Output: StudentApp.class\");\n        System.out.println();\n        System.out.println(\"Step 3: Run\");\n        System.out.println(\"  Command: java StudentApp\");\n        System.out.println(\"  (Note: no .class extension!)\");\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "System Properties Deep Dive",
+        "difficulty": "Medium",
+        "description": "Write a Java program called SystemPropertiesExplorer that prints at least 10 different system properties in a formatted table. Include properties about Java, OS, user, and file system.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== System Properties Explorer ===\njava.version     : 21.0.2\njava.vendor      : Eclipse Adoptium\njava.home        : C:\\Program Files\\Java\\jdk-21\nos.name          : Windows 11\nos.arch          : amd64\nos.version       : 10.0\nuser.name        : Aarav\nuser.home        : C:\\Users\\Aarav\nuser.dir         : C:\\Projects\\Java\nfile.separator   : \\\npath.separator   : ;\nline.separator   : (system-dependent)",
+        "constraints": "Use System.getProperty() for all values. Format with consistent alignment using string formatting or padding.",
+        "solution": "public class SystemPropertiesExplorer {\n    public static void main(String[] args) {\n        System.out.println(\"=== System Properties Explorer ===\");\n        String format = \"%-17s: %s%n\";\n        System.out.printf(format, \"java.version\", System.getProperty(\"java.version\"));\n        System.out.printf(format, \"java.vendor\", System.getProperty(\"java.vendor\"));\n        System.out.printf(format, \"java.home\", System.getProperty(\"java.home\"));\n        System.out.printf(format, \"os.name\", System.getProperty(\"os.name\"));\n        System.out.printf(format, \"os.arch\", System.getProperty(\"os.arch\"));\n        System.out.printf(format, \"os.version\", System.getProperty(\"os.version\"));\n        System.out.printf(format, \"user.name\", System.getProperty(\"user.name\"));\n        System.out.printf(format, \"user.home\", System.getProperty(\"user.home\"));\n        System.out.printf(format, \"user.dir\", System.getProperty(\"user.dir\"));\n        System.out.printf(format, \"file.separator\", System.getProperty(\"file.separator\"));\n        System.out.printf(format, \"path.separator\", System.getProperty(\"path.separator\"));\n        System.out.printf(format, \"line.separator\", System.getProperty(\"line.separator\").replace(\"\\n\", \"\\\\n\").replace(\"\\r\", \"\\\\r\"));\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "JDK vs JRE vs JVM Visual",
+        "difficulty": "Medium",
+        "description": "Write a Java program called JdkComponents that prints a detailed breakdown of what each Java component (JDK, JRE, JVM) contains. Use ASCII formatting to show the nested hierarchy with specific tool names.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== JDK Components Breakdown ===\n\nJDK (Java Development Kit)\n|-- Development Tools:\n|   |-- javac    (Java Compiler)\n|   |-- jdb      (Java Debugger)\n|   |-- javadoc  (Documentation Generator)\n|   |-- jar      (Archive Tool)\n|   |-- jshell   (Interactive REPL)\n|\n|-- JRE (Java Runtime Environment)\n    |-- Standard Libraries:\n    |   |-- java.lang  (Core classes)\n    |   |-- java.util  (Collections, Date)\n    |   |-- java.io    (File I/O)\n    |   |-- java.net   (Networking)\n    |\n    |-- JVM (Java Virtual Machine)\n        |-- Class Loader\n        |-- Bytecode Verifier\n        |-- Interpreter\n        |-- JIT Compiler\n        |-- Garbage Collector",
+        "constraints": "Use ASCII tree formatting. Include at least 4 tools under JDK, 4 libraries under JRE, and 5 components under JVM.",
+        "solution": "public class JdkComponents {\n    public static void main(String[] args) {\n        System.out.println(\"=== JDK Components Breakdown ===\");\n        System.out.println();\n        System.out.println(\"JDK (Java Development Kit)\");\n        System.out.println(\"|-- Development Tools:\");\n        System.out.println(\"|   |-- javac    (Java Compiler)\");\n        System.out.println(\"|   |-- jdb      (Java Debugger)\");\n        System.out.println(\"|   |-- javadoc  (Documentation Generator)\");\n        System.out.println(\"|   |-- jar      (Archive Tool)\");\n        System.out.println(\"|   |-- jshell   (Interactive REPL)\");\n        System.out.println(\"|\");\n        System.out.println(\"|-- JRE (Java Runtime Environment)\");\n        System.out.println(\"    |-- Standard Libraries:\");\n        System.out.println(\"    |   |-- java.lang  (Core classes)\");\n        System.out.println(\"    |   |-- java.util  (Collections, Date)\");\n        System.out.println(\"    |   |-- java.io    (File I/O)\");\n        System.out.println(\"    |   |-- java.net   (Networking)\");\n        System.out.println(\"    |\");\n        System.out.println(\"    |-- JVM (Java Virtual Machine)\");\n        System.out.println(\"        |-- Class Loader\");\n        System.out.println(\"        |-- Bytecode Verifier\");\n        System.out.println(\"        |-- Interpreter\");\n        System.out.println(\"        |-- JIT Compiler\");\n        System.out.println(\"        |-- Garbage Collector\");\n    }\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Error Diagnosis Tool",
+        "difficulty": "Hard",
+        "description": "Write a Java program called ErrorDiagnosis that prints a troubleshooting guide for the 5 most common Java setup errors. For each error, print the error message, the cause, and the fix. Format it clearly with separators.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== Java Setup Error Diagnosis Guide ===\n\n[Error 1] 'javac' is not recognized\n  Cause: JDK bin directory is not in system PATH\n  Fix: Add %JAVA_HOME%\\bin to PATH, then open a new terminal\n---\n[Error 2] UnsupportedClassVersionError\n  Cause: Compiled with newer JDK, running on older JRE\n  Fix: Update JRE to match JDK version or compile with -target flag\n...",
+        "constraints": "Include at least 5 common errors with causes and fixes. Use consistent formatting.",
+        "solution": "public class ErrorDiagnosis {\n    public static void main(String[] args) {\n        System.out.println(\"=== Java Setup Error Diagnosis Guide ===\");\n        System.out.println();\n        System.out.println(\"[Error 1] 'javac' is not recognized\");\n        System.out.println(\"  Cause: JDK bin directory is not in system PATH\");\n        System.out.println(\"  Fix: Add %JAVA_HOME%\\\\bin to PATH, then open a new terminal\");\n        System.out.println(\"---\");\n        System.out.println(\"[Error 2] UnsupportedClassVersionError\");\n        System.out.println(\"  Cause: Compiled with newer JDK, running on older JRE\");\n        System.out.println(\"  Fix: Update JRE to match JDK version, or use: javac --release 8 File.java\");\n        System.out.println(\"---\");\n        System.out.println(\"[Error 3] Could not find or load main class\");\n        System.out.println(\"  Cause: Class name mismatch, wrong directory, or missing -cp flag\");\n        System.out.println(\"  Fix: Verify class name matches, and use: java -cp bin ClassName\");\n        System.out.println(\"---\");\n        System.out.println(\"[Error 4] class X is public, should be declared in file named X.java\");\n        System.out.println(\"  Cause: File name does not match the public class name\");\n        System.out.println(\"  Fix: Rename the file to match the public class name exactly\");\n        System.out.println(\"---\");\n        System.out.println(\"[Error 5] JAVA_HOME points to a JRE, not a JDK\");\n        System.out.println(\"  Cause: JAVA_HOME is set to JRE directory instead of JDK\");\n        System.out.println(\"  Fix: Update JAVA_HOME to point to JDK root (containing bin/javac)\");\n    }\n}"
+      },
+      {
+        "id": "cc-7",
+        "title": "Build Script Simulator",
+        "difficulty": "Hard",
+        "description": "Write a Java program called BuildSimulator that simulates and prints what a simple build process would do: list source files, compile them, output .class files, and run the main class. Print each step with timestamps using System.currentTimeMillis().",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== Build Simulator ===\n[1712345678000] Scanning source directory: src/\n[1712345678001] Found: Main.java\n[1712345678001] Found: Student.java\n[1712345678001] Found: Grade.java\n[1712345678002] Compiling 3 source files...\n[1712345678010] Generated: bin/Main.class\n[1712345678010] Generated: bin/Student.class\n[1712345678010] Generated: bin/Grade.class\n[1712345678011] Build successful! 3 files compiled.\n[1712345678012] Running: java -cp bin Main\n[1712345678012] === Application Output ===\n[1712345678012] Student Management System v1.0",
+        "constraints": "Use System.currentTimeMillis() for timestamps. Simulate at least 3 source files. Print build summary.",
+        "solution": "public class BuildSimulator {\n    public static void main(String[] args) {\n        System.out.println(\"=== Build Simulator ===\");\n        long time = System.currentTimeMillis();\n        System.out.println(\"[\" + time + \"] Scanning source directory: src/\");\n        System.out.println(\"[\" + System.currentTimeMillis() + \"] Found: Main.java\");\n        System.out.println(\"[\" + System.currentTimeMillis() + \"] Found: Student.java\");\n        System.out.println(\"[\" + System.currentTimeMillis() + \"] Found: Grade.java\");\n        System.out.println(\"[\" + System.currentTimeMillis() + \"] Compiling 3 source files...\");\n        System.out.println(\"[\" + System.currentTimeMillis() + \"] Generated: bin/Main.class\");\n        System.out.println(\"[\" + System.currentTimeMillis() + \"] Generated: bin/Student.class\");\n        System.out.println(\"[\" + System.currentTimeMillis() + \"] Generated: bin/Grade.class\");\n        System.out.println(\"[\" + System.currentTimeMillis() + \"] Build successful! 3 files compiled.\");\n        System.out.println(\"[\" + System.currentTimeMillis() + \"] Running: java -cp bin Main\");\n        System.out.println(\"[\" + System.currentTimeMillis() + \"] === Application Output ===\");\n        System.out.println(\"[\" + System.currentTimeMillis() + \"] Student Management System v1.0\");\n        long elapsed = System.currentTimeMillis() - time;\n        System.out.println(\"[\" + System.currentTimeMillis() + \"] Total build time: \" + elapsed + \"ms\");\n    }\n}"
+      }
+    ]
+  }
+}

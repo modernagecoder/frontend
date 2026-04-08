@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Polymorphism in Java | Java | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="50+ practice questions on Polymorphism in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="polymorphism in java practice, java questions, java practice problems, polymorphism in java exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/polymorphism-in-java/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/polymorphism-in-java/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/polymorphism-in-java/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/polymorphism-in-java/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/polymorphism-in-java/practice">
+    <meta property="og:title" content="Practice Questions - Polymorphism in Java | Java | Modern Age Coders">
+    <meta property="og:description" content="50+ practice questions on Polymorphism in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/polymorphism-in-java/practice">
+    <meta name="twitter:title" content="Practice Questions - Polymorphism in Java | Java | Modern Age Coders">
+    <meta name="twitter:description" content="50+ practice questions on Polymorphism in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Polymorphism in Java",
+    "description": "50+ practice questions on Polymorphism in Java in Java.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Polymorphism in Java"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/polymorphism-in-java/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Polymorphism in Java",
+        "item": "https://learn.modernagecoders.com/resources/java/polymorphism-in-java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/java/polymorphism-in-java/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java/polymorphism-in-java">Polymorphism in Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 16</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">50 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Polymorphism in Java</h1>
+            <a href="/resources/java/polymorphism-in-java" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>class Animal {
+    void sound() { System.out.println("Animal sound"); }
+}
+class Dog extends Animal {
+    void sound() { System.out.println("Bark"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Animal a = new Dog();
+        a.sound();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The reference type is Animal, but the actual object is Dog. Which sound() runs?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Bark</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Calc {
+    int add(int a, int b) { return a + b; }
+    double add(double a, double b) { return a + b; }
+}
+public class Main {
+    public static void main(String[] args) {
+        Calc c = new Calc();
+        System.out.println(c.add(3, 4));
+        System.out.println(c.add(3.0, 4.0));
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">The compiler selects the matching method based on argument types.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>7</code><br><code>7.0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    void show() { System.out.println("A"); }
+}
+class B extends A {
+    void show() { System.out.println("B"); }
+}
+class C extends B {
+    void show() { System.out.println("C"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        A obj = new C();
+        obj.show();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">C extends B extends A. The actual object is C.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Parent {
+    void greet() { System.out.println("Hello from Parent"); }
+}
+class Child extends Parent {
+}
+public class Main {
+    public static void main(String[] args) {
+        Parent p = new Child();
+        p.greet();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Child does not override greet(). What happens?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Hello from Parent</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Demo {
+    void print(int a) { System.out.println("int: " + a); }
+    void print(String a) { System.out.println("String: " + a); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Demo d = new Demo();
+        d.print(10);
+        d.print("Arjun");
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Method overloading: the compiler picks by argument type.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>int: 10</code><br><code>String: Arjun</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Vehicle {
+    void start() { System.out.println("Vehicle"); }
+}
+class Car extends Vehicle {
+    void start() { System.out.println("Car"); }
+    void openTrunk() { System.out.println("Trunk opened"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Vehicle v = new Car();
+        v.start();
+        System.out.println(v instanceof Car);
+        System.out.println(v instanceof Vehicle);
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">instanceof checks the actual object type, not the reference type.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Car</code><br><code>true</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Base {
+    int x = 10;
+    void show() { System.out.println(x); }
+}
+class Derived extends Base {
+    int x = 20;
+    void show() { System.out.println(x); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Base b = new Derived();
+        System.out.println(b.x);
+        b.show();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Fields are resolved at compile time (by reference type). Methods are resolved at runtime (by object type).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>10</code><br><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    void show(int a) { System.out.println("A-int: " + a); }
+}
+class B extends A {
+    void show(int a) { System.out.println("B-int: " + a); }
+    void show(String a) { System.out.println("B-String: " + a); }
+}
+public class Main {
+    public static void main(String[] args) {
+        A obj = new B();
+        obj.show(5);
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">The reference type is A. Which methods can A see?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>B-int: 5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Parent {
+    static void display() { System.out.println("Parent static"); }
+    void show() { System.out.println("Parent instance"); }
+}
+class Child extends Parent {
+    static void display() { System.out.println("Child static"); }
+    void show() { System.out.println("Child instance"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Parent p = new Child();
+        p.display();
+        p.show();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Static methods are resolved by reference type. Instance methods are resolved by object type.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>Parent static</code><br><code>Child instance</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Printer {
+    void print(Object o) { System.out.println("Object: " + o); }
+    void print(String s) { System.out.println("String: " + s); }
+    void print(int i) { System.out.println("int: " + i); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Printer p = new Printer();
+        p.print("Hello");
+        p.print(42);
+        p.print((Object) "World");
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Overloading is resolved at compile time based on the compile-time type of arguments.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>String: Hello</code><br><code>int: 42</code><br><code>Object: World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Shape {
+    void draw() { System.out.println("Shape"); }
+}
+class Circle extends Shape {
+    void draw() { System.out.println("Circle"); }
+}
+class ColoredCircle extends Circle {
+    void draw() { System.out.println("Colored Circle"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Shape s1 = new Circle();
+        Shape s2 = new ColoredCircle();
+        Circle c1 = new ColoredCircle();
+        
+        s1.draw();
+        s2.draw();
+        c1.draw();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Each call resolves to the actual object type's draw() method.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>Circle</code><br><code>Colored Circle</code><br><code>Colored Circle</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    void method() { System.out.println("A.method"); }
+}
+class B extends A {
+    void method() { System.out.println("B.method"); }
+}
+class C extends A {
+    void method() { System.out.println("C.method"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        A[] arr = { new A(), new B(), new C(), new B() };
+        for (A a : arr) {
+            a.method();
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Each element in the array is a different actual type.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>A.method</code><br><code>B.method</code><br><code>C.method</code><br><code>B.method</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Parent {
+    int value() { return 10; }
+    void print() { System.out.println(value()); }
+}
+class Child extends Parent {
+    int value() { return 20; }
+}
+public class Main {
+    public static void main(String[] args) {
+        Parent p = new Child();
+        p.print();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">print() is inherited by Child. But value() is overridden. Which value() does print() call?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Base {
+    void display(int a) { System.out.println("Base-int"); }
+    void display(double a) { System.out.println("Base-double"); }
+}
+class Child extends Base {
+    void display(int a) { System.out.println("Child-int"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Base b = new Child();
+        b.display(10);
+        b.display(10.5);
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Child only overrides display(int). display(double) is inherited.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>Child-int</code><br><code>Base-double</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    A get() {
+        System.out.println("A's get");
+        return this;
+    }
+}
+class B extends A {
+    B get() {
+        System.out.println("B's get");
+        return this;
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        A obj = new B();
+        obj.get();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">B's get() returns B instead of A. Is this a valid override?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>B's get</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Animal {
+    Animal() { System.out.println("Animal constructor"); }
+    void eat() { System.out.println("Animal eats"); }
+}
+class Dog extends Animal {
+    Dog() { System.out.println("Dog constructor"); }
+    void eat() { System.out.println("Dog eats"); }
+    void bark() { System.out.println("Dog barks"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Animal a = new Dog();
+        a.eat();
+        System.out.println(a instanceof Animal);
+        System.out.println(a instanceof Dog);
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Constructors run during object creation. Then polymorphic method call. Then instanceof checks.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>Animal constructor</code><br><code>Dog constructor</code><br><code>Dog eats</code><br><code>true</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class X {
+    void method(X x) { System.out.println("X-X"); }
+    void method(Y y) { System.out.println("X-Y"); }
+}
+class Y extends X {
+    void method(X x) { System.out.println("Y-X"); }
+    void method(Y y) { System.out.println("Y-Y"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        X obj = new Y();
+        obj.method(new Y());
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Overloading is resolved at compile time (reference types). Overriding is resolved at runtime.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>Y-Y</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Base {
+    void show() {
+        System.out.println("Base show");
+        display();
+    }
+    void display() {
+        System.out.println("Base display");
+    }
+}
+class Derived extends Base {
+    void display() {
+        System.out.println("Derived display");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Base b = new Derived();
+        b.show();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">show() is not overridden, but it calls display() which IS overridden.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>Base show</code><br><code>Derived display</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Greet {
+    void hello(String name) { System.out.println("Hello, " + name); }
+    void hello(String name, int times) {
+        for (int i = 0; i < times; i++) {
+            System.out.println("Hi, " + name);
+        }
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Greet g = new Greet();
+        g.hello("Kavya");
+        g.hello("Ravi", 2);
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Two overloaded methods with different parameter counts.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>Hello, Kavya</code><br><code>Hi, Ravi</code><br><code>Hi, Ravi</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Animal {
+    String type = "Animal";
+    void identify() { System.out.println(type); }
+}
+class Cat extends Animal {
+    String type = "Cat";
+    void identify() { System.out.println(type); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Cat c = new Cat();
+        c.identify();
+        System.out.println(c.type);
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">When using the actual type as reference, no polymorphism ambiguity arises.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>Cat</code><br><code>Cat</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Num {
+    void show(int a) { System.out.println("int"); }
+    void show(long a) { System.out.println("long"); }
+    void show(float a) { System.out.println("float"); }
+    void show(double a) { System.out.println("double"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Num n = new Num();
+        byte b = 5;
+        n.show(b);
+        n.show(5L);
+        n.show(5.0f);
+        n.show(5.0);
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">byte is promoted to int (smallest compatible type).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>int</code><br><code>long</code><br><code>float</code><br><code>double</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Parent {
+    void show() { System.out.println("Parent"); }
+}
+class ChildA extends Parent {
+    void show() { System.out.println("ChildA"); }
+}
+class ChildB extends Parent {
+    void show() { System.out.println("ChildB"); }
+}
+public class Main {
+    static void display(Parent p) { p.show(); }
+    public static void main(String[] args) {
+        display(new Parent());
+        display(new ChildA());
+        display(new ChildB());
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">The display method accepts Parent but receives different subtypes.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Parent</code><br><code>ChildA</code><br><code>ChildB</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between compile-time polymorphism and runtime polymorphism?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Think about when the decision is made: during compilation or during execution.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">Compile-time polymorphism (method overloading) is resolved by the compiler based on argument types and count. Runtime polymorphism (method overriding) is resolved by the JVM at runtime based on the actual object type. Overloading is within the same class; overriding is across parent-child classes.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    void test(Object o) { System.out.println("Object"); }
+    void test(String s) { System.out.println("String"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        A a = new A();
+        a.test(null);
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">null can match both Object and String. Which is more specific?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>String</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    int x = 10;
+    void show() { System.out.println("A: " + x); }
+}
+class B extends A {
+    int x = 20;
+}
+public class Main {
+    public static void main(String[] args) {
+        A obj = new B();
+        System.out.println(obj.x);
+        obj.show();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">B does not override show(). Fields are not polymorphic.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>10</code><br><code>A: 10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Can we override a <code>private</code> method in Java?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Private methods are not visible to subclasses.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">No, private methods cannot be overridden. They are not visible to subclasses. If a subclass defines a method with the same name and parameters as a parent's private method, it is a completely new method, not an override.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Base {
+    Base() {
+        System.out.println("Base constructor");
+        show();
+    }
+    void show() { System.out.println("Base show"); }
+}
+class Child extends Base {
+    int x = 10;
+    Child() {
+        System.out.println("Child constructor, x=" + x);
+    }
+    void show() { System.out.println("Child show, x=" + x); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Child c = new Child();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">The Base constructor runs first. It calls show(). Which show() runs? What is x at that point?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>Base constructor</code><br><code>Child show, x=0</code><br><code>Child constructor, x=10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Animal {
+    void eat() { System.out.println("Animal eats"); }
+}
+class Dog extends Animal {
+    void eat() { System.out.println("Dog eats"); }
+    void bark() { System.out.println("Dog barks"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Animal a = new Dog();
+        a.eat();
+
+        Dog d = (Dog) a;
+        d.eat();
+        d.bark();
+
+        Animal a2 = (Animal) d;
+        a2.eat();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">All references point to the same Dog object. Casting does not change the object.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>Dog eats</code><br><code>Dog eats</code><br><code>Dog barks</code><br><code>Dog eats</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between method hiding and method overriding?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">One involves static methods, the other involves instance methods.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">Method overriding applies to instance methods and uses dynamic dispatch (runtime resolution based on object type). Method hiding applies to static methods, where the child class defines a static method with the same signature. Static methods are resolved by the reference type at compile time, not the object type.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    void method() { System.out.println("A"); }
+}
+class B extends A {
+    void method() { System.out.println("B"); }
+}
+class C extends B {
+    void method() { System.out.println("C"); }
+}
+public class Main {
+    public static void main(String[] args) {
+        A obj = new C();
+        System.out.println(obj instanceof A);
+        System.out.println(obj instanceof B);
+        System.out.println(obj instanceof C);
+        System.out.println(obj instanceof Object);
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">instanceof checks if the object IS-A certain type (including all ancestors).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>true</code><br><code>true</code><br><code>true</code><br><code>true</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is polymorphism in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The ability of a class to have multiple constructors</li><li><span class="mcq-option-label">B.</span> The ability of one entity to take many forms</li><li><span class="mcq-option-label">C.</span> The ability to create multiple objects</li><li><span class="mcq-option-label">D.</span> The ability to hide implementation details</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> Polymorphism literally means 'many forms.' In Java, it refers to methods or references that can behave differently based on the context (argument types, actual object type).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which of the following is compile-time polymorphism?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Method overriding</li><li><span class="mcq-option-label">B.</span> Method overloading</li><li><span class="mcq-option-label">C.</span> Dynamic method dispatch</li><li><span class="mcq-option-label">D.</span> Upcasting</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> Method overloading is resolved at compile time based on argument types and count. Method overriding and dynamic dispatch are runtime polymorphism.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is required for method overloading?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Different return types</li><li><span class="mcq-option-label">B.</span> Different parameter lists</li><li><span class="mcq-option-label">C.</span> Different access modifiers</li><li><span class="mcq-option-label">D.</span> A parent-child relationship</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Overloaded methods must have different parameter lists (number, type, or order of parameters). Return type alone does not qualify as overloading.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is upcasting in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Casting a parent reference to a child type</li><li><span class="mcq-option-label">B.</span> Casting a child object to a parent reference</li><li><span class="mcq-option-label">C.</span> Casting between unrelated types</li><li><span class="mcq-option-label">D.</span> Converting primitive types</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> Upcasting is assigning a child class object to a parent class reference: <code>Animal a = new Dog();</code>. It is implicit and always safe.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What annotation should you use when overriding a method?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> @Overload</li><li><span class="mcq-option-label">B.</span> @Override</li><li><span class="mcq-option-label">C.</span> @Override is mandatory</li><li><span class="mcq-option-label">D.</span> @Super</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>@Override</code> annotation is recommended (but not mandatory) when overriding a method. It causes a compile-time error if the method does not actually override a parent method, catching mistakes early.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is dynamic method dispatch?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Selecting an overloaded method at compile time</li><li><span class="mcq-option-label">B.</span> Resolving an overridden method at runtime based on the actual object type</li><li><span class="mcq-option-label">C.</span> Calling a static method through a reference</li><li><span class="mcq-option-label">D.</span> Dispatching methods to multiple threads</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> Dynamic method dispatch is the mechanism where the JVM determines at runtime which overridden method to call, based on the actual object type rather than the reference type.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Which of these CANNOT be overridden in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> public methods</li><li><span class="mcq-option-label">B.</span> protected methods</li><li><span class="mcq-option-label">C.</span> static methods</li><li><span class="mcq-option-label">D.</span> default (package-private) methods</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> Static methods belong to the class, not instances. They cannot be overridden, only hidden. Public, protected, and default methods can all be overridden (assuming visibility).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What happens when you downcast without checking instanceof?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Compilation error always</li><li><span class="mcq-option-label">B.</span> It works fine always</li><li><span class="mcq-option-label">C.</span> ClassCastException if the object is not the target type</li><li><span class="mcq-option-label">D.</span> NullPointerException</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Downcasting compiles successfully (the compiler trusts you). But at runtime, if the actual object is not compatible with the target type, the JVM throws <code>ClassCastException</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is a covariant return type?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Returning void instead of a type</li><li><span class="mcq-option-label">B.</span> Returning a parent type in the child&#39;s overriding method</li><li><span class="mcq-option-label">C.</span> Returning a subtype of the parent method&#39;s return type in the overriding method</li><li><span class="mcq-option-label">D.</span> Returning multiple values</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> A covariant return type allows the overriding method to return a subtype of the parent method's return type. For example, if the parent returns <code>Number</code>, the child can return <code>Integer</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">In <code>Parent p = new Child();</code>, which class determines the methods that can be called?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Child (actual object)</li><li><span class="mcq-option-label">B.</span> Parent (reference type) determines callable methods, Child determines which version runs</li><li><span class="mcq-option-label">C.</span> Both equally</li><li><span class="mcq-option-label">D.</span> Object class</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> The reference type (<code>Parent</code>) determines which methods can be called (compilation check). The actual object type (<code>Child</code>) determines which version of an overridden method runs (runtime dispatch).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Are fields (instance variables) polymorphic in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, like methods</li><li><span class="mcq-option-label">B.</span> No, fields are resolved by reference type at compile time</li><li><span class="mcq-option-label">C.</span> Only static fields are polymorphic</li><li><span class="mcq-option-label">D.</span> Only final fields are polymorphic</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> Fields are NOT polymorphic. They are resolved at compile time based on the reference type. Only instance methods support runtime polymorphism through dynamic dispatch.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the output?<br><pre><code>class A { void m(A a) { System.out.println("AA"); } }
+class B extends A { void m(B b) { System.out.println("BB"); } }
+A obj = new B(); obj.m(new B());</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> AA</li><li><span class="mcq-option-label">B.</span> BB</li><li><span class="mcq-option-label">C.</span> Compilation error</li><li><span class="mcq-option-label">D.</span> Runtime exception</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>B</code>'s <code>m(B)</code> does not override <code>A</code>'s <code>m(A)</code> (different parameter type). It is an overloaded method. The reference type <code>A</code> only sees <code>m(A)</code>. The argument <code>new B()</code> matches <code>m(A)</code> via upcasting. Since <code>B</code> does not override <code>m(A)</code>, the inherited <code>A</code>'s version runs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Which is true about the <code>instanceof</code> operator?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It checks the reference type</li><li><span class="mcq-option-label">B.</span> It returns true if the object is an instance of the class or any of its subclasses</li><li><span class="mcq-option-label">C.</span> It throws an exception for null</li><li><span class="mcq-option-label">D.</span> It only works with interfaces, not classes</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>instanceof</code> checks the actual object type against the specified class/interface, including all parent classes and implemented interfaces. It returns <code>false</code> for <code>null</code> (no exception).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Why is calling an overridable method from a constructor considered bad practice?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It causes a compilation error</li><li><span class="mcq-option-label">B.</span> The overriding method may access uninitialized child class fields</li><li><span class="mcq-option-label">C.</span> It makes the constructor slower</li><li><span class="mcq-option-label">D.</span> It breaks encapsulation</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> When a parent constructor calls an overridable method, the child's overriding version runs (dynamic dispatch). But the child's constructor has not executed yet, so the child's fields are still at default values (0, null, false). This can lead to subtle bugs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What happens if an overriding method has a MORE restrictive access modifier?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It works fine</li><li><span class="mcq-option-label">B.</span> Runtime exception</li><li><span class="mcq-option-label">C.</span> Compilation error</li><li><span class="mcq-option-label">D.</span> Warning only</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> An overriding method cannot have a more restrictive access modifier than the overridden method. If the parent method is <code>public</code>, the child cannot make it <code>private</code> or <code>protected</code>. This is a compile-time error.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Shape Area Calculator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a base class Shape with a method area() returning 0. Create subclasses Circle (takes radius), Rectangle (takes width, height), and Triangle (takes base, height). Override area() in each. Store all three in a Shape array and print each area using a loop.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Circle radius=5, Rectangle 4x6, Triangle base=3 height=8</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Circle area: 78.54
+Rectangle area: 24.00
+Triangle area: 12.00</div>
+                </div><div class="challenge-constraints">Use polymorphism with a Shape array. Use @Override annotation.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">class Shape {
+    double area() { return 0; }
+    String name() { return &quot;Shape&quot;; }
+}
+
+class Circle extends Shape {
+    double radius;
+    Circle(double r) { this.radius = r; }
+    @Override double area() { return Math.PI * radius * radius; }
+    @Override String name() { return &quot;Circle&quot;; }
+}
+
+class Rectangle extends Shape {
+    double w, h;
+    Rectangle(double w, double h) { this.w = w; this.h = h; }
+    @Override double area() { return w * h; }
+    @Override String name() { return &quot;Rectangle&quot;; }
+}
+
+class Triangle extends Shape {
+    double base, height;
+    Triangle(double b, double h) { this.base = b; this.height = h; }
+    @Override double area() { return 0.5 * base * height; }
+    @Override String name() { return &quot;Triangle&quot;; }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Shape[] shapes = { new Circle(5), new Rectangle(4, 6), new Triangle(3, 8) };
+        for (Shape s : shapes) {
+            System.out.printf(&quot;%s area: %.2f%n&quot;, s.name(), s.area());
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Payment Processor</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a base class Payment with a method process(double amount) that prints 'Processing payment of <amount>'. Create subclasses CreditCard, UPI, and NetBanking, each overriding process() with their own message. Write a method processAll(Payment[] payments, double amount) that calls process() on each.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Amount = 1500.0</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Credit Card: Processing 1500.0 with 2% surcharge
+UPI: Processing 1500.0 instantly
+Net Banking: Processing 1500.0 via bank transfer</div>
+                </div><div class="challenge-constraints">Use an array of Payment references. Demonstrate dynamic dispatch.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">class Payment {
+    void process(double amount) {
+        System.out.println(&quot;Processing payment of &quot; + amount);
+    }
+}
+
+class CreditCard extends Payment {
+    @Override
+    void process(double amount) {
+        System.out.println(&quot;Credit Card: Processing &quot; + amount + &quot; with 2% surcharge&quot;);
+    }
+}
+
+class UPI extends Payment {
+    @Override
+    void process(double amount) {
+        System.out.println(&quot;UPI: Processing &quot; + amount + &quot; instantly&quot;);
+    }
+}
+
+class NetBanking extends Payment {
+    @Override
+    void process(double amount) {
+        System.out.println(&quot;Net Banking: Processing &quot; + amount + &quot; via bank transfer&quot;);
+    }
+}
+
+public class Main {
+    static void processAll(Payment[] payments, double amount) {
+        for (Payment p : payments) {
+            p.process(amount);
+        }
+    }
+
+    public static void main(String[] args) {
+        Payment[] payments = { new CreditCard(), new UPI(), new NetBanking() };
+        processAll(payments, 1500.0);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Overloaded Calculator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a Calculator class with overloaded multiply methods: multiply(int, int), multiply(int, int, int), multiply(double, double), and multiply(int, double). Test each version.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">int x int: 20
+int x int x int: 60
+double x double: 7.5
+int x double: 12.5</div>
+                </div><div class="challenge-constraints">All methods should be named multiply. Demonstrate compile-time polymorphism.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">class Calculator {
+    int multiply(int a, int b) { return a * b; }
+    int multiply(int a, int b, int c) { return a * b * c; }
+    double multiply(double a, double b) { return a * b; }
+    double multiply(int a, double b) { return a * b; }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Calculator c = new Calculator();
+        System.out.println(&quot;int x int: &quot; + c.multiply(4, 5));
+        System.out.println(&quot;int x int x int: &quot; + c.multiply(3, 4, 5));
+        System.out.println(&quot;double x double: &quot; + c.multiply(2.5, 3.0));
+        System.out.println(&quot;int x double: &quot; + c.multiply(5, 2.5));
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Animal Sound Simulator with instanceof</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create Animal, Dog, Cat, and Parrot classes. Dog has fetch(), Cat has purr(), Parrot has mimic(). Write a method interact(Animal a) that calls the animal's sound() and then uses instanceof to call the subclass-specific method.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Bark!
+Dog fetches ball
+---
+Meow!
+Cat purrs
+---
+Squawk!
+Parrot mimics speech</div>
+                </div><div class="challenge-constraints">Use instanceof for safe downcasting. Handle all subtypes.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">class Animal {
+    void sound() { System.out.println(&quot;...&quot;); }
+}
+class Dog extends Animal {
+    @Override void sound() { System.out.println(&quot;Bark!&quot;); }
+    void fetch() { System.out.println(&quot;Dog fetches ball&quot;); }
+}
+class Cat extends Animal {
+    @Override void sound() { System.out.println(&quot;Meow!&quot;); }
+    void purr() { System.out.println(&quot;Cat purrs&quot;); }
+}
+class Parrot extends Animal {
+    @Override void sound() { System.out.println(&quot;Squawk!&quot;); }
+    void mimic() { System.out.println(&quot;Parrot mimics speech&quot;); }
+}
+
+public class Main {
+    static void interact(Animal a) {
+        a.sound();
+        if (a instanceof Dog) ((Dog) a).fetch();
+        else if (a instanceof Cat) ((Cat) a).purr();
+        else if (a instanceof Parrot) ((Parrot) a).mimic();
+    }
+    public static void main(String[] args) {
+        interact(new Dog());
+        System.out.println(&quot;---&quot;);
+        interact(new Cat());
+        System.out.println(&quot;---&quot;);
+        interact(new Parrot());
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Employee Salary System</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create an abstract-like hierarchy: Employee (base, salary()), FullTime (fixed monthly salary), PartTime (hourly rate * hours), and Intern (stipend). Override salary() in each. Create an array of employees and compute total payroll using a loop.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">FullTime=50000, PartTime=500/hr*80hrs, Intern=15000</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">FullTime salary: 50000.0
+PartTime salary: 40000.0
+Intern salary: 15000.0
+Total payroll: 105000.0</div>
+                </div><div class="challenge-constraints">Use polymorphism. Compute total using a single loop over Employee[].</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">class Employee {
+    String name;
+    Employee(String name) { this.name = name; }
+    double salary() { return 0; }
+}
+
+class FullTime extends Employee {
+    double monthly;
+    FullTime(String name, double monthly) { super(name); this.monthly = monthly; }
+    @Override double salary() { return monthly; }
+}
+
+class PartTime extends Employee {
+    double rate; int hours;
+    PartTime(String name, double rate, int hours) { super(name); this.rate = rate; this.hours = hours; }
+    @Override double salary() { return rate * hours; }
+}
+
+class Intern extends Employee {
+    double stipend;
+    Intern(String name, double stipend) { super(name); this.stipend = stipend; }
+    @Override double salary() { return stipend; }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Employee[] team = {
+            new FullTime(&quot;Arjun&quot;, 50000),
+            new PartTime(&quot;Kavya&quot;, 500, 80),
+            new Intern(&quot;Ravi&quot;, 15000)
+        };
+        double total = 0;
+        for (Employee e : team) {
+            System.out.println(e.name + &quot; salary: &quot; + e.salary());
+            total += e.salary();
+        }
+        System.out.println(&quot;Total payroll: &quot; + total);
+    }
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/java/inheritance-in-java/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Inheritance in Java</span>
+        </a>
+            <a href="/resources/java/abstraction-and-interfaces/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Abstraction - Abstract Classes and Interfaces</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/java/polymorphism-in-java" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

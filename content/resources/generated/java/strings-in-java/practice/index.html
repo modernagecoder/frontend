@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Strings in Java | Java | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="65+ practice questions on Strings in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="strings in java practice, java questions, java practice problems, strings in java exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/strings-in-java/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/strings-in-java/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/strings-in-java/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/strings-in-java/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/strings-in-java/practice">
+    <meta property="og:title" content="Practice Questions - Strings in Java | Java | Modern Age Coders">
+    <meta property="og:description" content="65+ practice questions on Strings in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/strings-in-java/practice">
+    <meta name="twitter:title" content="Practice Questions - Strings in Java | Java | Modern Age Coders">
+    <meta name="twitter:description" content="65+ practice questions on Strings in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Strings in Java",
+    "description": "65+ practice questions on Strings in Java in Java.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Strings in Java"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/strings-in-java/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Strings in Java",
+        "item": "https://learn.modernagecoders.com/resources/java/strings-in-java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/java/strings-in-java/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java/strings-in-java">Strings in Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 11</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">65 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Strings in Java</h1>
+            <a href="/resources/java/strings-in-java" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>String s = "Hello";
+System.out.println(s.length());
+System.out.println(s.charAt(0));
+System.out.println(s.charAt(4));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">length() returns the total character count. charAt() uses 0-based indexing.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>5</code><br><code>H</code><br><code>o</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>String s = "Java Programming";
+System.out.println(s.substring(0, 4));
+System.out.println(s.substring(5));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">substring(start, end) includes start but excludes end. substring(start) goes to the end of the string.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>Java</code><br><code>Programming</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>System.out.println("hello".toUpperCase());
+System.out.println("WORLD".toLowerCase());
+System.out.println("  spaces  ".trim());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">toUpperCase() converts all letters to uppercase. toLowerCase() converts all to lowercase. trim() removes leading and trailing whitespace.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>HELLO</code><br><code>world</code><br><code>spaces</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>String a = "Hello";
+String b = "Hello";
+String c = new String("Hello");
+System.out.println(a == b);
+System.out.println(a == c);
+System.out.println(a.equals(c));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">== checks reference equality. .equals() checks content equality. Literals share pool references; new creates a separate object.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>true</code><br><code>false</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>String s = "abcabc";
+System.out.println(s.indexOf("b"));
+System.out.println(s.lastIndexOf("b"));
+System.out.println(s.indexOf("xyz"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">indexOf() returns the first occurrence. lastIndexOf() returns the last. Both return -1 if not found.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>1</code><br><code>4</code><br><code>-1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>String s = "Hello";
+System.out.println(s.contains("ell"));
+System.out.println(s.startsWith("He"));
+System.out.println(s.endsWith("LO"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">contains(), startsWith(), and endsWith() are case-sensitive and return boolean values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>true</code><br><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>String s1 = "Hello";
+String s2 = "Hel" + "lo";
+String s3 = "Hel";
+String s4 = s3 + "lo";
+System.out.println(s1 == s2);
+System.out.println(s1 == s4);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Concatenation of compile-time constants is resolved at compile time and placed in the pool. Concatenation involving variables happens at runtime.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>String s = "Java";
+s.concat(" Programming");
+System.out.println(s);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Strings are immutable. Does concat() modify the original string or return a new one?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Java</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>String s = "Hello World";
+String[] parts = s.split(" ");
+System.out.println(parts.length);
+System.out.println(parts[0]);
+System.out.println(parts[1]);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">split() returns an array of substrings divided by the given delimiter.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>2</code><br><code>Hello</code><br><code>World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>String s = "abcdef";
+System.out.println(s.replace('c', 'C'));
+System.out.println(s.replace("cd", "XX"));
+System.out.println(s);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">replace() returns a new string. The original remains unchanged.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>abCdef</code><br><code>abXXef</code><br><code>abcdef</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>StringBuilder sb = new StringBuilder("Hello");
+sb.append(" World");
+sb.reverse();
+System.out.println(sb);
+System.out.println(sb.length());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">StringBuilder methods modify the object in place and return the same object for chaining.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>dlroW olleH</code><br><code>11</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>StringBuilder sb = new StringBuilder("ABCDE");
+sb.delete(1, 3);
+System.out.println(sb);
+sb.insert(1, "XY");
+System.out.println(sb);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">delete(start, end) removes characters from start (inclusive) to end (exclusive). insert() shifts existing characters right.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>ADE</code><br><code>AXYDE</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>System.out.println("apple".compareTo("banana"));
+System.out.println("banana".compareTo("banana"));
+System.out.println("cat".compareTo("bat"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">compareTo() compares character by character using Unicode values and returns the difference.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>-1</code><br><code>0</code><br><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>String s1 = "Hello";
+String s2 = new String("Hello");
+String s3 = s2.intern();
+System.out.println(s1 == s2);
+System.out.println(s1 == s3);
+System.out.println(s2 == s3);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">intern() returns the String Pool reference. s1 already points to the pool. s2 points to the heap.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>false</code><br><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>String s = "Java";
+System.out.println(s.substring(0, 0));
+System.out.println(s.substring(2, 2));
+System.out.println(s.substring(4));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">When start equals end in substring(), the result is an empty string. substring(length) also returns an empty string.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code></code> (empty string)<br><code></code> (empty string)<br><code></code> (empty string)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>String s = "aAbBcC";
+String result = "";
+for (int i = 0; i < s.length(); i++) {
+    char c = s.charAt(i);
+    if (Character.isUpperCase(c)) {
+        result += Character.toLowerCase(c);
+    } else {
+        result += Character.toUpperCase(c);
+    }
+}
+System.out.println(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">The code swaps the case of each character: uppercase becomes lowercase and vice versa.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>AaBbCc</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>String s = "abcabc";
+System.out.println(s.indexOf("bc"));
+System.out.println(s.indexOf("bc", 2));
+System.out.println(s.lastIndexOf("ab"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">indexOf(str, fromIndex) starts searching from the given index. lastIndexOf() searches from the end.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>1</code><br><code>4</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>String s1 = "hello";
+String s2 = "HELLO";
+System.out.println(s1.equals(s2));
+System.out.println(s1.equalsIgnoreCase(s2));
+System.out.println(s1.compareTo(s2) > 0);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">equals() is case-sensitive. equalsIgnoreCase() ignores case. compareTo() uses Unicode values where lowercase letters have higher values than uppercase.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>false</code><br><code>true</code><br><code>true</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>String s = "Java";
+System.out.println(s + " is fun");
+System.out.println(s);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">The + operator creates a new string. It does not modify the original.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>Java is fun</code><br><code>Java</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>String name = "Rohit Sharma";
+System.out.println(name.indexOf(' '));
+System.out.println(name.substring(0, name.indexOf(' ')));
+System.out.println(name.substring(name.indexOf(' ') + 1));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">indexOf(' ') finds the space character. Use it to split first and last name.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>5</code><br><code>Rohit</code><br><code>Sharma</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>System.out.println("Hello".isEmpty());
+System.out.println("".isEmpty());
+System.out.println(" ".isEmpty());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">isEmpty() returns true only if the length is 0. A string with a space has length 1.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>false</code><br><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>String s = "Hello World Hello Java";
+System.out.println(s.replace("Hello", "Hi"));
+System.out.println(s.replaceFirst("Hello", "Hi"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">replace() replaces all occurrences. replaceFirst() replaces only the first one.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Hi World Hi Java</code><br><code>Hi World Hello Java</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>String[] names = {"Aarav", "Priya", "Rohan"};
+String joined = String.join("-", names);
+System.out.println(joined);
+String[] parts = joined.split("-");
+System.out.println(parts.length);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">join() combines array elements with a delimiter. split() breaks a string at the delimiter.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>Aarav-Priya-Rohan</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>String s = "Java";
+char[] chars = s.toCharArray();
+chars[0] = 'L';
+System.out.println(new String(chars));
+System.out.println(s);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">toCharArray() creates a separate copy. Modifying the array does not affect the original string.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>Lava</code><br><code>Java</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>System.out.println(String.format("%s scored %d/%d", "Meera", 85, 100));
+System.out.println(String.format("PI = %.3f", 3.14159));
+System.out.println(String.format("%05d", 42));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">%s for string, %d for integer, %.3f for 3 decimal places, %05d for zero-padded integer.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>Meera scored 85/100</code><br><code>PI = 3.142</code><br><code>00042</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>String s1 = "Java";
+String s2 = "Ja";
+String s3 = s2 + "va";
+System.out.println(s1 == s3);
+System.out.println(s1 == s3.intern());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Variable-based concatenation creates a runtime object (not in the pool). intern() returns the pool reference.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>false</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>StringBuilder sb = new StringBuilder("Hello");
+StringBuilder sb2 = sb;
+sb2.append(" World");
+System.out.println(sb);
+System.out.println(sb == sb2);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">sb and sb2 reference the same StringBuilder object. Modifying one affects the other.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>Hello World</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>String s = "a,b,,c,";
+String[] parts = s.split(",");
+System.out.println(parts.length);
+for (String p : parts) {
+    System.out.print("[" + p + "]");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">split() removes trailing empty strings by default. But what about empty strings in the middle?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>4</code><br><code>[a][b][][c]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>StringBuilder</code> and <code>StringBuffer</code>? When would you use each?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think about thread safety and performance.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>StringBuilder</code> is not synchronized (not thread-safe) but is faster. <code>StringBuffer</code> is synchronized (thread-safe) but is slower due to synchronization overhead. Use <code>StringBuilder</code> in single-threaded code (most cases) and <code>StringBuffer</code> only when multiple threads access the same mutable string.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why are Java strings immutable? What are the benefits?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Think about thread safety, the String Pool, hashing, and security.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">Java strings are immutable to provide: (1) <strong>Thread safety</strong> — multiple threads can share strings without synchronization. (2) <strong>String Pool efficiency</strong> — immutability allows safe sharing of string objects. (3) <strong>Security</strong> — strings used as class names, file paths, or network addresses cannot be tampered with. (4) <strong>Hashcode caching</strong> — the hash can be computed once and reused, making strings efficient as HashMap keys.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>String s1 = "abc";
+String s2 = "abc";
+System.out.println(s1.hashCode() == s2.hashCode());
+String s3 = new String("abc");
+System.out.println(s1.hashCode() == s3.hashCode());
+System.out.println(s1 == s3);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">hashCode() is based on content, not reference. Two strings with the same content have the same hashcode.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>true</code><br><code>true</code><br><code>false</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which of the following correctly creates a string in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> String s = &#39;Hello&#39;;</li><li><span class="mcq-option-label">B.</span> String s = &quot;Hello&quot;;</li><li><span class="mcq-option-label">C.</span> string s = &quot;Hello&quot;;</li><li><span class="mcq-option-label">D.</span> String s = new char[]{&#39;H&#39;,&#39;e&#39;,&#39;l&#39;,&#39;l&#39;,&#39;o&#39;};</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> Java strings use double quotes. Single quotes (A) are for char literals. Java is case-sensitive, so <code>string</code> (C) with a lowercase 's' is not a valid type. Option D creates a char array, not a String (though you can pass a char array to the String constructor).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does the .equals() method check when comparing two strings?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Whether both variables refer to the same object</li><li><span class="mcq-option-label">B.</span> Whether both strings have the same length</li><li><span class="mcq-option-label">C.</span> Whether both strings contain the same sequence of characters</li><li><span class="mcq-option-label">D.</span> Whether both strings are stored in the String Pool</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>.equals()</code> compares the actual character content of two strings. Option A describes the behavior of <code>==</code>. Length alone (B) does not determine equality ("abc" and "xyz" have the same length but are not equal). Pool membership (D) is irrelevant to content equality.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is the return type of the split() method?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> String</li><li><span class="mcq-option-label">B.</span> char[]</li><li><span class="mcq-option-label">C.</span> String[]</li><li><span class="mcq-option-label">D.</span> List&lt;String&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>split()</code> returns a <code>String[]</code> (array of strings). It does not return a single String (A), a char array (B), or a List (D). To get a List, you would wrap it: <code>Arrays.asList(s.split(","))</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which method would you use to remove leading and trailing whitespace from a string?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> strip()</li><li><span class="mcq-option-label">B.</span> trim()</li><li><span class="mcq-option-label">C.</span> clean()</li><li><span class="mcq-option-label">D.</span> Both A and B</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: D</strong><br><strong>D is correct.</strong> Both <code>trim()</code> and <code>strip()</code> (Java 11+) remove leading and trailing whitespace. <code>trim()</code> removes characters with Unicode value <= 32. <code>strip()</code> uses Unicode-aware whitespace detection and is the preferred modern choice. <code>clean()</code> (C) does not exist.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What happens when you try to modify a character in a String using charAt()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The character is modified successfully</li><li><span class="mcq-option-label">B.</span> A new string is created with the modification</li><li><span class="mcq-option-label">C.</span> charAt() is read-only and cannot modify the string</li><li><span class="mcq-option-label">D.</span> It throws an UnsupportedOperationException</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>charAt()</code> is a read-only method that returns the character at a given index. There is no <code>setCharAt()</code> method on String because strings are immutable. To modify characters, use <code>StringBuilder</code> which has a <code>setCharAt()</code> method.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">How many String objects are created by the statement: String s = new String("Hello");?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1</li><li><span class="mcq-option-label">B.</span> 2</li><li><span class="mcq-option-label">C.</span> 1 or 2, depending on the String Pool</li><li><span class="mcq-option-label">D.</span> 3</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> If "Hello" is not already in the String Pool, two objects are created: one in the pool (for the literal) and one on the heap (for the <code>new</code> keyword). If "Hello" already exists in the pool, only one new object is created on the heap. This is a classic interview question.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is the output of "Hello".substring(2, 2)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;l&quot;</li><li><span class="mcq-option-label">B.</span> &quot;&quot; (empty string)</li><li><span class="mcq-option-label">C.</span> StringIndexOutOfBoundsException</li><li><span class="mcq-option-label">D.</span> null</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> When beginIndex equals endIndex in <code>substring()</code>, the result is an empty string because there are no characters in the range. No exception is thrown. This is valid as long as both indices are within bounds (0 to length inclusive).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which of the following is true about the String Pool?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It stores all String objects regardless of how they are created</li><li><span class="mcq-option-label">B.</span> It stores only string literals and interned strings</li><li><span class="mcq-option-label">C.</span> It is located in the stack memory</li><li><span class="mcq-option-label">D.</span> It is garbage collected differently from the heap</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> The String Pool stores string literals (created with quotes) and strings explicitly added via <code>intern()</code>. Strings created with <code>new</code> are stored on the heap, not in the pool (A is wrong). Since Java 7, the pool is part of the heap (C is wrong — it is not on the stack). Pool strings are garbage collected like other heap objects when unreferenced (D is misleading).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the purpose of the intern() method?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Converts a string to an internal format</li><li><span class="mcq-option-label">B.</span> Returns the String Pool reference for the given string</li><li><span class="mcq-option-label">C.</span> Makes a string thread-safe</li><li><span class="mcq-option-label">D.</span> Converts a StringBuilder to a String</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>intern()</code> checks if an equal string exists in the String Pool. If yes, it returns the pool reference. If not, it adds the string to the pool and returns that reference. This allows <code>==</code> comparison for interned strings. It has nothing to do with thread safety (C) or StringBuilder conversion (D).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Why should you use StringBuilder instead of String concatenation in a loop?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> StringBuilder is thread-safe</li><li><span class="mcq-option-label">B.</span> String concatenation in a loop creates O(n) temporary objects, causing O(n^2) performance</li><li><span class="mcq-option-label">C.</span> String concatenation is deprecated</li><li><span class="mcq-option-label">D.</span> StringBuilder uses less memory per character</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Each <code>+=</code> in a loop creates a new String object and copies all previous characters. Over n iterations, this leads to O(n^2) total character copies. StringBuilder maintains a mutable buffer, avoiding redundant copies. StringBuilder is NOT thread-safe (A) — that is StringBuffer. String concatenation is not deprecated (C).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the output of the following?<br><pre><code>String s1 = "abc";
+String s2 = "a" + "b" + "c";
+System.out.println(s1 == s2);</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> true</li><li><span class="mcq-option-label">B.</span> false</li><li><span class="mcq-option-label">C.</span> Compilation error</li><li><span class="mcq-option-label">D.</span> Runtime error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: A</strong><br><strong>A is correct.</strong> The expression <code>"a" + "b" + "c"</code> consists entirely of compile-time string constants. The Java compiler evaluates this at compile time and replaces it with the literal "abc". Both <code>s1</code> and <code>s2</code> reference the same String Pool object, so <code>==</code> returns true.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the difference between String.valueOf(null) and passing null to System.out.println()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Both print &quot;null&quot;</li><li><span class="mcq-option-label">B.</span> valueOf(null) throws NullPointerException, println(null) prints &quot;null&quot;</li><li><span class="mcq-option-label">C.</span> valueOf(null) prints &quot;null&quot;, println(null) throws NullPointerException</li><li><span class="mcq-option-label">D.</span> Both throw NullPointerException</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>String.valueOf(Object obj)</code> handles null gracefully and returns the string "null". However, <code>String.valueOf(null)</code> is ambiguous — the compiler may match it to <code>valueOf(char[])</code> which throws a <code>NullPointerException</code>. <code>System.out.println((Object) null)</code> prints "null" safely. This is a nuanced interview question about method overloading resolution.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Which of the following statements about StringBuffer is FALSE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> StringBuffer is thread-safe</li><li><span class="mcq-option-label">B.</span> StringBuffer is faster than StringBuilder</li><li><span class="mcq-option-label">C.</span> StringBuffer methods are synchronized</li><li><span class="mcq-option-label">D.</span> StringBuffer was introduced before StringBuilder</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is FALSE and therefore the correct answer.</strong> StringBuffer is SLOWER than StringBuilder because of synchronization overhead. Each method call acquires and releases a lock. StringBuffer is thread-safe (A) because its methods are synchronized (C). StringBuffer was in Java 1.0, while StringBuilder was added in Java 5 (D).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does "Hello".compareTo("Hello World") return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> A negative value</li><li><span class="mcq-option-label">C.</span> A positive value</li><li><span class="mcq-option-label">D.</span> It depends on the JVM</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> When one string is a prefix of the other, <code>compareTo()</code> returns the difference in lengths. "Hello" has length 5 and "Hello World" has length 11. The return value is 5 - 11 = -6 (a negative number), meaning "Hello" comes before "Hello World" lexicographically.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the correct way to check if a string contains the substring "Java"?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> s.has(&quot;Java&quot;)</li><li><span class="mcq-option-label">B.</span> s.includes(&quot;Java&quot;)</li><li><span class="mcq-option-label">C.</span> s.contains(&quot;Java&quot;)</li><li><span class="mcq-option-label">D.</span> s.find(&quot;Java&quot;)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>contains()</code> checks if a string contains the specified character sequence and returns a boolean. Java does not have <code>has()</code> (A) or <code>includes()</code> (B) methods on String. <code>find()</code> (D) is a Python method; Java uses <code>indexOf()</code> which returns an int, not a boolean.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the output of "abc".charAt(3)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &#39;c&#39;</li><li><span class="mcq-option-label">B.</span> &#39; &#39; (space)</li><li><span class="mcq-option-label">C.</span> StringIndexOutOfBoundsException</li><li><span class="mcq-option-label">D.</span> null</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: C</strong><br><strong>C is correct.</strong> The string "abc" has valid indices 0, 1, and 2. Index 3 is out of bounds, so <code>charAt(3)</code> throws a <code>StringIndexOutOfBoundsException</code>. Unlike Python, Java does not support negative indexing and strictly enforces bounds.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Count Vowels and Consonants</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Aarav has the string "Modern Age Coders". Write a Java program that counts and prints the number of vowels and consonants (ignore spaces and special characters).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Vowels: 6
+Consonants: 9</div>
+                </div><div class="challenge-constraints">Use a for loop and Character.isLetter() for checking. Consider both uppercase and lowercase.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">public class CountVowels {
+    public static void main(String[] args) {
+        String text = &quot;Modern Age Coders&quot;;
+        int vowels = 0, consonants = 0;
+        for (int i = 0; i &lt; text.length(); i++) {
+            char c = Character.toLowerCase(text.charAt(i));
+            if (&quot;aeiou&quot;.indexOf(c) != -1) {
+                vowels++;
+            } else if (Character.isLetter(c)) {
+                consonants++;
+            }
+        }
+        System.out.println(&quot;Vowels: &quot; + vowels);
+        System.out.println(&quot;Consonants: &quot; + consonants);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Reverse Each Word</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given the string "Java is powerful", reverse each word individually but keep the word order the same. Print the result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">avaJ si lufrewop</div>
+                </div><div class="challenge-constraints">Use split(), StringBuilder for reversing, and String.join().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">public class ReverseWords {
+    public static void main(String[] args) {
+        String text = &quot;Java is powerful&quot;;
+        String[] words = text.split(&quot; &quot;);
+        String[] reversed = new String[words.length];
+        for (int i = 0; i &lt; words.length; i++) {
+            reversed[i] = new StringBuilder(words[i]).reverse().toString();
+        }
+        System.out.println(String.join(&quot; &quot;, reversed));
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Check Palindrome</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a Java program that checks whether the string "madam" is a palindrome (reads the same forwards and backwards). Print the result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">madam is a palindrome</div>
+                </div><div class="challenge-constraints">Use StringBuilder to reverse the string and compare with .equals().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">public class Palindrome {
+    public static void main(String[] args) {
+        String text = &quot;madam&quot;;
+        String reversed = new StringBuilder(text).reverse().toString();
+        if (text.equals(reversed)) {
+            System.out.println(text + &quot; is a palindrome&quot;);
+        } else {
+            System.out.println(text + &quot; is not a palindrome&quot;);
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Title Case Converter</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Priya has the string "the quick brown fox jumps over the lazy dog". Write a Java program that converts it to title case — capitalize the first letter of each word.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">The Quick Brown Fox Jumps Over The Lazy Dog</div>
+                </div><div class="challenge-constraints">Use split() and substring(). Do not use any external library.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">public class TitleCase {
+    public static void main(String[] args) {
+        String text = &quot;the quick brown fox jumps over the lazy dog&quot;;
+        String[] words = text.split(&quot; &quot;);
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i &lt; words.length; i++) {
+            String word = words[i];
+            result.append(Character.toUpperCase(word.charAt(0)));
+            result.append(word.substring(1));
+            if (i &lt; words.length - 1) {
+                result.append(&quot; &quot;);
+            }
+        }
+        System.out.println(result.toString());
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Character Frequency Counter</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a Java program that prints the frequency of each character in the string "banana" (excluding spaces). Print each character and its count on a separate line, without repeating characters.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">b: 1
+a: 3
+n: 2</div>
+                </div><div class="challenge-constraints">Use a loop. Track which characters have already been counted.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">public class CharFrequency {
+    public static void main(String[] args) {
+        String text = &quot;banana&quot;;
+        String counted = &quot;&quot;;
+        for (int i = 0; i &lt; text.length(); i++) {
+            char c = text.charAt(i);
+            if (counted.indexOf(c) == -1) {
+                int count = 0;
+                for (int j = 0; j &lt; text.length(); j++) {
+                    if (text.charAt(j) == c) count++;
+                }
+                System.out.println(c + &quot;: &quot; + count);
+                counted += c;
+            }
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Caesar Cipher Encoder</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Rohan wants to encode the message "HELLO" by shifting each letter 3 positions forward in the alphabet (A becomes D, B becomes E, ..., X becomes A, Y becomes B, Z becomes C). Write the encoder.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Encoded: KHOOR</div>
+                </div><div class="challenge-constraints">Use charAt(), type casting, and the modulus operator for wrapping.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">public class CaesarCipher {
+    public static void main(String[] args) {
+        String message = &quot;HELLO&quot;;
+        int shift = 3;
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i &lt; message.length(); i++) {
+            char c = message.charAt(i);
+            int newPos = (c - &#39;A&#39; + shift) % 26;
+            result.append((char) (&#39;A&#39; + newPos));
+        }
+        System.out.println(&quot;Encoded: &quot; + result);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Remove Duplicate Characters</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a Java program that removes duplicate characters from the string "programming" while preserving the order of first occurrence. Print the result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">progamin</div>
+                </div><div class="challenge-constraints">Use StringBuilder to build the result. Track seen characters.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">public class RemoveDuplicates {
+    public static void main(String[] args) {
+        String text = &quot;programming&quot;;
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i &lt; text.length(); i++) {
+            char c = text.charAt(i);
+            if (result.toString().indexOf(c) == -1) {
+                result.append(c);
+            }
+        }
+        System.out.println(result);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Anagram Checker</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a Java program that checks whether "listen" and "silent" are anagrams (contain the same characters in a different order). Print the result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">listen and silent are anagrams</div>
+                </div><div class="challenge-constraints">Convert to char arrays, sort them, and compare. Use java.util.Arrays.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">import java.util.Arrays;
+
+public class AnagramCheck {
+    public static void main(String[] args) {
+        String s1 = &quot;listen&quot;;
+        String s2 = &quot;silent&quot;;
+        char[] arr1 = s1.toCharArray();
+        char[] arr2 = s2.toCharArray();
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+        if (Arrays.equals(arr1, arr2)) {
+            System.out.println(s1 + &quot; and &quot; + s2 + &quot; are anagrams&quot;);
+        } else {
+            System.out.println(s1 + &quot; and &quot; + s2 + &quot; are not anagrams&quot;);
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 9: String Compression</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a Java program that compresses the string "aaabbccddddee" by replacing consecutive duplicate characters with the character followed by its count. Single characters should not have a count.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">a3b2c2d4e2</div>
+                </div><div class="challenge-constraints">Use a loop. Handle the last group carefully.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-9" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-9"><pre><code class="language-python">public class StringCompression {
+    public static void main(String[] args) {
+        String text = &quot;aaabbccddddee&quot;;
+        StringBuilder result = new StringBuilder();
+        int i = 0;
+        while (i &lt; text.length()) {
+            char c = text.charAt(i);
+            int count = 1;
+            while (i + count &lt; text.length() &amp;&amp; text.charAt(i + count) == c) {
+                count++;
+            }
+            result.append(c);
+            if (count &gt; 1) {
+                result.append(count);
+            }
+            i += count;
+        }
+        System.out.println(result);
+    }
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/java/arrays-in-java/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Arrays in Java</span>
+        </a>
+            <a href="/resources/java/methods-in-java/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Methods in Java</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/java/strings-in-java" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

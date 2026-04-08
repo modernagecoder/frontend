@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops in Java (for, while, do-while) - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Repeat actions using for, while, and do-while loops with practical examples and loop patterns.">
+    <meta name="keywords" content="loops in java (for, while, do-while), java tutorial, java loops in java (for, while, do-while), learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/loops-in-java">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/loops-in-java">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/loops-in-java">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/loops-in-java">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/loops-in-java">
+    <meta property="og:title" content="Loops in Java (for, while, do-while) - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Repeat actions using for, while, and do-while loops with practical examples and loop patterns.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/loops-in-java">
+    <meta name="twitter:title" content="Loops in Java (for, while, do-while) - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Repeat actions using for, while, and do-while loops with practical examples and loop patterns.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Loops in Java (for, while, do-while)",
+    "description": "Repeat actions using for, while, and do-while loops with practical examples and loop patterns.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/loops-in-java"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/loops-in-java"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Loops in Java (for, while, do-while)",
+        "item": "https://learn.modernagecoders.com/resources/java/loops-in-java"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Off-by-One Error in Loop Bounds",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Off-by-one errors are the most common loop bug. When iterating from 1 to N (inclusive), use <code>i <= N</code>. When iterating over an array of length N (indices 0 to N-1), use <code>i < N</code> or <code>i < arr.length</code>. Always verify the first and last values."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Infinite Loop Due to Missing Update",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In a while loop, you must update the loop variable inside the body. Forgetting to increment (or decrement) causes the condition to remain true forever. In a for loop, the update is in the header, making this mistake less likely."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using == Instead of .equals() in Loop Condition for Strings",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In Java, <code>!=</code> and <code>==</code> compare object references for Strings, not their content. User input from Scanner creates new String objects each time, so <code>input != \"quit\"</code> is always true even when the content is identical. Always use <code>.equals()</code> for string comparison."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Semicolon After for Loop Header",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A semicolon after the for header (<code>for (...) ;</code>) creates an empty loop body. The loop runs 5 times doing nothing. Then the block <code>{...}</code> executes once, but <code>i</code> is out of scope. This is a subtle bug that the compiler may not catch in all cases."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Modifying Array Elements with for-each Does Not Work",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In a for-each loop, the variable (<code>n</code>) is a <strong>copy</strong> of the array element. Assigning a new value to <code>n</code> does not modify the original array. Use a regular indexed for loop when you need to modify array elements."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Loops in Java (for, while, do-while)</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 8</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">28 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-08</span>
+            </div>
+            <h1 class="resource-title">Loops in Java (for, while, do-while)</h1>
+            <a href="/resources/java/loops-in-java/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Loops?</h2><p>A <strong>loop</strong> is a control flow structure that repeats a block of code multiple times. Instead of writing the same code 100 times, you write it once inside a loop and let the loop execute it repeatedly until a specified condition becomes false.</p><p>Consider printing numbers 1 to 1000. Without loops, you would need 1000 print statements. With a loop, you need 3 lines of code. Loops are one of the three fundamental building blocks of all programs (alongside sequence and conditional statements).</p><p>Java provides four types of loops:</p><ol><li><strong>for loop</strong> -- when you know the number of iterations in advance</li><li><strong>while loop</strong> -- when you want to repeat while a condition is true (condition checked before each iteration)</li><li><strong>do-while loop</strong> -- like while, but the body executes at least once (condition checked after each iteration)</li><li><strong>enhanced for-each loop</strong> -- for iterating over arrays and collections without an index</li></ol>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Loops Essential?</h2><h3>1. Eliminating Repetition</h3><p>Any task that involves repetition requires loops. Printing a multiplication table, processing each element of an array, reading lines from a file, handling multiple user requests in a server -- all are impossible (or impractical) without loops. They are the foundation of automation in programming.</p><h3>2. Processing Collections of Data</h3><p>Real programs work with collections: arrays, lists, database rows, API responses. Loops let you iterate over each element, apply transformations, filter results, compute aggregates (sum, average, min, max), and search for specific values. Without loops, you cannot work with data of variable size.</p><h3>3. Algorithm Implementation</h3><p>Almost every algorithm uses loops. Searching (linear search, binary search), sorting (bubble sort, selection sort), matrix operations, string processing, mathematical computations (factorial, Fibonacci, prime checking) -- all require loops. For placement preparation, mastering loops is non-negotiable.</p><h3>4. User Interaction</h3><p>Interactive programs often use loops to keep running until the user decides to exit. A menu-driven program shows options, processes the user's choice, and repeats. Without loops, the program would end after handling one request.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The for Loop</h3><p>The <code>for</code> loop is the most commonly used loop when you know (or can calculate) the number of iterations beforehand. It has three parts in the header: initialization, condition, and update.</p><pre><code>for (initialization; condition; update) {
+    // body
+}</code></pre><p>Execution flow:</p><ol><li><strong>Initialization</strong> executes once, at the very beginning.</li><li><strong>Condition</strong> is checked before each iteration. If true, the body executes. If false, the loop ends.</li><li><strong>Update</strong> executes after each iteration of the body.</li></ol><pre><code>for (int i = 1; i <= 5; i++) {
+    System.out.println("Iteration: " + i);
+}</code></pre><p>This prints "Iteration: 1" through "Iteration: 5". The variable <code>i</code> is declared inside the loop and is not accessible outside it (block scope).</p><h4>Variations of for Loop</h4><ul><li><strong>Counting down:</strong> <code>for (int i = 10; i >= 1; i--)</code></li><li><strong>Step by 2:</strong> <code>for (int i = 0; i <= 20; i += 2)</code></li><li><strong>Multiple variables:</strong> <code>for (int i = 0, j = 10; i < j; i++, j--)</code></li><li><strong>Empty parts:</strong> Any of the three parts can be omitted: <code>for (;;)</code> is an infinite loop.</li></ul><h3>2. The while Loop</h3><p>The <code>while</code> loop repeats as long as its condition is true. The condition is checked <strong>before</strong> each iteration, so if the condition is false from the start, the body never executes.</p><pre><code>while (condition) {
+    // body
+}</code></pre><p>Use <code>while</code> when you do not know the number of iterations in advance, such as reading input until the user types "quit" or searching for a value in a data stream.</p><pre><code>int count = 1;
+while (count <= 5) {
+    System.out.println("Count: " + count);
+    count++;
+}</code></pre><p>If you forget <code>count++</code>, the condition <code>count <= 5</code> is always true, causing an <strong>infinite loop</strong>. The program hangs and must be terminated manually.</p><h3>3. The do-while Loop</h3><p>The <code>do-while</code> loop is similar to <code>while</code>, but the condition is checked <strong>after</strong> the body executes. This guarantees that the body runs at least once, even if the condition is false from the start.</p><pre><code>do {
+    // body
+} while (condition);</code></pre><p>Note the semicolon after <code>while(condition);</code> -- it is required.</p><pre><code>int num = 10;
+do {
+    System.out.println("num = " + num);
+    num++;
+} while (num <= 5);</code></pre><p>Even though <code>10 <= 5</code> is false, the body executes once and prints "num = 10". The condition is checked after the first execution.</p><h4>When to Use do-while</h4><p>Use do-while when the body must execute at least once. Common use cases: menu-driven programs (show the menu at least once), input validation (ask for input at least once), and game loops (play at least one round).</p><h3>4. The Enhanced for-each Loop</h3><p>The for-each loop (introduced in Java 5) provides a cleaner way to iterate over arrays and collections without managing an index variable.</p><pre><code>for (type variable : arrayOrCollection) {
+    // body
+}</code></pre><pre><code>int[] nums = {10, 20, 30, 40, 50};
+for (int n : nums) {
+    System.out.println(n);
+}</code></pre><p>The variable <code>n</code> takes each element's value in order. You cannot modify the array through <code>n</code> (it is a copy, not a reference to the element). You also cannot access the index directly. For index-based operations, use a regular for loop.</p><h3>5. Infinite Loops</h3><p>An infinite loop runs forever (or until externally stopped). These are sometimes intentional (server event loops) but usually bugs (forgot to update the loop variable).</p><pre><code>// Intentional infinite loops:
+for (;;) { /* ... break when done ... */ }
+while (true) { /* ... break when done ... */ }</code></pre><p>Use <code>break</code> inside an infinite loop to exit when a condition is met.</p><h3>6. Nested Loops</h3><p>A loop inside another loop is called a <strong>nested loop</strong>. The inner loop runs completely for each iteration of the outer loop. If the outer loop runs N times and the inner loop runs M times, the innermost body executes N * M times.</p><pre><code>for (int i = 1; i <= 3; i++) {
+    for (int j = 1; j <= 3; j++) {
+        System.out.print(i + "," + j + "  ");
+    }
+    System.out.println();
+}</code></pre><p>This produces a 3x3 grid. Nested loops are used for matrix operations, pattern printing, and generating combinations.</p><h3>7. Common Loop Patterns</h3><h4>Sum / Accumulator Pattern</h4><pre><code>int sum = 0;
+for (int i = 1; i <= 100; i++) {
+    sum += i;
+}
+System.out.println("Sum: " + sum); // 5050</code></pre><h4>Counting Pattern</h4><pre><code>int count = 0;
+for (int i = 1; i <= 100; i++) {
+    if (i % 2 == 0) count++;
+}
+System.out.println("Even numbers: " + count); // 50</code></pre><h4>Search Pattern</h4><pre><code>int[] arr = {5, 12, 8, 3, 17};
+int target = 8;
+boolean found = false;
+for (int i = 0; i < arr.length; i++) {
+    if (arr[i] == target) {
+        System.out.println("Found at index " + i);
+        found = true;
+        break;
+    }
+}
+if (!found) System.out.println("Not found");</code></pre><h4>Min/Max Pattern</h4><pre><code>int[] arr = {5, 12, 8, 3, 17};
+int min = arr[0], max = arr[0];
+for (int i = 1; i < arr.length; i++) {
+    if (arr[i] < min) min = arr[i];
+    if (arr[i] > max) max = arr[i];
+}
+System.out.println("Min: " + min + ", Max: " + max);</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">for Loop: Multiplication Table</div><pre><code class="language-python">import java.util.Scanner;
+
+public class MultiTable {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print(&quot;Enter a number: &quot;);
+        int num = sc.nextInt();
+
+        for (int i = 1; i &lt;= 10; i++) {
+            System.out.println(num + &quot; x &quot; + i + &quot; = &quot; + (num * i));
+        }
+
+        sc.close();
+    }
+}</code></pre><div class="code-example-explanation">The for loop runs from i = 1 to i = 10. Each iteration prints one line of the multiplication table. If the user enters 7, it prints "7 x 1 = 7" through "7 x 10 = 70".</div><div class="code-example-output">Enter a number: 7
+7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
+7 x 4 = 28
+7 x 5 = 35
+7 x 6 = 42
+7 x 7 = 49
+7 x 8 = 56
+7 x 9 = 63
+7 x 10 = 70</div></div>
+<div class="code-example"><div class="code-example-title">while Loop: Sum Until Sentinel</div><pre><code class="language-python">import java.util.Scanner;
+
+public class SumUntilZero {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int sum = 0;
+        int count = 0;
+
+        System.out.println(&quot;Enter numbers (0 to stop):&quot;);
+        int num = sc.nextInt();
+
+        while (num != 0) {
+            sum += num;
+            count++;
+            num = sc.nextInt();
+        }
+
+        System.out.println(&quot;Sum: &quot; + sum);
+        System.out.println(&quot;Count: &quot; + count);
+        if (count &gt; 0) {
+            System.out.println(&quot;Average: &quot; + (double) sum / count);
+        }
+
+        sc.close();
+    }
+}</code></pre><div class="code-example-explanation">This uses a <strong>sentinel value</strong> (0) to end input. The while loop runs as long as the entered number is not 0. We do not know in advance how many numbers the user will enter, making while the right choice over for.</div><div class="code-example-output">Enter numbers (0 to stop):
+10
+20
+30
+0
+Sum: 60
+Count: 3
+Average: 20.0</div></div>
+<div class="code-example"><div class="code-example-title">do-while Loop: Menu-Driven Program</div><pre><code class="language-python">import java.util.Scanner;
+
+public class MenuDemo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int choice;
+
+        do {
+            System.out.println(&quot;\n--- Menu ---&quot;);
+            System.out.println(&quot;1. Say Hello&quot;);
+            System.out.println(&quot;2. Say Goodbye&quot;);
+            System.out.println(&quot;3. Exit&quot;);
+            System.out.print(&quot;Choice: &quot;);
+            choice = sc.nextInt();
+
+            switch (choice) {
+                case 1: System.out.println(&quot;Hello!&quot;); break;
+                case 2: System.out.println(&quot;Goodbye!&quot;); break;
+                case 3: System.out.println(&quot;Exiting...&quot;); break;
+                default: System.out.println(&quot;Invalid choice.&quot;);
+            }
+        } while (choice != 3);
+
+        sc.close();
+    }
+}</code></pre><div class="code-example-explanation">The do-while loop guarantees the menu displays at least once. The loop continues until the user enters 3 (Exit). This is the classic use case for do-while: show the menu, get input, process it, and repeat.</div><div class="code-example-output">--- Menu ---
+1. Say Hello
+2. Say Goodbye
+3. Exit
+Choice: 1
+Hello!
+
+--- Menu ---
+1. Say Hello
+2. Say Goodbye
+3. Exit
+Choice: 3
+Exiting...</div></div>
+<div class="code-example"><div class="code-example-title">Enhanced for-each Loop</div><pre><code class="language-python">public class ForEachDemo {
+    public static void main(String[] args) {
+        String[] names = {&quot;Aarav&quot;, &quot;Neha&quot;, &quot;Rohan&quot;, &quot;Priya&quot;, &quot;Karan&quot;};
+
+        System.out.println(&quot;Students:&quot;);
+        for (String name : names) {
+            System.out.println(&quot;  - &quot; + name);
+        }
+
+        // Sum using for-each
+        int[] marks = {85, 92, 78, 95, 88};
+        int total = 0;
+        for (int m : marks) {
+            total += m;
+        }
+        System.out.println(&quot;Total marks: &quot; + total);
+        System.out.println(&quot;Average: &quot; + (double) total / marks.length);
+    }
+}</code></pre><div class="code-example-explanation">The for-each loop iterates over each element without needing an index variable. For the names array, <code>name</code> takes each string in order. For the marks array, <code>m</code> takes each integer value. The for-each loop is cleaner when you do not need the index, but use a regular for loop when you need index-based access.</div><div class="code-example-output">Students:
+  - Aarav
+  - Neha
+  - Rohan
+  - Priya
+  - Karan
+Total marks: 438
+Average: 87.6</div></div>
+<div class="code-example"><div class="code-example-title">Nested Loops: Multiplication Grid</div><pre><code class="language-python">public class MultiGrid {
+    public static void main(String[] args) {
+        System.out.println(&quot;Multiplication Table (1-5):&quot;);
+        System.out.print(&quot;\t&quot;);
+        for (int i = 1; i &lt;= 5; i++) {
+            System.out.print(i + &quot;\t&quot;);
+        }
+        System.out.println();
+        System.out.println(&quot;-------------------------------&quot;);
+
+        for (int i = 1; i &lt;= 5; i++) {
+            System.out.print(i + &quot; |\t&quot;);
+            for (int j = 1; j &lt;= 5; j++) {
+                System.out.print((i * j) + &quot;\t&quot;);
+            }
+            System.out.println();
+        }
+    }
+}</code></pre><div class="code-example-explanation">The outer loop controls the row (i = 1 to 5). For each row, the inner loop prints 5 products (i * j for j = 1 to 5). The inner loop runs 5 times for each of the 5 outer iterations, producing 25 total products in a 5x5 grid.</div><div class="code-example-output">Multiplication Table (1-5):
+	1	2	3	4	5
+-------------------------------
+1 |	1	2	3	4	5
+2 |	2	4	6	8	10
+3 |	3	6	9	12	15
+4 |	4	8	12	16	20
+5 |	5	10	15	20	25</div></div>
+<div class="code-example"><div class="code-example-title">while Loop vs do-while Comparison</div><pre><code class="language-python">public class WhileVsDoWhile {
+    public static void main(String[] args) {
+        int x = 10;
+
+        // while: condition checked FIRST
+        System.out.println(&quot;while loop:&quot;);
+        while (x &lt; 5) {
+            System.out.println(&quot;x = &quot; + x);
+            x++;
+        }
+        System.out.println(&quot;(nothing printed, condition was false)\n&quot;);
+
+        // do-while: body runs FIRST
+        x = 10;
+        System.out.println(&quot;do-while loop:&quot;);
+        do {
+            System.out.println(&quot;x = &quot; + x);
+            x++;
+        } while (x &lt; 5);
+        System.out.println(&quot;(printed once, then condition was false)&quot;);
+    }
+}</code></pre><div class="code-example-explanation">With x = 10, the while loop checks <code>10 < 5</code> immediately (false), so the body never executes. The do-while loop executes the body first (prints x = 10), then checks <code>11 < 5</code> (false) and stops. This demonstrates the key difference: do-while always executes at least once.</div><div class="code-example-output">while loop:
+(nothing printed, condition was false)
+
+do-while loop:
+x = 10
+(printed once, then condition was false)</div></div>
+<div class="code-example"><div class="code-example-title">Loop with Array: Search and Count</div><pre><code class="language-python">public class ArrayLoops {
+    public static void main(String[] args) {
+        int[] scores = {78, 92, 65, 88, 45, 92, 73, 88, 92};
+
+        // Count occurrences of 92
+        int count = 0;
+        for (int score : scores) {
+            if (score == 92) {
+                count++;
+            }
+        }
+        System.out.println(&quot;92 appears &quot; + count + &quot; times.&quot;);
+
+        // Find index of first score below 50
+        int lowIndex = -1;
+        for (int i = 0; i &lt; scores.length; i++) {
+            if (scores[i] &lt; 50) {
+                lowIndex = i;
+                break;
+            }
+        }
+        if (lowIndex != -1) {
+            System.out.println(&quot;First low score at index: &quot; + lowIndex);
+        }
+
+        // Sum, min, max
+        int sum = 0, min = scores[0], max = scores[0];
+        for (int score : scores) {
+            sum += score;
+            if (score &lt; min) min = score;
+            if (score &gt; max) max = score;
+        }
+        System.out.println(&quot;Sum: &quot; + sum);
+        System.out.println(&quot;Min: &quot; + min + &quot;, Max: &quot; + max);
+        System.out.printf(&quot;Average: %.1f%n&quot;, (double) sum / scores.length);
+    }
+}</code></pre><div class="code-example-explanation">This demonstrates four common loop patterns with arrays. Counting uses for-each (no index needed). Searching uses a regular for loop (needs the index) with break for early exit. Sum/min/max uses for-each with accumulators.</div><div class="code-example-output">92 appears 3 times.
+First low score at index: 4
+Sum: 713
+Min: 45, Max: 92
+Average: 79.2</div></div>
+<div class="code-example"><div class="code-example-title">for Loop with Multiple Variables</div><pre><code class="language-python">public class MultiVarLoop {
+    public static void main(String[] args) {
+        // Two variables moving toward each other
+        for (int left = 0, right = 10; left &lt; right; left++, right--) {
+            System.out.println(&quot;left=&quot; + left + &quot;, right=&quot; + right);
+        }
+
+        System.out.println();
+
+        // Reverse an array in-place
+        int[] arr = {1, 2, 3, 4, 5};
+        for (int i = 0, j = arr.length - 1; i &lt; j; i++, j--) {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+
+        System.out.print(&quot;Reversed: &quot;);
+        for (int n : arr) {
+            System.out.print(n + &quot; &quot;);
+        }
+        System.out.println();
+    }
+}</code></pre><div class="code-example-explanation">The for loop supports declaring multiple variables in the initialization (comma-separated, same type) and multiple update expressions. The first loop uses two pointers moving inward. The second applies this pattern to reverse an array in-place, a classic interview problem.</div><div class="code-example-output">left=0, right=10
+left=1, right=9
+left=2, right=8
+left=3, right=7
+left=4, right=6
+
+Reversed: 5 4 3 2 1</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Off-by-One Error in Loop Bounds</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Intended: print 1 to 5
+for (int i = 1; i &lt; 5; i++) {
+    System.out.println(i);
+}
+// Only prints 1, 2, 3, 4 (misses 5)</code></pre></div><div class="error-message">Prints 1 through 4 instead of 1 through 5. The condition should be &lt;= 5, not &lt; 5.</div><div class="correct-code"><pre><code class="language-python">for (int i = 1; i &lt;= 5; i++) {
+    System.out.println(i);
+}</code></pre></div><div class="mistake-explanation">Off-by-one errors are the most common loop bug. When iterating from 1 to N (inclusive), use <code>i <= N</code>. When iterating over an array of length N (indices 0 to N-1), use <code>i < N</code> or <code>i < arr.length</code>. Always verify the first and last values.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Infinite Loop Due to Missing Update</h3>
+                <div class="wrong-code"><pre><code class="language-python">int i = 1;
+while (i &lt;= 5) {
+    System.out.println(i);
+    // Forgot i++;
+}</code></pre></div><div class="error-message">Infinite loop. The program prints 1 forever because i never changes.</div><div class="correct-code"><pre><code class="language-python">int i = 1;
+while (i &lt;= 5) {
+    System.out.println(i);
+    i++;
+}</code></pre></div><div class="mistake-explanation">In a while loop, you must update the loop variable inside the body. Forgetting to increment (or decrement) causes the condition to remain true forever. In a for loop, the update is in the header, making this mistake less likely.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using == Instead of .equals() in Loop Condition for Strings</h3>
+                <div class="wrong-code"><pre><code class="language-python">Scanner sc = new Scanner(System.in);
+String input = &quot;&quot;;
+while (input != &quot;quit&quot;) {  // Bug: == compares references
+    input = sc.nextLine();
+    System.out.println(&quot;You typed: &quot; + input);
+}</code></pre></div><div class="error-message">The loop never exits because == compares references, not content. Even when the user types &#39;quit&#39;, the condition remains true.</div><div class="correct-code"><pre><code class="language-python">Scanner sc = new Scanner(System.in);
+String input = &quot;&quot;;
+while (!input.equals(&quot;quit&quot;)) {
+    input = sc.nextLine();
+    System.out.println(&quot;You typed: &quot; + input);
+}</code></pre></div><div class="mistake-explanation">In Java, <code>!=</code> and <code>==</code> compare object references for Strings, not their content. User input from Scanner creates new String objects each time, so <code>input != "quit"</code> is always true even when the content is identical. Always use <code>.equals()</code> for string comparison.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Semicolon After for Loop Header</h3>
+                <div class="wrong-code"><pre><code class="language-python">for (int i = 0; i &lt; 5; i++); {  // Stray semicolon!
+    System.out.println(i);
+}</code></pre></div><div class="error-message">Compilation error: i cannot be resolved to a variable. The semicolon ends the for loop with an empty body.</div><div class="correct-code"><pre><code class="language-python">for (int i = 0; i &lt; 5; i++) {
+    System.out.println(i);
+}</code></pre></div><div class="mistake-explanation">A semicolon after the for header (<code>for (...) ;</code>) creates an empty loop body. The loop runs 5 times doing nothing. Then the block <code>{...}</code> executes once, but <code>i</code> is out of scope. This is a subtle bug that the compiler may not catch in all cases.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Modifying Array Elements with for-each Does Not Work</h3>
+                <div class="wrong-code"><pre><code class="language-python">int[] arr = {1, 2, 3, 4, 5};
+for (int n : arr) {
+    n = n * 2;  // Does NOT modify the array!
+}
+// arr is still {1, 2, 3, 4, 5}</code></pre></div><div class="error-message">Array elements are unchanged because the for-each variable is a copy of the element, not a reference to it.</div><div class="correct-code"><pre><code class="language-python">int[] arr = {1, 2, 3, 4, 5};
+for (int i = 0; i &lt; arr.length; i++) {
+    arr[i] = arr[i] * 2;  // Modifies the array
+}
+// arr is now {2, 4, 6, 8, 10}</code></pre></div><div class="mistake-explanation">In a for-each loop, the variable (<code>n</code>) is a <strong>copy</strong> of the array element. Assigning a new value to <code>n</code> does not modify the original array. Use a regular indexed for loop when you need to modify array elements.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>The for loop has three parts: initialization (runs once), condition (checked before each iteration), and update (runs after each iteration). Use it when the number of iterations is known.</li>
+<li>The while loop checks its condition before each iteration. If the condition is false initially, the body never executes. Use it when the number of iterations is unknown.</li>
+<li>The do-while loop checks its condition after each iteration, guaranteeing at least one execution. Use it for menus, input validation, and game loops.</li>
+<li>The enhanced for-each loop (for (type var : array)) iterates over arrays and collections without an index. Use it for read-only iteration; it cannot modify elements.</li>
+<li>Nested loops: the inner loop runs completely for each outer iteration. If outer runs N times and inner M times, the body executes N * M times.</li>
+<li>Common loop patterns: accumulator (sum), counter (count), search (find + break), and min/max tracking.</li>
+<li>Off-by-one errors are the most common loop bug. For 1 to N inclusive, use i &lt;= N. For array indices 0 to N-1, use i &lt; N.</li>
+<li>Infinite loops occur when the loop variable is not updated or the condition never becomes false. Use break to exit intentional infinite loops.</li>
+<li>A semicolon after for(...); creates an empty loop body, which is almost always a bug.</li>
+<li>In for-each loops, the loop variable is a copy. Modifying it does not affect the original array. Use indexed for loops to modify array elements.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/conditional-statements" class="related-topic-link">Conditional Statements in Java (if, else, switch)</a>
+<a href="/resources/java/loop-control-and-patterns" class="related-topic-link">Loop Control and Pattern Printing</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/java/conditional-statements" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Conditional Statements in Java (if, else, switch)</span>
+        </a>
+            <a href="/resources/java/loop-control-and-patterns" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Loop Control and Pattern Printing</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/loops-in-java/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

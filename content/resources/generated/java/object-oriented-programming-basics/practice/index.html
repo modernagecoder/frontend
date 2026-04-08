@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - OOP Basics - Classes, Objects, and Constructors | Java | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="63+ practice questions on OOP Basics - Classes, Objects, and Constructors in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="oop basics - classes, objects, and constructors practice, java questions, java practice problems, oop basics - classes, objects, and constructors exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/object-oriented-programming-basics/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/object-oriented-programming-basics/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/object-oriented-programming-basics/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/object-oriented-programming-basics/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/object-oriented-programming-basics/practice">
+    <meta property="og:title" content="Practice Questions - OOP Basics - Classes, Objects, and Constructors | Java | Modern Age Coders">
+    <meta property="og:description" content="63+ practice questions on OOP Basics - Classes, Objects, and Constructors in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/object-oriented-programming-basics/practice">
+    <meta name="twitter:title" content="Practice Questions - OOP Basics - Classes, Objects, and Constructors | Java | Modern Age Coders">
+    <meta name="twitter:description" content="63+ practice questions on OOP Basics - Classes, Objects, and Constructors in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - OOP Basics - Classes, Objects, and Constructors",
+    "description": "63+ practice questions on OOP Basics - Classes, Objects, and Constructors in Java.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "OOP Basics - Classes, Objects, and Constructors"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/object-oriented-programming-basics/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "OOP Basics - Classes, Objects, and Constructors",
+        "item": "https://learn.modernagecoders.com/resources/java/object-oriented-programming-basics"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/java/object-oriented-programming-basics/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java/object-oriented-programming-basics">OOP Basics - Classes, Objects, and Constructors</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 13</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">63 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; OOP Basics - Classes, Objects, and Constructors</h1>
+            <a href="/resources/java/object-oriented-programming-basics" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">6</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>class Dog {
+    String name;
+    void bark() {
+        System.out.println(name + " says Woof!");
+    }
+}
+
+Dog d = new Dog();
+d.name = "Buddy";
+d.bark();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The field name is set to "Buddy" before calling bark().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Buddy says Woof!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Point {
+    int x, y;
+}
+
+Point p = new Point();
+System.out.println(p.x + ", " + p.y);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">When no constructor is defined, Java uses default values for fields.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>0, 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Box {
+    int length;
+    Box(int length) {
+        this.length = length;
+    }
+}
+
+Box b = new Box(10);
+System.out.println(b.length);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">The parameterized constructor sets this.length to the passed value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Counter {
+    static int count = 0;
+    Counter() {
+        count++;
+    }
+}
+
+Counter c1 = new Counter();
+Counter c2 = new Counter();
+Counter c3 = new Counter();
+System.out.println(Counter.count);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Static variables are shared. Each constructor call increments the same count.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Student {
+    String name;
+    Student(String name) {
+        this.name = name;
+    }
+    public String toString() {
+        return "Student: " + name;
+    }
+}
+
+Student s = new Student("Meera");
+System.out.println(s);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">println() automatically calls toString() on objects.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>Student: Meera</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Test {
+    int x;
+
+    Test() {
+        this(10);
+        System.out.println("Default: x = " + x);
+    }
+
+    Test(int x) {
+        this.x = x;
+        System.out.println("Param: x = " + x);
+    }
+}
+
+Test t = new Test();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">this(10) chains to the parameterized constructor first, then the default constructor continues.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Param: x = 10</code><br><code>Default: x = 10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class MyClass {
+    static int a = 10;
+    int b = 20;
+
+    static void display() {
+        System.out.println("a = " + a);
+        // System.out.println("b = " + b); // Would cause error
+    }
+}
+
+MyClass.display();
+MyClass obj = new MyClass();
+System.out.println(obj.b);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Static methods can access static variables but not instance variables.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>a = 10</code><br><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Demo {
+    static { System.out.println("Static block"); }
+    { System.out.println("Instance block"); }
+    Demo() { System.out.println("Constructor"); }
+}
+
+Demo d1 = new Demo();
+System.out.println("---");
+Demo d2 = new Demo();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Static block runs once. Instance block and constructor run for each object.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Static block</code><br><code>Instance block</code><br><code>Constructor</code><br><code>---</code><br><code>Instance block</code><br><code>Constructor</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Person {
+    String name;
+    Person(String name) { this.name = name; }
+}
+
+Person p1 = new Person("Rohit");
+Person p2 = p1;
+p2.name = "Virat";
+System.out.println(p1.name);
+System.out.println(p2.name);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">p2 = p1 does not create a copy. Both variables reference the same object.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>Virat</code><br><code>Virat</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class A {
+    int x;
+    A() { this(5); System.out.println("A()"); }
+    A(int x) { this.x = x; System.out.println("A(" + x + ")"); }
+    { System.out.println("Instance block: x = " + x); }
+}
+
+A obj = new A();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Instance initializer block runs before the constructor body but after field initialization. this() chaining is resolved first.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>Instance block: x = 0</code><br><code>A(5)</code><br><code>A()</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Student {
+    String name;
+    static int count = 0;
+
+    Student(String name) {
+        this.name = name;
+        count++;
+    }
+
+    Student(Student other) {
+        this(other.name);
+    }
+}
+
+Student s1 = new Student("Aarav");
+Student s2 = new Student(s1);
+System.out.println(s1.name + ", " + s2.name);
+System.out.println(Student.count);
+System.out.println(s1 == s2);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">The copy constructor calls this(other.name) which chains to the parameterized constructor. Both constructors increment count.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>Aarav, Aarav</code><br><code>2</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Num {
+    int val;
+    Num(int val) { this.val = val; }
+    Num add(Num other) {
+        return new Num(this.val + other.val);
+    }
+    public String toString() { return "Num(" + val + ")"; }
+}
+
+Num a = new Num(10);
+Num b = new Num(20);
+Num c = a.add(b).add(new Num(5));
+System.out.println(a);
+System.out.println(c);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">add() returns a new Num object. The original objects are not modified. Chaining works because each add() returns a new Num.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Num(10)</code><br><code>Num(35)</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Car {
+    String model;
+    int year;
+}
+
+Car c = new Car();
+System.out.println(c.model);
+System.out.println(c.year);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Default values: null for objects, 0 for ints.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>null</code><br><code>0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Pair {
+    int a, b;
+    Pair(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
+    int sum() { return a + b; }
+}
+
+Pair p = new Pair(3, 7);
+System.out.println(p.sum());
+System.out.println(p.a + " " + p.b);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">The constructor sets a=3, b=7. sum() returns a+b.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>10</code><br><code>3 7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between a class and an object?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Think blueprint vs actual building.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">A <strong>class</strong> is a blueprint/template that defines the structure (fields) and behavior (methods) of a type. An <strong>object</strong> is a specific instance of a class that occupies memory at runtime. You can create multiple objects from one class, each with its own field values.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Wrapper {
+    int val;
+    Wrapper(int val) { this.val = val; }
+}
+
+static void change(Wrapper w) {
+    w.val = 99;
+}
+
+Wrapper w = new Wrapper(10);
+change(w);
+System.out.println(w.val);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">The method receives a copy of the reference. Both references point to the same object.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>99</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Rect {
+    int width, height;
+
+    Rect(int w, int h) {
+        width = w;
+        height = h;
+    }
+
+    int area() { return width * height; }
+
+    public String toString() {
+        return width + "x" + height + " (area=" + area() + ")";
+    }
+}
+
+Rect r = new Rect(5, 3);
+System.out.println(r);
+System.out.println("Room: " + r);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">println(r) and "Room: " + r both call toString().</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>5x3 (area=15)</code><br><code>Room: 5x3 (area=15)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does Java not provide a default constructor when you define a parameterized constructor?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Think about the intent of defining a parameterized constructor.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">When you define a parameterized constructor, you are declaring that objects of this class <strong>require certain data to be initialized properly</strong>. If Java still provided a default no-arg constructor, it would allow creating objects without the required data, potentially leaving the object in an invalid state. Java respects your intent by not adding a default constructor.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Node {
+    int data;
+    Node next;
+
+    Node(int data) {
+        this.data = data;
+        this.next = null;
+    }
+
+    Node(int data, Node next) {
+        this.data = data;
+        this.next = next;
+    }
+}
+
+Node n3 = new Node(30);
+Node n2 = new Node(20, n3);
+Node n1 = new Node(10, n2);
+
+Node current = n1;
+while (current != null) {
+    System.out.print(current.data + " ");
+    current = current.next;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">This creates a simple linked list: n1 -> n2 -> n3. The while loop traverses it.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>10 20 30 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Config {
+    static String env;
+    static int port;
+
+    static {
+        env = "production";
+        port = 8080;
+        System.out.println("Config loaded: " + env + ":" + port);
+    }
+
+    static void showConfig() {
+        System.out.println(env + " on port " + port);
+    }
+}
+
+Config.showConfig();
+Config.showConfig();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">The static block runs only once, even if static methods are called multiple times.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>Config loaded: production:8080</code><br><code>production on port 8080</code><br><code>production on port 8080</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain the difference between a static variable and an instance variable in terms of memory and lifetime.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about when they are created, how many copies exist, and when they are destroyed.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">A <strong>static variable</strong> exists once per class. It is created when the class is loaded (before any objects) and destroyed when the class is unloaded. All objects share the same copy. An <strong>instance variable</strong> exists once per object. It is created when the object is created with <code>new</code> and destroyed when the object is garbage collected. Each object has its own independent copy.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is the purpose of the new keyword in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To declare a variable</li><li><span class="mcq-option-label">B.</span> To allocate memory for an object and call its constructor</li><li><span class="mcq-option-label">C.</span> To import a class</li><li><span class="mcq-option-label">D.</span> To define a method</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>new</code> allocates memory on the heap for a new object and invokes the appropriate constructor to initialize it. It returns a reference to the newly created object.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What is the default value of an instance variable of type String?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;&quot;</li><li><span class="mcq-option-label">B.</span> 0</li><li><span class="mcq-option-label">C.</span> null</li><li><span class="mcq-option-label">D.</span> undefined</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> The default value for any reference type (including String) is <code>null</code>. Empty string (A) is not the default — null means no object exists.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">A constructor is different from a regular method because:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It has a return type of void</li><li><span class="mcq-option-label">B.</span> It has no return type and has the same name as the class</li><li><span class="mcq-option-label">C.</span> It can only be public</li><li><span class="mcq-option-label">D.</span> It cannot take parameters</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> A constructor has no return type (not even void) and must have the same name as the class. Constructors can have any access modifier (A is wrong) and can take parameters (D is wrong).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">When does Java provide a default constructor?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Always</li><li><span class="mcq-option-label">B.</span> Only when no constructors are defined in the class</li><li><span class="mcq-option-label">C.</span> When the class has no fields</li><li><span class="mcq-option-label">D.</span> When the class extends Object</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> Java automatically provides a no-argument default constructor only when the class defines no constructors at all. Once you define any constructor, the default is no longer generated.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does this keyword refer to in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The current class</li><li><span class="mcq-option-label">B.</span> The current object</li><li><span class="mcq-option-label">C.</span> The parent class</li><li><span class="mcq-option-label">D.</span> The constructor</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>this</code> refers to the current object — the instance on which the method or constructor was called. It is not the class itself (A), not the parent class (C — that would be <code>super</code>), and not the constructor (D).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">How many times does a static block execute?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Once per object creation</li><li><span class="mcq-option-label">B.</span> Once per method call</li><li><span class="mcq-option-label">C.</span> Once per class loading</li><li><span class="mcq-option-label">D.</span> It never executes automatically</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> A static block executes exactly once when the class is first loaded by the JVM. It runs before any objects are created or static methods are called. Subsequent object creations or method calls do not trigger it again.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What happens if you define a method with the same name as the class but with a void return type?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It becomes a constructor</li><li><span class="mcq-option-label">B.</span> Compilation error</li><li><span class="mcq-option-label">C.</span> It is treated as a regular method, not a constructor</li><li><span class="mcq-option-label">D.</span> Runtime error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> A constructor must have no return type. If you add <code>void</code>, it becomes a regular method that happens to have the same name as the class. It will NOT be called when you use <code>new</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Can a static method use the this keyword?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, always</li><li><span class="mcq-option-label">B.</span> Yes, if the method is public</li><li><span class="mcq-option-label">C.</span> No, static methods do not have a this reference</li><li><span class="mcq-option-label">D.</span> No, but they can use super</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Static methods belong to the class, not to any specific object. Since there is no current object, there is no <code>this</code> reference. They cannot use <code>this</code> or <code>super</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the execution order when an object is created?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Constructor -&gt; Instance block -&gt; Static block</li><li><span class="mcq-option-label">B.</span> Static block -&gt; Constructor -&gt; Instance block</li><li><span class="mcq-option-label">C.</span> Static block -&gt; Instance block -&gt; Constructor</li><li><span class="mcq-option-label">D.</span> Instance block -&gt; Static block -&gt; Constructor</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> The order is: (1) Static block (runs once when the class is loaded, if not already loaded). (2) Instance initializer block (runs every time an object is created). (3) Constructor body. This is a frequently asked interview question.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What happens when you write: Student s = null; s.staticMethod();?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> NullPointerException</li><li><span class="mcq-option-label">B.</span> It works fine because static methods don&#39;t need an object</li><li><span class="mcq-option-label">C.</span> Compilation error</li><li><span class="mcq-option-label">D.</span> Runtime error other than NPE</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Static methods are resolved based on the declared type, not the object. Even though <code>s</code> is null, the compiler uses the type <code>Student</code> to resolve <code>staticMethod()</code>. The null reference is never dereferenced. However, this is bad practice — call static methods using the class name.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the result of this() and super() both being in the same constructor?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Both execute in order</li><li><span class="mcq-option-label">B.</span> Compilation error — only one can be the first statement</li><li><span class="mcq-option-label">C.</span> this() runs first, then super()</li><li><span class="mcq-option-label">D.</span> super() runs first, then this()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> Both <code>this()</code> and <code>super()</code> must be the first statement in a constructor. Since only one statement can be first, you cannot have both in the same constructor. You choose one: <code>this()</code> to chain within the class, or <code>super()</code> to call the parent constructor.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What does the @Override annotation do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It overrides the method at runtime</li><li><span class="mcq-option-label">B.</span> It tells the compiler to verify that the method actually overrides a superclass method</li><li><span class="mcq-option-label">C.</span> It makes the method run instead of the parent method</li><li><span class="mcq-option-label">D.</span> It is required for all overriding methods</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>@Override</code> is a compile-time annotation that tells the compiler to check that the method actually overrides a method from a superclass or interface. If the method name or signature does not match, the compiler reports an error. It is not required (D) but is strongly recommended.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the output of printing an object without overriding toString()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The object&#39;s field values</li><li><span class="mcq-option-label">B.</span> null</li><li><span class="mcq-option-label">C.</span> The class name followed by @ and the hash code in hexadecimal</li><li><span class="mcq-option-label">D.</span> A compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> The default <code>toString()</code> inherited from Object returns <code>getClass().getName() + '@' + Integer.toHexString(hashCode())</code>, which produces something like <code>Student@1b6d3586</code>. Override toString() for meaningful output.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Student Grade Calculator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a Student class with fields name, rollNo, and marks (double). Write a parameterized constructor and a method getGrade() that returns 'A' for marks >= 90, 'B' for >= 80, 'C' for >= 70, 'D' for >= 60, and 'F' otherwise. Override toString(). Test with two students.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Student{name=&#39;Aarav&#39;, rollNo=101, marks=92.5, grade=A}
+Student{name=&#39;Priya&#39;, rollNo=102, marks=78.0, grade=C}</div>
+                </div><div class="challenge-constraints">Use this keyword in the constructor. Override toString() to include the grade.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">class Student {
+    String name;
+    int rollNo;
+    double marks;
+
+    Student(String name, int rollNo, double marks) {
+        this.name = name;
+        this.rollNo = rollNo;
+        this.marks = marks;
+    }
+
+    char getGrade() {
+        if (marks &gt;= 90) return &#39;A&#39;;
+        if (marks &gt;= 80) return &#39;B&#39;;
+        if (marks &gt;= 70) return &#39;C&#39;;
+        if (marks &gt;= 60) return &#39;D&#39;;
+        return &#39;F&#39;;
+    }
+
+    public String toString() {
+        return &quot;Student{name=&#39;&quot; + name + &quot;&#39;, rollNo=&quot; + rollNo
+               + &quot;, marks=&quot; + marks + &quot;, grade=&quot; + getGrade() + &quot;}&quot;;
+    }
+
+    public static void main(String[] args) {
+        Student s1 = new Student(&quot;Aarav&quot;, 101, 92.5);
+        Student s2 = new Student(&quot;Priya&quot;, 102, 78.0);
+        System.out.println(s1);
+        System.out.println(s2);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Bank Account with Deposit and Withdraw</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a BankAccount class with fields accountHolder (String) and balance (double). Write a constructor, deposit(double amount) and withdraw(double amount) methods. Withdraw should check for sufficient balance. Override toString(). Test with deposits and withdrawals.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Kavitha: Rs.5000.00
+After deposit: Rs.7000.00
+After withdrawal: Rs.4500.00
+Insufficient balance for Rs.5000.00</div>
+                </div><div class="challenge-constraints">Validate that deposit and withdrawal amounts are positive. Print a message for insufficient balance.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">class BankAccount {
+    String accountHolder;
+    double balance;
+
+    BankAccount(String accountHolder, double balance) {
+        this.accountHolder = accountHolder;
+        this.balance = balance;
+    }
+
+    void deposit(double amount) {
+        if (amount &gt; 0) {
+            balance += amount;
+            System.out.printf(&quot;After deposit: Rs.%.2f%n&quot;, balance);
+        }
+    }
+
+    void withdraw(double amount) {
+        if (amount &gt; balance) {
+            System.out.printf(&quot;Insufficient balance for Rs.%.2f%n&quot;, amount);
+        } else if (amount &gt; 0) {
+            balance -= amount;
+            System.out.printf(&quot;After withdrawal: Rs.%.2f%n&quot;, balance);
+        }
+    }
+
+    public String toString() {
+        return String.format(&quot;%s: Rs.%.2f&quot;, accountHolder, balance);
+    }
+
+    public static void main(String[] args) {
+        BankAccount acc = new BankAccount(&quot;Kavitha&quot;, 5000.0);
+        System.out.println(acc);
+        acc.deposit(2000);
+        acc.withdraw(2500);
+        acc.withdraw(5000);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Object Counter with Static Variable</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a Product class with a static variable totalProducts that tracks how many Product objects have been created. Each product has a name and price. Print the total after creating several products.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Product: Laptop - Rs.50000.0 (Total: 1)
+Product: Phone - Rs.20000.0 (Total: 2)
+Product: Tablet - Rs.15000.0 (Total: 3)
+Total products created: 3</div>
+                </div><div class="challenge-constraints">Use a static variable incremented in the constructor.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">class Product {
+    String name;
+    double price;
+    static int totalProducts = 0;
+
+    Product(String name, double price) {
+        this.name = name;
+        this.price = price;
+        totalProducts++;
+    }
+
+    public String toString() {
+        return &quot;Product: &quot; + name + &quot; - Rs.&quot; + price + &quot; (Total: &quot; + totalProducts + &quot;)&quot;;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new Product(&quot;Laptop&quot;, 50000.0));
+        System.out.println(new Product(&quot;Phone&quot;, 20000.0));
+        System.out.println(new Product(&quot;Tablet&quot;, 15000.0));
+        System.out.println(&quot;Total products created: &quot; + Product.totalProducts);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Complex Number with Method Chaining</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a Complex class representing a complex number (real and imaginary parts). Write add(Complex other) and multiply(Complex other) methods that return new Complex objects. Override toString() to display in 'a + bi' format. Test chaining: a.add(b).multiply(c).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">a = 2.0 + 3.0i
+b = 1.0 + 4.0i
+c = 5.0 + 0.0i
+a + b = 3.0 + 7.0i
+(a + b) * c = 15.0 + 35.0i</div>
+                </div><div class="challenge-constraints">Methods should return new Complex objects, not modify the originals.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">class Complex {
+    double real, imag;
+
+    Complex(double real, double imag) {
+        this.real = real;
+        this.imag = imag;
+    }
+
+    Complex add(Complex other) {
+        return new Complex(this.real + other.real, this.imag + other.imag);
+    }
+
+    Complex multiply(Complex other) {
+        double r = this.real * other.real - this.imag * other.imag;
+        double i = this.real * other.imag + this.imag * other.real;
+        return new Complex(r, i);
+    }
+
+    public String toString() {
+        return real + &quot; + &quot; + imag + &quot;i&quot;;
+    }
+
+    public static void main(String[] args) {
+        Complex a = new Complex(2, 3);
+        Complex b = new Complex(1, 4);
+        Complex c = new Complex(5, 0);
+        System.out.println(&quot;a = &quot; + a);
+        System.out.println(&quot;b = &quot; + b);
+        System.out.println(&quot;c = &quot; + c);
+        System.out.println(&quot;a + b = &quot; + a.add(b));
+        System.out.println(&quot;(a + b) * c = &quot; + a.add(b).multiply(c));
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Linked List using Objects</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a Node class with fields data (int) and next (Node). Write a static method printList(Node head) that prints all elements separated by ' -> '. Create a linked list with nodes 10 -> 20 -> 30 -> 40 and print it.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">10 -&gt; 20 -&gt; 30 -&gt; 40 -&gt; null</div>
+                </div><div class="challenge-constraints">Use constructor chaining. Handle the null terminator in the print method.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">class Node {
+    int data;
+    Node next;
+
+    Node(int data) {
+        this.data = data;
+        this.next = null;
+    }
+
+    Node(int data, Node next) {
+        this.data = data;
+        this.next = next;
+    }
+
+    static void printList(Node head) {
+        Node current = head;
+        while (current != null) {
+            System.out.print(current.data + &quot; -&gt; &quot;);
+            current = current.next;
+        }
+        System.out.println(&quot;null&quot;);
+    }
+
+    public static void main(String[] args) {
+        Node head = new Node(10, new Node(20, new Node(30, new Node(40))));
+        printList(head);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Builder Pattern for Student</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a StudentBuilder class that uses method chaining to build Student objects. It should have methods setName(), setRollNo(), setMarks(), and build() that returns a Student object. Test with chaining syntax.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Student{name=&#39;Deepak&#39;, rollNo=201, marks=91.5}</div>
+                </div><div class="challenge-constraints">Each setter returns this for chaining. The build() method returns a new Student object.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">class Student {
+    String name;
+    int rollNo;
+    double marks;
+
+    Student(String name, int rollNo, double marks) {
+        this.name = name;
+        this.rollNo = rollNo;
+        this.marks = marks;
+    }
+
+    public String toString() {
+        return &quot;Student{name=&#39;&quot; + name + &quot;&#39;, rollNo=&quot; + rollNo + &quot;, marks=&quot; + marks + &quot;}&quot;;
+    }
+}
+
+class StudentBuilder {
+    String name;
+    int rollNo;
+    double marks;
+
+    StudentBuilder setName(String name) {
+        this.name = name;
+        return this;
+    }
+
+    StudentBuilder setRollNo(int rollNo) {
+        this.rollNo = rollNo;
+        return this;
+    }
+
+    StudentBuilder setMarks(double marks) {
+        this.marks = marks;
+        return this;
+    }
+
+    Student build() {
+        return new Student(name, rollNo, marks);
+    }
+
+    public static void main(String[] args) {
+        Student s = new StudentBuilder()
+            .setName(&quot;Deepak&quot;)
+            .setRollNo(201)
+            .setMarks(91.5)
+            .build();
+        System.out.println(s);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Immutable Class</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create an immutable Point class with final fields x and y. It should have no setters. Write methods translate(int dx, int dy) and distanceTo(Point other) that return new Point objects or computed values. Demonstrate that the original point does not change.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Original: (3, 4)
+Translated: (5, 7)
+Original unchanged: (3, 4)
+Distance to origin: 5.00</div>
+                </div><div class="challenge-constraints">Use final fields. No setters. Methods return new objects instead of modifying fields.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">class Point {
+    final int x;
+    final int y;
+
+    Point(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    Point translate(int dx, int dy) {
+        return new Point(this.x + dx, this.y + dy);
+    }
+
+    double distanceTo(Point other) {
+        int dx = this.x - other.x;
+        int dy = this.y - other.y;
+        return Math.sqrt(dx * dx + dy * dy);
+    }
+
+    public String toString() {
+        return &quot;(&quot; + x + &quot;, &quot; + y + &quot;)&quot;;
+    }
+
+    public static void main(String[] args) {
+        Point p = new Point(3, 4);
+        System.out.println(&quot;Original: &quot; + p);
+
+        Point moved = p.translate(2, 3);
+        System.out.println(&quot;Translated: &quot; + moved);
+        System.out.println(&quot;Original unchanged: &quot; + p);
+
+        Point origin = new Point(0, 0);
+        System.out.printf(&quot;Distance to origin: %.2f%n&quot;, p.distanceTo(origin));
+    }
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/java/methods-in-java/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Methods in Java</span>
+        </a>
+            <a href="/resources/java/encapsulation-and-access-modifiers/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Encapsulation and Access Modifiers</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/java/object-oriented-programming-basics" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,602 @@
+{
+  "title": "File Handling in Java",
+  "slug": "file-handling-in-java",
+  "language": "java",
+  "chapter": 21,
+  "difficulty": "Advanced",
+  "readingTime": "45 min",
+  "lastUpdated": "2026-04-08",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "File Handling in Java - FileReader, BufferedReader, NIO, try-with-resources | Modern Age Coders",
+    "description": "Learn Java file handling including File class, FileReader, FileWriter, BufferedReader, BufferedWriter, try-with-resources, Scanner for files, byte streams, and Java NIO Path and Files. Includes 55+ practice questions with output prediction and coding challenges.",
+    "keywords": "java file handling, java read write file, BufferedReader java, java file io tutorial, java FileReader, java FileWriter, java NIO, java try with resources, java file class, java read file line by line"
+  },
+  "content": {
+    "what": "<h2>What Is File Handling in Java?</h2><p><strong>File handling</strong> refers to the ability to create, read, write, and manipulate files on disk from within your Java program. Almost every real-world application needs to interact with the file system: reading configuration files, writing log files, processing CSV data, or saving user preferences.</p><pre><code class=\"language-java\">import java.io.File;\n\nFile file = new File(\"data.txt\");\nSystem.out.println(\"Exists: \" + file.exists());\nSystem.out.println(\"Name: \" + file.getName());</code></pre><p>Java provides two main approaches to file I/O: the classic <code>java.io</code> package (character streams and byte streams) and the newer <code>java.nio.file</code> package (NIO.2, introduced in Java 7). Both are important for interviews and real development.</p><h3>Streams in Java I/O</h3><p>In the context of file handling, a <strong>stream</strong> is a sequence of data flowing between your program and an external source (file, network, etc.). Java has two categories:</p><ul><li><strong>Character Streams</strong> (Reader/Writer): Handle text data as characters. Use these for text files.</li><li><strong>Byte Streams</strong> (InputStream/OutputStream): Handle raw binary data. Use these for images, PDFs, and other binary files.</li></ul><p>Understanding the difference is critical: reading a JPEG image with a character stream will corrupt the data, and reading a text file with a byte stream ignores character encoding.</p>",
+    "why": "<h2>Why Is File Handling Important?</h2><h3>1. Persistence Beyond Program Execution</h3><p>Variables in memory are lost when the program exits. File handling lets you store data permanently on disk. If Arjun builds a student management system, the student records must survive after the application closes. Without file handling, every restart means starting from scratch.</p><h3>2. Processing External Data</h3><p>Real applications rarely work with hardcoded data. A data analytics tool reads CSV files. A web server reads configuration files. A compiler reads source code files. File handling is the bridge between your program and the outside world.</p><h3>3. Logging and Auditing</h3><p>Production applications write log files to track errors, user actions, and system events. When Meera is debugging a server crash at 3 AM, log files are the only source of information about what happened. Writing logs requires file handling.</p><h3>4. Data Exchange Between Systems</h3><p>Files are one of the most common formats for data exchange between applications. APIs exchange JSON files. Databases export CSV files. Build tools read XML configuration files. Understanding file I/O is essential for system integration.</p><h3>5. Interview and Placement Relevance</h3><p>File handling questions appear in campus placements at companies like TCS, Infosys, Wipro, and Cognizant. Interviewers test whether candidates understand resource management (try-with-resources), the difference between character and byte streams, and efficient reading techniques (buffered I/O).</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The File Class</h3><p>The <code>java.io.File</code> class represents a file or directory path. It does not read or write data -- it provides metadata and path operations:</p><pre><code class=\"language-java\">import java.io.File;\n\nFile file = new File(\"report.txt\");\n\n// Check existence and type\nSystem.out.println(\"Exists: \" + file.exists());         // true or false\nSystem.out.println(\"Is file: \" + file.isFile());         // true if regular file\nSystem.out.println(\"Is directory: \" + file.isDirectory()); // true if directory\n\n// File properties\nSystem.out.println(\"Name: \" + file.getName());           // report.txt\nSystem.out.println(\"Path: \" + file.getAbsolutePath());   // full path\nSystem.out.println(\"Size: \" + file.length() + \" bytes\"); // file size\n\n// Create and delete\nFile newFile = new File(\"temp.txt\");\nnewFile.createNewFile();  // creates the file\nnewFile.delete();         // deletes the file\n\n// List directory contents\nFile dir = new File(\".\");\nString[] contents = dir.list();\nFile[] files = dir.listFiles();</code></pre><p>Key point: <code>new File(\"report.txt\")</code> does not create a file on disk. It creates a Java object representing that path. The file may or may not actually exist.</p><h3>2. FileReader and FileWriter (Character Streams)</h3><p><code>FileReader</code> reads characters from a file. <code>FileWriter</code> writes characters to a file. These are the simplest text file I/O classes:</p><pre><code class=\"language-java\">import java.io.FileWriter;\nimport java.io.FileReader;\nimport java.io.IOException;\n\n// Writing to a file\ntry {\n    FileWriter writer = new FileWriter(\"output.txt\");\n    writer.write(\"Hello, World!\\n\");\n    writer.write(\"Java file handling.\");\n    writer.close();\n} catch (IOException e) {\n    System.out.println(\"Error: \" + e.getMessage());\n}\n\n// Reading from a file (character by character)\ntry {\n    FileReader reader = new FileReader(\"output.txt\");\n    int ch;\n    while ((ch = reader.read()) != -1) {\n        System.out.print((char) ch);\n    }\n    reader.close();\n} catch (IOException e) {\n    System.out.println(\"Error: \" + e.getMessage());\n}</code></pre><p>The <code>read()</code> method returns an <code>int</code>. It returns -1 when the end of the file is reached. You cast it to <code>char</code> to get the actual character. The second argument <code>true</code> in <code>new FileWriter(\"file.txt\", true)</code> enables append mode.</p><h3>3. BufferedReader and BufferedWriter</h3><p>Buffered streams wrap around basic streams to improve performance. Instead of reading one character at a time from disk (slow), they read a large chunk into an internal buffer:</p><pre><code class=\"language-java\">import java.io.BufferedReader;\nimport java.io.BufferedWriter;\nimport java.io.FileReader;\nimport java.io.FileWriter;\nimport java.io.IOException;\n\n// Buffered writing\ntry (BufferedWriter bw = new BufferedWriter(new FileWriter(\"data.txt\"))) {\n    bw.write(\"Line one\");\n    bw.newLine();  // platform-independent newline\n    bw.write(\"Line two\");\n    bw.newLine();\n    bw.write(\"Line three\");\n}\n\n// Buffered reading (line by line)\ntry (BufferedReader br = new BufferedReader(new FileReader(\"data.txt\"))) {\n    String line;\n    while ((line = br.readLine()) != null) {\n        System.out.println(line);\n    }\n}</code></pre><p><code>BufferedReader.readLine()</code> returns a full line as a String, or <code>null</code> at end of file. This is the most common way to read text files line by line. The default buffer size is 8192 characters, which is sufficient for most use cases.</p><h3>4. try-with-resources (AutoCloseable)</h3><p>Streams hold system resources (file handles). If you forget to close them, you leak resources. Java 7 introduced <strong>try-with-resources</strong> to guarantee automatic closing:</p><pre><code class=\"language-java\">// Without try-with-resources (manual close, error-prone)\nBufferedReader br = null;\ntry {\n    br = new BufferedReader(new FileReader(\"data.txt\"));\n    String line = br.readLine();\n    System.out.println(line);\n} catch (IOException e) {\n    e.printStackTrace();\n} finally {\n    if (br != null) {\n        try {\n            br.close();\n        } catch (IOException e) {\n            e.printStackTrace();\n        }\n    }\n}\n\n// With try-with-resources (automatic close, clean)\ntry (BufferedReader br2 = new BufferedReader(new FileReader(\"data.txt\"))) {\n    String line = br2.readLine();\n    System.out.println(line);\n} catch (IOException e) {\n    e.printStackTrace();\n}\n// br2 is automatically closed here, even if an exception occurred</code></pre><p>Any class that implements <code>AutoCloseable</code> (or <code>Closeable</code>) can be used in try-with-resources. All I/O stream classes implement this. You can declare multiple resources separated by semicolons.</p><h3>5. Scanner for File Reading</h3><p>The <code>Scanner</code> class (familiar from reading console input) can also read from files:</p><pre><code class=\"language-java\">import java.io.File;\nimport java.io.FileNotFoundException;\nimport java.util.Scanner;\n\ntry (Scanner scanner = new Scanner(new File(\"data.txt\"))) {\n    while (scanner.hasNextLine()) {\n        String line = scanner.nextLine();\n        System.out.println(line);\n    }\n} catch (FileNotFoundException e) {\n    System.out.println(\"File not found: \" + e.getMessage());\n}\n\n// Reading integers from a file\ntry (Scanner scanner = new Scanner(new File(\"numbers.txt\"))) {\n    while (scanner.hasNextInt()) {\n        int num = scanner.nextInt();\n        System.out.println(\"Read: \" + num);\n    }\n} catch (FileNotFoundException e) {\n    System.out.println(\"File not found\");\n}</code></pre><p>Scanner is convenient for reading formatted data (integers, doubles, tokens), but <code>BufferedReader</code> is faster for reading large text files because Scanner uses regex parsing internally.</p><h3>6. FileInputStream and FileOutputStream (Byte Streams)</h3><p>For binary files (images, audio, executables), use byte streams:</p><pre><code class=\"language-java\">import java.io.FileInputStream;\nimport java.io.FileOutputStream;\nimport java.io.IOException;\n\n// Copy a file byte by byte\ntry (\n    FileInputStream fis = new FileInputStream(\"source.jpg\");\n    FileOutputStream fos = new FileOutputStream(\"copy.jpg\")\n) {\n    int byteData;\n    while ((byteData = fis.read()) != -1) {\n        fos.write(byteData);\n    }\n    System.out.println(\"File copied successfully.\");\n} catch (IOException e) {\n    System.out.println(\"Error: \" + e.getMessage());\n}\n\n// Efficient copy with byte array buffer\ntry (\n    FileInputStream fis = new FileInputStream(\"source.jpg\");\n    FileOutputStream fos = new FileOutputStream(\"copy.jpg\")\n) {\n    byte[] buffer = new byte[4096];\n    int bytesRead;\n    while ((bytesRead = fis.read(buffer)) != -1) {\n        fos.write(buffer, 0, bytesRead);\n    }\n} catch (IOException e) {\n    e.printStackTrace();\n}</code></pre><p>Reading byte by byte is extremely slow. Always use a buffer (byte array) for real applications. The buffer size of 4096 or 8192 bytes is a common choice.</p><h3>7. Path and Files (Java NIO.2)</h3><p>Java 7 introduced the <code>java.nio.file</code> package with <code>Path</code> and <code>Files</code> classes. These are modern, more powerful alternatives:</p><pre><code class=\"language-java\">import java.nio.file.Path;\nimport java.nio.file.Paths;\nimport java.nio.file.Files;\nimport java.io.IOException;\nimport java.util.List;\n\n// Creating a Path\nPath path = Paths.get(\"data.txt\");\nSystem.out.println(\"Filename: \" + path.getFileName());\nSystem.out.println(\"Absolute: \" + path.toAbsolutePath());\nSystem.out.println(\"Exists: \" + Files.exists(path));\n\n// Read all lines into a List\nList&lt;String&gt; lines = Files.readAllLines(path);\nfor (String line : lines) {\n    System.out.println(line);\n}\n\n// Write lines to a file\nList&lt;String&gt; data = List.of(\"Line 1\", \"Line 2\", \"Line 3\");\nFiles.write(Paths.get(\"output.txt\"), data);\n\n// Read entire file as a single String (Java 11+)\nString content = Files.readString(path);\nSystem.out.println(content);\n\n// Write a String to a file (Java 11+)\nFiles.writeString(Paths.get(\"output.txt\"), \"Hello from NIO!\");</code></pre><p><code>Files.readAllLines()</code> loads the entire file into memory. This is convenient for small to medium files but dangerous for very large files (you could run out of heap space). For large files, use <code>BufferedReader</code> or <code>Files.lines()</code> which returns a lazy Stream.</p><h3>8. Reading a File with Streams (Java 8+)</h3><pre><code class=\"language-java\">import java.nio.file.Files;\nimport java.nio.file.Paths;\nimport java.io.IOException;\nimport java.util.stream.Stream;\n\n// Lazy reading with Streams\ntry (Stream&lt;String&gt; lines = Files.lines(Paths.get(\"data.txt\"))) {\n    lines.filter(line -> !line.isEmpty())\n         .map(String::toUpperCase)\n         .forEach(System.out::println);\n} catch (IOException e) {\n    e.printStackTrace();\n}</code></pre><p><code>Files.lines()</code> returns a <code>Stream&lt;String&gt;</code> that reads lines lazily (on demand). It is memory-efficient for large files and integrates with the Streams API for filtering, mapping, and collecting.</p><h3>9. Writing with PrintWriter</h3><p><code>PrintWriter</code> provides convenient <code>println()</code>, <code>printf()</code>, and <code>print()</code> methods, similar to <code>System.out</code>:</p><pre><code class=\"language-java\">import java.io.PrintWriter;\nimport java.io.IOException;\n\ntry (PrintWriter pw = new PrintWriter(\"report.txt\")) {\n    pw.println(\"Student Report\");\n    pw.println(\"==============\");\n    pw.printf(\"%-15s %5s %5s%n\", \"Name\", \"Math\", \"Java\");\n    pw.printf(\"%-15s %5d %5d%n\", \"Arjun\", 92, 88);\n    pw.printf(\"%-15s %5d %5d%n\", \"Sneha\", 96, 91);\n} catch (IOException e) {\n    e.printStackTrace();\n}</code></pre><h3>10. Common File Operations Summary</h3><table><tr><th>Task</th><th>Recommended Approach</th></tr><tr><td>Read text file line by line</td><td>BufferedReader or Files.lines()</td></tr><tr><td>Read entire small text file</td><td>Files.readAllLines() or Files.readString()</td></tr><tr><td>Write text to a file</td><td>BufferedWriter or PrintWriter or Files.write()</td></tr><tr><td>Copy binary files</td><td>FileInputStream/FileOutputStream with buffer</td></tr><tr><td>Check file existence and metadata</td><td>File class or Files.exists()</td></tr><tr><td>Read structured data (CSV, tokens)</td><td>Scanner</td></tr></table>",
+    "codeExamples": [
+      {
+        "title": "File Class: Checking File Properties",
+        "code": "import java.io.File;\n\npublic class FileProperties {\n    public static void main(String[] args) {\n        File file = new File(\"sample.txt\");\n\n        System.out.println(\"Name: \" + file.getName());\n        System.out.println(\"Exists: \" + file.exists());\n        System.out.println(\"Absolute path: \" + file.getAbsolutePath());\n\n        if (file.exists()) {\n            System.out.println(\"Is file: \" + file.isFile());\n            System.out.println(\"Is directory: \" + file.isDirectory());\n            System.out.println(\"Size: \" + file.length() + \" bytes\");\n            System.out.println(\"Can read: \" + file.canRead());\n            System.out.println(\"Can write: \" + file.canWrite());\n        }\n\n        // List files in current directory\n        File dir = new File(\".\");\n        File[] files = dir.listFiles();\n        if (files != null) {\n            System.out.println(\"\\nFiles in current directory:\");\n            for (File f : files) {\n                String type = f.isDirectory() ? \"[DIR]\" : \"[FILE]\";\n                System.out.println(\"  \" + type + \" \" + f.getName());\n            }\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "The <code>File</code> class provides metadata about files and directories. <code>new File(\"sample.txt\")</code> does not create the file -- it creates an object representing that path. Methods like <code>exists()</code>, <code>isFile()</code>, <code>length()</code>, and <code>listFiles()</code> query the file system. Always check <code>exists()</code> before accessing properties.",
+        "output": "Name: sample.txt\nExists: true\nAbsolute path: /home/user/sample.txt\nIs file: true\nIs directory: false\nSize: 45 bytes\nCan read: true\nCan write: true\n\nFiles in current directory:\n  [FILE] sample.txt\n  [DIR] src\n  [FILE] Main.java"
+      },
+      {
+        "title": "BufferedReader and BufferedWriter: Efficient Text I/O",
+        "code": "import java.io.BufferedWriter;\nimport java.io.BufferedReader;\nimport java.io.FileWriter;\nimport java.io.FileReader;\nimport java.io.IOException;\n\npublic class BufferedIO {\n    public static void main(String[] args) {\n        String filename = \"students.txt\";\n\n        // Write student data\n        try (BufferedWriter bw = new BufferedWriter(new FileWriter(filename))) {\n            bw.write(\"Arjun,85,92,78\");\n            bw.newLine();\n            bw.write(\"Sneha,91,88,95\");\n            bw.newLine();\n            bw.write(\"Vikram,76,82,89\");\n            bw.newLine();\n            System.out.println(\"Data written successfully.\");\n        } catch (IOException e) {\n            System.out.println(\"Write error: \" + e.getMessage());\n        }\n\n        // Read and process student data\n        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {\n            String line;\n            System.out.println(\"\\nStudent Averages:\");\n            while ((line = br.readLine()) != null) {\n                String[] parts = line.split(\",\");\n                String name = parts[0];\n                int sum = 0;\n                for (int i = 1; i < parts.length; i++) {\n                    sum += Integer.parseInt(parts[i]);\n                }\n                double avg = sum / (double) (parts.length - 1);\n                System.out.printf(\"%s: %.1f%n\", name, avg);\n            }\n        } catch (IOException e) {\n            System.out.println(\"Read error: \" + e.getMessage());\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "<code>BufferedWriter</code> wraps a <code>FileWriter</code> and buffers output for efficiency. <code>newLine()</code> writes a platform-independent line separator. <code>BufferedReader</code> wraps a <code>FileReader</code> and provides <code>readLine()</code> which returns null at end of file. Both are declared in try-with-resources so they are automatically closed.",
+        "output": "Data written successfully.\n\nStudent Averages:\nArjun: 85.0\nSneha: 91.3\nVikram: 82.3"
+      },
+      {
+        "title": "try-with-resources: Automatic Resource Management",
+        "code": "import java.io.BufferedReader;\nimport java.io.BufferedWriter;\nimport java.io.FileReader;\nimport java.io.FileWriter;\nimport java.io.IOException;\n\npublic class TryWithResources {\n    public static void main(String[] args) {\n        // Multiple resources in one try-with-resources\n        try (\n            BufferedWriter writer = new BufferedWriter(new FileWriter(\"source.txt\"));\n        ) {\n            writer.write(\"Line 1: Java is powerful.\\n\");\n            writer.write(\"Line 2: File handling is essential.\\n\");\n            writer.write(\"Line 3: try-with-resources prevents leaks.\");\n        } catch (IOException e) {\n            System.out.println(\"Write failed: \" + e.getMessage());\n        }\n\n        // Copy file contents using two resources\n        try (\n            BufferedReader reader = new BufferedReader(new FileReader(\"source.txt\"));\n            BufferedWriter writer = new BufferedWriter(new FileWriter(\"destination.txt\"))\n        ) {\n            String line;\n            int lineNumber = 0;\n            while ((line = reader.readLine()) != null) {\n                lineNumber++;\n                writer.write(lineNumber + \": \" + line);\n                writer.newLine();\n            }\n            System.out.println(\"Copied \" + lineNumber + \" lines.\");\n        } catch (IOException e) {\n            System.out.println(\"Copy failed: \" + e.getMessage());\n        }\n        // Both reader and writer are automatically closed here\n    }\n}",
+        "language": "java",
+        "explanation": "try-with-resources automatically calls <code>close()</code> on every resource declared in the parentheses when the block exits, whether normally or due to an exception. Multiple resources are separated by semicolons. Resources are closed in reverse order of declaration. This eliminates the need for verbose finally blocks.",
+        "output": "Copied 3 lines."
+      },
+      {
+        "title": "Scanner for Reading Formatted File Data",
+        "code": "import java.io.File;\nimport java.io.FileNotFoundException;\nimport java.io.PrintWriter;\nimport java.util.Scanner;\n\npublic class ScannerFileReading {\n    public static void main(String[] args) {\n        // Create a data file first\n        try (PrintWriter pw = new PrintWriter(\"scores.txt\")) {\n            pw.println(\"Arjun 85 92 78\");\n            pw.println(\"Priya 91 88 95\");\n            pw.println(\"Rohan 76 82 89\");\n        } catch (FileNotFoundException e) {\n            System.out.println(\"Cannot create file\");\n            return;\n        }\n\n        // Read using Scanner\n        try (Scanner scanner = new Scanner(new File(\"scores.txt\"))) {\n            System.out.printf(\"%-10s %6s %6s %6s %8s%n\", \n                              \"Name\", \"Sub1\", \"Sub2\", \"Sub3\", \"Average\");\n            System.out.println(\"-\".repeat(42));\n\n            while (scanner.hasNextLine()) {\n                Scanner lineScanner = new Scanner(scanner.nextLine());\n                String name = lineScanner.next();\n                int s1 = lineScanner.nextInt();\n                int s2 = lineScanner.nextInt();\n                int s3 = lineScanner.nextInt();\n                double avg = (s1 + s2 + s3) / 3.0;\n                System.out.printf(\"%-10s %6d %6d %6d %8.1f%n\", \n                                  name, s1, s2, s3, avg);\n                lineScanner.close();\n            }\n        } catch (FileNotFoundException e) {\n            System.out.println(\"File not found: \" + e.getMessage());\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "<code>Scanner</code> can read from a <code>File</code> object. It supports reading specific types with <code>nextInt()</code>, <code>nextDouble()</code>, <code>next()</code>, and <code>nextLine()</code>. Using a separate <code>Scanner</code> on each line allows parsing mixed data types. Scanner is convenient for structured data but slower than BufferedReader for large files.",
+        "output": "Name         Sub1   Sub2   Sub3  Average\n------------------------------------------\nArjun          85     92     78     85.0\nPriya          91     88     95     91.3\nRohan          76     82     89     82.3"
+      },
+      {
+        "title": "Byte Streams: Copying a Binary File",
+        "code": "import java.io.FileInputStream;\nimport java.io.FileOutputStream;\nimport java.io.IOException;\n\npublic class ByteStreamCopy {\n    public static void main(String[] args) {\n        // Create a sample binary file\n        try (FileOutputStream fos = new FileOutputStream(\"data.bin\")) {\n            byte[] data = {72, 101, 108, 108, 111}; // \"Hello\" in ASCII\n            fos.write(data);\n            System.out.println(\"Binary file created.\");\n        } catch (IOException e) {\n            System.out.println(\"Write error: \" + e.getMessage());\n            return;\n        }\n\n        // Copy using buffered byte reading\n        long startTime = System.nanoTime();\n        try (\n            FileInputStream fis = new FileInputStream(\"data.bin\");\n            FileOutputStream fos = new FileOutputStream(\"data_copy.bin\")\n        ) {\n            byte[] buffer = new byte[4096];\n            int bytesRead;\n            long totalBytes = 0;\n\n            while ((bytesRead = fis.read(buffer)) != -1) {\n                fos.write(buffer, 0, bytesRead);\n                totalBytes += bytesRead;\n            }\n\n            long elapsed = System.nanoTime() - startTime;\n            System.out.println(\"Copied \" + totalBytes + \" bytes\");\n            System.out.println(\"Time: \" + (elapsed / 1_000_000) + \" ms\");\n        } catch (IOException e) {\n            System.out.println(\"Copy error: \" + e.getMessage());\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "Byte streams (<code>FileInputStream</code>/<code>FileOutputStream</code>) handle raw bytes, making them suitable for binary files. The <code>read(buffer)</code> method fills the byte array and returns the number of bytes actually read, or -1 at end of file. <code>write(buffer, 0, bytesRead)</code> writes only the bytes that were read, avoiding extra data at the end of the file.",
+        "output": "Binary file created.\nCopied 5 bytes\nTime: 1 ms"
+      },
+      {
+        "title": "Java NIO: Path and Files for Modern File I/O",
+        "code": "import java.nio.file.Path;\nimport java.nio.file.Paths;\nimport java.nio.file.Files;\nimport java.io.IOException;\nimport java.util.List;\nimport java.util.stream.Stream;\n\npublic class NIOFileHandling {\n    public static void main(String[] args) throws IOException {\n        Path path = Paths.get(\"nio_demo.txt\");\n\n        // Write lines using Files.write()\n        List<String> lines = List.of(\n            \"Java NIO is powerful.\",\n            \"Files class simplifies I/O.\",\n            \"Path replaces File in modern Java.\",\n            \"\",\n            \"This is the last line.\"\n        );\n        Files.write(path, lines);\n        System.out.println(\"File written with \" + lines.size() + \" lines.\");\n\n        // Read all lines at once\n        List<String> readLines = Files.readAllLines(path);\n        System.out.println(\"\\nAll lines:\");\n        for (int i = 0; i < readLines.size(); i++) {\n            System.out.println((i + 1) + \": \" + readLines.get(i));\n        }\n\n        // Read with Streams (lazy, memory-efficient)\n        System.out.println(\"\\nNon-empty lines (uppercase):\");\n        try (Stream<String> stream = Files.lines(path)) {\n            stream.filter(line -> !line.isEmpty())\n                  .map(String::toUpperCase)\n                  .forEach(System.out::println);\n        }\n\n        // File metadata via Files class\n        System.out.println(\"\\nFile size: \" + Files.size(path) + \" bytes\");\n        System.out.println(\"Is readable: \" + Files.isReadable(path));\n\n        // Cleanup\n        Files.deleteIfExists(path);\n        System.out.println(\"File deleted.\");\n    }\n}",
+        "language": "java",
+        "explanation": "<code>Files.write()</code> and <code>Files.readAllLines()</code> provide one-line file I/O for small files. <code>Files.lines()</code> returns a lazy <code>Stream&lt;String&gt;</code> that reads on demand, which is memory-efficient for large files. The stream must be closed (use try-with-resources). <code>Paths.get()</code> creates a <code>Path</code> object, which is the NIO equivalent of <code>File</code>.",
+        "output": "File written with 5 lines.\n\nAll lines:\n1: Java NIO is powerful.\n2: Files class simplifies I/O.\n3: Path replaces File in modern Java.\n4: \n5: This is the last line.\n\nNon-empty lines (uppercase):\nJAVA NIO IS POWERFUL.\nFILES CLASS SIMPLIFIES I/O.\nPATH REPLACES FILE IN MODERN JAVA.\nTHIS IS THE LAST LINE.\n\nFile size: 97 bytes\nIs readable: true\nFile deleted."
+      },
+      {
+        "title": "PrintWriter: Formatted File Output",
+        "code": "import java.io.PrintWriter;\nimport java.io.IOException;\n\npublic class PrintWriterDemo {\n    public static void main(String[] args) {\n        try (PrintWriter pw = new PrintWriter(\"report.txt\")) {\n            pw.println(\"=== Semester Results ===\");\n            pw.println();\n\n            String[] names = {\"Arjun\", \"Sneha\", \"Vikram\", \"Kavya\"};\n            int[][] marks = {\n                {85, 92, 78},\n                {91, 88, 95},\n                {76, 82, 89},\n                {93, 87, 91}\n            };\n\n            pw.printf(\"%-12s %6s %6s %6s %8s%n\", \"Name\", \"Math\", \"Java\", \"DBMS\", \"Average\");\n            pw.println(\"-\".repeat(44));\n\n            for (int i = 0; i < names.length; i++) {\n                int sum = marks[i][0] + marks[i][1] + marks[i][2];\n                double avg = sum / 3.0;\n                pw.printf(\"%-12s %6d %6d %6d %8.1f%n\",\n                          names[i], marks[i][0], marks[i][1], marks[i][2], avg);\n            }\n\n            pw.println(\"-\".repeat(44));\n            System.out.println(\"Report written to report.txt\");\n        } catch (IOException e) {\n            System.out.println(\"Error: \" + e.getMessage());\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "<code>PrintWriter</code> provides <code>println()</code>, <code>print()</code>, and <code>printf()</code> methods identical to <code>System.out</code> but directed to a file. It is the most convenient class for writing formatted text reports. Unlike <code>FileWriter</code>, it does not throw <code>IOException</code> on individual write calls (it swallows them -- check with <code>checkError()</code> if needed).",
+        "output": "Report written to report.txt"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting to Close Streams (Resource Leak)",
+        "wrongCode": "BufferedReader br = new BufferedReader(new FileReader(\"data.txt\"));\nString line = br.readLine();\nSystem.out.println(line);\n// br is never closed -- resource leak!",
+        "error": "No compile error, but the file handle is never released. Over time, the program can run out of file handles and crash with 'Too many open files'.",
+        "correctCode": "try (BufferedReader br = new BufferedReader(new FileReader(\"data.txt\"))) {\n    String line = br.readLine();\n    System.out.println(line);\n}\n// br is automatically closed here",
+        "explanation": "Every stream must be closed after use. try-with-resources is the safest and cleanest approach because it guarantees closing even if an exception occurs. Never rely on garbage collection to close streams -- it is not guaranteed to happen promptly."
+      },
+      {
+        "title": "Not Handling IOException",
+        "wrongCode": "// This does not compile!\nBufferedReader br = new BufferedReader(new FileReader(\"data.txt\"));\nString line = br.readLine();",
+        "error": "Compile error: unreported exception IOException; must be caught or declared to be thrown.",
+        "correctCode": "try (BufferedReader br = new BufferedReader(new FileReader(\"data.txt\"))) {\n    String line = br.readLine();\n    System.out.println(line);\n} catch (IOException e) {\n    System.out.println(\"Error reading file: \" + e.getMessage());\n}",
+        "explanation": "<code>IOException</code> is a checked exception. The compiler forces you to either catch it with try-catch or declare it with <code>throws IOException</code> in the method signature. This is a fundamental rule in Java -- you cannot ignore checked exceptions."
+      },
+      {
+        "title": "Using Character Streams for Binary Files",
+        "wrongCode": "// Reading an image with FileReader -- WRONG\ntry (FileReader fr = new FileReader(\"photo.jpg\")) {\n    int ch;\n    while ((ch = fr.read()) != -1) {\n        // This corrupts binary data!\n    }\n}",
+        "error": "No compile error, but the image data is corrupted because FileReader interprets bytes as characters using a character encoding, which transforms the binary data.",
+        "correctCode": "// Use byte streams for binary files\ntry (FileInputStream fis = new FileInputStream(\"photo.jpg\")) {\n    byte[] buffer = new byte[4096];\n    int bytesRead;\n    while ((bytesRead = fis.read(buffer)) != -1) {\n        // Process raw bytes correctly\n    }\n}",
+        "explanation": "<code>FileReader</code> applies character encoding (like UTF-8) to the bytes it reads. For text files this is correct, but for binary files it corrupts data. Always use <code>FileInputStream</code>/<code>FileOutputStream</code> for binary data."
+      },
+      {
+        "title": "Overwriting a File Instead of Appending",
+        "wrongCode": "// Each call overwrites the previous content!\ntry (FileWriter fw = new FileWriter(\"log.txt\")) {\n    fw.write(\"Log entry 1\\n\");\n}\ntry (FileWriter fw = new FileWriter(\"log.txt\")) {\n    fw.write(\"Log entry 2\\n\");\n}\n// log.txt only contains \"Log entry 2\"",
+        "error": "FileWriter's default constructor truncates the file. The first log entry is lost.",
+        "correctCode": "// Use append mode: new FileWriter(filename, true)\ntry (FileWriter fw = new FileWriter(\"log.txt\", true)) {\n    fw.write(\"Log entry 1\\n\");\n}\ntry (FileWriter fw = new FileWriter(\"log.txt\", true)) {\n    fw.write(\"Log entry 2\\n\");\n}\n// log.txt contains both entries",
+        "explanation": "The second parameter <code>true</code> in <code>new FileWriter(filename, true)</code> enables append mode. Without it, the file is truncated (emptied) every time it is opened. This is a common mistake in logging code."
+      },
+      {
+        "title": "Comparing readLine() Return with Empty String Instead of null",
+        "wrongCode": "try (BufferedReader br = new BufferedReader(new FileReader(\"data.txt\"))) {\n    String line;\n    while ((line = br.readLine()) != \"\") {  // WRONG comparison\n        System.out.println(line);\n    }\n}",
+        "error": "This may create an infinite loop or miss the end of file. readLine() returns null at EOF, not an empty string. Also, == compares references, not content.",
+        "correctCode": "try (BufferedReader br = new BufferedReader(new FileReader(\"data.txt\"))) {\n    String line;\n    while ((line = br.readLine()) != null) {  // Correct: check for null\n        System.out.println(line);\n    }\n}",
+        "explanation": "<code>readLine()</code> returns <code>null</code> at end of file, not an empty string. An empty line in the file returns <code>\"\"</code> (empty string), which is a valid value. Always check for <code>null</code> to detect end of file."
+      }
+    ],
+    "summary": [
+      "The File class represents a path (file or directory) and provides metadata methods like exists(), isFile(), getName(), length(), and listFiles(). It does not read or write file content.",
+      "Character streams (FileReader/FileWriter) handle text data. Byte streams (FileInputStream/FileOutputStream) handle binary data. Using the wrong type corrupts data.",
+      "BufferedReader and BufferedWriter wrap basic streams for efficient I/O by using an internal buffer. BufferedReader.readLine() reads one line at a time and returns null at end of file.",
+      "try-with-resources (Java 7+) automatically closes any AutoCloseable resource when the block exits. It eliminates the need for verbose finally blocks and prevents resource leaks.",
+      "Scanner can read files with type-specific methods (nextInt, nextDouble, nextLine) but is slower than BufferedReader for large files due to internal regex parsing.",
+      "FileInputStream and FileOutputStream handle raw bytes. Always use a byte array buffer (not byte-by-byte reading) for acceptable performance.",
+      "Java NIO.2 (Path and Files classes) provides modern file operations: Files.readAllLines() loads a file into a List, Files.lines() returns a lazy Stream, Files.write() writes a collection of lines.",
+      "Files.readString() and Files.writeString() (Java 11+) provide single-method file I/O for small files.",
+      "PrintWriter offers println(), print(), and printf() methods for formatted file output, identical to System.out but directed to a file.",
+      "FileWriter's default mode truncates the file. Pass true as the second constructor argument for append mode: new FileWriter(filename, true)."
+    ]
+  },
+  "relatedTopics": ["generics-in-java", "multithreading-basics"],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code class=\"language-java\">File file = new File(\"test.txt\");\nSystem.out.println(file.exists());</code></pre><p>Assume the file test.txt does NOT exist.</p>",
+        "hint": "new File() creates a File object representing a path. It does not create the actual file.",
+        "answer": "<code>false</code>",
+        "explanation": "<code>new File(\"test.txt\")</code> creates a File object but does not create the file on disk. Since test.txt does not exist, <code>exists()</code> returns <code>false</code>."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">File file = new File(\"demo.txt\");\nfile.createNewFile();\nSystem.out.println(file.exists());\nSystem.out.println(file.isFile());\nSystem.out.println(file.isDirectory());</code></pre>",
+        "hint": "createNewFile() actually creates the file on disk.",
+        "answer": "<code>true</code><br><code>true</code><br><code>false</code>",
+        "explanation": "<code>createNewFile()</code> creates an empty file on disk. After creation, <code>exists()</code> returns true, <code>isFile()</code> returns true (it is a regular file), and <code>isDirectory()</code> returns false."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">try (BufferedWriter bw = new BufferedWriter(new FileWriter(\"test.txt\"))) {\n    bw.write(\"Hello\");\n    bw.newLine();\n    bw.write(\"World\");\n}\ntry (BufferedReader br = new BufferedReader(new FileReader(\"test.txt\"))) {\n    System.out.println(br.readLine());\n    System.out.println(br.readLine());\n    System.out.println(br.readLine());\n}</code></pre>",
+        "hint": "readLine() returns null when there are no more lines.",
+        "answer": "<code>Hello</code><br><code>World</code><br><code>null</code>",
+        "explanation": "Two lines are written: \"Hello\" and \"World\". The first two <code>readLine()</code> calls return these strings. The third call finds no more data and returns <code>null</code>."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">FileWriter fw1 = new FileWriter(\"data.txt\");\nfw1.write(\"First\");\nfw1.close();\n\nFileWriter fw2 = new FileWriter(\"data.txt\");\nfw2.write(\"Second\");\nfw2.close();\n\nBufferedReader br = new BufferedReader(new FileReader(\"data.txt\"));\nSystem.out.println(br.readLine());\nbr.close();</code></pre>",
+        "hint": "FileWriter without the append flag truncates the file.",
+        "answer": "<code>Second</code>",
+        "explanation": "The second <code>FileWriter</code> opens the file in default (truncate) mode, which erases \"First\" before writing \"Second\". Only \"Second\" remains in the file."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">FileWriter fw1 = new FileWriter(\"data.txt\");\nfw1.write(\"First\");\nfw1.close();\n\nFileWriter fw2 = new FileWriter(\"data.txt\", true);\nfw2.write(\"Second\");\nfw2.close();\n\nBufferedReader br = new BufferedReader(new FileReader(\"data.txt\"));\nSystem.out.println(br.readLine());\nbr.close();</code></pre>",
+        "hint": "The second FileWriter uses append mode (true).",
+        "answer": "<code>FirstSecond</code>",
+        "explanation": "The second <code>FileWriter</code> opens with <code>true</code> (append mode). \"Second\" is appended after \"First\" on the same line. <code>readLine()</code> returns the entire line: \"FirstSecond\"."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">try (BufferedWriter bw = new BufferedWriter(new FileWriter(\"nums.txt\"))) {\n    for (int i = 1; i <= 3; i++) {\n        bw.write(String.valueOf(i * 10));\n        bw.newLine();\n    }\n}\n\ntry (BufferedReader br = new BufferedReader(new FileReader(\"nums.txt\"))) {\n    String line;\n    int sum = 0;\n    while ((line = br.readLine()) != null) {\n        sum += Integer.parseInt(line);\n    }\n    System.out.println(\"Sum: \" + sum);\n}</code></pre>",
+        "hint": "Three numbers are written: 10, 20, 30.",
+        "answer": "<code>Sum: 60</code>",
+        "explanation": "The file contains three lines: \"10\", \"20\", \"30\". Each is read, parsed to an integer, and added to sum. 10 + 20 + 30 = 60."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens when this code runs?<br><pre><code class=\"language-java\">try (BufferedReader br = new BufferedReader(new FileReader(\"nonexistent.txt\"))) {\n    System.out.println(br.readLine());\n} catch (FileNotFoundException e) {\n    System.out.println(\"Not found\");\n} catch (IOException e) {\n    System.out.println(\"IO error\");\n}</code></pre>",
+        "hint": "FileNotFoundException is a subclass of IOException.",
+        "answer": "<code>Not found</code>",
+        "explanation": "Opening a file that does not exist throws <code>FileNotFoundException</code>. Since it is caught before the more general <code>IOException</code>, \"Not found\" is printed. <code>FileNotFoundException</code> extends <code>IOException</code>."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">Path path = Paths.get(\"demo.txt\");\nFiles.writeString(path, \"Hello NIO\");\n\nString content = Files.readString(path);\nSystem.out.println(content);\nSystem.out.println(content.length());\n\nFiles.deleteIfExists(path);</code></pre><p>(Assume Java 11+)</p>",
+        "hint": "Files.readString() reads the entire file as a single String.",
+        "answer": "<code>Hello NIO</code><br><code>9</code>",
+        "explanation": "<code>Files.writeString()</code> writes the string to the file. <code>Files.readString()</code> reads the entire file as one String. \"Hello NIO\" has 9 characters."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">Files.write(Paths.get(\"lines.txt\"), \n    List.of(\"alpha\", \"beta\", \"gamma\"));\n\nList&lt;String&gt; lines = Files.readAllLines(Paths.get(\"lines.txt\"));\nSystem.out.println(lines.size());\nSystem.out.println(lines.get(1));</code></pre>",
+        "hint": "List.of() creates a list with three elements. readAllLines() reads all lines into a List.",
+        "answer": "<code>3</code><br><code>beta</code>",
+        "explanation": "Three lines are written. <code>readAllLines()</code> returns a List with 3 elements. <code>lines.get(1)</code> returns the second element (index 1): \"beta\"."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">try (FileWriter fw = new FileWriter(\"test.txt\")) {\n    fw.write(\"ABC\");\n}\n\nFile file = new File(\"test.txt\");\nSystem.out.println(file.length());\n\ntry (FileReader fr = new FileReader(\"test.txt\")) {\n    System.out.println(fr.read());\n    System.out.println(fr.read());\n}</code></pre>",
+        "hint": "FileReader.read() returns the character's Unicode integer value. 'A' is 65.",
+        "answer": "<code>3</code><br><code>65</code><br><code>66</code>",
+        "explanation": "\"ABC\" is 3 bytes (assuming ASCII/UTF-8). <code>file.length()</code> returns 3. <code>fr.read()</code> returns the int value of each character: 'A' is 65, 'B' is 66."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-java\">Files.write(Paths.get(\"data.txt\"), \n    List.of(\"hello\", \"\", \"world\", \"\", \"java\"));\n\nlong count = Files.lines(Paths.get(\"data.txt\"))\n    .filter(line -> !line.isEmpty())\n    .count();\nSystem.out.println(count);</code></pre>",
+        "hint": "Two of the five lines are empty strings.",
+        "answer": "<code>3</code>",
+        "explanation": "Five lines are written, two of which are empty. The stream filters out empty lines with <code>!line.isEmpty()</code>, leaving 3 non-empty lines."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-java\">try (PrintWriter pw = new PrintWriter(\"out.txt\")) {\n    pw.printf(\"%d + %d = %d%n\", 3, 4, 7);\n    pw.printf(\"%d + %d = %d%n\", 5, 6, 11);\n}\n\ntry (BufferedReader br = new BufferedReader(new FileReader(\"out.txt\"))) {\n    br.readLine(); // skip first line\n    String second = br.readLine();\n    System.out.println(second);\n}</code></pre>",
+        "hint": "The first readLine() reads and discards the first line.",
+        "answer": "<code>5 + 6 = 11</code>",
+        "explanation": "Two lines are written with <code>printf</code>. The first <code>readLine()</code> reads and discards \"3 + 4 = 7\". The second <code>readLine()</code> returns \"5 + 6 = 11\"."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>FileReader</code> and <code>FileInputStream</code>? When would you use each?",
+        "hint": "Think about what kind of data each handles.",
+        "answer": "<code>FileReader</code> is a character stream that reads text data (characters), applying character encoding. <code>FileInputStream</code> is a byte stream that reads raw bytes without any encoding interpretation. Use <code>FileReader</code> for text files (.txt, .csv, .json) and <code>FileInputStream</code> for binary files (.jpg, .pdf, .exe).",
+        "explanation": "Character streams apply encoding (like UTF-8) to convert bytes to characters. This is correct for text but corrupts binary data. Byte streams read raw bytes without transformation, which is necessary for non-text files."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why does <code>Files.readAllLines()</code> have a potential problem with very large files? What is the alternative?",
+        "hint": "Think about where the data goes when you read all lines.",
+        "answer": "<code>Files.readAllLines()</code> loads the entire file into a <code>List&lt;String&gt;</code> in memory. For a 2 GB log file, this would require at least 2 GB of heap space, likely causing <code>OutOfMemoryError</code>. The alternative is <code>Files.lines()</code>, which returns a lazy <code>Stream&lt;String&gt;</code> that reads lines on demand without loading the entire file into memory.",
+        "explanation": "Eager loading (readAllLines) is fine for small files. Lazy loading (Files.lines()) is necessary for large files because it processes one line at a time, keeping memory usage constant regardless of file size."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain how try-with-resources works internally. What interface must a class implement to be used in it?",
+        "hint": "Think about what guarantees automatic closing.",
+        "answer": "A class must implement the <code>AutoCloseable</code> interface (which has a single method: <code>close()</code>). When the try block exits (normally or due to an exception), the JVM automatically calls <code>close()</code> on each resource declared in the parentheses, in reverse order of declaration. If both the try block and the close() method throw exceptions, the close() exception is added as a <strong>suppressed exception</strong> to the main exception.",
+        "explanation": "The compiler transforms try-with-resources into a try-finally block internally. The suppressed exception mechanism (Java 7+) ensures no exception is silently lost. You can retrieve suppressed exceptions with <code>getSuppressed()</code>."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">File f = new File(\"mydir\");\nf.mkdir();\nSystem.out.println(f.isDirectory());\nSystem.out.println(f.isFile());\nf.delete();</code></pre>",
+        "hint": "mkdir() creates a directory, not a file.",
+        "answer": "<code>true</code><br><code>false</code>",
+        "explanation": "<code>mkdir()</code> creates a directory. <code>isDirectory()</code> returns true. <code>isFile()</code> returns false because it is a directory, not a regular file."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">try (PrintWriter pw = new PrintWriter(\"simple.txt\")) {\n    pw.println(\"Line 1\");\n    pw.println(\"Line 2\");\n}\n\ntry (Scanner sc = new Scanner(new File(\"simple.txt\"))) {\n    while (sc.hasNextLine()) {\n        System.out.println(sc.nextLine());\n    }\n}</code></pre>",
+        "hint": "PrintWriter.println() writes a line with a newline. Scanner.nextLine() reads one line.",
+        "answer": "<code>Line 1</code><br><code>Line 2</code>",
+        "explanation": "Two lines are written with <code>println()</code>. Scanner reads them one at a time with <code>nextLine()</code> and prints each."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">try (BufferedWriter bw = new BufferedWriter(new FileWriter(\"count.txt\"))) {\n    for (int i = 5; i >= 1; i--) {\n        bw.write(i + \" \");\n    }\n}\ntry (BufferedReader br = new BufferedReader(new FileReader(\"count.txt\"))) {\n    System.out.println(br.readLine());\n}</code></pre>",
+        "hint": "All numbers are written on a single line (no newLine() calls).",
+        "answer": "<code>5 4 3 2 1 </code>",
+        "explanation": "No <code>newLine()</code> is called, so all values are written on one line. <code>readLine()</code> returns the entire line: \"5 4 3 2 1 \"."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">Files.write(Paths.get(\"words.txt\"), \n    List.of(\"apple\", \"banana\", \"cherry\"));\n\nString result = Files.lines(Paths.get(\"words.txt\"))\n    .map(s -> s.substring(0, 1).toUpperCase())\n    .reduce(\"\", (a, b) -> a + b);\n\nSystem.out.println(result);</code></pre>",
+        "hint": "Each word's first character is extracted and capitalized, then all are concatenated.",
+        "answer": "<code>ABC</code>",
+        "explanation": "For each line, <code>substring(0,1).toUpperCase()</code> extracts the first character in uppercase: 'A', 'B', 'C'. <code>reduce</code> concatenates them into \"ABC\"."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">Path path = Paths.get(\"info.txt\");\nFiles.writeString(path, \"Hello\\nWorld\\n\");\n\nList&lt;String&gt; lines = Files.readAllLines(path);\nSystem.out.println(lines.size());\nSystem.out.println(lines);</code></pre>",
+        "hint": "The string contains two newline characters, creating two lines of content.",
+        "answer": "<code>2</code><br><code>[Hello, World]</code>",
+        "explanation": "The string \"Hello\\nWorld\\n\" has two lines of content (the trailing newline does not create a third line in readAllLines). The List has 2 elements."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-java\">try (BufferedWriter bw = new BufferedWriter(new FileWriter(\"test.txt\"))) {\n    bw.write(\"Line1\");\n    bw.newLine();\n    bw.write(\"Line2\");\n    // Note: no newLine() after Line2\n}\n\nint lineCount = 0;\ntry (BufferedReader br = new BufferedReader(new FileReader(\"test.txt\"))) {\n    while (br.readLine() != null) {\n        lineCount++;\n    }\n}\nSystem.out.println(lineCount);</code></pre>",
+        "hint": "readLine() reads until newline or end of file. The last line has no trailing newline.",
+        "answer": "<code>2</code>",
+        "explanation": "Two lines of text exist: \"Line1\" (followed by newline) and \"Line2\" (followed by EOF). <code>readLine()</code> returns both as valid strings. The count is 2."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-java\">try (PrintWriter pw = new PrintWriter(\"matrix.txt\")) {\n    for (int i = 1; i <= 3; i++) {\n        for (int j = 1; j <= 3; j++) {\n            pw.print(i * j + \" \");\n        }\n        pw.println();\n    }\n}\n\ntry (BufferedReader br = new BufferedReader(new FileReader(\"matrix.txt\"))) {\n    System.out.println(br.readLine());\n    br.readLine(); // skip second line\n    System.out.println(br.readLine());\n}</code></pre>",
+        "hint": "Trace the multiplication table. The second line is skipped.",
+        "answer": "<code>1 2 3 </code><br><code>3 6 9 </code>",
+        "explanation": "Row 1: 1*1=1, 1*2=2, 1*3=3. Row 2 (skipped): 2*1=2, 2*2=4, 2*3=6. Row 3: 3*1=3, 3*2=6, 3*3=9. First and third lines are printed."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-java\">Files.write(Paths.get(\"numbers.txt\"), \n    List.of(\"10\", \"20\", \"abc\", \"30\", \"xyz\"));\n\nint sum = 0;\nint errors = 0;\nfor (String line : Files.readAllLines(Paths.get(\"numbers.txt\"))) {\n    try {\n        sum += Integer.parseInt(line);\n    } catch (NumberFormatException e) {\n        errors++;\n    }\n}\nSystem.out.println(\"Sum: \" + sum);\nSystem.out.println(\"Errors: \" + errors);</code></pre>",
+        "hint": "\"abc\" and \"xyz\" cannot be parsed as integers.",
+        "answer": "<code>Sum: 60</code><br><code>Errors: 2</code>",
+        "explanation": "10 + 20 + 30 = 60. \"abc\" and \"xyz\" each throw <code>NumberFormatException</code>, incrementing errors to 2. The try-catch inside the loop allows processing to continue after errors."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the purpose of the <code>newLine()</code> method in <code>BufferedWriter</code>?",
+        "hint": "Think about what happens on different operating systems.",
+        "answer": "<code>newLine()</code> writes a platform-independent line separator. On Windows, the line separator is \"\\r\\n\". On Linux/Mac, it is \"\\n\". Using <code>newLine()</code> instead of hardcoding \"\\n\" makes your code work correctly across all operating systems.",
+        "explanation": "If you hardcode \"\\n\" on Windows, some text editors may not recognize the line breaks. <code>newLine()</code> uses <code>System.lineSeparator()</code> internally to write the correct sequence for the current platform."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>Files.readAllLines()</code> and <code>Files.lines()</code>?",
+        "hint": "One loads everything into memory at once. The other processes lazily.",
+        "answer": "<code>Files.readAllLines()</code> reads the entire file into a <code>List&lt;String&gt;</code> (eager loading -- all in memory). <code>Files.lines()</code> returns a <code>Stream&lt;String&gt;</code> that reads lines lazily (on demand). Use <code>readAllLines()</code> for small files when you need random access. Use <code>Files.lines()</code> for large files or when using stream operations.",
+        "explanation": "Lazy loading with <code>Files.lines()</code> is memory-efficient because only one line is in memory at a time during stream processing. The stream must be closed (use try-with-resources), unlike the List from <code>readAllLines()</code>."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which class is used to check if a file exists on disk?",
+        "options": [
+          "FileReader",
+          "FileWriter",
+          "File",
+          "Scanner"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>File</code> class provides the <code>exists()</code> method to check if a file or directory exists. <code>FileReader</code> and <code>FileWriter</code> are for reading/writing, and <code>Scanner</code> is for parsing input."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does BufferedReader.readLine() return when it reaches the end of the file?",
+        "options": [
+          "An empty string \"\"",
+          "The string \"EOF\"",
+          "null",
+          "-1"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>readLine()</code> returns <code>null</code> at end of file. An empty string is returned for blank lines in the file. -1 is returned by <code>read()</code> (single character), not <code>readLine()</code>."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does try-with-resources guarantee?",
+        "options": [
+          "The file will be created automatically",
+          "Resources will be closed automatically when the block exits",
+          "No exceptions will occur",
+          "The file will never be corrupted"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> try-with-resources automatically calls <code>close()</code> on all declared resources when the block exits, whether normally or due to an exception."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which stream type should you use to copy an image file?",
+        "options": [
+          "FileReader / FileWriter",
+          "BufferedReader / BufferedWriter",
+          "FileInputStream / FileOutputStream",
+          "Scanner / PrintWriter"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Images are binary files. Character streams (Reader/Writer) apply character encoding that corrupts binary data. Byte streams (InputStream/OutputStream) handle raw bytes correctly."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "How do you open a FileWriter in append mode?",
+        "options": [
+          "new FileWriter(\"file.txt\", \"append\")",
+          "new FileWriter(\"file.txt\", true)",
+          "new FileWriter(\"file.txt\").append()",
+          "FileWriter.append(\"file.txt\")"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The second parameter <code>true</code> enables append mode. Without it (or with <code>false</code>), the file is truncated on opening."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Which method reads the entire file content as a single String in Java 11+?",
+        "options": [
+          "Files.readAllLines()",
+          "Files.readString()",
+          "Files.lines()",
+          "Files.read()"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>Files.readString()</code> (Java 11+) reads the entire file into one String. <code>readAllLines()</code> returns a List of lines. <code>lines()</code> returns a Stream. There is no <code>Files.read()</code> method for text."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What interface must a class implement to be used in try-with-resources?",
+        "options": [
+          "Serializable",
+          "Closeable only",
+          "AutoCloseable",
+          "Readable"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>AutoCloseable</code> is the required interface. <code>Closeable</code> extends <code>AutoCloseable</code>, so classes implementing <code>Closeable</code> also work. But the actual requirement is <code>AutoCloseable</code>."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the advantage of BufferedReader over FileReader?",
+        "options": [
+          "BufferedReader can read binary files",
+          "BufferedReader uses an internal buffer for better performance",
+          "BufferedReader can write to files",
+          "BufferedReader does not require closing"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>BufferedReader</code> reads large chunks into an internal buffer (default 8192 chars), reducing the number of disk I/O operations. <code>FileReader</code> reads from disk on every <code>read()</code> call, which is much slower."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does Files.lines() return?",
+        "options": [
+          "List<String>",
+          "String[]",
+          "Stream<String>",
+          "Iterator<String>"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>Files.lines()</code> returns a <code>Stream&lt;String&gt;</code> that lazily reads lines from the file. This stream must be closed after use (try-with-resources)."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What exception is thrown when you try to open a file that does not exist with FileReader?",
+        "options": [
+          "IOException",
+          "FileNotFoundException",
+          "NullPointerException",
+          "IllegalArgumentException"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>FileNotFoundException</code> is thrown when the specified file does not exist. It is a subclass of <code>IOException</code>, so <code>catch (IOException e)</code> would also catch it."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "In try-with-resources with multiple resources, in what order are they closed?",
+        "options": [
+          "In the order they were declared",
+          "In reverse order of declaration",
+          "Alphabetical order",
+          "Random order"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Resources are closed in reverse order of declaration. This is important because later resources may depend on earlier ones (e.g., a BufferedWriter wrapping a FileWriter), so the outer wrapper must be closed first."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What happens if both the try block and the close() method throw exceptions in try-with-resources?",
+        "options": [
+          "The try exception is lost",
+          "The close exception is lost",
+          "The close exception is added as a suppressed exception to the try exception",
+          "Both exceptions are thrown simultaneously"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The exception from the try block is the primary exception that propagates. The exception from <code>close()</code> is added as a suppressed exception, retrievable via <code>getSuppressed()</code>. This ensures no exception is silently lost."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Why is Scanner slower than BufferedReader for reading large files?",
+        "options": [
+          "Scanner cannot read files at all",
+          "Scanner uses regex parsing internally for every token",
+          "Scanner does not use buffering",
+          "Scanner reads binary data instead of text"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>Scanner</code> uses regular expressions internally to parse tokens, which adds overhead. <code>BufferedReader.readLine()</code> simply reads bytes until a newline, which is significantly faster for plain line-by-line reading."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is a suppressed exception in the context of try-with-resources?",
+        "options": [
+          "An exception that is ignored",
+          "An exception thrown by close() that is attached to the primary exception",
+          "An exception that does not have a stack trace",
+          "An exception that occurs in the finally block"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When the try block throws an exception and then <code>close()</code> also throws an exception, the close exception is added as a suppressed exception to the primary one using <code>addSuppressed()</code>. Retrieve it with <code>exception.getSuppressed()</code>."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "Which NIO class provides static methods like readAllLines(), write(), and exists()?",
+        "options": [
+          "Path",
+          "Paths",
+          "Files",
+          "File"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>Files</code> class (java.nio.file.Files) provides static utility methods for file operations. <code>Path</code> represents a file path. <code>Paths</code> creates Path objects. <code>File</code> is the older java.io class."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Word Counter",
+        "difficulty": "Easy",
+        "description": "Write a program that reads a text file and counts the total number of lines, words, and characters. Print the results in a formatted table.",
+        "sampleInput": "Create a file with: \"Hello World\\nJava is great\\nFile handling rocks\"",
+        "sampleOutput": "Lines: 3\nWords: 8\nCharacters: 42",
+        "constraints": "Use BufferedReader with try-with-resources. Handle FileNotFoundException.",
+        "solution": "import java.io.*;\n\npublic class WordCounter {\n    public static void main(String[] args) {\n        // Create test file\n        try (PrintWriter pw = new PrintWriter(\"sample.txt\")) {\n            pw.println(\"Hello World\");\n            pw.println(\"Java is great\");\n            pw.println(\"File handling rocks\");\n        } catch (FileNotFoundException e) {\n            System.out.println(\"Cannot create file\");\n            return;\n        }\n\n        int lines = 0, words = 0, chars = 0;\n        try (BufferedReader br = new BufferedReader(new FileReader(\"sample.txt\"))) {\n            String line;\n            while ((line = br.readLine()) != null) {\n                lines++;\n                chars += line.length();\n                String[] tokens = line.trim().split(\"\\\\s+\");\n                if (!tokens[0].isEmpty()) {\n                    words += tokens.length;\n                }\n            }\n        } catch (IOException e) {\n            System.out.println(\"Error: \" + e.getMessage());\n            return;\n        }\n        System.out.println(\"Lines: \" + lines);\n        System.out.println(\"Words: \" + words);\n        System.out.println(\"Characters: \" + chars);\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "CSV Processor",
+        "difficulty": "Medium",
+        "description": "Write a program that reads a CSV file containing student names and three subject marks, calculates the average for each student, and writes the results to a new file with a pass/fail status (pass if average >= 40).",
+        "sampleInput": "Arjun,85,92,78\\nSneha,35,28,42\\nVikram,91,88,95",
+        "sampleOutput": "Arjun,85,92,78,85.0,PASS\\nSneha,35,28,42,35.0,FAIL\\nVikram,91,88,95,91.3,PASS",
+        "constraints": "Use BufferedReader for reading and PrintWriter for writing. Handle NumberFormatException for invalid data.",
+        "solution": "import java.io.*;\n\npublic class CSVProcessor {\n    public static void main(String[] args) {\n        // Create input file\n        try (PrintWriter pw = new PrintWriter(\"students.csv\")) {\n            pw.println(\"Arjun,85,92,78\");\n            pw.println(\"Sneha,35,28,42\");\n            pw.println(\"Vikram,91,88,95\");\n        } catch (FileNotFoundException e) {\n            return;\n        }\n\n        try (\n            BufferedReader br = new BufferedReader(new FileReader(\"students.csv\"));\n            PrintWriter pw = new PrintWriter(new FileWriter(\"results.csv\"))\n        ) {\n            String line;\n            while ((line = br.readLine()) != null) {\n                String[] parts = line.split(\",\");\n                String name = parts[0];\n                try {\n                    int m1 = Integer.parseInt(parts[1]);\n                    int m2 = Integer.parseInt(parts[2]);\n                    int m3 = Integer.parseInt(parts[3]);\n                    double avg = (m1 + m2 + m3) / 3.0;\n                    String status = avg >= 40 ? \"PASS\" : \"FAIL\";\n                    pw.printf(\"%s,%d,%d,%d,%.1f,%s%n\", name, m1, m2, m3, avg, status);\n                } catch (NumberFormatException e) {\n                    System.out.println(\"Invalid data for: \" + name);\n                }\n            }\n            System.out.println(\"Results written to results.csv\");\n        } catch (IOException e) {\n            System.out.println(\"Error: \" + e.getMessage());\n        }\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "File Search Tool",
+        "difficulty": "Medium",
+        "description": "Write a program that reads a text file and searches for a given keyword. Print each line that contains the keyword along with its line number. Also print the total number of occurrences.",
+        "sampleInput": "Search for \"Java\" in a file with multiple lines mentioning Java.",
+        "sampleOutput": "Line 2: Java is a popular language.\nLine 5: Java supports OOP.\nFound 2 occurrences in 2 lines.",
+        "constraints": "Use BufferedReader. Perform case-insensitive search. Count total occurrences (not just lines).",
+        "solution": "import java.io.*;\n\npublic class FileSearch {\n    public static void main(String[] args) {\n        try (PrintWriter pw = new PrintWriter(\"article.txt\")) {\n            pw.println(\"Programming is fun.\");\n            pw.println(\"Java is a popular language.\");\n            pw.println(\"Python is also widely used.\");\n            pw.println(\"Many companies use both.\");\n            pw.println(\"Java supports OOP and multithreading.\");\n        } catch (FileNotFoundException e) {\n            return;\n        }\n\n        String keyword = \"Java\";\n        int lineCount = 0, totalOccurrences = 0;\n        try (BufferedReader br = new BufferedReader(new FileReader(\"article.txt\"))) {\n            String line;\n            int lineNum = 0;\n            while ((line = br.readLine()) != null) {\n                lineNum++;\n                String lowerLine = line.toLowerCase();\n                String lowerKey = keyword.toLowerCase();\n                int index = 0;\n                int count = 0;\n                while ((index = lowerLine.indexOf(lowerKey, index)) != -1) {\n                    count++;\n                    index += lowerKey.length();\n                }\n                if (count > 0) {\n                    lineCount++;\n                    totalOccurrences += count;\n                    System.out.println(\"Line \" + lineNum + \": \" + line);\n                }\n            }\n        } catch (IOException e) {\n            System.out.println(\"Error: \" + e.getMessage());\n            return;\n        }\n        System.out.println(\"Found \" + totalOccurrences + \" occurrences in \" + lineCount + \" lines.\");\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "File Merger with NIO",
+        "difficulty": "Medium",
+        "description": "Write a program using Java NIO that creates two text files, then merges their content into a third file. Each line in the merged file should be prefixed with the source file name.",
+        "sampleInput": "File1: \"Hello\\nWorld\", File2: \"Java\\nRocks\"",
+        "sampleOutput": "[file1.txt] Hello\\n[file1.txt] World\\n[file2.txt] Java\\n[file2.txt] Rocks",
+        "constraints": "Use java.nio.file.Files and Path. Use Streams API to process lines.",
+        "solution": "import java.nio.file.*;\nimport java.io.IOException;\nimport java.util.*;\nimport java.util.stream.*;\n\npublic class FileMerger {\n    public static void main(String[] args) throws IOException {\n        Path file1 = Paths.get(\"file1.txt\");\n        Path file2 = Paths.get(\"file2.txt\");\n        Path merged = Paths.get(\"merged.txt\");\n\n        Files.write(file1, List.of(\"Hello\", \"World\"));\n        Files.write(file2, List.of(\"Java\", \"Rocks\"));\n\n        List<String> mergedLines = new ArrayList<>();\n\n        try (Stream<String> lines = Files.lines(file1)) {\n            lines.map(line -> \"[file1.txt] \" + line)\n                 .forEach(mergedLines::add);\n        }\n        try (Stream<String> lines = Files.lines(file2)) {\n            lines.map(line -> \"[file2.txt] \" + line)\n                 .forEach(mergedLines::add);\n        }\n\n        Files.write(merged, mergedLines);\n\n        System.out.println(\"Merged file contents:\");\n        Files.readAllLines(merged).forEach(System.out::println);\n\n        Files.deleteIfExists(file1);\n        Files.deleteIfExists(file2);\n        Files.deleteIfExists(merged);\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Log File Analyzer",
+        "difficulty": "Hard",
+        "description": "Write a program that reads a log file where each line has the format 'LEVEL: message' (levels: INFO, WARN, ERROR). Count occurrences of each level, find all ERROR messages, and write a summary report to a new file.",
+        "sampleInput": "INFO: Server started\\nWARN: Low memory\\nERROR: Null pointer\\nINFO: Request processed\\nERROR: Timeout",
+        "sampleOutput": "Summary: INFO=2, WARN=1, ERROR=2\\nErrors:\\n  1. Null pointer\\n  2. Timeout",
+        "constraints": "Use BufferedReader for reading, PrintWriter for writing. Handle malformed lines gracefully.",
+        "solution": "import java.io.*;\nimport java.util.*;\n\npublic class LogAnalyzer {\n    public static void main(String[] args) {\n        try (PrintWriter pw = new PrintWriter(\"app.log\")) {\n            pw.println(\"INFO: Server started\");\n            pw.println(\"WARN: Low memory detected\");\n            pw.println(\"ERROR: NullPointerException in UserService\");\n            pw.println(\"INFO: Request processed successfully\");\n            pw.println(\"ERROR: Connection timeout to database\");\n            pw.println(\"INFO: Scheduled task completed\");\n            pw.println(\"WARN: Deprecated API usage\");\n        } catch (FileNotFoundException e) {\n            return;\n        }\n\n        Map<String, Integer> counts = new LinkedHashMap<>();\n        counts.put(\"INFO\", 0);\n        counts.put(\"WARN\", 0);\n        counts.put(\"ERROR\", 0);\n        List<String> errors = new ArrayList<>();\n\n        try (BufferedReader br = new BufferedReader(new FileReader(\"app.log\"))) {\n            String line;\n            while ((line = br.readLine()) != null) {\n                int colonIndex = line.indexOf(':');\n                if (colonIndex == -1) continue;\n                String level = line.substring(0, colonIndex).trim();\n                String message = line.substring(colonIndex + 1).trim();\n                counts.merge(level, 1, Integer::sum);\n                if (\"ERROR\".equals(level)) {\n                    errors.add(message);\n                }\n            }\n        } catch (IOException e) {\n            System.out.println(\"Read error: \" + e.getMessage());\n            return;\n        }\n\n        try (PrintWriter pw = new PrintWriter(\"report.txt\")) {\n            pw.println(\"=== Log Analysis Report ===\");\n            pw.println();\n            for (Map.Entry<String, Integer> entry : counts.entrySet()) {\n                pw.printf(\"%-8s: %d%n\", entry.getKey(), entry.getValue());\n            }\n            pw.println();\n            pw.println(\"Error Details:\");\n            for (int i = 0; i < errors.size(); i++) {\n                pw.printf(\"  %d. %s%n\", i + 1, errors.get(i));\n            }\n            System.out.println(\"Report written to report.txt\");\n        } catch (FileNotFoundException e) {\n            System.out.println(\"Write error: \" + e.getMessage());\n        }\n    }\n}"
+      }
+    ]
+  }
+}

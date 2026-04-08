@@ -1,0 +1,723 @@
+{
+  "title": "Strings in Java",
+  "slug": "strings-in-java",
+  "language": "java",
+  "chapter": 11,
+  "difficulty": "Intermediate",
+  "readingTime": "32 min",
+  "lastUpdated": "2026-04-08",
+  "totalQuestions": 65,
+  "seo": {
+    "title": "Strings in Java - String Methods, StringBuilder, Immutability | Modern Age Coders",
+    "description": "Learn Java strings including String class, immutability, String pool, == vs .equals(), StringBuilder, StringBuffer, and string formatting. Includes 65+ practice questions with output prediction and coding challenges.",
+    "keywords": "java strings, string methods java, StringBuilder java, string immutability java, java string pool, java string comparison, java string equals, java string tutorial, java StringBuilder vs StringBuffer, java string formatting"
+  },
+  "content": {
+    "what": "<h2>What Are Strings in Java?</h2><p>A <strong>String</strong> in Java is an object that represents a sequence of characters. Unlike primitive data types such as <code>int</code> or <code>char</code>, strings in Java are objects of the <code>java.lang.String</code> class. This distinction is critical because it means strings have methods, can be passed as objects, and follow object-oriented rules including immutability.</p><p>Every Java program that prints output, reads user input, or processes text relies on strings. From storing a student's name to building SQL queries, from parsing JSON responses to formatting log messages, strings are the backbone of text processing in Java.</p><h3>Creating Strings</h3><p>Java provides two primary ways to create strings:</p><p><strong>1. String Literal:</strong> <code>String name = \"Aarav\";</code> — Created using double quotes. Java stores this in a special memory area called the <strong>String Pool</strong>. If another variable is assigned the same literal, Java reuses the existing object from the pool instead of creating a new one. This is memory-efficient.</p><p><strong>2. Using the <code>new</code> keyword:</strong> <code>String name = new String(\"Aarav\");</code> — Explicitly creates a new String object on the heap, bypassing the String Pool. Even if an identical string exists in the pool, a new object is created. This is rarely needed in practice.</p><p>Unlike Python and JavaScript, Java does not support single quotes for strings. Single quotes in Java are reserved for the <code>char</code> data type: <code>char ch = 'A';</code>.</p>",
+    "why": "<h2>Why Are Strings Important in Java?</h2><p>Strings are one of the most heavily tested topics in Java interviews and university exams. Here is why mastering them is non-negotiable for any serious Java developer:</p><h3>1. Strings Are Everywhere in Java Applications</h3><p>Every <code>System.out.println()</code> call involves a string. Every <code>Scanner.nextLine()</code> returns a string. Configuration files, database queries, API endpoints, file paths, error messages — all are strings. You cannot write a meaningful Java program without manipulating strings.</p><h3>2. Immutability Is a Core Interview Concept</h3><p>Java strings are immutable — once created, their content cannot be changed. This single property leads to dozens of interview questions about the String Pool, memory management, thread safety, and why <code>StringBuilder</code> exists. Understanding immutability is understanding Java's design philosophy.</p><h3>3. The == vs .equals() Trap</h3><p>One of the most common bugs in Java programs comes from using <code>==</code> instead of <code>.equals()</code> to compare strings. This distinction between reference equality and content equality is fundamental to Java and is tested in virtually every placement exam.</p><h3>4. Performance-Critical String Operations</h3><p>Concatenating strings in a loop using <code>+</code> creates a new object every iteration, leading to O(n^2) performance. Knowing when to use <code>StringBuilder</code> versus the <code>+</code> operator separates junior developers from those who understand Java internals.</p><h3>5. Foundation for Collections, I/O, and Regex</h3><p>Strings interact with almost every part of the Java ecosystem: they are keys in HashMaps, they are read from and written to files, they are matched against regular expressions, and they are serialized to JSON. Weak string skills create a bottleneck across all these areas.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. String Immutability</h3><p>In Java, strings are <strong>immutable</strong>. Once a String object is created, its character sequence cannot be modified. Every operation that appears to modify a string actually creates a new String object.</p><pre><code>String s = \"Hello\";\ns.toUpperCase(); // Returns \"HELLO\" but s is still \"Hello\"\ns = s.toUpperCase(); // Now s points to the new \"HELLO\" object</code></pre><p>Why is this important? Immutability provides three key benefits: (1) <strong>Thread safety</strong> — multiple threads can share the same String without synchronization. (2) <strong>Security</strong> — strings used as class names, file paths, or network addresses cannot be altered after creation. (3) <strong>Hashcode caching</strong> — since the content never changes, the hashcode can be computed once and reused, making strings efficient as HashMap keys.</p><h3>2. The String Pool</h3><p>Java maintains a special memory area called the <strong>String Pool</strong> (or String Intern Pool) within the heap. When you create a string using a literal, Java first checks if an identical string already exists in the pool. If it does, the new variable simply references the existing object. If not, a new object is created in the pool.</p><pre><code>String a = \"Hello\";\nString b = \"Hello\";\nSystem.out.println(a == b); // true — same object in the pool</code></pre><p>When you use <code>new String(\"Hello\")</code>, Java creates a new object on the heap regardless of whether \"Hello\" exists in the pool. The pool object is still created (for the literal), but the variable points to the heap object.</p><pre><code>String c = new String(\"Hello\");\nSystem.out.println(a == c); // false — different objects\nSystem.out.println(a.equals(c)); // true — same content</code></pre><p>The <code>intern()</code> method forces a string into the pool: <code>String d = c.intern();</code> After this, <code>a == d</code> would be <code>true</code>.</p><h3>3. String Comparison: == vs .equals() vs .compareTo()</h3><p>This is one of the most critical distinctions in Java:</p><p><strong><code>==</code> (Reference Equality):</strong> Checks whether two variables point to the exact same object in memory. It does NOT compare the content of the strings.</p><p><strong><code>.equals()</code> (Content Equality):</strong> Checks whether two strings contain the same sequence of characters. This is what you should use for string comparison in almost all cases.</p><p><strong><code>.equalsIgnoreCase()</code>:</strong> Same as <code>.equals()</code> but ignores case differences. <code>\"Hello\".equalsIgnoreCase(\"hello\")</code> returns <code>true</code>.</p><p><strong><code>.compareTo()</code> (Lexicographic Comparison):</strong> Returns 0 if strings are equal, a negative value if the calling string comes before the argument, and a positive value if it comes after. Used for sorting.</p><pre><code>\"apple\".compareTo(\"banana\"); // negative (a comes before b)\n\"banana\".compareTo(\"apple\"); // positive (b comes after a)\n\"apple\".compareTo(\"apple\");  // 0 (equal)</code></pre><h3>4. Essential String Methods</h3><p>The String class provides over 60 methods. Here are the ones you must know:</p><h4>Length and Character Access</h4><p><code>length()</code> returns the number of characters. <code>charAt(int index)</code> returns the character at the given index (0-based). <code>toCharArray()</code> converts the string to a character array.</p><h4>Searching</h4><p><code>indexOf(String str)</code> returns the index of the first occurrence, or -1 if not found. <code>lastIndexOf(String str)</code> returns the index of the last occurrence. <code>contains(CharSequence s)</code> returns true if the string contains the given sequence.</p><h4>Extraction</h4><p><code>substring(int beginIndex)</code> returns a substring from the given index to the end. <code>substring(int beginIndex, int endIndex)</code> returns a substring from beginIndex (inclusive) to endIndex (exclusive).</p><h4>Case Conversion</h4><p><code>toUpperCase()</code> and <code>toLowerCase()</code> return new strings with all characters converted to the respective case.</p><h4>Trimming and Replacing</h4><p><code>trim()</code> removes leading and trailing whitespace. <code>replace(char oldChar, char newChar)</code> replaces all occurrences of a character. <code>replace(CharSequence target, CharSequence replacement)</code> replaces all occurrences of a substring.</p><h4>Splitting and Joining</h4><p><code>split(String regex)</code> splits the string into an array based on a delimiter pattern. <code>String.join(CharSequence delimiter, CharSequence... elements)</code> joins multiple strings with a delimiter (Java 8+).</p><h4>Checking Content</h4><p><code>startsWith(String prefix)</code> and <code>endsWith(String suffix)</code> check the beginning and end of a string. <code>isEmpty()</code> returns true if the string has length 0. <code>isBlank()</code> returns true if the string is empty or contains only whitespace (Java 11+).</p><h4>Conversion</h4><p><code>String.valueOf(int i)</code> converts a primitive to a string. <code>toCharArray()</code> converts to a char array. <code>getBytes()</code> converts to a byte array.</p><h3>5. StringBuilder — Mutable Strings</h3><p>Since strings are immutable, repeated concatenation in a loop creates many temporary objects, leading to poor performance. <code>StringBuilder</code> solves this by providing a mutable character sequence.</p><pre><code>StringBuilder sb = new StringBuilder();\nfor (int i = 0; i < 5; i++) {\n    sb.append(\"Item \" + i + \", \");\n}\nString result = sb.toString();</code></pre><p>Key StringBuilder methods: <code>append()</code> adds text at the end. <code>insert(int offset, String str)</code> inserts text at a position. <code>delete(int start, int end)</code> removes characters. <code>reverse()</code> reverses the sequence. <code>toString()</code> converts back to a String.</p><h3>6. StringBuffer — Thread-Safe Mutable Strings</h3><p><code>StringBuffer</code> is identical to <code>StringBuilder</code> in functionality but all its methods are <code>synchronized</code>, making it thread-safe. The trade-off is slower performance due to synchronization overhead. Use <code>StringBuilder</code> in single-threaded contexts (which is most of the time) and <code>StringBuffer</code> only when multiple threads access the same mutable string.</p><h3>7. String Formatting</h3><p>Java provides two main ways to format strings:</p><p><strong><code>String.format()</code>:</strong> Returns a formatted string without printing it.</p><pre><code>String msg = String.format(\"Name: %s, Age: %d, GPA: %.2f\", \"Priya\", 20, 9.45);</code></pre><p><strong><code>System.out.printf()</code>:</strong> Prints a formatted string directly to the console.</p><pre><code>System.out.printf(\"Score: %d out of %d%n\", 85, 100);</code></pre><p>Common format specifiers: <code>%s</code> for strings, <code>%d</code> for integers, <code>%f</code> for floating-point numbers, <code>%.2f</code> for 2 decimal places, <code>%n</code> for a platform-independent newline.</p><h3>8. String Concatenation Performance</h3><p>The <code>+</code> operator for string concatenation is convenient but has a hidden cost. In a loop, each <code>+</code> creates a new String object, copies the old content plus the new content, and discards the old object. For n iterations, this results in O(n^2) time complexity.</p><pre><code>// BAD: O(n^2) — creates n intermediate String objects\nString result = \"\";\nfor (int i = 0; i < 10000; i++) {\n    result += i + \",\"; // new object every iteration\n}\n\n// GOOD: O(n) — single StringBuilder, no copying\nStringBuilder sb = new StringBuilder();\nfor (int i = 0; i < 10000; i++) {\n    sb.append(i).append(\",\");\n}\nString result = sb.toString();</code></pre><p>Note: The Java compiler optimizes simple concatenation like <code>\"Hello\" + name</code> using StringBuilder internally. The problem arises only in loops.</p>",
+    "codeExamples": [
+      {
+        "title": "String Creation — Literal vs new",
+        "code": "public class StringCreation {\n    public static void main(String[] args) {\n        // String literal — stored in String Pool\n        String s1 = \"Hello\";\n        String s2 = \"Hello\";\n\n        // Using new — creates a new object on the heap\n        String s3 = new String(\"Hello\");\n\n        System.out.println(s1 == s2);       // true (same pool object)\n        System.out.println(s1 == s3);       // false (different objects)\n        System.out.println(s1.equals(s3));  // true (same content)\n\n        // intern() — moves heap string to the pool\n        String s4 = s3.intern();\n        System.out.println(s1 == s4);       // true (same pool object)\n    }\n}",
+        "language": "java",
+        "explanation": "String literals are stored in the String Pool, so <code>s1</code> and <code>s2</code> point to the same object (== returns true). <code>new String()</code> always creates a separate heap object, so <code>s1 == s3</code> is false even though the content is identical. <code>.equals()</code> compares content and returns true. <code>intern()</code> returns the pool reference for a given string, so <code>s1 == s4</code> is true.",
+        "output": "true\nfalse\ntrue\ntrue"
+      },
+      {
+        "title": "String Comparison — == vs .equals() vs .compareTo()",
+        "code": "public class StringComparison {\n    public static void main(String[] args) {\n        String a = \"Java\";\n        String b = \"Java\";\n        String c = new String(\"Java\");\n        String d = \"java\";\n\n        // == checks reference (same object?)\n        System.out.println(a == b);              // true\n        System.out.println(a == c);              // false\n\n        // .equals() checks content (same characters?)\n        System.out.println(a.equals(c));         // true\n        System.out.println(a.equals(d));         // false (case matters)\n\n        // .equalsIgnoreCase() ignores case\n        System.out.println(a.equalsIgnoreCase(d)); // true\n\n        // .compareTo() returns int for lexicographic order\n        System.out.println(\"apple\".compareTo(\"banana\")); // negative\n        System.out.println(\"banana\".compareTo(\"apple\")); // positive\n        System.out.println(\"apple\".compareTo(\"apple\"));  // 0\n    }\n}",
+        "language": "java",
+        "explanation": "<code>==</code> checks if two references point to the same object in memory. For literals in the pool, this is true. For objects created with <code>new</code>, it is false. <code>.equals()</code> compares the actual character content and is the correct way to compare strings in almost all situations. <code>.compareTo()</code> returns 0 for equal strings, a negative number if the caller is lexicographically smaller, and a positive number if it is larger.",
+        "output": "true\nfalse\ntrue\nfalse\ntrue\n-1\n1\n0"
+      },
+      {
+        "title": "Essential String Methods",
+        "code": "public class StringMethods {\n    public static void main(String[] args) {\n        String s = \"  Modern Age Coders  \";\n\n        // Length and trimming\n        System.out.println(s.length());          // 21\n        System.out.println(s.trim());            // \"Modern Age Coders\"\n        System.out.println(s.trim().length());   // 17\n\n        String name = \"Kavitha Suresh\";\n\n        // Character access\n        System.out.println(name.charAt(0));      // K\n        System.out.println(name.charAt(name.length() - 1)); // h\n\n        // Case conversion\n        System.out.println(name.toUpperCase());  // KAVITHA SURESH\n        System.out.println(name.toLowerCase());  // kavitha suresh\n\n        // Search methods\n        System.out.println(name.indexOf(\"a\"));       // 1\n        System.out.println(name.lastIndexOf(\"a\"));   // 9\n        System.out.println(name.contains(\"Suresh\")); // true\n        System.out.println(name.indexOf(\"xyz\"));     // -1\n\n        // Substring\n        System.out.println(name.substring(0, 7));    // Kavitha\n        System.out.println(name.substring(8));       // Suresh\n    }\n}",
+        "language": "java",
+        "explanation": "<code>length()</code> returns character count including spaces. <code>trim()</code> removes leading and trailing whitespace. <code>charAt()</code> returns the character at a given zero-based index. <code>indexOf()</code> returns the first occurrence of a substring or -1 if not found. <code>lastIndexOf()</code> returns the last occurrence. <code>contains()</code> returns a boolean. <code>substring(start, end)</code> extracts characters from start (inclusive) to end (exclusive).",
+        "output": "21\nModern Age Coders\n17\nK\nh\nKAVITHA SURESH\nkavitha suresh\n1\n9\ntrue\n-1\nKavitha\nSuresh"
+      },
+      {
+        "title": "split(), join(), replace(), and startsWith()/endsWith()",
+        "code": "public class StringOperations {\n    public static void main(String[] args) {\n        // split()\n        String csv = \"Aarav,Priya,Rohan,Meera\";\n        String[] names = csv.split(\",\");\n        for (String name : names) {\n            System.out.println(name);\n        }\n\n        // String.join() — Java 8+\n        String joined = String.join(\" | \", names);\n        System.out.println(joined);\n\n        // replace()\n        String text = \"Java is hard. Java is confusing.\";\n        System.out.println(text.replace(\"hard\", \"fun\"));\n        System.out.println(text.replace('a', 'o'));\n\n        // startsWith() and endsWith()\n        String file = \"Report2026.pdf\";\n        System.out.println(file.startsWith(\"Report\")); // true\n        System.out.println(file.endsWith(\".pdf\"));     // true\n        System.out.println(file.endsWith(\".doc\"));     // false\n    }\n}",
+        "language": "java",
+        "explanation": "<code>split()</code> takes a regex pattern and returns a String array. <code>String.join()</code> is a static method that concatenates elements with a delimiter. <code>replace()</code> has two overloads: one for single characters and one for CharSequences. <code>startsWith()</code> and <code>endsWith()</code> check prefixes and suffixes and are commonly used for file type validation.",
+        "output": "Aarav\nPriya\nRohan\nMeera\nAarav | Priya | Rohan | Meera\nJava is fun. Java is confusing.\nJovo is hord. Jovo is confusing.\ntrue\ntrue\nfalse"
+      },
+      {
+        "title": "StringBuilder — Mutable String Operations",
+        "code": "public class StringBuilderDemo {\n    public static void main(String[] args) {\n        StringBuilder sb = new StringBuilder(\"Hello\");\n\n        // append()\n        sb.append(\" World\");\n        System.out.println(sb);              // Hello World\n\n        // insert()\n        sb.insert(5, \",\");\n        System.out.println(sb);              // Hello, World\n\n        // delete()\n        sb.delete(5, 7);                     // Remove \", \"\n        System.out.println(sb);              // HelloWorld\n\n        // reverse()\n        sb.reverse();\n        System.out.println(sb);              // dlroWolleH\n\n        // replace()\n        sb.reverse();                        // back to HelloWorld\n        sb.replace(0, 5, \"Namaste\");\n        System.out.println(sb);              // NamasteWorld\n\n        // length and charAt\n        System.out.println(sb.length());     // 12\n        System.out.println(sb.charAt(0));    // N\n\n        // Convert to String\n        String result = sb.toString();\n        System.out.println(result);          // NamasteWorld\n    }\n}",
+        "language": "java",
+        "explanation": "StringBuilder is mutable, so all methods modify the same object instead of creating new ones. <code>append()</code> adds to the end. <code>insert()</code> adds at a specific position. <code>delete(start, end)</code> removes characters from start (inclusive) to end (exclusive). <code>reverse()</code> reverses in place. <code>replace(start, end, str)</code> replaces a range with a new string. Always call <code>toString()</code> when you need an immutable String.",
+        "output": "Hello World\nHello, World\nHelloWorld\ndlroWolleH\nNamasteWorld\n12\nN\nNamasteWorld"
+      },
+      {
+        "title": "String Formatting with String.format() and printf()",
+        "code": "public class StringFormatting {\n    public static void main(String[] args) {\n        String name = \"Deepak\";\n        int age = 21;\n        double gpa = 8.756;\n\n        // String.format()\n        String info = String.format(\"Name: %s, Age: %d, GPA: %.2f\", name, age, gpa);\n        System.out.println(info);\n\n        // printf() — prints directly\n        System.out.printf(\"%-15s %5d %8.2f%n\", \"Deepak\", 21, 8.756);\n        System.out.printf(\"%-15s %5d %8.2f%n\", \"Sneha\", 20, 9.120);\n        System.out.printf(\"%-15s %5d %8.2f%n\", \"Vikram\", 22, 7.890);\n\n        // Padding with zeros\n        System.out.printf(\"Roll No: %05d%n\", 42);\n\n        // valueOf()\n        int num = 100;\n        String str = String.valueOf(num);\n        System.out.println(str + \" is a String: \" + (str instanceof String));\n    }\n}",
+        "language": "java",
+        "explanation": "<code>String.format()</code> works like printf but returns a String instead of printing. <code>%s</code> is for strings, <code>%d</code> for integers, <code>%.2f</code> for two decimal places. <code>%-15s</code> left-aligns a string in a 15-character field. <code>%05d</code> zero-pads an integer to 5 digits. <code>%n</code> is the platform-independent newline. <code>String.valueOf()</code> converts any primitive to its String representation.",
+        "output": "Name: Deepak, Age: 21, GPA: 8.76\nDeepak               21     8.76\nSneha                20     9.12\nVikram               22     7.89\nRoll No: 00042\n100 is a String: true"
+      },
+      {
+        "title": "String Concatenation Performance — Why StringBuilder Matters",
+        "code": "public class ConcatPerformance {\n    public static void main(String[] args) {\n        int n = 50000;\n\n        // BAD: String concatenation in a loop — O(n^2)\n        long start1 = System.currentTimeMillis();\n        String bad = \"\";\n        for (int i = 0; i < n; i++) {\n            bad += i;\n        }\n        long time1 = System.currentTimeMillis() - start1;\n        System.out.println(\"String + loop: \" + time1 + \" ms\");\n\n        // GOOD: StringBuilder — O(n)\n        long start2 = System.currentTimeMillis();\n        StringBuilder good = new StringBuilder();\n        for (int i = 0; i < n; i++) {\n            good.append(i);\n        }\n        String result = good.toString();\n        long time2 = System.currentTimeMillis() - start2;\n        System.out.println(\"StringBuilder: \" + time2 + \" ms\");\n\n        System.out.println(\"Both produce same result: \" + bad.equals(result));\n    }\n}",
+        "language": "java",
+        "explanation": "String concatenation with <code>+</code> in a loop creates a new String object on every iteration, copying all previous characters plus the new ones. For n iterations, this results in approximately n*(n+1)/2 character copies, which is O(n^2). StringBuilder maintains a resizable internal buffer and only copies characters when the buffer needs to expand, resulting in O(n) performance. For 50,000 iterations, the difference can be hundreds of milliseconds versus single-digit milliseconds.",
+        "output": "String + loop: 890 ms\nStringBuilder: 3 ms\nBoth produce same result: true"
+      },
+      {
+        "title": "toCharArray(), valueOf(), and Character Checking",
+        "code": "public class StringCharOps {\n    public static void main(String[] args) {\n        String s = \"Hello World 123\";\n\n        // toCharArray()\n        char[] chars = s.toCharArray();\n        System.out.println(\"Length: \" + chars.length);\n        System.out.println(\"First char: \" + chars[0]);\n\n        // Count digits, letters, and spaces\n        int digits = 0, letters = 0, spaces = 0;\n        for (char c : chars) {\n            if (Character.isDigit(c)) digits++;\n            else if (Character.isLetter(c)) letters++;\n            else if (c == ' ') spaces++;\n        }\n        System.out.println(\"Digits: \" + digits);\n        System.out.println(\"Letters: \" + letters);\n        System.out.println(\"Spaces: \" + spaces);\n\n        // valueOf() conversions\n        System.out.println(String.valueOf(42));      // \"42\"\n        System.out.println(String.valueOf(3.14));    // \"3.14\"\n        System.out.println(String.valueOf(true));    // \"true\"\n        System.out.println(String.valueOf('A'));     // \"A\"\n    }\n}",
+        "language": "java",
+        "explanation": "<code>toCharArray()</code> converts a String into a <code>char[]</code>, useful for character-by-character processing. The <code>Character</code> wrapper class provides static methods like <code>isDigit()</code>, <code>isLetter()</code>, <code>isUpperCase()</code>, and <code>isLowerCase()</code> for checking individual characters. <code>String.valueOf()</code> is overloaded to accept any primitive type and returns its string representation.",
+        "output": "Length: 15\nFirst char: H\nDigits: 3\nLetters: 10\nSpaces: 2\n42\n3.14\ntrue\nA"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using == Instead of .equals() to Compare Strings",
+        "wrongCode": "String a = new String(\"Hello\");\nString b = new String(\"Hello\");\nif (a == b) {\n    System.out.println(\"Equal\");\n} else {\n    System.out.println(\"Not equal\"); // This runs!\n}",
+        "error": "No compilation error, but the comparison checks references, not content. Both objects have the same content but are different objects on the heap.",
+        "correctCode": "String a = new String(\"Hello\");\nString b = new String(\"Hello\");\nif (a.equals(b)) {\n    System.out.println(\"Equal\"); // This runs correctly\n}",
+        "explanation": "<code>==</code> compares object references (memory addresses), not content. Two String objects created with <code>new</code> are always different objects even if they contain the same characters. Always use <code>.equals()</code> for string content comparison. This is one of the most common bugs in Java and is asked in virtually every interview."
+      },
+      {
+        "title": "Calling a Method on a Null String",
+        "wrongCode": "String name = null;\nSystem.out.println(name.length()); // NullPointerException",
+        "error": "Exception in thread \"main\" java.lang.NullPointerException",
+        "correctCode": "String name = null;\nif (name != null) {\n    System.out.println(name.length());\n} else {\n    System.out.println(\"Name is not set\");\n}\n// Or use a constant on the left: \"Hello\".equals(name) — safe even if name is null",
+        "explanation": "Calling any method on a <code>null</code> reference throws a <code>NullPointerException</code>. Always check for null before calling methods. A common defensive technique is to put the known non-null string on the left: <code>\"expected\".equals(name)</code> instead of <code>name.equals(\"expected\")</code>."
+      },
+      {
+        "title": "Forgetting That String Methods Return New Strings",
+        "wrongCode": "String name = \"  aarav  \";\nname.trim();\nname.toUpperCase();\nSystem.out.println(name); // Still \"  aarav  \"",
+        "error": "No error, but the original string is unchanged because the return values were not saved.",
+        "correctCode": "String name = \"  aarav  \";\nname = name.trim().toUpperCase();\nSystem.out.println(name); // AARAV",
+        "explanation": "Since strings are immutable, methods like <code>trim()</code> and <code>toUpperCase()</code> do not modify the original string. They return a new String object. You must assign the result back to a variable. Method chaining works: <code>name.trim().toUpperCase()</code> first trims, then converts the trimmed result to uppercase."
+      },
+      {
+        "title": "String Concatenation with + in a Loop",
+        "wrongCode": "String result = \"\";\nfor (int i = 0; i < 10000; i++) {\n    result += i + \",\";\n}\n// Extremely slow — O(n^2) time, creates 10000 temporary objects",
+        "error": "No compilation error, but severe performance degradation. Each += creates a new String object and copies all previous characters.",
+        "correctCode": "StringBuilder sb = new StringBuilder();\nfor (int i = 0; i < 10000; i++) {\n    sb.append(i).append(\",\");\n}\nString result = sb.toString();\n// Fast — O(n) time, single mutable object",
+        "explanation": "The <code>+</code> operator in a loop causes Java to create a new String object on every iteration, copying the entire accumulated string plus the new part. For n iterations, the total character copies are approximately n^2/2. Use <code>StringBuilder</code> in loops to maintain a single mutable buffer that grows efficiently."
+      },
+      {
+        "title": "Using length Instead of length() for Strings",
+        "wrongCode": "String name = \"Sneha\";\nSystem.out.println(name.length); // Compilation error",
+        "error": "error: cannot find symbol — symbol: variable length",
+        "correctCode": "String name = \"Sneha\";\nSystem.out.println(name.length()); // 5\n\n// Note: arrays use .length (no parentheses)\nint[] arr = {1, 2, 3};\nSystem.out.println(arr.length); // 3",
+        "explanation": "In Java, strings use <code>length()</code> (a method), while arrays use <code>length</code> (a field). This inconsistency is a frequent source of errors. Strings are objects, so they have a method. Arrays are special objects with a public <code>length</code> field. Collections use <code>size()</code>. Three different ways to get \"length\" in Java."
+      },
+      {
+        "title": "IndexOutOfBoundsException with charAt() or substring()",
+        "wrongCode": "String s = \"Hello\";\nSystem.out.println(s.charAt(5)); // StringIndexOutOfBoundsException",
+        "error": "Exception in thread \"main\" java.lang.StringIndexOutOfBoundsException: String index out of range: 5",
+        "correctCode": "String s = \"Hello\";\n// Valid indices are 0 to s.length()-1\nSystem.out.println(s.charAt(s.length() - 1)); // 'o'\n\n// Always check bounds before accessing\nint index = 5;\nif (index >= 0 && index < s.length()) {\n    System.out.println(s.charAt(index));\n} else {\n    System.out.println(\"Index out of range\");\n}",
+        "explanation": "String indices in Java are 0-based. For a string of length 5, valid indices are 0 through 4. Accessing index 5 (or any index >= length or < 0) throws a <code>StringIndexOutOfBoundsException</code>. Unlike Python, Java does not support negative indexing. Always validate indices before using <code>charAt()</code> or <code>substring()</code>."
+      }
+    ],
+    "summary": [
+      "Strings in Java are immutable objects of the java.lang.String class. Once created, their content cannot be changed. Every modification creates a new String object.",
+      "String literals are stored in the String Pool for memory efficiency. The new keyword bypasses the pool and always creates a separate heap object.",
+      "Use .equals() to compare string content, not ==. The == operator checks reference equality (same object), while .equals() checks content equality (same characters). This is the single most important rule for Java strings.",
+      "Key String methods: length(), charAt(), substring(), indexOf(), lastIndexOf(), contains(), startsWith(), endsWith(), toUpperCase(), toLowerCase(), trim(), replace(), split(), and String.join().",
+      "StringBuilder provides a mutable character sequence for efficient string building. Use it in loops instead of the + operator to avoid O(n^2) performance degradation.",
+      "StringBuffer is the thread-safe version of StringBuilder. Use StringBuilder in single-threaded code (most cases) and StringBuffer only when thread safety is required.",
+      "String.format() and System.out.printf() provide C-style formatting with %s (string), %d (integer), %f (float), and %.Nf (N decimal places).",
+      "compareTo() enables lexicographic comparison: returns 0 for equal strings, negative if the caller is smaller, positive if larger. Used for sorting.",
+      "toCharArray() converts a String to a char array for character-by-character processing. The Character class provides isDigit(), isLetter(), isUpperCase(), and other checking methods.",
+      "The intern() method returns the String Pool reference for any string, enabling == comparison. Useful for performance optimization when comparing the same set of strings repeatedly."
+    ]
+  },
+  "relatedTopics": ["arrays-in-java", "methods-in-java"],
+  "practice": {
+    "totalQuestions": 65,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>String s = \"Hello\";\nSystem.out.println(s.length());\nSystem.out.println(s.charAt(0));\nSystem.out.println(s.charAt(4));</code></pre>",
+        "hint": "length() returns the total character count. charAt() uses 0-based indexing.",
+        "answer": "<code>5</code><br><code>H</code><br><code>o</code>",
+        "explanation": "\"Hello\" has 5 characters. <code>charAt(0)</code> returns the first character 'H'. <code>charAt(4)</code> returns the fifth character 'o'. Valid indices are 0 through 4."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>String s = \"Java Programming\";\nSystem.out.println(s.substring(0, 4));\nSystem.out.println(s.substring(5));</code></pre>",
+        "hint": "substring(start, end) includes start but excludes end. substring(start) goes to the end of the string.",
+        "answer": "<code>Java</code><br><code>Programming</code>",
+        "explanation": "<code>substring(0, 4)</code> extracts characters at indices 0, 1, 2, 3 giving \"Java\". <code>substring(5)</code> extracts from index 5 to the end, giving \"Programming\"."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>System.out.println(\"hello\".toUpperCase());\nSystem.out.println(\"WORLD\".toLowerCase());\nSystem.out.println(\"  spaces  \".trim());</code></pre>",
+        "hint": "toUpperCase() converts all letters to uppercase. toLowerCase() converts all to lowercase. trim() removes leading and trailing whitespace.",
+        "answer": "<code>HELLO</code><br><code>world</code><br><code>spaces</code>",
+        "explanation": "<code>toUpperCase()</code> returns \"HELLO\". <code>toLowerCase()</code> returns \"world\". <code>trim()</code> removes the spaces from both ends, returning \"spaces\". The original strings remain unchanged."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>String a = \"Hello\";\nString b = \"Hello\";\nString c = new String(\"Hello\");\nSystem.out.println(a == b);\nSystem.out.println(a == c);\nSystem.out.println(a.equals(c));</code></pre>",
+        "hint": "== checks reference equality. .equals() checks content equality. Literals share pool references; new creates a separate object.",
+        "answer": "<code>true</code><br><code>false</code><br><code>true</code>",
+        "explanation": "<code>a</code> and <code>b</code> are both literals pointing to the same String Pool object, so <code>==</code> returns true. <code>c</code> is created with <code>new</code>, so it is a different object on the heap — <code>==</code> returns false. <code>.equals()</code> compares content and returns true."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>String s = \"abcabc\";\nSystem.out.println(s.indexOf(\"b\"));\nSystem.out.println(s.lastIndexOf(\"b\"));\nSystem.out.println(s.indexOf(\"xyz\"));</code></pre>",
+        "hint": "indexOf() returns the first occurrence. lastIndexOf() returns the last. Both return -1 if not found.",
+        "answer": "<code>1</code><br><code>4</code><br><code>-1</code>",
+        "explanation": "<code>indexOf(\"b\")</code> finds the first 'b' at index 1. <code>lastIndexOf(\"b\")</code> finds the last 'b' at index 4. <code>indexOf(\"xyz\")</code> returns -1 because \"xyz\" does not exist in the string."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>String s = \"Hello\";\nSystem.out.println(s.contains(\"ell\"));\nSystem.out.println(s.startsWith(\"He\"));\nSystem.out.println(s.endsWith(\"LO\"));</code></pre>",
+        "hint": "contains(), startsWith(), and endsWith() are case-sensitive and return boolean values.",
+        "answer": "<code>true</code><br><code>true</code><br><code>false</code>",
+        "explanation": "<code>contains(\"ell\")</code> returns true because \"ell\" is a substring of \"Hello\". <code>startsWith(\"He\")</code> returns true. <code>endsWith(\"LO\")</code> returns false because the comparison is case-sensitive: \"lo\" is not \"LO\"."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>String s1 = \"Hello\";\nString s2 = \"Hel\" + \"lo\";\nString s3 = \"Hel\";\nString s4 = s3 + \"lo\";\nSystem.out.println(s1 == s2);\nSystem.out.println(s1 == s4);</code></pre>",
+        "hint": "Concatenation of compile-time constants is resolved at compile time and placed in the pool. Concatenation involving variables happens at runtime.",
+        "answer": "<code>true</code><br><code>false</code>",
+        "explanation": "<code>\"Hel\" + \"lo\"</code> is a compile-time constant expression. The compiler resolves it to \"Hello\" and puts it in the String Pool, so <code>s1 == s2</code> is true. <code>s3 + \"lo\"</code> involves a variable, so it is computed at runtime and creates a new object on the heap. <code>s1 == s4</code> is false."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>String s = \"Java\";\ns.concat(\" Programming\");\nSystem.out.println(s);</code></pre>",
+        "hint": "Strings are immutable. Does concat() modify the original string or return a new one?",
+        "answer": "<code>Java</code>",
+        "explanation": "<code>concat()</code> returns a new String with the argument appended, but the result is not assigned to any variable. Since strings are immutable, <code>s</code> still points to the original \"Java\". To get \"Java Programming\", you would need: <code>s = s.concat(\" Programming\");</code>"
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>String s = \"Hello World\";\nString[] parts = s.split(\" \");\nSystem.out.println(parts.length);\nSystem.out.println(parts[0]);\nSystem.out.println(parts[1]);</code></pre>",
+        "hint": "split() returns an array of substrings divided by the given delimiter.",
+        "answer": "<code>2</code><br><code>Hello</code><br><code>World</code>",
+        "explanation": "<code>split(\" \")</code> splits the string at each space, creating an array with two elements: \"Hello\" and \"World\". <code>parts.length</code> is 2."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>String s = \"abcdef\";\nSystem.out.println(s.replace('c', 'C'));\nSystem.out.println(s.replace(\"cd\", \"XX\"));\nSystem.out.println(s);</code></pre>",
+        "hint": "replace() returns a new string. The original remains unchanged.",
+        "answer": "<code>abCdef</code><br><code>abXXef</code><br><code>abcdef</code>",
+        "explanation": "<code>replace('c', 'C')</code> replaces all occurrences of 'c' with 'C', returning \"abCdef\". <code>replace(\"cd\", \"XX\")</code> replaces the substring \"cd\" with \"XX\", returning \"abXXef\". The original string <code>s</code> is unchanged because strings are immutable."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>StringBuilder sb = new StringBuilder(\"Hello\");\nsb.append(\" World\");\nsb.reverse();\nSystem.out.println(sb);\nSystem.out.println(sb.length());</code></pre>",
+        "hint": "StringBuilder methods modify the object in place and return the same object for chaining.",
+        "answer": "<code>dlroW olleH</code><br><code>11</code>",
+        "explanation": "<code>append(\" World\")</code> makes the content \"Hello World\". <code>reverse()</code> reverses it in place to \"dlroW olleH\". The length is 11 (including the space). Unlike String, StringBuilder methods modify the same object."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>StringBuilder sb = new StringBuilder(\"ABCDE\");\nsb.delete(1, 3);\nSystem.out.println(sb);\nsb.insert(1, \"XY\");\nSystem.out.println(sb);</code></pre>",
+        "hint": "delete(start, end) removes characters from start (inclusive) to end (exclusive). insert() shifts existing characters right.",
+        "answer": "<code>ADE</code><br><code>AXYDE</code>",
+        "explanation": "<code>delete(1, 3)</code> removes characters at indices 1 and 2 ('B' and 'C'), leaving \"ADE\". <code>insert(1, \"XY\")</code> inserts \"XY\" at index 1, pushing 'D' and 'E' to the right, giving \"AXYDE\"."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>System.out.println(\"apple\".compareTo(\"banana\"));\nSystem.out.println(\"banana\".compareTo(\"banana\"));\nSystem.out.println(\"cat\".compareTo(\"bat\"));</code></pre>",
+        "hint": "compareTo() compares character by character using Unicode values and returns the difference.",
+        "answer": "<code>-1</code><br><code>0</code><br><code>1</code>",
+        "explanation": "<code>\"apple\".compareTo(\"banana\")</code> compares 'a' (97) with 'b' (98), giving 97-98 = -1. <code>\"banana\".compareTo(\"banana\")</code> returns 0 because the strings are identical. <code>\"cat\".compareTo(\"bat\")</code> compares 'c' (99) with 'b' (98), giving 99-98 = 1."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>String s1 = \"Hello\";\nString s2 = new String(\"Hello\");\nString s3 = s2.intern();\nSystem.out.println(s1 == s2);\nSystem.out.println(s1 == s3);\nSystem.out.println(s2 == s3);</code></pre>",
+        "hint": "intern() returns the String Pool reference. s1 already points to the pool. s2 points to the heap.",
+        "answer": "<code>false</code><br><code>true</code><br><code>false</code>",
+        "explanation": "<code>s1</code> points to the pool \"Hello\". <code>s2</code> is a new heap object. <code>s3 = s2.intern()</code> returns the pool reference (same as s1). So <code>s1 == s2</code> is false (pool vs heap), <code>s1 == s3</code> is true (both point to pool), <code>s2 == s3</code> is false (heap vs pool)."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>String s = \"Java\";\nSystem.out.println(s.substring(0, 0));\nSystem.out.println(s.substring(2, 2));\nSystem.out.println(s.substring(4));</code></pre>",
+        "hint": "When start equals end in substring(), the result is an empty string. substring(length) also returns an empty string.",
+        "answer": "<code></code> (empty string)<br><code></code> (empty string)<br><code></code> (empty string)",
+        "explanation": "<code>substring(0, 0)</code> and <code>substring(2, 2)</code> both return empty strings because the range is empty (start equals end). <code>substring(4)</code> starts at index 4 which is the length of \"Java\", so there are no characters left. All three produce empty strings without errors."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>String s = \"aAbBcC\";\nString result = \"\";\nfor (int i = 0; i < s.length(); i++) {\n    char c = s.charAt(i);\n    if (Character.isUpperCase(c)) {\n        result += Character.toLowerCase(c);\n    } else {\n        result += Character.toUpperCase(c);\n    }\n}\nSystem.out.println(result);</code></pre>",
+        "hint": "The code swaps the case of each character: uppercase becomes lowercase and vice versa.",
+        "answer": "<code>AaBbCc</code>",
+        "explanation": "Each character's case is swapped. 'a' becomes 'A', 'A' becomes 'a', 'b' becomes 'B', 'B' becomes 'b', 'c' becomes 'C', 'C' becomes 'c'. The result is \"AaBbCc\"."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>String s = \"abcabc\";\nSystem.out.println(s.indexOf(\"bc\"));\nSystem.out.println(s.indexOf(\"bc\", 2));\nSystem.out.println(s.lastIndexOf(\"ab\"));</code></pre>",
+        "hint": "indexOf(str, fromIndex) starts searching from the given index. lastIndexOf() searches from the end.",
+        "answer": "<code>1</code><br><code>4</code><br><code>3</code>",
+        "explanation": "<code>indexOf(\"bc\")</code> finds the first \"bc\" at index 1. <code>indexOf(\"bc\", 2)</code> starts searching from index 2, finding \"bc\" at index 4. <code>lastIndexOf(\"ab\")</code> finds the last \"ab\" at index 3."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>String s1 = \"hello\";\nString s2 = \"HELLO\";\nSystem.out.println(s1.equals(s2));\nSystem.out.println(s1.equalsIgnoreCase(s2));\nSystem.out.println(s1.compareTo(s2) > 0);</code></pre>",
+        "hint": "equals() is case-sensitive. equalsIgnoreCase() ignores case. compareTo() uses Unicode values where lowercase letters have higher values than uppercase.",
+        "answer": "<code>false</code><br><code>true</code><br><code>true</code>",
+        "explanation": "<code>equals()</code> is case-sensitive: \"hello\" is not equal to \"HELLO\". <code>equalsIgnoreCase()</code> ignores case and returns true. <code>compareTo()</code> compares 'h' (104) with 'H' (72): 104-72 = 32 which is positive, so <code>s1.compareTo(s2) > 0</code> is true because lowercase letters have higher Unicode values."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>String s = \"Java\";\nSystem.out.println(s + \" is fun\");\nSystem.out.println(s);</code></pre>",
+        "hint": "The + operator creates a new string. It does not modify the original.",
+        "answer": "<code>Java is fun</code><br><code>Java</code>",
+        "explanation": "<code>s + \" is fun\"</code> creates a new string \"Java is fun\" and prints it. The original string <code>s</code> remains \"Java\" because strings are immutable. The result of concatenation was printed but not assigned back to <code>s</code>."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>String name = \"Rohit Sharma\";\nSystem.out.println(name.indexOf(' '));\nSystem.out.println(name.substring(0, name.indexOf(' ')));\nSystem.out.println(name.substring(name.indexOf(' ') + 1));</code></pre>",
+        "hint": "indexOf(' ') finds the space character. Use it to split first and last name.",
+        "answer": "<code>5</code><br><code>Rohit</code><br><code>Sharma</code>",
+        "explanation": "The space is at index 5. <code>substring(0, 5)</code> gives the first name \"Rohit\". <code>substring(6)</code> gives the last name \"Sharma\". This is a common pattern for extracting parts of a name."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>System.out.println(\"Hello\".isEmpty());\nSystem.out.println(\"\".isEmpty());\nSystem.out.println(\" \".isEmpty());</code></pre>",
+        "hint": "isEmpty() returns true only if the length is 0. A string with a space has length 1.",
+        "answer": "<code>false</code><br><code>true</code><br><code>false</code>",
+        "explanation": "<code>isEmpty()</code> returns true only when the string has zero characters (length 0). \"Hello\" has length 5, so false. \"\" has length 0, so true. \" \" (a single space) has length 1, so false. Use <code>isBlank()</code> (Java 11+) to check for whitespace-only strings."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>String s = \"Hello World Hello Java\";\nSystem.out.println(s.replace(\"Hello\", \"Hi\"));\nSystem.out.println(s.replaceFirst(\"Hello\", \"Hi\"));</code></pre>",
+        "hint": "replace() replaces all occurrences. replaceFirst() replaces only the first one.",
+        "answer": "<code>Hi World Hi Java</code><br><code>Hi World Hello Java</code>",
+        "explanation": "<code>replace(\"Hello\", \"Hi\")</code> replaces every occurrence of \"Hello\" with \"Hi\". <code>replaceFirst(\"Hello\", \"Hi\")</code> replaces only the first occurrence, leaving the second \"Hello\" unchanged."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>String[] names = {\"Aarav\", \"Priya\", \"Rohan\"};\nString joined = String.join(\"-\", names);\nSystem.out.println(joined);\nString[] parts = joined.split(\"-\");\nSystem.out.println(parts.length);</code></pre>",
+        "hint": "join() combines array elements with a delimiter. split() breaks a string at the delimiter.",
+        "answer": "<code>Aarav-Priya-Rohan</code><br><code>3</code>",
+        "explanation": "<code>String.join(\"-\", names)</code> joins the array elements with \"-\" as separator, producing \"Aarav-Priya-Rohan\". <code>split(\"-\")</code> splits this string at each \"-\", creating an array of 3 elements."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>String s = \"Java\";\nchar[] chars = s.toCharArray();\nchars[0] = 'L';\nSystem.out.println(new String(chars));\nSystem.out.println(s);</code></pre>",
+        "hint": "toCharArray() creates a separate copy. Modifying the array does not affect the original string.",
+        "answer": "<code>Lava</code><br><code>Java</code>",
+        "explanation": "<code>toCharArray()</code> returns a new char array that is a copy of the string's characters. Modifying <code>chars[0]</code> changes the array but not the original string. <code>new String(chars)</code> creates a new string \"Lava\" from the modified array. The original <code>s</code> remains \"Java\"."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>System.out.println(String.format(\"%s scored %d/%d\", \"Meera\", 85, 100));\nSystem.out.println(String.format(\"PI = %.3f\", 3.14159));\nSystem.out.println(String.format(\"%05d\", 42));</code></pre>",
+        "hint": "%s for string, %d for integer, %.3f for 3 decimal places, %05d for zero-padded integer.",
+        "answer": "<code>Meera scored 85/100</code><br><code>PI = 3.142</code><br><code>00042</code>",
+        "explanation": "<code>%s</code> inserts the string \"Meera\". <code>%d</code> inserts integers 85 and 100. <code>%.3f</code> formats the double to 3 decimal places (rounds 3.14159 to 3.142). <code>%05d</code> pads the integer 42 with leading zeros to make it 5 characters wide."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>String s1 = \"Java\";\nString s2 = \"Ja\";\nString s3 = s2 + \"va\";\nSystem.out.println(s1 == s3);\nSystem.out.println(s1 == s3.intern());</code></pre>",
+        "hint": "Variable-based concatenation creates a runtime object (not in the pool). intern() returns the pool reference.",
+        "answer": "<code>false</code><br><code>true</code>",
+        "explanation": "<code>s2 + \"va\"</code> involves a variable, so it is computed at runtime and creates a new heap object. <code>s1 == s3</code> is false because they are different objects. <code>s3.intern()</code> returns the pool reference for \"Java\", which is the same object <code>s1</code> points to, so <code>s1 == s3.intern()</code> is true."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>StringBuilder sb = new StringBuilder(\"Hello\");\nStringBuilder sb2 = sb;\nsb2.append(\" World\");\nSystem.out.println(sb);\nSystem.out.println(sb == sb2);</code></pre>",
+        "hint": "sb and sb2 reference the same StringBuilder object. Modifying one affects the other.",
+        "answer": "<code>Hello World</code><br><code>true</code>",
+        "explanation": "<code>sb2 = sb</code> does not create a copy; both variables reference the same StringBuilder object. When <code>sb2.append(\" World\")</code> is called, it modifies the shared object. So <code>sb</code> also shows \"Hello World\". <code>sb == sb2</code> is true because they point to the same object."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>String s = \"a,b,,c,\";\nString[] parts = s.split(\",\");\nSystem.out.println(parts.length);\nfor (String p : parts) {\n    System.out.print(\"[\" + p + \"]\");\n}</code></pre>",
+        "hint": "split() removes trailing empty strings by default. But what about empty strings in the middle?",
+        "answer": "<code>4</code><br><code>[a][b][][c]</code>",
+        "explanation": "Splitting \"a,b,,c,\" by \",\" produces: \"a\", \"b\", \"\", \"c\", \"\". By default, <code>split()</code> removes trailing empty strings. The last empty string (after the final comma) is removed, leaving 4 elements. The empty string between the two commas (between b and c) is kept."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>StringBuilder</code> and <code>StringBuffer</code>? When would you use each?",
+        "hint": "Think about thread safety and performance.",
+        "answer": "<code>StringBuilder</code> is not synchronized (not thread-safe) but is faster. <code>StringBuffer</code> is synchronized (thread-safe) but is slower due to synchronization overhead. Use <code>StringBuilder</code> in single-threaded code (most cases) and <code>StringBuffer</code> only when multiple threads access the same mutable string.",
+        "explanation": "Both classes provide a mutable character sequence with the same API (append, insert, delete, reverse). The only difference is thread safety. <code>StringBuffer</code> was introduced in Java 1.0 with all synchronized methods. <code>StringBuilder</code> was added in Java 5 as a faster, non-synchronized alternative. In modern Java, single-threaded contexts are far more common, making <code>StringBuilder</code> the default choice."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why are Java strings immutable? What are the benefits?",
+        "hint": "Think about thread safety, the String Pool, hashing, and security.",
+        "answer": "Java strings are immutable to provide: (1) <strong>Thread safety</strong> — multiple threads can share strings without synchronization. (2) <strong>String Pool efficiency</strong> — immutability allows safe sharing of string objects. (3) <strong>Security</strong> — strings used as class names, file paths, or network addresses cannot be tampered with. (4) <strong>Hashcode caching</strong> — the hash can be computed once and reused, making strings efficient as HashMap keys.",
+        "explanation": "Immutability is a deliberate design decision. If strings were mutable, the String Pool could not exist because one variable's modification would affect all other variables pointing to the same pool object. Similarly, using mutable strings as HashMap keys would break the map if the key's content (and thus its hashcode) changed after insertion."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>String s1 = \"abc\";\nString s2 = \"abc\";\nSystem.out.println(s1.hashCode() == s2.hashCode());\nString s3 = new String(\"abc\");\nSystem.out.println(s1.hashCode() == s3.hashCode());\nSystem.out.println(s1 == s3);</code></pre>",
+        "hint": "hashCode() is based on content, not reference. Two strings with the same content have the same hashcode.",
+        "answer": "<code>true</code><br><code>true</code><br><code>false</code>",
+        "explanation": "<code>hashCode()</code> for Strings is computed from the characters. Since all three strings contain \"abc\", they have the same hashcode. However, <code>s1 == s3</code> is false because <code>==</code> checks reference equality, and <code>s3</code> is a separate heap object. Equal hashcodes do not mean <code>==</code> is true."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which of the following correctly creates a string in Java?",
+        "options": [
+          "String s = 'Hello';",
+          "String s = \"Hello\";",
+          "string s = \"Hello\";",
+          "String s = new char[]{'H','e','l','l','o'};"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Java strings use double quotes. Single quotes (A) are for char literals. Java is case-sensitive, so <code>string</code> (C) with a lowercase 's' is not a valid type. Option D creates a char array, not a String (though you can pass a char array to the String constructor)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does the .equals() method check when comparing two strings?",
+        "options": [
+          "Whether both variables refer to the same object",
+          "Whether both strings have the same length",
+          "Whether both strings contain the same sequence of characters",
+          "Whether both strings are stored in the String Pool"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>.equals()</code> compares the actual character content of two strings. Option A describes the behavior of <code>==</code>. Length alone (B) does not determine equality (\"abc\" and \"xyz\" have the same length but are not equal). Pool membership (D) is irrelevant to content equality."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is the return type of the split() method?",
+        "options": [
+          "String",
+          "char[]",
+          "String[]",
+          "List<String>"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>split()</code> returns a <code>String[]</code> (array of strings). It does not return a single String (A), a char array (B), or a List (D). To get a List, you would wrap it: <code>Arrays.asList(s.split(\",\"))</code>."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which method would you use to remove leading and trailing whitespace from a string?",
+        "options": [
+          "strip()",
+          "trim()",
+          "clean()",
+          "Both A and B"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> Both <code>trim()</code> and <code>strip()</code> (Java 11+) remove leading and trailing whitespace. <code>trim()</code> removes characters with Unicode value <= 32. <code>strip()</code> uses Unicode-aware whitespace detection and is the preferred modern choice. <code>clean()</code> (C) does not exist."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What happens when you try to modify a character in a String using charAt()?",
+        "options": [
+          "The character is modified successfully",
+          "A new string is created with the modification",
+          "charAt() is read-only and cannot modify the string",
+          "It throws an UnsupportedOperationException"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>charAt()</code> is a read-only method that returns the character at a given index. There is no <code>setCharAt()</code> method on String because strings are immutable. To modify characters, use <code>StringBuilder</code> which has a <code>setCharAt()</code> method."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "How many String objects are created by the statement: String s = new String(\"Hello\");?",
+        "options": [
+          "1",
+          "2",
+          "1 or 2, depending on the String Pool",
+          "3"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> If \"Hello\" is not already in the String Pool, two objects are created: one in the pool (for the literal) and one on the heap (for the <code>new</code> keyword). If \"Hello\" already exists in the pool, only one new object is created on the heap. This is a classic interview question."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the output of \"Hello\".substring(2, 2)?",
+        "options": [
+          "\"l\"",
+          "\"\" (empty string)",
+          "StringIndexOutOfBoundsException",
+          "null"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When beginIndex equals endIndex in <code>substring()</code>, the result is an empty string because there are no characters in the range. No exception is thrown. This is valid as long as both indices are within bounds (0 to length inclusive)."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which of the following is true about the String Pool?",
+        "options": [
+          "It stores all String objects regardless of how they are created",
+          "It stores only string literals and interned strings",
+          "It is located in the stack memory",
+          "It is garbage collected differently from the heap"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The String Pool stores string literals (created with quotes) and strings explicitly added via <code>intern()</code>. Strings created with <code>new</code> are stored on the heap, not in the pool (A is wrong). Since Java 7, the pool is part of the heap (C is wrong — it is not on the stack). Pool strings are garbage collected like other heap objects when unreferenced (D is misleading)."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the purpose of the intern() method?",
+        "options": [
+          "Converts a string to an internal format",
+          "Returns the String Pool reference for the given string",
+          "Makes a string thread-safe",
+          "Converts a StringBuilder to a String"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>intern()</code> checks if an equal string exists in the String Pool. If yes, it returns the pool reference. If not, it adds the string to the pool and returns that reference. This allows <code>==</code> comparison for interned strings. It has nothing to do with thread safety (C) or StringBuilder conversion (D)."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Why should you use StringBuilder instead of String concatenation in a loop?",
+        "options": [
+          "StringBuilder is thread-safe",
+          "String concatenation in a loop creates O(n) temporary objects, causing O(n^2) performance",
+          "String concatenation is deprecated",
+          "StringBuilder uses less memory per character"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Each <code>+=</code> in a loop creates a new String object and copies all previous characters. Over n iterations, this leads to O(n^2) total character copies. StringBuilder maintains a mutable buffer, avoiding redundant copies. StringBuilder is NOT thread-safe (A) — that is StringBuffer. String concatenation is not deprecated (C)."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the output of the following?<br><pre><code>String s1 = \"abc\";\nString s2 = \"a\" + \"b\" + \"c\";\nSystem.out.println(s1 == s2);</code></pre>",
+        "options": [
+          "true",
+          "false",
+          "Compilation error",
+          "Runtime error"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> The expression <code>\"a\" + \"b\" + \"c\"</code> consists entirely of compile-time string constants. The Java compiler evaluates this at compile time and replaces it with the literal \"abc\". Both <code>s1</code> and <code>s2</code> reference the same String Pool object, so <code>==</code> returns true."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the difference between String.valueOf(null) and passing null to System.out.println()?",
+        "options": [
+          "Both print \"null\"",
+          "valueOf(null) throws NullPointerException, println(null) prints \"null\"",
+          "valueOf(null) prints \"null\", println(null) throws NullPointerException",
+          "Both throw NullPointerException"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>String.valueOf(Object obj)</code> handles null gracefully and returns the string \"null\". However, <code>String.valueOf(null)</code> is ambiguous — the compiler may match it to <code>valueOf(char[])</code> which throws a <code>NullPointerException</code>. <code>System.out.println((Object) null)</code> prints \"null\" safely. This is a nuanced interview question about method overloading resolution."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Which of the following statements about StringBuffer is FALSE?",
+        "options": [
+          "StringBuffer is thread-safe",
+          "StringBuffer is faster than StringBuilder",
+          "StringBuffer methods are synchronized",
+          "StringBuffer was introduced before StringBuilder"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is FALSE and therefore the correct answer.</strong> StringBuffer is SLOWER than StringBuilder because of synchronization overhead. Each method call acquires and releases a lock. StringBuffer is thread-safe (A) because its methods are synchronized (C). StringBuffer was in Java 1.0, while StringBuilder was added in Java 5 (D)."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What does \"Hello\".compareTo(\"Hello World\") return?",
+        "options": [
+          "0",
+          "A negative value",
+          "A positive value",
+          "It depends on the JVM"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When one string is a prefix of the other, <code>compareTo()</code> returns the difference in lengths. \"Hello\" has length 5 and \"Hello World\" has length 11. The return value is 5 - 11 = -6 (a negative number), meaning \"Hello\" comes before \"Hello World\" lexicographically."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "What is the correct way to check if a string contains the substring \"Java\"?",
+        "options": [
+          "s.has(\"Java\")",
+          "s.includes(\"Java\")",
+          "s.contains(\"Java\")",
+          "s.find(\"Java\")"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>contains()</code> checks if a string contains the specified character sequence and returns a boolean. Java does not have <code>has()</code> (A) or <code>includes()</code> (B) methods on String. <code>find()</code> (D) is a Python method; Java uses <code>indexOf()</code> which returns an int, not a boolean."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What is the output of \"abc\".charAt(3)?",
+        "options": [
+          "'c'",
+          "' ' (space)",
+          "StringIndexOutOfBoundsException",
+          "null"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The string \"abc\" has valid indices 0, 1, and 2. Index 3 is out of bounds, so <code>charAt(3)</code> throws a <code>StringIndexOutOfBoundsException</code>. Unlike Python, Java does not support negative indexing and strictly enforces bounds."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Count Vowels and Consonants",
+        "difficulty": "Easy",
+        "description": "Aarav has the string \"Modern Age Coders\". Write a Java program that counts and prints the number of vowels and consonants (ignore spaces and special characters).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Vowels: 6\nConsonants: 9",
+        "constraints": "Use a for loop and Character.isLetter() for checking. Consider both uppercase and lowercase.",
+        "solution": "public class CountVowels {\n    public static void main(String[] args) {\n        String text = \"Modern Age Coders\";\n        int vowels = 0, consonants = 0;\n        for (int i = 0; i < text.length(); i++) {\n            char c = Character.toLowerCase(text.charAt(i));\n            if (\"aeiou\".indexOf(c) != -1) {\n                vowels++;\n            } else if (Character.isLetter(c)) {\n                consonants++;\n            }\n        }\n        System.out.println(\"Vowels: \" + vowels);\n        System.out.println(\"Consonants: \" + consonants);\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Reverse Each Word",
+        "difficulty": "Easy",
+        "description": "Given the string \"Java is powerful\", reverse each word individually but keep the word order the same. Print the result.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "avaJ si lufrewop",
+        "constraints": "Use split(), StringBuilder for reversing, and String.join().",
+        "solution": "public class ReverseWords {\n    public static void main(String[] args) {\n        String text = \"Java is powerful\";\n        String[] words = text.split(\" \");\n        String[] reversed = new String[words.length];\n        for (int i = 0; i < words.length; i++) {\n            reversed[i] = new StringBuilder(words[i]).reverse().toString();\n        }\n        System.out.println(String.join(\" \", reversed));\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Check Palindrome",
+        "difficulty": "Easy",
+        "description": "Write a Java program that checks whether the string \"madam\" is a palindrome (reads the same forwards and backwards). Print the result.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "madam is a palindrome",
+        "constraints": "Use StringBuilder to reverse the string and compare with .equals().",
+        "solution": "public class Palindrome {\n    public static void main(String[] args) {\n        String text = \"madam\";\n        String reversed = new StringBuilder(text).reverse().toString();\n        if (text.equals(reversed)) {\n            System.out.println(text + \" is a palindrome\");\n        } else {\n            System.out.println(text + \" is not a palindrome\");\n        }\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Title Case Converter",
+        "difficulty": "Medium",
+        "description": "Priya has the string \"the quick brown fox jumps over the lazy dog\". Write a Java program that converts it to title case — capitalize the first letter of each word.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "The Quick Brown Fox Jumps Over The Lazy Dog",
+        "constraints": "Use split() and substring(). Do not use any external library.",
+        "solution": "public class TitleCase {\n    public static void main(String[] args) {\n        String text = \"the quick brown fox jumps over the lazy dog\";\n        String[] words = text.split(\" \");\n        StringBuilder result = new StringBuilder();\n        for (int i = 0; i < words.length; i++) {\n            String word = words[i];\n            result.append(Character.toUpperCase(word.charAt(0)));\n            result.append(word.substring(1));\n            if (i < words.length - 1) {\n                result.append(\" \");\n            }\n        }\n        System.out.println(result.toString());\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Character Frequency Counter",
+        "difficulty": "Medium",
+        "description": "Write a Java program that prints the frequency of each character in the string \"banana\" (excluding spaces). Print each character and its count on a separate line, without repeating characters.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "b: 1\na: 3\nn: 2",
+        "constraints": "Use a loop. Track which characters have already been counted.",
+        "solution": "public class CharFrequency {\n    public static void main(String[] args) {\n        String text = \"banana\";\n        String counted = \"\";\n        for (int i = 0; i < text.length(); i++) {\n            char c = text.charAt(i);\n            if (counted.indexOf(c) == -1) {\n                int count = 0;\n                for (int j = 0; j < text.length(); j++) {\n                    if (text.charAt(j) == c) count++;\n                }\n                System.out.println(c + \": \" + count);\n                counted += c;\n            }\n        }\n    }\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Caesar Cipher Encoder",
+        "difficulty": "Medium",
+        "description": "Rohan wants to encode the message \"HELLO\" by shifting each letter 3 positions forward in the alphabet (A becomes D, B becomes E, ..., X becomes A, Y becomes B, Z becomes C). Write the encoder.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Encoded: KHOOR",
+        "constraints": "Use charAt(), type casting, and the modulus operator for wrapping.",
+        "solution": "public class CaesarCipher {\n    public static void main(String[] args) {\n        String message = \"HELLO\";\n        int shift = 3;\n        StringBuilder result = new StringBuilder();\n        for (int i = 0; i < message.length(); i++) {\n            char c = message.charAt(i);\n            int newPos = (c - 'A' + shift) % 26;\n            result.append((char) ('A' + newPos));\n        }\n        System.out.println(\"Encoded: \" + result);\n    }\n}"
+      },
+      {
+        "id": "cc-7",
+        "title": "Remove Duplicate Characters",
+        "difficulty": "Hard",
+        "description": "Write a Java program that removes duplicate characters from the string \"programming\" while preserving the order of first occurrence. Print the result.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "progamin",
+        "constraints": "Use StringBuilder to build the result. Track seen characters.",
+        "solution": "public class RemoveDuplicates {\n    public static void main(String[] args) {\n        String text = \"programming\";\n        StringBuilder result = new StringBuilder();\n        for (int i = 0; i < text.length(); i++) {\n            char c = text.charAt(i);\n            if (result.toString().indexOf(c) == -1) {\n                result.append(c);\n            }\n        }\n        System.out.println(result);\n    }\n}"
+      },
+      {
+        "id": "cc-8",
+        "title": "Anagram Checker",
+        "difficulty": "Hard",
+        "description": "Write a Java program that checks whether \"listen\" and \"silent\" are anagrams (contain the same characters in a different order). Print the result.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "listen and silent are anagrams",
+        "constraints": "Convert to char arrays, sort them, and compare. Use java.util.Arrays.",
+        "solution": "import java.util.Arrays;\n\npublic class AnagramCheck {\n    public static void main(String[] args) {\n        String s1 = \"listen\";\n        String s2 = \"silent\";\n        char[] arr1 = s1.toCharArray();\n        char[] arr2 = s2.toCharArray();\n        Arrays.sort(arr1);\n        Arrays.sort(arr2);\n        if (Arrays.equals(arr1, arr2)) {\n            System.out.println(s1 + \" and \" + s2 + \" are anagrams\");\n        } else {\n            System.out.println(s1 + \" and \" + s2 + \" are not anagrams\");\n        }\n    }\n}"
+      },
+      {
+        "id": "cc-9",
+        "title": "String Compression",
+        "difficulty": "Hard",
+        "description": "Write a Java program that compresses the string \"aaabbccddddee\" by replacing consecutive duplicate characters with the character followed by its count. Single characters should not have a count.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "a3b2c2d4e2",
+        "constraints": "Use a loop. Handle the last group carefully.",
+        "solution": "public class StringCompression {\n    public static void main(String[] args) {\n        String text = \"aaabbccddddee\";\n        StringBuilder result = new StringBuilder();\n        int i = 0;\n        while (i < text.length()) {\n            char c = text.charAt(i);\n            int count = 1;\n            while (i + count < text.length() && text.charAt(i + count) == c) {\n                count++;\n            }\n            result.append(c);\n            if (count > 1) {\n                result.append(count);\n            }\n            i += count;\n        }\n        System.out.println(result);\n    }\n}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Installing Java and Setting Up Your Environment - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Download JDK, set up an IDE like IntelliJ IDEA or Eclipse, and compile your first Java program.">
+    <meta name="keywords" content="installing java and setting up your environment, java tutorial, java installing java and setting up your environment, learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/installing-java-and-setup">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/installing-java-and-setup">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/installing-java-and-setup">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/installing-java-and-setup">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/installing-java-and-setup">
+    <meta property="og:title" content="Installing Java and Setting Up Your Environment - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Download JDK, set up an IDE like IntelliJ IDEA or Eclipse, and compile your first Java program.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/installing-java-and-setup">
+    <meta name="twitter:title" content="Installing Java and Setting Up Your Environment - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Download JDK, set up an IDE like IntelliJ IDEA or Eclipse, and compile your first Java program.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Installing Java and Setting Up Your Environment",
+    "description": "Download JDK, set up an IDE like IntelliJ IDEA or Eclipse, and compile your first Java program.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-07",
+    "dateModified": "2026-04-07",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/installing-java-and-setup"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/installing-java-and-setup"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Installing Java and Setting Up Your Environment",
+        "item": "https://learn.modernagecoders.com/resources/java/installing-java-and-setup"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "javac Not Found After Installation",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This is the most common setup issue. The <code>javac</code> command is located in the JDK's <code>bin</code> directory. If this directory is not in your system PATH, the terminal cannot find it. After modifying environment variables on Windows, you must open a <strong>new</strong> Command Prompt -- existing terminals retain the old PATH values."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "JAVA_HOME Points to JRE Instead of JDK",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "JAVA_HOME must point to the JDK root directory (which contains <code>bin/javac</code>), not the JRE directory. Build tools like Maven and Gradle check JAVA_HOME to find the compiler. If it points to the JRE, they cannot compile your code. Verify by checking that <code>%JAVA_HOME%/bin/javac</code> exists."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Running with .class Extension",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>java</code> command expects a <strong>class name</strong>, not a file name. When you write <code>java HelloWorld.class</code>, Java looks for a class literally named <code>HelloWorld.class</code> (with the dot and \"class\" being part of the name), which does not exist. Always use just the class name: <code>java HelloWorld</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "File Name Does Not Match Class Name",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In Java, the file name must exactly match the public class name, including capitalization. A public class named <code>HelloWorld</code> must be in a file named <code>HelloWorld.java</code>. This is not just a convention -- it is a compiler requirement. This is different from Python, where file names and class names can differ."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Multiple Java Versions Conflict",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Having multiple Java installations can cause version mismatches where <code>javac</code> (compiler) and <code>java</code> (runtime) come from different versions. If you compile with JDK 21 but run with JRE 8, you get an <code>UnsupportedClassVersionError</code>. Use <code>where java</code> (Windows) or <code>which java</code> (Linux/Mac) to check which Java executable is being used, and ensure both tools come from the same installation."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Installing Java and Setting Up Your Environment</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 2</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">18 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-07</span>
+            </div>
+            <h1 class="resource-title">Installing Java and Setting Up Your Environment</h1>
+            <a href="/resources/java/installing-java-and-setup/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Java Environment Setup?</h2><p>Setting up a Java development environment means installing the software tools you need to write, compile, and run Java programs on your computer. At a minimum, you need the <strong>Java Development Kit (JDK)</strong>, which provides the Java compiler (<code>javac</code>), the Java runtime (<code>java</code>), and the standard class libraries.</p><p>Beyond the JDK, most developers use an <strong>Integrated Development Environment (IDE)</strong> -- a specialized text editor that provides code completion, syntax highlighting, debugging tools, project management, and integrated compilation. The three most popular Java IDEs are <strong>IntelliJ IDEA</strong>, <strong>Eclipse</strong>, and <strong>VS Code with Java extensions</strong>.</p><p>This chapter walks you through downloading and installing the JDK, configuring environment variables (<code>JAVA_HOME</code> and <code>PATH</code>), verifying your installation, choosing and setting up an IDE, and compiling your first program from the command line.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Does Proper Setup Matter?</h2><p>A correctly configured development environment is the foundation of productive Java programming. Here is why each step matters:</p><h3>1. Without the JDK, You Cannot Compile</h3><p>The JDK provides the <code>javac</code> compiler that converts your source code to bytecode. Without it, you can only run pre-compiled Java programs (using the JRE), not create your own. Installing the correct JDK version ensures compatibility with the Java features you want to use.</p><h3>2. Environment Variables Enable Command-Line Access</h3><p>Setting <code>JAVA_HOME</code> and adding Java's <code>bin</code> directory to your system <code>PATH</code> allows you to run <code>javac</code> and <code>java</code> commands from any directory in your terminal. Without this configuration, you would need to type the full path to these executables every time, which is impractical.</p><h3>3. IDEs Dramatically Increase Productivity</h3><p>While you can write Java in a plain text editor and compile from the terminal, an IDE catches errors as you type, suggests code completions, helps you navigate large codebases, and provides integrated debugging. Professional Java developers universally use IDEs. Getting comfortable with one early saves countless hours.</p><h3>4. Correct Setup Prevents Frustrating Errors</h3><p>Many beginners spend hours debugging errors that are actually environment issues: wrong Java version, <code>javac</code> not found in PATH, JAVA_HOME pointing to JRE instead of JDK, or multiple Java installations conflicting. Getting the setup right from the start eliminates these distractions.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Choosing a JDK Distribution</h3><p>There are several JDK distributions available, all based on the same OpenJDK source code:</p><table><tr><th>Distribution</th><th>Provider</th><th>License</th><th>Recommendation</th></tr><tr><td>Oracle JDK</td><td>Oracle</td><td>Free for development (NFTC license since Java 17)</td><td>Good for learning</td></tr><tr><td>Eclipse Temurin</td><td>Adoptium</td><td>Free, open source (GPLv2+CE)</td><td>Recommended for beginners</td></tr><tr><td>Amazon Corretto</td><td>Amazon</td><td>Free, open source</td><td>Good for AWS projects</td></tr><tr><td>Azul Zulu</td><td>Azul Systems</td><td>Free community edition</td><td>Good alternative</td></tr><tr><td>Microsoft Build</td><td>Microsoft</td><td>Free, open source</td><td>Good for Azure projects</td></tr></table><p>For college students, <strong>Eclipse Temurin</strong> (from Adoptium) or <strong>Oracle JDK</strong> are the best choices. Both provide the full JDK with no licensing concerns for learning and personal projects. Always install the latest <strong>LTS version</strong> (Java 21 as of this writing).</p><h3>2. Downloading and Installing the JDK</h3><h4>On Windows</h4><ol><li>Visit <a href="https://adoptium.net/">https://adoptium.net/</a> or <a href="https://www.oracle.com/java/technologies/downloads/">Oracle's download page</a></li><li>Download the <strong>JDK 21 (LTS)</strong> installer for Windows x64 (.msi)</li><li>Run the installer and follow the prompts</li><li>Note the installation directory (typically <code>C:\Program Files\Java\jdk-21</code>)</li></ol><h4>On macOS</h4><ol><li>Download the JDK 21 .dmg or .pkg installer from Adoptium or Oracle</li><li>Double-click the downloaded file and follow the installation wizard</li><li>The JDK is typically installed in <code>/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home</code></li><li>Alternatively, use Homebrew: <code>brew install --cask temurin</code></li></ol><h4>On Linux (Ubuntu/Debian)</h4><ol><li>Open a terminal and run: <code>sudo apt update</code></li><li>Install OpenJDK: <code>sudo apt install openjdk-21-jdk</code></li><li>Verify: <code>java -version</code> and <code>javac -version</code></li></ol><h3>3. Setting JAVA_HOME and PATH</h3><p>After installing the JDK, you need to configure two environment variables so your system knows where Java is located:</p><h4>JAVA_HOME</h4><p><code>JAVA_HOME</code> should point to the root directory of your JDK installation. Many tools (Maven, Gradle, IDEs) use this variable to locate the JDK.</p><h4>PATH</h4><p>The <code>PATH</code> variable tells your operating system where to look for executable programs. You need to add the JDK's <code>bin</code> directory to PATH so you can run <code>javac</code> and <code>java</code> from any directory.</p><h4>Windows Configuration</h4><ol><li>Open <strong>System Properties</strong> > <strong>Environment Variables</strong> (search "Environment Variables" in Start)</li><li>Under <strong>System Variables</strong>, click <strong>New</strong>:<br>Variable name: <code>JAVA_HOME</code><br>Variable value: <code>C:\Program Files\Java\jdk-21</code></li><li>Find the <strong>Path</strong> variable in System Variables, click <strong>Edit</strong></li><li>Click <strong>New</strong> and add: <code>%JAVA_HOME%\bin</code></li><li>Click OK on all dialogs</li><li>Open a <strong>new</strong> Command Prompt (existing ones will not have the updated PATH)</li></ol><h4>macOS/Linux Configuration</h4><p>Add the following lines to your shell profile file (<code>~/.bashrc</code>, <code>~/.zshrc</code>, or <code>~/.bash_profile</code>):</p><pre><code>export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+export PATH=$JAVA_HOME/bin:$PATH</code></pre><p>Then run <code>source ~/.zshrc</code> (or the appropriate file) to apply the changes.</p><h3>4. Verifying Your Installation</h3><p>After setting environment variables, verify your installation by running two commands in a terminal:</p><pre><code>java -version</code></pre><p>This shows the JRE/JVM version and confirms that the <code>java</code> command is accessible. Expected output:</p><pre><code>openjdk version "21.0.2" 2024-01-16
+OpenJDK Runtime Environment Temurin-21.0.2+13 (build 21.0.2+13)
+OpenJDK 64-Bit Server VM Temurin-21.0.2+13 (build 21.0.2+13, mixed mode, sharing)</code></pre><pre><code>javac -version</code></pre><p>This confirms the compiler is accessible. Expected output:</p><pre><code>javac 21.0.2</code></pre><p>If either command fails with "command not found" or "not recognized," your PATH is not configured correctly. Go back and verify the environment variables.</p><h3>5. IDE Setup</h3><h4>IntelliJ IDEA (Recommended)</h4><p>IntelliJ IDEA by JetBrains is widely considered the best Java IDE. The <strong>Community Edition</strong> is free and sufficient for learning.</p><ol><li>Download from <a href="https://www.jetbrains.com/idea/download/">jetbrains.com/idea</a></li><li>Install and launch IntelliJ IDEA</li><li>Click <strong>New Project</strong></li><li>Select <strong>Java</strong> from the left panel</li><li>Choose your installed JDK from the SDK dropdown (IntelliJ usually detects it automatically)</li><li>Give your project a name (e.g., "JavaLearning") and click Create</li><li>Right-click on the <code>src</code> folder > New > Java Class > Name it "HelloWorld"</li></ol><h4>Eclipse</h4><p>Eclipse is a free, open-source IDE that has been the standard Java IDE in many companies for decades.</p><ol><li>Download Eclipse IDE for Java Developers from <a href="https://www.eclipse.org/downloads/">eclipse.org</a></li><li>Extract and run the installer</li><li>Choose a workspace directory (where your projects will be stored)</li><li>Go to File > New > Java Project</li><li>Name the project and click Finish</li><li>Right-click on <code>src</code> > New > Class > Name it "HelloWorld" and check "public static void main"</li></ol><h4>VS Code</h4><p>Visual Studio Code is a lightweight editor that becomes a capable Java IDE with extensions.</p><ol><li>Install VS Code from <a href="https://code.visualstudio.com/">code.visualstudio.com</a></li><li>Open VS Code and go to Extensions (Ctrl+Shift+X)</li><li>Search for and install <strong>"Extension Pack for Java"</strong> by Microsoft</li><li>This installs Language Support for Java, Debugger for Java, Maven, Test Runner, and Project Manager</li><li>Create a new file with <code>.java</code> extension and start coding</li></ol><h3>6. Compiling and Running from the Terminal</h3><p>Understanding command-line compilation is essential even if you use an IDE, because it teaches you what happens behind the scenes.</p><h4>Step 1: Create a Source File</h4><p>Create a file named <code>HelloWorld.java</code> (the file name must match the public class name).</p><h4>Step 2: Compile</h4><pre><code>javac HelloWorld.java</code></pre><p>This produces <code>HelloWorld.class</code> in the same directory. If there are errors, the compiler will display them with line numbers.</p><h4>Step 3: Run</h4><pre><code>java HelloWorld</code></pre><p>Note: You provide the <strong>class name</strong>, not the file name. Do NOT write <code>java HelloWorld.class</code>.</p><h4>Common Compilation Flags</h4><table><tr><th>Flag</th><th>Purpose</th><th>Example</th></tr><tr><td><code>-d</code></td><td>Specify output directory for .class files</td><td><code>javac -d bin HelloWorld.java</code></td></tr><tr><td><code>-cp</code> or <code>-classpath</code></td><td>Specify classpath for dependencies</td><td><code>java -cp bin HelloWorld</code></td></tr><tr><td><code>-source</code></td><td>Specify source compatibility version</td><td><code>javac -source 17 HelloWorld.java</code></td></tr><tr><td><code>-verbose</code></td><td>Show detailed compilation info</td><td><code>javac -verbose HelloWorld.java</code></td></tr></table><h3>7. Project Directory Structure</h3><p>As your projects grow, organizing files becomes important. A standard Java project follows this structure:</p><pre><code>MyProject/
+  src/
+    com/
+      example/
+        Main.java
+        Student.java
+  bin/
+    com/
+      example/
+        Main.class
+        Student.class
+  lib/
+    (external .jar files)</code></pre><p>Source files go in <code>src/</code>, compiled classes go in <code>bin/</code>, and external libraries go in <code>lib/</code>. IDEs manage this structure automatically, but understanding it helps when working with build tools like Maven or Gradle.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Verifying Java Installation from Terminal</div><pre><code class="language-python">// Run these commands in your terminal (not in a Java file)
+
+// Check JVM/JRE version:
+// $ java -version
+// openjdk version &quot;21.0.2&quot; 2024-01-16
+// OpenJDK Runtime Environment Temurin-21.0.2+13
+// OpenJDK 64-Bit Server VM Temurin-21.0.2+13
+
+// Check compiler version:
+// $ javac -version
+// javac 21.0.2
+
+// Check JAVA_HOME:
+// Windows: echo %JAVA_HOME%
+// Linux/Mac: echo $JAVA_HOME
+
+// Verify from within Java:
+public class VerifySetup {
+    public static void main(String[] args) {
+        System.out.println(&quot;Java Version: &quot; + System.getProperty(&quot;java.version&quot;));
+        System.out.println(&quot;Java Home: &quot; + System.getProperty(&quot;java.home&quot;));
+        System.out.println(&quot;Java Vendor: &quot; + System.getProperty(&quot;java.vendor&quot;));
+        System.out.println(&quot;JVM: &quot; + System.getProperty(&quot;java.vm.name&quot;));
+        System.out.println(&quot;OS: &quot; + System.getProperty(&quot;os.name&quot;) + &quot; &quot; + System.getProperty(&quot;os.arch&quot;));
+    }
+}</code></pre><div class="code-example-explanation">The terminal commands <code>java -version</code> and <code>javac -version</code> confirm that both the runtime and compiler are accessible from your PATH. The Java program uses <code>System.getProperty()</code> to display detailed environment information. If <code>java -version</code> works but <code>javac -version</code> fails, you have the JRE but not the JDK -- install the JDK.</div><div class="code-example-output">Java Version: 21.0.2
+Java Home: C:\Program Files\Java\jdk-21
+Java Vendor: Eclipse Adoptium
+JVM: OpenJDK 64-Bit Server VM
+OS: Windows 11 amd64</div></div>
+<div class="code-example"><div class="code-example-title">Compiling and Running from Command Line</div><pre><code class="language-python">// Step 1: Create this file as Greeting.java
+public class Greeting {
+    public static void main(String[] args) {
+        String name = &quot;Aarav&quot;;
+        System.out.println(&quot;Welcome to Java, &quot; + name + &quot;!&quot;);
+        System.out.println(&quot;You compiled and ran this from the terminal.&quot;);
+    }
+}
+
+// Step 2: Open terminal and navigate to the file&#39;s directory
+// $ cd path/to/your/file
+
+// Step 3: Compile (creates Greeting.class)
+// $ javac Greeting.java
+
+// Step 4: Run (note: no .class extension)
+// $ java Greeting</code></pre><div class="code-example-explanation">This demonstrates the fundamental compile-and-run workflow. The file must be named exactly <code>Greeting.java</code> (matching the public class name). The <code>javac</code> command compiles it to <code>Greeting.class</code>. The <code>java</code> command runs the class by name (not file name). Note the absence of <code>.class</code> extension in the run command -- a common beginner mistake.</div><div class="code-example-output">Welcome to Java, Aarav!
+You compiled and ran this from the terminal.</div></div>
+<div class="code-example"><div class="code-example-title">Compiling to a Separate Output Directory</div><pre><code class="language-python">// File: src/Calculator.java
+public class Calculator {
+    public static void main(String[] args) {
+        int a = 25;
+        int b = 10;
+        System.out.println(a + &quot; + &quot; + b + &quot; = &quot; + (a + b));
+        System.out.println(a + &quot; - &quot; + b + &quot; = &quot; + (a - b));
+        System.out.println(a + &quot; * &quot; + b + &quot; = &quot; + (a * b));
+    }
+}
+
+// Compile to bin/ directory:
+// $ mkdir bin
+// $ javac -d bin src/Calculator.java
+
+// Run from bin/ directory:
+// $ java -cp bin Calculator</code></pre><div class="code-example-explanation">The <code>-d bin</code> flag tells the compiler to place the output <code>.class</code> file in the <code>bin/</code> directory instead of the source directory. The <code>-cp bin</code> (classpath) flag tells the JVM where to find the compiled class files. This separation of source and compiled files is a professional best practice that IDEs follow automatically.</div><div class="code-example-output">25 + 10 = 35
+25 - 10 = 15
+25 * 10 = 250</div></div>
+<div class="code-example"><div class="code-example-title">Handling Compilation Errors</div><pre><code class="language-python">// This file has intentional errors to demonstrate compiler messages
+public class ErrorDemo {
+    public static void main(String[] args) {
+        // Error 1: Missing semicolon
+        // System.out.println(&quot;Hello&quot;)
+        // Fix:
+        System.out.println(&quot;Hello&quot;);
+
+        // Error 2: Undeclared variable
+        // System.out.println(x);
+        // Fix:
+        int x = 42;
+        System.out.println(x);
+
+        // Error 3: Type mismatch
+        // int name = &quot;Priya&quot;;
+        // Fix:
+        String name = &quot;Priya&quot;;
+        System.out.println(name);
+
+        System.out.println(&quot;All errors fixed!&quot;);
+    }
+}</code></pre><div class="code-example-explanation">The Java compiler provides detailed error messages with line numbers. A missing semicolon gives: <code>error: ';' expected</code>. An undeclared variable gives: <code>error: cannot find symbol</code>. A type mismatch gives: <code>error: incompatible types</code>. Learning to read compiler error messages is an essential skill. Always fix errors from top to bottom, as one error can cascade into multiple error messages.</div><div class="code-example-output">Hello
+42
+Priya
+All errors fixed!</div></div>
+<div class="code-example"><div class="code-example-title">Using Java 11+ Single-File Source Execution</div><pre><code class="language-python">// Since Java 11, you can run single-file programs directly:
+// $ java QuickTest.java
+// (No separate javac step needed!)
+
+public class QuickTest {
+    public static void main(String[] args) {
+        System.out.println(&quot;This file was compiled and run in one step!&quot;);
+        System.out.println(&quot;Java version: &quot; + System.getProperty(&quot;java.version&quot;));
+
+        // This shortcut works for:
+        // - Single-file programs
+        // - Quick testing and prototyping
+        // - Learning exercises
+
+        // It does NOT work for:
+        // - Multi-file projects
+        // - Programs that need external libraries
+        // - Production code
+    }
+}</code></pre><div class="code-example-explanation">Java 11 introduced the ability to run a single-file Java program without explicitly compiling it first. Instead of <code>javac QuickTest.java</code> followed by <code>java QuickTest</code>, you can simply run <code>java QuickTest.java</code>. The JVM compiles the source in memory and executes it. This is convenient for quick tests and learning, but professional projects still use explicit compilation with build tools.</div><div class="code-example-output">This file was compiled and run in one step!
+Java version: 21.0.2</div></div>
+<div class="code-example"><div class="code-example-title">Checking Classpath and Multiple Directories</div><pre><code class="language-python">// Project structure:
+// project/
+//   src/
+//     Main.java
+//     MathHelper.java
+
+// --- MathHelper.java ---
+// public class MathHelper {
+//     public static int add(int a, int b) { return a + b; }
+//     public static int multiply(int a, int b) { return a * b; }
+// }
+
+// --- Main.java ---
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(&quot;5 + 3 = &quot; + MathHelper.add(5, 3));
+        System.out.println(&quot;5 * 3 = &quot; + MathHelper.multiply(5, 3));
+    }
+}
+
+// Compile both files:
+// $ javac -d bin src/Main.java src/MathHelper.java
+// Or compile all .java files in src/:
+// $ javac -d bin src/*.java
+
+// Run:
+// $ java -cp bin Main</code></pre><div class="code-example-explanation">When a project has multiple Java files, you can compile them all at once using wildcards (<code>src/*.java</code>). The compiler automatically resolves dependencies between classes. The <code>-cp</code> flag specifies the classpath where the JVM looks for compiled classes. This example shows a simple two-class project where <code>Main</code> depends on <code>MathHelper</code>.</div><div class="code-example-output">5 + 3 = 8
+5 * 3 = 15</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>javac Not Found After Installation</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Terminal:
+// C:\Users\Priya&gt; javac HelloWorld.java
+// &#39;javac&#39; is not recognized as an internal or external command</code></pre></div><div class="error-message">&#39;javac&#39; is not recognized as an internal or external command, operable program or batch file.</div><div class="correct-code"><pre><code class="language-python">// Fix: Add JDK bin to PATH
+// 1. Set JAVA_HOME = C:\Program Files\Java\jdk-21
+// 2. Add %JAVA_HOME%\bin to PATH
+// 3. Open a NEW terminal (existing terminals have old PATH)
+// 4. Verify: javac -version</code></pre></div><div class="mistake-explanation">This is the most common setup issue. The <code>javac</code> command is located in the JDK's <code>bin</code> directory. If this directory is not in your system PATH, the terminal cannot find it. After modifying environment variables on Windows, you must open a <strong>new</strong> Command Prompt -- existing terminals retain the old PATH values.</div>
+            </div>
+<div class="mistake-card">
+                <h3>JAVA_HOME Points to JRE Instead of JDK</h3>
+                <div class="wrong-code"><pre><code class="language-python">// JAVA_HOME = C:\Program Files\Java\jre-21
+// Result: javac works from PATH but build tools fail</code></pre></div><div class="error-message">Build tools (Maven, Gradle) report: &#39;JAVA_HOME points to a JRE, not a JDK. Please set JAVA_HOME to a JDK installation.&#39;</div><div class="correct-code"><pre><code class="language-python">// JAVA_HOME should point to JDK, not JRE:
+// Correct: JAVA_HOME = C:\Program Files\Java\jdk-21
+// Wrong:   JAVA_HOME = C:\Program Files\Java\jre-21
+// The path should contain bin/javac, not just bin/java</code></pre></div><div class="mistake-explanation">JAVA_HOME must point to the JDK root directory (which contains <code>bin/javac</code>), not the JRE directory. Build tools like Maven and Gradle check JAVA_HOME to find the compiler. If it points to the JRE, they cannot compile your code. Verify by checking that <code>%JAVA_HOME%/bin/javac</code> exists.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Running with .class Extension</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Terminal:
+// $ javac HelloWorld.java     (compiles correctly)
+// $ java HelloWorld.class      (ERROR!)</code></pre></div><div class="error-message">Error: Could not find or load main class HelloWorld.class
+Caused by: java.lang.ClassNotFoundException: HelloWorld.class</div><div class="correct-code"><pre><code class="language-python">// Correct: use class name without extension
+// $ java HelloWorld</code></pre></div><div class="mistake-explanation">The <code>java</code> command expects a <strong>class name</strong>, not a file name. When you write <code>java HelloWorld.class</code>, Java looks for a class literally named <code>HelloWorld.class</code> (with the dot and "class" being part of the name), which does not exist. Always use just the class name: <code>java HelloWorld</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>File Name Does Not Match Class Name</h3>
+                <div class="wrong-code"><pre><code class="language-python">// File saved as: hello.java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println(&quot;Hello&quot;);
+    }
+}</code></pre></div><div class="error-message">error: class HelloWorld is public, should be declared in a file named HelloWorld.java</div><div class="correct-code"><pre><code class="language-python">// File must be saved as: HelloWorld.java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println(&quot;Hello&quot;);
+    }
+}</code></pre></div><div class="mistake-explanation">In Java, the file name must exactly match the public class name, including capitalization. A public class named <code>HelloWorld</code> must be in a file named <code>HelloWorld.java</code>. This is not just a convention -- it is a compiler requirement. This is different from Python, where file names and class names can differ.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Multiple Java Versions Conflict</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Terminal:
+// $ java -version
+// java version &quot;1.8.0_301&quot;  (old version!)
+// $ javac -version
+// javac 21.0.2              (new version!)
+// Mismatch causes runtime errors</code></pre></div><div class="error-message">UnsupportedClassVersionError: HelloWorld has been compiled by a more recent version of the Java Runtime</div><div class="correct-code"><pre><code class="language-python">// Ensure java and javac are from the same JDK:
+// $ where java      (Windows)
+// $ which java      (Linux/Mac)
+// Both should point to the same JDK installation.
+// Remove old Java versions from PATH or uninstall them.</code></pre></div><div class="mistake-explanation">Having multiple Java installations can cause version mismatches where <code>javac</code> (compiler) and <code>java</code> (runtime) come from different versions. If you compile with JDK 21 but run with JRE 8, you get an <code>UnsupportedClassVersionError</code>. Use <code>where java</code> (Windows) or <code>which java</code> (Linux/Mac) to check which Java executable is being used, and ensure both tools come from the same installation.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>You need the JDK (Java Development Kit) to develop Java programs. It includes the javac compiler, java runtime, and standard libraries. Use the latest LTS version (Java 21).</li>
+<li>Popular JDK distributions include Oracle JDK, Eclipse Temurin (Adoptium), Amazon Corretto, and Azul Zulu. All are based on the same OpenJDK source code.</li>
+<li>Set the JAVA_HOME environment variable to your JDK installation directory, and add %JAVA_HOME%\bin (Windows) or $JAVA_HOME/bin (Linux/Mac) to your PATH.</li>
+<li>Verify your installation with `java -version` (checks runtime) and `javac -version` (checks compiler). Both should show the same version number.</li>
+<li>IntelliJ IDEA Community Edition is the recommended IDE for Java development. Eclipse and VS Code with Java extensions are good alternatives.</li>
+<li>To compile from terminal: `javac FileName.java` produces a .class file. To run: `java ClassName` (without .class extension).</li>
+<li>The file name must exactly match the public class name (case-sensitive). HelloWorld class must be in HelloWorld.java.</li>
+<li>Use `-d` flag to specify output directory: `javac -d bin src/Main.java`. Use `-cp` to set classpath: `java -cp bin Main`.</li>
+<li>Java 11+ supports single-file source execution: `java HelloWorld.java` compiles and runs in one step, useful for quick tests.</li>
+<li>Always fix compilation errors from top to bottom. One error can cascade into multiple error messages. Read the first error carefully.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/introduction-to-java" class="related-topic-link">Introduction to Java</a>
+<a href="/resources/java/your-first-java-program" class="related-topic-link">Your First Java Program</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/java/introduction-to-java" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Introduction to Java</span>
+        </a>
+            <a href="/resources/java/your-first-java-program" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Your First Java Program</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/installing-java-and-setup/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

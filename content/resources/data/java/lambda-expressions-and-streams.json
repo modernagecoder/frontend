@@ -1,0 +1,602 @@
+{
+  "title": "Lambda Expressions and Streams API",
+  "slug": "lambda-expressions-and-streams",
+  "language": "java",
+  "chapter": 23,
+  "difficulty": "Advanced",
+  "readingTime": "50 min",
+  "lastUpdated": "2026-04-08",
+  "totalQuestions": 60,
+  "seo": {
+    "title": "Java Lambda Expressions and Streams API - Functional Interfaces, filter, map, reduce | Modern Age Coders",
+    "description": "Learn Java lambda expressions, functional interfaces (Predicate, Function, Consumer, Supplier), method references, Streams API (filter, map, flatMap, reduce, collect), Collectors, and Optional class. Includes 60+ practice questions.",
+    "keywords": "java lambda expressions, java streams api, functional interface java, java stream filter map, java collectors, java method reference, java optional, java predicate, java reduce, java functional programming"
+  },
+  "content": {
+    "what": "<h2>What Are Lambda Expressions and Streams?</h2><p>A <strong>lambda expression</strong> is a concise way to represent an anonymous function (a function without a name) in Java. Introduced in Java 8, lambdas let you pass behavior as an argument to methods, store functions in variables, and write cleaner code.</p><pre><code class=\"language-java\">// Before Java 8: anonymous inner class\nRunnable task = new Runnable() {\n    @Override\n    public void run() {\n        System.out.println(\"Hello\");\n    }\n};\n\n// Java 8+: lambda expression\nRunnable task = () -> System.out.println(\"Hello\");</code></pre><p>The <strong>Streams API</strong> is a library for processing collections (lists, sets, arrays) in a functional, declarative style. Instead of writing loops, you chain operations like <code>filter</code>, <code>map</code>, and <code>reduce</code>:</p><pre><code class=\"language-java\">List&lt;String&gt; names = List.of(\"Arjun\", \"Priya\", \"Vikram\", \"Sneha\", \"Rohan\");\n\n// Imperative: loop and if\nList&lt;String&gt; result = new ArrayList&lt;&gt;();\nfor (String name : names) {\n    if (name.length() > 4) {\n        result.add(name.toUpperCase());\n    }\n}\n\n// Declarative: stream pipeline\nList&lt;String&gt; result = names.stream()\n    .filter(name -> name.length() > 4)\n    .map(String::toUpperCase)\n    .collect(Collectors.toList());\n// [ARJUN, PRIYA, VIKRAM, SNEHA, ROHAN]</code></pre><p>Lambdas and Streams together bring functional programming capabilities to Java, making code shorter, more readable, and easier to parallelize.</p>",
+    "why": "<h2>Why Are Lambda Expressions and Streams Important?</h2><h3>1. Concise and Readable Code</h3><p>Lambdas eliminate verbose anonymous inner classes. What took 5 lines now takes 1. Streams replace multi-line loops with expressive pipelines. When Sneha reads a stream pipeline, the intent is immediately clear: filter these items, transform them, collect the results.</p><h3>2. Functional Programming in Java</h3><p>Java was purely object-oriented until Java 8. Lambdas added functional programming features: functions as first-class citizens, immutability, and declarative data processing. Modern Java codebases (Spring Boot, Hibernate, Android) use lambdas and streams extensively.</p><h3>3. Parallel Processing Made Simple</h3><p>Converting a sequential stream to parallel is a one-word change: <code>.stream()</code> becomes <code>.parallelStream()</code>. The framework handles thread management. This makes it easy to leverage multi-core CPUs without writing thread management code.</p><h3>4. Industry-Standard API Design</h3><p>Java's Collections, I/O, and networking APIs now use functional interfaces (Predicate, Function, Consumer). Understanding these patterns is essential for working with any modern Java framework. Spring's WebFlux, for example, is built entirely on functional and reactive patterns.</p><h3>5. Interview and Placement Relevance</h3><p>Lambda expressions and Streams are among the most frequently asked Java 8+ topics at companies like Google, Amazon, Microsoft, Flipkart, and Goldman Sachs. Questions range from writing stream pipelines to understanding lazy evaluation and terminal operations.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Functional Interfaces</h3><p>A <strong>functional interface</strong> is an interface with exactly one abstract method. Lambdas can only be assigned to functional interface types. The <code>@FunctionalInterface</code> annotation enforces this:</p><pre><code class=\"language-java\">@FunctionalInterface\ninterface Greeting {\n    void sayHello(String name); // single abstract method\n}\n\n// Lambda assigned to functional interface\nGreeting greet = (name) -> System.out.println(\"Hello, \" + name);\ngreet.sayHello(\"Arjun\"); // Hello, Arjun</code></pre><h4>Built-in Functional Interfaces (java.util.function)</h4><table><tr><th>Interface</th><th>Method</th><th>Description</th></tr><tr><td>Predicate&lt;T&gt;</td><td>boolean test(T t)</td><td>Takes T, returns boolean</td></tr><tr><td>Function&lt;T,R&gt;</td><td>R apply(T t)</td><td>Takes T, returns R</td></tr><tr><td>Consumer&lt;T&gt;</td><td>void accept(T t)</td><td>Takes T, returns nothing</td></tr><tr><td>Supplier&lt;T&gt;</td><td>T get()</td><td>Takes nothing, returns T</td></tr><tr><td>BiFunction&lt;T,U,R&gt;</td><td>R apply(T t, U u)</td><td>Takes T and U, returns R</td></tr><tr><td>UnaryOperator&lt;T&gt;</td><td>T apply(T t)</td><td>Takes T, returns T (same type)</td></tr><tr><td>BinaryOperator&lt;T&gt;</td><td>T apply(T t1, T t2)</td><td>Takes two T, returns T</td></tr></table><pre><code class=\"language-java\">import java.util.function.*;\n\nPredicate&lt;Integer&gt; isEven = n -> n % 2 == 0;\nSystem.out.println(isEven.test(4));  // true\nSystem.out.println(isEven.test(7));  // false\n\nFunction&lt;String, Integer&gt; length = s -> s.length();\nSystem.out.println(length.apply(\"Hello\")); // 5\n\nConsumer&lt;String&gt; printer = s -> System.out.println(s);\nprinter.accept(\"Hello\"); // Hello\n\nSupplier&lt;Double&gt; random = () -> Math.random();\nSystem.out.println(random.get()); // 0.xxx\n\nBiFunction&lt;Integer, Integer, Integer&gt; add = (a, b) -> a + b;\nSystem.out.println(add.apply(3, 4)); // 7</code></pre><h3>2. Lambda Syntax</h3><pre><code class=\"language-java\">// No parameters\nRunnable r = () -> System.out.println(\"Hello\");\n\n// One parameter (parentheses optional)\nConsumer&lt;String&gt; c = s -> System.out.println(s);\nConsumer&lt;String&gt; c2 = (s) -> System.out.println(s); // also valid\n\n// Multiple parameters\nBiFunction&lt;Integer, Integer, Integer&gt; add = (a, b) -> a + b;\n\n// Multi-line body (requires braces and explicit return)\nFunction&lt;Integer, String&gt; classify = n -> {\n    if (n > 0) return \"positive\";\n    if (n < 0) return \"negative\";\n    return \"zero\";\n};</code></pre><p>Key rules: (1) Parameter types can be inferred (omit them). (2) Single parameter does not need parentheses. (3) Single expression does not need braces or <code>return</code>. (4) Multi-statement body needs braces and explicit <code>return</code>.</p><h3>3. Method References</h3><p>Method references are a shorthand for lambdas that simply call an existing method:</p><pre><code class=\"language-java\">// Lambda                          // Method Reference\ns -> System.out.println(s)     ->  System.out::println\ns -> s.toUpperCase()           ->  String::toUpperCase\ns -> Integer.parseInt(s)       ->  Integer::parseInt\n() -> new ArrayList&lt;&gt;()        ->  ArrayList::new\n\n// Four types of method references:\n// 1. Static method:      ClassName::staticMethod\n// 2. Instance method:    object::instanceMethod\n// 3. Arbitrary object:   ClassName::instanceMethod\n// 4. Constructor:        ClassName::new\n\nList&lt;String&gt; names = List.of(\"arjun\", \"priya\", \"vikram\");\nnames.stream()\n     .map(String::toUpperCase)       // ClassName::instanceMethod\n     .forEach(System.out::println);  // object::instanceMethod</code></pre><h3>4. Streams API: Overview</h3><p>A stream is a sequence of elements that supports functional-style operations. It is NOT a data structure -- it does not store data. It processes data from a source (collection, array, file).</p><pre><code class=\"language-java\">List&lt;Integer&gt; numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);\n\nint sum = numbers.stream()       // create stream\n    .filter(n -> n % 2 == 0)     // intermediate: keep even numbers\n    .map(n -> n * n)             // intermediate: square each\n    .reduce(0, Integer::sum);    // terminal: sum them\n\nSystem.out.println(sum); // 4+16+36+64+100 = 220</code></pre><p>Key characteristics: (1) Streams are lazy -- intermediate operations do not execute until a terminal operation is called. (2) Streams can only be consumed once. (3) Streams do not modify the source collection.</p><h3>5. Intermediate Operations</h3><p>Intermediate operations return a new stream and are lazy (not executed until a terminal operation is called):</p><pre><code class=\"language-java\">List&lt;String&gt; names = List.of(\"Arjun\", \"Priya\", \"Arjun\", \"Vikram\", \"Sneha\", \"Priya\");\n\n// filter: keep elements matching a predicate\nnames.stream().filter(n -> n.startsWith(\"A\")).forEach(System.out::println);\n// Arjun, Arjun\n\n// map: transform each element\nnames.stream().map(String::length).forEach(System.out::println);\n// 5, 5, 5, 6, 5, 5\n\n// distinct: remove duplicates\nnames.stream().distinct().forEach(System.out::println);\n// Arjun, Priya, Vikram, Sneha\n\n// sorted: natural order or with comparator\nnames.stream().sorted().forEach(System.out::println);\n// alphabetical\nnames.stream().sorted(Comparator.comparingInt(String::length)).forEach(System.out::println);\n// by length\n\n// limit and skip\nnames.stream().limit(3).forEach(System.out::println);  // first 3\nnames.stream().skip(2).forEach(System.out::println);   // skip first 2\n\n// peek: debug/inspect without modifying\nnames.stream()\n    .peek(n -> System.out.println(\"Processing: \" + n))\n    .filter(n -> n.length() > 4)\n    .forEach(System.out::println);</code></pre><h4>flatMap: Flattening Nested Structures</h4><pre><code class=\"language-java\">List&lt;List&lt;Integer&gt;&gt; nested = List.of(\n    List.of(1, 2, 3),\n    List.of(4, 5),\n    List.of(6, 7, 8, 9)\n);\n\nList&lt;Integer&gt; flat = nested.stream()\n    .flatMap(List::stream)  // flatten each inner list into a single stream\n    .collect(Collectors.toList());\n// [1, 2, 3, 4, 5, 6, 7, 8, 9]</code></pre><h3>6. Terminal Operations</h3><p>Terminal operations trigger the execution of the stream pipeline and produce a result:</p><pre><code class=\"language-java\">List&lt;Integer&gt; nums = List.of(3, 1, 4, 1, 5, 9, 2, 6);\n\n// forEach: perform action on each element\nnums.stream().forEach(System.out::println);\n\n// collect: gather results into a collection\nList&lt;Integer&gt; evens = nums.stream().filter(n -> n % 2 == 0).collect(Collectors.toList());\n\n// reduce: combine elements into a single value\nint sum = nums.stream().reduce(0, Integer::sum); // 31\nOptional&lt;Integer&gt; max = nums.stream().reduce(Integer::max); // 9\n\n// count: number of elements\nlong count = nums.stream().filter(n -> n > 3).count(); // 4\n\n// findFirst and findAny\nOptional&lt;Integer&gt; first = nums.stream().filter(n -> n > 5).findFirst(); // 9\n\n// anyMatch, allMatch, noneMatch\nboolean hasEven = nums.stream().anyMatch(n -> n % 2 == 0);   // true\nboolean allPositive = nums.stream().allMatch(n -> n > 0);     // true\nboolean noneNegative = nums.stream().noneMatch(n -> n < 0);   // true</code></pre><h3>7. Collectors</h3><p>The <code>Collectors</code> class provides factory methods for common collection operations:</p><pre><code class=\"language-java\">import java.util.stream.Collectors;\n\nList&lt;String&gt; names = List.of(\"Arjun\", \"Priya\", \"Vikram\", \"Sneha\", \"Rohan\");\n\n// toList, toSet\nList&lt;String&gt; list = names.stream().collect(Collectors.toList());\nSet&lt;String&gt; set = names.stream().collect(Collectors.toSet());\n\n// joining\nString joined = names.stream().collect(Collectors.joining(\", \"));\n// \"Arjun, Priya, Vikram, Sneha, Rohan\"\n\n// toMap\nMap&lt;String, Integer&gt; nameLengths = names.stream()\n    .collect(Collectors.toMap(n -> n, String::length));\n// {Arjun=5, Priya=5, Vikram=6, Sneha=5, Rohan=5}\n\n// groupingBy\nMap&lt;Integer, List&lt;String&gt;&gt; byLength = names.stream()\n    .collect(Collectors.groupingBy(String::length));\n// {5=[Arjun, Priya, Sneha, Rohan], 6=[Vikram]}\n\n// partitioningBy (splits into true/false groups)\nMap&lt;Boolean, List&lt;String&gt;&gt; partitioned = names.stream()\n    .collect(Collectors.partitioningBy(n -> n.length() > 5));\n// {false=[Arjun, Priya, Sneha, Rohan], true=[Vikram]}</code></pre><h3>8. The Optional Class</h3><p><code>Optional</code> is a container that may or may not contain a value. It replaces null checks and prevents NullPointerException:</p><pre><code class=\"language-java\">import java.util.Optional;\n\n// Creating Optional\nOptional&lt;String&gt; name = Optional.of(\"Arjun\");       // non-null value\nOptional&lt;String&gt; empty = Optional.empty();            // empty\nOptional&lt;String&gt; maybe = Optional.ofNullable(null);   // may be null\n\n// Checking and accessing\nSystem.out.println(name.isPresent());  // true\nSystem.out.println(empty.isPresent()); // false\n\n// ifPresent: execute action if value exists\nname.ifPresent(n -> System.out.println(\"Name: \" + n));\n\n// orElse: provide default value\nString result = empty.orElse(\"Unknown\");  // \"Unknown\"\n\n// orElseThrow: throw exception if empty\nString value = name.orElseThrow(() -> new RuntimeException(\"No value\"));\n\n// map and filter on Optional\nOptional&lt;Integer&gt; length = name.map(String::length); // Optional[5]\nOptional&lt;String&gt; filtered = name.filter(n -> n.startsWith(\"A\")); // Optional[Arjun]</code></pre><p><code>Optional</code> is commonly returned by stream operations like <code>findFirst()</code>, <code>findAny()</code>, and <code>reduce()</code> (without identity). It forces the caller to handle the absence case explicitly.</p>"
+  },
+  "codeExamples": [
+    {
+      "title": "Functional Interfaces and Lambda Syntax",
+      "code": "import java.util.function.*;\nimport java.util.List;\nimport java.util.ArrayList;\n\npublic class LambdaBasics {\n    public static void main(String[] args) {\n        // Predicate: takes T, returns boolean\n        Predicate<Integer> isEven = n -> n % 2 == 0;\n        Predicate<String> isLong = s -> s.length() > 5;\n        System.out.println(\"4 is even: \" + isEven.test(4));\n        System.out.println(\"7 is even: \" + isEven.test(7));\n\n        // Predicate composition\n        Predicate<Integer> isPositive = n -> n > 0;\n        Predicate<Integer> isPositiveAndEven = isPositive.and(isEven);\n        System.out.println(\"6 positive and even: \" + isPositiveAndEven.test(6));\n        System.out.println(\"-4 positive and even: \" + isPositiveAndEven.test(-4));\n\n        // Function: takes T, returns R\n        Function<String, Integer> wordCount = s -> s.split(\" \").length;\n        System.out.println(\"Word count: \" + wordCount.apply(\"Java is great\"));\n\n        // Function composition (andThen)\n        Function<Integer, Integer> doubleIt = n -> n * 2;\n        Function<Integer, Integer> addTen = n -> n + 10;\n        Function<Integer, Integer> doubleAndAdd = doubleIt.andThen(addTen);\n        System.out.println(\"5 -> double -> +10 = \" + doubleAndAdd.apply(5)); // 20\n\n        // Consumer: takes T, returns void\n        Consumer<String> shout = s -> System.out.println(s.toUpperCase() + \"!\");\n        shout.accept(\"hello\");\n\n        // Supplier: takes nothing, returns T\n        Supplier<List<String>> listFactory = ArrayList::new;\n        List<String> newList = listFactory.get();\n        System.out.println(\"New list size: \" + newList.size());\n\n        // BiFunction: takes T and U, returns R\n        BiFunction<String, Integer, String> repeat = (s, n) -> s.repeat(n);\n        System.out.println(repeat.apply(\"Ha\", 3));\n    }\n}",
+      "language": "java",
+      "explanation": "This demonstrates all major functional interfaces. <code>Predicate</code> tests a condition. <code>Function</code> transforms a value. <code>Consumer</code> performs an action. <code>Supplier</code> produces a value. <code>BiFunction</code> takes two inputs. Predicates support <code>and()</code>, <code>or()</code>, <code>negate()</code> for composition. Functions support <code>andThen()</code> and <code>compose()</code> for chaining.",
+      "output": "4 is even: true\n7 is even: false\n6 positive and even: true\n-4 positive and even: false\nWord count: 3\n5 -> double -> +10 = 20\nHELLO!\nNew list size: 0\nHaHaHa"
+    },
+    {
+      "title": "Method References: Four Types",
+      "code": "import java.util.List;\nimport java.util.function.*;\nimport java.util.stream.Collectors;\n\npublic class MethodReferences {\n    static int doubleValue(int n) { return n * 2; }\n\n    public static void main(String[] args) {\n        List<String> names = List.of(\"arjun\", \"priya\", \"vikram\");\n\n        // 1. Static method reference: ClassName::staticMethod\n        Function<String, Integer> parser = Integer::parseInt;\n        System.out.println(parser.apply(\"42\")); // 42\n\n        // 2. Instance method on a specific object: object::instanceMethod\n        String prefix = \"Student: \";\n        Function<String, String> addPrefix = prefix::concat;\n        names.stream().map(addPrefix).forEach(System.out::println);\n\n        // 3. Instance method on an arbitrary object: ClassName::instanceMethod\n        List<String> upper = names.stream()\n            .map(String::toUpperCase)  // calls toUpperCase() on each element\n            .collect(Collectors.toList());\n        System.out.println(upper);\n\n        // 4. Constructor reference: ClassName::new\n        Supplier<StringBuilder> sbFactory = StringBuilder::new;\n        StringBuilder sb = sbFactory.get();\n        sb.append(\"Hello\");\n        System.out.println(sb);\n\n        // Static method reference with custom method\n        List<Integer> nums = List.of(1, 2, 3, 4, 5);\n        List<Integer> doubled = nums.stream()\n            .map(MethodReferences::doubleValue)\n            .collect(Collectors.toList());\n        System.out.println(doubled);\n    }\n}",
+      "language": "java",
+      "explanation": "Method references are shorthand for lambdas that call a single existing method. Four types exist: (1) static methods, (2) instance methods on a specific object, (3) instance methods on an arbitrary object of a class (the stream element becomes the receiver), and (4) constructor references. They improve readability when the lambda simply delegates to an existing method.",
+      "output": "42\nStudent: arjun\nStudent: priya\nStudent: vikram\n[ARJUN, PRIYA, VIKRAM]\nHello\n[2, 4, 6, 8, 10]"
+    },
+    {
+      "title": "Stream Pipeline: filter, map, sorted, collect",
+      "code": "import java.util.List;\nimport java.util.stream.Collectors;\nimport java.util.Comparator;\n\npublic class StreamPipeline {\n    record Student(String name, int marks, String department) {}\n\n    public static void main(String[] args) {\n        List<Student> students = List.of(\n            new Student(\"Arjun\", 85, \"CS\"),\n            new Student(\"Priya\", 92, \"CS\"),\n            new Student(\"Vikram\", 78, \"IT\"),\n            new Student(\"Sneha\", 95, \"CS\"),\n            new Student(\"Rohan\", 68, \"IT\"),\n            new Student(\"Kavya\", 88, \"ECE\"),\n            new Student(\"Aditya\", 72, \"IT\"),\n            new Student(\"Meera\", 91, \"CS\")\n        );\n\n        // CS students with marks > 85, sorted by marks descending\n        List<String> topCS = students.stream()\n            .filter(s -> s.department().equals(\"CS\"))\n            .filter(s -> s.marks() > 85)\n            .sorted(Comparator.comparingInt(Student::marks).reversed())\n            .map(Student::name)\n            .collect(Collectors.toList());\n        System.out.println(\"Top CS students: \" + topCS);\n\n        // Average marks of all students\n        double average = students.stream()\n            .mapToInt(Student::marks)\n            .average()\n            .orElse(0.0);\n        System.out.printf(\"Average marks: %.1f%n\", average);\n\n        // Count students per department\n        var deptCount = students.stream()\n            .collect(Collectors.groupingBy(Student::department, Collectors.counting()));\n        System.out.println(\"Students per dept: \" + deptCount);\n\n        // Student with highest marks\n        students.stream()\n            .max(Comparator.comparingInt(Student::marks))\n            .ifPresent(s -> System.out.println(\"Topper: \" + s.name() + \" (\" + s.marks() + \")\"));\n    }\n}",
+      "language": "java",
+      "explanation": "This demonstrates a realistic stream pipeline on student data. Multiple filters can be chained. <code>sorted()</code> accepts a Comparator. <code>mapToInt()</code> creates an IntStream with methods like <code>average()</code>. <code>groupingBy()</code> groups elements by a classifier function. <code>max()</code> returns an Optional since the stream might be empty.",
+      "output": "Top CS students: [Sneha, Priya, Meera]\nAverage marks: 83.6\nStudents per dept: {CS=4, IT=3, ECE=1}\nTopper: Sneha (95)"
+    },
+    {
+      "title": "flatMap: Flattening Nested Collections",
+      "code": "import java.util.List;\nimport java.util.stream.Collectors;\n\npublic class FlatMapDemo {\n    record Student(String name, List<String> courses) {}\n\n    public static void main(String[] args) {\n        List<Student> students = List.of(\n            new Student(\"Arjun\", List.of(\"Java\", \"Python\", \"SQL\")),\n            new Student(\"Priya\", List.of(\"Java\", \"C++\", \"Data Science\")),\n            new Student(\"Vikram\", List.of(\"Python\", \"JavaScript\", \"Java\"))\n        );\n\n        // Get all unique courses across all students\n        List<String> allCourses = students.stream()\n            .flatMap(s -> s.courses().stream())  // flatten each student's courses\n            .distinct()\n            .sorted()\n            .collect(Collectors.toList());\n        System.out.println(\"All courses: \" + allCourses);\n\n        // Count total course enrollments\n        long totalEnrollments = students.stream()\n            .flatMap(s -> s.courses().stream())\n            .count();\n        System.out.println(\"Total enrollments: \" + totalEnrollments);\n\n        // Flatten a list of lists\n        List<List<Integer>> matrix = List.of(\n            List.of(1, 2, 3),\n            List.of(4, 5),\n            List.of(6, 7, 8, 9)\n        );\n\n        List<Integer> flat = matrix.stream()\n            .flatMap(List::stream)\n            .collect(Collectors.toList());\n        System.out.println(\"Flattened: \" + flat);\n\n        int sum = matrix.stream()\n            .flatMap(List::stream)\n            .mapToInt(Integer::intValue)\n            .sum();\n        System.out.println(\"Sum: \" + sum);\n    }\n}",
+      "language": "java",
+      "explanation": "<code>flatMap</code> transforms each element into a stream, then merges all those streams into a single stream. Use it when each element contains a collection and you want to process all inner elements as one flat stream. <code>map</code> would produce a <code>Stream&lt;Stream&lt;String&gt;&gt;</code>, but <code>flatMap</code> produces a <code>Stream&lt;String&gt;</code>.",
+      "output": "All courses: [C++, Data Science, Java, JavaScript, Python, SQL]\nTotal enrollments: 9\nFlattened: [1, 2, 3, 4, 5, 6, 7, 8, 9]\nSum: 45"
+    },
+    {
+      "title": "reduce: Aggregating Stream Elements",
+      "code": "import java.util.List;\nimport java.util.Optional;\n\npublic class ReduceDemo {\n    public static void main(String[] args) {\n        List<Integer> nums = List.of(3, 1, 4, 1, 5, 9, 2, 6);\n\n        // reduce with identity (always returns a value)\n        int sum = nums.stream().reduce(0, Integer::sum);\n        System.out.println(\"Sum: \" + sum); // 31\n\n        int product = nums.stream().reduce(1, (a, b) -> a * b);\n        System.out.println(\"Product: \" + product); // 6480\n\n        // reduce without identity (returns Optional)\n        Optional<Integer> max = nums.stream().reduce(Integer::max);\n        max.ifPresent(m -> System.out.println(\"Max: \" + m)); // 9\n\n        Optional<Integer> min = nums.stream().reduce(Integer::min);\n        min.ifPresent(m -> System.out.println(\"Min: \" + m)); // 1\n\n        // String concatenation with reduce\n        List<String> words = List.of(\"Java\", \"is\", \"powerful\");\n        String sentence = words.stream().reduce(\"\", (a, b) -> a + \" \" + b).trim();\n        System.out.println(\"Sentence: \" + sentence);\n\n        // Empty stream with reduce\n        Optional<Integer> empty = List.<Integer>of().stream().reduce(Integer::sum);\n        System.out.println(\"Empty result present: \" + empty.isPresent()); // false\n\n        int emptyWithIdentity = List.<Integer>of().stream().reduce(0, Integer::sum);\n        System.out.println(\"Empty with identity: \" + emptyWithIdentity); // 0\n    }\n}",
+      "language": "java",
+      "explanation": "<code>reduce</code> combines stream elements into a single result using an accumulator function. With an identity value (e.g., 0 for sum), it always returns a value. Without an identity, it returns <code>Optional</code> because the stream might be empty. The identity value must be a neutral element: 0 for addition, 1 for multiplication, \"\" for concatenation.",
+      "output": "Sum: 31\nProduct: 6480\nMax: 9\nMin: 1\nSentence: Java is powerful\nEmpty result present: false\nEmpty with identity: 0"
+    },
+    {
+      "title": "Collectors: Advanced Collection Operations",
+      "code": "import java.util.*;\nimport java.util.stream.Collectors;\n\npublic class CollectorsDemo {\n    record Employee(String name, String dept, int salary) {}\n\n    public static void main(String[] args) {\n        List<Employee> employees = List.of(\n            new Employee(\"Arjun\", \"Engineering\", 85000),\n            new Employee(\"Priya\", \"Engineering\", 92000),\n            new Employee(\"Vikram\", \"Marketing\", 78000),\n            new Employee(\"Sneha\", \"Engineering\", 95000),\n            new Employee(\"Rohan\", \"Marketing\", 72000),\n            new Employee(\"Kavya\", \"HR\", 68000)\n        );\n\n        // joining\n        String names = employees.stream()\n            .map(Employee::name)\n            .collect(Collectors.joining(\", \", \"[\", \"]\"));\n        System.out.println(\"Names: \" + names);\n\n        // groupingBy\n        Map<String, List<Employee>> byDept = employees.stream()\n            .collect(Collectors.groupingBy(Employee::dept));\n        byDept.forEach((dept, emps) ->\n            System.out.println(dept + \": \" + emps.size() + \" employees\"));\n\n        // groupingBy with downstream collector\n        Map<String, Double> avgSalaryByDept = employees.stream()\n            .collect(Collectors.groupingBy(\n                Employee::dept,\n                Collectors.averagingInt(Employee::salary)\n            ));\n        System.out.println(\"Avg salary by dept: \" + avgSalaryByDept);\n\n        // partitioningBy\n        Map<Boolean, List<Employee>> highEarners = employees.stream()\n            .collect(Collectors.partitioningBy(e -> e.salary() > 80000));\n        System.out.println(\"High earners: \" + highEarners.get(true).stream()\n            .map(Employee::name).collect(Collectors.toList()));\n\n        // toMap\n        Map<String, Integer> salaryMap = employees.stream()\n            .collect(Collectors.toMap(Employee::name, Employee::salary));\n        System.out.println(\"Salary map: \" + salaryMap);\n\n        // summarizingInt\n        IntSummaryStatistics stats = employees.stream()\n            .collect(Collectors.summarizingInt(Employee::salary));\n        System.out.println(\"Stats: count=\" + stats.getCount()\n            + \", avg=\" + stats.getAverage()\n            + \", max=\" + stats.getMax());\n    }\n}",
+      "language": "java",
+      "explanation": "<code>Collectors.joining()</code> concatenates strings with a delimiter. <code>groupingBy()</code> groups elements by a key function. It supports downstream collectors like <code>averagingInt()</code> and <code>counting()</code>. <code>partitioningBy()</code> splits elements into true/false groups. <code>toMap()</code> creates a key-value map. <code>summarizingInt()</code> computes count, sum, min, average, and max in one pass.",
+      "output": "Names: [Arjun, Priya, Vikram, Sneha, Rohan, Kavya]\nEngineering: 3 employees\nMarketing: 2 employees\nHR: 1 employees\nAvg salary by dept: {Engineering=90666.66666666667, Marketing=75000.0, HR=68000.0}\nHigh earners: [Arjun, Priya, Sneha]\nSalary map: {Arjun=85000, Priya=92000, Vikram=78000, Sneha=95000, Rohan=72000, Kavya=68000}\nStats: count=6, avg=81666.66666666667, max=95000"
+    },
+    {
+      "title": "Optional: Avoiding NullPointerException",
+      "code": "import java.util.Optional;\nimport java.util.List;\n\npublic class OptionalDemo {\n    record Student(String name, String email) {}\n\n    static Optional<Student> findStudent(List<Student> students, String name) {\n        return students.stream()\n            .filter(s -> s.name().equals(name))\n            .findFirst();\n    }\n\n    public static void main(String[] args) {\n        List<Student> students = List.of(\n            new Student(\"Arjun\", \"arjun@email.com\"),\n            new Student(\"Priya\", \"priya@email.com\"),\n            new Student(\"Vikram\", \"vikram@email.com\")\n        );\n\n        // Found case\n        Optional<Student> found = findStudent(students, \"Priya\");\n        found.ifPresent(s -> System.out.println(\"Found: \" + s.name() + \" (\" + s.email() + \")\"));\n\n        // Not found case\n        Optional<Student> notFound = findStudent(students, \"Rohan\");\n        System.out.println(\"Rohan present: \" + notFound.isPresent());\n\n        // orElse: provide default\n        String email = findStudent(students, \"Rohan\")\n            .map(Student::email)\n            .orElse(\"not-found@email.com\");\n        System.out.println(\"Rohan email: \" + email);\n\n        // orElseThrow\n        try {\n            Student s = findStudent(students, \"Rohan\")\n                .orElseThrow(() -> new RuntimeException(\"Student not found\"));\n        } catch (RuntimeException e) {\n            System.out.println(\"Exception: \" + e.getMessage());\n        }\n\n        // Chaining map and filter on Optional\n        Optional<String> longEmail = findStudent(students, \"Arjun\")\n            .map(Student::email)\n            .filter(e -> e.length() > 10);\n        longEmail.ifPresent(e -> System.out.println(\"Long email: \" + e));\n\n        // ofNullable for potentially null values\n        String nullStr = null;\n        Optional<String> opt = Optional.ofNullable(nullStr);\n        System.out.println(\"Null value orElse: \" + opt.orElse(\"default\"));\n    }\n}",
+      "language": "java",
+      "explanation": "<code>Optional</code> wraps a value that might be absent. <code>ifPresent()</code> executes an action only if a value exists. <code>orElse()</code> provides a fallback. <code>orElseThrow()</code> throws an exception if empty. <code>map()</code> transforms the contained value (if present). <code>filter()</code> returns empty if the predicate fails. This eliminates null checks and makes absence handling explicit.",
+      "output": "Found: Priya (priya@email.com)\nRohan present: false\nRohan email: not-found@email.com\nException: Student not found\nLong email: arjun@email.com\nNull value orElse: default"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Reusing a Stream After Terminal Operation",
+      "wrongCode": "List<Integer> nums = List.of(1, 2, 3, 4, 5);\nvar stream = nums.stream();\nstream.forEach(System.out::println); // terminal operation\nlong count = stream.count(); // IllegalStateException!",
+      "error": "IllegalStateException: stream has already been operated upon or closed.",
+      "correctCode": "List<Integer> nums = List.of(1, 2, 3, 4, 5);\nnums.stream().forEach(System.out::println);\nlong count = nums.stream().count(); // create a new stream",
+      "explanation": "A stream can only be consumed once. After a terminal operation (forEach, collect, reduce, count), the stream is closed. To process the data again, create a new stream from the source."
+    },
+    {
+      "title": "Expecting Stream to Modify the Source Collection",
+      "wrongCode": "List<String> names = new ArrayList<>(List.of(\"arjun\", \"priya\"));\nnames.stream().map(String::toUpperCase);\n// names is still [\"arjun\", \"priya\"] -- stream did nothing!",
+      "error": "No error, but names list is unchanged. The map operation was not consumed (no terminal operation), and streams never modify the source.",
+      "correctCode": "List<String> names = new ArrayList<>(List.of(\"arjun\", \"priya\"));\nList<String> upper = names.stream()\n    .map(String::toUpperCase)\n    .collect(Collectors.toList());\n// upper = [\"ARJUN\", \"PRIYA\"]",
+      "explanation": "Streams never modify the source collection. They produce new streams. Also, intermediate operations are lazy -- they do not execute without a terminal operation. You must collect the result into a new collection."
+    },
+    {
+      "title": "Using Optional.get() Without Checking",
+      "wrongCode": "Optional<String> opt = Optional.empty();\nString value = opt.get(); // NoSuchElementException!",
+      "error": "NoSuchElementException: No value present.",
+      "correctCode": "Optional<String> opt = Optional.empty();\nString value = opt.orElse(\"default\");\n// or\nopt.ifPresent(v -> System.out.println(v));",
+      "explanation": "Calling <code>get()</code> on an empty Optional throws <code>NoSuchElementException</code>. Use <code>orElse()</code>, <code>orElseThrow()</code>, or <code>ifPresent()</code> instead. The whole point of Optional is to avoid unchecked access."
+    },
+    {
+      "title": "Forgetting Terminal Operation (Lazy Evaluation)",
+      "wrongCode": "List<String> names = List.of(\"arjun\", \"priya\", \"vikram\");\nnames.stream()\n    .filter(n -> n.length() > 4)\n    .map(String::toUpperCase);\n// Nothing happens! No terminal operation.",
+      "error": "No error, no output. Intermediate operations are lazy -- they only execute when a terminal operation triggers the pipeline.",
+      "correctCode": "List<String> names = List.of(\"arjun\", \"priya\", \"vikram\");\nnames.stream()\n    .filter(n -> n.length() > 4)\n    .map(String::toUpperCase)\n    .forEach(System.out::println); // terminal operation triggers execution",
+      "explanation": "Streams are lazy. <code>filter()</code> and <code>map()</code> are intermediate operations that build a pipeline but do not execute it. You need a terminal operation like <code>forEach()</code>, <code>collect()</code>, <code>count()</code>, or <code>reduce()</code> to trigger execution."
+    },
+    {
+      "title": "Modifying External State in a Lambda (Side Effects)",
+      "wrongCode": "List<String> results = new ArrayList<>();\nList<String> names = List.of(\"Arjun\", \"Priya\", \"Vikram\");\nnames.parallelStream()\n    .filter(n -> n.length() > 4)\n    .forEach(n -> results.add(n)); // NOT thread-safe!",
+      "error": "ConcurrentModificationException or corrupted list with parallel streams. ArrayList is not thread-safe.",
+      "correctCode": "List<String> names = List.of(\"Arjun\", \"Priya\", \"Vikram\");\nList<String> results = names.stream()\n    .filter(n -> n.length() > 4)\n    .collect(Collectors.toList()); // thread-safe collection",
+      "explanation": "Lambda expressions in streams should avoid modifying external mutable state (side effects). With parallel streams, this causes race conditions. Always use <code>collect()</code> to gather results instead of mutating an external collection."
+    }
+  ],
+  "summary": [
+    "A lambda expression is an anonymous function: (parameters) -> expression or (parameters) -> { statements }. It can only be assigned to a functional interface (an interface with exactly one abstract method).",
+    "Built-in functional interfaces in java.util.function: Predicate<T> (boolean test), Function<T,R> (transform), Consumer<T> (action), Supplier<T> (produce), BiFunction<T,U,R> (two inputs). These are used throughout Java's standard library.",
+    "Method references are shorthand for lambdas: static (Integer::parseInt), instance on specific object (System.out::println), instance on arbitrary object (String::toUpperCase), and constructor (ArrayList::new).",
+    "A Stream is a pipeline for processing sequences of elements. It is not a data structure -- it reads from a source (collection, array, file) and does not modify it.",
+    "Streams are lazy: intermediate operations (filter, map, flatMap, sorted, distinct, limit, skip, peek) build a pipeline but do not execute until a terminal operation is called.",
+    "Terminal operations trigger the pipeline: forEach (action), collect (gather), reduce (aggregate), count, findFirst, findAny, anyMatch, allMatch, noneMatch. A stream can only be consumed once.",
+    "flatMap is used to flatten nested structures. If each element contains a collection, flatMap merges all inner elements into a single flat stream.",
+    "Collectors provide powerful aggregation: toList(), toSet(), toMap(), joining(), groupingBy(), partitioningBy(), summarizingInt(), averagingInt(), counting().",
+    "Optional<T> is a container that may or may not hold a value. Use it to avoid null checks. Key methods: of(), ofNullable(), isPresent(), ifPresent(), orElse(), orElseThrow(), map(), filter(). Never call get() without checking.",
+    "Avoid side effects in lambdas (especially with parallel streams). Use collect() instead of mutating external collections. Streams should be functional: no external mutation."
+  ],
+  "relatedTopics": ["multithreading-basics", "java-memory-and-garbage-collection"],
+  "practice": {
+    "totalQuestions": 60,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">Predicate&lt;Integer&gt; isEven = n -> n % 2 == 0;\nSystem.out.println(isEven.test(4));\nSystem.out.println(isEven.test(7));</code></pre>",
+        "hint": "Predicate.test() returns a boolean.",
+        "answer": "<code>true</code><br><code>false</code>",
+        "explanation": "The lambda <code>n -> n % 2 == 0</code> returns true if n is even. 4 % 2 == 0 is true. 7 % 2 == 0 is false."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">Function&lt;String, Integer&gt; len = s -> s.length();\nSystem.out.println(len.apply(\"Hello\"));\nSystem.out.println(len.apply(\"\"));</code></pre>",
+        "hint": "Function.apply() takes input and returns a result.",
+        "answer": "<code>5</code><br><code>0</code>",
+        "explanation": "The lambda returns the string's length. \"Hello\" has 5 characters. An empty string has 0."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">List&lt;Integer&gt; nums = List.of(1, 2, 3, 4, 5);\nlong count = nums.stream().filter(n -> n > 3).count();\nSystem.out.println(count);</code></pre>",
+        "hint": "filter keeps elements where the predicate returns true.",
+        "answer": "<code>2</code>",
+        "explanation": "Elements greater than 3 are 4 and 5. <code>count()</code> returns 2."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">List&lt;String&gt; names = List.of(\"arjun\", \"priya\");\nnames.stream()\n    .map(String::toUpperCase)\n    .forEach(System.out::println);</code></pre>",
+        "hint": "map transforms each element. toUpperCase converts to uppercase.",
+        "answer": "<code>ARJUN</code><br><code>PRIYA</code>",
+        "explanation": "<code>map(String::toUpperCase)</code> transforms each string to uppercase. <code>forEach</code> prints each transformed element."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">List&lt;Integer&gt; nums = List.of(3, 1, 4, 1, 5);\nint sum = nums.stream().reduce(0, Integer::sum);\nSystem.out.println(sum);</code></pre>",
+        "hint": "reduce combines all elements. 0 is the identity for addition.",
+        "answer": "<code>14</code>",
+        "explanation": "<code>reduce(0, Integer::sum)</code> computes the sum starting from 0. 0 + 3 + 1 + 4 + 1 + 5 = 14."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">List&lt;String&gt; names = List.of(\"Arjun\", \"Priya\", \"Arjun\", \"Vikram\", \"Priya\");\nlong count = names.stream().distinct().count();\nSystem.out.println(count);</code></pre>",
+        "hint": "distinct() removes duplicate elements.",
+        "answer": "<code>3</code>",
+        "explanation": "<code>distinct()</code> removes duplicates. Unique names are Arjun, Priya, Vikram. Count is 3."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">List&lt;Integer&gt; nums = List.of(5, 3, 8, 1, 9, 2);\nList&lt;Integer&gt; result = nums.stream()\n    .sorted()\n    .limit(3)\n    .collect(Collectors.toList());\nSystem.out.println(result);</code></pre>",
+        "hint": "sorted() sorts in natural order. limit(3) takes the first 3.",
+        "answer": "<code>[1, 2, 3]</code>",
+        "explanation": "<code>sorted()</code> sorts: [1, 2, 3, 5, 8, 9]. <code>limit(3)</code> takes the first 3: [1, 2, 3]."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">List&lt;String&gt; words = List.of(\"Java\", \"is\", \"fun\");\nString result = words.stream()\n    .collect(Collectors.joining(\" \"));\nSystem.out.println(result);</code></pre>",
+        "hint": "joining() concatenates elements with the given delimiter.",
+        "answer": "<code>Java is fun</code>",
+        "explanation": "<code>Collectors.joining(\" \")</code> concatenates all strings with a space delimiter: \"Java\" + \" \" + \"is\" + \" \" + \"fun\"."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">Optional&lt;String&gt; opt = Optional.of(\"Hello\");\nSystem.out.println(opt.isPresent());\nSystem.out.println(opt.orElse(\"World\"));\n\nOptional&lt;String&gt; empty = Optional.empty();\nSystem.out.println(empty.isPresent());\nSystem.out.println(empty.orElse(\"World\"));</code></pre>",
+        "hint": "orElse returns the contained value if present, otherwise the default.",
+        "answer": "<code>true</code><br><code>Hello</code><br><code>false</code><br><code>World</code>",
+        "explanation": "<code>Optional.of(\"Hello\")</code> contains \"Hello\". <code>isPresent()</code> is true, <code>orElse</code> returns \"Hello\" (ignores default). <code>Optional.empty()</code> has no value. <code>isPresent()</code> is false, <code>orElse</code> returns the default \"World\"."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">List&lt;List&lt;Integer&gt;&gt; nested = List.of(\n    List.of(1, 2),\n    List.of(3, 4),\n    List.of(5)\n);\n\nList&lt;Integer&gt; flat = nested.stream()\n    .flatMap(List::stream)\n    .collect(Collectors.toList());\nSystem.out.println(flat);</code></pre>",
+        "hint": "flatMap flattens each inner list into a single stream.",
+        "answer": "<code>[1, 2, 3, 4, 5]</code>",
+        "explanation": "<code>flatMap(List::stream)</code> converts each inner list into a stream and merges them all into one: 1, 2, 3, 4, 5."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-java\">List&lt;String&gt; names = List.of(\"Arjun\", \"Priya\", \"Avi\", \"Sneha\", \"Arun\");\nMap&lt;Character, List&lt;String&gt;&gt; grouped = names.stream()\n    .collect(Collectors.groupingBy(n -> n.charAt(0)));\nSystem.out.println(grouped);</code></pre>",
+        "hint": "groupingBy groups elements by the first character.",
+        "answer": "<code>{A=[Arjun, Avi, Arun], P=[Priya], S=[Sneha]}</code>",
+        "explanation": "Elements are grouped by their first character. 'A' group: Arjun, Avi, Arun. 'P' group: Priya. 'S' group: Sneha."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-java\">List&lt;Integer&gt; nums = List.of(1, 2, 3, 4, 5);\nOptional&lt;Integer&gt; result = nums.stream()\n    .filter(n -> n > 10)\n    .findFirst();\nSystem.out.println(result.isPresent());\nSystem.out.println(result.orElse(-1));</code></pre>",
+        "hint": "No element is greater than 10.",
+        "answer": "<code>false</code><br><code>-1</code>",
+        "explanation": "No element passes the filter (none > 10). <code>findFirst()</code> returns an empty Optional. <code>isPresent()</code> is false. <code>orElse(-1)</code> returns the default value -1."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-java\">List&lt;Integer&gt; nums = List.of(1, 2, 3, 4, 5);\nboolean allEven = nums.stream().allMatch(n -> n % 2 == 0);\nboolean anyEven = nums.stream().anyMatch(n -> n % 2 == 0);\nboolean noneNeg = nums.stream().noneMatch(n -> n < 0);\nSystem.out.println(allEven + \" \" + anyEven + \" \" + noneNeg);</code></pre>",
+        "hint": "allMatch: all must pass. anyMatch: at least one. noneMatch: none should pass.",
+        "answer": "<code>false true true</code>",
+        "explanation": "Not all are even (1 is odd), so allMatch is false. Some are even (2, 4), so anyMatch is true. None are negative, so noneMatch is true."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>map()</code> and <code>flatMap()</code> in streams?",
+        "hint": "Think about what happens when each element maps to a collection.",
+        "answer": "<code>map()</code> transforms each element into exactly one element (one-to-one). <code>flatMap()</code> transforms each element into zero or more elements by flattening nested streams (one-to-many). If you map a list of students to their courses and each student has multiple courses, <code>map()</code> gives a <code>Stream&lt;List&lt;String&gt;&gt;</code> while <code>flatMap()</code> gives a <code>Stream&lt;String&gt;</code>.",
+        "explanation": "Use map when each element produces one result. Use flatMap when each element produces a stream/collection that should be flattened into the main stream."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What does it mean that streams are 'lazy'? How does this affect performance?",
+        "hint": "Think about when intermediate operations actually execute.",
+        "answer": "Intermediate operations (filter, map, sorted) are not executed when they are called. They are only executed when a terminal operation (collect, forEach, count) is invoked. This enables <strong>short-circuit optimization</strong>: with <code>findFirst()</code>, the stream processes elements one by one and stops as soon as a match is found, without processing the entire collection. Laziness also allows the JVM to optimize the pipeline by fusing operations.",
+        "explanation": "Without laziness, <code>filter().map().findFirst()</code> would filter all elements, then map all survivors, then pick the first. With laziness, each element goes through filter and map one at a time, stopping at the first match."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">Consumer&lt;String&gt; greet = name -> System.out.println(\"Hello, \" + name);\ngreet.accept(\"Arjun\");</code></pre>",
+        "hint": "Consumer.accept() takes an argument and returns nothing.",
+        "answer": "<code>Hello, Arjun</code>",
+        "explanation": "The Consumer accepts a String and prints a greeting. <code>accept(\"Arjun\")</code> triggers the lambda."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">Supplier&lt;String&gt; greeting = () -> \"Hello, World\";\nSystem.out.println(greeting.get());</code></pre>",
+        "hint": "Supplier.get() takes no arguments and returns a value.",
+        "answer": "<code>Hello, World</code>",
+        "explanation": "The Supplier takes no input and produces \"Hello, World\". <code>get()</code> invokes the lambda and returns the result."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">List&lt;Integer&gt; nums = List.of(10, 20, 30, 40, 50);\nList&lt;Integer&gt; result = nums.stream()\n    .skip(2)\n    .limit(2)\n    .collect(Collectors.toList());\nSystem.out.println(result);</code></pre>",
+        "hint": "skip(2) skips the first two. limit(2) takes the next two.",
+        "answer": "<code>[30, 40]</code>",
+        "explanation": "<code>skip(2)</code> skips 10 and 20. <code>limit(2)</code> takes the next 2 elements: 30 and 40."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">List&lt;String&gt; names = List.of(\"Arjun\", \"Priya\", \"Vikram\");\nMap&lt;String, Integer&gt; map = names.stream()\n    .collect(Collectors.toMap(n -> n, String::length));\nSystem.out.println(map);</code></pre>",
+        "hint": "toMap takes a key function and a value function.",
+        "answer": "<code>{Arjun=5, Priya=5, Vikram=6}</code>",
+        "explanation": "<code>toMap(n -> n, String::length)</code> creates a map where the key is the name and the value is its length."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">Function&lt;Integer, Integer&gt; doubleIt = n -> n * 2;\nFunction&lt;Integer, Integer&gt; addThree = n -> n + 3;\nFunction&lt;Integer, Integer&gt; combined = doubleIt.andThen(addThree);\nSystem.out.println(combined.apply(5));</code></pre>",
+        "hint": "andThen applies doubleIt first, then addThree to the result.",
+        "answer": "<code>13</code>",
+        "explanation": "<code>andThen</code> chains functions: first <code>doubleIt(5) = 10</code>, then <code>addThree(10) = 13</code>."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-java\">List&lt;String&gt; names = List.of(\"Arjun\", \"Priya\", \"Sneha\", \"Vikram\", \"Kavya\");\nMap&lt;Boolean, List&lt;String&gt;&gt; partitioned = names.stream()\n    .collect(Collectors.partitioningBy(n -> n.length() > 5));\nSystem.out.println(\"Long: \" + partitioned.get(true));\nSystem.out.println(\"Short: \" + partitioned.get(false));</code></pre>",
+        "hint": "partitioningBy splits into true and false groups based on the predicate.",
+        "answer": "<code>Long: [Vikram]</code><br><code>Short: [Arjun, Priya, Sneha, Kavya]</code>",
+        "explanation": "Only \"Vikram\" (6 chars) has length > 5. All others (5 chars each) go to the false group."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-java\">List&lt;Integer&gt; nums = List.of(1, 2, 3, 4, 5);\nString result = nums.stream()\n    .map(n -> n * n)\n    .map(String::valueOf)\n    .collect(Collectors.joining(\", \"));\nSystem.out.println(result);</code></pre>",
+        "hint": "First map squares the number. Second map converts to String. joining concatenates.",
+        "answer": "<code>1, 4, 9, 16, 25</code>",
+        "explanation": "First map: [1, 4, 9, 16, 25]. Second map converts to strings. <code>joining(\", \")</code> concatenates with comma-space separator."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-java\">List&lt;Integer&gt; nums = List.of(5, 3, 8, 1, 9, 2, 7);\nOptional&lt;Integer&gt; secondLargest = nums.stream()\n    .sorted(Comparator.reverseOrder())\n    .skip(1)\n    .findFirst();\nSystem.out.println(secondLargest.orElse(-1));</code></pre>",
+        "hint": "Sort in descending order, skip the first (largest), take the next.",
+        "answer": "<code>8</code>",
+        "explanation": "Sorted descending: [9, 8, 7, 5, 3, 2, 1]. Skip 1 (removes 9). findFirst returns 8, which is the second-largest element."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is a functional interface in Java?",
+        "hint": "Think about how many abstract methods it has.",
+        "answer": "A functional interface is an interface with exactly <strong>one abstract method</strong> (SAM - Single Abstract Method). It can have any number of default and static methods. The <code>@FunctionalInterface</code> annotation enforces this constraint. Lambda expressions can only be assigned to functional interface types. Examples: Runnable, Predicate, Function, Consumer, Supplier.",
+        "explanation": "Functional interfaces are the foundation of lambda expressions in Java. The single abstract method defines the lambda's signature."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>stream()</code> and <code>parallelStream()</code>?",
+        "hint": "Think about how elements are processed.",
+        "answer": "<code>stream()</code> processes elements sequentially on a single thread. <code>parallelStream()</code> splits the data into chunks and processes them concurrently using the ForkJoinPool. Parallel streams can improve performance for CPU-intensive operations on large datasets, but they add overhead and can cause issues with non-thread-safe operations or shared mutable state.",
+        "explanation": "Do not blindly use parallelStream. It helps for large datasets with CPU-bound operations (like complex calculations). It can actually be slower for small datasets or I/O-bound operations due to thread management overhead."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is a lambda expression in Java?",
+        "options": [
+          "A new data type",
+          "A concise way to represent an anonymous function",
+          "A loop structure",
+          "A design pattern"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A lambda expression is a short way to define a function without a name. It was introduced in Java 8 and is used with functional interfaces."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which functional interface takes an argument and returns a boolean?",
+        "options": [
+          "Function<T,R>",
+          "Consumer<T>",
+          "Predicate<T>",
+          "Supplier<T>"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>Predicate&lt;T&gt;</code> has a <code>test(T t)</code> method that returns boolean. Function returns R, Consumer returns void, Supplier takes no argument."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does stream().filter() do?",
+        "options": [
+          "Removes all elements",
+          "Keeps elements that match the given predicate",
+          "Transforms each element",
+          "Sorts the elements"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>filter()</code> takes a Predicate and returns a stream containing only the elements for which the predicate returns true."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is String::toUpperCase an example of?",
+        "options": [
+          "Static method call",
+          "Lambda expression",
+          "Method reference",
+          "Constructor call"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>String::toUpperCase</code> is a method reference -- shorthand for <code>s -> s.toUpperCase()</code>. It references the toUpperCase instance method of the String class."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What type of operation is forEach() in streams?",
+        "options": [
+          "Intermediate operation",
+          "Terminal operation",
+          "Source operation",
+          "Lazy operation"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>forEach()</code> is a terminal operation that triggers the stream pipeline and consumes the stream. After forEach, the stream cannot be reused."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does Collectors.groupingBy() return?",
+        "options": [
+          "List<T>",
+          "Set<T>",
+          "Map<K, List<T>>",
+          "Optional<T>"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>groupingBy()</code> groups stream elements by a classifier function and returns a Map where keys are the group values and values are Lists of elements in each group."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does Optional.orElse(defaultValue) do?",
+        "options": [
+          "Always returns the default value",
+          "Returns the contained value if present, otherwise returns defaultValue",
+          "Throws an exception if the value is present",
+          "Sets the contained value to defaultValue"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>orElse()</code> returns the wrapped value if present, or the provided default value if the Optional is empty."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Why are streams considered lazy?",
+        "options": [
+          "They run on background threads",
+          "Intermediate operations are not executed until a terminal operation is called",
+          "They process elements slowly",
+          "They always use parallel processing"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Intermediate operations (filter, map, sorted) just build a pipeline. They execute only when a terminal operation (collect, forEach, count) triggers the pipeline."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does flatMap do in streams?",
+        "options": [
+          "Filters and maps simultaneously",
+          "Maps each element to a stream and flattens them into a single stream",
+          "Creates a flat data structure",
+          "Maps elements in parallel"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>flatMap</code> maps each element to a stream and then flattens all resulting streams into one. It is used when each element maps to multiple values."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which is NOT an intermediate stream operation?",
+        "options": [
+          "filter()",
+          "map()",
+          "collect()",
+          "sorted()"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>collect()</code> is a terminal operation that triggers the pipeline and gathers results. filter, map, and sorted are intermediate operations."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the difference between Predicate.and() and Predicate.or()?",
+        "options": [
+          "and() combines predicates with logical AND; or() combines with logical OR",
+          "They are identical",
+          "and() is for numbers; or() is for strings",
+          "and() creates a new predicate; or() modifies the existing one"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>and()</code> returns a composed Predicate that is true only if both predicates are true. <code>or()</code> returns true if either predicate is true. Both return new Predicate instances."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What happens if you call Optional.of(null)?",
+        "options": [
+          "Returns an empty Optional",
+          "Returns an Optional containing null",
+          "Throws NullPointerException",
+          "Returns null"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>Optional.of(null)</code> throws <code>NullPointerException</code>. Use <code>Optional.ofNullable(null)</code> if the value might be null -- it returns an empty Optional for null."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What does reduce(identity, accumulator) return when the stream is empty?",
+        "options": [
+          "null",
+          "The identity value",
+          "An empty Optional",
+          "Throws NoSuchElementException"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When the stream is empty, <code>reduce(identity, accumulator)</code> returns the identity value. For example, <code>reduce(0, Integer::sum)</code> returns 0 for an empty stream."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the correct lambda syntax for a BiFunction that takes two integers and returns their sum?",
+        "options": [
+          "BiFunction<Integer, Integer, Integer> f = a, b -> a + b",
+          "BiFunction<Integer, Integer, Integer> f = (a, b) -> a + b",
+          "BiFunction<Integer, Integer, Integer> f = (a, b) -> { return a + b }",
+          "BiFunction<Integer, Integer, Integer> f = (a, b) => a + b"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Multiple parameters must be in parentheses: <code>(a, b) -> a + b</code>. Option A is missing parentheses. Option C is missing a semicolon after return. Option D uses => which is JavaScript syntax, not Java."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "Can a stream be reused after a terminal operation?",
+        "options": [
+          "Yes, streams are reusable",
+          "No, a stream can only be consumed once",
+          "Yes, if you call reset()",
+          "Only if it is a parallel stream"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> After a terminal operation, the stream is closed and cannot be reused. Attempting to use it again throws <code>IllegalStateException</code>. Create a new stream from the source to reprocess."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Custom Filter and Transform",
+        "difficulty": "Easy",
+        "description": "Given a list of integers, use streams to filter out odd numbers, double each remaining number, and collect into a list. Print the result.",
+        "sampleInput": "List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)",
+        "sampleOutput": "[4, 8, 12, 16, 20]",
+        "constraints": "Use stream(), filter(), map(), and collect().",
+        "solution": "import java.util.List;\nimport java.util.stream.Collectors;\n\npublic class FilterAndTransform {\n    public static void main(String[] args) {\n        List<Integer> nums = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);\n        List<Integer> result = nums.stream()\n            .filter(n -> n % 2 == 0)\n            .map(n -> n * 2)\n            .collect(Collectors.toList());\n        System.out.println(result);\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Student Grade Report",
+        "difficulty": "Medium",
+        "description": "Given a list of Student records (name, marks), use streams to: (1) Find students who scored above 80 (sorted by marks descending). (2) Calculate the class average. (3) Group students into PASS (>=40) and FAIL (<40).",
+        "sampleInput": "Students: Arjun(85), Priya(92), Vikram(35), Sneha(78), Rohan(42)",
+        "sampleOutput": "Above 80: [Priya(92), Arjun(85)]\nAverage: 66.4\nPASS: [Arjun, Priya, Sneha, Rohan]\nFAIL: [Vikram]",
+        "constraints": "Use stream operations: filter, sorted, mapToInt, average, partitioningBy.",
+        "solution": "import java.util.*;\nimport java.util.stream.Collectors;\n\npublic class GradeReport {\n    record Student(String name, int marks) {}\n\n    public static void main(String[] args) {\n        List<Student> students = List.of(\n            new Student(\"Arjun\", 85),\n            new Student(\"Priya\", 92),\n            new Student(\"Vikram\", 35),\n            new Student(\"Sneha\", 78),\n            new Student(\"Rohan\", 42)\n        );\n\n        List<String> above80 = students.stream()\n            .filter(s -> s.marks() > 80)\n            .sorted(Comparator.comparingInt(Student::marks).reversed())\n            .map(s -> s.name() + \"(\" + s.marks() + \")\")\n            .collect(Collectors.toList());\n        System.out.println(\"Above 80: \" + above80);\n\n        double avg = students.stream()\n            .mapToInt(Student::marks)\n            .average().orElse(0);\n        System.out.printf(\"Average: %.1f%n\", avg);\n\n        Map<Boolean, List<String>> passFailMap = students.stream()\n            .collect(Collectors.partitioningBy(\n                s -> s.marks() >= 40,\n                Collectors.mapping(Student::name, Collectors.toList())\n            ));\n        System.out.println(\"PASS: \" + passFailMap.get(true));\n        System.out.println(\"FAIL: \" + passFailMap.get(false));\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Word Frequency Counter",
+        "difficulty": "Medium",
+        "description": "Given a list of sentences, use streams to split each into words, count the frequency of each word (case-insensitive), and display the top 5 most frequent words.",
+        "sampleInput": "\"Java is great\", \"Java is powerful\", \"Java and Python are great\"",
+        "sampleOutput": "java: 3\nis: 2\ngreat: 2\npython: 1\nand: 1",
+        "constraints": "Use flatMap to split sentences into words. Use Collectors.groupingBy and Collectors.counting().",
+        "solution": "import java.util.*;\nimport java.util.stream.Collectors;\n\npublic class WordFrequency {\n    public static void main(String[] args) {\n        List<String> sentences = List.of(\n            \"Java is great\",\n            \"Java is powerful\",\n            \"Java and Python are great\"\n        );\n\n        Map<String, Long> frequency = sentences.stream()\n            .flatMap(s -> Arrays.stream(s.toLowerCase().split(\"\\\\s+\")))\n            .collect(Collectors.groupingBy(w -> w, Collectors.counting()));\n\n        frequency.entrySet().stream()\n            .sorted(Map.Entry.<String, Long>comparingByValue().reversed())\n            .limit(5)\n            .forEach(e -> System.out.println(e.getKey() + \": \" + e.getValue()));\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Employee Analytics Dashboard",
+        "difficulty": "Hard",
+        "description": "Given a list of Employee records (name, department, salary), use streams to: (1) Find the highest-paid employee per department. (2) Calculate total salary expense per department. (3) Find employees earning above the company average. (4) Create a comma-separated string of all employee names sorted alphabetically.",
+        "sampleInput": "Multiple employees across Engineering, Marketing, and HR departments",
+        "sampleOutput": "Highest paid per dept: {Engineering=Sneha(95000), ...}\nTotal per dept: {Engineering=272000, ...}\nAbove average: [Arjun, Priya, Sneha]\nAll names: Arjun, Kavya, Priya, Rohan, Sneha, Vikram",
+        "constraints": "Use groupingBy with downstream collectors, Collectors.maxBy, Collectors.summingInt, and Collectors.joining.",
+        "solution": "import java.util.*;\nimport java.util.stream.Collectors;\n\npublic class EmployeeAnalytics {\n    record Employee(String name, String dept, int salary) {}\n\n    public static void main(String[] args) {\n        List<Employee> employees = List.of(\n            new Employee(\"Arjun\", \"Engineering\", 85000),\n            new Employee(\"Priya\", \"Engineering\", 92000),\n            new Employee(\"Vikram\", \"Marketing\", 78000),\n            new Employee(\"Sneha\", \"Engineering\", 95000),\n            new Employee(\"Rohan\", \"Marketing\", 72000),\n            new Employee(\"Kavya\", \"HR\", 68000)\n        );\n\n        // Highest paid per department\n        Map<String, Optional<Employee>> topPerDept = employees.stream()\n            .collect(Collectors.groupingBy(\n                Employee::dept,\n                Collectors.maxBy(Comparator.comparingInt(Employee::salary))\n            ));\n        topPerDept.forEach((dept, emp) ->\n            emp.ifPresent(e -> System.out.println(dept + \": \" + e.name() + \"(\" + e.salary() + \")\")));\n\n        // Total salary per dept\n        Map<String, Integer> totalPerDept = employees.stream()\n            .collect(Collectors.groupingBy(Employee::dept, Collectors.summingInt(Employee::salary)));\n        System.out.println(\"Total per dept: \" + totalPerDept);\n\n        // Above company average\n        double avg = employees.stream().mapToInt(Employee::salary).average().orElse(0);\n        List<String> aboveAvg = employees.stream()\n            .filter(e -> e.salary() > avg)\n            .map(Employee::name)\n            .collect(Collectors.toList());\n        System.out.printf(\"Company avg: %.0f, Above: %s%n\", avg, aboveAvg);\n\n        // Sorted names\n        String allNames = employees.stream()\n            .map(Employee::name)\n            .sorted()\n            .collect(Collectors.joining(\", \"));\n        System.out.println(\"All names: \" + allNames);\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Custom Optional Chain",
+        "difficulty": "Hard",
+        "description": "Create a chain of Optional operations: given a user ID, find the user, get their address, get the city, and convert to uppercase. If any step returns null/empty, return 'UNKNOWN'. Demonstrate with found and not-found cases.",
+        "sampleInput": "User ID: 1 (exists), User ID: 99 (does not exist)",
+        "sampleOutput": "User 1 city: DELHI\nUser 99 city: UNKNOWN",
+        "constraints": "Use Optional.ofNullable, map, flatMap, and orElse. Do not use any null checks (if statements).",
+        "solution": "import java.util.*;\n\npublic class OptionalChain {\n    record Address(String city, String state) {}\n    record User(int id, String name, Address address) {}\n\n    static Map<Integer, User> database = Map.of(\n        1, new User(1, \"Arjun\", new Address(\"Delhi\", \"Delhi\")),\n        2, new User(2, \"Priya\", new Address(\"Mumbai\", \"Maharashtra\")),\n        3, new User(3, \"Vikram\", null) // no address\n    );\n\n    static Optional<User> findUser(int id) {\n        return Optional.ofNullable(database.get(id));\n    }\n\n    static String getCityUpperCase(int userId) {\n        return findUser(userId)\n            .map(User::address)\n            .map(Address::city)\n            .map(String::toUpperCase)\n            .orElse(\"UNKNOWN\");\n    }\n\n    public static void main(String[] args) {\n        System.out.println(\"User 1 city: \" + getCityUpperCase(1));\n        System.out.println(\"User 2 city: \" + getCityUpperCase(2));\n        System.out.println(\"User 3 city: \" + getCityUpperCase(3));\n        System.out.println(\"User 99 city: \" + getCityUpperCase(99));\n    }\n}"
+      }
+    ]
+  }
+}

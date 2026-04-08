@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your First Java Program - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Write your first Java program using System.out.println, understand the main method, and learn how Java compiles and runs.">
+    <meta name="keywords" content="your first java program, java tutorial, java your first java program, learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/your-first-java-program">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/your-first-java-program">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/your-first-java-program">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/your-first-java-program">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/your-first-java-program">
+    <meta property="og:title" content="Your First Java Program - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Write your first Java program using System.out.println, understand the main method, and learn how Java compiles and runs.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/your-first-java-program">
+    <meta name="twitter:title" content="Your First Java Program - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Write your first Java program using System.out.println, understand the main method, and learn how Java compiles and runs.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Your First Java Program",
+    "description": "Write your first Java program using System.out.println, understand the main method, and learn how Java compiles and runs.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-07",
+    "dateModified": "2026-04-07",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/your-first-java-program"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/your-first-java-program"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Your First Java Program",
+        "item": "https://learn.modernagecoders.com/resources/java/your-first-java-program"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Missing Semicolon",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every statement in Java must end with a semicolon (<code>;</code>). This is different from Python which uses newlines to end statements. The compiler's error message points to the exact location where the semicolon is missing. This is the single most common syntax error for beginners."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrong main Method Signature",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The JVM requires the main method to be <code>public static void main(String[] args)</code> exactly. If you omit <code>static</code>, the JVM cannot call the method without creating an object. If you change <code>void</code> to another return type, or change the parameter type, the JVM will not recognize it as the entry point. The error message is clear, but this mistake is common."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using println with Lowercase 'l'",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Java is case-sensitive. The method is <code>println</code> (all lowercase), not <code>printLn</code>, <code>Println</code>, or <code>PrintLn</code>. Similarly, <code>System</code> must have a capital S, and <code>out</code> must be lowercase. The \"cannot find symbol\" error means Java does not recognize the name you typed."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "String Concatenation Surprise with Numbers",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Java evaluates <code>+</code> from left to right. <code>\"Score: \" + 10</code> produces the string <code>\"Score: 10\"</code> (string concatenation). Then <code>\"Score: 10\" + 20</code> produces <code>\"Score: 1020\"</code> (still concatenation). To force arithmetic first, use parentheses: <code>(10 + 20)</code> evaluates to <code>30</code> before being concatenated."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting Curly Braces",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Method bodies must be enclosed in curly braces <code>{ }</code>. Without the opening brace after the method signature, the compiler gets confused and gives a misleading error. Always ensure every opening brace <code>{</code> has a matching closing brace <code>}</code>. IDEs auto-insert matching braces, but it is important to understand the requirement."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Single Quotes for Strings",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In Java, double quotes (<code>\"\"</code>) denote <strong>Strings</strong>, and single quotes (<code>''</code>) denote a single <strong>character</strong> (char). <code>'Hello World'</code> is invalid because single quotes can only contain one character. This is different from Python where single and double quotes are interchangeable for strings."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Your First Java Program</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 3</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">20 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-07</span>
+            </div>
+            <h1 class="resource-title">Your First Java Program</h1>
+            <a href="/resources/java/your-first-java-program/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is a Java Program?</h2><p>A Java program is a collection of instructions written in the Java programming language that the computer can execute. Every Java program consists of at least one <strong>class</strong>, and every standalone program must have a special method called <code>main</code> that serves as the <strong>entry point</strong> -- the place where execution begins.</p><p>Unlike scripting languages like Python where you can write a single line of code and run it, Java requires a specific structure. Your code must live inside a class, and the executable code must be inside methods. This structure may feel verbose at first, but it enforces organization and makes large programs manageable.</p><p>In this chapter, you will write your first Java program, understand every keyword in the <code>public static void main(String[] args)</code> signature, learn how to print output, add comments, follow naming conventions, and understand what happens when your code is compiled and run.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is Understanding Program Structure Important?</h2><p>Every Java program you ever write will follow the same basic structure. Understanding it thoroughly now prevents confusion later and builds a solid foundation for everything that follows.</p><h3>1. The main Method Is Where Everything Starts</h3><p>When you run a Java program, the JVM looks for the <code>main</code> method with a very specific signature. If this method is missing, has the wrong signature, or is misspelled, your program will not run. Understanding why each keyword (<code>public</code>, <code>static</code>, <code>void</code>) is required helps you understand Java's design philosophy.</p><h3>2. Output Is How Programs Communicate</h3><p><code>System.out.println</code> is the most basic way for a program to display results. You will use it in every chapter, every exercise, and every debugging session. Understanding the difference between <code>println</code>, <code>print</code>, and <code>printf</code> gives you control over how your output looks.</p><h3>3. Comments Make Code Maintainable</h3><p>Professional code always includes comments. In placement coding rounds, well-commented solutions demonstrate clarity of thought. In team environments, comments help other developers (and your future self) understand your logic.</p><h3>4. Naming Conventions Are Non-Negotiable</h3><p>Java has strict naming conventions that the entire industry follows. Using <code>camelCase</code> for variables, <code>PascalCase</code> for classes, and <code>UPPER_SNAKE_CASE</code> for constants is not optional -- it is expected in interviews, code reviews, and professional codebases.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Anatomy of a Java Program</h3><p>Let us dissect the simplest possible Java program line by line:</p><pre><code>public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}</code></pre><h4>Line 1: <code>public class HelloWorld {</code></h4><ul><li><code>public</code> -- This is an <strong>access modifier</strong> that makes the class accessible from anywhere. Every Java source file can have at most one public class, and the file name must match this class name.</li><li><code>class</code> -- This keyword declares a class. In Java, all code must be inside a class. A class is a blueprint that groups related data and methods.</li><li><code>HelloWorld</code> -- This is the class name. It must match the file name exactly (HelloWorld.java). By convention, class names use <strong>PascalCase</strong> (each word capitalized).</li><li><code>{</code> -- The opening curly brace marks the beginning of the class body.</li></ul><h4>Line 2: <code>public static void main(String[] args) {</code></h4><p>This is the <strong>main method signature</strong>. Every keyword here is required and has a specific purpose:</p><ul><li><code>public</code> -- The method must be accessible by the JVM from outside the class. If you make it <code>private</code>, the JVM cannot call it.</li><li><code>static</code> -- The method belongs to the class itself, not to an instance (object) of the class. The JVM calls <code>main</code> without creating an object, so it must be static.</li><li><code>void</code> -- The method does not return any value. The <code>main</code> method performs actions but does not return a result to the JVM.</li><li><code>main</code> -- This is the method name. The JVM specifically looks for a method named <code>main</code>. You cannot change this name.</li><li><code>String[] args</code> -- This is a parameter: an array of Strings that receives command-line arguments. Even if you do not use command-line arguments, this parameter must be present. You can also write it as <code>String args[]</code> or <code>String... args</code>.</li></ul><h4>Line 3: <code>System.out.println("Hello, World!");</code></h4><ul><li><code>System</code> -- A built-in class in the <code>java.lang</code> package that provides access to system-level resources.</li><li><code>out</code> -- A static field of the System class, representing the standard output stream (typically the console/terminal).</li><li><code>println</code> -- A method that prints the given text followed by a newline character. "println" stands for "print line."</li><li><code>"Hello, World!"</code> -- A <strong>String literal</strong> enclosed in double quotes.</li><li><code>;</code> -- Every statement in Java must end with a semicolon. This is required, not optional.</li></ul><h4>Line 4 and 5: Closing Braces</h4><p>The first <code>}</code> closes the main method. The second <code>}</code> closes the class. Every opening brace must have a matching closing brace.</p><h3>2. Printing Output: println vs print vs printf</h3><p>Java provides three primary methods for console output:</p><h4>System.out.println()</h4><p>Prints the argument followed by a <strong>newline</strong> character. The cursor moves to the next line after printing. This is the most commonly used output method.</p><h4>System.out.print()</h4><p>Prints the argument <strong>without</strong> a newline. The cursor stays on the same line. Useful when you want multiple outputs on the same line.</p><h4>System.out.printf()</h4><p>Prints <strong>formatted</strong> output using format specifiers, similar to C's printf. Common format specifiers:</p><table><tr><th>Specifier</th><th>Type</th><th>Example</th></tr><tr><td><code>%s</code></td><td>String</td><td><code>printf("%s", name)</code></td></tr><tr><td><code>%d</code></td><td>Integer</td><td><code>printf("%d", age)</code></td></tr><tr><td><code>%f</code></td><td>Float/Double</td><td><code>printf("%.2f", gpa)</code></td></tr><tr><td><code>%n</code></td><td>Newline (platform-independent)</td><td><code>printf("Hello%n")</code></td></tr><tr><td><code>%b</code></td><td>Boolean</td><td><code>printf("%b", true)</code></td></tr></table><h3>3. Comments in Java</h3><p>Comments are text that the compiler ignores. They exist solely for humans reading the code.</p><h4>Single-Line Comments</h4><p>Start with <code>//</code>. Everything after <code>//</code> on that line is ignored by the compiler.</p><pre><code>// This is a single-line comment
+int age = 20; // This comment is after code</code></pre><h4>Multi-Line Comments</h4><p>Start with <code>/*</code> and end with <code>*/</code>. Can span multiple lines.</p><pre><code>/* This is a multi-line comment.
+   It can span several lines.
+   Useful for longer explanations. */</code></pre><h4>Javadoc Comments</h4><p>Start with <code>/**</code> and end with <code>*/</code>. Used to generate API documentation with the <code>javadoc</code> tool.</p><pre><code>/**
+ * Calculates the area of a rectangle.
+ * @param length the length of the rectangle
+ * @param width the width of the rectangle
+ * @return the calculated area
+ */</code></pre><h3>4. Java Naming Conventions</h3><p>Java has well-established naming conventions that every professional developer follows:</p><table><tr><th>Element</th><th>Convention</th><th>Example</th></tr><tr><td>Classes</td><td>PascalCase</td><td><code>StudentRecord</code>, <code>BankAccount</code></td></tr><tr><td>Methods</td><td>camelCase</td><td><code>calculateTotal()</code>, <code>getName()</code></td></tr><tr><td>Variables</td><td>camelCase</td><td><code>studentName</code>, <code>totalMarks</code></td></tr><tr><td>Constants</td><td>UPPER_SNAKE_CASE</td><td><code>MAX_SIZE</code>, <code>PI_VALUE</code></td></tr><tr><td>Packages</td><td>lowercase</td><td><code>com.example.app</code></td></tr></table><h3>5. Escape Sequences</h3><p>Escape sequences allow you to include special characters in strings that cannot be typed directly:</p><table><tr><th>Escape Sequence</th><th>Meaning</th><th>Example Output</th></tr><tr><td><code>\n</code></td><td>Newline</td><td>Line break</td></tr><tr><td><code>\t</code></td><td>Tab</td><td>Horizontal tab</td></tr><tr><td><code>\\</code></td><td>Backslash</td><td><code>\</code></td></tr><tr><td><code>\"</code></td><td>Double quote</td><td><code>"</code></td></tr><tr><td><code>\'</code></td><td>Single quote</td><td><code>'</code></td></tr><tr><td><code>\r</code></td><td>Carriage return</td><td>Cursor to line start</td></tr></table><h3>6. The Compilation Process</h3><p>When you compile and run a Java program, the following steps happen:</p><ol><li><strong>Source Code:</strong> You write <code>HelloWorld.java</code> containing human-readable Java code</li><li><strong>Compilation:</strong> <code>javac HelloWorld.java</code> invokes the Java compiler, which: parses the source code, checks for syntax and type errors, and generates <code>HelloWorld.class</code> containing bytecode</li><li><strong>Loading:</strong> <code>java HelloWorld</code> starts the JVM, which uses the Class Loader to load <code>HelloWorld.class</code> into memory</li><li><strong>Verification:</strong> The bytecode verifier checks the code for safety and correctness</li><li><strong>Execution:</strong> The execution engine (interpreter + JIT compiler) runs the bytecode, starting from the <code>main</code> method</li></ol><h3>7. Command-Line Arguments</h3><p>The <code>String[] args</code> parameter in the main method receives arguments passed from the command line. When you run <code>java HelloWorld Aarav 20</code>, the args array contains <code>["Aarav", "20"]</code>. This allows your program to accept input without interactive prompts.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">The Classic Hello World</div><pre><code class="language-python">public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println(&quot;Hello, World!&quot;);
+    }
+}</code></pre><div class="code-example-explanation">This is the simplest complete Java program. The class name <code>HelloWorld</code> must match the file name <code>HelloWorld.java</code>. The <code>main</code> method is the entry point. <code>System.out.println</code> prints text followed by a newline. The semicolon terminates the statement. Compile with <code>javac HelloWorld.java</code>, run with <code>java HelloWorld</code>.</div><div class="code-example-output">Hello, World!</div></div>
+<div class="code-example"><div class="code-example-title">println vs print vs printf</div><pre><code class="language-python">public class PrintDemo {
+    public static void main(String[] args) {
+        // println - prints with newline
+        System.out.println(&quot;Line 1&quot;);
+        System.out.println(&quot;Line 2&quot;);
+
+        // print - no newline, stays on same line
+        System.out.print(&quot;Hello &quot;);
+        System.out.print(&quot;World&quot;);
+        System.out.println();  // just a newline
+
+        // printf - formatted output
+        String name = &quot;Aarav&quot;;
+        int age = 20;
+        double gpa = 8.75;
+        System.out.printf(&quot;Name: %s, Age: %d, GPA: %.2f%n&quot;, name, age, gpa);
+
+        // printf with width formatting
+        System.out.printf(&quot;%-10s %5d %8.2f%n&quot;, &quot;Priya&quot;, 21, 9.10);
+        System.out.printf(&quot;%-10s %5d %8.2f%n&quot;, &quot;Rohan&quot;, 19, 7.85);
+    }
+}</code></pre><div class="code-example-explanation"><code>println</code> adds a newline after each call, so "Line 1" and "Line 2" appear on separate lines. <code>print</code> does not add a newline, so "Hello " and "World" appear on the same line. <code>printf</code> uses format specifiers: <code>%s</code> for strings, <code>%d</code> for integers, <code>%.2f</code> for doubles with 2 decimal places, <code>%n</code> for a platform-independent newline. The <code>%-10s</code> left-aligns in a 10-character field; <code>%5d</code> right-aligns in a 5-character field.</div><div class="code-example-output">Line 1
+Line 2
+Hello World
+Name: Aarav, Age: 20, GPA: 8.75
+Priya          21     9.10
+Rohan          19     7.85</div></div>
+<div class="code-example"><div class="code-example-title">Comments in Practice</div><pre><code class="language-python">/**
+ * StudentGreeter - Demonstrates all three comment types in Java.
+ * This Javadoc comment can be used to generate documentation.
+ * @author Priya
+ * @version 1.0
+ */
+public class StudentGreeter {
+
+    // This is a single-line comment
+    // The main method is the program&#39;s entry point
+    public static void main(String[] args) {
+
+        /* Multi-line comment:
+           We declare a variable and use it
+           to create a personalized greeting. */
+        String studentName = &quot;Vikram&quot;;
+        int semester = 4;
+
+        // Print the greeting
+        System.out.println(&quot;Welcome, &quot; + studentName + &quot;!&quot;);
+        System.out.println(&quot;Semester: &quot; + semester);
+
+        // TODO: Add more student details later
+    }
+}</code></pre><div class="code-example-explanation">This example shows all three comment types. <strong>Javadoc comments</strong> (<code>/** */</code>) at the top describe the class and can include tags like <code>@author</code> and <code>@version</code>. <strong>Single-line comments</strong> (<code>//</code>) explain individual lines or sections. <strong>Multi-line comments</strong> (<code>/* */</code>) span several lines for longer explanations. The <code>TODO</code> comment is a common convention for marking code that needs future work -- most IDEs highlight these.</div><div class="code-example-output">Welcome, Vikram!
+Semester: 4</div></div>
+<div class="code-example"><div class="code-example-title">String Concatenation with + Operator</div><pre><code class="language-python">public class Concatenation {
+    public static void main(String[] args) {
+        String firstName = &quot;Ananya&quot;;
+        String lastName = &quot;Sharma&quot;;
+        int age = 19;
+        double percentage = 87.5;
+
+        // String concatenation with +
+        System.out.println(&quot;Name: &quot; + firstName + &quot; &quot; + lastName);
+        System.out.println(&quot;Age: &quot; + age);
+        System.out.println(&quot;Score: &quot; + percentage + &quot;%&quot;);
+
+        // Tricky: numbers and strings
+        System.out.println(10 + 20 + &quot; students&quot;);      // 30 students (math first)
+        System.out.println(&quot;Roll: &quot; + 10 + 20);          // Roll: 1020 (concatenation)
+        System.out.println(&quot;Sum: &quot; + (10 + 20));          // Sum: 30 (parentheses force math)
+    }
+}</code></pre><div class="code-example-explanation">The <code>+</code> operator concatenates strings. When you write <code>"Age: " + age</code>, Java automatically converts <code>age</code> (int) to a String and concatenates. The tricky part: <code>10 + 20 + " students"</code> evaluates left to right -- first <code>10 + 20 = 30</code> (integer addition), then <code>30 + " students" = "30 students"</code> (concatenation). But <code>"Roll: " + 10 + 20</code> becomes <code>"Roll: 10" + 20 = "Roll: 1020"</code> because the first <code>+</code> triggers string concatenation, and it continues. Use parentheses to force arithmetic: <code>"Sum: " + (10 + 20)</code> gives <code>"Sum: 30"</code>.</div><div class="code-example-output">Name: Ananya Sharma
+Age: 19
+Score: 87.5%
+30 students
+Roll: 1020
+Sum: 30</div></div>
+<div class="code-example"><div class="code-example-title">Escape Sequences</div><pre><code class="language-python">public class EscapeDemo {
+    public static void main(String[] args) {
+        // Newline
+        System.out.println(&quot;Line 1\nLine 2\nLine 3&quot;);
+
+        // Tab (useful for alignment)
+        System.out.println(&quot;Name\tAge\tCity&quot;);
+        System.out.println(&quot;Aarav\t20\tDelhi&quot;);
+        System.out.println(&quot;Neha\t19\tMumbai&quot;);
+
+        // Quotes inside strings
+        System.out.println(&quot;He said, \&quot;Java is great!\&quot;&quot;);
+
+        // Backslash
+        System.out.println(&quot;File path: C:\\Users\\Aarav\\code&quot;);
+
+        // Single quote (not strictly necessary in strings, but valid)
+        System.out.println(&quot;It\&#39;s a sunny day&quot;);
+    }
+}</code></pre><div class="code-example-explanation"><code>\n</code> inserts a newline within a single string, splitting it across lines. <code>\t</code> inserts a tab character, useful for creating aligned columns. <code>\"</code> allows you to include double quotes inside a string (without it, the compiler would think the string ends). <code>\\</code> produces a single backslash (needed because backslash is the escape character itself). These escape sequences work in both <code>println</code> and <code>printf</code>.</div><div class="code-example-output">Line 1
+Line 2
+Line 3
+Name	Age	City
+Aarav	20	Delhi
+Neha	19	Mumbai
+He said, &quot;Java is great!&quot;
+File path: C:\Users\Aarav\code
+It&#39;s a sunny day</div></div>
+<div class="code-example"><div class="code-example-title">Command-Line Arguments</div><pre><code class="language-python">public class CommandArgs {
+    public static void main(String[] args) {
+        System.out.println(&quot;Number of arguments: &quot; + args.length);
+
+        if (args.length &gt; 0) {
+            System.out.println(&quot;First argument: &quot; + args[0]);
+        }
+
+        if (args.length &gt; 1) {
+            System.out.println(&quot;Second argument: &quot; + args[1]);
+        }
+
+        // Print all arguments
+        System.out.println(&quot;\nAll arguments:&quot;);
+        for (int i = 0; i &lt; args.length; i++) {
+            System.out.println(&quot;  args[&quot; + i + &quot;] = &quot; + args[i]);
+        }
+    }
+}
+
+// Run: java CommandArgs Aarav 20 Delhi
+// Output: First argument: Aarav, Second: 20, etc.</code></pre><div class="code-example-explanation">The <code>String[] args</code> parameter captures command-line arguments. If you run <code>java CommandArgs Aarav 20 Delhi</code>, then <code>args[0]</code> is "Aarav", <code>args[1]</code> is "20" (as a String, not an int), and <code>args[2]</code> is "Delhi". <code>args.length</code> gives the count. Note that all arguments are Strings; if you need a number, you must parse it (e.g., <code>Integer.parseInt(args[1])</code>).</div><div class="code-example-output">Number of arguments: 3
+First argument: Aarav
+Second argument: 20
+
+All arguments:
+  args[0] = Aarav
+  args[1] = 20
+  args[2] = Delhi</div></div>
+<div class="code-example"><div class="code-example-title">Multiple Classes in Action</div><pre><code class="language-python">// File: GreetingApp.java
+// Only ONE class can be public, and it must match the file name
+
+public class GreetingApp {
+    public static void main(String[] args) {
+        String message = MessageHelper.getGreeting(&quot;Rohan&quot;);
+        System.out.println(message);
+        System.out.println(&quot;Program executed successfully.&quot;);
+    }
+}
+
+// This class is NOT public (default access)
+// It can be in the same file as GreetingApp
+class MessageHelper {
+    static String getGreeting(String name) {
+        return &quot;Hello, &quot; + name + &quot;! Welcome to Java programming.&quot;;
+    }
+}</code></pre><div class="code-example-explanation">A single .java file can contain multiple classes, but only <strong>one</strong> can be <code>public</code>, and the file name must match that public class. The <code>MessageHelper</code> class is package-private (no access modifier), so it can exist in the same file. When compiled, this produces two .class files: <code>GreetingApp.class</code> and <code>MessageHelper.class</code>. In practice, each class usually gets its own file for better organization.</div><div class="code-example-output">Hello, Rohan! Welcome to Java programming.
+Program executed successfully.</div></div>
+<div class="code-example"><div class="code-example-title">Naming Conventions Demo</div><pre><code class="language-python">public class NamingConventions {
+    // Constant: UPPER_SNAKE_CASE
+    static final double PI_VALUE = 3.14159;
+    static final int MAX_STUDENTS = 60;
+
+    public static void main(String[] args) {
+        // Variable: camelCase
+        String studentName = &quot;Neha&quot;;
+        int rollNumber = 42;
+        double semesterGpa = 8.9;
+        boolean isPlaced = true;
+
+        // Method call: camelCase
+        displayStudentInfo(studentName, rollNumber, semesterGpa, isPlaced);
+    }
+
+    // Method: camelCase
+    static void displayStudentInfo(String name, int roll, double gpa, boolean placed) {
+        System.out.println(&quot;=== Student Info ===&quot;);
+        System.out.println(&quot;Name: &quot; + name);
+        System.out.println(&quot;Roll: &quot; + roll);
+        System.out.println(&quot;GPA: &quot; + gpa);
+        System.out.println(&quot;Placed: &quot; + placed);
+        System.out.println(&quot;Max Students: &quot; + MAX_STUDENTS);
+    }
+}
+// Class name: PascalCase (NamingConventions)
+// Package names: all lowercase (com.example.app)</code></pre><div class="code-example-explanation">This program demonstrates all Java naming conventions in one place. The class name <code>NamingConventions</code> uses PascalCase. Variables like <code>studentName</code> and methods like <code>displayStudentInfo</code> use camelCase. Constants like <code>PI_VALUE</code> and <code>MAX_STUDENTS</code> use UPPER_SNAKE_CASE with the <code>static final</code> keywords. Following these conventions is critical for professional Java development and coding interviews.</div><div class="code-example-output">=== Student Info ===
+Name: Neha
+Roll: 42
+GPA: 8.9
+Placed: true
+Max Students: 60</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Missing Semicolon</h3>
+                <div class="wrong-code"><pre><code class="language-python">public class Test {
+    public static void main(String[] args) {
+        System.out.println(&quot;Hello&quot;)
+    }
+}</code></pre></div><div class="error-message">error: &#39;;&#39; expected
+        System.out.println(&quot;Hello&quot;)
+                                  ^</div><div class="correct-code"><pre><code class="language-python">public class Test {
+    public static void main(String[] args) {
+        System.out.println(&quot;Hello&quot;);
+    }
+}</code></pre></div><div class="mistake-explanation">Every statement in Java must end with a semicolon (<code>;</code>). This is different from Python which uses newlines to end statements. The compiler's error message points to the exact location where the semicolon is missing. This is the single most common syntax error for beginners.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrong main Method Signature</h3>
+                <div class="wrong-code"><pre><code class="language-python">public class Test {
+    public void main(String[] args) {  // Missing &#39;static&#39;
+        System.out.println(&quot;Hello&quot;);
+    }
+}</code></pre></div><div class="error-message">Error: Main method is not static in class Test, please define the main method as:
+   public static void main(String[] args)</div><div class="correct-code"><pre><code class="language-python">public class Test {
+    public static void main(String[] args) {
+        System.out.println(&quot;Hello&quot;);
+    }
+}</code></pre></div><div class="mistake-explanation">The JVM requires the main method to be <code>public static void main(String[] args)</code> exactly. If you omit <code>static</code>, the JVM cannot call the method without creating an object. If you change <code>void</code> to another return type, or change the parameter type, the JVM will not recognize it as the entry point. The error message is clear, but this mistake is common.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using println with Lowercase &#39;l&#39;</h3>
+                <div class="wrong-code"><pre><code class="language-python">public class Test {
+    public static void main(String[] args) {
+        System.out.printLn(&quot;Hello&quot;);  // Wrong: capital L
+    }
+}</code></pre></div><div class="error-message">error: cannot find symbol
+        System.out.printLn(&quot;Hello&quot;);
+                  ^
+  symbol:   method printLn(String)</div><div class="correct-code"><pre><code class="language-python">public class Test {
+    public static void main(String[] args) {
+        System.out.println(&quot;Hello&quot;);  // Correct: lowercase l, lowercase n
+    }
+}</code></pre></div><div class="mistake-explanation">Java is case-sensitive. The method is <code>println</code> (all lowercase), not <code>printLn</code>, <code>Println</code>, or <code>PrintLn</code>. Similarly, <code>System</code> must have a capital S, and <code>out</code> must be lowercase. The "cannot find symbol" error means Java does not recognize the name you typed.</div>
+            </div>
+<div class="mistake-card">
+                <h3>String Concatenation Surprise with Numbers</h3>
+                <div class="wrong-code"><pre><code class="language-python">public class Test {
+    public static void main(String[] args) {
+        System.out.println(&quot;Score: &quot; + 10 + 20);
+        // Expected: Score: 30
+        // Actual: Score: 1020
+    }
+}</code></pre></div><div class="error-message">No compiler error, but output is &#39;Score: 1020&#39; instead of &#39;Score: 30&#39;.</div><div class="correct-code"><pre><code class="language-python">public class Test {
+    public static void main(String[] args) {
+        System.out.println(&quot;Score: &quot; + (10 + 20));  // Score: 30
+    }
+}</code></pre></div><div class="mistake-explanation">Java evaluates <code>+</code> from left to right. <code>"Score: " + 10</code> produces the string <code>"Score: 10"</code> (string concatenation). Then <code>"Score: 10" + 20</code> produces <code>"Score: 1020"</code> (still concatenation). To force arithmetic first, use parentheses: <code>(10 + 20)</code> evaluates to <code>30</code> before being concatenated.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting Curly Braces</h3>
+                <div class="wrong-code"><pre><code class="language-python">public class Test {
+    public static void main(String[] args)
+        System.out.println(&quot;Hello&quot;);
+}</code></pre></div><div class="error-message">error: &#39;;&#39; expected
+    public static void main(String[] args)
+                                         ^</div><div class="correct-code"><pre><code class="language-python">public class Test {
+    public static void main(String[] args) {
+        System.out.println(&quot;Hello&quot;);
+    }
+}</code></pre></div><div class="mistake-explanation">Method bodies must be enclosed in curly braces <code>{ }</code>. Without the opening brace after the method signature, the compiler gets confused and gives a misleading error. Always ensure every opening brace <code>{</code> has a matching closing brace <code>}</code>. IDEs auto-insert matching braces, but it is important to understand the requirement.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Single Quotes for Strings</h3>
+                <div class="wrong-code"><pre><code class="language-python">public class Test {
+    public static void main(String[] args) {
+        System.out.println(&#39;Hello World&#39;);  // Single quotes!
+    }
+}</code></pre></div><div class="error-message">error: unclosed character literal
+        System.out.println(&#39;Hello World&#39;);
+                           ^</div><div class="correct-code"><pre><code class="language-python">public class Test {
+    public static void main(String[] args) {
+        System.out.println(&quot;Hello World&quot;);  // Double quotes for strings
+        System.out.println(&#39;H&#39;);             // Single quotes for single characters only
+    }
+}</code></pre></div><div class="mistake-explanation">In Java, double quotes (<code>""</code>) denote <strong>Strings</strong>, and single quotes (<code>''</code>) denote a single <strong>character</strong> (char). <code>'Hello World'</code> is invalid because single quotes can only contain one character. This is different from Python where single and double quotes are interchangeable for strings.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Every Java program must have at least one class. All executable code must be inside methods within a class.</li>
+<li>The main method signature is exactly: public static void main(String[] args). Each keyword is required: public (JVM access), static (no object needed), void (no return value), String[] args (command-line arguments).</li>
+<li>System.out.println() prints text followed by a newline. System.out.print() prints without a newline. System.out.printf() prints formatted output using specifiers like %s, %d, %.2f.</li>
+<li>Java has three comment types: single-line (//), multi-line (/* */), and Javadoc (/** */). Use comments to explain why, not what.</li>
+<li>The file name must exactly match the public class name (case-sensitive). HelloWorld class must be in HelloWorld.java.</li>
+<li>Java naming conventions: PascalCase for classes (StudentRecord), camelCase for variables and methods (studentName, getAge), UPPER_SNAKE_CASE for constants (MAX_SIZE).</li>
+<li>Escape sequences: \n (newline), \t (tab), \&quot; (double quote), \\ (backslash). These work inside string literals.</li>
+<li>String concatenation with + converts non-String values to Strings automatically. Use parentheses around arithmetic to prevent unexpected concatenation: &quot;Sum: &quot; + (10 + 20) gives &quot;Sum: 30&quot;.</li>
+<li>Every statement ends with a semicolon (;). Missing semicolons are the most common syntax error for beginners.</li>
+<li>Java is case-sensitive: System (capital S), println (lowercase), main (lowercase). Typos in these names cause &#39;cannot find symbol&#39; errors.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/installing-java-and-setup" class="related-topic-link">Installing Java and Setting Up Your Environment</a>
+<a href="/resources/java/variables-and-data-types" class="related-topic-link">Variables and Data Types in Java</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/java/installing-java-and-setup" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Installing Java and Setting Up Your Environment</span>
+        </a>
+            <a href="/resources/java/variables-and-data-types" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Variables and Data Types in Java</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/your-first-java-program/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

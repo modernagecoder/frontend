@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop Control and Pattern Printing - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Control loops with break, continue, and labeled statements. Build star, number, and character patterns.">
+    <meta name="keywords" content="loop control and pattern printing, java tutorial, java loop control and pattern printing, learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/loop-control-and-patterns">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/loop-control-and-patterns">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/loop-control-and-patterns">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/loop-control-and-patterns">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/loop-control-and-patterns">
+    <meta property="og:title" content="Loop Control and Pattern Printing - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Control loops with break, continue, and labeled statements. Build star, number, and character patterns.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/loop-control-and-patterns">
+    <meta name="twitter:title" content="Loop Control and Pattern Printing - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Control loops with break, continue, and labeled statements. Build star, number, and character patterns.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Loop Control and Pattern Printing",
+    "description": "Control loops with break, continue, and labeled statements. Build star, number, and character patterns.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/loop-control-and-patterns"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/loop-control-and-patterns"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Loop Control and Pattern Printing",
+        "item": "https://learn.modernagecoders.com/resources/java/loop-control-and-patterns"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "break Only Exits the Innermost Loop",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Without a label, <code>break</code> only exits the innermost enclosing loop. To break out of an outer loop from within an inner loop, use a labeled break. Place the label (e.g., <code>outer:</code>) before the outer loop and use <code>break outer;</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Infinite Loop with continue (Missing Update Before continue)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In a while loop, if the update (<code>i++</code>) comes after the continue, the continue skips it, causing an infinite loop. Move the increment before the continue, or use a for loop where the update happens automatically."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Off-by-One in Pattern Rows or Columns",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When using 0-based indexing (i starting at 0), the inner condition <code>j < i</code> gives 0 iterations for i = 0. Either start i at 1 (1-indexed) or use <code>j <= i</code> (0-indexed). Always verify with the first and last row values."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting Spaces in Centered Patterns",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Centered patterns like pyramids and diamonds require leading spaces. Row i in a pyramid needs (n - i) leading spaces before the stars. Without the space loop, the pattern is left-aligned."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Loop Control and Pattern Printing</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 9</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">30 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-08</span>
+            </div>
+            <h1 class="resource-title">Loop Control and Pattern Printing</h1>
+            <a href="/resources/java/loop-control-and-patterns/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Loop Control Statements and Pattern Programs?</h2><p>Loop control statements are keywords that alter the normal flow of a loop. While loops typically run until their condition becomes false, <strong>control statements</strong> let you exit a loop early (<code>break</code>), skip the current iteration (<code>continue</code>), or exit nested loops from an inner loop (<strong>labeled break/continue</strong>).</p><p><strong>Pattern programs</strong> are coding problems that require printing structured shapes using characters, numbers, or symbols. They are one of the most frequently asked topics in college exams and placement interviews because they test your understanding of nested loops, loop variables, and the relationship between rows and columns.</p><p>Patterns appear simple on the surface, but solving them requires you to identify the mathematical relationship between the row number and what gets printed in each row. Once you understand this approach, you can solve any pattern.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Master Loop Control and Patterns?</h2><h3>1. Loop Control Is Essential for Efficient Code</h3><p><code>break</code> lets you exit a loop as soon as you find what you are looking for, avoiding unnecessary iterations. In a search algorithm, once the target is found, continuing to iterate is wasteful. <code>continue</code> lets you skip invalid or unwanted cases without nesting your logic inside if-else blocks, keeping code flat and readable.</p><h3>2. Pattern Programs Build Core Loop Logic</h3><p>Pattern programs force you to understand how nested loops interact. The outer loop controls rows, the inner loop(s) control what gets printed in each row. This same nested loop logic is used in matrix operations, image processing, table generation, and grid-based algorithms.</p><h3>3. Placement Interviews and Coding Rounds</h3><p>Pattern printing is one of the most commonly asked topics in campus placement coding rounds, particularly for companies like TCS, Infosys, Wipro, Capgemini, and Cognizant. Many online assessments include 2-3 pattern questions. Labeled break is asked in interview vivas. Mastering these gives you easy marks.</p><h3>4. Foundation for Advanced Algorithms</h3><p>The ability to analyze the relationship between loop variables and output is the same skill needed for algorithm design. Whether you are implementing dynamic programming tables, generating permutations, or processing 2D arrays, the thinking process is identical to pattern analysis.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The break Statement</h3><p><code>break</code> immediately terminates the innermost loop (for, while, or do-while) or switch statement that contains it. Control passes to the statement immediately after the terminated loop.</p><pre><code>for (int i = 1; i <= 10; i++) {
+    if (i == 6) {
+        break;
+    }
+    System.out.print(i + " ");
+}
+// Output: 1 2 3 4 5</code></pre><p>When i reaches 6, break exits the loop. Iterations 6 through 10 are never executed. Use break for early exit when a condition is met (e.g., target found in search).</p><h3>2. The continue Statement</h3><p><code>continue</code> skips the remaining body of the current iteration and jumps to the next iteration. In a for loop, the update expression runs before the next condition check. In a while loop, control goes directly to the condition check.</p><pre><code>for (int i = 1; i <= 10; i++) {
+    if (i % 3 == 0) {
+        continue;
+    }
+    System.out.print(i + " ");
+}
+// Output: 1 2 4 5 7 8 10</code></pre><p>When i is divisible by 3, the print is skipped, but the loop continues with the next value. Use continue to skip unwanted cases without deep nesting.</p><h3>3. Labeled break and continue</h3><p>In nested loops, a regular <code>break</code> exits only the innermost loop. To exit an outer loop from inside an inner loop, use a <strong>label</strong>. A label is an identifier followed by a colon, placed before the loop.</p><pre><code>outer:
+for (int i = 1; i <= 5; i++) {
+    for (int j = 1; j <= 5; j++) {
+        if (i * j > 10) {
+            break outer; // Exits BOTH loops
+        }
+        System.out.print(i * j + " ");
+    }
+    System.out.println();
+}</code></pre><p><code>break outer;</code> exits the outer loop entirely, not just the inner one. Without the label, <code>break</code> would exit only the inner loop and the outer loop would continue.</p><p>Similarly, <code>continue outer;</code> skips the current iteration of the outer loop (not just the inner loop):</p><pre><code>outer:
+for (int i = 1; i <= 5; i++) {
+    for (int j = 1; j <= 5; j++) {
+        if (j == 3) {
+            continue outer; // Skip to next i
+        }
+        System.out.print(i + "" + j + " ");
+    }
+}</code></pre><h3>4. return from Loops</h3><p>The <code>return</code> statement inside a loop exits the entire method, not just the loop. This is useful in methods that search for a value and return it as soon as it is found:</p><pre><code>public static int findIndex(int[] arr, int target) {
+    for (int i = 0; i < arr.length; i++) {
+        if (arr[i] == target) {
+            return i; // Exits the method entirely
+        }
+    }
+    return -1; // Not found
+}</code></pre><h3>5. How to Analyze and Build Patterns</h3><p>Every pattern problem follows a systematic approach. Here is the step-by-step method:</p><ol><li><strong>Identify rows:</strong> Count the number of rows. This determines the outer loop (usually <code>for (int i = 1; i <= n; i++)</code>).</li><li><strong>For each row, identify columns:</strong> Look at what is printed in each row. Count the number of characters/spaces per row.</li><li><strong>Find the relationship:</strong> Express the count of spaces and characters in terms of the row number <code>i</code> and the total rows <code>n</code>.</li><li><strong>Write inner loops:</strong> One inner loop for spaces (if needed), another for the character/number/star.</li><li><strong>Verify with first and last rows:</strong> Plug in i=1 and i=n to verify your formula.</li></ol><h3>6. Common Star Patterns</h3><h4>Right Triangle (Stars)</h4><pre><code>*
+* *
+* * *
+* * * *
+* * * * *</code></pre><p>Row i has i stars. Inner loop: <code>for (int j = 1; j <= i; j++)</code></p><h4>Inverted Right Triangle</h4><pre><code>* * * * *
+* * * *
+* * *
+* *
+*</code></pre><p>Row i has (n - i + 1) stars.</p><h4>Pyramid</h4><pre><code>        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *</code></pre><p>Row i has (n - i) leading spaces and (2*i - 1) stars.</p><h4>Diamond</h4><p>A diamond is a pyramid (upper half) plus an inverted pyramid (lower half).</p><h3>7. Common Number Patterns</h3><h4>Floyd's Triangle</h4><pre><code>1
+2 3
+4 5 6
+7 8 9 10</code></pre><p>Numbers increase sequentially. Row i has i numbers.</p><h4>Pascal's Triangle</h4><pre><code>         1
+       1   1
+     1   2   1
+   1   3   3   1
+ 1   4   6   4   1</code></pre><p>Each element is the sum of the two elements above it. Value = C(row, col) = row! / (col! * (row-col)!).</p><h3>8. Character Patterns</h3><pre><code>A
+A B
+A B C
+A B C D</code></pre><p>Row i prints characters from 'A' to ('A' + i - 1). Cast int to char: <code>(char)('A' + j)</code>.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">break and continue in Action</div><pre><code class="language-python">public class BreakContinue {
+    public static void main(String[] args) {
+        // break: find first multiple of 7 in range
+        System.out.print(&quot;First multiple of 7 after 50: &quot;);
+        for (int i = 51; i &lt;= 100; i++) {
+            if (i % 7 == 0) {
+                System.out.println(i);
+                break;
+            }
+        }
+
+        // continue: print non-multiples of 3
+        System.out.print(&quot;1-15 (skip multiples of 3): &quot;);
+        for (int i = 1; i &lt;= 15; i++) {
+            if (i % 3 == 0) continue;
+            System.out.print(i + &quot; &quot;);
+        }
+        System.out.println();
+    }
+}</code></pre><div class="code-example-explanation"><code>break</code> exits the loop as soon as the first multiple of 7 after 50 is found (56). <code>continue</code> skips multiples of 3 but continues the loop for other values.</div><div class="code-example-output">First multiple of 7 after 50: 56
+1-15 (skip multiples of 3): 1 2 4 5 7 8 10 11 13 14</div></div>
+<div class="code-example"><div class="code-example-title">Labeled break: Exit Nested Loops</div><pre><code class="language-python">public class LabeledBreak {
+    public static void main(String[] args) {
+        // Find the first pair (i, j) where i * j &gt; 15
+        System.out.println(&quot;Products until &gt; 15:&quot;);
+
+        search:
+        for (int i = 1; i &lt;= 5; i++) {
+            for (int j = 1; j &lt;= 5; j++) {
+                int product = i * j;
+                if (product &gt; 15) {
+                    System.out.println(&quot;\nStopped at i=&quot; + i + &quot;, j=&quot; + j + &quot; (product=&quot; + product + &quot;)&quot;);
+                    break search; // Exits BOTH loops
+                }
+                System.out.print(product + &quot;\t&quot;);
+            }
+            System.out.println();
+        }
+
+        System.out.println(&quot;Done.&quot;);
+    }
+}</code></pre><div class="code-example-explanation">The label <code>search:</code> is placed before the outer for loop. When <code>break search;</code> executes, it exits both the inner and outer loops immediately. Without the label, only the inner loop would exit, and the outer loop would continue to the next i value.</div><div class="code-example-output">Products until &gt; 15:
+1	2	3	4	5
+2	4	6	8	10
+3	6	9	12	15
+
+Stopped at i=4, j=4 (product=16)
+Done.</div></div>
+<div class="code-example"><div class="code-example-title">Right Triangle Star Pattern</div><pre><code class="language-python">public class RightTriangle {
+    public static void main(String[] args) {
+        int n = 5;
+
+        // Right triangle (left-aligned)
+        for (int i = 1; i &lt;= n; i++) {
+            for (int j = 1; j &lt;= i; j++) {
+                System.out.print(&quot;* &quot;);
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        // Inverted right triangle
+        for (int i = n; i &gt;= 1; i--) {
+            for (int j = 1; j &lt;= i; j++) {
+                System.out.print(&quot;* &quot;);
+            }
+            System.out.println();
+        }
+    }
+}</code></pre><div class="code-example-explanation">For the right triangle, row i prints i stars. The inner loop runs from 1 to i. For the inverted version, row i prints i stars but i goes from n down to 1. These are the two most basic patterns and the foundation for more complex ones.</div><div class="code-example-output">* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
+* * * * * 
+* * * * 
+* * * 
+* * 
+* </div></div>
+<div class="code-example"><div class="code-example-title">Pyramid Star Pattern</div><pre><code class="language-python">public class Pyramid {
+    public static void main(String[] args) {
+        int n = 5;
+
+        for (int i = 1; i &lt;= n; i++) {
+            // Print leading spaces: (n - i) spaces
+            for (int j = 1; j &lt;= n - i; j++) {
+                System.out.print(&quot; &quot;);
+            }
+            // Print stars: (2*i - 1) stars
+            for (int j = 1; j &lt;= 2 * i - 1; j++) {
+                System.out.print(&quot;*&quot;);
+            }
+            System.out.println();
+        }
+    }
+}</code></pre><div class="code-example-explanation">Each row has two parts: leading spaces and stars. Row i has (n - i) spaces and (2*i - 1) stars. Row 1: 4 spaces, 1 star. Row 5: 0 spaces, 9 stars. The spaces decrease while stars increase, creating the centered pyramid shape.</div><div class="code-example-output">    *
+   ***
+  *****
+ *******
+*********</div></div>
+<div class="code-example"><div class="code-example-title">Diamond Pattern</div><pre><code class="language-python">public class Diamond {
+    public static void main(String[] args) {
+        int n = 5;
+
+        // Upper half (pyramid)
+        for (int i = 1; i &lt;= n; i++) {
+            for (int j = 1; j &lt;= n - i; j++) System.out.print(&quot; &quot;);
+            for (int j = 1; j &lt;= 2 * i - 1; j++) System.out.print(&quot;*&quot;);
+            System.out.println();
+        }
+
+        // Lower half (inverted pyramid, skip the middle row)
+        for (int i = n - 1; i &gt;= 1; i--) {
+            for (int j = 1; j &lt;= n - i; j++) System.out.print(&quot; &quot;);
+            for (int j = 1; j &lt;= 2 * i - 1; j++) System.out.print(&quot;*&quot;);
+            System.out.println();
+        }
+    }
+}</code></pre><div class="code-example-explanation">A diamond is a pyramid (upper half) plus an inverted pyramid (lower half). The upper half goes from i = 1 to n. The lower half goes from i = n-1 down to 1 (skipping the middle row to avoid duplication). Total rows = 2n - 1.</div><div class="code-example-output">    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *</div></div>
+<div class="code-example"><div class="code-example-title">Floyd&#39;s Triangle</div><pre><code class="language-python">public class FloydTriangle {
+    public static void main(String[] args) {
+        int n = 5;
+        int num = 1;
+
+        for (int i = 1; i &lt;= n; i++) {
+            for (int j = 1; j &lt;= i; j++) {
+                System.out.print(num + &quot;\t&quot;);
+                num++;
+            }
+            System.out.println();
+        }
+    }
+}</code></pre><div class="code-example-explanation">Floyd's triangle uses a running counter <code>num</code> that increments with every printed value. Row i has i numbers. The numbers are not reset per row; they continue from where the previous row left off. Total numbers = 1 + 2 + 3 + 4 + 5 = 15.</div><div class="code-example-output">1	
+2	3	
+4	5	6	
+7	8	9	10	
+11	12	13	14	15	</div></div>
+<div class="code-example"><div class="code-example-title">Pascal&#39;s Triangle</div><pre><code class="language-python">public class PascalTriangle {
+    public static void main(String[] args) {
+        int n = 6;
+
+        for (int i = 0; i &lt; n; i++) {
+            // Leading spaces for alignment
+            for (int s = 0; s &lt; n - i - 1; s++) {
+                System.out.print(&quot;  &quot;);
+            }
+
+            int val = 1;
+            for (int j = 0; j &lt;= i; j++) {
+                System.out.printf(&quot;%4d&quot;, val);
+                val = val * (i - j) / (j + 1);
+            }
+            System.out.println();
+        }
+    }
+}</code></pre><div class="code-example-explanation">Pascal's triangle values are computed using the formula: next value = current * (i - j) / (j + 1), which calculates binomial coefficients C(i, j). Each row starts and ends with 1. Inner values are the sum of the two values above. This is a favorite in interviews.</div><div class="code-example-output">             1
+           1   1
+         1   2   1
+       1   3   3   1
+     1   4   6   4   1
+   1   5  10  10   5   1</div></div>
+<div class="code-example"><div class="code-example-title">Character Pattern: Alphabet Triangle</div><pre><code class="language-python">public class CharPattern {
+    public static void main(String[] args) {
+        int n = 5;
+
+        // Pattern 1: A, AB, ABC, ...
+        for (int i = 0; i &lt; n; i++) {
+            for (int j = 0; j &lt;= i; j++) {
+                System.out.print((char)(&#39;A&#39; + j) + &quot; &quot;);
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        // Pattern 2: A, BB, CCC, ...
+        for (int i = 0; i &lt; n; i++) {
+            for (int j = 0; j &lt;= i; j++) {
+                System.out.print((char)(&#39;A&#39; + i) + &quot; &quot;);
+            }
+            System.out.println();
+        }
+    }
+}</code></pre><div class="code-example-explanation">Character patterns use <code>(char)('A' + offset)</code> to generate letters. In Pattern 1, each row prints A through the i-th letter (j changes per column). In Pattern 2, each row repeats the i-th letter (i determines the character, j determines repetition).</div><div class="code-example-output">A 
+A B 
+A B C 
+A B C D 
+A B C D E 
+
+A 
+B B 
+C C C 
+D D D D 
+E E E E E </div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>break Only Exits the Innermost Loop</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Intention: exit both loops when found
+for (int i = 0; i &lt; 3; i++) {
+    for (int j = 0; j &lt; 3; j++) {
+        if (i == 1 &amp;&amp; j == 1) {
+            break; // Only exits inner loop!
+        }
+        System.out.print(i + &quot;&quot; + j + &quot; &quot;);
+    }
+}
+// Outer loop continues after inner break</code></pre></div><div class="error-message">The outer loop continues. break exits only the inner loop.</div><div class="correct-code"><pre><code class="language-python">outer:
+for (int i = 0; i &lt; 3; i++) {
+    for (int j = 0; j &lt; 3; j++) {
+        if (i == 1 &amp;&amp; j == 1) {
+            break outer; // Exits BOTH loops
+        }
+        System.out.print(i + &quot;&quot; + j + &quot; &quot;);
+    }
+}</code></pre></div><div class="mistake-explanation">Without a label, <code>break</code> only exits the innermost enclosing loop. To break out of an outer loop from within an inner loop, use a labeled break. Place the label (e.g., <code>outer:</code>) before the outer loop and use <code>break outer;</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Infinite Loop with continue (Missing Update Before continue)</h3>
+                <div class="wrong-code"><pre><code class="language-python">int i = 0;
+while (i &lt; 10) {
+    if (i == 5) {
+        continue; // i is never incremented past 5!
+    }
+    System.out.println(i);
+    i++;
+}</code></pre></div><div class="error-message">Infinite loop. When i = 5, continue skips i++, so i stays at 5 forever.</div><div class="correct-code"><pre><code class="language-python">int i = 0;
+while (i &lt; 10) {
+    i++;
+    if (i == 5) {
+        continue; // Now i was already incremented
+    }
+    System.out.println(i);
+}</code></pre></div><div class="mistake-explanation">In a while loop, if the update (<code>i++</code>) comes after the continue, the continue skips it, causing an infinite loop. Move the increment before the continue, or use a for loop where the update happens automatically.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Off-by-One in Pattern Rows or Columns</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Intended: 5-row right triangle
+int n = 5;
+for (int i = 0; i &lt; n; i++) {
+    for (int j = 0; j &lt; i; j++) { // Bug: prints 0 stars in row 0
+        System.out.print(&quot;* &quot;);
+    }
+    System.out.println();
+}</code></pre></div><div class="error-message">Row 0 prints nothing (0 stars). Only 4 rows have stars instead of 5.</div><div class="correct-code"><pre><code class="language-python">int n = 5;
+for (int i = 1; i &lt;= n; i++) {
+    for (int j = 1; j &lt;= i; j++) {
+        System.out.print(&quot;* &quot;);
+    }
+    System.out.println();
+}</code></pre></div><div class="mistake-explanation">When using 0-based indexing (i starting at 0), the inner condition <code>j < i</code> gives 0 iterations for i = 0. Either start i at 1 (1-indexed) or use <code>j <= i</code> (0-indexed). Always verify with the first and last row values.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting Spaces in Centered Patterns</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Intended: pyramid
+int n = 5;
+for (int i = 1; i &lt;= n; i++) {
+    for (int j = 1; j &lt;= 2 * i - 1; j++) {
+        System.out.print(&quot;*&quot;);
+    }
+    System.out.println();
+}</code></pre></div><div class="error-message">Produces a left-aligned pattern, not a centered pyramid. Leading spaces are missing.</div><div class="correct-code"><pre><code class="language-python">int n = 5;
+for (int i = 1; i &lt;= n; i++) {
+    for (int s = 1; s &lt;= n - i; s++) {
+        System.out.print(&quot; &quot;);
+    }
+    for (int j = 1; j &lt;= 2 * i - 1; j++) {
+        System.out.print(&quot;*&quot;);
+    }
+    System.out.println();
+}</code></pre></div><div class="mistake-explanation">Centered patterns like pyramids and diamonds require leading spaces. Row i in a pyramid needs (n - i) leading spaces before the stars. Without the space loop, the pattern is left-aligned.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>break immediately exits the innermost loop or switch. Use it for early termination when a condition is met (e.g., search found).</li>
+<li>continue skips the rest of the current iteration and jumps to the next iteration. Use it to skip unwanted cases without deep nesting.</li>
+<li>In a while loop, ensure the update statement runs before continue, or you risk an infinite loop.</li>
+<li>Labeled break (break label;) exits an outer loop from within an inner loop. Place the label (name:) before the outer loop.</li>
+<li>Labeled continue (continue label;) skips to the next iteration of the outer loop, not the inner loop.</li>
+<li>return inside a loop exits the entire method, not just the loop.</li>
+<li>Pattern analysis approach: (1) count rows for outer loop, (2) for each row identify spaces and characters, (3) express counts in terms of row number i and total rows n, (4) write inner loops.</li>
+<li>Right triangle: row i has i stars. Inverted: row i has (n-i+1) stars.</li>
+<li>Pyramid: row i has (n-i) leading spaces and (2i-1) stars. Diamond = pyramid + inverted pyramid.</li>
+<li>Floyd&#39;s triangle uses a running counter. Pascal&#39;s triangle uses binomial coefficients: C(n,k) = n! / (k! * (n-k)!).</li>
+<li>Character patterns use (char)(&#39;A&#39; + offset) to generate letters.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/loops-in-java" class="related-topic-link">Loops in Java (for, while, do-while)</a>
+<a href="/resources/java/arrays-in-java" class="related-topic-link">Arrays in Java</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/java/loops-in-java" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Loops in Java (for, while, do-while)</span>
+        </a>
+            <a href="/resources/java/arrays-in-java" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Arrays in Java</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/loop-control-and-patterns/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

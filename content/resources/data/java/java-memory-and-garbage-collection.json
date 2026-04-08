@@ -1,0 +1,570 @@
+{
+  "title": "Java Memory Model and Garbage Collection",
+  "slug": "java-memory-and-garbage-collection",
+  "language": "java",
+  "chapter": 24,
+  "difficulty": "Advanced",
+  "readingTime": "45 min",
+  "lastUpdated": "2026-04-08",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "Java Memory Model and Garbage Collection - Stack vs Heap, GC, JVM Memory | Modern Age Coders",
+    "description": "Learn Java memory management including JVM memory areas (stack, heap, metaspace), object creation, garbage collection (mark-and-sweep, generational GC), strong/weak/soft references, memory leaks, and JVM flags. Includes 55+ practice questions.",
+    "keywords": "java memory model, java garbage collection, stack vs heap java, java memory management, java JVM memory, java GC, java heap, java stack, java memory leak, java Xms Xmx"
+  },
+  "content": {
+    "what": "<h2>What Is the Java Memory Model?</h2><p>The <strong>Java Memory Model</strong> defines how the Java Virtual Machine (JVM) organizes memory for a running program. Every variable, object, method call, and class definition is stored in a specific memory area. Understanding where things live in memory is fundamental to writing efficient, bug-free Java code.</p><pre><code class=\"language-java\">public class Main {\n    static int classVar = 10;     // Method Area (Metaspace)\n\n    public static void main(String[] args) {\n        int localVar = 20;         // Stack\n        String name = new String(\"Arjun\"); // 'name' on Stack, String object on Heap\n        int[] arr = new int[5];    // 'arr' on Stack, array object on Heap\n    }\n}</code></pre><p><strong>Garbage Collection</strong> (GC) is Java's automatic memory management system. When objects on the heap are no longer reachable by any reference, the garbage collector reclaims their memory. Unlike C/C++, Java developers do not manually allocate and free memory -- the JVM handles it.</p><h3>Why This Matters</h3><p>In languages like C, forgetting to free memory causes <strong>memory leaks</strong>. Freeing memory too early causes <strong>dangling pointers</strong> (accessing freed memory). Java eliminates both problems through garbage collection, but understanding the memory model is still critical for writing performant code and avoiding Java-specific memory issues.</p>",
+    "why": "<h2>Why Is Understanding Memory and GC Important?</h2><h3>1. Writing Performant Applications</h3><p>Every object you create consumes heap memory. If Arjun's application creates millions of temporary objects in a loop, GC will run frequently, causing pauses (\"stop-the-world\" events). Understanding object lifecycle helps you write code that minimizes GC pressure.</p><h3>2. Debugging OutOfMemoryError</h3><p>When the heap is full and GC cannot reclaim enough space, the JVM throws <code>OutOfMemoryError</code>. This crashes the application. Understanding heap sizing (-Xms, -Xmx), object references, and common memory leak patterns is essential for diagnosing and fixing these issues in production.</p><h3>3. Understanding Variable Scope and Lifetime</h3><p>Local variables live on the stack and die when the method returns. Objects live on the heap and die when no references point to them. This distinction explains why returning an object from a method works (heap survives), but a local variable does not persist (stack is cleaned up).</p><h3>4. Interview and Placement Significance</h3><p>Stack vs heap, garbage collection, and memory leaks are top interview questions at companies like Amazon, Google, Goldman Sachs, and DE Shaw. Interviewers test whether candidates understand where objects are stored, when they become eligible for GC, and how to avoid memory leaks.</p><h3>5. System Design and Production Debugging</h3><p>When Meera's production microservice starts consuming 8 GB of heap and the response times spike, she needs to understand GC logs, heap dumps, and reference types to diagnose the issue. This knowledge separates junior developers from senior ones.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. JVM Memory Areas</h3><p>The JVM divides memory into several areas, each serving a specific purpose:</p><h4>Stack Memory</h4><p>Each thread has its own stack. The stack stores:</p><ul><li>Local variables (primitives and object references)</li><li>Method call frames (parameters, return address)</li><li>Partial results</li></ul><pre><code class=\"language-java\">public static void main(String[] args) {\n    int x = 10;              // x is on main's stack frame\n    String name = \"Arjun\";   // name (reference) is on stack, String is on heap\n    calculate(x);            // new stack frame for calculate()\n}\n\nstatic int calculate(int n) {\n    int result = n * 2;      // n and result on calculate's stack frame\n    return result;            // frame destroyed after return\n}</code></pre><p>Stack memory is <strong>LIFO</strong> (Last In, First Out). When a method is called, a new frame is pushed. When it returns, the frame is popped. Stack memory is automatically managed -- no garbage collection needed. Stack size is limited (default ~512 KB per thread). Exceeding it causes <code>StackOverflowError</code> (often from infinite recursion).</p><h4>Heap Memory</h4><p>The heap is shared across all threads. It stores:</p><ul><li>All objects (created with <code>new</code>)</li><li>Arrays (arrays are objects in Java)</li><li>Instance variables of objects</li><li>String pool (interned strings)</li></ul><pre><code class=\"language-java\">// All of these create objects on the heap\nStudent s = new Student(\"Arjun\", 85);\nint[] arr = new int[100];\nArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();\nString str = new String(\"Hello\");</code></pre><p>Heap memory is managed by the garbage collector. Objects live on the heap until no references point to them. Heap size is configurable with -Xms (initial) and -Xmx (maximum) JVM flags.</p><h4>Method Area (Metaspace)</h4><p>Stores class-level data:</p><ul><li>Class metadata (class name, methods, fields)</li><li>Static variables</li><li>Constant pool (compile-time constants)</li><li>Method bytecode</li></ul><p>Since Java 8, the Method Area is implemented as <strong>Metaspace</strong>, which uses native memory (not heap memory). In earlier versions, it was called <strong>PermGen</strong> (Permanent Generation) and was part of the heap.</p><h4>Program Counter Register</h4><p>Each thread has its own PC register that stores the address of the current instruction being executed. It is small and managed entirely by the JVM.</p><h4>Native Method Stack</h4><p>Stores data for native (non-Java) method calls, such as calls to C libraries via JNI (Java Native Interface).</p><h3>2. Stack vs Heap: The Key Distinction</h3><table><tr><th>Feature</th><th>Stack</th><th>Heap</th></tr><tr><td>What is stored</td><td>Primitives, object references, method frames</td><td>Objects, arrays, instance variables</td></tr><tr><td>Lifetime</td><td>Until the method returns</td><td>Until no references exist (GC eligible)</td></tr><tr><td>Access speed</td><td>Very fast (LIFO, thread-local)</td><td>Slower (shared, GC pauses)</td></tr><tr><td>Size</td><td>Small (~512 KB per thread)</td><td>Large (configurable, can be GBs)</td></tr><tr><td>Thread safety</td><td>Thread-safe (each thread has its own)</td><td>Shared across threads (needs synchronization)</td></tr><tr><td>Memory management</td><td>Automatic (frame pop on method return)</td><td>Garbage collection</td></tr><tr><td>Error on overflow</td><td>StackOverflowError</td><td>OutOfMemoryError</td></tr></table><h3>3. Object Creation in Memory</h3><p>When you write <code>Student s = new Student(\"Arjun\", 85);</code>, here is exactly what happens:</p><pre><code class=\"language-java\">Student s = new Student(\"Arjun\", 85);\n\n// Step 1: JVM checks if Student class is loaded. If not, loads it into Metaspace.\n// Step 2: Allocates memory on the HEAP for the new Student object.\n// Step 3: Initializes instance variables (name, marks) with values.\n// Step 4: Calls the constructor.\n// Step 5: Returns the memory address (reference) of the object.\n// Step 6: Stores the reference 's' on the STACK (local variable).</code></pre><p>The reference variable <code>s</code> is on the stack. The actual Student object (with its fields) is on the heap. If <code>s</code> goes out of scope (method returns), the reference is removed from the stack, and if no other references point to the object, it becomes eligible for garbage collection.</p><h3>4. Garbage Collection: How It Works</h3><p>Garbage collection is the process of identifying and removing objects that are no longer reachable by any live reference. The JVM does this automatically.</p><h4>When Does an Object Become Eligible for GC?</h4><pre><code class=\"language-java\">// Case 1: Reference set to null\nStudent s = new Student(\"Arjun\", 85);\ns = null;  // Object now has no reference -> GC eligible\n\n// Case 2: Reference reassigned\nStudent s = new Student(\"Arjun\", 85);\ns = new Student(\"Priya\", 92); // First object has no reference -> GC eligible\n\n// Case 3: Object created inside a method (local scope)\nvoid createStudent() {\n    Student s = new Student(\"Vikram\", 78);\n} // s goes out of scope, object has no reference -> GC eligible\n\n// Case 4: Island of isolation (circular references with no external reference)\nclass Node {\n    Node next;\n}\nNode a = new Node();\nNode b = new Node();\na.next = b;\nb.next = a;\na = null;\nb = null;\n// Both nodes reference each other but neither is reachable\n// from any live thread -> both are GC eligible</code></pre><h4>Mark and Sweep Algorithm</h4><p>The basic GC algorithm works in two phases:</p><ol><li><strong>Mark Phase</strong>: Starting from GC roots (local variables on stacks, static variables, active threads), the GC traverses all reachable object references and marks them as \"alive\".</li><li><strong>Sweep Phase</strong>: All unmarked objects are considered garbage and their memory is reclaimed.</li></ol><p><strong>GC Roots</strong> include: local variables and parameters on thread stacks, static variables, active threads, and JNI references.</p><h4>Generational Garbage Collection</h4><p>Most objects die young (temporary variables, intermediate results). The JVM exploits this observation by dividing the heap into generations:</p><pre><code>Heap Memory:\n+---------------------------+-------------------+\n|      Young Generation     |  Old Generation   |\n+--------+--------+---------+                   |\n|  Eden  |  S0    |  S1     |   (Tenured)       |\n+--------+--------+---------+-------------------+</code></pre><ul><li><strong>Young Generation</strong>: New objects are allocated in <strong>Eden</strong> space. When Eden fills up, a <strong>Minor GC</strong> runs. Surviving objects move to Survivor spaces (S0/S1). Objects that survive multiple Minor GCs are promoted to Old Generation.</li><li><strong>Old Generation (Tenured)</strong>: Long-lived objects. Collected less frequently by <strong>Major GC</strong> (or Full GC), which is more expensive.</li></ul><p>Minor GC is fast (young generation is small). Major GC is slow (old generation is large). Tuning GC involves balancing these generations.</p><h3>5. Reference Types</h3><p>Java provides four types of references, each with different GC behavior:</p><pre><code class=\"language-java\">import java.lang.ref.*;\n\n// Strong reference (default) - object NOT collected while reference exists\nStudent s = new Student(\"Arjun\", 85);\n\n// Weak reference - collected at next GC cycle\nWeakReference&lt;Student&gt; weak = new WeakReference&lt;&gt;(new Student(\"Priya\", 90));\n// After GC: weak.get() may return null\n\n// Soft reference - collected only when memory is low\nSoftReference&lt;Student&gt; soft = new SoftReference&lt;&gt;(new Student(\"Vikram\", 80));\n// Kept as long as memory is available, collected before OutOfMemoryError\n\n// Phantom reference - enqueued in ReferenceQueue after finalization\nReferenceQueue&lt;Student&gt; queue = new ReferenceQueue&lt;&gt;();\nPhantomReference&lt;Student&gt; phantom = new PhantomReference&lt;&gt;(new Student(\"Sneha\", 88), queue);\n// phantom.get() always returns null; used for cleanup tracking</code></pre><table><tr><th>Reference Type</th><th>GC Behavior</th><th>Use Case</th></tr><tr><td>Strong</td><td>Never collected while reachable</td><td>Normal object references</td></tr><tr><td>Soft</td><td>Collected when memory is low</td><td>Caches (memory-sensitive)</td></tr><tr><td>Weak</td><td>Collected at next GC</td><td>WeakHashMap, canonicalizing maps</td></tr><tr><td>Phantom</td><td>Enqueued after finalization</td><td>Resource cleanup, leak detection</td></tr></table><h3>6. System.gc() and finalize()</h3><pre><code class=\"language-java\">// System.gc() -- requests GC (not guaranteed)\nSystem.gc(); // Hint to JVM to run GC. JVM may ignore it.\n\n// finalize() -- deprecated since Java 9\n@Override\nprotected void finalize() throws Throwable {\n    // Cleanup code -- DO NOT rely on this\n    super.finalize();\n}</code></pre><p><code>System.gc()</code> is a <strong>request</strong>, not a command. The JVM may choose to ignore it. Never rely on it in production code. <code>finalize()</code> was intended for cleanup before GC, but it is deprecated because: (1) it delays GC (object survives one extra cycle), (2) no guarantee when or if it runs, (3) performance overhead. Use try-with-resources instead.</p><h3>7. Memory Leaks in Java</h3><p>Even with garbage collection, Java programs can leak memory. A memory leak occurs when objects are no longer needed but still have live references, preventing GC from collecting them:</p><pre><code class=\"language-java\">// Leak 1: Static collections that grow forever\nclass Cache {\n    private static final List&lt;byte[]&gt; data = new ArrayList&lt;&gt;();\n    \n    static void addData(byte[] bytes) {\n        data.add(bytes); // Never removed -> grows until OOM\n    }\n}\n\n// Leak 2: Unclosed resources\nvoid readFile() {\n    BufferedReader br = new BufferedReader(new FileReader(\"data.txt\"));\n    // If exception occurs before close(), resource leaks\n    br.close();\n}\n\n// Leak 3: Inner class holding reference to outer class\nclass Outer {\n    byte[] largeData = new byte[10_000_000]; // 10 MB\n    \n    Runnable getTask() {\n        return new Runnable() { // anonymous inner class holds reference to Outer.this\n            public void run() {\n                System.out.println(\"Task\");\n            }\n        };\n        // Even if Outer is no longer needed, Runnable keeps it alive\n    }\n}\n\n// Leak 4: Listeners/callbacks not deregistered\nbutton.addActionListener(event -> processClick());\n// If button lives longer than the listener owner, owner cannot be GC'd</code></pre><h3>8. JVM Memory Flags</h3><pre><code class=\"language-java\">// Common JVM memory flags (passed when starting the JVM)\njava -Xms256m -Xmx1024m -XX:MetaspaceSize=128m MyApp\n\n// -Xms: Initial heap size (256 MB)\n// -Xmx: Maximum heap size (1024 MB)\n// -XX:MetaspaceSize: Initial metaspace size\n// -XX:MaxMetaspaceSize: Maximum metaspace size\n// -Xss: Stack size per thread (e.g., -Xss512k)\n// -XX:+PrintGCDetails: Print GC details (for debugging)\n// -XX:+UseG1GC: Use G1 garbage collector</code></pre><p>Setting -Xms and -Xmx to the same value avoids heap resizing overhead. In production, heap size depends on the application's memory profile -- typically 2-4 GB for microservices, more for data-intensive applications.</p>"
+  },
+  "codeExamples": [
+    {
+      "title": "Stack vs Heap: Where Variables Live",
+      "code": "public class MemoryDemo {\n    static int staticVar = 100;  // Method Area (Metaspace)\n\n    public static void main(String[] args) {\n        int localInt = 42;           // Stack: primitive value\n        String localRef = \"Hello\";   // Stack: reference; Heap: String object\n        int[] arr = {1, 2, 3};       // Stack: reference; Heap: array object\n\n        System.out.println(\"localInt: \" + localInt);\n        System.out.println(\"localRef: \" + localRef);\n        System.out.println(\"arr[0]: \" + arr[0]);\n        System.out.println(\"staticVar: \" + staticVar);\n\n        modifyArray(arr);\n        System.out.println(\"After modify: arr[0] = \" + arr[0]);\n    }\n\n    static void modifyArray(int[] array) {\n        // 'array' is a new reference on this method's stack frame\n        // but it points to the SAME heap object as 'arr'\n        array[0] = 999;\n    }\n}",
+      "language": "java",
+      "explanation": "Primitive <code>localInt</code> lives entirely on the stack. Reference <code>localRef</code> is on the stack but points to a String object on the heap. When <code>arr</code> is passed to <code>modifyArray()</code>, the reference is copied (pass-by-value of the reference), but both references point to the same heap object. Modifying <code>array[0]</code> changes the shared heap object, visible through <code>arr[0]</code>.",
+      "output": "localInt: 42\nlocalRef: Hello\narr[0]: 1\nstaticVar: 100\nAfter modify: arr[0] = 999"
+    },
+    {
+      "title": "Object Lifecycle and GC Eligibility",
+      "code": "public class GCEligibility {\n    String name;\n\n    GCEligibility(String name) {\n        this.name = name;\n        System.out.println(\"Created: \" + name);\n    }\n\n    public static void main(String[] args) {\n        // Case 1: Set reference to null\n        GCEligibility obj1 = new GCEligibility(\"Object-1\");\n        obj1 = null;  // Object-1 is now GC eligible\n\n        // Case 2: Reassign reference\n        GCEligibility obj2 = new GCEligibility(\"Object-2\");\n        obj2 = new GCEligibility(\"Object-3\"); // Object-2 is now GC eligible\n\n        // Case 3: Scope ends\n        createTemporary(); // Object created inside is GC eligible after return\n\n        // Case 4: Object-3 is still reachable through obj2\n        System.out.println(\"Still alive: \" + obj2.name);\n\n        // At this point:\n        // GC eligible: Object-1, Object-2, Object-Temp\n        // Still alive: Object-3 (through obj2)\n\n        System.gc(); // Request GC (not guaranteed)\n        System.out.println(\"Requested GC\");\n    }\n\n    static void createTemporary() {\n        GCEligibility temp = new GCEligibility(\"Object-Temp\");\n        // temp goes out of scope when method returns\n    }\n}",
+      "language": "java",
+      "explanation": "This demonstrates the four main ways objects become GC eligible: (1) setting reference to null, (2) reassigning reference to a new object, (3) local variable going out of scope, (4) the original reference path is broken. An object is eligible for GC when no live reference chain from any GC root can reach it.",
+      "output": "Created: Object-1\nCreated: Object-2\nCreated: Object-3\nCreated: Object-Temp\nStill alive: Object-3\nRequested GC"
+    },
+    {
+      "title": "Stack Overflow vs Out of Memory",
+      "code": "public class MemoryErrors {\n    // Causes StackOverflowError\n    static void infiniteRecursion(int depth) {\n        System.out.println(\"Depth: \" + depth);\n        infiniteRecursion(depth + 1); // Never returns -> stack frames pile up\n    }\n\n    // Causes OutOfMemoryError\n    static void fillHeap() {\n        java.util.List<byte[]> list = new java.util.ArrayList<>();\n        while (true) {\n            list.add(new byte[1_000_000]); // 1 MB each, never released\n        }\n    }\n\n    public static void main(String[] args) {\n        // Demonstrate StackOverflowError\n        try {\n            infiniteRecursion(1);\n        } catch (StackOverflowError e) {\n            System.out.println(\"\\nStackOverflowError caught!\");\n            System.out.println(\"Stack is exhausted by too many method frames.\");\n        }\n\n        // Demonstrate OutOfMemoryError\n        // Uncomment to test (will crash the JVM):\n        // try {\n        //     fillHeap();\n        // } catch (OutOfMemoryError e) {\n        //     System.out.println(\"OutOfMemoryError: \" + e.getMessage());\n        // }\n\n        System.out.println(\"\\nRuntime memory info:\");\n        Runtime rt = Runtime.getRuntime();\n        System.out.println(\"Max memory: \" + rt.maxMemory() / (1024*1024) + \" MB\");\n        System.out.println(\"Total memory: \" + rt.totalMemory() / (1024*1024) + \" MB\");\n        System.out.println(\"Free memory: \" + rt.freeMemory() / (1024*1024) + \" MB\");\n    }\n}",
+      "language": "java",
+      "explanation": "<code>StackOverflowError</code> occurs when the stack runs out of space (too many nested method calls). <code>OutOfMemoryError</code> occurs when the heap is full and GC cannot reclaim enough space. <code>Runtime.getRuntime()</code> provides memory statistics: maxMemory is -Xmx, totalMemory is currently allocated heap, freeMemory is unused portion of allocated heap.",
+      "output": "Depth: 1\nDepth: 2\n...\nDepth: ~7000 (varies by stack size)\n\nStackOverflowError caught!\nStack is exhausted by too many method frames.\n\nRuntime memory info:\nMax memory: 247 MB\nTotal memory: 15 MB\nFree memory: 13 MB"
+    },
+    {
+      "title": "Reference Types: Strong, Weak, Soft",
+      "code": "import java.lang.ref.WeakReference;\nimport java.lang.ref.SoftReference;\n\npublic class ReferenceTypes {\n    public static void main(String[] args) {\n        // Strong reference\n        String strong = new String(\"Strong Reference\");\n        System.out.println(\"Strong: \" + strong);\n        // Object is NOT collected as long as 'strong' exists\n\n        // Weak reference\n        WeakReference<String> weak = new WeakReference<>(new String(\"Weak Reference\"));\n        System.out.println(\"Weak before GC: \" + weak.get());\n        System.gc();\n        System.out.println(\"Weak after GC: \" + weak.get()); // likely null\n\n        // Soft reference\n        SoftReference<byte[]> soft = new SoftReference<>(new byte[1_000_000]);\n        System.out.println(\"Soft before GC: \" + (soft.get() != null ? \"alive\" : \"collected\"));\n        System.gc();\n        System.out.println(\"Soft after GC: \" + (soft.get() != null ? \"alive\" : \"collected\"));\n        // Soft references are only collected when memory is low\n\n        // Weak reference with a strong backup\n        String data = new String(\"Shared Data\");\n        WeakReference<String> weakRef = new WeakReference<>(data);\n        System.out.println(\"\\nWeak with strong backup: \" + weakRef.get());\n        System.gc();\n        System.out.println(\"After GC (strong still exists): \" + weakRef.get());\n        data = null; // remove strong reference\n        System.gc();\n        System.out.println(\"After removing strong ref: \" + weakRef.get());\n    }\n}",
+      "language": "java",
+      "explanation": "Strong references prevent GC -- the default behavior. Weak references are collected at the next GC cycle if no strong reference exists. Soft references are kept until memory pressure forces collection. The last example shows that a weak reference is safe as long as a strong reference to the same object exists elsewhere.",
+      "output": "Strong: Strong Reference\nWeak before GC: Weak Reference\nWeak after GC: null\nSoft before GC: alive\nSoft after GC: alive\n\nWeak with strong backup: Shared Data\nAfter GC (strong still exists): Shared Data\nAfter removing strong ref: null"
+    },
+    {
+      "title": "Memory Leak: Static Collection Growing Forever",
+      "code": "import java.util.ArrayList;\nimport java.util.List;\n\npublic class MemoryLeakDemo {\n    // THIS IS THE LEAK: static list that only grows, never shrinks\n    private static final List<byte[]> cache = new ArrayList<>();\n\n    static void addToCache() {\n        cache.add(new byte[100_000]); // 100 KB per entry\n    }\n\n    public static void main(String[] args) {\n        Runtime rt = Runtime.getRuntime();\n\n        System.out.println(\"=== Memory Leak Demonstration ===\");\n        long initialFree = rt.freeMemory();\n\n        for (int i = 0; i < 100; i++) {\n            addToCache();\n        }\n\n        System.gc();\n        long afterFree = rt.freeMemory();\n        System.out.println(\"Cache size: \" + cache.size() + \" entries\");\n        System.out.println(\"Memory consumed: \" + (initialFree - afterFree) / 1024 + \" KB\");\n        System.out.println(\"GC cannot help because the static list holds all references.\");\n\n        // Fix: clear the cache when data is no longer needed\n        cache.clear();\n        System.gc();\n        long afterClear = rt.freeMemory();\n        System.out.println(\"\\nAfter clearing cache:\");\n        System.out.println(\"Cache size: \" + cache.size());\n        System.out.println(\"Memory recovered: \" + (afterClear - afterFree) / 1024 + \" KB\");\n    }\n}",
+      "language": "java",
+      "explanation": "This demonstrates the most common Java memory leak: a static collection that grows without bound. Since the list is static, it lives for the entire program duration. Since objects are never removed, GC cannot collect them. The fix is to either use a bounded cache (like LRU cache), clear the collection when data expires, or use WeakReferences.",
+      "output": "=== Memory Leak Demonstration ===\nCache size: 100 entries\nMemory consumed: ~9800 KB\nGC cannot help because the static list holds all references.\n\nAfter clearing cache:\nCache size: 0\nMemory recovered: ~9800 KB"
+    },
+    {
+      "title": "Runtime Memory Statistics",
+      "code": "public class MemoryStats {\n    public static void main(String[] args) {\n        Runtime rt = Runtime.getRuntime();\n\n        System.out.println(\"=== JVM Memory Statistics ===\");\n        printMemory(rt, \"Initial state\");\n\n        // Allocate some objects\n        Object[] objects = new Object[100_000];\n        for (int i = 0; i < objects.length; i++) {\n            objects[i] = new byte[100]; // 100 bytes each\n        }\n        printMemory(rt, \"After allocating 100K objects\");\n\n        // Make objects eligible for GC\n        for (int i = 0; i < objects.length; i++) {\n            objects[i] = null;\n        }\n        printMemory(rt, \"After nullifying references\");\n\n        // Request garbage collection\n        System.gc();\n        printMemory(rt, \"After System.gc()\");\n\n        System.out.println(\"\\nAvailable processors: \" + rt.availableProcessors());\n    }\n\n    static void printMemory(Runtime rt, String label) {\n        long max = rt.maxMemory() / (1024 * 1024);\n        long total = rt.totalMemory() / (1024 * 1024);\n        long free = rt.freeMemory() / (1024 * 1024);\n        long used = total - free;\n        System.out.printf(\"%s:%n  Max=%dMB, Total=%dMB, Used=%dMB, Free=%dMB%n\",\n                          label, max, total, used, free);\n    }\n}",
+      "language": "java",
+      "explanation": "<code>Runtime.getRuntime()</code> provides heap memory statistics. <code>maxMemory()</code> is the maximum heap size (-Xmx). <code>totalMemory()</code> is currently allocated heap. <code>freeMemory()</code> is the unused portion. <code>used = total - free</code>. After nullifying references and calling <code>System.gc()</code>, you can see memory being reclaimed.",
+      "output": "=== JVM Memory Statistics ===\nInitial state:\n  Max=247MB, Total=15MB, Used=1MB, Free=14MB\nAfter allocating 100K objects:\n  Max=247MB, Total=40MB, Used=25MB, Free=15MB\nAfter nullifying references:\n  Max=247MB, Total=40MB, Used=25MB, Free=15MB\nAfter System.gc():\n  Max=247MB, Total=15MB, Used=1MB, Free=14MB\n\nAvailable processors: 8"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Relying on System.gc() to Free Memory",
+      "wrongCode": "byte[] data = new byte[100_000_000]; // 100 MB\ndata = null;\nSystem.gc(); // Expecting this to free 100 MB immediately\n// Proceeding as if memory is definitely freed...",
+      "error": "System.gc() is only a request. The JVM may ignore it entirely. There is no guarantee that memory is freed after this call.",
+      "correctCode": "byte[] data = new byte[100_000_000];\ndata = null;\n// Let the JVM manage GC timing\n// If you need deterministic cleanup, use try-with-resources for resources\n// For memory-sensitive operations, check Runtime.freeMemory()",
+      "explanation": "<code>System.gc()</code> is a hint, not a command. The JVM decides when to run GC based on heap usage patterns. In production, never rely on <code>System.gc()</code> for correctness. Some JVM deployments even disable it entirely with <code>-XX:+DisableExplicitGC</code>."
+    },
+    {
+      "title": "Confusing Stack and Heap for Object References",
+      "wrongCode": "// Thinking the entire object is on the stack\nvoid process() {\n    Student s = new Student(\"Arjun\", 85);\n    // Wrong assumption: s and the Student object are both on the stack\n}",
+      "error": "Misconception. The Student object is on the HEAP, not the stack. Only the reference 's' is on the stack.",
+      "correctCode": "void process() {\n    Student s = new Student(\"Arjun\", 85);\n    // s (reference) -> Stack\n    // Student object with name=\"Arjun\", marks=85 -> Heap\n    // When process() returns, s is popped from stack\n    // Student object becomes GC eligible (no references)\n}",
+      "explanation": "In Java, objects are ALWAYS created on the heap (with <code>new</code>). The stack only holds primitive values and object references (pointers to heap objects). Understanding this distinction is critical for predicting GC behavior."
+    },
+    {
+      "title": "Using finalize() for Resource Cleanup",
+      "wrongCode": "class DatabaseConnection {\n    private Connection conn;\n\n    @Override\n    protected void finalize() throws Throwable {\n        conn.close(); // Relying on finalize for cleanup\n        super.finalize();\n    }\n}",
+      "error": "finalize() is deprecated since Java 9. It may never run, runs at unpredictable times, and delays GC.",
+      "correctCode": "class DatabaseConnection implements AutoCloseable {\n    private Connection conn;\n\n    @Override\n    public void close() {\n        if (conn != null) {\n            try { conn.close(); } catch (SQLException e) { e.printStackTrace(); }\n        }\n    }\n}\n\n// Usage: try-with-resources guarantees close()\ntry (DatabaseConnection db = new DatabaseConnection()) {\n    // use db\n}",
+      "explanation": "<code>finalize()</code> is unreliable: (1) No guarantee it will ever run. (2) No guarantee of timing. (3) It delays GC by one cycle. (4) Performance overhead. Use <code>AutoCloseable</code> with try-with-resources for deterministic cleanup."
+    },
+    {
+      "title": "Creating Unnecessary Objects in Loops",
+      "wrongCode": "// Creating a new String every iteration\nfor (int i = 0; i < 100000; i++) {\n    String result = new String(\"Processing item: \" + i);\n    // 'result' goes out of scope each iteration -> GC pressure\n}",
+      "error": "Creates 100,000 String objects on the heap. Each must be garbage collected, causing frequent GC pauses.",
+      "correctCode": "// Reuse StringBuilder\nStringBuilder sb = new StringBuilder();\nfor (int i = 0; i < 100000; i++) {\n    sb.setLength(0); // clear without creating new object\n    sb.append(\"Processing item: \").append(i);\n    String result = sb.toString();\n}",
+      "explanation": "Each <code>new String()</code> allocates heap memory. In tight loops, this creates massive GC pressure. Reusing a <code>StringBuilder</code> reduces allocations. For string concatenation in loops, <code>StringBuilder</code> is always preferred over <code>+</code> operator."
+    }
+  ],
+  "summary": [
+    "JVM memory is divided into five areas: Stack (local variables, method frames), Heap (objects, arrays), Method Area/Metaspace (class metadata, static variables), Program Counter (current instruction), and Native Method Stack (JNI calls).",
+    "Stack memory is thread-local, LIFO, fast, and automatically managed. Each method call creates a stack frame; returning pops it. Stack overflow occurs from excessive recursion.",
+    "Heap memory is shared across all threads, stores all objects (created with new), and is managed by the garbage collector. OutOfMemoryError occurs when heap is exhausted.",
+    "Object creation with 'new' allocates on the heap. The reference variable is on the stack. When all references to an object are lost, it becomes eligible for garbage collection.",
+    "Garbage collection automatically reclaims unreachable objects. Objects become GC eligible when: reference is set to null, reference is reassigned, local scope ends, or circular references have no external reference (island of isolation).",
+    "The mark-and-sweep algorithm marks all reachable objects from GC roots (stack variables, static variables, active threads), then sweeps (frees) unmarked objects.",
+    "Generational GC divides heap into Young Generation (Eden + Survivor spaces) and Old Generation. Minor GC collects young generation (fast). Major/Full GC collects old generation (slow). Most objects die young.",
+    "Reference types: Strong (default, prevents GC), Soft (collected when memory is low, good for caches), Weak (collected at next GC, used in WeakHashMap), Phantom (for post-finalization cleanup).",
+    "System.gc() is a request, not a command. finalize() is deprecated. Use try-with-resources for deterministic resource cleanup. Never rely on GC timing for correctness.",
+    "Common memory leak causes: static collections that grow without bound, unclosed resources, inner classes holding outer class references, and unregistered listeners. Monitor with -Xms/-Xmx flags and heap dump analysis."
+  ],
+  "relatedTopics": ["lambda-expressions-and-streams", "design-patterns-introduction"],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">int x = 10;\nint y = x;\ny = 20;\nSystem.out.println(x);\nSystem.out.println(y);</code></pre>",
+        "hint": "Primitives on the stack store values, not references.",
+        "answer": "<code>10</code><br><code>20</code>",
+        "explanation": "Primitives store their values directly. <code>y = x</code> copies the value 10 into y. Changing y to 20 does not affect x. They are independent copies on the stack."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">int[] a = {1, 2, 3};\nint[] b = a;\nb[0] = 99;\nSystem.out.println(a[0]);</code></pre>",
+        "hint": "Arrays are objects on the heap. 'b = a' copies the reference, not the array.",
+        "answer": "<code>99</code>",
+        "explanation": "<code>b = a</code> copies the reference, not the array. Both <code>a</code> and <code>b</code> point to the same array object on the heap. Changing <code>b[0]</code> changes the shared object, so <code>a[0]</code> also shows 99."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">String s1 = \"Hello\";\nString s2 = s1;\ns2 = \"World\";\nSystem.out.println(s1);\nSystem.out.println(s2);</code></pre>",
+        "hint": "Strings are immutable. Reassigning s2 creates a new String object.",
+        "answer": "<code>Hello</code><br><code>World</code>",
+        "explanation": "<code>s2 = s1</code> makes s2 point to \"Hello\". <code>s2 = \"World\"</code> makes s2 point to a new String \"World\". s1 still points to \"Hello\". Strings are immutable -- reassignment changes the reference, not the object."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many objects are eligible for GC after the marked line?<br><pre><code class=\"language-java\">String a = new String(\"X\");\nString b = new String(\"Y\");\nString c = new String(\"Z\");\na = b;\nb = null;\n// <-- How many objects eligible for GC here?</code></pre>",
+        "hint": "Count objects that have no references pointing to them.",
+        "answer": "<code>1</code> (the original object referenced by a, which held \"X\")",
+        "explanation": "Originally: a -> \"X\", b -> \"Y\", c -> \"Z\". After <code>a = b</code>: a -> \"Y\", \"X\" has no reference (GC eligible). After <code>b = null</code>: b is null, but a still points to \"Y\". So \"Y\" is still alive. \"Z\" is alive through c. Only \"X\" is GC eligible."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">Runtime rt = Runtime.getRuntime();\nSystem.out.println(rt.maxMemory() > 0);\nSystem.out.println(rt.availableProcessors() > 0);</code></pre>",
+        "hint": "These are basic runtime queries that always have positive values.",
+        "answer": "<code>true</code><br><code>true</code>",
+        "explanation": "<code>maxMemory()</code> returns the maximum heap size (always positive). <code>availableProcessors()</code> returns the number of CPU cores (always at least 1)."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How many objects are eligible for GC after the marked line?<br><pre><code class=\"language-java\">Object a = new Object();  // obj1\nObject b = new Object();  // obj2\nObject c = a;              // c -> obj1\na = b;                     // a -> obj2\nb = null;                  // b -> null\nc = null;                  // c -> null\n// <-- How many eligible?</code></pre>",
+        "hint": "Trace each reference step by step.",
+        "answer": "<code>1</code> (obj1)",
+        "explanation": "After all operations: a -> obj2, b -> null, c -> null. obj1 was pointed to by a (originally) and c. After a = b, a points to obj2. After c = null, obj1 has no references. obj2 is still referenced by a. So 1 object (obj1) is GC eligible."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What error occurs and why?<br><pre><code class=\"language-java\">static void recurse() {\n    recurse();\n}\n\npublic static void main(String[] args) {\n    recurse();\n}</code></pre>",
+        "hint": "Each method call creates a new stack frame.",
+        "answer": "<code>StackOverflowError</code>",
+        "explanation": "Each call to <code>recurse()</code> pushes a new frame onto the stack. Since there is no base case, recursion never stops. The stack eventually runs out of space, throwing <code>StackOverflowError</code>. This is a stack memory issue, not heap."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">import java.lang.ref.WeakReference;\n\nString strong = new String(\"Data\");\nWeakReference&lt;String&gt; weak = new WeakReference&lt;&gt;(strong);\nSystem.out.println(weak.get());\nstrong = null;\nSystem.gc();\nSystem.out.println(weak.get());</code></pre>",
+        "hint": "After strong is null, the only reference to \"Data\" is weak.",
+        "answer": "<code>Data</code><br><code>null</code>",
+        "explanation": "Initially, both <code>strong</code> and <code>weak</code> reference the String. <code>weak.get()</code> returns \"Data\". After <code>strong = null</code>, only the weak reference remains. GC collects weakly-referenced objects, so <code>weak.get()</code> returns null."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>StackOverflowError</code> and <code>OutOfMemoryError</code>?",
+        "hint": "Each relates to a different memory area.",
+        "answer": "<code>StackOverflowError</code> occurs when the stack runs out of space, typically due to infinite or very deep recursion. Each thread has its own stack (~512 KB). <code>OutOfMemoryError</code> occurs when the heap runs out of space and GC cannot reclaim enough memory. The heap is shared across all threads and is much larger.",
+        "explanation": "Stack issues are almost always caused by recursion bugs. Heap issues are caused by creating too many objects, memory leaks (holding references to unneeded objects), or setting -Xmx too low."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What are GC roots? Why are they important?",
+        "hint": "GC roots are the starting points for reachability analysis.",
+        "answer": "GC roots are the starting points from which the garbage collector traces object reachability. They include: (1) local variables and parameters on thread stacks, (2) static variables, (3) active thread objects, (4) JNI references. Any object reachable from a GC root (directly or through a chain of references) is considered alive. Objects not reachable from any GC root are garbage.",
+        "explanation": "The GC does not check every object individually. It starts from GC roots and follows all references. Anything not found during this traversal is unreachable and eligible for collection."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain generational garbage collection. Why is it more efficient than collecting the entire heap?",
+        "hint": "Most objects die young (weak generational hypothesis).",
+        "answer": "Generational GC divides the heap into Young Generation (Eden + Survivor spaces) and Old Generation. New objects go to Eden. When Eden fills, Minor GC runs -- it is fast because the young generation is small and most objects are already dead. Surviving objects move to Survivor spaces, then eventually to Old Generation. Old Generation is collected less frequently (Major GC), which is slower. This is efficient because of the <strong>weak generational hypothesis</strong>: most objects die young, so collecting the young generation frequently reclaims most garbage with minimal effort.",
+        "explanation": "Without generations, every GC would scan the entire heap (expensive). With generations, Minor GC scans only a small portion (young gen) and collects most garbage. Major GC is rare because long-lived objects in old gen are genuinely needed."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is an 'island of isolation' in garbage collection? Give an example.",
+        "hint": "Think about circular references where no external reference exists.",
+        "answer": "An island of isolation occurs when a group of objects reference each other (circular references) but no external GC root can reach any of them. All objects in the group are eligible for GC despite having non-null references, because the reachability from GC roots is what matters, not the reference count. Example: Object A references B, B references A, but both original references (from local variables) are set to null. The A-B pair forms an isolated island that GC will collect.",
+        "explanation": "This is why Java does not use reference counting for GC (like Python does). Reference counting would not detect circular references. Java's mark-and-sweep traces from GC roots, correctly identifying unreachable circular structures."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Name three common causes of memory leaks in Java and how to prevent each.",
+        "hint": "Think about static collections, unclosed resources, and inner classes.",
+        "answer": "(1) <strong>Static collections</strong> that grow without bound: objects added to a static List/Map are never collected. Fix: use bounded caches (LRU), clear collections, or use WeakHashMap. (2) <strong>Unclosed resources</strong>: streams, connections, and readers hold native handles. Fix: use try-with-resources. (3) <strong>Anonymous/inner classes</strong> holding implicit references to outer class: the inner class keeps the outer instance alive. Fix: use static inner classes or lambda expressions (which do not capture 'this' unless needed).",
+        "explanation": "Memory leaks in Java are always about unintended live references preventing GC. The root cause is always code that retains references longer than necessary."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">String s = new String(\"Hello\");\nString t = s;\nSystem.out.println(s == t);</code></pre>",
+        "hint": "== compares references for objects.",
+        "answer": "<code>true</code>",
+        "explanation": "<code>t = s</code> copies the reference. Both s and t point to the same String object on the heap. <code>==</code> compares references, and they are the same. So true."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code class=\"language-java\">String s = new String(\"Hello\");\nString t = new String(\"Hello\");\nSystem.out.println(s == t);\nSystem.out.println(s.equals(t));</code></pre>",
+        "hint": "Each 'new' creates a different object on the heap.",
+        "answer": "<code>false</code><br><code>true</code>",
+        "explanation": "Two separate objects are created on the heap. <code>==</code> compares references (different objects, so false). <code>equals()</code> compares content (\"Hello\" equals \"Hello\", so true)."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How many objects are eligible for GC at the marked line?<br><pre><code class=\"language-java\">class Node {\n    Node next;\n    Node(Node next) { this.next = next; }\n}\n\nNode a = new Node(null);  // node1\nNode b = new Node(a);     // node2 -> node1\nNode c = new Node(b);     // node3 -> node2 -> node1\na = null;\nb = null;\n// <-- How many eligible here?</code></pre>",
+        "hint": "Trace the reference chain from c.",
+        "answer": "<code>0</code>",
+        "explanation": "c -> node3 -> node2 -> node1. Even though a and b are null, c still holds a reference chain to all three objects. All are reachable from c (a GC root via local variable). None are GC eligible."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens when this code runs?<br><pre><code class=\"language-java\">java.util.List&lt;int[]&gt; list = new java.util.ArrayList&lt;&gt;();\nwhile (true) {\n    list.add(new int[1_000_000]);\n}</code></pre>",
+        "hint": "The list keeps growing and objects are never removed.",
+        "answer": "<code>OutOfMemoryError: Java heap space</code>",
+        "explanation": "Each iteration adds a ~4 MB int array to the list. The list holds references to all arrays, preventing GC from collecting any. Eventually the heap fills up and <code>OutOfMemoryError</code> is thrown."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code class=\"language-java\">void method() {\n    int x = 10;\n    int y = 20;\n    String s = new String(\"Hello\");\n}\n// After method() returns, how many items are removed from the stack?</code></pre>",
+        "hint": "Each local variable occupies a slot in the method's stack frame.",
+        "answer": "The entire stack frame (containing x, y, and s) is popped. 3 local variables are removed from the stack. The String object on the heap becomes GC eligible.",
+        "explanation": "When <code>method()</code> returns, its entire stack frame is destroyed. Primitives x and y are gone. Reference s is gone. The String object on the heap now has no references and becomes GC eligible."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "How many objects are GC eligible at the marked line?<br><pre><code class=\"language-java\">class Node { Node next; }\n\nNode a = new Node(); // n1\nNode b = new Node(); // n2\na.next = b;\nb.next = a;\na = null;\nb = null;\n// <-- How many eligible?</code></pre>",
+        "hint": "This is an island of isolation. No external reference can reach either node.",
+        "answer": "<code>2</code> (both n1 and n2)",
+        "explanation": "n1 and n2 reference each other (circular), but after setting a and b to null, no GC root can reach either node. This is an island of isolation. Both objects are GC eligible despite having non-null references to each other."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code class=\"language-java\">import java.lang.ref.SoftReference;\n\nSoftReference&lt;String&gt; soft = new SoftReference&lt;&gt;(new String(\"Cache\"));\nSystem.out.println(soft.get());\nSystem.gc();\nSystem.out.println(soft.get());</code></pre>",
+        "hint": "Soft references are only collected when memory is low.",
+        "answer": "<code>Cache</code><br><code>Cache</code> (most likely)",
+        "explanation": "Soft references are retained as long as memory is sufficient. <code>System.gc()</code> typically does not collect softly-referenced objects unless the JVM is under memory pressure. In normal conditions, <code>soft.get()</code> still returns \"Cache\" after GC."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Where are static variables stored in JVM memory?",
+        "hint": "Think about class-level data.",
+        "answer": "Static variables are stored in the <strong>Method Area</strong> (Metaspace in Java 8+). Since Metaspace uses native memory (not heap), static variables are not subject to heap GC. They live for the entire lifetime of the class, which is typically the entire program execution.",
+        "explanation": "The Method Area/Metaspace stores class metadata including static fields, method bytecode, and the constant pool. This is why static variables persist across all instances and method calls."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>-Xms</code> and <code>-Xmx</code> JVM flags?",
+        "hint": "One is initial, one is maximum.",
+        "answer": "<code>-Xms</code> sets the <strong>initial</strong> heap size (the heap starts at this size). <code>-Xmx</code> sets the <strong>maximum</strong> heap size (the heap cannot grow beyond this). For example, <code>-Xms256m -Xmx1024m</code> means the heap starts at 256 MB and can grow up to 1024 MB. Setting both to the same value avoids heap resize overhead in production.",
+        "explanation": "If -Xms is too low, the JVM frequently resizes the heap (expensive). If -Xmx is too low, you get OutOfMemoryError. In production, both are typically set to the same value based on the application's memory profile."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is <code>finalize()</code> deprecated? What should you use instead?",
+        "hint": "Think about reliability and performance.",
+        "answer": "<code>finalize()</code> is deprecated (Java 9+) because: (1) No guarantee it will ever run. (2) No guarantee of timing -- it may run long after the object is GC eligible. (3) It delays GC by one cycle (the object must survive an extra GC to be finalized). (4) Performance overhead from the finalization queue. Use <code>AutoCloseable</code> with try-with-resources for deterministic cleanup. For cleanup of non-resource objects, use <code>java.lang.ref.Cleaner</code> (Java 9+).",
+        "explanation": "finalize() was a design mistake. It gives a false sense of safety because developers assume it will reliably clean up resources. In practice, it often does not run until the JVM shuts down (or never). try-with-resources guarantees cleanup at a predictable point."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Where are objects created with 'new' stored in JVM memory?",
+        "options": [
+          "Stack",
+          "Heap",
+          "Method Area",
+          "Program Counter"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> All objects created with <code>new</code> are allocated on the heap. The stack stores only local variables (primitives and references to heap objects)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What happens when the stack runs out of space?",
+        "options": [
+          "OutOfMemoryError",
+          "StackOverflowError",
+          "NullPointerException",
+          "The JVM resizes the stack"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>StackOverflowError</code> occurs when the call stack exceeds its limit, typically due to infinite recursion. The stack has a fixed size per thread."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does garbage collection do?",
+        "options": [
+          "Deletes unused source code files",
+          "Automatically reclaims memory from unreachable objects",
+          "Compresses files on disk",
+          "Removes unused import statements"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Garbage collection identifies objects on the heap that are no longer reachable from any GC root and reclaims their memory automatically."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What makes an object eligible for garbage collection?",
+        "options": [
+          "Calling delete on the object",
+          "Setting the reference to 0",
+          "When no live references point to it",
+          "When the object is more than 5 minutes old"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> An object becomes GC eligible when no live reference chain from any GC root can reach it. Java does not have a <code>delete</code> operator."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Where are static variables stored?",
+        "options": [
+          "Stack",
+          "Heap",
+          "Method Area (Metaspace)",
+          "Native Method Stack"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Static variables are stored in the Method Area (Metaspace since Java 8). They belong to the class, not to instances."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does -Xmx512m mean?",
+        "options": [
+          "Set stack size to 512 MB",
+          "Set maximum heap size to 512 MB",
+          "Set metaspace to 512 MB",
+          "Set minimum heap size to 512 MB"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>-Xmx</code> sets the maximum heap size. <code>-Xms</code> sets the initial/minimum heap size. <code>-Xss</code> sets the stack size per thread."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the difference between Young Generation and Old Generation?",
+        "options": [
+          "Young stores classes, Old stores objects",
+          "Young stores new objects; Old stores long-lived objects that survived multiple GC cycles",
+          "Young uses more memory than Old",
+          "There is no difference"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> New objects go to Young Generation (Eden). Objects that survive multiple Minor GC cycles are promoted to Old Generation (Tenured). This exploits the observation that most objects die young."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does System.gc() do?",
+        "options": [
+          "Forces immediate garbage collection",
+          "Requests garbage collection (JVM may ignore it)",
+          "Deletes all objects on the heap",
+          "Crashes the JVM"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>System.gc()</code> is a request, not a command. The JVM is free to ignore it. Never rely on it for correctness in production code."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which reference type is collected only when memory is low?",
+        "options": [
+          "Strong",
+          "Weak",
+          "Soft",
+          "Phantom"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Soft references are kept as long as memory is sufficient. They are collected only when the JVM needs memory, making them ideal for caches."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Why is finalize() deprecated?",
+        "options": [
+          "It runs too frequently",
+          "It is unreliable: no guarantee of execution timing, delays GC, performance overhead",
+          "It was replaced by delete()",
+          "It causes compilation errors"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> finalize() may never run, has unpredictable timing, delays GC by one cycle, and adds overhead. Use try-with-resources (AutoCloseable) instead."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is an 'island of isolation' in GC?",
+        "options": [
+          "An object with no fields",
+          "A group of objects with circular references but no external references from GC roots",
+          "A single isolated thread",
+          "An object stored in static memory"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When objects reference each other in a cycle but no GC root can reach any of them, they form an island of isolation. All are GC eligible despite having non-null references."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "Which of these is NOT a GC root?",
+        "options": [
+          "Local variables on thread stacks",
+          "Static variables",
+          "Objects in the young generation",
+          "Active thread objects"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Objects in the young generation are not GC roots -- they are the objects BEING evaluated for collection. GC roots are references FROM stacks, static fields, and active threads TO objects."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What happens when both a try block and close() throw exceptions in try-with-resources, from a memory perspective?",
+        "options": [
+          "The close exception is lost, causing a resource leak",
+          "Both exceptions are preserved (suppressed exception mechanism), and the resource is properly cleaned up",
+          "The JVM crashes",
+          "The try exception is lost"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> try-with-resources guarantees that close() is called. If both throw exceptions, the close() exception is added as a suppressed exception. The resource is properly released, preventing memory/resource leaks."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What replaced PermGen in Java 8?",
+        "options": [
+          "Heap",
+          "Stack",
+          "Metaspace",
+          "Native Memory Pool"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Java 8 replaced PermGen (Permanent Generation, part of the heap) with Metaspace, which uses native memory. This eliminated the common 'java.lang.OutOfMemoryError: PermGen space' error because Metaspace can grow dynamically."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "Each thread in Java has its own:",
+        "options": [
+          "Heap",
+          "Stack",
+          "Method Area",
+          "String Pool"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Each thread has its own stack (and PC register). The heap, method area, and string pool are shared across all threads."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Object Counter",
+        "difficulty": "Easy",
+        "description": "Create a class that tracks how many instances have been created using a static counter. Also track how many instances are still alive by decrementing the counter when an object becomes GC eligible (hint: use a static counter and demonstrate with nullification + System.gc()).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Created: 3\nAfter nullifying 2: alive references = 1\nAfter GC: creation count still = 3 (static counter does not decrease)",
+        "constraints": "Use static variables. Demonstrate the difference between creation count and live reference count.",
+        "solution": "public class ObjectCounter {\n    private static int creationCount = 0;\n    private String name;\n\n    ObjectCounter(String name) {\n        this.name = name;\n        creationCount++;\n        System.out.println(\"Created: \" + name + \" (total: \" + creationCount + \")\");\n    }\n\n    public static void main(String[] args) {\n        ObjectCounter a = new ObjectCounter(\"A\");\n        ObjectCounter b = new ObjectCounter(\"B\");\n        ObjectCounter c = new ObjectCounter(\"C\");\n        System.out.println(\"Creation count: \" + creationCount);\n\n        a = null;\n        b = null;\n        System.gc();\n        System.out.println(\"After nullifying A and B:\");\n        System.out.println(\"Creation count (static): \" + creationCount);\n        System.out.println(\"Only C is still reachable: \" + c.name);\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "GC Eligibility Analyzer",
+        "difficulty": "Medium",
+        "description": "Write a program that creates several objects with various reference patterns (null, reassignment, scope exit, circular). For each case, print how many objects are GC eligible and explain why.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Case 1 (null): 1 object eligible\nCase 2 (reassign): 1 object eligible\nCase 3 (scope): 1 object eligible\nCase 4 (circular): 2 objects eligible",
+        "constraints": "Cover all four eligibility cases. Use comments to explain.",
+        "solution": "public class GCAnalyzer {\n    static class Node { Node next; String name;\n        Node(String n) { name = n; }\n    }\n\n    public static void main(String[] args) {\n        // Case 1: Reference set to null\n        Node n1 = new Node(\"A\");\n        n1 = null; // A eligible\n        System.out.println(\"Case 1 (null): 1 eligible\");\n\n        // Case 2: Reference reassigned\n        Node n2 = new Node(\"B\");\n        n2 = new Node(\"C\"); // B eligible, C alive\n        System.out.println(\"Case 2 (reassign): 1 eligible (B)\");\n\n        // Case 3: Scope exit\n        createAndReturn();\n        System.out.println(\"Case 3 (scope): 1 eligible (D)\");\n\n        // Case 4: Circular with no external reference\n        Node e = new Node(\"E\");\n        Node f = new Node(\"F\");\n        e.next = f;\n        f.next = e;\n        e = null;\n        f = null; // E-F island of isolation\n        System.out.println(\"Case 4 (circular): 2 eligible (E, F)\");\n\n        System.gc();\n    }\n\n    static void createAndReturn() {\n        Node d = new Node(\"D\");\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Memory Monitor",
+        "difficulty": "Medium",
+        "description": "Write a program that monitors heap memory usage before and after allocating a large number of objects, then after GC. Display used/free/total memory in MB at each step.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Step 1: Used=1MB, Free=14MB, Total=15MB\nStep 2 (after alloc): Used=25MB, Free=15MB, Total=40MB\nStep 3 (after GC): Used=1MB, Free=14MB, Total=15MB",
+        "constraints": "Use Runtime.getRuntime() methods. Create an array of objects and then null it before GC.",
+        "solution": "public class MemoryMonitor {\n    static void printMem(String label) {\n        Runtime rt = Runtime.getRuntime();\n        long total = rt.totalMemory() / (1024 * 1024);\n        long free = rt.freeMemory() / (1024 * 1024);\n        long used = total - free;\n        System.out.printf(\"%s: Used=%dMB, Free=%dMB, Total=%dMB%n\", label, used, free, total);\n    }\n\n    public static void main(String[] args) {\n        printMem(\"Initial\");\n\n        Object[] data = new Object[500_000];\n        for (int i = 0; i < data.length; i++) {\n            data[i] = new byte[50];\n        }\n        printMem(\"After allocation\");\n\n        data = null;\n        System.gc();\n        printMem(\"After GC\");\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Weak Reference Cache",
+        "difficulty": "Hard",
+        "description": "Implement a simple cache using WeakReferences. The cache should store values that can be garbage collected when memory is needed. Demonstrate that cached values disappear after GC when no strong references exist.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Cache hit: value1\nAfter GC (strong ref exists): value1\nAfter GC (strong ref removed): null",
+        "constraints": "Use java.lang.ref.WeakReference. Demonstrate the difference between having and not having a strong reference.",
+        "solution": "import java.lang.ref.WeakReference;\nimport java.util.HashMap;\nimport java.util.Map;\n\npublic class WeakCache<K, V> {\n    private final Map<K, WeakReference<V>> cache = new HashMap<>();\n\n    public void put(K key, V value) {\n        cache.put(key, new WeakReference<>(value));\n    }\n\n    public V get(K key) {\n        WeakReference<V> ref = cache.get(key);\n        return (ref != null) ? ref.get() : null;\n    }\n\n    public static void main(String[] args) {\n        WeakCache<String, String> cache = new WeakCache<>();\n        String value = new String(\"ImportantData\");\n        cache.put(\"key1\", value);\n\n        System.out.println(\"Before GC: \" + cache.get(\"key1\"));\n        System.gc();\n        System.out.println(\"After GC (strong ref alive): \" + cache.get(\"key1\"));\n\n        value = null; // remove strong reference\n        System.gc();\n        System.out.println(\"After GC (no strong ref): \" + cache.get(\"key1\"));\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Memory Leak Detector",
+        "difficulty": "Hard",
+        "description": "Create a program that demonstrates a memory leak using a static collection, monitors memory growth over iterations, and then fixes the leak. Show memory usage before and after the fix.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Iteration 100: used=5MB\nIteration 200: used=10MB (GROWING - LEAK)\nAfter fix: used=1MB (STABLE)",
+        "constraints": "Use a static List to create the leak. Use Runtime to monitor memory. Fix by clearing or using bounded collection.",
+        "solution": "import java.util.ArrayList;\nimport java.util.List;\n\npublic class LeakDetector {\n    private static final List<byte[]> leakyCache = new ArrayList<>();\n\n    static long usedMB() {\n        Runtime rt = Runtime.getRuntime();\n        return (rt.totalMemory() - rt.freeMemory()) / (1024 * 1024);\n    }\n\n    public static void main(String[] args) {\n        System.out.println(\"=== Demonstrating Memory Leak ===\");\n        for (int i = 1; i <= 500; i++) {\n            leakyCache.add(new byte[10_000]); // ~10KB per entry\n            if (i % 100 == 0) {\n                System.gc();\n                System.out.println(\"Iteration \" + i + \": used=\" + usedMB() + \"MB, cache=\" + leakyCache.size());\n            }\n        }\n\n        System.out.println(\"\\n=== Fixing the Leak ===\");\n        leakyCache.clear();\n        System.gc();\n        System.out.println(\"After clear: used=\" + usedMB() + \"MB, cache=\" + leakyCache.size());\n    }\n}"
+      }
+    ]
+  }
+}

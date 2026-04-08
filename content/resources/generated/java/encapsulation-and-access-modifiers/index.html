@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encapsulation and Access Modifiers - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Understand getters, setters, access modifiers (public, private, protected, default), and data hiding.">
+    <meta name="keywords" content="encapsulation and access modifiers, java tutorial, java encapsulation and access modifiers, learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/encapsulation-and-access-modifiers">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/encapsulation-and-access-modifiers">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/encapsulation-and-access-modifiers">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/encapsulation-and-access-modifiers">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/encapsulation-and-access-modifiers">
+    <meta property="og:title" content="Encapsulation and Access Modifiers - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Understand getters, setters, access modifiers (public, private, protected, default), and data hiding.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/encapsulation-and-access-modifiers">
+    <meta name="twitter:title" content="Encapsulation and Access Modifiers - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Understand getters, setters, access modifiers (public, private, protected, default), and data hiding.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Encapsulation and Access Modifiers",
+    "description": "Understand getters, setters, access modifiers (public, private, protected, default), and data hiding.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/encapsulation-and-access-modifiers"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/encapsulation-and-access-modifiers"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Encapsulation and Access Modifiers",
+        "item": "https://learn.modernagecoders.com/resources/java/encapsulation-and-access-modifiers"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Directly Accessing Private Fields from Outside the Class",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Private fields cannot be accessed outside the class. This is the entire point of encapsulation. Provide public getters and setters to control how external code interacts with the object's state."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing default (Package-Private) with public",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If you omit the access modifier on a class declaration, it gets default (package-private) access, meaning it is only visible within its own package. To use a class from another package, both the class and its methods must be <code>public</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Creating Setters Without Validation",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Simply making a field private and adding a setter without validation provides no real protection. The setter becomes a meaningless middleman. Add validation in setters, or replace setters with domain-specific methods (like <code>deposit()</code> and <code>withdraw()</code>) that enforce business rules."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Returning a Mutable Object Reference from a Getter",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When a getter returns a reference to a mutable object (array, list, date), external code can modify the object's internal state through that reference. Use <strong>defensive copies</strong>: copy the input in the constructor and copy the output in the getter. This ensures the internal state is completely isolated."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Encapsulation and Access Modifiers</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 14</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">28 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-08</span>
+            </div>
+            <h1 class="resource-title">Encapsulation and Access Modifiers</h1>
+            <a href="/resources/java/encapsulation-and-access-modifiers/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Encapsulation?</h2><p><strong>Encapsulation</strong> is one of the four fundamental pillars of Object-Oriented Programming (alongside inheritance, polymorphism, and abstraction). It has two key aspects:</p><p><strong>1. Data Hiding:</strong> Restricting direct access to an object's internal state (fields) from outside code. Fields are marked <code>private</code>, and the only way to read or modify them is through controlled methods.</p><p><strong>2. Bundling:</strong> Grouping related data (fields) and behavior (methods) together into a single unit (class). The class becomes a self-contained module with a clear public interface.</p><p>Think of encapsulation as a capsule (hence the name): the medicine (data) is enclosed inside a protective shell (access control), and you interact with it through a defined interface (getters and setters), not by opening the capsule.</p><h3>Access Modifiers</h3><p>Java provides four access levels to control visibility of classes, fields, methods, and constructors:</p><p><strong><code>public</code>:</strong> Accessible from anywhere — any class in any package.</p><p><strong><code>protected</code>:</strong> Accessible within the same package and by subclasses in other packages.</p><p><strong><code>default</code> (no modifier):</strong> Also called package-private. Accessible only within the same package.</p><p><strong><code>private</code>:</strong> Accessible only within the same class. Not visible to any other class, not even subclasses.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is Encapsulation Important?</h2><p>Encapsulation is not just a theoretical concept — it directly affects the quality, security, and maintainability of your code. Here is why every professional Java developer must understand it:</p><h3>1. Protects Data Integrity</h3><p>Without encapsulation, any code anywhere in your program can set a field to an invalid value. A negative age, a null name, or a balance of -1000 would go undetected. With encapsulation, setters can validate input: <code>if (age < 0) throw new IllegalArgumentException()</code>.</p><h3>2. Controls the Public Interface</h3><p>Encapsulation lets you expose only what external code needs and hide implementation details. If you store a temperature in Celsius internally but need to provide Fahrenheit, you can do the conversion in the getter without exposing the internal representation.</p><h3>3. Enables Safe Refactoring</h3><p>When fields are private and accessed through methods, you can change the internal implementation without breaking external code. Rename a field, change its type, or add computation in a getter — the public interface stays the same.</p><h3>4. Interview and Examination Staple</h3><p>Every Java placement exam and interview includes questions about access modifiers, getters/setters, and encapsulation. Understanding the access level table (public, protected, default, private) is tested consistently across companies and universities.</p><h3>5. Foundation for Design Patterns</h3><p>Encapsulation is the basis for immutable classes (used extensively in multi-threaded programming), the Builder pattern, the JavaBeans convention (required by frameworks like Spring and Hibernate), and virtually every design pattern in Java.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Access Modifier Table</h3><p>This table is critical for interviews and exams. Memorize it:</p><pre><code>| Modifier    | Same Class | Same Package | Subclass (other pkg) | Other Package |
+|-------------|------------|--------------|----------------------|---------------|
+| public      |    Yes     |     Yes      |         Yes          |      Yes      |
+| protected   |    Yes     |     Yes      |         Yes          |      No       |
+| default     |    Yes     |     Yes      |         No           |      No       |
+| private     |    Yes     |     No       |         No           |      No       |</code></pre><p><strong>public</strong> is the most permissive: accessible everywhere. <strong>private</strong> is the most restrictive: accessible only within the declaring class. <strong>protected</strong> adds subclass access (even across packages) to the default package-level access. <strong>default</strong> (no keyword) restricts access to the same package only.</p><h3>2. Getters and Setters</h3><p>The standard encapsulation pattern in Java is: make fields <code>private</code> and provide <code>public</code> getter and setter methods for controlled access.</p><pre><code>class Student {
+    private String name;
+    private int age;
+
+    // Getter — returns the field value
+    public String getName() {
+        return name;
+    }
+
+    // Setter — sets the field value with validation
+    public void setName(String name) {
+        if (name == null || name.isEmpty()) {
+            throw new IllegalArgumentException("Name cannot be null or empty");
+        }
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        if (age < 0 || age > 150) {
+            throw new IllegalArgumentException("Invalid age: " + age);
+        }
+        this.age = age;
+    }
+}</code></pre><p>Getters follow the naming convention <code>getFieldName()</code> (or <code>isFieldName()</code> for booleans). Setters follow <code>setFieldName(value)</code>. This is the JavaBeans convention, which is required by many Java frameworks.</p><h3>3. Why Use Private Fields?</h3><p>Consider a BankAccount with a public balance field:</p><pre><code>class BankAccount {
+    public double balance; // BAD: anyone can set this to any value
+}
+
+account.balance = -5000; // No validation, no logging, no protection</code></pre><p>With encapsulation:</p><pre><code>class BankAccount {
+    private double balance;
+
+    public void deposit(double amount) {
+        if (amount <= 0) throw new IllegalArgumentException("Deposit must be positive");
+        balance += amount;
+    }
+
+    public void withdraw(double amount) {
+        if (amount > balance) throw new IllegalArgumentException("Insufficient funds");
+        balance -= amount;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+    // No setBalance() — balance can only change through deposit/withdraw
+}</code></pre><h3>4. JavaBeans Naming Convention</h3><p>A JavaBean is a class that follows specific conventions:</p><p>- Fields are <code>private</code>.</p><p>- A no-argument constructor exists.</p><p>- Getter and setter methods follow the naming pattern: <code>getX()</code>/<code>setX()</code> for regular types, <code>isX()</code> for booleans.</p><p>- The class implements <code>Serializable</code> (optional but common).</p><pre><code>class Employee {
+    private String name;
+    private boolean active;
+
+    public Employee() {} // no-arg constructor
+
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+
+    public boolean isActive() { return active; }  // boolean uses 'is' prefix
+    public void setActive(boolean active) { this.active = active; }
+}</code></pre><h3>5. Creating Immutable Classes</h3><p>An immutable class is one whose objects cannot be modified after creation. Once constructed, the state never changes.</p><p>Rules for creating an immutable class:</p><p>1. Make the class <code>final</code> (prevents subclassing that could add mutable behavior).</p><p>2. Make all fields <code>private</code> and <code>final</code>.</p><p>3. Do not provide setter methods.</p><p>4. Initialize all fields in the constructor.</p><p>5. For mutable field types (arrays, lists, dates), return defensive copies from getters.</p><pre><code>final class ImmutableStudent {
+    private final String name;
+    private final int rollNo;
+    private final double marks;
+
+    public ImmutableStudent(String name, int rollNo, double marks) {
+        this.name = name;
+        this.rollNo = rollNo;
+        this.marks = marks;
+    }
+
+    public String getName() { return name; }
+    public int getRollNo() { return rollNo; }
+    public double getMarks() { return marks; }
+
+    @Override
+    public String toString() {
+        return name + " (" + rollNo + ") - " + marks;
+    }
+}</code></pre><h3>6. Record Classes (Java 16+)</h3><p>Java 16 introduced <code>record</code> classes as a concise way to create immutable data carriers. A record automatically generates: the constructor, getters (named after the fields, without 'get' prefix), <code>equals()</code>, <code>hashCode()</code>, and <code>toString()</code>.</p><pre><code>record Student(String name, int rollNo, double marks) {}
+
+// Equivalent to writing a full immutable class with constructor,
+// getters, equals(), hashCode(), and toString()
+
+Student s = new Student("Aarav", 101, 92.5);
+System.out.println(s.name());     // "Aarav" — note: name(), not getName()
+System.out.println(s.rollNo());   // 101
+System.out.println(s);            // Student[name=Aarav, rollNo=101, marks=92.5]</code></pre><p>Records are implicitly <code>final</code> and their fields are implicitly <code>private final</code>. You can add custom methods and validate in a compact constructor, but you cannot add instance fields.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Access Modifiers in Action</div><pre><code class="language-python">// File: com/example/Person.java
+package com.example;
+
+public class Person {
+    public String publicField = &quot;public&quot;;
+    protected String protectedField = &quot;protected&quot;;
+    String defaultField = &quot;default&quot;;         // package-private
+    private String privateField = &quot;private&quot;;
+
+    public void showAll() {
+        // Same class — can access all four
+        System.out.println(publicField);
+        System.out.println(protectedField);
+        System.out.println(defaultField);
+        System.out.println(privateField);
+    }
+}
+
+// File: com/example/SamePackage.java
+package com.example;
+
+public class SamePackage {
+    void test() {
+        Person p = new Person();
+        System.out.println(p.publicField);      // OK
+        System.out.println(p.protectedField);   // OK (same package)
+        System.out.println(p.defaultField);     // OK (same package)
+        // System.out.println(p.privateField);  // ERROR: private
+    }
+}
+
+// File: com/other/DifferentPackage.java
+package com.other;
+import com.example.Person;
+
+public class DifferentPackage {
+    void test() {
+        Person p = new Person();
+        System.out.println(p.publicField);      // OK
+        // System.out.println(p.protectedField); // ERROR: different package, not subclass
+        // System.out.println(p.defaultField);   // ERROR: different package
+        // System.out.println(p.privateField);   // ERROR: private
+    }
+}</code></pre><div class="code-example-explanation">From within the same class, all four access levels are visible. From a class in the same package, public, protected, and default are accessible but private is not. From a class in a different package (not a subclass), only public is accessible. Protected would be accessible from a subclass in another package.</div><div class="code-example-output">(Conceptual — demonstrates visibility rules, not runnable as a single file)</div></div>
+<div class="code-example"><div class="code-example-title">Encapsulation with Getters and Setters</div><pre><code class="language-python">public class Student {
+    private String name;
+    private int age;
+    private double marks;
+
+    public Student(String name, int age, double marks) {
+        setName(name);   // Use setter for validation
+        setAge(age);
+        setMarks(marks);
+    }
+
+    public String getName() { return name; }
+
+    public void setName(String name) {
+        if (name == null || name.trim().isEmpty()) {
+            throw new IllegalArgumentException(&quot;Name cannot be empty&quot;);
+        }
+        this.name = name.trim();
+    }
+
+    public int getAge() { return age; }
+
+    public void setAge(int age) {
+        if (age &lt; 1 || age &gt; 120) {
+            throw new IllegalArgumentException(&quot;Invalid age: &quot; + age);
+        }
+        this.age = age;
+    }
+
+    public double getMarks() { return marks; }
+
+    public void setMarks(double marks) {
+        if (marks &lt; 0 || marks &gt; 100) {
+            throw new IllegalArgumentException(&quot;Marks must be 0-100&quot;);
+        }
+        this.marks = marks;
+    }
+
+    @Override
+    public String toString() {
+        return name + &quot; (age &quot; + age + &quot;) - Marks: &quot; + marks;
+    }
+
+    public static void main(String[] args) {
+        Student s = new Student(&quot;Aarav&quot;, 20, 92.5);
+        System.out.println(s);
+
+        s.setMarks(95.0);
+        System.out.println(&quot;Updated: &quot; + s);
+
+        try {
+            s.setAge(-5);
+        } catch (IllegalArgumentException e) {
+            System.out.println(&quot;Error: &quot; + e.getMessage());
+        }
+    }
+}</code></pre><div class="code-example-explanation">All fields are private. Access is controlled through getters (read) and setters (write with validation). The constructor itself uses setters to ensure validation runs during object creation. Attempting to set an invalid age throws an IllegalArgumentException with a descriptive message. This prevents the object from ever being in an invalid state.</div><div class="code-example-output">Aarav (age 20) - Marks: 92.5
+Updated: Aarav (age 20) - Marks: 95.0
+Error: Invalid age: -5</div></div>
+<div class="code-example"><div class="code-example-title">Read-Only and Write-Only Properties</div><pre><code class="language-python">public class UserAccount {
+    private String username;
+    private String password;
+    private int loginCount;
+
+    public UserAccount(String username, String password) {
+        this.username = username;
+        this.password = password;
+        this.loginCount = 0;
+    }
+
+    // Read-only: getter only, no setter
+    public String getUsername() {
+        return username;
+    }
+
+    // Read-only: getter only
+    public int getLoginCount() {
+        return loginCount;
+    }
+
+    // Write-only: setter only, no getter (password should not be readable)
+    public void setPassword(String password) {
+        if (password.length() &lt; 8) {
+            throw new IllegalArgumentException(&quot;Password must be at least 8 characters&quot;);
+        }
+        this.password = password;
+    }
+
+    // Business method that uses the private password
+    public boolean authenticate(String attempt) {
+        loginCount++;
+        return password.equals(attempt);
+    }
+
+    public static void main(String[] args) {
+        UserAccount user = new UserAccount(&quot;priya_kumar&quot;, &quot;SecurePass123&quot;);
+        System.out.println(&quot;Username: &quot; + user.getUsername());
+        System.out.println(&quot;Auth result: &quot; + user.authenticate(&quot;WrongPass&quot;));
+        System.out.println(&quot;Auth result: &quot; + user.authenticate(&quot;SecurePass123&quot;));
+        System.out.println(&quot;Login attempts: &quot; + user.getLoginCount());
+    }
+}</code></pre><div class="code-example-explanation">Not every field needs both a getter and a setter. <code>username</code> is read-only (no setter) because it should not change after creation. <code>password</code> is write-only (no getter) because reading the password is a security risk. <code>loginCount</code> is read-only and is modified only internally by the <code>authenticate()</code> method. This demonstrates encapsulation in a realistic scenario.</div><div class="code-example-output">Username: priya_kumar
+Auth result: false
+Auth result: true
+Login attempts: 2</div></div>
+<div class="code-example"><div class="code-example-title">Immutable Class</div><pre><code class="language-python">import java.util.Arrays;
+
+final class ImmutableStudent {
+    private final String name;
+    private final int rollNo;
+    private final int[] scores; // mutable field — needs defensive copy
+
+    public ImmutableStudent(String name, int rollNo, int[] scores) {
+        this.name = name;
+        this.rollNo = rollNo;
+        this.scores = Arrays.copyOf(scores, scores.length); // defensive copy
+    }
+
+    public String getName() { return name; }
+    public int getRollNo() { return rollNo; }
+
+    // Return a copy, not the original array
+    public int[] getScores() {
+        return Arrays.copyOf(scores, scores.length); // defensive copy
+    }
+
+    public double getAverage() {
+        int sum = 0;
+        for (int s : scores) sum += s;
+        return (double) sum / scores.length;
+    }
+
+    @Override
+    public String toString() {
+        return name + &quot; (&quot; + rollNo + &quot;) - Avg: &quot; + String.format(&quot;%.1f&quot;, getAverage());
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        int[] marks = {85, 90, 78, 92};
+        ImmutableStudent s = new ImmutableStudent(&quot;Meera&quot;, 201, marks);
+        System.out.println(s);
+
+        // Try to modify through the original array
+        marks[0] = 0;
+        System.out.println(&quot;After modifying original array: &quot; + s);
+
+        // Try to modify through the getter
+        int[] retrieved = s.getScores();
+        retrieved[0] = 0;
+        System.out.println(&quot;After modifying retrieved array: &quot; + s);
+    }
+}</code></pre><div class="code-example-explanation">The class is <code>final</code> (cannot be subclassed). All fields are <code>private final</code>. No setters exist. The critical part: <code>scores</code> is an array (mutable). The constructor copies the input array, and the getter returns a copy. This ensures external code cannot modify the internal state. Both modification attempts fail because the object holds its own independent copy.</div><div class="code-example-output">Meera (201) - Avg: 86.3
+After modifying original array: Meera (201) - Avg: 86.3
+After modifying retrieved array: Meera (201) - Avg: 86.3</div></div>
+<div class="code-example"><div class="code-example-title">Java Record Classes (Java 16+)</div><pre><code class="language-python">// A record automatically generates constructor, getters, equals(), hashCode(), toString()
+record Student(String name, int rollNo, double marks) {
+
+    // Compact constructor for validation
+    Student {
+        if (name == null || name.isEmpty()) {
+            throw new IllegalArgumentException(&quot;Name cannot be empty&quot;);
+        }
+        if (marks &lt; 0 || marks &gt; 100) {
+            throw new IllegalArgumentException(&quot;Marks must be 0-100&quot;);
+        }
+    }
+
+    // Custom method
+    char grade() {
+        if (marks &gt;= 90) return &#39;A&#39;;
+        if (marks &gt;= 80) return &#39;B&#39;;
+        if (marks &gt;= 70) return &#39;C&#39;;
+        if (marks &gt;= 60) return &#39;D&#39;;
+        return &#39;F&#39;;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s1 = new Student(&quot;Aarav&quot;, 101, 92.5);
+        Student s2 = new Student(&quot;Aarav&quot;, 101, 92.5);
+
+        // Auto-generated getters (no &#39;get&#39; prefix)
+        System.out.println(s1.name());
+        System.out.println(s1.rollNo());
+
+        // Auto-generated toString()
+        System.out.println(s1);
+
+        // Auto-generated equals() — compares all fields
+        System.out.println(&quot;s1.equals(s2): &quot; + s1.equals(s2));
+
+        // Custom method
+        System.out.println(&quot;Grade: &quot; + s1.grade());
+    }
+}</code></pre><div class="code-example-explanation">Records provide a concise syntax for immutable data classes. The compiler generates the constructor, field accessors (not using 'get' prefix), <code>equals()</code>, <code>hashCode()</code>, and <code>toString()</code>. The compact constructor (without parameter list) lets you add validation. Records are implicitly final and their fields are implicitly private final. You can add custom methods but not instance fields.</div><div class="code-example-output">Aarav
+101
+Student[name=Aarav, rollNo=101, marks=92.5]
+s1.equals(s2): true
+Grade: A</div></div>
+<div class="code-example"><div class="code-example-title">Protected Access with Inheritance Across Packages</div><pre><code class="language-python">// File: com/example/Animal.java
+package com.example;
+
+public class Animal {
+    public String name;
+    protected String sound;       // accessible in subclasses
+    String habitat;               // default: same package only
+    private int lifespan;         // only this class
+
+    public Animal(String name, String sound, String habitat, int lifespan) {
+        this.name = name;
+        this.sound = sound;
+        this.habitat = habitat;
+        this.lifespan = lifespan;
+    }
+
+    protected void makeSound() {
+        System.out.println(name + &quot; says &quot; + sound);
+    }
+}
+
+// File: com/pets/Dog.java
+package com.pets;
+import com.example.Animal;
+
+public class Dog extends Animal {
+    public Dog(String name) {
+        super(name, &quot;Woof&quot;, &quot;Home&quot;, 13);
+    }
+
+    public void greet() {
+        System.out.println(&quot;Name (public): &quot; + name);      // OK
+        System.out.println(&quot;Sound (protected): &quot; + sound);  // OK: subclass
+        // System.out.println(habitat);    // ERROR: default, different package
+        // System.out.println(lifespan);   // ERROR: private
+        makeSound();                       // OK: protected method
+    }
+}</code></pre><div class="code-example-explanation">This example demonstrates protected access across packages. <code>Dog</code> is in a different package from <code>Animal</code>. It can access <code>name</code> (public) and <code>sound</code> (protected — Dog is a subclass). It cannot access <code>habitat</code> (default — different package) or <code>lifespan</code> (private). Protected provides a middle ground: hidden from unrelated classes but available to the inheritance hierarchy.</div><div class="code-example-output">(Conceptual — demonstrates cross-package access rules)</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Directly Accessing Private Fields from Outside the Class</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Student {
+    private String name;
+    private int age;
+}
+
+Student s = new Student();
+s.name = &quot;Aarav&quot;;   // Compilation error!
+s.age = 20;         // Compilation error!</code></pre></div><div class="error-message">error: name has private access in Student</div><div class="correct-code"><pre><code class="language-python">class Student {
+    private String name;
+    private int age;
+
+    public void setName(String name) { this.name = name; }
+    public void setAge(int age) { this.age = age; }
+    public String getName() { return name; }
+    public int getAge() { return age; }
+}
+
+Student s = new Student();
+s.setName(&quot;Aarav&quot;);
+s.setAge(20);</code></pre></div><div class="mistake-explanation">Private fields cannot be accessed outside the class. This is the entire point of encapsulation. Provide public getters and setters to control how external code interacts with the object's state.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing default (Package-Private) with public</h3>
+                <div class="wrong-code"><pre><code class="language-python">// File: com/util/Helper.java
+package com.util;
+
+class Helper {  // default access — NOT public
+    void doWork() {
+        System.out.println(&quot;Working&quot;);
+    }
+}
+
+// File: com/app/Main.java
+package com.app;
+import com.util.Helper; // ERROR: Helper is not public</code></pre></div><div class="error-message">error: Helper is not public in com.util; cannot be accessed from outside package</div><div class="correct-code"><pre><code class="language-python">// File: com/util/Helper.java
+package com.util;
+
+public class Helper {  // Now accessible from other packages
+    public void doWork() {
+        System.out.println(&quot;Working&quot;);
+    }
+}</code></pre></div><div class="mistake-explanation">If you omit the access modifier on a class declaration, it gets default (package-private) access, meaning it is only visible within its own package. To use a class from another package, both the class and its methods must be <code>public</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Creating Setters Without Validation</h3>
+                <div class="wrong-code"><pre><code class="language-python">class BankAccount {
+    private double balance;
+
+    public void setBalance(double balance) {
+        this.balance = balance; // No validation — allows negative balance!
+    }
+}</code></pre></div><div class="error-message">No compilation error, but this defeats the purpose of encapsulation. External code can set balance to -1000000.</div><div class="correct-code"><pre><code class="language-python">class BankAccount {
+    private double balance;
+
+    // No public setBalance() — control through business methods
+    public void deposit(double amount) {
+        if (amount &lt;= 0) throw new IllegalArgumentException(&quot;Amount must be positive&quot;);
+        this.balance += amount;
+    }
+
+    public void withdraw(double amount) {
+        if (amount &lt;= 0) throw new IllegalArgumentException(&quot;Amount must be positive&quot;);
+        if (amount &gt; balance) throw new IllegalArgumentException(&quot;Insufficient funds&quot;);
+        this.balance -= amount;
+    }
+
+    public double getBalance() { return balance; }
+}</code></pre></div><div class="mistake-explanation">Simply making a field private and adding a setter without validation provides no real protection. The setter becomes a meaningless middleman. Add validation in setters, or replace setters with domain-specific methods (like <code>deposit()</code> and <code>withdraw()</code>) that enforce business rules.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Returning a Mutable Object Reference from a Getter</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Student {
+    private int[] scores;
+
+    public Student(int[] scores) {
+        this.scores = scores; // stores the same array reference
+    }
+
+    public int[] getScores() {
+        return scores; // returns the internal array — external code can modify it!
+    }
+}</code></pre></div><div class="error-message">No error, but encapsulation is broken. External code can modify the internal array through the returned reference.</div><div class="correct-code"><pre><code class="language-python">import java.util.Arrays;
+
+class Student {
+    private int[] scores;
+
+    public Student(int[] scores) {
+        this.scores = Arrays.copyOf(scores, scores.length); // defensive copy in
+    }
+
+    public int[] getScores() {
+        return Arrays.copyOf(scores, scores.length); // defensive copy out
+    }
+}</code></pre></div><div class="mistake-explanation">When a getter returns a reference to a mutable object (array, list, date), external code can modify the object's internal state through that reference. Use <strong>defensive copies</strong>: copy the input in the constructor and copy the output in the getter. This ensures the internal state is completely isolated.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Encapsulation means bundling data (fields) and behavior (methods) together and controlling access to the data through access modifiers.</li>
+<li>Java has four access levels: public (everywhere), protected (same package + subclasses), default/package-private (same package only), and private (same class only).</li>
+<li>The standard encapsulation pattern: make fields private, provide public getters (for reading) and setters (for writing with validation).</li>
+<li>Getters follow the naming convention getFieldName() (or isFieldName() for booleans). Setters follow setFieldName(). This is the JavaBeans convention required by many frameworks.</li>
+<li>Not every field needs a setter. Read-only fields have only getters. Write-only fields (like passwords) may have only setters. Fields like balance may have domain-specific methods instead of setters.</li>
+<li>Validation in setters and constructors prevents objects from being in invalid states. Throw IllegalArgumentException for invalid input.</li>
+<li>Immutable classes have: final class, private final fields, no setters, constructor initialization only, and defensive copies for mutable field types.</li>
+<li>Record classes (Java 16+) provide a concise way to create immutable data carriers with auto-generated constructor, getters, equals(), hashCode(), and toString().</li>
+<li>Protected access allows subclasses in other packages to access the member — useful for inheritance hierarchies while still restricting general access.</li>
+<li>Defensive copies in constructors and getters protect encapsulation when dealing with mutable objects like arrays, lists, or dates.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/object-oriented-programming-basics" class="related-topic-link">OOP Basics - Classes, Objects, and Constructors</a>
+<a href="/resources/java/inheritance-in-java" class="related-topic-link">Inheritance in Java</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/java/object-oriented-programming-basics" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">OOP Basics - Classes, Objects, and Constructors</span>
+        </a>
+            <a href="/resources/java/inheritance-in-java" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Inheritance in Java</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/encapsulation-and-access-modifiers/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

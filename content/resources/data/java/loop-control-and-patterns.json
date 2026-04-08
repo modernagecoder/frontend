@@ -1,0 +1,672 @@
+{
+  "title": "Loop Control and Pattern Printing",
+  "slug": "loop-control-and-patterns",
+  "language": "java",
+  "chapter": 9,
+  "difficulty": "Beginner",
+  "readingTime": "30 min",
+  "lastUpdated": "2026-04-08",
+  "totalQuestions": 52,
+  "seo": {
+    "title": "Loop Control and Pattern Printing in Java - break, continue, Patterns | Modern Age Coders",
+    "description": "Master Java loop control with break, continue, labeled statements, and learn to print star patterns, number patterns, and character patterns. Includes 58 practice questions with heavy pattern coding focus.",
+    "keywords": "java break continue, java pattern programs, star pattern java, java labeled break, java number patterns, java pyramid pattern, floyd triangle java, pascal triangle java"
+  },
+  "content": {
+    "what": "<h2>What Are Loop Control Statements and Pattern Programs?</h2><p>Loop control statements are keywords that alter the normal flow of a loop. While loops typically run until their condition becomes false, <strong>control statements</strong> let you exit a loop early (<code>break</code>), skip the current iteration (<code>continue</code>), or exit nested loops from an inner loop (<strong>labeled break/continue</strong>).</p><p><strong>Pattern programs</strong> are coding problems that require printing structured shapes using characters, numbers, or symbols. They are one of the most frequently asked topics in college exams and placement interviews because they test your understanding of nested loops, loop variables, and the relationship between rows and columns.</p><p>Patterns appear simple on the surface, but solving them requires you to identify the mathematical relationship between the row number and what gets printed in each row. Once you understand this approach, you can solve any pattern.</p>",
+    "why": "<h2>Why Master Loop Control and Patterns?</h2><h3>1. Loop Control Is Essential for Efficient Code</h3><p><code>break</code> lets you exit a loop as soon as you find what you are looking for, avoiding unnecessary iterations. In a search algorithm, once the target is found, continuing to iterate is wasteful. <code>continue</code> lets you skip invalid or unwanted cases without nesting your logic inside if-else blocks, keeping code flat and readable.</p><h3>2. Pattern Programs Build Core Loop Logic</h3><p>Pattern programs force you to understand how nested loops interact. The outer loop controls rows, the inner loop(s) control what gets printed in each row. This same nested loop logic is used in matrix operations, image processing, table generation, and grid-based algorithms.</p><h3>3. Placement Interviews and Coding Rounds</h3><p>Pattern printing is one of the most commonly asked topics in campus placement coding rounds, particularly for companies like TCS, Infosys, Wipro, Capgemini, and Cognizant. Many online assessments include 2-3 pattern questions. Labeled break is asked in interview vivas. Mastering these gives you easy marks.</p><h3>4. Foundation for Advanced Algorithms</h3><p>The ability to analyze the relationship between loop variables and output is the same skill needed for algorithm design. Whether you are implementing dynamic programming tables, generating permutations, or processing 2D arrays, the thinking process is identical to pattern analysis.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The break Statement</h3><p><code>break</code> immediately terminates the innermost loop (for, while, or do-while) or switch statement that contains it. Control passes to the statement immediately after the terminated loop.</p><pre><code>for (int i = 1; i <= 10; i++) {\n    if (i == 6) {\n        break;\n    }\n    System.out.print(i + \" \");\n}\n// Output: 1 2 3 4 5</code></pre><p>When i reaches 6, break exits the loop. Iterations 6 through 10 are never executed. Use break for early exit when a condition is met (e.g., target found in search).</p><h3>2. The continue Statement</h3><p><code>continue</code> skips the remaining body of the current iteration and jumps to the next iteration. In a for loop, the update expression runs before the next condition check. In a while loop, control goes directly to the condition check.</p><pre><code>for (int i = 1; i <= 10; i++) {\n    if (i % 3 == 0) {\n        continue;\n    }\n    System.out.print(i + \" \");\n}\n// Output: 1 2 4 5 7 8 10</code></pre><p>When i is divisible by 3, the print is skipped, but the loop continues with the next value. Use continue to skip unwanted cases without deep nesting.</p><h3>3. Labeled break and continue</h3><p>In nested loops, a regular <code>break</code> exits only the innermost loop. To exit an outer loop from inside an inner loop, use a <strong>label</strong>. A label is an identifier followed by a colon, placed before the loop.</p><pre><code>outer:\nfor (int i = 1; i <= 5; i++) {\n    for (int j = 1; j <= 5; j++) {\n        if (i * j > 10) {\n            break outer; // Exits BOTH loops\n        }\n        System.out.print(i * j + \" \");\n    }\n    System.out.println();\n}</code></pre><p><code>break outer;</code> exits the outer loop entirely, not just the inner one. Without the label, <code>break</code> would exit only the inner loop and the outer loop would continue.</p><p>Similarly, <code>continue outer;</code> skips the current iteration of the outer loop (not just the inner loop):</p><pre><code>outer:\nfor (int i = 1; i <= 5; i++) {\n    for (int j = 1; j <= 5; j++) {\n        if (j == 3) {\n            continue outer; // Skip to next i\n        }\n        System.out.print(i + \"\" + j + \" \");\n    }\n}</code></pre><h3>4. return from Loops</h3><p>The <code>return</code> statement inside a loop exits the entire method, not just the loop. This is useful in methods that search for a value and return it as soon as it is found:</p><pre><code>public static int findIndex(int[] arr, int target) {\n    for (int i = 0; i < arr.length; i++) {\n        if (arr[i] == target) {\n            return i; // Exits the method entirely\n        }\n    }\n    return -1; // Not found\n}</code></pre><h3>5. How to Analyze and Build Patterns</h3><p>Every pattern problem follows a systematic approach. Here is the step-by-step method:</p><ol><li><strong>Identify rows:</strong> Count the number of rows. This determines the outer loop (usually <code>for (int i = 1; i <= n; i++)</code>).</li><li><strong>For each row, identify columns:</strong> Look at what is printed in each row. Count the number of characters/spaces per row.</li><li><strong>Find the relationship:</strong> Express the count of spaces and characters in terms of the row number <code>i</code> and the total rows <code>n</code>.</li><li><strong>Write inner loops:</strong> One inner loop for spaces (if needed), another for the character/number/star.</li><li><strong>Verify with first and last rows:</strong> Plug in i=1 and i=n to verify your formula.</li></ol><h3>6. Common Star Patterns</h3><h4>Right Triangle (Stars)</h4><pre><code>*\n* *\n* * *\n* * * *\n* * * * *</code></pre><p>Row i has i stars. Inner loop: <code>for (int j = 1; j <= i; j++)</code></p><h4>Inverted Right Triangle</h4><pre><code>* * * * *\n* * * *\n* * *\n* *\n*</code></pre><p>Row i has (n - i + 1) stars.</p><h4>Pyramid</h4><pre><code>        *\n      * * *\n    * * * * *\n  * * * * * * *\n* * * * * * * * *</code></pre><p>Row i has (n - i) leading spaces and (2*i - 1) stars.</p><h4>Diamond</h4><p>A diamond is a pyramid (upper half) plus an inverted pyramid (lower half).</p><h3>7. Common Number Patterns</h3><h4>Floyd's Triangle</h4><pre><code>1\n2 3\n4 5 6\n7 8 9 10</code></pre><p>Numbers increase sequentially. Row i has i numbers.</p><h4>Pascal's Triangle</h4><pre><code>         1\n       1   1\n     1   2   1\n   1   3   3   1\n 1   4   6   4   1</code></pre><p>Each element is the sum of the two elements above it. Value = C(row, col) = row! / (col! * (row-col)!).</p><h3>8. Character Patterns</h3><pre><code>A\nA B\nA B C\nA B C D</code></pre><p>Row i prints characters from 'A' to ('A' + i - 1). Cast int to char: <code>(char)('A' + j)</code>.</p>",
+    "codeExamples": [
+      {
+        "title": "break and continue in Action",
+        "code": "public class BreakContinue {\n    public static void main(String[] args) {\n        // break: find first multiple of 7 in range\n        System.out.print(\"First multiple of 7 after 50: \");\n        for (int i = 51; i <= 100; i++) {\n            if (i % 7 == 0) {\n                System.out.println(i);\n                break;\n            }\n        }\n\n        // continue: print non-multiples of 3\n        System.out.print(\"1-15 (skip multiples of 3): \");\n        for (int i = 1; i <= 15; i++) {\n            if (i % 3 == 0) continue;\n            System.out.print(i + \" \");\n        }\n        System.out.println();\n    }\n}",
+        "language": "java",
+        "explanation": "<code>break</code> exits the loop as soon as the first multiple of 7 after 50 is found (56). <code>continue</code> skips multiples of 3 but continues the loop for other values.",
+        "output": "First multiple of 7 after 50: 56\n1-15 (skip multiples of 3): 1 2 4 5 7 8 10 11 13 14"
+      },
+      {
+        "title": "Labeled break: Exit Nested Loops",
+        "code": "public class LabeledBreak {\n    public static void main(String[] args) {\n        // Find the first pair (i, j) where i * j > 15\n        System.out.println(\"Products until > 15:\");\n\n        search:\n        for (int i = 1; i <= 5; i++) {\n            for (int j = 1; j <= 5; j++) {\n                int product = i * j;\n                if (product > 15) {\n                    System.out.println(\"\\nStopped at i=\" + i + \", j=\" + j + \" (product=\" + product + \")\");\n                    break search; // Exits BOTH loops\n                }\n                System.out.print(product + \"\\t\");\n            }\n            System.out.println();\n        }\n\n        System.out.println(\"Done.\");\n    }\n}",
+        "language": "java",
+        "explanation": "The label <code>search:</code> is placed before the outer for loop. When <code>break search;</code> executes, it exits both the inner and outer loops immediately. Without the label, only the inner loop would exit, and the outer loop would continue to the next i value.",
+        "output": "Products until > 15:\n1\t2\t3\t4\t5\n2\t4\t6\t8\t10\n3\t6\t9\t12\t15\n\nStopped at i=4, j=4 (product=16)\nDone."
+      },
+      {
+        "title": "Right Triangle Star Pattern",
+        "code": "public class RightTriangle {\n    public static void main(String[] args) {\n        int n = 5;\n\n        // Right triangle (left-aligned)\n        for (int i = 1; i <= n; i++) {\n            for (int j = 1; j <= i; j++) {\n                System.out.print(\"* \");\n            }\n            System.out.println();\n        }\n\n        System.out.println();\n\n        // Inverted right triangle\n        for (int i = n; i >= 1; i--) {\n            for (int j = 1; j <= i; j++) {\n                System.out.print(\"* \");\n            }\n            System.out.println();\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "For the right triangle, row i prints i stars. The inner loop runs from 1 to i. For the inverted version, row i prints i stars but i goes from n down to 1. These are the two most basic patterns and the foundation for more complex ones.",
+        "output": "* \n* * \n* * * \n* * * * \n* * * * * \n\n* * * * * \n* * * * \n* * * \n* * \n* "
+      },
+      {
+        "title": "Pyramid Star Pattern",
+        "code": "public class Pyramid {\n    public static void main(String[] args) {\n        int n = 5;\n\n        for (int i = 1; i <= n; i++) {\n            // Print leading spaces: (n - i) spaces\n            for (int j = 1; j <= n - i; j++) {\n                System.out.print(\" \");\n            }\n            // Print stars: (2*i - 1) stars\n            for (int j = 1; j <= 2 * i - 1; j++) {\n                System.out.print(\"*\");\n            }\n            System.out.println();\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "Each row has two parts: leading spaces and stars. Row i has (n - i) spaces and (2*i - 1) stars. Row 1: 4 spaces, 1 star. Row 5: 0 spaces, 9 stars. The spaces decrease while stars increase, creating the centered pyramid shape.",
+        "output": "    *\n   ***\n  *****\n *******\n*********"
+      },
+      {
+        "title": "Diamond Pattern",
+        "code": "public class Diamond {\n    public static void main(String[] args) {\n        int n = 5;\n\n        // Upper half (pyramid)\n        for (int i = 1; i <= n; i++) {\n            for (int j = 1; j <= n - i; j++) System.out.print(\" \");\n            for (int j = 1; j <= 2 * i - 1; j++) System.out.print(\"*\");\n            System.out.println();\n        }\n\n        // Lower half (inverted pyramid, skip the middle row)\n        for (int i = n - 1; i >= 1; i--) {\n            for (int j = 1; j <= n - i; j++) System.out.print(\" \");\n            for (int j = 1; j <= 2 * i - 1; j++) System.out.print(\"*\");\n            System.out.println();\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "A diamond is a pyramid (upper half) plus an inverted pyramid (lower half). The upper half goes from i = 1 to n. The lower half goes from i = n-1 down to 1 (skipping the middle row to avoid duplication). Total rows = 2n - 1.",
+        "output": "    *\n   ***\n  *****\n *******\n*********\n *******\n  *****\n   ***\n    *"
+      },
+      {
+        "title": "Floyd's Triangle",
+        "code": "public class FloydTriangle {\n    public static void main(String[] args) {\n        int n = 5;\n        int num = 1;\n\n        for (int i = 1; i <= n; i++) {\n            for (int j = 1; j <= i; j++) {\n                System.out.print(num + \"\\t\");\n                num++;\n            }\n            System.out.println();\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "Floyd's triangle uses a running counter <code>num</code> that increments with every printed value. Row i has i numbers. The numbers are not reset per row; they continue from where the previous row left off. Total numbers = 1 + 2 + 3 + 4 + 5 = 15.",
+        "output": "1\t\n2\t3\t\n4\t5\t6\t\n7\t8\t9\t10\t\n11\t12\t13\t14\t15\t"
+      },
+      {
+        "title": "Pascal's Triangle",
+        "code": "public class PascalTriangle {\n    public static void main(String[] args) {\n        int n = 6;\n\n        for (int i = 0; i < n; i++) {\n            // Leading spaces for alignment\n            for (int s = 0; s < n - i - 1; s++) {\n                System.out.print(\"  \");\n            }\n\n            int val = 1;\n            for (int j = 0; j <= i; j++) {\n                System.out.printf(\"%4d\", val);\n                val = val * (i - j) / (j + 1);\n            }\n            System.out.println();\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "Pascal's triangle values are computed using the formula: next value = current * (i - j) / (j + 1), which calculates binomial coefficients C(i, j). Each row starts and ends with 1. Inner values are the sum of the two values above. This is a favorite in interviews.",
+        "output": "             1\n           1   1\n         1   2   1\n       1   3   3   1\n     1   4   6   4   1\n   1   5  10  10   5   1"
+      },
+      {
+        "title": "Character Pattern: Alphabet Triangle",
+        "code": "public class CharPattern {\n    public static void main(String[] args) {\n        int n = 5;\n\n        // Pattern 1: A, AB, ABC, ...\n        for (int i = 0; i < n; i++) {\n            for (int j = 0; j <= i; j++) {\n                System.out.print((char)('A' + j) + \" \");\n            }\n            System.out.println();\n        }\n\n        System.out.println();\n\n        // Pattern 2: A, BB, CCC, ...\n        for (int i = 0; i < n; i++) {\n            for (int j = 0; j <= i; j++) {\n                System.out.print((char)('A' + i) + \" \");\n            }\n            System.out.println();\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "Character patterns use <code>(char)('A' + offset)</code> to generate letters. In Pattern 1, each row prints A through the i-th letter (j changes per column). In Pattern 2, each row repeats the i-th letter (i determines the character, j determines repetition).",
+        "output": "A \nA B \nA B C \nA B C D \nA B C D E \n\nA \nB B \nC C C \nD D D D \nE E E E E "
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "break Only Exits the Innermost Loop",
+        "wrongCode": "// Intention: exit both loops when found\nfor (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n        if (i == 1 && j == 1) {\n            break; // Only exits inner loop!\n        }\n        System.out.print(i + \"\" + j + \" \");\n    }\n}\n// Outer loop continues after inner break",
+        "error": "The outer loop continues. break exits only the inner loop.",
+        "correctCode": "outer:\nfor (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n        if (i == 1 && j == 1) {\n            break outer; // Exits BOTH loops\n        }\n        System.out.print(i + \"\" + j + \" \");\n    }\n}",
+        "explanation": "Without a label, <code>break</code> only exits the innermost enclosing loop. To break out of an outer loop from within an inner loop, use a labeled break. Place the label (e.g., <code>outer:</code>) before the outer loop and use <code>break outer;</code>."
+      },
+      {
+        "title": "Infinite Loop with continue (Missing Update Before continue)",
+        "wrongCode": "int i = 0;\nwhile (i < 10) {\n    if (i == 5) {\n        continue; // i is never incremented past 5!\n    }\n    System.out.println(i);\n    i++;\n}",
+        "error": "Infinite loop. When i = 5, continue skips i++, so i stays at 5 forever.",
+        "correctCode": "int i = 0;\nwhile (i < 10) {\n    i++;\n    if (i == 5) {\n        continue; // Now i was already incremented\n    }\n    System.out.println(i);\n}",
+        "explanation": "In a while loop, if the update (<code>i++</code>) comes after the continue, the continue skips it, causing an infinite loop. Move the increment before the continue, or use a for loop where the update happens automatically."
+      },
+      {
+        "title": "Off-by-One in Pattern Rows or Columns",
+        "wrongCode": "// Intended: 5-row right triangle\nint n = 5;\nfor (int i = 0; i < n; i++) {\n    for (int j = 0; j < i; j++) { // Bug: prints 0 stars in row 0\n        System.out.print(\"* \");\n    }\n    System.out.println();\n}",
+        "error": "Row 0 prints nothing (0 stars). Only 4 rows have stars instead of 5.",
+        "correctCode": "int n = 5;\nfor (int i = 1; i <= n; i++) {\n    for (int j = 1; j <= i; j++) {\n        System.out.print(\"* \");\n    }\n    System.out.println();\n}",
+        "explanation": "When using 0-based indexing (i starting at 0), the inner condition <code>j < i</code> gives 0 iterations for i = 0. Either start i at 1 (1-indexed) or use <code>j <= i</code> (0-indexed). Always verify with the first and last row values."
+      },
+      {
+        "title": "Forgetting Spaces in Centered Patterns",
+        "wrongCode": "// Intended: pyramid\nint n = 5;\nfor (int i = 1; i <= n; i++) {\n    for (int j = 1; j <= 2 * i - 1; j++) {\n        System.out.print(\"*\");\n    }\n    System.out.println();\n}",
+        "error": "Produces a left-aligned pattern, not a centered pyramid. Leading spaces are missing.",
+        "correctCode": "int n = 5;\nfor (int i = 1; i <= n; i++) {\n    for (int s = 1; s <= n - i; s++) {\n        System.out.print(\" \");\n    }\n    for (int j = 1; j <= 2 * i - 1; j++) {\n        System.out.print(\"*\");\n    }\n    System.out.println();\n}",
+        "explanation": "Centered patterns like pyramids and diamonds require leading spaces. Row i in a pyramid needs (n - i) leading spaces before the stars. Without the space loop, the pattern is left-aligned."
+      }
+    ],
+    "summary": [
+      "break immediately exits the innermost loop or switch. Use it for early termination when a condition is met (e.g., search found).",
+      "continue skips the rest of the current iteration and jumps to the next iteration. Use it to skip unwanted cases without deep nesting.",
+      "In a while loop, ensure the update statement runs before continue, or you risk an infinite loop.",
+      "Labeled break (break label;) exits an outer loop from within an inner loop. Place the label (name:) before the outer loop.",
+      "Labeled continue (continue label;) skips to the next iteration of the outer loop, not the inner loop.",
+      "return inside a loop exits the entire method, not just the loop.",
+      "Pattern analysis approach: (1) count rows for outer loop, (2) for each row identify spaces and characters, (3) express counts in terms of row number i and total rows n, (4) write inner loops.",
+      "Right triangle: row i has i stars. Inverted: row i has (n-i+1) stars.",
+      "Pyramid: row i has (n-i) leading spaces and (2i-1) stars. Diamond = pyramid + inverted pyramid.",
+      "Floyd's triangle uses a running counter. Pascal's triangle uses binomial coefficients: C(n,k) = n! / (k! * (n-k)!).",
+      "Character patterns use (char)('A' + offset) to generate letters."
+    ]
+  },
+  "relatedTopics": [
+    "loops-in-java",
+    "arrays-in-java"
+  ],
+  "practice": {
+    "totalQuestions": 52,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 5; i++) {\n    if (i == 3) break;\n    System.out.print(i + \" \");\n}</code></pre>",
+        "hint": "break exits the loop when i is 3.",
+        "answer": "<code>1 2 </code>",
+        "explanation": "i=1: print 1. i=2: print 2. i=3: break exits the loop. 3, 4, 5 are never reached."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 5; i++) {\n    if (i == 3) continue;\n    System.out.print(i + \" \");\n}</code></pre>",
+        "hint": "continue skips the current iteration.",
+        "answer": "<code>1 2 4 5 </code>",
+        "explanation": "i=3 triggers continue, which skips the print for that iteration. All other values print normally."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for (int i = 10; i >= 1; i--) {\n    if (i % 2 != 0) continue;\n    System.out.print(i + \" \");\n}</code></pre>",
+        "hint": "Odd numbers are skipped by continue.",
+        "answer": "<code>10 8 6 4 2 </code>",
+        "explanation": "When i is odd, continue skips the print. Only even numbers (10, 8, 6, 4, 2) are printed."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many stars are printed?<br><pre><code>for (int i = 1; i <= 4; i++) {\n    for (int j = 1; j <= i; j++) {\n        System.out.print(\"*\");\n    }\n    System.out.println();\n}</code></pre>",
+        "hint": "Row 1: 1 star, Row 2: 2, Row 3: 3, Row 4: 4.",
+        "answer": "<code>10</code> stars total (1+2+3+4)",
+        "explanation": "Row 1: 1 star. Row 2: 2. Row 3: 3. Row 4: 4. Total = 1+2+3+4 = 10."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>outer:\nfor (int i = 1; i <= 3; i++) {\n    for (int j = 1; j <= 3; j++) {\n        if (j == 2) continue outer;\n        System.out.print(i + \"\" + j + \" \");\n    }\n}</code></pre>",
+        "hint": "continue outer skips to the next iteration of the outer loop.",
+        "answer": "<code>11 21 31 </code>",
+        "explanation": "For each i, j starts at 1 (prints i1). When j = 2, <code>continue outer</code> skips to the next i. j = 3 is never reached. So: 11, 21, 31."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>outer:\nfor (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n        if (i == 1 && j == 1) break outer;\n        System.out.print(i + \"\" + j + \" \");\n    }\n}</code></pre>",
+        "hint": "break outer exits both loops at i=1, j=1.",
+        "answer": "<code>00 01 02 10 </code>",
+        "explanation": "i=0: prints 00, 01, 02. i=1: prints 10, then j=1 triggers break outer which exits both loops entirely."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int n = 4;\nfor (int i = 1; i <= n; i++) {\n    for (int j = 1; j <= n - i; j++) {\n        System.out.print(\" \");\n    }\n    for (int j = 1; j <= i; j++) {\n        System.out.print(i + \" \");\n    }\n    System.out.println();\n}</code></pre>",
+        "hint": "Each row prints (n-i) spaces then i copies of the row number.",
+        "answer": "<pre>   1 \n  2 2 \n 3 3 3 \n4 4 4 4 </pre>",
+        "explanation": "Row 1: 3 spaces, then \"1 \" once. Row 2: 2 spaces, then \"2 \" twice. Row 3: 1 space, then \"3 \" three times. Row 4: 0 spaces, then \"4 \" four times."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int num = 1;\nfor (int i = 1; i <= 3; i++) {\n    for (int j = 1; j <= i; j++) {\n        System.out.print(num++ + \" \");\n    }\n    System.out.println();\n}</code></pre>",
+        "hint": "This is Floyd's triangle. num increments continuously.",
+        "answer": "<code>1 </code><br><code>2 3 </code><br><code>4 5 6 </code>",
+        "explanation": "Floyd's triangle: num starts at 1 and increments globally. Row 1: 1. Row 2: 2, 3. Row 3: 4, 5, 6."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 4; i++) {\n    for (int j = 1; j <= 4; j++) {\n        if (i + j == 5) {\n            System.out.print(\"* \");\n        } else {\n            System.out.print(\"  \");\n        }\n    }\n    System.out.println();\n}</code></pre>",
+        "hint": "Print * only where i + j equals 5. Otherwise print spaces.",
+        "answer": "<pre>      * \n    *   \n  *     \n*       </pre>",
+        "explanation": "Stars appear at: (1,4), (2,3), (3,2), (4,1) where i+j=5. This forms a diagonal from top-right to bottom-left."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int n = 4;\nfor (int i = 1; i <= n; i++) {\n    for (int j = 1; j <= n; j++) {\n        if (i == 1 || i == n || j == 1 || j == n) {\n            System.out.print(\"* \");\n        } else {\n            System.out.print(\"  \");\n        }\n    }\n    System.out.println();\n}</code></pre>",
+        "hint": "Stars print on the borders (first/last row, first/last column).",
+        "answer": "<pre>* * * * \n*     * \n*     * \n* * * * </pre>",
+        "explanation": "Stars are printed on the boundary: first row (i=1), last row (i=4), first column (j=1), last column (j=4). Interior cells are spaces. This creates a hollow rectangle."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between break and continue? When would you use each?",
+        "hint": "Think about whether you want to stop completely or skip one iteration.",
+        "answer": "<code>break</code> terminates the entire loop immediately. <code>continue</code> skips only the current iteration and proceeds to the next. Use break when a search is complete or an error requires stopping. Use continue when certain iterations should be skipped (e.g., skipping invalid inputs) while the loop continues processing others.",
+        "explanation": "Example: searching an array for a value (use break once found). Processing user inputs but skipping empty lines (use continue for empty, process for non-empty)."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Describe the step-by-step approach to solve any pattern printing problem.",
+        "hint": "Think about rows, columns, spaces, and the relationship with i and n.",
+        "answer": "Step 1: Count total rows (determines outer loop from 1 to n). Step 2: For each row, identify what is printed (spaces and characters). Step 3: Express the count of spaces and characters as a formula in terms of row number i and total rows n. Step 4: Write inner loop(s) for spaces and characters. Step 5: Verify by plugging in i=1 and i=n to check the first and last rows match expectations.",
+        "explanation": "For example, a pyramid: n rows, row i has (n-i) spaces and (2i-1) stars. Verify: row 1 has (n-1) spaces and 1 star (correct). Row n has 0 spaces and (2n-1) stars (correct)."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 5; i++) {\n    if (i == 4) break;\n    if (i == 2) continue;\n    System.out.print(i + \" \");\n}</code></pre>",
+        "hint": "continue skips 2, break stops at 4.",
+        "answer": "<code>1 3 </code>",
+        "explanation": "i=1: print 1. i=2: continue (skip). i=3: print 3. i=4: break. Only 1 and 3 print."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int n = 3;\nfor (int i = n; i >= 1; i--) {\n    for (int j = 1; j <= i; j++) {\n        System.out.print(\"* \");\n    }\n    System.out.println();\n}</code></pre>",
+        "hint": "Inverted right triangle: row 1 has 3 stars, row 2 has 2, row 3 has 1.",
+        "answer": "<code>* * * </code><br><code>* * </code><br><code>* </code>",
+        "explanation": "i goes from 3 to 1. Row with i=3: 3 stars. i=2: 2 stars. i=1: 1 star."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 4; i++) {\n    for (int j = 1; j <= i; j++) {\n        System.out.print(j + \" \");\n    }\n    System.out.println();\n}</code></pre>",
+        "hint": "Each row prints 1 through i.",
+        "answer": "<code>1 </code><br><code>1 2 </code><br><code>1 2 3 </code><br><code>1 2 3 4 </code>",
+        "explanation": "Row 1: 1. Row 2: 1 2. Row 3: 1 2 3. Row 4: 1 2 3 4."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 4; i++) {\n    for (int j = 1; j <= i; j++) {\n        System.out.print(i + \" \");\n    }\n    System.out.println();\n}</code></pre>",
+        "hint": "Each row prints the row number i, repeated i times.",
+        "answer": "<code>1 </code><br><code>2 2 </code><br><code>3 3 3 </code><br><code>4 4 4 4 </code>",
+        "explanation": "Row 1: one 1. Row 2: two 2s. Row 3: three 3s. Row 4: four 4s. The inner loop prints i (not j)."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int n = 4;\nfor (int i = 0; i < n; i++) {\n    for (int j = 0; j <= i; j++) {\n        System.out.print((char)('A' + j) + \" \");\n    }\n    System.out.println();\n}</code></pre>",
+        "hint": "Character pattern: (char)('A' + 0) = 'A', (char)('A' + 1) = 'B', etc.",
+        "answer": "<code>A </code><br><code>A B </code><br><code>A B C </code><br><code>A B C D </code>",
+        "explanation": "Row 0: A. Row 1: A B. Row 2: A B C. Row 3: A B C D. Each row starts at 'A' and goes to the i-th letter."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Print numbers 1 to 20, but skip multiples of 4 using continue.",
+        "hint": "Use continue when i % 4 == 0.",
+        "answer": "<pre><code>for (int i = 1; i <= 20; i++) {\n    if (i % 4 == 0) continue;\n    System.out.print(i + \" \");\n}</code></pre>",
+        "explanation": "When i is a multiple of 4 (4, 8, 12, 16, 20), continue skips the print. All other numbers print."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Print the following right triangle pattern for n = 5 using numbers:<br><pre>1<br>1 2<br>1 2 3<br>1 2 3 4<br>1 2 3 4 5</pre>",
+        "hint": "Outer loop for rows, inner loop j from 1 to i.",
+        "answer": "<pre><code>int n = 5;\nfor (int i = 1; i <= n; i++) {\n    for (int j = 1; j <= i; j++) {\n        System.out.print(j + \" \");\n    }\n    System.out.println();\n}</code></pre>",
+        "explanation": "Row i prints numbers from 1 to i. The inner loop variable j provides the number to print."
+      },
+      {
+        "id": "mx-3",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Print an inverted right triangle of stars for n = 5:<br><pre>* * * * *<br>* * * *<br>* * *<br>* *<br>*</pre>",
+        "hint": "Row i prints (n - i + 1) stars.",
+        "answer": "<pre><code>int n = 5;\nfor (int i = 1; i <= n; i++) {\n    for (int j = 1; j <= n - i + 1; j++) {\n        System.out.print(\"* \");\n    }\n    System.out.println();\n}</code></pre>",
+        "explanation": "Row 1: 5 stars. Row 2: 4. Row 3: 3. Row 4: 2. Row 5: 1. The formula (n - i + 1) gives the star count for each row."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Print a number pyramid for n = 5:<br><pre>    1<br>   1 2<br>  1 2 3<br> 1 2 3 4<br>1 2 3 4 5</pre>",
+        "hint": "Each row has (n-i) leading spaces, then numbers 1 to i.",
+        "answer": "<pre><code>int n = 5;\nfor (int i = 1; i <= n; i++) {\n    for (int s = 1; s <= n - i; s++) {\n        System.out.print(\" \");\n    }\n    for (int j = 1; j <= i; j++) {\n        System.out.print(j + \" \");\n    }\n    System.out.println();\n}</code></pre>",
+        "explanation": "Row i needs (n - i) spaces for alignment, then prints numbers 1 through i. The spaces shift each row to the right, creating the pyramid shape."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for (int i = 5; i >= 1; i--) {\n    for (int j = 1; j <= i; j++) {\n        System.out.print(j + \" \");\n    }\n    System.out.println();\n}</code></pre>",
+        "hint": "i counts down from 5 to 1. Inner loop prints 1 to i.",
+        "answer": "<code>1 2 3 4 5 </code><br><code>1 2 3 4 </code><br><code>1 2 3 </code><br><code>1 2 </code><br><code>1 </code>",
+        "explanation": "Row 1 (i=5): prints 1 to 5. Row 2 (i=4): prints 1 to 4. And so on down to row 5 (i=1): prints 1."
+      },
+      {
+        "id": "mx-6",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Print a hollow rectangle of stars with width 6 and height 4.",
+        "hint": "Print stars on first/last row and first/last column. Spaces elsewhere.",
+        "answer": "<pre><code>int rows = 4, cols = 6;\nfor (int i = 1; i <= rows; i++) {\n    for (int j = 1; j <= cols; j++) {\n        if (i == 1 || i == rows || j == 1 || j == cols) {\n            System.out.print(\"* \");\n        } else {\n            System.out.print(\"  \");\n        }\n    }\n    System.out.println();\n}</code></pre>",
+        "explanation": "Stars appear on borders: first row, last row, first column, last column. Interior positions get spaces."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Print the following right triangle number pattern for n = 4:<br><pre>1<br>2 2<br>3 3 3<br>4 4 4 4</pre>",
+        "hint": "Row i prints the number i, repeated i times.",
+        "answer": "<pre><code>int n = 4;\nfor (int i = 1; i <= n; i++) {\n    for (int j = 1; j <= i; j++) {\n        System.out.print(i + \" \");\n    }\n    System.out.println();\n}</code></pre>",
+        "explanation": "Inner loop prints the value of i (not j) in each column."
+      },
+      {
+        "id": "mx-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Print a right-aligned number triangle for n = 4:<br><pre>      1<br>    2 1<br>  3 2 1<br>4 3 2 1</pre>",
+        "hint": "Row i has (n-i) spaces then numbers from i down to 1.",
+        "answer": "<pre><code>int n = 4;\nfor (int i = 1; i <= n; i++) {\n    for (int s = 1; s <= n - i; s++) System.out.print(\"  \");\n    for (int j = i; j >= 1; j--) System.out.print(j + \" \");\n    System.out.println();\n}</code></pre>",
+        "explanation": "Each row has (n-i) pairs of spaces for right-alignment, then prints numbers from i down to 1."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Print a sandglass pattern for n = 5:<br><pre>* * * * *<br> * * * *<br>  * * *<br>   * *<br>    *<br>   * *<br>  * * *<br> * * * *<br>* * * * *</pre>",
+        "hint": "Upper half: inverted pyramid. Lower half: pyramid. Each row i has i-1 spaces then (n-i+1) or (i) stars.",
+        "answer": "<pre><code>int n = 5;\nfor (int i = 0; i < n; i++) {\n    for (int s = 0; s < i; s++) System.out.print(\" \");\n    for (int j = 0; j < n - i; j++) System.out.print(\"* \");\n    System.out.println();\n}\nfor (int i = 1; i < n; i++) {\n    for (int s = 0; s < n - i - 1; s++) System.out.print(\" \");\n    for (int j = 0; j <= i; j++) System.out.print(\"* \");\n    System.out.println();\n}</code></pre>",
+        "explanation": "Upper half: rows shrink from n stars to 1 star with increasing spaces. Lower half: rows grow from 2 stars back to n stars."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Print the following butterfly pattern for n = 4:<br><pre>*      *<br>**    **<br>***  ***<br>********<br>********<br>***  ***<br>**    **<br>*      *</pre>",
+        "hint": "Upper half: i stars, (2n - 2i) spaces, i stars. Lower half: mirror.",
+        "answer": "<pre><code>int n = 4;\n// Upper half\nfor (int i = 1; i <= n; i++) {\n    for (int j = 1; j <= i; j++) System.out.print(\"*\");\n    for (int j = 1; j <= 2 * (n - i); j++) System.out.print(\" \");\n    for (int j = 1; j <= i; j++) System.out.print(\"*\");\n    System.out.println();\n}\n// Lower half\nfor (int i = n; i >= 1; i--) {\n    for (int j = 1; j <= i; j++) System.out.print(\"*\");\n    for (int j = 1; j <= 2 * (n - i); j++) System.out.print(\" \");\n    for (int j = 1; j <= i; j++) System.out.print(\"*\");\n    System.out.println();\n}</code></pre>",
+        "explanation": "Each row has three parts: left stars (i), middle spaces (2*(n-i)), right stars (i). Upper half: i goes 1 to n. Lower half: i goes n to 1."
+      },
+      {
+        "id": "mx-8",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Print a number diamond for n = 4:<br><pre>   1<br>  121<br> 12321<br>1234321<br> 12321<br>  121<br>   1</pre>",
+        "hint": "Each row prints numbers ascending then descending. Use spaces for alignment.",
+        "answer": "<pre><code>int n = 4;\n// Upper half\nfor (int i = 1; i <= n; i++) {\n    for (int s = 1; s <= n - i; s++) System.out.print(\" \");\n    for (int j = 1; j <= i; j++) System.out.print(j);\n    for (int j = i - 1; j >= 1; j--) System.out.print(j);\n    System.out.println();\n}\n// Lower half\nfor (int i = n - 1; i >= 1; i--) {\n    for (int s = 1; s <= n - i; s++) System.out.print(\" \");\n    for (int j = 1; j <= i; j++) System.out.print(j);\n    for (int j = i - 1; j >= 1; j--) System.out.print(j);\n    System.out.println();\n}</code></pre>",
+        "explanation": "Each row has: (n-i) spaces, numbers 1 to i ascending, then numbers (i-1) to 1 descending. Upper half: i from 1 to n. Lower half: i from n-1 to 1."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Print Pascal's triangle for n = 5 rows.",
+        "hint": "Each element = previous * (row - col) / (col + 1) using 0-indexed.",
+        "answer": "<pre><code>int n = 5;\nfor (int i = 0; i < n; i++) {\n    for (int s = 0; s < n - i - 1; s++) System.out.print(\"  \");\n    int val = 1;\n    for (int j = 0; j <= i; j++) {\n        System.out.printf(\"%4d\", val);\n        val = val * (i - j) / (j + 1);\n    }\n    System.out.println();\n}</code></pre>",
+        "explanation": "Pascal's triangle values are binomial coefficients. Each value is computed iteratively: <code>val = val * (i - j) / (j + 1)</code>. This avoids computing factorials directly."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does the break statement do inside a loop?",
+        "options": [
+          "Skips the current iteration",
+          "Exits the innermost loop or switch",
+          "Exits the entire program",
+          "Pauses the loop"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>break</code> terminates the innermost enclosing loop or switch statement."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does the continue statement do?",
+        "options": [
+          "Exits the loop",
+          "Restarts the loop from the beginning",
+          "Skips to the next iteration",
+          "Does nothing"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>continue</code> skips the remaining body of the current iteration and proceeds to the next iteration."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is a labeled break used for?",
+        "options": [
+          "Breaking out of a switch",
+          "Breaking out of an outer loop from an inner loop",
+          "Giving a name to a break point",
+          "Debugging purposes"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A labeled break allows you to exit an outer loop from within an inner loop. The label is placed before the outer loop."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "In a right triangle star pattern of n rows, how many stars does row i have?",
+        "options": [
+          "n",
+          "i",
+          "n - i",
+          "n - i + 1"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In a right triangle, row 1 has 1 star, row 2 has 2 stars, ..., row i has i stars."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "In a pyramid pattern of n rows, how many leading spaces does row i have?",
+        "options": [
+          "i",
+          "n",
+          "n - i",
+          "2 * i"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In a pyramid, row 1 has (n-1) spaces, row 2 has (n-2), ..., row i has (n-i) spaces."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "In a pyramid of n rows, how many stars does row i have?",
+        "options": [
+          "i",
+          "2 * i",
+          "2 * i - 1",
+          "2 * i + 1"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Row 1: 1 star, Row 2: 3, Row 3: 5. The formula is 2*i - 1 (odd numbers)."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is Floyd's triangle?",
+        "options": [
+          "An equilateral triangle of stars",
+          "A triangle where consecutive natural numbers fill the rows",
+          "A triangle where each row repeats its row number",
+          "A triangle of prime numbers"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Floyd's triangle fills rows with consecutive natural numbers: 1 / 2 3 / 4 5 6 / ... Row i has i numbers."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does return do inside a loop in a method?",
+        "options": [
+          "Exits only the loop",
+          "Exits the entire method",
+          "Exits all nested loops but stays in the method",
+          "Causes a compilation error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>return</code> exits the entire method, not just the loop. If the method has a return type, you must return a value."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Hard",
+        "question": "How many total stars are printed in a pyramid of n rows?",
+        "options": [
+          "n * n",
+          "n * (n + 1) / 2",
+          "n^2",
+          "2 * n - 1"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Row i has (2i-1) stars. Total = sum of (2i-1) for i=1 to n = 2 * n*(n+1)/2 - n = n^2."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "In Pascal's triangle, what is the value of the element at row 4, column 2 (0-indexed)?",
+        "options": [
+          "3",
+          "4",
+          "6",
+          "10"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> C(4,2) = 4! / (2! * 2!) = 24 / 4 = 6. Pascal's row 4 is: 1, 4, 6, 4, 1."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><code>outer: for (int i=0; i<3; i++) { for (int j=0; j<3; j++) { if (j==1) break; } System.out.print(i); }</code>",
+        "options": [
+          "012",
+          "000",
+          "0",
+          "Nothing prints"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> The inner break (without label) exits only the inner loop. The outer loop continues, printing i values: 0, 1, 2."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is a diamond pattern's total number of rows for n = 5 (upper half)?",
+        "options": [
+          "5",
+          "9",
+          "10",
+          "8"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A diamond with n = 5 has n rows in the upper half and n-1 rows in the lower half. Total = n + (n-1) = 2n - 1 = 9."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Easy",
+        "question": "What is the correct syntax for a labeled break?",
+        "options": [
+          "break label;",
+          "break(label);",
+          "break -> label;",
+          "exit label;"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Labeled break syntax is <code>break labelName;</code> where the label is declared before the loop as <code>labelName:</code>."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "In a right triangle of n rows, what is the total number of stars printed?",
+        "options": [
+          "n * n",
+          "n * (n + 1) / 2",
+          "2 * n",
+          "n * (n - 1) / 2"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Row 1 has 1 star, row 2 has 2, ..., row n has n. Total = 1 + 2 + ... + n = n(n+1)/2."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><code>for (int i = 1; i <= 3; i++) { for (int j = 1; j <= 3; j++) { if (i + j > 4) break; System.out.print(i+\"\"+j+\" \"); } }</code>",
+        "options": [
+          "11 12 13 21 22 23 31 32 33",
+          "11 12 13 21 22 31",
+          "11 12 21",
+          "11 12 13 21 22 23 31"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> i=1: j=1(11), j=2(12), j=3(13, 1+3=4 not >4 so prints). i=2: j=1(21), j=2(22), j=3(2+3=5>4, break inner). i=3: j=1(31, 3+1=4 not >4), j=2(3+2=5>4, break inner). Output: 11 12 13 21 22 31."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Right-Aligned Star Triangle",
+        "difficulty": "Easy",
+        "description": "Print a right-aligned triangle for n = 5:<br><pre>    *<br>   **<br>  ***<br> ****<br>*****</pre>",
+        "sampleInput": "n = 5",
+        "sampleOutput": "    *\n   **\n  ***\n ****\n*****",
+        "constraints": "Use spaces for alignment.",
+        "solution": "int n = 5;\nfor (int i = 1; i <= n; i++) {\n    for (int s = 1; s <= n - i; s++) System.out.print(\" \");\n    for (int j = 1; j <= i; j++) System.out.print(\"*\");\n    System.out.println();\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Hollow Pyramid",
+        "difficulty": "Medium",
+        "description": "Print a hollow pyramid for n = 5. Only the border stars are printed; interior is spaces.",
+        "sampleInput": "n = 5",
+        "sampleOutput": "    *\n   * *\n  *   *\n *     *\n*********",
+        "constraints": "Print star on first column, last column, and last row. Spaces elsewhere.",
+        "solution": "int n = 5;\nfor (int i = 1; i <= n; i++) {\n    for (int s = 1; s <= n - i; s++) System.out.print(\" \");\n    for (int j = 1; j <= 2 * i - 1; j++) {\n        if (j == 1 || j == 2 * i - 1 || i == n) {\n            System.out.print(\"*\");\n        } else {\n            System.out.print(\" \");\n        }\n    }\n    System.out.println();\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Hourglass Pattern",
+        "difficulty": "Medium",
+        "description": "Print an hourglass (inverted pyramid followed by a pyramid) for n = 5.",
+        "sampleInput": "n = 5",
+        "sampleOutput": "*********\n *******\n  *****\n   ***\n    *\n   ***\n  *****\n *******\n*********",
+        "constraints": "Combine inverted pyramid (top) and pyramid (bottom).",
+        "solution": "int n = 5;\nfor (int i = n; i >= 1; i--) {\n    for (int s = 1; s <= n - i; s++) System.out.print(\" \");\n    for (int j = 1; j <= 2 * i - 1; j++) System.out.print(\"*\");\n    System.out.println();\n}\nfor (int i = 2; i <= n; i++) {\n    for (int s = 1; s <= n - i; s++) System.out.print(\" \");\n    for (int j = 1; j <= 2 * i - 1; j++) System.out.print(\"*\");\n    System.out.println();\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Zigzag Number Pattern",
+        "difficulty": "Medium",
+        "description": "Print a number pattern where odd rows go left-to-right and even rows go right-to-left:<br><pre>1<br>3 2<br>4 5 6<br>10 9 8 7</pre>",
+        "sampleInput": "n = 4",
+        "sampleOutput": "1\n3 2\n4 5 6\n10 9 8 7",
+        "constraints": "Track a global counter. For even rows, store numbers and print in reverse.",
+        "solution": "int n = 4;\nint num = 1;\nfor (int i = 1; i <= n; i++) {\n    int[] row = new int[i];\n    for (int j = 0; j < i; j++) {\n        row[j] = num++;\n    }\n    if (i % 2 == 0) {\n        for (int j = i - 1; j >= 0; j--) System.out.print(row[j] + \" \");\n    } else {\n        for (int j = 0; j < i; j++) System.out.print(row[j] + \" \");\n    }\n    System.out.println();\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Star Diamond",
+        "difficulty": "Medium",
+        "description": "Print a full diamond for n = 5 (upper half rows).",
+        "sampleInput": "n = 5",
+        "sampleOutput": "    *\n   ***\n  *****\n *******\n*********\n *******\n  *****\n   ***\n    *",
+        "constraints": "Combine pyramid (upper) and inverted pyramid (lower, skip middle).",
+        "solution": "int n = 5;\nfor (int i = 1; i <= n; i++) {\n    for (int s = 1; s <= n - i; s++) System.out.print(\" \");\n    for (int j = 1; j <= 2 * i - 1; j++) System.out.print(\"*\");\n    System.out.println();\n}\nfor (int i = n - 1; i >= 1; i--) {\n    for (int s = 1; s <= n - i; s++) System.out.print(\" \");\n    for (int j = 1; j <= 2 * i - 1; j++) System.out.print(\"*\");\n    System.out.println();\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Alphabet Diamond",
+        "difficulty": "Hard",
+        "description": "Print a character diamond for n = 5:<br><pre>    A<br>   ABA<br>  ABCBA<br> ABCDCBA<br>ABCDEDCBA<br> ABCDCBA<br>  ABCBA<br>   ABA<br>    A</pre>",
+        "sampleInput": "n = 5",
+        "sampleOutput": "    A\n   ABA\n  ABCBA\n ABCDCBA\nABCDEDCBA\n ABCDCBA\n  ABCBA\n   ABA\n    A",
+        "constraints": "Each row: spaces, characters A to A+i-1, then back to A.",
+        "solution": "int n = 5;\nfor (int i = 1; i <= n; i++) {\n    for (int s = 1; s <= n - i; s++) System.out.print(\" \");\n    for (int j = 0; j < i; j++) System.out.print((char)('A' + j));\n    for (int j = i - 2; j >= 0; j--) System.out.print((char)('A' + j));\n    System.out.println();\n}\nfor (int i = n - 1; i >= 1; i--) {\n    for (int s = 1; s <= n - i; s++) System.out.print(\" \");\n    for (int j = 0; j < i; j++) System.out.print((char)('A' + j));\n    for (int j = i - 2; j >= 0; j--) System.out.print((char)('A' + j));\n    System.out.println();\n}"
+      },
+      {
+        "id": "cc-7",
+        "title": "Spiral Number Pattern",
+        "difficulty": "Hard",
+        "description": "Print an n x n matrix filled with numbers 1 to n*n in spiral order. n = 4:<br><pre> 1  2  3  4<br>12 13 14  5<br>11 16 15  6<br>10  9  8  7</pre>",
+        "sampleInput": "n = 4",
+        "sampleOutput": " 1  2  3  4\n12 13 14  5\n11 16 15  6\n10  9  8  7",
+        "constraints": "Use a 2D array and fill in spiral order: right, down, left, up.",
+        "solution": "int n = 4;\nint[][] matrix = new int[n][n];\nint num = 1, top = 0, bottom = n-1, left = 0, right = n-1;\nwhile (num <= n * n) {\n    for (int i = left; i <= right; i++) matrix[top][i] = num++;\n    top++;\n    for (int i = top; i <= bottom; i++) matrix[i][right] = num++;\n    right--;\n    for (int i = right; i >= left; i--) matrix[bottom][i] = num++;\n    bottom--;\n    for (int i = bottom; i >= top; i--) matrix[i][left] = num++;\n    left++;\n}\nfor (int[] row : matrix) {\n    for (int val : row) System.out.printf(\"%3d\", val);\n    System.out.println();\n}"
+      },
+      {
+        "id": "cc-8",
+        "title": "Pascal's Triangle (Print N Rows)",
+        "difficulty": "Hard",
+        "description": "Print the first N rows of Pascal's triangle with proper alignment.",
+        "sampleInput": "n = 6",
+        "sampleOutput": "          1\n        1   1\n      1   2   1\n    1   3   3   1\n  1   4   6   4   1\n1   5  10  10   5   1",
+        "constraints": "Use the binomial coefficient formula iteratively.",
+        "solution": "int n = 6;\nfor (int i = 0; i < n; i++) {\n    for (int s = 0; s < n - i - 1; s++) System.out.print(\"  \");\n    int val = 1;\n    for (int j = 0; j <= i; j++) {\n        System.out.printf(\"%4d\", val);\n        val = val * (i - j) / (j + 1);\n    }\n    System.out.println();\n}"
+      }
+    ]
+  }
+}

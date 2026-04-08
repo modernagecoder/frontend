@@ -508,9 +508,16 @@ class ResourceGenerator {
 
             let optionsHTML = '<ul class="mcq-options">';
             const labels = ['A', 'B', 'C', 'D'];
-            (mcq.options || []).forEach((opt, j) => {
-                optionsHTML += `<li><span class="mcq-option-label">${labels[j] || String.fromCharCode(65 + j)}.</span> ${this.escapeHtml(opt)}</li>`;
-            });
+            const opts = mcq.options || [];
+            if (Array.isArray(opts)) {
+                opts.forEach((opt, j) => {
+                    optionsHTML += `<li><span class="mcq-option-label">${labels[j] || String.fromCharCode(65 + j)}.</span> ${this.escapeHtml(String(opt))}</li>`;
+                });
+            } else if (typeof opts === 'object') {
+                Object.entries(opts).forEach(([key, val]) => {
+                    optionsHTML += `<li><span class="mcq-option-label">${key}.</span> ${this.escapeHtml(String(val))}</li>`;
+                });
+            }
             optionsHTML += '</ul>';
 
             let html = `<div class="question-card">
@@ -518,9 +525,10 @@ class ResourceGenerator {
                 <div class="question-text">${mcq.question || ''}</div>
                 ${optionsHTML}`;
 
+            const correctAnswer = mcq.correct || mcq.answer || '';
             const answerText = mcq.explanation
-                ? `<strong>Answer: ${this.escapeHtml(mcq.answer || '')}</strong><br>${mcq.explanation}`
-                : `<strong>Answer: ${this.escapeHtml(mcq.answer || '')}</strong>`;
+                ? `<strong>Answer: ${this.escapeHtml(String(correctAnswer))}</strong><br>${mcq.explanation}`
+                : `<strong>Answer: ${this.escapeHtml(String(correctAnswer))}</strong>`;
 
             html += `<button type="button" class="collapsible-toggle" data-target="mcqans-${id}" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button>`;
             html += `<div class="collapsible-content" id="mcqans-${id}">${answerText}</div>`;

@@ -1,0 +1,726 @@
+{
+  "title": "Taking Input with Scanner",
+  "slug": "taking-input-in-java",
+  "language": "java",
+  "chapter": 6,
+  "difficulty": "Beginner",
+  "readingTime": "22 min",
+  "lastUpdated": "2026-04-08",
+  "totalQuestions": 56,
+  "seo": {
+    "title": "Taking Input in Java with Scanner Class - Complete Tutorial | Modern Age Coders",
+    "description": "Learn how to take user input in Java using the Scanner class. Covers nextInt, nextDouble, nextLine, the nextLine bug, try-with-resources, and BufferedReader alternative. Includes 55 practice questions.",
+    "keywords": "java scanner class, java user input, nextInt nextLine java, scanner java tutorial, java input from keyboard, java buffered reader input, scanner nextLine bug java, java console input"
+  },
+  "content": {
+    "what": "<h2>What Is User Input in Java?</h2><p>In most real programs, data does not come from hardcoded values inside the source code. It comes from outside: the user types something into the console, a file is read from disk, or data arrives over the network. <strong>User input</strong> refers to data that a user provides to a running program, typically through the keyboard.</p><p>Java provides several ways to read user input. The most common approach for console-based programs is the <code>Scanner</code> class, which lives in the <code>java.util</code> package. Scanner can parse primitive types and strings from an input stream, most commonly <code>System.in</code> (the standard keyboard input).</p><h3>The Basic Flow</h3><p>Reading input in Java involves three steps:</p><ol><li><strong>Import</strong> the Scanner class: <code>import java.util.Scanner;</code></li><li><strong>Create</strong> a Scanner object: <code>Scanner sc = new Scanner(System.in);</code></li><li><strong>Read</strong> data using methods like <code>nextInt()</code>, <code>nextDouble()</code>, <code>nextLine()</code>, etc.</li></ol><p>After you are done reading input, you should close the Scanner to release resources: <code>sc.close();</code></p>",
+    "why": "<h2>Why Is Understanding Input Important?</h2><h3>1. Programs Must Interact with Users</h3><p>A program that only prints hardcoded output is useless in practice. Whether you are building a calculator, a grading system, or a login module, your program needs to accept data from the user at runtime. Understanding how to read input correctly is foundational to writing any interactive Java program.</p><h3>2. Input Handling Is a Common Source of Bugs</h3><p>One of the most frequent bugs that Java beginners encounter is the <code>nextLine()</code> after <code>nextInt()</code> problem, where Scanner appears to skip input. Understanding how Scanner works internally (its token-based parsing and the leftover newline character) is essential for writing bug-free input code. This is also a common interview question.</p><h3>3. Type Safety and Validation</h3><p>Java is a statically typed language. When you read input, you need to read it as the correct type. Using <code>nextInt()</code> when the user types a string causes an <code>InputMismatchException</code>. Knowing how to handle different input types and validate them is critical for robust programs.</p><h3>4. Placement and Interview Relevance</h3><p>In coding rounds for placements, you will almost always read input from the console. Many students lose time or get wrong answers because they do not handle input correctly. Mastering Scanner (and knowing the BufferedReader alternative for performance-critical scenarios) gives you an edge.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Importing and Creating a Scanner</h3><p>The <code>Scanner</code> class is in the <code>java.util</code> package. You must import it before using it. Then, create a Scanner object by passing <code>System.in</code> (which represents the keyboard) as the input source.</p><pre><code>import java.util.Scanner;\n\npublic class InputDemo {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Now use sc to read input\n        sc.close();\n    }\n}</code></pre><p><code>System.in</code> is an <code>InputStream</code> that reads bytes from the keyboard. Scanner wraps it and provides convenient methods to parse those bytes into Java types like <code>int</code>, <code>double</code>, and <code>String</code>.</p><h3>2. Reading Different Data Types</h3><p>Scanner provides specific methods for each data type:</p><table><tr><th>Method</th><th>Returns</th><th>Reads</th></tr><tr><td><code>nextInt()</code></td><td>int</td><td>An integer value</td></tr><tr><td><code>nextLong()</code></td><td>long</td><td>A long integer</td></tr><tr><td><code>nextFloat()</code></td><td>float</td><td>A float value</td></tr><tr><td><code>nextDouble()</code></td><td>double</td><td>A double value</td></tr><tr><td><code>nextBoolean()</code></td><td>boolean</td><td>true or false</td></tr><tr><td><code>next()</code></td><td>String</td><td>A single token (word, no spaces)</td></tr><tr><td><code>nextLine()</code></td><td>String</td><td>An entire line (including spaces)</td></tr><tr><td><code>nextByte()</code></td><td>byte</td><td>A byte value</td></tr><tr><td><code>nextShort()</code></td><td>short</td><td>A short value</td></tr></table><h3>3. next() vs nextLine()</h3><p>This distinction is critical and is a source of many bugs:</p><ul><li><code>next()</code> reads a single <strong>token</strong>. A token is a sequence of characters separated by whitespace (spaces, tabs, newlines). If the user types \"Amit Kumar\", <code>next()</code> returns only \"Amit\". The \" Kumar\" part remains in the input buffer.</li><li><code>nextLine()</code> reads the <strong>entire line</strong> up to the newline character. If the user types \"Amit Kumar\" and presses Enter, <code>nextLine()</code> returns \"Amit Kumar\". It consumes the newline character but does not include it in the returned string.</li></ul><h3>4. The nextLine() After nextInt() Bug</h3><p>This is the single most common Scanner bug in Java. When you call <code>nextInt()</code> (or <code>nextDouble()</code>, <code>nextFloat()</code>, etc.), Scanner reads the number but <strong>does not consume the newline character</strong> that the user pressed after typing the number. That leftover newline sits in the input buffer.</p><p>When you then call <code>nextLine()</code>, it sees that leftover newline and immediately returns an empty string, without waiting for the user to type anything. It appears as if the program \"skipped\" the input.</p><pre><code>Scanner sc = new Scanner(System.in);\nSystem.out.print(\"Enter age: \");\nint age = sc.nextInt();           // User types: 21\\n\nSystem.out.print(\"Enter name: \");\nString name = sc.nextLine();      // Reads the leftover \\n, returns \"\"\nSystem.out.println(\"Name: \" + name); // Prints: Name:</code></pre><h4>The Fix: Consume the Leftover Newline</h4><p>Add an extra <code>sc.nextLine()</code> call immediately after <code>nextInt()</code> to consume the leftover newline before reading the actual string input:</p><pre><code>int age = sc.nextInt();\nsc.nextLine();  // Consume the leftover newline\nString name = sc.nextLine();  // Now this works correctly</code></pre><p>Alternatively, you can read everything as strings using <code>nextLine()</code> and then parse them manually:</p><pre><code>int age = Integer.parseInt(sc.nextLine());\nString name = sc.nextLine();  // No leftover newline problem</code></pre><h3>5. Checking Input Before Reading: hasNext Methods</h3><p>Scanner provides <code>hasNextInt()</code>, <code>hasNextDouble()</code>, <code>hasNextLine()</code>, etc. These methods return <code>true</code> if the next token can be read as the specified type, without actually consuming it. This is useful for input validation:</p><pre><code>System.out.print(\"Enter a number: \");\nif (sc.hasNextInt()) {\n    int num = sc.nextInt();\n    System.out.println(\"You entered: \" + num);\n} else {\n    System.out.println(\"That is not a valid integer.\");\n    sc.next(); // Consume the invalid token\n}</code></pre><h3>6. Closing the Scanner</h3><p>When you are done reading input, you should close the Scanner by calling <code>sc.close()</code>. This releases the underlying input stream resource. However, be aware that closing a Scanner that wraps <code>System.in</code> also closes <code>System.in</code> itself, which means you cannot create another Scanner for <code>System.in</code> later in the same program.</p><p>For simple programs, not closing Scanner results in a compiler warning but usually no practical harm. For larger programs or when reading from files, always close the Scanner.</p><h3>7. try-with-resources for Scanner</h3><p>Java 7 introduced the try-with-resources statement, which automatically closes resources when the block exits. Since Scanner implements the <code>AutoCloseable</code> interface, you can use it with try-with-resources:</p><pre><code>try (Scanner sc = new Scanner(System.in)) {\n    System.out.print(\"Enter a number: \");\n    int num = sc.nextInt();\n    System.out.println(\"You entered: \" + num);\n} // Scanner is automatically closed here</code></pre><p>This is considered best practice because it guarantees the Scanner is closed even if an exception occurs.</p><h3>8. BufferedReader: The Performance Alternative</h3><p>For competitive programming or situations where you need to read large amounts of input quickly, <code>BufferedReader</code> is faster than Scanner because it does not parse tokens. It reads raw text and you parse it yourself.</p><pre><code>import java.io.BufferedReader;\nimport java.io.InputStreamReader;\nimport java.io.IOException;\n\npublic class FastInput {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        System.out.print(\"Enter your name: \");\n        String name = br.readLine();\n        System.out.print(\"Enter your age: \");\n        int age = Integer.parseInt(br.readLine().trim());\n        System.out.println(name + \" is \" + age + \" years old.\");\n        br.close();\n    }\n}</code></pre><p>BufferedReader reads entire lines as strings. You must parse numbers manually using <code>Integer.parseInt()</code>, <code>Double.parseDouble()</code>, etc. For reading multiple values on one line, combine BufferedReader with <code>StringTokenizer</code> or <code>String.split()</code>.</p>",
+    "codeExamples": [
+      {
+        "title": "Basic Integer and String Input",
+        "code": "import java.util.Scanner;\n\npublic class BasicInput {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        System.out.print(\"Enter your age: \");\n        int age = sc.nextInt();\n\n        sc.nextLine(); // Consume leftover newline\n\n        System.out.print(\"Enter your name: \");\n        String name = sc.nextLine();\n\n        System.out.println(name + \" is \" + age + \" years old.\");\n        sc.close();\n    }\n}",
+        "language": "java",
+        "explanation": "We read an integer with <code>nextInt()</code>, then consume the leftover newline with an extra <code>sc.nextLine()</code>, then read a full line string. Without the extra <code>nextLine()</code>, the name would be an empty string.",
+        "output": "Enter your age: 20\nEnter your name: Amit Sharma\nAmit Sharma is 20 years old."
+      },
+      {
+        "title": "Reading Multiple Data Types",
+        "code": "import java.util.Scanner;\n\npublic class MultiTypeInput {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        System.out.print(\"Enter an integer: \");\n        int i = sc.nextInt();\n\n        System.out.print(\"Enter a double: \");\n        double d = sc.nextDouble();\n\n        System.out.print(\"Enter a boolean (true/false): \");\n        boolean b = sc.nextBoolean();\n\n        System.out.println(\"int: \" + i);\n        System.out.println(\"double: \" + d);\n        System.out.println(\"boolean: \" + b);\n\n        sc.close();\n    }\n}",
+        "language": "java",
+        "explanation": "Scanner provides dedicated methods for each primitive type. <code>nextInt()</code> reads an int, <code>nextDouble()</code> reads a double, and <code>nextBoolean()</code> reads a boolean (must be exactly \"true\" or \"false\", case-insensitive). If the user enters something that cannot be parsed as the expected type, Scanner throws an <code>InputMismatchException</code>.",
+        "output": "Enter an integer: 42\nEnter a double: 3.14\nEnter a boolean (true/false): true\nint: 42\ndouble: 3.14\nboolean: true"
+      },
+      {
+        "title": "next() vs nextLine() Difference",
+        "code": "import java.util.Scanner;\n\npublic class NextVsNextLine {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        System.out.print(\"Enter a sentence: \");\n        String word = sc.next();       // Reads only the first word\n        String rest = sc.nextLine();   // Reads the rest of the line\n\n        System.out.println(\"next() returned: \\\"\" + word + \"\\\"\");\n        System.out.println(\"nextLine() returned: \\\"\" + rest + \"\\\"\");\n\n        sc.close();\n    }\n}",
+        "language": "java",
+        "explanation": "When the user types \"Neha is studying\", <code>next()</code> reads only \"Neha\" (the first token). The remaining \" is studying\" (note the leading space) is left in the buffer. <code>nextLine()</code> then reads everything remaining on that line, including the leading space. This demonstrates why <code>next()</code> is unsuitable for reading full names or sentences.",
+        "output": "Enter a sentence: Neha is studying\nnext() returned: \"Neha\"\nnextLine() returned: \" is studying\""
+      },
+      {
+        "title": "The nextLine() Bug Demonstrated and Fixed",
+        "code": "import java.util.Scanner;\n\npublic class NextLineBug {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // --- THE BUG ---\n        System.out.println(\"=== Without fix ===\");\n        System.out.print(\"Enter roll number: \");\n        int roll = sc.nextInt();\n        // sc.nextLine() is NOT called here\n        System.out.print(\"Enter name: \");\n        String buggyName = sc.nextLine();  // Reads leftover \\n\n        System.out.println(\"Name: '\" + buggyName + \"'\");  // Empty!\n\n        // --- THE FIX ---\n        System.out.println(\"\\n=== With fix ===\");\n        System.out.print(\"Enter roll number: \");\n        int roll2 = sc.nextInt();\n        sc.nextLine(); // Consume the leftover newline\n        System.out.print(\"Enter name: \");\n        String fixedName = sc.nextLine();  // Now reads correctly\n        System.out.println(\"Name: '\" + fixedName + \"'\");\n\n        sc.close();\n    }\n}",
+        "language": "java",
+        "explanation": "In the buggy section, after <code>nextInt()</code> reads 101, the newline character (\\n) from pressing Enter remains in the buffer. The subsequent <code>nextLine()</code> immediately consumes that leftover \\n and returns an empty string. In the fixed section, the extra <code>sc.nextLine()</code> after <code>nextInt()</code> eats the leftover \\n, so the next <code>nextLine()</code> waits for actual user input.",
+        "output": "=== Without fix ===\nEnter roll number: 101\nEnter name: Name: ''\n\n=== With fix ===\nEnter roll number: 102\nEnter name: Kavitha Reddy\nName: 'Kavitha Reddy'"
+      },
+      {
+        "title": "Alternative Fix: Parse Everything with nextLine()",
+        "code": "import java.util.Scanner;\n\npublic class ParseLineApproach {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        System.out.print(\"Enter your age: \");\n        int age = Integer.parseInt(sc.nextLine().trim());\n\n        System.out.print(\"Enter your CGPA: \");\n        double cgpa = Double.parseDouble(sc.nextLine().trim());\n\n        System.out.print(\"Enter your name: \");\n        String name = sc.nextLine();\n\n        System.out.println(name + \", Age: \" + age + \", CGPA: \" + cgpa);\n        sc.close();\n    }\n}",
+        "language": "java",
+        "explanation": "Instead of mixing <code>nextInt()</code> with <code>nextLine()</code>, read everything as a line and parse manually using <code>Integer.parseInt()</code> and <code>Double.parseDouble()</code>. The <code>trim()</code> call removes any leading/trailing whitespace. This approach completely avoids the leftover newline bug and is a common practice in competitive programming.",
+        "output": "Enter your age: 21\nEnter your CGPA: 8.75\nEnter your name: Rohan Mehta\nRohan Mehta, Age: 21, CGPA: 8.75"
+      },
+      {
+        "title": "Input Validation with hasNextInt()",
+        "code": "import java.util.Scanner;\n\npublic class InputValidation {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        System.out.print(\"Enter a number: \");\n\n        if (sc.hasNextInt()) {\n            int num = sc.nextInt();\n            System.out.println(\"You entered: \" + num);\n            System.out.println(\"Doubled: \" + (num * 2));\n        } else {\n            System.out.println(\"Invalid input. Expected an integer.\");\n        }\n\n        sc.close();\n    }\n}",
+        "language": "java",
+        "explanation": "<code>hasNextInt()</code> checks whether the next token in the input can be interpreted as an int, without consuming it. If the user types \"abc\", <code>hasNextInt()</code> returns false and we print an error message. If the user types \"42\", it returns true and we safely read the integer. This prevents <code>InputMismatchException</code> at runtime.",
+        "output": "Enter a number: 25\nYou entered: 25\nDoubled: 50"
+      },
+      {
+        "title": "try-with-resources for Automatic Closing",
+        "code": "import java.util.Scanner;\n\npublic class TryWithResources {\n    public static void main(String[] args) {\n        try (Scanner sc = new Scanner(System.in)) {\n            System.out.print(\"Enter first number: \");\n            int a = sc.nextInt();\n\n            System.out.print(\"Enter second number: \");\n            int b = sc.nextInt();\n\n            System.out.println(\"Sum: \" + (a + b));\n        } // Scanner is automatically closed here\n\n        System.out.println(\"Scanner has been closed automatically.\");\n    }\n}",
+        "language": "java",
+        "explanation": "The try-with-resources statement (introduced in Java 7) declares the Scanner inside the try parentheses. When the try block exits (normally or due to an exception), <code>sc.close()</code> is called automatically. This is cleaner than manually calling <code>close()</code> and ensures resources are freed even if an exception occurs.",
+        "output": "Enter first number: 10\nEnter second number: 20\nSum: 30\nScanner has been closed automatically."
+      },
+      {
+        "title": "BufferedReader for Faster Input",
+        "code": "import java.io.BufferedReader;\nimport java.io.InputStreamReader;\nimport java.io.IOException;\n\npublic class BufferedReaderDemo {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(\n            new InputStreamReader(System.in)\n        );\n\n        System.out.print(\"Enter your name: \");\n        String name = br.readLine();\n\n        System.out.print(\"Enter two numbers (space-separated): \");\n        String[] parts = br.readLine().split(\" \");\n        int a = Integer.parseInt(parts[0]);\n        int b = Integer.parseInt(parts[1]);\n\n        System.out.println(\"Hello \" + name + \"!\");\n        System.out.println(a + \" + \" + b + \" = \" + (a + b));\n\n        br.close();\n    }\n}",
+        "language": "java",
+        "explanation": "BufferedReader reads input as raw strings, which makes it significantly faster than Scanner for large inputs. You must parse numbers manually using <code>Integer.parseInt()</code> or <code>Double.parseDouble()</code>. To read multiple values on one line, read the line and split it. The <code>throws IOException</code> is required because <code>readLine()</code> can throw a checked exception. BufferedReader is the go-to choice for competitive programming in Java.",
+        "output": "Enter your name: Priya\nEnter two numbers (space-separated): 15 25\nHello Priya!\n15 + 25 = 40"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting to Consume Newline After nextInt()",
+        "wrongCode": "Scanner sc = new Scanner(System.in);\nint age = sc.nextInt();\nString name = sc.nextLine();  // Reads empty string!\nSystem.out.println(\"Name: \" + name);",
+        "error": "No compilation error, but name is an empty string because nextLine() consumed the leftover \\n from nextInt().",
+        "correctCode": "Scanner sc = new Scanner(System.in);\nint age = sc.nextInt();\nsc.nextLine();  // Consume leftover newline\nString name = sc.nextLine();\nSystem.out.println(\"Name: \" + name);",
+        "explanation": "After <code>nextInt()</code>, <code>nextDouble()</code>, <code>nextFloat()</code>, or <code>next()</code>, the newline character (\\n) from pressing Enter remains in the input buffer. The subsequent <code>nextLine()</code> reads that leftover \\n and returns an empty string. Always add <code>sc.nextLine()</code> after a nextInt/nextDouble call if you plan to use <code>nextLine()</code> next."
+      },
+      {
+        "title": "Using next() When You Need Full Line Input",
+        "wrongCode": "Scanner sc = new Scanner(System.in);\nSystem.out.print(\"Enter city: \");\nString city = sc.next();  // User types: New Delhi\nSystem.out.println(\"City: \" + city);  // Prints: City: New",
+        "error": "Only the first word is captured. 'Delhi' remains in the buffer.",
+        "correctCode": "Scanner sc = new Scanner(System.in);\nSystem.out.print(\"Enter city: \");\nString city = sc.nextLine();  // Reads entire line\nSystem.out.println(\"City: \" + city);  // Prints: City: New Delhi",
+        "explanation": "<code>next()</code> reads only one token (a word delimited by whitespace). For multi-word input like names, addresses, or sentences, always use <code>nextLine()</code>. This mistake is extremely common when reading full names (e.g., \"Amit Kumar\") because only \"Amit\" gets stored."
+      },
+      {
+        "title": "Not Importing Scanner",
+        "wrongCode": "public class Demo {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);  // ERROR\n    }\n}",
+        "error": "error: cannot find symbol\n  symbol:   class Scanner",
+        "correctCode": "import java.util.Scanner;  // Add this import\n\npublic class Demo {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n    }\n}",
+        "explanation": "Scanner is in the <code>java.util</code> package. Unlike <code>System.out</code> (which is in <code>java.lang</code> and auto-imported), Scanner must be explicitly imported. Forgetting the import causes a \"cannot find symbol\" compilation error."
+      },
+      {
+        "title": "InputMismatchException from Wrong Type",
+        "wrongCode": "Scanner sc = new Scanner(System.in);\nSystem.out.print(\"Enter a number: \");\nint num = sc.nextInt();  // User types: hello",
+        "error": "Exception in thread \"main\" java.util.InputMismatchException",
+        "correctCode": "Scanner sc = new Scanner(System.in);\nSystem.out.print(\"Enter a number: \");\nif (sc.hasNextInt()) {\n    int num = sc.nextInt();\n    System.out.println(\"Number: \" + num);\n} else {\n    System.out.println(\"Invalid input. Please enter an integer.\");\n    sc.next();  // Consume the invalid token\n}",
+        "explanation": "If the user types text when <code>nextInt()</code> is called, Java throws an <code>InputMismatchException</code> because the input cannot be parsed as an integer. Use <code>hasNextInt()</code> to validate before reading, or wrap the call in a try-catch block to handle the error gracefully."
+      },
+      {
+        "title": "Creating Multiple Scanners for System.in",
+        "wrongCode": "Scanner sc1 = new Scanner(System.in);\nint x = sc1.nextInt();\nsc1.close();  // Closes System.in!\n\nScanner sc2 = new Scanner(System.in);  // System.in is already closed\nint y = sc2.nextInt();  // ERROR at runtime",
+        "error": "java.util.NoSuchElementException: No line found (because System.in was closed)",
+        "correctCode": "Scanner sc = new Scanner(System.in);  // One Scanner for the whole program\nint x = sc.nextInt();\nint y = sc.nextInt();\nsc.close();  // Close once at the end",
+        "explanation": "Closing a Scanner that wraps <code>System.in</code> also closes the underlying <code>System.in</code> stream. Once closed, <code>System.in</code> cannot be reopened. Creating a second Scanner for <code>System.in</code> will fail. The solution is to use a single Scanner object throughout the program and close it only at the very end."
+      }
+    ],
+    "summary": [
+      "The Scanner class (java.util.Scanner) is the standard way to read user input from the console in Java. It must be imported explicitly.",
+      "Create a Scanner with: Scanner sc = new Scanner(System.in); where System.in represents keyboard input.",
+      "Use nextInt(), nextDouble(), nextLong(), nextFloat(), nextBoolean() to read specific primitive types.",
+      "next() reads a single token (word, no spaces). nextLine() reads an entire line (including spaces up to the newline).",
+      "The most common Scanner bug: after nextInt() or nextDouble(), the leftover newline (\\n) causes the subsequent nextLine() to return an empty string. Fix it by adding an extra sc.nextLine() call to consume the leftover newline.",
+      "An alternative fix: read all input with nextLine() and parse manually using Integer.parseInt() or Double.parseDouble().",
+      "Use hasNextInt(), hasNextDouble(), etc. to validate input before reading. This prevents InputMismatchException.",
+      "Close the Scanner with sc.close() when done. But be aware: closing a Scanner on System.in also closes System.in permanently.",
+      "try-with-resources (Java 7+) automatically closes the Scanner when the block exits: try (Scanner sc = new Scanner(System.in)) { ... }",
+      "BufferedReader is faster than Scanner for reading large inputs. It reads entire lines as strings, and you parse numbers manually. It is preferred in competitive programming."
+    ]
+  },
+  "relatedTopics": [
+    "operators-in-java",
+    "conditional-statements"
+  ],
+  "practice": {
+    "totalQuestions": 56,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output if the user enters 10?<br><pre><code>Scanner sc = new Scanner(System.in);\nint x = sc.nextInt();\nSystem.out.println(x * 2);</code></pre>",
+        "hint": "nextInt() reads 10. Then we print 10 * 2.",
+        "answer": "<code>20</code>",
+        "explanation": "<code>nextInt()</code> reads the integer 10 from input. <code>10 * 2</code> = 20, which is printed."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output if the user enters \"Ravi\"?<br><pre><code>Scanner sc = new Scanner(System.in);\nString name = sc.nextLine();\nSystem.out.println(\"Hello \" + name);</code></pre>",
+        "hint": "nextLine() reads the entire line.",
+        "answer": "<code>Hello Ravi</code>",
+        "explanation": "<code>nextLine()</code> reads the full line \"Ravi\" and stores it in name. String concatenation produces \"Hello Ravi\"."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>sc.next()</code> return if the user types \"Sita Ram\" and presses Enter?",
+        "hint": "next() reads only up to the first whitespace.",
+        "answer": "<code>Sita</code>",
+        "explanation": "<code>next()</code> reads a single token delimited by whitespace. It reads \"Sita\" and stops at the space. \"Ram\" remains in the input buffer."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output if the user enters 5 and 3?<br><pre><code>Scanner sc = new Scanner(System.in);\nint a = sc.nextInt();\nint b = sc.nextInt();\nSystem.out.println(a + b);</code></pre>",
+        "hint": "Both nextInt() calls read one integer each.",
+        "answer": "<code>8</code>",
+        "explanation": "The first <code>nextInt()</code> reads 5, the second reads 3. <code>5 + 3 = 8</code>."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output if the user enters 3.14?<br><pre><code>Scanner sc = new Scanner(System.in);\ndouble d = sc.nextDouble();\nSystem.out.println(d + 1);</code></pre>",
+        "hint": "nextDouble() reads a double value.",
+        "answer": "<code>4.140000000000001</code> (or approximately <code>4.14</code>)",
+        "explanation": "<code>nextDouble()</code> reads 3.14. <code>3.14 + 1</code> = 4.14 (with possible floating-point precision variation). The exact output depends on Java's double precision representation."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens if the user enters 25 and then presses Enter? What will name contain?<br><pre><code>Scanner sc = new Scanner(System.in);\nint age = sc.nextInt();\nString name = sc.nextLine();\nSystem.out.println(\"Name: '\" + name + \"'\");</code></pre>",
+        "hint": "This is the classic nextLine() bug.",
+        "answer": "<code>Name: ''</code> (empty string)",
+        "explanation": "<code>nextInt()</code> reads 25 but leaves the newline (\\n) in the buffer. <code>nextLine()</code> immediately consumes that leftover \\n and returns an empty string. The program never waits for the user to type a name."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output if the user enters \"true\"?<br><pre><code>Scanner sc = new Scanner(System.in);\nboolean flag = sc.nextBoolean();\nSystem.out.println(!flag);</code></pre>",
+        "hint": "nextBoolean() reads true or false as a boolean.",
+        "answer": "<code>false</code>",
+        "explanation": "<code>nextBoolean()</code> reads the string \"true\" and returns the boolean <code>true</code>. <code>!true</code> = <code>false</code>."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output if the user enters \"Hello World Java\"?<br><pre><code>Scanner sc = new Scanner(System.in);\nString a = sc.next();\nString b = sc.next();\nString c = sc.next();\nSystem.out.println(c + \" \" + b + \" \" + a);</code></pre>",
+        "hint": "Each next() reads one word.",
+        "answer": "<code>Java World Hello</code>",
+        "explanation": "Each <code>next()</code> reads one token: a = \"Hello\", b = \"World\", c = \"Java\". Printing them in reverse order gives \"Java World Hello\"."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output if the user enters 10 and then 20 on the same line separated by a space?<br><pre><code>Scanner sc = new Scanner(System.in);\nint a = sc.nextInt();\nint b = sc.nextInt();\nSystem.out.println(\"Sum: \" + (a + b));</code></pre>",
+        "hint": "nextInt() can read integers separated by whitespace on the same line.",
+        "answer": "<code>Sum: 30</code>",
+        "explanation": "Scanner treats spaces and newlines as delimiters. When the user types \"10 20\" on one line, <code>nextInt()</code> reads 10 (stops at space), then the second <code>nextInt()</code> reads 20. Sum = 30."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What exception is thrown if the user enters \"abc\" here?<br><pre><code>Scanner sc = new Scanner(System.in);\nint num = sc.nextInt();</code></pre>",
+        "hint": "\"abc\" cannot be parsed as an integer.",
+        "answer": "<code>java.util.InputMismatchException</code>",
+        "explanation": "<code>nextInt()</code> expects an integer token. The string \"abc\" cannot be parsed as an integer, so Java throws an <code>InputMismatchException</code>. This is a runtime exception (unchecked), so the compiler does not force you to handle it."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output if the user enters 5, then presses Enter, then types \"Deepa\"?<br><pre><code>Scanner sc = new Scanner(System.in);\nint num = sc.nextInt();\nsc.nextLine(); // consume newline\nString s1 = sc.nextLine();\nString s2 = sc.nextLine();\nSystem.out.println(s1);\nSystem.out.println(s2);</code></pre>",
+        "hint": "After consuming the newline, s1 reads the next line. But what about s2?",
+        "answer": "The program reads 5, consumes the newline, reads \"Deepa\" into s1, then <strong>waits for more input</strong> for s2.",
+        "explanation": "After <code>nextInt()</code> reads 5 and <code>sc.nextLine()</code> consumes the leftover \\n, the first <code>sc.nextLine()</code> reads \"Deepa\" into s1. The second <code>sc.nextLine()</code> waits for the user to type another line because there is nothing left in the buffer."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>Scanner sc = new Scanner(System.in);\n// User types: 10 20 30\nint a = sc.nextInt();\nString rest = sc.nextLine();\nSystem.out.println(\"a = \" + a);\nSystem.out.println(\"rest = '\" + rest + \"'\");</code></pre>",
+        "hint": "nextInt() reads the first token. nextLine() reads the remaining part of the line.",
+        "answer": "<code>a = 10</code><br><code>rest = ' 20 30'</code>",
+        "explanation": "<code>nextInt()</code> reads 10 and stops. <code>nextLine()</code> reads everything remaining on that line: \" 20 30\" (note the leading space). This shows that <code>nextLine()</code> after <code>nextInt()</code> reads the <strong>rest of the current line</strong>, not the next line."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why does the nextLine() bug occur after nextInt()? Explain the internal mechanism.",
+        "hint": "Think about what character is left in the input buffer after the user presses Enter.",
+        "answer": "When the user types a number and presses Enter, the input stream contains the digits followed by a newline character (\\n). <code>nextInt()</code> reads and consumes only the digits, leaving the \\n in the buffer. The subsequent <code>nextLine()</code> sees the \\n and immediately returns an empty string, because <code>nextLine()</code> reads up to (and including) the next newline character.",
+        "explanation": "Scanner internally maintains a buffer of characters from the input stream. Methods like <code>nextInt()</code> skip leading whitespace and read a token, but stop before consuming the trailing newline. <code>nextLine()</code>, however, reads everything up to and including the next \\n. When it finds the leftover \\n immediately, it returns an empty string without waiting."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>next()</code> and <code>nextLine()</code>?",
+        "hint": "Think about whitespace handling.",
+        "answer": "<code>next()</code> reads a single token (a word) delimited by whitespace. It skips leading whitespace and stops at the first whitespace character after the token. <code>nextLine()</code> reads the entire remaining line up to the newline character, including spaces within the line.",
+        "explanation": "Use <code>next()</code> when you want one word (e.g., a single name like \"Amit\"). Use <code>nextLine()</code> when you want a full line that may contain spaces (e.g., a full name like \"Amit Kumar\" or a sentence)."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "When should you use BufferedReader instead of Scanner? What are the trade-offs?",
+        "hint": "Think about speed vs convenience.",
+        "answer": "Use <strong>BufferedReader</strong> when reading large amounts of input (competitive programming, file processing) because it is significantly faster than Scanner. Scanner is convenient because it parses types directly (<code>nextInt()</code>, <code>nextDouble()</code>), but this convenience comes with a performance cost. BufferedReader reads raw strings, requiring manual parsing with <code>Integer.parseInt()</code> etc. BufferedReader also throws checked <code>IOException</code>, which you must handle.",
+        "explanation": "Scanner internally uses regex to parse tokens, which makes it slower. BufferedReader reads bytes into a buffer in bulk, making I/O much faster. For competitive programming where input size can be 10^5 or more lines, BufferedReader can be 5-10x faster than Scanner."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output if the user enters \"true\"?<br><pre><code>Scanner sc = new Scanner(System.in);\nString s = sc.nextLine();\nSystem.out.println(s.length());</code></pre>",
+        "hint": "nextLine() reads the string 'true', which has 4 characters.",
+        "answer": "<code>4</code>",
+        "explanation": "<code>nextLine()</code> reads the string \"true\" (4 characters). <code>s.length()</code> returns 4."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output if the user enters \"   hello   \"?<br><pre><code>Scanner sc = new Scanner(System.in);\nString s = sc.next();\nSystem.out.println(\"'\" + s + \"'\");</code></pre>",
+        "hint": "next() skips leading whitespace and reads the first token.",
+        "answer": "<code>'hello'</code>",
+        "explanation": "<code>next()</code> skips leading whitespace and reads the first token. It returns \"hello\" without any surrounding spaces."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output if the user enters 5 on line 1, then \"Hello World\" on line 2?<br><pre><code>Scanner sc = new Scanner(System.in);\nint n = Integer.parseInt(sc.nextLine());\nString s = sc.nextLine();\nSystem.out.println(n + \": \" + s);</code></pre>",
+        "hint": "Using Integer.parseInt(sc.nextLine()) avoids the nextLine bug entirely.",
+        "answer": "<code>5: Hello World</code>",
+        "explanation": "By reading everything with <code>nextLine()</code> and parsing manually with <code>Integer.parseInt()</code>, there is no leftover newline. The first <code>nextLine()</code> reads \"5\" (consumes the \\n). The second <code>nextLine()</code> reads \"Hello World\" correctly."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that reads two integers from the user and prints their sum, difference, product, and quotient.",
+        "hint": "Use nextInt() twice. Be careful with integer division.",
+        "answer": "<pre><code>import java.util.Scanner;\n\npublic class BasicCalc {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter first number: \");\n        int a = sc.nextInt();\n        System.out.print(\"Enter second number: \");\n        int b = sc.nextInt();\n        System.out.println(\"Sum: \" + (a + b));\n        System.out.println(\"Difference: \" + (a - b));\n        System.out.println(\"Product: \" + (a * b));\n        if (b != 0) {\n            System.out.println(\"Quotient: \" + (a / b));\n        } else {\n            System.out.println(\"Cannot divide by zero\");\n        }\n        sc.close();\n    }\n}</code></pre>",
+        "explanation": "We read two integers with <code>nextInt()</code>. Since both are ints, division is integer division (truncated). We also check for division by zero before dividing."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output if the user enters 7?<br><pre><code>Scanner sc = new Scanner(System.in);\nint n = sc.nextInt();\nSystem.out.println(n + \" squared is \" + n * n);</code></pre>",
+        "hint": "Compute 7 * 7.",
+        "answer": "<code>7 squared is 49</code>",
+        "explanation": "<code>nextInt()</code> reads 7. <code>n * n</code> = 49. String concatenation produces \"7 squared is 49\"."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output if the user types \"42abc\"?<br><pre><code>Scanner sc = new Scanner(System.in);\nif (sc.hasNextInt()) {\n    System.out.println(\"Int: \" + sc.nextInt());\n} else {\n    System.out.println(\"Not an int: \" + sc.next());\n}</code></pre>",
+        "hint": "Is \"42abc\" a valid integer token?",
+        "answer": "<code>Not an int: 42abc</code>",
+        "explanation": "<code>hasNextInt()</code> checks if the entire next token can be parsed as an int. \"42abc\" is a single token (no whitespace), and it contains non-digit characters, so <code>hasNextInt()</code> returns false. The else branch runs, and <code>next()</code> reads the whole token \"42abc\"."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program that reads a student's name (may contain spaces), roll number (int), and CGPA (double) and prints them in a formatted manner. Handle the nextLine bug correctly.",
+        "hint": "Read roll number first, consume the newline, then read name.",
+        "answer": "<pre><code>import java.util.Scanner;\n\npublic class StudentInfo {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter roll number: \");\n        int roll = sc.nextInt();\n        System.out.print(\"Enter CGPA: \");\n        double cgpa = sc.nextDouble();\n        sc.nextLine(); // Consume leftover newline\n        System.out.print(\"Enter full name: \");\n        String name = sc.nextLine();\n        System.out.println(\"\\n--- Student Details ---\");\n        System.out.println(\"Name: \" + name);\n        System.out.println(\"Roll: \" + roll);\n        System.out.println(\"CGPA: \" + cgpa);\n        sc.close();\n    }\n}</code></pre>",
+        "explanation": "We read roll (int) and CGPA (double) first. After <code>nextDouble()</code>, the leftover \\n is in the buffer. We call <code>sc.nextLine()</code> to consume it before reading the full name with another <code>nextLine()</code>."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output if the user enters \"Java Programming\"?<br><pre><code>Scanner sc = new Scanner(System.in);\nString s = sc.nextLine();\nSystem.out.println(\"Length: \" + s.length());\nSystem.out.println(\"First char: \" + s.charAt(0));</code></pre>",
+        "hint": "Count all characters including the space.",
+        "answer": "<code>Length: 16</code><br><code>First char: J</code>",
+        "explanation": "\"Java Programming\" has 16 characters (including the space). <code>length()</code> returns 16. <code>charAt(0)</code> returns 'J'."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output if the user enters \"3 7\"?<br><pre><code>Scanner sc = new Scanner(System.in);\nString line = sc.nextLine();\nString[] parts = line.split(\" \");\nint a = Integer.parseInt(parts[0]);\nint b = Integer.parseInt(parts[1]);\nSystem.out.println(\"Max: \" + Math.max(a, b));</code></pre>",
+        "hint": "The line is split into two parts, then each is parsed.",
+        "answer": "<code>Max: 7</code>",
+        "explanation": "<code>nextLine()</code> reads \"3 7\". <code>split(\" \")</code> produces [\"3\", \"7\"]. <code>Integer.parseInt(\"3\")</code> = 3, <code>Integer.parseInt(\"7\")</code> = 7. <code>Math.max(3, 7)</code> = 7."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output if the user enters 5, then 10?<br><pre><code>Scanner sc = new Scanner(System.in);\nint x = Integer.parseInt(sc.nextLine());\nint y = Integer.parseInt(sc.nextLine());\nSystem.out.println(x + y);\nSystem.out.println(\"\" + x + y);</code></pre>",
+        "hint": "In the second println, the empty string causes string concatenation, not addition.",
+        "answer": "<code>15</code><br><code>510</code>",
+        "explanation": "x = 5, y = 10. <code>x + y</code> = 15 (integer addition). In the second print, <code>\"\" + x + y</code> is string concatenation: \"\" + 5 = \"5\", then \"5\" + 10 = \"510\". The empty string forces string concatenation from left to right."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What happens with this code?<br><pre><code>Scanner sc = new Scanner(System.in);\n// User types: 3.14\nint num = sc.nextInt();</code></pre>",
+        "hint": "Can nextInt() read a decimal number?",
+        "answer": "<code>InputMismatchException</code> is thrown at runtime.",
+        "explanation": "<code>nextInt()</code> expects an integer value. The input \"3.14\" contains a decimal point, which is not a valid integer. Scanner throws <code>InputMismatchException</code>. To read 3.14, use <code>nextDouble()</code> instead."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a program using BufferedReader that reads N (an integer), then reads N names (each on a separate line), and prints them in reverse order.",
+        "hint": "Use a String array to store the names. Read N with Integer.parseInt(br.readLine()).",
+        "answer": "<pre><code>import java.io.BufferedReader;\nimport java.io.InputStreamReader;\nimport java.io.IOException;\n\npublic class ReverseNames {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        int n = Integer.parseInt(br.readLine().trim());\n        String[] names = new String[n];\n        for (int i = 0; i < n; i++) {\n            names[i] = br.readLine();\n        }\n        for (int i = n - 1; i >= 0; i--) {\n            System.out.println(names[i]);\n        }\n        br.close();\n    }\n}</code></pre>",
+        "explanation": "We read N using <code>Integer.parseInt(br.readLine())</code>. Then we read N lines into a String array. Finally, we iterate the array in reverse order and print each name. BufferedReader does not have the nextLine bug because <code>readLine()</code> always consumes the full line including the newline."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output if the user enters 4 and 6?<br><pre><code>Scanner sc = new Scanner(System.in);\nint a = sc.nextInt();\nint b = sc.nextInt();\nSystem.out.println(\"Product: \" + a * b);</code></pre>",
+        "hint": "Read two ints and multiply.",
+        "answer": "<code>Product: 24</code>",
+        "explanation": "a = 4, b = 6. <code>4 * 6 = 24</code>."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output if the user enters \"hello\"?<br><pre><code>Scanner sc = new Scanner(System.in);\nString s = sc.nextLine();\nSystem.out.println(s.toUpperCase());\nSystem.out.println(s.charAt(0));</code></pre>",
+        "hint": "toUpperCase returns a new string. charAt(0) returns the first character.",
+        "answer": "<code>HELLO</code><br><code>h</code>",
+        "explanation": "<code>toUpperCase()</code> returns \"HELLO\" (new String, original unchanged). <code>charAt(0)</code> returns 'h' from the original string."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a program that reads integers from the user until they enter -1 (sentinel value). Print the sum and count of all entered numbers (excluding -1).",
+        "hint": "Use a while loop with nextInt(). Break when input is -1.",
+        "answer": "<pre><code>import java.util.Scanner;\n\npublic class SentinelInput {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int sum = 0, count = 0;\n        System.out.println(\"Enter numbers (-1 to stop):\");\n        while (true) {\n            int n = sc.nextInt();\n            if (n == -1) break;\n            sum += n;\n            count++;\n        }\n        System.out.println(\"Count: \" + count);\n        System.out.println(\"Sum: \" + sum);\n        sc.close();\n    }\n}</code></pre>",
+        "explanation": "An infinite while loop reads integers until -1 is entered. The sentinel value (-1) is not counted or added to the sum."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which package must be imported to use the Scanner class?",
+        "options": [
+          "java.io",
+          "java.util",
+          "java.lang",
+          "java.scanner"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The Scanner class is in the <code>java.util</code> package. <code>java.lang</code> is auto-imported. <code>java.io</code> contains I/O classes like BufferedReader. <code>java.scanner</code> does not exist."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which method reads an entire line of input including spaces?",
+        "options": [
+          "next()",
+          "nextLine()",
+          "nextWord()",
+          "readLine()"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>nextLine()</code> reads the entire line up to the newline. <code>next()</code> reads only one token (word). <code>nextWord()</code> does not exist. <code>readLine()</code> is a BufferedReader method, not Scanner."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What argument is passed to the Scanner constructor for keyboard input?",
+        "options": [
+          "System.out",
+          "System.in",
+          "System.keyboard",
+          "System.console"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>System.in</code> is the standard input stream (keyboard). <code>System.out</code> is the output stream. <code>System.keyboard</code> does not exist. <code>System.console()</code> exists but returns a Console object, not an InputStream."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which method reads the next integer from input?",
+        "options": [
+          "nextInteger()",
+          "readInt()",
+          "nextInt()",
+          "getInt()"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>nextInt()</code> is the Scanner method that reads the next token and parses it as an int. The other methods do not exist in the Scanner class."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does next() return if the user types \"Raj Kumar\"?",
+        "options": [
+          "Raj Kumar",
+          "Raj",
+          "Kumar",
+          "R"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>next()</code> reads one token delimited by whitespace. It returns \"Raj\" and leaves \"Kumar\" in the buffer."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What causes the nextLine() bug after nextInt()?",
+        "options": [
+          "nextInt() returns the wrong type",
+          "nextLine() is deprecated",
+          "The leftover newline character in the buffer",
+          "Scanner does not support mixing types"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> When the user types a number and presses Enter, <code>nextInt()</code> reads the number but leaves the \\n in the buffer. The subsequent <code>nextLine()</code> consumes that \\n and returns an empty string."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "How do you fix the nextLine() bug after nextInt()?",
+        "options": [
+          "Use nextString() instead",
+          "Add sc.nextLine() between nextInt() and the next nextLine()",
+          "Use sc.flush()",
+          "Call sc.reset()"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Adding an extra <code>sc.nextLine()</code> call after <code>nextInt()</code> consumes the leftover newline character. The other methods either do not exist (<code>nextString()</code>) or do not solve this problem."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What exception is thrown when nextInt() receives non-integer input?",
+        "options": [
+          "NumberFormatException",
+          "InputMismatchException",
+          "IllegalArgumentException",
+          "ArithmeticException"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Scanner throws <code>InputMismatchException</code> when the next token does not match the expected type. <code>NumberFormatException</code> is thrown by <code>Integer.parseInt()</code> and similar parsing methods, not by Scanner directly."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does hasNextInt() do?",
+        "options": [
+          "Reads the next integer",
+          "Checks if there is any input remaining",
+          "Checks if the next token can be parsed as an int, without consuming it",
+          "Skips the next integer in the buffer"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>hasNextInt()</code> returns true if the next token can be interpreted as an int, and false otherwise. It does not consume the token from the input buffer, making it useful for validation before calling <code>nextInt()</code>."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which of these is the fastest way to read input in Java?",
+        "options": [
+          "Scanner",
+          "System.in.read()",
+          "BufferedReader",
+          "Console.readLine()"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>BufferedReader</code> is significantly faster than Scanner because it reads raw bytes in bulk without regex-based token parsing. For competitive programming and large inputs, BufferedReader is the preferred choice."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What happens when you close a Scanner that wraps System.in?",
+        "options": [
+          "Only the Scanner is closed, System.in remains open",
+          "Both the Scanner and System.in are closed",
+          "An exception is thrown",
+          "Nothing happens"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Closing the Scanner also closes the underlying <code>System.in</code> stream. After that, no new Scanner can read from <code>System.in</code>. This is why you should use only one Scanner for <code>System.in</code> throughout your program."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the correct way to use try-with-resources with Scanner?",
+        "options": [
+          "try { Scanner sc = new Scanner(System.in); }",
+          "try (Scanner sc = new Scanner(System.in)) { }",
+          "try-finally (Scanner sc) { }",
+          "using (Scanner sc = new Scanner(System.in)) { }"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The try-with-resources syntax declares the resource inside parentheses after <code>try</code>. The resource must implement <code>AutoCloseable</code>. Option D uses C# syntax. Option A is a regular try block that does not auto-close the resource."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Which method should you use to read a line with BufferedReader?",
+        "options": [
+          "nextLine()",
+          "readLine()",
+          "getLine()",
+          "scanLine()"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>readLine()</code> is the BufferedReader method that reads one line of text. <code>nextLine()</code> is a Scanner method. The other options do not exist in BufferedReader."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What exception does Integer.parseInt(\"abc\") throw?",
+        "options": [
+          "InputMismatchException",
+          "NumberFormatException",
+          "ClassCastException",
+          "ParseException"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>Integer.parseInt()</code> throws <code>NumberFormatException</code> when the string cannot be parsed as an integer. This is different from Scanner, which throws <code>InputMismatchException</code>. Knowing this distinction matters in placement exams."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What is the output of the following code if the user types \"5 10 15\" on a single line?<br><code>Scanner sc = new Scanner(System.in);<br>int sum = 0;<br>while (sc.hasNextInt()) { sum += sc.nextInt(); }<br>System.out.println(sum);</code>",
+        "options": [
+          "5",
+          "15",
+          "30",
+          "Infinite loop"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>hasNextInt()</code> returns true three times (for 5, 10, 15). Each <code>nextInt()</code> reads and adds the value. Sum = 5 + 10 + 15 = 30. After all tokens are consumed, <code>hasNextInt()</code> waits for more input. In practice, the user would need to signal end-of-input (Ctrl+Z on Windows or Ctrl+D on Unix) for the loop to end."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What does sc.nextLine() return?",
+        "options": [
+          "The next word",
+          "The next character",
+          "The entire line up to the newline",
+          "The next integer"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>nextLine()</code> reads and returns the entire line of input up to (but not including) the newline character."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "Which of the following reads a double value from Scanner?",
+        "options": [
+          "sc.nextFloat()",
+          "sc.nextDouble()",
+          "sc.readDouble()",
+          "sc.getDouble()"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>nextDouble()</code> reads the next token as a double. <code>nextFloat()</code> reads a float (different precision). The other methods do not exist in Scanner."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the difference between InputMismatchException and NumberFormatException?",
+        "options": [
+          "They are the same exception",
+          "InputMismatchException is from Scanner; NumberFormatException is from Integer.parseInt()",
+          "NumberFormatException is from Scanner; InputMismatchException is from Integer.parseInt()",
+          "Neither is a real Java exception"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>InputMismatchException</code> is thrown by Scanner methods (nextInt, nextDouble, etc.) when the input does not match the expected type. <code>NumberFormatException</code> is thrown by parsing methods like <code>Integer.parseInt()</code> when the string cannot be converted to a number."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Temperature Converter",
+        "difficulty": "Easy",
+        "description": "Write a program that reads a temperature in Celsius from the user and converts it to Fahrenheit using the formula: F = (C * 9/5) + 32. Print the result rounded to 2 decimal places.",
+        "sampleInput": "Enter temperature in Celsius: 37.5",
+        "sampleOutput": "37.5 C = 99.50 F",
+        "constraints": "Use Scanner with nextDouble(). Use printf or String.format for 2 decimal places.",
+        "solution": "import java.util.Scanner;\n\npublic class TempConverter {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter temperature in Celsius: \");\n        double celsius = sc.nextDouble();\n        double fahrenheit = (celsius * 9.0 / 5.0) + 32;\n        System.out.printf(\"%.1f C = %.2f F%n\", celsius, fahrenheit);\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Student Report Card",
+        "difficulty": "Easy",
+        "description": "Read a student's name, roll number, and marks in 3 subjects. Print the total, average (2 decimal places), and whether the student passed (average >= 40) or failed.",
+        "sampleInput": "Enter name: Sneha Gupta\nEnter roll number: 42\nEnter marks in 3 subjects: 78 85 92",
+        "sampleOutput": "Name: Sneha Gupta\nRoll: 42\nTotal: 255\nAverage: 85.00\nResult: Pass",
+        "constraints": "Handle the nextLine bug correctly. Read all three marks on one line or separately.",
+        "solution": "import java.util.Scanner;\n\npublic class ReportCard {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter roll number: \");\n        int roll = sc.nextInt();\n        sc.nextLine();\n        System.out.print(\"Enter name: \");\n        String name = sc.nextLine();\n        System.out.print(\"Enter marks in 3 subjects: \");\n        int m1 = sc.nextInt();\n        int m2 = sc.nextInt();\n        int m3 = sc.nextInt();\n        int total = m1 + m2 + m3;\n        double avg = total / 3.0;\n        System.out.println(\"Name: \" + name);\n        System.out.println(\"Roll: \" + roll);\n        System.out.println(\"Total: \" + total);\n        System.out.printf(\"Average: %.2f%n\", avg);\n        System.out.println(\"Result: \" + (avg >= 40 ? \"Pass\" : \"Fail\"));\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Word Counter",
+        "difficulty": "Medium",
+        "description": "Read a sentence from the user and count the number of words in it. Words are separated by spaces. Handle multiple spaces between words.",
+        "sampleInput": "Enter a sentence: Java  is  a  powerful  language",
+        "sampleOutput": "Word count: 5",
+        "constraints": "Use nextLine() to read the sentence. Use split with regex to handle multiple spaces.",
+        "solution": "import java.util.Scanner;\n\npublic class WordCounter {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a sentence: \");\n        String sentence = sc.nextLine().trim();\n        if (sentence.isEmpty()) {\n            System.out.println(\"Word count: 0\");\n        } else {\n            String[] words = sentence.split(\"\\\\s+\");\n            System.out.println(\"Word count: \" + words.length);\n        }\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Sum of N Numbers",
+        "difficulty": "Medium",
+        "description": "Read an integer N, then read N integers from the user. Print the sum, minimum, and maximum of those N integers.",
+        "sampleInput": "Enter N: 5\nEnter 5 numbers: 12 7 45 3 28",
+        "sampleOutput": "Sum: 95\nMin: 3\nMax: 45",
+        "constraints": "Use a loop to read N numbers. Track min and max while reading.",
+        "solution": "import java.util.Scanner;\n\npublic class SumOfN {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter N: \");\n        int n = sc.nextInt();\n        System.out.print(\"Enter \" + n + \" numbers: \");\n        int sum = 0;\n        int min = Integer.MAX_VALUE;\n        int max = Integer.MIN_VALUE;\n        for (int i = 0; i < n; i++) {\n            int num = sc.nextInt();\n            sum += num;\n            if (num < min) min = num;\n            if (num > max) max = num;\n        }\n        System.out.println(\"Sum: \" + sum);\n        System.out.println(\"Min: \" + min);\n        System.out.println(\"Max: \" + max);\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Input Validation Loop",
+        "difficulty": "Medium",
+        "description": "Write a program that keeps asking the user for a valid integer between 1 and 100. If the input is not an integer or is out of range, print an error and ask again. Once valid input is received, print it.",
+        "sampleInput": "Enter a number (1-100): abc\nInvalid! Enter a number (1-100): 150\nOut of range! Enter a number (1-100): 42",
+        "sampleOutput": "You entered: 42",
+        "constraints": "Use hasNextInt() for type validation and a while loop for repeated input.",
+        "solution": "import java.util.Scanner;\n\npublic class ValidInput {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int num = 0;\n        boolean valid = false;\n        while (!valid) {\n            System.out.print(\"Enter a number (1-100): \");\n            if (sc.hasNextInt()) {\n                num = sc.nextInt();\n                if (num >= 1 && num <= 100) {\n                    valid = true;\n                } else {\n                    System.out.println(\"Out of range!\");\n                }\n            } else {\n                System.out.println(\"Invalid!\");\n                sc.next(); // consume invalid token\n            }\n        }\n        System.out.println(\"You entered: \" + num);\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Multi-Line Input Processor",
+        "difficulty": "Hard",
+        "description": "Using BufferedReader, read N (the first line), then read N lines of text. For each line, print the line number, the line itself, and the number of characters in it.",
+        "sampleInput": "3\nHello World\nJava\nBufferedReader is fast",
+        "sampleOutput": "Line 1: Hello World (11 chars)\nLine 2: Java (4 chars)\nLine 3: BufferedReader is fast (21 chars)",
+        "constraints": "Use BufferedReader only (not Scanner). Handle IOException.",
+        "solution": "import java.io.BufferedReader;\nimport java.io.InputStreamReader;\nimport java.io.IOException;\n\npublic class MultiLineProcessor {\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        int n = Integer.parseInt(br.readLine().trim());\n        for (int i = 1; i <= n; i++) {\n            String line = br.readLine();\n            System.out.println(\"Line \" + i + \": \" + line + \" (\" + line.length() + \" chars)\");\n        }\n        br.close();\n    }\n}"
+      },
+      {
+        "id": "cc-7",
+        "title": "Space-Separated Input Parser",
+        "difficulty": "Hard",
+        "description": "Read a single line containing multiple integers separated by spaces. Without knowing how many integers there will be, compute the sum, average, and count of the numbers.",
+        "sampleInput": "10 20 30 40 50",
+        "sampleOutput": "Count: 5\nSum: 150\nAverage: 30.0",
+        "constraints": "Read the whole line with nextLine(), split by spaces, parse each part. Handle empty input.",
+        "solution": "import java.util.Scanner;\n\npublic class SpaceSeparated {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        String line = sc.nextLine().trim();\n        if (line.isEmpty()) {\n            System.out.println(\"No input provided.\");\n        } else {\n            String[] parts = line.split(\"\\\\s+\");\n            int sum = 0;\n            int count = parts.length;\n            for (String part : parts) {\n                sum += Integer.parseInt(part);\n            }\n            double avg = (double) sum / count;\n            System.out.println(\"Count: \" + count);\n            System.out.println(\"Sum: \" + sum);\n            System.out.println(\"Average: \" + avg);\n        }\n        sc.close();\n    }\n}"
+      },
+      {
+        "id": "cc-8",
+        "title": "Menu-Driven Calculator",
+        "difficulty": "Hard",
+        "description": "Build a menu-driven calculator that displays a menu (1. Add, 2. Subtract, 3. Multiply, 4. Divide, 5. Exit), reads the user's choice, reads two numbers if needed, performs the operation, and loops until the user chooses Exit. Validate all inputs.",
+        "sampleInput": "Choice: 1\nEnter two numbers: 15 25\nResult: 40\nChoice: 5",
+        "sampleOutput": "Result: 40\nGoodbye!",
+        "constraints": "Use a while loop with switch-case. Handle division by zero. Use proper Scanner techniques.",
+        "solution": "import java.util.Scanner;\n\npublic class MenuCalc {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        boolean running = true;\n        while (running) {\n            System.out.println(\"\\n1. Add  2. Subtract  3. Multiply  4. Divide  5. Exit\");\n            System.out.print(\"Choice: \");\n            int choice = sc.nextInt();\n            if (choice == 5) {\n                System.out.println(\"Goodbye!\");\n                running = false;\n            } else if (choice >= 1 && choice <= 4) {\n                System.out.print(\"Enter two numbers: \");\n                double a = sc.nextDouble();\n                double b = sc.nextDouble();\n                switch (choice) {\n                    case 1: System.out.println(\"Result: \" + (a + b)); break;\n                    case 2: System.out.println(\"Result: \" + (a - b)); break;\n                    case 3: System.out.println(\"Result: \" + (a * b)); break;\n                    case 4:\n                        if (b == 0) System.out.println(\"Error: Division by zero!\");\n                        else System.out.println(\"Result: \" + (a / b));\n                        break;\n                }\n            } else {\n                System.out.println(\"Invalid choice!\");\n            }\n        }\n        sc.close();\n    }\n}"
+      }
+    ]
+  }
+}

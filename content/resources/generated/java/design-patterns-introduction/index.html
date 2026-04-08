@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Design Patterns - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn Singleton, Factory, Observer, Strategy, and Builder patterns with practical Java implementations.">
+    <meta name="keywords" content="introduction to design patterns, java tutorial, java introduction to design patterns, learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/design-patterns-introduction">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/design-patterns-introduction">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/design-patterns-introduction">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/design-patterns-introduction">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/design-patterns-introduction">
+    <meta property="og:title" content="Introduction to Design Patterns - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Learn Singleton, Factory, Observer, Strategy, and Builder patterns with practical Java implementations.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/design-patterns-introduction">
+    <meta name="twitter:title" content="Introduction to Design Patterns - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Learn Singleton, Factory, Observer, Strategy, and Builder patterns with practical Java implementations.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Introduction to Design Patterns",
+    "description": "Learn Singleton, Factory, Observer, Strategy, and Builder patterns with practical Java implementations.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/design-patterns-introduction"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/design-patterns-introduction"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Introduction to Design Patterns",
+        "item": "https://learn.modernagecoders.com/resources/java/design-patterns-introduction"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Introduction to Design Patterns</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 25</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">50 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-08</span>
+            </div>
+            <h1 class="resource-title">Introduction to Design Patterns</h1>
+            <a href="/resources/java/design-patterns-introduction/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Design Patterns?</h2><p>A <strong>design pattern</strong> is a reusable solution to a commonly occurring problem in software design. Design patterns are not code -- they are templates or blueprints that describe how to solve a problem in a way that is proven to work across many projects.</p><p>The concept was popularized by the book <em>"Design Patterns: Elements of Reusable Object-Oriented Software"</em> (1994) by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides -- collectively known as the <strong>Gang of Four (GoF)</strong>. The book describes 23 patterns organized into three categories:</p><ul><li><strong>Creational Patterns</strong>: How objects are created (Singleton, Factory, Builder, Prototype, Abstract Factory)</li><li><strong>Structural Patterns</strong>: How objects are composed (Adapter, Decorator, Proxy, Facade, Composite)</li><li><strong>Behavioral Patterns</strong>: How objects communicate (Observer, Strategy, Command, Iterator, State)</li></ul><pre><code class="language-java">// Without pattern: messy object creation
+DBConnection conn = new DBConnection();
+conn.setHost("localhost");
+conn.setPort(3306);
+conn.setDatabase("students");
+conn.setUsername("admin");
+conn.setPassword("secret");
+conn.setPoolSize(10);
+
+// With Builder pattern: clean, readable
+DBConnection conn = DBConnection.builder()
+    .host("localhost")
+    .port(3306)
+    .database("students")
+    .username("admin")
+    .password("secret")
+    .poolSize(10)
+    .build();</code></pre><p>Patterns give developers a shared vocabulary. When Arjun says "use a Singleton for the database connection pool," every developer on the team understands exactly what that means.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Design Patterns Important?</h2><h3>1. Proven Solutions to Common Problems</h3><p>Design patterns represent decades of collective experience. Instead of reinventing solutions, you use battle-tested approaches. When Priya needs a single configuration manager shared across her application, she does not need to figure out thread-safe global access from scratch -- the Singleton pattern already solves this.</p><h3>2. Common Vocabulary for Teams</h3><p>Patterns provide a shared language among developers. Saying "use the Observer pattern" is more precise and concise than explaining the entire publish-subscribe mechanism. This improves communication during code reviews, design discussions, and documentation.</p><h3>3. Better Software Architecture</h3><p>Patterns promote loose coupling, high cohesion, and the SOLID principles. The Strategy pattern lets you swap algorithms without changing client code. The Observer pattern decouples event producers from consumers. These principles lead to code that is easier to maintain and extend.</p><h3>4. Framework Understanding</h3><p>Every major Java framework uses design patterns. Spring Framework uses Singleton (bean scope), Factory (BeanFactory), Proxy (AOP), and Observer (event system). Understanding patterns helps you understand frameworks at a deeper level.</p><h3>5. Interview and Placement Significance</h3><p>Design pattern questions are standard in interviews at companies like Amazon, Google, Microsoft, Flipkart, and Goldman Sachs. Interviewers ask candidates to implement Singleton, explain Factory vs Abstract Factory, or identify which pattern to use for a given scenario.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Singleton Pattern</h3><p>The <strong>Singleton</strong> pattern ensures that a class has only one instance and provides a global point of access to it. Use it when exactly one object is needed to coordinate actions (e.g., database connection pool, configuration manager, logger).</p><h4>Eager Initialization</h4><pre><code class="language-java">public class EagerSingleton {
+    // Instance created at class loading time
+    private static final EagerSingleton INSTANCE = new EagerSingleton();
+
+    private EagerSingleton() {} // Private constructor prevents external instantiation
+
+    public static EagerSingleton getInstance() {
+        return INSTANCE;
+    }
+}</code></pre><p>Pros: Simple, thread-safe (class loading is thread-safe). Cons: Instance is created even if never used (wastes memory if construction is expensive).</p><h4>Lazy Initialization (Not Thread-Safe)</h4><pre><code class="language-java">public class LazySingleton {
+    private static LazySingleton instance;
+
+    private LazySingleton() {}
+
+    public static LazySingleton getInstance() {
+        if (instance == null) {
+            instance = new LazySingleton(); // Created on first call
+        }
+        return instance;
+    }
+}</code></pre><p>Pros: Instance created only when needed. Cons: NOT thread-safe. Two threads could both see <code>instance == null</code> and create two instances.</p><h4>Thread-Safe with Double-Checked Locking</h4><pre><code class="language-java">public class ThreadSafeSingleton {
+    private static volatile ThreadSafeSingleton instance;
+
+    private ThreadSafeSingleton() {}
+
+    public static ThreadSafeSingleton getInstance() {
+        if (instance == null) {                    // First check (no locking)
+            synchronized (ThreadSafeSingleton.class) {
+                if (instance == null) {            // Second check (with lock)
+                    instance = new ThreadSafeSingleton();
+                }
+            }
+        }
+        return instance;
+    }
+}</code></pre><p>The first check avoids synchronization overhead on every call. The second check (inside synchronized block) ensures only one instance is created. The <code>volatile</code> keyword prevents instruction reordering that could expose a partially constructed object.</p><h4>Enum Singleton (Recommended)</h4><pre><code class="language-java">public enum EnumSingleton {
+    INSTANCE;
+
+    private int count = 0;
+
+    public void increment() { count++; }
+    public int getCount() { return count; }
+}
+
+// Usage
+EnumSingleton.INSTANCE.increment();
+System.out.println(EnumSingleton.INSTANCE.getCount()); // 1</code></pre><p>The enum approach is the most robust Singleton implementation. It is inherently thread-safe, prevents reflection attacks (cannot create new enum instances via reflection), and handles serialization correctly (always returns the same instance). Joshua Bloch (Effective Java) recommends this approach.</p><h3>2. Factory Pattern</h3><p>The <strong>Factory</strong> pattern defines an interface for creating objects but lets subclasses decide which class to instantiate. It decouples object creation from the code that uses the objects.</p><pre><code class="language-java">// Product interface
+interface Shape {
+    void draw();
+}
+
+// Concrete products
+class Circle implements Shape {
+    public void draw() { System.out.println("Drawing Circle"); }
+}
+class Rectangle implements Shape {
+    public void draw() { System.out.println("Drawing Rectangle"); }
+}
+class Triangle implements Shape {
+    public void draw() { System.out.println("Drawing Triangle"); }
+}
+
+// Factory
+class ShapeFactory {
+    public static Shape createShape(String type) {
+        return switch (type.toLowerCase()) {
+            case "circle" -> new Circle();
+            case "rectangle" -> new Rectangle();
+            case "triangle" -> new Triangle();
+            default -> throw new IllegalArgumentException("Unknown shape: " + type);
+        };
+    }
+}
+
+// Client code -- does not know concrete classes
+Shape s1 = ShapeFactory.createShape("circle");
+Shape s2 = ShapeFactory.createShape("rectangle");
+s1.draw(); // Drawing Circle
+s2.draw(); // Drawing Rectangle</code></pre><p>Benefits: (1) Client code depends on the interface (Shape), not concrete classes. (2) Adding a new shape requires modifying only the factory, not client code. (3) Object creation logic is centralized.</p><h3>3. Builder Pattern</h3><p>The <strong>Builder</strong> pattern separates the construction of a complex object from its representation. Use it when an object has many optional parameters or when construction involves multiple steps.</p><pre><code class="language-java">public class Student {
+    private final String name;       // required
+    private final int age;           // required
+    private final String email;      // optional
+    private final String phone;      // optional
+    private final String address;    // optional
+    private final String department; // optional
+
+    private Student(Builder builder) {
+        this.name = builder.name;
+        this.age = builder.age;
+        this.email = builder.email;
+        this.phone = builder.phone;
+        this.address = builder.address;
+        this.department = builder.department;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{name='" + name + "', age=" + age
+            + ", email='" + email + "', dept='" + department + "'}";
+    }
+
+    public static class Builder {
+        private final String name; // required
+        private final int age;     // required
+        private String email = "";
+        private String phone = "";
+        private String address = "";
+        private String department = "";
+
+        public Builder(String name, int age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        public Builder email(String email) { this.email = email; return this; }
+        public Builder phone(String phone) { this.phone = phone; return this; }
+        public Builder address(String addr) { this.address = addr; return this; }
+        public Builder department(String dept) { this.department = dept; return this; }
+
+        public Student build() { return new Student(this); }
+    }
+}
+
+// Usage: method chaining
+Student s = new Student.Builder("Arjun", 20)
+    .email("arjun@email.com")
+    .department("CS")
+    .build();
+System.out.println(s);</code></pre><p>Benefits: (1) Readable object construction (named parameters via method chaining). (2) Immutable objects (all fields are final). (3) No telescoping constructor anti-pattern (constructors with many parameters). (4) Optional parameters have sensible defaults.</p><h3>4. Observer Pattern</h3><p>The <strong>Observer</strong> pattern defines a one-to-many dependency. When one object (the subject) changes state, all its dependents (observers) are notified automatically. This is the foundation of event systems.</p><pre><code class="language-java">import java.util.ArrayList;
+import java.util.List;
+
+// Observer interface
+interface Observer {
+    void update(String event, Object data);
+}
+
+// Subject (Observable)
+class EventBus {
+    private final List&lt;Observer&gt; observers = new ArrayList&lt;&gt;();
+
+    public void subscribe(Observer observer) {
+        observers.add(observer);
+    }
+
+    public void unsubscribe(Observer observer) {
+        observers.remove(observer);
+    }
+
+    public void publish(String event, Object data) {
+        for (Observer observer : observers) {
+            observer.update(event, data);
+        }
+    }
+}
+
+// Concrete observers
+class EmailNotifier implements Observer {
+    public void update(String event, Object data) {
+        System.out.println("Email: [" + event + "] " + data);
+    }
+}
+
+class LogNotifier implements Observer {
+    public void update(String event, Object data) {
+        System.out.println("Log: [" + event + "] " + data);
+    }
+}
+
+// Usage
+EventBus bus = new EventBus();
+bus.subscribe(new EmailNotifier());
+bus.subscribe(new LogNotifier());
+bus.publish("ORDER_PLACED", "Order #1234");
+// Both observers receive the notification</code></pre><p>Benefits: (1) Loose coupling -- the subject does not need to know the concrete observer types. (2) Open/Closed principle -- new observers can be added without modifying the subject. (3) Runtime flexibility -- observers can subscribe and unsubscribe dynamically.</p><h3>5. Strategy Pattern</h3><p>The <strong>Strategy</strong> pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. The client selects the algorithm at runtime without changing its code.</p><pre><code class="language-java">// Strategy interface
+interface SortStrategy {
+    void sort(int[] data);
+}
+
+// Concrete strategies
+class BubbleSort implements SortStrategy {
+    public void sort(int[] data) {
+        System.out.println("Sorting with Bubble Sort");
+        for (int i = 0; i < data.length - 1; i++)
+            for (int j = 0; j < data.length - i - 1; j++)
+                if (data[j] > data[j+1]) {
+                    int temp = data[j]; data[j] = data[j+1]; data[j+1] = temp;
+                }
+    }
+}
+
+class QuickSort implements SortStrategy {
+    public void sort(int[] data) {
+        System.out.println("Sorting with Quick Sort");
+        java.util.Arrays.sort(data); // simplified
+    }
+}
+
+// Context
+class Sorter {
+    private SortStrategy strategy;
+
+    public void setStrategy(SortStrategy strategy) {
+        this.strategy = strategy;
+    }
+
+    public void performSort(int[] data) {
+        strategy.sort(data);
+    }
+}
+
+// Usage: strategy selected at runtime
+Sorter sorter = new Sorter();
+int[] data = {5, 3, 8, 1, 9};
+
+sorter.setStrategy(new BubbleSort());
+sorter.performSort(data);  // Uses Bubble Sort
+
+sorter.setStrategy(new QuickSort());
+sorter.performSort(data);  // Uses Quick Sort</code></pre><p>Benefits: (1) Algorithms are interchangeable at runtime. (2) Adding a new algorithm means adding a new class, not modifying existing code (Open/Closed Principle). (3) Eliminates complex conditional statements (if-else or switch) for selecting algorithms.</p><h3>6. When to Use Each Pattern</h3><table><tr><th>Pattern</th><th>When to Use</th><th>Real-World Example</th></tr><tr><td>Singleton</td><td>Exactly one instance needed globally</td><td>Database connection pool, Logger, Configuration</td></tr><tr><td>Factory</td><td>Object creation depends on input/conditions</td><td>Shape creator, Document parser (PDF/XML/JSON)</td></tr><tr><td>Builder</td><td>Complex object with many optional parameters</td><td>HTTP request builder, SQL query builder</td></tr><tr><td>Observer</td><td>One-to-many notification needed</td><td>Event systems, UI event handlers, pub-sub messaging</td></tr><tr><td>Strategy</td><td>Multiple algorithms, selected at runtime</td><td>Payment methods, sorting algorithms, compression</td></tr></table><h3>7. Anti-Patterns to Avoid</h3><ul><li><strong>God Object</strong>: A single class that does everything. Violates Single Responsibility Principle.</li><li><strong>Singleton Overuse</strong>: Using Singleton for everything makes code tightly coupled and hard to test. Use dependency injection instead.</li><li><strong>Premature Pattern Application</strong>: Do not use patterns just because they exist. Apply them when the problem clearly matches.</li><li><strong>Copy-Paste Programming</strong>: Duplicating code instead of abstracting common behavior into a pattern.</li></ul>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <p>No code examples available yet.</p>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <p>No common mistakes listed for this topic.</p>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <p>Summary coming soon.</p>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/java-memory-and-garbage-collection" class="related-topic-link">Java Memory Model and Garbage Collection</a>
+<a href="/resources/java/abstraction-and-interfaces" class="related-topic-link">Abstraction - Abstract Classes and Interfaces</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/java/java-memory-and-garbage-collection" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Java Memory Model and Garbage Collection</span>
+        </a>
+            
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/design-patterns-introduction/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

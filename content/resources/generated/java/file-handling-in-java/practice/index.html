@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - File Handling in Java | Java | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="55+ practice questions on File Handling in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="file handling in java practice, java questions, java practice problems, file handling in java exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/file-handling-in-java/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/file-handling-in-java/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/file-handling-in-java/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/file-handling-in-java/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/file-handling-in-java/practice">
+    <meta property="og:title" content="Practice Questions - File Handling in Java | Java | Modern Age Coders">
+    <meta property="og:description" content="55+ practice questions on File Handling in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/file-handling-in-java/practice">
+    <meta name="twitter:title" content="Practice Questions - File Handling in Java | Java | Modern Age Coders">
+    <meta name="twitter:description" content="55+ practice questions on File Handling in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - File Handling in Java",
+    "description": "55+ practice questions on File Handling in Java in Java.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "File Handling in Java"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/file-handling-in-java/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "File Handling in Java",
+        "item": "https://learn.modernagecoders.com/resources/java/file-handling-in-java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/java/file-handling-in-java/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java/file-handling-in-java">File Handling in Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 21</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">55 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; File Handling in Java</h1>
+            <a href="/resources/java/file-handling-in-java" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code class="language-java">File file = new File("test.txt");
+System.out.println(file.exists());</code></pre><p>Assume the file test.txt does NOT exist.</p></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">new File() creates a File object representing a path. It does not create the actual file.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">File file = new File("demo.txt");
+file.createNewFile();
+System.out.println(file.exists());
+System.out.println(file.isFile());
+System.out.println(file.isDirectory());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">createNewFile() actually creates the file on disk.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>true</code><br><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">try (BufferedWriter bw = new BufferedWriter(new FileWriter("test.txt"))) {
+    bw.write("Hello");
+    bw.newLine();
+    bw.write("World");
+}
+try (BufferedReader br = new BufferedReader(new FileReader("test.txt"))) {
+    System.out.println(br.readLine());
+    System.out.println(br.readLine());
+    System.out.println(br.readLine());
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">readLine() returns null when there are no more lines.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>Hello</code><br><code>World</code><br><code>null</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">FileWriter fw1 = new FileWriter("data.txt");
+fw1.write("First");
+fw1.close();
+
+FileWriter fw2 = new FileWriter("data.txt");
+fw2.write("Second");
+fw2.close();
+
+BufferedReader br = new BufferedReader(new FileReader("data.txt"));
+System.out.println(br.readLine());
+br.close();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">FileWriter without the append flag truncates the file.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Second</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">FileWriter fw1 = new FileWriter("data.txt");
+fw1.write("First");
+fw1.close();
+
+FileWriter fw2 = new FileWriter("data.txt", true);
+fw2.write("Second");
+fw2.close();
+
+BufferedReader br = new BufferedReader(new FileReader("data.txt"));
+System.out.println(br.readLine());
+br.close();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">The second FileWriter uses append mode (true).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>FirstSecond</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">try (BufferedWriter bw = new BufferedWriter(new FileWriter("nums.txt"))) {
+    for (int i = 1; i <= 3; i++) {
+        bw.write(String.valueOf(i * 10));
+        bw.newLine();
+    }
+}
+
+try (BufferedReader br = new BufferedReader(new FileReader("nums.txt"))) {
+    String line;
+    int sum = 0;
+    while ((line = br.readLine()) != null) {
+        sum += Integer.parseInt(line);
+    }
+    System.out.println("Sum: " + sum);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Three numbers are written: 10, 20, 30.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Sum: 60</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What happens when this code runs?<br><pre><code class="language-java">try (BufferedReader br = new BufferedReader(new FileReader("nonexistent.txt"))) {
+    System.out.println(br.readLine());
+} catch (FileNotFoundException e) {
+    System.out.println("Not found");
+} catch (IOException e) {
+    System.out.println("IO error");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">FileNotFoundException is a subclass of IOException.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Not found</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Path path = Paths.get("demo.txt");
+Files.writeString(path, "Hello NIO");
+
+String content = Files.readString(path);
+System.out.println(content);
+System.out.println(content.length());
+
+Files.deleteIfExists(path);</code></pre><p>(Assume Java 11+)</p></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Files.readString() reads the entire file as a single String.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Hello NIO</code><br><code>9</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Files.write(Paths.get("lines.txt"), 
+    List.of("alpha", "beta", "gamma"));
+
+List&lt;String&gt; lines = Files.readAllLines(Paths.get("lines.txt"));
+System.out.println(lines.size());
+System.out.println(lines.get(1));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">List.of() creates a list with three elements. readAllLines() reads all lines into a List.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>3</code><br><code>beta</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">try (FileWriter fw = new FileWriter("test.txt")) {
+    fw.write("ABC");
+}
+
+File file = new File("test.txt");
+System.out.println(file.length());
+
+try (FileReader fr = new FileReader("test.txt")) {
+    System.out.println(fr.read());
+    System.out.println(fr.read());
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">FileReader.read() returns the character's Unicode integer value. 'A' is 65.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>3</code><br><code>65</code><br><code>66</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Files.write(Paths.get("data.txt"), 
+    List.of("hello", "", "world", "", "java"));
+
+long count = Files.lines(Paths.get("data.txt"))
+    .filter(line -> !line.isEmpty())
+    .count();
+System.out.println(count);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Two of the five lines are empty strings.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">try (PrintWriter pw = new PrintWriter("out.txt")) {
+    pw.printf("%d + %d = %d%n", 3, 4, 7);
+    pw.printf("%d + %d = %d%n", 5, 6, 11);
+}
+
+try (BufferedReader br = new BufferedReader(new FileReader("out.txt"))) {
+    br.readLine(); // skip first line
+    String second = br.readLine();
+    System.out.println(second);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">The first readLine() reads and discards the first line.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>5 + 6 = 11</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>FileReader</code> and <code>FileInputStream</code>? When would you use each?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Think about what kind of data each handles.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>FileReader</code> is a character stream that reads text data (characters), applying character encoding. <code>FileInputStream</code> is a byte stream that reads raw bytes without any encoding interpretation. Use <code>FileReader</code> for text files (.txt, .csv, .json) and <code>FileInputStream</code> for binary files (.jpg, .pdf, .exe).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why does <code>Files.readAllLines()</code> have a potential problem with very large files? What is the alternative?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Think about where the data goes when you read all lines.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>Files.readAllLines()</code> loads the entire file into a <code>List&lt;String&gt;</code> in memory. For a 2 GB log file, this would require at least 2 GB of heap space, likely causing <code>OutOfMemoryError</code>. The alternative is <code>Files.lines()</code>, which returns a lazy <code>Stream&lt;String&gt;</code> that reads lines on demand without loading the entire file into memory.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain how try-with-resources works internally. What interface must a class implement to be used in it?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Think about what guarantees automatic closing.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">A class must implement the <code>AutoCloseable</code> interface (which has a single method: <code>close()</code>). When the try block exits (normally or due to an exception), the JVM automatically calls <code>close()</code> on each resource declared in the parentheses, in reverse order of declaration. If both the try block and the close() method throw exceptions, the close() exception is added as a <strong>suppressed exception</strong> to the main exception.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">File f = new File("mydir");
+f.mkdir();
+System.out.println(f.isDirectory());
+System.out.println(f.isFile());
+f.delete();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">mkdir() creates a directory, not a file.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">try (PrintWriter pw = new PrintWriter("simple.txt")) {
+    pw.println("Line 1");
+    pw.println("Line 2");
+}
+
+try (Scanner sc = new Scanner(new File("simple.txt"))) {
+    while (sc.hasNextLine()) {
+        System.out.println(sc.nextLine());
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">PrintWriter.println() writes a line with a newline. Scanner.nextLine() reads one line.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>Line 1</code><br><code>Line 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">try (BufferedWriter bw = new BufferedWriter(new FileWriter("count.txt"))) {
+    for (int i = 5; i >= 1; i--) {
+        bw.write(i + " ");
+    }
+}
+try (BufferedReader br = new BufferedReader(new FileReader("count.txt"))) {
+    System.out.println(br.readLine());
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">All numbers are written on a single line (no newLine() calls).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>5 4 3 2 1 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Files.write(Paths.get("words.txt"), 
+    List.of("apple", "banana", "cherry"));
+
+String result = Files.lines(Paths.get("words.txt"))
+    .map(s -> s.substring(0, 1).toUpperCase())
+    .reduce("", (a, b) -> a + b);
+
+System.out.println(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Each word's first character is extracted and capitalized, then all are concatenated.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>ABC</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Path path = Paths.get("info.txt");
+Files.writeString(path, "Hello\nWorld\n");
+
+List&lt;String&gt; lines = Files.readAllLines(path);
+System.out.println(lines.size());
+System.out.println(lines);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">The string contains two newline characters, creating two lines of content.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>2</code><br><code>[Hello, World]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">try (BufferedWriter bw = new BufferedWriter(new FileWriter("test.txt"))) {
+    bw.write("Line1");
+    bw.newLine();
+    bw.write("Line2");
+    // Note: no newLine() after Line2
+}
+
+int lineCount = 0;
+try (BufferedReader br = new BufferedReader(new FileReader("test.txt"))) {
+    while (br.readLine() != null) {
+        lineCount++;
+    }
+}
+System.out.println(lineCount);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">readLine() reads until newline or end of file. The last line has no trailing newline.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">try (PrintWriter pw = new PrintWriter("matrix.txt")) {
+    for (int i = 1; i <= 3; i++) {
+        for (int j = 1; j <= 3; j++) {
+            pw.print(i * j + " ");
+        }
+        pw.println();
+    }
+}
+
+try (BufferedReader br = new BufferedReader(new FileReader("matrix.txt"))) {
+    System.out.println(br.readLine());
+    br.readLine(); // skip second line
+    System.out.println(br.readLine());
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Trace the multiplication table. The second line is skipped.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>1 2 3 </code><br><code>3 6 9 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Files.write(Paths.get("numbers.txt"), 
+    List.of("10", "20", "abc", "30", "xyz"));
+
+int sum = 0;
+int errors = 0;
+for (String line : Files.readAllLines(Paths.get("numbers.txt"))) {
+    try {
+        sum += Integer.parseInt(line);
+    } catch (NumberFormatException e) {
+        errors++;
+    }
+}
+System.out.println("Sum: " + sum);
+System.out.println("Errors: " + errors);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">"abc" and "xyz" cannot be parsed as integers.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>Sum: 60</code><br><code>Errors: 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the purpose of the <code>newLine()</code> method in <code>BufferedWriter</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about what happens on different operating systems.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>newLine()</code> writes a platform-independent line separator. On Windows, the line separator is "\r\n". On Linux/Mac, it is "\n". Using <code>newLine()</code> instead of hardcoding "\n" makes your code work correctly across all operating systems.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>Files.readAllLines()</code> and <code>Files.lines()</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">One loads everything into memory at once. The other processes lazily.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>Files.readAllLines()</code> reads the entire file into a <code>List&lt;String&gt;</code> (eager loading -- all in memory). <code>Files.lines()</code> returns a <code>Stream&lt;String&gt;</code> that reads lines lazily (on demand). Use <code>readAllLines()</code> for small files when you need random access. Use <code>Files.lines()</code> for large files or when using stream operations.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which class is used to check if a file exists on disk?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> FileReader</li><li><span class="mcq-option-label">B.</span> FileWriter</li><li><span class="mcq-option-label">C.</span> File</li><li><span class="mcq-option-label">D.</span> Scanner</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>File</code> class provides the <code>exists()</code> method to check if a file or directory exists. <code>FileReader</code> and <code>FileWriter</code> are for reading/writing, and <code>Scanner</code> is for parsing input.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does BufferedReader.readLine() return when it reaches the end of the file?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> An empty string &quot;&quot;</li><li><span class="mcq-option-label">B.</span> The string &quot;EOF&quot;</li><li><span class="mcq-option-label">C.</span> null</li><li><span class="mcq-option-label">D.</span> -1</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>readLine()</code> returns <code>null</code> at end of file. An empty string is returned for blank lines in the file. -1 is returned by <code>read()</code> (single character), not <code>readLine()</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does try-with-resources guarantee?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The file will be created automatically</li><li><span class="mcq-option-label">B.</span> Resources will be closed automatically when the block exits</li><li><span class="mcq-option-label">C.</span> No exceptions will occur</li><li><span class="mcq-option-label">D.</span> The file will never be corrupted</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> try-with-resources automatically calls <code>close()</code> on all declared resources when the block exits, whether normally or due to an exception.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which stream type should you use to copy an image file?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> FileReader / FileWriter</li><li><span class="mcq-option-label">B.</span> BufferedReader / BufferedWriter</li><li><span class="mcq-option-label">C.</span> FileInputStream / FileOutputStream</li><li><span class="mcq-option-label">D.</span> Scanner / PrintWriter</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> Images are binary files. Character streams (Reader/Writer) apply character encoding that corrupts binary data. Byte streams (InputStream/OutputStream) handle raw bytes correctly.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">How do you open a FileWriter in append mode?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> new FileWriter(&quot;file.txt&quot;, &quot;append&quot;)</li><li><span class="mcq-option-label">B.</span> new FileWriter(&quot;file.txt&quot;, true)</li><li><span class="mcq-option-label">C.</span> new FileWriter(&quot;file.txt&quot;).append()</li><li><span class="mcq-option-label">D.</span> FileWriter.append(&quot;file.txt&quot;)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> The second parameter <code>true</code> enables append mode. Without it (or with <code>false</code>), the file is truncated on opening.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which method reads the entire file content as a single String in Java 11+?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Files.readAllLines()</li><li><span class="mcq-option-label">B.</span> Files.readString()</li><li><span class="mcq-option-label">C.</span> Files.lines()</li><li><span class="mcq-option-label">D.</span> Files.read()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>Files.readString()</code> (Java 11+) reads the entire file into one String. <code>readAllLines()</code> returns a List of lines. <code>lines()</code> returns a Stream. There is no <code>Files.read()</code> method for text.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What interface must a class implement to be used in try-with-resources?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Serializable</li><li><span class="mcq-option-label">B.</span> Closeable only</li><li><span class="mcq-option-label">C.</span> AutoCloseable</li><li><span class="mcq-option-label">D.</span> Readable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>AutoCloseable</code> is the required interface. <code>Closeable</code> extends <code>AutoCloseable</code>, so classes implementing <code>Closeable</code> also work. But the actual requirement is <code>AutoCloseable</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is the advantage of BufferedReader over FileReader?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> BufferedReader can read binary files</li><li><span class="mcq-option-label">B.</span> BufferedReader uses an internal buffer for better performance</li><li><span class="mcq-option-label">C.</span> BufferedReader can write to files</li><li><span class="mcq-option-label">D.</span> BufferedReader does not require closing</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>BufferedReader</code> reads large chunks into an internal buffer (default 8192 chars), reducing the number of disk I/O operations. <code>FileReader</code> reads from disk on every <code>read()</code> call, which is much slower.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does Files.lines() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> List&lt;String&gt;</li><li><span class="mcq-option-label">B.</span> String[]</li><li><span class="mcq-option-label">C.</span> Stream&lt;String&gt;</li><li><span class="mcq-option-label">D.</span> Iterator&lt;String&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>Files.lines()</code> returns a <code>Stream&lt;String&gt;</code> that lazily reads lines from the file. This stream must be closed after use (try-with-resources).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What exception is thrown when you try to open a file that does not exist with FileReader?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> IOException</li><li><span class="mcq-option-label">B.</span> FileNotFoundException</li><li><span class="mcq-option-label">C.</span> NullPointerException</li><li><span class="mcq-option-label">D.</span> IllegalArgumentException</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>FileNotFoundException</code> is thrown when the specified file does not exist. It is a subclass of <code>IOException</code>, so <code>catch (IOException e)</code> would also catch it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">In try-with-resources with multiple resources, in what order are they closed?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> In the order they were declared</li><li><span class="mcq-option-label">B.</span> In reverse order of declaration</li><li><span class="mcq-option-label">C.</span> Alphabetical order</li><li><span class="mcq-option-label">D.</span> Random order</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> Resources are closed in reverse order of declaration. This is important because later resources may depend on earlier ones (e.g., a BufferedWriter wrapping a FileWriter), so the outer wrapper must be closed first.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What happens if both the try block and the close() method throw exceptions in try-with-resources?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The try exception is lost</li><li><span class="mcq-option-label">B.</span> The close exception is lost</li><li><span class="mcq-option-label">C.</span> The close exception is added as a suppressed exception to the try exception</li><li><span class="mcq-option-label">D.</span> Both exceptions are thrown simultaneously</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> The exception from the try block is the primary exception that propagates. The exception from <code>close()</code> is added as a suppressed exception, retrievable via <code>getSuppressed()</code>. This ensures no exception is silently lost.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Why is Scanner slower than BufferedReader for reading large files?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Scanner cannot read files at all</li><li><span class="mcq-option-label">B.</span> Scanner uses regex parsing internally for every token</li><li><span class="mcq-option-label">C.</span> Scanner does not use buffering</li><li><span class="mcq-option-label">D.</span> Scanner reads binary data instead of text</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>Scanner</code> uses regular expressions internally to parse tokens, which adds overhead. <code>BufferedReader.readLine()</code> simply reads bytes until a newline, which is significantly faster for plain line-by-line reading.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is a suppressed exception in the context of try-with-resources?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> An exception that is ignored</li><li><span class="mcq-option-label">B.</span> An exception thrown by close() that is attached to the primary exception</li><li><span class="mcq-option-label">C.</span> An exception that does not have a stack trace</li><li><span class="mcq-option-label">D.</span> An exception that occurs in the finally block</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> When the try block throws an exception and then <code>close()</code> also throws an exception, the close exception is added as a suppressed exception to the primary one using <code>addSuppressed()</code>. Retrieve it with <code>exception.getSuppressed()</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which NIO class provides static methods like readAllLines(), write(), and exists()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Path</li><li><span class="mcq-option-label">B.</span> Paths</li><li><span class="mcq-option-label">C.</span> Files</li><li><span class="mcq-option-label">D.</span> File</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>Files</code> class (java.nio.file.Files) provides static utility methods for file operations. <code>Path</code> represents a file path. <code>Paths</code> creates Path objects. <code>File</code> is the older java.io class.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Word Counter</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a program that reads a text file and counts the total number of lines, words, and characters. Print the results in a formatted table.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Create a file with: &quot;Hello World\nJava is great\nFile handling rocks&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Lines: 3
+Words: 8
+Characters: 42</div>
+                </div><div class="challenge-constraints">Use BufferedReader with try-with-resources. Handle FileNotFoundException.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">import java.io.*;
+
+public class WordCounter {
+    public static void main(String[] args) {
+        // Create test file
+        try (PrintWriter pw = new PrintWriter(&quot;sample.txt&quot;)) {
+            pw.println(&quot;Hello World&quot;);
+            pw.println(&quot;Java is great&quot;);
+            pw.println(&quot;File handling rocks&quot;);
+        } catch (FileNotFoundException e) {
+            System.out.println(&quot;Cannot create file&quot;);
+            return;
+        }
+
+        int lines = 0, words = 0, chars = 0;
+        try (BufferedReader br = new BufferedReader(new FileReader(&quot;sample.txt&quot;))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                lines++;
+                chars += line.length();
+                String[] tokens = line.trim().split(&quot;\\s+&quot;);
+                if (!tokens[0].isEmpty()) {
+                    words += tokens.length;
+                }
+            }
+        } catch (IOException e) {
+            System.out.println(&quot;Error: &quot; + e.getMessage());
+            return;
+        }
+        System.out.println(&quot;Lines: &quot; + lines);
+        System.out.println(&quot;Words: &quot; + words);
+        System.out.println(&quot;Characters: &quot; + chars);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: CSV Processor</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a program that reads a CSV file containing student names and three subject marks, calculates the average for each student, and writes the results to a new file with a pass/fail status (pass if average >= 40).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Arjun,85,92,78\nSneha,35,28,42\nVikram,91,88,95</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Arjun,85,92,78,85.0,PASS\nSneha,35,28,42,35.0,FAIL\nVikram,91,88,95,91.3,PASS</div>
+                </div><div class="challenge-constraints">Use BufferedReader for reading and PrintWriter for writing. Handle NumberFormatException for invalid data.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">import java.io.*;
+
+public class CSVProcessor {
+    public static void main(String[] args) {
+        // Create input file
+        try (PrintWriter pw = new PrintWriter(&quot;students.csv&quot;)) {
+            pw.println(&quot;Arjun,85,92,78&quot;);
+            pw.println(&quot;Sneha,35,28,42&quot;);
+            pw.println(&quot;Vikram,91,88,95&quot;);
+        } catch (FileNotFoundException e) {
+            return;
+        }
+
+        try (
+            BufferedReader br = new BufferedReader(new FileReader(&quot;students.csv&quot;));
+            PrintWriter pw = new PrintWriter(new FileWriter(&quot;results.csv&quot;))
+        ) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                String[] parts = line.split(&quot;,&quot;);
+                String name = parts[0];
+                try {
+                    int m1 = Integer.parseInt(parts[1]);
+                    int m2 = Integer.parseInt(parts[2]);
+                    int m3 = Integer.parseInt(parts[3]);
+                    double avg = (m1 + m2 + m3) / 3.0;
+                    String status = avg &gt;= 40 ? &quot;PASS&quot; : &quot;FAIL&quot;;
+                    pw.printf(&quot;%s,%d,%d,%d,%.1f,%s%n&quot;, name, m1, m2, m3, avg, status);
+                } catch (NumberFormatException e) {
+                    System.out.println(&quot;Invalid data for: &quot; + name);
+                }
+            }
+            System.out.println(&quot;Results written to results.csv&quot;);
+        } catch (IOException e) {
+            System.out.println(&quot;Error: &quot; + e.getMessage());
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: File Search Tool</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a program that reads a text file and searches for a given keyword. Print each line that contains the keyword along with its line number. Also print the total number of occurrences.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Search for &quot;Java&quot; in a file with multiple lines mentioning Java.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Line 2: Java is a popular language.
+Line 5: Java supports OOP.
+Found 2 occurrences in 2 lines.</div>
+                </div><div class="challenge-constraints">Use BufferedReader. Perform case-insensitive search. Count total occurrences (not just lines).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">import java.io.*;
+
+public class FileSearch {
+    public static void main(String[] args) {
+        try (PrintWriter pw = new PrintWriter(&quot;article.txt&quot;)) {
+            pw.println(&quot;Programming is fun.&quot;);
+            pw.println(&quot;Java is a popular language.&quot;);
+            pw.println(&quot;Python is also widely used.&quot;);
+            pw.println(&quot;Many companies use both.&quot;);
+            pw.println(&quot;Java supports OOP and multithreading.&quot;);
+        } catch (FileNotFoundException e) {
+            return;
+        }
+
+        String keyword = &quot;Java&quot;;
+        int lineCount = 0, totalOccurrences = 0;
+        try (BufferedReader br = new BufferedReader(new FileReader(&quot;article.txt&quot;))) {
+            String line;
+            int lineNum = 0;
+            while ((line = br.readLine()) != null) {
+                lineNum++;
+                String lowerLine = line.toLowerCase();
+                String lowerKey = keyword.toLowerCase();
+                int index = 0;
+                int count = 0;
+                while ((index = lowerLine.indexOf(lowerKey, index)) != -1) {
+                    count++;
+                    index += lowerKey.length();
+                }
+                if (count &gt; 0) {
+                    lineCount++;
+                    totalOccurrences += count;
+                    System.out.println(&quot;Line &quot; + lineNum + &quot;: &quot; + line);
+                }
+            }
+        } catch (IOException e) {
+            System.out.println(&quot;Error: &quot; + e.getMessage());
+            return;
+        }
+        System.out.println(&quot;Found &quot; + totalOccurrences + &quot; occurrences in &quot; + lineCount + &quot; lines.&quot;);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: File Merger with NIO</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a program using Java NIO that creates two text files, then merges their content into a third file. Each line in the merged file should be prefixed with the source file name.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">File1: &quot;Hello\nWorld&quot;, File2: &quot;Java\nRocks&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[file1.txt] Hello\n[file1.txt] World\n[file2.txt] Java\n[file2.txt] Rocks</div>
+                </div><div class="challenge-constraints">Use java.nio.file.Files and Path. Use Streams API to process lines.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">import java.nio.file.*;
+import java.io.IOException;
+import java.util.*;
+import java.util.stream.*;
+
+public class FileMerger {
+    public static void main(String[] args) throws IOException {
+        Path file1 = Paths.get(&quot;file1.txt&quot;);
+        Path file2 = Paths.get(&quot;file2.txt&quot;);
+        Path merged = Paths.get(&quot;merged.txt&quot;);
+
+        Files.write(file1, List.of(&quot;Hello&quot;, &quot;World&quot;));
+        Files.write(file2, List.of(&quot;Java&quot;, &quot;Rocks&quot;));
+
+        List&lt;String&gt; mergedLines = new ArrayList&lt;&gt;();
+
+        try (Stream&lt;String&gt; lines = Files.lines(file1)) {
+            lines.map(line -&gt; &quot;[file1.txt] &quot; + line)
+                 .forEach(mergedLines::add);
+        }
+        try (Stream&lt;String&gt; lines = Files.lines(file2)) {
+            lines.map(line -&gt; &quot;[file2.txt] &quot; + line)
+                 .forEach(mergedLines::add);
+        }
+
+        Files.write(merged, mergedLines);
+
+        System.out.println(&quot;Merged file contents:&quot;);
+        Files.readAllLines(merged).forEach(System.out::println);
+
+        Files.deleteIfExists(file1);
+        Files.deleteIfExists(file2);
+        Files.deleteIfExists(merged);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Log File Analyzer</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program that reads a log file where each line has the format 'LEVEL: message' (levels: INFO, WARN, ERROR). Count occurrences of each level, find all ERROR messages, and write a summary report to a new file.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">INFO: Server started\nWARN: Low memory\nERROR: Null pointer\nINFO: Request processed\nERROR: Timeout</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Summary: INFO=2, WARN=1, ERROR=2\nErrors:\n  1. Null pointer\n  2. Timeout</div>
+                </div><div class="challenge-constraints">Use BufferedReader for reading, PrintWriter for writing. Handle malformed lines gracefully.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">import java.io.*;
+import java.util.*;
+
+public class LogAnalyzer {
+    public static void main(String[] args) {
+        try (PrintWriter pw = new PrintWriter(&quot;app.log&quot;)) {
+            pw.println(&quot;INFO: Server started&quot;);
+            pw.println(&quot;WARN: Low memory detected&quot;);
+            pw.println(&quot;ERROR: NullPointerException in UserService&quot;);
+            pw.println(&quot;INFO: Request processed successfully&quot;);
+            pw.println(&quot;ERROR: Connection timeout to database&quot;);
+            pw.println(&quot;INFO: Scheduled task completed&quot;);
+            pw.println(&quot;WARN: Deprecated API usage&quot;);
+        } catch (FileNotFoundException e) {
+            return;
+        }
+
+        Map&lt;String, Integer&gt; counts = new LinkedHashMap&lt;&gt;();
+        counts.put(&quot;INFO&quot;, 0);
+        counts.put(&quot;WARN&quot;, 0);
+        counts.put(&quot;ERROR&quot;, 0);
+        List&lt;String&gt; errors = new ArrayList&lt;&gt;();
+
+        try (BufferedReader br = new BufferedReader(new FileReader(&quot;app.log&quot;))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                int colonIndex = line.indexOf(&#39;:&#39;);
+                if (colonIndex == -1) continue;
+                String level = line.substring(0, colonIndex).trim();
+                String message = line.substring(colonIndex + 1).trim();
+                counts.merge(level, 1, Integer::sum);
+                if (&quot;ERROR&quot;.equals(level)) {
+                    errors.add(message);
+                }
+            }
+        } catch (IOException e) {
+            System.out.println(&quot;Read error: &quot; + e.getMessage());
+            return;
+        }
+
+        try (PrintWriter pw = new PrintWriter(&quot;report.txt&quot;)) {
+            pw.println(&quot;=== Log Analysis Report ===&quot;);
+            pw.println();
+            for (Map.Entry&lt;String, Integer&gt; entry : counts.entrySet()) {
+                pw.printf(&quot;%-8s: %d%n&quot;, entry.getKey(), entry.getValue());
+            }
+            pw.println();
+            pw.println(&quot;Error Details:&quot;);
+            for (int i = 0; i &lt; errors.size(); i++) {
+                pw.printf(&quot;  %d. %s%n&quot;, i + 1, errors.get(i));
+            }
+            System.out.println(&quot;Report written to report.txt&quot;);
+        } catch (FileNotFoundException e) {
+            System.out.println(&quot;Write error: &quot; + e.getMessage());
+        }
+    }
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/java/generics-in-java/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Generics in Java</span>
+        </a>
+            <a href="/resources/java/multithreading-basics/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Multithreading Basics</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/java/file-handling-in-java" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

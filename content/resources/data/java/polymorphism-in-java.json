@@ -1,0 +1,655 @@
+{
+  "title": "Polymorphism in Java",
+  "slug": "polymorphism-in-java",
+  "language": "java",
+  "chapter": 16,
+  "difficulty": "Intermediate",
+  "readingTime": "40 min",
+  "lastUpdated": "2026-04-08",
+  "totalQuestions": 50,
+  "seo": {
+    "title": "Polymorphism in Java - Method Overloading, Overriding, Dynamic Dispatch | Modern Age Coders",
+    "description": "Learn polymorphism in Java including compile-time polymorphism (method overloading), runtime polymorphism (method overriding, dynamic method dispatch), upcasting, downcasting, and instanceof. Includes 50+ practice questions with output prediction and interview-style problems.",
+    "keywords": "java polymorphism, method overloading java, runtime polymorphism java, dynamic method dispatch, java upcasting downcasting, method overriding java, compile time polymorphism java, java instanceof, java polymorphism interview questions"
+  },
+  "content": {
+    "what": "<h2>What Is Polymorphism in Java?</h2><p><strong>Polymorphism</strong> means \"many forms.\" In Java, it refers to the ability of a single entity (method, object, or reference) to take on different forms depending on the context. A parent class reference variable can hold a child class object, and the method that gets executed depends on the actual object type, not the reference type.</p><p>Consider a simple real-world analogy: the word \"open\" has different meanings depending on context. You open a door, you open a book, you open a browser. The action adapts to the object. That is polymorphism.</p><p>Java supports two types of polymorphism:</p><pre><code>// 1. Compile-time polymorphism (Method Overloading)\nclass Calculator {\n    int add(int a, int b) { return a + b; }\n    double add(double a, double b) { return a + b; }\n}\n\n// 2. Runtime polymorphism (Method Overriding)\nclass Animal {\n    void sound() { System.out.println(\"Some sound\"); }\n}\nclass Dog extends Animal {\n    void sound() { System.out.println(\"Bark\"); }\n}\n\nAnimal a = new Dog();  // Upcasting\na.sound();             // Bark (runtime decision)</code></pre><p>In the first case, the compiler decides which <code>add</code> method to call based on the argument types. In the second case, the JVM decides at runtime which <code>sound</code> method to execute based on the actual object type (<code>Dog</code>), not the reference type (<code>Animal</code>).</p>",
+    "why": "<h2>Why Does Polymorphism Matter?</h2><p>Polymorphism is one of the four pillars of Object-Oriented Programming (along with encapsulation, inheritance, and abstraction). Understanding it is essential for writing extensible, maintainable software and for clearing any Java interview.</p><h3>1. Extensibility Without Modification</h3><p>When Arjun writes a method that accepts an <code>Animal</code> reference, it works with <code>Dog</code>, <code>Cat</code>, <code>Parrot</code>, or any future subclass. He does not need to modify existing code when a new animal type is added. This is the Open-Closed Principle: open for extension, closed for modification.</p><h3>2. Loose Coupling</h3><p>Code that depends on a parent type or interface is loosely coupled. If Kavya writes <code>void feed(Animal a)</code>, it works with any animal subclass. She does not need to know (or care about) the specific subclass. This makes code easier to test, refactor, and maintain.</p><h3>3. Code Reusability with Method Overloading</h3><p>Method overloading lets Ravi provide a single method name for related operations with different parameter types. Instead of <code>addInts</code>, <code>addDoubles</code>, <code>addStrings</code>, he writes overloaded versions of <code>add</code>. The caller uses one name; the compiler picks the right version.</p><h3>4. Framework and API Design</h3><p>Every major Java framework (Spring, Hibernate, Android) relies heavily on polymorphism. When you write <code>List&lt;String&gt; list = new ArrayList&lt;&gt;()</code>, you are using polymorphism. The <code>List</code> interface reference can hold any list implementation.</p><h3>5. Interview and Placement Relevance</h3><p>Polymorphism questions appear in nearly every Java technical interview. Output prediction problems involving upcasting, method overriding, and dynamic dispatch are standard fare in campus placements at companies like TCS, Infosys, Wipro, and product-based firms.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Compile-Time Polymorphism (Method Overloading)</h3><p>Method overloading occurs when multiple methods in the same class share the same name but have different parameter lists (different number of parameters, different types, or different order of types). The compiler resolves which method to call based on the arguments at compile time.</p><pre><code>class MathUtils {\n    // Overloaded add methods\n    int add(int a, int b) {\n        return a + b;\n    }\n    \n    int add(int a, int b, int c) {\n        return a + b + c;\n    }\n    \n    double add(double a, double b) {\n        return a + b;\n    }\n}\n\nMathUtils m = new MathUtils();\nSystem.out.println(m.add(2, 3));        // 5 (int, int)\nSystem.out.println(m.add(2, 3, 4));     // 9 (int, int, int)\nSystem.out.println(m.add(2.5, 3.5));    // 6.0 (double, double)</code></pre><p>Important rules for overloading:</p><ul><li>Methods must differ in parameter list (number, type, or order of parameters)</li><li>Return type alone is NOT sufficient to overload. <code>int add(int a, int b)</code> and <code>double add(int a, int b)</code> will cause a compilation error.</li><li>Access modifiers can differ between overloaded methods</li></ul><h3>2. Constructor Overloading</h3><p>Constructors can also be overloaded, providing multiple ways to initialize an object:</p><pre><code>class Student {\n    String name;\n    int age;\n    String city;\n    \n    Student() {\n        this(\"Unknown\", 0, \"Unknown\");\n    }\n    \n    Student(String name) {\n        this(name, 0, \"Unknown\");\n    }\n    \n    Student(String name, int age, String city) {\n        this.name = name;\n        this.age = age;\n        this.city = city;\n    }\n}\n\nStudent s1 = new Student();                        // Unknown, 0, Unknown\nStudent s2 = new Student(\"Arjun\");                  // Arjun, 0, Unknown\nStudent s3 = new Student(\"Kavya\", 20, \"Bangalore\"); // Kavya, 20, Bangalore</code></pre><h3>3. Runtime Polymorphism (Method Overriding)</h3><p>Method overriding occurs when a subclass provides its own implementation of a method that is already defined in the parent class. The decision about which version to call is made at runtime based on the actual object type.</p><pre><code>class Shape {\n    void draw() {\n        System.out.println(\"Drawing a shape\");\n    }\n}\n\nclass Circle extends Shape {\n    @Override\n    void draw() {\n        System.out.println(\"Drawing a circle\");\n    }\n}\n\nclass Rectangle extends Shape {\n    @Override\n    void draw() {\n        System.out.println(\"Drawing a rectangle\");\n    }\n}\n\nShape s = new Circle();\ns.draw();  // Drawing a circle (runtime decision)</code></pre><p>Rules for overriding:</p><ul><li>The method in the child class must have the same name, same parameters, and same return type (or covariant return type)</li><li>The access modifier in the child cannot be more restrictive than the parent</li><li><code>private</code>, <code>static</code>, and <code>final</code> methods cannot be overridden</li><li>The <code>@Override</code> annotation is optional but strongly recommended as it catches errors at compile time</li></ul><h3>4. Dynamic Method Dispatch</h3><p>Dynamic method dispatch is the mechanism by which Java resolves overridden method calls at runtime. When a parent reference points to a child object, Java looks at the actual object type (not the reference type) to determine which method to invoke.</p><pre><code>class Vehicle {\n    void start() {\n        System.out.println(\"Vehicle starting\");\n    }\n}\n\nclass Car extends Vehicle {\n    @Override\n    void start() {\n        System.out.println(\"Car starting with key\");\n    }\n}\n\nclass ElectricCar extends Car {\n    @Override\n    void start() {\n        System.out.println(\"Electric car starting silently\");\n    }\n}\n\nVehicle v1 = new Vehicle();\nVehicle v2 = new Car();\nVehicle v3 = new ElectricCar();\n\nv1.start();  // Vehicle starting\nv2.start();  // Car starting with key\nv3.start();  // Electric car starting silently</code></pre><p>All three references are of type <code>Vehicle</code>, but the method that executes depends on the actual object. This is dynamic dispatch in action.</p><h3>5. Upcasting</h3><p>Upcasting is assigning a child class object to a parent class reference. It is always safe and happens implicitly (no cast needed):</p><pre><code>Animal a = new Dog();  // Upcasting (implicit)\n// a can only access methods declared in Animal\n// But if Dog overrides them, Dog's version runs</code></pre><p>With upcasting, you can only call methods that are declared in the parent class. If the child class has additional methods not present in the parent, they are inaccessible through the parent reference.</p><pre><code>class Animal {\n    void eat() { System.out.println(\"Animal eats\"); }\n}\n\nclass Dog extends Animal {\n    @Override\n    void eat() { System.out.println(\"Dog eats bones\"); }\n    void fetch() { System.out.println(\"Dog fetches ball\"); }\n}\n\nAnimal a = new Dog();\na.eat();    // Dog eats bones (overridden method)\n// a.fetch(); // Compilation error! Animal has no fetch() method</code></pre><h3>6. Downcasting</h3><p>Downcasting is casting a parent reference back to a child type. It requires an explicit cast and can throw <code>ClassCastException</code> if the actual object is not of the target type:</p><pre><code>Animal a = new Dog();  // Upcasting\nDog d = (Dog) a;       // Downcasting (explicit)\nd.fetch();             // Now we can call Dog-specific methods\n\n// Dangerous downcasting\nAnimal a2 = new Animal();\n// Dog d2 = (Dog) a2;  // ClassCastException at runtime!</code></pre><h3>7. instanceof Operator</h3><p>Always use <code>instanceof</code> to check before downcasting to avoid <code>ClassCastException</code>:</p><pre><code>Animal a = new Dog();\n\nif (a instanceof Dog) {\n    Dog d = (Dog) a;\n    d.fetch();  // Safe\n}\n\nAnimal a2 = new Animal();\nif (a2 instanceof Dog) {\n    Dog d2 = (Dog) a2;  // This block never executes\n} else {\n    System.out.println(\"a2 is not a Dog\");\n}</code></pre><p>The <code>instanceof</code> operator returns <code>true</code> if the object is an instance of the specified class or any of its subclasses. It returns <code>false</code> for <code>null</code>.</p><h3>8. Polymorphism with Arrays and Collections</h3><p>Polymorphism shines when working with arrays or collections of the parent type, where each element can be a different subclass:</p><pre><code>Shape[] shapes = new Shape[3];\nshapes[0] = new Circle();\nshapes[1] = new Rectangle();\nshapes[2] = new Circle();\n\nfor (Shape s : shapes) {\n    s.draw();  // Calls the correct overridden method for each object\n}</code></pre><p>This is incredibly powerful. You can process a heterogeneous collection of objects with a single loop. Adding a new shape (e.g., <code>Triangle</code>) requires no changes to the loop.</p><h3>9. Overloading vs Overriding Summary</h3><table><tr><th>Feature</th><th>Overloading</th><th>Overriding</th></tr><tr><td>When resolved</td><td>Compile time</td><td>Runtime</td></tr><tr><td>Parameters</td><td>Must differ</td><td>Must be same</td></tr><tr><td>Return type</td><td>Can differ</td><td>Must be same (or covariant)</td></tr><tr><td>Scope</td><td>Same class</td><td>Parent-child classes</td></tr><tr><td>static methods</td><td>Can be overloaded</td><td>Cannot be overridden (hidden)</td></tr><tr><td>private methods</td><td>Can be overloaded</td><td>Cannot be overridden</td></tr></table>",
+    "codeExamples": [
+      {
+        "title": "Compile-Time Polymorphism: Method Overloading",
+        "code": "class Calculator {\n    int add(int a, int b) {\n        return a + b;\n    }\n\n    int add(int a, int b, int c) {\n        return a + b + c;\n    }\n\n    double add(double a, double b) {\n        return a + b;\n    }\n\n    String add(String a, String b) {\n        return a + b;\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Calculator calc = new Calculator();\n        System.out.println(calc.add(10, 20));\n        System.out.println(calc.add(10, 20, 30));\n        System.out.println(calc.add(2.5, 3.5));\n        System.out.println(calc.add(\"Hello\", \" World\"));\n    }\n}",
+        "language": "java",
+        "explanation": "The <code>Calculator</code> class has four <code>add</code> methods, each with different parameter types or counts. The compiler picks the correct method based on the argument types at compile time. This is compile-time polymorphism.",
+        "output": "30\n60\n6.0\nHello World"
+      },
+      {
+        "title": "Runtime Polymorphism: Method Overriding and Dynamic Dispatch",
+        "code": "class Animal {\n    void sound() {\n        System.out.println(\"Some generic sound\");\n    }\n}\n\nclass Dog extends Animal {\n    @Override\n    void sound() {\n        System.out.println(\"Bark\");\n    }\n}\n\nclass Cat extends Animal {\n    @Override\n    void sound() {\n        System.out.println(\"Meow\");\n    }\n}\n\nclass Cow extends Animal {\n    @Override\n    void sound() {\n        System.out.println(\"Moo\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Animal a1 = new Dog();\n        Animal a2 = new Cat();\n        Animal a3 = new Cow();\n        Animal a4 = new Animal();\n\n        a1.sound();\n        a2.sound();\n        a3.sound();\n        a4.sound();\n    }\n}",
+        "language": "java",
+        "explanation": "All references are of type <code>Animal</code>, but the actual objects are <code>Dog</code>, <code>Cat</code>, <code>Cow</code>, and <code>Animal</code>. The JVM invokes the overridden method based on the actual object type at runtime. This is dynamic method dispatch.",
+        "output": "Bark\nMeow\nMoo\nSome generic sound"
+      },
+      {
+        "title": "Upcasting and Downcasting",
+        "code": "class Employee {\n    void work() {\n        System.out.println(\"Employee is working\");\n    }\n}\n\nclass Developer extends Employee {\n    @Override\n    void work() {\n        System.out.println(\"Developer is writing code\");\n    }\n\n    void debug() {\n        System.out.println(\"Developer is debugging\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        // Upcasting (implicit)\n        Employee emp = new Developer();\n        emp.work();  // Overridden method runs\n        // emp.debug();  // Compilation error\n\n        // Downcasting (explicit)\n        if (emp instanceof Developer) {\n            Developer dev = (Developer) emp;\n            dev.debug();  // Now accessible\n            dev.work();\n        }\n\n        // Unsafe downcasting\n        Employee emp2 = new Employee();\n        System.out.println(emp2 instanceof Developer);  // false\n        // Developer dev2 = (Developer) emp2;  // ClassCastException!\n    }\n}",
+        "language": "java",
+        "explanation": "Upcasting (<code>Employee emp = new Developer()</code>) is implicit and safe. The parent reference can only call methods declared in <code>Employee</code>. Downcasting requires an explicit cast and should always be preceded by an <code>instanceof</code> check to avoid <code>ClassCastException</code>.",
+        "output": "Developer is writing code\nDeveloper is debugging\nDeveloper is writing code\nfalse"
+      },
+      {
+        "title": "Polymorphism with Arrays",
+        "code": "class Shape {\n    double area() {\n        return 0;\n    }\n\n    String name() {\n        return \"Shape\";\n    }\n}\n\nclass Circle extends Shape {\n    double radius;\n    Circle(double radius) { this.radius = radius; }\n\n    @Override\n    double area() { return Math.PI * radius * radius; }\n\n    @Override\n    String name() { return \"Circle\"; }\n}\n\nclass Rectangle extends Shape {\n    double width, height;\n    Rectangle(double width, double height) {\n        this.width = width;\n        this.height = height;\n    }\n\n    @Override\n    double area() { return width * height; }\n\n    @Override\n    String name() { return \"Rectangle\"; }\n}\n\nclass Triangle extends Shape {\n    double base, height;\n    Triangle(double base, double height) {\n        this.base = base;\n        this.height = height;\n    }\n\n    @Override\n    double area() { return 0.5 * base * height; }\n\n    @Override\n    String name() { return \"Triangle\"; }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Shape[] shapes = {\n            new Circle(5),\n            new Rectangle(4, 6),\n            new Triangle(3, 8)\n        };\n\n        double totalArea = 0;\n        for (Shape s : shapes) {\n            double a = s.area();\n            System.out.printf(\"%s area: %.2f%n\", s.name(), a);\n            totalArea += a;\n        }\n        System.out.printf(\"Total area: %.2f%n\", totalArea);\n    }\n}",
+        "language": "java",
+        "explanation": "An array of <code>Shape</code> references holds <code>Circle</code>, <code>Rectangle</code>, and <code>Triangle</code> objects. The loop calls <code>area()</code> on each element, and dynamic dispatch ensures the correct overridden method runs for each shape. Adding a new shape class requires no changes to the loop.",
+        "output": "Circle area: 78.54\nRectangle area: 24.00\nTriangle area: 12.00\nTotal area: 114.54"
+      },
+      {
+        "title": "Constructor Overloading",
+        "code": "class BankAccount {\n    String holder;\n    double balance;\n    String type;\n\n    BankAccount() {\n        this(\"Unknown\", 0.0, \"Savings\");\n    }\n\n    BankAccount(String holder) {\n        this(holder, 0.0, \"Savings\");\n    }\n\n    BankAccount(String holder, double balance) {\n        this(holder, balance, \"Savings\");\n    }\n\n    BankAccount(String holder, double balance, String type) {\n        this.holder = holder;\n        this.balance = balance;\n        this.type = type;\n    }\n\n    void display() {\n        System.out.println(holder + \" | \" + balance + \" | \" + type);\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        BankAccount a1 = new BankAccount();\n        BankAccount a2 = new BankAccount(\"Arjun\");\n        BankAccount a3 = new BankAccount(\"Kavya\", 5000.0);\n        BankAccount a4 = new BankAccount(\"Ravi\", 10000.0, \"Current\");\n\n        a1.display();\n        a2.display();\n        a3.display();\n        a4.display();\n    }\n}",
+        "language": "java",
+        "explanation": "The <code>BankAccount</code> class has four constructors with different parameter counts. Each constructor delegates to the most specific one using <code>this()</code>. This allows creating objects with varying levels of initialization. Constructor overloading is a form of compile-time polymorphism.",
+        "output": "Unknown | 0.0 | Savings\nArjun | 0.0 | Savings\nKavya | 5000.0 | Savings\nRavi | 10000.0 | Current"
+      },
+      {
+        "title": "Overloading with Type Promotion",
+        "code": "class TypeDemo {\n    void show(int a) {\n        System.out.println(\"int: \" + a);\n    }\n\n    void show(long a) {\n        System.out.println(\"long: \" + a);\n    }\n\n    void show(double a) {\n        System.out.println(\"double: \" + a);\n    }\n\n    void show(String a) {\n        System.out.println(\"String: \" + a);\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        TypeDemo td = new TypeDemo();\n        td.show(10);        // int\n        td.show(10L);       // long\n        td.show(10.5);      // double\n        td.show(\"Hello\");   // String\n\n        byte b = 5;\n        td.show(b);         // byte promoted to int\n\n        float f = 3.14f;\n        td.show(f);         // float promoted to double\n    }\n}",
+        "language": "java",
+        "explanation": "When an exact match is not found, Java promotes smaller types to larger compatible types. A <code>byte</code> is promoted to <code>int</code>, and a <code>float</code> is promoted to <code>double</code>. This automatic type promotion determines which overloaded method is selected at compile time.",
+        "output": "int: 10\nlong: 10\ndouble: 10.5\nString: Hello\nint: 5\ndouble: 3.140000104904175"
+      },
+      {
+        "title": "instanceof and Safe Downcasting Pattern",
+        "code": "class Vehicle {\n    void start() { System.out.println(\"Vehicle starts\"); }\n}\n\nclass Car extends Vehicle {\n    @Override\n    void start() { System.out.println(\"Car starts with ignition\"); }\n    void openTrunk() { System.out.println(\"Trunk opened\"); }\n}\n\nclass Bike extends Vehicle {\n    @Override\n    void start() { System.out.println(\"Bike kick-started\"); }\n    void doWheelie() { System.out.println(\"Wheelie!\"); }\n}\n\npublic class Main {\n    static void process(Vehicle v) {\n        v.start();  // Polymorphic call\n\n        if (v instanceof Car) {\n            Car c = (Car) v;\n            c.openTrunk();\n        } else if (v instanceof Bike) {\n            Bike b = (Bike) v;\n            b.doWheelie();\n        }\n    }\n\n    public static void main(String[] args) {\n        process(new Car());\n        System.out.println(\"---\");\n        process(new Bike());\n        System.out.println(\"---\");\n        process(new Vehicle());\n    }\n}",
+        "language": "java",
+        "explanation": "The <code>process</code> method accepts any <code>Vehicle</code>. It calls the polymorphic <code>start()</code> method first, then uses <code>instanceof</code> to safely downcast and call subclass-specific methods. For a plain <code>Vehicle</code>, neither <code>instanceof</code> check passes, so only <code>start()</code> runs.",
+        "output": "Car starts with ignition\nTrunk opened\n---\nBike kick-started\nWheelie!\n---\nVehicle starts"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Confusing Overloading with Overriding",
+        "wrongCode": "class Parent {\n    void display(int a) {\n        System.out.println(\"Parent: \" + a);\n    }\n}\n\nclass Child extends Parent {\n    // This is overloading, NOT overriding!\n    void display(String a) {\n        System.out.println(\"Child: \" + a);\n    }\n}\n\nParent p = new Child();\np.display(\"Hello\");  // Compilation error!",
+        "error": "Compilation error: incompatible types. Parent has no display(String) method.",
+        "correctCode": "class Parent {\n    void display(int a) {\n        System.out.println(\"Parent: \" + a);\n    }\n}\n\nclass Child extends Parent {\n    @Override\n    void display(int a) {  // Same parameter type = overriding\n        System.out.println(\"Child: \" + a);\n    }\n}\n\nParent p = new Child();\np.display(10);  // Child: 10",
+        "explanation": "For overriding, the method signature (name + parameter types) must be identical. Changing the parameter type from <code>int</code> to <code>String</code> creates a new overloaded method in the child class, not an override. The parent reference only sees the parent's method."
+      },
+      {
+        "title": "Trying to Override Static Methods",
+        "wrongCode": "class Parent {\n    static void greet() {\n        System.out.println(\"Hello from Parent\");\n    }\n}\n\nclass Child extends Parent {\n    @Override  // Compilation error!\n    static void greet() {\n        System.out.println(\"Hello from Child\");\n    }\n}",
+        "error": "Compilation error: static methods cannot be overridden. The @Override annotation triggers the error.",
+        "correctCode": "class Parent {\n    static void greet() {\n        System.out.println(\"Hello from Parent\");\n    }\n}\n\nclass Child extends Parent {\n    // Method hiding (not overriding). No @Override.\n    static void greet() {\n        System.out.println(\"Hello from Child\");\n    }\n}\n\n// Static methods are resolved by reference type, not object type\nParent p = new Child();\np.greet();  // Hello from Parent (method hiding, not polymorphism)",
+        "explanation": "Static methods belong to the class, not to instances. They cannot be overridden, only hidden. The method called depends on the reference type, not the object type. This is NOT polymorphism."
+      },
+      {
+        "title": "Downcasting Without instanceof Check",
+        "wrongCode": "class Animal { }\nclass Dog extends Animal {\n    void bark() { System.out.println(\"Woof!\"); }\n}\nclass Cat extends Animal { }\n\nAnimal a = new Cat();\nDog d = (Dog) a;  // ClassCastException at runtime!\nd.bark();",
+        "error": "java.lang.ClassCastException: Cat cannot be cast to Dog",
+        "correctCode": "Animal a = new Cat();\n\nif (a instanceof Dog) {\n    Dog d = (Dog) a;\n    d.bark();\n} else {\n    System.out.println(\"Not a Dog, cannot downcast\");\n}",
+        "explanation": "A <code>Cat</code> object cannot be cast to <code>Dog</code>. The compiler allows the cast (since both are <code>Animal</code> subtypes), but the JVM throws <code>ClassCastException</code> at runtime. Always use <code>instanceof</code> before downcasting."
+      },
+      {
+        "title": "Expecting Overriding to Work with Different Return Types",
+        "wrongCode": "class Parent {\n    int getValue() { return 10; }\n}\n\nclass Child extends Parent {\n    @Override\n    String getValue() { return \"Ten\"; }  // Compilation error!\n}",
+        "error": "Compilation error: return type String is not compatible with int.",
+        "correctCode": "class Parent {\n    Number getValue() { return 10; }\n}\n\nclass Child extends Parent {\n    @Override\n    Integer getValue() { return 20; }  // Covariant return (Integer extends Number)\n}",
+        "explanation": "Overriding requires the same return type, or a covariant return type (a subtype of the original return type). <code>String</code> is not related to <code>int</code> at all. <code>Integer</code> is a subclass of <code>Number</code>, so covariant return works."
+      },
+      {
+        "title": "Accessing Child-Only Methods Through Parent Reference",
+        "wrongCode": "class Animal {\n    void eat() { System.out.println(\"Eating\"); }\n}\n\nclass Dog extends Animal {\n    void fetch() { System.out.println(\"Fetching\"); }\n}\n\nAnimal a = new Dog();\na.eat();    // Works\na.fetch();  // Compilation error!",
+        "error": "Compilation error: cannot find symbol method fetch() in Animal.",
+        "correctCode": "Animal a = new Dog();\na.eat();  // Works (declared in Animal)\n\n// Must downcast to access Dog-specific methods\nif (a instanceof Dog) {\n    Dog d = (Dog) a;\n    d.fetch();  // Works\n}",
+        "explanation": "A parent reference can only access methods declared in the parent class. Even though the actual object is a <code>Dog</code>, the compiler only sees the <code>Animal</code> type. To call <code>fetch()</code>, you must downcast to <code>Dog</code>."
+      },
+      {
+        "title": "Overloading Based Only on Return Type",
+        "wrongCode": "class Demo {\n    int compute(int a) { return a * 2; }\n    double compute(int a) { return a * 2.0; }  // Compilation error!\n}",
+        "error": "Compilation error: method compute(int) is already defined in class Demo.",
+        "correctCode": "class Demo {\n    int computeInt(int a) { return a * 2; }\n    double computeDouble(int a) { return a * 2.0; }\n\n    // Or overload by changing parameter types\n    int compute(int a) { return a * 2; }\n    double compute(double a) { return a * 2.0; }\n}",
+        "explanation": "Methods cannot be overloaded by return type alone. The compiler determines which method to call based on the argument list, not the return type. If the parameter lists are identical, Java cannot distinguish between them."
+      }
+    ],
+    "summary": [
+      "Polymorphism means 'many forms.' In Java, it allows one entity (method or reference) to behave differently based on context. It is a core OOP pillar.",
+      "Compile-time polymorphism (static binding) is achieved through method overloading. The compiler selects the correct method based on argument types and count.",
+      "Runtime polymorphism (dynamic binding) is achieved through method overriding. The JVM selects the correct method based on the actual object type at runtime.",
+      "Method overloading requires methods to differ in parameter list (number, type, or order). Return type alone is NOT sufficient for overloading.",
+      "Method overriding requires the child method to have the same name, same parameters, and same (or covariant) return type as the parent method.",
+      "Upcasting (Parent ref = new Child()) is implicit and safe. The reference can only call methods declared in the parent class, but overridden versions in the child execute.",
+      "Downcasting (Child ref = (Child) parentRef) is explicit and risky. Always use instanceof before downcasting to prevent ClassCastException.",
+      "Dynamic method dispatch is the mechanism where the JVM determines at runtime which overridden method to call based on the actual object type, not the reference type.",
+      "Static methods cannot be overridden, only hidden. The method called depends on the reference type, not the object type. This is NOT polymorphism.",
+      "Private and final methods cannot be overridden. The @Override annotation helps catch overriding errors at compile time.",
+      "Polymorphism enables extensible design: a method accepting a parent type works with all current and future child types without modification (Open-Closed Principle)."
+    ]
+  },
+  "relatedTopics": ["inheritance-in-java", "abstraction-and-interfaces"],
+  "practice": {
+    "totalQuestions": 50,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>class Animal {\n    void sound() { System.out.println(\"Animal sound\"); }\n}\nclass Dog extends Animal {\n    void sound() { System.out.println(\"Bark\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Animal a = new Dog();\n        a.sound();\n    }\n}</code></pre>",
+        "hint": "The reference type is Animal, but the actual object is Dog. Which sound() runs?",
+        "answer": "<code>Bark</code>",
+        "explanation": "This is runtime polymorphism. The reference is <code>Animal</code>, but the actual object is <code>Dog</code>. Since <code>Dog</code> overrides <code>sound()</code>, the JVM calls <code>Dog</code>'s version at runtime."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Calc {\n    int add(int a, int b) { return a + b; }\n    double add(double a, double b) { return a + b; }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Calc c = new Calc();\n        System.out.println(c.add(3, 4));\n        System.out.println(c.add(3.0, 4.0));\n    }\n}</code></pre>",
+        "hint": "The compiler selects the matching method based on argument types.",
+        "answer": "<code>7</code><br><code>7.0</code>",
+        "explanation": "<code>add(3, 4)</code> calls <code>add(int, int)</code> returning 7. <code>add(3.0, 4.0)</code> calls <code>add(double, double)</code> returning 7.0. The compiler resolves the correct overloaded method at compile time."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class A {\n    void show() { System.out.println(\"A\"); }\n}\nclass B extends A {\n    void show() { System.out.println(\"B\"); }\n}\nclass C extends B {\n    void show() { System.out.println(\"C\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        A obj = new C();\n        obj.show();\n    }\n}</code></pre>",
+        "hint": "C extends B extends A. The actual object is C.",
+        "answer": "<code>C</code>",
+        "explanation": "The reference type is <code>A</code> but the actual object is <code>C</code>. <code>C</code> overrides <code>show()</code>, so the JVM calls <code>C</code>'s version. It does not matter that <code>B</code> also overrides it; the most specific (actual object) version runs."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Parent {\n    void greet() { System.out.println(\"Hello from Parent\"); }\n}\nclass Child extends Parent {\n}\npublic class Main {\n    public static void main(String[] args) {\n        Parent p = new Child();\n        p.greet();\n    }\n}</code></pre>",
+        "hint": "Child does not override greet(). What happens?",
+        "answer": "<code>Hello from Parent</code>",
+        "explanation": "<code>Child</code> does not override <code>greet()</code>, so it inherits the parent's version. Even with upcasting, the parent's method runs since there is no overridden version in <code>Child</code>."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Demo {\n    void print(int a) { System.out.println(\"int: \" + a); }\n    void print(String a) { System.out.println(\"String: \" + a); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Demo d = new Demo();\n        d.print(10);\n        d.print(\"Arjun\");\n    }\n}</code></pre>",
+        "hint": "Method overloading: the compiler picks by argument type.",
+        "answer": "<code>int: 10</code><br><code>String: Arjun</code>",
+        "explanation": "<code>print(10)</code> matches <code>print(int)</code>. <code>print(\"Arjun\")</code> matches <code>print(String)</code>. The compiler selects the correct overloaded method based on argument type."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Vehicle {\n    void start() { System.out.println(\"Vehicle\"); }\n}\nclass Car extends Vehicle {\n    void start() { System.out.println(\"Car\"); }\n    void openTrunk() { System.out.println(\"Trunk opened\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Vehicle v = new Car();\n        v.start();\n        System.out.println(v instanceof Car);\n        System.out.println(v instanceof Vehicle);\n    }\n}</code></pre>",
+        "hint": "instanceof checks the actual object type, not the reference type.",
+        "answer": "<code>Car</code><br><code>true</code><br><code>true</code>",
+        "explanation": "<code>v.start()</code> calls <code>Car</code>'s overridden version. <code>v instanceof Car</code> is <code>true</code> because the actual object is <code>Car</code>. <code>v instanceof Vehicle</code> is also <code>true</code> because <code>Car</code> is a subclass of <code>Vehicle</code>."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Base {\n    int x = 10;\n    void show() { System.out.println(x); }\n}\nclass Derived extends Base {\n    int x = 20;\n    void show() { System.out.println(x); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Base b = new Derived();\n        System.out.println(b.x);\n        b.show();\n    }\n}</code></pre>",
+        "hint": "Fields are resolved at compile time (by reference type). Methods are resolved at runtime (by object type).",
+        "answer": "<code>10</code><br><code>20</code>",
+        "explanation": "Fields are NOT polymorphic. <code>b.x</code> uses the reference type (<code>Base</code>), so it prints 10. Methods ARE polymorphic. <code>b.show()</code> uses the actual object type (<code>Derived</code>), so it prints 20. This is a common interview trick question."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class A {\n    void show(int a) { System.out.println(\"A-int: \" + a); }\n}\nclass B extends A {\n    void show(int a) { System.out.println(\"B-int: \" + a); }\n    void show(String a) { System.out.println(\"B-String: \" + a); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        A obj = new B();\n        obj.show(5);\n    }\n}</code></pre>",
+        "hint": "The reference type is A. Which methods can A see?",
+        "answer": "<code>B-int: 5</code>",
+        "explanation": "The reference type is <code>A</code>, which only declares <code>show(int)</code>. <code>B</code> overrides <code>show(int)</code>, so dynamic dispatch calls <code>B</code>'s version. <code>show(String)</code> in <code>B</code> is an overloaded method, invisible through the <code>A</code> reference."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Parent {\n    static void display() { System.out.println(\"Parent static\"); }\n    void show() { System.out.println(\"Parent instance\"); }\n}\nclass Child extends Parent {\n    static void display() { System.out.println(\"Child static\"); }\n    void show() { System.out.println(\"Child instance\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Parent p = new Child();\n        p.display();\n        p.show();\n    }\n}</code></pre>",
+        "hint": "Static methods are resolved by reference type. Instance methods are resolved by object type.",
+        "answer": "<code>Parent static</code><br><code>Child instance</code>",
+        "explanation": "<code>display()</code> is static, so it is resolved by the reference type (<code>Parent</code>). This is method hiding, not overriding. <code>show()</code> is an instance method, so dynamic dispatch calls <code>Child</code>'s overridden version."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Printer {\n    void print(Object o) { System.out.println(\"Object: \" + o); }\n    void print(String s) { System.out.println(\"String: \" + s); }\n    void print(int i) { System.out.println(\"int: \" + i); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Printer p = new Printer();\n        p.print(\"Hello\");\n        p.print(42);\n        p.print((Object) \"World\");\n    }\n}</code></pre>",
+        "hint": "Overloading is resolved at compile time based on the compile-time type of arguments.",
+        "answer": "<code>String: Hello</code><br><code>int: 42</code><br><code>Object: World</code>",
+        "explanation": "\"Hello\" matches <code>print(String)</code>. 42 matches <code>print(int)</code>. Casting \"World\" to <code>Object</code> makes the compile-time type <code>Object</code>, so <code>print(Object)</code> is called. Overloading is resolved at compile time."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Shape {\n    void draw() { System.out.println(\"Shape\"); }\n}\nclass Circle extends Shape {\n    void draw() { System.out.println(\"Circle\"); }\n}\nclass ColoredCircle extends Circle {\n    void draw() { System.out.println(\"Colored Circle\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Shape s1 = new Circle();\n        Shape s2 = new ColoredCircle();\n        Circle c1 = new ColoredCircle();\n        \n        s1.draw();\n        s2.draw();\n        c1.draw();\n    }\n}</code></pre>",
+        "hint": "Each call resolves to the actual object type's draw() method.",
+        "answer": "<code>Circle</code><br><code>Colored Circle</code><br><code>Colored Circle</code>",
+        "explanation": "<code>s1</code> is a <code>Circle</code> object, so <code>Circle.draw()</code> runs. <code>s2</code> and <code>c1</code> are both <code>ColoredCircle</code> objects, so <code>ColoredCircle.draw()</code> runs regardless of the reference type."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class A {\n    void method() { System.out.println(\"A.method\"); }\n}\nclass B extends A {\n    void method() { System.out.println(\"B.method\"); }\n}\nclass C extends A {\n    void method() { System.out.println(\"C.method\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        A[] arr = { new A(), new B(), new C(), new B() };\n        for (A a : arr) {\n            a.method();\n        }\n    }\n}</code></pre>",
+        "hint": "Each element in the array is a different actual type.",
+        "answer": "<code>A.method</code><br><code>B.method</code><br><code>C.method</code><br><code>B.method</code>",
+        "explanation": "The array holds <code>A</code>, <code>B</code>, <code>C</code>, <code>B</code> objects. Dynamic dispatch calls the overridden <code>method()</code> for each object's actual type. This demonstrates polymorphism with arrays."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class Parent {\n    int value() { return 10; }\n    void print() { System.out.println(value()); }\n}\nclass Child extends Parent {\n    int value() { return 20; }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Parent p = new Child();\n        p.print();\n    }\n}</code></pre>",
+        "hint": "print() is inherited by Child. But value() is overridden. Which value() does print() call?",
+        "answer": "<code>20</code>",
+        "explanation": "<code>p.print()</code> calls the inherited <code>print()</code> method. Inside <code>print()</code>, <code>value()</code> is called on <code>this</code>. Since the actual object is <code>Child</code> and <code>value()</code> is overridden in <code>Child</code>, it returns 20. Dynamic dispatch applies even within inherited methods."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class Base {\n    void display(int a) { System.out.println(\"Base-int\"); }\n    void display(double a) { System.out.println(\"Base-double\"); }\n}\nclass Child extends Base {\n    void display(int a) { System.out.println(\"Child-int\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Base b = new Child();\n        b.display(10);\n        b.display(10.5);\n    }\n}</code></pre>",
+        "hint": "Child only overrides display(int). display(double) is inherited.",
+        "answer": "<code>Child-int</code><br><code>Base-double</code>",
+        "explanation": "<code>display(10)</code>: the argument is <code>int</code>, matching <code>display(int)</code>. <code>Child</code> overrides it, so <code>Child-int</code> prints. <code>display(10.5)</code>: the argument is <code>double</code>, matching <code>display(double)</code>. <code>Child</code> does not override it, so the inherited <code>Base-double</code> runs."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class A {\n    A get() {\n        System.out.println(\"A's get\");\n        return this;\n    }\n}\nclass B extends A {\n    B get() {\n        System.out.println(\"B's get\");\n        return this;\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        A obj = new B();\n        obj.get();\n    }\n}</code></pre>",
+        "hint": "B's get() returns B instead of A. Is this a valid override?",
+        "answer": "<code>B's get</code>",
+        "explanation": "This is a covariant return type. <code>B</code>'s <code>get()</code> returns <code>B</code> (a subtype of <code>A</code>), which is a valid override. Since the actual object is <code>B</code>, dynamic dispatch calls <code>B</code>'s version."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class Animal {\n    Animal() { System.out.println(\"Animal constructor\"); }\n    void eat() { System.out.println(\"Animal eats\"); }\n}\nclass Dog extends Animal {\n    Dog() { System.out.println(\"Dog constructor\"); }\n    void eat() { System.out.println(\"Dog eats\"); }\n    void bark() { System.out.println(\"Dog barks\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Animal a = new Dog();\n        a.eat();\n        System.out.println(a instanceof Animal);\n        System.out.println(a instanceof Dog);\n    }\n}</code></pre>",
+        "hint": "Constructors run during object creation. Then polymorphic method call. Then instanceof checks.",
+        "answer": "<code>Animal constructor</code><br><code>Dog constructor</code><br><code>Dog eats</code><br><code>true</code><br><code>true</code>",
+        "explanation": "Creating <code>new Dog()</code> calls <code>Animal</code>'s constructor first, then <code>Dog</code>'s. <code>a.eat()</code> calls <code>Dog</code>'s overridden version. The object is both an <code>Animal</code> and a <code>Dog</code>, so both <code>instanceof</code> checks return <code>true</code>."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class X {\n    void method(X x) { System.out.println(\"X-X\"); }\n    void method(Y y) { System.out.println(\"X-Y\"); }\n}\nclass Y extends X {\n    void method(X x) { System.out.println(\"Y-X\"); }\n    void method(Y y) { System.out.println(\"Y-Y\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        X obj = new Y();\n        obj.method(new Y());\n    }\n}</code></pre>",
+        "hint": "Overloading is resolved at compile time (reference types). Overriding is resolved at runtime.",
+        "answer": "<code>Y-Y</code>",
+        "explanation": "At compile time, <code>obj</code> is type <code>X</code> and the argument is type <code>Y</code>. The compiler selects <code>method(Y)</code> (overloading resolution). At runtime, <code>obj</code> is a <code>Y</code> object, so <code>Y</code>'s overriding <code>method(Y)</code> runs, printing <code>Y-Y</code>."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class Base {\n    void show() {\n        System.out.println(\"Base show\");\n        display();\n    }\n    void display() {\n        System.out.println(\"Base display\");\n    }\n}\nclass Derived extends Base {\n    void display() {\n        System.out.println(\"Derived display\");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Base b = new Derived();\n        b.show();\n    }\n}</code></pre>",
+        "hint": "show() is not overridden, but it calls display() which IS overridden.",
+        "answer": "<code>Base show</code><br><code>Derived display</code>",
+        "explanation": "<code>b.show()</code> calls the inherited <code>show()</code> from <code>Base</code>, printing \"Base show\". Inside <code>show()</code>, <code>display()</code> is called. Since the actual object is <code>Derived</code> and <code>display()</code> is overridden, <code>Derived</code>'s version runs."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Greet {\n    void hello(String name) { System.out.println(\"Hello, \" + name); }\n    void hello(String name, int times) {\n        for (int i = 0; i < times; i++) {\n            System.out.println(\"Hi, \" + name);\n        }\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Greet g = new Greet();\n        g.hello(\"Kavya\");\n        g.hello(\"Ravi\", 2);\n    }\n}</code></pre>",
+        "hint": "Two overloaded methods with different parameter counts.",
+        "answer": "<code>Hello, Kavya</code><br><code>Hi, Ravi</code><br><code>Hi, Ravi</code>",
+        "explanation": "<code>hello(\"Kavya\")</code> matches the one-parameter version. <code>hello(\"Ravi\", 2)</code> matches the two-parameter version, which loops twice."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Animal {\n    String type = \"Animal\";\n    void identify() { System.out.println(type); }\n}\nclass Cat extends Animal {\n    String type = \"Cat\";\n    void identify() { System.out.println(type); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Cat c = new Cat();\n        c.identify();\n        System.out.println(c.type);\n    }\n}</code></pre>",
+        "hint": "When using the actual type as reference, no polymorphism ambiguity arises.",
+        "answer": "<code>Cat</code><br><code>Cat</code>",
+        "explanation": "The reference type is <code>Cat</code> (not upcasted). <code>identify()</code> calls <code>Cat</code>'s version which prints <code>Cat</code>'s <code>type</code> field. <code>c.type</code> also refers to <code>Cat</code>'s field. Both print \"Cat\"."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Num {\n    void show(int a) { System.out.println(\"int\"); }\n    void show(long a) { System.out.println(\"long\"); }\n    void show(float a) { System.out.println(\"float\"); }\n    void show(double a) { System.out.println(\"double\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Num n = new Num();\n        byte b = 5;\n        n.show(b);\n        n.show(5L);\n        n.show(5.0f);\n        n.show(5.0);\n    }\n}</code></pre>",
+        "hint": "byte is promoted to int (smallest compatible type).",
+        "answer": "<code>int</code><br><code>long</code><br><code>float</code><br><code>double</code>",
+        "explanation": "<code>byte</code> is promoted to <code>int</code> (the smallest matching type). <code>5L</code> is <code>long</code>. <code>5.0f</code> is <code>float</code>. <code>5.0</code> is <code>double</code>. Java picks the most specific matching overloaded method."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Parent {\n    void show() { System.out.println(\"Parent\"); }\n}\nclass ChildA extends Parent {\n    void show() { System.out.println(\"ChildA\"); }\n}\nclass ChildB extends Parent {\n    void show() { System.out.println(\"ChildB\"); }\n}\npublic class Main {\n    static void display(Parent p) { p.show(); }\n    public static void main(String[] args) {\n        display(new Parent());\n        display(new ChildA());\n        display(new ChildB());\n    }\n}</code></pre>",
+        "hint": "The display method accepts Parent but receives different subtypes.",
+        "answer": "<code>Parent</code><br><code>ChildA</code><br><code>ChildB</code>",
+        "explanation": "The <code>display</code> method accepts a <code>Parent</code> reference. Each call passes a different subtype. Dynamic dispatch ensures the correct overridden <code>show()</code> runs for each actual object type."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between compile-time polymorphism and runtime polymorphism?",
+        "hint": "Think about when the decision is made: during compilation or during execution.",
+        "answer": "Compile-time polymorphism (method overloading) is resolved by the compiler based on argument types and count. Runtime polymorphism (method overriding) is resolved by the JVM at runtime based on the actual object type. Overloading is within the same class; overriding is across parent-child classes.",
+        "explanation": "Overloading: same method name, different parameters, same class, resolved at compile time. Overriding: same method name, same parameters, parent-child classes, resolved at runtime via dynamic method dispatch."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class A {\n    void test(Object o) { System.out.println(\"Object\"); }\n    void test(String s) { System.out.println(\"String\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        A a = new A();\n        a.test(null);\n    }\n}</code></pre>",
+        "hint": "null can match both Object and String. Which is more specific?",
+        "answer": "<code>String</code>",
+        "explanation": "When <code>null</code> matches multiple overloaded methods, Java selects the most specific type. <code>String</code> is more specific than <code>Object</code> (since String extends Object), so <code>test(String)</code> is called."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class A {\n    int x = 10;\n    void show() { System.out.println(\"A: \" + x); }\n}\nclass B extends A {\n    int x = 20;\n}\npublic class Main {\n    public static void main(String[] args) {\n        A obj = new B();\n        System.out.println(obj.x);\n        obj.show();\n    }\n}</code></pre>",
+        "hint": "B does not override show(). Fields are not polymorphic.",
+        "answer": "<code>10</code><br><code>A: 10</code>",
+        "explanation": "<code>obj.x</code> uses the reference type <code>A</code>, so it accesses <code>A</code>'s <code>x</code> (10). <code>obj.show()</code> calls <code>A</code>'s <code>show()</code> (not overridden by <code>B</code>), which prints <code>A</code>'s <code>x</code> (10). <code>B</code>'s <code>x</code> shadows but does not replace <code>A</code>'s."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Can we override a <code>private</code> method in Java?",
+        "hint": "Private methods are not visible to subclasses.",
+        "answer": "No, private methods cannot be overridden. They are not visible to subclasses. If a subclass defines a method with the same name and parameters as a parent's private method, it is a completely new method, not an override.",
+        "explanation": "Private methods are bound at compile time. Since subclasses cannot see them, there is no overriding relationship. The <code>@Override</code> annotation on such a method would cause a compilation error."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class Base {\n    Base() {\n        System.out.println(\"Base constructor\");\n        show();\n    }\n    void show() { System.out.println(\"Base show\"); }\n}\nclass Child extends Base {\n    int x = 10;\n    Child() {\n        System.out.println(\"Child constructor, x=\" + x);\n    }\n    void show() { System.out.println(\"Child show, x=\" + x); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Child c = new Child();\n    }\n}</code></pre>",
+        "hint": "The Base constructor runs first. It calls show(). Which show() runs? What is x at that point?",
+        "answer": "<code>Base constructor</code><br><code>Child show, x=0</code><br><code>Child constructor, x=10</code>",
+        "explanation": "The <code>Base</code> constructor runs first and calls <code>show()</code>. Because the actual object is <code>Child</code>, <code>Child</code>'s overridden <code>show()</code> runs. But <code>Child</code>'s constructor has not run yet, so <code>x</code> is still 0 (default int value). Then <code>Child</code>'s constructor runs, and <code>x</code> is 10. This is why calling overridable methods from constructors is dangerous."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class Animal {\n    void eat() { System.out.println(\"Animal eats\"); }\n}\nclass Dog extends Animal {\n    void eat() { System.out.println(\"Dog eats\"); }\n    void bark() { System.out.println(\"Dog barks\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Animal a = new Dog();\n        a.eat();\n\n        Dog d = (Dog) a;\n        d.eat();\n        d.bark();\n\n        Animal a2 = (Animal) d;\n        a2.eat();\n    }\n}</code></pre>",
+        "hint": "All references point to the same Dog object. Casting does not change the object.",
+        "answer": "<code>Dog eats</code><br><code>Dog eats</code><br><code>Dog barks</code><br><code>Dog eats</code>",
+        "explanation": "All variables (<code>a</code>, <code>d</code>, <code>a2</code>) reference the same <code>Dog</code> object. Casting changes the reference type but not the object. <code>eat()</code> is overridden, so <code>Dog</code>'s version always runs regardless of reference type."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between method hiding and method overriding?",
+        "hint": "One involves static methods, the other involves instance methods.",
+        "answer": "Method overriding applies to instance methods and uses dynamic dispatch (runtime resolution based on object type). Method hiding applies to static methods, where the child class defines a static method with the same signature. Static methods are resolved by the reference type at compile time, not the object type.",
+        "explanation": "With overriding: <code>Parent p = new Child(); p.instanceMethod();</code> calls Child's version. With hiding: <code>Parent p = new Child(); p.staticMethod();</code> calls Parent's version. This is why static methods are not truly polymorphic."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class A {\n    void method() { System.out.println(\"A\"); }\n}\nclass B extends A {\n    void method() { System.out.println(\"B\"); }\n}\nclass C extends B {\n    void method() { System.out.println(\"C\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        A obj = new C();\n        System.out.println(obj instanceof A);\n        System.out.println(obj instanceof B);\n        System.out.println(obj instanceof C);\n        System.out.println(obj instanceof Object);\n    }\n}</code></pre>",
+        "hint": "instanceof checks if the object IS-A certain type (including all ancestors).",
+        "answer": "<code>true</code><br><code>true</code><br><code>true</code><br><code>true</code>",
+        "explanation": "A <code>C</code> object is an instance of <code>C</code>, <code>B</code>, <code>A</code>, and <code>Object</code> (all its ancestors). The <code>instanceof</code> operator checks the actual object type against the entire class hierarchy."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is polymorphism in Java?",
+        "options": [
+          "The ability of a class to have multiple constructors",
+          "The ability of one entity to take many forms",
+          "The ability to create multiple objects",
+          "The ability to hide implementation details"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Polymorphism literally means 'many forms.' In Java, it refers to methods or references that can behave differently based on the context (argument types, actual object type)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which of the following is compile-time polymorphism?",
+        "options": [
+          "Method overriding",
+          "Method overloading",
+          "Dynamic method dispatch",
+          "Upcasting"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Method overloading is resolved at compile time based on argument types and count. Method overriding and dynamic dispatch are runtime polymorphism."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is required for method overloading?",
+        "options": [
+          "Different return types",
+          "Different parameter lists",
+          "Different access modifiers",
+          "A parent-child relationship"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Overloaded methods must have different parameter lists (number, type, or order of parameters). Return type alone does not qualify as overloading."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is upcasting in Java?",
+        "options": [
+          "Casting a parent reference to a child type",
+          "Casting a child object to a parent reference",
+          "Casting between unrelated types",
+          "Converting primitive types"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Upcasting is assigning a child class object to a parent class reference: <code>Animal a = new Dog();</code>. It is implicit and always safe."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What annotation should you use when overriding a method?",
+        "options": [
+          "@Overload",
+          "@Override",
+          "@Override is mandatory",
+          "@Super"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>@Override</code> annotation is recommended (but not mandatory) when overriding a method. It causes a compile-time error if the method does not actually override a parent method, catching mistakes early."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is dynamic method dispatch?",
+        "options": [
+          "Selecting an overloaded method at compile time",
+          "Resolving an overridden method at runtime based on the actual object type",
+          "Calling a static method through a reference",
+          "Dispatching methods to multiple threads"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Dynamic method dispatch is the mechanism where the JVM determines at runtime which overridden method to call, based on the actual object type rather than the reference type."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Which of these CANNOT be overridden in Java?",
+        "options": [
+          "public methods",
+          "protected methods",
+          "static methods",
+          "default (package-private) methods"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Static methods belong to the class, not instances. They cannot be overridden, only hidden. Public, protected, and default methods can all be overridden (assuming visibility)."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What happens when you downcast without checking instanceof?",
+        "options": [
+          "Compilation error always",
+          "It works fine always",
+          "ClassCastException if the object is not the target type",
+          "NullPointerException"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Downcasting compiles successfully (the compiler trusts you). But at runtime, if the actual object is not compatible with the target type, the JVM throws <code>ClassCastException</code>."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is a covariant return type?",
+        "options": [
+          "Returning void instead of a type",
+          "Returning a parent type in the child's overriding method",
+          "Returning a subtype of the parent method's return type in the overriding method",
+          "Returning multiple values"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A covariant return type allows the overriding method to return a subtype of the parent method's return type. For example, if the parent returns <code>Number</code>, the child can return <code>Integer</code>."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "In <code>Parent p = new Child();</code>, which class determines the methods that can be called?",
+        "options": [
+          "Child (actual object)",
+          "Parent (reference type) determines callable methods, Child determines which version runs",
+          "Both equally",
+          "Object class"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The reference type (<code>Parent</code>) determines which methods can be called (compilation check). The actual object type (<code>Child</code>) determines which version of an overridden method runs (runtime dispatch)."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Are fields (instance variables) polymorphic in Java?",
+        "options": [
+          "Yes, like methods",
+          "No, fields are resolved by reference type at compile time",
+          "Only static fields are polymorphic",
+          "Only final fields are polymorphic"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Fields are NOT polymorphic. They are resolved at compile time based on the reference type. Only instance methods support runtime polymorphism through dynamic dispatch."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class A { void m(A a) { System.out.println(\"AA\"); } }\nclass B extends A { void m(B b) { System.out.println(\"BB\"); } }\nA obj = new B(); obj.m(new B());</code></pre>",
+        "options": [
+          "AA",
+          "BB",
+          "Compilation error",
+          "Runtime exception"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>B</code>'s <code>m(B)</code> does not override <code>A</code>'s <code>m(A)</code> (different parameter type). It is an overloaded method. The reference type <code>A</code> only sees <code>m(A)</code>. The argument <code>new B()</code> matches <code>m(A)</code> via upcasting. Since <code>B</code> does not override <code>m(A)</code>, the inherited <code>A</code>'s version runs."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Which is true about the <code>instanceof</code> operator?",
+        "options": [
+          "It checks the reference type",
+          "It returns true if the object is an instance of the class or any of its subclasses",
+          "It throws an exception for null",
+          "It only works with interfaces, not classes"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>instanceof</code> checks the actual object type against the specified class/interface, including all parent classes and implemented interfaces. It returns <code>false</code> for <code>null</code> (no exception)."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Why is calling an overridable method from a constructor considered bad practice?",
+        "options": [
+          "It causes a compilation error",
+          "The overriding method may access uninitialized child class fields",
+          "It makes the constructor slower",
+          "It breaks encapsulation"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When a parent constructor calls an overridable method, the child's overriding version runs (dynamic dispatch). But the child's constructor has not executed yet, so the child's fields are still at default values (0, null, false). This can lead to subtle bugs."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What happens if an overriding method has a MORE restrictive access modifier?",
+        "options": [
+          "It works fine",
+          "Runtime exception",
+          "Compilation error",
+          "Warning only"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> An overriding method cannot have a more restrictive access modifier than the overridden method. If the parent method is <code>public</code>, the child cannot make it <code>private</code> or <code>protected</code>. This is a compile-time error."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Shape Area Calculator",
+        "difficulty": "Easy",
+        "description": "Create a base class Shape with a method area() returning 0. Create subclasses Circle (takes radius), Rectangle (takes width, height), and Triangle (takes base, height). Override area() in each. Store all three in a Shape array and print each area using a loop.",
+        "sampleInput": "Circle radius=5, Rectangle 4x6, Triangle base=3 height=8",
+        "sampleOutput": "Circle area: 78.54\nRectangle area: 24.00\nTriangle area: 12.00",
+        "constraints": "Use polymorphism with a Shape array. Use @Override annotation.",
+        "solution": "class Shape {\n    double area() { return 0; }\n    String name() { return \"Shape\"; }\n}\n\nclass Circle extends Shape {\n    double radius;\n    Circle(double r) { this.radius = r; }\n    @Override double area() { return Math.PI * radius * radius; }\n    @Override String name() { return \"Circle\"; }\n}\n\nclass Rectangle extends Shape {\n    double w, h;\n    Rectangle(double w, double h) { this.w = w; this.h = h; }\n    @Override double area() { return w * h; }\n    @Override String name() { return \"Rectangle\"; }\n}\n\nclass Triangle extends Shape {\n    double base, height;\n    Triangle(double b, double h) { this.base = b; this.height = h; }\n    @Override double area() { return 0.5 * base * height; }\n    @Override String name() { return \"Triangle\"; }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Shape[] shapes = { new Circle(5), new Rectangle(4, 6), new Triangle(3, 8) };\n        for (Shape s : shapes) {\n            System.out.printf(\"%s area: %.2f%n\", s.name(), s.area());\n        }\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Payment Processor",
+        "difficulty": "Medium",
+        "description": "Create a base class Payment with a method process(double amount) that prints 'Processing payment of <amount>'. Create subclasses CreditCard, UPI, and NetBanking, each overriding process() with their own message. Write a method processAll(Payment[] payments, double amount) that calls process() on each.",
+        "sampleInput": "Amount = 1500.0",
+        "sampleOutput": "Credit Card: Processing 1500.0 with 2% surcharge\nUPI: Processing 1500.0 instantly\nNet Banking: Processing 1500.0 via bank transfer",
+        "constraints": "Use an array of Payment references. Demonstrate dynamic dispatch.",
+        "solution": "class Payment {\n    void process(double amount) {\n        System.out.println(\"Processing payment of \" + amount);\n    }\n}\n\nclass CreditCard extends Payment {\n    @Override\n    void process(double amount) {\n        System.out.println(\"Credit Card: Processing \" + amount + \" with 2% surcharge\");\n    }\n}\n\nclass UPI extends Payment {\n    @Override\n    void process(double amount) {\n        System.out.println(\"UPI: Processing \" + amount + \" instantly\");\n    }\n}\n\nclass NetBanking extends Payment {\n    @Override\n    void process(double amount) {\n        System.out.println(\"Net Banking: Processing \" + amount + \" via bank transfer\");\n    }\n}\n\npublic class Main {\n    static void processAll(Payment[] payments, double amount) {\n        for (Payment p : payments) {\n            p.process(amount);\n        }\n    }\n\n    public static void main(String[] args) {\n        Payment[] payments = { new CreditCard(), new UPI(), new NetBanking() };\n        processAll(payments, 1500.0);\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Overloaded Calculator",
+        "difficulty": "Easy",
+        "description": "Create a Calculator class with overloaded multiply methods: multiply(int, int), multiply(int, int, int), multiply(double, double), and multiply(int, double). Test each version.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "int x int: 20\nint x int x int: 60\ndouble x double: 7.5\nint x double: 12.5",
+        "constraints": "All methods should be named multiply. Demonstrate compile-time polymorphism.",
+        "solution": "class Calculator {\n    int multiply(int a, int b) { return a * b; }\n    int multiply(int a, int b, int c) { return a * b * c; }\n    double multiply(double a, double b) { return a * b; }\n    double multiply(int a, double b) { return a * b; }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Calculator c = new Calculator();\n        System.out.println(\"int x int: \" + c.multiply(4, 5));\n        System.out.println(\"int x int x int: \" + c.multiply(3, 4, 5));\n        System.out.println(\"double x double: \" + c.multiply(2.5, 3.0));\n        System.out.println(\"int x double: \" + c.multiply(5, 2.5));\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Animal Sound Simulator with instanceof",
+        "difficulty": "Medium",
+        "description": "Create Animal, Dog, Cat, and Parrot classes. Dog has fetch(), Cat has purr(), Parrot has mimic(). Write a method interact(Animal a) that calls the animal's sound() and then uses instanceof to call the subclass-specific method.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Bark!\nDog fetches ball\n---\nMeow!\nCat purrs\n---\nSquawk!\nParrot mimics speech",
+        "constraints": "Use instanceof for safe downcasting. Handle all subtypes.",
+        "solution": "class Animal {\n    void sound() { System.out.println(\"...\"); }\n}\nclass Dog extends Animal {\n    @Override void sound() { System.out.println(\"Bark!\"); }\n    void fetch() { System.out.println(\"Dog fetches ball\"); }\n}\nclass Cat extends Animal {\n    @Override void sound() { System.out.println(\"Meow!\"); }\n    void purr() { System.out.println(\"Cat purrs\"); }\n}\nclass Parrot extends Animal {\n    @Override void sound() { System.out.println(\"Squawk!\"); }\n    void mimic() { System.out.println(\"Parrot mimics speech\"); }\n}\n\npublic class Main {\n    static void interact(Animal a) {\n        a.sound();\n        if (a instanceof Dog) ((Dog) a).fetch();\n        else if (a instanceof Cat) ((Cat) a).purr();\n        else if (a instanceof Parrot) ((Parrot) a).mimic();\n    }\n    public static void main(String[] args) {\n        interact(new Dog());\n        System.out.println(\"---\");\n        interact(new Cat());\n        System.out.println(\"---\");\n        interact(new Parrot());\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Employee Salary System",
+        "difficulty": "Hard",
+        "description": "Create an abstract-like hierarchy: Employee (base, salary()), FullTime (fixed monthly salary), PartTime (hourly rate * hours), and Intern (stipend). Override salary() in each. Create an array of employees and compute total payroll using a loop.",
+        "sampleInput": "FullTime=50000, PartTime=500/hr*80hrs, Intern=15000",
+        "sampleOutput": "FullTime salary: 50000.0\nPartTime salary: 40000.0\nIntern salary: 15000.0\nTotal payroll: 105000.0",
+        "constraints": "Use polymorphism. Compute total using a single loop over Employee[].",
+        "solution": "class Employee {\n    String name;\n    Employee(String name) { this.name = name; }\n    double salary() { return 0; }\n}\n\nclass FullTime extends Employee {\n    double monthly;\n    FullTime(String name, double monthly) { super(name); this.monthly = monthly; }\n    @Override double salary() { return monthly; }\n}\n\nclass PartTime extends Employee {\n    double rate; int hours;\n    PartTime(String name, double rate, int hours) { super(name); this.rate = rate; this.hours = hours; }\n    @Override double salary() { return rate * hours; }\n}\n\nclass Intern extends Employee {\n    double stipend;\n    Intern(String name, double stipend) { super(name); this.stipend = stipend; }\n    @Override double salary() { return stipend; }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Employee[] team = {\n            new FullTime(\"Arjun\", 50000),\n            new PartTime(\"Kavya\", 500, 80),\n            new Intern(\"Ravi\", 15000)\n        };\n        double total = 0;\n        for (Employee e : team) {\n            System.out.println(e.name + \" salary: \" + e.salary());\n            total += e.salary();\n        }\n        System.out.println(\"Total payroll: \" + total);\n    }\n}"
+      }
+    ]
+  }
+}

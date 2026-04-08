@@ -1,0 +1,49 @@
+{
+  "language": "Java",
+  "slug": "java",
+  "audience": "college",
+  "ageRange": "17-22",
+  "tone": "technical, interview-focused, placement-oriented",
+  "index": {
+    "title": "Java Tutorial for Beginners to Advanced - Complete Chapter-by-Chapter Guide",
+    "description": "Learn Java from scratch with our free, detailed chapter-by-chapter guide. Each topic includes clear explanations, code examples, and 50+ practice questions. Designed for college students and placement preparation.",
+    "keywords": "java tutorial, learn java, java for beginners, java notes for students, java programming guide, java chapters, java practice questions, java interview questions, java placement preparation",
+    "intro": "<p>Java is one of the most widely used programming languages in the world. From Android apps to enterprise software, banking systems to big data platforms, Java powers it all. If you are a college student preparing for placements or someone who wants to build a career in software development, learning Java is one of the smartest decisions you can make.</p><p>Each chapter below covers one topic in detail. You will learn what the concept is, why it matters in real-world software development, and how to use it with plenty of code examples. Every chapter also has a dedicated practice page with 50+ questions ranging from easy to hard, including interview-style questions.</p><p>This is not a quick overview. This is a complete, chapter-by-chapter Java course designed to take you from absolute beginner to confident programmer.</p>"
+  },
+  "chapters": [
+    { "slug": "introduction-to-java", "order": 1, "title": "Introduction to Java", "difficulty": "Beginner", "description": "Learn what Java is, where it is used, and why it remains one of the most in-demand programming languages in the industry." },
+    { "slug": "installing-java-and-setup", "order": 2, "title": "Installing Java and Setting Up Your Environment", "difficulty": "Beginner", "description": "Download JDK, set up an IDE like IntelliJ IDEA or Eclipse, and compile your first Java program." },
+    { "slug": "your-first-java-program", "order": 3, "title": "Your First Java Program", "difficulty": "Beginner", "description": "Write your first Java program using System.out.println, understand the main method, and learn how Java compiles and runs." },
+    { "slug": "variables-and-data-types", "order": 4, "title": "Variables and Data Types in Java", "difficulty": "Beginner", "description": "Understand primitive types (int, double, char, boolean), reference types, type casting, and variable declaration rules." },
+    { "slug": "operators-in-java", "order": 5, "title": "Operators in Java", "difficulty": "Beginner", "description": "Learn arithmetic, relational, logical, bitwise, assignment, and ternary operators with operator precedence." },
+    { "slug": "taking-input-in-java", "order": 6, "title": "Taking Input with Scanner", "difficulty": "Beginner", "description": "Use the Scanner class to read user input, handle different data types, and avoid common input pitfalls." },
+    { "slug": "conditional-statements", "order": 7, "title": "Conditional Statements in Java (if, else, switch)", "difficulty": "Beginner", "description": "Make decisions in your code using if-else, nested if, ternary operator, and switch-case statements." },
+    { "slug": "loops-in-java", "order": 8, "title": "Loops in Java (for, while, do-while)", "difficulty": "Beginner", "description": "Repeat actions using for, while, and do-while loops with practical examples and loop patterns." },
+    { "slug": "loop-control-and-patterns", "order": 9, "title": "Loop Control and Pattern Printing", "difficulty": "Beginner", "description": "Control loops with break, continue, and labeled statements. Build star, number, and character patterns." },
+    { "slug": "arrays-in-java", "order": 10, "title": "Arrays in Java", "difficulty": "Beginner", "description": "Create single and multi-dimensional arrays, iterate with for-each, and use Arrays utility methods." },
+    { "slug": "strings-in-java", "order": 11, "title": "Strings in Java", "difficulty": "Intermediate", "description": "Master String, StringBuilder, StringBuffer, string immutability, and all important string methods." },
+    { "slug": "methods-in-java", "order": 12, "title": "Methods in Java", "difficulty": "Intermediate", "description": "Define methods with parameters and return types, understand method overloading, pass-by-value, and varargs." },
+    { "slug": "object-oriented-programming-basics", "order": 13, "title": "OOP Basics - Classes, Objects, and Constructors", "difficulty": "Intermediate", "description": "Learn classes, objects, constructors, this keyword, and the fundamentals of object-oriented programming." },
+    { "slug": "encapsulation-and-access-modifiers", "order": 14, "title": "Encapsulation and Access Modifiers", "difficulty": "Intermediate", "description": "Understand getters, setters, access modifiers (public, private, protected, default), and data hiding." },
+    { "slug": "inheritance-in-java", "order": 15, "title": "Inheritance in Java", "difficulty": "Intermediate", "description": "Extend classes with inheritance, use super keyword, understand method overriding, and the Object class." },
+    { "slug": "polymorphism-in-java", "order": 16, "title": "Polymorphism in Java", "difficulty": "Intermediate", "description": "Master compile-time (overloading) and runtime (overriding) polymorphism, upcasting, and downcasting." },
+    { "slug": "abstraction-and-interfaces", "order": 17, "title": "Abstraction - Abstract Classes and Interfaces", "difficulty": "Intermediate", "description": "Use abstract classes and interfaces to achieve abstraction. Understand default methods, functional interfaces." },
+    { "slug": "exception-handling", "order": 18, "title": "Exception Handling in Java", "difficulty": "Intermediate", "description": "Handle errors with try-catch-finally, checked vs unchecked exceptions, throw, throws, and custom exceptions." },
+    { "slug": "collections-framework", "order": 19, "title": "Collections Framework - List, Set, Map", "difficulty": "Advanced", "description": "Work with ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap, and understand the Collections hierarchy." },
+    { "slug": "generics-in-java", "order": 20, "title": "Generics in Java", "difficulty": "Advanced", "description": "Write type-safe code with generic classes, methods, bounded types, and wildcards." },
+    { "slug": "file-handling-in-java", "order": 21, "title": "File Handling in Java", "difficulty": "Advanced", "description": "Read and write files using FileReader, FileWriter, BufferedReader, BufferedWriter, and try-with-resources." },
+    { "slug": "multithreading-basics", "order": 22, "title": "Multithreading Basics", "difficulty": "Advanced", "description": "Create threads with Thread class and Runnable interface, understand thread lifecycle, synchronization, and deadlocks." },
+    { "slug": "lambda-expressions-and-streams", "order": 23, "title": "Lambda Expressions and Streams API", "difficulty": "Advanced", "description": "Write concise code with lambdas, functional interfaces, and process collections with the Streams API." },
+    { "slug": "java-memory-and-garbage-collection", "order": 24, "title": "Java Memory Model and Garbage Collection", "difficulty": "Advanced", "description": "Understand stack vs heap, object lifecycle, garbage collection, and memory management in Java." },
+    { "slug": "design-patterns-introduction", "order": 25, "title": "Introduction to Design Patterns", "difficulty": "Advanced", "description": "Learn Singleton, Factory, Observer, Strategy, and Builder patterns with practical Java implementations." }
+  ],
+  "courseCta": {
+    "text": "Want to learn Java with a live mentor?",
+    "linkText": "Explore our Java Masterclass",
+    "url": "/courses/complete-java-programming-masterclass-college"
+  },
+  "relatedCourses": [
+    { "text": "Java Masterclass (College)", "url": "/courses/complete-java-programming-masterclass-college" },
+    { "text": "Java for Teens", "url": "/courses/java-programming-masterclass-for-teens" }
+  ]
+}

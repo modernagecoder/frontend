@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings in Java - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Master String, StringBuilder, StringBuffer, string immutability, and all important string methods.">
+    <meta name="keywords" content="strings in java, java tutorial, java strings in java, learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/strings-in-java">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/strings-in-java">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/strings-in-java">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/strings-in-java">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/strings-in-java">
+    <meta property="og:title" content="Strings in Java - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Master String, StringBuilder, StringBuffer, string immutability, and all important string methods.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/strings-in-java">
+    <meta name="twitter:title" content="Strings in Java - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Master String, StringBuilder, StringBuffer, string immutability, and all important string methods.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Strings in Java",
+    "description": "Master String, StringBuilder, StringBuffer, string immutability, and all important string methods.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/strings-in-java"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/strings-in-java"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Strings in Java",
+        "item": "https://learn.modernagecoders.com/resources/java/strings-in-java"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using == Instead of .equals() to Compare Strings",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>==</code> compares object references (memory addresses), not content. Two String objects created with <code>new</code> are always different objects even if they contain the same characters. Always use <code>.equals()</code> for string content comparison. This is one of the most common bugs in Java and is asked in virtually every interview."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Calling a Method on a Null String",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Calling any method on a <code>null</code> reference throws a <code>NullPointerException</code>. Always check for null before calling methods. A common defensive technique is to put the known non-null string on the left: <code>\"expected\".equals(name)</code> instead of <code>name.equals(\"expected\")</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting That String Methods Return New Strings",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Since strings are immutable, methods like <code>trim()</code> and <code>toUpperCase()</code> do not modify the original string. They return a new String object. You must assign the result back to a variable. Method chaining works: <code>name.trim().toUpperCase()</code> first trims, then converts the trimmed result to uppercase."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "String Concatenation with + in a Loop",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>+</code> operator in a loop causes Java to create a new String object on every iteration, copying the entire accumulated string plus the new part. For n iterations, the total character copies are approximately n^2/2. Use <code>StringBuilder</code> in loops to maintain a single mutable buffer that grows efficiently."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using length Instead of length() for Strings",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In Java, strings use <code>length()</code> (a method), while arrays use <code>length</code> (a field). This inconsistency is a frequent source of errors. Strings are objects, so they have a method. Arrays are special objects with a public <code>length</code> field. Collections use <code>size()</code>. Three different ways to get \"length\" in Java."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "IndexOutOfBoundsException with charAt() or substring()",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "String indices in Java are 0-based. For a string of length 5, valid indices are 0 through 4. Accessing index 5 (or any index >= length or < 0) throws a <code>StringIndexOutOfBoundsException</code>. Unlike Python, Java does not support negative indexing. Always validate indices before using <code>charAt()</code> or <code>substring()</code>."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Strings in Java</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 11</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">32 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-08</span>
+            </div>
+            <h1 class="resource-title">Strings in Java</h1>
+            <a href="/resources/java/strings-in-java/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Strings in Java?</h2><p>A <strong>String</strong> in Java is an object that represents a sequence of characters. Unlike primitive data types such as <code>int</code> or <code>char</code>, strings in Java are objects of the <code>java.lang.String</code> class. This distinction is critical because it means strings have methods, can be passed as objects, and follow object-oriented rules including immutability.</p><p>Every Java program that prints output, reads user input, or processes text relies on strings. From storing a student's name to building SQL queries, from parsing JSON responses to formatting log messages, strings are the backbone of text processing in Java.</p><h3>Creating Strings</h3><p>Java provides two primary ways to create strings:</p><p><strong>1. String Literal:</strong> <code>String name = "Aarav";</code> — Created using double quotes. Java stores this in a special memory area called the <strong>String Pool</strong>. If another variable is assigned the same literal, Java reuses the existing object from the pool instead of creating a new one. This is memory-efficient.</p><p><strong>2. Using the <code>new</code> keyword:</strong> <code>String name = new String("Aarav");</code> — Explicitly creates a new String object on the heap, bypassing the String Pool. Even if an identical string exists in the pool, a new object is created. This is rarely needed in practice.</p><p>Unlike Python and JavaScript, Java does not support single quotes for strings. Single quotes in Java are reserved for the <code>char</code> data type: <code>char ch = 'A';</code>.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Strings Important in Java?</h2><p>Strings are one of the most heavily tested topics in Java interviews and university exams. Here is why mastering them is non-negotiable for any serious Java developer:</p><h3>1. Strings Are Everywhere in Java Applications</h3><p>Every <code>System.out.println()</code> call involves a string. Every <code>Scanner.nextLine()</code> returns a string. Configuration files, database queries, API endpoints, file paths, error messages — all are strings. You cannot write a meaningful Java program without manipulating strings.</p><h3>2. Immutability Is a Core Interview Concept</h3><p>Java strings are immutable — once created, their content cannot be changed. This single property leads to dozens of interview questions about the String Pool, memory management, thread safety, and why <code>StringBuilder</code> exists. Understanding immutability is understanding Java's design philosophy.</p><h3>3. The == vs .equals() Trap</h3><p>One of the most common bugs in Java programs comes from using <code>==</code> instead of <code>.equals()</code> to compare strings. This distinction between reference equality and content equality is fundamental to Java and is tested in virtually every placement exam.</p><h3>4. Performance-Critical String Operations</h3><p>Concatenating strings in a loop using <code>+</code> creates a new object every iteration, leading to O(n^2) performance. Knowing when to use <code>StringBuilder</code> versus the <code>+</code> operator separates junior developers from those who understand Java internals.</p><h3>5. Foundation for Collections, I/O, and Regex</h3><p>Strings interact with almost every part of the Java ecosystem: they are keys in HashMaps, they are read from and written to files, they are matched against regular expressions, and they are serialized to JSON. Weak string skills create a bottleneck across all these areas.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. String Immutability</h3><p>In Java, strings are <strong>immutable</strong>. Once a String object is created, its character sequence cannot be modified. Every operation that appears to modify a string actually creates a new String object.</p><pre><code>String s = "Hello";
+s.toUpperCase(); // Returns "HELLO" but s is still "Hello"
+s = s.toUpperCase(); // Now s points to the new "HELLO" object</code></pre><p>Why is this important? Immutability provides three key benefits: (1) <strong>Thread safety</strong> — multiple threads can share the same String without synchronization. (2) <strong>Security</strong> — strings used as class names, file paths, or network addresses cannot be altered after creation. (3) <strong>Hashcode caching</strong> — since the content never changes, the hashcode can be computed once and reused, making strings efficient as HashMap keys.</p><h3>2. The String Pool</h3><p>Java maintains a special memory area called the <strong>String Pool</strong> (or String Intern Pool) within the heap. When you create a string using a literal, Java first checks if an identical string already exists in the pool. If it does, the new variable simply references the existing object. If not, a new object is created in the pool.</p><pre><code>String a = "Hello";
+String b = "Hello";
+System.out.println(a == b); // true — same object in the pool</code></pre><p>When you use <code>new String("Hello")</code>, Java creates a new object on the heap regardless of whether "Hello" exists in the pool. The pool object is still created (for the literal), but the variable points to the heap object.</p><pre><code>String c = new String("Hello");
+System.out.println(a == c); // false — different objects
+System.out.println(a.equals(c)); // true — same content</code></pre><p>The <code>intern()</code> method forces a string into the pool: <code>String d = c.intern();</code> After this, <code>a == d</code> would be <code>true</code>.</p><h3>3. String Comparison: == vs .equals() vs .compareTo()</h3><p>This is one of the most critical distinctions in Java:</p><p><strong><code>==</code> (Reference Equality):</strong> Checks whether two variables point to the exact same object in memory. It does NOT compare the content of the strings.</p><p><strong><code>.equals()</code> (Content Equality):</strong> Checks whether two strings contain the same sequence of characters. This is what you should use for string comparison in almost all cases.</p><p><strong><code>.equalsIgnoreCase()</code>:</strong> Same as <code>.equals()</code> but ignores case differences. <code>"Hello".equalsIgnoreCase("hello")</code> returns <code>true</code>.</p><p><strong><code>.compareTo()</code> (Lexicographic Comparison):</strong> Returns 0 if strings are equal, a negative value if the calling string comes before the argument, and a positive value if it comes after. Used for sorting.</p><pre><code>"apple".compareTo("banana"); // negative (a comes before b)
+"banana".compareTo("apple"); // positive (b comes after a)
+"apple".compareTo("apple");  // 0 (equal)</code></pre><h3>4. Essential String Methods</h3><p>The String class provides over 60 methods. Here are the ones you must know:</p><h4>Length and Character Access</h4><p><code>length()</code> returns the number of characters. <code>charAt(int index)</code> returns the character at the given index (0-based). <code>toCharArray()</code> converts the string to a character array.</p><h4>Searching</h4><p><code>indexOf(String str)</code> returns the index of the first occurrence, or -1 if not found. <code>lastIndexOf(String str)</code> returns the index of the last occurrence. <code>contains(CharSequence s)</code> returns true if the string contains the given sequence.</p><h4>Extraction</h4><p><code>substring(int beginIndex)</code> returns a substring from the given index to the end. <code>substring(int beginIndex, int endIndex)</code> returns a substring from beginIndex (inclusive) to endIndex (exclusive).</p><h4>Case Conversion</h4><p><code>toUpperCase()</code> and <code>toLowerCase()</code> return new strings with all characters converted to the respective case.</p><h4>Trimming and Replacing</h4><p><code>trim()</code> removes leading and trailing whitespace. <code>replace(char oldChar, char newChar)</code> replaces all occurrences of a character. <code>replace(CharSequence target, CharSequence replacement)</code> replaces all occurrences of a substring.</p><h4>Splitting and Joining</h4><p><code>split(String regex)</code> splits the string into an array based on a delimiter pattern. <code>String.join(CharSequence delimiter, CharSequence... elements)</code> joins multiple strings with a delimiter (Java 8+).</p><h4>Checking Content</h4><p><code>startsWith(String prefix)</code> and <code>endsWith(String suffix)</code> check the beginning and end of a string. <code>isEmpty()</code> returns true if the string has length 0. <code>isBlank()</code> returns true if the string is empty or contains only whitespace (Java 11+).</p><h4>Conversion</h4><p><code>String.valueOf(int i)</code> converts a primitive to a string. <code>toCharArray()</code> converts to a char array. <code>getBytes()</code> converts to a byte array.</p><h3>5. StringBuilder — Mutable Strings</h3><p>Since strings are immutable, repeated concatenation in a loop creates many temporary objects, leading to poor performance. <code>StringBuilder</code> solves this by providing a mutable character sequence.</p><pre><code>StringBuilder sb = new StringBuilder();
+for (int i = 0; i < 5; i++) {
+    sb.append("Item " + i + ", ");
+}
+String result = sb.toString();</code></pre><p>Key StringBuilder methods: <code>append()</code> adds text at the end. <code>insert(int offset, String str)</code> inserts text at a position. <code>delete(int start, int end)</code> removes characters. <code>reverse()</code> reverses the sequence. <code>toString()</code> converts back to a String.</p><h3>6. StringBuffer — Thread-Safe Mutable Strings</h3><p><code>StringBuffer</code> is identical to <code>StringBuilder</code> in functionality but all its methods are <code>synchronized</code>, making it thread-safe. The trade-off is slower performance due to synchronization overhead. Use <code>StringBuilder</code> in single-threaded contexts (which is most of the time) and <code>StringBuffer</code> only when multiple threads access the same mutable string.</p><h3>7. String Formatting</h3><p>Java provides two main ways to format strings:</p><p><strong><code>String.format()</code>:</strong> Returns a formatted string without printing it.</p><pre><code>String msg = String.format("Name: %s, Age: %d, GPA: %.2f", "Priya", 20, 9.45);</code></pre><p><strong><code>System.out.printf()</code>:</strong> Prints a formatted string directly to the console.</p><pre><code>System.out.printf("Score: %d out of %d%n", 85, 100);</code></pre><p>Common format specifiers: <code>%s</code> for strings, <code>%d</code> for integers, <code>%f</code> for floating-point numbers, <code>%.2f</code> for 2 decimal places, <code>%n</code> for a platform-independent newline.</p><h3>8. String Concatenation Performance</h3><p>The <code>+</code> operator for string concatenation is convenient but has a hidden cost. In a loop, each <code>+</code> creates a new String object, copies the old content plus the new content, and discards the old object. For n iterations, this results in O(n^2) time complexity.</p><pre><code>// BAD: O(n^2) — creates n intermediate String objects
+String result = "";
+for (int i = 0; i < 10000; i++) {
+    result += i + ","; // new object every iteration
+}
+
+// GOOD: O(n) — single StringBuilder, no copying
+StringBuilder sb = new StringBuilder();
+for (int i = 0; i < 10000; i++) {
+    sb.append(i).append(",");
+}
+String result = sb.toString();</code></pre><p>Note: The Java compiler optimizes simple concatenation like <code>"Hello" + name</code> using StringBuilder internally. The problem arises only in loops.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">String Creation — Literal vs new</div><pre><code class="language-python">public class StringCreation {
+    public static void main(String[] args) {
+        // String literal — stored in String Pool
+        String s1 = &quot;Hello&quot;;
+        String s2 = &quot;Hello&quot;;
+
+        // Using new — creates a new object on the heap
+        String s3 = new String(&quot;Hello&quot;);
+
+        System.out.println(s1 == s2);       // true (same pool object)
+        System.out.println(s1 == s3);       // false (different objects)
+        System.out.println(s1.equals(s3));  // true (same content)
+
+        // intern() — moves heap string to the pool
+        String s4 = s3.intern();
+        System.out.println(s1 == s4);       // true (same pool object)
+    }
+}</code></pre><div class="code-example-explanation">String literals are stored in the String Pool, so <code>s1</code> and <code>s2</code> point to the same object (== returns true). <code>new String()</code> always creates a separate heap object, so <code>s1 == s3</code> is false even though the content is identical. <code>.equals()</code> compares content and returns true. <code>intern()</code> returns the pool reference for a given string, so <code>s1 == s4</code> is true.</div><div class="code-example-output">true
+false
+true
+true</div></div>
+<div class="code-example"><div class="code-example-title">String Comparison — == vs .equals() vs .compareTo()</div><pre><code class="language-python">public class StringComparison {
+    public static void main(String[] args) {
+        String a = &quot;Java&quot;;
+        String b = &quot;Java&quot;;
+        String c = new String(&quot;Java&quot;);
+        String d = &quot;java&quot;;
+
+        // == checks reference (same object?)
+        System.out.println(a == b);              // true
+        System.out.println(a == c);              // false
+
+        // .equals() checks content (same characters?)
+        System.out.println(a.equals(c));         // true
+        System.out.println(a.equals(d));         // false (case matters)
+
+        // .equalsIgnoreCase() ignores case
+        System.out.println(a.equalsIgnoreCase(d)); // true
+
+        // .compareTo() returns int for lexicographic order
+        System.out.println(&quot;apple&quot;.compareTo(&quot;banana&quot;)); // negative
+        System.out.println(&quot;banana&quot;.compareTo(&quot;apple&quot;)); // positive
+        System.out.println(&quot;apple&quot;.compareTo(&quot;apple&quot;));  // 0
+    }
+}</code></pre><div class="code-example-explanation"><code>==</code> checks if two references point to the same object in memory. For literals in the pool, this is true. For objects created with <code>new</code>, it is false. <code>.equals()</code> compares the actual character content and is the correct way to compare strings in almost all situations. <code>.compareTo()</code> returns 0 for equal strings, a negative number if the caller is lexicographically smaller, and a positive number if it is larger.</div><div class="code-example-output">true
+false
+true
+false
+true
+-1
+1
+0</div></div>
+<div class="code-example"><div class="code-example-title">Essential String Methods</div><pre><code class="language-python">public class StringMethods {
+    public static void main(String[] args) {
+        String s = &quot;  Modern Age Coders  &quot;;
+
+        // Length and trimming
+        System.out.println(s.length());          // 21
+        System.out.println(s.trim());            // &quot;Modern Age Coders&quot;
+        System.out.println(s.trim().length());   // 17
+
+        String name = &quot;Kavitha Suresh&quot;;
+
+        // Character access
+        System.out.println(name.charAt(0));      // K
+        System.out.println(name.charAt(name.length() - 1)); // h
+
+        // Case conversion
+        System.out.println(name.toUpperCase());  // KAVITHA SURESH
+        System.out.println(name.toLowerCase());  // kavitha suresh
+
+        // Search methods
+        System.out.println(name.indexOf(&quot;a&quot;));       // 1
+        System.out.println(name.lastIndexOf(&quot;a&quot;));   // 9
+        System.out.println(name.contains(&quot;Suresh&quot;)); // true
+        System.out.println(name.indexOf(&quot;xyz&quot;));     // -1
+
+        // Substring
+        System.out.println(name.substring(0, 7));    // Kavitha
+        System.out.println(name.substring(8));       // Suresh
+    }
+}</code></pre><div class="code-example-explanation"><code>length()</code> returns character count including spaces. <code>trim()</code> removes leading and trailing whitespace. <code>charAt()</code> returns the character at a given zero-based index. <code>indexOf()</code> returns the first occurrence of a substring or -1 if not found. <code>lastIndexOf()</code> returns the last occurrence. <code>contains()</code> returns a boolean. <code>substring(start, end)</code> extracts characters from start (inclusive) to end (exclusive).</div><div class="code-example-output">21
+Modern Age Coders
+17
+K
+h
+KAVITHA SURESH
+kavitha suresh
+1
+9
+true
+-1
+Kavitha
+Suresh</div></div>
+<div class="code-example"><div class="code-example-title">split(), join(), replace(), and startsWith()/endsWith()</div><pre><code class="language-python">public class StringOperations {
+    public static void main(String[] args) {
+        // split()
+        String csv = &quot;Aarav,Priya,Rohan,Meera&quot;;
+        String[] names = csv.split(&quot;,&quot;);
+        for (String name : names) {
+            System.out.println(name);
+        }
+
+        // String.join() — Java 8+
+        String joined = String.join(&quot; | &quot;, names);
+        System.out.println(joined);
+
+        // replace()
+        String text = &quot;Java is hard. Java is confusing.&quot;;
+        System.out.println(text.replace(&quot;hard&quot;, &quot;fun&quot;));
+        System.out.println(text.replace(&#39;a&#39;, &#39;o&#39;));
+
+        // startsWith() and endsWith()
+        String file = &quot;Report2026.pdf&quot;;
+        System.out.println(file.startsWith(&quot;Report&quot;)); // true
+        System.out.println(file.endsWith(&quot;.pdf&quot;));     // true
+        System.out.println(file.endsWith(&quot;.doc&quot;));     // false
+    }
+}</code></pre><div class="code-example-explanation"><code>split()</code> takes a regex pattern and returns a String array. <code>String.join()</code> is a static method that concatenates elements with a delimiter. <code>replace()</code> has two overloads: one for single characters and one for CharSequences. <code>startsWith()</code> and <code>endsWith()</code> check prefixes and suffixes and are commonly used for file type validation.</div><div class="code-example-output">Aarav
+Priya
+Rohan
+Meera
+Aarav | Priya | Rohan | Meera
+Java is fun. Java is confusing.
+Jovo is hord. Jovo is confusing.
+true
+true
+false</div></div>
+<div class="code-example"><div class="code-example-title">StringBuilder — Mutable String Operations</div><pre><code class="language-python">public class StringBuilderDemo {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder(&quot;Hello&quot;);
+
+        // append()
+        sb.append(&quot; World&quot;);
+        System.out.println(sb);              // Hello World
+
+        // insert()
+        sb.insert(5, &quot;,&quot;);
+        System.out.println(sb);              // Hello, World
+
+        // delete()
+        sb.delete(5, 7);                     // Remove &quot;, &quot;
+        System.out.println(sb);              // HelloWorld
+
+        // reverse()
+        sb.reverse();
+        System.out.println(sb);              // dlroWolleH
+
+        // replace()
+        sb.reverse();                        // back to HelloWorld
+        sb.replace(0, 5, &quot;Namaste&quot;);
+        System.out.println(sb);              // NamasteWorld
+
+        // length and charAt
+        System.out.println(sb.length());     // 12
+        System.out.println(sb.charAt(0));    // N
+
+        // Convert to String
+        String result = sb.toString();
+        System.out.println(result);          // NamasteWorld
+    }
+}</code></pre><div class="code-example-explanation">StringBuilder is mutable, so all methods modify the same object instead of creating new ones. <code>append()</code> adds to the end. <code>insert()</code> adds at a specific position. <code>delete(start, end)</code> removes characters from start (inclusive) to end (exclusive). <code>reverse()</code> reverses in place. <code>replace(start, end, str)</code> replaces a range with a new string. Always call <code>toString()</code> when you need an immutable String.</div><div class="code-example-output">Hello World
+Hello, World
+HelloWorld
+dlroWolleH
+NamasteWorld
+12
+N
+NamasteWorld</div></div>
+<div class="code-example"><div class="code-example-title">String Formatting with String.format() and printf()</div><pre><code class="language-python">public class StringFormatting {
+    public static void main(String[] args) {
+        String name = &quot;Deepak&quot;;
+        int age = 21;
+        double gpa = 8.756;
+
+        // String.format()
+        String info = String.format(&quot;Name: %s, Age: %d, GPA: %.2f&quot;, name, age, gpa);
+        System.out.println(info);
+
+        // printf() — prints directly
+        System.out.printf(&quot;%-15s %5d %8.2f%n&quot;, &quot;Deepak&quot;, 21, 8.756);
+        System.out.printf(&quot;%-15s %5d %8.2f%n&quot;, &quot;Sneha&quot;, 20, 9.120);
+        System.out.printf(&quot;%-15s %5d %8.2f%n&quot;, &quot;Vikram&quot;, 22, 7.890);
+
+        // Padding with zeros
+        System.out.printf(&quot;Roll No: %05d%n&quot;, 42);
+
+        // valueOf()
+        int num = 100;
+        String str = String.valueOf(num);
+        System.out.println(str + &quot; is a String: &quot; + (str instanceof String));
+    }
+}</code></pre><div class="code-example-explanation"><code>String.format()</code> works like printf but returns a String instead of printing. <code>%s</code> is for strings, <code>%d</code> for integers, <code>%.2f</code> for two decimal places. <code>%-15s</code> left-aligns a string in a 15-character field. <code>%05d</code> zero-pads an integer to 5 digits. <code>%n</code> is the platform-independent newline. <code>String.valueOf()</code> converts any primitive to its String representation.</div><div class="code-example-output">Name: Deepak, Age: 21, GPA: 8.76
+Deepak               21     8.76
+Sneha                20     9.12
+Vikram               22     7.89
+Roll No: 00042
+100 is a String: true</div></div>
+<div class="code-example"><div class="code-example-title">String Concatenation Performance — Why StringBuilder Matters</div><pre><code class="language-python">public class ConcatPerformance {
+    public static void main(String[] args) {
+        int n = 50000;
+
+        // BAD: String concatenation in a loop — O(n^2)
+        long start1 = System.currentTimeMillis();
+        String bad = &quot;&quot;;
+        for (int i = 0; i &lt; n; i++) {
+            bad += i;
+        }
+        long time1 = System.currentTimeMillis() - start1;
+        System.out.println(&quot;String + loop: &quot; + time1 + &quot; ms&quot;);
+
+        // GOOD: StringBuilder — O(n)
+        long start2 = System.currentTimeMillis();
+        StringBuilder good = new StringBuilder();
+        for (int i = 0; i &lt; n; i++) {
+            good.append(i);
+        }
+        String result = good.toString();
+        long time2 = System.currentTimeMillis() - start2;
+        System.out.println(&quot;StringBuilder: &quot; + time2 + &quot; ms&quot;);
+
+        System.out.println(&quot;Both produce same result: &quot; + bad.equals(result));
+    }
+}</code></pre><div class="code-example-explanation">String concatenation with <code>+</code> in a loop creates a new String object on every iteration, copying all previous characters plus the new ones. For n iterations, this results in approximately n*(n+1)/2 character copies, which is O(n^2). StringBuilder maintains a resizable internal buffer and only copies characters when the buffer needs to expand, resulting in O(n) performance. For 50,000 iterations, the difference can be hundreds of milliseconds versus single-digit milliseconds.</div><div class="code-example-output">String + loop: 890 ms
+StringBuilder: 3 ms
+Both produce same result: true</div></div>
+<div class="code-example"><div class="code-example-title">toCharArray(), valueOf(), and Character Checking</div><pre><code class="language-python">public class StringCharOps {
+    public static void main(String[] args) {
+        String s = &quot;Hello World 123&quot;;
+
+        // toCharArray()
+        char[] chars = s.toCharArray();
+        System.out.println(&quot;Length: &quot; + chars.length);
+        System.out.println(&quot;First char: &quot; + chars[0]);
+
+        // Count digits, letters, and spaces
+        int digits = 0, letters = 0, spaces = 0;
+        for (char c : chars) {
+            if (Character.isDigit(c)) digits++;
+            else if (Character.isLetter(c)) letters++;
+            else if (c == &#39; &#39;) spaces++;
+        }
+        System.out.println(&quot;Digits: &quot; + digits);
+        System.out.println(&quot;Letters: &quot; + letters);
+        System.out.println(&quot;Spaces: &quot; + spaces);
+
+        // valueOf() conversions
+        System.out.println(String.valueOf(42));      // &quot;42&quot;
+        System.out.println(String.valueOf(3.14));    // &quot;3.14&quot;
+        System.out.println(String.valueOf(true));    // &quot;true&quot;
+        System.out.println(String.valueOf(&#39;A&#39;));     // &quot;A&quot;
+    }
+}</code></pre><div class="code-example-explanation"><code>toCharArray()</code> converts a String into a <code>char[]</code>, useful for character-by-character processing. The <code>Character</code> wrapper class provides static methods like <code>isDigit()</code>, <code>isLetter()</code>, <code>isUpperCase()</code>, and <code>isLowerCase()</code> for checking individual characters. <code>String.valueOf()</code> is overloaded to accept any primitive type and returns its string representation.</div><div class="code-example-output">Length: 15
+First char: H
+Digits: 3
+Letters: 10
+Spaces: 2
+42
+3.14
+true
+A</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using == Instead of .equals() to Compare Strings</h3>
+                <div class="wrong-code"><pre><code class="language-python">String a = new String(&quot;Hello&quot;);
+String b = new String(&quot;Hello&quot;);
+if (a == b) {
+    System.out.println(&quot;Equal&quot;);
+} else {
+    System.out.println(&quot;Not equal&quot;); // This runs!
+}</code></pre></div><div class="error-message">No compilation error, but the comparison checks references, not content. Both objects have the same content but are different objects on the heap.</div><div class="correct-code"><pre><code class="language-python">String a = new String(&quot;Hello&quot;);
+String b = new String(&quot;Hello&quot;);
+if (a.equals(b)) {
+    System.out.println(&quot;Equal&quot;); // This runs correctly
+}</code></pre></div><div class="mistake-explanation"><code>==</code> compares object references (memory addresses), not content. Two String objects created with <code>new</code> are always different objects even if they contain the same characters. Always use <code>.equals()</code> for string content comparison. This is one of the most common bugs in Java and is asked in virtually every interview.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Calling a Method on a Null String</h3>
+                <div class="wrong-code"><pre><code class="language-python">String name = null;
+System.out.println(name.length()); // NullPointerException</code></pre></div><div class="error-message">Exception in thread &quot;main&quot; java.lang.NullPointerException</div><div class="correct-code"><pre><code class="language-python">String name = null;
+if (name != null) {
+    System.out.println(name.length());
+} else {
+    System.out.println(&quot;Name is not set&quot;);
+}
+// Or use a constant on the left: &quot;Hello&quot;.equals(name) — safe even if name is null</code></pre></div><div class="mistake-explanation">Calling any method on a <code>null</code> reference throws a <code>NullPointerException</code>. Always check for null before calling methods. A common defensive technique is to put the known non-null string on the left: <code>"expected".equals(name)</code> instead of <code>name.equals("expected")</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting That String Methods Return New Strings</h3>
+                <div class="wrong-code"><pre><code class="language-python">String name = &quot;  aarav  &quot;;
+name.trim();
+name.toUpperCase();
+System.out.println(name); // Still &quot;  aarav  &quot;</code></pre></div><div class="error-message">No error, but the original string is unchanged because the return values were not saved.</div><div class="correct-code"><pre><code class="language-python">String name = &quot;  aarav  &quot;;
+name = name.trim().toUpperCase();
+System.out.println(name); // AARAV</code></pre></div><div class="mistake-explanation">Since strings are immutable, methods like <code>trim()</code> and <code>toUpperCase()</code> do not modify the original string. They return a new String object. You must assign the result back to a variable. Method chaining works: <code>name.trim().toUpperCase()</code> first trims, then converts the trimmed result to uppercase.</div>
+            </div>
+<div class="mistake-card">
+                <h3>String Concatenation with + in a Loop</h3>
+                <div class="wrong-code"><pre><code class="language-python">String result = &quot;&quot;;
+for (int i = 0; i &lt; 10000; i++) {
+    result += i + &quot;,&quot;;
+}
+// Extremely slow — O(n^2) time, creates 10000 temporary objects</code></pre></div><div class="error-message">No compilation error, but severe performance degradation. Each += creates a new String object and copies all previous characters.</div><div class="correct-code"><pre><code class="language-python">StringBuilder sb = new StringBuilder();
+for (int i = 0; i &lt; 10000; i++) {
+    sb.append(i).append(&quot;,&quot;);
+}
+String result = sb.toString();
+// Fast — O(n) time, single mutable object</code></pre></div><div class="mistake-explanation">The <code>+</code> operator in a loop causes Java to create a new String object on every iteration, copying the entire accumulated string plus the new part. For n iterations, the total character copies are approximately n^2/2. Use <code>StringBuilder</code> in loops to maintain a single mutable buffer that grows efficiently.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using length Instead of length() for Strings</h3>
+                <div class="wrong-code"><pre><code class="language-python">String name = &quot;Sneha&quot;;
+System.out.println(name.length); // Compilation error</code></pre></div><div class="error-message">error: cannot find symbol — symbol: variable length</div><div class="correct-code"><pre><code class="language-python">String name = &quot;Sneha&quot;;
+System.out.println(name.length()); // 5
+
+// Note: arrays use .length (no parentheses)
+int[] arr = {1, 2, 3};
+System.out.println(arr.length); // 3</code></pre></div><div class="mistake-explanation">In Java, strings use <code>length()</code> (a method), while arrays use <code>length</code> (a field). This inconsistency is a frequent source of errors. Strings are objects, so they have a method. Arrays are special objects with a public <code>length</code> field. Collections use <code>size()</code>. Three different ways to get "length" in Java.</div>
+            </div>
+<div class="mistake-card">
+                <h3>IndexOutOfBoundsException with charAt() or substring()</h3>
+                <div class="wrong-code"><pre><code class="language-python">String s = &quot;Hello&quot;;
+System.out.println(s.charAt(5)); // StringIndexOutOfBoundsException</code></pre></div><div class="error-message">Exception in thread &quot;main&quot; java.lang.StringIndexOutOfBoundsException: String index out of range: 5</div><div class="correct-code"><pre><code class="language-python">String s = &quot;Hello&quot;;
+// Valid indices are 0 to s.length()-1
+System.out.println(s.charAt(s.length() - 1)); // &#39;o&#39;
+
+// Always check bounds before accessing
+int index = 5;
+if (index &gt;= 0 &amp;&amp; index &lt; s.length()) {
+    System.out.println(s.charAt(index));
+} else {
+    System.out.println(&quot;Index out of range&quot;);
+}</code></pre></div><div class="mistake-explanation">String indices in Java are 0-based. For a string of length 5, valid indices are 0 through 4. Accessing index 5 (or any index >= length or < 0) throws a <code>StringIndexOutOfBoundsException</code>. Unlike Python, Java does not support negative indexing. Always validate indices before using <code>charAt()</code> or <code>substring()</code>.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Strings in Java are immutable objects of the java.lang.String class. Once created, their content cannot be changed. Every modification creates a new String object.</li>
+<li>String literals are stored in the String Pool for memory efficiency. The new keyword bypasses the pool and always creates a separate heap object.</li>
+<li>Use .equals() to compare string content, not ==. The == operator checks reference equality (same object), while .equals() checks content equality (same characters). This is the single most important rule for Java strings.</li>
+<li>Key String methods: length(), charAt(), substring(), indexOf(), lastIndexOf(), contains(), startsWith(), endsWith(), toUpperCase(), toLowerCase(), trim(), replace(), split(), and String.join().</li>
+<li>StringBuilder provides a mutable character sequence for efficient string building. Use it in loops instead of the + operator to avoid O(n^2) performance degradation.</li>
+<li>StringBuffer is the thread-safe version of StringBuilder. Use StringBuilder in single-threaded code (most cases) and StringBuffer only when thread safety is required.</li>
+<li>String.format() and System.out.printf() provide C-style formatting with %s (string), %d (integer), %f (float), and %.Nf (N decimal places).</li>
+<li>compareTo() enables lexicographic comparison: returns 0 for equal strings, negative if the caller is smaller, positive if larger. Used for sorting.</li>
+<li>toCharArray() converts a String to a char array for character-by-character processing. The Character class provides isDigit(), isLetter(), isUpperCase(), and other checking methods.</li>
+<li>The intern() method returns the String Pool reference for any string, enabling == comparison. Useful for performance optimization when comparing the same set of strings repeatedly.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/arrays-in-java" class="related-topic-link">Arrays in Java</a>
+<a href="/resources/java/methods-in-java" class="related-topic-link">Methods in Java</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/java/arrays-in-java" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Arrays in Java</span>
+        </a>
+            <a href="/resources/java/methods-in-java" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Methods in Java</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/strings-in-java/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

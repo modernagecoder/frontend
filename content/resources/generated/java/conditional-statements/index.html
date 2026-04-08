@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statements in Java (if, else, switch) - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Make decisions in your code using if-else, nested if, ternary operator, and switch-case statements.">
+    <meta name="keywords" content="conditional statements in java (if, else, switch), java tutorial, java conditional statements in java (if, else, switch), learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/conditional-statements">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/conditional-statements">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/conditional-statements">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/conditional-statements">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/conditional-statements">
+    <meta property="og:title" content="Conditional Statements in Java (if, else, switch) - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Make decisions in your code using if-else, nested if, ternary operator, and switch-case statements.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/conditional-statements">
+    <meta name="twitter:title" content="Conditional Statements in Java (if, else, switch) - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Make decisions in your code using if-else, nested if, ternary operator, and switch-case statements.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Conditional Statements in Java (if, else, switch)",
+    "description": "Make decisions in your code using if-else, nested if, ternary operator, and switch-case statements.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/conditional-statements"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/conditional-statements"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Conditional Statements in Java (if, else, switch)",
+        "item": "https://learn.modernagecoders.com/resources/java/conditional-statements"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using == Instead of .equals() for Strings",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>==</code> operator checks if two references point to the same object in memory. Since <code>new String(\"Ravi\")</code> creates a new object, it is a different reference from the string literal \"Ravi\" in the string pool. Always use <code>.equals()</code> to compare string content. This is one of the most commonly tested topics in Java placement interviews."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Missing break in switch Causing Fall-Through",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Without <code>break</code>, execution falls through to the next case regardless of whether it matches. After matching case 1, the code continues executing case 2 and case 3 code. This is a very common bug. In the enhanced switch (Java 14+), arrow syntax eliminates this problem entirely."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using = Instead of == in Conditions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A single <code>=</code> is the assignment operator. <code>x = 5</code> assigns 5 to x and returns an int, which cannot be used as a boolean condition. Use <code>==</code> for comparison. Java catches this at compile time for int types (unlike C/C++), but for boolean variables, <code>if (flag = true)</code> compiles and silently overwrites the variable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrong Order in if-else if Causing Wrong Results",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Java checks conditions top to bottom and stops at the first true one. Since 95 >= 40 is true, \"Grade: E\" prints immediately and the other conditions are never checked. Always put the most restrictive (highest threshold) condition first in an if-else if chain."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Omitting Curly Braces Leading to Logic Errors",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Without curly braces, only the first statement after <code>if</code> belongs to the if block. The second print is outside the if and always executes. Indentation is cosmetic in Java and does not affect control flow. Always use curly braces to avoid this error."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Conditional Statements in Java (if, else, switch)</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 7</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">25 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-08</span>
+            </div>
+            <h1 class="resource-title">Conditional Statements in Java (if, else, switch)</h1>
+            <a href="/resources/java/conditional-statements/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Conditional Statements?</h2><p>A <strong>conditional statement</strong> allows your program to make decisions. Instead of executing every line sequentially from top to bottom, the program evaluates a condition (a Boolean expression) and chooses which block of code to execute based on whether the condition is <code>true</code> or <code>false</code>.</p><p>Consider a real-world scenario: an ATM checks if your account balance is sufficient before processing a withdrawal. If the balance is enough, it dispenses cash. If not, it displays an error. This is exactly what conditional statements do in code.</p><p>Java provides four primary mechanisms for conditional logic:</p><ol><li><code>if</code>, <code>if-else</code>, <code>if-else if-else</code> statements</li><li>Nested <code>if</code> statements</li><li>The ternary operator (<code>?:</code>)</li><li><code>switch-case</code> statements (including enhanced switch expressions from Java 14+)</li></ol><p>Every non-trivial Java program uses conditional statements. They are one of the three fundamental control flow structures alongside sequence (straight-line execution) and loops (repeated execution).</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Conditional Statements Essential?</h2><h3>1. Decision-Making Is the Core of Programming</h3><p>Without conditionals, your program would perform the exact same actions regardless of input. A login system must check credentials. An e-commerce site must verify payment. A game must determine win/lose conditions. All of these require the program to evaluate conditions and branch accordingly.</p><h3>2. Input Validation and Error Handling</h3><p>When your program receives input from users, files, or APIs, you must validate it. Is the age a positive number? Is the email in a valid format? Is the password strong enough? Conditional statements let you check these conditions and respond appropriately, preventing bugs and crashes.</p><h3>3. Business Logic Implementation</h3><p>Most business rules translate directly into conditional statements. Tax calculation depends on income slabs. Shipping cost depends on order weight and destination. Discount eligibility depends on customer tier. Mastering conditionals is essential for translating real-world requirements into working code.</p><h3>4. Foundation for Algorithms</h3><p>Every algorithm, from simple sorting to complex graph traversal, relies on conditional logic. Binary search checks if the target is in the left or right half. QuickSort partitions based on comparisons. Understanding conditionals deeply is a prerequisite for DSA (Data Structures and Algorithms), which is the backbone of placement preparation.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The if Statement</h3><p>The <code>if</code> statement evaluates a Boolean expression. If the expression is <code>true</code>, the block inside the curly braces executes. If <code>false</code>, the block is skipped entirely.</p><pre><code>int age = 20;
+
+if (age >= 18) {
+    System.out.println("You are eligible to vote.");
+}
+
+System.out.println("Program continues.");</code></pre><p>Since <code>20 >= 18</code> is true, "You are eligible to vote." prints. The last line always executes because it is outside the if block. If age were 15, the if block would be skipped but "Program continues." would still print.</p><h4>Curly Braces Are Not Optional (Best Practice)</h4><p>Java allows omitting curly braces when the if block has only one statement. However, this is widely considered bad practice because it is error-prone:</p><pre><code>// Legal but dangerous:
+if (age >= 18)
+    System.out.println("Adult");
+    System.out.println("Can vote"); // This ALWAYS executes! Not inside if.</code></pre><p>The second print statement is NOT inside the if block (indentation does not matter in Java, unlike Python). Always use curly braces, even for single statements.</p><h3>2. The if-else Statement</h3><p>The <code>if-else</code> provides two branches: one for when the condition is true, and another for when it is false. Exactly one of the two blocks always executes.</p><pre><code>int marks = 35;
+
+if (marks >= 40) {
+    System.out.println("You passed.");
+} else {
+    System.out.println("You failed.");
+}</code></pre><p>Since 35 >= 40 is false, the else block runs. There is no scenario where both blocks or neither block executes.</p><h3>3. The if-else if-else Ladder</h3><p>When you need to check multiple conditions, use <code>else if</code>. Java checks conditions from top to bottom and executes the block for the <strong>first</strong> condition that is true. If no condition is true, the <code>else</code> block (if present) runs.</p><pre><code>int marks = 75;
+
+if (marks >= 90) {
+    System.out.println("Grade: A");
+} else if (marks >= 80) {
+    System.out.println("Grade: B");
+} else if (marks >= 70) {
+    System.out.println("Grade: C");
+} else if (marks >= 60) {
+    System.out.println("Grade: D");
+} else {
+    System.out.println("Grade: F");
+}</code></pre><p>For marks = 75: 75 >= 90? No. 75 >= 80? No. 75 >= 70? Yes. "Grade: C" prints and all remaining else-if/else blocks are skipped. Order matters: always put the most restrictive condition first.</p><h3>4. Nested if Statements</h3><p>An <code>if</code> statement inside another <code>if</code> statement is called nesting. The inner condition is only evaluated when the outer condition is true.</p><pre><code>int age = 22;
+boolean hasLicense = true;
+
+if (age >= 18) {
+    if (hasLicense) {
+        System.out.println("You can drive.");
+    } else {
+        System.out.println("Get a license first.");
+    }
+} else {
+    System.out.println("You are too young to drive.");
+}</code></pre><p>Avoid deep nesting (3+ levels). Flatten conditions using logical operators (<code>&&</code>, <code>||</code>) or use early returns.</p><h3>5. The Ternary Operator (?:)</h3><p>The ternary operator is a shorthand for a simple if-else that produces a value. It is the only operator in Java that takes three operands.</p><pre><code>condition ? valueIfTrue : valueIfFalse</code></pre><p>Example:</p><pre><code>int age = 20;
+String status = (age >= 18) ? "Adult" : "Minor";
+System.out.println(status); // Adult</code></pre><p>The ternary operator is an <strong>expression</strong>, not a statement. This means it produces a value and can be used in assignments, method arguments, and print statements. Use it only for simple conditions; complex ternary expressions are hard to read.</p><h3>6. switch-case Statement</h3><p>The <code>switch</code> statement compares a single variable against multiple constant values. It is cleaner than a long if-else if chain when you are comparing one variable against many possible values.</p><pre><code>int day = 3;
+
+switch (day) {
+    case 1:
+        System.out.println("Monday");
+        break;
+    case 2:
+        System.out.println("Tuesday");
+        break;
+    case 3:
+        System.out.println("Wednesday");
+        break;
+    default:
+        System.out.println("Other day");
+}</code></pre><h4>Key Rules for switch</h4><ul><li>The switch expression can be: <code>byte</code>, <code>short</code>, <code>int</code>, <code>char</code>, <code>String</code> (Java 7+), or an <code>enum</code>.</li><li>Each <code>case</code> value must be a <strong>compile-time constant</strong> (literal or final variable).</li><li>The <code>break</code> statement exits the switch block. Without it, execution "falls through" to the next case.</li><li>The <code>default</code> block is optional and runs when no case matches. It is analogous to <code>else</code> in if-else.</li></ul><h4>Fall-Through Behavior</h4><p>If you omit <code>break</code>, execution continues into the next case regardless of whether it matches. This is called <strong>fall-through</strong> and is usually a bug, but sometimes intentional:</p><pre><code>int month = 2;
+switch (month) {
+    case 12:
+    case 1:
+    case 2:
+        System.out.println("Winter");
+        break;
+    case 3:
+    case 4:
+    case 5:
+        System.out.println("Spring");
+        break;
+}</code></pre><p>Here, months 12, 1, and 2 all fall through to print "Winter". This is intentional grouping.</p><h3>7. switch with Strings (Java 7+)</h3><p>Starting from Java 7, you can use String values in switch statements:</p><pre><code>String command = "start";
+
+switch (command) {
+    case "start":
+        System.out.println("Starting...");
+        break;
+    case "stop":
+        System.out.println("Stopping...");
+        break;
+    default:
+        System.out.println("Unknown command");
+}</code></pre><p>Internally, Java uses the String's <code>hashCode()</code> for efficient comparison. The comparison is case-sensitive: "Start" and "start" are different cases.</p><h3>8. Enhanced switch Expressions (Java 14+)</h3><p>Java 14 introduced a modern switch syntax using arrow (<code>-></code>) notation. It eliminates the need for <code>break</code> statements and allows switch to return a value:</p><pre><code>int day = 3;
+String dayName = switch (day) {
+    case 1 -> "Monday";
+    case 2 -> "Tuesday";
+    case 3 -> "Wednesday";
+    case 4 -> "Thursday";
+    case 5 -> "Friday";
+    case 6 -> "Saturday";
+    case 7 -> "Sunday";
+    default -> "Invalid";
+};
+System.out.println(dayName); // Wednesday</code></pre><p>Key benefits: no fall-through bugs, returns values directly, multiple labels per case (<code>case 1, 7 -></code>), and the compiler checks exhaustiveness.</p><h3>9. Comparing Strings: .equals() vs ==</h3><p>This is one of the most important concepts for Java interviews and exams. In Java, <code>==</code> compares <strong>references</strong> (memory addresses), not the actual content of strings. Use <code>.equals()</code> to compare string content.</p><pre><code>String a = new String("hello");
+String b = new String("hello");
+
+System.out.println(a == b);       // false (different objects)
+System.out.println(a.equals(b));  // true (same content)</code></pre><p>String literals are interned by Java (stored in a string pool), so <code>==</code> may work for literals, but this is unreliable and should never be used for string comparison in production code. Always use <code>.equals()</code>.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Simple if-else Statement</div><pre><code class="language-python">public class IfElseDemo {
+    public static void main(String[] args) {
+        int temperature = 38;
+
+        if (temperature &gt; 37) {
+            System.out.println(&quot;You have a fever.&quot;);
+            System.out.println(&quot;Please consult a doctor.&quot;);
+        } else {
+            System.out.println(&quot;Your temperature is normal.&quot;);
+        }
+
+        System.out.println(&quot;Take care!&quot;);
+    }
+}</code></pre><div class="code-example-explanation">Since 38 > 37 is true, the if block executes and prints two lines. The else block is skipped. The final print statement is outside the if-else and always executes.</div><div class="code-example-output">You have a fever.
+Please consult a doctor.
+Take care!</div></div>
+<div class="code-example"><div class="code-example-title">if-else if-else Ladder: Grade Calculator</div><pre><code class="language-python">import java.util.Scanner;
+
+public class GradeCalc {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print(&quot;Enter marks: &quot;);
+        int marks = sc.nextInt();
+
+        if (marks &gt;= 90) {
+            System.out.println(&quot;Grade: A&quot;);
+        } else if (marks &gt;= 80) {
+            System.out.println(&quot;Grade: B&quot;);
+        } else if (marks &gt;= 70) {
+            System.out.println(&quot;Grade: C&quot;);
+        } else if (marks &gt;= 60) {
+            System.out.println(&quot;Grade: D&quot;);
+        } else if (marks &gt;= 40) {
+            System.out.println(&quot;Grade: E&quot;);
+        } else {
+            System.out.println(&quot;Grade: F (Fail)&quot;);
+        }
+
+        sc.close();
+    }
+}</code></pre><div class="code-example-explanation">If Suresh enters 82, Java checks from top: 82 >= 90? No. 82 >= 80? Yes. So "Grade: B" prints and all remaining else-if/else blocks are skipped. Even though 82 >= 70, 82 >= 60, and 82 >= 40 are all true, they are never evaluated because the first matching condition wins.</div><div class="code-example-output">Enter marks: 82
+Grade: B</div></div>
+<div class="code-example"><div class="code-example-title">Nested if with Logical Operators</div><pre><code class="language-python">public class VoterEligibility {
+    public static void main(String[] args) {
+        int age = 20;
+        String citizenship = &quot;Indian&quot;;
+        boolean hasVoterId = true;
+
+        if (age &gt;= 18) {
+            if (citizenship.equals(&quot;Indian&quot;)) {
+                if (hasVoterId) {
+                    System.out.println(&quot;Eligible to vote.&quot;);
+                } else {
+                    System.out.println(&quot;Get a voter ID first.&quot;);
+                }
+            } else {
+                System.out.println(&quot;Only Indian citizens can vote here.&quot;);
+            }
+        } else {
+            System.out.println(&quot;Must be at least 18 to vote.&quot;);
+        }
+
+        // Flattened version (preferred):
+        if (age &gt;= 18 &amp;&amp; citizenship.equals(&quot;Indian&quot;) &amp;&amp; hasVoterId) {
+            System.out.println(&quot;Eligible to vote (flat check).&quot;);
+        }
+    }
+}</code></pre><div class="code-example-explanation">The nested version checks conditions one by one. The flattened version combines them with <code>&&</code> (logical AND). Both achieve the same result, but the flat version is easier to read. Note the use of <code>.equals()</code> for string comparison, not <code>==</code>.</div><div class="code-example-output">Eligible to vote.
+Eligible to vote (flat check).</div></div>
+<div class="code-example"><div class="code-example-title">Ternary Operator in Practice</div><pre><code class="language-python">public class TernaryDemo {
+    public static void main(String[] args) {
+        int age = 16;
+
+        // Basic ternary
+        String status = (age &gt;= 18) ? &quot;Adult&quot; : &quot;Minor&quot;;
+        System.out.println(&quot;Status: &quot; + status);
+
+        // Ternary inside println
+        System.out.println(&quot;Can vote: &quot; + ((age &gt;= 18) ? &quot;Yes&quot; : &quot;No&quot;));
+
+        // Ternary for max of two numbers
+        int a = 15, b = 22;
+        int max = (a &gt; b) ? a : b;
+        System.out.println(&quot;Max: &quot; + max);
+
+        // Nested ternary (avoid in production code)
+        int marks = 75;
+        String grade = (marks &gt;= 90) ? &quot;A&quot; : (marks &gt;= 80) ? &quot;B&quot; : (marks &gt;= 70) ? &quot;C&quot; : &quot;D&quot;;
+        System.out.println(&quot;Grade: &quot; + grade);
+    }
+}</code></pre><div class="code-example-explanation">The ternary operator <code>condition ? valueIfTrue : valueIfFalse</code> produces a value. For age 16, <code>(16 >= 18)</code> is false, so "Minor" is chosen. Nested ternaries work but are hard to read; use if-else for complex conditions.</div><div class="code-example-output">Status: Minor
+Can vote: No
+Max: 22
+Grade: C</div></div>
+<div class="code-example"><div class="code-example-title">switch-case with Fall-Through</div><pre><code class="language-python">public class SwitchDemo {
+    public static void main(String[] args) {
+        int month = 4;
+
+        // Standard switch
+        switch (month) {
+            case 1:
+                System.out.println(&quot;January&quot;);
+                break;
+            case 2:
+                System.out.println(&quot;February&quot;);
+                break;
+            case 3:
+                System.out.println(&quot;March&quot;);
+                break;
+            case 4:
+                System.out.println(&quot;April&quot;);
+                break;
+            default:
+                System.out.println(&quot;Other month&quot;);
+        }
+
+        // Fall-through for grouping seasons
+        System.out.println(&quot;\nSeason:&quot;);
+        switch (month) {
+            case 12: case 1: case 2:
+                System.out.println(&quot;Winter&quot;);
+                break;
+            case 3: case 4: case 5:
+                System.out.println(&quot;Spring&quot;);
+                break;
+            case 6: case 7: case 8:
+                System.out.println(&quot;Summer&quot;);
+                break;
+            case 9: case 10: case 11:
+                System.out.println(&quot;Autumn&quot;);
+                break;
+            default:
+                System.out.println(&quot;Invalid month&quot;);
+        }
+    }
+}</code></pre><div class="code-example-explanation">The first switch matches case 4 and prints "April". The <code>break</code> exits the switch. In the season switch, multiple cases share the same block using fall-through: cases 3, 4, 5 all reach the "Spring" print. Without <code>break</code>, execution would continue into the next case's code.</div><div class="code-example-output">April
+
+Season:
+Spring</div></div>
+<div class="code-example"><div class="code-example-title">switch with Strings (Java 7+)</div><pre><code class="language-python">import java.util.Scanner;
+
+public class StringSwitch {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print(&quot;Enter day name: &quot;);
+        String day = sc.nextLine().toLowerCase();
+
+        switch (day) {
+            case &quot;monday&quot;:
+            case &quot;tuesday&quot;:
+            case &quot;wednesday&quot;:
+            case &quot;thursday&quot;:
+            case &quot;friday&quot;:
+                System.out.println(day + &quot; is a weekday.&quot;);
+                break;
+            case &quot;saturday&quot;:
+            case &quot;sunday&quot;:
+                System.out.println(day + &quot; is a weekend.&quot;);
+                break;
+            default:
+                System.out.println(&quot;Invalid day name.&quot;);
+        }
+
+        sc.close();
+    }
+}</code></pre><div class="code-example-explanation">Since Java 7, switch supports String expressions. We convert the input to lowercase with <code>toLowerCase()</code> so the comparison is case-insensitive. Multiple cases fall through to share the "weekday" or "weekend" print. The comparison uses the string's <code>hashCode()</code> internally for efficiency.</div><div class="code-example-output">Enter day name: Thursday
+thursday is a weekday.</div></div>
+<div class="code-example"><div class="code-example-title">Enhanced switch Expression (Java 14+)</div><pre><code class="language-python">public class EnhancedSwitch {
+    public static void main(String[] args) {
+        int dayNum = 3;
+
+        // Arrow syntax - no break needed, no fall-through
+        String dayName = switch (dayNum) {
+            case 1 -&gt; &quot;Monday&quot;;
+            case 2 -&gt; &quot;Tuesday&quot;;
+            case 3 -&gt; &quot;Wednesday&quot;;
+            case 4 -&gt; &quot;Thursday&quot;;
+            case 5 -&gt; &quot;Friday&quot;;
+            case 6, 7 -&gt; &quot;Weekend&quot;;  // Multiple labels
+            default -&gt; &quot;Invalid&quot;;
+        };
+
+        System.out.println(&quot;Day: &quot; + dayName);
+
+        // Switch expression with blocks
+        String type = switch (dayNum) {
+            case 1, 2, 3, 4, 5 -&gt; {
+                System.out.println(&quot;Processing weekday...&quot;);
+                yield &quot;Weekday&quot;;  // yield returns value from block
+            }
+            case 6, 7 -&gt; {
+                System.out.println(&quot;Processing weekend...&quot;);
+                yield &quot;Weekend&quot;;
+            }
+            default -&gt; &quot;Unknown&quot;;
+        };
+
+        System.out.println(&quot;Type: &quot; + type);
+    }
+}</code></pre><div class="code-example-explanation">The enhanced switch (Java 14+) uses arrow syntax (<code>-></code>) which eliminates fall-through and break. The switch can return a value directly. Multiple labels can be grouped with commas (<code>case 6, 7</code>). When a case body needs multiple statements, use a block and the <code>yield</code> keyword to return the value.</div><div class="code-example-output">Day: Wednesday
+Processing weekday...
+Type: Weekday</div></div>
+<div class="code-example"><div class="code-example-title">String Comparison: .equals() vs ==</div><pre><code class="language-python">public class StringComparison {
+    public static void main(String[] args) {
+        String a = &quot;hello&quot;;
+        String b = &quot;hello&quot;;
+        String c = new String(&quot;hello&quot;);
+
+        // == compares references (memory addresses)
+        System.out.println(&quot;a == b: &quot; + (a == b));       // true (string pool)
+        System.out.println(&quot;a == c: &quot; + (a == c));       // false (different objects)
+
+        // .equals() compares content
+        System.out.println(&quot;a.equals(b): &quot; + a.equals(b)); // true
+        System.out.println(&quot;a.equals(c): &quot; + a.equals(c)); // true
+
+        // In conditionals, ALWAYS use .equals()
+        String userInput = new String(&quot;admin&quot;);
+        if (userInput.equals(&quot;admin&quot;)) {
+            System.out.println(&quot;Access granted.&quot;);
+        }
+
+        // Safer: put the literal first to avoid NullPointerException
+        String name = null;
+        if (&quot;admin&quot;.equals(name)) { // No NullPointerException!
+            System.out.println(&quot;Admin&quot;);
+        } else {
+            System.out.println(&quot;Not admin&quot;);
+        }
+    }
+}</code></pre><div class="code-example-explanation">String literals <code>a</code> and <code>b</code> point to the same object in the string pool, so <code>==</code> returns true. But <code>c</code> created with <code>new</code> is a separate object, so <code>a == c</code> is false even though the content is identical. Always use <code>.equals()</code> for string comparison. Putting the literal first ("admin".equals(name)) prevents NullPointerException when name is null.</div><div class="code-example-output">a == b: true
+a == c: false
+a.equals(b): true
+a.equals(c): true
+Access granted.
+Not admin</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using == Instead of .equals() for Strings</h3>
+                <div class="wrong-code"><pre><code class="language-python">String name = new String(&quot;Ravi&quot;);
+if (name == &quot;Ravi&quot;) {
+    System.out.println(&quot;Match&quot;);
+} else {
+    System.out.println(&quot;No match&quot;);
+}</code></pre></div><div class="error-message">No compilation error, but prints &#39;No match&#39; because == compares references, not content.</div><div class="correct-code"><pre><code class="language-python">String name = new String(&quot;Ravi&quot;);
+if (name.equals(&quot;Ravi&quot;)) {
+    System.out.println(&quot;Match&quot;);
+}</code></pre></div><div class="mistake-explanation">The <code>==</code> operator checks if two references point to the same object in memory. Since <code>new String("Ravi")</code> creates a new object, it is a different reference from the string literal "Ravi" in the string pool. Always use <code>.equals()</code> to compare string content. This is one of the most commonly tested topics in Java placement interviews.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Missing break in switch Causing Fall-Through</h3>
+                <div class="wrong-code"><pre><code class="language-python">int x = 1;
+switch (x) {
+    case 1:
+        System.out.println(&quot;One&quot;);
+    case 2:
+        System.out.println(&quot;Two&quot;);
+    case 3:
+        System.out.println(&quot;Three&quot;);
+}</code></pre></div><div class="error-message">No compilation error, but prints &#39;One&#39;, &#39;Two&#39;, AND &#39;Three&#39; due to fall-through.</div><div class="correct-code"><pre><code class="language-python">int x = 1;
+switch (x) {
+    case 1:
+        System.out.println(&quot;One&quot;);
+        break;
+    case 2:
+        System.out.println(&quot;Two&quot;);
+        break;
+    case 3:
+        System.out.println(&quot;Three&quot;);
+        break;
+}</code></pre></div><div class="mistake-explanation">Without <code>break</code>, execution falls through to the next case regardless of whether it matches. After matching case 1, the code continues executing case 2 and case 3 code. This is a very common bug. In the enhanced switch (Java 14+), arrow syntax eliminates this problem entirely.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using = Instead of == in Conditions</h3>
+                <div class="wrong-code"><pre><code class="language-python">int x = 10;
+if (x = 5) {
+    System.out.println(&quot;Five&quot;);
+}</code></pre></div><div class="error-message">error: incompatible types: int cannot be converted to boolean</div><div class="correct-code"><pre><code class="language-python">int x = 10;
+if (x == 5) {
+    System.out.println(&quot;Five&quot;);
+}</code></pre></div><div class="mistake-explanation">A single <code>=</code> is the assignment operator. <code>x = 5</code> assigns 5 to x and returns an int, which cannot be used as a boolean condition. Use <code>==</code> for comparison. Java catches this at compile time for int types (unlike C/C++), but for boolean variables, <code>if (flag = true)</code> compiles and silently overwrites the variable.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrong Order in if-else if Causing Wrong Results</h3>
+                <div class="wrong-code"><pre><code class="language-python">int marks = 95;
+if (marks &gt;= 40) {
+    System.out.println(&quot;Grade: E&quot;);
+} else if (marks &gt;= 70) {
+    System.out.println(&quot;Grade: C&quot;);
+} else if (marks &gt;= 90) {
+    System.out.println(&quot;Grade: A&quot;);
+}</code></pre></div><div class="error-message">No compilation error, but prints &#39;Grade: E&#39; instead of &#39;Grade: A&#39;. Conditions are in the wrong order.</div><div class="correct-code"><pre><code class="language-python">int marks = 95;
+if (marks &gt;= 90) {
+    System.out.println(&quot;Grade: A&quot;);
+} else if (marks &gt;= 70) {
+    System.out.println(&quot;Grade: C&quot;);
+} else if (marks &gt;= 40) {
+    System.out.println(&quot;Grade: E&quot;);
+}</code></pre></div><div class="mistake-explanation">Java checks conditions top to bottom and stops at the first true one. Since 95 >= 40 is true, "Grade: E" prints immediately and the other conditions are never checked. Always put the most restrictive (highest threshold) condition first in an if-else if chain.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Omitting Curly Braces Leading to Logic Errors</h3>
+                <div class="wrong-code"><pre><code class="language-python">int score = 30;
+if (score &gt;= 40)
+    System.out.println(&quot;Passed&quot;);
+    System.out.println(&quot;Congratulations!&quot;);  // Always executes!</code></pre></div><div class="error-message">No compilation error, but &#39;Congratulations!&#39; prints even when score is 30 because it is not inside the if block.</div><div class="correct-code"><pre><code class="language-python">int score = 30;
+if (score &gt;= 40) {
+    System.out.println(&quot;Passed&quot;);
+    System.out.println(&quot;Congratulations!&quot;);
+}</code></pre></div><div class="mistake-explanation">Without curly braces, only the first statement after <code>if</code> belongs to the if block. The second print is outside the if and always executes. Indentation is cosmetic in Java and does not affect control flow. Always use curly braces to avoid this error.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>The if statement checks a boolean condition. If true, the block executes. If false, it is skipped. Always use curly braces, even for single statements.</li>
+<li>The if-else statement provides two branches: one for true, one for false. Exactly one block always executes.</li>
+<li>The if-else if-else ladder checks multiple conditions from top to bottom. Only the first true condition&#39;s block executes. Put the most restrictive condition first.</li>
+<li>Nested if places one if inside another. Avoid more than 2-3 levels; flatten conditions using &amp;&amp; and || operators.</li>
+<li>The ternary operator (condition ? a : b) is a compact if-else that produces a value. Use it for simple assignments only.</li>
+<li>switch-case compares one variable against multiple constant values. Always include break to prevent fall-through. Use default for unmatched cases.</li>
+<li>Since Java 7, switch supports String values. Comparison is case-sensitive. Internally uses hashCode() for efficiency.</li>
+<li>Java 14+ enhanced switch uses arrow syntax (-&gt;), eliminates fall-through, allows switch to return values, and supports yield for multi-statement cases.</li>
+<li>Always compare Strings with .equals(), never with ==. The == operator compares references (memory addresses), not content. Placing the literal first (&quot;text&quot;.equals(variable)) prevents NullPointerException.</li>
+<li>In if conditions, == is comparison and = is assignment. For int types, accidental assignment in if causes a compilation error. For boolean, it silently compiles (if (flag = true)), which is a subtle bug.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/operators-in-java" class="related-topic-link">Operators in Java</a>
+<a href="/resources/java/loops-in-java" class="related-topic-link">Loops in Java (for, while, do-while)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/java/taking-input-in-java" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Taking Input with Scanner</span>
+        </a>
+            <a href="/resources/java/loops-in-java" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Loops in Java (for, while, do-while)</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/conditional-statements/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

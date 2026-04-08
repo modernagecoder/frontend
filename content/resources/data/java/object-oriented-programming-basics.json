@@ -1,0 +1,560 @@
+{
+  "title": "OOP Basics - Classes, Objects, and Constructors",
+  "slug": "object-oriented-programming-basics",
+  "language": "java",
+  "chapter": 13,
+  "difficulty": "Intermediate",
+  "readingTime": "34 min",
+  "lastUpdated": "2026-04-08",
+  "totalQuestions": 63,
+  "seo": {
+    "title": "Java OOP Basics - Classes, Objects, Constructors, this Keyword | Modern Age Coders",
+    "description": "Learn Java OOP fundamentals including classes, objects, constructors, constructor overloading, this keyword, static keyword, and toString(). Includes 63+ practice questions with output prediction and coding challenges.",
+    "keywords": "java classes and objects, java constructor, java OOP basics, this keyword java, java static keyword, java constructor overloading, java new keyword, java instance variables, java static methods, java toString"
+  },
+  "content": {
+    "what": "<h2>What Is Object-Oriented Programming (OOP)?</h2><p><strong>Object-Oriented Programming</strong> is a programming paradigm that organizes code around <strong>objects</strong> rather than functions and procedures. An object is a self-contained entity that combines data (fields/attributes) and behavior (methods) into a single unit. In Java, everything revolves around classes and objects — Java is one of the most purely object-oriented languages in widespread use.</p><p>OOP is built on <strong>four pillars</strong>:</p><p><strong>1. Encapsulation:</strong> Bundling data and methods together, and restricting direct access to internal data. This is achieved through access modifiers (private, public, protected).</p><p><strong>2. Inheritance:</strong> A class can inherit fields and methods from another class, promoting code reuse and establishing IS-A relationships.</p><p><strong>3. Polymorphism:</strong> The same method name can behave differently depending on the object type. This includes method overloading (compile-time) and method overriding (runtime).</p><p><strong>4. Abstraction:</strong> Hiding complex implementation details behind simple interfaces. Users interact with what an object does, not how it does it.</p><p>This chapter focuses on the foundation: <strong>classes, objects, and constructors</strong>. These are the building blocks upon which all four pillars stand.</p><h3>Class vs Object</h3><p>A <strong>class</strong> is a blueprint or template that defines the structure (fields) and behavior (methods) of a type. An <strong>object</strong> is a specific instance of a class, occupying memory at runtime.</p><p>Analogy: A class is like an architectural blueprint for a house. An object is an actual house built from that blueprint. You can build many houses (objects) from the same blueprint (class), each with different paint colors and furniture (field values).</p>",
+    "why": "<h2>Why Are Classes, Objects, and Constructors Important?</h2><p>Understanding classes and objects is not optional in Java — it is the language itself. Every line of Java code you write exists inside a class. Every data structure, every library, every framework is built with classes and objects.</p><h3>1. Java Is Object-Oriented by Design</h3><p>Unlike Python or JavaScript where OOP is one of several paradigms, Java enforces OOP. You cannot write a standalone function outside a class. Even the <code>main</code> method must be inside a class. Understanding classes is understanding Java.</p><h3>2. Real-World Modeling</h3><p>OOP maps naturally to real-world entities. A <code>Student</code> class has fields like <code>name</code>, <code>rollNo</code>, and <code>marks</code>, and methods like <code>calculateGrade()</code>. A <code>BankAccount</code> class has <code>balance</code> and methods like <code>deposit()</code> and <code>withdraw()</code>. This modeling makes code intuitive and maintainable.</p><h3>3. Constructors Control Object Initialization</h3><p>Constructors ensure that every object starts in a valid state. Without constructors, you would need to manually set each field after creating an object, risking incomplete or invalid objects. Constructor overloading provides flexible ways to initialize objects.</p><h3>4. The this Keyword Resolves Ambiguity</h3><p>When constructor parameters have the same name as instance variables, <code>this</code> distinguishes between them. Understanding <code>this</code> is essential for writing clean constructors, implementing method chaining, and avoiding common bugs.</p><h3>5. Static Members Are Interview Staples</h3><p>Understanding when to use <code>static</code> versus instance members, how static methods behave, and why <code>main</code> is static are questions asked in every Java interview and university exam.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Creating a Class</h3><p>A class defines the structure and behavior of objects. It contains:</p><p>- <strong>Instance variables (fields):</strong> Data that each object holds independently.</p><p>- <strong>Methods:</strong> Behavior that objects can perform.</p><p>- <strong>Constructors:</strong> Special methods called when an object is created.</p><pre><code>class Student {\n    // Instance variables\n    String name;\n    int rollNo;\n    double marks;\n\n    // Method\n    void displayInfo() {\n        System.out.println(name + \" (\" + rollNo + \") - Marks: \" + marks);\n    }\n}</code></pre><h3>2. Creating Objects</h3><p>Objects are created using the <code>new</code> keyword, which allocates memory on the heap and calls the constructor:</p><pre><code>Student s1 = new Student();\ns1.name = \"Aarav\";\ns1.rollNo = 101;\ns1.marks = 92.5;\ns1.displayInfo(); // Aarav (101) - Marks: 92.5</code></pre><p>Each object has its own copy of instance variables. Changing <code>s1.name</code> does not affect <code>s2.name</code>.</p><h3>3. Constructors</h3><p>A constructor is a special method that is called automatically when an object is created with <code>new</code>. It has the same name as the class and no return type (not even void).</p><p><strong>Default Constructor:</strong> If you do not write any constructor, Java provides a no-argument default constructor that initializes fields to their default values (0 for numbers, null for objects, false for booleans).</p><p><strong>Parameterized Constructor:</strong> Accepts parameters to initialize fields with specific values at creation time.</p><pre><code>class Student {\n    String name;\n    int rollNo;\n\n    // Default constructor\n    Student() {\n        name = \"Unknown\";\n        rollNo = 0;\n    }\n\n    // Parameterized constructor\n    Student(String name, int rollNo) {\n        this.name = name;\n        this.rollNo = rollNo;\n    }\n}</code></pre><p><strong>Copy Constructor:</strong> Takes another object of the same class as a parameter and copies its values. Java does not provide this automatically (unlike C++), but you can write one.</p><pre><code>Student(Student other) {\n    this.name = other.name;\n    this.rollNo = other.rollNo;\n}</code></pre><h3>4. Constructor Overloading</h3><p>Like methods, constructors can be overloaded by having different parameter lists. This gives users multiple ways to create objects:</p><pre><code>Student s1 = new Student();                    // default\nStudent s2 = new Student(\"Priya\", 102);        // name + rollNo\nStudent s3 = new Student(\"Rohan\", 103, 88.5);  // name + rollNo + marks</code></pre><h3>5. The this Keyword</h3><p>The <code>this</code> keyword refers to the current object. It has several uses:</p><p><strong>this.variable:</strong> Distinguishes instance variables from parameters with the same name.</p><pre><code>Student(String name, int rollNo) {\n    this.name = name;     // this.name is the field; name is the parameter\n    this.rollNo = rollNo;\n}</code></pre><p><strong>this():</strong> Calls another constructor of the same class (constructor chaining). Must be the first statement.</p><pre><code>Student() {\n    this(\"Unknown\", 0); // Calls the parameterized constructor\n}\n\nStudent(String name, int rollNo) {\n    this.name = name;\n    this.rollNo = rollNo;\n}</code></pre><p><strong>this as argument:</strong> Passes the current object to another method or constructor.</p><h3>6. The static Keyword</h3><p>The <code>static</code> keyword makes a member belong to the class rather than to any specific object.</p><p><strong>Static variables:</strong> Shared among all objects of the class. There is only one copy, regardless of how many objects exist. Example: a counter tracking how many Student objects have been created.</p><pre><code>class Student {\n    static int count = 0; // shared by all Student objects\n    String name;\n\n    Student(String name) {\n        this.name = name;\n        count++; // incremented for every new object\n    }\n}</code></pre><p><strong>Static methods:</strong> Can be called without creating an object. Cannot access instance variables or use <code>this</code>. Example: <code>Math.sqrt()</code>, <code>Integer.parseInt()</code>.</p><p><strong>Static block:</strong> Executed once when the class is first loaded, before any objects are created or static methods are called. Used for static initialization.</p><pre><code>class Config {\n    static String dbUrl;\n\n    static {\n        dbUrl = \"jdbc:mysql://localhost:3306/mydb\";\n        System.out.println(\"Static block executed\");\n    }\n}</code></pre><h3>7. Instance Initializer Block</h3><p>An instance initializer block runs every time an object is created, before the constructor body. It is useful for code that should run regardless of which constructor is called.</p><pre><code>class Student {\n    String name;\n\n    {\n        System.out.println(\"Instance initializer block\");\n        // Runs before every constructor\n    }\n\n    Student() { name = \"Unknown\"; }\n    Student(String name) { this.name = name; }\n}</code></pre><p>Execution order: (1) Static blocks (once, when class loads), (2) Instance initializer blocks (every object creation), (3) Constructor body.</p><h3>8. The toString() Method</h3><p>Every class in Java inherits from <code>Object</code>, which has a <code>toString()</code> method. By default, it returns something like <code>Student@1b6d3586</code> (class name + hash code). Override it to provide a meaningful string representation:</p><pre><code>@Override\npublic String toString() {\n    return \"Student{name='\" + name + \"', rollNo=\" + rollNo + \"}\";\n}</code></pre><p><code>toString()</code> is called automatically when you print an object with <code>System.out.println()</code> or concatenate an object with a string.</p>",
+    "codeExamples": [
+      {
+        "title": "Creating a Class and Objects",
+        "code": "class Student {\n    String name;\n    int rollNo;\n    double marks;\n\n    void displayInfo() {\n        System.out.println(name + \" (Roll: \" + rollNo + \") - Marks: \" + marks);\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        // Creating objects using the new keyword\n        Student s1 = new Student();\n        s1.name = \"Aarav\";\n        s1.rollNo = 101;\n        s1.marks = 92.5;\n\n        Student s2 = new Student();\n        s2.name = \"Priya\";\n        s2.rollNo = 102;\n        s2.marks = 88.0;\n\n        s1.displayInfo();\n        s2.displayInfo();\n\n        // Each object has its own data\n        System.out.println(s1.name + \" and \" + s2.name + \" are different objects\");\n    }\n}",
+        "language": "java",
+        "explanation": "The <code>Student</code> class defines three fields and one method. Two objects <code>s1</code> and <code>s2</code> are created using <code>new</code>. Each has its own copy of <code>name</code>, <code>rollNo</code>, and <code>marks</code>. Changing one object's fields does not affect the other. The <code>displayInfo()</code> method accesses the current object's fields.",
+        "output": "Aarav (Roll: 101) - Marks: 92.5\nPriya (Roll: 102) - Marks: 88.0\nAarav and Priya are different objects"
+      },
+      {
+        "title": "Constructors — Default, Parameterized, and Copy",
+        "code": "class Book {\n    String title;\n    String author;\n    double price;\n\n    // Default constructor\n    Book() {\n        this.title = \"Untitled\";\n        this.author = \"Unknown\";\n        this.price = 0.0;\n    }\n\n    // Parameterized constructor\n    Book(String title, String author, double price) {\n        this.title = title;\n        this.author = author;\n        this.price = price;\n    }\n\n    // Copy constructor\n    Book(Book other) {\n        this.title = other.title;\n        this.author = other.author;\n        this.price = other.price;\n    }\n\n    void display() {\n        System.out.println(title + \" by \" + author + \" - Rs.\" + price);\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Book b1 = new Book();\n        Book b2 = new Book(\"Java Complete\", \"Deepak Gupta\", 599.0);\n        Book b3 = new Book(b2); // Copy of b2\n\n        b1.display();\n        b2.display();\n        b3.display();\n\n        // Verify copy is independent\n        b3.price = 499.0;\n        System.out.println(\"b2 price: \" + b2.price);\n        System.out.println(\"b3 price: \" + b3.price);\n    }\n}",
+        "language": "java",
+        "explanation": "Three constructors provide different ways to create Book objects. The default constructor sets placeholder values. The parameterized constructor takes all fields. The copy constructor creates a new object with the same values as an existing one. After copying, modifying <code>b3.price</code> does not affect <code>b2</code> because primitive fields are copied by value.",
+        "output": "Untitled by Unknown - Rs.0.0\nJava Complete by Deepak Gupta - Rs.599.0\nJava Complete by Deepak Gupta - Rs.599.0\nb2 price: 599.0\nb3 price: 499.0"
+      },
+      {
+        "title": "Constructor Overloading and this() Chaining",
+        "code": "class Employee {\n    String name;\n    String department;\n    double salary;\n\n    // Constructor with all parameters\n    Employee(String name, String department, double salary) {\n        this.name = name;\n        this.department = department;\n        this.salary = salary;\n        System.out.println(\"Full constructor called\");\n    }\n\n    // Constructor with name only — chains to full constructor\n    Employee(String name) {\n        this(name, \"General\", 30000.0);\n        System.out.println(\"Name-only constructor called\");\n    }\n\n    // Default constructor — chains to name-only constructor\n    Employee() {\n        this(\"New Employee\");\n        System.out.println(\"Default constructor called\");\n    }\n\n    void display() {\n        System.out.println(name + \" | \" + department + \" | Rs.\" + salary);\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(\"--- Creating e1 ---\");\n        Employee e1 = new Employee();\n        e1.display();\n\n        System.out.println(\"\\n--- Creating e2 ---\");\n        Employee e2 = new Employee(\"Kavitha\", \"Engineering\", 75000.0);\n        e2.display();\n    }\n}",
+        "language": "java",
+        "explanation": "Constructor chaining uses <code>this()</code> to call another constructor of the same class. The default constructor calls the name-only constructor, which calls the full constructor. This avoids duplicating initialization logic. <code>this()</code> must be the first statement in a constructor. The chain shows the execution order: full constructor runs first, then the chaining constructors' remaining code runs in reverse order.",
+        "output": "--- Creating e1 ---\nFull constructor called\nName-only constructor called\nDefault constructor called\nNew Employee | General | Rs.30000.0\n\n--- Creating e2 ---\nFull constructor called\nKavitha | Engineering | Rs.75000.0"
+      },
+      {
+        "title": "The this Keyword — All Uses",
+        "code": "class Counter {\n    int value;\n\n    Counter(int value) {\n        this.value = value; // this.variable — distinguishes field from parameter\n    }\n\n    // Method returns this for chaining\n    Counter increment() {\n        this.value++;\n        return this; // returns the current object\n    }\n\n    Counter add(int n) {\n        this.value += n;\n        return this;\n    }\n\n    void display() {\n        System.out.println(\"Value: \" + this.value);\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Counter c = new Counter(0);\n\n        // Method chaining using this\n        c.increment().increment().add(10).increment().display();\n\n        Counter c2 = new Counter(5);\n        c2.add(3).increment().display();\n    }\n}",
+        "language": "java",
+        "explanation": "<code>this.value</code> refers to the instance variable, distinguishing it from the constructor parameter <code>value</code>. Methods that return <code>this</code> enable method chaining: <code>c.increment().increment().add(10)</code> calls three methods in sequence on the same object. Each method modifies the object and returns it for the next call.",
+        "output": "Value: 13\nValue: 9"
+      },
+      {
+        "title": "Static Variables, Static Methods, and Static Block",
+        "code": "class Student {\n    String name;\n    static int count = 0; // shared among all objects\n\n    static {\n        System.out.println(\"Static block: Student class loaded\");\n    }\n\n    Student(String name) {\n        this.name = name;\n        count++;\n    }\n\n    void display() {\n        System.out.println(name + \" (Total students: \" + count + \")\");\n    }\n\n    // Static method — does not need an object\n    static int getCount() {\n        // Cannot use 'this' or access 'name' here\n        return count;\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Before creating objects: \" + Student.getCount());\n\n        Student s1 = new Student(\"Aarav\");\n        Student s2 = new Student(\"Priya\");\n        Student s3 = new Student(\"Rohan\");\n\n        s1.display();\n        s2.display();\n        System.out.println(\"Total: \" + Student.getCount());\n    }\n}",
+        "language": "java",
+        "explanation": "The static variable <code>count</code> is shared across all Student objects — there is only one copy regardless of how many objects exist. The static block runs once when the class is first loaded. The static method <code>getCount()</code> can be called using the class name without any object. It cannot access <code>this</code> or instance variables like <code>name</code>.",
+        "output": "Static block: Student class loaded\nBefore creating objects: 0\nAarav (Total students: 3)\nPriya (Total students: 3)\nTotal: 3"
+      },
+      {
+        "title": "Instance Initializer Block and Execution Order",
+        "code": "class Demo {\n    String name;\n\n    // Static block — runs once when class loads\n    static {\n        System.out.println(\"1. Static block\");\n    }\n\n    // Instance initializer block — runs for every object\n    {\n        System.out.println(\"2. Instance initializer block\");\n    }\n\n    // Constructor\n    Demo(String name) {\n        this.name = name;\n        System.out.println(\"3. Constructor: \" + name);\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(\"--- Creating first object ---\");\n        Demo d1 = new Demo(\"First\");\n\n        System.out.println(\"\\n--- Creating second object ---\");\n        Demo d2 = new Demo(\"Second\");\n    }\n}",
+        "language": "java",
+        "explanation": "The execution order is: (1) Static block runs once when the class is first loaded. (2) Instance initializer block runs every time an object is created, before the constructor body. (3) Constructor body runs. For the second object, the static block does not run again because the class is already loaded.",
+        "output": "--- Creating first object ---\n1. Static block\n2. Instance initializer block\n3. Constructor: First\n\n--- Creating second object ---\n2. Instance initializer block\n3. Constructor: Second"
+      },
+      {
+        "title": "Overriding toString()",
+        "code": "class Student {\n    String name;\n    int rollNo;\n    double marks;\n\n    Student(String name, int rollNo, double marks) {\n        this.name = name;\n        this.rollNo = rollNo;\n        this.marks = marks;\n    }\n\n    @Override\n    public String toString() {\n        return \"Student{name='\" + name + \"', rollNo=\" + rollNo\n               + \", marks=\" + marks + \"}\";\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Student s1 = new Student(\"Meera\", 201, 95.5);\n        Student s2 = new Student(\"Vikram\", 202, 87.0);\n\n        // toString() is called automatically by println()\n        System.out.println(s1);\n        System.out.println(s2);\n\n        // toString() is also called during string concatenation\n        String info = \"Top student: \" + s1;\n        System.out.println(info);\n    }\n}",
+        "language": "java",
+        "explanation": "By default, <code>toString()</code> returns something like <code>Student@1b6d3586</code>. Overriding it provides a meaningful representation. <code>System.out.println(s1)</code> automatically calls <code>s1.toString()</code>. String concatenation with <code>+</code> also calls <code>toString()</code> implicitly. The <code>@Override</code> annotation tells the compiler to verify that you are actually overriding a method from the superclass.",
+        "output": "Student{name='Meera', rollNo=201, marks=95.5}\nStudent{name='Vikram', rollNo=202, marks=87.0}\nTop student: Student{name='Meera', rollNo=201, marks=95.5}"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Adding a Return Type to a Constructor",
+        "wrongCode": "class Student {\n    String name;\n\n    void Student(String name) { // This is NOT a constructor!\n        this.name = name;\n    }\n}",
+        "error": "No compilation error, but Student(String name) is treated as a regular method named \"Student\", not a constructor. The default no-arg constructor is used instead, leaving name as null.",
+        "correctCode": "class Student {\n    String name;\n\n    Student(String name) { // No return type — this IS a constructor\n        this.name = name;\n    }\n}",
+        "explanation": "Constructors must NOT have a return type — not even <code>void</code>. If you add <code>void</code> before the class name, Java treats it as a regular method that happens to have the same name as the class. The actual constructor (the compiler-generated default) initializes <code>name</code> to null."
+      },
+      {
+        "title": "Forgetting this When Parameter Names Shadow Fields",
+        "wrongCode": "class Student {\n    String name;\n    int rollNo;\n\n    Student(String name, int rollNo) {\n        name = name;       // Assigns parameter to itself — field is still null!\n        rollNo = rollNo;   // Same problem\n    }\n}",
+        "error": "No compilation error, but the fields remain at their default values (null, 0) because the parameters shadow the fields.",
+        "correctCode": "class Student {\n    String name;\n    int rollNo;\n\n    Student(String name, int rollNo) {\n        this.name = name;     // this.name is the field\n        this.rollNo = rollNo; // this.rollNo is the field\n    }\n}",
+        "explanation": "When a parameter has the same name as a field, the parameter shadows the field within that method. <code>name = name</code> assigns the parameter to itself. Use <code>this.name</code> to explicitly refer to the instance variable. This is one of the most common constructor bugs."
+      },
+      {
+        "title": "Expecting a Default Constructor After Defining a Parameterized One",
+        "wrongCode": "class Student {\n    String name;\n\n    Student(String name) {\n        this.name = name;\n    }\n}\n\n// In main:\nStudent s = new Student(); // Compilation error!",
+        "error": "error: constructor Student in class Student cannot be applied to given types; required: String; found: no arguments",
+        "correctCode": "class Student {\n    String name;\n\n    Student() { // Explicitly define the default constructor\n        this.name = \"Unknown\";\n    }\n\n    Student(String name) {\n        this.name = name;\n    }\n}\n\n// Now both work:\nStudent s1 = new Student();\nStudent s2 = new Student(\"Aarav\");",
+        "explanation": "Java provides a default no-argument constructor only if you do not define any constructor. Once you define any constructor (even a parameterized one), the default constructor is no longer generated. If you still need it, you must define it explicitly."
+      },
+      {
+        "title": "Accessing Instance Variables from a Static Method",
+        "wrongCode": "class Student {\n    String name;\n\n    static void printName() {\n        System.out.println(name); // ERROR\n    }\n}",
+        "error": "error: non-static variable name cannot be referenced from a static context",
+        "correctCode": "class Student {\n    String name;\n\n    static void printName(Student s) {\n        System.out.println(s.name); // Access through an object reference\n    }\n\n    void printMyName() { // Or use an instance method\n        System.out.println(name);\n    }\n}",
+        "explanation": "Static methods belong to the class, not to any object. They do not have a <code>this</code> reference, so they cannot access instance variables directly. To access instance data from a static method, you need an explicit object reference passed as a parameter."
+      },
+      {
+        "title": "Using this() Not as the First Statement in a Constructor",
+        "wrongCode": "class Student {\n    String name;\n    int rollNo;\n\n    Student() {\n        System.out.println(\"Creating student\");\n        this(\"Unknown\", 0); // ERROR: must be first statement\n    }\n\n    Student(String name, int rollNo) {\n        this.name = name;\n        this.rollNo = rollNo;\n    }\n}",
+        "error": "error: call to this must be first statement in constructor",
+        "correctCode": "class Student {\n    String name;\n    int rollNo;\n\n    Student() {\n        this(\"Unknown\", 0); // Must be FIRST statement\n        System.out.println(\"Creating student\");\n    }\n\n    Student(String name, int rollNo) {\n        this.name = name;\n        this.rollNo = rollNo;\n    }\n}",
+        "explanation": "When using <code>this()</code> to chain constructors, it must be the very first statement in the constructor body. No other code can appear before it. This ensures the chained constructor runs before any other initialization logic in the current constructor."
+      }
+    ],
+    "summary": [
+      "A class is a blueprint that defines fields (data) and methods (behavior). An object is a specific instance of a class created using the new keyword.",
+      "Constructors are special methods (no return type, same name as the class) that initialize objects when they are created. If you define no constructors, Java provides a default no-argument constructor.",
+      "Once you define any constructor, the default constructor is no longer generated. Define it explicitly if you need it.",
+      "Constructor overloading allows multiple constructors with different parameter lists, providing flexible ways to create objects.",
+      "The this keyword refers to the current object. Use this.variable to distinguish fields from parameters, this() to chain constructors (must be the first statement), and return this for method chaining.",
+      "Static variables are shared among all objects of a class (one copy per class). Static methods belong to the class and can be called without an object. Static methods cannot access instance variables or use this.",
+      "Execution order: static blocks (once, when class loads) -> instance initializer blocks (every object creation) -> constructor body.",
+      "Override toString() to provide a meaningful string representation of your objects. It is called automatically by println() and string concatenation.",
+      "A copy constructor takes another object of the same class and duplicates its values. Java does not provide one automatically — you must write it yourself.",
+      "Every class in Java implicitly extends the Object class, inheriting methods like toString(), equals(), and hashCode()."
+    ]
+  },
+  "relatedTopics": ["methods-in-java", "encapsulation-and-access-modifiers"],
+  "practice": {
+    "totalQuestions": 63,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>class Dog {\n    String name;\n    void bark() {\n        System.out.println(name + \" says Woof!\");\n    }\n}\n\nDog d = new Dog();\nd.name = \"Buddy\";\nd.bark();</code></pre>",
+        "hint": "The field name is set to \"Buddy\" before calling bark().",
+        "answer": "<code>Buddy says Woof!</code>",
+        "explanation": "A Dog object is created with the default constructor (provided by Java since none is defined). The <code>name</code> field is set to \"Buddy\", and <code>bark()</code> prints the name followed by \" says Woof!\"."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Point {\n    int x, y;\n}\n\nPoint p = new Point();\nSystem.out.println(p.x + \", \" + p.y);</code></pre>",
+        "hint": "When no constructor is defined, Java uses default values for fields.",
+        "answer": "<code>0, 0</code>",
+        "explanation": "No constructor is defined, so Java provides a default no-argument constructor that initializes int fields to 0. Both <code>x</code> and <code>y</code> are 0."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Box {\n    int length;\n    Box(int length) {\n        this.length = length;\n    }\n}\n\nBox b = new Box(10);\nSystem.out.println(b.length);</code></pre>",
+        "hint": "The parameterized constructor sets this.length to the passed value.",
+        "answer": "<code>10</code>",
+        "explanation": "The constructor <code>Box(int length)</code> uses <code>this.length</code> to assign the parameter value to the field. <code>b.length</code> is 10."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Counter {\n    static int count = 0;\n    Counter() {\n        count++;\n    }\n}\n\nCounter c1 = new Counter();\nCounter c2 = new Counter();\nCounter c3 = new Counter();\nSystem.out.println(Counter.count);</code></pre>",
+        "hint": "Static variables are shared. Each constructor call increments the same count.",
+        "answer": "<code>3</code>",
+        "explanation": "The static variable <code>count</code> is shared across all Counter objects. Each <code>new Counter()</code> increments the same counter. After three objects, count is 3."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Student {\n    String name;\n    Student(String name) {\n        this.name = name;\n    }\n    public String toString() {\n        return \"Student: \" + name;\n    }\n}\n\nStudent s = new Student(\"Meera\");\nSystem.out.println(s);</code></pre>",
+        "hint": "println() automatically calls toString() on objects.",
+        "answer": "<code>Student: Meera</code>",
+        "explanation": "<code>System.out.println(s)</code> calls <code>s.toString()</code> which returns \"Student: Meera\". Without the toString() override, it would print something like Student@1b6d3586."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Test {\n    int x;\n\n    Test() {\n        this(10);\n        System.out.println(\"Default: x = \" + x);\n    }\n\n    Test(int x) {\n        this.x = x;\n        System.out.println(\"Param: x = \" + x);\n    }\n}\n\nTest t = new Test();</code></pre>",
+        "hint": "this(10) chains to the parameterized constructor first, then the default constructor continues.",
+        "answer": "<code>Param: x = 10</code><br><code>Default: x = 10</code>",
+        "explanation": "The default constructor calls <code>this(10)</code>, which invokes the parameterized constructor first. It sets x to 10 and prints \"Param: x = 10\". Then control returns to the default constructor, which prints \"Default: x = 10\"."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class MyClass {\n    static int a = 10;\n    int b = 20;\n\n    static void display() {\n        System.out.println(\"a = \" + a);\n        // System.out.println(\"b = \" + b); // Would cause error\n    }\n}\n\nMyClass.display();\nMyClass obj = new MyClass();\nSystem.out.println(obj.b);</code></pre>",
+        "hint": "Static methods can access static variables but not instance variables.",
+        "answer": "<code>a = 10</code><br><code>20</code>",
+        "explanation": "The static method <code>display()</code> can access the static variable <code>a</code> but not the instance variable <code>b</code>. It prints \"a = 10\". Then an object is created and <code>obj.b</code> is 20 (instance variable with default initialization)."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Demo {\n    static { System.out.println(\"Static block\"); }\n    { System.out.println(\"Instance block\"); }\n    Demo() { System.out.println(\"Constructor\"); }\n}\n\nDemo d1 = new Demo();\nSystem.out.println(\"---\");\nDemo d2 = new Demo();</code></pre>",
+        "hint": "Static block runs once. Instance block and constructor run for each object.",
+        "answer": "<code>Static block</code><br><code>Instance block</code><br><code>Constructor</code><br><code>---</code><br><code>Instance block</code><br><code>Constructor</code>",
+        "explanation": "Static block runs once when the class loads (before the first object). For d1: instance block then constructor. For d2: instance block then constructor (static block does not repeat)."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Person {\n    String name;\n    Person(String name) { this.name = name; }\n}\n\nPerson p1 = new Person(\"Rohit\");\nPerson p2 = p1;\np2.name = \"Virat\";\nSystem.out.println(p1.name);\nSystem.out.println(p2.name);</code></pre>",
+        "hint": "p2 = p1 does not create a copy. Both variables reference the same object.",
+        "answer": "<code>Virat</code><br><code>Virat</code>",
+        "explanation": "<code>p2 = p1</code> copies the reference, not the object. Both <code>p1</code> and <code>p2</code> point to the same Person object. Changing <code>p2.name</code> to \"Virat\" also changes what <code>p1.name</code> sees, because they are the same object."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class A {\n    int x;\n    A() { this(5); System.out.println(\"A()\"); }\n    A(int x) { this.x = x; System.out.println(\"A(\" + x + \")\"); }\n    { System.out.println(\"Instance block: x = \" + x); }\n}\n\nA obj = new A();</code></pre>",
+        "hint": "Instance initializer block runs before the constructor body but after field initialization. this() chaining is resolved first.",
+        "answer": "<code>Instance block: x = 0</code><br><code>A(5)</code><br><code>A()</code>",
+        "explanation": "When <code>new A()</code> is called: (1) Instance variables are initialized to defaults (x = 0). (2) The instance initializer block runs, printing \"Instance block: x = 0\". (3) The no-arg constructor starts and calls <code>this(5)</code>. (4) The parameterized constructor sets x = 5 and prints \"A(5)\". (5) Control returns to the no-arg constructor, which prints \"A()\"."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class Student {\n    String name;\n    static int count = 0;\n\n    Student(String name) {\n        this.name = name;\n        count++;\n    }\n\n    Student(Student other) {\n        this(other.name);\n    }\n}\n\nStudent s1 = new Student(\"Aarav\");\nStudent s2 = new Student(s1);\nSystem.out.println(s1.name + \", \" + s2.name);\nSystem.out.println(Student.count);\nSystem.out.println(s1 == s2);</code></pre>",
+        "hint": "The copy constructor calls this(other.name) which chains to the parameterized constructor. Both constructors increment count.",
+        "answer": "<code>Aarav, Aarav</code><br><code>2</code><br><code>false</code>",
+        "explanation": "s1 is created with name \"Aarav\" (count = 1). s2 is created via the copy constructor which chains to <code>this(other.name)</code>, setting name to \"Aarav\" and incrementing count again (count = 2). Both have the same name but are different objects, so <code>s1 == s2</code> is false."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class Num {\n    int val;\n    Num(int val) { this.val = val; }\n    Num add(Num other) {\n        return new Num(this.val + other.val);\n    }\n    public String toString() { return \"Num(\" + val + \")\"; }\n}\n\nNum a = new Num(10);\nNum b = new Num(20);\nNum c = a.add(b).add(new Num(5));\nSystem.out.println(a);\nSystem.out.println(c);</code></pre>",
+        "hint": "add() returns a new Num object. The original objects are not modified. Chaining works because each add() returns a new Num.",
+        "answer": "<code>Num(10)</code><br><code>Num(35)</code>",
+        "explanation": "<code>a.add(b)</code> returns a new Num(30). <code>.add(new Num(5))</code> is called on that result, returning Num(35). The original <code>a</code> is unchanged (still Num(10)) because <code>add()</code> creates a new object."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Car {\n    String model;\n    int year;\n}\n\nCar c = new Car();\nSystem.out.println(c.model);\nSystem.out.println(c.year);</code></pre>",
+        "hint": "Default values: null for objects, 0 for ints.",
+        "answer": "<code>null</code><br><code>0</code>",
+        "explanation": "When no constructor is defined, Java provides a default constructor that initializes fields to their default values. For String (an object type), the default is null. For int, the default is 0."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>class Pair {\n    int a, b;\n    Pair(int a, int b) {\n        this.a = a;\n        this.b = b;\n    }\n    int sum() { return a + b; }\n}\n\nPair p = new Pair(3, 7);\nSystem.out.println(p.sum());\nSystem.out.println(p.a + \" \" + p.b);</code></pre>",
+        "hint": "The constructor sets a=3, b=7. sum() returns a+b.",
+        "answer": "<code>10</code><br><code>3 7</code>",
+        "explanation": "The constructor initializes a=3 and b=7. <code>sum()</code> returns 3+7 = 10."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between a class and an object?",
+        "hint": "Think blueprint vs actual building.",
+        "answer": "A <strong>class</strong> is a blueprint/template that defines the structure (fields) and behavior (methods) of a type. An <strong>object</strong> is a specific instance of a class that occupies memory at runtime. You can create multiple objects from one class, each with its own field values.",
+        "explanation": "For example, a <code>Student</code> class defines that students have a name, rollNo, and marks. An object is a specific student like \"Aarav with rollNo 101\". The class exists at compile time as a definition; objects exist at runtime in memory."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Wrapper {\n    int val;\n    Wrapper(int val) { this.val = val; }\n}\n\nstatic void change(Wrapper w) {\n    w.val = 99;\n}\n\nWrapper w = new Wrapper(10);\nchange(w);\nSystem.out.println(w.val);</code></pre>",
+        "hint": "The method receives a copy of the reference. Both references point to the same object.",
+        "answer": "<code>99</code>",
+        "explanation": "The method receives a copy of the reference to the Wrapper object. Through this reference, it modifies <code>val</code> to 99. Since both the caller's variable and the method's parameter point to the same object, the change is visible after the method returns."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>class Rect {\n    int width, height;\n\n    Rect(int w, int h) {\n        width = w;\n        height = h;\n    }\n\n    int area() { return width * height; }\n\n    public String toString() {\n        return width + \"x\" + height + \" (area=\" + area() + \")\";\n    }\n}\n\nRect r = new Rect(5, 3);\nSystem.out.println(r);\nSystem.out.println(\"Room: \" + r);</code></pre>",
+        "hint": "println(r) and \"Room: \" + r both call toString().",
+        "answer": "<code>5x3 (area=15)</code><br><code>Room: 5x3 (area=15)</code>",
+        "explanation": "Both <code>println(r)</code> and string concatenation <code>\"Room: \" + r</code> call <code>r.toString()</code>. The overridden toString() returns the dimensions and computed area."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why does Java not provide a default constructor when you define a parameterized constructor?",
+        "hint": "Think about the intent of defining a parameterized constructor.",
+        "answer": "When you define a parameterized constructor, you are declaring that objects of this class <strong>require certain data to be initialized properly</strong>. If Java still provided a default no-arg constructor, it would allow creating objects without the required data, potentially leaving the object in an invalid state. Java respects your intent by not adding a default constructor.",
+        "explanation": "For example, if a <code>DatabaseConnection</code> class requires a URL in its constructor, allowing a no-arg constructor would create a connection object with no URL — an invalid state. If you truly want both options, you can define both constructors explicitly."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class Node {\n    int data;\n    Node next;\n\n    Node(int data) {\n        this.data = data;\n        this.next = null;\n    }\n\n    Node(int data, Node next) {\n        this.data = data;\n        this.next = next;\n    }\n}\n\nNode n3 = new Node(30);\nNode n2 = new Node(20, n3);\nNode n1 = new Node(10, n2);\n\nNode current = n1;\nwhile (current != null) {\n    System.out.print(current.data + \" \");\n    current = current.next;\n}</code></pre>",
+        "hint": "This creates a simple linked list: n1 -> n2 -> n3. The while loop traverses it.",
+        "answer": "<code>10 20 30 </code>",
+        "explanation": "Three Node objects form a linked list: n1(10) -> n2(20) -> n3(30) -> null. The while loop starts at n1, prints each node's data, and moves to the next node until reaching null."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class Config {\n    static String env;\n    static int port;\n\n    static {\n        env = \"production\";\n        port = 8080;\n        System.out.println(\"Config loaded: \" + env + \":\" + port);\n    }\n\n    static void showConfig() {\n        System.out.println(env + \" on port \" + port);\n    }\n}\n\nConfig.showConfig();\nConfig.showConfig();</code></pre>",
+        "hint": "The static block runs only once, even if static methods are called multiple times.",
+        "answer": "<code>Config loaded: production:8080</code><br><code>production on port 8080</code><br><code>production on port 8080</code>",
+        "explanation": "The first call to <code>Config.showConfig()</code> triggers class loading, which executes the static block (once). Then showConfig() prints the config. The second call does NOT re-execute the static block — it just calls showConfig() again."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain the difference between a static variable and an instance variable in terms of memory and lifetime.",
+        "hint": "Think about when they are created, how many copies exist, and when they are destroyed.",
+        "answer": "A <strong>static variable</strong> exists once per class. It is created when the class is loaded (before any objects) and destroyed when the class is unloaded. All objects share the same copy. An <strong>instance variable</strong> exists once per object. It is created when the object is created with <code>new</code> and destroyed when the object is garbage collected. Each object has its own independent copy.",
+        "explanation": "Static variables are stored in the method area (metaspace in modern JVMs). Instance variables are stored on the heap as part of each object. For example, a static <code>count</code> variable tracks total objects across the class, while an instance <code>name</code> variable is unique to each object."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the purpose of the new keyword in Java?",
+        "options": [
+          "To declare a variable",
+          "To allocate memory for an object and call its constructor",
+          "To import a class",
+          "To define a method"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>new</code> allocates memory on the heap for a new object and invokes the appropriate constructor to initialize it. It returns a reference to the newly created object."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the default value of an instance variable of type String?",
+        "options": [
+          "\"\"",
+          "0",
+          "null",
+          "undefined"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The default value for any reference type (including String) is <code>null</code>. Empty string (A) is not the default — null means no object exists."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "A constructor is different from a regular method because:",
+        "options": [
+          "It has a return type of void",
+          "It has no return type and has the same name as the class",
+          "It can only be public",
+          "It cannot take parameters"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A constructor has no return type (not even void) and must have the same name as the class. Constructors can have any access modifier (A is wrong) and can take parameters (D is wrong)."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "When does Java provide a default constructor?",
+        "options": [
+          "Always",
+          "Only when no constructors are defined in the class",
+          "When the class has no fields",
+          "When the class extends Object"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Java automatically provides a no-argument default constructor only when the class defines no constructors at all. Once you define any constructor, the default is no longer generated."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "What does this keyword refer to in Java?",
+        "options": [
+          "The current class",
+          "The current object",
+          "The parent class",
+          "The constructor"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>this</code> refers to the current object — the instance on which the method or constructor was called. It is not the class itself (A), not the parent class (C — that would be <code>super</code>), and not the constructor (D)."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "How many times does a static block execute?",
+        "options": [
+          "Once per object creation",
+          "Once per method call",
+          "Once per class loading",
+          "It never executes automatically"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A static block executes exactly once when the class is first loaded by the JVM. It runs before any objects are created or static methods are called. Subsequent object creations or method calls do not trigger it again."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What happens if you define a method with the same name as the class but with a void return type?",
+        "options": [
+          "It becomes a constructor",
+          "Compilation error",
+          "It is treated as a regular method, not a constructor",
+          "Runtime error"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A constructor must have no return type. If you add <code>void</code>, it becomes a regular method that happens to have the same name as the class. It will NOT be called when you use <code>new</code>."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Can a static method use the this keyword?",
+        "options": [
+          "Yes, always",
+          "Yes, if the method is public",
+          "No, static methods do not have a this reference",
+          "No, but they can use super"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Static methods belong to the class, not to any specific object. Since there is no current object, there is no <code>this</code> reference. They cannot use <code>this</code> or <code>super</code>."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Hard",
+        "question": "What is the execution order when an object is created?",
+        "options": [
+          "Constructor -> Instance block -> Static block",
+          "Static block -> Constructor -> Instance block",
+          "Static block -> Instance block -> Constructor",
+          "Instance block -> Static block -> Constructor"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The order is: (1) Static block (runs once when the class is loaded, if not already loaded). (2) Instance initializer block (runs every time an object is created). (3) Constructor body. This is a frequently asked interview question."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "What happens when you write: Student s = null; s.staticMethod();?",
+        "options": [
+          "NullPointerException",
+          "It works fine because static methods don't need an object",
+          "Compilation error",
+          "Runtime error other than NPE"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Static methods are resolved based on the declared type, not the object. Even though <code>s</code> is null, the compiler uses the type <code>Student</code> to resolve <code>staticMethod()</code>. The null reference is never dereferenced. However, this is bad practice — call static methods using the class name."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the result of this() and super() both being in the same constructor?",
+        "options": [
+          "Both execute in order",
+          "Compilation error — only one can be the first statement",
+          "this() runs first, then super()",
+          "super() runs first, then this()"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Both <code>this()</code> and <code>super()</code> must be the first statement in a constructor. Since only one statement can be first, you cannot have both in the same constructor. You choose one: <code>this()</code> to chain within the class, or <code>super()</code> to call the parent constructor."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What does the @Override annotation do?",
+        "options": [
+          "It overrides the method at runtime",
+          "It tells the compiler to verify that the method actually overrides a superclass method",
+          "It makes the method run instead of the parent method",
+          "It is required for all overriding methods"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>@Override</code> is a compile-time annotation that tells the compiler to check that the method actually overrides a method from a superclass or interface. If the method name or signature does not match, the compiler reports an error. It is not required (D) but is strongly recommended."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "What is the output of printing an object without overriding toString()?",
+        "options": [
+          "The object's field values",
+          "null",
+          "The class name followed by @ and the hash code in hexadecimal",
+          "A compilation error"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The default <code>toString()</code> inherited from Object returns <code>getClass().getName() + '@' + Integer.toHexString(hashCode())</code>, which produces something like <code>Student@1b6d3586</code>. Override toString() for meaningful output."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Student Grade Calculator",
+        "difficulty": "Easy",
+        "description": "Create a Student class with fields name, rollNo, and marks (double). Write a parameterized constructor and a method getGrade() that returns 'A' for marks >= 90, 'B' for >= 80, 'C' for >= 70, 'D' for >= 60, and 'F' otherwise. Override toString(). Test with two students.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Student{name='Aarav', rollNo=101, marks=92.5, grade=A}\nStudent{name='Priya', rollNo=102, marks=78.0, grade=C}",
+        "constraints": "Use this keyword in the constructor. Override toString() to include the grade.",
+        "solution": "class Student {\n    String name;\n    int rollNo;\n    double marks;\n\n    Student(String name, int rollNo, double marks) {\n        this.name = name;\n        this.rollNo = rollNo;\n        this.marks = marks;\n    }\n\n    char getGrade() {\n        if (marks >= 90) return 'A';\n        if (marks >= 80) return 'B';\n        if (marks >= 70) return 'C';\n        if (marks >= 60) return 'D';\n        return 'F';\n    }\n\n    public String toString() {\n        return \"Student{name='\" + name + \"', rollNo=\" + rollNo\n               + \", marks=\" + marks + \", grade=\" + getGrade() + \"}\";\n    }\n\n    public static void main(String[] args) {\n        Student s1 = new Student(\"Aarav\", 101, 92.5);\n        Student s2 = new Student(\"Priya\", 102, 78.0);\n        System.out.println(s1);\n        System.out.println(s2);\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Bank Account with Deposit and Withdraw",
+        "difficulty": "Easy",
+        "description": "Create a BankAccount class with fields accountHolder (String) and balance (double). Write a constructor, deposit(double amount) and withdraw(double amount) methods. Withdraw should check for sufficient balance. Override toString(). Test with deposits and withdrawals.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Kavitha: Rs.5000.00\nAfter deposit: Rs.7000.00\nAfter withdrawal: Rs.4500.00\nInsufficient balance for Rs.5000.00",
+        "constraints": "Validate that deposit and withdrawal amounts are positive. Print a message for insufficient balance.",
+        "solution": "class BankAccount {\n    String accountHolder;\n    double balance;\n\n    BankAccount(String accountHolder, double balance) {\n        this.accountHolder = accountHolder;\n        this.balance = balance;\n    }\n\n    void deposit(double amount) {\n        if (amount > 0) {\n            balance += amount;\n            System.out.printf(\"After deposit: Rs.%.2f%n\", balance);\n        }\n    }\n\n    void withdraw(double amount) {\n        if (amount > balance) {\n            System.out.printf(\"Insufficient balance for Rs.%.2f%n\", amount);\n        } else if (amount > 0) {\n            balance -= amount;\n            System.out.printf(\"After withdrawal: Rs.%.2f%n\", balance);\n        }\n    }\n\n    public String toString() {\n        return String.format(\"%s: Rs.%.2f\", accountHolder, balance);\n    }\n\n    public static void main(String[] args) {\n        BankAccount acc = new BankAccount(\"Kavitha\", 5000.0);\n        System.out.println(acc);\n        acc.deposit(2000);\n        acc.withdraw(2500);\n        acc.withdraw(5000);\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Object Counter with Static Variable",
+        "difficulty": "Easy",
+        "description": "Create a Product class with a static variable totalProducts that tracks how many Product objects have been created. Each product has a name and price. Print the total after creating several products.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Product: Laptop - Rs.50000.0 (Total: 1)\nProduct: Phone - Rs.20000.0 (Total: 2)\nProduct: Tablet - Rs.15000.0 (Total: 3)\nTotal products created: 3",
+        "constraints": "Use a static variable incremented in the constructor.",
+        "solution": "class Product {\n    String name;\n    double price;\n    static int totalProducts = 0;\n\n    Product(String name, double price) {\n        this.name = name;\n        this.price = price;\n        totalProducts++;\n    }\n\n    public String toString() {\n        return \"Product: \" + name + \" - Rs.\" + price + \" (Total: \" + totalProducts + \")\";\n    }\n\n    public static void main(String[] args) {\n        System.out.println(new Product(\"Laptop\", 50000.0));\n        System.out.println(new Product(\"Phone\", 20000.0));\n        System.out.println(new Product(\"Tablet\", 15000.0));\n        System.out.println(\"Total products created: \" + Product.totalProducts);\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Complex Number with Method Chaining",
+        "difficulty": "Medium",
+        "description": "Create a Complex class representing a complex number (real and imaginary parts). Write add(Complex other) and multiply(Complex other) methods that return new Complex objects. Override toString() to display in 'a + bi' format. Test chaining: a.add(b).multiply(c).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "a = 2.0 + 3.0i\nb = 1.0 + 4.0i\nc = 5.0 + 0.0i\na + b = 3.0 + 7.0i\n(a + b) * c = 15.0 + 35.0i",
+        "constraints": "Methods should return new Complex objects, not modify the originals.",
+        "solution": "class Complex {\n    double real, imag;\n\n    Complex(double real, double imag) {\n        this.real = real;\n        this.imag = imag;\n    }\n\n    Complex add(Complex other) {\n        return new Complex(this.real + other.real, this.imag + other.imag);\n    }\n\n    Complex multiply(Complex other) {\n        double r = this.real * other.real - this.imag * other.imag;\n        double i = this.real * other.imag + this.imag * other.real;\n        return new Complex(r, i);\n    }\n\n    public String toString() {\n        return real + \" + \" + imag + \"i\";\n    }\n\n    public static void main(String[] args) {\n        Complex a = new Complex(2, 3);\n        Complex b = new Complex(1, 4);\n        Complex c = new Complex(5, 0);\n        System.out.println(\"a = \" + a);\n        System.out.println(\"b = \" + b);\n        System.out.println(\"c = \" + c);\n        System.out.println(\"a + b = \" + a.add(b));\n        System.out.println(\"(a + b) * c = \" + a.add(b).multiply(c));\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Linked List using Objects",
+        "difficulty": "Medium",
+        "description": "Create a Node class with fields data (int) and next (Node). Write a static method printList(Node head) that prints all elements separated by ' -> '. Create a linked list with nodes 10 -> 20 -> 30 -> 40 and print it.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "10 -> 20 -> 30 -> 40 -> null",
+        "constraints": "Use constructor chaining. Handle the null terminator in the print method.",
+        "solution": "class Node {\n    int data;\n    Node next;\n\n    Node(int data) {\n        this.data = data;\n        this.next = null;\n    }\n\n    Node(int data, Node next) {\n        this.data = data;\n        this.next = next;\n    }\n\n    static void printList(Node head) {\n        Node current = head;\n        while (current != null) {\n            System.out.print(current.data + \" -> \");\n            current = current.next;\n        }\n        System.out.println(\"null\");\n    }\n\n    public static void main(String[] args) {\n        Node head = new Node(10, new Node(20, new Node(30, new Node(40))));\n        printList(head);\n    }\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Builder Pattern for Student",
+        "difficulty": "Hard",
+        "description": "Create a StudentBuilder class that uses method chaining to build Student objects. It should have methods setName(), setRollNo(), setMarks(), and build() that returns a Student object. Test with chaining syntax.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Student{name='Deepak', rollNo=201, marks=91.5}",
+        "constraints": "Each setter returns this for chaining. The build() method returns a new Student object.",
+        "solution": "class Student {\n    String name;\n    int rollNo;\n    double marks;\n\n    Student(String name, int rollNo, double marks) {\n        this.name = name;\n        this.rollNo = rollNo;\n        this.marks = marks;\n    }\n\n    public String toString() {\n        return \"Student{name='\" + name + \"', rollNo=\" + rollNo + \", marks=\" + marks + \"}\";\n    }\n}\n\nclass StudentBuilder {\n    String name;\n    int rollNo;\n    double marks;\n\n    StudentBuilder setName(String name) {\n        this.name = name;\n        return this;\n    }\n\n    StudentBuilder setRollNo(int rollNo) {\n        this.rollNo = rollNo;\n        return this;\n    }\n\n    StudentBuilder setMarks(double marks) {\n        this.marks = marks;\n        return this;\n    }\n\n    Student build() {\n        return new Student(name, rollNo, marks);\n    }\n\n    public static void main(String[] args) {\n        Student s = new StudentBuilder()\n            .setName(\"Deepak\")\n            .setRollNo(201)\n            .setMarks(91.5)\n            .build();\n        System.out.println(s);\n    }\n}"
+      },
+      {
+        "id": "cc-7",
+        "title": "Immutable Class",
+        "difficulty": "Hard",
+        "description": "Create an immutable Point class with final fields x and y. It should have no setters. Write methods translate(int dx, int dy) and distanceTo(Point other) that return new Point objects or computed values. Demonstrate that the original point does not change.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Original: (3, 4)\nTranslated: (5, 7)\nOriginal unchanged: (3, 4)\nDistance to origin: 5.00",
+        "constraints": "Use final fields. No setters. Methods return new objects instead of modifying fields.",
+        "solution": "class Point {\n    final int x;\n    final int y;\n\n    Point(int x, int y) {\n        this.x = x;\n        this.y = y;\n    }\n\n    Point translate(int dx, int dy) {\n        return new Point(this.x + dx, this.y + dy);\n    }\n\n    double distanceTo(Point other) {\n        int dx = this.x - other.x;\n        int dy = this.y - other.y;\n        return Math.sqrt(dx * dx + dy * dy);\n    }\n\n    public String toString() {\n        return \"(\" + x + \", \" + y + \")\";\n    }\n\n    public static void main(String[] args) {\n        Point p = new Point(3, 4);\n        System.out.println(\"Original: \" + p);\n\n        Point moved = p.translate(2, 3);\n        System.out.println(\"Translated: \" + moved);\n        System.out.println(\"Original unchanged: \" + p);\n\n        Point origin = new Point(0, 0);\n        System.out.printf(\"Distance to origin: %.2f%n\", p.distanceTo(origin));\n    }\n}"
+      }
+    ]
+  }
+}

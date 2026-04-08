@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymorphism in Java - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Master compile-time (overloading) and runtime (overriding) polymorphism, upcasting, and downcasting.">
+    <meta name="keywords" content="polymorphism in java, java tutorial, java polymorphism in java, learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/polymorphism-in-java">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/polymorphism-in-java">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/polymorphism-in-java">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/polymorphism-in-java">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/polymorphism-in-java">
+    <meta property="og:title" content="Polymorphism in Java - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Master compile-time (overloading) and runtime (overriding) polymorphism, upcasting, and downcasting.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/polymorphism-in-java">
+    <meta name="twitter:title" content="Polymorphism in Java - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Master compile-time (overloading) and runtime (overriding) polymorphism, upcasting, and downcasting.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Polymorphism in Java",
+    "description": "Master compile-time (overloading) and runtime (overriding) polymorphism, upcasting, and downcasting.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/polymorphism-in-java"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/polymorphism-in-java"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Polymorphism in Java",
+        "item": "https://learn.modernagecoders.com/resources/java/polymorphism-in-java"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Confusing Overloading with Overriding",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For overriding, the method signature (name + parameter types) must be identical. Changing the parameter type from <code>int</code> to <code>String</code> creates a new overloaded method in the child class, not an override. The parent reference only sees the parent's method."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Trying to Override Static Methods",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Static methods belong to the class, not to instances. They cannot be overridden, only hidden. The method called depends on the reference type, not the object type. This is NOT polymorphism."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Downcasting Without instanceof Check",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A <code>Cat</code> object cannot be cast to <code>Dog</code>. The compiler allows the cast (since both are <code>Animal</code> subtypes), but the JVM throws <code>ClassCastException</code> at runtime. Always use <code>instanceof</code> before downcasting."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Expecting Overriding to Work with Different Return Types",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Overriding requires the same return type, or a covariant return type (a subtype of the original return type). <code>String</code> is not related to <code>int</code> at all. <code>Integer</code> is a subclass of <code>Number</code>, so covariant return works."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Accessing Child-Only Methods Through Parent Reference",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A parent reference can only access methods declared in the parent class. Even though the actual object is a <code>Dog</code>, the compiler only sees the <code>Animal</code> type. To call <code>fetch()</code>, you must downcast to <code>Dog</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Overloading Based Only on Return Type",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Methods cannot be overloaded by return type alone. The compiler determines which method to call based on the argument list, not the return type. If the parameter lists are identical, Java cannot distinguish between them."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Polymorphism in Java</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 16</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">40 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-08</span>
+            </div>
+            <h1 class="resource-title">Polymorphism in Java</h1>
+            <a href="/resources/java/polymorphism-in-java/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Polymorphism in Java?</h2><p><strong>Polymorphism</strong> means "many forms." In Java, it refers to the ability of a single entity (method, object, or reference) to take on different forms depending on the context. A parent class reference variable can hold a child class object, and the method that gets executed depends on the actual object type, not the reference type.</p><p>Consider a simple real-world analogy: the word "open" has different meanings depending on context. You open a door, you open a book, you open a browser. The action adapts to the object. That is polymorphism.</p><p>Java supports two types of polymorphism:</p><pre><code>// 1. Compile-time polymorphism (Method Overloading)
+class Calculator {
+    int add(int a, int b) { return a + b; }
+    double add(double a, double b) { return a + b; }
+}
+
+// 2. Runtime polymorphism (Method Overriding)
+class Animal {
+    void sound() { System.out.println("Some sound"); }
+}
+class Dog extends Animal {
+    void sound() { System.out.println("Bark"); }
+}
+
+Animal a = new Dog();  // Upcasting
+a.sound();             // Bark (runtime decision)</code></pre><p>In the first case, the compiler decides which <code>add</code> method to call based on the argument types. In the second case, the JVM decides at runtime which <code>sound</code> method to execute based on the actual object type (<code>Dog</code>), not the reference type (<code>Animal</code>).</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Does Polymorphism Matter?</h2><p>Polymorphism is one of the four pillars of Object-Oriented Programming (along with encapsulation, inheritance, and abstraction). Understanding it is essential for writing extensible, maintainable software and for clearing any Java interview.</p><h3>1. Extensibility Without Modification</h3><p>When Arjun writes a method that accepts an <code>Animal</code> reference, it works with <code>Dog</code>, <code>Cat</code>, <code>Parrot</code>, or any future subclass. He does not need to modify existing code when a new animal type is added. This is the Open-Closed Principle: open for extension, closed for modification.</p><h3>2. Loose Coupling</h3><p>Code that depends on a parent type or interface is loosely coupled. If Kavya writes <code>void feed(Animal a)</code>, it works with any animal subclass. She does not need to know (or care about) the specific subclass. This makes code easier to test, refactor, and maintain.</p><h3>3. Code Reusability with Method Overloading</h3><p>Method overloading lets Ravi provide a single method name for related operations with different parameter types. Instead of <code>addInts</code>, <code>addDoubles</code>, <code>addStrings</code>, he writes overloaded versions of <code>add</code>. The caller uses one name; the compiler picks the right version.</p><h3>4. Framework and API Design</h3><p>Every major Java framework (Spring, Hibernate, Android) relies heavily on polymorphism. When you write <code>List&lt;String&gt; list = new ArrayList&lt;&gt;()</code>, you are using polymorphism. The <code>List</code> interface reference can hold any list implementation.</p><h3>5. Interview and Placement Relevance</h3><p>Polymorphism questions appear in nearly every Java technical interview. Output prediction problems involving upcasting, method overriding, and dynamic dispatch are standard fare in campus placements at companies like TCS, Infosys, Wipro, and product-based firms.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Compile-Time Polymorphism (Method Overloading)</h3><p>Method overloading occurs when multiple methods in the same class share the same name but have different parameter lists (different number of parameters, different types, or different order of types). The compiler resolves which method to call based on the arguments at compile time.</p><pre><code>class MathUtils {
+    // Overloaded add methods
+    int add(int a, int b) {
+        return a + b;
+    }
+    
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+    
+    double add(double a, double b) {
+        return a + b;
+    }
+}
+
+MathUtils m = new MathUtils();
+System.out.println(m.add(2, 3));        // 5 (int, int)
+System.out.println(m.add(2, 3, 4));     // 9 (int, int, int)
+System.out.println(m.add(2.5, 3.5));    // 6.0 (double, double)</code></pre><p>Important rules for overloading:</p><ul><li>Methods must differ in parameter list (number, type, or order of parameters)</li><li>Return type alone is NOT sufficient to overload. <code>int add(int a, int b)</code> and <code>double add(int a, int b)</code> will cause a compilation error.</li><li>Access modifiers can differ between overloaded methods</li></ul><h3>2. Constructor Overloading</h3><p>Constructors can also be overloaded, providing multiple ways to initialize an object:</p><pre><code>class Student {
+    String name;
+    int age;
+    String city;
+    
+    Student() {
+        this("Unknown", 0, "Unknown");
+    }
+    
+    Student(String name) {
+        this(name, 0, "Unknown");
+    }
+    
+    Student(String name, int age, String city) {
+        this.name = name;
+        this.age = age;
+        this.city = city;
+    }
+}
+
+Student s1 = new Student();                        // Unknown, 0, Unknown
+Student s2 = new Student("Arjun");                  // Arjun, 0, Unknown
+Student s3 = new Student("Kavya", 20, "Bangalore"); // Kavya, 20, Bangalore</code></pre><h3>3. Runtime Polymorphism (Method Overriding)</h3><p>Method overriding occurs when a subclass provides its own implementation of a method that is already defined in the parent class. The decision about which version to call is made at runtime based on the actual object type.</p><pre><code>class Shape {
+    void draw() {
+        System.out.println("Drawing a shape");
+    }
+}
+
+class Circle extends Shape {
+    @Override
+    void draw() {
+        System.out.println("Drawing a circle");
+    }
+}
+
+class Rectangle extends Shape {
+    @Override
+    void draw() {
+        System.out.println("Drawing a rectangle");
+    }
+}
+
+Shape s = new Circle();
+s.draw();  // Drawing a circle (runtime decision)</code></pre><p>Rules for overriding:</p><ul><li>The method in the child class must have the same name, same parameters, and same return type (or covariant return type)</li><li>The access modifier in the child cannot be more restrictive than the parent</li><li><code>private</code>, <code>static</code>, and <code>final</code> methods cannot be overridden</li><li>The <code>@Override</code> annotation is optional but strongly recommended as it catches errors at compile time</li></ul><h3>4. Dynamic Method Dispatch</h3><p>Dynamic method dispatch is the mechanism by which Java resolves overridden method calls at runtime. When a parent reference points to a child object, Java looks at the actual object type (not the reference type) to determine which method to invoke.</p><pre><code>class Vehicle {
+    void start() {
+        System.out.println("Vehicle starting");
+    }
+}
+
+class Car extends Vehicle {
+    @Override
+    void start() {
+        System.out.println("Car starting with key");
+    }
+}
+
+class ElectricCar extends Car {
+    @Override
+    void start() {
+        System.out.println("Electric car starting silently");
+    }
+}
+
+Vehicle v1 = new Vehicle();
+Vehicle v2 = new Car();
+Vehicle v3 = new ElectricCar();
+
+v1.start();  // Vehicle starting
+v2.start();  // Car starting with key
+v3.start();  // Electric car starting silently</code></pre><p>All three references are of type <code>Vehicle</code>, but the method that executes depends on the actual object. This is dynamic dispatch in action.</p><h3>5. Upcasting</h3><p>Upcasting is assigning a child class object to a parent class reference. It is always safe and happens implicitly (no cast needed):</p><pre><code>Animal a = new Dog();  // Upcasting (implicit)
+// a can only access methods declared in Animal
+// But if Dog overrides them, Dog's version runs</code></pre><p>With upcasting, you can only call methods that are declared in the parent class. If the child class has additional methods not present in the parent, they are inaccessible through the parent reference.</p><pre><code>class Animal {
+    void eat() { System.out.println("Animal eats"); }
+}
+
+class Dog extends Animal {
+    @Override
+    void eat() { System.out.println("Dog eats bones"); }
+    void fetch() { System.out.println("Dog fetches ball"); }
+}
+
+Animal a = new Dog();
+a.eat();    // Dog eats bones (overridden method)
+// a.fetch(); // Compilation error! Animal has no fetch() method</code></pre><h3>6. Downcasting</h3><p>Downcasting is casting a parent reference back to a child type. It requires an explicit cast and can throw <code>ClassCastException</code> if the actual object is not of the target type:</p><pre><code>Animal a = new Dog();  // Upcasting
+Dog d = (Dog) a;       // Downcasting (explicit)
+d.fetch();             // Now we can call Dog-specific methods
+
+// Dangerous downcasting
+Animal a2 = new Animal();
+// Dog d2 = (Dog) a2;  // ClassCastException at runtime!</code></pre><h3>7. instanceof Operator</h3><p>Always use <code>instanceof</code> to check before downcasting to avoid <code>ClassCastException</code>:</p><pre><code>Animal a = new Dog();
+
+if (a instanceof Dog) {
+    Dog d = (Dog) a;
+    d.fetch();  // Safe
+}
+
+Animal a2 = new Animal();
+if (a2 instanceof Dog) {
+    Dog d2 = (Dog) a2;  // This block never executes
+} else {
+    System.out.println("a2 is not a Dog");
+}</code></pre><p>The <code>instanceof</code> operator returns <code>true</code> if the object is an instance of the specified class or any of its subclasses. It returns <code>false</code> for <code>null</code>.</p><h3>8. Polymorphism with Arrays and Collections</h3><p>Polymorphism shines when working with arrays or collections of the parent type, where each element can be a different subclass:</p><pre><code>Shape[] shapes = new Shape[3];
+shapes[0] = new Circle();
+shapes[1] = new Rectangle();
+shapes[2] = new Circle();
+
+for (Shape s : shapes) {
+    s.draw();  // Calls the correct overridden method for each object
+}</code></pre><p>This is incredibly powerful. You can process a heterogeneous collection of objects with a single loop. Adding a new shape (e.g., <code>Triangle</code>) requires no changes to the loop.</p><h3>9. Overloading vs Overriding Summary</h3><table><tr><th>Feature</th><th>Overloading</th><th>Overriding</th></tr><tr><td>When resolved</td><td>Compile time</td><td>Runtime</td></tr><tr><td>Parameters</td><td>Must differ</td><td>Must be same</td></tr><tr><td>Return type</td><td>Can differ</td><td>Must be same (or covariant)</td></tr><tr><td>Scope</td><td>Same class</td><td>Parent-child classes</td></tr><tr><td>static methods</td><td>Can be overloaded</td><td>Cannot be overridden (hidden)</td></tr><tr><td>private methods</td><td>Can be overloaded</td><td>Cannot be overridden</td></tr></table>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Compile-Time Polymorphism: Method Overloading</div><pre><code class="language-python">class Calculator {
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    double add(double a, double b) {
+        return a + b;
+    }
+
+    String add(String a, String b) {
+        return a + b;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Calculator calc = new Calculator();
+        System.out.println(calc.add(10, 20));
+        System.out.println(calc.add(10, 20, 30));
+        System.out.println(calc.add(2.5, 3.5));
+        System.out.println(calc.add(&quot;Hello&quot;, &quot; World&quot;));
+    }
+}</code></pre><div class="code-example-explanation">The <code>Calculator</code> class has four <code>add</code> methods, each with different parameter types or counts. The compiler picks the correct method based on the argument types at compile time. This is compile-time polymorphism.</div><div class="code-example-output">30
+60
+6.0
+Hello World</div></div>
+<div class="code-example"><div class="code-example-title">Runtime Polymorphism: Method Overriding and Dynamic Dispatch</div><pre><code class="language-python">class Animal {
+    void sound() {
+        System.out.println(&quot;Some generic sound&quot;);
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    void sound() {
+        System.out.println(&quot;Bark&quot;);
+    }
+}
+
+class Cat extends Animal {
+    @Override
+    void sound() {
+        System.out.println(&quot;Meow&quot;);
+    }
+}
+
+class Cow extends Animal {
+    @Override
+    void sound() {
+        System.out.println(&quot;Moo&quot;);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal a1 = new Dog();
+        Animal a2 = new Cat();
+        Animal a3 = new Cow();
+        Animal a4 = new Animal();
+
+        a1.sound();
+        a2.sound();
+        a3.sound();
+        a4.sound();
+    }
+}</code></pre><div class="code-example-explanation">All references are of type <code>Animal</code>, but the actual objects are <code>Dog</code>, <code>Cat</code>, <code>Cow</code>, and <code>Animal</code>. The JVM invokes the overridden method based on the actual object type at runtime. This is dynamic method dispatch.</div><div class="code-example-output">Bark
+Meow
+Moo
+Some generic sound</div></div>
+<div class="code-example"><div class="code-example-title">Upcasting and Downcasting</div><pre><code class="language-python">class Employee {
+    void work() {
+        System.out.println(&quot;Employee is working&quot;);
+    }
+}
+
+class Developer extends Employee {
+    @Override
+    void work() {
+        System.out.println(&quot;Developer is writing code&quot;);
+    }
+
+    void debug() {
+        System.out.println(&quot;Developer is debugging&quot;);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // Upcasting (implicit)
+        Employee emp = new Developer();
+        emp.work();  // Overridden method runs
+        // emp.debug();  // Compilation error
+
+        // Downcasting (explicit)
+        if (emp instanceof Developer) {
+            Developer dev = (Developer) emp;
+            dev.debug();  // Now accessible
+            dev.work();
+        }
+
+        // Unsafe downcasting
+        Employee emp2 = new Employee();
+        System.out.println(emp2 instanceof Developer);  // false
+        // Developer dev2 = (Developer) emp2;  // ClassCastException!
+    }
+}</code></pre><div class="code-example-explanation">Upcasting (<code>Employee emp = new Developer()</code>) is implicit and safe. The parent reference can only call methods declared in <code>Employee</code>. Downcasting requires an explicit cast and should always be preceded by an <code>instanceof</code> check to avoid <code>ClassCastException</code>.</div><div class="code-example-output">Developer is writing code
+Developer is debugging
+Developer is writing code
+false</div></div>
+<div class="code-example"><div class="code-example-title">Polymorphism with Arrays</div><pre><code class="language-python">class Shape {
+    double area() {
+        return 0;
+    }
+
+    String name() {
+        return &quot;Shape&quot;;
+    }
+}
+
+class Circle extends Shape {
+    double radius;
+    Circle(double radius) { this.radius = radius; }
+
+    @Override
+    double area() { return Math.PI * radius * radius; }
+
+    @Override
+    String name() { return &quot;Circle&quot;; }
+}
+
+class Rectangle extends Shape {
+    double width, height;
+    Rectangle(double width, double height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    @Override
+    double area() { return width * height; }
+
+    @Override
+    String name() { return &quot;Rectangle&quot;; }
+}
+
+class Triangle extends Shape {
+    double base, height;
+    Triangle(double base, double height) {
+        this.base = base;
+        this.height = height;
+    }
+
+    @Override
+    double area() { return 0.5 * base * height; }
+
+    @Override
+    String name() { return &quot;Triangle&quot;; }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Shape[] shapes = {
+            new Circle(5),
+            new Rectangle(4, 6),
+            new Triangle(3, 8)
+        };
+
+        double totalArea = 0;
+        for (Shape s : shapes) {
+            double a = s.area();
+            System.out.printf(&quot;%s area: %.2f%n&quot;, s.name(), a);
+            totalArea += a;
+        }
+        System.out.printf(&quot;Total area: %.2f%n&quot;, totalArea);
+    }
+}</code></pre><div class="code-example-explanation">An array of <code>Shape</code> references holds <code>Circle</code>, <code>Rectangle</code>, and <code>Triangle</code> objects. The loop calls <code>area()</code> on each element, and dynamic dispatch ensures the correct overridden method runs for each shape. Adding a new shape class requires no changes to the loop.</div><div class="code-example-output">Circle area: 78.54
+Rectangle area: 24.00
+Triangle area: 12.00
+Total area: 114.54</div></div>
+<div class="code-example"><div class="code-example-title">Constructor Overloading</div><pre><code class="language-python">class BankAccount {
+    String holder;
+    double balance;
+    String type;
+
+    BankAccount() {
+        this(&quot;Unknown&quot;, 0.0, &quot;Savings&quot;);
+    }
+
+    BankAccount(String holder) {
+        this(holder, 0.0, &quot;Savings&quot;);
+    }
+
+    BankAccount(String holder, double balance) {
+        this(holder, balance, &quot;Savings&quot;);
+    }
+
+    BankAccount(String holder, double balance, String type) {
+        this.holder = holder;
+        this.balance = balance;
+        this.type = type;
+    }
+
+    void display() {
+        System.out.println(holder + &quot; | &quot; + balance + &quot; | &quot; + type);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        BankAccount a1 = new BankAccount();
+        BankAccount a2 = new BankAccount(&quot;Arjun&quot;);
+        BankAccount a3 = new BankAccount(&quot;Kavya&quot;, 5000.0);
+        BankAccount a4 = new BankAccount(&quot;Ravi&quot;, 10000.0, &quot;Current&quot;);
+
+        a1.display();
+        a2.display();
+        a3.display();
+        a4.display();
+    }
+}</code></pre><div class="code-example-explanation">The <code>BankAccount</code> class has four constructors with different parameter counts. Each constructor delegates to the most specific one using <code>this()</code>. This allows creating objects with varying levels of initialization. Constructor overloading is a form of compile-time polymorphism.</div><div class="code-example-output">Unknown | 0.0 | Savings
+Arjun | 0.0 | Savings
+Kavya | 5000.0 | Savings
+Ravi | 10000.0 | Current</div></div>
+<div class="code-example"><div class="code-example-title">Overloading with Type Promotion</div><pre><code class="language-python">class TypeDemo {
+    void show(int a) {
+        System.out.println(&quot;int: &quot; + a);
+    }
+
+    void show(long a) {
+        System.out.println(&quot;long: &quot; + a);
+    }
+
+    void show(double a) {
+        System.out.println(&quot;double: &quot; + a);
+    }
+
+    void show(String a) {
+        System.out.println(&quot;String: &quot; + a);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        TypeDemo td = new TypeDemo();
+        td.show(10);        // int
+        td.show(10L);       // long
+        td.show(10.5);      // double
+        td.show(&quot;Hello&quot;);   // String
+
+        byte b = 5;
+        td.show(b);         // byte promoted to int
+
+        float f = 3.14f;
+        td.show(f);         // float promoted to double
+    }
+}</code></pre><div class="code-example-explanation">When an exact match is not found, Java promotes smaller types to larger compatible types. A <code>byte</code> is promoted to <code>int</code>, and a <code>float</code> is promoted to <code>double</code>. This automatic type promotion determines which overloaded method is selected at compile time.</div><div class="code-example-output">int: 10
+long: 10
+double: 10.5
+String: Hello
+int: 5
+double: 3.140000104904175</div></div>
+<div class="code-example"><div class="code-example-title">instanceof and Safe Downcasting Pattern</div><pre><code class="language-python">class Vehicle {
+    void start() { System.out.println(&quot;Vehicle starts&quot;); }
+}
+
+class Car extends Vehicle {
+    @Override
+    void start() { System.out.println(&quot;Car starts with ignition&quot;); }
+    void openTrunk() { System.out.println(&quot;Trunk opened&quot;); }
+}
+
+class Bike extends Vehicle {
+    @Override
+    void start() { System.out.println(&quot;Bike kick-started&quot;); }
+    void doWheelie() { System.out.println(&quot;Wheelie!&quot;); }
+}
+
+public class Main {
+    static void process(Vehicle v) {
+        v.start();  // Polymorphic call
+
+        if (v instanceof Car) {
+            Car c = (Car) v;
+            c.openTrunk();
+        } else if (v instanceof Bike) {
+            Bike b = (Bike) v;
+            b.doWheelie();
+        }
+    }
+
+    public static void main(String[] args) {
+        process(new Car());
+        System.out.println(&quot;---&quot;);
+        process(new Bike());
+        System.out.println(&quot;---&quot;);
+        process(new Vehicle());
+    }
+}</code></pre><div class="code-example-explanation">The <code>process</code> method accepts any <code>Vehicle</code>. It calls the polymorphic <code>start()</code> method first, then uses <code>instanceof</code> to safely downcast and call subclass-specific methods. For a plain <code>Vehicle</code>, neither <code>instanceof</code> check passes, so only <code>start()</code> runs.</div><div class="code-example-output">Car starts with ignition
+Trunk opened
+---
+Bike kick-started
+Wheelie!
+---
+Vehicle starts</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Confusing Overloading with Overriding</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Parent {
+    void display(int a) {
+        System.out.println(&quot;Parent: &quot; + a);
+    }
+}
+
+class Child extends Parent {
+    // This is overloading, NOT overriding!
+    void display(String a) {
+        System.out.println(&quot;Child: &quot; + a);
+    }
+}
+
+Parent p = new Child();
+p.display(&quot;Hello&quot;);  // Compilation error!</code></pre></div><div class="error-message">Compilation error: incompatible types. Parent has no display(String) method.</div><div class="correct-code"><pre><code class="language-python">class Parent {
+    void display(int a) {
+        System.out.println(&quot;Parent: &quot; + a);
+    }
+}
+
+class Child extends Parent {
+    @Override
+    void display(int a) {  // Same parameter type = overriding
+        System.out.println(&quot;Child: &quot; + a);
+    }
+}
+
+Parent p = new Child();
+p.display(10);  // Child: 10</code></pre></div><div class="mistake-explanation">For overriding, the method signature (name + parameter types) must be identical. Changing the parameter type from <code>int</code> to <code>String</code> creates a new overloaded method in the child class, not an override. The parent reference only sees the parent's method.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Trying to Override Static Methods</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Parent {
+    static void greet() {
+        System.out.println(&quot;Hello from Parent&quot;);
+    }
+}
+
+class Child extends Parent {
+    @Override  // Compilation error!
+    static void greet() {
+        System.out.println(&quot;Hello from Child&quot;);
+    }
+}</code></pre></div><div class="error-message">Compilation error: static methods cannot be overridden. The @Override annotation triggers the error.</div><div class="correct-code"><pre><code class="language-python">class Parent {
+    static void greet() {
+        System.out.println(&quot;Hello from Parent&quot;);
+    }
+}
+
+class Child extends Parent {
+    // Method hiding (not overriding). No @Override.
+    static void greet() {
+        System.out.println(&quot;Hello from Child&quot;);
+    }
+}
+
+// Static methods are resolved by reference type, not object type
+Parent p = new Child();
+p.greet();  // Hello from Parent (method hiding, not polymorphism)</code></pre></div><div class="mistake-explanation">Static methods belong to the class, not to instances. They cannot be overridden, only hidden. The method called depends on the reference type, not the object type. This is NOT polymorphism.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Downcasting Without instanceof Check</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Animal { }
+class Dog extends Animal {
+    void bark() { System.out.println(&quot;Woof!&quot;); }
+}
+class Cat extends Animal { }
+
+Animal a = new Cat();
+Dog d = (Dog) a;  // ClassCastException at runtime!
+d.bark();</code></pre></div><div class="error-message">java.lang.ClassCastException: Cat cannot be cast to Dog</div><div class="correct-code"><pre><code class="language-python">Animal a = new Cat();
+
+if (a instanceof Dog) {
+    Dog d = (Dog) a;
+    d.bark();
+} else {
+    System.out.println(&quot;Not a Dog, cannot downcast&quot;);
+}</code></pre></div><div class="mistake-explanation">A <code>Cat</code> object cannot be cast to <code>Dog</code>. The compiler allows the cast (since both are <code>Animal</code> subtypes), but the JVM throws <code>ClassCastException</code> at runtime. Always use <code>instanceof</code> before downcasting.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Expecting Overriding to Work with Different Return Types</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Parent {
+    int getValue() { return 10; }
+}
+
+class Child extends Parent {
+    @Override
+    String getValue() { return &quot;Ten&quot;; }  // Compilation error!
+}</code></pre></div><div class="error-message">Compilation error: return type String is not compatible with int.</div><div class="correct-code"><pre><code class="language-python">class Parent {
+    Number getValue() { return 10; }
+}
+
+class Child extends Parent {
+    @Override
+    Integer getValue() { return 20; }  // Covariant return (Integer extends Number)
+}</code></pre></div><div class="mistake-explanation">Overriding requires the same return type, or a covariant return type (a subtype of the original return type). <code>String</code> is not related to <code>int</code> at all. <code>Integer</code> is a subclass of <code>Number</code>, so covariant return works.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Accessing Child-Only Methods Through Parent Reference</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Animal {
+    void eat() { System.out.println(&quot;Eating&quot;); }
+}
+
+class Dog extends Animal {
+    void fetch() { System.out.println(&quot;Fetching&quot;); }
+}
+
+Animal a = new Dog();
+a.eat();    // Works
+a.fetch();  // Compilation error!</code></pre></div><div class="error-message">Compilation error: cannot find symbol method fetch() in Animal.</div><div class="correct-code"><pre><code class="language-python">Animal a = new Dog();
+a.eat();  // Works (declared in Animal)
+
+// Must downcast to access Dog-specific methods
+if (a instanceof Dog) {
+    Dog d = (Dog) a;
+    d.fetch();  // Works
+}</code></pre></div><div class="mistake-explanation">A parent reference can only access methods declared in the parent class. Even though the actual object is a <code>Dog</code>, the compiler only sees the <code>Animal</code> type. To call <code>fetch()</code>, you must downcast to <code>Dog</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Overloading Based Only on Return Type</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Demo {
+    int compute(int a) { return a * 2; }
+    double compute(int a) { return a * 2.0; }  // Compilation error!
+}</code></pre></div><div class="error-message">Compilation error: method compute(int) is already defined in class Demo.</div><div class="correct-code"><pre><code class="language-python">class Demo {
+    int computeInt(int a) { return a * 2; }
+    double computeDouble(int a) { return a * 2.0; }
+
+    // Or overload by changing parameter types
+    int compute(int a) { return a * 2; }
+    double compute(double a) { return a * 2.0; }
+}</code></pre></div><div class="mistake-explanation">Methods cannot be overloaded by return type alone. The compiler determines which method to call based on the argument list, not the return type. If the parameter lists are identical, Java cannot distinguish between them.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Polymorphism means &#39;many forms.&#39; In Java, it allows one entity (method or reference) to behave differently based on context. It is a core OOP pillar.</li>
+<li>Compile-time polymorphism (static binding) is achieved through method overloading. The compiler selects the correct method based on argument types and count.</li>
+<li>Runtime polymorphism (dynamic binding) is achieved through method overriding. The JVM selects the correct method based on the actual object type at runtime.</li>
+<li>Method overloading requires methods to differ in parameter list (number, type, or order). Return type alone is NOT sufficient for overloading.</li>
+<li>Method overriding requires the child method to have the same name, same parameters, and same (or covariant) return type as the parent method.</li>
+<li>Upcasting (Parent ref = new Child()) is implicit and safe. The reference can only call methods declared in the parent class, but overridden versions in the child execute.</li>
+<li>Downcasting (Child ref = (Child) parentRef) is explicit and risky. Always use instanceof before downcasting to prevent ClassCastException.</li>
+<li>Dynamic method dispatch is the mechanism where the JVM determines at runtime which overridden method to call based on the actual object type, not the reference type.</li>
+<li>Static methods cannot be overridden, only hidden. The method called depends on the reference type, not the object type. This is NOT polymorphism.</li>
+<li>Private and final methods cannot be overridden. The @Override annotation helps catch overriding errors at compile time.</li>
+<li>Polymorphism enables extensible design: a method accepting a parent type works with all current and future child types without modification (Open-Closed Principle).</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/inheritance-in-java" class="related-topic-link">Inheritance in Java</a>
+<a href="/resources/java/abstraction-and-interfaces" class="related-topic-link">Abstraction - Abstract Classes and Interfaces</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/java/inheritance-in-java" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Inheritance in Java</span>
+        </a>
+            <a href="/resources/java/abstraction-and-interfaces" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Abstraction - Abstract Classes and Interfaces</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/polymorphism-in-java/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

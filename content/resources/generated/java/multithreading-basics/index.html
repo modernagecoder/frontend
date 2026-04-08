@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multithreading Basics - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Create threads with Thread class and Runnable interface, understand thread lifecycle, synchronization, and deadlocks.">
+    <meta name="keywords" content="multithreading basics, java tutorial, java multithreading basics, learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/multithreading-basics">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/multithreading-basics">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/multithreading-basics">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/multithreading-basics">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/multithreading-basics">
+    <meta property="og:title" content="Multithreading Basics - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Create threads with Thread class and Runnable interface, understand thread lifecycle, synchronization, and deadlocks.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/multithreading-basics">
+    <meta name="twitter:title" content="Multithreading Basics - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Create threads with Thread class and Runnable interface, understand thread lifecycle, synchronization, and deadlocks.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Multithreading Basics",
+    "description": "Create threads with Thread class and Runnable interface, understand thread lifecycle, synchronization, and deadlocks.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/multithreading-basics"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/multithreading-basics"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Multithreading Basics",
+        "item": "https://learn.modernagecoders.com/resources/java/multithreading-basics"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Multithreading Basics</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 22</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">50 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-08</span>
+            </div>
+            <h1 class="resource-title">Multithreading Basics</h1>
+            <a href="/resources/java/multithreading-basics/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Multithreading?</h2><p>A <strong>thread</strong> is the smallest unit of execution within a process. A Java program starts with one thread -- the <code>main</code> thread. <strong>Multithreading</strong> means running multiple threads concurrently within the same program, allowing different parts of your code to execute simultaneously.</p><pre><code class="language-java">public class Main {
+    public static void main(String[] args) {
+        System.out.println("Current thread: " + Thread.currentThread().getName());
+        // Output: Current thread: main
+    }
+}</code></pre><h3>Thread vs Process</h3><p>A <strong>process</strong> is an independent program running in its own memory space. A <strong>thread</strong> is a lightweight unit of execution within a process. Key differences:</p><ul><li><strong>Memory</strong>: Processes have separate memory spaces. Threads within the same process share the same heap memory but have their own stack.</li><li><strong>Creation cost</strong>: Creating a thread is cheaper than creating a process.</li><li><strong>Communication</strong>: Threads can communicate directly through shared memory. Processes need inter-process communication (IPC) mechanisms.</li><li><strong>Isolation</strong>: A crash in one process does not affect others. A crash in one thread can bring down the entire process.</li></ul><p>When Arjun's web server handles 100 users simultaneously, it does not create 100 separate processes. It creates 100 threads within one process, sharing the same application code and data.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is Multithreading Important?</h2><h3>1. Better Utilization of CPU Resources</h3><p>Modern CPUs have multiple cores. A single-threaded program uses only one core while the rest sit idle. Multithreading allows your program to use all available cores. If Priya's data processing application runs 4 threads on a 4-core CPU, it can process data up to 4 times faster than a single-threaded version.</p><h3>2. Responsive User Interfaces</h3><p>In a GUI application, if a heavy computation runs on the main thread, the interface freezes. By running the computation on a separate thread, the UI remains responsive. This is why Android mandates that network calls happen on background threads.</p><h3>3. Server-Side Scalability</h3><p>Web servers use threads to handle multiple client requests simultaneously. When Vikram's Spring Boot application receives 1000 requests per second, each request is handled by a separate thread from a thread pool. Without multithreading, the server would process requests one at a time.</p><h3>4. Real-World Applications</h3><p>Multithreading is everywhere: web servers (Tomcat uses thread pools), databases (concurrent query processing), games (rendering + physics + AI on separate threads), download managers (parallel file downloads), and IDEs (code compilation while you type).</p><h3>5. Interview and Placement Significance</h3><p>Multithreading is one of the most asked topics in Java interviews at companies like Amazon, Flipkart, Goldman Sachs, and Morgan Stanley. Questions on thread lifecycle, synchronization, deadlock, and the volatile keyword appear regularly.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Creating Threads: Extending the Thread Class</h3><p>The simplest way to create a thread is to extend the <code>Thread</code> class and override its <code>run()</code> method:</p><pre><code class="language-java">class MyThread extends Thread {
+    @Override
+    public void run() {
+        for (int i = 1; i <= 3; i++) {
+            System.out.println(getName() + ": count " + i);
+            try {
+                Thread.sleep(500); // pause for 500ms
+            } catch (InterruptedException e) {
+                System.out.println("Thread interrupted");
+            }
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyThread t1 = new MyThread();
+        MyThread t2 = new MyThread();
+        t1.setName("Thread-A");
+        t2.setName("Thread-B");
+        t1.start(); // creates a new thread and calls run()
+        t2.start();
+        System.out.println("Main thread continues...");
+    }
+}</code></pre><p>Critical point: You must call <code>start()</code>, not <code>run()</code>. Calling <code>run()</code> directly executes the method on the current thread (no new thread is created). <code>start()</code> creates a new thread and then invokes <code>run()</code> on that new thread.</p><h3>2. Creating Threads: Implementing Runnable</h3><p>The preferred approach is to implement the <code>Runnable</code> interface:</p><pre><code class="language-java">class MyTask implements Runnable {
+    private String taskName;
+
+    public MyTask(String name) {
+        this.taskName = name;
+    }
+
+    @Override
+    public void run() {
+        for (int i = 1; i <= 3; i++) {
+            System.out.println(taskName + ": step " + i);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Thread t1 = new Thread(new MyTask("Download"));
+        Thread t2 = new Thread(new MyTask("Upload"));
+        t1.start();
+        t2.start();
+    }
+}</code></pre><p>Why prefer Runnable over extending Thread? (1) Java allows only single inheritance -- if you extend Thread, you cannot extend another class. (2) Runnable separates the task from the thread mechanism, following better design. (3) Runnable tasks can be submitted to thread pools (Executor framework).</p><h3>3. Thread Lifecycle</h3><p>A thread goes through five states during its lifetime:</p><pre><code>NEW  ->  RUNNABLE  ->  RUNNING  ->  TERMINATED
+                         |    ^  
+                         v    |
+                       BLOCKED/WAITING</code></pre><ul><li><strong>NEW</strong>: Thread object created but <code>start()</code> not yet called.</li><li><strong>RUNNABLE</strong>: After <code>start()</code> is called, the thread is ready to run but waiting for CPU time.</li><li><strong>RUNNING</strong>: The thread scheduler has assigned CPU time and the thread is executing.</li><li><strong>BLOCKED/WAITING</strong>: The thread is alive but not eligible to run. This happens when waiting for a lock (BLOCKED), calling <code>wait()</code> (WAITING), or calling <code>sleep()</code>/<code>join()</code> with timeout (TIMED_WAITING).</li><li><strong>TERMINATED</strong>: The <code>run()</code> method has completed (or an unhandled exception occurred). The thread cannot be restarted.</li></ul><h3>4. Important Thread Methods</h3><pre><code class="language-java">Thread t = new Thread(() -> {
+    System.out.println("Running: " + Thread.currentThread().getName());
+});
+
+// Before start
+t.setName("Worker-1");           // Set thread name
+t.setPriority(Thread.MAX_PRIORITY); // 1 to 10 (default 5)
+t.setDaemon(true);               // Daemon thread (ends when main ends)
+
+t.start();                        // Start the thread
+
+// Thread info
+System.out.println(t.getName());  // Worker-1
+System.out.println(t.isAlive());  // true if not terminated
+System.out.println(t.getState()); // NEW, RUNNABLE, etc.
+
+// Static methods (affect current thread)
+Thread.sleep(1000);               // Pause current thread for 1 second
+Thread.currentThread();           // Get reference to current thread
+Thread.yield();                   // Hint to scheduler to give other threads a turn</code></pre><h3>5. join() -- Waiting for a Thread to Finish</h3><pre><code class="language-java">Thread t = new Thread(() -> {
+    try {
+        Thread.sleep(2000);
+        System.out.println("Thread finished");
+    } catch (InterruptedException e) {
+        e.printStackTrace();
+    }
+});
+
+t.start();
+System.out.println("Main waiting...");
+t.join(); // Main thread blocks here until t finishes
+System.out.println("Main continues after thread finished");</code></pre><p><code>join()</code> makes the calling thread wait until the target thread terminates. This is essential when you need the result of a thread before proceeding. Without <code>join()</code>, the main thread would continue immediately without waiting.</p><h3>6. Synchronization</h3><p>When multiple threads access shared data, race conditions can occur. <strong>Synchronization</strong> ensures that only one thread accesses a critical section at a time:</p><pre><code class="language-java">class BankAccount {
+    private int balance = 1000;
+
+    // Synchronized method -- only one thread can execute this at a time
+    public synchronized void withdraw(int amount) {
+        if (balance >= amount) {
+            System.out.println(Thread.currentThread().getName() 
+                + " withdrawing " + amount);
+            balance -= amount;
+            System.out.println("Remaining balance: " + balance);
+        } else {
+            System.out.println(Thread.currentThread().getName() 
+                + ": insufficient funds");
+        }
+    }
+
+    public synchronized int getBalance() {
+        return balance;
+    }
+}</code></pre><p>Without <code>synchronized</code>, two threads could both check <code>balance >= amount</code> simultaneously, both see sufficient funds, and both withdraw -- resulting in a negative balance. The <code>synchronized</code> keyword acquires a lock on the object, allowing only one thread to execute any synchronized method on that object at a time.</p><h4>Synchronized Blocks</h4><p>Instead of synchronizing the entire method, you can synchronize only the critical section:</p><pre><code class="language-java">public void withdraw(int amount) {
+    // Non-critical code can run concurrently
+    System.out.println("Processing request...");
+
+    synchronized (this) {
+        // Only this block is locked
+        if (balance >= amount) {
+            balance -= amount;
+        }
+    }
+}</code></pre><p>Synchronized blocks are preferred when only a small part of the method needs protection. They reduce the time a thread holds a lock, improving concurrency.</p><h3>7. The volatile Keyword</h3><p><code>volatile</code> ensures that reads and writes to a variable go directly to main memory, not a thread-local cache:</p><pre><code class="language-java">class StopFlag {
+    private volatile boolean running = true;
+
+    public void stop() {
+        running = false; // Immediately visible to all threads
+    }
+
+    public void run() {
+        while (running) {
+            // Do work
+        }
+        System.out.println("Stopped.");
+    }
+}</code></pre><p>Without <code>volatile</code>, a thread might cache the value of <code>running</code> and never see the update from another thread, causing an infinite loop. <code>volatile</code> guarantees visibility but does NOT guarantee atomicity -- it is not a replacement for <code>synchronized</code> when you need compound operations (check-then-act).</p><h3>8. Deadlock</h3><p>A <strong>deadlock</strong> occurs when two or more threads are blocked forever, each waiting for a lock that the other holds:</p><pre><code class="language-java">Object lockA = new Object();
+Object lockB = new Object();
+
+// Thread 1: locks A, then tries to lock B
+Thread t1 = new Thread(() -> {
+    synchronized (lockA) {
+        System.out.println("T1: holding lockA");
+        try { Thread.sleep(100); } catch (InterruptedException e) {}
+        synchronized (lockB) {
+            System.out.println("T1: holding lockA and lockB");
+        }
+    }
+});
+
+// Thread 2: locks B, then tries to lock A
+Thread t2 = new Thread(() -> {
+    synchronized (lockB) {
+        System.out.println("T2: holding lockB");
+        try { Thread.sleep(100); } catch (InterruptedException e) {}
+        synchronized (lockA) {
+            System.out.println("T2: holding lockB and lockA");
+        }
+    }
+});
+
+t1.start();
+t2.start();
+// DEADLOCK: T1 holds A, waits for B. T2 holds B, waits for A.</code></pre><p>How to avoid deadlocks: (1) Always acquire locks in the same order. (2) Use timeouts with <code>tryLock()</code> from <code>java.util.concurrent.locks</code>. (3) Minimize the scope and duration of locks. (4) Avoid nested locks when possible.</p><h3>9. Inter-Thread Communication: wait(), notify(), notifyAll()</h3><p>Threads can communicate using <code>wait()</code>, <code>notify()</code>, and <code>notifyAll()</code>. These methods must be called from within a <code>synchronized</code> block:</p><pre><code class="language-java">class SharedBuffer {
+    private int data;
+    private boolean hasData = false;
+
+    public synchronized void produce(int value) throws InterruptedException {
+        while (hasData) {
+            wait(); // Release lock and wait until consumed
+        }
+        data = value;
+        hasData = true;
+        System.out.println("Produced: " + value);
+        notify(); // Wake up waiting consumer
+    }
+
+    public synchronized int consume() throws InterruptedException {
+        while (!hasData) {
+            wait(); // Release lock and wait until produced
+        }
+        hasData = false;
+        System.out.println("Consumed: " + data);
+        notify(); // Wake up waiting producer
+        return data;
+    }
+}</code></pre><p><code>wait()</code> releases the lock and puts the thread to sleep until another thread calls <code>notify()</code> on the same object. <code>notify()</code> wakes up one waiting thread. <code>notifyAll()</code> wakes up all waiting threads. Always use <code>while</code> (not <code>if</code>) before <code>wait()</code> to guard against spurious wakeups.</p><h3>10. Executor Framework</h3><p>Creating threads manually is inefficient for large-scale applications. The <code>Executor</code> framework provides thread pools:</p><pre><code class="language-java">import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class ExecutorDemo {
+    public static void main(String[] args) {
+        // Create a pool of 3 threads
+        ExecutorService executor = Executors.newFixedThreadPool(3);
+
+        // Submit 5 tasks to the pool
+        for (int i = 1; i <= 5; i++) {
+            int taskId = i;
+            executor.submit(() -> {
+                System.out.println("Task " + taskId 
+                    + " running on " + Thread.currentThread().getName());
+                try { Thread.sleep(1000); } catch (InterruptedException e) {}
+            });
+        }
+
+        executor.shutdown(); // No new tasks, finish existing ones
+        System.out.println("All tasks submitted.");
+    }
+}</code></pre><p>A thread pool reuses a fixed number of threads to execute multiple tasks. When a thread finishes one task, it picks up the next from the queue. This avoids the overhead of creating and destroying threads repeatedly. <code>shutdown()</code> initiates an orderly shutdown -- no new tasks are accepted, but existing tasks complete.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <p>No code examples available yet.</p>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <p>No common mistakes listed for this topic.</p>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <p>Summary coming soon.</p>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/file-handling-in-java" class="related-topic-link">File Handling in Java</a>
+<a href="/resources/java/lambda-expressions-and-streams" class="related-topic-link">Lambda Expressions and Streams API</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/java/file-handling-in-java" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">File Handling in Java</span>
+        </a>
+            <a href="/resources/java/lambda-expressions-and-streams" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Lambda Expressions and Streams API</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/multithreading-basics/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

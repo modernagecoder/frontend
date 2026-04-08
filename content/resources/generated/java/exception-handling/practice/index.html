@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Exception Handling in Java | Java | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="49+ practice questions on Exception Handling in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="exception handling in java practice, java questions, java practice problems, exception handling in java exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/exception-handling/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/exception-handling/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/exception-handling/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/exception-handling/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/exception-handling/practice">
+    <meta property="og:title" content="Practice Questions - Exception Handling in Java | Java | Modern Age Coders">
+    <meta property="og:description" content="49+ practice questions on Exception Handling in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/exception-handling/practice">
+    <meta name="twitter:title" content="Practice Questions - Exception Handling in Java | Java | Modern Age Coders">
+    <meta name="twitter:description" content="49+ practice questions on Exception Handling in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Exception Handling in Java",
+    "description": "49+ practice questions on Exception Handling in Java in Java.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Exception Handling in Java"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/exception-handling/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Exception Handling in Java",
+        "item": "https://learn.modernagecoders.com/resources/java/exception-handling"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/java/exception-handling/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java/exception-handling">Exception Handling in Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 18</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">49 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Exception Handling in Java</h1>
+            <a href="/resources/java/exception-handling" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    public static void main(String[] args) {
+        try {
+            System.out.println("Before");
+            int result = 10 / 0;
+            System.out.println("After");
+        } catch (ArithmeticException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+        System.out.println("End");
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The line after the exception is not executed. Control jumps to the catch block.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Before</code><br><code>Error: / by zero</code><br><code>End</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    public static void main(String[] args) {
+        try {
+            System.out.println("Try");
+        } catch (Exception e) {
+            System.out.println("Catch");
+        } finally {
+            System.out.println("Finally");
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">No exception is thrown. Does the finally block still execute?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>Try</code><br><code>Finally</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    public static void main(String[] args) {
+        try {
+            String s = null;
+            System.out.println(s.length());
+        } catch (NullPointerException e) {
+            System.out.println("Caught NPE");
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Calling a method on null throws NullPointerException.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>Caught NPE</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    public static void main(String[] args) {
+        try {
+            int num = Integer.parseInt("123");
+            System.out.println("Parsed: " + num);
+        } catch (NumberFormatException e) {
+            System.out.println("Not a number");
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">"123" is a valid integer string. Does an exception occur?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Parsed: 123</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    public static void main(String[] args) {
+        try {
+            int[] arr = new int[3];
+            arr[0] = 10;
+            arr[1] = 20;
+            arr[2] = 30;
+            System.out.println(arr[1]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Out of bounds");
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">All array indices (0, 1, 2) are valid for an array of size 3.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    public static void main(String[] args) {
+        try {
+            System.out.println("A");
+            int x = 10 / 0;
+            System.out.println("B");
+        } catch (ArithmeticException e) {
+            System.out.println("C");
+        } finally {
+            System.out.println("D");
+        }
+        System.out.println("E");
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Trace the flow: try -> exception -> catch -> finally -> after.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>A</code><br><code>C</code><br><code>D</code><br><code>E</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    static int divide(int a, int b) {
+        return a / b;
+    }
+    public static void main(String[] args) {
+        try {
+            System.out.println(divide(10, 2));
+            System.out.println(divide(10, 0));
+            System.out.println(divide(20, 4));
+        } catch (ArithmeticException e) {
+            System.out.println("Division error");
+        }
+        System.out.println("Done");
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">The second call throws. Does the third call execute?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>5</code><br><code>Division error</code><br><code>Done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    public static void main(String[] args) {
+        for (String s : new String[]{"10", "abc", "20"}) {
+            try {
+                int n = Integer.parseInt(s);
+                System.out.println("Parsed: " + n);
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid: " + s);
+            }
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">The try-catch is inside the loop. Each iteration is independent.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Parsed: 10</code><br><code>Invalid: abc</code><br><code>Parsed: 20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    static int getValue() {
+        try {
+            System.out.println("try");
+            return 1;
+        } catch (Exception e) {
+            System.out.println("catch");
+            return 2;
+        } finally {
+            System.out.println("finally");
+        }
+    }
+    public static void main(String[] args) {
+        System.out.println("Value: " + getValue());
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">finally executes even when there is a return in try.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>try</code><br><code>finally</code><br><code>Value: 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class CustomException extends Exception {
+    CustomException(String msg) { super(msg); }
+}
+public class Main {
+    static void check(int x) throws CustomException {
+        if (x < 0) throw new CustomException("Negative: " + x);
+        System.out.println("Value: " + x);
+    }
+    public static void main(String[] args) {
+        try {
+            check(5);
+            check(-3);
+            check(10);
+        } catch (CustomException e) {
+            System.out.println("Caught: " + e.getMessage());
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">check(5) works. check(-3) throws. Does check(10) run?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>Value: 5</code><br><code>Caught: Negative: -3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    static void methodC() {
+        System.out.println("C start");
+        throw new RuntimeException("Error in C");
+    }
+    static void methodB() {
+        System.out.println("B start");
+        methodC();
+        System.out.println("B end");
+    }
+    static void methodA() {
+        System.out.println("A start");
+        try {
+            methodB();
+        } catch (RuntimeException e) {
+            System.out.println("Caught: " + e.getMessage());
+        }
+        System.out.println("A end");
+    }
+    public static void main(String[] args) {
+        methodA();
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">The exception propagates from C through B to A where it is caught.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>A start</code><br><code>B start</code><br><code>C start</code><br><code>Caught: Error in C</code><br><code>A end</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    public static void main(String[] args) {
+        try {
+            try {
+                throw new RuntimeException("inner");
+            } catch (RuntimeException e) {
+                System.out.println("Inner catch: " + e.getMessage());
+                throw new RuntimeException("rethrown");
+            } finally {
+                System.out.println("Inner finally");
+            }
+        } catch (RuntimeException e) {
+            System.out.println("Outer catch: " + e.getMessage());
+        } finally {
+            System.out.println("Outer finally");
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">The inner catch rethrows a new exception. Inner finally runs first, then outer catch.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Inner catch: inner</code><br><code>Inner finally</code><br><code>Outer catch: rethrown</code><br><code>Outer finally</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Resource implements AutoCloseable {
+    String name;
+    Resource(String name) {
+        this.name = name;
+        System.out.println(name + " opened");
+    }
+    public void close() {
+        System.out.println(name + " closed");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        try (Resource r1 = new Resource("A");
+             Resource r2 = new Resource("B")) {
+            System.out.println("Using resources");
+            throw new RuntimeException("Failure");
+        } catch (RuntimeException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Resources are closed in reverse order before the catch block runs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>A opened</code><br><code>B opened</code><br><code>Using resources</code><br><code>B closed</code><br><code>A closed</code><br><code>Error: Failure</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    static String test() {
+        String result = "initial";
+        try {
+            result = "try";
+            return result;
+        } finally {
+            result = "finally";
+        }
+    }
+    public static void main(String[] args) {
+        System.out.println(test());
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">The return value is evaluated before finally runs. Does changing result in finally affect the returned value?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>try</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    public static void main(String[] args) {
+        try {
+            System.out.println("try");
+            System.exit(0);
+        } finally {
+            System.out.println("finally");
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">System.exit() terminates the JVM. What happens to finally?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>try</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    public static void main(String[] args) {
+        try {
+            throw new RuntimeException("first");
+        } catch (RuntimeException e) {
+            System.out.println(e.getMessage());
+            throw new RuntimeException("second");
+        } finally {
+            System.out.println("finally");
+            throw new RuntimeException("third");
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">An exception in finally replaces the exception from catch.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>first</code><br><code>finally</code><br>Then the program terminates with <code>RuntimeException: third</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between checked and unchecked exceptions?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Think about what the compiler requires.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">Checked exceptions (subclasses of Exception, excluding RuntimeException) must be caught or declared with <code>throws</code>. The compiler enforces this. Unchecked exceptions (subclasses of RuntimeException) do not require handling. Checked exceptions represent recoverable conditions (file not found); unchecked exceptions represent programming errors (null pointer).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between <code>throw</code> and <code>throws</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">One is used inside the method body, the other in the method signature.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>throw</code> is used inside a method to explicitly throw an exception object: <code>throw new Exception("error")</code>. <code>throws</code> is used in the method signature to declare that the method might throw certain checked exceptions: <code>void read() throws IOException</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    public static void main(String[] args) {
+        try {
+            System.out.println(1);
+            System.out.println(2);
+            System.out.println(3);
+        } catch (Exception e) {
+            System.out.println("Error");
+        }
+        System.out.println(4);
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">No exception is thrown. What happens?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>1</code><br><code>2</code><br><code>3</code><br><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    public static void main(String[] args) {
+        int x = 0;
+        try {
+            x = 1;
+            int[] arr = null;
+            x = arr.length;
+            x = 2;
+        } catch (NullPointerException e) {
+            x = 3;
+        } finally {
+            x = 4;
+        }
+        System.out.println(x);
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Trace the value of x through try, catch, and finally.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is exception propagation?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Think about what happens when a method does not catch an exception.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">Exception propagation is the process where an unhandled exception moves up the call stack from the method where it was thrown, through each calling method, until it finds a matching catch block. If no method catches it, the JVM prints the stack trace and terminates the program.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    public static void main(String[] args) {
+        try {
+            String s = "Hello";
+            char c = s.charAt(10);
+        } catch (StringIndexOutOfBoundsException e) {
+            System.out.println("String error");
+        } catch (Exception e) {
+            System.out.println("General error");
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">"Hello" has indices 0-4. Index 10 is out of bounds.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>String error</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    static void risky() throws Exception {
+        throw new Exception("Problem!");
+    }
+    
+    static void caller() {
+        try {
+            risky();
+        } catch (Exception e) {
+            System.out.println("Handled: " + e.getMessage());
+        }
+    }
+    
+    public static void main(String[] args) {
+        caller();
+        System.out.println("Done");
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">risky() declares throws Exception. caller() catches it.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>Handled: Problem!</code><br><code>Done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    static int count = 0;
+    
+    static void recursive() {
+        count++;
+        recursive();
+    }
+    
+    public static void main(String[] args) {
+        try {
+            recursive();
+        } catch (StackOverflowError e) {
+            System.out.println("Stack overflow after " + count + " calls");
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Infinite recursion causes StackOverflowError. Can it be caught?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>Stack overflow after [some large number] calls</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">When should you create a checked custom exception vs an unchecked custom exception?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about whether the caller can reasonably recover from the error.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">Use a checked exception (extend <code>Exception</code>) when the caller can and should recover from the condition: insufficient funds, file not found, invalid input from an external source. Use an unchecked exception (extend <code>RuntimeException</code>) when the error represents a programming bug that should be fixed in the code: null argument, invalid state, assertion failure.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    static void method() {
+        try {
+            throw new RuntimeException("A");
+        } catch (RuntimeException e) {
+            System.out.println(e.getMessage());
+            throw new RuntimeException("B");
+        } finally {
+            System.out.println("finally");
+        }
+    }
+    public static void main(String[] args) {
+        try {
+            method();
+        } catch (RuntimeException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Exception B is thrown from catch. Finally runs before it propagates.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>A</code><br><code>finally</code><br><code>B</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is try-with-resources and what interface must a resource implement?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think about automatic resource cleanup.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">Try-with-resources (Java 7) is a try statement that declares one or more resources in its header. Resources are automatically closed when the try block exits, even if an exception occurs. Resources must implement the <code>AutoCloseable</code> interface (which has a single <code>close()</code> method).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    public static void main(String[] args) {
+        System.out.println(test());
+    }
+    static int test() {
+        int x = 0;
+        try {
+            x = 1;
+            return x;
+        } finally {
+            x = 2;
+            return x;
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">The return in finally overrides the return in try.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>2</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which block always executes regardless of whether an exception occurs?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> try</li><li><span class="mcq-option-label">B.</span> catch</li><li><span class="mcq-option-label">C.</span> finally</li><li><span class="mcq-option-label">D.</span> throw</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>finally</code> block always executes, whether an exception occurred or not, whether it was caught or not. The only exceptions are <code>System.exit()</code> and JVM crashes.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which of these is a checked exception?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> NullPointerException</li><li><span class="mcq-option-label">B.</span> IOException</li><li><span class="mcq-option-label">C.</span> ArithmeticException</li><li><span class="mcq-option-label">D.</span> ArrayIndexOutOfBoundsException</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>IOException</code> is a checked exception (extends Exception, not RuntimeException). The other three are unchecked (subclasses of RuntimeException).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is the parent class of all exceptions and errors in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Exception</li><li><span class="mcq-option-label">B.</span> Error</li><li><span class="mcq-option-label">C.</span> Throwable</li><li><span class="mcq-option-label">D.</span> Object</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>Throwable</code> is the root of the exception hierarchy. Both <code>Exception</code> and <code>Error</code> extend <code>Throwable</code>. While <code>Object</code> is the ultimate parent, <code>Throwable</code> is the root of throwable types.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does the <code>throw</code> keyword do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Declares that a method might throw an exception</li><li><span class="mcq-option-label">B.</span> Explicitly throws an exception object</li><li><span class="mcq-option-label">C.</span> Catches an exception</li><li><span class="mcq-option-label">D.</span> Defines a custom exception class</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>throw</code> explicitly creates and throws an exception object: <code>throw new Exception("error")</code>. <code>throws</code> (with 's') is used in the method signature for declaration.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">NullPointerException is a:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Checked exception</li><li><span class="mcq-option-label">B.</span> Unchecked exception (RuntimeException)</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> Compile-time error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>NullPointerException</code> extends <code>RuntimeException</code>, making it an unchecked exception. The compiler does not force you to catch it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What interface must a resource implement to be used in try-with-resources?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Closeable</li><li><span class="mcq-option-label">B.</span> AutoCloseable</li><li><span class="mcq-option-label">C.</span> Serializable</li><li><span class="mcq-option-label">D.</span> Disposable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> Resources in try-with-resources must implement <code>AutoCloseable</code> (which has a <code>close()</code> method). <code>Closeable</code> extends <code>AutoCloseable</code>, so Closeable resources also work.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What happens if a checked exception is neither caught nor declared with throws?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Runtime error</li><li><span class="mcq-option-label">B.</span> The exception is ignored</li><li><span class="mcq-option-label">C.</span> Compilation error</li><li><span class="mcq-option-label">D.</span> Warning only</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> Checked exceptions must be either caught (try-catch) or declared (throws in signature). Failing to do either results in a compilation error.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">In multi-catch, which separator is used between exception types?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &amp;&amp;</li><li><span class="mcq-option-label">B.</span> ||</li><li><span class="mcq-option-label">C.</span> |</li><li><span class="mcq-option-label">D.</span> ,</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Multi-catch uses the pipe operator <code>|</code>: <code>catch (IOException | SQLException e)</code>. The exception types must not have a parent-child relationship.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">To create a custom checked exception, you should extend:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> RuntimeException</li><li><span class="mcq-option-label">B.</span> Exception</li><li><span class="mcq-option-label">C.</span> Throwable</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> Extending <code>Exception</code> creates a checked exception. Extending <code>RuntimeException</code> creates an unchecked exception. Extending <code>Error</code> is for JVM-level issues.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is exception propagation?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Catching all exceptions in one place</li><li><span class="mcq-option-label">B.</span> An unhandled exception traveling up the call stack</li><li><span class="mcq-option-label">C.</span> Converting checked exceptions to unchecked</li><li><span class="mcq-option-label">D.</span> Throwing multiple exceptions at once</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> When a method does not catch an exception, it propagates to the calling method. This continues up the call stack until it is caught or the program terminates.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What happens to the return value if finally has a return statement?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The try/catch return value is used</li><li><span class="mcq-option-label">B.</span> Both return values are returned</li><li><span class="mcq-option-label">C.</span> The finally return value overrides the try/catch return</li><li><span class="mcq-option-label">D.</span> Compilation error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> A return in the finally block overrides any return from try or catch. This is confusing behavior, which is why returning from finally is strongly discouraged.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Can you have a try block without a catch block?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, catch is required</li><li><span class="mcq-option-label">B.</span> Yes, if there is a finally block</li><li><span class="mcq-option-label">C.</span> Yes, always</li><li><span class="mcq-option-label">D.</span> Only with try-with-resources</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> A try block must be followed by either a catch block, a finally block, or both. <code>try { } finally { }</code> is valid. Also, try-with-resources can omit both catch and finally.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What exception does <code>Integer.parseInt("abc")</code> throw?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ArithmeticException</li><li><span class="mcq-option-label">B.</span> NumberFormatException</li><li><span class="mcq-option-label">C.</span> ClassCastException</li><li><span class="mcq-option-label">D.</span> IllegalArgumentException</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>parseInt</code> throws <code>NumberFormatException</code> when the string cannot be parsed as an integer. <code>NumberFormatException</code> is a subclass of <code>IllegalArgumentException</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">In try-with-resources with multiple resources, what order are they closed?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> In the order they were declared</li><li><span class="mcq-option-label">B.</span> In reverse order of declaration</li><li><span class="mcq-option-label">C.</span> Random order</li><li><span class="mcq-option-label">D.</span> All at once</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> Resources in try-with-resources are closed in reverse order of their declaration. This matches the stack-like nature of resource acquisition (last acquired, first released).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which of the following is TRUE about Error in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Errors must be caught like checked exceptions</li><li><span class="mcq-option-label">B.</span> Errors represent recoverable conditions</li><li><span class="mcq-option-label">C.</span> Errors indicate serious problems not meant to be caught by applications</li><li><span class="mcq-option-label">D.</span> Errors extend RuntimeException</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>Error</code> represents serious JVM-level problems (OutOfMemoryError, StackOverflowError) that applications should not attempt to catch. They extend <code>Throwable</code>, not <code>RuntimeException</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the purpose of the <code>getMessage()</code> method in exceptions?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It prints the stack trace</li><li><span class="mcq-option-label">B.</span> It returns the detail message string of the exception</li><li><span class="mcq-option-label">C.</span> It returns the exception class name</li><li><span class="mcq-option-label">D.</span> It re-throws the exception</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>getMessage()</code> returns the detail message string passed to the exception's constructor. For <code>new Exception("file not found")</code>, <code>getMessage()</code> returns "file not found".</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Safe Division Calculator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a method safeDivide(int a, int b) that returns the result of a/b. If b is 0, catch the ArithmeticException and return -1. Test with (10,2), (10,0), (20,4).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(10,2), (10,0), (20,4)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">10 / 2 = 5
+10 / 0 = -1 (division by zero)
+20 / 4 = 5</div>
+                </div><div class="challenge-constraints">Use try-catch. Return -1 on error.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">public class Main {
+    static int safeDivide(int a, int b) {
+        try {
+            return a / b;
+        } catch (ArithmeticException e) {
+            return -1;
+        }
+    }
+    public static void main(String[] args) {
+        int[][] tests = {{10,2}, {10,0}, {20,4}};
+        for (int[] t : tests) {
+            int result = safeDivide(t[0], t[1]);
+            if (result == -1) {
+                System.out.println(t[0] + &quot; / &quot; + t[1] + &quot; = -1 (division by zero)&quot;);
+            } else {
+                System.out.println(t[0] + &quot; / &quot; + t[1] + &quot; = &quot; + result);
+            }
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Input Validator with Custom Exceptions</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create two custom exceptions: InvalidAgeException and InvalidNameException. Write a method registerStudent(String name, int age) that throws InvalidNameException if name is null/empty, and InvalidAgeException if age is not between 5 and 25. Test with valid and invalid inputs.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(&#39;Arjun&#39;, 20), (&#39;&#39;, 20), (&#39;Kavya&#39;, -5), (null, 30)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Registered: Arjun, age 20
+Error: Name cannot be empty
+Error: Invalid age: -5. Must be between 5 and 25
+Error: Name cannot be null</div>
+                </div><div class="challenge-constraints">Custom exceptions must extend Exception (checked). Include meaningful messages.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">class InvalidAgeException extends Exception {
+    InvalidAgeException(int age) {
+        super(&quot;Invalid age: &quot; + age + &quot;. Must be between 5 and 25&quot;);
+    }
+}
+
+class InvalidNameException extends Exception {
+    InvalidNameException(String reason) {
+        super(reason);
+    }
+}
+
+public class Main {
+    static void registerStudent(String name, int age) throws InvalidNameException, InvalidAgeException {
+        if (name == null) throw new InvalidNameException(&quot;Name cannot be null&quot;);
+        if (name.isEmpty()) throw new InvalidNameException(&quot;Name cannot be empty&quot;);
+        if (age &lt; 5 || age &gt; 25) throw new InvalidAgeException(age);
+        System.out.println(&quot;Registered: &quot; + name + &quot;, age &quot; + age);
+    }
+
+    public static void main(String[] args) {
+        Object[][] tests = {{&quot;Arjun&quot;, 20}, {&quot;&quot;, 20}, {&quot;Kavya&quot;, -5}, {null, 30}};
+        for (Object[] t : tests) {
+            try {
+                registerStudent((String) t[0], (int) t[1]);
+            } catch (InvalidNameException | InvalidAgeException e) {
+                System.out.println(&quot;Error: &quot; + e.getMessage());
+            }
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Resource Manager with AutoCloseable</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a class ConnectionPool implementing AutoCloseable. It has a constructor that prints 'Pool opened with N connections', a method getConnection(int id) that throws RuntimeException if id > pool size, and close() that prints 'Pool closed'. Demonstrate try-with-resources with normal use and with an exception.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Pool size=3, get connections 1, 2, 5</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Pool opened with 3 connections
+Connection 1 acquired
+Connection 2 acquired
+Pool closed
+Error: Connection 5 exceeds pool size 3</div>
+                </div><div class="challenge-constraints">Implement AutoCloseable. Use try-with-resources.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">class ConnectionPool implements AutoCloseable {
+    int size;
+    ConnectionPool(int size) {
+        this.size = size;
+        System.out.println(&quot;Pool opened with &quot; + size + &quot; connections&quot;);
+    }
+    void getConnection(int id) {
+        if (id &gt; size) throw new RuntimeException(&quot;Connection &quot; + id + &quot; exceeds pool size &quot; + size);
+        System.out.println(&quot;Connection &quot; + id + &quot; acquired&quot;);
+    }
+    @Override
+    public void close() {
+        System.out.println(&quot;Pool closed&quot;);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        try (ConnectionPool pool = new ConnectionPool(3)) {
+            pool.getConnection(1);
+            pool.getConnection(2);
+            pool.getConnection(5);
+        } catch (RuntimeException e) {
+            System.out.println(&quot;Error: &quot; + e.getMessage());
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Exception Chain Logger</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write three methods: parseData() throws NumberFormatException, processData() calls parseData and wraps the exception in a custom DataProcessingException (with the original as cause), and main() catches DataProcessingException and prints both the message and the root cause.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Input: &quot;abc&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Processing error: Failed to process data
+Root cause: NumberFormatException: For input string: &quot;abc&quot;</div>
+                </div><div class="challenge-constraints">Use exception chaining (pass cause to constructor). Access with getCause().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">class DataProcessingException extends Exception {
+    DataProcessingException(String msg, Throwable cause) {
+        super(msg, cause);
+    }
+}
+
+public class Main {
+    static int parseData(String input) {
+        return Integer.parseInt(input);
+    }
+
+    static int processData(String input) throws DataProcessingException {
+        try {
+            return parseData(input);
+        } catch (NumberFormatException e) {
+            throw new DataProcessingException(&quot;Failed to process data&quot;, e);
+        }
+    }
+
+    public static void main(String[] args) {
+        try {
+            processData(&quot;abc&quot;);
+        } catch (DataProcessingException e) {
+            System.out.println(&quot;Processing error: &quot; + e.getMessage());
+            System.out.println(&quot;Root cause: &quot; + e.getCause().getClass().getSimpleName() + &quot;: &quot; + e.getCause().getMessage());
+        }
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Bank Transaction System</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a BankAccount class with methods deposit(double) and withdraw(double). Withdraw throws InsufficientFundsException (custom checked) if amount > balance. Write a transfer(BankAccount from, BankAccount to, double amount) method. If withdraw fails, the transfer should be atomic (no partial changes). Test with successful and failed transfers.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Account A: 5000, Account B: 3000, Transfer 2000 then 5000</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Transfer of 2000.0: Success
+A: 3000.0, B: 5000.0
+Transfer of 5000.0: Failed - Insufficient funds. Deficit: 2000.0
+A: 3000.0, B: 5000.0</div>
+                </div><div class="challenge-constraints">Ensure atomicity: if withdraw fails, no changes should persist.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">class InsufficientFundsException extends Exception {
+    double deficit;
+    InsufficientFundsException(double deficit) {
+        super(&quot;Insufficient funds. Deficit: &quot; + deficit);
+        this.deficit = deficit;
+    }
+}
+
+class BankAccount {
+    String name;
+    double balance;
+    BankAccount(String name, double balance) {
+        this.name = name;
+        this.balance = balance;
+    }
+    void deposit(double amount) { balance += amount; }
+    void withdraw(double amount) throws InsufficientFundsException {
+        if (amount &gt; balance) throw new InsufficientFundsException(amount - balance);
+        balance -= amount;
+    }
+}
+
+public class Main {
+    static void transfer(BankAccount from, BankAccount to, double amount) {
+        try {
+            from.withdraw(amount);
+            to.deposit(amount);
+            System.out.println(&quot;Transfer of &quot; + amount + &quot;: Success&quot;);
+        } catch (InsufficientFundsException e) {
+            System.out.println(&quot;Transfer of &quot; + amount + &quot;: Failed - &quot; + e.getMessage());
+        }
+        System.out.println(from.name + &quot;: &quot; + from.balance + &quot;, &quot; + to.name + &quot;: &quot; + to.balance);
+    }
+
+    public static void main(String[] args) {
+        BankAccount a = new BankAccount(&quot;A&quot;, 5000);
+        BankAccount b = new BankAccount(&quot;B&quot;, 3000);
+        transfer(a, b, 2000);
+        transfer(a, b, 5000);
+    }
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/java/abstraction-and-interfaces/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Abstraction - Abstract Classes and Interfaces</span>
+        </a>
+            <a href="/resources/java/collections-framework/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Collections Framework - List, Set, Map</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/java/exception-handling" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

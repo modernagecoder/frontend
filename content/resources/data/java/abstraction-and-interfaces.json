@@ -1,0 +1,636 @@
+{
+  "title": "Abstraction - Abstract Classes and Interfaces",
+  "slug": "abstraction-and-interfaces",
+  "language": "java",
+  "chapter": 17,
+  "difficulty": "Intermediate",
+  "readingTime": "45 min",
+  "lastUpdated": "2026-04-08",
+  "totalQuestions": 49,
+  "seo": {
+    "title": "Abstract Classes and Interfaces in Java - Abstraction, Default Methods, Functional Interfaces | Modern Age Coders",
+    "description": "Learn Java abstraction with abstract classes and interfaces. Covers abstract methods, default methods (Java 8), functional interfaces, abstract vs interface comparison, marker interfaces, and multiple inheritance. Includes 49+ practice questions for placement preparation.",
+    "keywords": "java abstract class, java interface, abstract vs interface java, functional interface java, java default methods, java abstraction tutorial, java marker interface, java multiple inheritance, java abstract class interview questions"
+  },
+  "content": {
+    "what": "<h2>What Is Abstraction in Java?</h2><p><strong>Abstraction</strong> is the process of hiding implementation details and exposing only the essential features. When Arjun uses <code>System.out.println()</code>, he does not know (or need to know) how Java internally writes bytes to the console. He just knows the method prints text. That is abstraction.</p><p>Java provides two mechanisms for abstraction:</p><ol><li><strong>Abstract classes</strong> (partial abstraction): Can have both abstract (unimplemented) and concrete (implemented) methods.</li><li><strong>Interfaces</strong> (full abstraction, traditionally): Define a contract that implementing classes must follow.</li></ol><pre><code>// Abstract class\nabstract class Shape {\n    abstract double area();           // Abstract: no body\n    void describe() {                 // Concrete: has body\n        System.out.println(\"I am a shape with area: \" + area());\n    }\n}\n\n// Interface\ninterface Drawable {\n    void draw();                      // Abstract by default\n    default void erase() {            // Default method (Java 8)\n        System.out.println(\"Erasing...\");\n    }\n}</code></pre><p>An abstract class says: \"I have some common behavior, but subclasses must fill in the blanks.\" An interface says: \"Any class that implements me guarantees it can do these things.\"</p>",
+    "why": "<h2>Why Does Abstraction Matter?</h2><p>Abstraction is one of the four pillars of OOP. It directly influences how software is designed, maintained, and extended.</p><h3>1. Hiding Complexity</h3><p>When Kavya calls <code>list.sort()</code>, she does not care whether it uses merge sort, quicksort, or Tim sort. The implementation is hidden behind an abstract interface. This lets her focus on what to do, not how it is done internally.</p><h3>2. Defining Contracts</h3><p>An interface is a contract. When a class implements <code>Comparable</code>, it guarantees it has a <code>compareTo()</code> method. Any code that works with <code>Comparable</code> objects can rely on this contract without knowing the specific class.</p><h3>3. Supporting Multiple Inheritance of Type</h3><p>Java does not support multiple inheritance of classes (to avoid the diamond problem), but a class can implement multiple interfaces. This gives Ravi the flexibility of multiple inheritance without the ambiguity:</p><pre><code>class SmartPhone implements Camera, GPS, Phone {\n    // Must implement all methods from all three interfaces\n}</code></pre><h3>4. Loose Coupling</h3><p>Code that depends on interfaces rather than concrete classes is loosely coupled. If Priya writes a method that accepts <code>List</code> (interface), it works with <code>ArrayList</code>, <code>LinkedList</code>, or any future implementation. Swapping the implementation requires no code changes.</p><h3>5. Framework and Library Design</h3><p>Every major Java framework uses abstraction extensively. Spring's dependency injection works through interfaces. JDBC defines interfaces (<code>Connection</code>, <code>Statement</code>, <code>ResultSet</code>) that database vendors implement. Without abstraction, frameworks would be impossible.</p><h3>6. Interview Relevance</h3><p>\"When would you use an abstract class vs an interface?\" is one of the most asked Java interview questions. Understanding the distinction, especially with Java 8+ changes, is critical for placements.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Abstract Classes</h3><p>An abstract class is declared with the <code>abstract</code> keyword. It can have abstract methods (no body) and concrete methods (with body). It cannot be instantiated directly.</p><pre><code>abstract class Animal {\n    String name;\n    \n    // Constructor (yes, abstract classes can have constructors)\n    Animal(String name) {\n        this.name = name;\n    }\n    \n    // Abstract method: subclasses MUST implement\n    abstract void sound();\n    \n    // Concrete method: inherited by subclasses\n    void sleep() {\n        System.out.println(name + \" is sleeping\");\n    }\n}\n\nclass Dog extends Animal {\n    Dog(String name) {\n        super(name);\n    }\n    \n    @Override\n    void sound() {\n        System.out.println(name + \" says: Bark!\");\n    }\n}\n\n// Animal a = new Animal(\"Generic\");  // ERROR: Cannot instantiate abstract class\nAnimal a = new Dog(\"Rex\");\na.sound();  // Rex says: Bark!\na.sleep();  // Rex is sleeping</code></pre><p>Key points about abstract classes:</p><ul><li>Declared with <code>abstract</code> keyword</li><li>Can have constructors (called by subclass constructors via <code>super()</code>)</li><li>Can have instance variables (fields)</li><li>Can have both abstract and concrete methods</li><li>Cannot be instantiated with <code>new</code></li><li>A subclass must implement all abstract methods, or declare itself abstract</li><li>Can have <code>static</code> methods, <code>final</code> methods, and any access modifier</li></ul><h3>2. Interfaces</h3><p>An interface is a fully abstract type (traditionally). It defines a contract of methods that implementing classes must provide.</p><pre><code>interface Flyable {\n    void fly();                        // public abstract by default\n    int MAX_ALTITUDE = 10000;          // public static final by default\n}\n\ninterface Swimmable {\n    void swim();\n}\n\n// A class can implement multiple interfaces\nclass Duck implements Flyable, Swimmable {\n    @Override\n    public void fly() {\n        System.out.println(\"Duck flying\");\n    }\n    \n    @Override\n    public void swim() {\n        System.out.println(\"Duck swimming\");\n    }\n}\n\nFlyable f = new Duck();\nf.fly();  // Duck flying\n\nSwimmable s = new Duck();\ns.swim(); // Duck swimming</code></pre><p>Key points about interfaces:</p><ul><li>All methods are <code>public abstract</code> by default (before Java 8)</li><li>All variables are <code>public static final</code> (constants)</li><li>A class uses <code>implements</code> (not <code>extends</code>) to implement an interface</li><li>A class can implement multiple interfaces (multiple inheritance of type)</li><li>An interface can extend another interface using <code>extends</code></li><li>Cannot have constructors</li><li>Cannot have instance variables (only constants)</li></ul><h3>3. Abstract Class vs Interface</h3><table><tr><th>Feature</th><th>Abstract Class</th><th>Interface</th></tr><tr><td>Keyword</td><td>abstract class</td><td>interface</td></tr><tr><td>Methods</td><td>Abstract + concrete</td><td>Abstract (+ default/static since Java 8)</td></tr><tr><td>Variables</td><td>Instance variables (any type)</td><td>Only public static final constants</td></tr><tr><td>Constructors</td><td>Yes</td><td>No</td></tr><tr><td>Multiple inheritance</td><td>No (single extends)</td><td>Yes (multiple implements)</td></tr><tr><td>Access modifiers</td><td>Any</td><td>public only (for methods)</td></tr><tr><td>When to use</td><td>Shared state + partial implementation</td><td>Define a contract / capability</td></tr></table><h3>4. When to Use Which</h3><p><strong>Use an abstract class when:</strong></p><ul><li>Subclasses share common state (fields) and behavior</li><li>You want to provide a partial implementation with some methods already coded</li><li>You need constructors to initialize shared state</li><li>Example: <code>abstract class Vehicle</code> with fields <code>speed</code>, <code>fuel</code>, and concrete methods like <code>refuel()</code></li></ul><p><strong>Use an interface when:</strong></p><ul><li>You want to define a capability that unrelated classes can share</li><li>You need multiple inheritance of type</li><li>You want to enforce a contract without dictating implementation</li><li>Example: <code>interface Serializable</code>, <code>interface Comparable</code></li></ul><h3>5. Default Methods in Interfaces (Java 8)</h3><p>Java 8 introduced <code>default</code> methods in interfaces. These have a body and are inherited by implementing classes:</p><pre><code>interface Logger {\n    void log(String message);  // Abstract\n    \n    default void logInfo(String message) {  // Default method\n        log(\"INFO: \" + message);\n    }\n    \n    default void logError(String message) {\n        log(\"ERROR: \" + message);\n    }\n}\n\nclass ConsoleLogger implements Logger {\n    @Override\n    public void log(String message) {\n        System.out.println(message);\n    }\n    // logInfo and logError are inherited\n}\n\nConsoleLogger cl = new ConsoleLogger();\ncl.logInfo(\"Application started\");   // INFO: Application started\ncl.logError(\"File not found\");       // ERROR: File not found</code></pre><p>Default methods were added to allow interface evolution: adding new methods to existing interfaces without breaking all implementing classes.</p><h3>6. Static Methods in Interfaces (Java 8)</h3><p>Interfaces can also have <code>static</code> methods. These belong to the interface itself and are not inherited:</p><pre><code>interface MathUtils {\n    static int square(int n) {\n        return n * n;\n    }\n    \n    static int cube(int n) {\n        return n * n * n;\n    }\n}\n\n// Called on the interface, not on implementing classes\nSystem.out.println(MathUtils.square(5));  // 25\nSystem.out.println(MathUtils.cube(3));    // 27</code></pre><h3>7. Functional Interfaces</h3><p>A <strong>functional interface</strong> has exactly one abstract method. It can be annotated with <code>@FunctionalInterface</code> (optional but recommended). Functional interfaces are the foundation of lambda expressions.</p><pre><code>@FunctionalInterface\ninterface Converter {\n    double convert(double value);  // Single abstract method\n    \n    // default and static methods are allowed\n    default void describe() {\n        System.out.println(\"I am a converter\");\n    }\n}\n\n// Lambda expression (because Converter is a functional interface)\nConverter kmToMiles = (km) -> km * 0.621371;\nConverter celToFar = (c) -> c * 9.0 / 5 + 32;\n\nSystem.out.println(kmToMiles.convert(100));  // 62.1371\nSystem.out.println(celToFar.convert(37));    // 98.6</code></pre><p>Common built-in functional interfaces: <code>Runnable</code> (run()), <code>Callable</code> (call()), <code>Comparator</code> (compare()), <code>Predicate</code> (test()), <code>Function</code> (apply()).</p><h3>8. Marker Interfaces</h3><p>A <strong>marker interface</strong> has no methods. It simply \"marks\" a class as having a certain property. The JVM or frameworks check for this marker using <code>instanceof</code>.</p><pre><code>// Built-in marker interfaces:\n// java.io.Serializable — marks a class as serializable\n// java.lang.Cloneable — marks a class as cloneable\n\nimport java.io.Serializable;\n\nclass Student implements Serializable {\n    String name;\n    int age;\n    \n    Student(String name, int age) {\n        this.name = name;\n        this.age = age;\n    }\n}\n\n// Now Student objects can be serialized to a file or stream</code></pre><p>With annotations available since Java 5, marker interfaces are less common for new APIs, but the existing ones (<code>Serializable</code>, <code>Cloneable</code>) remain important.</p><h3>9. Interface Extending Interface</h3><p>An interface can extend one or more interfaces:</p><pre><code>interface Readable {\n    void read();\n}\n\ninterface Writable {\n    void write();\n}\n\ninterface ReadWritable extends Readable, Writable {\n    void seek(int position);\n}\n\n// A class implementing ReadWritable must implement read(), write(), and seek()\nclass File implements ReadWritable {\n    @Override\n    public void read() { System.out.println(\"Reading file\"); }\n    @Override\n    public void write() { System.out.println(\"Writing file\"); }\n    @Override\n    public void seek(int pos) { System.out.println(\"Seeking to \" + pos); }\n}</code></pre>",
+    "codeExamples": [
+      {
+        "title": "Abstract Class with Constructors and Mixed Methods",
+        "code": "abstract class Vehicle {\n    String brand;\n    int year;\n\n    Vehicle(String brand, int year) {\n        this.brand = brand;\n        this.year = year;\n    }\n\n    abstract void start();\n    abstract double fuelEfficiency();\n\n    void displayInfo() {\n        System.out.println(brand + \" (\" + year + \")\");\n        System.out.println(\"Fuel efficiency: \" + fuelEfficiency() + \" km/l\");\n    }\n}\n\nclass Car extends Vehicle {\n    Car(String brand, int year) {\n        super(brand, year);\n    }\n\n    @Override\n    void start() { System.out.println(brand + \" car engine started\"); }\n\n    @Override\n    double fuelEfficiency() { return 15.5; }\n}\n\nclass Bike extends Vehicle {\n    Bike(String brand, int year) {\n        super(brand, year);\n    }\n\n    @Override\n    void start() { System.out.println(brand + \" bike kick-started\"); }\n\n    @Override\n    double fuelEfficiency() { return 45.0; }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Vehicle v1 = new Car(\"Toyota\", 2024);\n        Vehicle v2 = new Bike(\"Honda\", 2023);\n\n        v1.start();\n        v1.displayInfo();\n        System.out.println();\n        v2.start();\n        v2.displayInfo();\n    }\n}",
+        "language": "java",
+        "explanation": "The abstract class <code>Vehicle</code> has a constructor, two abstract methods, and one concrete method. <code>Car</code> and <code>Bike</code> extend it, implementing the abstract methods. The concrete method <code>displayInfo()</code> calls the abstract <code>fuelEfficiency()</code>, which is resolved by dynamic dispatch.",
+        "output": "Toyota car engine started\nToyota (2024)\nFuel efficiency: 15.5 km/l\n\nHonda bike kick-started\nHonda (2023)\nFuel efficiency: 45.0 km/l"
+      },
+      {
+        "title": "Interface Implementation and Multiple Interfaces",
+        "code": "interface Printable {\n    void print();\n}\n\ninterface Scannable {\n    void scan();\n}\n\ninterface Faxable {\n    void fax();\n}\n\nclass AllInOnePrinter implements Printable, Scannable, Faxable {\n    @Override\n    public void print() { System.out.println(\"Printing document...\"); }\n\n    @Override\n    public void scan() { System.out.println(\"Scanning document...\"); }\n\n    @Override\n    public void fax() { System.out.println(\"Faxing document...\"); }\n}\n\nclass SimplePrinter implements Printable {\n    @Override\n    public void print() { System.out.println(\"Simple printing...\"); }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        AllInOnePrinter aio = new AllInOnePrinter();\n        aio.print();\n        aio.scan();\n        aio.fax();\n\n        System.out.println();\n\n        // Polymorphism with interfaces\n        Printable p = new AllInOnePrinter();\n        p.print();\n        // p.scan();  // Compilation error: Printable has no scan()\n\n        System.out.println();\n\n        Printable[] printers = { new AllInOnePrinter(), new SimplePrinter() };\n        for (Printable pr : printers) {\n            pr.print();\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "<code>AllInOnePrinter</code> implements three interfaces, demonstrating multiple inheritance of type. A <code>Printable</code> reference can only call <code>print()</code>, even if the actual object supports more. Arrays of interface types enable polymorphic processing.",
+        "output": "Printing document...\nScanning document...\nFaxing document...\n\nPrinting document...\n\nPrinting document...\nSimple printing..."
+      },
+      {
+        "title": "Default and Static Methods in Interfaces (Java 8)",
+        "code": "interface Greeting {\n    void greet(String name);  // Abstract\n\n    default void greetAll(String... names) {\n        for (String name : names) {\n            greet(name);\n        }\n    }\n\n    static String formatName(String name) {\n        return name.substring(0, 1).toUpperCase() + name.substring(1).toLowerCase();\n    }\n}\n\nclass FormalGreeting implements Greeting {\n    @Override\n    public void greet(String name) {\n        System.out.println(\"Good morning, Mr./Ms. \" + name);\n    }\n}\n\nclass CasualGreeting implements Greeting {\n    @Override\n    public void greet(String name) {\n        System.out.println(\"Hey, \" + name + \"!\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        FormalGreeting fg = new FormalGreeting();\n        fg.greet(\"Arjun\");\n        fg.greetAll(\"Kavya\", \"Ravi\", \"Priya\");\n\n        System.out.println();\n\n        CasualGreeting cg = new CasualGreeting();\n        cg.greetAll(\"Arjun\", \"Kavya\");\n\n        System.out.println();\n        System.out.println(Greeting.formatName(\"aRJUN\"));\n    }\n}",
+        "language": "java",
+        "explanation": "The <code>default</code> method <code>greetAll</code> is inherited by both implementations and calls the abstract <code>greet</code> method polymorphically. The <code>static</code> method <code>formatName</code> is called on the interface itself, not on instances.",
+        "output": "Good morning, Mr./Ms. Arjun\nGood morning, Mr./Ms. Kavya\nGood morning, Mr./Ms. Ravi\nGood morning, Mr./Ms. Priya\n\nHey, Arjun!\nHey, Kavya!\n\nArjun"
+      },
+      {
+        "title": "Functional Interface with Lambda Expression",
+        "code": "@FunctionalInterface\ninterface MathOperation {\n    double execute(double a, double b);\n}\n\npublic class Main {\n    static void compute(double a, double b, MathOperation op, String label) {\n        System.out.println(label + \": \" + op.execute(a, b));\n    }\n\n    public static void main(String[] args) {\n        MathOperation add = (a, b) -> a + b;\n        MathOperation subtract = (a, b) -> a - b;\n        MathOperation multiply = (a, b) -> a * b;\n        MathOperation divide = (a, b) -> b != 0 ? a / b : 0;\n\n        compute(10, 5, add, \"Add\");\n        compute(10, 5, subtract, \"Subtract\");\n        compute(10, 5, multiply, \"Multiply\");\n        compute(10, 5, divide, \"Divide\");\n    }\n}",
+        "language": "java",
+        "explanation": "A <code>@FunctionalInterface</code> with one abstract method can be implemented using lambda expressions. Each lambda provides a different implementation of <code>execute()</code>. The <code>compute</code> method uses polymorphism to call the appropriate operation.",
+        "output": "Add: 15.0\nSubtract: 5.0\nMultiply: 50.0\nDivide: 2.0"
+      },
+      {
+        "title": "Abstract Class vs Interface: Combined Example",
+        "code": "abstract class Employee {\n    String name;\n    double baseSalary;\n\n    Employee(String name, double baseSalary) {\n        this.name = name;\n        this.baseSalary = baseSalary;\n    }\n\n    abstract double calculateSalary();\n\n    void display() {\n        System.out.println(name + \" earns \" + calculateSalary());\n    }\n}\n\ninterface Taxable {\n    double calculateTax();\n\n    default void showTax() {\n        System.out.println(\"Tax: \" + calculateTax());\n    }\n}\n\ninterface Bonusable {\n    double getBonus();\n}\n\nclass Manager extends Employee implements Taxable, Bonusable {\n    Manager(String name, double baseSalary) {\n        super(name, baseSalary);\n    }\n\n    @Override\n    double calculateSalary() { return baseSalary + getBonus(); }\n\n    @Override\n    public double calculateTax() { return calculateSalary() * 0.3; }\n\n    @Override\n    public double getBonus() { return baseSalary * 0.2; }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Manager m = new Manager(\"Arjun\", 80000);\n        m.display();\n        m.showTax();\n        System.out.println(\"Bonus: \" + m.getBonus());\n    }\n}",
+        "language": "java",
+        "explanation": "This example combines abstract classes and interfaces. <code>Employee</code> is an abstract class providing shared state and a template. <code>Taxable</code> and <code>Bonusable</code> are interfaces adding capabilities. <code>Manager</code> extends one and implements two, demonstrating both mechanisms working together.",
+        "output": "Arjun earns 96000.0\nTax: 28800.0\nBonus: 16000.0"
+      },
+      {
+        "title": "Interface Extending Interface and Marker Interface",
+        "code": "import java.io.Serializable;\n\ninterface Identifiable {\n    String getId();\n}\n\ninterface Displayable {\n    void display();\n}\n\ninterface Entity extends Identifiable, Displayable {\n    String getType();\n}\n\nclass Student implements Entity, Serializable {\n    private String id;\n    private String name;\n\n    Student(String id, String name) {\n        this.id = id;\n        this.name = name;\n    }\n\n    @Override\n    public String getId() { return id; }\n\n    @Override\n    public String getType() { return \"Student\"; }\n\n    @Override\n    public void display() {\n        System.out.println(getType() + \" [\" + getId() + \"]: \" + name);\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Student s = new Student(\"S101\", \"Kavya\");\n        s.display();\n\n        System.out.println(\"Is Identifiable? \" + (s instanceof Identifiable));\n        System.out.println(\"Is Serializable? \" + (s instanceof Serializable));\n        System.out.println(\"Is Entity? \" + (s instanceof Entity));\n\n        // Using interface reference\n        Entity e = s;\n        e.display();\n    }\n}",
+        "language": "java",
+        "explanation": "The <code>Entity</code> interface extends both <code>Identifiable</code> and <code>Displayable</code>. <code>Student</code> implements <code>Entity</code> (inheriting all three abstract methods) and the marker interface <code>Serializable</code>. The <code>instanceof</code> operator confirms all interface relationships.",
+        "output": "Student [S101]: Kavya\nIs Identifiable? true\nIs Serializable? true\nIs Entity? true\nStudent [S101]: Kavya"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Trying to Instantiate an Abstract Class",
+        "wrongCode": "abstract class Animal {\n    abstract void sound();\n}\n\nAnimal a = new Animal();  // Compilation error!",
+        "error": "Compilation error: Animal is abstract; cannot be instantiated.",
+        "correctCode": "abstract class Animal {\n    abstract void sound();\n}\n\nclass Dog extends Animal {\n    @Override\n    void sound() { System.out.println(\"Bark\"); }\n}\n\nAnimal a = new Dog();  // Correct: instantiate a concrete subclass\na.sound();",
+        "explanation": "Abstract classes cannot be instantiated directly because they may have unimplemented methods. You must create a concrete subclass that implements all abstract methods, then instantiate the subclass."
+      },
+      {
+        "title": "Forgetting to Make Interface Methods Public",
+        "wrongCode": "interface Printable {\n    void print();\n}\n\nclass Report implements Printable {\n    @Override\n    void print() {  // Missing public!\n        System.out.println(\"Printing report\");\n    }\n}",
+        "error": "Compilation error: attempting to assign weaker access privileges; was public.",
+        "correctCode": "interface Printable {\n    void print();\n}\n\nclass Report implements Printable {\n    @Override\n    public void print() {  // Must be public\n        System.out.println(\"Printing report\");\n    }\n}",
+        "explanation": "All interface methods are implicitly <code>public</code>. When implementing, the method must also be <code>public</code>. Omitting the modifier makes it package-private (default), which is more restrictive than <code>public</code>, causing a compilation error."
+      },
+      {
+        "title": "Not Implementing All Abstract Methods",
+        "wrongCode": "abstract class Shape {\n    abstract double area();\n    abstract double perimeter();\n}\n\nclass Circle extends Shape {\n    double radius;\n    Circle(double r) { this.radius = r; }\n\n    @Override\n    double area() { return Math.PI * radius * radius; }\n    // Forgot to implement perimeter()!\n}",
+        "error": "Compilation error: Circle is not abstract and does not override abstract method perimeter() in Shape.",
+        "correctCode": "class Circle extends Shape {\n    double radius;\n    Circle(double r) { this.radius = r; }\n\n    @Override\n    double area() { return Math.PI * radius * radius; }\n\n    @Override\n    double perimeter() { return 2 * Math.PI * radius; }\n}",
+        "explanation": "A concrete (non-abstract) subclass must implement ALL abstract methods from its parent. If you cannot implement all of them, declare the subclass as <code>abstract</code> as well."
+      },
+      {
+        "title": "Adding Instance Variables to an Interface",
+        "wrongCode": "interface User {\n    String name;  // Compilation error in practice!\n    int age = 0;  // This compiles but is public static final\n\n    void login();\n}",
+        "error": "Variables in interfaces are implicitly public static final. 'String name;' without initialization causes a compilation error because final variables must be initialized.",
+        "correctCode": "interface User {\n    int MAX_AGE = 150;  // public static final (constant)\n    String DEFAULT_ROLE = \"Guest\";\n\n    void login();\n}\n\n// For instance variables, use an abstract class\nabstract class UserBase {\n    String name;\n    int age;\n\n    abstract void login();\n}",
+        "explanation": "Interfaces cannot have instance variables. All variables in interfaces are implicitly <code>public static final</code> (constants) and must be initialized. For instance state, use an abstract class."
+      },
+      {
+        "title": "Using @FunctionalInterface on an Interface with Multiple Abstract Methods",
+        "wrongCode": "@FunctionalInterface\ninterface Calculator {\n    int add(int a, int b);\n    int subtract(int a, int b);  // Second abstract method!\n}",
+        "error": "Compilation error: Calculator is not a functional interface. Multiple non-overriding abstract methods found.",
+        "correctCode": "@FunctionalInterface\ninterface Calculator {\n    int compute(int a, int b);  // Single abstract method\n\n    default int addDefault(int a, int b) { return a + b; }  // Default is fine\n    static int multiply(int a, int b) { return a * b; }     // Static is fine\n}",
+        "explanation": "A functional interface must have exactly ONE abstract method. Default methods and static methods do not count as abstract, so they are allowed. The <code>@FunctionalInterface</code> annotation enforces this rule at compile time."
+      }
+    ],
+    "summary": [
+      "Abstraction hides implementation details and exposes only essential features. Java achieves it through abstract classes and interfaces.",
+      "An abstract class (abstract keyword) can have abstract methods (no body), concrete methods (with body), constructors, and instance variables. It cannot be instantiated directly.",
+      "An interface defines a contract of methods. All methods are public abstract by default. All variables are public static final constants.",
+      "A class extends one abstract class but can implement multiple interfaces. This gives Java multiple inheritance of type without the diamond problem.",
+      "Use abstract classes when subclasses share common state and partial behavior. Use interfaces when defining a capability or contract for unrelated classes.",
+      "Default methods (Java 8) allow interfaces to have methods with a body. This enables adding new methods to existing interfaces without breaking implementations.",
+      "Static methods in interfaces (Java 8) are called on the interface itself, not on instances. They are not inherited by implementing classes.",
+      "A functional interface has exactly one abstract method and can be used with lambda expressions. The @FunctionalInterface annotation enforces this at compile time.",
+      "Common functional interfaces include Runnable, Callable, Comparator, Predicate, and Function.",
+      "Marker interfaces (Serializable, Cloneable) have no methods. They tag a class with a capability that the JVM or frameworks check with instanceof.",
+      "An interface can extend multiple interfaces. A class implementing such an interface must implement all inherited abstract methods."
+    ]
+  },
+  "relatedTopics": ["polymorphism-in-java", "exception-handling"],
+  "practice": {
+    "totalQuestions": 49,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>abstract class Shape {\n    abstract double area();\n}\nclass Circle extends Shape {\n    double r;\n    Circle(double r) { this.r = r; }\n    double area() { return 3.14 * r * r; }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Shape s = new Circle(5);\n        System.out.println(s.area());\n    }\n}</code></pre>",
+        "hint": "Circle implements area(). The object is Circle, reference is Shape.",
+        "answer": "<code>78.5</code>",
+        "explanation": "The <code>Circle</code> class implements <code>area()</code> returning <code>3.14 * 5 * 5 = 78.5</code>. Even though the reference is <code>Shape</code>, dynamic dispatch calls <code>Circle</code>'s version."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Does this code compile?<br><pre><code>abstract class Animal {\n    abstract void sound();\n}\npublic class Main {\n    public static void main(String[] args) {\n        Animal a = new Animal();\n    }\n}</code></pre>",
+        "hint": "Can you instantiate an abstract class?",
+        "answer": "No, it does not compile. <code>Compilation error: Animal is abstract; cannot be instantiated.</code>",
+        "explanation": "Abstract classes cannot be instantiated with <code>new</code>. You must create a concrete subclass that implements all abstract methods, then instantiate that subclass."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>interface Greetable {\n    void greet();\n}\nclass HelloGreeter implements Greetable {\n    public void greet() {\n        System.out.println(\"Hello!\");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Greetable g = new HelloGreeter();\n        g.greet();\n    }\n}</code></pre>",
+        "hint": "HelloGreeter implements the interface method. The reference is the interface type.",
+        "answer": "<code>Hello!</code>",
+        "explanation": "<code>HelloGreeter</code> implements <code>Greetable</code> and provides the <code>greet()</code> method. The interface reference <code>g</code> calls the implementation polymorphically."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>interface Constants {\n    int VALUE = 100;\n}\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(Constants.VALUE);\n        // Constants.VALUE = 200;  // Would this work?\n    }\n}</code></pre>",
+        "hint": "Interface variables are public static final by default.",
+        "answer": "<code>100</code><br>The commented line would NOT work (compilation error: cannot assign a value to a final variable).",
+        "explanation": "Interface variables are implicitly <code>public static final</code>. They are constants. <code>Constants.VALUE</code> prints 100. Attempting to reassign would cause a compilation error because it is final."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>abstract class Base {\n    void concrete() {\n        System.out.println(\"Concrete method\");\n    }\n    abstract void abstractMethod();\n}\nclass Derived extends Base {\n    void abstractMethod() {\n        System.out.println(\"Implemented!\");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Base b = new Derived();\n        b.concrete();\n        b.abstractMethod();\n    }\n}</code></pre>",
+        "hint": "Abstract classes can have concrete methods that are inherited.",
+        "answer": "<code>Concrete method</code><br><code>Implemented!</code>",
+        "explanation": "<code>concrete()</code> is inherited from <code>Base</code>. <code>abstractMethod()</code> is implemented in <code>Derived</code>. Both are called through the <code>Base</code> reference."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>abstract class Animal {\n    String name;\n    Animal(String name) {\n        this.name = name;\n        System.out.println(\"Animal: \" + name);\n    }\n    abstract void sound();\n}\nclass Cat extends Animal {\n    Cat(String name) {\n        super(name);\n        System.out.println(\"Cat: \" + name);\n    }\n    void sound() { System.out.println(name + \" says Meow\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Animal a = new Cat(\"Whiskers\");\n        a.sound();\n    }\n}</code></pre>",
+        "hint": "Abstract class constructors are called via super() from the subclass constructor.",
+        "answer": "<code>Animal: Whiskers</code><br><code>Cat: Whiskers</code><br><code>Whiskers says Meow</code>",
+        "explanation": "Creating <code>new Cat(\"Whiskers\")</code> calls <code>Cat</code>'s constructor, which calls <code>super(name)</code> first. The <code>Animal</code> constructor prints first, then <code>Cat</code>'s constructor body, then <code>sound()</code> is called."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>interface A {\n    default void show() { System.out.println(\"A\"); }\n}\ninterface B {\n    default void show() { System.out.println(\"B\"); }\n}\nclass C implements A, B {\n    public void show() {\n        A.super.show();\n        B.super.show();\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        C c = new C();\n        c.show();\n    }\n}</code></pre>",
+        "hint": "When two interfaces have the same default method, the class must override it. Use InterfaceName.super to call a specific one.",
+        "answer": "<code>A</code><br><code>B</code>",
+        "explanation": "Both <code>A</code> and <code>B</code> have a <code>default show()</code>. Class <code>C</code> must override it to resolve the conflict. Using <code>A.super.show()</code> and <code>B.super.show()</code>, it calls both default implementations."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>interface Calculable {\n    int calculate(int a, int b);\n    \n    default void printResult(int a, int b) {\n        System.out.println(\"Result: \" + calculate(a, b));\n    }\n}\nclass Adder implements Calculable {\n    public int calculate(int a, int b) { return a + b; }\n}\nclass Multiplier implements Calculable {\n    public int calculate(int a, int b) { return a * b; }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Calculable c1 = new Adder();\n        Calculable c2 = new Multiplier();\n        c1.printResult(3, 4);\n        c2.printResult(3, 4);\n    }\n}</code></pre>",
+        "hint": "The default method calls the abstract method, which is resolved polymorphically.",
+        "answer": "<code>Result: 7</code><br><code>Result: 12</code>",
+        "explanation": "The <code>default</code> method <code>printResult</code> calls the abstract <code>calculate</code> method. For <code>Adder</code>, <code>calculate</code> returns 3+4=7. For <code>Multiplier</code>, it returns 3*4=12. The default method acts as a template."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>interface Util {\n    static int doubleIt(int n) { return n * 2; }\n}\nclass MyClass implements Util { }\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(Util.doubleIt(5));\n        // MyClass m = new MyClass();\n        // m.doubleIt(5);  // Would this work?\n    }\n}</code></pre>",
+        "hint": "Static methods in interfaces are called on the interface, not on implementing classes.",
+        "answer": "<code>10</code><br>The commented call would NOT compile. Static interface methods are not inherited.",
+        "explanation": "<code>Util.doubleIt(5)</code> returns 10. Static methods in interfaces are not inherited by implementing classes. You must call them on the interface itself: <code>Util.doubleIt()</code>, not <code>m.doubleIt()</code>."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>abstract class AbstractLogger {\n    abstract void log(String msg);\n    \n    void logWithTimestamp(String msg) {\n        System.out.print(\"[LOG] \");\n        log(msg);\n    }\n}\nclass ConsoleLogger extends AbstractLogger {\n    void log(String msg) {\n        System.out.println(msg);\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        AbstractLogger logger = new ConsoleLogger();\n        logger.log(\"Direct message\");\n        logger.logWithTimestamp(\"Timestamped message\");\n    }\n}</code></pre>",
+        "hint": "logWithTimestamp is concrete and calls the abstract log() which is implemented in ConsoleLogger.",
+        "answer": "<code>Direct message</code><br><code>[LOG] Timestamped message</code>",
+        "explanation": "<code>log()</code> directly prints the message. <code>logWithTimestamp()</code> prints \"[LOG] \" then calls <code>log()</code>, which prints the message on the same line via dynamic dispatch."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>abstract class Base {\n    Base() {\n        System.out.println(\"Base init\");\n        init();\n    }\n    abstract void init();\n}\nclass Child extends Base {\n    int value = 5;\n    \n    Child() {\n        System.out.println(\"Child init, value=\" + value);\n    }\n    \n    void init() {\n        System.out.println(\"init called, value=\" + value);\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Child c = new Child();\n    }\n}</code></pre>",
+        "hint": "The Base constructor calls init() before Child's fields are initialized.",
+        "answer": "<code>Base init</code><br><code>init called, value=0</code><br><code>Child init, value=5</code>",
+        "explanation": "The <code>Base</code> constructor runs first, printing \"Base init\", then calls <code>init()</code>. Since the actual object is <code>Child</code>, <code>Child</code>'s <code>init()</code> runs. But <code>Child</code>'s field <code>value</code> has not been initialized yet (still default 0). Then <code>Child</code>'s constructor body runs with <code>value=5</code>."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Does this code compile? If yes, what is the output?<br><pre><code>interface X {\n    default void show() { System.out.println(\"X\"); }\n}\ninterface Y extends X {\n    default void show() { System.out.println(\"Y\"); }\n}\nclass Z implements X, Y { }\npublic class Main {\n    public static void main(String[] args) {\n        Z z = new Z();\n        z.show();\n    }\n}</code></pre>",
+        "hint": "Y extends X and overrides show(). Z implements both. Is there a conflict?",
+        "answer": "<code>Y</code>",
+        "explanation": "There is no conflict because <code>Y extends X</code> and overrides <code>show()</code>. <code>Y</code>'s version is more specific. When <code>Z</code> implements both, it inherits <code>Y</code>'s <code>show()</code> (the most specific override). No explicit override in <code>Z</code> is needed."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>@FunctionalInterface\ninterface Transformer {\n    String transform(String s);\n}\npublic class Main {\n    static String applyTwice(Transformer t, String s) {\n        return t.transform(t.transform(s));\n    }\n    public static void main(String[] args) {\n        Transformer upper = s -> s.toUpperCase();\n        Transformer addBang = s -> s + \"!\";\n\n        System.out.println(applyTwice(upper, \"hello\"));\n        System.out.println(applyTwice(addBang, \"hi\"));\n    }\n}</code></pre>",
+        "hint": "applyTwice applies the transformer twice. Upper on 'hello' then upper again.",
+        "answer": "<code>HELLO</code><br><code>hi!!</code>",
+        "explanation": "<code>applyTwice(upper, \"hello\")</code>: \"hello\" -> \"HELLO\" -> \"HELLO\" (already uppercase). <code>applyTwice(addBang, \"hi\")</code>: \"hi\" -> \"hi!\" -> \"hi!!\" (two exclamation marks added)."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>interface Drawable { void draw(); }\ninterface Resizable { void resize(int factor); }\n\nabstract class UIComponent implements Drawable {\n    String id;\n    UIComponent(String id) { this.id = id; }\n}\n\nclass Button extends UIComponent implements Resizable {\n    int size = 10;\n    Button(String id) { super(id); }\n    \n    public void draw() { System.out.println(\"Button[\" + id + \"] size=\" + size); }\n    public void resize(int f) { size *= f; }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Button b = new Button(\"btn1\");\n        b.draw();\n        b.resize(3);\n        b.draw();\n        \n        Drawable d = b;\n        d.draw();\n        \n        Resizable r = b;\n        r.resize(2);\n        d.draw();\n    }\n}</code></pre>",
+        "hint": "All references point to the same Button object. Changes through one affect all.",
+        "answer": "<code>Button[btn1] size=10</code><br><code>Button[btn1] size=30</code><br><code>Button[btn1] size=30</code><br><code>Button[btn1] size=60</code>",
+        "explanation": "All variables reference the same <code>Button</code> object. <code>resize(3)</code> changes size to 30. <code>resize(2)</code> through the <code>Resizable</code> reference changes it to 60. <code>d.draw()</code> through the <code>Drawable</code> reference shows the updated size."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Does this code compile?<br><pre><code>abstract class A {\n    abstract void foo();\n}\nabstract class B extends A {\n    abstract void bar();\n}\nclass C extends B {\n    void bar() { System.out.println(\"bar\"); }\n}</code></pre>",
+        "hint": "C extends B which extends A. Does C implement ALL abstract methods?",
+        "answer": "No, it does not compile. <code>C</code> must also implement <code>foo()</code> from <code>A</code>.",
+        "explanation": "<code>B</code> extends <code>A</code> and is abstract, so it does not need to implement <code>foo()</code>. But <code>C</code> is concrete and must implement all inherited abstract methods: both <code>foo()</code> from <code>A</code> and <code>bar()</code> from <code>B</code>. <code>C</code> only implements <code>bar()</code>."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>interface Processor {\n    default String process(String input) {\n        return input.trim();\n    }\n}\nclass UpperProcessor implements Processor {\n    @Override\n    public String process(String input) {\n        String trimmed = Processor.super.process(input);\n        return trimmed.toUpperCase();\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Processor p = new UpperProcessor();\n        System.out.println(p.process(\"  hello world  \"));\n    }\n}</code></pre>",
+        "hint": "The overriding method calls the default method via Processor.super, then converts to uppercase.",
+        "answer": "<code>HELLO WORLD</code>",
+        "explanation": "<code>UpperProcessor</code> overrides <code>process()</code>. It calls <code>Processor.super.process(input)</code> to use the default method which trims whitespace (\"  hello world  \" -> \"hello world\"). Then <code>toUpperCase()</code> converts it to \"HELLO WORLD\"."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Can an abstract class have a constructor?",
+        "hint": "Think about how subclass constructors call super().",
+        "answer": "Yes, abstract classes can have constructors. They are called when a subclass is instantiated, via <code>super()</code>. The constructor initializes shared state (fields) for all subclasses.",
+        "explanation": "Abstract classes cannot be instantiated directly, but their constructors run when a concrete subclass is created. The subclass constructor calls <code>super()</code> (explicitly or implicitly), which invokes the abstract class's constructor."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the key difference between <code>extends</code> and <code>implements</code>?",
+        "hint": "One is for classes/abstract classes, the other for interfaces.",
+        "answer": "<code>extends</code> is used for class-to-class inheritance (including abstract classes). <code>implements</code> is used when a class implements an interface. A class can extend only one class but implement multiple interfaces.",
+        "explanation": "Syntax: <code>class Dog extends Animal</code> (inheriting from a class). <code>class Dog implements Pet, Trainable</code> (implementing interfaces). You can combine both: <code>class Dog extends Animal implements Pet</code>."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>interface Speakable {\n    void speak();\n}\nclass Person implements Speakable {\n    String name;\n    Person(String name) { this.name = name; }\n    public void speak() { System.out.println(name + \" is speaking\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Speakable s = new Person(\"Arjun\");\n        s.speak();\n    }\n}</code></pre>",
+        "hint": "A Person object is referenced by a Speakable interface variable.",
+        "answer": "<code>Arjun is speaking</code>",
+        "explanation": "<code>Person</code> implements <code>Speakable</code> and provides <code>speak()</code>. The interface reference <code>s</code> calls the implementation polymorphically."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>abstract class Template {\n    final void execute() {\n        step1();\n        step2();\n        step3();\n    }\n    void step1() { System.out.println(\"Default step 1\"); }\n    abstract void step2();\n    void step3() { System.out.println(\"Default step 3\"); }\n}\nclass MyProcess extends Template {\n    void step2() { System.out.println(\"Custom step 2\"); }\n    void step3() { System.out.println(\"Custom step 3\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Template t = new MyProcess();\n        t.execute();\n    }\n}</code></pre>",
+        "hint": "This is the Template Method design pattern. execute() is final, step2 is abstract, step3 is overridden.",
+        "answer": "<code>Default step 1</code><br><code>Custom step 2</code><br><code>Custom step 3</code>",
+        "explanation": "<code>execute()</code> calls all three steps. <code>step1()</code> is not overridden, so the default runs. <code>step2()</code> is abstract and implemented by <code>MyProcess</code>. <code>step3()</code> is overridden by <code>MyProcess</code>. This is the Template Method pattern."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is a marker interface? Give two examples.",
+        "hint": "Think about interfaces with zero methods.",
+        "answer": "A marker interface has no methods or constants. It 'marks' a class as having a certain property. Examples: <code>java.io.Serializable</code> (marks objects that can be serialized) and <code>java.lang.Cloneable</code> (marks objects that can be cloned). The JVM or framework checks for the marker using <code>instanceof</code>.",
+        "explanation": "Marker interfaces provide metadata at the type level. <code>Serializable</code> tells the JVM that an object's state can be written to a stream. <code>Cloneable</code> tells <code>Object.clone()</code> that cloning is permitted. Without the marker, the operations throw exceptions."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>interface Shape {\n    double area();\n    default String describe() {\n        return \"Shape with area \" + area();\n    }\n}\nclass Square implements Shape {\n    double side;\n    Square(double s) { this.side = s; }\n    public double area() { return side * side; }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Shape s = new Square(4);\n        System.out.println(s.describe());\n    }\n}</code></pre>",
+        "hint": "The default method calls the abstract area(), which is resolved polymorphically.",
+        "answer": "<code>Shape with area 16.0</code>",
+        "explanation": "The <code>default</code> method <code>describe()</code> calls <code>area()</code>, which is implemented by <code>Square</code> returning 4*4=16.0. The default method acts as a template that uses the abstract method's result."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why were default methods added to interfaces in Java 8?",
+        "hint": "Think about backward compatibility.",
+        "answer": "Default methods were added to allow interface evolution without breaking existing implementations. Before Java 8, adding a new method to an interface would break all classes that implement it. With default methods, new methods can be added with a default implementation, and existing classes continue to work without changes.",
+        "explanation": "For example, the <code>forEach()</code> method was added to <code>Iterable</code> in Java 8 as a default method. All existing <code>Iterable</code> implementations (ArrayList, HashSet, etc.) inherited it without needing code changes."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>interface A {\n    default void show() {\n        System.out.println(\"A\");\n    }\n}\nclass B implements A {\n    public void show() {\n        System.out.println(\"B\");\n    }\n}\nclass C extends B {\n}\npublic class Main {\n    public static void main(String[] args) {\n        A obj = new C();\n        obj.show();\n    }\n}</code></pre>",
+        "hint": "C extends B which overrides the default method from A. C inherits B's version.",
+        "answer": "<code>B</code>",
+        "explanation": "<code>B</code> overrides the default <code>show()</code> from <code>A</code>. <code>C</code> extends <code>B</code> and inherits <code>B</code>'s <code>show()</code>. The actual object is <code>C</code>, which uses <code>B</code>'s version. Dynamic dispatch prints \"B\"."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>abstract class Account {\n    double balance;\n    Account(double balance) { this.balance = balance; }\n    \n    abstract double interestRate();\n    \n    double futureValue(int years) {\n        return balance * Math.pow(1 + interestRate(), years);\n    }\n}\nclass SavingsAccount extends Account {\n    SavingsAccount(double bal) { super(bal); }\n    double interestRate() { return 0.04; }\n}\nclass FixedDeposit extends Account {\n    FixedDeposit(double bal) { super(bal); }\n    double interestRate() { return 0.07; }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Account[] accounts = {\n            new SavingsAccount(10000),\n            new FixedDeposit(10000)\n        };\n        for (Account a : accounts) {\n            System.out.printf(\"%.2f at %.0f%% for 5 years = %.2f%n\",\n                a.balance, a.interestRate()*100, a.futureValue(5));\n        }\n    }\n}</code></pre>",
+        "hint": "futureValue uses interestRate() which is abstract and resolved polymorphically.",
+        "answer": "<code>10000.00 at 4% for 5 years = 12166.53</code><br><code>10000.00 at 7% for 5 years = 14025.52</code>",
+        "explanation": "<code>futureValue()</code> is a concrete method that calls the abstract <code>interestRate()</code>. For <code>SavingsAccount</code>, the rate is 0.04 (4%). For <code>FixedDeposit</code>, it is 0.07 (7%). Each polymorphic call produces different results."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the diamond problem and how does Java solve it?",
+        "hint": "Consider what happens when two parent classes have the same method.",
+        "answer": "The diamond problem occurs when a class inherits from two classes that share a common ancestor, creating ambiguity about which version of a method to use. Java avoids this by disallowing multiple class inheritance (single extends only). For interfaces with conflicting default methods, the implementing class MUST override the conflicting method to resolve the ambiguity.",
+        "explanation": "If interface A and interface B both have <code>default void show()</code>, and class C implements both, C must override <code>show()</code>. Inside the override, C can call <code>A.super.show()</code> or <code>B.super.show()</code> to delegate to a specific interface's default."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>interface Validator {\n    boolean validate(String input);\n    \n    default Validator and(Validator other) {\n        return input -> this.validate(input) && other.validate(input);\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Validator notEmpty = s -> !s.isEmpty();\n        Validator shortEnough = s -> s.length() <= 10;\n        Validator combined = notEmpty.and(shortEnough);\n        \n        System.out.println(combined.validate(\"\"));\n        System.out.println(combined.validate(\"Hello\"));\n        System.out.println(combined.validate(\"This is a very long string\"));\n    }\n}</code></pre>",
+        "hint": "The and() default method returns a new Validator that requires both conditions to be true.",
+        "answer": "<code>false</code><br><code>true</code><br><code>false</code>",
+        "explanation": "<code>combined</code> requires both not-empty AND length <= 10. \"\" is empty (fails first). \"Hello\" is not empty and length 5 (passes both). \"This is a very long string\" is not empty but length > 10 (fails second)."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Can an abstract class implement an interface without providing method implementations?",
+        "hint": "Abstract classes can leave methods unimplemented.",
+        "answer": "Yes. An abstract class can implement an interface without providing implementations for the interface's abstract methods. The abstract class simply inherits those methods as abstract. The first concrete (non-abstract) subclass must implement all remaining abstract methods.",
+        "explanation": "For example: <code>abstract class X implements Runnable { }</code> is valid even without implementing <code>run()</code>. The <code>run()</code> method remains abstract in <code>X</code>. Any concrete class extending <code>X</code> must implement <code>run()</code>."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which keyword is used to define an abstract class in Java?",
+        "options": [
+          "virtual",
+          "abstract",
+          "interface",
+          "abstraction"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>abstract</code> keyword is placed before the <code>class</code> keyword: <code>abstract class MyClass { }</code>."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which is true about interface variables?",
+        "options": [
+          "They can be changed at runtime",
+          "They are public static final by default",
+          "They can be private",
+          "They are instance variables"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> All variables in an interface are implicitly <code>public static final</code>. They are constants that must be initialized at declaration and cannot be changed."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "How many classes can a Java class extend?",
+        "options": [
+          "Zero",
+          "One",
+          "Two",
+          "Unlimited"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Java supports single inheritance for classes. A class can extend at most one other class. For multiple inheritance of type, use interfaces."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Can an abstract class have concrete (non-abstract) methods?",
+        "options": [
+          "No, all methods must be abstract",
+          "Yes, it can mix abstract and concrete methods",
+          "Only static methods can be concrete",
+          "Only if it implements an interface"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Abstract classes can have both abstract methods (no body) and concrete methods (with body). This is one of their main advantages over interfaces (before Java 8)."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which keyword does a class use to implement an interface?",
+        "options": [
+          "extends",
+          "implements",
+          "inherits",
+          "uses"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Classes use <code>implements</code> for interfaces: <code>class Dog implements Pet { }</code>. <code>extends</code> is used for class-to-class or interface-to-interface inheritance."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is a functional interface?",
+        "options": [
+          "An interface with no methods",
+          "An interface with exactly one abstract method",
+          "An interface with only default methods",
+          "An interface that extends Function"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A functional interface has exactly one abstract method. It can have any number of default and static methods. It can be used with lambda expressions."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "When should you use an abstract class over an interface?",
+        "options": [
+          "When you need multiple inheritance",
+          "When you need to define a contract",
+          "When subclasses share common state (fields) and partial implementation",
+          "When you want to use lambda expressions"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Abstract classes are ideal when subclasses share instance variables and some common behavior. Interfaces cannot have instance variables, making abstract classes the better choice for shared state."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What happens if a class implements two interfaces that both have the same default method?",
+        "options": [
+          "The class inherits both versions",
+          "Compilation error unless the class overrides the method",
+          "The first interface's method wins",
+          "Runtime exception"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> If two interfaces provide conflicting default methods, the implementing class must override the method to resolve the ambiguity. The class can call <code>InterfaceName.super.method()</code> to delegate."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Can an interface extend another interface?",
+        "options": [
+          "No, only classes can extend",
+          "Yes, using extends",
+          "Yes, using implements",
+          "Only if the parent is a functional interface"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> An interface can extend one or more interfaces using <code>extends</code>: <code>interface ReadWrite extends Readable, Writable { }</code>. Note: classes implement interfaces, but interfaces extend interfaces."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Are static methods in interfaces inherited by implementing classes?",
+        "options": [
+          "Yes, like default methods",
+          "No, they must be called on the interface itself",
+          "Yes, but only if public",
+          "Only in Java 9+"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Static methods in interfaces are not inherited by implementing classes. They can only be called using the interface name: <code>MyInterface.staticMethod()</code>."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "Which of the following is NOT a valid functional interface?",
+        "options": [
+          "An interface with one abstract method and two default methods",
+          "An interface with one abstract method and one static method",
+          "An interface with two abstract methods",
+          "An interface extending another functional interface without adding abstract methods"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A functional interface must have exactly ONE abstract method. Two abstract methods disqualify it. Options A, B, and D all have exactly one abstract method."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the purpose of <code>@FunctionalInterface</code>?",
+        "options": [
+          "It makes the interface faster at runtime",
+          "It is required for lambda expressions to work",
+          "It is a compile-time check ensuring exactly one abstract method",
+          "It automatically generates lambda implementations"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>@FunctionalInterface</code> is optional but causes a compile-time error if the interface has more or fewer than one abstract method. Lambda expressions work with any functional interface, even without the annotation."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Can an abstract class have <code>final</code> methods?",
+        "options": [
+          "No, abstract and final are incompatible",
+          "Yes, the class can be abstract but individual methods can be final",
+          "Only static methods can be final",
+          "Only if the class is also final"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> An abstract class can have final methods (methods that cannot be overridden by subclasses). The class itself cannot be both abstract and final (that would be contradictory), but individual methods can be final."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the Serializable interface an example of?",
+        "options": [
+          "A functional interface",
+          "A marker interface",
+          "An abstract interface",
+          "A default interface"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>Serializable</code> is a marker interface (no methods). It marks a class as serializable. The JVM checks for this marker when serialization is attempted."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "In Java 8+, which features can interfaces have that they could NOT have before?",
+        "options": [
+          "Constructors and instance variables",
+          "Default methods and static methods",
+          "Private methods and protected methods",
+          "Abstract methods and constants"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Java 8 added default methods (with body, inherited by implementations) and static methods (called on the interface). Java 9 added private methods. Constructors and instance variables are still not allowed."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What happens if a concrete class extends an abstract class but does not implement all abstract methods?",
+        "options": [
+          "The unimplemented methods return null",
+          "Runtime error",
+          "Compilation error",
+          "The methods are ignored"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A concrete class must implement all abstract methods from its parent. Failure to do so results in a compilation error. Alternatively, the class can declare itself abstract."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Shape Hierarchy with Abstract Class",
+        "difficulty": "Easy",
+        "description": "Create an abstract class Shape with abstract methods area() and perimeter(). Implement Circle, Rectangle, and Triangle. Print each shape's area and perimeter using a Shape array.",
+        "sampleInput": "Circle r=5, Rectangle 4x6, Triangle 3-4-5",
+        "sampleOutput": "Circle: area=78.54, perimeter=31.42\nRectangle: area=24.00, perimeter=20.00\nTriangle: area=6.00, perimeter=12.00",
+        "constraints": "Use abstract class and @Override. Calculate triangle area using Heron's formula or base*height/2.",
+        "solution": "abstract class Shape {\n    abstract double area();\n    abstract double perimeter();\n    abstract String name();\n}\n\nclass Circle extends Shape {\n    double r;\n    Circle(double r) { this.r = r; }\n    @Override double area() { return Math.PI * r * r; }\n    @Override double perimeter() { return 2 * Math.PI * r; }\n    @Override String name() { return \"Circle\"; }\n}\n\nclass Rectangle extends Shape {\n    double w, h;\n    Rectangle(double w, double h) { this.w = w; this.h = h; }\n    @Override double area() { return w * h; }\n    @Override double perimeter() { return 2 * (w + h); }\n    @Override String name() { return \"Rectangle\"; }\n}\n\nclass Triangle extends Shape {\n    double a, b, c;\n    Triangle(double a, double b, double c) { this.a = a; this.b = b; this.c = c; }\n    @Override double area() {\n        double s = (a + b + c) / 2;\n        return Math.sqrt(s * (s - a) * (s - b) * (s - c));\n    }\n    @Override double perimeter() { return a + b + c; }\n    @Override String name() { return \"Triangle\"; }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Shape[] shapes = { new Circle(5), new Rectangle(4, 6), new Triangle(3, 4, 5) };\n        for (Shape s : shapes) {\n            System.out.printf(\"%s: area=%.2f, perimeter=%.2f%n\", s.name(), s.area(), s.perimeter());\n        }\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Payment Gateway with Interfaces",
+        "difficulty": "Medium",
+        "description": "Create an interface PaymentGateway with methods processPayment(double amount) and getProviderName(). Add a default method receipt(double amount) that prints a formatted receipt. Implement CreditCardPayment, UPIPayment, and WalletPayment. Process all payments through a PaymentGateway array.",
+        "sampleInput": "Amount = 2500.0",
+        "sampleOutput": "Processing 2500.0 via Credit Card (2% fee)\n--- Receipt from Credit Card: 2550.0 ---\nProcessing 2500.0 via UPI (no fee)\n--- Receipt from UPI: 2500.0 ---\nProcessing 2500.0 via Digital Wallet\n--- Receipt from Digital Wallet: 2500.0 ---",
+        "constraints": "Use interface with default method. Use polymorphism with interface array.",
+        "solution": "interface PaymentGateway {\n    void processPayment(double amount);\n    String getProviderName();\n    default void receipt(double amount) {\n        System.out.println(\"--- Receipt from \" + getProviderName() + \": \" + amount + \" ---\");\n    }\n}\n\nclass CreditCardPayment implements PaymentGateway {\n    public void processPayment(double amount) {\n        double fee = amount * 0.02;\n        System.out.println(\"Processing \" + amount + \" via Credit Card (2% fee)\");\n        receipt(amount + fee);\n    }\n    public String getProviderName() { return \"Credit Card\"; }\n}\n\nclass UPIPayment implements PaymentGateway {\n    public void processPayment(double amount) {\n        System.out.println(\"Processing \" + amount + \" via UPI (no fee)\");\n        receipt(amount);\n    }\n    public String getProviderName() { return \"UPI\"; }\n}\n\nclass WalletPayment implements PaymentGateway {\n    public void processPayment(double amount) {\n        System.out.println(\"Processing \" + amount + \" via Digital Wallet\");\n        receipt(amount);\n    }\n    public String getProviderName() { return \"Digital Wallet\"; }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        PaymentGateway[] gateways = { new CreditCardPayment(), new UPIPayment(), new WalletPayment() };\n        for (PaymentGateway pg : gateways) {\n            pg.processPayment(2500.0);\n        }\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Functional Interface Calculator",
+        "difficulty": "Medium",
+        "description": "Create a @FunctionalInterface called Operation with method int apply(int a, int b). Use lambda expressions to create add, subtract, multiply, divide, and modulus operations. Write a method compute(int a, int b, Operation op) that applies the operation and prints the result.",
+        "sampleInput": "a=10, b=3",
+        "sampleOutput": "Add: 13\nSubtract: 7\nMultiply: 30\nDivide: 3\nModulus: 1",
+        "constraints": "Use @FunctionalInterface and lambda expressions.",
+        "solution": "@FunctionalInterface\ninterface Operation {\n    int apply(int a, int b);\n}\n\npublic class Main {\n    static void compute(String label, int a, int b, Operation op) {\n        System.out.println(label + \": \" + op.apply(a, b));\n    }\n    public static void main(String[] args) {\n        compute(\"Add\", 10, 3, (a, b) -> a + b);\n        compute(\"Subtract\", 10, 3, (a, b) -> a - b);\n        compute(\"Multiply\", 10, 3, (a, b) -> a * b);\n        compute(\"Divide\", 10, 3, (a, b) -> a / b);\n        compute(\"Modulus\", 10, 3, (a, b) -> a % b);\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Database Abstraction Layer",
+        "difficulty": "Hard",
+        "description": "Create an abstract class Database with abstract methods connect(), disconnect(), and query(String sql). Add a concrete method executeAndClose(String sql) that calls connect, query, and disconnect in sequence. Implement MySQLDatabase and MongoDBDatabase. Test with the abstract reference.",
+        "sampleInput": "SQL: SELECT * FROM users",
+        "sampleOutput": "Connecting to MySQL on port 3306\nMySQL executing: SELECT * FROM users\nDisconnecting from MySQL\n---\nConnecting to MongoDB on port 27017\nMongoDB executing: SELECT * FROM users\nDisconnecting from MongoDB",
+        "constraints": "Use abstract class with Template Method pattern.",
+        "solution": "abstract class Database {\n    abstract void connect();\n    abstract void disconnect();\n    abstract void query(String sql);\n    \n    void executeAndClose(String sql) {\n        connect();\n        query(sql);\n        disconnect();\n    }\n}\n\nclass MySQLDatabase extends Database {\n    void connect() { System.out.println(\"Connecting to MySQL on port 3306\"); }\n    void disconnect() { System.out.println(\"Disconnecting from MySQL\"); }\n    void query(String sql) { System.out.println(\"MySQL executing: \" + sql); }\n}\n\nclass MongoDBDatabase extends Database {\n    void connect() { System.out.println(\"Connecting to MongoDB on port 27017\"); }\n    void disconnect() { System.out.println(\"Disconnecting from MongoDB\"); }\n    void query(String sql) { System.out.println(\"MongoDB executing: \" + sql); }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Database[] dbs = { new MySQLDatabase(), new MongoDBDatabase() };\n        for (Database db : dbs) {\n            db.executeAndClose(\"SELECT * FROM users\");\n            System.out.println(\"---\");\n        }\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Multi-Interface Robot",
+        "difficulty": "Hard",
+        "description": "Create interfaces Walkable (walk()), Talkable (talk()), and Flyable (fly()). Create classes: HumanoidRobot (implements Walkable, Talkable), DroneRobot (implements Flyable), and AdvancedRobot (implements all three). Write a method that accepts Object and uses instanceof to call appropriate methods.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "HumanoidRobot: Walking... Talking...\nDroneRobot: Flying...\nAdvancedRobot: Walking... Talking... Flying...",
+        "constraints": "Use instanceof for runtime type checking. Demonstrate multiple interface implementation.",
+        "solution": "interface Walkable { void walk(); }\ninterface Talkable { void talk(); }\ninterface Flyable { void fly(); }\n\nclass HumanoidRobot implements Walkable, Talkable {\n    public void walk() { System.out.print(\"Walking... \"); }\n    public void talk() { System.out.print(\"Talking... \"); }\n}\n\nclass DroneRobot implements Flyable {\n    public void fly() { System.out.print(\"Flying... \"); }\n}\n\nclass AdvancedRobot implements Walkable, Talkable, Flyable {\n    public void walk() { System.out.print(\"Walking... \"); }\n    public void talk() { System.out.print(\"Talking... \"); }\n    public void fly() { System.out.print(\"Flying... \"); }\n}\n\npublic class Main {\n    static void demonstrate(Object robot, String label) {\n        System.out.print(label + \": \");\n        if (robot instanceof Walkable) ((Walkable) robot).walk();\n        if (robot instanceof Talkable) ((Talkable) robot).talk();\n        if (robot instanceof Flyable) ((Flyable) robot).fly();\n        System.out.println();\n    }\n    public static void main(String[] args) {\n        demonstrate(new HumanoidRobot(), \"HumanoidRobot\");\n        demonstrate(new DroneRobot(), \"DroneRobot\");\n        demonstrate(new AdvancedRobot(), \"AdvancedRobot\");\n    }\n}"
+      }
+    ]
+  }
+}

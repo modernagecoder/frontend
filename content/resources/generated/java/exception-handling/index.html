@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exception Handling in Java - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Handle errors with try-catch-finally, checked vs unchecked exceptions, throw, throws, and custom exceptions.">
+    <meta name="keywords" content="exception handling in java, java tutorial, java exception handling in java, learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/exception-handling">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/exception-handling">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/exception-handling">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/exception-handling">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/exception-handling">
+    <meta property="og:title" content="Exception Handling in Java - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Handle errors with try-catch-finally, checked vs unchecked exceptions, throw, throws, and custom exceptions.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/exception-handling">
+    <meta name="twitter:title" content="Exception Handling in Java - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Handle errors with try-catch-finally, checked vs unchecked exceptions, throw, throws, and custom exceptions.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Exception Handling in Java",
+    "description": "Handle errors with try-catch-finally, checked vs unchecked exceptions, throw, throws, and custom exceptions.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/exception-handling"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/exception-handling"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Exception Handling in Java",
+        "item": "https://learn.modernagecoders.com/resources/java/exception-handling"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Catching Exception Before Specific Exceptions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Catch blocks are checked top to bottom. Since <code>Exception</code> is the parent of <code>ArrayIndexOutOfBoundsException</code>, it catches everything, making the specific block unreachable. Always put specific exceptions before general ones."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Ignoring the Exception (Empty catch Block)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Swallowing exceptions silently is one of the worst practices in Java. At minimum, log the exception or print a message. Empty catch blocks hide failures and make debugging a nightmare."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing throw and throws",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>throw</code> (no 's') is used inside a method to throw an exception object. <code>throws</code> (with 's') is used in the method signature to declare which exceptions the method might throw. They serve different purposes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Handling Checked Exceptions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Checked exceptions MUST be handled (try-catch) or declared (throws). The compiler enforces this. <code>FileNotFoundException</code> is a checked exception because file absence is a predictable condition the programmer should anticipate."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Relying on finally for Return Values",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Never use <code>return</code> inside a <code>finally</code> block. It overrides any return value from the try or catch block, making the behavior confusing and hard to debug. Use finally only for cleanup (closing resources, releasing locks)."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Exception Handling in Java</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 18</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">45 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-08</span>
+            </div>
+            <h1 class="resource-title">Exception Handling in Java</h1>
+            <a href="/resources/java/exception-handling/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Exception Handling in Java?</h2><p>An <strong>exception</strong> is an event that disrupts the normal flow of a program during execution. When something goes wrong (dividing by zero, accessing a null reference, reading a missing file), Java creates an exception object and "throws" it. If unhandled, the program crashes.</p><p><strong>Exception handling</strong> is the mechanism to detect, catch, and recover from these exceptional situations gracefully, without crashing.</p><pre><code>// Without exception handling: program crashes
+int result = 10 / 0;  // ArithmeticException: / by zero
+
+// With exception handling: program continues
+try {
+    int result = 10 / 0;
+} catch (ArithmeticException e) {
+    System.out.println("Cannot divide by zero: " + e.getMessage());
+}
+System.out.println("Program continues normally");</code></pre><h3>The Throwable Hierarchy</h3><p>All exceptions and errors in Java inherit from <code>Throwable</code>:</p><pre><code>java.lang.Object
+  └── java.lang.Throwable
+        ├── java.lang.Error            (serious, not recoverable)
+        │     ├── OutOfMemoryError
+        │     ├── StackOverflowError
+        │     └── VirtualMachineError
+        └── java.lang.Exception        (recoverable)
+              ├── IOException           (checked)
+              ├── SQLException          (checked)
+              ├── ClassNotFoundException (checked)
+              └── RuntimeException      (unchecked)
+                    ├── NullPointerException
+                    ├── ArithmeticException
+                    ├── ArrayIndexOutOfBoundsException
+                    ├── ClassCastException
+                    └── NumberFormatException</code></pre><p><strong>Error</strong>: Serious problems that applications should not try to handle (JVM running out of memory, stack overflow). <strong>Exception</strong>: Problems that applications can and should handle.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Does Exception Handling Matter?</h2><p>Exception handling is not optional in production Java code. Every real-world application encounters exceptional situations, and how you handle them determines the reliability and user experience of your software.</p><h3>1. Preventing Crashes</h3><p>Without exception handling, a single null pointer or file-not-found condition crashes the entire application. When Arjun writes a web server, one bad request should not bring down the whole server. Exception handling isolates failures.</p><h3>2. Separating Error Handling from Business Logic</h3><p>Without exceptions, every method would return error codes, and the caller would need to check them constantly. Exceptions separate the "happy path" (normal logic) from the "error path" (error handling), making both cleaner.</p><h3>3. Meaningful Error Messages</h3><p>Exceptions carry information: the type of error, a message, and a stack trace showing exactly where the error occurred. This is invaluable for debugging. When Kavya sees <code>NullPointerException at UserService.java:42</code>, she knows exactly where to look.</p><h3>4. Resource Management</h3><p><code>try-with-resources</code> ensures that files, database connections, and network sockets are properly closed even when exceptions occur. Without it, resource leaks are a common source of bugs in long-running applications.</p><h3>5. Checked Exceptions Enforce Handling</h3><p>Java's checked exception mechanism forces developers to acknowledge and handle potential failures at compile time. When Ravi calls <code>new FileInputStream("data.txt")</code>, the compiler forces him to handle <code>FileNotFoundException</code>. This catches many bugs before the code even runs.</p><h3>6. Interview Importance</h3><p>Exception handling questions are standard in every Java interview. Checked vs unchecked, try-with-resources, exception propagation, and custom exceptions are all heavily tested in campus placements.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. try-catch Block</h3><p>The <code>try</code> block contains code that might throw an exception. The <code>catch</code> block handles it:</p><pre><code>try {
+    int[] arr = {1, 2, 3};
+    System.out.println(arr[5]);  // ArrayIndexOutOfBoundsException
+} catch (ArrayIndexOutOfBoundsException e) {
+    System.out.println("Index out of range: " + e.getMessage());
+}
+// Output: Index out of range: Index 5 out of bounds for length 3</code></pre><p>If no exception occurs, the catch block is skipped. If an exception occurs, execution jumps to the matching catch block.</p><h3>2. Multiple catch Blocks</h3><p>You can have multiple catch blocks for different exception types. They are checked top to bottom:</p><pre><code>try {
+    String s = null;
+    System.out.println(s.length());  // NullPointerException
+} catch (NullPointerException e) {
+    System.out.println("Null reference: " + e.getMessage());
+} catch (ArrayIndexOutOfBoundsException e) {
+    System.out.println("Array index error: " + e.getMessage());
+} catch (Exception e) {
+    System.out.println("General error: " + e.getMessage());
+}</code></pre><p>Important: Catch more specific exceptions first. Putting <code>Exception</code> (the parent) first would catch everything, making the more specific blocks unreachable (compilation error).</p><h3>3. Multi-catch (Java 7)</h3><p>Java 7 introduced multi-catch to handle multiple unrelated exceptions in one catch block:</p><pre><code>try {
+    // Some code that might throw multiple exceptions
+    int result = Integer.parseInt("abc");  // NumberFormatException
+} catch (NumberFormatException | ArithmeticException e) {
+    System.out.println("Error: " + e.getMessage());
+}</code></pre><p>The exception types in a multi-catch must not have a parent-child relationship (e.g., you cannot write <code>catch (Exception | IOException e)</code> because <code>IOException</code> is a subclass of <code>Exception</code>).</p><h3>4. The finally Block</h3><p><code>finally</code> always executes, whether an exception occurred or not. It is used for cleanup code:</p><pre><code>try {
+    System.out.println("Try block");
+    int result = 10 / 0;
+} catch (ArithmeticException e) {
+    System.out.println("Catch block");
+} finally {
+    System.out.println("Finally block (always runs)");
+}
+// Output:
+// Try block
+// Catch block
+// Finally block (always runs)</code></pre><p><code>finally</code> runs even if there is a <code>return</code> statement in the try or catch block. The only exceptions: <code>System.exit()</code> or JVM crash.</p><h3>5. try-with-resources (Java 7)</h3><p>Resources implementing <code>AutoCloseable</code> are automatically closed when the try block exits:</p><pre><code>// Old way (verbose)
+BufferedReader reader = null;
+try {
+    reader = new BufferedReader(new FileReader("data.txt"));
+    String line = reader.readLine();
+    System.out.println(line);
+} catch (IOException e) {
+    System.out.println("Error: " + e.getMessage());
+} finally {
+    if (reader != null) {
+        try { reader.close(); } catch (IOException e) { }
+    }
+}
+
+// New way (try-with-resources)
+try (BufferedReader reader = new BufferedReader(new FileReader("data.txt"))) {
+    String line = reader.readLine();
+    System.out.println(line);
+} catch (IOException e) {
+    System.out.println("Error: " + e.getMessage());
+}
+// reader is automatically closed, even if an exception occurs</code></pre><h3>6. Checked vs Unchecked Exceptions</h3><p><strong>Checked exceptions</strong> must be either caught or declared with <code>throws</code>. The compiler enforces this. They represent recoverable conditions that the programmer should anticipate.</p><ul><li><code>IOException</code>, <code>FileNotFoundException</code>, <code>SQLException</code>, <code>ClassNotFoundException</code></li></ul><p><strong>Unchecked exceptions</strong> (subclasses of <code>RuntimeException</code>) do not need to be caught or declared. They typically represent programming errors.</p><ul><li><code>NullPointerException</code>, <code>ArithmeticException</code>, <code>ArrayIndexOutOfBoundsException</code>, <code>ClassCastException</code>, <code>NumberFormatException</code>, <code>IllegalArgumentException</code></li></ul><pre><code>// Checked: compiler forces handling
+try {
+    FileInputStream fis = new FileInputStream("data.txt");  // Checked
+} catch (FileNotFoundException e) {
+    System.out.println("File not found");
+}
+
+// Unchecked: compiler does NOT force handling
+int x = Integer.parseInt("abc");  // NumberFormatException (unchecked)
+// This compiles even without try-catch</code></pre><h3>7. throw Keyword</h3><p><code>throw</code> explicitly throws an exception object:</p><pre><code>void setAge(int age) {
+    if (age < 0 || age > 150) {
+        throw new IllegalArgumentException("Invalid age: " + age);
+    }
+    this.age = age;
+}</code></pre><h3>8. throws Keyword</h3><p><code>throws</code> declares that a method might throw certain exceptions, pushing the handling responsibility to the caller:</p><pre><code>void readFile(String path) throws IOException {
+    BufferedReader reader = new BufferedReader(new FileReader(path));
+    System.out.println(reader.readLine());
+    reader.close();
+}
+
+// Caller must handle or declare
+try {
+    readFile("data.txt");
+} catch (IOException e) {
+    System.out.println("Could not read file: " + e.getMessage());
+}</code></pre><h3>9. Custom Exceptions</h3><p>Create custom exceptions by extending <code>Exception</code> (checked) or <code>RuntimeException</code> (unchecked):</p><pre><code>// Checked custom exception
+class InsufficientFundsException extends Exception {
+    private double deficit;
+    
+    InsufficientFundsException(double deficit) {
+        super("Insufficient funds. Deficit: " + deficit);
+        this.deficit = deficit;
+    }
+    
+    double getDeficit() { return deficit; }
+}
+
+// Usage
+void withdraw(double amount) throws InsufficientFundsException {
+    if (amount > balance) {
+        throw new InsufficientFundsException(amount - balance);
+    }
+    balance -= amount;
+}</code></pre><h3>10. Exception Propagation</h3><p>If a method does not handle an exception, it propagates up the call stack to the calling method:</p><pre><code>void methodC() {
+    int result = 10 / 0;  // ArithmeticException thrown here
+}
+
+void methodB() {
+    methodC();  // Exception propagates here (not caught)
+}
+
+void methodA() {
+    try {
+        methodB();  // Exception caught here
+    } catch (ArithmeticException e) {
+        System.out.println("Caught in methodA: " + e.getMessage());
+    }
+}</code></pre><p>The exception travels from methodC -> methodB -> methodA until it finds a matching catch block. If no method catches it, the JVM terminates the program and prints the stack trace.</p><h3>11. Common Exceptions</h3><table><tr><th>Exception</th><th>When It Occurs</th></tr><tr><td>NullPointerException</td><td>Calling a method or accessing a field on a null reference</td></tr><tr><td>ArrayIndexOutOfBoundsException</td><td>Accessing an array with an invalid index</td></tr><tr><td>ArithmeticException</td><td>Division by zero (integer)</td></tr><tr><td>ClassCastException</td><td>Invalid type casting</td></tr><tr><td>NumberFormatException</td><td>Parsing a non-numeric string to a number</td></tr><tr><td>StackOverflowError</td><td>Infinite recursion</td></tr><tr><td>IOException</td><td>I/O operation failure (file, network)</td></tr><tr><td>FileNotFoundException</td><td>Specified file does not exist</td></tr></table>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Basic try-catch with Multiple Exceptions</div><pre><code class="language-python">public class Main {
+    public static void main(String[] args) {
+        // Example 1: ArithmeticException
+        try {
+            int result = 10 / 0;
+        } catch (ArithmeticException e) {
+            System.out.println(&quot;Math error: &quot; + e.getMessage());
+        }
+
+        // Example 2: NullPointerException
+        try {
+            String s = null;
+            System.out.println(s.length());
+        } catch (NullPointerException e) {
+            System.out.println(&quot;Null error: &quot; + e.getMessage());
+        }
+
+        // Example 3: ArrayIndexOutOfBoundsException
+        try {
+            int[] arr = {1, 2, 3};
+            System.out.println(arr[10]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println(&quot;Array error: &quot; + e.getMessage());
+        }
+
+        // Example 4: NumberFormatException
+        try {
+            int num = Integer.parseInt(&quot;abc&quot;);
+        } catch (NumberFormatException e) {
+            System.out.println(&quot;Parse error: &quot; + e.getMessage());
+        }
+
+        System.out.println(&quot;Program continues normally&quot;);
+    }
+}</code></pre><div class="code-example-explanation">Each try-catch block handles a specific exception type. The program does not crash on any exception; it prints an error message and continues. The <code>getMessage()</code> method returns the exception's detail message.</div><div class="code-example-output">Math error: / by zero
+Null error: Cannot invoke &quot;String.length()&quot; because &quot;s&quot; is null
+Array error: Index 10 out of bounds for length 3
+Parse error: For input string: &quot;abc&quot;
+Program continues normally</div></div>
+<div class="code-example"><div class="code-example-title">Multiple catch Blocks and finally</div><pre><code class="language-python">public class Main {
+    static void process(String input) {
+        try {
+            System.out.println(&quot;Processing: &quot; + input);
+            int num = Integer.parseInt(input);
+            int result = 100 / num;
+            System.out.println(&quot;Result: &quot; + result);
+        } catch (NumberFormatException e) {
+            System.out.println(&quot;Not a valid number: &quot; + input);
+        } catch (ArithmeticException e) {
+            System.out.println(&quot;Division by zero&quot;);
+        } finally {
+            System.out.println(&quot;Cleanup done for: &quot; + input);
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        process(&quot;10&quot;);    // Normal
+        process(&quot;abc&quot;);   // NumberFormatException
+        process(&quot;0&quot;);     // ArithmeticException
+    }
+}</code></pre><div class="code-example-explanation">Multiple catch blocks handle different exception types. The <code>finally</code> block always runs, regardless of whether an exception occurred. The order matters: catch more specific exceptions first.</div><div class="code-example-output">Processing: 10
+Result: 10
+Cleanup done for: 10
+
+Processing: abc
+Not a valid number: abc
+Cleanup done for: abc
+
+Processing: 0
+Division by zero
+Cleanup done for: 0</div></div>
+<div class="code-example"><div class="code-example-title">try-with-resources (AutoCloseable)</div><pre><code class="language-python">class DatabaseConnection implements AutoCloseable {
+    String name;
+
+    DatabaseConnection(String name) {
+        this.name = name;
+        System.out.println(name + &quot;: Connection opened&quot;);
+    }
+
+    void query(String sql) {
+        System.out.println(name + &quot;: Executing &quot; + sql);
+    }
+
+    @Override
+    public void close() {
+        System.out.println(name + &quot;: Connection closed&quot;);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // Single resource
+        try (DatabaseConnection db = new DatabaseConnection(&quot;MySQL&quot;)) {
+            db.query(&quot;SELECT * FROM users&quot;);
+        }
+
+        System.out.println();
+
+        // Multiple resources
+        try (
+            DatabaseConnection db1 = new DatabaseConnection(&quot;Postgres&quot;);
+            DatabaseConnection db2 = new DatabaseConnection(&quot;Redis&quot;)
+        ) {
+            db1.query(&quot;SELECT * FROM orders&quot;);
+            db2.query(&quot;GET session:123&quot;);
+        }
+
+        System.out.println();
+
+        // Resource closed even on exception
+        try (DatabaseConnection db = new DatabaseConnection(&quot;MongoDB&quot;)) {
+            db.query(&quot;db.users.find()&quot;);
+            throw new RuntimeException(&quot;Simulated error&quot;);
+        } catch (RuntimeException e) {
+            System.out.println(&quot;Caught: &quot; + e.getMessage());
+        }
+    }
+}</code></pre><div class="code-example-explanation">Objects implementing <code>AutoCloseable</code> are automatically closed when the try block finishes. Resources are closed in reverse order of creation. Closing happens even when exceptions occur, eliminating resource leaks.</div><div class="code-example-output">MySQL: Connection opened
+MySQL: Executing SELECT * FROM users
+MySQL: Connection closed
+
+Postgres: Connection opened
+Redis: Connection opened
+Postgres: Executing SELECT * FROM orders
+Redis: Executing GET session:123
+Redis: Connection closed
+Postgres: Connection closed
+
+MongoDB: Connection opened
+MongoDB: Executing db.users.find()
+MongoDB: Connection closed
+Caught: Simulated error</div></div>
+<div class="code-example"><div class="code-example-title">throw and throws Keywords</div><pre><code class="language-python">class Validator {
+    static void validateAge(int age) {
+        if (age &lt; 0) {
+            throw new IllegalArgumentException(&quot;Age cannot be negative: &quot; + age);
+        }
+        if (age &gt; 150) {
+            throw new IllegalArgumentException(&quot;Age unrealistic: &quot; + age);
+        }
+        System.out.println(&quot;Valid age: &quot; + age);
+    }
+
+    static void validateEmail(String email) throws Exception {
+        if (email == null || email.isEmpty()) {
+            throw new Exception(&quot;Email cannot be empty&quot;);
+        }
+        if (!email.contains(&quot;@&quot;)) {
+            throw new Exception(&quot;Invalid email format: &quot; + email);
+        }
+        System.out.println(&quot;Valid email: &quot; + email);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // throw with unchecked exception (no try-catch required by compiler)
+        try {
+            Validator.validateAge(25);
+            Validator.validateAge(-5);
+        } catch (IllegalArgumentException e) {
+            System.out.println(&quot;Error: &quot; + e.getMessage());
+        }
+
+        System.out.println();
+
+        // throws with checked exception (must handle or declare)
+        try {
+            Validator.validateEmail(&quot;arjun@mail.com&quot;);
+            Validator.validateEmail(&quot;invalid-email&quot;);
+        } catch (Exception e) {
+            System.out.println(&quot;Error: &quot; + e.getMessage());
+        }
+    }
+}</code></pre><div class="code-example-explanation"><code>throw</code> creates and throws an exception object. <code>throws</code> in the method signature declares that the method might throw a checked exception, forcing the caller to handle it. Unchecked exceptions (<code>IllegalArgumentException</code>) do not require <code>throws</code>.</div><div class="code-example-output">Valid age: 25
+Error: Age cannot be negative: -5
+
+Valid email: arjun@mail.com
+Error: Invalid email format: invalid-email</div></div>
+<div class="code-example"><div class="code-example-title">Custom Exceptions</div><pre><code class="language-python">class InsufficientBalanceException extends Exception {
+    private double deficit;
+
+    InsufficientBalanceException(double deficit) {
+        super(&quot;Insufficient balance. Need &quot; + deficit + &quot; more.&quot;);
+        this.deficit = deficit;
+    }
+
+    double getDeficit() { return deficit; }
+}
+
+class BankAccount {
+    String holder;
+    double balance;
+
+    BankAccount(String holder, double balance) {
+        this.holder = holder;
+        this.balance = balance;
+    }
+
+    void withdraw(double amount) throws InsufficientBalanceException {
+        if (amount &gt; balance) {
+            throw new InsufficientBalanceException(amount - balance);
+        }
+        balance -= amount;
+        System.out.println(holder + &quot; withdrew &quot; + amount + &quot;. Balance: &quot; + balance);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        BankAccount account = new BankAccount(&quot;Arjun&quot;, 5000);
+
+        try {
+            account.withdraw(2000);
+            account.withdraw(4000);  // This will fail
+        } catch (InsufficientBalanceException e) {
+            System.out.println(&quot;Transaction failed: &quot; + e.getMessage());
+            System.out.println(&quot;Deficit: &quot; + e.getDeficit());
+        }
+    }
+}</code></pre><div class="code-example-explanation"><code>InsufficientBalanceException</code> extends <code>Exception</code> (checked). It carries extra data (<code>deficit</code>). The <code>withdraw</code> method throws it when the balance is insufficient. The caller must handle it with try-catch or declare <code>throws</code>.</div><div class="code-example-output">Arjun withdrew 2000.0. Balance: 3000.0
+Transaction failed: Insufficient balance. Need 1000.0 more.
+Deficit: 1000.0</div></div>
+<div class="code-example"><div class="code-example-title">Exception Propagation</div><pre><code class="language-python">public class Main {
+    static void methodC() {
+        System.out.println(&quot;Entering methodC&quot;);
+        int result = 10 / 0;  // Exception thrown here
+        System.out.println(&quot;Exiting methodC&quot;);  // Never reached
+    }
+
+    static void methodB() {
+        System.out.println(&quot;Entering methodB&quot;);
+        methodC();  // Exception propagates through here
+        System.out.println(&quot;Exiting methodB&quot;);  // Never reached
+    }
+
+    static void methodA() {
+        System.out.println(&quot;Entering methodA&quot;);
+        try {
+            methodB();  // Exception caught here
+        } catch (ArithmeticException e) {
+            System.out.println(&quot;Caught in methodA: &quot; + e.getMessage());
+        }
+        System.out.println(&quot;Exiting methodA&quot;);
+    }
+
+    public static void main(String[] args) {
+        methodA();
+        System.out.println(&quot;Program completed&quot;);
+    }
+}</code></pre><div class="code-example-explanation">The exception thrown in <code>methodC</code> propagates through <code>methodB</code> (which does not catch it) to <code>methodA</code> (which does). Code after the exception in <code>methodC</code> and <code>methodB</code> is never reached. <code>methodA</code> catches it and continues.</div><div class="code-example-output">Entering methodA
+Entering methodB
+Entering methodC
+Caught in methodA: / by zero
+Exiting methodA
+Program completed</div></div>
+<div class="code-example"><div class="code-example-title">Multi-catch and Checked vs Unchecked</div><pre><code class="language-python">import java.io.IOException;
+
+public class Main {
+    // Method with checked exception
+    static void riskyIO() throws IOException {
+        throw new IOException(&quot;Disk read failure&quot;);
+    }
+
+    public static void main(String[] args) {
+        // Multi-catch (Java 7+)
+        String[] inputs = {&quot;10&quot;, &quot;abc&quot;, &quot;0&quot;};
+        for (String input : inputs) {
+            try {
+                int num = Integer.parseInt(input);
+                int result = 100 / num;
+                System.out.println(input + &quot; -&gt; &quot; + result);
+            } catch (NumberFormatException | ArithmeticException e) {
+                System.out.println(input + &quot; -&gt; Error: &quot; + e.getClass().getSimpleName() + &quot;: &quot; + e.getMessage());
+            }
+        }
+
+        System.out.println();
+
+        // Checked exception must be caught or declared
+        try {
+            riskyIO();
+        } catch (IOException e) {
+            System.out.println(&quot;IO Error: &quot; + e.getMessage());
+        }
+    }
+}</code></pre><div class="code-example-explanation">Multi-catch uses <code>|</code> to handle multiple exception types in one block. The checked <code>IOException</code> must be caught (or the method must declare <code>throws IOException</code>). <code>getClass().getSimpleName()</code> shows the exception class name.</div><div class="code-example-output">10 -&gt; 10
+abc -&gt; Error: NumberFormatException: For input string: &quot;abc&quot;
+0 -&gt; Error: ArithmeticException: / by zero
+
+IO Error: Disk read failure</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Catching Exception Before Specific Exceptions</h3>
+                <div class="wrong-code"><pre><code class="language-python">try {
+    int[] arr = new int[3];
+    arr[5] = 10;
+} catch (Exception e) {
+    System.out.println(&quot;General error&quot;);
+} catch (ArrayIndexOutOfBoundsException e) {  // Unreachable!
+    System.out.println(&quot;Array error&quot;);
+}</code></pre></div><div class="error-message">Compilation error: exception ArrayIndexOutOfBoundsException has already been caught.</div><div class="correct-code"><pre><code class="language-python">try {
+    int[] arr = new int[3];
+    arr[5] = 10;
+} catch (ArrayIndexOutOfBoundsException e) {
+    System.out.println(&quot;Array error&quot;);
+} catch (Exception e) {
+    System.out.println(&quot;General error&quot;);
+}</code></pre></div><div class="mistake-explanation">Catch blocks are checked top to bottom. Since <code>Exception</code> is the parent of <code>ArrayIndexOutOfBoundsException</code>, it catches everything, making the specific block unreachable. Always put specific exceptions before general ones.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Ignoring the Exception (Empty catch Block)</h3>
+                <div class="wrong-code"><pre><code class="language-python">try {
+    int result = Integer.parseInt(&quot;abc&quot;);
+} catch (NumberFormatException e) {
+    // Empty catch block - exception is silently swallowed
+}
+System.out.println(&quot;Everything is fine&quot;);  // Is it though?</code></pre></div><div class="error-message">No compilation error, but the exception is silently ignored. This hides bugs and makes debugging extremely difficult.</div><div class="correct-code"><pre><code class="language-python">try {
+    int result = Integer.parseInt(&quot;abc&quot;);
+} catch (NumberFormatException e) {
+    System.out.println(&quot;Invalid number format: &quot; + e.getMessage());
+    // Or: log the error, rethrow, provide a default value, etc.
+}</code></pre></div><div class="mistake-explanation">Swallowing exceptions silently is one of the worst practices in Java. At minimum, log the exception or print a message. Empty catch blocks hide failures and make debugging a nightmare.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing throw and throws</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Incorrect: using throw in method signature
+void readFile(String path) throw IOException {
+    // ...
+}
+
+// Incorrect: using throws inside method body
+void validate(int age) {
+    if (age &lt; 0) {
+        throws new IllegalArgumentException(&quot;Negative age&quot;);
+    }
+}</code></pre></div><div class="error-message">Compilation error in both cases. Wrong keyword used.</div><div class="correct-code"><pre><code class="language-python">// throws: in method signature (declares potential exceptions)
+void readFile(String path) throws IOException {
+    // ...
+}
+
+// throw: inside method body (creates and throws an exception)
+void validate(int age) {
+    if (age &lt; 0) {
+        throw new IllegalArgumentException(&quot;Negative age&quot;);
+    }
+}</code></pre></div><div class="mistake-explanation"><code>throw</code> (no 's') is used inside a method to throw an exception object. <code>throws</code> (with 's') is used in the method signature to declare which exceptions the method might throw. They serve different purposes.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Handling Checked Exceptions</h3>
+                <div class="wrong-code"><pre><code class="language-python">import java.io.FileInputStream;
+
+public class Main {
+    public static void main(String[] args) {
+        FileInputStream fis = new FileInputStream(&quot;data.txt&quot;);
+        // Compilation error: unhandled exception FileNotFoundException
+    }
+}</code></pre></div><div class="error-message">Compilation error: unreported exception FileNotFoundException; must be caught or declared to be thrown.</div><div class="correct-code"><pre><code class="language-python">import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class Main {
+    public static void main(String[] args) {
+        try {
+            FileInputStream fis = new FileInputStream(&quot;data.txt&quot;);
+        } catch (FileNotFoundException e) {
+            System.out.println(&quot;File not found: &quot; + e.getMessage());
+        }
+    }
+}</code></pre></div><div class="mistake-explanation">Checked exceptions MUST be handled (try-catch) or declared (throws). The compiler enforces this. <code>FileNotFoundException</code> is a checked exception because file absence is a predictable condition the programmer should anticipate.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Relying on finally for Return Values</h3>
+                <div class="wrong-code"><pre><code class="language-python">static int getValue() {
+    try {
+        return 1;
+    } finally {
+        return 2;  // This overrides the try&#39;s return!
+    }
+}
+// getValue() returns 2, not 1. Very confusing!</code></pre></div><div class="error-message">No compilation error, but the finally block&#39;s return overrides the try block&#39;s return. This is counterintuitive and bug-prone.</div><div class="correct-code"><pre><code class="language-python">static int getValue() {
+    int result;
+    try {
+        result = 1;
+    } finally {
+        // Cleanup code here, but do NOT return from finally
+        System.out.println(&quot;Cleanup done&quot;);
+    }
+    return result;
+}</code></pre></div><div class="mistake-explanation">Never use <code>return</code> inside a <code>finally</code> block. It overrides any return value from the try or catch block, making the behavior confusing and hard to debug. Use finally only for cleanup (closing resources, releasing locks).</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>An exception is an event that disrupts normal program flow. Exception handling uses try-catch to detect and recover from errors gracefully.</li>
+<li>The Throwable hierarchy: Throwable is the root. Error (serious, non-recoverable) and Exception (recoverable) are the two branches. RuntimeException is the unchecked exception branch.</li>
+<li>Checked exceptions (IOException, SQLException) must be caught or declared with throws. The compiler enforces this. They represent anticipated, recoverable conditions.</li>
+<li>Unchecked exceptions (NullPointerException, ArithmeticException) extend RuntimeException. The compiler does not force handling. They typically represent programming errors.</li>
+<li>Multiple catch blocks handle different exception types. More specific exceptions must come before more general ones. Multi-catch (Java 7) uses | to combine types.</li>
+<li>The finally block always executes (whether or not an exception occurred). Use it for cleanup. Do not put return statements in finally.</li>
+<li>try-with-resources (Java 7) automatically closes AutoCloseable resources when the try block exits, even if an exception occurs. Prefer this over manual finally cleanup.</li>
+<li>throw creates and throws an exception object. throws (in method signature) declares that a method might throw checked exceptions, forcing the caller to handle them.</li>
+<li>Custom exceptions extend Exception (checked) or RuntimeException (unchecked). Add extra fields and methods for domain-specific error information.</li>
+<li>Exception propagation: if a method does not catch an exception, it travels up the call stack until a matching catch block is found or the JVM terminates.</li>
+<li>Common exceptions: NullPointerException (null reference), ArrayIndexOutOfBoundsException (bad index), ClassCastException (invalid cast), NumberFormatException (bad parse), IOException (I/O failure).</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/abstraction-and-interfaces" class="related-topic-link">Abstraction - Abstract Classes and Interfaces</a>
+<a href="/resources/java/collections-framework" class="related-topic-link">Collections Framework - List, Set, Map</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/java/abstraction-and-interfaces" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Abstraction - Abstract Classes and Interfaces</span>
+        </a>
+            <a href="/resources/java/collections-framework" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Collections Framework - List, Set, Map</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/exception-handling/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

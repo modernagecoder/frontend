@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators in Java - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn arithmetic, relational, logical, bitwise, assignment, and ternary operators with operator precedence.">
+    <meta name="keywords" content="operators in java, java tutorial, java operators in java, learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/operators-in-java">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/operators-in-java">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/operators-in-java">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/operators-in-java">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/operators-in-java">
+    <meta property="og:title" content="Operators in Java - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Learn arithmetic, relational, logical, bitwise, assignment, and ternary operators with operator precedence.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/operators-in-java">
+    <meta name="twitter:title" content="Operators in Java - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Learn arithmetic, relational, logical, bitwise, assignment, and ternary operators with operator precedence.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Operators in Java",
+    "description": "Learn arithmetic, relational, logical, bitwise, assignment, and ternary operators with operator precedence.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-07",
+    "dateModified": "2026-04-07",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/operators-in-java"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/operators-in-java"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Operators in Java",
+        "item": "https://learn.modernagecoders.com/resources/java/operators-in-java"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Integer Division Surprise",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In <code>total / subjects</code>, both operands are int, so Java performs integer division: <code>100 / 3 = 33</code> (truncated). This int result (33) is then widened to double (33.0) for assignment. The decimal part is already lost. To get a decimal result, cast at least one operand before division: <code>(double) total / subjects</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using == to Compare Strings",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>==</code> operator compares object references (memory addresses), not values. <code>new String(\"yes\")</code> creates a new object different from the string literal <code>\"yes\"</code>, so <code>==</code> returns false. Always use <code>.equals()</code> for String comparison. Writing <code>\"yes\".equals(input)</code> is even better because it is null-safe -- if input is null, it returns false instead of throwing NullPointerException."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing = with ==",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A single <code>=</code> is the assignment operator; <code>==</code> is the comparison operator. <code>x = 10</code> assigns 10 to x and returns the int value 10. Since Java's if statement requires a boolean (not an int like C/C++), this causes a type error. Java's strict typing actually protects you from this common C/C++ bug."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Short-Circuit vs Non-Short-Circuit Operators",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>&</code> operator (when used with booleans) evaluates BOTH operands regardless of the left result. Since name is null, <code>name.length()</code> throws NullPointerException. The <code>&&</code> operator short-circuits: if <code>name != null</code> is false, it does not evaluate <code>name.length()</code>. Always use <code>&&</code> and <code>||</code> for boolean logic unless you specifically need both sides evaluated."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Pre/Post Increment Confusion in Expressions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In <code>a++ + a++</code>: first <code>a++</code> returns 5 (then a becomes 6). Second <code>a++</code> returns 6 (then a becomes 7). So <code>b = 5 + 6 = 11</code>. Using multiple increments in a single expression makes code hard to read and predict. Best practice: use <code>++</code> only as standalone statements (<code>a++;</code>) and avoid embedding them in complex expressions."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Operators in Java</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 5</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">22 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-07</span>
+            </div>
+            <h1 class="resource-title">Operators in Java</h1>
+            <a href="/resources/java/operators-in-java/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Operators in Java?</h2><p>An <strong>operator</strong> is a symbol that tells the Java compiler to perform a specific mathematical, relational, logical, or bitwise operation on one or more <strong>operands</strong> (values or variables). Operators are the building blocks of every expression and computation in your programs.</p><p>In the expression <code>int sum = a + b;</code>, the <code>+</code> is the operator, <code>a</code> and <code>b</code> are operands, and <code>a + b</code> is the expression. Java provides a rich set of operators organized into the following categories: Arithmetic, Relational (Comparison), Logical, Bitwise, Assignment, Ternary (Conditional), and the <code>instanceof</code> operator.</p><p>Operators can be classified by the number of operands they take: <strong>unary</strong> operators work on one operand (e.g., <code>-x</code>, <code>!flag</code>, <code>i++</code>), <strong>binary</strong> operators work on two operands (e.g., <code>a + b</code>, <code>x > y</code>), and the <strong>ternary</strong> operator works on three operands (<code>condition ? valueIfTrue : valueIfFalse</code>).</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Operators Important?</h2><h3>1. Every Computation Uses Operators</h3><p>From calculating a student's percentage to determining loan EMIs, from checking eligibility conditions to manipulating individual bits in network protocols -- operators are everywhere. You cannot write a meaningful Java program without them.</p><h3>2. Operator Precedence Determines Correctness</h3><p>The expression <code>2 + 3 * 4</code> gives 14 (not 20) because multiplication has higher precedence than addition. Misunderstanding precedence leads to subtle bugs that are hard to find. Knowing the precedence rules -- or when to use parentheses -- is essential for writing correct programs.</p><h3>3. Short-Circuit Evaluation Matters for Safety</h3><p>Java's logical operators (<code>&&</code> and <code>||</code>) use short-circuit evaluation. Understanding this behavior lets you write safe code like <code>if (str != null && str.length() > 0)</code>, where the second condition is only evaluated if the first is true. Without short-circuit evaluation, this would throw a NullPointerException.</p><h3>4. Bitwise Operators Appear in Interviews</h3><p>Questions about bitwise operations (swapping without a temp variable, checking if a number is a power of 2, counting set bits) are standard in placement coding rounds. These operations are also used in systems programming, cryptography, and performance-critical code.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Arithmetic Operators</h3><p>Arithmetic operators perform mathematical calculations:</p><table><tr><th>Operator</th><th>Name</th><th>Example</th><th>Result</th></tr><tr><td><code>+</code></td><td>Addition</td><td><code>10 + 3</code></td><td><code>13</code></td></tr><tr><td><code>-</code></td><td>Subtraction</td><td><code>10 - 3</code></td><td><code>7</code></td></tr><tr><td><code>*</code></td><td>Multiplication</td><td><code>10 * 3</code></td><td><code>30</code></td></tr><tr><td><code>/</code></td><td>Division</td><td><code>10 / 3</code></td><td><code>3</code> (integer division!)</td></tr><tr><td><code>%</code></td><td>Modulus (remainder)</td><td><code>10 % 3</code></td><td><code>1</code></td></tr></table><h4>Integer Division vs Floating-Point Division</h4><p>This is one of the most important distinctions in Java. When both operands are integers (<code>int / int</code>), Java performs <strong>integer division</strong>, which truncates the decimal part: <code>10 / 3</code> gives <code>3</code>, not <code>3.333</code>. To get a decimal result, at least one operand must be a floating-point type: <code>10.0 / 3</code> gives <code>3.333...</code>, or use casting: <code>(double) 10 / 3</code>.</p><h4>Increment and Decrement Operators</h4><p>Java provides <code>++</code> (increment by 1) and <code>--</code> (decrement by 1) operators, each with two forms:</p><ul><li><code>++i</code> (pre-increment): increments first, then uses the value</li><li><code>i++</code> (post-increment): uses the current value first, then increments</li></ul><p>When used as a standalone statement (<code>i++;</code> or <code>++i;</code>), both have the same effect. The difference matters in expressions: <code>int a = 5; int b = a++;</code> gives <code>b = 5, a = 6</code> (post: use then increment). <code>int a = 5; int b = ++a;</code> gives <code>b = 6, a = 6</code> (pre: increment then use).</p><h3>2. Relational (Comparison) Operators</h3><p>Relational operators compare two values and return a <code>boolean</code> result (<code>true</code> or <code>false</code>):</p><table><tr><th>Operator</th><th>Meaning</th><th>Example</th><th>Result</th></tr><tr><td><code>==</code></td><td>Equal to</td><td><code>5 == 5</code></td><td><code>true</code></td></tr><tr><td><code>!=</code></td><td>Not equal to</td><td><code>5 != 3</code></td><td><code>true</code></td></tr><tr><td><code>&gt;</code></td><td>Greater than</td><td><code>5 &gt; 3</code></td><td><code>true</code></td></tr><tr><td><code>&lt;</code></td><td>Less than</td><td><code>5 &lt; 3</code></td><td><code>false</code></td></tr><tr><td><code>&gt;=</code></td><td>Greater than or equal</td><td><code>5 &gt;= 5</code></td><td><code>true</code></td></tr><tr><td><code>&lt;=</code></td><td>Less than or equal</td><td><code>5 &lt;= 3</code></td><td><code>false</code></td></tr></table><p><strong>Important:</strong> <code>==</code> compares primitive values but compares <strong>references</strong> (memory addresses) for objects. To compare String values, use <code>.equals()</code>, not <code>==</code>.</p><h3>3. Logical Operators</h3><p>Logical operators combine boolean expressions:</p><table><tr><th>Operator</th><th>Name</th><th>Example</th><th>Result</th></tr><tr><td><code>&&</code></td><td>Logical AND (short-circuit)</td><td><code>true && false</code></td><td><code>false</code></td></tr><tr><td><code>||</code></td><td>Logical OR (short-circuit)</td><td><code>true || false</code></td><td><code>true</code></td></tr><tr><td><code>!</code></td><td>Logical NOT</td><td><code>!true</code></td><td><code>false</code></td></tr></table><h4>Short-Circuit Evaluation</h4><p><code>&&</code> stops evaluating if the left operand is <code>false</code> (because <code>false && anything</code> is always <code>false</code>). <code>||</code> stops if the left operand is <code>true</code> (because <code>true || anything</code> is always <code>true</code>). This is not just an optimization; it enables safe patterns like:</p><pre><code>if (str != null && str.length() > 0) { ... }</code></pre><p>If <code>str</code> is null, the second condition is never evaluated, preventing a NullPointerException.</p><h4>Non-Short-Circuit: & and |</h4><p>Java also has <code>&</code> and <code>|</code> for boolean expressions. These always evaluate both operands, regardless of the left operand's value. They are rarely used for boolean logic but are important to know for interviews.</p><h3>4. Bitwise Operators</h3><p>Bitwise operators work on the binary (bit-level) representation of integers:</p><table><tr><th>Operator</th><th>Name</th><th>Example</th><th>Result</th></tr><tr><td><code>&amp;</code></td><td>Bitwise AND</td><td><code>5 &amp; 3</code></td><td><code>1</code></td></tr><tr><td><code>|</code></td><td>Bitwise OR</td><td><code>5 | 3</code></td><td><code>7</code></td></tr><tr><td><code>^</code></td><td>Bitwise XOR</td><td><code>5 ^ 3</code></td><td><code>6</code></td></tr><tr><td><code>~</code></td><td>Bitwise NOT (complement)</td><td><code>~5</code></td><td><code>-6</code></td></tr><tr><td><code>&lt;&lt;</code></td><td>Left shift</td><td><code>5 &lt;&lt; 1</code></td><td><code>10</code></td></tr><tr><td><code>&gt;&gt;</code></td><td>Signed right shift</td><td><code>20 &gt;&gt; 2</code></td><td><code>5</code></td></tr><tr><td><code>&gt;&gt;&gt;</code></td><td>Unsigned right shift</td><td><code>-1 &gt;&gt;&gt; 28</code></td><td><code>15</code></td></tr></table><p>Tracing through <code>5 &amp; 3</code>: 5 is <code>101</code>, 3 is <code>011</code>. AND gives 1 only where both bits are 1: <code>001</code> = 1. Left shift by 1 (<code>&lt;&lt; 1</code>) doubles the number. Right shift by 1 (<code>&gt;&gt; 1</code>) halves it (integer division by 2). The unsigned right shift (<code>&gt;&gt;&gt;</code>) fills the leftmost bits with 0 regardless of sign, unlike <code>&gt;&gt;</code> which preserves the sign bit.</p><h3>5. Assignment Operators</h3><p>The basic assignment operator is <code>=</code>. Java also provides compound assignment operators that combine an operation with assignment:</p><table><tr><th>Operator</th><th>Example</th><th>Equivalent</th></tr><tr><td><code>=</code></td><td><code>x = 5</code></td><td>Assigns 5 to x</td></tr><tr><td><code>+=</code></td><td><code>x += 3</code></td><td><code>x = x + 3</code></td></tr><tr><td><code>-=</code></td><td><code>x -= 3</code></td><td><code>x = x - 3</code></td></tr><tr><td><code>*=</code></td><td><code>x *= 3</code></td><td><code>x = x * 3</code></td></tr><tr><td><code>/=</code></td><td><code>x /= 3</code></td><td><code>x = x / 3</code></td></tr><tr><td><code>%=</code></td><td><code>x %= 3</code></td><td><code>x = x % 3</code></td></tr><tr><td><code>&amp;=</code></td><td><code>x &= 3</code></td><td><code>x = x & 3</code></td></tr><tr><td><code>|=</code></td><td><code>x |= 3</code></td><td><code>x = x | 3</code></td></tr><tr><td><code>^=</code></td><td><code>x ^= 3</code></td><td><code>x = x ^ 3</code></td></tr><tr><td><code>&lt;&lt;=</code></td><td><code>x <<= 2</code></td><td><code>x = x << 2</code></td></tr><tr><td><code>&gt;&gt;=</code></td><td><code>x >>= 2</code></td><td><code>x = x >> 2</code></td></tr></table><p>A subtle difference: compound assignment operators include an implicit cast. <code>byte b = 10; b += 5;</code> works (equivalent to <code>b = (byte)(b + 5)</code>), but <code>b = b + 5;</code> fails because <code>b + 5</code> is promoted to int.</p><h3>6. Ternary (Conditional) Operator</h3><p>The ternary operator is Java's only operator that takes three operands:</p><pre><code>result = condition ? valueIfTrue : valueIfFalse;</code></pre><p>Example: <code>String status = (marks >= 40) ? "Pass" : "Fail";</code></p><p>The ternary operator is a concise alternative to a simple if-else statement. It is an expression (produces a value), while if-else is a statement. This makes it useful in variable assignments and method arguments where a statement would not fit.</p><h3>7. The instanceof Operator</h3><p>The <code>instanceof</code> operator checks whether an object is an instance of a specific class or interface:</p><pre><code>String name = "Aarav";
+System.out.println(name instanceof String);  // true
+System.out.println(name instanceof Object);  // true (String extends Object)</code></pre><p>This is commonly used before type casting to prevent ClassCastException.</p><h3>8. Operator Precedence</h3><p>When an expression contains multiple operators, Java evaluates them according to precedence (priority) rules. Higher precedence operators are evaluated first:</p><ol><li><strong>Postfix:</strong> <code>i++</code>, <code>i--</code></li><li><strong>Unary:</strong> <code>++i</code>, <code>--i</code>, <code>+</code>, <code>-</code>, <code>~</code>, <code>!</code></li><li><strong>Multiplicative:</strong> <code>*</code>, <code>/</code>, <code>%</code></li><li><strong>Additive:</strong> <code>+</code>, <code>-</code></li><li><strong>Shift:</strong> <code>&lt;&lt;</code>, <code>&gt;&gt;</code>, <code>&gt;&gt;&gt;</code></li><li><strong>Relational:</strong> <code>&lt;</code>, <code>&gt;</code>, <code>&lt;=</code>, <code>&gt;=</code>, <code>instanceof</code></li><li><strong>Equality:</strong> <code>==</code>, <code>!=</code></li><li><strong>Bitwise AND:</strong> <code>&amp;</code></li><li><strong>Bitwise XOR:</strong> <code>^</code></li><li><strong>Bitwise OR:</strong> <code>|</code></li><li><strong>Logical AND:</strong> <code>&&</code></li><li><strong>Logical OR:</strong> <code>||</code></li><li><strong>Ternary:</strong> <code>? :</code></li><li><strong>Assignment:</strong> <code>=</code>, <code>+=</code>, <code>-=</code>, etc.</li></ol><p>When in doubt, use parentheses. They override all precedence rules and make your intent clear.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Arithmetic Operators and Integer Division</div><pre><code class="language-python">public class ArithmeticOps {
+    public static void main(String[] args) {
+        int a = 17, b = 5;
+
+        System.out.println(&quot;a + b = &quot; + (a + b));
+        System.out.println(&quot;a - b = &quot; + (a - b));
+        System.out.println(&quot;a * b = &quot; + (a * b));
+        System.out.println(&quot;a / b = &quot; + (a / b));     // Integer division: 3
+        System.out.println(&quot;a % b = &quot; + (a % b));     // Remainder: 2
+
+        // Floating-point division
+        System.out.println(&quot;\n--- Float vs Int Division ---&quot;);
+        System.out.println(&quot;17 / 5   = &quot; + (17 / 5));         // 3 (int)
+        System.out.println(&quot;17.0 / 5 = &quot; + (17.0 / 5));       // 3.4 (double)
+        System.out.println(&quot;17 / 5.0 = &quot; + (17 / 5.0));       // 3.4 (double)
+        System.out.println(&quot;(double)17/5 = &quot; + ((double)17/5));// 3.4 (cast)
+
+        // Increment and decrement
+        int x = 10;
+        System.out.println(&quot;\n--- Pre/Post Increment ---&quot;);
+        System.out.println(&quot;x = &quot; + x);       // 10
+        System.out.println(&quot;x++ = &quot; + x++);   // 10 (use then increment)
+        System.out.println(&quot;x = &quot; + x);       // 11
+        System.out.println(&quot;++x = &quot; + (++x)); // 12 (increment then use)
+    }
+}</code></pre><div class="code-example-explanation">Integer division (<code>17 / 5</code>) gives 3, not 3.4 -- Java truncates the decimal. To get a decimal result, make at least one operand a double: <code>17.0 / 5</code>, <code>17 / 5.0</code>, or <code>(double) 17 / 5</code>. The post-increment (<code>x++</code>) uses the current value in the expression and then increments, while pre-increment (<code>++x</code>) increments first and then uses the new value.</div><div class="code-example-output">a + b = 22
+a - b = 12
+a * b = 85
+a / b = 3
+a % b = 2
+
+--- Float vs Int Division ---
+17 / 5   = 3
+17.0 / 5 = 3.4
+17 / 5.0 = 3.4
+(double)17/5 = 3.4
+
+--- Pre/Post Increment ---
+x = 10
+x++ = 10
+x = 11
+++x = 12</div></div>
+<div class="code-example"><div class="code-example-title">Relational and Logical Operators</div><pre><code class="language-python">public class LogicalOps {
+    public static void main(String[] args) {
+        int marks = 78;
+        boolean hasProject = true;
+
+        // Relational operators
+        System.out.println(&quot;marks == 78: &quot; + (marks == 78));
+        System.out.println(&quot;marks != 100: &quot; + (marks != 100));
+        System.out.println(&quot;marks &gt; 40: &quot; + (marks &gt; 40));
+        System.out.println(&quot;marks &gt;= 75: &quot; + (marks &gt;= 75));
+
+        // Logical AND: both must be true
+        boolean eligible = marks &gt;= 60 &amp;&amp; hasProject;
+        System.out.println(&quot;\nEligible (marks&gt;=60 AND project): &quot; + eligible);
+
+        // Logical OR: at least one must be true
+        boolean getsCertificate = marks &gt;= 90 || hasProject;
+        System.out.println(&quot;Gets certificate (marks&gt;=90 OR project): &quot; + getsCertificate);
+
+        // Logical NOT: reverses boolean
+        System.out.println(&quot;NOT hasProject: &quot; + !hasProject);
+
+        // Short-circuit demonstration
+        String name = null;
+        // Safe: second condition not evaluated if name is null
+        if (name != null &amp;&amp; name.length() &gt; 0) {
+            System.out.println(&quot;Name: &quot; + name);
+        } else {
+            System.out.println(&quot;\nName is null or empty (short-circuit saved us!)&quot;);
+        }
+    }
+}</code></pre><div class="code-example-explanation">Relational operators return boolean values. <code>&&</code> (AND) returns true only if both conditions are true. <code>||</code> (OR) returns true if at least one is true. <code>!</code> (NOT) reverses a boolean. The short-circuit example is critically important: <code>name != null && name.length() > 0</code> safely handles null because <code>&&</code> stops evaluating when the left side is false. If we used <code>&</code> instead of <code>&&</code>, both sides would be evaluated, causing a NullPointerException.</div><div class="code-example-output">marks == 78: true
+marks != 100: true
+marks &gt; 40: true
+marks &gt;= 75: true
+
+Eligible (marks&gt;=60 AND project): true
+Gets certificate (marks&gt;=90 OR project): true
+NOT hasProject: false
+
+Name is null or empty (short-circuit saved us!)</div></div>
+<div class="code-example"><div class="code-example-title">Bitwise Operators</div><pre><code class="language-python">public class BitwiseOps {
+    public static void main(String[] args) {
+        int a = 12;  // binary: 1100
+        int b = 10;  // binary: 1010
+
+        System.out.println(&quot;a = &quot; + a + &quot; (&quot; + Integer.toBinaryString(a) + &quot;)&quot;);
+        System.out.println(&quot;b = &quot; + b + &quot; (&quot; + Integer.toBinaryString(b) + &quot;)&quot;);
+        System.out.println();
+
+        System.out.println(&quot;a &amp; b  = &quot; + (a &amp; b) + &quot;  (&quot; + Integer.toBinaryString(a &amp; b) + &quot;)&quot;);
+        System.out.println(&quot;a | b  = &quot; + (a | b) + &quot; (&quot; + Integer.toBinaryString(a | b) + &quot;)&quot;);
+        System.out.println(&quot;a ^ b  = &quot; + (a ^ b) + &quot;  (&quot; + Integer.toBinaryString(a ^ b) + &quot;)&quot;);
+        System.out.println(&quot;~a     = &quot; + (~a));
+
+        // Shift operators
+        System.out.println(&quot;\n--- Shift Operators ---&quot;);
+        System.out.println(&quot;a &lt;&lt; 1 = &quot; + (a &lt;&lt; 1) + &quot; (multiply by 2)&quot;);
+        System.out.println(&quot;a &lt;&lt; 2 = &quot; + (a &lt;&lt; 2) + &quot; (multiply by 4)&quot;);
+        System.out.println(&quot;a &gt;&gt; 1 = &quot; + (a &gt;&gt; 1) + &quot;  (divide by 2)&quot;);
+        System.out.println(&quot;a &gt;&gt; 2 = &quot; + (a &gt;&gt; 2) + &quot;  (divide by 4)&quot;);
+
+        // Practical: check if number is even/odd
+        int num = 7;
+        System.out.println(&quot;\n&quot; + num + &quot; is &quot; + ((num &amp; 1) == 0 ? &quot;even&quot; : &quot;odd&quot;));
+
+        // Practical: swap without temp variable
+        int x = 25, y = 40;
+        System.out.println(&quot;\nBefore swap: x=&quot; + x + &quot;, y=&quot; + y);
+        x = x ^ y;
+        y = x ^ y;
+        x = x ^ y;
+        System.out.println(&quot;After swap:  x=&quot; + x + &quot;, y=&quot; + y);
+    }
+}</code></pre><div class="code-example-explanation">Bitwise operators work on individual bits. AND (<code>&</code>) gives 1 only where both bits are 1. OR (<code>|</code>) gives 1 where either bit is 1. XOR (<code>^</code>) gives 1 where bits differ. Left shift (<code>&lt;&lt;</code>) doubles per shift (multiply by 2^n). Right shift (<code>&gt;&gt;</code>) halves per shift (divide by 2^n). Two practical applications: checking even/odd with <code>num & 1</code> (faster than <code>num % 2</code>), and swapping two numbers without a temporary variable using XOR.</div><div class="code-example-output">a = 12 (1100)
+b = 10 (1010)
+
+a &amp; b  = 8  (1000)
+a | b  = 14 (1110)
+a ^ b  = 6  (110)
+~a     = -13
+
+--- Shift Operators ---
+a &lt;&lt; 1 = 24 (multiply by 2)
+a &lt;&lt; 2 = 48 (multiply by 4)
+a &gt;&gt; 1 = 6  (divide by 2)
+a &gt;&gt; 2 = 3  (divide by 4)
+
+7 is odd
+
+Before swap: x=25, y=40
+After swap:  x=40, y=25</div></div>
+<div class="code-example"><div class="code-example-title">Ternary Operator and Assignment Operators</div><pre><code class="language-python">public class TernaryAndAssignment {
+    public static void main(String[] args) {
+        // Ternary operator
+        int marks = 72;
+        String result = (marks &gt;= 40) ? &quot;Pass&quot; : &quot;Fail&quot;;
+        System.out.println(&quot;Marks: &quot; + marks + &quot; -&gt; &quot; + result);
+
+        // Nested ternary (use sparingly!)
+        char grade = (marks &gt;= 90) ? &#39;A&#39; :
+                     (marks &gt;= 80) ? &#39;B&#39; :
+                     (marks &gt;= 70) ? &#39;C&#39; :
+                     (marks &gt;= 60) ? &#39;D&#39; : &#39;F&#39;;
+        System.out.println(&quot;Grade: &quot; + grade);
+
+        // Find max of two numbers
+        int a = 15, b = 22;
+        int max = (a &gt; b) ? a : b;
+        System.out.println(&quot;Max of &quot; + a + &quot; and &quot; + b + &quot;: &quot; + max);
+
+        // Compound assignment operators
+        System.out.println(&quot;\n--- Assignment Operators ---&quot;);
+        int score = 100;
+        System.out.println(&quot;Initial: &quot; + score);
+        score += 25;  System.out.println(&quot;score += 25: &quot; + score);
+        score -= 10;  System.out.println(&quot;score -= 10: &quot; + score);
+        score *= 2;   System.out.println(&quot;score *= 2:  &quot; + score);
+        score /= 3;   System.out.println(&quot;score /= 3:  &quot; + score);
+        score %= 10;  System.out.println(&quot;score %= 10: &quot; + score);
+    }
+}</code></pre><div class="code-example-explanation">The ternary operator <code>condition ? valueIfTrue : valueIfFalse</code> is a concise way to assign values based on conditions. It can be nested for multiple conditions, but deeply nested ternaries reduce readability -- use if-else for complex logic. Compound assignment operators (<code>+=</code>, <code>-=</code>, etc.) update a variable by applying an operation to its current value. They also include an implicit cast, which is why <code>byte b = 10; b += 5;</code> works without explicit casting.</div><div class="code-example-output">Marks: 72 -&gt; Pass
+Grade: C
+Max of 15 and 22: 22
+
+--- Assignment Operators ---
+Initial: 100
+score += 25: 125
+score -= 10: 115
+score *= 2:  230
+score /= 3:  76
+score %= 10: 6</div></div>
+<div class="code-example"><div class="code-example-title">Operator Precedence Tricky Examples</div><pre><code class="language-python">public class Precedence {
+    public static void main(String[] args) {
+        // Multiplication before addition
+        System.out.println(&quot;2 + 3 * 4 = &quot; + (2 + 3 * 4));
+        System.out.println(&quot;(2 + 3) * 4 = &quot; + ((2 + 3) * 4));
+
+        // Modulus same precedence as multiplication
+        System.out.println(&quot;\n10 + 15 % 4 = &quot; + (10 + 15 % 4));
+
+        // Relational before logical
+        int x = 5;
+        System.out.println(&quot;\nx &gt; 3 &amp;&amp; x &lt; 10: &quot; + (x &gt; 3 &amp;&amp; x &lt; 10));
+
+        // NOT before AND before OR
+        boolean result = true || false &amp;&amp; false;
+        System.out.println(&quot;true || false &amp;&amp; false = &quot; + result);
+        // Evaluates as: true || (false &amp;&amp; false) = true || false = true
+
+        boolean result2 = (true || false) &amp;&amp; false;
+        System.out.println(&quot;(true || false) &amp;&amp; false = &quot; + result2);
+
+        // Unary minus and increment precedence
+        int a = 5;
+        int b = -a++;
+        System.out.println(&quot;\na = 5; b = -a++;&quot;);
+        System.out.println(&quot;b = &quot; + b + &quot;, a = &quot; + a);
+        // Post-increment: use a (5), negate (-5), then increment a to 6
+
+        // Complex expression
+        int val = 2 + 3 * 4 - 8 / 2 + 7 % 3;
+        System.out.println(&quot;\n2 + 3*4 - 8/2 + 7%3 = &quot; + val);
+        // Steps: 3*4=12, 8/2=4, 7%3=1, then 2+12-4+1=11
+    }
+}</code></pre><div class="code-example-explanation">These examples demonstrate common precedence pitfalls. <code>2 + 3 * 4</code> = 14 because <code>*</code> binds tighter than <code>+</code>. <code>true || false && false</code> = true because <code>&&</code> has higher precedence than <code>||</code> (evaluates as <code>true || (false && false)</code>). The expression <code>-a++</code> first uses a's current value, negates it to get -5 for b, then increments a to 6 (post-increment happens last). The complex expression follows precedence: multiply/divide/modulus first, then add/subtract left to right.</div><div class="code-example-output">2 + 3 * 4 = 14
+(2 + 3) * 4 = 20
+
+10 + 15 % 4 = 13
+
+x &gt; 3 &amp;&amp; x &lt; 10: true
+true || false &amp;&amp; false = true
+(true || false) &amp;&amp; false = false
+
+a = 5; b = -a++;
+b = -5, a = 6
+
+2 + 3*4 - 8/2 + 7%3 = 11</div></div>
+<div class="code-example"><div class="code-example-title">The instanceof Operator and == vs .equals()</div><pre><code class="language-python">public class InstanceofDemo {
+    public static void main(String[] args) {
+        // instanceof checks type
+        String name = &quot;Priya&quot;;
+        System.out.println(&quot;name instanceof String: &quot; + (name instanceof String));
+        System.out.println(&quot;name instanceof Object: &quot; + (name instanceof Object));
+
+        Object obj = &quot;Hello&quot;;
+        if (obj instanceof String) {
+            String s = (String) obj;  // Safe cast after instanceof check
+            System.out.println(&quot;Casted string: &quot; + s.toUpperCase());
+        }
+
+        // == vs .equals() for Strings
+        System.out.println(&quot;\n--- == vs .equals() ---&quot;);
+        String s1 = &quot;Hello&quot;;
+        String s2 = &quot;Hello&quot;;
+        String s3 = new String(&quot;Hello&quot;);
+
+        System.out.println(&quot;s1 == s2: &quot; + (s1 == s2));         // true (same pool object)
+        System.out.println(&quot;s1 == s3: &quot; + (s1 == s3));         // false (different objects)
+        System.out.println(&quot;s1.equals(s3): &quot; + s1.equals(s3)); // true (same value)
+
+        // Always use .equals() for String comparison!
+    }
+}</code></pre><div class="code-example-explanation">The <code>instanceof</code> operator checks if an object is an instance of a class (or its subclass). It is commonly used before downcasting to prevent ClassCastException. For String comparison: <code>==</code> compares references (memory addresses), while <code>.equals()</code> compares values. <code>s1 == s2</code> is true because Java interns string literals (reuses the same object). But <code>s1 == s3</code> is false because <code>new String()</code> creates a new object. Always use <code>.equals()</code> for String comparison.</div><div class="code-example-output">name instanceof String: true
+name instanceof Object: true
+Casted string: HELLO
+
+--- == vs .equals() ---
+s1 == s2: true
+s1 == s3: false
+s1.equals(s3): true</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Integer Division Surprise</h3>
+                <div class="wrong-code"><pre><code class="language-python">int total = 100;
+int subjects = 3;
+double average = total / subjects;
+System.out.println(&quot;Average: &quot; + average); // Expected 33.33</code></pre></div><div class="error-message">No error, but output is 33.0 instead of 33.33. Integer division happens before assignment to double.</div><div class="correct-code"><pre><code class="language-python">int total = 100;
+int subjects = 3;
+double average = (double) total / subjects;
+System.out.println(&quot;Average: &quot; + average); // 33.333...</code></pre></div><div class="mistake-explanation">In <code>total / subjects</code>, both operands are int, so Java performs integer division: <code>100 / 3 = 33</code> (truncated). This int result (33) is then widened to double (33.0) for assignment. The decimal part is already lost. To get a decimal result, cast at least one operand before division: <code>(double) total / subjects</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using == to Compare Strings</h3>
+                <div class="wrong-code"><pre><code class="language-python">String input = new String(&quot;yes&quot;);
+if (input == &quot;yes&quot;) {
+    System.out.println(&quot;Confirmed&quot;);
+}</code></pre></div><div class="error-message">No compiler error, but the condition is false because == compares references, not values.</div><div class="correct-code"><pre><code class="language-python">String input = new String(&quot;yes&quot;);
+if (input.equals(&quot;yes&quot;)) {
+    System.out.println(&quot;Confirmed&quot;);
+}
+// Even better (null-safe):
+if (&quot;yes&quot;.equals(input)) {
+    System.out.println(&quot;Confirmed&quot;);
+}</code></pre></div><div class="mistake-explanation">The <code>==</code> operator compares object references (memory addresses), not values. <code>new String("yes")</code> creates a new object different from the string literal <code>"yes"</code>, so <code>==</code> returns false. Always use <code>.equals()</code> for String comparison. Writing <code>"yes".equals(input)</code> is even better because it is null-safe -- if input is null, it returns false instead of throwing NullPointerException.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing = with ==</h3>
+                <div class="wrong-code"><pre><code class="language-python">int x = 5;
+if (x = 10) {  // Assignment, not comparison!
+    System.out.println(&quot;x is 10&quot;);
+}</code></pre></div><div class="error-message">error: incompatible types: int cannot be converted to boolean</div><div class="correct-code"><pre><code class="language-python">int x = 5;
+if (x == 10) {  // Comparison
+    System.out.println(&quot;x is 10&quot;);
+}</code></pre></div><div class="mistake-explanation">A single <code>=</code> is the assignment operator; <code>==</code> is the comparison operator. <code>x = 10</code> assigns 10 to x and returns the int value 10. Since Java's if statement requires a boolean (not an int like C/C++), this causes a type error. Java's strict typing actually protects you from this common C/C++ bug.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Short-Circuit vs Non-Short-Circuit Operators</h3>
+                <div class="wrong-code"><pre><code class="language-python">String name = null;
+// Using &amp; instead of &amp;&amp; (non-short-circuit)
+if (name != null &amp; name.length() &gt; 0) {
+    System.out.println(name);
+}</code></pre></div><div class="error-message">NullPointerException: because &amp; evaluates both sides even when name is null.</div><div class="correct-code"><pre><code class="language-python">String name = null;
+// Using &amp;&amp; (short-circuit) - safe!
+if (name != null &amp;&amp; name.length() &gt; 0) {
+    System.out.println(name);
+}</code></pre></div><div class="mistake-explanation">The <code>&</code> operator (when used with booleans) evaluates BOTH operands regardless of the left result. Since name is null, <code>name.length()</code> throws NullPointerException. The <code>&&</code> operator short-circuits: if <code>name != null</code> is false, it does not evaluate <code>name.length()</code>. Always use <code>&&</code> and <code>||</code> for boolean logic unless you specifically need both sides evaluated.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Pre/Post Increment Confusion in Expressions</h3>
+                <div class="wrong-code"><pre><code class="language-python">int a = 5;
+int b = a++ + a++;
+System.out.println(&quot;b = &quot; + b); // Student expects 12</code></pre></div><div class="error-message">No error, but output is 11, not 12. Understanding evaluation order is tricky.</div><div class="correct-code"><pre><code class="language-python">// Avoid using ++ in complex expressions.
+// Instead, be explicit:
+int a = 5;
+int temp1 = a; a++; // temp1 = 5, a = 6
+int temp2 = a; a++; // temp2 = 6, a = 7
+int b = temp1 + temp2;
+System.out.println(&quot;b = &quot; + b); // 11</code></pre></div><div class="mistake-explanation">In <code>a++ + a++</code>: first <code>a++</code> returns 5 (then a becomes 6). Second <code>a++</code> returns 6 (then a becomes 7). So <code>b = 5 + 6 = 11</code>. Using multiple increments in a single expression makes code hard to read and predict. Best practice: use <code>++</code> only as standalone statements (<code>a++;</code>) and avoid embedding them in complex expressions.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Java has 7 categories of operators: Arithmetic (+, -, *, /, %), Relational (==, !=, &gt;, &lt;, &gt;=, &lt;=), Logical (&amp;&amp;, ||, !), Bitwise (&amp;, |, ^, ~, &lt;&lt;, &gt;&gt;, &gt;&gt;&gt;), Assignment (=, +=, -=, etc.), Ternary (?:), and instanceof.</li>
+<li>Integer division truncates: 10 / 3 gives 3, not 3.33. Cast one operand to double for decimal results: (double) 10 / 3 gives 3.33.</li>
+<li>Pre-increment (++i) increments before using the value. Post-increment (i++) uses the current value then increments. Avoid using both in complex expressions.</li>
+<li>Logical AND (&amp;&amp;) and OR (||) use short-circuit evaluation: the right operand is skipped if the result is already determined. This enables safe null checks.</li>
+<li>Use == for primitive comparison. Use .equals() for object/String comparison. == compares references (memory addresses) for objects, not values.</li>
+<li>Bitwise operators work on binary representations. Left shift (&lt;&lt;) doubles per shift. Right shift (&gt;&gt;) halves. AND (&amp;) masks bits. XOR (^) toggles bits.</li>
+<li>The ternary operator (condition ? valueIfTrue : valueIfFalse) is a concise alternative to simple if-else. It produces a value, making it usable in assignments.</li>
+<li>Compound assignment operators (+=, -=, etc.) include an implicit cast. byte b = 10; b += 5; works, but b = b + 5; requires explicit cast because b + 5 is promoted to int.</li>
+<li>Operator precedence from highest to lowest: unary &gt; multiplicative &gt; additive &gt; shift &gt; relational &gt; equality &gt; bitwise &gt; logical &gt; ternary &gt; assignment. Use parentheses when in doubt.</li>
+<li>The unsigned right shift (&gt;&gt;&gt;) fills leftmost bits with 0 regardless of sign. The signed right shift (&gt;&gt;) preserves the sign bit. This distinction matters for negative numbers.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/variables-and-data-types" class="related-topic-link">Variables and Data Types in Java</a>
+<a href="/resources/java/taking-input-in-java" class="related-topic-link">Taking Input with Scanner</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/java/variables-and-data-types" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Variables and Data Types in Java</span>
+        </a>
+            <a href="/resources/java/taking-input-in-java" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Taking Input with Scanner</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/operators-in-java/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

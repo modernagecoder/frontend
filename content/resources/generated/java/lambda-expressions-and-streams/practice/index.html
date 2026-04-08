@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Lambda Expressions and Streams API | Java | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="60+ practice questions on Lambda Expressions and Streams API in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="lambda expressions and streams api practice, java questions, java practice problems, lambda expressions and streams api exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams/practice">
+    <meta property="og:title" content="Practice Questions - Lambda Expressions and Streams API | Java | Modern Age Coders">
+    <meta property="og:description" content="60+ practice questions on Lambda Expressions and Streams API in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams/practice">
+    <meta name="twitter:title" content="Practice Questions - Lambda Expressions and Streams API | Java | Modern Age Coders">
+    <meta name="twitter:description" content="60+ practice questions on Lambda Expressions and Streams API in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Lambda Expressions and Streams API",
+    "description": "60+ practice questions on Lambda Expressions and Streams API in Java.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Lambda Expressions and Streams API"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Lambda Expressions and Streams API",
+        "item": "https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java/lambda-expressions-and-streams">Lambda Expressions and Streams API</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 23</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">60 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Lambda Expressions and Streams API</h1>
+            <a href="/resources/java/lambda-expressions-and-streams" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Predicate&lt;Integer&gt; isEven = n -> n % 2 == 0;
+System.out.println(isEven.test(4));
+System.out.println(isEven.test(7));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Predicate.test() returns a boolean.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Function&lt;String, Integer&gt; len = s -> s.length();
+System.out.println(len.apply("Hello"));
+System.out.println(len.apply(""));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Function.apply() takes input and returns a result.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>5</code><br><code>0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">List&lt;Integer&gt; nums = List.of(1, 2, 3, 4, 5);
+long count = nums.stream().filter(n -> n > 3).count();
+System.out.println(count);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">filter keeps elements where the predicate returns true.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">List&lt;String&gt; names = List.of("arjun", "priya");
+names.stream()
+    .map(String::toUpperCase)
+    .forEach(System.out::println);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">map transforms each element. toUpperCase converts to uppercase.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>ARJUN</code><br><code>PRIYA</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">List&lt;Integer&gt; nums = List.of(3, 1, 4, 1, 5);
+int sum = nums.stream().reduce(0, Integer::sum);
+System.out.println(sum);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">reduce combines all elements. 0 is the identity for addition.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>14</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">List&lt;String&gt; names = List.of("Arjun", "Priya", "Arjun", "Vikram", "Priya");
+long count = names.stream().distinct().count();
+System.out.println(count);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">distinct() removes duplicate elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">List&lt;Integer&gt; nums = List.of(5, 3, 8, 1, 9, 2);
+List&lt;Integer&gt; result = nums.stream()
+    .sorted()
+    .limit(3)
+    .collect(Collectors.toList());
+System.out.println(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">sorted() sorts in natural order. limit(3) takes the first 3.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>[1, 2, 3]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">List&lt;String&gt; words = List.of("Java", "is", "fun");
+String result = words.stream()
+    .collect(Collectors.joining(" "));
+System.out.println(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">joining() concatenates elements with the given delimiter.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Java is fun</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Optional&lt;String&gt; opt = Optional.of("Hello");
+System.out.println(opt.isPresent());
+System.out.println(opt.orElse("World"));
+
+Optional&lt;String&gt; empty = Optional.empty();
+System.out.println(empty.isPresent());
+System.out.println(empty.orElse("World"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">orElse returns the contained value if present, otherwise the default.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>true</code><br><code>Hello</code><br><code>false</code><br><code>World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">List&lt;List&lt;Integer&gt;&gt; nested = List.of(
+    List.of(1, 2),
+    List.of(3, 4),
+    List.of(5)
+);
+
+List&lt;Integer&gt; flat = nested.stream()
+    .flatMap(List::stream)
+    .collect(Collectors.toList());
+System.out.println(flat);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">flatMap flattens each inner list into a single stream.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>[1, 2, 3, 4, 5]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">List&lt;String&gt; names = List.of("Arjun", "Priya", "Avi", "Sneha", "Arun");
+Map&lt;Character, List&lt;String&gt;&gt; grouped = names.stream()
+    .collect(Collectors.groupingBy(n -> n.charAt(0)));
+System.out.println(grouped);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">groupingBy groups elements by the first character.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>{A=[Arjun, Avi, Arun], P=[Priya], S=[Sneha]}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">List&lt;Integer&gt; nums = List.of(1, 2, 3, 4, 5);
+Optional&lt;Integer&gt; result = nums.stream()
+    .filter(n -> n > 10)
+    .findFirst();
+System.out.println(result.isPresent());
+System.out.println(result.orElse(-1));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">No element is greater than 10.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>false</code><br><code>-1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">List&lt;Integer&gt; nums = List.of(1, 2, 3, 4, 5);
+boolean allEven = nums.stream().allMatch(n -> n % 2 == 0);
+boolean anyEven = nums.stream().anyMatch(n -> n % 2 == 0);
+boolean noneNeg = nums.stream().noneMatch(n -> n < 0);
+System.out.println(allEven + " " + anyEven + " " + noneNeg);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">allMatch: all must pass. anyMatch: at least one. noneMatch: none should pass.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>false true true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>map()</code> and <code>flatMap()</code> in streams?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Think about what happens when each element maps to a collection.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>map()</code> transforms each element into exactly one element (one-to-one). <code>flatMap()</code> transforms each element into zero or more elements by flattening nested streams (one-to-many). If you map a list of students to their courses and each student has multiple courses, <code>map()</code> gives a <code>Stream&lt;List&lt;String&gt;&gt;</code> while <code>flatMap()</code> gives a <code>Stream&lt;String&gt;</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does it mean that streams are 'lazy'? How does this affect performance?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Think about when intermediate operations actually execute.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">Intermediate operations (filter, map, sorted) are not executed when they are called. They are only executed when a terminal operation (collect, forEach, count) is invoked. This enables <strong>short-circuit optimization</strong>: with <code>findFirst()</code>, the stream processes elements one by one and stops as soon as a match is found, without processing the entire collection. Laziness also allows the JVM to optimize the pipeline by fusing operations.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Consumer&lt;String&gt; greet = name -> System.out.println("Hello, " + name);
+greet.accept("Arjun");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Consumer.accept() takes an argument and returns nothing.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>Hello, Arjun</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Supplier&lt;String&gt; greeting = () -> "Hello, World";
+System.out.println(greeting.get());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Supplier.get() takes no arguments and returns a value.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>Hello, World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">List&lt;Integer&gt; nums = List.of(10, 20, 30, 40, 50);
+List&lt;Integer&gt; result = nums.stream()
+    .skip(2)
+    .limit(2)
+    .collect(Collectors.toList());
+System.out.println(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">skip(2) skips the first two. limit(2) takes the next two.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>[30, 40]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">List&lt;String&gt; names = List.of("Arjun", "Priya", "Vikram");
+Map&lt;String, Integer&gt; map = names.stream()
+    .collect(Collectors.toMap(n -> n, String::length));
+System.out.println(map);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">toMap takes a key function and a value function.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>{Arjun=5, Priya=5, Vikram=6}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">Function&lt;Integer, Integer&gt; doubleIt = n -> n * 2;
+Function&lt;Integer, Integer&gt; addThree = n -> n + 3;
+Function&lt;Integer, Integer&gt; combined = doubleIt.andThen(addThree);
+System.out.println(combined.apply(5));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">andThen applies doubleIt first, then addThree to the result.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>13</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">List&lt;String&gt; names = List.of("Arjun", "Priya", "Sneha", "Vikram", "Kavya");
+Map&lt;Boolean, List&lt;String&gt;&gt; partitioned = names.stream()
+    .collect(Collectors.partitioningBy(n -> n.length() > 5));
+System.out.println("Long: " + partitioned.get(true));
+System.out.println("Short: " + partitioned.get(false));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">partitioningBy splits into true and false groups based on the predicate.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>Long: [Vikram]</code><br><code>Short: [Arjun, Priya, Sneha, Kavya]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">List&lt;Integer&gt; nums = List.of(1, 2, 3, 4, 5);
+String result = nums.stream()
+    .map(n -> n * n)
+    .map(String::valueOf)
+    .collect(Collectors.joining(", "));
+System.out.println(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">First map squares the number. Second map converts to String. joining concatenates.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>1, 4, 9, 16, 25</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code class="language-java">List&lt;Integer&gt; nums = List.of(5, 3, 8, 1, 9, 2, 7);
+Optional&lt;Integer&gt; secondLargest = nums.stream()
+    .sorted(Comparator.reverseOrder())
+    .skip(1)
+    .findFirst();
+System.out.println(secondLargest.orElse(-1));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Sort in descending order, skip the first (largest), take the next.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>8</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is a functional interface in Java?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about how many abstract methods it has.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">A functional interface is an interface with exactly <strong>one abstract method</strong> (SAM - Single Abstract Method). It can have any number of default and static methods. The <code>@FunctionalInterface</code> annotation enforces this constraint. Lambda expressions can only be assigned to functional interface types. Examples: Runnable, Predicate, Function, Consumer, Supplier.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>stream()</code> and <code>parallelStream()</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Think about how elements are processed.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>stream()</code> processes elements sequentially on a single thread. <code>parallelStream()</code> splits the data into chunks and processes them concurrently using the ForkJoinPool. Parallel streams can improve performance for CPU-intensive operations on large datasets, but they add overhead and can cause issues with non-thread-safe operations or shared mutable state.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is a lambda expression in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A new data type</li><li><span class="mcq-option-label">B.</span> A concise way to represent an anonymous function</li><li><span class="mcq-option-label">C.</span> A loop structure</li><li><span class="mcq-option-label">D.</span> A design pattern</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> A lambda expression is a short way to define a function without a name. It was introduced in Java 8 and is used with functional interfaces.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which functional interface takes an argument and returns a boolean?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Function&lt;T,R&gt;</li><li><span class="mcq-option-label">B.</span> Consumer&lt;T&gt;</li><li><span class="mcq-option-label">C.</span> Predicate&lt;T&gt;</li><li><span class="mcq-option-label">D.</span> Supplier&lt;T&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>Predicate&lt;T&gt;</code> has a <code>test(T t)</code> method that returns boolean. Function returns R, Consumer returns void, Supplier takes no argument.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does stream().filter() do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Removes all elements</li><li><span class="mcq-option-label">B.</span> Keeps elements that match the given predicate</li><li><span class="mcq-option-label">C.</span> Transforms each element</li><li><span class="mcq-option-label">D.</span> Sorts the elements</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>filter()</code> takes a Predicate and returns a stream containing only the elements for which the predicate returns true.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is String::toUpperCase an example of?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Static method call</li><li><span class="mcq-option-label">B.</span> Lambda expression</li><li><span class="mcq-option-label">C.</span> Method reference</li><li><span class="mcq-option-label">D.</span> Constructor call</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>String::toUpperCase</code> is a method reference -- shorthand for <code>s -> s.toUpperCase()</code>. It references the toUpperCase instance method of the String class.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What type of operation is forEach() in streams?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Intermediate operation</li><li><span class="mcq-option-label">B.</span> Terminal operation</li><li><span class="mcq-option-label">C.</span> Source operation</li><li><span class="mcq-option-label">D.</span> Lazy operation</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>forEach()</code> is a terminal operation that triggers the stream pipeline and consumes the stream. After forEach, the stream cannot be reused.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does Collectors.groupingBy() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> List&lt;T&gt;</li><li><span class="mcq-option-label">B.</span> Set&lt;T&gt;</li><li><span class="mcq-option-label">C.</span> Map&lt;K, List&lt;T&gt;&gt;</li><li><span class="mcq-option-label">D.</span> Optional&lt;T&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>groupingBy()</code> groups stream elements by a classifier function and returns a Map where keys are the group values and values are Lists of elements in each group.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does Optional.orElse(defaultValue) do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Always returns the default value</li><li><span class="mcq-option-label">B.</span> Returns the contained value if present, otherwise returns defaultValue</li><li><span class="mcq-option-label">C.</span> Throws an exception if the value is present</li><li><span class="mcq-option-label">D.</span> Sets the contained value to defaultValue</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>orElse()</code> returns the wrapped value if present, or the provided default value if the Optional is empty.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Why are streams considered lazy?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They run on background threads</li><li><span class="mcq-option-label">B.</span> Intermediate operations are not executed until a terminal operation is called</li><li><span class="mcq-option-label">C.</span> They process elements slowly</li><li><span class="mcq-option-label">D.</span> They always use parallel processing</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> Intermediate operations (filter, map, sorted) just build a pipeline. They execute only when a terminal operation (collect, forEach, count) triggers the pipeline.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does flatMap do in streams?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Filters and maps simultaneously</li><li><span class="mcq-option-label">B.</span> Maps each element to a stream and flattens them into a single stream</li><li><span class="mcq-option-label">C.</span> Creates a flat data structure</li><li><span class="mcq-option-label">D.</span> Maps elements in parallel</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>flatMap</code> maps each element to a stream and then flattens all resulting streams into one. It is used when each element maps to multiple values.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which is NOT an intermediate stream operation?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> filter()</li><li><span class="mcq-option-label">B.</span> map()</li><li><span class="mcq-option-label">C.</span> collect()</li><li><span class="mcq-option-label">D.</span> sorted()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>collect()</code> is a terminal operation that triggers the pipeline and gathers results. filter, map, and sorted are intermediate operations.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the difference between Predicate.and() and Predicate.or()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> and() combines predicates with logical AND; or() combines with logical OR</li><li><span class="mcq-option-label">B.</span> They are identical</li><li><span class="mcq-option-label">C.</span> and() is for numbers; or() is for strings</li><li><span class="mcq-option-label">D.</span> and() creates a new predicate; or() modifies the existing one</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>and()</code> returns a composed Predicate that is true only if both predicates are true. <code>or()</code> returns true if either predicate is true. Both return new Predicate instances.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What happens if you call Optional.of(null)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Returns an empty Optional</li><li><span class="mcq-option-label">B.</span> Returns an Optional containing null</li><li><span class="mcq-option-label">C.</span> Throws NullPointerException</li><li><span class="mcq-option-label">D.</span> Returns null</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>Optional.of(null)</code> throws <code>NullPointerException</code>. Use <code>Optional.ofNullable(null)</code> if the value might be null -- it returns an empty Optional for null.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does reduce(identity, accumulator) return when the stream is empty?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> null</li><li><span class="mcq-option-label">B.</span> The identity value</li><li><span class="mcq-option-label">C.</span> An empty Optional</li><li><span class="mcq-option-label">D.</span> Throws NoSuchElementException</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> When the stream is empty, <code>reduce(identity, accumulator)</code> returns the identity value. For example, <code>reduce(0, Integer::sum)</code> returns 0 for an empty stream.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the correct lambda syntax for a BiFunction that takes two integers and returns their sum?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> BiFunction&lt;Integer, Integer, Integer&gt; f = a, b -&gt; a + b</li><li><span class="mcq-option-label">B.</span> BiFunction&lt;Integer, Integer, Integer&gt; f = (a, b) -&gt; a + b</li><li><span class="mcq-option-label">C.</span> BiFunction&lt;Integer, Integer, Integer&gt; f = (a, b) -&gt; { return a + b }</li><li><span class="mcq-option-label">D.</span> BiFunction&lt;Integer, Integer, Integer&gt; f = (a, b) =&gt; a + b</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> Multiple parameters must be in parentheses: <code>(a, b) -> a + b</code>. Option A is missing parentheses. Option C is missing a semicolon after return. Option D uses => which is JavaScript syntax, not Java.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Can a stream be reused after a terminal operation?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, streams are reusable</li><li><span class="mcq-option-label">B.</span> No, a stream can only be consumed once</li><li><span class="mcq-option-label">C.</span> Yes, if you call reset()</li><li><span class="mcq-option-label">D.</span> Only if it is a parallel stream</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> After a terminal operation, the stream is closed and cannot be reused. Attempting to use it again throws <code>IllegalStateException</code>. Create a new stream from the source to reprocess.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Custom Filter and Transform</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given a list of integers, use streams to filter out odd numbers, double each remaining number, and collect into a list. Print the result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[4, 8, 12, 16, 20]</div>
+                </div><div class="challenge-constraints">Use stream(), filter(), map(), and collect().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">import java.util.List;
+import java.util.stream.Collectors;
+
+public class FilterAndTransform {
+    public static void main(String[] args) {
+        List&lt;Integer&gt; nums = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+        List&lt;Integer&gt; result = nums.stream()
+            .filter(n -&gt; n % 2 == 0)
+            .map(n -&gt; n * 2)
+            .collect(Collectors.toList());
+        System.out.println(result);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Student Grade Report</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given a list of Student records (name, marks), use streams to: (1) Find students who scored above 80 (sorted by marks descending). (2) Calculate the class average. (3) Group students into PASS (>=40) and FAIL (<40).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Students: Arjun(85), Priya(92), Vikram(35), Sneha(78), Rohan(42)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Above 80: [Priya(92), Arjun(85)]
+Average: 66.4
+PASS: [Arjun, Priya, Sneha, Rohan]
+FAIL: [Vikram]</div>
+                </div><div class="challenge-constraints">Use stream operations: filter, sorted, mapToInt, average, partitioningBy.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">import java.util.*;
+import java.util.stream.Collectors;
+
+public class GradeReport {
+    record Student(String name, int marks) {}
+
+    public static void main(String[] args) {
+        List&lt;Student&gt; students = List.of(
+            new Student(&quot;Arjun&quot;, 85),
+            new Student(&quot;Priya&quot;, 92),
+            new Student(&quot;Vikram&quot;, 35),
+            new Student(&quot;Sneha&quot;, 78),
+            new Student(&quot;Rohan&quot;, 42)
+        );
+
+        List&lt;String&gt; above80 = students.stream()
+            .filter(s -&gt; s.marks() &gt; 80)
+            .sorted(Comparator.comparingInt(Student::marks).reversed())
+            .map(s -&gt; s.name() + &quot;(&quot; + s.marks() + &quot;)&quot;)
+            .collect(Collectors.toList());
+        System.out.println(&quot;Above 80: &quot; + above80);
+
+        double avg = students.stream()
+            .mapToInt(Student::marks)
+            .average().orElse(0);
+        System.out.printf(&quot;Average: %.1f%n&quot;, avg);
+
+        Map&lt;Boolean, List&lt;String&gt;&gt; passFailMap = students.stream()
+            .collect(Collectors.partitioningBy(
+                s -&gt; s.marks() &gt;= 40,
+                Collectors.mapping(Student::name, Collectors.toList())
+            ));
+        System.out.println(&quot;PASS: &quot; + passFailMap.get(true));
+        System.out.println(&quot;FAIL: &quot; + passFailMap.get(false));
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Word Frequency Counter</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given a list of sentences, use streams to split each into words, count the frequency of each word (case-insensitive), and display the top 5 most frequent words.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">&quot;Java is great&quot;, &quot;Java is powerful&quot;, &quot;Java and Python are great&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">java: 3
+is: 2
+great: 2
+python: 1
+and: 1</div>
+                </div><div class="challenge-constraints">Use flatMap to split sentences into words. Use Collectors.groupingBy and Collectors.counting().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">import java.util.*;
+import java.util.stream.Collectors;
+
+public class WordFrequency {
+    public static void main(String[] args) {
+        List&lt;String&gt; sentences = List.of(
+            &quot;Java is great&quot;,
+            &quot;Java is powerful&quot;,
+            &quot;Java and Python are great&quot;
+        );
+
+        Map&lt;String, Long&gt; frequency = sentences.stream()
+            .flatMap(s -&gt; Arrays.stream(s.toLowerCase().split(&quot;\\s+&quot;)))
+            .collect(Collectors.groupingBy(w -&gt; w, Collectors.counting()));
+
+        frequency.entrySet().stream()
+            .sorted(Map.Entry.&lt;String, Long&gt;comparingByValue().reversed())
+            .limit(5)
+            .forEach(e -&gt; System.out.println(e.getKey() + &quot;: &quot; + e.getValue()));
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Employee Analytics Dashboard</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given a list of Employee records (name, department, salary), use streams to: (1) Find the highest-paid employee per department. (2) Calculate total salary expense per department. (3) Find employees earning above the company average. (4) Create a comma-separated string of all employee names sorted alphabetically.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Multiple employees across Engineering, Marketing, and HR departments</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Highest paid per dept: {Engineering=Sneha(95000), ...}
+Total per dept: {Engineering=272000, ...}
+Above average: [Arjun, Priya, Sneha]
+All names: Arjun, Kavya, Priya, Rohan, Sneha, Vikram</div>
+                </div><div class="challenge-constraints">Use groupingBy with downstream collectors, Collectors.maxBy, Collectors.summingInt, and Collectors.joining.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">import java.util.*;
+import java.util.stream.Collectors;
+
+public class EmployeeAnalytics {
+    record Employee(String name, String dept, int salary) {}
+
+    public static void main(String[] args) {
+        List&lt;Employee&gt; employees = List.of(
+            new Employee(&quot;Arjun&quot;, &quot;Engineering&quot;, 85000),
+            new Employee(&quot;Priya&quot;, &quot;Engineering&quot;, 92000),
+            new Employee(&quot;Vikram&quot;, &quot;Marketing&quot;, 78000),
+            new Employee(&quot;Sneha&quot;, &quot;Engineering&quot;, 95000),
+            new Employee(&quot;Rohan&quot;, &quot;Marketing&quot;, 72000),
+            new Employee(&quot;Kavya&quot;, &quot;HR&quot;, 68000)
+        );
+
+        // Highest paid per department
+        Map&lt;String, Optional&lt;Employee&gt;&gt; topPerDept = employees.stream()
+            .collect(Collectors.groupingBy(
+                Employee::dept,
+                Collectors.maxBy(Comparator.comparingInt(Employee::salary))
+            ));
+        topPerDept.forEach((dept, emp) -&gt;
+            emp.ifPresent(e -&gt; System.out.println(dept + &quot;: &quot; + e.name() + &quot;(&quot; + e.salary() + &quot;)&quot;)));
+
+        // Total salary per dept
+        Map&lt;String, Integer&gt; totalPerDept = employees.stream()
+            .collect(Collectors.groupingBy(Employee::dept, Collectors.summingInt(Employee::salary)));
+        System.out.println(&quot;Total per dept: &quot; + totalPerDept);
+
+        // Above company average
+        double avg = employees.stream().mapToInt(Employee::salary).average().orElse(0);
+        List&lt;String&gt; aboveAvg = employees.stream()
+            .filter(e -&gt; e.salary() &gt; avg)
+            .map(Employee::name)
+            .collect(Collectors.toList());
+        System.out.printf(&quot;Company avg: %.0f, Above: %s%n&quot;, avg, aboveAvg);
+
+        // Sorted names
+        String allNames = employees.stream()
+            .map(Employee::name)
+            .sorted()
+            .collect(Collectors.joining(&quot;, &quot;));
+        System.out.println(&quot;All names: &quot; + allNames);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Custom Optional Chain</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a chain of Optional operations: given a user ID, find the user, get their address, get the city, and convert to uppercase. If any step returns null/empty, return 'UNKNOWN'. Demonstrate with found and not-found cases.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">User ID: 1 (exists), User ID: 99 (does not exist)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">User 1 city: DELHI
+User 99 city: UNKNOWN</div>
+                </div><div class="challenge-constraints">Use Optional.ofNullable, map, flatMap, and orElse. Do not use any null checks (if statements).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">import java.util.*;
+
+public class OptionalChain {
+    record Address(String city, String state) {}
+    record User(int id, String name, Address address) {}
+
+    static Map&lt;Integer, User&gt; database = Map.of(
+        1, new User(1, &quot;Arjun&quot;, new Address(&quot;Delhi&quot;, &quot;Delhi&quot;)),
+        2, new User(2, &quot;Priya&quot;, new Address(&quot;Mumbai&quot;, &quot;Maharashtra&quot;)),
+        3, new User(3, &quot;Vikram&quot;, null) // no address
+    );
+
+    static Optional&lt;User&gt; findUser(int id) {
+        return Optional.ofNullable(database.get(id));
+    }
+
+    static String getCityUpperCase(int userId) {
+        return findUser(userId)
+            .map(User::address)
+            .map(Address::city)
+            .map(String::toUpperCase)
+            .orElse(&quot;UNKNOWN&quot;);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(&quot;User 1 city: &quot; + getCityUpperCase(1));
+        System.out.println(&quot;User 2 city: &quot; + getCityUpperCase(2));
+        System.out.println(&quot;User 3 city: &quot; + getCityUpperCase(3));
+        System.out.println(&quot;User 99 city: &quot; + getCityUpperCase(99));
+    }
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/java/multithreading-basics/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Multithreading Basics</span>
+        </a>
+            <a href="/resources/java/java-memory-and-garbage-collection/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Java Memory Model and Garbage Collection</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/java/lambda-expressions-and-streams" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

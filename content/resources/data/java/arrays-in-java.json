@@ -1,0 +1,714 @@
+{
+  "title": "Arrays in Java",
+  "slug": "arrays-in-java",
+  "language": "java",
+  "chapter": 10,
+  "difficulty": "Beginner",
+  "readingTime": "28 min",
+  "lastUpdated": "2026-04-08",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "Arrays in Java - Declaration, Initialization, 2D Arrays, Arrays Class | Modern Age Coders",
+    "description": "Master Java arrays including declaration, initialization, iteration, 2D arrays, jagged arrays, and the Arrays utility class. Includes 60 practice questions with output prediction and coding challenges.",
+    "keywords": "java arrays, java array tutorial, multidimensional array java, java arrays class, java 2d array, java array methods, java array sort, java array copy"
+  },
+  "content": {
+    "what": "<h2>What Are Arrays?</h2><p>An <strong>array</strong> is a fixed-size, ordered collection of elements of the same data type stored in contiguous memory locations. Instead of declaring 100 separate variables to store 100 student marks, you declare one array that holds all 100 values under a single name, accessible by index.</p><p>Arrays are the most fundamental data structure in programming. Every language provides arrays because they offer <strong>constant-time access</strong> (O(1)) to any element by index, making them extremely efficient for lookup operations.</p><h3>Key Characteristics</h3><ul><li><strong>Fixed size:</strong> Once created, an array's length cannot be changed.</li><li><strong>Zero-indexed:</strong> The first element is at index 0, the last at index (length - 1).</li><li><strong>Homogeneous:</strong> All elements must be of the same type (all int, all String, etc.).</li><li><strong>Reference type:</strong> Arrays in Java are objects, stored on the heap. The variable holds a reference (memory address), not the data itself.</li></ul><p>In Java, arrays can hold primitive types (int, double, char, boolean) or reference types (String, Object, custom classes).</p>",
+    "why": "<h2>Why Are Arrays Essential?</h2><h3>1. Managing Collections of Data</h3><p>Real programs almost always deal with multiple related values: marks of all students, prices of all products, coordinates of all points, characters in a string. Without arrays, you would need separate variables for each value (<code>mark1, mark2, mark3, ...</code>), which is impractical for any non-trivial dataset. Arrays let you manage these collections with a single variable name and loop through them programmatically.</p><h3>2. Foundation for All Data Structures</h3><p>Arrays are the building block for more complex data structures. ArrayList is backed by an array. HashMap uses an array of buckets. Strings are backed by a char array. Understanding arrays deeply is a prerequisite for understanding any other data structure in Java.</p><h3>3. Algorithm Implementation</h3><p>Most algorithms operate on arrays: sorting (bubble, selection, insertion, merge, quick), searching (linear, binary), matrix operations (transpose, multiply), and dynamic programming (tabulation). Arrays are the primary data structure in DSA-based placement interviews.</p><h3>4. Multidimensional Data</h3><p>2D arrays (matrices) represent tabular data, game boards, images (pixel grids), and adjacency matrices for graphs. Understanding 2D arrays and their iteration patterns is essential for solving matrix-based interview problems.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Declaring and Initializing Arrays</h3><p>There are multiple ways to create arrays in Java:</p><h4>Declaration with new Keyword</h4><pre><code>int[] marks = new int[5]; // Array of 5 ints, initialized to 0</code></pre><p>This creates an array of 5 integers. All elements are initialized to their default values: 0 for int, 0.0 for double, false for boolean, null for reference types.</p><h4>Declaration with Initialization</h4><pre><code>int[] marks = {85, 92, 78, 95, 88}; // Array of 5 ints with values</code></pre><p>Curly braces provide the initial values. The length is determined automatically from the number of values.</p><h4>Two-Step Declaration</h4><pre><code>int[] marks;\nmarks = new int[]{85, 92, 78, 95, 88}; // Note: new int[] required</code></pre><p>When declaration and initialization are on separate lines, you must use <code>new int[]{...}</code>. You cannot use <code>{...}</code> alone.</p><h4>Alternative Syntax</h4><pre><code>int marks[] = new int[5]; // C-style syntax, valid but not preferred</code></pre><p>Java supports both <code>int[] marks</code> (preferred) and <code>int marks[]</code> (C-style). The first form is recommended because the type (<code>int[]</code>) is clearly an array type.</p><h3>2. Accessing Elements</h3><p>Array elements are accessed using zero-based indexing: <code>arrayName[index]</code>.</p><pre><code>int[] nums = {10, 20, 30, 40, 50};\nSystem.out.println(nums[0]); // 10 (first element)\nSystem.out.println(nums[4]); // 50 (last element)\nnums[2] = 99;               // Modify: 30 becomes 99</code></pre><p>The valid index range is 0 to <code>array.length - 1</code>. Accessing an index outside this range throws <code>ArrayIndexOutOfBoundsException</code>.</p><h3>3. Array Length</h3><p><code>array.length</code> is a property (not a method -- no parentheses) that returns the number of elements. It is final and cannot be changed.</p><pre><code>int[] arr = {1, 2, 3, 4, 5};\nSystem.out.println(arr.length); // 5</code></pre><h3>4. Iterating Over Arrays</h3><h4>Using for Loop</h4><pre><code>for (int i = 0; i < arr.length; i++) {\n    System.out.println(arr[i]);\n}</code></pre><h4>Using for-each Loop</h4><pre><code>for (int val : arr) {\n    System.out.println(val);\n}</code></pre><p>Use the for loop when you need the index (for modification, comparison with other elements, or index-based logic). Use for-each when you only need the values.</p><h3>5. 2D Arrays (Matrices)</h3><p>A 2D array is an array of arrays. Think of it as a table with rows and columns.</p><pre><code>int[][] matrix = new int[3][4]; // 3 rows, 4 columns\nmatrix[0][0] = 1; // First row, first column\nmatrix[2][3] = 99; // Last row, last column</code></pre><h4>Initialization with Values</h4><pre><code>int[][] matrix = {\n    {1, 2, 3},\n    {4, 5, 6},\n    {7, 8, 9}\n};</code></pre><h4>Iterating a 2D Array</h4><pre><code>for (int i = 0; i < matrix.length; i++) {          // rows\n    for (int j = 0; j < matrix[i].length; j++) {    // columns\n        System.out.print(matrix[i][j] + \" \");\n    }\n    System.out.println();\n}</code></pre><p><code>matrix.length</code> gives the number of rows. <code>matrix[i].length</code> gives the number of columns in row i.</p><h3>6. Jagged Arrays</h3><p>In Java, 2D arrays do not have to be rectangular. Each row can have a different number of columns. This is called a <strong>jagged array</strong>.</p><pre><code>int[][] jagged = new int[3][];\njagged[0] = new int[]{1, 2};\njagged[1] = new int[]{3, 4, 5};\njagged[2] = new int[]{6};</code></pre><p>Row 0 has 2 elements, row 1 has 3, row 2 has 1. This is possible because a 2D array in Java is an array of references to 1D arrays, and each 1D array can be independently sized.</p><h3>7. The Arrays Utility Class</h3><p>The <code>java.util.Arrays</code> class provides static utility methods for common array operations:</p><table><tr><th>Method</th><th>Description</th></tr><tr><td><code>Arrays.sort(arr)</code></td><td>Sorts the array in ascending order. Uses dual-pivot Quicksort for primitives, TimSort for objects.</td></tr><tr><td><code>Arrays.binarySearch(arr, key)</code></td><td>Searches a sorted array for a key. Returns the index if found, or a negative value if not. Array MUST be sorted first.</td></tr><tr><td><code>Arrays.fill(arr, val)</code></td><td>Fills the entire array with the specified value.</td></tr><tr><td><code>Arrays.copyOf(arr, newLen)</code></td><td>Creates a new array with the specified length, copying elements from the original. Pads with defaults if newLen is larger.</td></tr><tr><td><code>Arrays.copyOfRange(arr, from, to)</code></td><td>Copies a range [from, to) from the original array into a new array.</td></tr><tr><td><code>Arrays.toString(arr)</code></td><td>Returns a string representation: \"[1, 2, 3, 4, 5]\". Essential for debugging.</td></tr><tr><td><code>Arrays.equals(a, b)</code></td><td>Compares two arrays element by element. Returns true only if same length and all elements are equal.</td></tr><tr><td><code>Arrays.deepToString(arr2D)</code></td><td>String representation of 2D (or deeper) arrays: \"[[1, 2], [3, 4]]\".</td></tr><tr><td><code>Arrays.deepEquals(a, b)</code></td><td>Deep comparison of multidimensional arrays.</td></tr></table><h3>8. ArrayIndexOutOfBoundsException</h3><p>Accessing an index that is negative or >= array.length throws <code>ArrayIndexOutOfBoundsException</code>. This is a runtime exception and one of the most common bugs in Java programs.</p><pre><code>int[] arr = {10, 20, 30};\nSystem.out.println(arr[3]); // BOOM! Index 3, but valid range is 0-2</code></pre><h3>9. Passing Arrays to Methods</h3><p>When you pass an array to a method, you pass the <strong>reference</strong>, not a copy. This means the method can modify the original array's elements.</p><pre><code>public static void doubleAll(int[] arr) {\n    for (int i = 0; i < arr.length; i++) {\n        arr[i] *= 2;\n    }\n}\n\nint[] nums = {1, 2, 3};\ndoubleAll(nums);\n// nums is now {2, 4, 6}</code></pre><h3>10. Returning Arrays from Methods</h3><p>Methods can return arrays. The return type is the array type (e.g., <code>int[]</code>).</p><pre><code>public static int[] createRange(int start, int end) {\n    int[] arr = new int[end - start + 1];\n    for (int i = 0; i < arr.length; i++) {\n        arr[i] = start + i;\n    }\n    return arr;\n}</code></pre>",
+    "codeExamples": [
+      {
+        "title": "Array Declaration, Access, and Iteration",
+        "code": "public class ArrayBasics {\n    public static void main(String[] args) {\n        // Declaration with values\n        int[] marks = {85, 92, 78, 95, 88};\n\n        // Access by index\n        System.out.println(\"First: \" + marks[0]);\n        System.out.println(\"Last: \" + marks[marks.length - 1]);\n\n        // Modify an element\n        marks[2] = 80;\n\n        // Iterate with for loop\n        System.out.print(\"All marks: \");\n        for (int i = 0; i < marks.length; i++) {\n            System.out.print(marks[i] + \" \");\n        }\n        System.out.println();\n\n        // Iterate with for-each\n        int sum = 0;\n        for (int m : marks) {\n            sum += m;\n        }\n        System.out.println(\"Average: \" + (double) sum / marks.length);\n    }\n}",
+        "language": "java",
+        "explanation": "We declare an array with initial values, access elements by index (0-based), modify an element, and iterate using both for and for-each loops. The for loop gives index access; for-each gives values directly. <code>marks.length</code> returns 5.",
+        "output": "First: 85\nLast: 88\nAll marks: 85 92 80 95 88 \nAverage: 88.0"
+      },
+      {
+        "title": "Default Values and the new Keyword",
+        "code": "import java.util.Arrays;\n\npublic class DefaultValues {\n    public static void main(String[] args) {\n        int[] ints = new int[5];\n        double[] doubles = new double[3];\n        boolean[] bools = new boolean[3];\n        String[] strings = new String[3];\n\n        System.out.println(\"int[]:     \" + Arrays.toString(ints));\n        System.out.println(\"double[]:  \" + Arrays.toString(doubles));\n        System.out.println(\"boolean[]: \" + Arrays.toString(bools));\n        System.out.println(\"String[]:  \" + Arrays.toString(strings));\n    }\n}",
+        "language": "java",
+        "explanation": "When arrays are created with <code>new</code>, all elements get default values: 0 for int, 0.0 for double, false for boolean, and null for reference types like String. <code>Arrays.toString()</code> provides a readable representation.",
+        "output": "int[]:     [0, 0, 0, 0, 0]\ndouble[]:  [0.0, 0.0, 0.0]\nboolean[]: [false, false, false]\nString[]:  [null, null, null]"
+      },
+      {
+        "title": "2D Array: Matrix Operations",
+        "code": "public class Matrix2D {\n    public static void main(String[] args) {\n        int[][] matrix = {\n            {1, 2, 3},\n            {4, 5, 6},\n            {7, 8, 9}\n        };\n\n        // Print matrix\n        System.out.println(\"Matrix:\");\n        for (int i = 0; i < matrix.length; i++) {\n            for (int j = 0; j < matrix[i].length; j++) {\n                System.out.printf(\"%3d\", matrix[i][j]);\n            }\n            System.out.println();\n        }\n\n        // Sum of all elements\n        int sum = 0;\n        for (int[] row : matrix) {\n            for (int val : row) {\n                sum += val;\n            }\n        }\n        System.out.println(\"Sum: \" + sum);\n\n        // Diagonal sum\n        int diagSum = 0;\n        for (int i = 0; i < matrix.length; i++) {\n            diagSum += matrix[i][i];\n        }\n        System.out.println(\"Main diagonal sum: \" + diagSum);\n    }\n}",
+        "language": "java",
+        "explanation": "A 2D array is an array of arrays. <code>matrix.length</code> gives 3 (rows). <code>matrix[i].length</code> gives 3 (columns in row i). The nested for-each iterates all elements. The diagonal is accessed where row index equals column index: matrix[0][0], matrix[1][1], matrix[2][2].",
+        "output": "Matrix:\n  1  2  3\n  4  5  6\n  7  8  9\nSum: 45\nMain diagonal sum: 15"
+      },
+      {
+        "title": "Jagged Arrays",
+        "code": "import java.util.Arrays;\n\npublic class JaggedArray {\n    public static void main(String[] args) {\n        int[][] jagged = new int[3][];\n        jagged[0] = new int[]{1, 2, 3, 4};\n        jagged[1] = new int[]{5, 6};\n        jagged[2] = new int[]{7, 8, 9};\n\n        for (int i = 0; i < jagged.length; i++) {\n            System.out.println(\"Row \" + i + \" (length \" + jagged[i].length + \"): \" + Arrays.toString(jagged[i]));\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "Each row in a jagged array can have a different length. Row 0 has 4 elements, row 1 has 2, row 2 has 3. This works because a 2D array in Java is really an array of references to separate 1D arrays. Always use <code>jagged[i].length</code> (not a fixed number) when iterating columns.",
+        "output": "Row 0 (length 4): [1, 2, 3, 4]\nRow 1 (length 2): [5, 6]\nRow 2 (length 3): [7, 8, 9]"
+      },
+      {
+        "title": "Arrays Utility Class Methods",
+        "code": "import java.util.Arrays;\n\npublic class ArraysUtility {\n    public static void main(String[] args) {\n        int[] arr = {42, 15, 78, 23, 56, 8, 91};\n\n        // toString\n        System.out.println(\"Original: \" + Arrays.toString(arr));\n\n        // sort\n        Arrays.sort(arr);\n        System.out.println(\"Sorted:   \" + Arrays.toString(arr));\n\n        // binarySearch (array MUST be sorted)\n        int idx = Arrays.binarySearch(arr, 42);\n        System.out.println(\"42 found at index: \" + idx);\n\n        // fill\n        int[] filled = new int[5];\n        Arrays.fill(filled, 7);\n        System.out.println(\"Filled:   \" + Arrays.toString(filled));\n\n        // copyOf\n        int[] copy = Arrays.copyOf(arr, 4);\n        System.out.println(\"Copy(4):  \" + Arrays.toString(copy));\n\n        // copyOfRange\n        int[] range = Arrays.copyOfRange(arr, 2, 5);\n        System.out.println(\"Range[2,5): \" + Arrays.toString(range));\n\n        // equals\n        int[] a = {1, 2, 3};\n        int[] b = {1, 2, 3};\n        int[] c = {1, 2, 4};\n        System.out.println(\"a equals b: \" + Arrays.equals(a, b));\n        System.out.println(\"a equals c: \" + Arrays.equals(a, c));\n    }\n}",
+        "language": "java",
+        "explanation": "<code>Arrays.sort()</code> sorts in-place (ascending). <code>Arrays.binarySearch()</code> requires a sorted array and returns the index. <code>Arrays.fill()</code> sets all elements to a value. <code>Arrays.copyOf()</code> creates a new array with specified length. <code>Arrays.copyOfRange()</code> copies a sub-array. <code>Arrays.equals()</code> compares element by element.",
+        "output": "Original: [42, 15, 78, 23, 56, 8, 91]\nSorted:   [8, 15, 23, 42, 56, 78, 91]\n42 found at index: 3\nFilled:   [7, 7, 7, 7, 7]\nCopy(4):  [8, 15, 23, 42]\nRange[2,5): [23, 42, 56]\na equals b: true\na equals c: false"
+      },
+      {
+        "title": "Passing and Returning Arrays",
+        "code": "import java.util.Arrays;\n\npublic class ArrayMethods {\n    // Method that modifies the array (pass by reference)\n    public static void doubleAll(int[] arr) {\n        for (int i = 0; i < arr.length; i++) {\n            arr[i] *= 2;\n        }\n    }\n\n    // Method that returns a new array\n    public static int[] getEvenNumbers(int[] arr) {\n        int count = 0;\n        for (int n : arr) {\n            if (n % 2 == 0) count++;\n        }\n        int[] evens = new int[count];\n        int idx = 0;\n        for (int n : arr) {\n            if (n % 2 == 0) {\n                evens[idx++] = n;\n            }\n        }\n        return evens;\n    }\n\n    public static void main(String[] args) {\n        int[] nums = {3, 8, 15, 22, 7, 10};\n\n        // Passing array to method (modifies original)\n        doubleAll(nums);\n        System.out.println(\"After doubling: \" + Arrays.toString(nums));\n\n        // Getting array from method\n        int[] original = {3, 8, 15, 22, 7, 10};\n        int[] evens = getEvenNumbers(original);\n        System.out.println(\"Even numbers: \" + Arrays.toString(evens));\n    }\n}",
+        "language": "java",
+        "explanation": "<code>doubleAll()</code> receives a reference to the array, so modifications affect the original. <code>getEvenNumbers()</code> creates and returns a new array containing only even numbers. Two passes: first counts evens (to size the result array), then fills it.",
+        "output": "After doubling: [6, 16, 30, 44, 14, 20]\nEven numbers: [8, 22, 10]"
+      },
+      {
+        "title": "ArrayIndexOutOfBoundsException",
+        "code": "public class BoundsError {\n    public static void main(String[] args) {\n        int[] arr = {10, 20, 30};\n\n        System.out.println(\"Length: \" + arr.length);\n        System.out.println(\"Valid indices: 0 to \" + (arr.length - 1));\n\n        // Safe access\n        for (int i = 0; i < arr.length; i++) {\n            System.out.println(\"arr[\" + i + \"] = \" + arr[i]);\n        }\n\n        // Dangerous: this would throw an exception\n        try {\n            System.out.println(arr[3]); // Index 3 is out of bounds\n        } catch (ArrayIndexOutOfBoundsException e) {\n            System.out.println(\"Error: \" + e.getMessage());\n        }\n\n        try {\n            System.out.println(arr[-1]); // Negative index\n        } catch (ArrayIndexOutOfBoundsException e) {\n            System.out.println(\"Error: \" + e.getMessage());\n        }\n    }\n}",
+        "language": "java",
+        "explanation": "An array of length 3 has valid indices 0, 1, 2. Accessing index 3 or -1 throws <code>ArrayIndexOutOfBoundsException</code>. Always use <code>i < arr.length</code> in loop conditions. The try-catch here is for demonstration; in real code, prevent the error with proper bounds checking.",
+        "output": "Length: 3\nValid indices: 0 to 2\narr[0] = 10\narr[1] = 20\narr[2] = 30\nError: Index 3 out of bounds for length 3\nError: Index -1 out of bounds for length 3"
+      },
+      {
+        "title": "Matrix Transpose",
+        "code": "import java.util.Arrays;\n\npublic class Transpose {\n    public static void main(String[] args) {\n        int[][] matrix = {\n            {1, 2, 3},\n            {4, 5, 6}\n        };\n\n        int rows = matrix.length;\n        int cols = matrix[0].length;\n\n        // Transpose: swap rows and columns\n        int[][] transposed = new int[cols][rows];\n        for (int i = 0; i < rows; i++) {\n            for (int j = 0; j < cols; j++) {\n                transposed[j][i] = matrix[i][j];\n            }\n        }\n\n        System.out.println(\"Original (\" + rows + \"x\" + cols + \"):\");\n        for (int[] row : matrix) System.out.println(Arrays.toString(row));\n\n        System.out.println(\"Transposed (\" + cols + \"x\" + rows + \"):\");\n        for (int[] row : transposed) System.out.println(Arrays.toString(row));\n    }\n}",
+        "language": "java",
+        "explanation": "The transpose of a matrix swaps rows and columns: element [i][j] becomes [j][i]. A 2x3 matrix becomes a 3x2 matrix. This is a fundamental matrix operation used in linear algebra, image processing, and many algorithms.",
+        "output": "Original (2x3):\n[1, 2, 3]\n[4, 5, 6]\nTransposed (3x2):\n[1, 4]\n[2, 5]\n[3, 6]"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "ArrayIndexOutOfBoundsException (Off-by-One)",
+        "wrongCode": "int[] arr = {10, 20, 30, 40, 50};\nfor (int i = 0; i <= arr.length; i++) { // Bug: <= instead of <\n    System.out.println(arr[i]);\n}",
+        "error": "ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5",
+        "correctCode": "int[] arr = {10, 20, 30, 40, 50};\nfor (int i = 0; i < arr.length; i++) { // < not <=\n    System.out.println(arr[i]);\n}",
+        "explanation": "An array of length 5 has indices 0 through 4. <code>i <= arr.length</code> allows i = 5, which is out of bounds. Always use <code>i < arr.length</code> (strictly less than). This is the most common array bug."
+      },
+      {
+        "title": "Comparing Arrays with == Instead of Arrays.equals()",
+        "wrongCode": "int[] a = {1, 2, 3};\nint[] b = {1, 2, 3};\nSystem.out.println(a == b); // false!",
+        "error": "Prints false because == compares references, not content.",
+        "correctCode": "import java.util.Arrays;\n\nint[] a = {1, 2, 3};\nint[] b = {1, 2, 3};\nSystem.out.println(Arrays.equals(a, b)); // true",
+        "explanation": "Arrays are objects. <code>==</code> checks if both variables point to the same object in memory (same reference). Even if two arrays have identical elements, <code>==</code> returns false if they are different objects. Use <code>Arrays.equals()</code> for content comparison and <code>Arrays.deepEquals()</code> for 2D arrays."
+      },
+      {
+        "title": "Printing an Array Directly Shows Hash Code",
+        "wrongCode": "int[] arr = {1, 2, 3};\nSystem.out.println(arr); // Prints something like [I@6d06d69c",
+        "error": "Prints the hash code reference, not the array contents.",
+        "correctCode": "import java.util.Arrays;\n\nint[] arr = {1, 2, 3};\nSystem.out.println(Arrays.toString(arr)); // Prints [1, 2, 3]",
+        "explanation": "Arrays in Java do not override <code>toString()</code>. Printing an array directly shows the type code and hash (e.g., <code>[I@6d06d69c</code> means int array at that memory address). Always use <code>Arrays.toString()</code> for readable output."
+      },
+      {
+        "title": "Using binarySearch on an Unsorted Array",
+        "wrongCode": "int[] arr = {42, 15, 78, 23, 56};\nint idx = Arrays.binarySearch(arr, 23); // Undefined behavior!",
+        "error": "binarySearch may return a wrong index or a negative value because the array is not sorted.",
+        "correctCode": "int[] arr = {42, 15, 78, 23, 56};\nArrays.sort(arr); // Sort first!\nint idx = Arrays.binarySearch(arr, 23); // Now works correctly",
+        "explanation": "<code>Arrays.binarySearch()</code> requires the array to be sorted in ascending order. Using it on an unsorted array produces undefined (incorrect) results. Always call <code>Arrays.sort()</code> before <code>binarySearch()</code>."
+      },
+      {
+        "title": "Shallow Copy: Assigning Array References",
+        "wrongCode": "int[] original = {1, 2, 3};\nint[] copy = original; // Not a copy! Both point to the same array\ncopy[0] = 99;\nSystem.out.println(original[0]); // 99 (original is modified!)",
+        "error": "Modifying 'copy' also modifies 'original' because they reference the same array.",
+        "correctCode": "int[] original = {1, 2, 3};\nint[] copy = Arrays.copyOf(original, original.length);\ncopy[0] = 99;\nSystem.out.println(original[0]); // 1 (original is unchanged)",
+        "explanation": "Assigning one array variable to another copies the <strong>reference</strong>, not the data. Both variables point to the same underlying array. To create an independent copy, use <code>Arrays.copyOf()</code>, <code>clone()</code>, or <code>System.arraycopy()</code>."
+      }
+    ],
+    "summary": [
+      "Arrays are fixed-size, zero-indexed, homogeneous collections stored in contiguous memory. They provide O(1) access by index.",
+      "Declare with values: int[] arr = {1, 2, 3}; or with new: int[] arr = new int[5]; (defaults: 0, 0.0, false, null).",
+      "Access elements with arr[index]. Valid indices: 0 to arr.length - 1. Going out of bounds throws ArrayIndexOutOfBoundsException.",
+      "arr.length is a property (no parentheses) that returns the array size. It is final and cannot be changed.",
+      "Use for loops for index-based iteration (modification, index logic). Use for-each for read-only value iteration.",
+      "2D arrays: int[][] matrix = new int[rows][cols]. Access with matrix[row][col]. matrix.length = rows, matrix[i].length = columns.",
+      "Jagged arrays: rows can have different lengths. Declare: int[][] j = new int[3][]; then assign each row independently.",
+      "Arrays utility class (java.util.Arrays): sort(), binarySearch() (array must be sorted), fill(), copyOf(), copyOfRange(), toString(), equals(), deepToString(), deepEquals().",
+      "Arrays are reference types. Assigning arr2 = arr1 copies the reference, not the data. Use Arrays.copyOf() for a true copy.",
+      "Passing arrays to methods passes the reference. The method can modify the original array's elements.",
+      "Never use == to compare arrays (compares references). Use Arrays.equals() for 1D and Arrays.deepEquals() for 2D arrays."
+    ]
+  },
+  "relatedTopics": [
+    "loops-in-java",
+    "strings-in-java"
+  ],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int[] arr = {10, 20, 30, 40, 50};\nSystem.out.println(arr[0]);\nSystem.out.println(arr[4]);\nSystem.out.println(arr.length);</code></pre>",
+        "hint": "Arrays are 0-indexed. length is a property.",
+        "answer": "<code>10</code><br><code>50</code><br><code>5</code>",
+        "explanation": "arr[0] is the first element (10). arr[4] is the last element (50). arr.length is 5."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int[] arr = new int[4];\nSystem.out.println(arr[0]);\nSystem.out.println(arr[3]);</code></pre>",
+        "hint": "Default value for int arrays is 0.",
+        "answer": "<code>0</code><br><code>0</code>",
+        "explanation": "Arrays created with <code>new int[4]</code> have all elements initialized to 0 (the default for int)."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>String[] names = new String[3];\nSystem.out.println(names[0]);</code></pre>",
+        "hint": "Default value for reference type arrays is null.",
+        "answer": "<code>null</code>",
+        "explanation": "String is a reference type. Arrays of reference types are initialized to null."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int[] arr = {5, 10, 15};\narr[1] = 99;\nfor (int n : arr) {\n    System.out.print(n + \" \");\n}</code></pre>",
+        "hint": "We modify index 1 from 10 to 99.",
+        "answer": "<code>5 99 15 </code>",
+        "explanation": "arr starts as {5, 10, 15}. After <code>arr[1] = 99</code>, it becomes {5, 99, 15}."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int[] a = {1, 2, 3};\nint[] b = a;\nb[0] = 99;\nSystem.out.println(a[0]);</code></pre>",
+        "hint": "b = a copies the reference, not the data.",
+        "answer": "<code>99</code>",
+        "explanation": "<code>b = a</code> makes b point to the same array object as a. Modifying b[0] also changes a[0] because they share the same underlying array."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int[] arr = {1, 2, 3};\nSystem.out.println(arr == arr);\nint[] arr2 = {1, 2, 3};\nSystem.out.println(arr == arr2);</code></pre>",
+        "hint": "== compares references, not content.",
+        "answer": "<code>true</code><br><code>false</code>",
+        "explanation": "<code>arr == arr</code> is true (same reference). <code>arr == arr2</code> is false (different objects, even though content is the same). Use <code>Arrays.equals()</code> for content comparison."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import java.util.Arrays;\nint[] arr = {5, 2, 8, 1, 9};\nArrays.sort(arr);\nSystem.out.println(Arrays.toString(arr));</code></pre>",
+        "hint": "Arrays.sort() sorts in ascending order in-place.",
+        "answer": "<code>[1, 2, 5, 8, 9]</code>",
+        "explanation": "<code>Arrays.sort()</code> sorts the array in ascending order. The original array is modified (in-place sorting)."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int[][] matrix = {{1, 2}, {3, 4}, {5, 6}};\nSystem.out.println(matrix.length);\nSystem.out.println(matrix[0].length);\nSystem.out.println(matrix[2][1]);</code></pre>",
+        "hint": "matrix.length = rows. matrix[i].length = columns in row i.",
+        "answer": "<code>3</code><br><code>2</code><br><code>6</code>",
+        "explanation": "3 rows, 2 columns per row. matrix[2][1] is the element at row 2, column 1, which is 6."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import java.util.Arrays;\nint[] arr = {3, 1, 4, 1, 5};\nint[] copy = Arrays.copyOf(arr, 3);\narr[0] = 99;\nSystem.out.println(Arrays.toString(copy));</code></pre>",
+        "hint": "copyOf creates an independent copy. Changes to arr do not affect copy.",
+        "answer": "<code>[3, 1, 4]</code>",
+        "explanation": "<code>Arrays.copyOf(arr, 3)</code> creates a new array with the first 3 elements: {3, 1, 4}. It is an independent copy. Changing arr[0] to 99 does not affect the copy."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import java.util.Arrays;\nint[] arr = {10, 20, 30, 40, 50};\nArrays.sort(arr);\nint idx = Arrays.binarySearch(arr, 30);\nSystem.out.println(idx);</code></pre>",
+        "hint": "After sorting: {10, 20, 30, 40, 50}. Find the index of 30.",
+        "answer": "<code>2</code>",
+        "explanation": "After sorting (already sorted in this case): {10, 20, 30, 40, 50}. 30 is at index 2. <code>binarySearch()</code> returns 2."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int[][] jagged = new int[3][];\njagged[0] = new int[]{1};\njagged[1] = new int[]{2, 3};\njagged[2] = new int[]{4, 5, 6};\nint sum = 0;\nfor (int[] row : jagged) {\n    for (int val : row) {\n        sum += val;\n    }\n}\nSystem.out.println(sum);</code></pre>",
+        "hint": "Sum all elements across all rows of different lengths.",
+        "answer": "<code>21</code>",
+        "explanation": "1 + 2 + 3 + 4 + 5 + 6 = 21. The for-each loop handles jagged arrays correctly because each row is iterated independently based on its own length."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is arr.length a property (no parentheses) while String's length() is a method (with parentheses)?",
+        "hint": "Think about the difference between a field and a method.",
+        "answer": "Arrays have a public final field called <code>length</code> that is set when the array is created and never changes. It is accessed as a field (no parentheses). Strings use a <code>length()</code> method because String is a class with encapsulated internal state. The distinction is a Java design decision: arrays are a special construct in the language, not a regular class.",
+        "explanation": "This is a common interview question. Remember: <code>arr.length</code> (array, no parentheses), <code>str.length()</code> (String, with parentheses), <code>list.size()</code> (List, with parentheses)."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain the difference between Arrays.copyOf() and assigning one array to another (arr2 = arr1).",
+        "hint": "Think about references vs actual data.",
+        "answer": "<code>arr2 = arr1</code> copies the <strong>reference</strong>, making both variables point to the same underlying array object. Changes through either variable affect the same data. <code>Arrays.copyOf(arr1, arr1.length)</code> creates a <strong>new array object</strong> with the same values but independent memory. Changes to one do not affect the other.",
+        "explanation": "This is the shallow copy vs reference copy distinction. For arrays of primitives, <code>copyOf()</code> creates a fully independent copy. For arrays of objects, it copies the references (not the objects themselves), which is a shallow copy."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>boolean[] flags = new boolean[3];\nSystem.out.println(flags[0]);\nSystem.out.println(flags[2]);</code></pre>",
+        "hint": "Default value for boolean arrays is false.",
+        "answer": "<code>false</code><br><code>false</code>",
+        "explanation": "boolean arrays are initialized to false by default."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int[] arr = {10, 20, 30, 40};\nint sum = 0;\nfor (int i = 0; i < arr.length; i += 2) {\n    sum += arr[i];\n}\nSystem.out.println(sum);</code></pre>",
+        "hint": "i takes values 0 and 2 (step by 2). Access arr[0] and arr[2].",
+        "answer": "<code>40</code>",
+        "explanation": "i = 0: sum += arr[0] = 10. i = 2: sum += arr[2] = 30. Total = 40. Only even-indexed elements are summed."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import java.util.Arrays;\nint[] a = {1, 2, 3};\nint[] b = a.clone();\nb[0] = 99;\nSystem.out.println(Arrays.toString(a));\nSystem.out.println(Arrays.toString(b));</code></pre>",
+        "hint": "clone() creates an independent copy.",
+        "answer": "<code>[1, 2, 3]</code><br><code>[99, 2, 3]</code>",
+        "explanation": "<code>clone()</code> creates a new array with the same values (independent copy). Modifying b[0] does not affect a."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import java.util.Arrays;\nint[] arr = {5, 3, 8, 1, 2};\nArrays.sort(arr, 1, 4);\nSystem.out.println(Arrays.toString(arr));</code></pre>",
+        "hint": "sort(arr, fromIndex, toIndex) sorts only the range [1, 4).",
+        "answer": "<code>[5, 1, 3, 8, 2]</code>",
+        "explanation": "<code>Arrays.sort(arr, 1, 4)</code> sorts indices 1, 2, 3 (not 0 or 4). Elements at indices 1-3 were {3, 8, 1}, sorted to {1, 3, 8}. Result: {5, 1, 3, 8, 2}."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that creates an array of 5 integers, reads values from the user, and prints their sum and average.",
+        "hint": "Use a for loop to read and sum.",
+        "answer": "<pre><code>import java.util.Scanner;\n\npublic class ArraySum {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int[] arr = new int[5];\n        System.out.println(\"Enter 5 numbers:\");\n        int sum = 0;\n        for (int i = 0; i < 5; i++) {\n            arr[i] = sc.nextInt();\n            sum += arr[i];\n        }\n        System.out.println(\"Sum: \" + sum);\n        System.out.println(\"Average: \" + (double) sum / 5);\n        sc.close();\n    }\n}</code></pre>",
+        "explanation": "We read 5 integers into the array and accumulate the sum. Average is computed as (double) sum / 5 to get a decimal result."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int[] arr = {10, 20, 30};\nfor (int i = arr.length - 1; i >= 0; i--) {\n    System.out.print(arr[i] + \" \");\n}</code></pre>",
+        "hint": "Iterating from the last index to 0 prints in reverse.",
+        "answer": "<code>30 20 10 </code>",
+        "explanation": "Starting from arr.length - 1 = 2 and going to 0 prints elements in reverse order."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int[] arr = {5, 3, 8, 1, 9, 2};\nint min = arr[0];\nfor (int i = 1; i < arr.length; i++) {\n    if (arr[i] < min) {\n        min = arr[i];\n    }\n}\nSystem.out.println(\"Min: \" + min);</code></pre>",
+        "hint": "Track the smallest value seen so far.",
+        "answer": "<code>Min: 1</code>",
+        "explanation": "min starts as arr[0] = 5. Iterating: 3 < 5? Yes, min = 3. 8 < 3? No. 1 < 3? Yes, min = 1. 9 < 1? No. 2 < 1? No. Final min = 1."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a method that takes an int array and returns a new array with elements in reverse order. Do not modify the original.",
+        "hint": "Create a new array. Copy elements from end to start.",
+        "answer": "<pre><code>import java.util.Arrays;\n\npublic class ReverseArray {\n    public static int[] reverse(int[] arr) {\n        int[] result = new int[arr.length];\n        for (int i = 0; i < arr.length; i++) {\n            result[i] = arr[arr.length - 1 - i];\n        }\n        return result;\n    }\n\n    public static void main(String[] args) {\n        int[] nums = {1, 2, 3, 4, 5};\n        int[] rev = reverse(nums);\n        System.out.println(Arrays.toString(rev));\n        System.out.println(Arrays.toString(nums)); // unchanged\n    }\n}</code></pre>",
+        "explanation": "We create a new array and fill it by mapping index i to arr[length-1-i]. The original array remains unchanged."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import java.util.Arrays;\nint[] arr = new int[5];\nArrays.fill(arr, 3);\narr[2] = 7;\nSystem.out.println(Arrays.toString(arr));</code></pre>",
+        "hint": "fill sets all to 3, then we override index 2.",
+        "answer": "<code>[3, 3, 7, 3, 3]</code>",
+        "explanation": "<code>Arrays.fill(arr, 3)</code> sets all 5 elements to 3: {3, 3, 3, 3, 3}. Then <code>arr[2] = 7</code> changes the middle element."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int[][] m = {{1, 2, 3}, {4, 5, 6}};\nint[][] t = new int[3][2];\nfor (int i = 0; i < 2; i++) {\n    for (int j = 0; j < 3; j++) {\n        t[j][i] = m[i][j];\n    }\n}\nSystem.out.println(t[0][0] + \" \" + t[0][1]);\nSystem.out.println(t[1][0] + \" \" + t[1][1]);\nSystem.out.println(t[2][0] + \" \" + t[2][1]);</code></pre>",
+        "hint": "This is a matrix transpose: t[j][i] = m[i][j].",
+        "answer": "<code>1 4</code><br><code>2 5</code><br><code>3 6</code>",
+        "explanation": "Transpose swaps rows and columns. m = [[1,2,3],[4,5,6]] becomes t = [[1,4],[2,5],[3,6]]. A 2x3 matrix becomes 3x2."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import java.util.Arrays;\nint[] arr = {3, 1, 4, 1, 5, 9, 2, 6};\nArrays.sort(arr);\nint result = Arrays.binarySearch(arr, 7);\nSystem.out.println(result);</code></pre>",
+        "hint": "7 is not in the array. binarySearch returns a negative value.",
+        "answer": "A negative value (specifically <code>-8</code>)",
+        "explanation": "Sorted: {1, 1, 2, 3, 4, 5, 6, 9}. 7 is not present. <code>binarySearch()</code> returns -(insertion point) - 1. 7 would be inserted at index 7 (between 6 and 9), so it returns -(7)-1 = -8."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>int[] arr = {1, 2, 3, 4, 5};\nfor (int n : arr) {\n    n = n * 10;\n}\nSystem.out.println(arr[0] + \" \" + arr[4]);</code></pre>",
+        "hint": "for-each variable is a copy for primitive arrays.",
+        "answer": "<code>1 5</code>",
+        "explanation": "In a for-each loop, <code>n</code> is a copy of the array element (for primitives). Assigning <code>n = n * 10</code> modifies the copy, not the original array. The array remains {1, 2, 3, 4, 5}."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a program that reads a 3x3 matrix from the user and prints the sum of each row, each column, and both diagonals.",
+        "hint": "Use nested loops. Column sum: iterate rows for a fixed column.",
+        "answer": "<pre><code>import java.util.Scanner;\n\npublic class MatrixSums {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int[][] m = new int[3][3];\n        System.out.println(\"Enter 3x3 matrix:\");\n        for (int i = 0; i < 3; i++)\n            for (int j = 0; j < 3; j++)\n                m[i][j] = sc.nextInt();\n\n        for (int i = 0; i < 3; i++) {\n            int rowSum = 0;\n            for (int j = 0; j < 3; j++) rowSum += m[i][j];\n            System.out.println(\"Row \" + i + \" sum: \" + rowSum);\n        }\n        for (int j = 0; j < 3; j++) {\n            int colSum = 0;\n            for (int i = 0; i < 3; i++) colSum += m[i][j];\n            System.out.println(\"Col \" + j + \" sum: \" + colSum);\n        }\n        int d1 = 0, d2 = 0;\n        for (int i = 0; i < 3; i++) {\n            d1 += m[i][i];\n            d2 += m[i][2 - i];\n        }\n        System.out.println(\"Main diagonal: \" + d1);\n        System.out.println(\"Anti diagonal: \" + d2);\n        sc.close();\n    }\n}</code></pre>",
+        "explanation": "Row sums: fix i, iterate j. Column sums: fix j, iterate i. Main diagonal: m[i][i]. Anti-diagonal: m[i][n-1-i]."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>int[] arr = {3, 6, 9};\nSystem.out.println(arr[arr.length - 1]);</code></pre>",
+        "hint": "arr.length is 3. arr[3-1] = arr[2].",
+        "answer": "<code>9</code>",
+        "explanation": "arr.length = 3. <code>arr[2]</code> is the last element: 9."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int[] arr = {1, 2, 3, 4, 5};\nint[] reversed = new int[arr.length];\nfor (int i = 0; i < arr.length; i++) {\n    reversed[i] = arr[arr.length - 1 - i];\n}\nSystem.out.print(reversed[0] + \" \" + reversed[4]);</code></pre>",
+        "hint": "reversed[0] = arr[4], reversed[4] = arr[0].",
+        "answer": "<code>5 1</code>",
+        "explanation": "reversed[0] = arr[4] = 5. reversed[4] = arr[0] = 1."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a method that takes an int array and returns true if the array is sorted in ascending order, false otherwise.",
+        "hint": "Check if each element is <= the next element.",
+        "answer": "<pre><code>public static boolean isSorted(int[] arr) {\n    for (int i = 0; i < arr.length - 1; i++) {\n        if (arr[i] > arr[i + 1]) {\n            return false;\n        }\n    }\n    return true;\n}</code></pre>",
+        "explanation": "We compare each adjacent pair. If any pair is out of order (arr[i] > arr[i+1]), the array is not sorted. If we complete the loop without finding such a pair, it is sorted."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import java.util.Arrays;\nint[] arr = {1, 2, 3, 4, 5};\nint[] bigger = Arrays.copyOf(arr, 8);\nSystem.out.println(Arrays.toString(bigger));</code></pre>",
+        "hint": "copyOf with a larger length pads with default values.",
+        "answer": "<code>[1, 2, 3, 4, 5, 0, 0, 0]</code>",
+        "explanation": "<code>Arrays.copyOf(arr, 8)</code> creates an array of length 8. The first 5 elements are copied from arr. The remaining 3 positions are filled with the default value for int (0)."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the index of the first element in a Java array?",
+        "options": [
+          "1",
+          "0",
+          "-1",
+          "Depends on the array"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Java arrays are zero-indexed. The first element is at index 0."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the default value of elements in a new int array?",
+        "options": [
+          "null",
+          "-1",
+          "0",
+          "undefined"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Default values: 0 for int, 0.0 for double, false for boolean, null for reference types."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which property gives the number of elements in an array?",
+        "options": [
+          "arr.size()",
+          "arr.length()",
+          "arr.length",
+          "arr.count"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>length</code> is a field (no parentheses) for arrays. <code>length()</code> is a method for Strings. <code>size()</code> is a method for Collections."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What exception is thrown when accessing an invalid array index?",
+        "options": [
+          "IndexOutOfBoundsException",
+          "ArrayIndexOutOfBoundsException",
+          "NullPointerException",
+          "IllegalArgumentException"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>ArrayIndexOutOfBoundsException</code> is thrown when accessing an index < 0 or >= array.length."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which method from the Arrays class sorts an array?",
+        "options": [
+          "Arrays.order()",
+          "Arrays.arrange()",
+          "Arrays.sort()",
+          "Arrays.sorted()"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>Arrays.sort()</code> sorts the array in ascending order in-place."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does Arrays.toString(arr) return for int[] arr = {1, 2, 3}?",
+        "options": [
+          "[1, 2, 3]",
+          "{1, 2, 3}",
+          "1 2 3",
+          "[I@6d06d69c"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>Arrays.toString()</code> returns a string in the format [element1, element2, ...]. Option D is what <code>System.out.println(arr)</code> prints without Arrays.toString()."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is a jagged array?",
+        "options": [
+          "An array with null elements",
+          "A 2D array where each row can have a different number of columns",
+          "An array that is not sorted",
+          "An array with negative indices"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A jagged array is a 2D array where rows have varying lengths. In Java, this is possible because a 2D array is an array of references to independent 1D arrays."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What happens when you pass an array to a method in Java?",
+        "options": [
+          "A copy of the array is passed",
+          "The reference (memory address) is passed",
+          "Only the first element is passed",
+          "It depends on the array size"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Java passes the array reference (pass by value of the reference). The method operates on the same underlying array, so modifications affect the original."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does Arrays.binarySearch() require?",
+        "options": [
+          "The array must be in descending order",
+          "The array must be sorted in ascending order",
+          "The array can be unsorted",
+          "The array must contain unique elements"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>binarySearch()</code> requires the array to be sorted in ascending order. Using it on an unsorted array produces undefined results."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><code>int[] a = {1}; int[] b = {1}; System.out.println(a.equals(b));</code>",
+        "options": [
+          "true",
+          "false",
+          "Error",
+          "1"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Arrays inherit <code>equals()</code> from Object, which compares references (same as ==). Two different array objects are not equal by reference. Use <code>Arrays.equals(a, b)</code> for content comparison."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the time complexity of Arrays.sort() for primitive arrays?",
+        "options": [
+          "O(n)",
+          "O(n log n)",
+          "O(n^2)",
+          "O(log n)"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Arrays.sort() uses dual-pivot Quicksort for primitives with O(n log n) average time complexity. For object arrays, it uses TimSort (also O(n log n))."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What does Arrays.copyOfRange(arr, 2, 5) return for arr = {10, 20, 30, 40, 50, 60}?",
+        "options": [
+          "[30, 40, 50]",
+          "[20, 30, 40, 50]",
+          "[30, 40, 50, 60]",
+          "[20, 30, 40]"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>copyOfRange(arr, 2, 5)</code> copies indices 2, 3, 4 (from=inclusive, to=exclusive). Elements: arr[2]=30, arr[3]=40, arr[4]=50."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Can arrays store elements of different types in Java?",
+        "options": [
+          "Yes, all arrays accept any type",
+          "Yes, if declared as Object[]",
+          "No, arrays are always homogeneous",
+          "Only if using generics"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> An <code>Object[]</code> array can store any type because all classes inherit from Object. However, the array itself is typed as Object[], and you need casting when retrieving elements. Primitive arrays (int[], double[]) are strictly homogeneous."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "How do you create an independent copy of an array?",
+        "options": [
+          "int[] copy = original;",
+          "int[] copy = Arrays.copyOf(original, original.length);",
+          "int[] copy = new int[original];",
+          "int[] copy = original.copy();"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>Arrays.copyOf()</code> creates a new array with copied values. Option A copies the reference (not independent). Option C is invalid syntax. Option D: arrays do not have a <code>copy()</code> method (they have <code>clone()</code>)."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "What is the valid index range for an array of length 10?",
+        "options": [
+          "1 to 10",
+          "0 to 10",
+          "0 to 9",
+          "1 to 9"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Arrays are 0-indexed. An array of length 10 has valid indices 0 through 9."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "Which method prints a 2D array in readable format?",
+        "options": [
+          "Arrays.toString()",
+          "Arrays.deepToString()",
+          "Arrays.print()",
+          "System.out.println()"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>Arrays.deepToString()</code> handles multidimensional arrays, printing them as [[row1], [row2], ...]. <code>Arrays.toString()</code> only works for 1D arrays."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><code>int[] arr = {}; System.out.println(arr.length);</code>",
+        "options": [
+          "0",
+          "null",
+          "Error",
+          "-1"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> An empty array <code>{}</code> is a valid array with length 0. It is not null; it is an array object that contains no elements."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Find Second Largest Element",
+        "difficulty": "Easy",
+        "description": "Write a program that finds the second largest element in an array without sorting.",
+        "sampleInput": "Array: {12, 35, 1, 10, 34, 1}",
+        "sampleOutput": "Second largest: 34",
+        "constraints": "Track both the largest and second largest in a single pass.",
+        "solution": "public class SecondLargest {\n    public static void main(String[] args) {\n        int[] arr = {12, 35, 1, 10, 34, 1};\n        int first = Integer.MIN_VALUE, second = Integer.MIN_VALUE;\n        for (int n : arr) {\n            if (n > first) {\n                second = first;\n                first = n;\n            } else if (n > second && n != first) {\n                second = n;\n            }\n        }\n        System.out.println(\"Second largest: \" + second);\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Reverse Array In-Place",
+        "difficulty": "Easy",
+        "description": "Reverse an array in-place using two pointers (without creating a new array).",
+        "sampleInput": "Array: {1, 2, 3, 4, 5}",
+        "sampleOutput": "Reversed: [5, 4, 3, 2, 1]",
+        "constraints": "Use two pointers: one at start, one at end. Swap and move inward.",
+        "solution": "import java.util.Arrays;\n\npublic class ReverseInPlace {\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, 4, 5};\n        int left = 0, right = arr.length - 1;\n        while (left < right) {\n            int temp = arr[left];\n            arr[left] = arr[right];\n            arr[right] = temp;\n            left++;\n            right--;\n        }\n        System.out.println(\"Reversed: \" + Arrays.toString(arr));\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Count Frequency of Each Element",
+        "difficulty": "Medium",
+        "description": "Given an array of integers, count and print the frequency of each distinct element.",
+        "sampleInput": "Array: {3, 5, 3, 2, 5, 5, 1, 2}",
+        "sampleOutput": "3 appears 2 times\n5 appears 3 times\n2 appears 2 times\n1 appears 1 times",
+        "constraints": "Use a boolean visited array to avoid counting duplicates twice.",
+        "solution": "public class Frequency {\n    public static void main(String[] args) {\n        int[] arr = {3, 5, 3, 2, 5, 5, 1, 2};\n        boolean[] visited = new boolean[arr.length];\n        for (int i = 0; i < arr.length; i++) {\n            if (visited[i]) continue;\n            int count = 1;\n            for (int j = i + 1; j < arr.length; j++) {\n                if (arr[i] == arr[j]) {\n                    count++;\n                    visited[j] = true;\n                }\n            }\n            System.out.println(arr[i] + \" appears \" + count + \" times\");\n        }\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Merge Two Sorted Arrays",
+        "difficulty": "Medium",
+        "description": "Given two sorted arrays, merge them into a single sorted array without using Arrays.sort().",
+        "sampleInput": "a = {1, 3, 5, 7}, b = {2, 4, 6, 8}",
+        "sampleOutput": "Merged: [1, 2, 3, 4, 5, 6, 7, 8]",
+        "constraints": "Use two pointers, one for each array. Compare and pick the smaller element.",
+        "solution": "import java.util.Arrays;\n\npublic class MergeSorted {\n    public static void main(String[] args) {\n        int[] a = {1, 3, 5, 7}, b = {2, 4, 6, 8};\n        int[] merged = new int[a.length + b.length];\n        int i = 0, j = 0, k = 0;\n        while (i < a.length && j < b.length) {\n            if (a[i] <= b[j]) merged[k++] = a[i++];\n            else merged[k++] = b[j++];\n        }\n        while (i < a.length) merged[k++] = a[i++];\n        while (j < b.length) merged[k++] = b[j++];\n        System.out.println(\"Merged: \" + Arrays.toString(merged));\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Rotate Array by K Positions",
+        "difficulty": "Medium",
+        "description": "Rotate an array to the left by K positions. Example: {1,2,3,4,5} rotated left by 2 becomes {3,4,5,1,2}.",
+        "sampleInput": "Array: {1, 2, 3, 4, 5}, K = 2",
+        "sampleOutput": "Rotated: [3, 4, 5, 1, 2]",
+        "constraints": "Use the reversal algorithm: reverse first K, reverse rest, reverse all.",
+        "solution": "import java.util.Arrays;\n\npublic class RotateArray {\n    static void reverse(int[] arr, int start, int end) {\n        while (start < end) {\n            int temp = arr[start];\n            arr[start] = arr[end];\n            arr[end] = temp;\n            start++;\n            end--;\n        }\n    }\n\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, 4, 5};\n        int k = 2;\n        k = k % arr.length;\n        reverse(arr, 0, k - 1);\n        reverse(arr, k, arr.length - 1);\n        reverse(arr, 0, arr.length - 1);\n        System.out.println(\"Rotated: \" + Arrays.toString(arr));\n    }\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Matrix Addition",
+        "difficulty": "Medium",
+        "description": "Read two 2x3 matrices from the user and print their sum matrix.",
+        "sampleInput": "Matrix A: {{1,2,3},{4,5,6}}, Matrix B: {{7,8,9},{10,11,12}}",
+        "sampleOutput": "Sum: {{8,10,12},{14,16,18}}",
+        "constraints": "Add corresponding elements: C[i][j] = A[i][j] + B[i][j].",
+        "solution": "import java.util.Arrays;\n\npublic class MatrixAdd {\n    public static void main(String[] args) {\n        int[][] a = {{1,2,3},{4,5,6}};\n        int[][] b = {{7,8,9},{10,11,12}};\n        int[][] sum = new int[2][3];\n        for (int i = 0; i < 2; i++) {\n            for (int j = 0; j < 3; j++) {\n                sum[i][j] = a[i][j] + b[i][j];\n            }\n        }\n        System.out.println(\"Sum:\");\n        for (int[] row : sum) System.out.println(Arrays.toString(row));\n    }\n}"
+      },
+      {
+        "id": "cc-7",
+        "title": "Find Duplicate Elements",
+        "difficulty": "Hard",
+        "description": "Given an array, find and print all duplicate elements (elements that appear more than once).",
+        "sampleInput": "Array: {4, 2, 7, 2, 4, 9, 7, 1}",
+        "sampleOutput": "Duplicates: 2, 7, 4",
+        "constraints": "Use nested loops or sorting. Print each duplicate only once.",
+        "solution": "import java.util.Arrays;\n\npublic class FindDuplicates {\n    public static void main(String[] args) {\n        int[] arr = {4, 2, 7, 2, 4, 9, 7, 1};\n        int[] sorted = Arrays.copyOf(arr, arr.length);\n        Arrays.sort(sorted);\n        System.out.print(\"Duplicates: \");\n        for (int i = 1; i < sorted.length; i++) {\n            if (sorted[i] == sorted[i - 1]) {\n                if (i == 1 || sorted[i] != sorted[i - 2]) {\n                    System.out.print(sorted[i] + \" \");\n                }\n            }\n        }\n        System.out.println();\n    }\n}"
+      },
+      {
+        "id": "cc-8",
+        "title": "Spiral Matrix Traversal",
+        "difficulty": "Hard",
+        "description": "Given an m x n matrix, print its elements in spiral order (right, down, left, up, repeat).",
+        "sampleInput": "Matrix: {{1,2,3},{4,5,6},{7,8,9}}",
+        "sampleOutput": "1 2 3 6 9 8 7 4 5",
+        "constraints": "Use four boundary variables: top, bottom, left, right. Shrink after each direction.",
+        "solution": "public class SpiralTraversal {\n    public static void main(String[] args) {\n        int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};\n        int top = 0, bottom = matrix.length - 1;\n        int left = 0, right = matrix[0].length - 1;\n        while (top <= bottom && left <= right) {\n            for (int i = left; i <= right; i++) System.out.print(matrix[top][i] + \" \");\n            top++;\n            for (int i = top; i <= bottom; i++) System.out.print(matrix[i][right] + \" \");\n            right--;\n            if (top <= bottom) {\n                for (int i = right; i >= left; i--) System.out.print(matrix[bottom][i] + \" \");\n                bottom--;\n            }\n            if (left <= right) {\n                for (int i = bottom; i >= top; i--) System.out.print(matrix[i][left] + \" \");\n                left++;\n            }\n        }\n        System.out.println();\n    }\n}"
+      }
+    ]
+  }
+}

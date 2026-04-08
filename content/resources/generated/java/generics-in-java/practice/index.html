@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Generics in Java | Java | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="42+ practice questions on Generics in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="generics in java practice, java questions, java practice problems, generics in java exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/generics-in-java/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/generics-in-java/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/generics-in-java/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/generics-in-java/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/generics-in-java/practice">
+    <meta property="og:title" content="Practice Questions - Generics in Java | Java | Modern Age Coders">
+    <meta property="og:description" content="42+ practice questions on Generics in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/generics-in-java/practice">
+    <meta name="twitter:title" content="Practice Questions - Generics in Java | Java | Modern Age Coders">
+    <meta name="twitter:description" content="42+ practice questions on Generics in Java in Java. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Generics in Java",
+    "description": "42+ practice questions on Generics in Java in Java.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Generics in Java"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/generics-in-java/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Generics in Java",
+        "item": "https://learn.modernagecoders.com/resources/java/generics-in-java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/java/generics-in-java/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java/generics-in-java">Generics in Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 20</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">42 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Generics in Java</h1>
+            <a href="/resources/java/generics-in-java" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Box&lt;T&gt; {
+    T value;
+    Box(T v) { this.value = v; }
+    T get() { return value; }
+}
+public class Main {
+    public static void main(String[] args) {
+        Box&lt;String&gt; b = new Box&lt;&gt;("Hello");
+        System.out.println(b.get());
+        System.out.println(b.get().length());
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">T is String. get() returns a String. No cast needed.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Hello</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Pair&lt;A, B&gt; {
+    A first;
+    B second;
+    Pair(A a, B b) { first = a; second = b; }
+}
+public class Main {
+    public static void main(String[] args) {
+        Pair&lt;String, Integer&gt; p = new Pair&lt;&gt;("Arjun", 20);
+        System.out.println(p.first);
+        System.out.println(p.second);
+        System.out.println(p.first.getClass().getSimpleName());
+        System.out.println(p.second.getClass().getSimpleName());
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">A=String, B=Integer. getClass().getSimpleName() returns the class name.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>Arjun</code><br><code>20</code><br><code>String</code><br><code>Integer</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Does this code compile?<br><pre><code>ArrayList&lt;int&gt; list = new ArrayList&lt;&gt;();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Can generics use primitive types?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3">No, it does not compile. Compilation error: type argument cannot be a primitive type.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    static &lt;T&gt; T getFirst(T[] array) {
+        return array[0];
+    }
+    public static void main(String[] args) {
+        Integer[] ints = {10, 20, 30};
+        String[] strs = {"A", "B", "C"};
+        System.out.println(getFirst(ints));
+        System.out.println(getFirst(strs));
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">The generic method infers T from the array type.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>10</code><br><code>A</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>ArrayList&lt;String&gt; a = new ArrayList&lt;&gt;();
+ArrayList&lt;Integer&gt; b = new ArrayList&lt;&gt;();
+System.out.println(a.getClass() == b.getClass());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Due to type erasure, what are these at runtime?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class MathBox&lt;T extends Number&gt; {
+    T value;
+    MathBox(T v) { value = v; }
+    double doubleVal() { return value.doubleValue(); }
+}
+public class Main {
+    public static void main(String[] args) {
+        MathBox&lt;Integer&gt; a = new MathBox&lt;&gt;(42);
+        MathBox&lt;Double&gt; b = new MathBox&lt;&gt;(3.14);
+        System.out.println(a.doubleVal());
+        System.out.println(b.doubleVal());
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">T extends Number, so doubleValue() is available.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>42.0</code><br><code>3.14</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Does this code compile?<br><pre><code>class Box&lt;T&gt; {
+    static T staticField;  // Is this valid?
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Static fields belong to the class, not to instances. But each instance can have different T.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7">No, it does not compile. Compilation error: cannot make a static reference to the non-static type T.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import java.util.List;
+public class Main {
+    static double sum(List&lt;? extends Number&gt; list) {
+        double total = 0;
+        for (Number n : list) total += n.doubleValue();
+        return total;
+    }
+    public static void main(String[] args) {
+        System.out.println(sum(List.of(1, 2, 3)));
+        System.out.println(sum(List.of(1.5, 2.5)));
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">? extends Number accepts List<Integer> and List<Double>.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>6.0</code><br><code>4.0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Does this code compile?<br><pre><code>List&lt;? extends Number&gt; list = new ArrayList&lt;Integer&gt;();
+list.add(42);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Can you add elements to a List<? extends Number>?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">No, it does not compile. Compilation error: cannot add Integer to List<? extends Number>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import java.util.ArrayList;
+import java.util.List;
+public class Main {
+    static void addInts(List&lt;? super Integer&gt; list) {
+        list.add(10);
+        list.add(20);
+    }
+    public static void main(String[] args) {
+        List&lt;Number&gt; nums = new ArrayList&lt;&gt;();
+        addInts(nums);
+        System.out.println(nums);
+
+        List&lt;Object&gt; objs = new ArrayList&lt;&gt;();
+        addInts(objs);
+        System.out.println(objs);
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">? super Integer accepts List<Integer>, List<Number>, and List<Object>.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>[10, 20]</code><br><code>[10, 20]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>public class Main {
+    static &lt;T extends Comparable&lt;T&gt;&gt; T max(T a, T b, T c) {
+        T result = a;
+        if (b.compareTo(result) &gt; 0) result = b;
+        if (c.compareTo(result) &gt; 0) result = c;
+        return result;
+    }
+    public static void main(String[] args) {
+        System.out.println(max(3, 7, 2));
+        System.out.println(max("apple", "banana", "cherry"));
+        System.out.println(max(3.14, 2.71, 1.41));
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">The method works for any Comparable type. String comparison is lexicographic.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>7</code><br><code>cherry</code><br><code>3.14</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Does this code compile?<br><pre><code>class Container&lt;T&gt; {
+    T create() {
+        return new T();  // ?
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">What does T become at runtime due to type erasure?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">No, it does not compile. Compilation error: cannot instantiate the type T.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import java.util.*;
+public class Main {
+    static &lt;T&gt; void copy(List&lt;? extends T&gt; src, List&lt;? super T&gt; dst) {
+        for (T item : src) {
+            dst.add(item);
+        }
+    }
+    public static void main(String[] args) {
+        List&lt;Integer&gt; ints = List.of(1, 2, 3);
+        List&lt;Object&gt; objs = new ArrayList&lt;&gt;();
+        copy(ints, objs);
+        System.out.println(objs);
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">src is a producer (extends), dst is a consumer (super). T is inferred.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>[1, 2, 3]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        List&lt;String&gt; strings = new ArrayList&lt;&gt;();
+        strings.add("A");
+        strings.add("B");
+
+        List raw = strings;   // Raw type
+        raw.add(100);          // No compile error!
+
+        System.out.println(strings.size());
+
+        for (Object o : strings) {
+            System.out.println(o);
+        }
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Raw types bypass generic type checking. What happens when iterating?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>3</code><br><code>A</code><br><code>B</code><br><code>100</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Wrapper&lt;T extends Comparable&lt;T&gt;&gt; {
+    T value;
+    Wrapper(T v) { value = v; }
+
+    boolean isGreater(Wrapper&lt;T&gt; other) {
+        return value.compareTo(other.value) &gt; 0;
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Wrapper&lt;Integer&gt; a = new Wrapper&lt;&gt;(10);
+        Wrapper&lt;Integer&gt; b = new Wrapper&lt;&gt;(5);
+        Wrapper&lt;String&gt; c = new Wrapper&lt;&gt;("Hello");
+        Wrapper&lt;String&gt; d = new Wrapper&lt;&gt;("World");
+
+        System.out.println(a.isGreater(b));
+        System.out.println(b.isGreater(a));
+        System.out.println(c.isGreater(d));
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">compareTo returns positive if this > other. String comparison is lexicographic.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>true</code><br><code>false</code><br><code>false</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the purpose of generics in Java?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Think about type safety and code reuse.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">Generics provide compile-time type safety and eliminate the need for explicit casting. They allow writing classes and methods that work with any type while catching type errors at compile time instead of runtime. A single generic class (<code>Box&lt;T&gt;</code>) replaces multiple type-specific classes.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is type erasure?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Think about what happens to generic type information at runtime.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">Type erasure is the process by which the Java compiler removes all generic type information during compilation. At runtime, <code>ArrayList&lt;String&gt;</code> and <code>ArrayList&lt;Integer&gt;</code> are both just <code>ArrayList</code>. Generics are a compile-time-only feature.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Container&lt;T&gt; {
+    T value;
+    Container(T v) { value = v; }
+    String getType() { return value.getClass().getSimpleName(); }
+}
+public class Main {
+    public static void main(String[] args) {
+        Container&lt;Integer&gt; a = new Container&lt;&gt;(42);
+        Container&lt;String&gt; b = new Container&lt;&gt;("Hi");
+        System.out.println(a.getType());
+        System.out.println(b.getType());
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">getClass() works on the actual object at runtime.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>Integer</code><br><code>String</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>List&lt;Object&gt;</code> and <code>List&lt;?&gt;</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">One accepts any object for add. The other is read-only.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>List&lt;Object&gt;</code> is a list that holds Objects. You can add any object to it. <code>List&lt;?&gt;</code> is a list of unknown type. You can only read from it (as Object) and cannot add to it (except null). <code>List&lt;String&gt;</code> IS-NOT a <code>List&lt;Object&gt;</code>, but it IS a <code>List&lt;?&gt;</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Explain the PECS principle with an example.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Producer Extends, Consumer Super.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">PECS stands for Producer Extends, Consumer Super. If a collection produces items (you read from it), use <code>? extends T</code>. If it consumes items (you write to it), use <code>? super T</code>. Example: <code>void copy(List&lt;? extends T&gt; source, List&lt;? super T&gt; dest)</code>. Source produces items (extends), dest consumes them (super).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Does this compile?<br><pre><code>class Pair&lt;T&gt; {
+    T first, second;
+    Pair(T a, T b) { first = a; second = b; }
+}
+
+Pair&lt;Number&gt; p = new Pair&lt;&gt;(1, 2.5);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">1 is Integer, 2.5 is Double. Both are Number subclasses.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">Yes, it compiles. T is Number. Integer (1) and Double (2.5) are both subtypes of Number.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import java.util.*;
+public class Main {
+    static &lt;T&gt; List&lt;T&gt; merge(List&lt;? extends T&gt; a, List&lt;? extends T&gt; b) {
+        List&lt;T&gt; result = new ArrayList&lt;&gt;();
+        result.addAll(a);
+        result.addAll(b);
+        return result;
+    }
+    public static void main(String[] args) {
+        List&lt;Integer&gt; ints = List.of(1, 2);
+        List&lt;Double&gt; dbls = List.of(3.0, 4.0);
+        List&lt;Number&gt; merged = merge(ints, dbls);
+        System.out.println(merged);
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">T is inferred as Number (common supertype of Integer and Double).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>[1, 2, 3.0, 4.0]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why can you not create generic arrays like <code>new T[10]</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Think about the relationship between arrays and generics at runtime.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">Arrays carry runtime type information (they are reified and covariant). Generics are erased at runtime. If <code>new T[10]</code> were allowed, the array would be <code>Object[]</code> at runtime, violating the array's type guarantee. This could lead to ArrayStoreException being missed, creating type-unsafe situations.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import java.util.*;
+public class Main {
+    static void addToList(List&lt;? super Integer&gt; list) {
+        list.add(1);
+        list.add(2);
+    }
+    public static void main(String[] args) {
+        List&lt;Number&gt; nums = new ArrayList&lt;&gt;();
+        nums.add(0.5);  // Double
+        addToList(nums);
+        System.out.println(nums);
+        System.out.println(nums.get(0).getClass().getSimpleName());
+        System.out.println(nums.get(1).getClass().getSimpleName());
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">List<Number> contains a Double and two Integers after addToList.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>[0.5, 1, 2]</code><br><code>Double</code><br><code>Integer</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between a bounded type parameter (<code>&lt;T extends Number&gt;</code>) and an upper bounded wildcard (<code>&lt;? extends Number&gt;</code>)?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">One is used in class/method declarations, the other in method parameters.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">Bounded type parameters (<code>&lt;T extends Number&gt;</code>) are used in class or method declarations. They give you a named type T that you can reference throughout the class/method. Upper bounded wildcards (<code>&lt;? extends Number&gt;</code>) are used in method parameters when you do not need to reference the specific type. Wildcards provide more flexibility but less control.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does <T> represent in a generic class?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A specific type called T</li><li><span class="mcq-option-label">B.</span> A type parameter placeholder that is replaced by an actual type</li><li><span class="mcq-option-label">C.</span> The Thread class</li><li><span class="mcq-option-label">D.</span> The Throwable class</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>T</code> is a type parameter (placeholder) that gets replaced by an actual type (like <code>String</code>, <code>Integer</code>) when the generic class is instantiated.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which of these is a valid generic declaration?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> class Box&lt;int&gt; { }</li><li><span class="mcq-option-label">B.</span> class Box&lt;T&gt; { }</li><li><span class="mcq-option-label">C.</span> class Box(T) { }</li><li><span class="mcq-option-label">D.</span> class Box{T} { }</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> Generic type parameters are declared in angle brackets: <code>class Box&lt;T&gt;</code>. Primitive types (int) cannot be used. Parentheses and braces are invalid syntax.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Why were generics introduced in Java?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To make code run faster</li><li><span class="mcq-option-label">B.</span> To provide compile-time type safety and eliminate casting</li><li><span class="mcq-option-label">C.</span> To allow multiple inheritance</li><li><span class="mcq-option-label">D.</span> To replace arrays</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Generics provide compile-time type safety (catching type errors before runtime) and eliminate the need for explicit casting when retrieving elements from collections.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What happens to generic type information at runtime?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It is preserved for instanceof checks</li><li><span class="mcq-option-label">B.</span> It is erased (type erasure)</li><li><span class="mcq-option-label">C.</span> It is stored in a metadata file</li><li><span class="mcq-option-label">D.</span> It is converted to primitive types</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> Java uses type erasure: all generic type parameters are replaced by Object (or the bound) at compile time. No generic type information exists at runtime.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does <code>? extends Number</code> mean in a method parameter?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Exactly Number</li><li><span class="mcq-option-label">B.</span> Number or any subclass of Number</li><li><span class="mcq-option-label">C.</span> Number or any superclass of Number</li><li><span class="mcq-option-label">D.</span> Any type that has a method called extends</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>? extends Number</code> is an upper bounded wildcard. It accepts Number or any subclass (Integer, Double, Long, etc.). You can read from such a collection but not write to it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does <code>? super Integer</code> mean?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Exactly Integer</li><li><span class="mcq-option-label">B.</span> Integer or any subclass of Integer</li><li><span class="mcq-option-label">C.</span> Integer or any superclass of Integer</li><li><span class="mcq-option-label">D.</span> Any type except Integer</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>? super Integer</code> is a lower bounded wildcard. It accepts Integer or any superclass (Number, Object). You can write Integers to such a collection.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does PECS stand for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Polymorphism Encapsulation Class Subtype</li><li><span class="mcq-option-label">B.</span> Producer Extends Consumer Super</li><li><span class="mcq-option-label">C.</span> Parameter Extension Casting System</li><li><span class="mcq-option-label">D.</span> Private Enum Class Static</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> PECS: Producer Extends, Consumer Super. Use <code>extends</code> when reading from a collection (it produces items). Use <code>super</code> when writing to it (it consumes items).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which of these is NOT allowed with generics?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Generic classes</li><li><span class="mcq-option-label">B.</span> Generic methods</li><li><span class="mcq-option-label">C.</span> Generic arrays (new T[])</li><li><span class="mcq-option-label">D.</span> Generic interfaces</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Generic array creation (<code>new T[]</code>) is not allowed because arrays carry runtime type information (reified) while generics are erased. This would create a type safety hole.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Is <code>List&lt;String&gt;</code> a subtype of <code>List&lt;Object&gt;</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, because String extends Object</li><li><span class="mcq-option-label">B.</span> No, generics are invariant</li><li><span class="mcq-option-label">C.</span> Only with wildcards</li><li><span class="mcq-option-label">D.</span> Depends on the JVM version</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> Generics are invariant. <code>List&lt;String&gt;</code> is NOT a <code>List&lt;Object&gt;</code>, even though String extends Object. If it were, you could add an Integer to a String list through the Object reference. Use <code>List&lt;? extends Object&gt;</code> for covariance.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is the purpose of <code>&lt;T extends Number &amp; Comparable&lt;T&gt;&gt;</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> T must extend Number OR implement Comparable</li><li><span class="mcq-option-label">B.</span> T must extend Number AND implement Comparable</li><li><span class="mcq-option-label">C.</span> T must be exactly Number</li><li><span class="mcq-option-label">D.</span> This is invalid syntax</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Multiple bounds use <code>&amp;</code> (not <code>|</code>). T must satisfy ALL bounds: extend Number AND implement Comparable. The class bound must come first, followed by interface bounds.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Can you overload methods that differ only in generic type parameters?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, they are different methods</li><li><span class="mcq-option-label">B.</span> No, due to type erasure they become the same method</li><li><span class="mcq-option-label">C.</span> Only if the return types differ</li><li><span class="mcq-option-label">D.</span> Only in Java 17+</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>void process(List&lt;String&gt; list)</code> and <code>void process(List&lt;Integer&gt; list)</code> cannot coexist. After type erasure, both become <code>void process(List list)</code>, which is a duplicate method definition.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Which is a valid restriction of generics?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Cannot use generic types in loops</li><li><span class="mcq-option-label">B.</span> Cannot create instances of type parameters (new T())</li><li><span class="mcq-option-label">C.</span> Cannot have more than one type parameter</li><li><span class="mcq-option-label">D.</span> Cannot use generics with interfaces</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>new T()</code> is illegal because the JVM does not know what T is at runtime (type erasure). Multiple type parameters (<code>Map&lt;K,V&gt;</code>) and generic interfaces are fully supported.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Generic Stack</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Implement a generic Stack<T> using an ArrayList internally. It should support push(T), pop(), peek(), isEmpty(), and size(). Test with Integer and String stacks.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Push 10, 20, 30. Pop twice.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Stack: [10, 20, 30]
+Pop: 30
+Pop: 20
+Peek: 10
+Size: 1</div>
+                </div><div class="challenge-constraints">Use generics. Handle empty stack with IllegalStateException.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">import java.util.ArrayList;
+
+class Stack&lt;T&gt; {
+    private ArrayList&lt;T&gt; items = new ArrayList&lt;&gt;();
+    void push(T item) { items.add(item); }
+    T pop() {
+        if (isEmpty()) throw new IllegalStateException(&quot;Stack is empty&quot;);
+        return items.remove(items.size() - 1);
+    }
+    T peek() {
+        if (isEmpty()) throw new IllegalStateException(&quot;Stack is empty&quot;);
+        return items.get(items.size() - 1);
+    }
+    boolean isEmpty() { return items.isEmpty(); }
+    int size() { return items.size(); }
+    @Override
+    public String toString() { return items.toString(); }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Stack&lt;Integer&gt; stack = new Stack&lt;&gt;();
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+        System.out.println(&quot;Stack: &quot; + stack);
+        System.out.println(&quot;Pop: &quot; + stack.pop());
+        System.out.println(&quot;Pop: &quot; + stack.pop());
+        System.out.println(&quot;Peek: &quot; + stack.peek());
+        System.out.println(&quot;Size: &quot; + stack.size());
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Generic Pair with Swap</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a generic Pair<A, B> class with methods getFirst(), getSecond(), and swap() that returns a new Pair<B, A> with swapped types. Test with Pair<String, Integer>.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Pair(&#39;Arjun&#39;, 20)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Original: (Arjun, 20)
+Swapped: (20, Arjun)</div>
+                </div><div class="challenge-constraints">swap() must return a new Pair with swapped type parameters.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">class Pair&lt;A, B&gt; {
+    A first;
+    B second;
+    Pair(A a, B b) { first = a; second = b; }
+    A getFirst() { return first; }
+    B getSecond() { return second; }
+    Pair&lt;B, A&gt; swap() { return new Pair&lt;&gt;(second, first); }
+    @Override
+    public String toString() { return &quot;(&quot; + first + &quot;, &quot; + second + &quot;)&quot;; }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Pair&lt;String, Integer&gt; p = new Pair&lt;&gt;(&quot;Arjun&quot;, 20);
+        System.out.println(&quot;Original: &quot; + p);
+        Pair&lt;Integer, String&gt; swapped = p.swap();
+        System.out.println(&quot;Swapped: &quot; + swapped);
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Generic Min/Max Finder</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write generic methods min() and max() that find the minimum and maximum elements in a List<T extends Comparable<T>>. Also write a range() method that returns a Pair<T,T> of (min, max). Test with Integer and String lists.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">List: [30, 10, 50, 20, 40]</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Min: 10, Max: 50
+Range: (10, 50)
+String min: Apple, max: Cherry</div>
+                </div><div class="challenge-constraints">Use bounded type parameters with Comparable.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">import java.util.List;
+
+class Pair&lt;A, B&gt; {
+    A first; B second;
+    Pair(A a, B b) { first = a; second = b; }
+    @Override
+    public String toString() { return &quot;(&quot; + first + &quot;, &quot; + second + &quot;)&quot;; }
+}
+
+public class Main {
+    static &lt;T extends Comparable&lt;T&gt;&gt; T min(List&lt;T&gt; list) {
+        T result = list.get(0);
+        for (T item : list) {
+            if (item.compareTo(result) &lt; 0) result = item;
+        }
+        return result;
+    }
+    static &lt;T extends Comparable&lt;T&gt;&gt; T max(List&lt;T&gt; list) {
+        T result = list.get(0);
+        for (T item : list) {
+            if (item.compareTo(result) &gt; 0) result = item;
+        }
+        return result;
+    }
+    static &lt;T extends Comparable&lt;T&gt;&gt; Pair&lt;T, T&gt; range(List&lt;T&gt; list) {
+        return new Pair&lt;&gt;(min(list), max(list));
+    }
+    public static void main(String[] args) {
+        var nums = List.of(30, 10, 50, 20, 40);
+        System.out.println(&quot;Min: &quot; + min(nums) + &quot;, Max: &quot; + max(nums));
+        System.out.println(&quot;Range: &quot; + range(nums));
+        var strs = List.of(&quot;Banana&quot;, &quot;Apple&quot;, &quot;Cherry&quot;);
+        System.out.println(&quot;String min: &quot; + min(strs) + &quot;, max: &quot; + max(strs));
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Generic Filter Method</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a generic method filter(List<T> list, Predicate<T> condition) that returns a new list containing only elements that satisfy the condition. Test with filtering even numbers and strings longer than 3 characters.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Numbers: [1,2,3,4,5,6], Strings: [&#39;Hi&#39;,&#39;Hello&#39;,&#39;Hey&#39;,&#39;Howdy&#39;]</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Even numbers: [2, 4, 6]
+Long strings: [Hello, Howdy]</div>
+                </div><div class="challenge-constraints">Use generics and Predicate functional interface.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">import java.util.*;
+import java.util.function.Predicate;
+
+public class Main {
+    static &lt;T&gt; List&lt;T&gt; filter(List&lt;T&gt; list, Predicate&lt;T&gt; condition) {
+        List&lt;T&gt; result = new ArrayList&lt;&gt;();
+        for (T item : list) {
+            if (condition.test(item)) result.add(item);
+        }
+        return result;
+    }
+    public static void main(String[] args) {
+        List&lt;Integer&gt; nums = List.of(1, 2, 3, 4, 5, 6);
+        System.out.println(&quot;Even numbers: &quot; + filter(nums, n -&gt; n % 2 == 0));
+
+        List&lt;String&gt; strs = List.of(&quot;Hi&quot;, &quot;Hello&quot;, &quot;Hey&quot;, &quot;Howdy&quot;);
+        System.out.println(&quot;Long strings: &quot; + filter(strs, s -&gt; s.length() &gt; 3));
+    }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Generic Transform (Map) Method</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a generic method transform(List<T> list, Function<T, R> mapper) that applies a transformation function to each element and returns a List<R>. Test with: numbers to their squares, strings to their lengths, students to their names.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Numbers: [1,2,3,4], Strings: [&#39;Java&#39;,&#39;Go&#39;,&#39;Python&#39;]</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Squares: [1, 4, 9, 16]
+Lengths: [4, 2, 6]</div>
+                </div><div class="challenge-constraints">Use two type parameters T and R. Use Function&lt;T,R&gt; interface.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">import java.util.*;
+import java.util.function.Function;
+
+public class Main {
+    static &lt;T, R&gt; List&lt;R&gt; transform(List&lt;T&gt; list, Function&lt;T, R&gt; mapper) {
+        List&lt;R&gt; result = new ArrayList&lt;&gt;();
+        for (T item : list) {
+            result.add(mapper.apply(item));
+        }
+        return result;
+    }
+    public static void main(String[] args) {
+        List&lt;Integer&gt; nums = List.of(1, 2, 3, 4);
+        System.out.println(&quot;Squares: &quot; + transform(nums, n -&gt; n * n));
+
+        List&lt;String&gt; strs = List.of(&quot;Java&quot;, &quot;Go&quot;, &quot;Python&quot;);
+        System.out.println(&quot;Lengths: &quot; + transform(strs, String::length));
+
+        System.out.println(&quot;Uppercase: &quot; + transform(strs, String::toUpperCase));
+    }
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/java/collections-framework/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Collections Framework - List, Set, Map</span>
+        </a>
+            <a href="/resources/java/file-handling-in-java/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">File Handling in Java</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/java/generics-in-java" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

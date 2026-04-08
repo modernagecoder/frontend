@@ -1,0 +1,622 @@
+{
+  "title": "Your First Java Program",
+  "slug": "your-first-java-program",
+  "language": "java",
+  "chapter": 3,
+  "difficulty": "Beginner",
+  "readingTime": "20 min",
+  "lastUpdated": "2026-04-07",
+  "totalQuestions": 56,
+  "seo": {
+    "title": "Your First Java Program - Hello World, main Method, System.out.println Explained | Modern Age Coders",
+    "description": "Write your first Java program step by step. Learn the anatomy of a Java class, public static void main, System.out.println vs print vs printf, comments, naming conventions, and the compilation process. 56 practice questions included.",
+    "keywords": "java hello world, first java program, java main method, System.out.println, public static void main, java comments, java naming conventions, java class structure, javac java commands, java for beginners"
+  },
+  "content": {
+    "what": "<h2>What Is a Java Program?</h2><p>A Java program is a collection of instructions written in the Java programming language that the computer can execute. Every Java program consists of at least one <strong>class</strong>, and every standalone program must have a special method called <code>main</code> that serves as the <strong>entry point</strong> -- the place where execution begins.</p><p>Unlike scripting languages like Python where you can write a single line of code and run it, Java requires a specific structure. Your code must live inside a class, and the executable code must be inside methods. This structure may feel verbose at first, but it enforces organization and makes large programs manageable.</p><p>In this chapter, you will write your first Java program, understand every keyword in the <code>public static void main(String[] args)</code> signature, learn how to print output, add comments, follow naming conventions, and understand what happens when your code is compiled and run.</p>",
+    "why": "<h2>Why Is Understanding Program Structure Important?</h2><p>Every Java program you ever write will follow the same basic structure. Understanding it thoroughly now prevents confusion later and builds a solid foundation for everything that follows.</p><h3>1. The main Method Is Where Everything Starts</h3><p>When you run a Java program, the JVM looks for the <code>main</code> method with a very specific signature. If this method is missing, has the wrong signature, or is misspelled, your program will not run. Understanding why each keyword (<code>public</code>, <code>static</code>, <code>void</code>) is required helps you understand Java's design philosophy.</p><h3>2. Output Is How Programs Communicate</h3><p><code>System.out.println</code> is the most basic way for a program to display results. You will use it in every chapter, every exercise, and every debugging session. Understanding the difference between <code>println</code>, <code>print</code>, and <code>printf</code> gives you control over how your output looks.</p><h3>3. Comments Make Code Maintainable</h3><p>Professional code always includes comments. In placement coding rounds, well-commented solutions demonstrate clarity of thought. In team environments, comments help other developers (and your future self) understand your logic.</p><h3>4. Naming Conventions Are Non-Negotiable</h3><p>Java has strict naming conventions that the entire industry follows. Using <code>camelCase</code> for variables, <code>PascalCase</code> for classes, and <code>UPPER_SNAKE_CASE</code> for constants is not optional -- it is expected in interviews, code reviews, and professional codebases.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Anatomy of a Java Program</h3><p>Let us dissect the simplest possible Java program line by line:</p><pre><code>public class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}</code></pre><h4>Line 1: <code>public class HelloWorld {</code></h4><ul><li><code>public</code> -- This is an <strong>access modifier</strong> that makes the class accessible from anywhere. Every Java source file can have at most one public class, and the file name must match this class name.</li><li><code>class</code> -- This keyword declares a class. In Java, all code must be inside a class. A class is a blueprint that groups related data and methods.</li><li><code>HelloWorld</code> -- This is the class name. It must match the file name exactly (HelloWorld.java). By convention, class names use <strong>PascalCase</strong> (each word capitalized).</li><li><code>{</code> -- The opening curly brace marks the beginning of the class body.</li></ul><h4>Line 2: <code>public static void main(String[] args) {</code></h4><p>This is the <strong>main method signature</strong>. Every keyword here is required and has a specific purpose:</p><ul><li><code>public</code> -- The method must be accessible by the JVM from outside the class. If you make it <code>private</code>, the JVM cannot call it.</li><li><code>static</code> -- The method belongs to the class itself, not to an instance (object) of the class. The JVM calls <code>main</code> without creating an object, so it must be static.</li><li><code>void</code> -- The method does not return any value. The <code>main</code> method performs actions but does not return a result to the JVM.</li><li><code>main</code> -- This is the method name. The JVM specifically looks for a method named <code>main</code>. You cannot change this name.</li><li><code>String[] args</code> -- This is a parameter: an array of Strings that receives command-line arguments. Even if you do not use command-line arguments, this parameter must be present. You can also write it as <code>String args[]</code> or <code>String... args</code>.</li></ul><h4>Line 3: <code>System.out.println(\"Hello, World!\");</code></h4><ul><li><code>System</code> -- A built-in class in the <code>java.lang</code> package that provides access to system-level resources.</li><li><code>out</code> -- A static field of the System class, representing the standard output stream (typically the console/terminal).</li><li><code>println</code> -- A method that prints the given text followed by a newline character. \"println\" stands for \"print line.\"</li><li><code>\"Hello, World!\"</code> -- A <strong>String literal</strong> enclosed in double quotes.</li><li><code>;</code> -- Every statement in Java must end with a semicolon. This is required, not optional.</li></ul><h4>Line 4 and 5: Closing Braces</h4><p>The first <code>}</code> closes the main method. The second <code>}</code> closes the class. Every opening brace must have a matching closing brace.</p><h3>2. Printing Output: println vs print vs printf</h3><p>Java provides three primary methods for console output:</p><h4>System.out.println()</h4><p>Prints the argument followed by a <strong>newline</strong> character. The cursor moves to the next line after printing. This is the most commonly used output method.</p><h4>System.out.print()</h4><p>Prints the argument <strong>without</strong> a newline. The cursor stays on the same line. Useful when you want multiple outputs on the same line.</p><h4>System.out.printf()</h4><p>Prints <strong>formatted</strong> output using format specifiers, similar to C's printf. Common format specifiers:</p><table><tr><th>Specifier</th><th>Type</th><th>Example</th></tr><tr><td><code>%s</code></td><td>String</td><td><code>printf(\"%s\", name)</code></td></tr><tr><td><code>%d</code></td><td>Integer</td><td><code>printf(\"%d\", age)</code></td></tr><tr><td><code>%f</code></td><td>Float/Double</td><td><code>printf(\"%.2f\", gpa)</code></td></tr><tr><td><code>%n</code></td><td>Newline (platform-independent)</td><td><code>printf(\"Hello%n\")</code></td></tr><tr><td><code>%b</code></td><td>Boolean</td><td><code>printf(\"%b\", true)</code></td></tr></table><h3>3. Comments in Java</h3><p>Comments are text that the compiler ignores. They exist solely for humans reading the code.</p><h4>Single-Line Comments</h4><p>Start with <code>//</code>. Everything after <code>//</code> on that line is ignored by the compiler.</p><pre><code>// This is a single-line comment\nint age = 20; // This comment is after code</code></pre><h4>Multi-Line Comments</h4><p>Start with <code>/*</code> and end with <code>*/</code>. Can span multiple lines.</p><pre><code>/* This is a multi-line comment.\n   It can span several lines.\n   Useful for longer explanations. */</code></pre><h4>Javadoc Comments</h4><p>Start with <code>/**</code> and end with <code>*/</code>. Used to generate API documentation with the <code>javadoc</code> tool.</p><pre><code>/**\n * Calculates the area of a rectangle.\n * @param length the length of the rectangle\n * @param width the width of the rectangle\n * @return the calculated area\n */</code></pre><h3>4. Java Naming Conventions</h3><p>Java has well-established naming conventions that every professional developer follows:</p><table><tr><th>Element</th><th>Convention</th><th>Example</th></tr><tr><td>Classes</td><td>PascalCase</td><td><code>StudentRecord</code>, <code>BankAccount</code></td></tr><tr><td>Methods</td><td>camelCase</td><td><code>calculateTotal()</code>, <code>getName()</code></td></tr><tr><td>Variables</td><td>camelCase</td><td><code>studentName</code>, <code>totalMarks</code></td></tr><tr><td>Constants</td><td>UPPER_SNAKE_CASE</td><td><code>MAX_SIZE</code>, <code>PI_VALUE</code></td></tr><tr><td>Packages</td><td>lowercase</td><td><code>com.example.app</code></td></tr></table><h3>5. Escape Sequences</h3><p>Escape sequences allow you to include special characters in strings that cannot be typed directly:</p><table><tr><th>Escape Sequence</th><th>Meaning</th><th>Example Output</th></tr><tr><td><code>\\n</code></td><td>Newline</td><td>Line break</td></tr><tr><td><code>\\t</code></td><td>Tab</td><td>Horizontal tab</td></tr><tr><td><code>\\\\</code></td><td>Backslash</td><td><code>\\</code></td></tr><tr><td><code>\\\"</code></td><td>Double quote</td><td><code>\"</code></td></tr><tr><td><code>\\'</code></td><td>Single quote</td><td><code>'</code></td></tr><tr><td><code>\\r</code></td><td>Carriage return</td><td>Cursor to line start</td></tr></table><h3>6. The Compilation Process</h3><p>When you compile and run a Java program, the following steps happen:</p><ol><li><strong>Source Code:</strong> You write <code>HelloWorld.java</code> containing human-readable Java code</li><li><strong>Compilation:</strong> <code>javac HelloWorld.java</code> invokes the Java compiler, which: parses the source code, checks for syntax and type errors, and generates <code>HelloWorld.class</code> containing bytecode</li><li><strong>Loading:</strong> <code>java HelloWorld</code> starts the JVM, which uses the Class Loader to load <code>HelloWorld.class</code> into memory</li><li><strong>Verification:</strong> The bytecode verifier checks the code for safety and correctness</li><li><strong>Execution:</strong> The execution engine (interpreter + JIT compiler) runs the bytecode, starting from the <code>main</code> method</li></ol><h3>7. Command-Line Arguments</h3><p>The <code>String[] args</code> parameter in the main method receives arguments passed from the command line. When you run <code>java HelloWorld Aarav 20</code>, the args array contains <code>[\"Aarav\", \"20\"]</code>. This allows your program to accept input without interactive prompts.</p>",
+    "codeExamples": [
+      {
+        "title": "The Classic Hello World",
+        "code": "public class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}",
+        "language": "java",
+        "explanation": "This is the simplest complete Java program. The class name <code>HelloWorld</code> must match the file name <code>HelloWorld.java</code>. The <code>main</code> method is the entry point. <code>System.out.println</code> prints text followed by a newline. The semicolon terminates the statement. Compile with <code>javac HelloWorld.java</code>, run with <code>java HelloWorld</code>.",
+        "output": "Hello, World!"
+      },
+      {
+        "title": "println vs print vs printf",
+        "code": "public class PrintDemo {\n    public static void main(String[] args) {\n        // println - prints with newline\n        System.out.println(\"Line 1\");\n        System.out.println(\"Line 2\");\n\n        // print - no newline, stays on same line\n        System.out.print(\"Hello \");\n        System.out.print(\"World\");\n        System.out.println();  // just a newline\n\n        // printf - formatted output\n        String name = \"Aarav\";\n        int age = 20;\n        double gpa = 8.75;\n        System.out.printf(\"Name: %s, Age: %d, GPA: %.2f%n\", name, age, gpa);\n\n        // printf with width formatting\n        System.out.printf(\"%-10s %5d %8.2f%n\", \"Priya\", 21, 9.10);\n        System.out.printf(\"%-10s %5d %8.2f%n\", \"Rohan\", 19, 7.85);\n    }\n}",
+        "language": "java",
+        "explanation": "<code>println</code> adds a newline after each call, so \"Line 1\" and \"Line 2\" appear on separate lines. <code>print</code> does not add a newline, so \"Hello \" and \"World\" appear on the same line. <code>printf</code> uses format specifiers: <code>%s</code> for strings, <code>%d</code> for integers, <code>%.2f</code> for doubles with 2 decimal places, <code>%n</code> for a platform-independent newline. The <code>%-10s</code> left-aligns in a 10-character field; <code>%5d</code> right-aligns in a 5-character field.",
+        "output": "Line 1\nLine 2\nHello World\nName: Aarav, Age: 20, GPA: 8.75\nPriya          21     9.10\nRohan          19     7.85"
+      },
+      {
+        "title": "Comments in Practice",
+        "code": "/**\n * StudentGreeter - Demonstrates all three comment types in Java.\n * This Javadoc comment can be used to generate documentation.\n * @author Priya\n * @version 1.0\n */\npublic class StudentGreeter {\n\n    // This is a single-line comment\n    // The main method is the program's entry point\n    public static void main(String[] args) {\n\n        /* Multi-line comment:\n           We declare a variable and use it\n           to create a personalized greeting. */\n        String studentName = \"Vikram\";\n        int semester = 4;\n\n        // Print the greeting\n        System.out.println(\"Welcome, \" + studentName + \"!\");\n        System.out.println(\"Semester: \" + semester);\n\n        // TODO: Add more student details later\n    }\n}",
+        "language": "java",
+        "explanation": "This example shows all three comment types. <strong>Javadoc comments</strong> (<code>/** */</code>) at the top describe the class and can include tags like <code>@author</code> and <code>@version</code>. <strong>Single-line comments</strong> (<code>//</code>) explain individual lines or sections. <strong>Multi-line comments</strong> (<code>/* */</code>) span several lines for longer explanations. The <code>TODO</code> comment is a common convention for marking code that needs future work -- most IDEs highlight these.",
+        "output": "Welcome, Vikram!\nSemester: 4"
+      },
+      {
+        "title": "String Concatenation with + Operator",
+        "code": "public class Concatenation {\n    public static void main(String[] args) {\n        String firstName = \"Ananya\";\n        String lastName = \"Sharma\";\n        int age = 19;\n        double percentage = 87.5;\n\n        // String concatenation with +\n        System.out.println(\"Name: \" + firstName + \" \" + lastName);\n        System.out.println(\"Age: \" + age);\n        System.out.println(\"Score: \" + percentage + \"%\");\n\n        // Tricky: numbers and strings\n        System.out.println(10 + 20 + \" students\");      // 30 students (math first)\n        System.out.println(\"Roll: \" + 10 + 20);          // Roll: 1020 (concatenation)\n        System.out.println(\"Sum: \" + (10 + 20));          // Sum: 30 (parentheses force math)\n    }\n}",
+        "language": "java",
+        "explanation": "The <code>+</code> operator concatenates strings. When you write <code>\"Age: \" + age</code>, Java automatically converts <code>age</code> (int) to a String and concatenates. The tricky part: <code>10 + 20 + \" students\"</code> evaluates left to right -- first <code>10 + 20 = 30</code> (integer addition), then <code>30 + \" students\" = \"30 students\"</code> (concatenation). But <code>\"Roll: \" + 10 + 20</code> becomes <code>\"Roll: 10\" + 20 = \"Roll: 1020\"</code> because the first <code>+</code> triggers string concatenation, and it continues. Use parentheses to force arithmetic: <code>\"Sum: \" + (10 + 20)</code> gives <code>\"Sum: 30\"</code>.",
+        "output": "Name: Ananya Sharma\nAge: 19\nScore: 87.5%\n30 students\nRoll: 1020\nSum: 30"
+      },
+      {
+        "title": "Escape Sequences",
+        "code": "public class EscapeDemo {\n    public static void main(String[] args) {\n        // Newline\n        System.out.println(\"Line 1\\nLine 2\\nLine 3\");\n\n        // Tab (useful for alignment)\n        System.out.println(\"Name\\tAge\\tCity\");\n        System.out.println(\"Aarav\\t20\\tDelhi\");\n        System.out.println(\"Neha\\t19\\tMumbai\");\n\n        // Quotes inside strings\n        System.out.println(\"He said, \\\"Java is great!\\\"\");\n\n        // Backslash\n        System.out.println(\"File path: C:\\\\Users\\\\Aarav\\\\code\");\n\n        // Single quote (not strictly necessary in strings, but valid)\n        System.out.println(\"It\\'s a sunny day\");\n    }\n}",
+        "language": "java",
+        "explanation": "<code>\\n</code> inserts a newline within a single string, splitting it across lines. <code>\\t</code> inserts a tab character, useful for creating aligned columns. <code>\\\"</code> allows you to include double quotes inside a string (without it, the compiler would think the string ends). <code>\\\\</code> produces a single backslash (needed because backslash is the escape character itself). These escape sequences work in both <code>println</code> and <code>printf</code>.",
+        "output": "Line 1\nLine 2\nLine 3\nName\tAge\tCity\nAarav\t20\tDelhi\nNeha\t19\tMumbai\nHe said, \"Java is great!\"\nFile path: C:\\Users\\Aarav\\code\nIt's a sunny day"
+      },
+      {
+        "title": "Command-Line Arguments",
+        "code": "public class CommandArgs {\n    public static void main(String[] args) {\n        System.out.println(\"Number of arguments: \" + args.length);\n\n        if (args.length > 0) {\n            System.out.println(\"First argument: \" + args[0]);\n        }\n\n        if (args.length > 1) {\n            System.out.println(\"Second argument: \" + args[1]);\n        }\n\n        // Print all arguments\n        System.out.println(\"\\nAll arguments:\");\n        for (int i = 0; i < args.length; i++) {\n            System.out.println(\"  args[\" + i + \"] = \" + args[i]);\n        }\n    }\n}\n\n// Run: java CommandArgs Aarav 20 Delhi\n// Output: First argument: Aarav, Second: 20, etc.",
+        "language": "java",
+        "explanation": "The <code>String[] args</code> parameter captures command-line arguments. If you run <code>java CommandArgs Aarav 20 Delhi</code>, then <code>args[0]</code> is \"Aarav\", <code>args[1]</code> is \"20\" (as a String, not an int), and <code>args[2]</code> is \"Delhi\". <code>args.length</code> gives the count. Note that all arguments are Strings; if you need a number, you must parse it (e.g., <code>Integer.parseInt(args[1])</code>).",
+        "output": "Number of arguments: 3\nFirst argument: Aarav\nSecond argument: 20\n\nAll arguments:\n  args[0] = Aarav\n  args[1] = 20\n  args[2] = Delhi"
+      },
+      {
+        "title": "Multiple Classes in Action",
+        "code": "// File: GreetingApp.java\n// Only ONE class can be public, and it must match the file name\n\npublic class GreetingApp {\n    public static void main(String[] args) {\n        String message = MessageHelper.getGreeting(\"Rohan\");\n        System.out.println(message);\n        System.out.println(\"Program executed successfully.\");\n    }\n}\n\n// This class is NOT public (default access)\n// It can be in the same file as GreetingApp\nclass MessageHelper {\n    static String getGreeting(String name) {\n        return \"Hello, \" + name + \"! Welcome to Java programming.\";\n    }\n}",
+        "language": "java",
+        "explanation": "A single .java file can contain multiple classes, but only <strong>one</strong> can be <code>public</code>, and the file name must match that public class. The <code>MessageHelper</code> class is package-private (no access modifier), so it can exist in the same file. When compiled, this produces two .class files: <code>GreetingApp.class</code> and <code>MessageHelper.class</code>. In practice, each class usually gets its own file for better organization.",
+        "output": "Hello, Rohan! Welcome to Java programming.\nProgram executed successfully."
+      },
+      {
+        "title": "Naming Conventions Demo",
+        "code": "public class NamingConventions {\n    // Constant: UPPER_SNAKE_CASE\n    static final double PI_VALUE = 3.14159;\n    static final int MAX_STUDENTS = 60;\n\n    public static void main(String[] args) {\n        // Variable: camelCase\n        String studentName = \"Neha\";\n        int rollNumber = 42;\n        double semesterGpa = 8.9;\n        boolean isPlaced = true;\n\n        // Method call: camelCase\n        displayStudentInfo(studentName, rollNumber, semesterGpa, isPlaced);\n    }\n\n    // Method: camelCase\n    static void displayStudentInfo(String name, int roll, double gpa, boolean placed) {\n        System.out.println(\"=== Student Info ===\");\n        System.out.println(\"Name: \" + name);\n        System.out.println(\"Roll: \" + roll);\n        System.out.println(\"GPA: \" + gpa);\n        System.out.println(\"Placed: \" + placed);\n        System.out.println(\"Max Students: \" + MAX_STUDENTS);\n    }\n}\n// Class name: PascalCase (NamingConventions)\n// Package names: all lowercase (com.example.app)",
+        "language": "java",
+        "explanation": "This program demonstrates all Java naming conventions in one place. The class name <code>NamingConventions</code> uses PascalCase. Variables like <code>studentName</code> and methods like <code>displayStudentInfo</code> use camelCase. Constants like <code>PI_VALUE</code> and <code>MAX_STUDENTS</code> use UPPER_SNAKE_CASE with the <code>static final</code> keywords. Following these conventions is critical for professional Java development and coding interviews.",
+        "output": "=== Student Info ===\nName: Neha\nRoll: 42\nGPA: 8.9\nPlaced: true\nMax Students: 60"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Missing Semicolon",
+        "wrongCode": "public class Test {\n    public static void main(String[] args) {\n        System.out.println(\"Hello\")\n    }\n}",
+        "error": "error: ';' expected\n        System.out.println(\"Hello\")\n                                  ^",
+        "correctCode": "public class Test {\n    public static void main(String[] args) {\n        System.out.println(\"Hello\");\n    }\n}",
+        "explanation": "Every statement in Java must end with a semicolon (<code>;</code>). This is different from Python which uses newlines to end statements. The compiler's error message points to the exact location where the semicolon is missing. This is the single most common syntax error for beginners."
+      },
+      {
+        "title": "Wrong main Method Signature",
+        "wrongCode": "public class Test {\n    public void main(String[] args) {  // Missing 'static'\n        System.out.println(\"Hello\");\n    }\n}",
+        "error": "Error: Main method is not static in class Test, please define the main method as:\n   public static void main(String[] args)",
+        "correctCode": "public class Test {\n    public static void main(String[] args) {\n        System.out.println(\"Hello\");\n    }\n}",
+        "explanation": "The JVM requires the main method to be <code>public static void main(String[] args)</code> exactly. If you omit <code>static</code>, the JVM cannot call the method without creating an object. If you change <code>void</code> to another return type, or change the parameter type, the JVM will not recognize it as the entry point. The error message is clear, but this mistake is common."
+      },
+      {
+        "title": "Using println with Lowercase 'l'",
+        "wrongCode": "public class Test {\n    public static void main(String[] args) {\n        System.out.printLn(\"Hello\");  // Wrong: capital L\n    }\n}",
+        "error": "error: cannot find symbol\n        System.out.printLn(\"Hello\");\n                  ^\n  symbol:   method printLn(String)",
+        "correctCode": "public class Test {\n    public static void main(String[] args) {\n        System.out.println(\"Hello\");  // Correct: lowercase l, lowercase n\n    }\n}",
+        "explanation": "Java is case-sensitive. The method is <code>println</code> (all lowercase), not <code>printLn</code>, <code>Println</code>, or <code>PrintLn</code>. Similarly, <code>System</code> must have a capital S, and <code>out</code> must be lowercase. The \"cannot find symbol\" error means Java does not recognize the name you typed."
+      },
+      {
+        "title": "String Concatenation Surprise with Numbers",
+        "wrongCode": "public class Test {\n    public static void main(String[] args) {\n        System.out.println(\"Score: \" + 10 + 20);\n        // Expected: Score: 30\n        // Actual: Score: 1020\n    }\n}",
+        "error": "No compiler error, but output is 'Score: 1020' instead of 'Score: 30'.",
+        "correctCode": "public class Test {\n    public static void main(String[] args) {\n        System.out.println(\"Score: \" + (10 + 20));  // Score: 30\n    }\n}",
+        "explanation": "Java evaluates <code>+</code> from left to right. <code>\"Score: \" + 10</code> produces the string <code>\"Score: 10\"</code> (string concatenation). Then <code>\"Score: 10\" + 20</code> produces <code>\"Score: 1020\"</code> (still concatenation). To force arithmetic first, use parentheses: <code>(10 + 20)</code> evaluates to <code>30</code> before being concatenated."
+      },
+      {
+        "title": "Forgetting Curly Braces",
+        "wrongCode": "public class Test {\n    public static void main(String[] args)\n        System.out.println(\"Hello\");\n}",
+        "error": "error: ';' expected\n    public static void main(String[] args)\n                                         ^",
+        "correctCode": "public class Test {\n    public static void main(String[] args) {\n        System.out.println(\"Hello\");\n    }\n}",
+        "explanation": "Method bodies must be enclosed in curly braces <code>{ }</code>. Without the opening brace after the method signature, the compiler gets confused and gives a misleading error. Always ensure every opening brace <code>{</code> has a matching closing brace <code>}</code>. IDEs auto-insert matching braces, but it is important to understand the requirement."
+      },
+      {
+        "title": "Using Single Quotes for Strings",
+        "wrongCode": "public class Test {\n    public static void main(String[] args) {\n        System.out.println('Hello World');  // Single quotes!\n    }\n}",
+        "error": "error: unclosed character literal\n        System.out.println('Hello World');\n                           ^",
+        "correctCode": "public class Test {\n    public static void main(String[] args) {\n        System.out.println(\"Hello World\");  // Double quotes for strings\n        System.out.println('H');             // Single quotes for single characters only\n    }\n}",
+        "explanation": "In Java, double quotes (<code>\"\"</code>) denote <strong>Strings</strong>, and single quotes (<code>''</code>) denote a single <strong>character</strong> (char). <code>'Hello World'</code> is invalid because single quotes can only contain one character. This is different from Python where single and double quotes are interchangeable for strings."
+      }
+    ],
+    "summary": [
+      "Every Java program must have at least one class. All executable code must be inside methods within a class.",
+      "The main method signature is exactly: public static void main(String[] args). Each keyword is required: public (JVM access), static (no object needed), void (no return value), String[] args (command-line arguments).",
+      "System.out.println() prints text followed by a newline. System.out.print() prints without a newline. System.out.printf() prints formatted output using specifiers like %s, %d, %.2f.",
+      "Java has three comment types: single-line (//), multi-line (/* */), and Javadoc (/** */). Use comments to explain why, not what.",
+      "The file name must exactly match the public class name (case-sensitive). HelloWorld class must be in HelloWorld.java.",
+      "Java naming conventions: PascalCase for classes (StudentRecord), camelCase for variables and methods (studentName, getAge), UPPER_SNAKE_CASE for constants (MAX_SIZE).",
+      "Escape sequences: \\n (newline), \\t (tab), \\\" (double quote), \\\\ (backslash). These work inside string literals.",
+      "String concatenation with + converts non-String values to Strings automatically. Use parentheses around arithmetic to prevent unexpected concatenation: \"Sum: \" + (10 + 20) gives \"Sum: 30\".",
+      "Every statement ends with a semicolon (;). Missing semicolons are the most common syntax error for beginners.",
+      "Java is case-sensitive: System (capital S), println (lowercase), main (lowercase). Typos in these names cause 'cannot find symbol' errors."
+    ]
+  },
+  "relatedTopics": ["installing-java-and-setup", "variables-and-data-types"],
+  "practice": {
+    "totalQuestions": 56,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>public class Test {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, Java!\");\n    }\n}</code></pre>",
+        "hint": "println prints the string and moves to the next line.",
+        "answer": "<code>Hello, Java!</code>",
+        "explanation": "<code>System.out.println</code> prints the string <code>\"Hello, Java!\"</code> to the console followed by a newline character. This is the most basic Java output statement."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>System.out.print(\"Hello \");\nSystem.out.print(\"World\");\nSystem.out.println(\"!\");</code></pre>",
+        "hint": "print() does not add a newline; println() does.",
+        "answer": "<code>Hello World!</code>",
+        "explanation": "<code>print</code> outputs text without a newline, so \"Hello \" and \"World\" appear on the same line. <code>println</code> outputs \"!\" and then moves to the next line. The combined output is <code>Hello World!</code> on a single line."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>System.out.println(\"First\");\nSystem.out.println(\"Second\");\nSystem.out.println(\"Third\");</code></pre>",
+        "hint": "Each println starts a new line.",
+        "answer": "<code>First</code><br><code>Second</code><br><code>Third</code>",
+        "explanation": "Each <code>println</code> call prints its argument and then moves the cursor to the next line. So \"First\", \"Second\", and \"Third\" each appear on separate lines."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>System.out.println(\"Hello\\nWorld\");</code></pre>",
+        "hint": "\\n is the escape sequence for a newline.",
+        "answer": "<code>Hello</code><br><code>World</code>",
+        "explanation": "The <code>\\n</code> escape sequence inserts a newline character within the string. So \"Hello\" is printed, then the cursor moves to the next line, then \"World\" is printed. A single <code>println</code> call can produce multiple lines if the string contains <code>\\n</code>."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>System.out.println(\"Name\\tAge\");\nSystem.out.println(\"Aarav\\t20\");</code></pre>",
+        "hint": "\\t inserts a tab character for alignment.",
+        "answer": "<code>Name    Age</code><br><code>Aarav   20</code>",
+        "explanation": "The <code>\\t</code> escape sequence inserts a horizontal tab character, which aligns the text into columns. This is a simple way to create formatted tabular output."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>System.out.println(\"Score: \" + 10 + 20);\nSystem.out.println(10 + 20 + \" points\");</code></pre>",
+        "hint": "String concatenation happens left to right. Once a String is encountered, + becomes concatenation.",
+        "answer": "<code>Score: 1020</code><br><code>30 points</code>",
+        "explanation": "Line 1: <code>\"Score: \" + 10</code> produces <code>\"Score: 10\"</code> (concatenation), then <code>\"Score: 10\" + 20</code> produces <code>\"Score: 1020\"</code> (still concatenation). Line 2: <code>10 + 20</code> produces <code>30</code> (arithmetic, since no String yet), then <code>30 + \" points\"</code> produces <code>\"30 points\"</code> (concatenation). The key rule: once a String appears in a left-to-right + chain, everything after becomes concatenation."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>System.out.println(\"Sum: \" + (10 + 20));\nSystem.out.println(\"Product: \" + (5 * 3));</code></pre>",
+        "hint": "Parentheses force arithmetic evaluation before concatenation.",
+        "answer": "<code>Sum: 30</code><br><code>Product: 15</code>",
+        "explanation": "The parentheses force <code>10 + 20</code> to be evaluated as arithmetic (<code>30</code>) before concatenation. Similarly, <code>5 * 3</code> evaluates to <code>15</code> before being concatenated with the string. Always use parentheses when mixing arithmetic and string concatenation."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>System.out.println(\"He said, \\\"Hello!\\\"\");</code></pre>",
+        "hint": "\\\" is the escape sequence for a double quote inside a string.",
+        "answer": "<code>He said, \"Hello!\"</code>",
+        "explanation": "The <code>\\\"</code> escape sequence produces a literal double quote character in the output. Without the backslash, the compiler would think the string ends at the second double quote, causing a syntax error."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Explain what each keyword in `public static void main(String[] args)` means and why it is required.",
+        "hint": "Each keyword serves a specific purpose for the JVM to find and execute the method.",
+        "answer": "<code>public</code>: accessible from outside the class (JVM needs to call it). <code>static</code>: belongs to the class, not an instance (JVM calls it without creating an object). <code>void</code>: returns nothing. <code>main</code>: the specific name the JVM looks for. <code>String[] args</code>: array of command-line arguments.",
+        "explanation": "If any keyword is changed, the JVM will not recognize the method as the entry point. Removing <code>public</code> makes it inaccessible to the JVM. Removing <code>static</code> means the JVM would need to create an object first. Changing <code>void</code> to <code>int</code> changes the signature. Renaming <code>main</code> to anything else means the JVM cannot find the entry point."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>System.out.printf(\"%s is %d years old and has a GPA of %.1f%n\", \"Priya\", 21, 9.2567);</code></pre>",
+        "hint": "%s for String, %d for integer, %.1f for float with 1 decimal place, %n for newline.",
+        "answer": "<code>Priya is 21 years old and has a GPA of 9.3</code>",
+        "explanation": "<code>%s</code> is replaced by \"Priya\", <code>%d</code> by 21, <code>%.1f</code> by 9.2567 rounded to 1 decimal place (9.3). <code>%n</code> adds a platform-independent newline. Note that <code>%.1f</code> rounds the value, it does not truncate."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between `System.out.println()` with no arguments and `System.out.print(\"\\n\")`?",
+        "hint": "Both produce a newline, but there is a subtle platform difference.",
+        "answer": "Both produce a newline on the console. <code>System.out.println()</code> outputs the platform-specific line separator (e.g., <code>\\r\\n</code> on Windows, <code>\\n</code> on Linux). <code>System.out.print(\"\\n\")</code> always outputs exactly <code>\\n</code> regardless of platform. For console output, the difference is negligible.",
+        "explanation": "In practice, the difference rarely matters for console output. But when writing to files, the platform-specific line separator from <code>println</code> may produce different results on different operating systems. For cross-platform file output, use <code>System.lineSeparator()</code> or <code>%n</code> in printf."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>System.out.println(1 + 2 + \"3\" + 4 + 5);</code></pre>",
+        "hint": "Evaluate left to right. Addition until a String is encountered, then concatenation.",
+        "answer": "<code>3345</code>",
+        "explanation": "Left to right: <code>1 + 2 = 3</code> (int addition). <code>3 + \"3\" = \"33\"</code> (String concatenation starts). <code>\"33\" + 4 = \"334\"</code> (concatenation continues). <code>\"334\" + 5 = \"3345\"</code>. Once the String <code>\"3\"</code> is encountered, all subsequent <code>+</code> operations become string concatenation."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>System.out.println(\"\" + 1 + 2 + 3);\nSystem.out.println(1 + 2 + 3 + \"\");</code></pre>",
+        "hint": "An empty string at the start forces concatenation from the beginning.",
+        "answer": "<code>123</code><br><code>6</code>",
+        "explanation": "Line 1: <code>\"\" + 1</code> starts concatenation immediately, producing <code>\"1\"</code>, then <code>\"12\"</code>, then <code>\"123\"</code>. Line 2: <code>1 + 2 + 3 = 6</code> (all integer addition first), then <code>6 + \"\" = \"6\"</code>. The position of the empty string determines whether arithmetic or concatenation happens first."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Will this code compile? If not, why?<br><pre><code>public class test {\n    public static void main(String[] args) {\n        System.out.println(\"Hello\");\n    }\n}</code></pre><br>The file is named test.java.",
+        "hint": "Think about Java naming conventions vs compiler requirements.",
+        "answer": "Yes, this code <strong>will compile and run</strong> if the file is named <code>test.java</code> (lowercase). The file name must match the class name, and both are <code>test</code> here. However, it violates Java naming conventions which require class names to use PascalCase (should be <code>Test</code>). It compiles but is considered bad practice.",
+        "explanation": "The Java compiler only requires that the file name matches the public class name. It does not enforce naming conventions. So <code>test.java</code> with <code>public class test</code> compiles fine. But in any professional or academic setting, this would be marked as incorrect style. Always use PascalCase for class names."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What are the three valid variations of the main method's parameter?",
+        "hint": "There are three ways to declare an array parameter in Java.",
+        "answer": "The three valid variations are: (1) <code>String[] args</code>, (2) <code>String args[]</code>, and (3) <code>String... args</code> (varargs). All three are accepted by the JVM as valid main method signatures. The parameter name can be anything (not just <code>args</code>); for example, <code>String[] params</code> is also valid.",
+        "explanation": "The JVM looks for a main method that is public, static, void, and takes a String array parameter. Whether you write the brackets before or after the parameter name, or use varargs syntax, makes no difference. The name of the parameter is also irrelevant. Only the type (<code>String[]</code>) matters."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>System.out.printf(\"%-10s|%5d|%8.2f%n\", \"Aarav\", 95, 87.5);\nSystem.out.printf(\"%-10s|%5d|%8.2f%n\", \"Priya\", 100, 92.75);</code></pre>",
+        "hint": "%-10s left-aligns in 10 chars. %5d right-aligns int in 5 chars. %8.2f right-aligns float in 8 chars with 2 decimals.",
+        "answer": "<code>Aarav     |   95|   87.50</code><br><code>Priya     |  100|   92.75</code>",
+        "explanation": "<code>%-10s</code>: left-aligned string in a 10-character field (Aarav gets 5 trailing spaces). <code>%5d</code>: right-aligned integer in a 5-character field. <code>%8.2f</code>: right-aligned decimal in an 8-character field with 2 decimal places. <code>%n</code> adds a newline. This creates a nicely aligned table."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a Java program that prints your name, your college, and your favorite programming language on three separate lines.",
+        "hint": "Use three System.out.println statements.",
+        "answer": "<pre><code>public class AboutMe {\n    public static void main(String[] args) {\n        System.out.println(\"Name: Aarav Sharma\");\n        System.out.println(\"College: IIT Delhi\");\n        System.out.println(\"Favorite Language: Java\");\n    }\n}</code></pre>",
+        "explanation": "Each <code>println</code> call outputs its string argument followed by a newline. The class name <code>AboutMe</code> must match the file name <code>AboutMe.java</code>."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a Java program that prints a rectangle made of asterisks, 5 wide and 3 tall.",
+        "hint": "Use println for each row. Each row has 5 asterisks.",
+        "answer": "<pre><code>public class Rectangle {\n    public static void main(String[] args) {\n        System.out.println(\"*****\");\n        System.out.println(\"*****\");\n        System.out.println(\"*****\");\n    }\n}</code></pre>",
+        "explanation": "Each <code>println</code> outputs a row of 5 asterisks followed by a newline. Three rows create a 5x3 rectangle. Later chapters will show how to do this with loops."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>int x = 10;\nint y = 20;\nSystem.out.println(\"x + y = \" + x + y);\nSystem.out.println(\"x + y = \" + (x + y));</code></pre>",
+        "hint": "Without parentheses, + becomes concatenation after the string.",
+        "answer": "<code>x + y = 1020</code><br><code>x + y = 30</code>",
+        "explanation": "Line 1: <code>\"x + y = \" + x</code> concatenates to <code>\"x + y = 10\"</code>, then <code>+ y</code> concatenates to <code>\"x + y = 1020\"</code>. Line 2: <code>(x + y)</code> evaluates to <code>30</code> first (parentheses force arithmetic), then concatenates to <code>\"x + y = 30\"</code>. This is a classic interview question."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a Java program that prints a student's information using printf with aligned formatting: Name (left-aligned, 15 chars), Age (right-aligned, 5 chars), and GPA (right-aligned, 8 chars, 2 decimal places).",
+        "hint": "Use %-15s, %5d, and %8.2f format specifiers.",
+        "answer": "<pre><code>public class StudentTable {\n    public static void main(String[] args) {\n        System.out.printf(\"%-15s %5s %8s%n\", \"Name\", \"Age\", \"GPA\");\n        System.out.printf(\"%-15s %5d %8.2f%n\", \"Aarav Sharma\", 20, 8.75);\n        System.out.printf(\"%-15s %5d %8.2f%n\", \"Priya Patel\", 21, 9.10);\n        System.out.printf(\"%-15s %5d %8.2f%n\", \"Rohan Kumar\", 19, 7.85);\n    }\n}</code></pre>",
+        "explanation": "<code>%-15s</code> left-aligns the name in a 15-character field. <code>%5d</code> right-aligns the age in a 5-character field. <code>%8.2f</code> right-aligns the GPA in an 8-character field with 2 decimal places. The header row uses <code>%s</code> for all columns to print column labels."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>System.out.println(\"C:\\\\Users\\\\Aarav\\\\Documents\");\nSystem.out.println(\"Line1\\nLine2\\nLine3\");\nSystem.out.println(\"Tab1\\tTab2\\tTab3\");</code></pre>",
+        "hint": "\\\\ produces a single backslash, \\n a newline, \\t a tab.",
+        "answer": "<code>C:\\Users\\Aarav\\Documents</code><br><code>Line1</code><br><code>Line2</code><br><code>Line3</code><br><code>Tab1\tTab2\tTab3</code>",
+        "explanation": "<code>\\\\</code> produces a literal backslash, so four backslashes in the source produce two in the output. <code>\\n</code> creates line breaks within the string. <code>\\t</code> inserts tab characters for alignment."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between a Javadoc comment (/** */) and a multi-line comment (/* */)? When would you use each?",
+        "hint": "One generates documentation, the other is just for code explanations.",
+        "answer": "A <strong>multi-line comment</strong> (<code>/* */</code>) is for internal code explanations and is ignored by all tools. A <strong>Javadoc comment</strong> (<code>/** */</code>) is used to document classes, methods, and fields, and can be processed by the <code>javadoc</code> tool to generate HTML API documentation. Javadoc comments support special tags like <code>@param</code>, <code>@return</code>, <code>@author</code>, and <code>@throws</code>.",
+        "explanation": "Use Javadoc comments on public classes and methods that others will use. Use multi-line comments for implementation details within a method. Javadoc is part of professional Java development and is used extensively in open-source projects and enterprise codebases."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>char ch = 'A';\nSystem.out.println(ch + 1);\nSystem.out.println(\"\" + ch + 1);\nSystem.out.println(ch + \"\" + 1);</code></pre>",
+        "hint": "char is a numeric type in Java. Adding an int to a char gives an int. But once a String appears, concatenation takes over.",
+        "answer": "<code>66</code><br><code>A1</code><br><code>A1</code>",
+        "explanation": "Line 1: <code>ch + 1</code> is <code>'A' + 1 = 65 + 1 = 66</code> (char is promoted to int, arithmetic). Line 2: <code>\"\" + ch</code> is <code>\"A\"</code> (String + char = concatenation), then <code>\"A\" + 1 = \"A1\"</code>. Line 3: <code>ch + \"\"</code> is <code>\"A\"</code> (char + String = concatenation), then <code>\"A\" + 1 = \"A1\"</code>. The empty string forces concatenation from that point onward."
+      },
+      {
+        "id": "mx-8",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a Java program that accepts a name and age as command-line arguments and prints a greeting. If no arguments are provided, print a usage message.",
+        "hint": "Check args.length before accessing args[0] and args[1].",
+        "answer": "<pre><code>public class Greet {\n    public static void main(String[] args) {\n        if (args.length < 2) {\n            System.out.println(\"Usage: java Greet <name> <age>\");\n        } else {\n            System.out.println(\"Hello, \" + args[0] + \"!\");\n            System.out.println(\"You are \" + args[1] + \" years old.\");\n        }\n    }\n}</code></pre>\nRun: java Greet Aarav 20",
+        "explanation": "Command-line arguments are stored in the <code>args</code> array. <code>args.length</code> tells us how many were provided. We check if at least 2 arguments are present before accessing them. All arguments are Strings, so <code>args[1]</code> is \"20\" (the string), not the integer 20."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>System.out.println('A' + 'B');\nSystem.out.println(\"\" + 'A' + 'B');\nSystem.out.println('A' + \"\" + 'B');</code></pre>",
+        "hint": "char + char = int. String + char = String.",
+        "answer": "<code>131</code><br><code>AB</code><br><code>AB</code>",
+        "explanation": "Line 1: <code>'A' + 'B'</code> = 65 + 66 = 131 (two chars added as integers). Line 2: <code>\"\" + 'A'</code> = <code>\"A\"</code> (String + char = String), then <code>\"A\" + 'B'</code> = <code>\"AB\"</code>. Line 3: <code>'A' + \"\"</code> = <code>\"A\"</code>, then <code>\"A\" + 'B'</code> = <code>\"AB\"</code>. The empty string converts the operation from arithmetic to concatenation."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Can a Java source file have multiple classes? What are the rules?",
+        "hint": "Think about public vs non-public classes.",
+        "answer": "Yes, a Java source file can have multiple classes, but only <strong>one class can be public</strong>, and the file name must match that public class. Other classes must have <strong>default (package-private) access</strong> (no access modifier). Each class produces its own .class file when compiled. In practice, most projects put one class per file for better organization.",
+        "explanation": "If <code>MyApp.java</code> contains <code>public class MyApp</code> and <code>class Helper</code>, compiling produces <code>MyApp.class</code> and <code>Helper.class</code>. If no class is public, the file can have any name. Having multiple classes in one file is allowed but discouraged in professional Java development."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>System.out.println(\"Java\");\nSystem.out.println();\nSystem.out.println(\"Programming\");</code></pre>",
+        "hint": "println() with no arguments prints just a newline.",
+        "answer": "<code>Java</code><br><code></code><br><code>Programming</code>",
+        "explanation": "The first <code>println</code> prints \"Java\" and a newline. The second <code>println()</code> with no arguments prints just a newline (creating a blank line). The third prints \"Programming\" and a newline."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why does Java require semicolons at the end of statements? How is this different from Python?",
+        "hint": "Think about how the compiler parses code.",
+        "answer": "Java uses semicolons as <strong>statement terminators</strong> to tell the compiler where one statement ends and the next begins. This allows you to write multiple statements on one line or split a long statement across multiple lines. Python uses <strong>newlines</strong> as statement terminators (and indentation for blocks), making semicolons unnecessary.",
+        "explanation": "Java's semicolons give flexibility in code formatting. You can write <code>int a = 5; int b = 10;</code> on one line, or split <code>String message = \"Hello \" + \"World\";</code> across lines. The semicollon unambiguously marks the end. Python relies on newlines, so each statement must be on its own line (or use explicit line continuation with backslash)."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the entry point of a Java program?",
+        "options": {"A": "The first line of code in the file", "B": "The constructor of the main class", "C": "The main method", "D": "The import statement"},
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The JVM looks for <code>public static void main(String[] args)</code> as the entry point. Execution begins with the first statement inside the main method. Java does not execute code from the top of the file (A) like Python."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which of the following correctly prints 'Hello' in Java?",
+        "options": {"A": "print(\"Hello\")", "B": "System.out.println(\"Hello\")", "C": "console.log(\"Hello\")", "D": "echo \"Hello\""},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>System.out.println(\"Hello\")</code> is the standard way to print in Java. Option A is Python's print function. Option C is JavaScript's console output. Option D is Bash/PHP syntax."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What must the file name match in Java?",
+        "options": {"A": "The main method name", "B": "The public class name", "C": "The package name", "D": "Any class name in the file"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The file name must exactly match the public class name (including capitalization). If the class is <code>public class HelloWorld</code>, the file must be <code>HelloWorld.java</code>."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does `void` mean in `public static void main`?",
+        "options": {"A": "The method accepts no parameters", "B": "The method returns no value", "C": "The method is empty", "D": "The method is virtual"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>void</code> means the method does not return any value. It performs actions but does not produce a return result. The method does accept a parameter (String[] args), so A is wrong."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which symbol is used for single-line comments in Java?",
+        "options": {"A": "#", "B": "//", "C": "--", "D": "%%"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Java uses <code>//</code> for single-line comments. <code>#</code> (A) is used in Python. <code>--</code> (C) is used in SQL. <code>%%</code> (D) is not a comment symbol in any major language."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "What is the output of: System.out.println(5 + 3)?",
+        "options": {"A": "5 + 3", "B": "53", "C": "8", "D": "Error"},
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>5 + 3</code> is integer addition (both operands are integers), which produces <code>8</code>. The result is then printed. It would be <code>\"53\"</code> only if one operand were a String."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the output of: System.out.println(\"Hello\" + 5 + 3)?",
+        "options": {"A": "Hello8", "B": "Hello53", "C": "8Hello", "D": "Error"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>\"Hello\" + 5</code> produces <code>\"Hello5\"</code> (concatenation). Then <code>\"Hello5\" + 3</code> produces <code>\"Hello53\"</code>. Once a String is part of the expression, + becomes concatenation. Option A would require parentheses: <code>\"Hello\" + (5 + 3)</code>."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which of these is a valid main method signature?",
+        "options": {"A": "public static void main()", "B": "public static int main(String[] args)", "C": "public static void main(String... args)", "D": "static void main(String[] args)"},
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>String... args</code> (varargs) is a valid alternative to <code>String[] args</code>. Option A is missing the parameter. Option B returns int instead of void. Option D is missing the <code>public</code> keyword. The JVM requires public static void main with a String array (or varargs) parameter."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the escape sequence for a tab character in Java?",
+        "options": {"A": "\\n", "B": "\\t", "C": "\\b", "D": "\\s"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>\\t</code> is the tab escape sequence. <code>\\n</code> (A) is newline. <code>\\b</code> (C) is backspace. <code>\\s</code> (D) is not a valid Java escape sequence (it is a regex pattern for whitespace)."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What naming convention does Java use for class names?",
+        "options": {"A": "camelCase", "B": "PascalCase", "C": "snake_case", "D": "UPPER_CASE"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Java class names use PascalCase (also called UpperCamelCase) where each word starts with a capital letter: <code>StudentRecord</code>, <code>BankAccount</code>. camelCase (A) is for methods and variables. snake_case (C) is not used in Java. UPPER_CASE (D) is for constants."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "How many .class files are produced when you compile a .java file containing 3 classes?",
+        "options": {"A": "1", "B": "2", "C": "3", "D": "Depends on the number of main methods"},
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Each class in a .java file produces its own .class file. If the file contains classes A, B, and C, the compiler produces A.class, B.class, and C.class. The number of main methods (D) is irrelevant to the number of .class files generated."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the output of: System.out.println('A' + 1)?",
+        "options": {"A": "A1", "B": "66", "C": "B", "D": "Error"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> In Java, <code>char</code> is a numeric type. <code>'A'</code> has the Unicode/ASCII value 65. Adding 1 gives 66 (an int). <code>println(66)</code> prints <code>66</code>. It does NOT print 'B' because the result type is int, not char. To get 'B', you would need to cast: <code>(char)('A' + 1)</code>."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Which statement about Java comments is FALSE?",
+        "options": {"A": "Javadoc comments start with /**", "B": "Comments can be nested: /* /* */ */", "C": "Single-line comments start with //", "D": "Comments are ignored by the compiler"},
+        "correct": "B",
+        "explanation": "<strong>B is the FALSE statement.</strong> Java does NOT support nested multi-line comments. <code>/* /* */ */</code> would cause a compiler error because the first <code>*/</code> closes the comment, and the second <code>*/</code> is orphaned. All other statements are true."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the output of: System.out.printf(\"%.3f\", 3.14)?",
+        "options": {"A": "3.14", "B": "3.140", "C": "3.1", "D": "Error"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>%.3f</code> formats the number with exactly 3 decimal places. Since 3.14 only has 2 decimal places, a trailing zero is added to make 3 decimal places: <code>3.140</code>. Note: printf does not add a newline unless you include <code>%n</code>."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Why must the main method be static?",
+        "options": {"A": "To make it thread-safe", "B": "So the JVM can call it without creating an object", "C": "To prevent it from being overridden", "D": "Because Java does not support non-static methods"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The JVM needs to call the main method as the program entry point before any objects exist. Static methods belong to the class itself, not to any instance. Without <code>static</code>, the JVM would need to create an object first, but it does not know how (there is no constructor logic to run). This is the fundamental reason."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What is the correct way to print a backslash in Java?",
+        "options": {"A": "System.out.println(\"\\\")", "B": "System.out.println(\"\\\\\")", "C": "System.out.println(\"/\")", "D": "System.out.println(\"backslash\")"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Since backslash is the escape character, you need two backslashes (<code>\\\\</code>) in the source code to produce one backslash in the output. Option A has an unmatched escape sequence and would cause a compiler error."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Easy",
+        "question": "What is System.out in Java?",
+        "options": {"A": "A method that prints text", "B": "The standard output stream object", "C": "A class for file output", "D": "A variable that stores console text"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>System.out</code> is a static field of the <code>System</code> class, and it is an instance of <code>PrintStream</code> that represents the standard output stream (usually the console/terminal). <code>println</code>, <code>print</code>, and <code>printf</code> are methods called on this object."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the output of: System.out.println(\"Result: \" + 2 * 3)?",
+        "options": {"A": "Result: 23", "B": "Result: 6", "C": "Result: 2 * 3", "D": "Error"},
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Operator precedence matters here. <code>*</code> has higher precedence than <code>+</code>. So <code>2 * 3</code> is evaluated first (giving 6), then <code>\"Result: \" + 6</code> is concatenated to <code>\"Result: 6\"</code>. This is different from <code>\"Result: \" + 2 + 3</code> which would give <code>\"Result: 23\"</code>."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Personal Information Card",
+        "difficulty": "Easy",
+        "description": "Write a Java program that prints a formatted personal information card for Ananya with: name, age (20), college (NIT Trichy), branch (CSE), CGPA (8.9). Use tabs for alignment.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "============================\n   STUDENT ID CARD\n============================\nName:\t\tAnanya Desai\nAge:\t\t20\nCollege:\tNIT Trichy\nBranch:\t\tCSE\nCGPA:\t\t8.9\n============================",
+        "constraints": "Use \\t for alignment and System.out.println for each line.",
+        "solution": "public class StudentCard {\n    public static void main(String[] args) {\n        System.out.println(\"============================\");\n        System.out.println(\"   STUDENT ID CARD\");\n        System.out.println(\"============================\");\n        System.out.println(\"Name:\\t\\tAnanya Desai\");\n        System.out.println(\"Age:\\t\\t20\");\n        System.out.println(\"College:\\tNIT Trichy\");\n        System.out.println(\"Branch:\\t\\tCSE\");\n        System.out.println(\"CGPA:\\t\\t8.9\");\n        System.out.println(\"============================\");\n    }\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "ASCII Art Triangle",
+        "difficulty": "Easy",
+        "description": "Write a Java program that prints a right-angled triangle made of asterisks with 5 rows. Row 1 has 1 asterisk, row 5 has 5 asterisks.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "*\n**\n***\n****\n*****",
+        "constraints": "Use only System.out.println statements (no loops yet). Each row is a separate println.",
+        "solution": "public class Triangle {\n    public static void main(String[] args) {\n        System.out.println(\"*\");\n        System.out.println(\"**\");\n        System.out.println(\"***\");\n        System.out.println(\"****\");\n        System.out.println(\"*****\");\n    }\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Formatted Student Report",
+        "difficulty": "Medium",
+        "description": "Write a Java program that prints a formatted report of 4 students using printf. Display Name (left-aligned, 15 chars), Roll No (right-aligned, 8 chars), Marks (right-aligned, 6 chars), and Grade (centered, 5 chars). Include a header and separator line.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "===================================================\nName            | Roll No | Marks | Grade\n===================================================\nAarav Sharma    |    1001 |    87 |   A\nPriya Patel     |    1002 |    92 |   A+\nRohan Singh     |    1003 |    65 |   B\nNeha Gupta      |    1004 |    78 |   B+\n===================================================",
+        "constraints": "Use System.out.printf with format specifiers. Include header and footer separators.",
+        "solution": "public class StudentReport {\n    public static void main(String[] args) {\n        String sep = \"===================================================\";\n        System.out.println(sep);\n        System.out.printf(\"%-16s| %7s | %5s | %s%n\", \"Name\", \"Roll No\", \"Marks\", \"Grade\");\n        System.out.println(sep);\n        System.out.printf(\"%-16s| %7d | %5d | %3s%n\", \"Aarav Sharma\", 1001, 87, \"A\");\n        System.out.printf(\"%-16s| %7d | %5d | %3s%n\", \"Priya Patel\", 1002, 92, \"A+\");\n        System.out.printf(\"%-16s| %7d | %5d | %3s%n\", \"Rohan Singh\", 1003, 65, \"B\");\n        System.out.printf(\"%-16s| %7d | %5d | %3s%n\", \"Neha Gupta\", 1004, 78, \"B+\");\n        System.out.println(sep);\n    }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "String Concatenation Puzzle",
+        "difficulty": "Medium",
+        "description": "Write a Java program that prints the result of these 6 expressions (one per line), and add a comment explaining each result: (a) 1 + 2 + \"3\", (b) \"1\" + 2 + 3, (c) 1 + 2 + 3 + \"\", (d) \"\" + 1 + 2 + 3, (e) 1 + \"\" + 2 + 3, (f) \"Result: \" + (1 + 2 + 3).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "a) 33\nb) 123\nc) 6\nd) 123\ne) 123\nf) Result: 6",
+        "constraints": "Print each expression result and include a comment in the code explaining why.",
+        "solution": "public class ConcatPuzzle {\n    public static void main(String[] args) {\n        // a) 1 + 2 = 3 (int), then 3 + \"3\" = \"33\" (concatenation)\n        System.out.println(\"a) \" + (1 + 2 + \"3\"));\n\n        // b) \"1\" + 2 = \"12\" (concat), then \"12\" + 3 = \"123\" (concat)\n        System.out.println(\"b) \" + (\"1\" + 2 + 3));\n\n        // c) 1 + 2 + 3 = 6 (int), then 6 + \"\" = \"6\" (concat)\n        System.out.println(\"c) \" + (1 + 2 + 3 + \"\"));\n\n        // d) \"\" + 1 = \"1\" (concat from start), \"1\" + 2 = \"12\", \"12\" + 3 = \"123\"\n        System.out.println(\"d) \" + (\"\" + 1 + 2 + 3));\n\n        // e) 1 + \"\" = \"1\" (concat), \"1\" + 2 = \"12\", \"12\" + 3 = \"123\"\n        System.out.println(\"e) \" + (1 + \"\" + 2 + 3));\n\n        // f) (1 + 2 + 3) = 6 (parentheses force arithmetic), then \"Result: \" + 6\n        System.out.println(\"f) \" + (\"Result: \" + (1 + 2 + 3)));\n    }\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Invoice Generator",
+        "difficulty": "Hard",
+        "description": "Write a Java program that prints a formatted invoice. Include a store name header, 4 items with name, quantity, unit price, and total (quantity * price), and a grand total at the bottom. Use printf for precise alignment and %.2f for prices.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "================================================\n         MODERN AGE CODERS BOOKSTORE\n================================================\nItem              Qty   Price    Total\n------------------------------------------------\nJava Programming    2  ₹450.00  ₹900.00\nData Structures     1  ₹380.00  ₹380.00\nAlgorithms          1  ₹520.00  ₹520.00\nDesign Patterns     1  ₹410.00  ₹410.00\n------------------------------------------------\n                        TOTAL:  ₹2210.00\n================================================",
+        "constraints": "Use printf with format specifiers. Calculate totals arithmetically. Use consistent column widths.",
+        "solution": "public class Invoice {\n    public static void main(String[] args) {\n        System.out.println(\"================================================\");\n        System.out.println(\"         MODERN AGE CODERS BOOKSTORE\");\n        System.out.println(\"================================================\");\n        System.out.printf(\"%-18s %3s %8s %8s%n\", \"Item\", \"Qty\", \"Price\", \"Total\");\n        System.out.println(\"------------------------------------------------\");\n\n        double t1 = 2 * 450.00;\n        double t2 = 1 * 380.00;\n        double t3 = 1 * 520.00;\n        double t4 = 1 * 410.00;\n\n        System.out.printf(\"%-18s %3d %8.2f %8.2f%n\", \"Java Programming\", 2, 450.00, t1);\n        System.out.printf(\"%-18s %3d %8.2f %8.2f%n\", \"Data Structures\", 1, 380.00, t2);\n        System.out.printf(\"%-18s %3d %8.2f %8.2f%n\", \"Algorithms\", 1, 520.00, t3);\n        System.out.printf(\"%-18s %3d %8.2f %8.2f%n\", \"Design Patterns\", 1, 410.00, t4);\n\n        System.out.println(\"------------------------------------------------\");\n        System.out.printf(\"%32s %8.2f%n\", \"TOTAL:\", t1 + t2 + t3 + t4);\n        System.out.println(\"================================================\");\n    }\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Escape Sequence Art",
+        "difficulty": "Medium",
+        "description": "Write a Java program that uses escape sequences to print a dialogue between two characters. Include double quotes around spoken text, tabs for indentation, newlines for spacing, and backslashes in a file path reference.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== Java Learning Conversation ===\n\nAarav:\t\"Have you started learning Java?\"\nPriya:\t\"Yes! I saved my first program at\n\tC:\\Users\\Priya\\JavaProjects\\HelloWorld.java\"\nAarav:\t\"Great! Remember:\n\t1. Every statement needs a semicolon\n\t2. File name must match class name\n\t3. main method is the entry point\"\nPriya:\t\"Got it. Let's code!\"",
+        "constraints": "Use \\n, \\t, \\\", and \\\\ escape sequences. All output from a single main method.",
+        "solution": "public class EscapeArt {\n    public static void main(String[] args) {\n        System.out.println(\"=== Java Learning Conversation ===\");\n        System.out.println();\n        System.out.println(\"Aarav:\\t\\\"Have you started learning Java?\\\"\");\n        System.out.println(\"Priya:\\t\\\"Yes! I saved my first program at\");\n        System.out.println(\"\\tC:\\\\Users\\\\Priya\\\\JavaProjects\\\\HelloWorld.java\\\"\");\n        System.out.println(\"Aarav:\\t\\\"Great! Remember:\");\n        System.out.println(\"\\t1. Every statement needs a semicolon\");\n        System.out.println(\"\\t2. File name must match class name\");\n        System.out.println(\"\\t3. main method is the entry point\\\"\");\n        System.out.println(\"Priya:\\t\\\"Got it. Let's code!\\\"\");\n    }\n}"
+      },
+      {
+        "id": "cc-7",
+        "title": "Command-Line Calculator",
+        "difficulty": "Hard",
+        "description": "Write a Java program that takes two numbers as command-line arguments and prints their sum, difference, product, and quotient. Handle the case where no arguments or fewer than 2 arguments are provided with a usage message.",
+        "sampleInput": "java Calculator 15 4",
+        "sampleOutput": "Number 1: 15\nNumber 2: 4\nSum: 19\nDifference: 11\nProduct: 60\nQuotient: 3.75",
+        "constraints": "Use Integer.parseInt() to convert args to numbers. Handle missing arguments. Use printf for the quotient to show decimal places.",
+        "solution": "public class Calculator {\n    public static void main(String[] args) {\n        if (args.length < 2) {\n            System.out.println(\"Usage: java Calculator <num1> <num2>\");\n            System.out.println(\"Example: java Calculator 15 4\");\n            return;\n        }\n\n        int num1 = Integer.parseInt(args[0]);\n        int num2 = Integer.parseInt(args[1]);\n\n        System.out.println(\"Number 1: \" + num1);\n        System.out.println(\"Number 2: \" + num2);\n        System.out.println(\"Sum: \" + (num1 + num2));\n        System.out.println(\"Difference: \" + (num1 - num2));\n        System.out.println(\"Product: \" + (num1 * num2));\n        System.out.printf(\"Quotient: %.2f%n\", (double) num1 / num2);\n    }\n}"
+      },
+      {
+        "id": "cc-8",
+        "title": "Java Cheat Sheet Printer",
+        "difficulty": "Hard",
+        "description": "Write a Java program that prints a comprehensive cheat sheet covering all topics from this chapter: program structure, output methods (println, print, printf), comment types, naming conventions, and escape sequences. Format it as a reference card with sections and examples.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "(A formatted cheat sheet with 5 sections, examples in each)",
+        "constraints": "Must include at least 5 sections. Use a mix of println and printf. Include actual code examples as strings.",
+        "solution": "public class CheatSheet {\n    public static void main(String[] args) {\n        System.out.println(\"========================================\");\n        System.out.println(\"   JAVA BASICS CHEAT SHEET - Chapter 3\");\n        System.out.println(\"========================================\");\n\n        System.out.println(\"\\n--- 1. PROGRAM STRUCTURE ---\");\n        System.out.println(\"public class ClassName {\");\n        System.out.println(\"    public static void main(String[] args) {\");\n        System.out.println(\"        // Your code here\");\n        System.out.println(\"    }\");\n        System.out.println(\"}\");\n\n        System.out.println(\"\\n--- 2. OUTPUT METHODS ---\");\n        System.out.println(\"println(x)  - prints x + newline\");\n        System.out.println(\"print(x)    - prints x (no newline)\");\n        System.out.println(\"printf(fmt) - formatted: %s %d %.2f %n\");\n\n        System.out.println(\"\\n--- 3. COMMENTS ---\");\n        System.out.println(\"// Single-line comment\");\n        System.out.println(\"/* Multi-line comment */\");\n        System.out.println(\"/** Javadoc comment */\");\n\n        System.out.println(\"\\n--- 4. NAMING CONVENTIONS ---\");\n        System.out.printf(\"%-12s -> %s%n\", \"Classes\", \"PascalCase (StudentRecord)\");\n        System.out.printf(\"%-12s -> %s%n\", \"Methods\", \"camelCase (calculateGpa)\");\n        System.out.printf(\"%-12s -> %s%n\", \"Variables\", \"camelCase (studentName)\");\n        System.out.printf(\"%-12s -> %s%n\", \"Constants\", \"UPPER_SNAKE (MAX_SIZE)\");\n\n        System.out.println(\"\\n--- 5. ESCAPE SEQUENCES ---\");\n        System.out.printf(\"%-6s -> %s%n\", \"\\\\n\", \"Newline\");\n        System.out.printf(\"%-6s -> %s%n\", \"\\\\t\", \"Tab\");\n        System.out.printf(\"%-6s -> %s%n\", \"\\\\\\\\\", \"Backslash\");\n        System.out.printf(\"%-6s -> %s%n\", \"\\\\\\\"\", \"Double quote\");\n\n        System.out.println(\"\\n========================================\");\n    }\n}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lambda Expressions and Streams API - Java Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Write concise code with lambdas, functional interfaces, and process collections with the Streams API.">
+    <meta name="keywords" content="lambda expressions and streams api, java tutorial, java lambda expressions and streams api, learn java">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams">
+    <meta property="og:title" content="Lambda Expressions and Streams API - Java Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Write concise code with lambdas, functional interfaces, and process collections with the Streams API.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams">
+    <meta name="twitter:title" content="Lambda Expressions and Streams API - Java Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Write concise code with lambdas, functional interfaces, and process collections with the Streams API.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Lambda Expressions and Streams API",
+    "description": "Write concise code with lambdas, functional interfaces, and process collections with the Streams API.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Java",
+        "item": "https://learn.modernagecoders.com/resources/java"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Lambda Expressions and Streams API",
+        "item": "https://learn.modernagecoders.com/resources/java/lambda-expressions-and-streams"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/java">Java</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Lambda Expressions and Streams API</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 23</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">50 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-08</span>
+            </div>
+            <h1 class="resource-title">Lambda Expressions and Streams API</h1>
+            <a href="/resources/java/lambda-expressions-and-streams/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Lambda Expressions and Streams?</h2><p>A <strong>lambda expression</strong> is a concise way to represent an anonymous function (a function without a name) in Java. Introduced in Java 8, lambdas let you pass behavior as an argument to methods, store functions in variables, and write cleaner code.</p><pre><code class="language-java">// Before Java 8: anonymous inner class
+Runnable task = new Runnable() {
+    @Override
+    public void run() {
+        System.out.println("Hello");
+    }
+};
+
+// Java 8+: lambda expression
+Runnable task = () -> System.out.println("Hello");</code></pre><p>The <strong>Streams API</strong> is a library for processing collections (lists, sets, arrays) in a functional, declarative style. Instead of writing loops, you chain operations like <code>filter</code>, <code>map</code>, and <code>reduce</code>:</p><pre><code class="language-java">List&lt;String&gt; names = List.of("Arjun", "Priya", "Vikram", "Sneha", "Rohan");
+
+// Imperative: loop and if
+List&lt;String&gt; result = new ArrayList&lt;&gt;();
+for (String name : names) {
+    if (name.length() > 4) {
+        result.add(name.toUpperCase());
+    }
+}
+
+// Declarative: stream pipeline
+List&lt;String&gt; result = names.stream()
+    .filter(name -> name.length() > 4)
+    .map(String::toUpperCase)
+    .collect(Collectors.toList());
+// [ARJUN, PRIYA, VIKRAM, SNEHA, ROHAN]</code></pre><p>Lambdas and Streams together bring functional programming capabilities to Java, making code shorter, more readable, and easier to parallelize.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Lambda Expressions and Streams Important?</h2><h3>1. Concise and Readable Code</h3><p>Lambdas eliminate verbose anonymous inner classes. What took 5 lines now takes 1. Streams replace multi-line loops with expressive pipelines. When Sneha reads a stream pipeline, the intent is immediately clear: filter these items, transform them, collect the results.</p><h3>2. Functional Programming in Java</h3><p>Java was purely object-oriented until Java 8. Lambdas added functional programming features: functions as first-class citizens, immutability, and declarative data processing. Modern Java codebases (Spring Boot, Hibernate, Android) use lambdas and streams extensively.</p><h3>3. Parallel Processing Made Simple</h3><p>Converting a sequential stream to parallel is a one-word change: <code>.stream()</code> becomes <code>.parallelStream()</code>. The framework handles thread management. This makes it easy to leverage multi-core CPUs without writing thread management code.</p><h3>4. Industry-Standard API Design</h3><p>Java's Collections, I/O, and networking APIs now use functional interfaces (Predicate, Function, Consumer). Understanding these patterns is essential for working with any modern Java framework. Spring's WebFlux, for example, is built entirely on functional and reactive patterns.</p><h3>5. Interview and Placement Relevance</h3><p>Lambda expressions and Streams are among the most frequently asked Java 8+ topics at companies like Google, Amazon, Microsoft, Flipkart, and Goldman Sachs. Questions range from writing stream pipelines to understanding lazy evaluation and terminal operations.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Functional Interfaces</h3><p>A <strong>functional interface</strong> is an interface with exactly one abstract method. Lambdas can only be assigned to functional interface types. The <code>@FunctionalInterface</code> annotation enforces this:</p><pre><code class="language-java">@FunctionalInterface
+interface Greeting {
+    void sayHello(String name); // single abstract method
+}
+
+// Lambda assigned to functional interface
+Greeting greet = (name) -> System.out.println("Hello, " + name);
+greet.sayHello("Arjun"); // Hello, Arjun</code></pre><h4>Built-in Functional Interfaces (java.util.function)</h4><table><tr><th>Interface</th><th>Method</th><th>Description</th></tr><tr><td>Predicate&lt;T&gt;</td><td>boolean test(T t)</td><td>Takes T, returns boolean</td></tr><tr><td>Function&lt;T,R&gt;</td><td>R apply(T t)</td><td>Takes T, returns R</td></tr><tr><td>Consumer&lt;T&gt;</td><td>void accept(T t)</td><td>Takes T, returns nothing</td></tr><tr><td>Supplier&lt;T&gt;</td><td>T get()</td><td>Takes nothing, returns T</td></tr><tr><td>BiFunction&lt;T,U,R&gt;</td><td>R apply(T t, U u)</td><td>Takes T and U, returns R</td></tr><tr><td>UnaryOperator&lt;T&gt;</td><td>T apply(T t)</td><td>Takes T, returns T (same type)</td></tr><tr><td>BinaryOperator&lt;T&gt;</td><td>T apply(T t1, T t2)</td><td>Takes two T, returns T</td></tr></table><pre><code class="language-java">import java.util.function.*;
+
+Predicate&lt;Integer&gt; isEven = n -> n % 2 == 0;
+System.out.println(isEven.test(4));  // true
+System.out.println(isEven.test(7));  // false
+
+Function&lt;String, Integer&gt; length = s -> s.length();
+System.out.println(length.apply("Hello")); // 5
+
+Consumer&lt;String&gt; printer = s -> System.out.println(s);
+printer.accept("Hello"); // Hello
+
+Supplier&lt;Double&gt; random = () -> Math.random();
+System.out.println(random.get()); // 0.xxx
+
+BiFunction&lt;Integer, Integer, Integer&gt; add = (a, b) -> a + b;
+System.out.println(add.apply(3, 4)); // 7</code></pre><h3>2. Lambda Syntax</h3><pre><code class="language-java">// No parameters
+Runnable r = () -> System.out.println("Hello");
+
+// One parameter (parentheses optional)
+Consumer&lt;String&gt; c = s -> System.out.println(s);
+Consumer&lt;String&gt; c2 = (s) -> System.out.println(s); // also valid
+
+// Multiple parameters
+BiFunction&lt;Integer, Integer, Integer&gt; add = (a, b) -> a + b;
+
+// Multi-line body (requires braces and explicit return)
+Function&lt;Integer, String&gt; classify = n -> {
+    if (n > 0) return "positive";
+    if (n < 0) return "negative";
+    return "zero";
+};</code></pre><p>Key rules: (1) Parameter types can be inferred (omit them). (2) Single parameter does not need parentheses. (3) Single expression does not need braces or <code>return</code>. (4) Multi-statement body needs braces and explicit <code>return</code>.</p><h3>3. Method References</h3><p>Method references are a shorthand for lambdas that simply call an existing method:</p><pre><code class="language-java">// Lambda                          // Method Reference
+s -> System.out.println(s)     ->  System.out::println
+s -> s.toUpperCase()           ->  String::toUpperCase
+s -> Integer.parseInt(s)       ->  Integer::parseInt
+() -> new ArrayList&lt;&gt;()        ->  ArrayList::new
+
+// Four types of method references:
+// 1. Static method:      ClassName::staticMethod
+// 2. Instance method:    object::instanceMethod
+// 3. Arbitrary object:   ClassName::instanceMethod
+// 4. Constructor:        ClassName::new
+
+List&lt;String&gt; names = List.of("arjun", "priya", "vikram");
+names.stream()
+     .map(String::toUpperCase)       // ClassName::instanceMethod
+     .forEach(System.out::println);  // object::instanceMethod</code></pre><h3>4. Streams API: Overview</h3><p>A stream is a sequence of elements that supports functional-style operations. It is NOT a data structure -- it does not store data. It processes data from a source (collection, array, file).</p><pre><code class="language-java">List&lt;Integer&gt; numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
+int sum = numbers.stream()       // create stream
+    .filter(n -> n % 2 == 0)     // intermediate: keep even numbers
+    .map(n -> n * n)             // intermediate: square each
+    .reduce(0, Integer::sum);    // terminal: sum them
+
+System.out.println(sum); // 4+16+36+64+100 = 220</code></pre><p>Key characteristics: (1) Streams are lazy -- intermediate operations do not execute until a terminal operation is called. (2) Streams can only be consumed once. (3) Streams do not modify the source collection.</p><h3>5. Intermediate Operations</h3><p>Intermediate operations return a new stream and are lazy (not executed until a terminal operation is called):</p><pre><code class="language-java">List&lt;String&gt; names = List.of("Arjun", "Priya", "Arjun", "Vikram", "Sneha", "Priya");
+
+// filter: keep elements matching a predicate
+names.stream().filter(n -> n.startsWith("A")).forEach(System.out::println);
+// Arjun, Arjun
+
+// map: transform each element
+names.stream().map(String::length).forEach(System.out::println);
+// 5, 5, 5, 6, 5, 5
+
+// distinct: remove duplicates
+names.stream().distinct().forEach(System.out::println);
+// Arjun, Priya, Vikram, Sneha
+
+// sorted: natural order or with comparator
+names.stream().sorted().forEach(System.out::println);
+// alphabetical
+names.stream().sorted(Comparator.comparingInt(String::length)).forEach(System.out::println);
+// by length
+
+// limit and skip
+names.stream().limit(3).forEach(System.out::println);  // first 3
+names.stream().skip(2).forEach(System.out::println);   // skip first 2
+
+// peek: debug/inspect without modifying
+names.stream()
+    .peek(n -> System.out.println("Processing: " + n))
+    .filter(n -> n.length() > 4)
+    .forEach(System.out::println);</code></pre><h4>flatMap: Flattening Nested Structures</h4><pre><code class="language-java">List&lt;List&lt;Integer&gt;&gt; nested = List.of(
+    List.of(1, 2, 3),
+    List.of(4, 5),
+    List.of(6, 7, 8, 9)
+);
+
+List&lt;Integer&gt; flat = nested.stream()
+    .flatMap(List::stream)  // flatten each inner list into a single stream
+    .collect(Collectors.toList());
+// [1, 2, 3, 4, 5, 6, 7, 8, 9]</code></pre><h3>6. Terminal Operations</h3><p>Terminal operations trigger the execution of the stream pipeline and produce a result:</p><pre><code class="language-java">List&lt;Integer&gt; nums = List.of(3, 1, 4, 1, 5, 9, 2, 6);
+
+// forEach: perform action on each element
+nums.stream().forEach(System.out::println);
+
+// collect: gather results into a collection
+List&lt;Integer&gt; evens = nums.stream().filter(n -> n % 2 == 0).collect(Collectors.toList());
+
+// reduce: combine elements into a single value
+int sum = nums.stream().reduce(0, Integer::sum); // 31
+Optional&lt;Integer&gt; max = nums.stream().reduce(Integer::max); // 9
+
+// count: number of elements
+long count = nums.stream().filter(n -> n > 3).count(); // 4
+
+// findFirst and findAny
+Optional&lt;Integer&gt; first = nums.stream().filter(n -> n > 5).findFirst(); // 9
+
+// anyMatch, allMatch, noneMatch
+boolean hasEven = nums.stream().anyMatch(n -> n % 2 == 0);   // true
+boolean allPositive = nums.stream().allMatch(n -> n > 0);     // true
+boolean noneNegative = nums.stream().noneMatch(n -> n < 0);   // true</code></pre><h3>7. Collectors</h3><p>The <code>Collectors</code> class provides factory methods for common collection operations:</p><pre><code class="language-java">import java.util.stream.Collectors;
+
+List&lt;String&gt; names = List.of("Arjun", "Priya", "Vikram", "Sneha", "Rohan");
+
+// toList, toSet
+List&lt;String&gt; list = names.stream().collect(Collectors.toList());
+Set&lt;String&gt; set = names.stream().collect(Collectors.toSet());
+
+// joining
+String joined = names.stream().collect(Collectors.joining(", "));
+// "Arjun, Priya, Vikram, Sneha, Rohan"
+
+// toMap
+Map&lt;String, Integer&gt; nameLengths = names.stream()
+    .collect(Collectors.toMap(n -> n, String::length));
+// {Arjun=5, Priya=5, Vikram=6, Sneha=5, Rohan=5}
+
+// groupingBy
+Map&lt;Integer, List&lt;String&gt;&gt; byLength = names.stream()
+    .collect(Collectors.groupingBy(String::length));
+// {5=[Arjun, Priya, Sneha, Rohan], 6=[Vikram]}
+
+// partitioningBy (splits into true/false groups)
+Map&lt;Boolean, List&lt;String&gt;&gt; partitioned = names.stream()
+    .collect(Collectors.partitioningBy(n -> n.length() > 5));
+// {false=[Arjun, Priya, Sneha, Rohan], true=[Vikram]}</code></pre><h3>8. The Optional Class</h3><p><code>Optional</code> is a container that may or may not contain a value. It replaces null checks and prevents NullPointerException:</p><pre><code class="language-java">import java.util.Optional;
+
+// Creating Optional
+Optional&lt;String&gt; name = Optional.of("Arjun");       // non-null value
+Optional&lt;String&gt; empty = Optional.empty();            // empty
+Optional&lt;String&gt; maybe = Optional.ofNullable(null);   // may be null
+
+// Checking and accessing
+System.out.println(name.isPresent());  // true
+System.out.println(empty.isPresent()); // false
+
+// ifPresent: execute action if value exists
+name.ifPresent(n -> System.out.println("Name: " + n));
+
+// orElse: provide default value
+String result = empty.orElse("Unknown");  // "Unknown"
+
+// orElseThrow: throw exception if empty
+String value = name.orElseThrow(() -> new RuntimeException("No value"));
+
+// map and filter on Optional
+Optional&lt;Integer&gt; length = name.map(String::length); // Optional[5]
+Optional&lt;String&gt; filtered = name.filter(n -> n.startsWith("A")); // Optional[Arjun]</code></pre><p><code>Optional</code> is commonly returned by stream operations like <code>findFirst()</code>, <code>findAny()</code>, and <code>reduce()</code> (without identity). It forces the caller to handle the absence case explicitly.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <p>No code examples available yet.</p>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <p>No common mistakes listed for this topic.</p>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <p>Summary coming soon.</p>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/java/multithreading-basics" class="related-topic-link">Multithreading Basics</a>
+<a href="/resources/java/java-memory-and-garbage-collection" class="related-topic-link">Java Memory Model and Garbage Collection</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/java/multithreading-basics" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Multithreading Basics</span>
+        </a>
+            <a href="/resources/java/java-memory-and-garbage-collection" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Java Memory Model and Garbage Collection</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/java/lambda-expressions-and-streams/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Java with a live mentor?</p>
+            <a href="/courses/complete-java-programming-masterclass-college" class="cta-button-outline">Explore our Java Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>
