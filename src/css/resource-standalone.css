@@ -4,11 +4,11 @@
    No dependency on global style.css or responsive.css.
 
    Design tokens: #a855f7 purple, #06b6d4 cyan, #000002 bg,
-   #f1f5f9 text, Syne headings, Inter body, Fira Code mono
+   #f1f5f9 text, Inter headings+body, Fira Code mono
    ============================================================ */
 
 /* === FONT IMPORTS ============================================ */
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&family=Fira+Code:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap');
 
 /* === CSS RESET =============================================== */
 *, *::before, *::after {
@@ -236,7 +236,7 @@ button {
 
 /* Title */
 .resource-main .resource-title {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 800;
     font-size: 2.2rem;
     line-height: 1.2;
@@ -319,7 +319,7 @@ button {
 }
 
 .toc-box .toc-heading {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
     color: #c084fc;
@@ -370,7 +370,7 @@ button {
 }
 
 .resource-main .content-section h2 {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 700;
     font-size: 1.6rem;
     line-height: 1.25;
@@ -382,7 +382,7 @@ button {
 }
 
 .resource-main .content-section h3 {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 700;
     font-size: 1.25rem;
     line-height: 1.3;
@@ -394,7 +394,7 @@ button {
 }
 
 .resource-main .content-section h4 {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 600;
     font-size: 1.1rem;
     line-height: 1.35;
@@ -476,7 +476,7 @@ button {
 .code-example-title {
     background: rgba(168, 85, 247, 0.1);
     padding: 12px 18px;
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 700;
     font-size: 0.95rem;
     color: #c084fc;
@@ -672,7 +672,7 @@ button {
 }
 
 .resource-main .related-topics h2 {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 700;
     font-size: 1.3rem;
     color: #f1f5f9;
@@ -769,7 +769,7 @@ button {
 }
 
 .resource-main .cta-section h2 {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 700;
     font-size: 1.4rem;
     color: #f1f5f9;
@@ -858,7 +858,7 @@ button {
 }
 
 .practice-stats-bar .stat-count {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 800;
     font-size: 1.5rem;
     line-height: 1;
@@ -881,7 +881,7 @@ button {
 }
 
 .resource-main .practice-section h2 {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 700;
     font-size: 1.4rem;
     color: #f1f5f9;
@@ -1062,7 +1062,7 @@ button {
 }
 
 .resource-main .challenge-card h3 {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     color: #22d3ee;
     margin: 0 0 12px;
     font-size: 1.1rem;
@@ -1124,7 +1124,7 @@ button {
 }
 
 .resource-main .chapter-listing h2 {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 700;
     font-size: 1.4rem;
     color: #f1f5f9;
@@ -1158,7 +1158,7 @@ button {
 }
 
 .chapter-card-number {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 800;
     font-size: 1.4rem;
     color: #a855f7;
@@ -1229,7 +1229,7 @@ button {
 }
 
 .language-card-name {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 800;
     font-size: 1.5rem;
     color: #f1f5f9;
