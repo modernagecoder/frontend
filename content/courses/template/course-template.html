@@ -3,37 +3,40 @@
 
 <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+      gtag('config', 'G-N8BM164YJP');
       gtag('config', 'AW-16910316353');
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-template="meta.title">{{COURSE_TITLE}} - Modern Age Coders</title>
+    <title>{{COURSE_TITLE}} - Modern Age Coders</title>
 
-    <meta name="description" content="{{COURSE_DESCRIPTION}}" data-template="meta.description">
-    <meta name="keywords" content="{{COURSE_KEYWORDS}}" data-template="meta.keywords">
+    <meta name="description" content="{{COURSE_DESCRIPTION}}">
+    <meta name="keywords" content="{{COURSE_KEYWORDS}}">
     <meta name="author" content="Modern Age Coders">
     <link rel="canonical" href="https://learn.modernagecoders.com/courses/{{COURSE_SLUG}}"
-        data-template="meta.canonical">
+       >
     <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/courses/{{COURSE_SLUG}}" />
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/courses/{{COURSE_SLUG}}" />
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/courses/{{COURSE_SLUG}}" />
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://learn.modernagecoders.com/courses/{{COURSE_SLUG}}"
-        data-template="meta.og_url">
-    <meta property="og:title" content="{{COURSE_TITLE}} - Modern Age Coders" data-template="meta.og_title">
-    <meta property="og:description" content="{{COURSE_DESCRIPTION}}" data-template="meta.og_description">
-    <meta property="og:image" content="{{OG_IMAGE}}" data-template="meta.og_image">
+       >
+    <meta property="og:title" content="{{COURSE_TITLE}} - Modern Age Coders">
+    <meta property="og:description" content="{{COURSE_DESCRIPTION}}">
+    <meta property="og:image" content="{{OG_IMAGE}}">
 
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://learn.modernagecoders.com/courses/{{COURSE_SLUG}}"
-        data-template="meta.twitter_url">
-    <meta property="twitter:title" content="{{COURSE_TITLE}} - Modern Age Coders" data-template="meta.twitter_title">
-    <meta property="twitter:description" content="{{COURSE_DESCRIPTION}}" data-template="meta.twitter_description">
-    <meta property="twitter:image" content="{{TWITTER_IMAGE}}" data-template="meta.twitter_image">
+       >
+    <meta property="twitter:title" content="{{COURSE_TITLE}} - Modern Age Coders">
+    <meta property="twitter:description" content="{{COURSE_DESCRIPTION}}">
+    <meta property="twitter:image" content="{{TWITTER_IMAGE}}">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
@@ -41,7 +44,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
 
-    <script type="application/ld+json" data-template="structured_data">
+    <script type="application/ld+json">
     {{STRUCTURED_DATA}}
     </script>
 
@@ -78,13 +81,13 @@
         <!-- Enhanced Hero Section with Image Support -->
         <section class="course-hero">
             <div class="course-hero-content">
-                <span class="course-category" data-template="hero.category">{{HERO_CATEGORY}}</span>
-                <h1 class="course-hero-title" data-template="hero.title">{{HERO_TITLE}}</h1>
-                <p class="course-hero-subtitle" data-template="hero.subtitle">{{HERO_SUBTITLE}}</p>
+                <span class="course-category">{{HERO_CATEGORY}}</span>
+                <h1 class="course-hero-title">{{HERO_TITLE}}</h1>
+                <p class="course-hero-subtitle">{{HERO_SUBTITLE}}</p>
 
                 <!-- Course Meta Badges -->
                 <div class="course-meta-badges">
-                    <span class="meta-badge" data-template="meta.duration">
+                    <span class="meta-badge">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2">
                             <circle cx="12" cy="12" r="10"></circle>
@@ -92,7 +95,7 @@
                         </svg>
                         {{DURATION}}
                     </span>
-                    <span class="meta-badge" data-template="meta.level">
+                    <span class="meta-badge">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2">
                             <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
@@ -100,7 +103,7 @@
                         </svg>
                         {{LEVEL}}
                     </span>
-                    <span class="meta-badge" data-template="meta.commitment">
+                    <span class="meta-badge">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2">
                             <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
@@ -110,7 +113,7 @@
                         </svg>
                         {{COMMITMENT}}
                     </span>
-                    <span class="meta-badge certification" data-template="meta.certification">
+                    <span class="meta-badge certification">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2">
                             <path
@@ -121,7 +124,7 @@
                     </span>
                 </div>
             </div>
-            <div class="course-hero-image" data-template="hero.image">
+            <div class="course-hero-image">
                 {{HERO_IMAGE}}
             </div>
         </section>
@@ -211,19 +214,19 @@
         <section class="enrollment-cta-section">
             <div class="enrollment-cta-container">
                 <div class="enrollment-cta-text">
-                    <h2 data-template="enrollment.title">Ready to Master {{COURSE_TITLE}}?</h2>
+                    <h2>Ready to Master {{COURSE_TITLE}}?</h2>
                     <p>Choose your plan and start your journey into the future of technology today.</p>
                 </div>
                 <div class="enrollment-options">
                     <div class="enrollment-option featured">
                         <h4>Group Classes</h4>
-                        <div class="price" data-template="meta.price.group">{{PRICE_GROUP}}</div>
+                        <div class="price">{{PRICE_GROUP}}</div>
                         <p class="class-info">2 Classes per Week</p>
                         <a href="#" class="enroll-btn primary">Enroll Now</a>
                     </div>
                     <div class="enrollment-option">
                         <h4>Personalized Mentorship</h4>
-                        <div class="price" data-template="meta.price.personal">{{PRICE_PERSONAL}}</div>
+                        <div class="price">{{PRICE_PERSONAL}}</div>
                         <p class="class-info">2 Classes per Week</p>
                         <a href="#" class="enroll-btn outline">Enroll Now</a>
                     </div>
@@ -329,14 +332,14 @@
             <div class="program-overview-container">
                 <h2 class="section-title">Program Overview</h2>
 
-                <div class="overview-description" data-template="program_overview.description">
+                <div class="overview-description">
                     {{PROGRAM_OVERVIEW}}
                 </div>
 
                 <!-- What Makes This Different -->
                 <div class="differentiators-container">
                     <h3 class="subsection-title">What Makes This Program Different</h3>
-                    <ul class="differentiators-list" data-template="program_overview.differentiators">
+                    <ul class="differentiators-list">
                         {{DIFFERENTIATORS}}
                     </ul>
                 </div>
@@ -344,7 +347,7 @@
                 <!-- Learning Path -->
                 <div class="learning-path-container">
                     <h3 class="subsection-title">Your Learning Journey</h3>
-                    <div class="learning-path-grid" data-template="program_overview.learning_path">
+                    <div class="learning-path-grid">
                         {{LEARNING_PATH}}
                     </div>
                 </div>
@@ -352,7 +355,7 @@
                 <!-- Career Outcomes -->
                 <div class="career-outcomes-container">
                     <h3 class="subsection-title">Career Progression</h3>
-                    <div class="career-outcomes-timeline" data-template="program_overview.career_outcomes">
+                    <div class="career-outcomes-timeline">
                         {{CAREER_OUTCOMES}}
                     </div>
                 </div>
@@ -378,7 +381,7 @@
                             this comprehensive program.</p>
 
                         <!-- Nested Accordion Structure: Phase â†’ Month â†’ Week -->
-                        <div class="curriculum-accordion" data-template="curriculum">
+                        <div class="curriculum-accordion">
                             {{CURRICULUM_MODULES}}
                         </div>
                     </div>
@@ -391,20 +394,20 @@
                         <p class="tab-intro">Build a professional portfolio with {{TOTAL_PROJECTS}} real-world projects.
                         </p>
 
-                        <div class="projects-overview" data-template="projects">
+                        <div class="projects-overview">
                             {{PROJECTS_OVERVIEW}}
                         </div>
 
                         <div class="weekly-structure-box">
                             <h3>Weekly Learning Structure</h3>
-                            <div class="weekly-breakdown" data-template="weekly_structure">
+                            <div class="weekly-breakdown">
                                 {{WEEKLY_STRUCTURE}}
                             </div>
                         </div>
 
                         <div class="certification-box">
                             <h3>Certification & Recognition</h3>
-                            <div class="certification-details" data-template="certification">
+                            <div class="certification-details">
                                 {{CERTIFICATION_DETAILS}}
                             </div>
                         </div>
@@ -417,13 +420,13 @@
                         <h2>Technologies & Skills You'll Master</h2>
                         <p class="tab-intro">Comprehensive coverage of the entire modern web development stack.</p>
 
-                        <div class="skills-mastered-grid" data-template="skills">
+                        <div class="skills-mastered-grid">
                             {{SKILLS_MASTERED}}
                         </div>
 
                         <div class="support-section">
                             <h3>Support & Resources</h3>
-                            <div class="support-grid" data-template="support">
+                            <div class="support-grid">
                                 {{SUPPORT_PROVIDED}}
                             </div>
                         </div>
@@ -439,35 +442,35 @@
 
                         <div class="prerequisites-box">
                             <h3>Prerequisites</h3>
-                            <div class="prerequisites-list" data-template="prerequisites">
+                            <div class="prerequisites-list">
                                 {{PREREQUISITES}}
                             </div>
                         </div>
 
                         <div class="who-is-this-for-box">
                             <h3>Who Is This Course For?</h3>
-                            <div class="audience-grid" data-template="who_is_this_for">
+                            <div class="audience-grid">
                                 {{WHO_IS_THIS_FOR}}
                             </div>
                         </div>
 
                         <div class="career-paths-box">
                             <h3>Career Paths After Completion</h3>
-                            <div class="career-paths-list" data-template="career_paths">
+                            <div class="career-paths-list">
                                 {{CAREER_PATHS}}
                             </div>
                         </div>
 
                         <div class="salary-expectations-box">
                             <h3>Salary Expectations</h3>
-                            <div class="salary-grid" data-template="salary">
+                            <div class="salary-grid">
                                 {{SALARY_EXPECTATIONS}}
                             </div>
                         </div>
 
                         <div class="guarantees-box">
                             <h3>Course Guarantees</h3>
-                            <div class="guarantees-list" data-template="guarantees">
+                            <div class="guarantees-list">
                                 {{COURSE_GUARANTEES}}
                             </div>
                         </div>

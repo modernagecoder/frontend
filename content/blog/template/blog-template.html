@@ -3,23 +3,26 @@
 
 <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+      gtag('config', 'G-N8BM164YJP');
       gtag('config', 'AW-16910316353');
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-template="meta.title">{{BLOG_TITLE}} - Modern Age Coders</title>
+    <title>{{BLOG_TITLE}} - Modern Age Coders</title>
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="{{BLOG_DESCRIPTION}}" data-template="meta.description">
-    <meta name="keywords" content="{{BLOG_KEYWORDS}}" data-template="meta.keywords">
+    <meta name="description" content="{{BLOG_DESCRIPTION}}">
+    <meta name="keywords" content="{{BLOG_KEYWORDS}}">
     <meta name="author" content="{{BLOG_AUTHOR_NAME}}">
-    <link rel="canonical" href="https://learn.modernagecoders.com/blog/{{BLOG_SLUG}}" data-template="meta.canonical">
+    <link rel="canonical" href="https://learn.modernagecoders.com/blog/{{BLOG_SLUG}}">
     <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/blog/{{BLOG_SLUG}}" />
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/blog/{{BLOG_SLUG}}" />
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/blog/{{BLOG_SLUG}}" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
@@ -29,21 +32,21 @@
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://learn.modernagecoders.com/blog/{{BLOG_SLUG}}" data-template="meta.og_url">
-    <meta property="og:title" content="{{BLOG_TITLE}} - Modern Age Coders" data-template="meta.og_title">
-    <meta property="og:description" content="{{BLOG_DESCRIPTION}}" data-template="meta.og_description">
-    <meta property="og:image" content="{{HERO_IMAGE_URL}}" data-template="meta.og_image">
+    <meta property="og:url" content="https://learn.modernagecoders.com/blog/{{BLOG_SLUG}}">
+    <meta property="og:title" content="{{BLOG_TITLE}} - Modern Age Coders">
+    <meta property="og:description" content="{{BLOG_DESCRIPTION}}">
+    <meta property="og:image" content="{{HERO_IMAGE_URL}}">
 
     <!-- Twitter Card Meta Tags -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://learn.modernagecoders.com/blog/{{BLOG_SLUG}}"
-        data-template="meta.twitter_url">
-    <meta property="twitter:title" content="{{BLOG_TITLE}} - Modern Age Coders" data-template="meta.twitter_title">
-    <meta property="twitter:description" content="{{BLOG_DESCRIPTION}}" data-template="meta.twitter_description">
-    <meta property="twitter:image" content="{{HERO_IMAGE_URL}}" data-template="meta.twitter_image">
+       >
+    <meta property="twitter:title" content="{{BLOG_TITLE}} - Modern Age Coders">
+    <meta property="twitter:description" content="{{BLOG_DESCRIPTION}}">
+    <meta property="twitter:image" content="{{HERO_IMAGE_URL}}">
 
     <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json" data-template="structured_data">
+    <script type="application/ld+json">
     {{STRUCTURED_DATA}}
     </script>
 
@@ -162,9 +165,9 @@
         <!-- Hero Section -->
         <section class="blog-hero">
             <div class="blog-hero-content">
-                <span class="blog-category" data-template="hero.category">{{BLOG_CATEGORY}}</span>
-                <h1 class="blog-hero-title" data-template="hero.title">{{HERO_TITLE}}</h1>
-                <p class="blog-hero-subtitle" data-template="hero.subtitle">{{HERO_SUBTITLE}}</p>
+                <span class="blog-category">{{BLOG_CATEGORY}}</span>
+                <h1 class="blog-hero-title">{{HERO_TITLE}}</h1>
+                <p class="blog-hero-subtitle">{{HERO_SUBTITLE}}</p>
                 <div class="blog-meta">
                     <div class="author-info">
                         <img src="{{BLOG_AUTHOR_AVATAR}}" alt="{{BLOG_AUTHOR_NAME}}" class="author-avatar">
@@ -177,13 +180,13 @@
                 </div>
             </div>
             <div class="blog-hero-image">
-                <img src="{{HERO_IMAGE_URL}}" alt="{{HERO_IMAGE_ALT}}" data-template="hero.image" loading="lazy">
+                <img src="{{HERO_IMAGE_URL}}" alt="{{HERO_IMAGE_ALT}}" loading="lazy">
             </div>
         </section>
 
         <!-- Content Section -->
         <section class="blog-content-section">
-            <article class="blog-content" data-template="content">
+            <article class="blog-content">
                 {{BLOG_CONTENT}}
             </article>
 
@@ -197,7 +200,7 @@
             </div>
 
             <!-- Related Posts Section -->
-            <div class="related-posts-section" data-template="related">
+            <div class="related-posts-section">
                 <h2>Related Articles</h2>
                 <div class="related-posts-grid">
                     {{RELATED_POSTS}}
