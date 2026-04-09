@@ -196,13 +196,6 @@
   </url>
   
   <url>
-    <loc>https://learn.modernagecoders.com/projects</loc>
-    <lastmod>2026-03-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  
-  <url>
     <loc>https://learn.modernagecoders.com/search</loc>
     <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -216,19 +209,6 @@
     <priority>0.85</priority>
   </url>
   
-  <url>
-    <loc>https://learn.modernagecoders.com/student-projects-standalone</loc>
-    <lastmod>2026-03-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  
-  <url>
-    <loc>https://learn.modernagecoders.com/student-projects-working</loc>
-    <lastmod>2026-03-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
   
   <url>
     <loc>https://learn.modernagecoders.com/success-stories</loc>
@@ -1341,13 +1321,6 @@
   </url>
 
   <url>
-    <loc>https://learn.modernagecoders.com/student-projects</loc>
-    <lastmod>2026-03-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
     <loc>https://learn.modernagecoders.com/love</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -1406,13 +1379,6 @@
 
   <!-- Missing Course Pages -->
   <url>
-    <loc>https://learn.modernagecoders.com/courses/ai-tools-mastery-complete</loc>
-    <lastmod>2026-03-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://learn.modernagecoders.com/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -1421,13 +1387,6 @@
 
   <url>
     <loc>https://learn.modernagecoders.com/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course</loc>
-    <lastmod>2026-03-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://learn.modernagecoders.com/courses/competitive-programming-masterclass</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

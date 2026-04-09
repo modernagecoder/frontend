@@ -16,7 +16,6 @@ const pages = [
     'src/pages/terms.html',
     'src/pages/privacy.html',
     'src/pages/student-labs.html',
-    'src/pages/projects.html',
     'src/pages/404.html'
 ];
 

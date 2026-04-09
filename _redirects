@@ -62,10 +62,10 @@
 /search /src/pages/search.html 200
 
 # Additional pages (clean URLs)
-/projects /src/pages/projects.html 200
-/student-projects /src/pages/student-projects-standalone.html 200
-/student-projects-working /src/pages/student-projects-working.html 200
-/student-projects-standalone /src/pages/student-projects-standalone.html 200
+/projects /student-labs 301!
+/student-projects /student-labs 301!
+/student-projects-working /student-labs 301!
+/student-projects-standalone /student-labs 301!
 /check-status /src/pages/check-status.html 200
 
 # City Landing Pages - SEO Optimized
@@ -128,17 +128,7 @@
 # Course static assets
 /content/courses/generated/* /content/courses/generated/:splat 200
 
-# Individual course pages
-/courses/* /content/courses/generated/:splat/index.html 200
-
-# Blog posts
-/blog/* /content/blog/generated/:splat/index.html 200
-
-# Resource pages (notes + practice)
-/resources /content/resources/generated/index.html 200
-/resources/* /content/resources/generated/:splat/index.html 200
-
-# 301 Redirects for retired/changed course slugs
+# 301 Redirects for retired/changed course slugs (must come BEFORE catch-all)
 /courses/python-programming-masterclass-teens /courses/python-complete-masterclass-teens 301!
 /courses/maths /courses/college-mathematics-complete-masterclass 301!
 /courses/python-ai-automation-masterclass /courses/python-ai-automation-masterclass-college 301!
@@ -157,18 +147,27 @@
 /courses/mern-stack-development-masterclass /courses/mern-stack-development-masterclass-college 301!
 /courses/full-stack-web-development-masterclass /courses/full-stack-web-development-masterclass-college 301!
 /courses/python-programming-masterclass-zero-to-advanced /courses/python-programming-masterclass-zero-to-advanced-college 301!
-
-# Handle missing path parts
 /courses/app-development /courses/complete-app-development-masterclass-college 301!
 /courses/data-structures-algorithms-masterclass /courses/data-structures-algorithms-masterclass-college 301!
 /courses/kids-python-programming /courses/python-ai-kids-masterclass 301!
 /courses/kids-web-design /courses/kids-ai-web-development-course 301!
-
-# Redirect wrong category structures
 /courses/college /levels/coding-for-college-students 301!
 /courses/teens /levels/coding-for-teens 301!
 /courses/kids /levels/coding-for-kids 301!
 /courses/girls-coding /levels/coding-for-kids 301!
+
+# Individual course pages (catch-all — must come AFTER specific redirects above)
+/courses/* /content/courses/generated/:splat/index.html 200
+
+# Blog redirect for template page (must come BEFORE blog catch-all)
+/blog/example-all-features /blog 301!
+
+# Blog posts (catch-all — must come AFTER specific redirects above)
+/blog/* /content/blog/generated/:splat/index.html 200
+
+# Resource pages (notes + practice)
+/resources /content/resources/generated/index.html 200
+/resources/* /content/resources/generated/:splat/index.html 200
 
 # Cancellation & Refund Policy Pages
 /cancellation /src/pages/cancellation.html 200
@@ -222,9 +221,8 @@
 /coding-and-maths-don-bosco-park-circus /coding-and-maths-for-don-bosco-park-circus-kolkata 301!
 /coding-and-maths-for-don-bosco-park-circus-kolkata /src/pages/coding-and-maths-for-don-bosco-park-circus-kolkata.html 200
 
-# Catch singular typos and missing blog
+# Catch singular typos
 /course /courses 301!
-/blog/example-all-features /blog 301!
 
 # Locality Landing Pages — Kolkata
 /coding-classes-near-ballygunge-kolkata /src/pages/coding-classes-near-ballygunge-kolkata.html 200
@@ -275,6 +273,10 @@
 /coding-classes-near-domjur-howrah /src/pages/coding-classes-near-domjur-howrah.html 200
 /coding-classes-near-andul-howrah /src/pages/coding-classes-near-andul-howrah.html 200
 /coding-classes-near-uluberia-howrah /src/pages/coding-classes-near-uluberia-howrah.html 200
+
+# Dev/test pages — redirect to home
+/dummy / 301!
+/form-example / 301!
 
 # 404 fallback
 /* /src/pages/404.html 404
