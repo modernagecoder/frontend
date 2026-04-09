@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays and Array Methods - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Work with lists of data using push, pop, map, filter, reduce, find, sort, and spread operator.">
+    <meta name="keywords" content="arrays and array methods, javascript tutorial, javascript arrays and array methods, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript">
+    <meta property="og:title" content="Arrays and Array Methods - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Work with lists of data using push, pop, map, filter, reduce, find, sort, and spread operator.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript">
+    <meta name="twitter:title" content="Arrays and Array Methods - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Work with lists of data using push, pop, map, filter, reduce, find, sort, and spread operator.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Arrays and Array Methods",
+    "description": "Work with lists of data using push, pop, map, filter, reduce, find, sort, and spread operator.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Arrays and Array Methods",
+        "item": "https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Sorting Numbers Without a Compare Function",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The default <code>sort()</code> converts elements to strings and sorts them alphabetically. For numbers, you MUST pass a compare function: <code>(a, b) => a - b</code> for ascending order. This is one of the most common JavaScript gotchas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing map and forEach",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>forEach</code> is for side effects (like logging or DOM updates). It always returns <code>undefined</code>. <code>map</code> is for transforming data - it returns a new array with the results. Use <code>map</code> when you need a new array, <code>forEach</code> when you just want to do something with each element."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting That sort Mutates the Original Array",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>sort()</code> modifies the array in place. If you need to keep the original, spread it into a new array first: <code>[...original].sort()</code>. Methods like <code>map</code>, <code>filter</code>, and <code>slice</code> create new arrays, but <code>sort</code>, <code>splice</code>, <code>push</code>, and <code>pop</code> mutate the original."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Wrong Initial Value in reduce",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always provide an initial value as the second argument to <code>reduce</code>. Without it, reduce uses the first element as the initial value, which fails on empty arrays. For sum, use 0. For product, use 1. For string concatenation, use \"\"."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Expecting indexOf to Work with Objects",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In JavaScript, objects are compared by reference (memory address), not by their content. <code>{ name: \"Aarav\" } === { name: \"Aarav\" }</code> is false because they are two different objects. Use <code>findIndex</code> with a callback to search by property values."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Arrays and Array Methods</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 8</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">28 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Arrays and Array Methods</h1>
+            <a href="/resources/javascript/arrays-in-javascript/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Arrays in JavaScript?</h2><p>An <strong>array</strong> is an ordered collection of values stored in a single variable. Instead of creating separate variables for 100 student names, you store them all in one array and access any of them by position (index).</p><p>Arrays in JavaScript are flexible. They can hold any type of data: numbers, strings, booleans, objects, and even other arrays. They can also grow and shrink dynamically - you do not need to specify a size when creating one.</p><pre><code>const fruits = ["apple", "mango", "banana"];
+const scores = [85, 92, 78, 95, 88];
+const mixed = ["Aarav", 16, true, null];</code></pre><p>Each element has an <strong>index</strong>, starting at 0. The first element is at index 0, the second at index 1, and so on. You access elements using square brackets: <code>fruits[0]</code> gives "apple".</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Arrays Important?</h2><p>Arrays are one of the most used data structures in all of programming. Here is why you need to master them:</p><h3>1. Real Data Comes in Lists</h3><p>Student names, product prices, quiz scores, blog posts, search results - almost all real data is a collection of items. Arrays are how JavaScript stores and works with these collections.</p><h3>2. Powerful Built-in Methods</h3><p>JavaScript arrays come with dozens of built-in methods like <code>map()</code>, <code>filter()</code>, <code>reduce()</code>, <code>sort()</code>, and <code>find()</code>. These methods let you transform, filter, search, and process data in just one or two lines of code.</p><h3>3. Building Dynamic UIs</h3><p>Every time you see a list of products on Amazon, search results on Google, or posts on Instagram, an array of data was processed and turned into HTML elements. Arrays are the backbone of dynamic web pages.</p><h3>4. API Data Processing</h3><p>When you fetch data from an API (like weather data or movie listings), it almost always comes as an array of objects. You need array methods to filter, sort, and display this data.</p><h3>5. Foundation for Advanced Patterns</h3><p>Method chaining, functional programming, state management in React, and data pipelines all rely heavily on array methods. If you master arrays, everything else becomes easier.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Creating and Accessing Arrays</h3><p>You create arrays using square brackets. Access elements by their index (starting at 0). Modify elements by assigning to an index.</p><pre><code>const colors = ["red", "green", "blue"];
+console.log(colors[0]);    // "red"
+console.log(colors[2]);    // "blue"
+console.log(colors.length); // 3
+
+colors[1] = "yellow"; // Modify an element
+console.log(colors);  // ["red", "yellow", "blue"]</code></pre><p>Note: even though the array is declared with <code>const</code>, you can still modify its contents. The <code>const</code> only prevents reassigning the variable, not changing the array itself.</p><h3>2. Adding and Removing Elements</h3><p>JavaScript provides methods to add and remove elements from both ends of an array:</p><pre><code>const arr = [1, 2, 3];
+
+arr.push(4);     // Add to end: [1, 2, 3, 4]
+arr.pop();       // Remove from end: [1, 2, 3]
+arr.unshift(0);  // Add to start: [0, 1, 2, 3]
+arr.shift();     // Remove from start: [1, 2, 3]</code></pre><p><code>push</code> and <code>pop</code> work on the end. <code>unshift</code> and <code>shift</code> work on the start. <code>push</code> and <code>unshift</code> return the new length. <code>pop</code> and <code>shift</code> return the removed element.</p><h3>3. splice and slice</h3><p><code>splice</code> changes the array in place - it can remove, replace, or insert elements at any position:</p><pre><code>const arr = ["a", "b", "c", "d", "e"];
+
+arr.splice(2, 1);          // Remove 1 element at index 2: ["a", "b", "d", "e"]
+arr.splice(1, 0, "x");     // Insert "x" at index 1: ["a", "x", "b", "d", "e"]
+arr.splice(0, 2, "y", "z"); // Replace 2 elements at start: ["y", "z", "b", "d", "e"]</code></pre><p><code>slice</code> creates a <strong>new array</strong> from a portion of the original, without modifying it:</p><pre><code>const arr = [1, 2, 3, 4, 5];
+console.log(arr.slice(1, 4)); // [2, 3, 4] (index 1 to 3)
+console.log(arr.slice(2));    // [3, 4, 5] (index 2 to end)
+console.log(arr);             // [1, 2, 3, 4, 5] (unchanged)</code></pre><h3>4. Searching: indexOf, includes, find, findIndex</h3><pre><code>const nums = [10, 20, 30, 40, 50];
+
+nums.indexOf(30);     // 2 (index of first match)
+nums.includes(20);    // true (does it exist?)
+nums.find(n => n > 25);      // 30 (first element passing the test)
+nums.findIndex(n => n > 25); // 2 (index of first element passing the test)</code></pre><p><code>indexOf</code> and <code>includes</code> work with simple values. <code>find</code> and <code>findIndex</code> take a callback function, making them powerful for complex conditions.</p><h3>5. map - Transform Every Element</h3><p><code>map()</code> creates a new array by calling a function on every element of the original:</p><pre><code>const prices = [100, 200, 300];
+const withTax = prices.map(price => price * 1.18);
+console.log(withTax); // [118, 236, 354]</code></pre><p>The original array is unchanged. <code>map</code> always returns a new array of the same length. It is the most common array method in web development.</p><h3>6. filter - Select Elements</h3><p><code>filter()</code> creates a new array with only the elements that pass a test:</p><pre><code>const scores = [85, 42, 67, 91, 38, 73];
+const passing = scores.filter(s => s >= 50);
+console.log(passing); // [85, 67, 91, 73]</code></pre><p>The callback must return <code>true</code> or <code>false</code>. Elements where the callback returns true are included; others are excluded.</p><h3>7. reduce - Accumulate to a Single Value</h3><p><code>reduce()</code> processes all elements and reduces them to a single value (a number, string, object, etc.):</p><pre><code>const nums = [1, 2, 3, 4, 5];
+const sum = nums.reduce((acc, curr) => acc + curr, 0);
+console.log(sum); // 15</code></pre><p>The callback takes an <strong>accumulator</strong> (running result) and the <strong>current element</strong>. The second argument to reduce (0) is the initial value of the accumulator. Step by step: 0+1=1, 1+2=3, 3+3=6, 6+4=10, 10+5=15.</p><h3>8. sort - Ordering Elements</h3><p><code>sort()</code> sorts the array <strong>in place</strong> (modifies the original). By default, it sorts elements as strings, which causes problems with numbers:</p><pre><code>const nums = [40, 100, 1, 5, 25];
+nums.sort(); // [1, 100, 25, 40, 5] - WRONG! (string comparison)
+
+// Correct: use a compare function
+nums.sort((a, b) => a - b); // [1, 5, 25, 40, 100] - ascending
+nums.sort((a, b) => b - a); // [100, 40, 25, 5, 1] - descending</code></pre><p>The compare function returns a negative number (a comes first), zero (equal), or positive number (b comes first).</p><h3>9. forEach - Do Something for Each Element</h3><p><code>forEach()</code> calls a function for each element but does NOT return a new array. Use it for side effects like logging or DOM manipulation:</p><pre><code>const names = ["Aarav", "Priya", "Rohan"];
+names.forEach((name, index) => {
+  console.log(index + 1 + ". " + name);
+});</code></pre><h3>10. every and some</h3><p><code>every()</code> checks if ALL elements pass a test. <code>some()</code> checks if AT LEAST ONE element passes:</p><pre><code>const ages = [15, 17, 14, 16, 18];
+ages.every(a => a >= 18); // false (not all are 18+)
+ages.some(a => a >= 18);  // true (at least one is 18+)</code></pre><h3>11. Spread Operator [...] and Array.from()</h3><p>The spread operator (<code>...</code>) expands an array into individual elements. It is great for copying and merging arrays:</p><pre><code>const a = [1, 2, 3];
+const b = [4, 5, 6];
+const combined = [...a, ...b]; // [1, 2, 3, 4, 5, 6]
+const copy = [...a];           // [1, 2, 3] (shallow copy)</code></pre><p><code>Array.from()</code> creates an array from array-like objects:</p><pre><code>Array.from("hello");     // ["h", "e", "l", "l", "o"]
+Array.from({length: 5}, (_, i) => i * 2); // [0, 2, 4, 6, 8]</code></pre><h3>12. flat and flatMap</h3><p><code>flat()</code> flattens nested arrays. <code>flatMap()</code> maps and flattens in one step:</p><pre><code>const nested = [[1, 2], [3, 4], [5, 6]];
+nested.flat(); // [1, 2, 3, 4, 5, 6]
+
+const sentences = ["hello world", "goodbye moon"];
+sentences.flatMap(s => s.split(" ")); // ["hello", "world", "goodbye", "moon"]</code></pre><h3>13. Method Chaining</h3><p>Since methods like <code>map</code>, <code>filter</code>, and <code>sort</code> return arrays, you can chain them together:</p><pre><code>const students = [
+  { name: "Aarav", score: 85 },
+  { name: "Priya", score: 42 },
+  { name: "Rohan", score: 91 },
+  { name: "Diya", score: 67 }
+];
+
+const topScorers = students
+  .filter(s => s.score >= 60)
+  .sort((a, b) => b.score - a.score)
+  .map(s => s.name);
+
+console.log(topScorers); // ["Rohan", "Aarav", "Diya"]</code></pre><p>This reads like a pipeline: filter out low scores, sort by score descending, then extract just the names. Chaining is extremely common in real JavaScript.</p><h3>14. Destructuring Arrays</h3><p>Destructuring lets you unpack array values into individual variables:</p><pre><code>const [first, second, third] = ["apple", "mango", "banana"];
+console.log(first);  // "apple"
+console.log(second); // "mango"
+
+// Skip elements
+const [a, , c] = [1, 2, 3];
+console.log(a, c); // 1 3
+
+// Rest pattern
+const [head, ...tail] = [10, 20, 30, 40];
+console.log(head); // 10
+console.log(tail); // [20, 30, 40]</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Creating, Accessing, and Modifying Arrays</div><pre><code class="language-python">const students = [&quot;Aarav&quot;, &quot;Priya&quot;, &quot;Rohan&quot;, &quot;Diya&quot;, &quot;Vikram&quot;];
+
+// Accessing elements
+console.log(students[0]);       // First element
+console.log(students[students.length - 1]); // Last element
+
+// Modifying
+students[2] = &quot;Arjun&quot;;
+console.log(students);
+
+// Length
+console.log(&quot;Count:&quot;, students.length);</code></pre><div class="code-example-explanation">Arrays are zero-indexed: the first element is at index 0. Access the last element using <code>arr[arr.length - 1]</code>. You can modify elements by assigning to an index, even with <code>const</code> (const prevents reassignment of the variable, not mutation of the array).</div><div class="code-example-output">Aarav
+Vikram
+[&quot;Aarav&quot;, &quot;Priya&quot;, &quot;Arjun&quot;, &quot;Diya&quot;, &quot;Vikram&quot;]
+Count: 5</div></div>
+<div class="code-example"><div class="code-example-title">push, pop, shift, unshift, splice</div><pre><code class="language-python">const queue = [&quot;Meera&quot;, &quot;Kabir&quot;, &quot;Ananya&quot;];
+
+queue.push(&quot;Ishaan&quot;);    // Add to end
+console.log(queue);
+
+const removed = queue.shift(); // Remove from start
+console.log(&quot;Served:&quot;, removed);
+console.log(queue);
+
+// splice: insert at index 1
+queue.splice(1, 0, &quot;Neha&quot;);
+console.log(queue);
+
+// splice: remove 2 elements starting at index 0
+queue.splice(0, 2);
+console.log(queue);</code></pre><div class="code-example-explanation"><code>push</code> adds to the end, <code>shift</code> removes from the start (like a real queue). <code>splice(index, deleteCount, ...items)</code> is the Swiss army knife: it can insert, remove, or replace elements at any position.</div><div class="code-example-output">[&quot;Meera&quot;, &quot;Kabir&quot;, &quot;Ananya&quot;, &quot;Ishaan&quot;]
+Served: Meera
+[&quot;Kabir&quot;, &quot;Ananya&quot;, &quot;Ishaan&quot;]
+[&quot;Kabir&quot;, &quot;Neha&quot;, &quot;Ananya&quot;, &quot;Ishaan&quot;]
+[&quot;Ananya&quot;, &quot;Ishaan&quot;]</div></div>
+<div class="code-example"><div class="code-example-title">map, filter, and reduce</div><pre><code class="language-python">const marks = [85, 42, 91, 67, 38, 73, 55];
+
+// map: add 5 bonus marks to each
+const boosted = marks.map(m =&gt; m + 5);
+console.log(&quot;Boosted:&quot;, boosted);
+
+// filter: only passing marks (&gt;= 50)
+const passing = marks.filter(m =&gt; m &gt;= 50);
+console.log(&quot;Passing:&quot;, passing);
+
+// reduce: calculate average
+const total = marks.reduce((sum, m) =&gt; sum + m, 0);
+const average = total / marks.length;
+console.log(&quot;Average:&quot;, average.toFixed(1));</code></pre><div class="code-example-explanation"><code>map</code> transforms every element (adds 5 to each mark). <code>filter</code> keeps only elements passing a condition (marks >= 50). <code>reduce</code> compresses the array into a single value (sum of all marks). None of these modify the original array.</div><div class="code-example-output">Boosted: [90, 47, 96, 72, 43, 78, 60]
+Passing: [85, 91, 67, 73, 55]
+Average: 64.4</div></div>
+<div class="code-example"><div class="code-example-title">Method Chaining with Real Data</div><pre><code class="language-python">const products = [
+  { name: &quot;Laptop&quot;, price: 45000, inStock: true },
+  { name: &quot;Phone&quot;, price: 15000, inStock: false },
+  { name: &quot;Tablet&quot;, price: 25000, inStock: true },
+  { name: &quot;Watch&quot;, price: 8000, inStock: true },
+  { name: &quot;Headphones&quot;, price: 3000, inStock: true }
+];
+
+const affordable = products
+  .filter(p =&gt; p.inStock)
+  .filter(p =&gt; p.price &lt;= 25000)
+  .sort((a, b) =&gt; a.price - b.price)
+  .map(p =&gt; p.name + &quot; (Rs &quot; + p.price + &quot;)&quot;);
+
+console.log(&quot;Affordable in-stock items:&quot;);
+affordable.forEach(item =&gt; console.log(&quot;- &quot; + item));</code></pre><div class="code-example-explanation">This chain first filters products that are in stock, then filters by price, sorts by price ascending, and finally maps to display strings. Each method returns a new array, so you can keep chaining. This is how real e-commerce sites process product data.</div><div class="code-example-output">Affordable in-stock items:
+- Headphones (Rs 3000)
+- Watch (Rs 8000)
+- Tablet (Rs 25000)</div></div>
+<div class="code-example"><div class="code-example-title">sort with Compare Function</div><pre><code class="language-python">// Sorting numbers (must use compare function)
+const nums = [40, 100, 1, 5, 25, 10];
+
+// Default sort (wrong for numbers!):
+const defaultSort = [...nums].sort();
+console.log(&quot;Default:&quot;, defaultSort);
+
+// Ascending
+const ascending = [...nums].sort((a, b) =&gt; a - b);
+console.log(&quot;Ascending:&quot;, ascending);
+
+// Descending
+const descending = [...nums].sort((a, b) =&gt; b - a);
+console.log(&quot;Descending:&quot;, descending);
+
+// Sort strings alphabetically
+const names = [&quot;Rohan&quot;, &quot;Aarav&quot;, &quot;Priya&quot;, &quot;Diya&quot;];
+names.sort();
+console.log(&quot;Names:&quot;, names);</code></pre><div class="code-example-explanation">Default <code>sort()</code> converts everything to strings, which gives wrong results for numbers (100 comes before 25 alphabetically). Always use a compare function for numbers: <code>(a, b) => a - b</code> for ascending, <code>(a, b) => b - a</code> for descending. We use <code>[...nums]</code> to copy the array before sorting since sort modifies in place.</div><div class="code-example-output">Default: [1, 10, 100, 25, 40, 5]
+Ascending: [1, 5, 10, 25, 40, 100]
+Descending: [100, 40, 25, 10, 5, 1]
+Names: [&quot;Aarav&quot;, &quot;Diya&quot;, &quot;Priya&quot;, &quot;Rohan&quot;]</div></div>
+<div class="code-example"><div class="code-example-title">Spread Operator, Array.from, and Destructuring</div><pre><code class="language-python">// Spread: merge arrays
+const frontEnd = [&quot;HTML&quot;, &quot;CSS&quot;, &quot;JavaScript&quot;];
+const backEnd = [&quot;Node&quot;, &quot;Python&quot;, &quot;Java&quot;];
+const fullStack = [...frontEnd, ...backEnd];
+console.log(&quot;Full stack:&quot;, fullStack);
+
+// Array.from: create array from a range
+const evens = Array.from({ length: 5 }, (_, i) =&gt; (i + 1) * 2);
+console.log(&quot;Evens:&quot;, evens);
+
+// Destructuring
+const [gold, silver, bronze, ...rest] = [&quot;Aarav&quot;, &quot;Priya&quot;, &quot;Rohan&quot;, &quot;Diya&quot;, &quot;Vikram&quot;];
+console.log(&quot;Gold:&quot;, gold);
+console.log(&quot;Silver:&quot;, silver);
+console.log(&quot;Rest:&quot;, rest);</code></pre><div class="code-example-explanation">The spread operator <code>...</code> unpacks arrays. Use it to merge arrays or create copies. <code>Array.from</code> creates arrays from array-like objects or with a mapping function. Destructuring unpacks array values into variables. The rest pattern <code>...rest</code> collects remaining elements.</div><div class="code-example-output">Full stack: [&quot;HTML&quot;, &quot;CSS&quot;, &quot;JavaScript&quot;, &quot;Node&quot;, &quot;Python&quot;, &quot;Java&quot;]
+Evens: [2, 4, 6, 8, 10]
+Gold: Aarav
+Silver: Priya
+Rest: [&quot;Diya&quot;, &quot;Vikram&quot;]</div></div>
+<div class="code-example"><div class="code-example-title">find, findIndex, every, some</div><pre><code class="language-python">const students = [
+  { name: &quot;Aarav&quot;, marks: 85 },
+  { name: &quot;Priya&quot;, marks: 92 },
+  { name: &quot;Rohan&quot;, marks: 67 },
+  { name: &quot;Diya&quot;, marks: 45 }
+];
+
+// find: first student with marks &gt; 80
+const topStudent = students.find(s =&gt; s.marks &gt; 80);
+console.log(&quot;First topper:&quot;, topStudent.name);
+
+// findIndex: index of first failing student
+const failIdx = students.findIndex(s =&gt; s.marks &lt; 50);
+console.log(&quot;First fail at index:&quot;, failIdx);
+
+// every: did everyone pass?
+console.log(&quot;All passed:&quot;, students.every(s =&gt; s.marks &gt;= 50));
+
+// some: did anyone score above 90?
+console.log(&quot;Any above 90:&quot;, students.some(s =&gt; s.marks &gt; 90));</code></pre><div class="code-example-explanation"><code>find</code> returns the first element matching the condition. <code>findIndex</code> returns its index. <code>every</code> checks if ALL elements match (returns false if even one fails). <code>some</code> checks if ANY element matches (returns true if at least one passes).</div><div class="code-example-output">First topper: Aarav
+First fail at index: 3
+All passed: false
+Any above 90: true</div></div>
+<div class="code-example"><div class="code-example-title">flat, flatMap, and Real Data Processing</div><pre><code class="language-python">// flat: flatten nested arrays
+const grades = [[85, 92], [67, 73], [91, 88]];
+console.log(&quot;Flat:&quot;, grades.flat());
+
+// flatMap: split sentences into words
+const reviews = [&quot;Great course&quot;, &quot;Loved the projects&quot;, &quot;Very helpful&quot;];
+const words = reviews.flatMap(r =&gt; r.split(&quot; &quot;));
+console.log(&quot;Words:&quot;, words);
+
+// Real data processing: student report
+const classData = [
+  { name: &quot;Kavya&quot;, subjects: [&quot;Maths&quot;, &quot;Science&quot;] },
+  { name: &quot;Arjun&quot;, subjects: [&quot;English&quot;, &quot;Maths&quot;] }
+];
+
+const allSubjects = [...new Set(classData.flatMap(s =&gt; s.subjects))];
+console.log(&quot;All unique subjects:&quot;, allSubjects);</code></pre><div class="code-example-explanation"><code>flat()</code> flattens one level of nesting by default. <code>flatMap()</code> is like calling <code>map()</code> then <code>flat(1)</code> in one step. The last example uses flatMap to get all subjects from all students, then a Set to remove duplicates, and spread to convert back to an array.</div><div class="code-example-output">Flat: [85, 92, 67, 73, 91, 88]
+Words: [&quot;Great&quot;, &quot;course&quot;, &quot;Loved&quot;, &quot;the&quot;, &quot;projects&quot;, &quot;Very&quot;, &quot;helpful&quot;]
+All unique subjects: [&quot;Maths&quot;, &quot;Science&quot;, &quot;English&quot;]</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Sorting Numbers Without a Compare Function</h3>
+                <div class="wrong-code"><pre><code class="language-python">const nums = [40, 100, 1, 5, 25];
+nums.sort();
+console.log(nums); // [1, 100, 25, 40, 5] - Wrong!</code></pre></div><div class="error-message">Numbers are sorted as strings. 100 comes before 25 because &quot;1&quot; &lt; &quot;2&quot; alphabetically.</div><div class="correct-code"><pre><code class="language-python">const nums = [40, 100, 1, 5, 25];
+nums.sort((a, b) =&gt; a - b);
+console.log(nums); // [1, 5, 25, 40, 100] - Correct!</code></pre></div><div class="mistake-explanation">The default <code>sort()</code> converts elements to strings and sorts them alphabetically. For numbers, you MUST pass a compare function: <code>(a, b) => a - b</code> for ascending order. This is one of the most common JavaScript gotchas.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing map and forEach</h3>
+                <div class="wrong-code"><pre><code class="language-python">const nums = [1, 2, 3];
+const doubled = nums.forEach(n =&gt; n * 2);
+console.log(doubled); // undefined!</code></pre></div><div class="error-message">forEach returns undefined. It does not create a new array.</div><div class="correct-code"><pre><code class="language-python">const nums = [1, 2, 3];
+const doubled = nums.map(n =&gt; n * 2);
+console.log(doubled); // [2, 4, 6]</code></pre></div><div class="mistake-explanation"><code>forEach</code> is for side effects (like logging or DOM updates). It always returns <code>undefined</code>. <code>map</code> is for transforming data - it returns a new array with the results. Use <code>map</code> when you need a new array, <code>forEach</code> when you just want to do something with each element.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting That sort Mutates the Original Array</h3>
+                <div class="wrong-code"><pre><code class="language-python">const original = [3, 1, 4, 1, 5];
+const sorted = original.sort((a, b) =&gt; a - b);
+console.log(sorted);   // [1, 1, 3, 4, 5]
+console.log(original); // [1, 1, 3, 4, 5] - Also changed!</code></pre></div><div class="error-message">sort modifies the original array. Both variables point to the same sorted array.</div><div class="correct-code"><pre><code class="language-python">const original = [3, 1, 4, 1, 5];
+const sorted = [...original].sort((a, b) =&gt; a - b);
+console.log(sorted);   // [1, 1, 3, 4, 5]
+console.log(original); // [3, 1, 4, 1, 5] - Unchanged!</code></pre></div><div class="mistake-explanation"><code>sort()</code> modifies the array in place. If you need to keep the original, spread it into a new array first: <code>[...original].sort()</code>. Methods like <code>map</code>, <code>filter</code>, and <code>slice</code> create new arrays, but <code>sort</code>, <code>splice</code>, <code>push</code>, and <code>pop</code> mutate the original.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Wrong Initial Value in reduce</h3>
+                <div class="wrong-code"><pre><code class="language-python">const nums = [1, 2, 3];
+const product = nums.reduce((acc, n) =&gt; acc * n);
+console.log(product); // 6 (works here)
+
+const empty = [];
+const sum = empty.reduce((acc, n) =&gt; acc + n);
+// TypeError: Reduce of empty array with no initial value</code></pre></div><div class="error-message">Without an initial value, reduce fails on empty arrays.</div><div class="correct-code"><pre><code class="language-python">const nums = [1, 2, 3];
+const product = nums.reduce((acc, n) =&gt; acc * n, 1);
+console.log(product); // 6
+
+const empty = [];
+const sum = empty.reduce((acc, n) =&gt; acc + n, 0);
+console.log(sum); // 0 (no error)</code></pre></div><div class="mistake-explanation">Always provide an initial value as the second argument to <code>reduce</code>. Without it, reduce uses the first element as the initial value, which fails on empty arrays. For sum, use 0. For product, use 1. For string concatenation, use "".</div>
+            </div>
+<div class="mistake-card">
+                <h3>Expecting indexOf to Work with Objects</h3>
+                <div class="wrong-code"><pre><code class="language-python">const students = [{ name: &quot;Aarav&quot; }, { name: &quot;Priya&quot; }];
+console.log(students.indexOf({ name: &quot;Aarav&quot; })); // -1 (not found!)</code></pre></div><div class="error-message">indexOf compares by reference, not by value. Two different objects with the same content are not equal.</div><div class="correct-code"><pre><code class="language-python">const students = [{ name: &quot;Aarav&quot; }, { name: &quot;Priya&quot; }];
+const index = students.findIndex(s =&gt; s.name === &quot;Aarav&quot;);
+console.log(index); // 0</code></pre></div><div class="mistake-explanation">In JavaScript, objects are compared by reference (memory address), not by their content. <code>{ name: "Aarav" } === { name: "Aarav" }</code> is false because they are two different objects. Use <code>findIndex</code> with a callback to search by property values.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Arrays are ordered collections of values, accessed by zero-based index. They can hold any data type and grow/shrink dynamically.</li>
+<li>push/pop add/remove from the end. unshift/shift add/remove from the start. splice can insert, remove, or replace at any position.</li>
+<li>slice creates a new array from a portion without modifying the original. splice modifies the original array in place.</li>
+<li>map transforms every element and returns a new array. Use it when you need to convert data (like adding tax to prices or extracting names).</li>
+<li>filter creates a new array with only elements that pass a test. Use it to select or exclude items based on a condition.</li>
+<li>reduce processes all elements into a single value. Always provide an initial value as the second argument to avoid errors with empty arrays.</li>
+<li>sort modifies the array in place. For numbers, always use a compare function: (a, b) =&gt; a - b for ascending. Spread into a copy to preserve the original.</li>
+<li>find returns the first matching element. findIndex returns its index. every checks if ALL match. some checks if ANY match.</li>
+<li>The spread operator [...arr] copies arrays, merges arrays, and converts iterables to arrays. Array.from creates arrays from array-like objects.</li>
+<li>Method chaining (filter then sort then map) is a powerful pattern for data processing. Each method returns a new array, enabling the chain.</li>
+<li>Destructuring unpacks array values into variables. The rest pattern (...rest) collects remaining elements into a new array.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/functions-in-javascript" class="related-topic-link">Functions - Regular, Arrow, and Callback</a>
+<a href="/resources/javascript/objects-in-javascript" class="related-topic-link">Objects and JSON</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/functions-in-javascript" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Functions - Regular, Arrow, and Callback</span>
+        </a>
+            <a href="/resources/javascript/objects-in-javascript" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Objects and JSON</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/arrays-in-javascript/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

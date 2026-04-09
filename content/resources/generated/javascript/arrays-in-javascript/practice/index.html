@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Arrays and Array Methods | JavaScript | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="58+ practice questions on Arrays and Array Methods in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="arrays and array methods practice, javascript questions, javascript practice problems, arrays and array methods exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript/practice">
+    <meta property="og:title" content="Practice Questions - Arrays and Array Methods | JavaScript | Modern Age Coders">
+    <meta property="og:description" content="58+ practice questions on Arrays and Array Methods in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript/practice">
+    <meta name="twitter:title" content="Practice Questions - Arrays and Array Methods | JavaScript | Modern Age Coders">
+    <meta name="twitter:description" content="58+ practice questions on Arrays and Array Methods in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Arrays and Array Methods",
+    "description": "58+ practice questions on Arrays and Array Methods in JavaScript.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Arrays and Array Methods"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Arrays and Array Methods",
+        "item": "https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript/arrays-in-javascript">Arrays and Array Methods</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 8</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">58 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Arrays and Array Methods</h1>
+            <a href="/resources/javascript/arrays-in-javascript" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>const arr = [10, 20, 30];
+console.log(arr[1]);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Arrays are zero-indexed. Index 1 is the second element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const arr = [1, 2, 3];
+arr.push(4);
+console.log(arr);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">push adds an element to the end.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>[1, 2, 3, 4]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const arr = ["a", "b", "c"];
+console.log(arr.length);
+console.log(arr[arr.length - 1]);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">length is 3. The last index is length - 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>3</code><br><code>c</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const nums = [5, 10, 15];
+const doubled = nums.map(n => n * 2);
+console.log(doubled);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">map transforms each element and returns a new array.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>[10, 20, 30]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const nums = [1, 2, 3, 4, 5];
+const even = nums.filter(n => n % 2 === 0);
+console.log(even);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">filter keeps elements where the callback returns true.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>[2, 4]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const arr = [10, 20, 30];
+console.log(arr.includes(20));
+console.log(arr.includes(25));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">includes returns true if the value is in the array.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const nums = [1, 2, 3, 4, 5];
+const sum = nums.reduce((acc, n) => acc + n, 0);
+console.log(sum);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">reduce accumulates: 0+1=1, 1+2=3, 3+3=6, 6+4=10, 10+5=15.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const arr = [3, 1, 4, 1, 5];
+const sorted = [...arr].sort((a, b) => a - b);
+console.log(sorted);
+console.log(arr);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Spreading creates a copy. Sort modifies the copy, not the original.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>[1, 1, 3, 4, 5]</code><br><code>[3, 1, 4, 1, 5]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const arr = [1, 2, 3, 4, 5];
+console.log(arr.slice(1, 4));
+console.log(arr.slice(3));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">slice(start, end) extracts from start up to (not including) end.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>[2, 3, 4]</code><br><code>[4, 5]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const students = [
+  { name: "Aarav", score: 72 },
+  { name: "Priya", score: 91 },
+  { name: "Rohan", score: 85 }
+];
+
+const top = students.find(s => s.score > 80);
+console.log(top.name);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">find returns the FIRST element that matches.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>Priya</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const [a, b, ...rest] = [10, 20, 30, 40, 50];
+console.log(a);
+console.log(b);
+console.log(rest);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Destructuring with rest pattern collects remaining elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>10</code><br><code>20</code><br><code>[30, 40, 50]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const nums = [1, 2, 3, 4, 5, 6];
+const result = nums
+  .filter(n => n % 2 === 0)
+  .map(n => n * n);
+console.log(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Filter even numbers first, then square each one.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>[4, 16, 36]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const words = ["hello", "world", "javascript"];
+const result = words.reduce((longest, word) => {
+  return word.length > longest.length ? word : longest;
+}, "");
+console.log(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">reduce finds the longest word by comparing lengths.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>javascript</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const nums = [1, 2, 3, 4, 5];
+const result = nums.reduce((acc, n) => {
+  acc[n % 2 === 0 ? "even" : "odd"].push(n);
+  return acc;
+}, { even: [], odd: [] });
+console.log(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">reduce builds an object that groups numbers into even and odd arrays.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>{ even: [2, 4], odd: [1, 3, 5] }</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const a = [1, 2, 3];
+const b = [3, 4, 5];
+const unique = [...new Set([...a, ...b])];
+console.log(unique);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Spread both arrays, use a Set to remove duplicates, spread back to array.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>[1, 2, 3, 4, 5]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between map and forEach? When would you use each one?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">One returns a new array, the other returns undefined.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>map</code> transforms each element and returns a <strong>new array</strong> with the results. <code>forEach</code> runs a function for each element but returns <code>undefined</code>. Use <code>map</code> when you need to transform data into a new array. Use <code>forEach</code> for side effects like logging, updating DOM elements, or other operations where you do not need a return value.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const ages = [12, 18, 15, 21, 16];
+console.log(ages.every(a => a >= 18));
+console.log(ages.some(a => a >= 18));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">every checks ALL elements. some checks if ANY element passes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>false</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const arr = ["a", "b", "c"];
+const removed = arr.pop();
+console.log(removed);
+console.log(arr);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">pop removes and returns the last element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>c</code><br><code>["a", "b"]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const data = [[1, 2], [3, 4], [5, 6]];
+const flat = data.flat();
+const sum = flat.reduce((a, b) => a + b, 0);
+console.log(flat);
+console.log(sum);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">flat flattens one level of nesting. Then reduce sums them all.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>[1, 2, 3, 4, 5, 6]</code><br><code>21</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const arr = [1, 2, 3, 4, 5];
+const idx = arr.findIndex(n => n > 3);
+console.log(idx);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">findIndex returns the INDEX of the first matching element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>3</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const arr = ["x", "y", "z"];
+arr.unshift("w");
+console.log(arr);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">unshift adds to the start of the array.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>["w", "x", "y", "z"]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const names = ["Aarav", "Priya", "Rohan"];
+console.log(names.indexOf("Priya"));
+console.log(names.indexOf("Diya"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">indexOf returns the index or -1 if not found.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>1</code><br><code>-1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const nums = [10, 20, 30, 40, 50];
+const result = nums
+  .filter(n => n >= 20)
+  .map(n => n / 10);
+console.log(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Filter first (>= 20), then divide each by 10.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>[2, 3, 4, 5]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const a = [1, 2];
+const b = [3, 4];
+const c = [...a, ...b, 5];
+console.log(c);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Spread unpacks arrays. You can add extra elements too.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>[1, 2, 3, 4, 5]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const arr = ["hello", "world", "test"];
+const result = arr.map(s => s.toUpperCase());
+console.log(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">map transforms each string to uppercase.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>["HELLO", "WORLD", "TEST"]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const scores = [85, 42, 91, 67, 38];
+const passCount = scores.filter(s => s >= 50).length;
+console.log(passCount);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Filter, then check the length of the filtered array.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const students = [
+  { name: "Aarav", marks: 85 },
+  { name: "Priya", marks: 92 },
+  { name: "Rohan", marks: 78 },
+  { name: "Diya", marks: 95 }
+];
+
+const toppers = students
+  .filter(s => s.marks >= 85)
+  .sort((a, b) => b.marks - a.marks)
+  .map(s => s.name);
+
+console.log(toppers);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Filter >= 85, sort descending by marks, extract names.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>["Diya", "Priya", "Aarav"]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const words = ["cat", "elephant", "dog", "hippopotamus"];
+const longest = words.reduce((a, b) => a.length >= b.length ? a : b);
+console.log(longest);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">reduce compares each word's length to find the longest.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>hippopotamus</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const arr = Array.from({ length: 5 }, (_, i) => i * i);
+console.log(arr);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Array.from with a mapping function. The second parameter (i) is the index.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>[0, 1, 4, 9, 16]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const data = [
+  { category: "fruit", name: "apple" },
+  { category: "veg", name: "carrot" },
+  { category: "fruit", name: "mango" },
+  { category: "veg", name: "potato" }
+];
+
+const grouped = data.reduce((acc, item) => {
+  if (!acc[item.category]) acc[item.category] = [];
+  acc[item.category].push(item.name);
+  return acc;
+}, {});
+
+console.log(grouped);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">reduce groups items by category into an object.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>{ fruit: ["apple", "mango"], veg: ["carrot", "potato"] }</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain the difference between slice and splice. Which one modifies the original array?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">One copies, the other cuts.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>slice(start, end)</code> creates a new array from a portion of the original without modifying it. <code>splice(start, deleteCount, ...items)</code> modifies the original array by removing, replacing, or inserting elements at a specified position. <code>splice</code> modifies the original, <code>slice</code> does not.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const arr = [1, 2, 3, 4];
+const shifted = arr.shift();
+console.log(shifted);
+console.log(arr);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">shift removes and returns the first element.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>1</code><br><code>[2, 3, 4]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const sentences = ["hello world", "foo bar baz"];
+const words = sentences.flatMap(s => s.split(" "));
+console.log(words);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">flatMap maps then flattens one level.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>["hello", "world", "foo", "bar", "baz"]</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What index does the first element of an array have?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1</li><li><span class="mcq-option-label">B.</span> 0</li><li><span class="mcq-option-label">C.</span> -1</li><li><span class="mcq-option-label">D.</span> It depends on the array</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> Arrays in JavaScript are zero-indexed. The first element is always at index 0, the second at index 1, and so on.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which method adds an element to the END of an array?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> unshift()</li><li><span class="mcq-option-label">B.</span> shift()</li><li><span class="mcq-option-label">C.</span> push()</li><li><span class="mcq-option-label">D.</span> pop()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>push()</code> adds to the end. <code>unshift()</code> adds to the start. <code>pop()</code> removes from the end. <code>shift()</code> removes from the start.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which method returns a new array with transformed elements?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> forEach()</li><li><span class="mcq-option-label">B.</span> map()</li><li><span class="mcq-option-label">C.</span> filter()</li><li><span class="mcq-option-label">D.</span> reduce()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>map()</code> calls a function on each element and returns a new array with the results. <code>forEach</code> returns undefined. <code>filter</code> returns selected elements. <code>reduce</code> returns a single value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does [1, 2, 3].includes(2) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1</li><li><span class="mcq-option-label">B.</span> true</li><li><span class="mcq-option-label">C.</span> 2</li><li><span class="mcq-option-label">D.</span> false</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>includes()</code> returns a boolean: <code>true</code> if the value is found in the array, <code>false</code> if not. Since 2 is in the array, it returns true.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does arr.pop() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The new length of the array</li><li><span class="mcq-option-label">B.</span> The removed element</li><li><span class="mcq-option-label">C.</span> undefined</li><li><span class="mcq-option-label">D.</span> The modified array</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>pop()</code> removes the last element from the array and returns that removed element. <code>push()</code> is the one that returns the new length.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the default sorting behavior of arr.sort()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Sorts numbers in ascending order</li><li><span class="mcq-option-label">B.</span> Sorts numbers in descending order</li><li><span class="mcq-option-label">C.</span> Converts elements to strings and sorts alphabetically</li><li><span class="mcq-option-label">D.</span> Sorts by element type</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> By default, <code>sort()</code> converts elements to strings and sorts them by Unicode code points (alphabetically). This is why [40, 100, 1] sorts as [1, 100, 40] - because "100" comes before "40" as strings.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does filter() return if no elements match the condition?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> null</li><li><span class="mcq-option-label">B.</span> undefined</li><li><span class="mcq-option-label">C.</span> An empty array []</li><li><span class="mcq-option-label">D.</span> false</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>filter()</code> always returns an array. If no elements pass the test, it returns an empty array <code>[]</code>. It never returns null, undefined, or false.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which method modifies the original array?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> map()</li><li><span class="mcq-option-label">B.</span> filter()</li><li><span class="mcq-option-label">C.</span> slice()</li><li><span class="mcq-option-label">D.</span> sort()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: D</strong><br><strong>D is correct.</strong> <code>sort()</code> modifies the original array in place. <code>map()</code>, <code>filter()</code>, and <code>slice()</code> all return new arrays without changing the original.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does the spread operator [...arr] do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Reverses the array</li><li><span class="mcq-option-label">B.</span> Creates a shallow copy of the array</li><li><span class="mcq-option-label">C.</span> Flattens nested arrays</li><li><span class="mcq-option-label">D.</span> Removes duplicates</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>[...arr]</code> creates a shallow copy of the array. It does not reverse (option A), flatten deeply nested arrays (option C), or remove duplicates (option D - use a Set for that).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is the second argument to reduce()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The callback function</li><li><span class="mcq-option-label">B.</span> The maximum number of iterations</li><li><span class="mcq-option-label">C.</span> The initial value of the accumulator</li><li><span class="mcq-option-label">D.</span> The array to reduce</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>reduce(callback, initialValue)</code> takes a callback as the first argument and an optional initial value for the accumulator as the second. Always provide an initial value to avoid errors with empty arrays.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the result of [1, 2, 3].map(n => n > 1)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [2, 3]</li><li><span class="mcq-option-label">B.</span> [false, true, true]</li><li><span class="mcq-option-label">C.</span> [1]</li><li><span class="mcq-option-label">D.</span> true</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>map</code> transforms each element using the callback. <code>1 > 1</code> is false, <code>2 > 1</code> is true, <code>3 > 1</code> is true. The result is [false, true, true]. If you wanted [2, 3], you would use <code>filter</code> instead.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What does Array.from({length: 3}, (_, i) => i) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [1, 2, 3]</li><li><span class="mcq-option-label">B.</span> [0, 1, 2]</li><li><span class="mcq-option-label">C.</span> [undefined, undefined, undefined]</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>Array.from</code> creates an array of length 3 and calls the mapping function for each index. The function receives the element (undefined, which we ignore with _) and the index. It returns [0, 1, 2].</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the difference between find() and filter()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> find returns an array, filter returns a single element</li><li><span class="mcq-option-label">B.</span> find returns the first matching element, filter returns all matching elements as an array</li><li><span class="mcq-option-label">C.</span> They are the same</li><li><span class="mcq-option-label">D.</span> find searches by index, filter searches by value</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>find</code> returns the first element that matches (or undefined if none match). <code>filter</code> returns a new array with ALL elements that match (or an empty array if none match). find stops at the first match; filter checks every element.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does [1, [2, [3]]].flat() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [1, 2, 3]</li><li><span class="mcq-option-label">B.</span> [1, 2, [3]]</li><li><span class="mcq-option-label">C.</span> [[1], [2], [3]]</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> By default, <code>flat()</code> flattens one level of nesting. The outer array [1, [2, [3]]] becomes [1, 2, [3]]. The inner [3] is not flattened because it is at depth 2. Use <code>flat(2)</code> or <code>flat(Infinity)</code> to flatten deeper.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does arr.length return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The last index of the array</li><li><span class="mcq-option-label">B.</span> The total number of elements</li><li><span class="mcq-option-label">C.</span> The size in bytes</li><li><span class="mcq-option-label">D.</span> The maximum capacity</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>length</code> returns the total number of elements in the array. The last index is <code>length - 1</code> (option A). JavaScript arrays do not have a fixed capacity (option D).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">How do you correctly sort numbers in ascending order?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> arr.sort()</li><li><span class="mcq-option-label">B.</span> arr.sort((a, b) =&gt; b - a)</li><li><span class="mcq-option-label">C.</span> arr.sort((a, b) =&gt; a - b)</li><li><span class="mcq-option-label">D.</span> arr.sort(&quot;asc&quot;)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>(a, b) => a - b</code> sorts numbers ascending. If a < b, the result is negative (a comes first). If a > b, the result is positive (b comes first). Option B sorts descending.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Find the Maximum Value</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Aarav has the array [23, 67, 12, 89, 45, 91, 34]. Write a program using reduce to find the maximum value without using Math.max.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Maximum: 91</div>
+                </div><div class="challenge-constraints">Use reduce. Do not use Math.max or sort.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">const nums = [23, 67, 12, 89, 45, 91, 34];
+const max = nums.reduce((a, b) =&gt; a &gt; b ? a : b);
+console.log(&quot;Maximum:&quot;, max);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Remove Duplicates</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Priya has the array [1, 3, 5, 3, 7, 1, 9, 5]. Write a program to remove duplicates and return a sorted array.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[1, 3, 5, 7, 9]</div>
+                </div><div class="challenge-constraints">Use the Set object and spread operator.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">const arr = [1, 3, 5, 3, 7, 1, 9, 5];
+const unique = [...new Set(arr)].sort((a, b) =&gt; a - b);
+console.log(unique);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Student Grade Report</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given an array of student objects [{name: "Aarav", marks: 85}, {name: "Priya", marks: 42}, {name: "Rohan", marks: 91}, {name: "Diya", marks: 67}, {name: "Vikram", marks: 38}], use method chaining to: (1) filter students who passed (marks >= 50), (2) sort by marks descending, (3) map to strings like "Rohan: 91".</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Rohan: 91
+Aarav: 85
+Diya: 67</div>
+                </div><div class="challenge-constraints">Use filter, sort, and map chained together.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">const students = [
+  { name: &quot;Aarav&quot;, marks: 85 },
+  { name: &quot;Priya&quot;, marks: 42 },
+  { name: &quot;Rohan&quot;, marks: 91 },
+  { name: &quot;Diya&quot;, marks: 67 },
+  { name: &quot;Vikram&quot;, marks: 38 }
+];
+
+students
+  .filter(s =&gt; s.marks &gt;= 50)
+  .sort((a, b) =&gt; b.marks - a.marks)
+  .map(s =&gt; s.name + &quot;: &quot; + s.marks)
+  .forEach(line =&gt; console.log(line));</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Group By Category</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Kavya has an array of products: [{name: "Apple", type: "fruit"}, {name: "Carrot", type: "vegetable"}, {name: "Mango", type: "fruit"}, {name: "Potato", type: "vegetable"}, {name: "Banana", type: "fruit"}]. Use reduce to group them by type.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">{ fruit: [&quot;Apple&quot;, &quot;Mango&quot;, &quot;Banana&quot;], vegetable: [&quot;Carrot&quot;, &quot;Potato&quot;] }</div>
+                </div><div class="challenge-constraints">Use reduce with an object as the accumulator.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">const products = [
+  { name: &quot;Apple&quot;, type: &quot;fruit&quot; },
+  { name: &quot;Carrot&quot;, type: &quot;vegetable&quot; },
+  { name: &quot;Mango&quot;, type: &quot;fruit&quot; },
+  { name: &quot;Potato&quot;, type: &quot;vegetable&quot; },
+  { name: &quot;Banana&quot;, type: &quot;fruit&quot; }
+];
+
+const grouped = products.reduce((acc, p) =&gt; {
+  if (!acc[p.type]) acc[p.type] = [];
+  acc[p.type].push(p.name);
+  return acc;
+}, {});
+
+console.log(grouped);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Flatten and Sum Nested Arrays</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Arjun has the nested array [[10, 20], [30, 40], [50]]. Write a program that flattens it and calculates the sum using flat and reduce.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Flat: [10, 20, 30, 40, 50]
+Sum: 150</div>
+                </div><div class="challenge-constraints">Use flat() and reduce().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">const nested = [[10, 20], [30, 40], [50]];
+const flat = nested.flat();
+const sum = flat.reduce((acc, n) =&gt; acc + n, 0);
+console.log(&quot;Flat:&quot;, flat);
+console.log(&quot;Sum:&quot;, sum);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Word Frequency Counter</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Meera has the string "the cat sat on the mat the cat". Write a program that splits the string into words and uses reduce to count the frequency of each word.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">{ the: 3, cat: 2, sat: 1, on: 1, mat: 1 }</div>
+                </div><div class="challenge-constraints">Use split and reduce.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">const text = &quot;the cat sat on the mat the cat&quot;;
+const freq = text.split(&quot; &quot;).reduce((acc, word) =&gt; {
+  acc[word] = (acc[word] || 0) + 1;
+  return acc;
+}, {});
+
+console.log(freq);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Intersection of Two Arrays</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Rohan has two arrays: [1, 2, 3, 4, 5] and [3, 4, 5, 6, 7]. Write a program to find the common elements (intersection) and the elements unique to each array (difference).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Common: [3, 4, 5]
+Only in A: [1, 2]
+Only in B: [6, 7]</div>
+                </div><div class="challenge-constraints">Use filter and includes.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">const a = [1, 2, 3, 4, 5];
+const b = [3, 4, 5, 6, 7];
+
+const common = a.filter(x =&gt; b.includes(x));
+const onlyA = a.filter(x =&gt; !b.includes(x));
+const onlyB = b.filter(x =&gt; !a.includes(x));
+
+console.log(&quot;Common:&quot;, common);
+console.log(&quot;Only in A:&quot;, onlyA);
+console.log(&quot;Only in B:&quot;, onlyB);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Build Product Cards from Data</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Diya has an array of products: [{name: "Laptop", price: 45000}, {name: "Phone", price: 15000}, {name: "Watch", price: 8000}]. Use map to generate HTML card strings for each product using template literals, then join them together.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">(Three HTML card divs with product name and price)</div>
+                </div><div class="challenge-constraints">Use map and template literals. Generate valid HTML strings.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">const products = [
+  { name: &quot;Laptop&quot;, price: 45000 },
+  { name: &quot;Phone&quot;, price: 15000 },
+  { name: &quot;Watch&quot;, price: 8000 }
+];
+
+const cards = products.map(p =&gt; {
+  return `&lt;div class=&quot;card&quot;&gt;
+  &lt;h3&gt;${p.name}&lt;/h3&gt;
+  &lt;p&gt;Rs ${p.price.toLocaleString()}&lt;/p&gt;
+&lt;/div&gt;`;
+});
+
+console.log(cards.join(&quot;\n&quot;));</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 9: Custom Array Method: chunk</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a function chunk(arr, size) that splits an array into groups of the given size. For example, chunk([1,2,3,4,5], 2) should return [[1,2], [3,4], [5]].</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">chunk([1, 2, 3, 4, 5, 6, 7], 3)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[[1, 2, 3], [4, 5, 6], [7]]</div>
+                </div><div class="challenge-constraints">Use a loop with slice. Return a new array of arrays.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-9" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-9"><pre><code class="language-python">function chunk(arr, size) {
+  const result = [];
+  for (let i = 0; i &lt; arr.length; i += size) {
+    result.push(arr.slice(i, i + size));
+  }
+  return result;
+}
+
+console.log(chunk([1, 2, 3, 4, 5, 6, 7], 3));
+console.log(chunk([1, 2, 3, 4, 5], 2));</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/javascript/functions-in-javascript/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Functions - Regular, Arrow, and Callback</span>
+        </a>
+            <a href="/resources/javascript/objects-in-javascript/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Objects and JSON</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/javascript/arrays-in-javascript" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

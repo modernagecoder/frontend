@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: Build a To-Do App with Local Storage - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Build a complete to-do list app with add, delete, mark complete, filter, and local storage persistence.">
+    <meta name="keywords" content="project: build a to-do app with local storage, javascript tutorial, javascript project: build a to-do app with local storage, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage">
+    <meta property="og:title" content="Project: Build a To-Do App with Local Storage - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Build a complete to-do list app with add, delete, mark complete, filter, and local storage persistence.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage">
+    <meta name="twitter:title" content="Project: Build a To-Do App with Local Storage - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Build a complete to-do list app with add, delete, mark complete, filter, and local storage persistence.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Project: Build a To-Do App with Local Storage",
+    "description": "Build a complete to-do list app with add, delete, mark complete, filter, and local storage persistence.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Project: Build a To-Do App with Local Storage",
+        "item": "https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Not Saving After Every Change",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every time the tasks array changes (add, toggle, delete, edit), you must call <code>saveTasks()</code> to write the updated array to localStorage. Without this, the changes exist only in memory and disappear on refresh."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mutating the Task Object Directly",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Using <code>map</code> to create a new array with a new object is a cleaner pattern. It makes it clear that the data changed and avoids bugs from shared references. This immutable approach is used by React and other frameworks."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Array Index Instead of Unique ID",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Array indices change when items are added, removed, or filtered. A unique ID (like <code>Date.now()</code>) stays the same regardless of the array's order or current filter. Always use unique IDs to identify items in a list."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Re-rendering Without Clearing the List First",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always clear the container with <code>innerHTML = \"\"</code> before re-rendering. Otherwise, every call to renderTasks appends duplicate elements. The simple \"clear and rebuild\" approach is the safest for beginners."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Project: Build a To-Do App with Local Storage</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 22</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">60 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Project: Build a To-Do App with Local Storage</h1>
+            <a href="/resources/javascript/project-todo-app-with-storage/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are We Building?</h2><p>In this chapter, you will build a complete to-do list application from scratch. This is a <strong>project chapter</strong> -- you will combine HTML, CSS, JavaScript, and localStorage into a fully working app that you can actually use every day.</p><p>The to-do app will have:</p><ul><li>An input field and button to add new tasks</li><li>A list of tasks with checkboxes to mark them complete</li><li>A delete button on each task</li><li>Double-click to edit a task</li><li>Filter buttons: All, Active, Completed</li><li>A "Clear Completed" button</li><li>Task count display ("3 tasks remaining")</li><li>All data saved to localStorage -- refresh the page and your tasks are still there</li></ul><pre><code>Add a task: [ Learn JavaScript        ] [Add]
+-----------------------------------------------
+[x] Practice CSS           [Delete]
+[ ] Build to-do app         [Delete]
+[ ] Read chapter 22         [Delete]
+-----------------------------------------------
+[All] [Active] [Completed]   2 items left
+                          [Clear Completed]
+-----------------------------------------------
+Double-click any task to edit it.</code></pre><p>By the end of this chapter, you will have a real, useful application and a deep understanding of how HTML, CSS, and JavaScript work together.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Build a To-Do App?</h2><h3>1. It Is the Ultimate Beginner Project</h3><p>A to-do app is the "Hello World" of web applications. It covers every fundamental skill: creating elements, handling events, managing state, storing data, and updating the UI. If you can build a to-do app from scratch, you can build almost anything.</p><h3>2. It Uses Everything You Have Learned</h3><p>This project combines DOM manipulation (creating and removing elements), event listeners (click, double-click, keydown), CSS manipulation (strikethrough for completed tasks), arrays and objects (storing task data), and localStorage (persisting data). It proves you understand these concepts together.</p><h3>3. CRUD Operations</h3><p>The to-do app implements all four CRUD operations: <strong>C</strong>reate (add a task), <strong>R</strong>ead (display tasks), <strong>U</strong>pdate (edit or toggle complete), <strong>D</strong>elete (remove a task). These operations are the foundation of every web application, from social media to e-commerce.</p><h3>4. You Can Actually Use It</h3><p>Unlike toy examples, this is an app you can use daily. Add it to your bookmarks. Track your homework, coding practice, or goals. Show it to friends and family.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Building the To-Do App Step by Step</h2><h3>Step 1: HTML Structure</h3><p>The HTML has three main sections: an input area for adding tasks, a task list, and a footer with filters and count.</p><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;To-Do App&lt;/title&gt;
+  &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class="todo-container"&gt;
+    &lt;h1&gt;My To-Do List&lt;/h1&gt;
+
+    &lt;div class="input-area"&gt;
+      &lt;input type="text" id="taskInput" placeholder="What do you need to do?"&gt;
+      &lt;button id="addBtn"&gt;Add&lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;ul id="taskList"&gt;&lt;/ul&gt;
+
+    &lt;div class="footer"&gt;
+      &lt;span id="taskCount"&gt;0 items left&lt;/span&gt;
+      &lt;div class="filters"&gt;
+        &lt;button class="filter-btn active" data-filter="all"&gt;All&lt;/button&gt;
+        &lt;button class="filter-btn" data-filter="active"&gt;Active&lt;/button&gt;
+        &lt;button class="filter-btn" data-filter="completed"&gt;Completed&lt;/button&gt;
+      &lt;/div&gt;
+      &lt;button id="clearCompleted"&gt;Clear Completed&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;script src="todo.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p>Key decisions: the task list is a <code>&lt;ul&gt;</code> where each task will be an <code>&lt;li&gt;</code>. Filter buttons use <code>data-filter</code> attributes to identify which filter is selected.</p><h3>Step 2: CSS Styling</h3><p>The CSS creates a clean, modern look with strikethrough for completed tasks, hover effects for buttons, and responsive design.</p><pre><code>* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #0f172a;
+  display: flex; justify-content: center;
+  padding: 40px 16px; color: #e2e8f0;
+}
+
+.todo-container {
+  background: #1e293b; border-radius: 16px;
+  padding: 32px; width: 100%; max-width: 560px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+
+h1 {
+  text-align: center; margin-bottom: 24px;
+  color: #a855f7; font-size: 28px;
+}
+
+.input-area {
+  display: flex; gap: 10px; margin-bottom: 20px;
+}
+
+#taskInput {
+  flex: 1; padding: 12px 16px; font-size: 16px;
+  border: 2px solid #334155; border-radius: 10px;
+  background: #0f172a; color: #e2e8f0; outline: none;
+}
+
+#taskInput:focus { border-color: #a855f7; }
+
+#addBtn {
+  padding: 12px 24px; font-size: 16px; font-weight: 600;
+  background: #a855f7; color: white; border: none;
+  border-radius: 10px; cursor: pointer;
+}
+
+#addBtn:hover { background: #9333ea; }
+
+#taskList { list-style: none; }
+
+.task-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 16px; margin-bottom: 8px;
+  background: #0f172a; border-radius: 10px;
+  border: 1px solid #334155;
+  transition: background 0.2s;
+}
+
+.task-item:hover { background: #1a2744; }
+
+.task-item input[type="checkbox"] {
+  width: 20px; height: 20px; cursor: pointer;
+  accent-color: #a855f7;
+}
+
+.task-text {
+  flex: 1; font-size: 16px; cursor: pointer;
+}
+
+.task-text.completed {
+  text-decoration: line-through;
+  color: #64748b;
+}
+
+.task-text.editing {
+  background: #1e293b; border: 1px solid #a855f7;
+  padding: 4px 8px; border-radius: 6px;
+  outline: none; color: #e2e8f0;
+}
+
+.delete-btn {
+  background: none; border: none; color: #ef4444;
+  font-size: 18px; cursor: pointer; opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.task-item:hover .delete-btn { opacity: 1; }
+
+.footer {
+  display: flex; justify-content: space-between;
+  align-items: center; margin-top: 16px;
+  padding-top: 16px; border-top: 1px solid #334155;
+  font-size: 14px; flex-wrap: wrap; gap: 8px;
+}
+
+#taskCount { color: #94a3b8; }
+
+.filters { display: flex; gap: 4px; }
+
+.filter-btn {
+  padding: 6px 14px; font-size: 13px;
+  background: none; border: 1px solid #334155;
+  border-radius: 6px; color: #94a3b8; cursor: pointer;
+}
+
+.filter-btn:hover { border-color: #a855f7; color: #e2e8f0; }
+.filter-btn.active { border-color: #a855f7; color: #a855f7; }
+
+#clearCompleted {
+  background: none; border: none;
+  color: #94a3b8; cursor: pointer; font-size: 13px;
+}
+
+#clearCompleted:hover { color: #ef4444; }
+
+@media (max-width: 480px) {
+  .footer { flex-direction: column; align-items: stretch; text-align: center; }
+  .filters { justify-content: center; }
+}</code></pre><h3>Step 3: JavaScript -- Data Structure and Storage</h3><p>Each task is stored as an object with three properties: id (unique identifier), text (the task description), and completed (true or false). All tasks are stored in an array in localStorage.</p><pre><code>// Task structure
+// { id: 1712678400000, text: "Learn JavaScript", completed: false }
+
+// Load tasks from localStorage
+function loadTasks() {
+  const raw = localStorage.getItem("tasks");
+  return raw ? JSON.parse(raw) : [];
+}
+
+// Save tasks to localStorage
+function saveTasks(tasks) {
+  localStorage.setItem("tasks", JSON.stringify(tasks));
+}</code></pre><h3>Step 4: JavaScript -- Adding a Task</h3><pre><code>let tasks = loadTasks();
+let currentFilter = "all";
+
+function addTask() {
+  const input = document.getElementById("taskInput");
+  const text = input.value.trim();
+  if (text === "") return;
+
+  tasks.push({
+    id: Date.now(),
+    text: text,
+    completed: false
+  });
+
+  saveTasks(tasks);
+  input.value = "";
+  renderTasks();
+}</code></pre><p>We use <code>Date.now()</code> as a unique ID for each task. This gives a timestamp in milliseconds, which is unique enough for our purposes.</p><h3>Step 5: JavaScript -- Rendering Tasks</h3><pre><code>function renderTasks() {
+  const list = document.getElementById("taskList");
+  list.innerHTML = "";
+
+  const filtered = getFilteredTasks();
+
+  filtered.forEach(function(task) {
+    const li = document.createElement("li");
+    li.classList.add("task-item");
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.checked = task.completed;
+    checkbox.addEventListener("change", function() {
+      toggleTask(task.id);
+    });
+
+    const span = document.createElement("span");
+    span.classList.add("task-text");
+    if (task.completed) span.classList.add("completed");
+    span.textContent = task.text;
+    span.addEventListener("dblclick", function() {
+      editTask(task.id, span);
+    });
+
+    const deleteBtn = document.createElement("button");
+    deleteBtn.classList.add("delete-btn");
+    deleteBtn.textContent = "X";
+    deleteBtn.addEventListener("click", function() {
+      deleteTask(task.id);
+    });
+
+    li.appendChild(checkbox);
+    li.appendChild(span);
+    li.appendChild(deleteBtn);
+    list.appendChild(li);
+  });
+
+  updateCount();
+}</code></pre><h3>Step 6: JavaScript -- Toggle, Delete, Edit</h3><pre><code>function toggleTask(id) {
+  tasks = tasks.map(function(task) {
+    if (task.id === id) {
+      return { id: task.id, text: task.text, completed: !task.completed };
+    }
+    return task;
+  });
+  saveTasks(tasks);
+  renderTasks();
+}
+
+function deleteTask(id) {
+  tasks = tasks.filter(function(task) {
+    return task.id !== id;
+  });
+  saveTasks(tasks);
+  renderTasks();
+}
+
+function editTask(id, span) {
+  const task = tasks.find(function(t) { return t.id === id; });
+  if (!task) return;
+
+  span.contentEditable = true;
+  span.classList.add("editing");
+  span.focus();
+
+  function saveEdit() {
+    span.contentEditable = false;
+    span.classList.remove("editing");
+    const newText = span.textContent.trim();
+    if (newText === "") {
+      deleteTask(id);
+    } else {
+      task.text = newText;
+      saveTasks(tasks);
+    }
+  }
+
+  span.addEventListener("blur", saveEdit, { once: true });
+  span.addEventListener("keydown", function(e) {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      span.blur();
+    }
+  });
+}</code></pre><h3>Step 7: JavaScript -- Filtering and Count</h3><pre><code>function getFilteredTasks() {
+  if (currentFilter === "active") {
+    return tasks.filter(function(t) { return !t.completed; });
+  }
+  if (currentFilter === "completed") {
+    return tasks.filter(function(t) { return t.completed; });
+  }
+  return tasks;
+}
+
+function updateCount() {
+  const remaining = tasks.filter(function(t) { return !t.completed; }).length;
+  document.getElementById("taskCount").textContent = remaining + " item" + (remaining !== 1 ? "s" : "") + " left";
+}
+
+function clearCompleted() {
+  tasks = tasks.filter(function(t) { return !t.completed; });
+  saveTasks(tasks);
+  renderTasks();
+}</code></pre><h3>Step 8: JavaScript -- Event Listeners</h3><pre><code>document.getElementById("addBtn").addEventListener("click", addTask);
+
+document.getElementById("taskInput").addEventListener("keydown", function(e) {
+  if (e.key === "Enter") addTask();
+});
+
+document.querySelectorAll(".filter-btn").forEach(function(btn) {
+  btn.addEventListener("click", function() {
+    document.querySelector(".filter-btn.active").classList.remove("active");
+    btn.classList.add("active");
+    currentFilter = btn.dataset.filter;
+    renderTasks();
+  });
+});
+
+document.getElementById("clearCompleted").addEventListener("click", clearCompleted);
+
+// Initial render
+renderTasks();</code></pre><h3>How It All Fits Together</h3><p>The app follows a simple pattern:</p><ol><li>User performs an action (add, toggle, delete, edit, filter)</li><li>The <code>tasks</code> array is updated</li><li><code>saveTasks()</code> writes the array to localStorage</li><li><code>renderTasks()</code> rebuilds the UI from the array</li></ol><p>This pattern -- action, update data, save, re-render -- is the foundation of how all web applications work. React, Vue, and Angular all follow this same principle.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Complete To-Do App -- All in One File</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;To-Do App&lt;/title&gt;
+  &lt;style&gt;
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: &#39;Segoe UI&#39;, Arial, sans-serif;
+      background: #0f172a; display: flex; justify-content: center;
+      padding: 40px 16px; color: #e2e8f0;
+    }
+    .todo-container {
+      background: #1e293b; border-radius: 16px; padding: 32px;
+      width: 100%; max-width: 560px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    }
+    h1 { text-align: center; margin-bottom: 24px; color: #a855f7; font-size: 28px; }
+    .input-area { display: flex; gap: 10px; margin-bottom: 20px; }
+    #taskInput {
+      flex: 1; padding: 12px 16px; font-size: 16px;
+      border: 2px solid #334155; border-radius: 10px;
+      background: #0f172a; color: #e2e8f0; outline: none;
+    }
+    #taskInput:focus { border-color: #a855f7; }
+    #addBtn {
+      padding: 12px 24px; font-size: 16px; font-weight: 600;
+      background: #a855f7; color: white; border: none;
+      border-radius: 10px; cursor: pointer;
+    }
+    #addBtn:hover { background: #9333ea; }
+    #taskList { list-style: none; }
+    .task-item {
+      display: flex; align-items: center; gap: 12px;
+      padding: 12px 16px; margin-bottom: 8px;
+      background: #0f172a; border-radius: 10px; border: 1px solid #334155;
+    }
+    .task-item:hover { background: #1a2744; }
+    .task-item input[type=&quot;checkbox&quot;] {
+      width: 20px; height: 20px; cursor: pointer; accent-color: #a855f7;
+    }
+    .task-text { flex: 1; font-size: 16px; cursor: pointer; }
+    .task-text.completed { text-decoration: line-through; color: #64748b; }
+    .task-text.editing {
+      background: #1e293b; border: 1px solid #a855f7;
+      padding: 4px 8px; border-radius: 6px; outline: none; color: #e2e8f0;
+    }
+    .delete-btn {
+      background: none; border: none; color: #ef4444;
+      font-size: 18px; cursor: pointer; opacity: 0; transition: opacity 0.2s;
+    }
+    .task-item:hover .delete-btn { opacity: 1; }
+    .footer {
+      display: flex; justify-content: space-between; align-items: center;
+      margin-top: 16px; padding-top: 16px; border-top: 1px solid #334155;
+      font-size: 14px; flex-wrap: wrap; gap: 8px;
+    }
+    #taskCount { color: #94a3b8; }
+    .filters { display: flex; gap: 4px; }
+    .filter-btn {
+      padding: 6px 14px; font-size: 13px; background: none;
+      border: 1px solid #334155; border-radius: 6px;
+      color: #94a3b8; cursor: pointer;
+    }
+    .filter-btn:hover { border-color: #a855f7; color: #e2e8f0; }
+    .filter-btn.active { border-color: #a855f7; color: #a855f7; }
+    #clearCompleted {
+      background: none; border: none; color: #94a3b8;
+      cursor: pointer; font-size: 13px;
+    }
+    #clearCompleted:hover { color: #ef4444; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;todo-container&quot;&gt;
+    &lt;h1&gt;My To-Do List&lt;/h1&gt;
+    &lt;div class=&quot;input-area&quot;&gt;
+      &lt;input type=&quot;text&quot; id=&quot;taskInput&quot; placeholder=&quot;What do you need to do?&quot;&gt;
+      &lt;button id=&quot;addBtn&quot;&gt;Add&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;ul id=&quot;taskList&quot;&gt;&lt;/ul&gt;
+    &lt;div class=&quot;footer&quot;&gt;
+      &lt;span id=&quot;taskCount&quot;&gt;0 items left&lt;/span&gt;
+      &lt;div class=&quot;filters&quot;&gt;
+        &lt;button class=&quot;filter-btn active&quot; data-filter=&quot;all&quot;&gt;All&lt;/button&gt;
+        &lt;button class=&quot;filter-btn&quot; data-filter=&quot;active&quot;&gt;Active&lt;/button&gt;
+        &lt;button class=&quot;filter-btn&quot; data-filter=&quot;completed&quot;&gt;Completed&lt;/button&gt;
+      &lt;/div&gt;
+      &lt;button id=&quot;clearCompleted&quot;&gt;Clear Completed&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;script&gt;
+    let tasks = loadTasks();
+    let currentFilter = &quot;all&quot;;
+
+    function loadTasks() {
+      const raw = localStorage.getItem(&quot;todoTasks&quot;);
+      return raw ? JSON.parse(raw) : [];
+    }
+
+    function saveTasks() {
+      localStorage.setItem(&quot;todoTasks&quot;, JSON.stringify(tasks));
+    }
+
+    function addTask() {
+      const input = document.getElementById(&quot;taskInput&quot;);
+      const text = input.value.trim();
+      if (text === &quot;&quot;) return;
+      tasks.push({ id: Date.now(), text: text, completed: false });
+      saveTasks();
+      input.value = &quot;&quot;;
+      input.focus();
+      renderTasks();
+    }
+
+    function toggleTask(id) {
+      tasks = tasks.map(function(task) {
+        if (task.id === id) {
+          return { id: task.id, text: task.text, completed: !task.completed };
+        }
+        return task;
+      });
+      saveTasks();
+      renderTasks();
+    }
+
+    function deleteTask(id) {
+      tasks = tasks.filter(function(task) { return task.id !== id; });
+      saveTasks();
+      renderTasks();
+    }
+
+    function editTask(id, span) {
+      const task = tasks.find(function(t) { return t.id === id; });
+      if (!task) return;
+      span.contentEditable = true;
+      span.classList.add(&quot;editing&quot;);
+      span.focus();
+      function saveEdit() {
+        span.contentEditable = false;
+        span.classList.remove(&quot;editing&quot;);
+        const newText = span.textContent.trim();
+        if (newText === &quot;&quot;) { deleteTask(id); }
+        else { task.text = newText; saveTasks(); }
+      }
+      span.addEventListener(&quot;blur&quot;, saveEdit, { once: true });
+      span.addEventListener(&quot;keydown&quot;, function(e) {
+        if (e.key === &quot;Enter&quot;) { e.preventDefault(); span.blur(); }
+        if (e.key === &quot;Escape&quot;) { span.textContent = task.text; span.blur(); }
+      });
+    }
+
+    function getFilteredTasks() {
+      if (currentFilter === &quot;active&quot;) return tasks.filter(function(t) { return !t.completed; });
+      if (currentFilter === &quot;completed&quot;) return tasks.filter(function(t) { return t.completed; });
+      return tasks;
+    }
+
+    function updateCount() {
+      const remaining = tasks.filter(function(t) { return !t.completed; }).length;
+      document.getElementById(&quot;taskCount&quot;).textContent = remaining + &quot; item&quot; + (remaining !== 1 ? &quot;s&quot; : &quot;&quot;) + &quot; left&quot;;
+    }
+
+    function renderTasks() {
+      const list = document.getElementById(&quot;taskList&quot;);
+      list.innerHTML = &quot;&quot;;
+      const filtered = getFilteredTasks();
+      filtered.forEach(function(task) {
+        const li = document.createElement(&quot;li&quot;);
+        li.classList.add(&quot;task-item&quot;);
+
+        const checkbox = document.createElement(&quot;input&quot;);
+        checkbox.type = &quot;checkbox&quot;;
+        checkbox.checked = task.completed;
+        checkbox.addEventListener(&quot;change&quot;, function() { toggleTask(task.id); });
+
+        const span = document.createElement(&quot;span&quot;);
+        span.classList.add(&quot;task-text&quot;);
+        if (task.completed) span.classList.add(&quot;completed&quot;);
+        span.textContent = task.text;
+        span.addEventListener(&quot;dblclick&quot;, function() { editTask(task.id, span); });
+
+        const deleteBtn = document.createElement(&quot;button&quot;);
+        deleteBtn.classList.add(&quot;delete-btn&quot;);
+        deleteBtn.textContent = &quot;X&quot;;
+        deleteBtn.addEventListener(&quot;click&quot;, function() { deleteTask(task.id); });
+
+        li.appendChild(checkbox);
+        li.appendChild(span);
+        li.appendChild(deleteBtn);
+        list.appendChild(li);
+      });
+      updateCount();
+    }
+
+    function clearCompleted() {
+      tasks = tasks.filter(function(t) { return !t.completed; });
+      saveTasks();
+      renderTasks();
+    }
+
+    // Event listeners
+    document.getElementById(&quot;addBtn&quot;).addEventListener(&quot;click&quot;, addTask);
+    document.getElementById(&quot;taskInput&quot;).addEventListener(&quot;keydown&quot;, function(e) {
+      if (e.key === &quot;Enter&quot;) addTask();
+    });
+    document.querySelectorAll(&quot;.filter-btn&quot;).forEach(function(btn) {
+      btn.addEventListener(&quot;click&quot;, function() {
+        document.querySelector(&quot;.filter-btn.active&quot;).classList.remove(&quot;active&quot;);
+        btn.classList.add(&quot;active&quot;);
+        currentFilter = btn.dataset.filter;
+        renderTasks();
+      });
+    });
+    document.getElementById(&quot;clearCompleted&quot;).addEventListener(&quot;click&quot;, clearCompleted);
+
+    renderTasks();
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This is the complete to-do app in a single file. The HTML provides the structure (input, list, filters). The CSS styles the dark theme with purple accents, strikethrough for completed tasks, and fade-in delete buttons. The JavaScript manages the task array, saves to localStorage, and re-renders the list after every change. The pattern is: action -> update array -> save -> re-render.</div><div class="code-example-output">A fully interactive to-do app with add, delete, edit (double-click), toggle complete, filter (All/Active/Completed), clear completed, and localStorage persistence.</div></div>
+<div class="code-example"><div class="code-example-title">Task Data Structure and localStorage Functions</div><pre><code class="language-python">// Each task is an object with 3 properties:
+const exampleTask = {
+  id: 1712678400000,     // Date.now() gives a unique timestamp
+  text: &quot;Learn JavaScript&quot;,
+  completed: false
+};
+
+// All tasks are stored as an array of objects
+const exampleTasks = [
+  { id: 1712678400000, text: &quot;Learn JavaScript&quot;, completed: false },
+  { id: 1712678400001, text: &quot;Practice CSS&quot;, completed: true },
+  { id: 1712678400002, text: &quot;Build to-do app&quot;, completed: false }
+];
+
+// Save to localStorage
+function saveTasks(tasks) {
+  localStorage.setItem(&quot;todoTasks&quot;, JSON.stringify(tasks));
+  console.log(&quot;Saved &quot; + tasks.length + &quot; tasks&quot;);
+}
+
+// Load from localStorage
+function loadTasks() {
+  const raw = localStorage.getItem(&quot;todoTasks&quot;);
+  if (raw === null) {
+    console.log(&quot;No saved tasks, starting fresh&quot;);
+    return [];
+  }
+  const tasks = JSON.parse(raw);
+  console.log(&quot;Loaded &quot; + tasks.length + &quot; tasks&quot;);
+  return tasks;
+}
+
+// Test
+saveTasks(exampleTasks);
+const loaded = loadTasks();
+console.log(loaded[0].text);       // &quot;Learn JavaScript&quot;
+console.log(loaded[1].completed);  // true</code></pre><div class="code-example-explanation">Each task needs three things: a unique <code>id</code> (we use Date.now() for simplicity), the task <code>text</code>, and a <code>completed</code> boolean. The <code>saveTasks</code> function converts the array to JSON and stores it. The <code>loadTasks</code> function reads it back, handling the case when nothing is saved yet.</div><div class="code-example-output">Saved 3 tasks
+Loaded 3 tasks
+Learn JavaScript
+true</div></div>
+<div class="code-example"><div class="code-example-title">Adding a Task</div><pre><code class="language-python">let tasks = [];
+
+function addTask(text) {
+  // Don&#39;t add empty tasks
+  if (text.trim() === &quot;&quot;) {
+    console.log(&quot;Cannot add empty task&quot;);
+    return;
+  }
+
+  // Create task object with unique ID
+  const newTask = {
+    id: Date.now(),
+    text: text.trim(),
+    completed: false
+  };
+
+  // Add to array
+  tasks.push(newTask);
+  console.log(&quot;Added: &quot; + newTask.text + &quot; (id: &quot; + newTask.id + &quot;)&quot;);
+
+  // Save to localStorage
+  localStorage.setItem(&quot;todoTasks&quot;, JSON.stringify(tasks));
+  console.log(&quot;Total tasks: &quot; + tasks.length);
+}
+
+// Test
+addTask(&quot;Learn JavaScript&quot;);
+addTask(&quot;Build to-do app&quot;);
+addTask(&quot;&quot;);                 // Should not add
+addTask(&quot;   &quot;);              // Should not add (whitespace only)
+addTask(&quot;Practice CSS&quot;);
+console.log(tasks.length);   // 3</code></pre><div class="code-example-explanation">The addTask function validates the input (no empty strings), creates a task object with a unique ID from Date.now(), adds it to the array, and saves to localStorage. The <code>trim()</code> call removes leading/trailing whitespace.</div><div class="code-example-output">Added: Learn JavaScript (id: 1712678400000)
+Total tasks: 1
+Added: Build to-do app (id: 1712678400001)
+Total tasks: 2
+Cannot add empty task
+Cannot add empty task
+Added: Practice CSS (id: 1712678400002)
+Total tasks: 3
+3</div></div>
+<div class="code-example"><div class="code-example-title">Toggle, Delete, and Filter Functions</div><pre><code class="language-python">let tasks = [
+  { id: 1, text: &quot;Learn JavaScript&quot;, completed: false },
+  { id: 2, text: &quot;Practice CSS&quot;, completed: true },
+  { id: 3, text: &quot;Build to-do app&quot;, completed: false },
+  { id: 4, text: &quot;Read chapter 22&quot;, completed: true }
+];
+
+// Toggle completed status
+function toggleTask(id) {
+  tasks = tasks.map(function(task) {
+    if (task.id === id) {
+      return { id: task.id, text: task.text, completed: !task.completed };
+    }
+    return task;
+  });
+}
+
+// Delete a task
+function deleteTask(id) {
+  tasks = tasks.filter(function(task) { return task.id !== id; });
+}
+
+// Filter tasks
+function getFiltered(filter) {
+  if (filter === &quot;active&quot;) return tasks.filter(function(t) { return !t.completed; });
+  if (filter === &quot;completed&quot;) return tasks.filter(function(t) { return t.completed; });
+  return tasks;
+}
+
+// Count remaining
+function getRemaining() {
+  return tasks.filter(function(t) { return !t.completed; }).length;
+}
+
+// Test toggle
+console.log(&quot;Before toggle:&quot;, tasks[0].completed); // false
+toggleTask(1);
+console.log(&quot;After toggle:&quot;, tasks[0].completed);  // true
+
+// Test filter
+console.log(&quot;Active:&quot;, getFiltered(&quot;active&quot;).length);       // 1
+console.log(&quot;Completed:&quot;, getFiltered(&quot;completed&quot;).length); // 3
+console.log(&quot;All:&quot;, getFiltered(&quot;all&quot;).length);             // 4
+
+// Test delete
+deleteTask(2);
+console.log(&quot;After delete:&quot;, tasks.length); // 3
+
+// Test count
+console.log(&quot;Remaining:&quot;, getRemaining()); // 1</code></pre><div class="code-example-explanation"><code>toggleTask</code> uses <code>map</code> to create a new array where the matching task has its completed status flipped. <code>deleteTask</code> uses <code>filter</code> to remove the task with the matching ID. <code>getFiltered</code> returns different subsets based on the filter. These are pure functions that work on the data without touching the DOM.</div><div class="code-example-output">Before toggle: false
+After toggle: true
+Active: 1
+Completed: 3
+All: 4
+After delete: 3
+Remaining: 1</div></div>
+<div class="code-example"><div class="code-example-title">Building the Task List Element</div><pre><code class="language-python">// This function creates one task &lt;li&gt; element
+function createTaskElement(task) {
+  const li = document.createElement(&quot;li&quot;);
+  li.classList.add(&quot;task-item&quot;);
+
+  // Checkbox
+  const checkbox = document.createElement(&quot;input&quot;);
+  checkbox.type = &quot;checkbox&quot;;
+  checkbox.checked = task.completed;
+  checkbox.addEventListener(&quot;change&quot;, function() {
+    console.log(&quot;Toggled: &quot; + task.text);
+    // In the real app, this calls toggleTask(task.id)
+  });
+
+  // Task text
+  const span = document.createElement(&quot;span&quot;);
+  span.classList.add(&quot;task-text&quot;);
+  if (task.completed) {
+    span.classList.add(&quot;completed&quot;); // Adds strikethrough
+  }
+  span.textContent = task.text;
+
+  // Double-click to edit
+  span.addEventListener(&quot;dblclick&quot;, function() {
+    console.log(&quot;Editing: &quot; + task.text);
+    // In the real app, this calls editTask(task.id, span)
+  });
+
+  // Delete button
+  const deleteBtn = document.createElement(&quot;button&quot;);
+  deleteBtn.classList.add(&quot;delete-btn&quot;);
+  deleteBtn.textContent = &quot;X&quot;;
+  deleteBtn.addEventListener(&quot;click&quot;, function() {
+    console.log(&quot;Deleted: &quot; + task.text);
+    // In the real app, this calls deleteTask(task.id)
+  });
+
+  // Assemble
+  li.appendChild(checkbox);
+  li.appendChild(span);
+  li.appendChild(deleteBtn);
+
+  return li;
+}
+
+// Test
+const task = { id: 1, text: &quot;Learn JavaScript&quot;, completed: false };
+const element = createTaskElement(task);
+console.log(element.outerHTML);</code></pre><div class="code-example-explanation">Each task in the list is built from four elements: an <code>&lt;li&gt;</code> container, a checkbox input, a text span, and a delete button. Each element gets the appropriate event listener. The <code>.completed</code> class adds CSS strikethrough styling. This function is called for each task during rendering.</div><div class="code-example-output">&lt;li class=&quot;task-item&quot;&gt;&lt;input type=&quot;checkbox&quot;&gt;&lt;span class=&quot;task-text&quot;&gt;Learn JavaScript&lt;/span&gt;&lt;button class=&quot;delete-btn&quot;&gt;X&lt;/button&gt;&lt;/li&gt;</div></div>
+<div class="code-example"><div class="code-example-title">Edit Task with contentEditable</div><pre><code class="language-python">function editTask(id, span, tasks) {
+  const task = tasks.find(function(t) { return t.id === id; });
+  if (!task) return;
+
+  // Make the span editable
+  span.contentEditable = true;
+  span.classList.add(&quot;editing&quot;);
+  span.focus();
+
+  console.log(&quot;Editing mode: &quot; + task.text);
+
+  function saveEdit() {
+    span.contentEditable = false;
+    span.classList.remove(&quot;editing&quot;);
+
+    const newText = span.textContent.trim();
+    if (newText === &quot;&quot;) {
+      // Empty text = delete the task
+      console.log(&quot;Empty text, deleting task&quot;);
+    } else if (newText !== task.text) {
+      task.text = newText;
+      console.log(&quot;Updated to: &quot; + newText);
+    } else {
+      console.log(&quot;No changes&quot;);
+    }
+  }
+
+  // Save on blur (clicking outside)
+  span.addEventListener(&quot;blur&quot;, saveEdit, { once: true });
+
+  // Save on Enter, cancel on Escape
+  span.addEventListener(&quot;keydown&quot;, function(e) {
+    if (e.key === &quot;Enter&quot;) {
+      e.preventDefault();
+      span.blur();  // Triggers saveEdit via blur
+    }
+    if (e.key === &quot;Escape&quot;) {
+      span.textContent = task.text;  // Restore original
+      span.blur();
+    }
+  });
+}
+
+// This uses contentEditable, which makes any HTML element
+// act like a text input. It is simpler than replacing
+// the span with an &lt;input&gt; element.</code></pre><div class="code-example-explanation">The edit function uses <code>contentEditable</code> to turn the task text span into an editable field. The user can type a new text, press Enter to save, or Escape to cancel. Clicking outside (blur) also saves. If the text is empty after editing, the task is deleted. The <code>{ once: true }</code> option ensures the blur listener fires only once.</div><div class="code-example-output">Editing mode: Learn JavaScript
+(User types new text and presses Enter)
+Updated to: Learn advanced JavaScript</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Not Saving After Every Change</h3>
+                <div class="wrong-code"><pre><code class="language-python">function toggleTask(id) {
+  tasks = tasks.map(function(task) {
+    if (task.id === id) task.completed = !task.completed;
+    return task;
+  });
+  renderTasks();
+  // Forgot to call saveTasks()!
+}</code></pre></div><div class="error-message">No error, but changes are lost when the page is refreshed because the updated array was never saved to localStorage.</div><div class="correct-code"><pre><code class="language-python">function toggleTask(id) {
+  tasks = tasks.map(function(task) {
+    if (task.id === id) {
+      return { id: task.id, text: task.text, completed: !task.completed };
+    }
+    return task;
+  });
+  saveTasks();   // Always save after modifying tasks
+  renderTasks();
+}</code></pre></div><div class="mistake-explanation">Every time the tasks array changes (add, toggle, delete, edit), you must call <code>saveTasks()</code> to write the updated array to localStorage. Without this, the changes exist only in memory and disappear on refresh.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Mutating the Task Object Directly</h3>
+                <div class="wrong-code"><pre><code class="language-python">function toggleTask(id) {
+  const task = tasks.find(function(t) { return t.id === id; });
+  task.completed = !task.completed;  // Mutating the original object
+  saveTasks();
+  renderTasks();
+}</code></pre></div><div class="error-message">This works but is a bad practice. Directly mutating objects makes bugs harder to track. It is better to create a new object.</div><div class="correct-code"><pre><code class="language-python">function toggleTask(id) {
+  tasks = tasks.map(function(task) {
+    if (task.id === id) {
+      return { id: task.id, text: task.text, completed: !task.completed };
+    }
+    return task;
+  });
+  saveTasks();
+  renderTasks();
+}</code></pre></div><div class="mistake-explanation">Using <code>map</code> to create a new array with a new object is a cleaner pattern. It makes it clear that the data changed and avoids bugs from shared references. This immutable approach is used by React and other frameworks.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Array Index Instead of Unique ID</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Using array index to identify tasks
+function deleteTask(index) {
+  tasks.splice(index, 1);
+}
+// Problem: if the list is filtered, index 2 in the filtered
+// view is NOT index 2 in the full array!</code></pre></div><div class="error-message">Deleting by index breaks when filters are active. The visible list has different indices than the full tasks array.</div><div class="correct-code"><pre><code class="language-python">// Use a unique ID instead
+function deleteTask(id) {
+  tasks = tasks.filter(function(task) { return task.id !== id; });
+}
+// Works correctly regardless of filtering because ID is unique</code></pre></div><div class="mistake-explanation">Array indices change when items are added, removed, or filtered. A unique ID (like <code>Date.now()</code>) stays the same regardless of the array's order or current filter. Always use unique IDs to identify items in a list.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Re-rendering Without Clearing the List First</h3>
+                <div class="wrong-code"><pre><code class="language-python">function renderTasks() {
+  const list = document.getElementById(&quot;taskList&quot;);
+  // Forgot list.innerHTML = &quot;&quot;;
+  tasks.forEach(function(task) {
+    const li = document.createElement(&quot;li&quot;);
+    li.textContent = task.text;
+    list.appendChild(li);
+  });
+}</code></pre></div><div class="error-message">Tasks are duplicated every time renderTasks is called because old elements are not removed before adding new ones.</div><div class="correct-code"><pre><code class="language-python">function renderTasks() {
+  const list = document.getElementById(&quot;taskList&quot;);
+  list.innerHTML = &quot;&quot;;  // Clear existing tasks first
+  tasks.forEach(function(task) {
+    const li = document.createElement(&quot;li&quot;);
+    li.textContent = task.text;
+    list.appendChild(li);
+  });
+}</code></pre></div><div class="mistake-explanation">Always clear the container with <code>innerHTML = ""</code> before re-rendering. Otherwise, every call to renderTasks appends duplicate elements. The simple "clear and rebuild" approach is the safest for beginners.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>A to-do app implements all four CRUD operations: Create (add task), Read (display tasks), Update (edit or toggle), Delete (remove task). These operations are the foundation of every web application.</li>
+<li>Each task is stored as an object with three properties: id (unique, from Date.now()), text (the task description), and completed (boolean). Tasks are stored in an array.</li>
+<li>The data flow pattern is: user action -&gt; update array -&gt; save to localStorage -&gt; re-render UI. This same pattern is used by React, Vue, and every modern framework.</li>
+<li>localStorage persistence uses two functions: saveTasks() calls JSON.stringify and setItem, loadTasks() calls getItem and JSON.parse with a fallback to an empty array.</li>
+<li>Rendering clears the list with innerHTML = &#39;&#39; and rebuilds it from the array. Each task element is assembled from a checkbox, text span, and delete button with their own event listeners.</li>
+<li>Toggling uses array.map() to create a new array where the matching task has its completed property flipped. Deleting uses array.filter() to exclude the matching task.</li>
+<li>Editing uses contentEditable to make the text span editable in place. Enter saves, Escape cancels, and blur (clicking outside) also saves. Empty text after editing deletes the task.</li>
+<li>Filtering uses array.filter() with the current filter state. &#39;active&#39; shows tasks where completed is false, &#39;completed&#39; shows tasks where completed is true, &#39;all&#39; shows everything.</li>
+<li>Always use unique IDs (not array indices) to identify tasks. Array indices change when items are added, removed, or filtered. IDs are stable and unique.</li>
+<li>Always save to localStorage after every change to the tasks array. Without saving, changes exist only in memory and are lost on page refresh.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/local-storage-and-session-storage" class="related-topic-link">Local Storage and Session Storage</a>
+<a href="/resources/javascript/array-and-object-advanced-patterns" class="related-topic-link">Advanced Array and Object Patterns</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/local-storage-and-session-storage" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Local Storage and Session Storage</span>
+        </a>
+            <a href="/resources/javascript/array-and-object-advanced-patterns" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Advanced Array and Object Patterns</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/project-todo-app-with-storage/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Closures, Scope, and Hoisting | JavaScript | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="40+ practice questions on Closures, Scope, and Hoisting in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="closures, scope, and hoisting practice, javascript questions, javascript practice problems, closures, scope, and hoisting exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting/practice">
+    <meta property="og:title" content="Practice Questions - Closures, Scope, and Hoisting | JavaScript | Modern Age Coders">
+    <meta property="og:description" content="40+ practice questions on Closures, Scope, and Hoisting in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting/practice">
+    <meta name="twitter:title" content="Practice Questions - Closures, Scope, and Hoisting | JavaScript | Modern Age Coders">
+    <meta name="twitter:description" content="40+ practice questions on Closures, Scope, and Hoisting in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Closures, Scope, and Hoisting",
+    "description": "40+ practice questions on Closures, Scope, and Hoisting in JavaScript.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Closures, Scope, and Hoisting"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Closures, Scope, and Hoisting",
+        "item": "https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript/closures-scope-and-hoisting">Closures, Scope, and Hoisting</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 24</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">40 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Closures, Scope, and Hoisting</h1>
+            <a href="/resources/javascript/closures-scope-and-hoisting" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>let x = 10;
+function foo() {
+  console.log(x);
+}
+foo();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Inner functions can access outer (including global) variables.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>function test() {
+  let a = 5;
+  return a;
+}
+console.log(test());
+// console.log(a);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Variables declared inside a function are not accessible outside.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>5</code> (and the commented line would throw ReferenceError)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>console.log(x);
+var x = 5;
+console.log(x);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">var declarations are hoisted. The value is NOT hoisted.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>undefined</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>if (true) {
+  var a = 10;
+  let b = 20;
+}
+console.log(a);
+// console.log(b);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">var ignores block scope. let respects block scope.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>10</code> (and the commented line would throw ReferenceError)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>function make() {
+  let count = 0;
+  return function() {
+    count++;
+    return count;
+  };
+}
+const fn = make();
+console.log(fn());
+console.log(fn());
+console.log(fn());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">The returned function forms a closure over 'count'.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>1</code><br><code>2</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>function greet(greeting) {
+  return function(name) {
+    return greeting + ", " + name;
+  };
+}
+const hi = greet("Hi");
+const hello = greet("Hello");
+console.log(hi("Aarav"));
+console.log(hello("Priya"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Each call to greet creates a separate closure with its own 'greeting'.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Hi, Aarav</code><br><code>Hello, Priya</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>sayHello();
+function sayHello() {
+  console.log("Hello!");
+}
+
+try { sayBye(); } catch(e) { console.log(e.message); }
+var sayBye = function() {
+  console.log("Bye!");
+};</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Function declarations are fully hoisted. Function expressions assigned to var are NOT.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Hello!</code><br><code>sayBye is not a function</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>var funcs = [];
+for (var i = 0; i < 3; i++) {
+  funcs.push(function() { return i; });
+}
+console.log(funcs[0]());
+console.log(funcs[1]());
+console.log(funcs[2]());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">This is the classic closure trap with var.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>3</code><br><code>3</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>var funcs = [];
+for (let i = 0; i < 3; i++) {
+  funcs.push(function() { return i; });
+}
+console.log(funcs[0]());
+console.log(funcs[1]());
+console.log(funcs[2]());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">let creates a new variable for each iteration.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>0</code><br><code>1</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function outer() {
+  let x = 10;
+  function inner() {
+    console.log(x);
+  }
+  x = 20;
+  return inner;
+}
+const fn = outer();
+fn();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Closures capture a reference to the variable, not a snapshot of its value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>console.log(typeof a);
+console.log(typeof b);
+var a = 1;
+let b = 2;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">var is hoisted as undefined. But what happens with let?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">The first line prints <code>undefined</code>. The second line throws <code>ReferenceError: Cannot access 'b' before initialization</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is a closure in simple terms? Give a one-sentence definition.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Think about what the inner function remembers.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">A closure is a function that retains access to variables from its outer (enclosing) function's scope, even after the outer function has finished executing.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the Temporal Dead Zone (TDZ) and which variables are affected by it?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Think about what happens between hoisting and the declaration line.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">The Temporal Dead Zone is the period between a <code>let</code> or <code>const</code> variable being hoisted and its actual declaration in the code. During the TDZ, the variable exists (it has been hoisted) but accessing it throws a ReferenceError because it has not been initialized. <code>var</code> does NOT have a TDZ -- it is initialized to <code>undefined</code> during hoisting.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>function outer() {
+  let x = 5;
+  function inner() {
+    return x * 2;
+  }
+  return inner();
+}
+console.log(outer());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">inner can access x from outer's scope.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const x = 10;
+if (true) {
+  const x = 20;
+  console.log(x);
+}
+console.log(x);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">const is block-scoped. The inner x shadows the outer x inside the block.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>20</code><br><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>function makeAdder(x) {
+  return function(y) { return x + y; };
+}
+const add5 = makeAdder(5);
+const add10 = makeAdder(10);
+console.log(add5(3) + add10(3));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">add5 remembers x=5, add10 remembers x=10.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>21</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for (var i = 0; i < 3; i++) {
+  // just looping
+}
+console.log(i);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">var is not block-scoped. It leaks out of the for loop.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function makeCounter() {
+  let count = 0;
+  return {
+    inc: function() { return ++count; },
+    get: function() { return count; }
+  };
+}
+const a = makeCounter();
+const b = makeCounter();
+a.inc(); a.inc(); a.inc();
+b.inc();
+console.log(a.get());
+console.log(b.get());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Each makeCounter call creates a separate closure with its own count.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>3</code><br><code>1</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>var a = 1;
+function foo() {
+  var a = 2;
+  console.log(a);
+}
+foo();
+console.log(a);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Each function has its own scope. The inner 'a' shadows the outer 'a'.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>2</code><br><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>for (let i = 0; i < 3; i++) {
+  // just looping
+}
+try {
+  console.log(i);
+} catch(e) {
+  console.log("Error: i is not defined");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">let is block-scoped. The loop body is a block.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>Error: i is not defined</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>(function() {
+  var x = 10;
+  console.log(x);
+})();
+try {
+  console.log(x);
+} catch(e) {
+  console.log("x not defined");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">IIFE creates a function scope. Variables inside are not accessible outside.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>10</code><br><code>x not defined</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>function createAdder(x) {
+  return function(y) {
+    return x + y;
+  };
+}
+const add5 = createAdder(5);
+const add10 = createAdder(10);
+console.log(add5(3));
+console.log(add10(3));
+console.log(add5(add10(1)));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Each closure remembers its own x. The last line nests the calls.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>8</code><br><code>13</code><br><code>16</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let a = 1;
+function foo() {
+  console.log(a);
+  let a = 2;
+  console.log(a);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">let is hoisted within the function but enters TDZ.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">ReferenceError: Cannot access 'a' before initialization</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function createFunctions() {
+  var result = [];
+  for (var i = 0; i < 3; i++) {
+    result.push((function(j) {
+      return function() { return j; };
+    })(i));
+  }
+  return result;
+}
+var fns = createFunctions();
+console.log(fns[0]());
+console.log(fns[1]());
+console.log(fns[2]());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">The IIFE captures the current value of i as j in each iteration.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>0</code><br><code>1</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const counter = (function() {
+  let count = 0;
+  return {
+    up: function() { return ++count; },
+    down: function() { return --count; },
+    value: function() { return count; }
+  };
+})();
+
+console.log(counter.up());
+console.log(counter.up());
+console.log(counter.down());
+console.log(counter.value());
+console.log(counter.count);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">This is the module pattern. count is private.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>1</code><br><code>2</code><br><code>1</code><br><code>1</code><br><code>undefined</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for (var i = 1; i <= 3; i++) {
+  setTimeout(function() {
+    console.log("var: " + i);
+  }, 0);
+}
+
+for (let j = 1; j <= 3; j++) {
+  setTimeout(function() {
+    console.log("let: " + j);
+  }, 0);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">setTimeout runs after the loop finishes. var shares one i, let creates a j per iteration.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>var: 4</code><br><code>var: 4</code><br><code>var: 4</code><br><code>let: 1</code><br><code>let: 2</code><br><code>let: 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain why the module pattern works for creating private variables in JavaScript.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about what the IIFE does and what the returned object can access.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">The module pattern uses an IIFE (Immediately Invoked Function Expression) that declares variables inside its function scope. These variables cannot be accessed from outside the function. The IIFE returns an object with methods that form closures over the private variables. Only these methods can read or modify the private data. Code outside the module can use the methods but cannot directly access the private variables.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is scope in JavaScript?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The speed of code execution</li><li><span class="mcq-option-label">B.</span> The region of code where a variable is accessible</li><li><span class="mcq-option-label">C.</span> The size of a variable</li><li><span class="mcq-option-label">D.</span> The type of a variable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> Scope determines where a variable can be accessed. Variables in function scope are only accessible inside that function.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What is a closure?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A function that closes the browser tab</li><li><span class="mcq-option-label">B.</span> A function that has access to its outer function&#39;s variables even after the outer function returns</li><li><span class="mcq-option-label">C.</span> A function that cannot be called</li><li><span class="mcq-option-label">D.</span> A function without parameters</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> A closure is a function plus its lexical environment. It retains access to outer variables even after the outer function has finished executing.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does hoisting do to var declarations?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Moves the entire line to the top</li><li><span class="mcq-option-label">B.</span> Moves the declaration to the top and initializes it to undefined</li><li><span class="mcq-option-label">C.</span> Moves the value to the top</li><li><span class="mcq-option-label">D.</span> Deletes the variable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Hoisting moves the <code>var</code> declaration to the top of its scope and initializes it to <code>undefined</code>. The value assignment stays in its original position.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which keyword creates a block-scoped variable?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> var</li><li><span class="mcq-option-label">B.</span> function</li><li><span class="mcq-option-label">C.</span> let</li><li><span class="mcq-option-label">D.</span> global</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>let</code> (and <code>const</code>) create block-scoped variables that only exist inside the { } block where they are declared.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What happens when you access a let variable before its declaration?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It returns undefined</li><li><span class="mcq-option-label">B.</span> It returns null</li><li><span class="mcq-option-label">C.</span> It throws a ReferenceError (Temporal Dead Zone)</li><li><span class="mcq-option-label">D.</span> It returns the global value</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> let and const have a Temporal Dead Zone. Accessing them before declaration throws ReferenceError. This is different from var, which returns undefined.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">In the classic loop trap, why do all var closures return the same value?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Because JavaScript copies the variable each time</li><li><span class="mcq-option-label">B.</span> Because all closures share the same var variable</li><li><span class="mcq-option-label">C.</span> Because setTimeout always returns the last value</li><li><span class="mcq-option-label">D.</span> Because var creates a new variable each iteration</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> var is function-scoped, not block-scoped. There is only ONE i variable shared by all iterations. By the time callbacks run, the loop is done and i has its final value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is an IIFE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> An internal function expression</li><li><span class="mcq-option-label">B.</span> An immediately invoked function expression that runs right away</li><li><span class="mcq-option-label">C.</span> An infinite function executor</li><li><span class="mcq-option-label">D.</span> An interface for function exports</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> An IIFE is a function that is defined and immediately executed: <code>(function() { ... })()</code>. It creates a private scope.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which of these is fully hoisted (both name and body)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> var f = function() {}</li><li><span class="mcq-option-label">B.</span> const f = () =&gt; {}</li><li><span class="mcq-option-label">C.</span> function f() {}</li><li><span class="mcq-option-label">D.</span> let f = function() {}</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Only function declarations (<code>function name() { }</code>) are fully hoisted. Function expressions and arrow functions follow their variable keyword rules.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Do closures capture variables by value or by reference?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> By value -- they take a snapshot</li><li><span class="mcq-option-label">B.</span> By reference -- they see changes made after closure creation</li><li><span class="mcq-option-label">C.</span> By value for primitives, by reference for objects</li><li><span class="mcq-option-label">D.</span> It depends on the browser</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> Closures capture a reference to the variable, not its value. If the variable changes after the closure is created, the closure sees the updated value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is the module pattern used for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Loading external modules</li><li><span class="mcq-option-label">B.</span> Creating objects with private variables using closures</li><li><span class="mcq-option-label">C.</span> Splitting code into files</li><li><span class="mcq-option-label">D.</span> Importing npm packages</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> The module pattern uses an IIFE to create private variables and returns an object with public methods. The methods form closures over the private variables, providing encapsulation.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Why does let fix the loop closure trap?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> let is faster than var</li><li><span class="mcq-option-label">B.</span> let creates a new variable for each iteration of the loop</li><li><span class="mcq-option-label">C.</span> let prevents closures from forming</li><li><span class="mcq-option-label">D.</span> let makes setTimeout synchronous</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> let is block-scoped, and each iteration of a for loop is a new block. So each closure captures its own separate variable with the correct value from that iteration.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is lexical scope?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Scope determined by where a function is called</li><li><span class="mcq-option-label">B.</span> Scope determined by where a function is written in the source code</li><li><span class="mcq-option-label">C.</span> Scope determined at runtime by the engine</li><li><span class="mcq-option-label">D.</span> Scope that only applies to objects</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Lexical (or static) scope means the scope is determined by the position of the code when it is written, not when it is executed. Inner functions can access variables from their enclosing scope in the source code.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What value does a var variable have before it is assigned?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> null</li><li><span class="mcq-option-label">B.</span> 0</li><li><span class="mcq-option-label">C.</span> undefined</li><li><span class="mcq-option-label">D.</span> It throws an error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> var declarations are hoisted and initialized to undefined. Accessing a var before its assignment line returns undefined.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the main practical use of closures?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Making code run faster</li><li><span class="mcq-option-label">B.</span> Creating private variables and maintaining state between function calls</li><li><span class="mcq-option-label">C.</span> Preventing memory leaks</li><li><span class="mcq-option-label">D.</span> Converting functions to strings</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> Closures are used to create private variables (that cannot be accessed from outside) and to maintain state between calls (like a counter that remembers its count).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the output of: (function(x) { return x * 2; })(5)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> undefined</li><li><span class="mcq-option-label">B.</span> function</li><li><span class="mcq-option-label">C.</span> 10</li><li><span class="mcq-option-label">D.</span> SyntaxError</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> This is an IIFE that takes 5 as an argument and returns 5 * 2 = 10. The function is defined and immediately called.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">In the module pattern, how are private variables created?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Using the private keyword</li><li><span class="mcq-option-label">B.</span> Using variables declared inside an IIFE that are not returned</li><li><span class="mcq-option-label">C.</span> Using underscore prefix on variable names</li><li><span class="mcq-option-label">D.</span> Using Object.freeze</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> Variables declared inside an IIFE are trapped in its function scope. Only the methods returned by the IIFE can access them. Code outside cannot reach them.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What is the difference between function scope and block scope?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are the same thing</li><li><span class="mcq-option-label">B.</span> Function scope is for var, block scope is for let/const -- blocks include if, for, while curly braces</li><li><span class="mcq-option-label">C.</span> Block scope only applies to classes</li><li><span class="mcq-option-label">D.</span> Function scope applies to arrow functions only</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> var is function-scoped (only trapped by function boundaries). let/const are block-scoped (trapped by any { } including if, for, while, etc.).</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Counter with Reset</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a function makeCounter that returns an object with increment, decrement, getCount, and reset methods. The count variable should be private (not accessible directly from outside).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">counter.increment() x3, counter.decrement() x1, counter.getCount()</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">1, 2, 3, 2, getCount: 2, reset: 0</div>
+                </div><div class="challenge-constraints">The count variable must be private. Only the returned methods should be able to access it.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">function makeCounter(start) {
+  let count = start || 0;
+  return {
+    increment: function() { return ++count; },
+    decrement: function() { return --count; },
+    getCount: function() { return count; },
+    reset: function() { count = start || 0; return count; }
+  };
+}
+
+const c = makeCounter(0);
+console.log(c.increment()); // 1
+console.log(c.increment()); // 2
+console.log(c.increment()); // 3
+console.log(c.decrement()); // 2
+console.log(c.getCount());  // 2
+console.log(c.reset());     // 0
+console.log(c.count);       // undefined (private!)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Once Function</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function called once that takes a function as an argument and returns a new function that can only be called once. Subsequent calls should return the result of the first call without executing the original function again.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">const add = once((a, b) =&gt; a + b); add(2, 3); add(5, 5);</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">5, 5 (second call returns cached result)</div>
+                </div><div class="challenge-constraints">Use a closure to track whether the function has been called.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">function once(fn) {
+  let called = false;
+  let result;
+  return function() {
+    if (!called) {
+      result = fn.apply(this, arguments);
+      called = true;
+    }
+    return result;
+  };
+}
+
+const addOnce = once(function(a, b) {
+  console.log(&quot;Computing...&quot;);
+  return a + b;
+});
+console.log(addOnce(2, 3)); // Computing... 5
+console.log(addOnce(5, 5)); // 5 (no Computing...)
+console.log(addOnce(10, 10)); // 5 (still cached)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Rate Limiter</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function called createRateLimiter that takes a function and a time limit in milliseconds. It should return a new function that can only be called once within the time limit. Additional calls within the limit are ignored.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">const limited = createRateLimiter(fn, 1000); limited(); limited(); (after 1s) limited();</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">First call: executed. Second call: ignored. After 1s: executed.</div>
+                </div><div class="challenge-constraints">Use closure to track the last call time. Use Date.now() for timing.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">function createRateLimiter(fn, limit) {
+  let lastCalled = 0;
+  return function() {
+    const now = Date.now();
+    if (now - lastCalled &gt;= limit) {
+      lastCalled = now;
+      return fn.apply(this, arguments);
+    }
+    console.log(&quot;Rate limited, try again later&quot;);
+    return undefined;
+  };
+}
+
+const limitedLog = createRateLimiter(function(msg) {
+  console.log(&quot;Logged: &quot; + msg);
+}, 1000);
+
+limitedLog(&quot;hello&quot;);  // Logged: hello
+limitedLog(&quot;world&quot;);  // Rate limited
+// After 1 second:
+// limitedLog(&quot;again&quot;); // Logged: again</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Private Collection</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a function called createCollection that returns an object with add, remove, has, getAll, and size methods. The internal array should be completely private. getAll should return a copy, not the original.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">add(&#39;Aarav&#39;), add(&#39;Priya&#39;), has(&#39;Aarav&#39;), remove(&#39;Aarav&#39;), size()</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">add: true, add: true, has: true, remove: true, size: 1</div>
+                </div><div class="challenge-constraints">Use closures for privacy. getAll must return a copy. Prevent duplicates.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">function createCollection() {
+  const items = [];
+  return {
+    add: function(item) {
+      if (!items.includes(item)) {
+        items.push(item);
+        return true;
+      }
+      return false;
+    },
+    remove: function(item) {
+      const idx = items.indexOf(item);
+      if (idx !== -1) {
+        items.splice(idx, 1);
+        return true;
+      }
+      return false;
+    },
+    has: function(item) { return items.includes(item); },
+    getAll: function() { return [...items]; },
+    size: function() { return items.length; }
+  };
+}
+
+const col = createCollection();
+console.log(col.add(&quot;Aarav&quot;));   // true
+console.log(col.add(&quot;Priya&quot;));   // true
+console.log(col.add(&quot;Aarav&quot;));   // false (duplicate)
+console.log(col.has(&quot;Aarav&quot;));   // true
+console.log(col.remove(&quot;Aarav&quot;)); // true
+console.log(col.size());          // 1</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Fix the Loop Closure Bug</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">The following code has a bug. Each button should log its own index when clicked, but all buttons log 5. Fix it using three different approaches: (1) let, (2) IIFE, (3) closure function.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">5 buttons created in a loop with var</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Click button 0 -&gt; logs 0, click button 1 -&gt; logs 1, etc.</div>
+                </div><div class="challenge-constraints">Provide three different solutions.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">// BUGGY CODE:
+// for (var i = 0; i &lt; 5; i++) {
+//   buttons[i].addEventListener(&#39;click&#39;, function() { console.log(i); });
+// }
+
+// FIX 1: Use let
+for (let i = 0; i &lt; 5; i++) {
+  buttons[i].addEventListener(&#39;click&#39;, function() { console.log(i); });
+}
+
+// FIX 2: IIFE
+for (var i = 0; i &lt; 5; i++) {
+  (function(j) {
+    buttons[j].addEventListener(&#39;click&#39;, function() { console.log(j); });
+  })(i);
+}
+
+// FIX 3: Closure function
+function createHandler(index) {
+  return function() { console.log(index); };
+}
+for (var i = 0; i &lt; 5; i++) {
+  buttons[i].addEventListener(&#39;click&#39;, createHandler(i));
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Function Pipeline Builder</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a function called pipe that takes multiple functions as arguments and returns a new function that applies them left to right. pipe(double, addOne)(5) should return 11 (5*2 = 10, 10+1 = 11).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">pipe(double, addOne, square)(3)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">49 (3*2=6, 6+1=7, 7*7=49)</div>
+                </div><div class="challenge-constraints">Use closures and reduce. The piped function should work with any number of functions.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">function pipe() {
+  const fns = Array.from(arguments);
+  return function(input) {
+    return fns.reduce(function(result, fn) {
+      return fn(result);
+    }, input);
+  };
+}
+
+function double(x) { return x * 2; }
+function addOne(x) { return x + 1; }
+function square(x) { return x * x; }
+
+const transform = pipe(double, addOne, square);
+console.log(transform(3)); // 49 (3*2=6, +1=7, 7^2=49)
+console.log(transform(5)); // 121 (5*2=10, +1=11, 11^2=121)
+
+const simple = pipe(double, double);
+console.log(simple(4)); // 16 (4*2=8, 8*2=16)</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/javascript/array-and-object-advanced-patterns/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Advanced Array and Object Patterns</span>
+        </a>
+            <a href="/resources/javascript/project-interactive-portfolio/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Project: Build an Interactive Portfolio Website</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/javascript/closures-scope-and-hoisting" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

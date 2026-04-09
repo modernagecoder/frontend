@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Forms and Input Validation | JavaScript | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="58+ practice questions on Forms and Input Validation in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="forms and input validation practice, javascript questions, javascript practice problems, forms and input validation exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/forms-and-validation/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/forms-and-validation/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/forms-and-validation/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/forms-and-validation/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/forms-and-validation/practice">
+    <meta property="og:title" content="Practice Questions - Forms and Input Validation | JavaScript | Modern Age Coders">
+    <meta property="og:description" content="58+ practice questions on Forms and Input Validation in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/forms-and-validation/practice">
+    <meta name="twitter:title" content="Practice Questions - Forms and Input Validation | JavaScript | Modern Age Coders">
+    <meta name="twitter:description" content="58+ practice questions on Forms and Input Validation in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Forms and Input Validation",
+    "description": "58+ practice questions on Forms and Input Validation in JavaScript.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Forms and Input Validation"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/forms-and-validation/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Forms and Input Validation",
+        "item": "https://learn.modernagecoders.com/resources/javascript/forms-and-validation"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/javascript/forms-and-validation/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript/forms-and-validation">Forms and Input Validation</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 14</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">58 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Forms and Input Validation</h1>
+            <a href="/resources/javascript/forms-and-validation" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What happens when the form is submitted with an empty input?<br><pre><code>&lt;form id="form"&gt;
+  &lt;input type="text" id="name" value=""&gt;
+  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+document.getElementById("form").addEventListener("submit", function(e) {
+  e.preventDefault();
+  const name = document.getElementById("name").value.trim();
+  if (name === "") {
+    console.log("Name is required");
+  } else {
+    console.log("Hello, " + name);
+  }
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The input is empty, so value.trim() is an empty string.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Name is required</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;script&gt;
+const regex = /^\d{10}$/;
+console.log(regex.test("9876543210"));
+console.log(regex.test("12345"));
+console.log(regex.test("98765432101"));
+console.log(regex.test("abcdefghij"));
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">\d{10} means exactly 10 digits. ^ and $ mean start and end of string.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>true</code><br><code>false</code><br><code>false</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;input type="checkbox" id="agree"&gt;
+
+&lt;script&gt;
+const cb = document.getElementById("agree");
+console.log(cb.checked);
+console.log(typeof cb.checked);
+cb.checked = true;
+console.log(cb.checked);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">.checked is a boolean property on checkboxes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>false</code><br><code>boolean</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;script&gt;
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+console.log(emailRegex.test("aarav@gmail.com"));
+console.log(emailRegex.test("priya@school"));
+console.log(emailRegex.test("@gmail.com"));
+console.log(emailRegex.test("rohan@mail.co.in"));
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">The regex requires: something@something.something</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>true</code><br><code>false</code><br><code>false</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;select id="city"&gt;
+  &lt;option value=""&gt;Select&lt;/option&gt;
+  &lt;option value="delhi"&gt;Delhi&lt;/option&gt;
+  &lt;option value="mumbai" selected&gt;Mumbai&lt;/option&gt;
+&lt;/select&gt;
+
+&lt;script&gt;
+const select = document.getElementById("city");
+console.log(select.value);
+console.log(select.selectedIndex);
+console.log(select.options[select.selectedIndex].text);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">The 'selected' attribute makes Mumbai the initial selection.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>mumbai</code><br><code>2</code><br><code>Mumbai</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;input type="radio" name="color" value="red"&gt;
+&lt;input type="radio" name="color" value="blue" checked&gt;
+&lt;input type="radio" name="color" value="green"&gt;
+
+&lt;script&gt;
+const selected = document.querySelector('input[name="color"]:checked');
+console.log(selected.value);
+
+const all = document.querySelectorAll('input[name="color"]');
+console.log(all.length);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">:checked selects the checked radio button. The blue one has 'checked'.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>blue</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;script&gt;
+const passRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+console.log(passRegex.test("Aarav123"));
+console.log(passRegex.test("aarav123"));
+console.log(passRegex.test("AARAV123"));
+console.log(passRegex.test("Aa1"));
+console.log(passRegex.test("Aarav@123!"));
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Requires: 8+ chars, at least one lowercase, one uppercase, one digit.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>true</code><br><code>false</code><br><code>false</code><br><code>false</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;input type="number" id="age" value="25"&gt;
+
+&lt;script&gt;
+const ageInput = document.getElementById("age");
+console.log(ageInput.value);
+console.log(typeof ageInput.value);
+console.log(ageInput.value + 5);
+console.log(Number(ageInput.value) + 5);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Input .value is always a string, even for type='number'.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>25</code><br><code>string</code><br><code>255</code><br><code>30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the result?<br><pre><code>&lt;form id="form"&gt;
+  &lt;input type="text" id="a" value="Hello"&gt;
+  &lt;input type="text" id="b" value="  "&gt;
+  &lt;input type="text" id="c" value=""&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+const fields = ["a", "b", "c"];
+fields.forEach(function(id) {
+  const val = document.getElementById(id).value.trim();
+  console.log(id + ": " + (val === "" ? "empty" : "filled") + " (" + JSON.stringify(val) + ")");
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">trim() removes whitespace. A value of '  ' becomes '' after trim.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>a: filled ("Hello")</code><br><code>b: empty ("")</code><br><code>c: empty ("")</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this password strength function return?<br><pre><code>&lt;script&gt;
+function strength(p) {
+  let s = 0;
+  if (p.length &gt;= 8) s++;
+  if (/[a-z]/.test(p)) s++;
+  if (/[A-Z]/.test(p)) s++;
+  if (/\d/.test(p)) s++;
+  if (/[^A-Za-z0-9]/.test(p)) s++;
+  return s;
+}
+
+console.log(strength(""));
+console.log(strength("hello"));
+console.log(strength("Hello123"));
+console.log(strength("Hello@123"));
+console.log(strength("Aa1!"));
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Each criteria adds 1 to the score. Check: length >= 8, lowercase, uppercase, digit, special char.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>0</code><br><code>1</code><br><code>4</code><br><code>5</code><br><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does the button state become?<br><pre><code>&lt;input type="text" id="name" value=""&gt;
+&lt;input type="email" id="email" value=""&gt;
+&lt;button id="btn" disabled&gt;Submit&lt;/button&gt;
+
+&lt;script&gt;
+const name = document.getElementById("name");
+const email = document.getElementById("email");
+const btn = document.getElementById("btn");
+
+function check() {
+  const nameOk = name.value.trim().length &gt;= 2;
+  const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value);
+  btn.disabled = !(nameOk && emailOk);
+}
+
+name.addEventListener("input", check);
+email.addEventListener("input", check);
+&lt;/script&gt;</code></pre><p>User types 'Aa' in name and 'a@b.c' in email.</p></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Both conditions must be true for the button to be enabled.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">The button becomes enabled (not disabled). 'Aa' is 2+ characters and 'a@b.c' matches the email regex.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;script&gt;
+const nameRegex = /^[A-Za-z\s]+$/;
+console.log(nameRegex.test("Aarav"));
+console.log(nameRegex.test("Aarav Sharma"));
+console.log(nameRegex.test("Aarav123"));
+console.log(nameRegex.test(""));
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">The regex allows only letters and spaces. + means one or more.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>true</code><br><code>true</code><br><code>false</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;input type="text" id="pw" value="Hello@World1"&gt;
+
+&lt;script&gt;
+const pw = document.getElementById("pw").value;
+console.log(pw.length &gt;= 8);
+console.log(/[a-z]/.test(pw));
+console.log(/[A-Z]/.test(pw));
+console.log(/\d/.test(pw));
+console.log(/[^A-Za-z0-9]/.test(pw));
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Check each condition individually against 'Hello@World1'.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>true</code><br><code>true</code><br><code>true</code><br><code>true</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the state of the checkboxes?<br><pre><code>&lt;input type="checkbox" id="a" checked&gt;
+&lt;input type="checkbox" id="b"&gt;
+
+&lt;script&gt;
+const a = document.getElementById("a");
+const b = document.getElementById("b");
+console.log(a.checked);
+console.log(b.checked);
+a.checked = false;
+b.checked = true;
+console.log(a.checked);
+console.log(b.checked);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">The checked property can be read and set programmatically.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>true</code><br><code>false</code><br><code>false</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;form id="form"&gt;
+  &lt;input type="text" name="field" value="one"&gt;
+  &lt;input type="text" name="field" value="two"&gt;
+  &lt;input type="text" name="field" value="three"&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+const inputs = document.querySelectorAll('input[name="field"]');
+const values = Array.from(inputs).map(function(i) { return i.value; });
+console.log(values);
+console.log(values.join(", "));
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Multiple inputs can share the same name. querySelectorAll gets them all.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>["one", "two", "three"]</code><br><code>one, two, three</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;input type="text" id="name" placeholder="Enter name" value=""&gt;
+
+&lt;script&gt;
+const input = document.getElementById("name");
+console.log(input.value);
+console.log(input.placeholder);
+console.log(input.value === "");
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">value and placeholder are different properties. An empty value does not show the placeholder in JS.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code></code> (empty string)<br><code>Enter name</code><br><code>true</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;input type="text" id="field" value="  Hello World  "&gt;
+
+&lt;script&gt;
+const val = document.getElementById("field").value;
+console.log(val);
+console.log(val.trim());
+console.log(val.trim().length);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">trim() removes leading and trailing whitespace.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>  Hello World  </code><br><code>Hello World</code><br><code>11</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What happens?<br><pre><code>&lt;form id="form"&gt;
+  &lt;input type="text" id="name"&gt;
+  &lt;button type="submit"&gt;Go&lt;/button&gt;
+&lt;/form&gt;
+&lt;p id="msg"&gt;&lt;/p&gt;
+
+&lt;script&gt;
+const form = document.getElementById("form");
+const input = document.getElementById("name");
+const msg = document.getElementById("msg");
+
+form.addEventListener("submit", function(e) {
+  e.preventDefault();
+  const value = input.value.trim();
+  if (value.length &lt; 3) {
+    msg.textContent = "Too short (min 3 chars)";
+    msg.style.color = "red";
+    input.style.borderColor = "red";
+    input.focus();
+  } else if (value.length &gt; 20) {
+    msg.textContent = "Too long (max 20 chars)";
+    msg.style.color = "red";
+  } else {
+    msg.textContent = "Welcome, " + value + "!";
+    msg.style.color = "green";
+    input.style.borderColor = "green";
+  }
+});
+&lt;/script&gt;</code></pre><p>User types 'Hi' and submits.</p></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">'Hi' has only 2 characters, which is less than the minimum of 3.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">The message shows "Too short (min 3 chars)" in red, the input border turns red, and the input gains focus.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why should you always validate form data on the server, even if you validate on the client?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Think about what a tech-savvy user could do.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">Client-side validation runs in the browser, which the user controls. They can disable JavaScript, modify the HTML, or send requests directly to the server using tools like Postman or cURL. Server-side validation is the only truly reliable check because the server is under your control.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does the <code>?=</code> mean in the regex <code>/^(?=.*[A-Z])(?=.*\d).{8,}$/</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">These are called lookaheads.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>(?=...)</code> is a <strong>positive lookahead</strong>. It checks if the pattern exists somewhere in the string without consuming characters. <code>(?=.*[A-Z])</code> means 'somewhere in the string there must be an uppercase letter'. <code>(?=.*\d)</code> means 'somewhere there must be a digit'. <code>.{8,}</code> means 'total length must be 8 or more characters'.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;input type="checkbox" name="lang" value="html" checked&gt;
+&lt;input type="checkbox" name="lang" value="css" checked&gt;
+&lt;input type="checkbox" name="lang" value="js"&gt;
+
+&lt;script&gt;
+const checked = document.querySelectorAll('input[name="lang"]:checked');
+const values = Array.from(checked).map(function(cb) { return cb.value; });
+console.log(values);
+console.log(values.join(", "));
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Only checkboxes with the 'checked' attribute are initially checked.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>["html", "css"]</code><br><code>html, css</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged when the user presses Enter in the input (the input is inside the form)?<br><pre><code>&lt;form id="form"&gt;
+  &lt;input type="text" id="search" value="JavaScript"&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+document.getElementById("search").addEventListener("keydown", function(e) {
+  if (e.key === "Enter") {
+    console.log("Keydown Enter");
+  }
+});
+
+document.getElementById("form").addEventListener("submit", function(e) {
+  e.preventDefault();
+  console.log("Form submitted");
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Pressing Enter in a form input triggers both keydown and form submit.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>Keydown Enter</code><br><code>Form submitted</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;script&gt;
+const tests = [
+  { input: "aarav@gmail.com", expected: true },
+  { input: "@gmail.com", expected: false },
+  { input: "aarav@", expected: false },
+  { input: "aarav@g.c", expected: true },
+  { input: "a a@b.c", expected: false }
+];
+
+const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+let passed = 0;
+
+tests.forEach(function(t) {
+  const result = regex.test(t.input);
+  if (result === t.expected) passed++;
+});
+
+console.log(passed + " / " + tests.length + " tests passed");
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Check each input against the regex and compare to expected.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>5 / 5 tests passed</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the value of the select after this code?<br><pre><code>&lt;select id="fruit"&gt;
+  &lt;option value="apple"&gt;Apple&lt;/option&gt;
+  &lt;option value="banana"&gt;Banana&lt;/option&gt;
+  &lt;option value="cherry"&gt;Cherry&lt;/option&gt;
+&lt;/select&gt;
+
+&lt;script&gt;
+const select = document.getElementById("fruit");
+select.value = "cherry";
+console.log(select.value);
+console.log(select.selectedIndex);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Setting .value on a select changes the selected option.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>cherry</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;input type="text" id="field" value="  Aarav  "&gt;
+
+&lt;script&gt;
+const val = document.getElementById("field").value;
+console.log(val.length);
+console.log(val.trim().length);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">trim() removes leading and trailing spaces.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>9</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;form id="form"&gt;
+  &lt;input type="text" id="a" value="hello"&gt;
+  &lt;input type="text" id="b" value=""&gt;
+  &lt;input type="text" id="c" value="world"&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+const inputs = document.querySelectorAll("#form input");
+let empty = 0;
+inputs.forEach(function(input) {
+  if (input.value.trim() === "") empty++;
+});
+console.log("Empty fields: " + empty);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Loop through all inputs and count the empty ones.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>Empty fields: 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;script&gt;
+function validateAge(val) {
+  const age = Number(val);
+  if (isNaN(age)) return "Not a number";
+  if (age &lt; 0) return "Too young";
+  if (age &gt; 120) return "Too old";
+  return "Valid: " + age;
+}
+
+console.log(validateAge("25"));
+console.log(validateAge(""));
+console.log(validateAge("abc"));
+console.log(validateAge("-5"));
+console.log(validateAge("150"));
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Number('') is 0 (not NaN). Number('abc') is NaN.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>Valid: 25</code><br><code>Valid: 0</code><br><code>Not a number</code><br><code>Too young</code><br><code>Too old</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;input type="text" id="name" value="Priya"&gt;
+
+&lt;script&gt;
+const input = document.getElementById("name");
+console.log(input.value);
+input.value = "";
+console.log(input.value);
+console.log(input.value === "");
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Setting value to '' clears the input.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>Priya</code><br><code></code> (empty string)<br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does the button do?<br><pre><code>&lt;input type="password" id="pw"&gt;
+&lt;button id="toggle"&gt;Show&lt;/button&gt;
+
+&lt;script&gt;
+document.getElementById("toggle").addEventListener("click", function() {
+  const pw = document.getElementById("pw");
+  if (pw.type === "password") {
+    pw.type = "text";
+    this.textContent = "Hide";
+  } else {
+    pw.type = "password";
+    this.textContent = "Show";
+  }
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Changing input type between 'password' and 'text' toggles visibility.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13">Clicking the button toggles the password field between hidden (dots) and visible (plain text). The button text switches between 'Show' and 'Hide'.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the difference between the <code>required</code> HTML attribute and JavaScript validation?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">Think about browser support and customization.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14">The <code>required</code> HTML attribute uses the browser's built-in validation. It shows a default browser tooltip when the field is empty and the form is submitted. JavaScript validation gives you full control: custom error messages, real-time feedback as the user types, complex rules (like regex patterns, cross-field comparisons), and consistent styling across browsers. Most production forms use both: HTML attributes as a baseline and JavaScript for enhanced UX.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;script&gt;
+const patterns = {
+  email: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+  phone: /^\d{10}$/,
+  name: /^[A-Za-z\s]{2,50}$/
+};
+
+function validate(type, value) {
+  return patterns[type] ? patterns[type].test(value) : false;
+}
+
+console.log(validate("email", "a@b.c"));
+console.log(validate("phone", "1234567890"));
+console.log(validate("name", "A"));
+console.log(validate("zip", "12345"));
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-15">The 'zip' pattern does not exist in the patterns object.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-15"><code>true</code><br><code>true</code><br><code>false</code><br><code>false</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is the first thing you should do in a form submit handler?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Read input values</li><li><span class="mcq-option-label">B.</span> Call e.preventDefault()</li><li><span class="mcq-option-label">C.</span> Show an alert</li><li><span class="mcq-option-label">D.</span> Clear the form</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>e.preventDefault()</code> must be called first to prevent the page from reloading. After that, you can read values, validate, and process the form.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What type does <code>input.value</code> return for a number input?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> number</li><li><span class="mcq-option-label">B.</span> string</li><li><span class="mcq-option-label">C.</span> boolean</li><li><span class="mcq-option-label">D.</span> object</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>.value</code> always returns a string, even for <code>type="number"</code> inputs. Use <code>Number()</code> or <code>parseInt()</code> to convert.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">How do you check if a checkbox is checked?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> checkbox.value</li><li><span class="mcq-option-label">B.</span> checkbox.checked</li><li><span class="mcq-option-label">C.</span> checkbox.selected</li><li><span class="mcq-option-label">D.</span> checkbox.isChecked()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>.checked</code> is a boolean property (true/false) on checkbox and radio input elements. <code>.value</code> returns the value attribute, not whether it is checked.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which method tests if a string matches a regular expression?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> string.match(regex)</li><li><span class="mcq-option-label">B.</span> regex.test(string)</li><li><span class="mcq-option-label">C.</span> string.test(regex)</li><li><span class="mcq-option-label">D.</span> regex.match(string)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>regex.test(string)</code> returns true or false. <code>string.match(regex)</code> also works but returns the match result or null, not a boolean.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does <code>value.trim()</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Removes all spaces from the string</li><li><span class="mcq-option-label">B.</span> Removes spaces from the beginning and end only</li><li><span class="mcq-option-label">C.</span> Converts to lowercase</li><li><span class="mcq-option-label">D.</span> Truncates the string</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>trim()</code> removes whitespace from the start and end of a string. Spaces between words are preserved. "  hello world  " becomes "hello world".</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which event is best for real-time input validation?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> change</li><li><span class="mcq-option-label">B.</span> submit</li><li><span class="mcq-option-label">C.</span> input</li><li><span class="mcq-option-label">D.</span> click</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>input</code> event fires on every change (keystroke, paste, delete). <code>change</code> only fires when the element loses focus. <code>input</code> is ideal for real-time feedback as the user types.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">How do you get the selected radio button's value from a group?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> document.getElementsByName(&#39;group&#39;).value</li><li><span class="mcq-option-label">B.</span> document.querySelector(&#39;input[name=&quot;group&quot;]:checked&#39;).value</li><li><span class="mcq-option-label">C.</span> document.getElementById(&#39;group&#39;).value</li><li><span class="mcq-option-label">D.</span> document.querySelector(&#39;radio[name=&quot;group&quot;]&#39;).value</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>querySelector('input[name="group"]:checked')</code> selects the checked radio button from the group. Remember to check for null if no option is selected.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What regex pattern matches exactly 10 digits?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> /\d{10}/</li><li><span class="mcq-option-label">B.</span> /^\d{10}$/</li><li><span class="mcq-option-label">C.</span> /[0-9]{10}/</li><li><span class="mcq-option-label">D.</span> /^\d+$/</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>^\d{10}$</code> anchors the match to the full string (^ start, $ end) and requires exactly 10 digits. Without ^ and $, /\d{10}/ would match 10 digits anywhere in a longer string.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does <code>(?=.*[A-Z])</code> mean in a regex?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Match an uppercase letter at the start</li><li><span class="mcq-option-label">B.</span> Match an uppercase letter at the end</li><li><span class="mcq-option-label">C.</span> A positive lookahead: ensure at least one uppercase letter exists somewhere</li><li><span class="mcq-option-label">D.</span> Match only uppercase letters</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>(?=.*[A-Z])</code> is a positive lookahead. It asserts that somewhere in the string there is at least one uppercase letter, without consuming any characters. It does not specify where the letter must be.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Why is it bad practice to use <code>alert()</code> for form validation errors?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It does not work in all browsers</li><li><span class="mcq-option-label">B.</span> It blocks the page, disrupts user flow, and cannot show multiple errors at once</li><li><span class="mcq-option-label">C.</span> It is too slow</li><li><span class="mcq-option-label">D.</span> It cannot display text</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>alert()</code> blocks the entire page (user cannot interact until they dismiss it), only shows one message at a time, and breaks the user's flow. Inline error messages below inputs are the standard approach.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What does <code>input.focus()</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Blurs the input</li><li><span class="mcq-option-label">B.</span> Places the cursor inside the input</li><li><span class="mcq-option-label">C.</span> Validates the input</li><li><span class="mcq-option-label">D.</span> Clears the input</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>focus()</code> places the cursor inside the input element, as if the user clicked on it. This is useful for directing the user to the first invalid field.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">How do you disable a button with JavaScript?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> button.disabled = true</li><li><span class="mcq-option-label">B.</span> button.enabled = false</li><li><span class="mcq-option-label">C.</span> button.setAttribute(&#39;inactive&#39;, true)</li><li><span class="mcq-option-label">D.</span> button.hide()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: A</strong><br><strong>A is correct.</strong> Setting <code>button.disabled = true</code> disables the button. It cannot be clicked and appears grayed out. Set to <code>false</code> to re-enable it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">When does the <code>change</code> event fire on a text input?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> On every keystroke</li><li><span class="mcq-option-label">B.</span> When the value changes and the input loses focus</li><li><span class="mcq-option-label">C.</span> When the form is submitted</li><li><span class="mcq-option-label">D.</span> When the input gains focus</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> For text inputs, <code>change</code> fires when the value has changed AND the element loses focus (blur). For checkboxes, radio buttons, and selects, it fires immediately on state change.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the correct way to check if a select dropdown has a value selected?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> select.value !== null</li><li><span class="mcq-option-label">B.</span> select.value !== &quot;&quot;</li><li><span class="mcq-option-label">C.</span> select.checked === true</li><li><span class="mcq-option-label">D.</span> select.selected === true</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> If the first option has <code>value=""</code> (like a placeholder), then <code>select.value !== ""</code> correctly checks if a real option is selected. <code>.checked</code> and <code>.selected</code> are not properties of select elements.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does <code>input.value = ''</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Removes the input from the DOM</li><li><span class="mcq-option-label">B.</span> Clears the input field (sets its value to empty string)</li><li><span class="mcq-option-label">C.</span> Makes the input hidden</li><li><span class="mcq-option-label">D.</span> Disables the input</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Setting <code>value</code> to an empty string clears whatever the user typed. The input remains visible and functional.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What does the regex <code>/^\d{10}$/</code> match?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Any string containing 10 digits</li><li><span class="mcq-option-label">B.</span> A string that is exactly 10 digits from start to end</li><li><span class="mcq-option-label">C.</span> At least 10 digits</li><li><span class="mcq-option-label">D.</span> A string with 10 characters of any type</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>^</code> anchors to the start, <code>$</code> anchors to the end, <code>\d{10}</code> means exactly 10 digits. The entire string must be exactly 10 digits with nothing before or after.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">How do you programmatically submit a form with JavaScript?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> form.submit()</li><li><span class="mcq-option-label">B.</span> form.send()</li><li><span class="mcq-option-label">C.</span> form.dispatch()</li><li><span class="mcq-option-label">D.</span> form.fire(&#39;submit&#39;)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>form.submit()</code> submits the form programmatically. Note: this does NOT fire the submit event or run addEventListener handlers. It directly submits.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What is the default value of an unchecked checkbox's <code>.value</code> property?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> false</li><li><span class="mcq-option-label">B.</span> null</li><li><span class="mcq-option-label">C.</span> &quot;on&quot;</li><li><span class="mcq-option-label">D.</span> &quot;&quot; (empty string)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: C</strong><br><strong>C is correct.</strong> If no <code>value</code> attribute is set on a checkbox, the default value is the string "on". The <code>.checked</code> property (boolean) tells you if it is checked; <code>.value</code> is always "on" regardless of checked state.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Simple Email Validator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create an email input and a paragraph below it. As the user types, show 'Valid email' (green) or 'Invalid email' (red) using the input event and a regex pattern.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Type &#39;aarav@gmail.com&#39;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">&#39;Valid email&#39; appears in green below the input.</div>
+                </div><div class="challenge-constraints">Use the input event and regex.test(). Use CSS classes for colors, not inline styles.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;style&gt;.valid{color:green;}.invalid{color:red;}&lt;/style&gt;&lt;/head&gt;
+&lt;body&gt;
+  &lt;input type=&quot;text&quot; id=&quot;email&quot; placeholder=&quot;Enter email&quot;&gt;
+  &lt;p id=&quot;msg&quot;&gt;&lt;/p&gt;
+  &lt;script&gt;
+    const email = document.getElementById(&quot;email&quot;);
+    const msg = document.getElementById(&quot;msg&quot;);
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    email.addEventListener(&quot;input&quot;, function() {
+      const val = email.value.trim();
+      if (val === &quot;&quot;) { msg.textContent = &quot;&quot;; msg.className = &quot;&quot;; }
+      else if (regex.test(val)) { msg.textContent = &quot;Valid email&quot;; msg.className = &quot;valid&quot;; }
+      else { msg.textContent = &quot;Invalid email&quot;; msg.className = &quot;invalid&quot;; }
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Login Form with Validation</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Build a login form with email and password fields. On submit: show 'Email required' if email is empty, 'Invalid email' if format is wrong, 'Password required' if empty, 'Password too short' if < 6 chars. Show errors below each field.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Submit with empty email</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">&#39;Email required&#39; appears below the email field in red.</div>
+                </div><div class="challenge-constraints">Use e.preventDefault(). Create error message elements dynamically or use pre-existing divs.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;style&gt;.error{color:red;font-size:13px;} input{display:block;margin:8px 0;padding:8px;width:250px;}&lt;/style&gt;&lt;/head&gt;
+&lt;body&gt;
+  &lt;form id=&quot;form&quot;&gt;
+    &lt;input type=&quot;text&quot; id=&quot;email&quot; placeholder=&quot;Email&quot;&gt;
+    &lt;div class=&quot;error&quot; id=&quot;email-err&quot;&gt;&lt;/div&gt;
+    &lt;input type=&quot;password&quot; id=&quot;pass&quot; placeholder=&quot;Password&quot;&gt;
+    &lt;div class=&quot;error&quot; id=&quot;pass-err&quot;&gt;&lt;/div&gt;
+    &lt;button type=&quot;submit&quot;&gt;Login&lt;/button&gt;
+  &lt;/form&gt;
+  &lt;script&gt;
+    document.getElementById(&quot;form&quot;).addEventListener(&quot;submit&quot;, function(e) {
+      e.preventDefault();
+      const email = document.getElementById(&quot;email&quot;).value.trim();
+      const pass = document.getElementById(&quot;pass&quot;).value;
+      const emailErr = document.getElementById(&quot;email-err&quot;);
+      const passErr = document.getElementById(&quot;pass-err&quot;);
+      emailErr.textContent = &quot;&quot;;
+      passErr.textContent = &quot;&quot;;
+      let valid = true;
+      if (email === &quot;&quot;) { emailErr.textContent = &quot;Email required&quot;; valid = false; }
+      else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { emailErr.textContent = &quot;Invalid email&quot;; valid = false; }
+      if (pass === &quot;&quot;) { passErr.textContent = &quot;Password required&quot;; valid = false; }
+      else if (pass.length &lt; 6) { passErr.textContent = &quot;Password too short&quot;; valid = false; }
+      if (valid) alert(&quot;Login successful!&quot;);
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Phone Number Formatter</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a phone input that only accepts digits (filter out non-digits in real time). As the user types, format the display as XXX-XXX-XXXX. Limit to 10 digits. Show 'Valid' when exactly 10 digits are entered.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Type &#39;9876543210&#39;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Input shows &#39;987-654-3210&#39;. Message shows &#39;Valid&#39;.</div>
+                </div><div class="challenge-constraints">Use the input event. Replace non-digits with regex. Format the value programmatically.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;input type=&quot;text&quot; id=&quot;phone&quot; placeholder=&quot;Phone number&quot; maxlength=&quot;12&quot;&gt;
+  &lt;p id=&quot;status&quot;&gt;&lt;/p&gt;
+  &lt;script&gt;
+    const phone = document.getElementById(&quot;phone&quot;);
+    const status = document.getElementById(&quot;status&quot;);
+    phone.addEventListener(&quot;input&quot;, function() {
+      let digits = phone.value.replace(/\D/g, &quot;&quot;).slice(0, 10);
+      let formatted = digits;
+      if (digits.length &gt; 6) formatted = digits.slice(0,3) + &quot;-&quot; + digits.slice(3,6) + &quot;-&quot; + digits.slice(6);
+      else if (digits.length &gt; 3) formatted = digits.slice(0,3) + &quot;-&quot; + digits.slice(3);
+      phone.value = formatted;
+      if (digits.length === 10) { status.textContent = &quot;Valid&quot;; status.style.color = &quot;green&quot;; }
+      else { status.textContent = digits.length + &quot;/10 digits&quot;; status.style.color = &quot;red&quot;; }
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Registration Form with All Input Types</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a registration form with: text input (name), email input, password input, radio buttons (gender: Male/Female/Other), checkbox (agree to terms), and select (city). Validate all fields on submit. Show all errors at once. If valid, show a summary of all entered data.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Fill all fields and submit</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Summary: Name: Aarav, Email: aarav@mail.com, Gender: Male, City: Delhi, Agreed: Yes</div>
+                </div><div class="challenge-constraints">Handle all input types. Check checkbox.checked, radio :checked, select .value.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;style&gt;.err{color:red;font-size:13px;} .field{margin:8px 0;} #summary{padding:16px;background:#d1fae5;border-radius:8px;margin-top:16px;display:none;}&lt;/style&gt;&lt;/head&gt;
+&lt;body&gt;
+  &lt;form id=&quot;form&quot;&gt;
+    &lt;div class=&quot;field&quot;&gt;&lt;input type=&quot;text&quot; id=&quot;name&quot; placeholder=&quot;Name&quot;&gt;&lt;div class=&quot;err&quot; id=&quot;e-name&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;&lt;input type=&quot;email&quot; id=&quot;email&quot; placeholder=&quot;Email&quot;&gt;&lt;div class=&quot;err&quot; id=&quot;e-email&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;&lt;input type=&quot;password&quot; id=&quot;pass&quot; placeholder=&quot;Password (8+ chars)&quot;&gt;&lt;div class=&quot;err&quot; id=&quot;e-pass&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;Gender: &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;Male&quot;&gt; Male&lt;/label&gt; &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;Female&quot;&gt; Female&lt;/label&gt; &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;Other&quot;&gt; Other&lt;/label&gt;&lt;div class=&quot;err&quot; id=&quot;e-gender&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;&lt;select id=&quot;city&quot;&gt;&lt;option value=&quot;&quot;&gt;Select city&lt;/option&gt;&lt;option value=&quot;Delhi&quot;&gt;Delhi&lt;/option&gt;&lt;option value=&quot;Mumbai&quot;&gt;Mumbai&lt;/option&gt;&lt;option value=&quot;Pune&quot;&gt;Pune&lt;/option&gt;&lt;/select&gt;&lt;div class=&quot;err&quot; id=&quot;e-city&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;&lt;label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;agree&quot;&gt; I agree to terms&lt;/label&gt;&lt;div class=&quot;err&quot; id=&quot;e-agree&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;button type=&quot;submit&quot;&gt;Register&lt;/button&gt;
+  &lt;/form&gt;
+  &lt;div id=&quot;summary&quot;&gt;&lt;/div&gt;
+  &lt;script&gt;
+    document.getElementById(&quot;form&quot;).addEventListener(&quot;submit&quot;, function(e) {
+      e.preventDefault();
+      let valid = true;
+      const errs = {name:&quot;&quot;,email:&quot;&quot;,pass:&quot;&quot;,gender:&quot;&quot;,city:&quot;&quot;,agree:&quot;&quot;};
+      const name = document.getElementById(&quot;name&quot;).value.trim();
+      if (name.length &lt; 2) { errs.name = &quot;Name required (2+ chars)&quot;; valid = false; }
+      const email = document.getElementById(&quot;email&quot;).value.trim();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { errs.email = &quot;Valid email required&quot;; valid = false; }
+      if (document.getElementById(&quot;pass&quot;).value.length &lt; 8) { errs.pass = &quot;Password must be 8+ chars&quot;; valid = false; }
+      const gender = document.querySelector(&#39;input[name=&quot;gender&quot;]:checked&#39;);
+      if (!gender) { errs.gender = &quot;Select gender&quot;; valid = false; }
+      const city = document.getElementById(&quot;city&quot;).value;
+      if (!city) { errs.city = &quot;Select city&quot;; valid = false; }
+      if (!document.getElementById(&quot;agree&quot;).checked) { errs.agree = &quot;Must agree to terms&quot;; valid = false; }
+      for (const k in errs) document.getElementById(&quot;e-&quot; + k).textContent = errs[k];
+      if (valid) {
+        const s = document.getElementById(&quot;summary&quot;);
+        s.style.display = &quot;block&quot;;
+        s.textContent = &quot;Name: &quot; + name + &quot;, Email: &quot; + email + &quot;, Gender: &quot; + gender.value + &quot;, City: &quot; + city;
+      }
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Password Strength Meter</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a password input with a visual strength meter below it. Check: length >= 8, length >= 12, has lowercase, has uppercase, has number, has special character. Show a colored bar (red/amber/green) and a checklist of criteria with pass/fail indicators. Show 'Weak', 'Medium', or 'Strong' based on score.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Type &#39;Aarav@123&#39;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Bar fills to ~83% green. Shows &#39;Strong&#39;. All criteria except length &gt;= 12 are checked.</div>
+                </div><div class="challenge-constraints">Use regex for each criterion. Use classList for meter colors. Update on every keystroke.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;style&gt;.bar{width:300px;height:8px;background:#e5e7eb;border-radius:4px;margin:8px 0;overflow:hidden;} .fill{height:100%;border-radius:4px;transition:all 0.3s;} .pass{color:#10b981;} .fail{color:#9ca3af;}&lt;/style&gt;&lt;/head&gt;
+&lt;body&gt;
+  &lt;input type=&quot;password&quot; id=&quot;pw&quot; placeholder=&quot;Enter password&quot; style=&quot;width:300px;padding:8px;&quot;&gt;
+  &lt;div class=&quot;bar&quot;&gt;&lt;div class=&quot;fill&quot; id=&quot;fill&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;div id=&quot;label&quot;&gt;&lt;/div&gt;
+  &lt;div id=&quot;checks&quot;&gt;&lt;/div&gt;
+  &lt;script&gt;
+    const pw = document.getElementById(&quot;pw&quot;);
+    const fill = document.getElementById(&quot;fill&quot;);
+    const label = document.getElementById(&quot;label&quot;);
+    const checks = document.getElementById(&quot;checks&quot;);
+    const rules = [
+      {text:&quot;8+ characters&quot;,fn:function(p){return p.length&gt;=8;}},
+      {text:&quot;12+ characters&quot;,fn:function(p){return p.length&gt;=12;}},
+      {text:&quot;Lowercase letter&quot;,fn:function(p){return /[a-z]/.test(p);}},
+      {text:&quot;Uppercase letter&quot;,fn:function(p){return /[A-Z]/.test(p);}},
+      {text:&quot;Number&quot;,fn:function(p){return /\d/.test(p);}},
+      {text:&quot;Special character&quot;,fn:function(p){return /[^A-Za-z0-9]/.test(p);}}
+    ];
+    pw.addEventListener(&quot;input&quot;, function() {
+      const p = pw.value;
+      let score = 0;
+      let html = &quot;&quot;;
+      rules.forEach(function(r) {
+        const ok = r.fn(p);
+        if (ok) score++;
+        html += &#39;&lt;div class=&quot;&#39; + (ok?&#39;pass&#39;:&#39;fail&#39;) + &#39;&quot;&gt;&#39; + (ok?&#39;[ok]&#39;:&#39;[  ]&#39;) + &#39; &#39; + r.text + &#39;&lt;/div&gt;&#39;;
+      });
+      checks.innerHTML = html;
+      const pct = (score/rules.length)*100;
+      fill.style.width = pct + &quot;%&quot;;
+      if (p === &quot;&quot;) { fill.style.width = &quot;0%&quot;; label.textContent = &quot;&quot;; }
+      else if (score &lt;= 2) { fill.style.backgroundColor = &quot;#ef4444&quot;; label.textContent = &quot;Weak&quot;; label.style.color = &quot;#ef4444&quot;; }
+      else if (score &lt;= 4) { fill.style.backgroundColor = &quot;#f59e0b&quot;; label.textContent = &quot;Medium&quot;; label.style.color = &quot;#f59e0b&quot;; }
+      else { fill.style.backgroundColor = &quot;#10b981&quot;; label.textContent = &quot;Strong&quot;; label.style.color = &quot;#10b981&quot;; }
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Multi-Step Form Wizard</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a 3-step form wizard. Step 1: Name and email. Step 2: Phone and city (select). Step 3: Review all data and submit. Each step has 'Next' and 'Back' buttons. 'Next' validates the current step before proceeding. Only one step is visible at a time. The final step shows a summary.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Fill Step 1, click Next, fill Step 2, click Next, review and submit</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Steps transition smoothly. Invalid fields prevent advancing. Final step shows all entered data.</div>
+                </div><div class="challenge-constraints">Use classList to show/hide steps. Validate each step independently. Use DOM manipulation to display the summary.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;style&gt;.step{display:none;padding:16px;border:1px solid #ddd;border-radius:8px;max-width:350px;} .step.active{display:block;} .err{color:red;font-size:13px;} input,select{display:block;margin:8px 0;padding:8px;width:100%;box-sizing:border-box;} button{padding:8px 16px;margin:4px;cursor:pointer;}&lt;/style&gt;&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Registration Wizard&lt;/h2&gt;
+  &lt;div class=&quot;step active&quot; id=&quot;step1&quot;&gt;
+    &lt;h3&gt;Step 1: Personal Info&lt;/h3&gt;
+    &lt;input type=&quot;text&quot; id=&quot;name&quot; placeholder=&quot;Full Name&quot;&gt;
+    &lt;div class=&quot;err&quot; id=&quot;e1-name&quot;&gt;&lt;/div&gt;
+    &lt;input type=&quot;email&quot; id=&quot;email&quot; placeholder=&quot;Email&quot;&gt;
+    &lt;div class=&quot;err&quot; id=&quot;e1-email&quot;&gt;&lt;/div&gt;
+    &lt;button id=&quot;next1&quot;&gt;Next&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;step&quot; id=&quot;step2&quot;&gt;
+    &lt;h3&gt;Step 2: Contact&lt;/h3&gt;
+    &lt;input type=&quot;text&quot; id=&quot;phone&quot; placeholder=&quot;Phone (10 digits)&quot; maxlength=&quot;10&quot;&gt;
+    &lt;div class=&quot;err&quot; id=&quot;e2-phone&quot;&gt;&lt;/div&gt;
+    &lt;select id=&quot;city&quot;&gt;&lt;option value=&quot;&quot;&gt;Select city&lt;/option&gt;&lt;option value=&quot;Delhi&quot;&gt;Delhi&lt;/option&gt;&lt;option value=&quot;Mumbai&quot;&gt;Mumbai&lt;/option&gt;&lt;option value=&quot;Pune&quot;&gt;Pune&lt;/option&gt;&lt;/select&gt;
+    &lt;div class=&quot;err&quot; id=&quot;e2-city&quot;&gt;&lt;/div&gt;
+    &lt;button id=&quot;back2&quot;&gt;Back&lt;/button&gt;&lt;button id=&quot;next2&quot;&gt;Next&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;step&quot; id=&quot;step3&quot;&gt;
+    &lt;h3&gt;Step 3: Review&lt;/h3&gt;
+    &lt;div id=&quot;review&quot;&gt;&lt;/div&gt;
+    &lt;button id=&quot;back3&quot;&gt;Back&lt;/button&gt;&lt;button id=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;script&gt;
+    function goTo(step) {
+      document.querySelectorAll(&quot;.step&quot;).forEach(function(s){s.classList.remove(&quot;active&quot;);});
+      document.getElementById(&quot;step&quot;+step).classList.add(&quot;active&quot;);
+    }
+    document.getElementById(&quot;next1&quot;).addEventListener(&quot;click&quot;, function() {
+      let ok = true;
+      document.getElementById(&quot;e1-name&quot;).textContent = &quot;&quot;;
+      document.getElementById(&quot;e1-email&quot;).textContent = &quot;&quot;;
+      if (document.getElementById(&quot;name&quot;).value.trim().length &lt; 2) { document.getElementById(&quot;e1-name&quot;).textContent = &quot;Name required&quot;; ok = false; }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(document.getElementById(&quot;email&quot;).value)) { document.getElementById(&quot;e1-email&quot;).textContent = &quot;Valid email required&quot;; ok = false; }
+      if (ok) goTo(2);
+    });
+    document.getElementById(&quot;back2&quot;).addEventListener(&quot;click&quot;, function() { goTo(1); });
+    document.getElementById(&quot;next2&quot;).addEventListener(&quot;click&quot;, function() {
+      let ok = true;
+      document.getElementById(&quot;e2-phone&quot;).textContent = &quot;&quot;;
+      document.getElementById(&quot;e2-city&quot;).textContent = &quot;&quot;;
+      if (!/^\d{10}$/.test(document.getElementById(&quot;phone&quot;).value)) { document.getElementById(&quot;e2-phone&quot;).textContent = &quot;10 digit phone required&quot;; ok = false; }
+      if (!document.getElementById(&quot;city&quot;).value) { document.getElementById(&quot;e2-city&quot;).textContent = &quot;Select a city&quot;; ok = false; }
+      if (ok) {
+        document.getElementById(&quot;review&quot;).innerHTML = &quot;&lt;strong&gt;Name:&lt;/strong&gt; &quot; + document.getElementById(&quot;name&quot;).value + &quot;&lt;br&gt;&lt;strong&gt;Email:&lt;/strong&gt; &quot; + document.getElementById(&quot;email&quot;).value + &quot;&lt;br&gt;&lt;strong&gt;Phone:&lt;/strong&gt; &quot; + document.getElementById(&quot;phone&quot;).value + &quot;&lt;br&gt;&lt;strong&gt;City:&lt;/strong&gt; &quot; + document.getElementById(&quot;city&quot;).value;
+        goTo(3);
+      }
+    });
+    document.getElementById(&quot;back3&quot;).addEventListener(&quot;click&quot;, function() { goTo(2); });
+    document.getElementById(&quot;submit&quot;).addEventListener(&quot;click&quot;, function() { alert(&quot;Registration complete!&quot;); });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/javascript/creating-and-removing-elements/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Creating and Removing DOM Elements</span>
+        </a>
+            <a href="/resources/javascript/css-manipulation-with-javascript/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">CSS Manipulation with JavaScript</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/javascript/forms-and-validation" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

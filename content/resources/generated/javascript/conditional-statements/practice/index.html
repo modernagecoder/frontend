@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Conditional Statements (if, else, switch) | JavaScript | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="56+ practice questions on Conditional Statements (if, else, switch) in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="conditional statements (if, else, switch) practice, javascript questions, javascript practice problems, conditional statements (if, else, switch) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/conditional-statements/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/conditional-statements/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/conditional-statements/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/conditional-statements/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/conditional-statements/practice">
+    <meta property="og:title" content="Practice Questions - Conditional Statements (if, else, switch) | JavaScript | Modern Age Coders">
+    <meta property="og:description" content="56+ practice questions on Conditional Statements (if, else, switch) in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/conditional-statements/practice">
+    <meta name="twitter:title" content="Practice Questions - Conditional Statements (if, else, switch) | JavaScript | Modern Age Coders">
+    <meta name="twitter:description" content="56+ practice questions on Conditional Statements (if, else, switch) in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Conditional Statements (if, else, switch)",
+    "description": "56+ practice questions on Conditional Statements (if, else, switch) in JavaScript.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Conditional Statements (if, else, switch)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/conditional-statements/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Conditional Statements (if, else, switch)",
+        "item": "https://learn.modernagecoders.com/resources/javascript/conditional-statements"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/javascript/conditional-statements/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript/conditional-statements">Conditional Statements (if, else, switch)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 5</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">56 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Conditional Statements (if, else, switch)</h1>
+            <a href="/resources/javascript/conditional-statements" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>let x = 10;
+if (x > 5) {
+  console.log("Big");
+}
+console.log("Done");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The if block runs because x > 5 is true. The last line runs regardless.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Big</code><br><code>Done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>let age = 12;
+if (age >= 18) {
+  console.log("Adult");
+} else {
+  console.log("Minor");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">12 is not >= 18.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>Minor</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>let score = 85;
+if (score >= 90) {
+  console.log("A");
+} else if (score >= 80) {
+  console.log("B");
+} else if (score >= 70) {
+  console.log("C");
+} else {
+  console.log("F");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">85 is not >= 90, but it IS >= 80.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>B</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let x = 0;
+if (x) {
+  console.log("Truthy");
+} else {
+  console.log("Falsy");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">if checks for truthy/falsy, not just true/false. What is Boolean(0)?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Falsy</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let name = "";
+if (name) {
+  console.log(`Hello, ${name}!`);
+} else {
+  console.log("Name is empty.");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Empty string is falsy.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>Name is empty.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let color = "red";
+switch (color) {
+  case "red":
+    console.log("Stop");
+    break;
+  case "yellow":
+    console.log("Slow down");
+    break;
+  case "green":
+    console.log("Go");
+    break;
+  default:
+    console.log("Unknown");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">color matches 'red'. break prevents fall-through.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Stop</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let num = 2;
+switch (num) {
+  case 1:
+    console.log("One");
+  case 2:
+    console.log("Two");
+  case 3:
+    console.log("Three");
+  default:
+    console.log("Default");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">There are no break statements. What happens after case 2 matches?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Two</code><br><code>Three</code><br><code>Default</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>let x = "1";
+switch (x) {
+  case 1:
+    console.log("Number one");
+    break;
+  case "1":
+    console.log("String one");
+    break;
+  default:
+    console.log("No match");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">switch uses === (strict equality). '1' is not the same as 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>String one</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Priya wrote this code but both messages print. Find the bug:<br><pre><code>let score = 50;
+if (score >= 90)
+  console.log("Grade A");
+  console.log("Excellent!");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Without curly braces, only the first line belongs to the if.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">Add curly braces: <pre><code>if (score >= 90) {
+  console.log("Grade A");
+  console.log("Excellent!");
+}</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>let a = 5;
+let b = 10;
+let c = 15;
+
+if (a > b) {
+  if (b > c) {
+    console.log("A");
+  } else {
+    console.log("B");
+  }
+} else {
+  if (a + b > c) {
+    console.log("C");
+  } else {
+    console.log("D");
+  }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">5 > 10 is false, so go to the outer else. Then check 5 + 10 > 15.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>D</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write code that checks if a number stored in variable <code>n</code> (set to 7) is even or odd. Print the result.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Use the % operator: n % 2 === 0 means even.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><pre><code>let n = 7;
+if (n % 2 === 0) {
+  console.log(`${n} is even`);
+} else {
+  console.log(`${n} is odd`);
+}</code></pre>
+Output: 7 is odd</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let x = 5;
+if (x > 3) {
+  console.log("A");
+}
+if (x > 4) {
+  console.log("B");
+}
+if (x > 5) {
+  console.log("C");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">These are separate if statements (not else-if), so each is checked independently.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>A</code><br><code>B</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>let n = 15;
+if (n % 3 === 0 && n % 5 === 0) {
+  console.log("FizzBuzz");
+} else if (n % 3 === 0) {
+  console.log("Fizz");
+} else if (n % 5 === 0) {
+  console.log("Buzz");
+} else {
+  console.log(n);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">15 is divisible by both 3 and 5. Which condition is checked first?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>FizzBuzz</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a switch statement that takes a month number (1-12) and prints the season: 'Winter' (12,1,2), 'Spring' (3,4,5), 'Summer' (6,7,8), 'Autumn' (9,10,11). Test with month = 7.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Use fall-through by grouping cases without break.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><pre><code>let month = 7;
+switch (month) {
+  case 12: case 1: case 2:
+    console.log("Winter");
+    break;
+  case 3: case 4: case 5:
+    console.log("Spring");
+    break;
+  case 6: case 7: case 8:
+    console.log("Summer");
+    break;
+  case 9: case 10: case 11:
+    console.log("Autumn");
+    break;
+  default:
+    console.log("Invalid month");
+}</code></pre>
+Output: Summer</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>let x = null;
+if (x === null) {
+  console.log("A");
+}
+if (x === undefined) {
+  console.log("B");
+}
+if (x == undefined) {
+  console.log("C");
+}
+if (!x) {
+  console.log("D");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">null === null is true. null === undefined is false. null == undefined is true. null is falsy.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>A</code><br><code>C</code><br><code>D</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write an HTML page with an input for temperature (in Celsius) and a button. When clicked, change the body's background color: red if >40, orange if >30, green if >15, blue if >0, purple if <=0.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Use document.body.style.backgroundColor and if-else.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><pre><code>&lt;input type="number" id="temp" placeholder="Temperature (C)"&gt;
+&lt;button onclick="update()"&gt;Update&lt;/button&gt;
+&lt;p id="msg"&gt;&lt;/p&gt;
+&lt;script&gt;
+  function update() {
+    let t = Number(document.getElementById("temp").value);
+    let color;
+    if (t > 40) color = "#e74c3c";
+    else if (t > 30) color = "#f39c12";
+    else if (t > 15) color = "#2ecc71";
+    else if (t > 0) color = "#3498db";
+    else color = "#9b59b6";
+    document.body.style.backgroundColor = color;
+    document.getElementById("msg").textContent = `${t} C`;
+    document.getElementById("msg").style.color = "white";
+  }
+&lt;/script&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let day = "Monday";
+switch (day) {
+  case "Saturday":
+  case "Sunday":
+    console.log("Weekend");
+    break;
+  default:
+    console.log("Weekday");
+    break;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Monday does not match Saturday or Sunday.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>Weekday</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Rohan's code always prints 'Fail' even when marks is 85. Find the bug:<br><pre><code>let marks = 85;
+if (marks >= 90) {
+  console.log("Grade A");
+} else if (marks >= 80) {
+  console.log("Grade B");
+} else if (marks >= 40) {
+  console.log("Pass");
+}
+if (marks < 40) {
+  console.log("Fail");
+} else {
+  console.log("Fail");  // BUG: this always prints when marks >= 40!
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Look at the second if-else block. When marks is 85, which branch runs?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18">The second if-else is a separate block. When marks >= 40, the else of the second block runs and prints "Fail". Fix by combining into one else-if chain or removing the second block.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>let a = "10";
+let b = "9";
+if (a > b) {
+  console.log("a is greater");
+} else {
+  console.log("b is greater");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Both are strings. String comparison is character by character.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>b is greater</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>let x = 5;
+let result = x > 3 ? "big" : "small";
+console.log(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">5 > 3 is true, so the ternary returns the first option.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>big</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>let temp = 25;
+if (temp > 30) {
+  console.log("Hot");
+} else if (temp > 20) {
+  console.log("Warm");
+} else {
+  console.log("Cold");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">25 is not > 30, but it IS > 20.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>Warm</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write code that checks if a year (2024) is a leap year. A year is a leap year if: divisible by 4 AND (not divisible by 100 OR divisible by 400).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Use % for divisibility and && / || for combining conditions.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><pre><code>let year = 2024;
+if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+  console.log(`${year} is a leap year`);
+} else {
+  console.log(`${year} is not a leap year`);
+}</code></pre>
+Output: 2024 is a leap year</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let val = "";
+if (val) {
+  console.log("Has value");
+} else if (val === "") {
+  console.log("Empty string");
+} else {
+  console.log("Something else");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Empty string is falsy, so the first condition is false.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>Empty string</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for (let i = 1; i <= 5; i++) {
+  if (i === 3) {
+    continue;
+  }
+  console.log(i);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">continue skips the rest of the loop body for the current iteration.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>1</code><br><code>2</code><br><code>4</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write an HTML page with a text input for a password. As the user types (oninput), show feedback: 'Weak' (red) if < 6 chars, 'Medium' (orange) if 6-9 chars, 'Strong' (green) if >= 10 chars.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Use the .length property of the input value and if-else for feedback.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><pre><code>&lt;input type="text" id="pass" oninput="check()" placeholder="Enter password"&gt;
+&lt;p id="feedback"&gt;&lt;/p&gt;
+&lt;script&gt;
+  function check() {
+    let len = document.getElementById("pass").value.length;
+    let fb = document.getElementById("feedback");
+    if (len === 0) {
+      fb.textContent = "";
+    } else if (len < 6) {
+      fb.textContent = "Weak";
+      fb.style.color = "red";
+    } else if (len < 10) {
+      fb.textContent = "Medium";
+      fb.style.color = "orange";
+    } else {
+      fb.textContent = "Strong";
+      fb.style.color = "green";
+    }
+  }
+&lt;/script&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>let x = 10;
+let y = 20;
+let z = 30;
+
+if (x < y && y < z) {
+  console.log("Ascending");
+}
+if (x < y || x > z) {
+  console.log("At least one true");
+}
+if (!(x === 10)) {
+  console.log("Not ten");
+} else {
+  console.log("It is ten");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Evaluate each condition step by step. These are separate if blocks.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>Ascending</code><br><code>At least one true</code><br><code>It is ten</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function check(val) {
+  if (typeof val === "number") {
+    if (val > 0) return "positive number";
+    if (val < 0) return "negative number";
+    return "zero";
+  } else if (typeof val === "string") {
+    if (val.length > 0) return "non-empty string";
+    return "empty string";
+  }
+  return "other type";
+}
+
+console.log(check(42));
+console.log(check(-5));
+console.log(check(""));
+console.log(check(null));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">typeof null is 'object', not 'number' or 'string'.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>positive number</code><br><code>negative number</code><br><code>empty string</code><br><code>other type</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Vikram's switch statement should print the Indian season but prints the wrong one for month 4. Find the bug:<br><pre><code>let month = 4;
+switch (month) {
+  case 3: case 4: case 5:
+    console.log("Summer");
+    break;
+  case 6: case 7: case 8: case 9:
+    console.log("Monsoon");
+    break;
+  case 10: case 11:
+    console.log("Autumn");
+    break;
+  case 12: case 1: case 2:
+    console.log("Winter");
+    break;
+  default:
+    console.log("Spring");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">In India, April (4) is Summer. The code does print 'Summer' for month 4. Look more carefully at the season mapping.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">The code actually works correctly for month 4 (prints Summer). If Vikram expected "Spring" for April, the mapping is wrong. In India, March-May is typically Summer, not Spring. The code matches the Indian season calendar correctly.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a function that takes a number and returns its English ordinal suffix: 1st, 2nd, 3rd, 4th, 5th, ... 11th, 12th, 13th, 21st, 22nd, 23rd, 31st. Test with 1, 2, 3, 4, 11, 13, 21, 22.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">The tricky part is 11, 12, 13 which all use 'th' (not st, nd, rd).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>function ordinal(n) {
+  let suffix;
+  if (n % 100 >= 11 && n % 100 <= 13) {
+    suffix = "th";
+  } else {
+    switch (n % 10) {
+      case 1: suffix = "st"; break;
+      case 2: suffix = "nd"; break;
+      case 3: suffix = "rd"; break;
+      default: suffix = "th";
+    }
+  }
+  return n + suffix;
+}
+console.log(ordinal(1));   // 1st
+console.log(ordinal(2));   // 2nd
+console.log(ordinal(3));   // 3rd
+console.log(ordinal(4));   // 4th
+console.log(ordinal(11));  // 11th
+console.log(ordinal(13));  // 13th
+console.log(ordinal(21));  // 21st
+console.log(ordinal(22));  // 22nd</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let x = 5;
+let y = "5";
+
+if (x == y) console.log("A");
+if (x === y) console.log("B");
+if (x != y) console.log("C");
+if (x !== y) console.log("D");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">== converts types. === does not. Same applies to != vs !==.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>A</code><br><code>D</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write an HTML page with a dropdown select for a traffic light color (Red, Yellow, Green). When the selection changes, display the appropriate message and change a div's background to that color.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Use the onchange event on a select element and switch or if-else.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>&lt;select id="light" onchange="update()"&gt;
+  &lt;option value="red"&gt;Red&lt;/option&gt;
+  &lt;option value="yellow"&gt;Yellow&lt;/option&gt;
+  &lt;option value="green"&gt;Green&lt;/option&gt;
+&lt;/select&gt;
+&lt;div id="signal" style="width:100px;height:100px;border-radius:50%;margin:20px;"&gt;&lt;/div&gt;
+&lt;p id="msg"&gt;&lt;/p&gt;
+&lt;script&gt;
+  function update() {
+    let color = document.getElementById("light").value;
+    let signal = document.getElementById("signal");
+    let msg = document.getElementById("msg");
+    signal.style.backgroundColor = color;
+    switch (color) {
+      case "red":
+        msg.textContent = "STOP!";
+        break;
+      case "yellow":
+        msg.textContent = "SLOW DOWN";
+        break;
+      case "green":
+        msg.textContent = "GO!";
+        break;
+    }
+  }
+  update();
+&lt;/script&gt;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>let n = 0;
+
+if (n) {
+  console.log("truthy");
+}
+
+if (n === 0) {
+  console.log("zero");
+}
+
+if (n == false) {
+  console.log("loose false");
+}
+
+if (n === false) {
+  console.log("strict false");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">0 is falsy. 0 == false is true. 0 === false is false (different types).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>zero</code><br><code>loose false</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does the if statement check?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Whether a variable exists</li><li><span class="mcq-option-label">B.</span> Whether a condition is truthy or falsy</li><li><span class="mcq-option-label">C.</span> Whether two values are the same type</li><li><span class="mcq-option-label">D.</span> Whether a loop should continue</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>if</code> statement evaluates a condition. If the result is truthy (not just <code>true</code>, but any truthy value), the code block runs. If falsy, it is skipped.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What is the else block for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It runs when the if condition is true</li><li><span class="mcq-option-label">B.</span> It runs when the if condition is false</li><li><span class="mcq-option-label">C.</span> It runs every time</li><li><span class="mcq-option-label">D.</span> It is optional and runs before the if</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>else</code> block runs only when the <code>if</code> condition is false (falsy). It provides the alternative path.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What keyword exits a switch case?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> exit</li><li><span class="mcq-option-label">B.</span> stop</li><li><span class="mcq-option-label">C.</span> break</li><li><span class="mcq-option-label">D.</span> end</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>break</code> exits the switch statement. Without it, execution falls through to the next case.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What comparison does switch use?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> == (loose equality)</li><li><span class="mcq-option-label">B.</span> === (strict equality)</li><li><span class="mcq-option-label">C.</span> = (assignment)</li><li><span class="mcq-option-label">D.</span> It depends on the type</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>switch</code> uses <code>===</code> (strict equality) to compare the expression with each case value. This means types must match.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What happens when you omit break in a switch case?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> An error occurs</li><li><span class="mcq-option-label">B.</span> The switch exits immediately</li><li><span class="mcq-option-label">C.</span> Execution falls through to the next case</li><li><span class="mcq-option-label">D.</span> The default case runs</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> Without <code>break</code>, execution continues into the next case regardless of whether it matches. This is called "fall-through" and can be used intentionally to group cases.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the output of: if ('') console.log('yes'); else console.log('no');</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> yes</li><li><span class="mcq-option-label">B.</span> no</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> undefined</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> An empty string <code>''</code> is falsy in JavaScript. <code>if ('')</code> evaluates to false, so the else block runs, printing 'no'.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">In an else-if chain, how many blocks can execute?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> All of them</li><li><span class="mcq-option-label">B.</span> At most one</li><li><span class="mcq-option-label">C.</span> At least one</li><li><span class="mcq-option-label">D.</span> Exactly two</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> In an if / else-if / else chain, only the first matching condition's block runs. All subsequent blocks are skipped. If none match and there is no else, zero blocks run.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is the output of: console.log('10' < '9')?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> true</li><li><span class="mcq-option-label">B.</span> false</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> NaN</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: A</strong><br><strong>A is correct.</strong> Both values are strings, so JavaScript compares them character by character. '1' (from '10') has a lower Unicode value than '9', so <code>'10' < '9'</code> is <code>true</code>. To compare as numbers, convert first.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">When should you use switch instead of if-else?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> When you have only two conditions</li><li><span class="mcq-option-label">B.</span> When comparing one value against many specific values</li><li><span class="mcq-option-label">C.</span> When you need to check ranges (&gt; or &lt;)</li><li><span class="mcq-option-label">D.</span> Always, because switch is faster</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> Switch is ideal when checking one variable against many specific values (like days of the week or color names). For range checks (>, <, >=), if-else is more appropriate. Switch does not support range comparisons directly.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is the output of: if ([] == false) console.log('yes'); else console.log('no');</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> yes</li><li><span class="mcq-option-label">B.</span> no</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> undefined</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: A</strong><br><strong>A is correct.</strong> With <code>==</code>, the array <code>[]</code> is converted to a string <code>""</code>, then to number <code>0</code>. <code>false</code> is also converted to <code>0</code>. <code>0 == 0</code> is <code>true</code>. However, <code>if ([])</code> would be truthy because [] is an object. This shows why == is confusing.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What happens if you write: if (x = 5) { ... }?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Checks if x equals 5</li><li><span class="mcq-option-label">B.</span> Assigns 5 to x, and the block always runs (5 is truthy)</li><li><span class="mcq-option-label">C.</span> Syntax error</li><li><span class="mcq-option-label">D.</span> Assigns 5 to x, and the block never runs</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>x = 5</code> is assignment, not comparison. It assigns 5 to x and evaluates to 5. Since 5 is truthy, the if block always runs. This is a common bug — use <code>===</code> for comparison.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">In a switch, what is the default case?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The first case that runs</li><li><span class="mcq-option-label">B.</span> The case that runs when no other case matches</li><li><span class="mcq-option-label">C.</span> The case that always runs</li><li><span class="mcq-option-label">D.</span> A required part of every switch</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>default</code> runs when no case matches, similar to <code>else</code> in if-else. It is optional — you do not have to include it, but it is good practice for handling unexpected values.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the ternary operator syntax?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> condition : valueIfTrue ? valueIfFalse</li><li><span class="mcq-option-label">B.</span> condition ? valueIfTrue : valueIfFalse</li><li><span class="mcq-option-label">C.</span> if condition then value else value</li><li><span class="mcq-option-label">D.</span> condition &amp;&amp; valueIfTrue || valueIfFalse</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> The ternary syntax is <code>condition ? valueIfTrue : valueIfFalse</code>. The <code>?</code> separates the condition from the true value, and <code>:</code> separates the true and false values.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the output of: let x = 0; if (x !== false) console.log('yes'); else console.log('no');</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> yes</li><li><span class="mcq-option-label">B.</span> no</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> undefined</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>!==</code> is strict inequality. <code>0 !== false</code> is <code>true</code> because 0 is a number and false is a boolean (different types). So 'yes' prints. Note: <code>0 != false</code> would be <code>false</code> because <code>==</code> converts types.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Age Category Classifier</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function that takes an age and returns a category: 'Infant' (0-2), 'Child' (3-12), 'Teenager' (13-19), 'Adult' (20-59), 'Senior' (60+). Test with ages: 1, 8, 16, 35, 72.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">classifyAge(16)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Teenager</div>
+                </div><div class="challenge-constraints">Use if-else. Handle invalid ages (negative or non-number).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">function classifyAge(age) {
+  if (typeof age !== &#39;number&#39; || age &lt; 0) return &#39;Invalid age&#39;;
+  if (age &lt;= 2) return &#39;Infant&#39;;
+  if (age &lt;= 12) return &#39;Child&#39;;
+  if (age &lt;= 19) return &#39;Teenager&#39;;
+  if (age &lt;= 59) return &#39;Adult&#39;;
+  return &#39;Senior&#39;;
+}
+console.log(classifyAge(1));   // Infant
+console.log(classifyAge(8));   // Child
+console.log(classifyAge(16));  // Teenager
+console.log(classifyAge(35));  // Adult
+console.log(classifyAge(72));  // Senior</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Simple Calculator Page</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Build an HTML page with two number inputs, a dropdown for the operation (+, -, *, /), and a button. When clicked, perform the selected operation and display the result. Handle division by zero.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">10, 3, division</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">10 / 3 = 3.3333...</div>
+                </div><div class="challenge-constraints">Use switch for the operation. Show &#39;Cannot divide by zero&#39; for 0 divisor.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;input type=&quot;number&quot; id=&quot;a&quot; placeholder=&quot;Number 1&quot;&gt;
+  &lt;select id=&quot;op&quot;&gt;
+    &lt;option value=&quot;+&quot;&gt;+&lt;/option&gt;
+    &lt;option value=&quot;-&quot;&gt;-&lt;/option&gt;
+    &lt;option value=&quot;*&quot;&gt;*&lt;/option&gt;
+    &lt;option value=&quot;/&quot;&gt;/&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;input type=&quot;number&quot; id=&quot;b&quot; placeholder=&quot;Number 2&quot;&gt;
+  &lt;button onclick=&quot;calc()&quot;&gt;Calculate&lt;/button&gt;
+  &lt;p id=&quot;result&quot;&gt;&lt;/p&gt;
+  &lt;script&gt;
+    function calc() {
+      let a = Number(document.getElementById(&#39;a&#39;).value);
+      let b = Number(document.getElementById(&#39;b&#39;).value);
+      let op = document.getElementById(&#39;op&#39;).value;
+      let result;
+      switch (op) {
+        case &#39;+&#39;: result = a + b; break;
+        case &#39;-&#39;: result = a - b; break;
+        case &#39;*&#39;: result = a * b; break;
+        case &#39;/&#39;:
+          if (b === 0) { result = &#39;Cannot divide by zero&#39;; }
+          else { result = a / b; }
+          break;
+      }
+      document.getElementById(&#39;result&#39;).textContent = `${a} ${op} ${b} = ${result}`;
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: FizzBuzz on a Web Page</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build an HTML page with a number input. When a button is clicked, display FizzBuzz output from 1 to the entered number. For multiples of 3, show 'Fizz'. For multiples of 5, show 'Buzz'. For multiples of both, show 'FizzBuzz'. Style FizzBuzz in purple, Fizz in green, Buzz in blue, numbers in gray.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">User enters 15</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz</div>
+                </div><div class="challenge-constraints">Use a loop with if-else inside. Color-code each type.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;input type=&quot;number&quot; id=&quot;n&quot; placeholder=&quot;Enter number&quot;&gt;
+  &lt;button onclick=&quot;fizzBuzz()&quot;&gt;Go&lt;/button&gt;
+  &lt;div id=&quot;output&quot;&gt;&lt;/div&gt;
+  &lt;script&gt;
+    function fizzBuzz() {
+      let n = Number(document.getElementById(&#39;n&#39;).value);
+      let html = &#39;&#39;;
+      for (let i = 1; i &lt;= n; i++) {
+        if (i % 3 === 0 &amp;&amp; i % 5 === 0) {
+          html += &#39;&lt;span style=&quot;color:purple;font-weight:bold;&quot;&gt;FizzBuzz&lt;/span&gt; &#39;;
+        } else if (i % 3 === 0) {
+          html += &#39;&lt;span style=&quot;color:green;&quot;&gt;Fizz&lt;/span&gt; &#39;;
+        } else if (i % 5 === 0) {
+          html += &#39;&lt;span style=&quot;color:blue;&quot;&gt;Buzz&lt;/span&gt; &#39;;
+        } else {
+          html += &#39;&lt;span style=&quot;color:gray;&quot;&gt;&#39; + i + &#39;&lt;/span&gt; &#39;;
+        }
+      }
+      document.getElementById(&#39;output&#39;).innerHTML = html;
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Day Planner with Switch</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a page that shows today's day and a schedule. Use switch with the current day to display different activities. Include fall-through for weekdays sharing activities. Style the page with different colors for weekdays vs weekends.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(Uses current day automatically)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Today is Wednesday
+Schedule: School 8am-3pm, Coding class 4pm-5pm, Homework 6pm-8pm</div>
+                </div><div class="challenge-constraints">Use new Date().getDay() and switch. Group weekdays and weekends.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;h1 id=&quot;day&quot;&gt;&lt;/h1&gt;
+  &lt;p id=&quot;schedule&quot;&gt;&lt;/p&gt;
+  &lt;script&gt;
+    let dayNum = new Date().getDay();
+    let days = [&#39;Sunday&#39;,&#39;Monday&#39;,&#39;Tuesday&#39;,&#39;Wednesday&#39;,&#39;Thursday&#39;,&#39;Friday&#39;,&#39;Saturday&#39;];
+    document.getElementById(&#39;day&#39;).textContent = &#39;Today is &#39; + days[dayNum];
+    let schedule;
+    switch (dayNum) {
+      case 1: case 2: case 3: case 4: case 5:
+        schedule = &#39;School 8am-3pm, Coding class 4pm-5pm, Homework 6pm-8pm&#39;;
+        document.body.style.backgroundColor = &#39;#ecf0f1&#39;;
+        break;
+      case 6:
+        schedule = &#39;Sleep in! Project work 10am-12pm, Free time!&#39;;
+        document.body.style.backgroundColor = &#39;#d5f5e3&#39;;
+        break;
+      case 0:
+        schedule = &#39;Family time, light study 5pm-6pm, relax!&#39;;
+        document.body.style.backgroundColor = &#39;#fdebd0&#39;;
+        break;
+    }
+    document.getElementById(&#39;schedule&#39;).textContent = &#39;Schedule: &#39; + schedule;
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Form Validator</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a registration form with name, email, age, and password fields. When submitted, validate: name must not be empty, email must contain '@', age must be 13-100, password must be 8+ characters with at least one number. Show all errors at once in red. If valid, show 'Registration successful!' in green.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Name: &#39;&#39;, Email: &#39;test&#39;, Age: 10, Password: &#39;short&#39;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Errors: Name is required. Email must contain @. Age must be 13-100. Password must be 8+ characters with a number.</div>
+                </div><div class="challenge-constraints">Check all fields and show all errors (do not stop at the first error).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;input id=&quot;name&quot; placeholder=&quot;Name&quot;&gt;&lt;br&gt;
+  &lt;input id=&quot;email&quot; placeholder=&quot;Email&quot;&gt;&lt;br&gt;
+  &lt;input id=&quot;age&quot; type=&quot;number&quot; placeholder=&quot;Age&quot;&gt;&lt;br&gt;
+  &lt;input id=&quot;pass&quot; type=&quot;password&quot; placeholder=&quot;Password&quot;&gt;&lt;br&gt;
+  &lt;button onclick=&quot;validate()&quot;&gt;Register&lt;/button&gt;
+  &lt;div id=&quot;errors&quot;&gt;&lt;/div&gt;
+  &lt;script&gt;
+    function validate() {
+      let name = document.getElementById(&#39;name&#39;).value;
+      let email = document.getElementById(&#39;email&#39;).value;
+      let age = Number(document.getElementById(&#39;age&#39;).value);
+      let pass = document.getElementById(&#39;pass&#39;).value;
+      let errors = [];
+      if (name.trim() === &#39;&#39;) errors.push(&#39;Name is required.&#39;);
+      if (!email.includes(&#39;@&#39;)) errors.push(&#39;Email must contain @.&#39;);
+      if (age &lt; 13 || age &gt; 100) errors.push(&#39;Age must be 13-100.&#39;);
+      if (pass.length &lt; 8) {
+        errors.push(&#39;Password must be 8+ characters.&#39;);
+      } else if (!/[0-9]/.test(pass)) {
+        errors.push(&#39;Password must contain at least one number.&#39;);
+      }
+      let el = document.getElementById(&#39;errors&#39;);
+      if (errors.length &gt; 0) {
+        el.innerHTML = errors.map(e =&gt; &#39;&lt;p style=&quot;color:red;&quot;&gt;&#39; + e + &#39;&lt;/p&gt;&#39;).join(&#39;&#39;);
+      } else {
+        el.innerHTML = &#39;&lt;p style=&quot;color:green;font-weight:bold;&quot;&gt;Registration successful!&lt;/p&gt;&#39;;
+      }
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Interactive BMI Calculator</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a BMI calculator page. User enters weight (kg) and height (cm). Calculate BMI = weight / (height/100)^2. Display the BMI value and category: Underweight (<18.5), Normal (18.5-24.9), Overweight (25-29.9), Obese (30+). Color-code the result. Also show a health tip for each category.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Weight: 70, Height: 175</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">BMI: 22.86 - Normal weight (green)
+Tip: Great job! Maintain a balanced diet and regular exercise.</div>
+                </div><div class="challenge-constraints">Validate inputs. Show 2 decimal places. Use if-else for categories.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;h2&gt;BMI Calculator&lt;/h2&gt;
+  &lt;input id=&quot;weight&quot; type=&quot;number&quot; placeholder=&quot;Weight (kg)&quot;&gt;&lt;br&gt;
+  &lt;input id=&quot;height&quot; type=&quot;number&quot; placeholder=&quot;Height (cm)&quot;&gt;&lt;br&gt;
+  &lt;button onclick=&quot;calcBMI()&quot;&gt;Calculate&lt;/button&gt;
+  &lt;h3 id=&quot;result&quot;&gt;&lt;/h3&gt;
+  &lt;p id=&quot;tip&quot;&gt;&lt;/p&gt;
+  &lt;script&gt;
+    function calcBMI() {
+      let weight = Number(document.getElementById(&#39;weight&#39;).value);
+      let height = Number(document.getElementById(&#39;height&#39;).value);
+      let resultEl = document.getElementById(&#39;result&#39;);
+      let tipEl = document.getElementById(&#39;tip&#39;);
+      if (weight &lt;= 0 || height &lt;= 0) {
+        resultEl.textContent = &#39;Please enter valid values.&#39;;
+        resultEl.style.color = &#39;red&#39;;
+        tipEl.textContent = &#39;&#39;;
+        return;
+      }
+      let bmi = weight / ((height / 100) ** 2);
+      let category, color, tip;
+      if (bmi &lt; 18.5) {
+        category = &#39;Underweight&#39;;
+        color = &#39;#3498db&#39;;
+        tip = &#39;Consider eating more nutritious meals and consulting a doctor.&#39;;
+      } else if (bmi &lt; 25) {
+        category = &#39;Normal weight&#39;;
+        color = &#39;#2ecc71&#39;;
+        tip = &#39;Great job! Maintain a balanced diet and regular exercise.&#39;;
+      } else if (bmi &lt; 30) {
+        category = &#39;Overweight&#39;;
+        color = &#39;#f39c12&#39;;
+        tip = &#39;Try increasing physical activity and reducing processed food.&#39;;
+      } else {
+        category = &#39;Obese&#39;;
+        color = &#39;#e74c3c&#39;;
+        tip = &#39;Please consult a healthcare professional for guidance.&#39;;
+      }
+      resultEl.textContent = `BMI: ${bmi.toFixed(2)} - ${category}`;
+      resultEl.style.color = color;
+      tipEl.textContent = &#39;Tip: &#39; + tip;
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/javascript/operators-and-expressions/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Operators and Expressions</span>
+        </a>
+            <a href="/resources/javascript/loops-in-javascript/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Loops (for, while, for...of, for...in)</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/javascript/conditional-statements" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

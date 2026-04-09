@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Manipulation with JavaScript - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Change styles dynamically, toggle classes, create animations, build dark mode toggles, and interactive UI effects.">
+    <meta name="keywords" content="css manipulation with javascript, javascript tutorial, javascript css manipulation with javascript, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/css-manipulation-with-javascript">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/css-manipulation-with-javascript">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/css-manipulation-with-javascript">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/css-manipulation-with-javascript">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/css-manipulation-with-javascript">
+    <meta property="og:title" content="CSS Manipulation with JavaScript - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Change styles dynamically, toggle classes, create animations, build dark mode toggles, and interactive UI effects.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/css-manipulation-with-javascript">
+    <meta name="twitter:title" content="CSS Manipulation with JavaScript - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Change styles dynamically, toggle classes, create animations, build dark mode toggles, and interactive UI effects.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "CSS Manipulation with JavaScript",
+    "description": "Change styles dynamically, toggle classes, create animations, build dark mode toggles, and interactive UI effects.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/css-manipulation-with-javascript"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/css-manipulation-with-javascript"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "CSS Manipulation with JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript/css-manipulation-with-javascript"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using element.style to Read Stylesheet Styles",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>element.style</code> only reads inline styles (set via the style attribute or JS). Use <code>getComputedStyle(element)</code> to read the actual applied styles from all sources."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting that CSS Variables Need the -- Prefix",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CSS custom properties must always start with <code>--</code>. Without the prefix, it is just a regular (invalid) CSS property that has no effect."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Animating Properties That Cannot Be Transitioned",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>display</code> is not animatable. Use <code>opacity</code> and <code>visibility</code> instead for fade effects. Alternatively, use <code>transform: scale(0)</code> to <code>scale(1)</code> for shrink/grow effects."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Setting style.cssText Replaces All Inline Styles",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>cssText</code> replaces the entire inline style. It does not append. Either set individual properties or include all desired properties in the cssText string."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">CSS Manipulation with JavaScript</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 15</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">40 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">CSS Manipulation with JavaScript</h1>
+            <a href="/resources/javascript/css-manipulation-with-javascript/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is CSS Manipulation with JavaScript?</h2><p>CSS Manipulation means using JavaScript to dynamically change the appearance of elements -- colors, sizes, visibility, positions, animations -- in response to user actions or application state. You have already used <code>element.style</code> and <code>classList</code> in previous chapters. This chapter goes deeper into all the techniques for controlling CSS from JavaScript.</p><p>There are three main approaches:</p><ol><li><strong>Inline styles</strong> (<code>element.style.property</code>) -- directly set CSS on an element</li><li><strong>CSS classes</strong> (<code>element.classList</code>) -- toggle predefined CSS classes</li><li><strong>CSS custom properties</strong> (<code>setProperty</code>) -- change CSS variables from JS</li></ol><pre><code>// Approach 1: Inline style
+element.style.backgroundColor = "red";
+
+// Approach 2: Toggle a class
+element.classList.toggle("active");
+
+// Approach 3: CSS variable
+document.documentElement.style.setProperty("--primary-color", "#a855f7");</code></pre>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn CSS Manipulation?</h2><h3>1. Every Modern Feature Uses It</h3><p>Dark mode, animated menus, scroll-to-top buttons, progress bars, loading spinners, tooltip popups, modal animations -- all of these change CSS dynamically with JavaScript. This is the skill that turns a static page into a polished, professional web app.</p><h3>2. Performance Matters</h3><p>Changing styles the wrong way causes the browser to recalculate layouts, which makes pages sluggish. Knowing the difference between toggling classes (fast) and setting inline styles in a loop (slow) makes you a better developer.</p><h3>3. CSS Variables + JS = Powerful Theming</h3><p>CSS custom properties (variables) let you define colors, sizes, and spacings once and change them everywhere by updating a single variable from JavaScript. This is how theme switchers work -- change one variable and the entire site updates.</p><h3>4. It Is the Foundation for Animations</h3><p>CSS transitions and animations are triggered by class changes. JavaScript adds or removes a class, and CSS handles the smooth animation. This separation of concerns (JS handles logic, CSS handles visuals) is a professional best practice.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. element.style (Inline Styles)</h3><p>Sets styles directly on the element's <code>style</code> attribute. Useful for dynamic values that cannot be predefined in CSS:</p><pre><code>const box = document.getElementById("box");
+
+// Set styles (CSS uses kebab-case, JS uses camelCase)
+box.style.width = "200px";
+box.style.height = "200px";
+box.style.backgroundColor = "#a855f7";  // background-color
+box.style.borderRadius = "12px";        // border-radius
+box.style.boxShadow = "0 4px 6px rgba(0,0,0,0.1)"; // box-shadow
+
+// Read a style (only reads inline styles, not stylesheet styles)
+console.log(box.style.width);           // "200px"
+console.log(box.style.backgroundColor); // "#a855f7"
+
+// Remove an inline style
+box.style.backgroundColor = "";  // Removes the inline style
+
+// Set multiple styles at once
+box.style.cssText = "width:100px; height:100px; background:red;";
+// Warning: cssText REPLACES all existing inline styles</code></pre><h3>2. element.classList (CSS Classes)</h3><p>The preferred way to manage styles. Define styles in CSS, toggle classes in JS:</p><pre><code>&lt;style&gt;
+  .hidden { display: none; }
+  .visible { display: block; }
+  .highlight { background-color: yellow; font-weight: bold; }
+  .fade-in { opacity: 1; transition: opacity 0.5s; }
+  .fade-out { opacity: 0; transition: opacity 0.5s; }
+&lt;/style&gt;
+
+&lt;script&gt;
+const el = document.getElementById("element");
+
+el.classList.add("highlight");         // Add a class
+el.classList.remove("highlight");      // Remove a class
+el.classList.toggle("hidden");         // Add if missing, remove if present
+el.classList.contains("highlight");    // Check: returns true/false
+el.classList.replace("old", "new");    // Replace one class with another
+
+// Why classList is better than inline styles:
+// 1. Styles are defined in CSS (separation of concerns)
+// 2. Easier to manage (toggle one class vs set 10 properties)
+// 3. CSS handles animations/transitions automatically
+// 4. Easier to debug (inspect classes in DevTools)
+&lt;/script&gt;</code></pre><h3>3. getComputedStyle()</h3><p><code>element.style</code> only reads inline styles. <code>getComputedStyle()</code> reads the actual, final computed value from all sources (stylesheets, inherited styles, defaults):</p><pre><code>&lt;style&gt;
+  #box { width: 200px; background-color: blue; padding: 20px; }
+&lt;/style&gt;
+&lt;div id="box"&gt;Hello&lt;/div&gt;
+
+&lt;script&gt;
+const box = document.getElementById("box");
+
+// element.style reads ONLY inline styles
+console.log(box.style.width);           // "" (empty -- not inline)
+console.log(box.style.backgroundColor); // "" (empty -- not inline)
+
+// getComputedStyle reads the ACTUAL applied styles
+const computed = getComputedStyle(box);
+console.log(computed.width);            // "200px"
+console.log(computed.backgroundColor);  // "rgb(0, 0, 255)"
+console.log(computed.padding);          // "20px"
+console.log(computed.fontSize);         // "16px" (browser default)
+&lt;/script&gt;</code></pre><p>Note: computed values are always in resolved units (px, rgb) even if you defined them in em, %, or hex.</p><h3>4. CSS Custom Properties (Variables) with JavaScript</h3><p>CSS variables let you define reusable values. JavaScript can read and change them:</p><pre><code>&lt;style&gt;
+  :root {
+    --primary: #a855f7;
+    --bg: #ffffff;
+    --text: #1a1a2e;
+  }
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+  }
+  .btn {
+    background-color: var(--primary);
+    color: white;
+  }
+&lt;/style&gt;
+
+&lt;script&gt;
+const root = document.documentElement; // The &lt;html&gt; element
+
+// Read a CSS variable
+const primary = getComputedStyle(root).getPropertyValue("--primary");
+console.log(primary); // "#a855f7"
+
+// Change a CSS variable (updates everywhere it is used!)
+root.style.setProperty("--primary", "#06b6d4");
+root.style.setProperty("--bg", "#1a1a2e");
+root.style.setProperty("--text", "#f1f5f9");
+// The entire page updates because all elements reference these variables
+&lt;/script&gt;</code></pre><p>This is incredibly powerful. Change one variable and every element using it updates automatically. This is how professional theme switchers work.</p><h3>5. CSS Transitions Triggered by JavaScript</h3><p>Define a transition in CSS. JavaScript triggers it by adding/removing a class:</p><pre><code>&lt;style&gt;
+  .box {
+    width: 100px;
+    height: 100px;
+    background: #a855f7;
+    transition: all 0.5s ease;
+  }
+  .box.expanded {
+    width: 300px;
+    height: 200px;
+    background: #06b6d4;
+    border-radius: 20px;
+  }
+&lt;/style&gt;
+
+&lt;div class="box" id="box"&gt;&lt;/div&gt;
+&lt;button id="btn"&gt;Toggle&lt;/button&gt;
+
+&lt;script&gt;
+document.getElementById("btn").addEventListener("click", function() {
+  document.getElementById("box").classList.toggle("expanded");
+});
+// The CSS transition handles the smooth animation automatically
+&lt;/script&gt;</code></pre><h3>6. Reading Scroll Position</h3><p><code>window.scrollY</code> gives the vertical scroll position. Use it to add classes based on scroll:</p><pre><code>window.addEventListener("scroll", function() {
+  const nav = document.getElementById("nav");
+  if (window.scrollY > 100) {
+    nav.classList.add("scrolled");
+  } else {
+    nav.classList.remove("scrolled");
+  }
+});</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Dark Mode Toggle with CSS Variables</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    :root {
+      --bg: #ffffff;
+      --text: #1a1a2e;
+      --card-bg: #f3f4f6;
+      --border: #e5e7eb;
+      --primary: #a855f7;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: var(--bg);
+      color: var(--text);
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      padding: 20px;
+      border-radius: 12px;
+      margin: 16px 0;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+    .toggle-btn {
+      padding: 10px 20px;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;My Dashboard&lt;/h1&gt;
+  &lt;button class=&quot;toggle-btn&quot; id=&quot;themeBtn&quot;&gt;Switch to Dark Mode&lt;/button&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Welcome, Aarav!&lt;/h3&gt;
+    &lt;p&gt;You have 5 new assignments and 2 messages.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card&quot;&gt;
+    &lt;h3&gt;Upcoming Test&lt;/h3&gt;
+    &lt;p&gt;Mathematics - Chapter 12 - April 15, 2026&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;script&gt;
+    const root = document.documentElement;
+    const btn = document.getElementById(&quot;themeBtn&quot;);
+    let isDark = false;
+
+    const themes = {
+      light: {
+        &quot;--bg&quot;: &quot;#ffffff&quot;,
+        &quot;--text&quot;: &quot;#1a1a2e&quot;,
+        &quot;--card-bg&quot;: &quot;#f3f4f6&quot;,
+        &quot;--border&quot;: &quot;#e5e7eb&quot;
+      },
+      dark: {
+        &quot;--bg&quot;: &quot;#1a1a2e&quot;,
+        &quot;--text&quot;: &quot;#f1f5f9&quot;,
+        &quot;--card-bg&quot;: &quot;#16213e&quot;,
+        &quot;--border&quot;: &quot;#374151&quot;
+      }
+    };
+
+    btn.addEventListener(&quot;click&quot;, function() {
+      isDark = !isDark;
+      const theme = isDark ? themes.dark : themes.light;
+
+      Object.keys(theme).forEach(function(key) {
+        root.style.setProperty(key, theme[key]);
+      });
+
+      btn.textContent = isDark ? &quot;Switch to Light Mode&quot; : &quot;Switch to Dark Mode&quot;;
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">CSS variables are defined on <code>:root</code>. All elements reference these variables. When the button is clicked, JavaScript changes the variables using <code>setProperty</code>, and every element updates instantly. The CSS <code>transition</code> makes the color change smooth.</div><div class="code-example-output">A dashboard page with cards. Clicking the button switches between light and dark mode with smooth transitions.</div></div>
+<div class="code-example"><div class="code-example-title">Multi-Theme Switcher</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    :root {
+      --bg: #ffffff;
+      --text: #1a1a2e;
+      --primary: #a855f7;
+      --accent: #06b6d4;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: var(--bg);
+      color: var(--text);
+      transition: all 0.4s;
+    }
+    h1 { color: var(--primary); }
+    .theme-grid { display: flex; gap: 12px; margin: 16px 0; }
+    .theme-dot {
+      width: 40px; height: 40px; border-radius: 50%; cursor: pointer;
+      border: 3px solid transparent; transition: border-color 0.3s, transform 0.2s;
+    }
+    .theme-dot:hover { transform: scale(1.15); }
+    .theme-dot.selected { border-color: var(--text); }
+    .demo-card {
+      padding: 20px; background: var(--primary); color: white;
+      border-radius: 12px; margin-top: 16px;
+    }
+    .demo-btn {
+      padding: 8px 16px; background: var(--accent); color: white;
+      border: none; border-radius: 6px; cursor: pointer; margin-top: 10px;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Theme Switcher&lt;/h1&gt;
+  &lt;p&gt;Choose a theme:&lt;/p&gt;
+  &lt;div class=&quot;theme-grid&quot; id=&quot;themes&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;demo-card&quot;&gt;
+    &lt;h3&gt;Sample Card&lt;/h3&gt;
+    &lt;p&gt;This card uses the primary color as background.&lt;/p&gt;
+    &lt;button class=&quot;demo-btn&quot;&gt;Action Button&lt;/button&gt;
+  &lt;/div&gt;
+
+  &lt;script&gt;
+    const themes = [
+      { name: &quot;Purple&quot;, bg: &quot;#ffffff&quot;, text: &quot;#1a1a2e&quot;, primary: &quot;#a855f7&quot;, accent: &quot;#06b6d4&quot;, dot: &quot;#a855f7&quot; },
+      { name: &quot;Ocean&quot;, bg: &quot;#f0f9ff&quot;, text: &quot;#0c4a6e&quot;, primary: &quot;#0369a1&quot;, accent: &quot;#06b6d4&quot;, dot: &quot;#0369a1&quot; },
+      { name: &quot;Forest&quot;, bg: &quot;#f0fdf4&quot;, text: &quot;#14532d&quot;, primary: &quot;#15803d&quot;, accent: &quot;#a3e635&quot;, dot: &quot;#15803d&quot; },
+      { name: &quot;Sunset&quot;, bg: &quot;#fff7ed&quot;, text: &quot;#7c2d12&quot;, primary: &quot;#ea580c&quot;, accent: &quot;#facc15&quot;, dot: &quot;#ea580c&quot; },
+      { name: &quot;Dark&quot;, bg: &quot;#1a1a2e&quot;, text: &quot;#f1f5f9&quot;, primary: &quot;#a855f7&quot;, accent: &quot;#06b6d4&quot;, dot: &quot;#1a1a2e&quot; },
+      { name: &quot;Rose&quot;, bg: &quot;#fff1f2&quot;, text: &quot;#881337&quot;, primary: &quot;#e11d48&quot;, accent: &quot;#fb7185&quot;, dot: &quot;#e11d48&quot; }
+    ];
+
+    const grid = document.getElementById(&quot;themes&quot;);
+    const root = document.documentElement;
+    let dots = [];
+
+    themes.forEach(function(theme, index) {
+      const dot = document.createElement(&quot;div&quot;);
+      dot.className = &quot;theme-dot&quot; + (index === 0 ? &quot; selected&quot; : &quot;&quot;);
+      dot.style.backgroundColor = theme.dot;
+      dot.title = theme.name;
+      dot.addEventListener(&quot;click&quot;, function() {
+        root.style.setProperty(&quot;--bg&quot;, theme.bg);
+        root.style.setProperty(&quot;--text&quot;, theme.text);
+        root.style.setProperty(&quot;--primary&quot;, theme.primary);
+        root.style.setProperty(&quot;--accent&quot;, theme.accent);
+        dots.forEach(function(d) { d.classList.remove(&quot;selected&quot;); });
+        dot.classList.add(&quot;selected&quot;);
+      });
+      grid.appendChild(dot);
+      dots.push(dot);
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Six theme presets are defined as objects. Clicking a colored dot changes all four CSS variables at once, instantly updating the entire page. The transition on body makes the switch smooth. The selected dot gets a border to show the active theme.</div><div class="code-example-output">A page with 6 colored dots. Clicking any dot changes the entire color scheme (background, text, buttons, cards).</div></div>
+<div class="code-example"><div class="code-example-title">Scroll-Based Navigation Effects</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; }
+    .nav {
+      position: fixed; top: 0; left: 0; right: 0;
+      padding: 20px 30px;
+      display: flex; justify-content: space-between; align-items: center;
+      background: transparent;
+      transition: all 0.3s;
+      z-index: 100;
+    }
+    .nav.scrolled {
+      background: rgba(255,255,255,0.95);
+      padding: 10px 30px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .nav .logo { font-size: 24px; font-weight: bold; color: #a855f7; }
+    .progress-bar {
+      position: fixed; top: 0; left: 0; height: 3px;
+      background: linear-gradient(to right, #a855f7, #06b6d4);
+      z-index: 200; transition: width 0.1s;
+    }
+    .scroll-top {
+      position: fixed; bottom: 30px; right: 30px;
+      width: 40px; height: 40px;
+      background: #a855f7; color: white;
+      border: none; border-radius: 50%;
+      font-size: 20px; cursor: pointer;
+      opacity: 0; transform: translateY(20px);
+      transition: opacity 0.3s, transform 0.3s;
+    }
+    .scroll-top.visible { opacity: 1; transform: translateY(0); }
+    .content { padding: 100px 30px 30px; }
+    section { padding: 60px 0; min-height: 50vh; }
+    h2 { color: #a855f7; margin-bottom: 16px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;progress-bar&quot; id=&quot;progress&quot;&gt;&lt;/div&gt;
+  &lt;nav class=&quot;nav&quot; id=&quot;nav&quot;&gt;
+    &lt;div class=&quot;logo&quot;&gt;SiteName&lt;/div&gt;
+    &lt;div&gt;Home | About | Contact&lt;/div&gt;
+  &lt;/nav&gt;
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;section&gt;&lt;h2&gt;Section 1&lt;/h2&gt;&lt;p&gt;Scroll down to see the navigation change, progress bar fill, and scroll-to-top button appear.&lt;/p&gt;&lt;/section&gt;
+    &lt;section&gt;&lt;h2&gt;Section 2&lt;/h2&gt;&lt;p&gt;The navigation shrinks and gets a white background when you scroll past 100px.&lt;/p&gt;&lt;/section&gt;
+    &lt;section&gt;&lt;h2&gt;Section 3&lt;/h2&gt;&lt;p&gt;The progress bar at the top shows how far you have scrolled through the page.&lt;/p&gt;&lt;/section&gt;
+    &lt;section&gt;&lt;h2&gt;Section 4&lt;/h2&gt;&lt;p&gt;The scroll-to-top button appears after scrolling 300px down.&lt;/p&gt;&lt;/section&gt;
+    &lt;section&gt;&lt;h2&gt;Section 5&lt;/h2&gt;&lt;p&gt;All of these effects use CSS classes toggled by JavaScript scroll events.&lt;/p&gt;&lt;/section&gt;
+  &lt;/div&gt;
+  &lt;button class=&quot;scroll-top&quot; id=&quot;scrollTop&quot;&gt;^&lt;/button&gt;
+
+  &lt;script&gt;
+    const nav = document.getElementById(&quot;nav&quot;);
+    const progress = document.getElementById(&quot;progress&quot;);
+    const scrollTopBtn = document.getElementById(&quot;scrollTop&quot;);
+
+    window.addEventListener(&quot;scroll&quot;, function() {
+      // Nav shrink effect
+      if (window.scrollY &gt; 100) {
+        nav.classList.add(&quot;scrolled&quot;);
+      } else {
+        nav.classList.remove(&quot;scrolled&quot;);
+      }
+
+      // Progress bar
+      const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrollPercent = (window.scrollY / scrollHeight) * 100;
+      progress.style.width = scrollPercent + &quot;%&quot;;
+
+      // Scroll to top button
+      if (window.scrollY &gt; 300) {
+        scrollTopBtn.classList.add(&quot;visible&quot;);
+      } else {
+        scrollTopBtn.classList.remove(&quot;visible&quot;);
+      }
+    });
+
+    scrollTopBtn.addEventListener(&quot;click&quot;, function() {
+      window.scrollTo({ top: 0, behavior: &quot;smooth&quot; });
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Three scroll-based effects: (1) Navigation shrinks and gets a background after 100px scroll. (2) A progress bar shows scroll percentage using <code>window.scrollY</code> and <code>document.documentElement.scrollHeight</code>. (3) A scroll-to-top button appears after 300px. All use classList for toggling and element.style for the progress width.</div><div class="code-example-output">A page with a navbar that shrinks on scroll, a progress bar at the top, and a scroll-to-top button that fades in.</div></div>
+<div class="code-example"><div class="code-example-title">Animated Navigation Menu</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; margin: 0; }
+    .navbar { display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; background: #1a1a2e; color: white; }
+    .menu-btn { background: none; border: 2px solid white; color: white; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 16px; }
+    .sidebar {
+      position: fixed; top: 0; right: -300px; width: 300px; height: 100%;
+      background: #16213e; color: white; padding: 24px;
+      transition: right 0.4s ease;
+      z-index: 200;
+    }
+    .sidebar.open { right: 0; }
+    .overlay {
+      position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5);
+      opacity: 0; visibility: hidden;
+      transition: opacity 0.4s, visibility 0.4s;
+      z-index: 150;
+    }
+    .overlay.visible { opacity: 1; visibility: visible; }
+    .sidebar a { display: block; color: white; text-decoration: none; padding: 12px 0; border-bottom: 1px solid #374151; font-size: 18px; }
+    .sidebar a:hover { color: #a855f7; }
+    .close-btn { background: none; border: none; color: #9ca3af; font-size: 24px; cursor: pointer; position: absolute; top: 16px; right: 16px; }
+    .content { padding: 24px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;nav class=&quot;navbar&quot;&gt;
+    &lt;div style=&quot;font-size:20px;font-weight:bold;&quot;&gt;MyApp&lt;/div&gt;
+    &lt;button class=&quot;menu-btn&quot; id=&quot;menuBtn&quot;&gt;Menu&lt;/button&gt;
+  &lt;/nav&gt;
+  &lt;div class=&quot;overlay&quot; id=&quot;overlay&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;sidebar&quot; id=&quot;sidebar&quot;&gt;
+    &lt;button class=&quot;close-btn&quot; id=&quot;closeBtn&quot;&gt;x&lt;/button&gt;
+    &lt;h3 style=&quot;margin-top:40px;&quot;&gt;Navigation&lt;/h3&gt;
+    &lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Courses&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;h2&gt;Page Content&lt;/h2&gt;
+    &lt;p&gt;Click the Menu button to open the animated sidebar navigation.&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;script&gt;
+    const menuBtn = document.getElementById(&quot;menuBtn&quot;);
+    const closeBtn = document.getElementById(&quot;closeBtn&quot;);
+    const sidebar = document.getElementById(&quot;sidebar&quot;);
+    const overlay = document.getElementById(&quot;overlay&quot;);
+
+    function openMenu() {
+      sidebar.classList.add(&quot;open&quot;);
+      overlay.classList.add(&quot;visible&quot;);
+    }
+
+    function closeMenu() {
+      sidebar.classList.remove(&quot;open&quot;);
+      overlay.classList.remove(&quot;visible&quot;);
+    }
+
+    menuBtn.addEventListener(&quot;click&quot;, openMenu);
+    closeBtn.addEventListener(&quot;click&quot;, closeMenu);
+    overlay.addEventListener(&quot;click&quot;, closeMenu);
+
+    document.addEventListener(&quot;keydown&quot;, function(e) {
+      if (e.key === &quot;Escape&quot;) closeMenu();
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The sidebar starts off-screen (right: -300px). Adding the "open" class moves it on-screen (right: 0) with a CSS transition. The overlay fades in with opacity. Closing happens by removing both classes. The Escape key also closes the menu. All animation is handled by CSS transitions -- JavaScript only toggles classes.</div><div class="code-example-output">A page with a menu button. Clicking it slides in a sidebar from the right with a dark overlay. Click overlay or press Escape to close.</div></div>
+<div class="code-example"><div class="code-example-title">getComputedStyle and Reading CSS Values</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    #box {
+      width: 200px;
+      height: 150px;
+      background-color: #a855f7;
+      color: white;
+      padding: 20px;
+      border-radius: 12px;
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+    #results { padding: 16px; background: #f3f4f6; border-radius: 8px; font-family: monospace; font-size: 14px; }
+    button { padding: 8px 16px; margin: 4px; cursor: pointer; border: 1px solid #ddd; border-radius: 4px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&quot;box&quot;&gt;Styled Box&lt;/div&gt;
+  &lt;button id=&quot;readBtn&quot;&gt;Read Computed Styles&lt;/button&gt;
+  &lt;button id=&quot;readInlineBtn&quot;&gt;Read Inline Styles&lt;/button&gt;
+  &lt;button id=&quot;addInlineBtn&quot;&gt;Add Inline Border&lt;/button&gt;
+  &lt;div id=&quot;results&quot;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    const box = document.getElementById(&quot;box&quot;);
+    const results = document.getElementById(&quot;results&quot;);
+
+    document.getElementById(&quot;readBtn&quot;).addEventListener(&quot;click&quot;, function() {
+      const computed = getComputedStyle(box);
+      results.innerHTML =
+        &quot;&lt;strong&gt;getComputedStyle:&lt;/strong&gt;&lt;br&gt;&quot; +
+        &quot;width: &quot; + computed.width + &quot;&lt;br&gt;&quot; +
+        &quot;height: &quot; + computed.height + &quot;&lt;br&gt;&quot; +
+        &quot;backgroundColor: &quot; + computed.backgroundColor + &quot;&lt;br&gt;&quot; +
+        &quot;padding: &quot; + computed.padding + &quot;&lt;br&gt;&quot; +
+        &quot;borderRadius: &quot; + computed.borderRadius + &quot;&lt;br&gt;&quot; +
+        &quot;fontSize: &quot; + computed.fontSize + &quot;&lt;br&gt;&quot; +
+        &quot;display: &quot; + computed.display + &quot;&lt;br&gt;&quot; +
+        &quot;position: &quot; + computed.position;
+    });
+
+    document.getElementById(&quot;readInlineBtn&quot;).addEventListener(&quot;click&quot;, function() {
+      results.innerHTML =
+        &quot;&lt;strong&gt;element.style (inline only):&lt;/strong&gt;&lt;br&gt;&quot; +
+        &quot;width: &#39;&quot; + box.style.width + &quot;&#39;&lt;br&gt;&quot; +
+        &quot;backgroundColor: &#39;&quot; + box.style.backgroundColor + &quot;&#39;&lt;br&gt;&quot; +
+        &quot;border: &#39;&quot; + box.style.border + &quot;&#39;&lt;br&gt;&quot; +
+        &quot;(Most are empty because styles come from the stylesheet, not inline)&quot;;
+    });
+
+    document.getElementById(&quot;addInlineBtn&quot;).addEventListener(&quot;click&quot;, function() {
+      box.style.border = &quot;3px solid #f59e0b&quot;;
+      results.innerHTML = &quot;Added inline border. Now element.style.border = &#39;&quot; + box.style.border + &quot;&#39;&quot;;
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This demo shows the critical difference between <code>element.style</code> and <code>getComputedStyle()</code>. element.style only shows inline styles (most are empty because styles come from the stylesheet). getComputedStyle shows the actual computed values from all CSS sources, returned in resolved units (px, rgb).</div><div class="code-example-output">A styled box with buttons to read computed styles (shows all values), read inline styles (mostly empty), and add an inline border.</div></div>
+<div class="code-example"><div class="code-example-title">Progress Bar with JavaScript Control</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .progress-container {
+      width: 100%; max-width: 400px;
+      height: 24px; background: #e5e7eb;
+      border-radius: 12px; overflow: hidden;
+      margin: 16px 0;
+    }
+    .progress-fill {
+      height: 100%; width: 0%;
+      background: linear-gradient(to right, #a855f7, #06b6d4);
+      border-radius: 12px;
+      transition: width 0.3s ease;
+      display: flex; align-items: center; justify-content: center;
+      color: white; font-size: 12px; font-weight: bold;
+      min-width: 30px;
+    }
+    button { padding: 8px 16px; margin: 4px; cursor: pointer; border: 1px solid #ddd; border-radius: 6px; }
+    .controls { margin-top: 12px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Progress Bar&lt;/h2&gt;
+  &lt;div class=&quot;progress-container&quot;&gt;
+    &lt;div class=&quot;progress-fill&quot; id=&quot;fill&quot;&gt;0%&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;controls&quot;&gt;
+    &lt;button id=&quot;minus10&quot;&gt;-10%&lt;/button&gt;
+    &lt;button id=&quot;plus10&quot;&gt;+10%&lt;/button&gt;
+    &lt;button id=&quot;reset&quot;&gt;Reset&lt;/button&gt;
+    &lt;button id=&quot;auto&quot;&gt;Auto Fill&lt;/button&gt;
+  &lt;/div&gt;
+
+  &lt;script&gt;
+    const fill = document.getElementById(&quot;fill&quot;);
+    let progress = 0;
+
+    function updateBar() {
+      fill.style.width = progress + &quot;%&quot;;
+      fill.textContent = progress + &quot;%&quot;;
+    }
+
+    document.getElementById(&quot;plus10&quot;).addEventListener(&quot;click&quot;, function() {
+      progress = Math.min(100, progress + 10);
+      updateBar();
+    });
+
+    document.getElementById(&quot;minus10&quot;).addEventListener(&quot;click&quot;, function() {
+      progress = Math.max(0, progress - 10);
+      updateBar();
+    });
+
+    document.getElementById(&quot;reset&quot;).addEventListener(&quot;click&quot;, function() {
+      progress = 0;
+      updateBar();
+    });
+
+    document.getElementById(&quot;auto&quot;).addEventListener(&quot;click&quot;, function() {
+      progress = 0;
+      updateBar();
+      const interval = setInterval(function() {
+        progress += 5;
+        updateBar();
+        if (progress &gt;= 100) clearInterval(interval);
+      }, 200);
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The progress bar's width is controlled by setting <code>fill.style.width</code>. The CSS transition makes width changes animate smoothly. The "Auto Fill" button uses <code>setInterval</code> to incrementally increase the progress. <code>Math.min</code> and <code>Math.max</code> keep the value between 0 and 100.</div><div class="code-example-output">A gradient progress bar with +10%, -10%, Reset, and Auto Fill buttons. The bar animates smoothly when changing.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using element.style to Read Stylesheet Styles</h3>
+                <div class="wrong-code"><pre><code class="language-python">// CSS: #box { background-color: blue; }
+const box = document.getElementById(&quot;box&quot;);
+console.log(box.style.backgroundColor); // &quot;&quot; (empty!)</code></pre></div><div class="error-message">element.style only reads inline styles, not styles from stylesheets. It returns an empty string.</div><div class="correct-code"><pre><code class="language-python">const box = document.getElementById(&quot;box&quot;);
+const computed = getComputedStyle(box);
+console.log(computed.backgroundColor); // &quot;rgb(0, 0, 255)&quot;</code></pre></div><div class="mistake-explanation"><code>element.style</code> only reads inline styles (set via the style attribute or JS). Use <code>getComputedStyle(element)</code> to read the actual applied styles from all sources.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting that CSS Variables Need the -- Prefix</h3>
+                <div class="wrong-code"><pre><code class="language-python">root.style.setProperty(&quot;primary&quot;, &quot;#a855f7&quot;); // Missing --
+// Does not set a CSS variable</code></pre></div><div class="error-message">The property is set but not recognized as a CSS custom property. CSS variables must start with --.</div><div class="correct-code"><pre><code class="language-python">root.style.setProperty(&quot;--primary&quot;, &quot;#a855f7&quot;); // Correct</code></pre></div><div class="mistake-explanation">CSS custom properties must always start with <code>--</code>. Without the prefix, it is just a regular (invalid) CSS property that has no effect.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Animating Properties That Cannot Be Transitioned</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;style&gt;
+  .box { display: none; transition: display 0.5s; }
+  .box.visible { display: block; }
+&lt;/style&gt;
+/* The transition does not work -- display is not animatable */</code></pre></div><div class="error-message">The element appears/disappears instantly. The display property cannot be animated with CSS transitions.</div><div class="correct-code"><pre><code class="language-python">&lt;style&gt;
+  .box { opacity: 0; visibility: hidden; transition: opacity 0.5s, visibility 0.5s; }
+  .box.visible { opacity: 1; visibility: visible; }
+&lt;/style&gt;</code></pre></div><div class="mistake-explanation"><code>display</code> is not animatable. Use <code>opacity</code> and <code>visibility</code> instead for fade effects. Alternatively, use <code>transform: scale(0)</code> to <code>scale(1)</code> for shrink/grow effects.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Setting style.cssText Replaces All Inline Styles</h3>
+                <div class="wrong-code"><pre><code class="language-python">const el = document.getElementById(&quot;box&quot;);
+el.style.color = &quot;red&quot;;
+el.style.fontSize = &quot;20px&quot;;
+el.style.cssText = &quot;background: blue;&quot;; // Destroys color and fontSize!</code></pre></div><div class="error-message">After setting cssText, only background: blue remains. The color and fontSize are gone.</div><div class="correct-code"><pre><code class="language-python">// Option 1: Set individual properties
+el.style.backgroundColor = &quot;blue&quot;;
+
+// Option 2: Include all properties in cssText
+el.style.cssText = &quot;color: red; font-size: 20px; background: blue;&quot;;</code></pre></div><div class="mistake-explanation"><code>cssText</code> replaces the entire inline style. It does not append. Either set individual properties or include all desired properties in the cssText string.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>element.style.property sets inline CSS styles. Use camelCase: background-color becomes backgroundColor, font-size becomes fontSize.</li>
+<li>element.style only reads INLINE styles. Use getComputedStyle(element) to read the actual applied styles from all CSS sources (stylesheets, inherited, defaults).</li>
+<li>classList.add/remove/toggle/contains is the preferred way to manage styles. Define styles in CSS, toggle classes in JS. This keeps style logic in CSS and behavior logic in JS.</li>
+<li>classList.replace(&#39;old&#39;, &#39;new&#39;) swaps one class for another in a single operation.</li>
+<li>CSS custom properties (variables) are defined with -- prefix on :root. Change them with document.documentElement.style.setProperty(&#39;--name&#39;, &#39;value&#39;). All elements using that variable update automatically.</li>
+<li>Read CSS variables with getComputedStyle(root).getPropertyValue(&#39;--name&#39;).</li>
+<li>CSS transitions handle smooth animations. JavaScript just toggles classes; CSS handles the animation timing, easing, and duration.</li>
+<li>window.scrollY gives the current vertical scroll position. Use the scroll event to add/remove classes based on scroll position (sticky navbars, scroll-to-top buttons, progress bars).</li>
+<li>getComputedStyle returns values in resolved units: px for sizes, rgb() for colors, even if the original CSS used em, %, hex, or named colors.</li>
+<li>style.cssText replaces ALL inline styles. Set individual properties when you want to preserve existing inline styles.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/forms-and-validation" class="related-topic-link">Forms and Input Validation</a>
+<a href="/resources/javascript/project-interactive-quiz-app" class="related-topic-link">Project: Build an Interactive Quiz App</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/forms-and-validation" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Forms and Input Validation</span>
+        </a>
+            <a href="/resources/javascript/project-interactive-quiz-app" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Project: Build an Interactive Quiz App</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/css-manipulation-with-javascript/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

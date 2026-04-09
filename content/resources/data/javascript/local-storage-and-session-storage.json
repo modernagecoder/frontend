@@ -1,0 +1,651 @@
+{
+  "title": "Local Storage and Session Storage",
+  "slug": "local-storage-and-session-storage",
+  "language": "javascript",
+  "chapter": 21,
+  "difficulty": "Advanced",
+  "readingTime": "50 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 50,
+  "seo": {
+    "title": "Local Storage and Session Storage in JavaScript - Save Data in the Browser | Modern Age Coders",
+    "description": "Learn JavaScript localStorage and sessionStorage to save data in the browser. Covers setItem, getItem, removeItem, clear, JSON.stringify/parse, dark mode persistence, form drafts, notes app, and storage limits. Includes 54+ practice questions with coding challenges.",
+    "keywords": "javascript localstorage, sessionstorage javascript, web storage api, localstorage setitem getitem, save data browser javascript, javascript dark mode localstorage, json stringify parse localstorage, javascript persist data, web storage tutorial, localstorage vs sessionstorage"
+  },
+  "content": {
+    "what": "<h2>What Is Web Storage?</h2><p>Web Storage is a way for your website to save data directly in the user's browser. Think of it like a small notebook that the browser keeps for your website. When Aarav visits your site and picks dark mode, you can save that choice. Next time he visits, you read the notebook and apply dark mode automatically.</p><p>There are two types of Web Storage:</p><ul><li><strong>localStorage</strong> -- data stays forever (until you or the user deletes it). Even if Aarav closes the browser and reopens it next week, the data is still there.</li><li><strong>sessionStorage</strong> -- data stays only for the current tab session. If Aarav closes the tab, the data is gone. Opening a new tab starts a fresh session.</li></ul><pre><code>// Save something to localStorage\nlocalStorage.setItem(\"username\", \"Aarav\");\n\n// Read it back\nconst name = localStorage.getItem(\"username\");\nconsole.log(name); // \"Aarav\"\n\n// This data survives browser restarts!</code></pre><p>Web Storage is different from cookies. It is simpler, holds more data (~5MB vs 4KB for cookies), and is never sent to the server automatically. It stays in the browser only.</p>",
+    "why": "<h2>Why Learn Web Storage?</h2><h3>1. Make Your Apps Remember Things</h3><p>Without storage, every time a user refreshes the page, everything resets. Their preferences, their form data, their progress -- all gone. Web Storage lets your app remember things between visits. A to-do app that forgets all tasks on refresh is useless. With localStorage, tasks persist.</p><h3>2. Better User Experience</h3><p>When Priya picks dark mode on your site, she does not want to pick it again tomorrow. When Rohan fills half a form and accidentally refreshes, he does not want to start over. Web Storage solves these problems and makes your app feel professional.</p><h3>3. It Is Simple to Use</h3><p>Unlike databases or server-side storage, localStorage has just 4 methods: <code>setItem</code>, <code>getItem</code>, <code>removeItem</code>, and <code>clear</code>. You can learn the basics in 10 minutes and start using it immediately.</p><h3>4. Essential for Projects</h3><p>Almost every JavaScript project needs some form of data persistence. In the next chapter, you will build a complete to-do app that saves tasks to localStorage. Understanding Web Storage is a prerequisite for building anything that remembers user data.</p><h3>5. Interview Favorite</h3><p>\"What is the difference between localStorage and sessionStorage?\" is one of the most common frontend interview questions. Understanding storage also helps you understand cookies, IndexedDB, and how real apps manage client-side data.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. localStorage Basics</h3><p>localStorage stores data as key-value pairs, where both the key and value are <strong>strings</strong>. It has 4 main methods:</p><pre><code>// SET -- save a value\nlocalStorage.setItem(\"theme\", \"dark\");\nlocalStorage.setItem(\"fontSize\", \"16\");\n\n// GET -- read a value\nconst theme = localStorage.getItem(\"theme\");\nconsole.log(theme); // \"dark\"\n\n// REMOVE -- delete one key\nlocalStorage.removeItem(\"fontSize\");\n\n// CLEAR -- delete everything\nlocalStorage.clear();</code></pre><p>You can also use bracket notation like an object:</p><pre><code>// These also work, but setItem/getItem is preferred\nlocalStorage[\"theme\"] = \"dark\";\nconsole.log(localStorage[\"theme\"]); // \"dark\"</code></pre><h3>2. sessionStorage Works the Same Way</h3><p>sessionStorage has the exact same API as localStorage. The only difference is how long data lasts:</p><pre><code>// Save to sessionStorage\nsessionStorage.setItem(\"currentStep\", \"3\");\n\n// Read from sessionStorage\nconst step = sessionStorage.getItem(\"currentStep\");\nconsole.log(step); // \"3\"\n\n// This data disappears when the tab is closed</code></pre><table><tr><th>Feature</th><th>localStorage</th><th>sessionStorage</th></tr><tr><td>Persists after tab close?</td><td>Yes</td><td>No</td></tr><tr><td>Persists after browser close?</td><td>Yes</td><td>No</td></tr><tr><td>Shared between tabs?</td><td>Yes (same origin)</td><td>No (per tab)</td></tr><tr><td>Storage limit</td><td>~5MB</td><td>~5MB</td></tr><tr><td>Sent to server?</td><td>No</td><td>No</td></tr></table><h3>3. Everything Is a String</h3><p>This is the most important thing to understand. localStorage only stores strings. If you store a number, it becomes a string. If you store a boolean, it becomes a string.</p><pre><code>localStorage.setItem(\"score\", 42);\nconst score = localStorage.getItem(\"score\");\nconsole.log(score);        // \"42\" -- it is a string!\nconsole.log(typeof score);  // \"string\"\n\n// You need to convert it back to a number\nconst realScore = Number(score);\nconsole.log(realScore + 1); // 43</code></pre><h3>4. Storing Objects and Arrays with JSON</h3><p>Since localStorage only stores strings, you cannot directly save an object or array. You must convert it to a JSON string first with <code>JSON.stringify()</code>, and parse it back with <code>JSON.parse()</code> when reading:</p><pre><code>// Saving an object\nconst user = { name: \"Aarav\", age: 15, darkMode: true };\nlocalStorage.setItem(\"user\", JSON.stringify(user));\n\n// Reading it back\nconst savedUser = JSON.parse(localStorage.getItem(\"user\"));\nconsole.log(savedUser.name);     // \"Aarav\"\nconsole.log(savedUser.darkMode); // true (a real boolean, not a string)\n\n// Saving an array\nconst tasks = [\"Math homework\", \"Read chapter 5\", \"Practice coding\"];\nlocalStorage.setItem(\"tasks\", JSON.stringify(tasks));\n\n// Reading it back\nconst savedTasks = JSON.parse(localStorage.getItem(\"tasks\"));\nconsole.log(savedTasks.length); // 3\nconsole.log(savedTasks[0]);     // \"Math homework\"</code></pre><p>This pattern -- <code>JSON.stringify</code> when saving, <code>JSON.parse</code> when loading -- is the most common pattern when working with localStorage.</p><h3>5. Checking If Data Exists</h3><p>When you try to get a key that does not exist, <code>getItem</code> returns <code>null</code>. You should always check for this:</p><pre><code>const savedTheme = localStorage.getItem(\"theme\");\n\nif (savedTheme !== null) {\n  console.log(\"Found saved theme:\", savedTheme);\n} else {\n  console.log(\"No theme saved, using default\");\n}\n\n// Common pattern: use a default value\nconst theme = localStorage.getItem(\"theme\") || \"light\";\nconsole.log(theme); // \"light\" if nothing was saved</code></pre><p>For arrays and objects, always check before parsing:</p><pre><code>const raw = localStorage.getItem(\"tasks\");\nconst tasks = raw ? JSON.parse(raw) : [];\n// If nothing saved, start with an empty array</code></pre><h3>6. Practical Example: Dark Mode Toggle</h3><p>Here is a real example that saves the user's theme preference:</p><pre><code>// On page load, check for saved preference\nconst savedTheme = localStorage.getItem(\"theme\");\nif (savedTheme === \"dark\") {\n  document.body.classList.add(\"dark-mode\");\n}\n\n// When the toggle button is clicked\nconst toggleBtn = document.getElementById(\"themeToggle\");\ntoggleBtn.addEventListener(\"click\", function() {\n  document.body.classList.toggle(\"dark-mode\");\n\n  // Save the current state\n  if (document.body.classList.contains(\"dark-mode\")) {\n    localStorage.setItem(\"theme\", \"dark\");\n  } else {\n    localStorage.setItem(\"theme\", \"light\");\n  }\n});</code></pre><h3>7. Practical Example: Remember Username</h3><pre><code>const usernameInput = document.getElementById(\"username\");\nconst saveBtn = document.getElementById(\"saveBtn\");\n\n// Load saved username on page load\nconst savedName = localStorage.getItem(\"username\");\nif (savedName) {\n  usernameInput.value = savedName;\n}\n\n// Save when button is clicked\nsaveBtn.addEventListener(\"click\", function() {\n  localStorage.setItem(\"username\", usernameInput.value);\n  alert(\"Username saved!\");\n});</code></pre><h3>8. Practical Example: Auto-Save Form Draft</h3><pre><code>const form = document.getElementById(\"feedbackForm\");\nconst textarea = document.getElementById(\"feedback\");\n\n// Load saved draft\nconst draft = localStorage.getItem(\"feedbackDraft\");\nif (draft) {\n  textarea.value = draft;\n}\n\n// Auto-save as user types\ntextarea.addEventListener(\"input\", function() {\n  localStorage.setItem(\"feedbackDraft\", textarea.value);\n});\n\n// Clear draft when form is submitted\nform.addEventListener(\"submit\", function() {\n  localStorage.removeItem(\"feedbackDraft\");\n});</code></pre><h3>9. The storage Event</h3><p>When localStorage changes in another tab (same origin), the other tabs receive a <code>storage</code> event. This lets you sync data across tabs:</p><pre><code>// This fires when localStorage changes in ANOTHER tab\nwindow.addEventListener(\"storage\", function(event) {\n  console.log(\"Key changed:\", event.key);\n  console.log(\"Old value:\", event.oldValue);\n  console.log(\"New value:\", event.newValue);\n\n  // Example: sync dark mode across tabs\n  if (event.key === \"theme\") {\n    if (event.newValue === \"dark\") {\n      document.body.classList.add(\"dark-mode\");\n    } else {\n      document.body.classList.remove(\"dark-mode\");\n    }\n  }\n});</code></pre><p>Note: the storage event does NOT fire in the tab that made the change. It only fires in other tabs of the same origin.</p><h3>10. Storage Limits and Best Practices</h3><p>Each origin (like <code>learn.modernagecoders.com</code>) gets about 5MB of localStorage. That is enough for preferences, small datasets, and app state, but not for large files or images.</p><pre><code>// Check how much storage is being used (approximate)\nlet totalSize = 0;\nfor (let i = 0; i < localStorage.length; i++) {\n  const key = localStorage.key(i);\n  const value = localStorage.getItem(key);\n  totalSize += key.length + value.length;\n}\nconsole.log(\"Storage used:\", (totalSize / 1024).toFixed(2), \"KB\");\nconsole.log(\"Total keys:\", localStorage.length);</code></pre><p>Best practices:</p><ul><li>Always use <code>JSON.stringify/parse</code> for non-string data</li><li>Always check if <code>getItem</code> returns null before using the value</li><li>Use try-catch when parsing JSON (in case of corrupt data)</li><li>Clear old data you no longer need</li><li>Do not store sensitive information (passwords, tokens) in localStorage -- it is not encrypted</li></ul>"
+  ,
+  "codeExamples": [
+    {
+      "title": "localStorage: Set, Get, Remove, Clear",
+      "code": "// SET -- save values\nlocalStorage.setItem(\"name\", \"Aarav\");\nlocalStorage.setItem(\"age\", \"15\");\nlocalStorage.setItem(\"school\", \"DPS Noida\");\nconsole.log(\"Saved 3 items\");\n\n// GET -- read values\nconsole.log(localStorage.getItem(\"name\"));   // \"Aarav\"\nconsole.log(localStorage.getItem(\"age\"));    // \"15\" (string!)\nconsole.log(localStorage.getItem(\"city\"));   // null (does not exist)\n\n// LENGTH -- how many items\nconsole.log(\"Total items:\", localStorage.length); // 3\n\n// KEY -- get key by index\nconsole.log(\"First key:\", localStorage.key(0));\n\n// REMOVE -- delete one item\nlocalStorage.removeItem(\"school\");\nconsole.log(\"After remove:\", localStorage.length); // 2\n\n// CLEAR -- delete everything\nlocalStorage.clear();\nconsole.log(\"After clear:\", localStorage.length); // 0",
+      "language": "javascript",
+      "explanation": "These are the 4 core methods of localStorage: <code>setItem(key, value)</code> saves data, <code>getItem(key)</code> reads it, <code>removeItem(key)</code> deletes one item, and <code>clear()</code> deletes everything. The <code>length</code> property tells you how many items are stored, and <code>key(index)</code> returns the key name at a given position.",
+      "output": "Saved 3 items\nAarav\n15\nnull\nTotal items: 3\nFirst key: name\nAfter remove: 2\nAfter clear: 0"
+    },
+    {
+      "title": "Storing Objects and Arrays with JSON",
+      "code": "// Store an object\nconst student = {\n  name: \"Priya\",\n  grade: 10,\n  subjects: [\"Maths\", \"Science\", \"English\"],\n  scores: { maths: 95, science: 88, english: 92 }\n};\n\nlocalStorage.setItem(\"student\", JSON.stringify(student));\n\n// Read it back\nconst raw = localStorage.getItem(\"student\");\nconsole.log(typeof raw);       // \"string\"\nconsole.log(raw);              // '{\"name\":\"Priya\",...}'\n\nconst parsed = JSON.parse(raw);\nconsole.log(parsed.name);       // \"Priya\"\nconsole.log(parsed.subjects);   // [\"Maths\", \"Science\", \"English\"]\nconsole.log(parsed.scores.maths); // 95\n\n// Store an array of tasks\nconst tasks = [\n  { text: \"Finish homework\", done: false },\n  { text: \"Practice JavaScript\", done: true },\n  { text: \"Read chapter 21\", done: false }\n];\n\nlocalStorage.setItem(\"tasks\", JSON.stringify(tasks));\n\n// Read and use the array\nconst savedTasks = JSON.parse(localStorage.getItem(\"tasks\"));\nconsole.log(\"Total tasks:\", savedTasks.length);\nsavedTasks.forEach(function(task) {\n  const status = task.done ? \"[x]\" : \"[ ]\";\n  console.log(status + \" \" + task.text);\n});",
+      "language": "javascript",
+      "explanation": "<code>JSON.stringify()</code> converts objects and arrays into a JSON string that localStorage can store. <code>JSON.parse()</code> converts the string back into a real JavaScript object or array. This is the standard pattern for storing any non-string data.",
+      "output": "string\n{\"name\":\"Priya\",\"grade\":10,\"subjects\":[\"Maths\",\"Science\",\"English\"],\"scores\":{\"maths\":95,\"science\":88,\"english\":92}}\nPriya\n[\"Maths\", \"Science\", \"English\"]\n95\nTotal tasks: 3\n[ ] Finish homework\n[x] Practice JavaScript\n[ ] Read chapter 21"
+    },
+    {
+      "title": "Safe Reading with Null Checks and Defaults",
+      "code": "// Pattern 1: Check for null\nconst savedTheme = localStorage.getItem(\"theme\");\nif (savedTheme !== null) {\n  console.log(\"Theme found:\", savedTheme);\n} else {\n  console.log(\"No theme saved\");\n}\n\n// Pattern 2: Use || for default values (strings)\nconst theme = localStorage.getItem(\"theme\") || \"light\";\nconsole.log(\"Using theme:\", theme);\n\n// Pattern 3: Safe JSON parsing with try-catch\nfunction loadFromStorage(key, defaultValue) {\n  try {\n    const raw = localStorage.getItem(key);\n    if (raw === null) return defaultValue;\n    return JSON.parse(raw);\n  } catch (error) {\n    console.log(\"Error parsing \" + key + \":\", error.message);\n    return defaultValue;\n  }\n}\n\n// Usage\nconst tasks = loadFromStorage(\"tasks\", []);\nconsole.log(\"Tasks:\", tasks); // [] if nothing saved\n\nconst settings = loadFromStorage(\"settings\", { volume: 50, muted: false });\nconsole.log(\"Settings:\", settings);\n\n// Pattern 4: Check if a specific key exists\nfunction hasKey(key) {\n  return localStorage.getItem(key) !== null;\n}\nconsole.log(\"Has theme?\", hasKey(\"theme\")); // false\nlocalStorage.setItem(\"theme\", \"dark\");\nconsole.log(\"Has theme?\", hasKey(\"theme\")); // true",
+      "language": "javascript",
+      "explanation": "Always check if <code>getItem</code> returns null before using the value. For JSON data, wrap <code>JSON.parse</code> in a try-catch because corrupt or invalid data would throw an error. The <code>loadFromStorage</code> helper function handles all edge cases and returns a safe default value.",
+      "output": "No theme saved\nUsing theme: light\nTasks: []\nSettings: { volume: 50, muted: false }\nHas theme? false\nHas theme? true"
+    },
+    {
+      "title": "Dark Mode Toggle with localStorage",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Dark Mode Toggle</title>\n  <style>\n    body {\n      font-family: Arial, sans-serif;\n      background: #f0f0f0; color: #222;\n      transition: background 0.3s, color 0.3s;\n      padding: 40px; text-align: center;\n    }\n    body.dark-mode {\n      background: #1a1a2e; color: #e2e8f0;\n    }\n    .toggle-btn {\n      padding: 12px 24px; font-size: 16px;\n      border: 2px solid #a855f7; border-radius: 8px;\n      background: transparent; color: inherit;\n      cursor: pointer; margin-top: 20px;\n    }\n    .toggle-btn:hover { background: #a855f7; color: white; }\n  </style>\n</head>\n<body>\n  <h1>Dark Mode Demo</h1>\n  <p>Your preference is saved in localStorage.</p>\n  <button class=\"toggle-btn\" id=\"themeToggle\">Toggle Dark Mode</button>\n\n  <script>\n    // Load saved preference on page load\n    const savedTheme = localStorage.getItem(\"theme\");\n    if (savedTheme === \"dark\") {\n      document.body.classList.add(\"dark-mode\");\n    }\n\n    // Toggle on button click\n    document.getElementById(\"themeToggle\").addEventListener(\"click\", function() {\n      document.body.classList.toggle(\"dark-mode\");\n      const isDark = document.body.classList.contains(\"dark-mode\");\n      localStorage.setItem(\"theme\", isDark ? \"dark\" : \"light\");\n      console.log(\"Theme saved:\", isDark ? \"dark\" : \"light\");\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "On page load, we check localStorage for a saved theme and apply it. When the user clicks the toggle button, we switch the class and save the new preference. Next time the user visits, the preference is automatically applied. This is one of the most common uses of localStorage.",
+      "output": "Page loads with the user's saved theme preference. Clicking the button toggles between light and dark mode, and the choice persists across page refreshes."
+    },
+    {
+      "title": "Auto-Save Form Draft",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Auto-Save Draft</title>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 40px; background: #1a1a2e; color: #e2e8f0; }\n    textarea { width: 100%; height: 150px; padding: 12px; font-size: 16px; border-radius: 8px;\n      border: 2px solid #334155; background: #0f172a; color: #e2e8f0; resize: vertical; }\n    button { margin-top: 12px; padding: 10px 24px; font-size: 16px; border: none;\n      border-radius: 8px; cursor: pointer; }\n    .save-status { color: #10b981; font-size: 14px; margin-top: 8px; }\n    .submit-btn { background: #a855f7; color: white; }\n    .clear-btn { background: #ef4444; color: white; margin-left: 8px; }\n  </style>\n</head>\n<body>\n  <h2>Feedback Form (Auto-Saves)</h2>\n  <textarea id=\"feedback\" placeholder=\"Type your feedback here...\"></textarea>\n  <p class=\"save-status\" id=\"status\"></p>\n  <button class=\"submit-btn\" id=\"submitBtn\">Submit</button>\n  <button class=\"clear-btn\" id=\"clearBtn\">Clear Draft</button>\n\n  <script>\n    const textarea = document.getElementById(\"feedback\");\n    const status = document.getElementById(\"status\");\n\n    // Load saved draft\n    const draft = localStorage.getItem(\"feedbackDraft\");\n    if (draft) {\n      textarea.value = draft;\n      status.textContent = \"Draft restored from last session.\";\n    }\n\n    // Auto-save as user types\n    textarea.addEventListener(\"input\", function() {\n      localStorage.setItem(\"feedbackDraft\", textarea.value);\n      status.textContent = \"Draft saved.\";\n    });\n\n    // Clear draft on submit\n    document.getElementById(\"submitBtn\").addEventListener(\"click\", function() {\n      localStorage.removeItem(\"feedbackDraft\");\n      status.textContent = \"Submitted! Draft cleared.\";\n      textarea.value = \"\";\n    });\n\n    // Clear draft manually\n    document.getElementById(\"clearBtn\").addEventListener(\"click\", function() {\n      localStorage.removeItem(\"feedbackDraft\");\n      textarea.value = \"\";\n      status.textContent = \"Draft cleared.\";\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "Every time the user types, the textarea content is saved to localStorage. If the user accidentally closes the tab or refreshes, the draft is restored on page load. When the form is submitted, the draft is cleared. This pattern prevents data loss and is used in many real applications.",
+      "output": "Typing in the textarea auto-saves the draft. Refreshing the page restores the draft. Submit or Clear buttons remove the saved draft."
+    },
+    {
+      "title": "Simple Notes App with localStorage",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Notes App</title>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 40px; background: #1a1a2e; color: #e2e8f0; max-width: 600px; margin: 0 auto; }\n    input { width: 70%; padding: 10px; font-size: 16px; border-radius: 8px; border: 2px solid #334155; background: #0f172a; color: #e2e8f0; }\n    button { padding: 10px 20px; font-size: 16px; border: none; border-radius: 8px; cursor: pointer; }\n    .add-btn { background: #a855f7; color: white; }\n    .note { background: #16213e; padding: 12px 16px; margin: 8px 0; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; }\n    .delete-btn { background: #ef4444; color: white; border: none; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 14px; }\n    .count { color: #94a3b8; margin-top: 16px; }\n  </style>\n</head>\n<body>\n  <h2>My Notes</h2>\n  <div>\n    <input id=\"noteInput\" type=\"text\" placeholder=\"Write a note...\">\n    <button class=\"add-btn\" id=\"addBtn\">Add</button>\n  </div>\n  <div id=\"notesList\"></div>\n  <p class=\"count\" id=\"count\"></p>\n\n  <script>\n    // Load notes from localStorage\n    function loadNotes() {\n      const raw = localStorage.getItem(\"notes\");\n      return raw ? JSON.parse(raw) : [];\n    }\n\n    // Save notes to localStorage\n    function saveNotes(notes) {\n      localStorage.setItem(\"notes\", JSON.stringify(notes));\n    }\n\n    // Render all notes on the page\n    function renderNotes() {\n      const notes = loadNotes();\n      const list = document.getElementById(\"notesList\");\n      list.innerHTML = \"\";\n\n      notes.forEach(function(note, index) {\n        const div = document.createElement(\"div\");\n        div.classList.add(\"note\");\n        div.innerHTML = '<span>' + note + '</span>' +\n          '<button class=\"delete-btn\" data-index=\"' + index + '\">Delete</button>';\n        list.appendChild(div);\n      });\n\n      document.getElementById(\"count\").textContent = notes.length + \" note(s) saved\";\n\n      // Attach delete listeners\n      list.querySelectorAll(\".delete-btn\").forEach(function(btn) {\n        btn.addEventListener(\"click\", function() {\n          deleteNote(Number(btn.dataset.index));\n        });\n      });\n    }\n\n    // Add a new note\n    function addNote() {\n      const input = document.getElementById(\"noteInput\");\n      const text = input.value.trim();\n      if (text === \"\") return;\n\n      const notes = loadNotes();\n      notes.push(text);\n      saveNotes(notes);\n      input.value = \"\";\n      renderNotes();\n    }\n\n    // Delete a note by index\n    function deleteNote(index) {\n      const notes = loadNotes();\n      notes.splice(index, 1);\n      saveNotes(notes);\n      renderNotes();\n    }\n\n    // Event listeners\n    document.getElementById(\"addBtn\").addEventListener(\"click\", addNote);\n    document.getElementById(\"noteInput\").addEventListener(\"keydown\", function(e) {\n      if (e.key === \"Enter\") addNote();\n    });\n\n    // Initial render\n    renderNotes();\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "This notes app uses the full localStorage workflow: load existing notes on page start, add new notes and save them, delete notes and save the updated list. The <code>loadNotes</code> function handles the null check and JSON parsing. The <code>saveNotes</code> function handles JSON.stringify. All notes persist across page refreshes.",
+      "output": "A working notes app where you can add and delete notes. All notes are saved to localStorage and persist across page refreshes."
+    },
+    {
+      "title": "localStorage vs sessionStorage Comparison",
+      "code": "// --- localStorage: persists forever ---\nlocalStorage.setItem(\"permanent\", \"I survive browser restarts\");\n\n// --- sessionStorage: only current tab ---\nsessionStorage.setItem(\"temporary\", \"I disappear when the tab closes\");\n\n// Both have the same API\nconsole.log(localStorage.getItem(\"permanent\"));   // \"I survive...\"\nconsole.log(sessionStorage.getItem(\"temporary\")); // \"I disappear...\"\n\n// Both store strings only\nlocalStorage.setItem(\"num\", 42);\nconsole.log(typeof localStorage.getItem(\"num\")); // \"string\"\n\nsessionStorage.setItem(\"arr\", JSON.stringify([1, 2, 3]));\nconst arr = JSON.parse(sessionStorage.getItem(\"arr\"));\nconsole.log(arr); // [1, 2, 3]\n\n// sessionStorage is useful for:\n// - Multi-step forms (save progress for THIS session only)\n// - One-time notifications (\"Welcome!\" shown once per visit)\n// - Temporary UI state (which tab is open)\n\n// localStorage is useful for:\n// - User preferences (dark mode, language)\n// - Saved data (notes, to-do lists)\n// - Authentication tokens (though be careful with security)\n\n// Check storage sizes\nconsole.log(\"localStorage items:\", localStorage.length);\nconsole.log(\"sessionStorage items:\", sessionStorage.length);",
+      "language": "javascript",
+      "explanation": "Both localStorage and sessionStorage share the same 4-method API. The key difference is persistence: localStorage data survives forever until explicitly deleted, while sessionStorage data is cleared when the tab closes. Use localStorage for user preferences and saved data. Use sessionStorage for temporary per-session state.",
+      "output": "I survive browser restarts\nI disappear when the tab closes\nstring\n[1, 2, 3]\nlocalStorage items: 2\nsessionStorage items: 1"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Forgetting That localStorage Stores Strings Only",
+      "wrongCode": "localStorage.setItem(\"score\", 42);\nconst score = localStorage.getItem(\"score\");\nconsole.log(score + 1);    // \"421\" -- string concatenation!\nconsole.log(score === 42); // false -- comparing string to number",
+      "error": "No error thrown, but \"421\" instead of 43. The value is a string, not a number.",
+      "correctCode": "localStorage.setItem(\"score\", 42);\nconst score = Number(localStorage.getItem(\"score\"));\nconsole.log(score + 1);    // 43\nconsole.log(score === 42); // true",
+      "explanation": "localStorage always returns strings. If you stored a number, convert it back with <code>Number()</code> or <code>parseInt()</code>. If you stored an object or array, use <code>JSON.parse()</code>."
+    },
+    {
+      "title": "Storing an Object Without JSON.stringify",
+      "wrongCode": "const user = { name: \"Aarav\", age: 15 };\nlocalStorage.setItem(\"user\", user);\n\nconst saved = localStorage.getItem(\"user\");\nconsole.log(saved);       // \"[object Object]\" -- useless!\nconsole.log(saved.name);  // undefined",
+      "error": "The object is converted to the string \"[object Object]\" and the actual data is lost.",
+      "correctCode": "const user = { name: \"Aarav\", age: 15 };\nlocalStorage.setItem(\"user\", JSON.stringify(user));\n\nconst saved = JSON.parse(localStorage.getItem(\"user\"));\nconsole.log(saved);       // { name: \"Aarav\", age: 15 }\nconsole.log(saved.name);  // \"Aarav\"",
+      "explanation": "Objects must be converted to a JSON string with <code>JSON.stringify()</code> before saving. When reading, convert back with <code>JSON.parse()</code>. Without this, JavaScript calls <code>.toString()</code> on the object, which gives the useless string <code>[object Object]</code>."
+    },
+    {
+      "title": "Not Checking for null Before Using getItem",
+      "wrongCode": "const tasks = JSON.parse(localStorage.getItem(\"tasks\"));\ntasks.push(\"New task\"); // TypeError: Cannot read property 'push' of null",
+      "error": "TypeError: Cannot read properties of null (reading 'push'). getItem returns null when the key does not exist, and JSON.parse(null) returns null.",
+      "correctCode": "const raw = localStorage.getItem(\"tasks\");\nconst tasks = raw ? JSON.parse(raw) : [];\ntasks.push(\"New task\"); // Works! Starts with empty array if nothing saved",
+      "explanation": "Always check if <code>getItem</code> returns null before parsing. A common pattern is: <code>const data = raw ? JSON.parse(raw) : defaultValue</code>. This ensures your code works even when nothing has been saved yet."
+    },
+    {
+      "title": "Using sessionStorage When You Need Persistence",
+      "wrongCode": "// Saving user preference to sessionStorage\nsessionStorage.setItem(\"theme\", \"dark\");\n// User closes the tab and reopens -- theme preference is GONE",
+      "error": "No error, but the data disappears when the tab is closed. The user has to set their preference every time.",
+      "correctCode": "// Use localStorage for data that should persist\nlocalStorage.setItem(\"theme\", \"dark\");\n// User closes the browser and reopens -- theme preference is still there",
+      "explanation": "sessionStorage is cleared when the tab closes. If you want data to persist across sessions (like user preferences, saved notes, or to-do lists), use localStorage instead. Use sessionStorage only for temporary data that should not survive beyond the current visit."
+    },
+    {
+      "title": "Trying to Store Functions or DOM Elements",
+      "wrongCode": "// Storing a function\nconst greet = function() { return \"Hello\"; };\nlocalStorage.setItem(\"fn\", JSON.stringify(greet));\nconsole.log(localStorage.getItem(\"fn\")); // undefined or empty\n\n// Storing a DOM element\nconst div = document.createElement(\"div\");\nlocalStorage.setItem(\"element\", JSON.stringify(div));\nconsole.log(localStorage.getItem(\"element\")); // {} -- empty object",
+      "error": "Functions cannot be serialized to JSON. DOM elements serialize to nearly empty objects. The data is lost.",
+      "correctCode": "// Store DATA, not functions or DOM elements\n// Store the configuration, not the function:\nlocalStorage.setItem(\"greetingType\", \"hello\");\n\n// Store the content, not the element:\nlocalStorage.setItem(\"divContent\", \"This is the text inside the div\");",
+      "explanation": "JSON.stringify only works with plain data: strings, numbers, booleans, arrays, and plain objects. Functions, DOM elements, Maps, Sets, and class instances cannot be properly serialized. Store the data that those things represent instead."
+    }
+  ],
+  "summary": [
+    "Web Storage (localStorage and sessionStorage) lets you save key-value pairs in the browser. Both have the same API: setItem, getItem, removeItem, and clear.",
+    "localStorage persists forever (until you delete it or the user clears browser data). sessionStorage is cleared when the tab is closed.",
+    "Both localStorage and sessionStorage only store strings. Numbers become strings, booleans become strings, everything becomes a string.",
+    "To store objects or arrays, use JSON.stringify() when saving and JSON.parse() when reading. This is the most important pattern for Web Storage.",
+    "getItem returns null when a key does not exist. Always check for null before using the value, especially before calling JSON.parse.",
+    "A safe loading pattern is: const data = raw ? JSON.parse(raw) : defaultValue. Wrap JSON.parse in try-catch for extra safety against corrupt data.",
+    "Common uses of localStorage: saving dark mode preference, remembering a username, auto-saving form drafts, building notes/to-do apps that persist, saving game progress.",
+    "The storage event fires in OTHER tabs (same origin) when localStorage changes. It does not fire in the tab that made the change. This enables cross-tab synchronization.",
+    "Storage limit is approximately 5MB per origin. Do not store large files or images. Do not store sensitive data like passwords -- localStorage is not encrypted.",
+    "sessionStorage is useful for temporary per-session data: multi-step form progress, one-time welcome messages, or temporary UI state that should reset on next visit."
+  ]
+  },
+  "relatedTopics": ["fetch-api-and-working-with-apis", "project-todo-app-with-storage"],
+  "practice": {
+    "totalQuestions": 50,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>localStorage.setItem(\"city\", \"Delhi\");\nconsole.log(localStorage.getItem(\"city\"));</code></pre>",
+        "hint": "setItem saves the value, getItem retrieves it.",
+        "answer": "<code>Delhi</code>",
+        "explanation": "<code>setItem</code> stores the key \"city\" with value \"Delhi\". <code>getItem</code> retrieves it and returns the string \"Delhi\"."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>localStorage.setItem(\"score\", 95);\nconst score = localStorage.getItem(\"score\");\nconsole.log(typeof score);\nconsole.log(score);</code></pre>",
+        "hint": "localStorage stores everything as strings.",
+        "answer": "<code>string</code><br><code>95</code>",
+        "explanation": "Even though we stored the number 95, localStorage converts it to the string \"95\". <code>typeof</code> confirms it is a string."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(localStorage.getItem(\"nonexistent\"));</code></pre>",
+        "hint": "What does getItem return when the key does not exist?",
+        "answer": "<code>null</code>",
+        "explanation": "When a key does not exist in localStorage, <code>getItem</code> returns <code>null</code>, not undefined or an empty string."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>localStorage.setItem(\"a\", \"1\");\nlocalStorage.setItem(\"b\", \"2\");\nlocalStorage.setItem(\"c\", \"3\");\nconsole.log(localStorage.length);\nlocalStorage.removeItem(\"b\");\nconsole.log(localStorage.length);\nlocalStorage.clear();\nconsole.log(localStorage.length);</code></pre>",
+        "hint": "length tells you how many items are stored. removeItem removes one, clear removes all.",
+        "answer": "<code>3</code><br><code>2</code><br><code>0</code>",
+        "explanation": "After setting 3 items, length is 3. After removing \"b\", length is 2. After clear(), length is 0."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>localStorage.setItem(\"score\", 42);\nconst score = localStorage.getItem(\"score\");\nconsole.log(score + 1);</code></pre>",
+        "hint": "score is a string. What happens when you add 1 to a string?",
+        "answer": "<code>421</code>",
+        "explanation": "Since localStorage returns strings, <code>score</code> is \"42\" (a string). Adding 1 to a string causes string concatenation: \"42\" + 1 = \"421\". To get 43, use <code>Number(score) + 1</code>."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const arr = [10, 20, 30];\nlocalStorage.setItem(\"nums\", JSON.stringify(arr));\nconst saved = JSON.parse(localStorage.getItem(\"nums\"));\nconsole.log(saved.length);\nconsole.log(saved[1]);\nconsole.log(Array.isArray(saved));</code></pre>",
+        "hint": "JSON.stringify converts the array to a string. JSON.parse converts it back.",
+        "answer": "<code>3</code><br><code>20</code><br><code>true</code>",
+        "explanation": "The array is stored as the string \"[10,20,30]\". JSON.parse converts it back to a real array. It has length 3, index 1 is 20, and <code>Array.isArray</code> confirms it is a real array."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const user = { name: \"Aarav\", age: 15 };\nlocalStorage.setItem(\"user\", user);\nconsole.log(localStorage.getItem(\"user\"));</code></pre>",
+        "hint": "What happens when you save an object without JSON.stringify?",
+        "answer": "<code>[object Object]</code>",
+        "explanation": "Without <code>JSON.stringify</code>, the object's <code>.toString()</code> method is called, which returns the useless string \"[object Object]\". The actual data (name, age) is lost. Always use <code>JSON.stringify</code> for objects."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>localStorage.setItem(\"flag\", \"true\");\nconst flag = localStorage.getItem(\"flag\");\n\nif (flag) {\n  console.log(\"A\");\n}\n\nif (flag === true) {\n  console.log(\"B\");\n}\n\nif (flag === \"true\") {\n  console.log(\"C\");\n}</code></pre>",
+        "hint": "flag is the string \"true\", not the boolean true.",
+        "answer": "<code>A</code><br><code>C</code>",
+        "explanation": "The string \"true\" is truthy, so the first if prints A. <code>flag === true</code> is false because \"true\" (string) is not strictly equal to true (boolean). <code>flag === \"true\"</code> is true because both are the same string. B is NOT printed."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(JSON.parse(null));</code></pre>",
+        "hint": "What happens when you pass null to JSON.parse?",
+        "answer": "<code>null</code>",
+        "explanation": "<code>JSON.parse(null)</code> returns <code>null</code>. This means if getItem returns null (key not found) and you pass it directly to JSON.parse, you get null. You should check for null before parsing."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>localStorage.setItem(\"x\", \"10\");\nlocalStorage.setItem(\"x\", \"20\");\nconsole.log(localStorage.getItem(\"x\"));\nconsole.log(localStorage.length);</code></pre>",
+        "hint": "Setting the same key twice overwrites the value.",
+        "answer": "<code>20</code><br><code>1</code>",
+        "explanation": "Setting the same key again overwrites the previous value. The key \"x\" now holds \"20\". There is still only 1 item (not 2) because the key is the same."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const tasks = [\n  { text: \"Study\", done: false },\n  { text: \"Code\", done: true }\n];\nlocalStorage.setItem(\"tasks\", JSON.stringify(tasks));\n\nconst loaded = JSON.parse(localStorage.getItem(\"tasks\"));\nloaded.push({ text: \"Read\", done: false });\n\nconsole.log(loaded.length);\nconsole.log(JSON.parse(localStorage.getItem(\"tasks\")).length);</code></pre>",
+        "hint": "Pushing to the loaded array does not automatically update localStorage.",
+        "answer": "<code>3</code><br><code>2</code>",
+        "explanation": "After loading and parsing, <code>loaded</code> is a new array in memory. Pushing to it makes it length 3. But localStorage still has the original 2-item array because we did not call setItem again. You must explicitly save changes back to localStorage."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const raw = localStorage.getItem(\"missing\");\nconst data = raw ? JSON.parse(raw) : [];\nconsole.log(data);\nconsole.log(data.length);</code></pre>",
+        "hint": "The key 'missing' does not exist. getItem returns null, which is falsy.",
+        "answer": "<code>[]</code><br><code>0</code>",
+        "explanation": "<code>getItem(\"missing\")</code> returns null. null is falsy, so the ternary returns the default value <code>[]</code>. data is an empty array with length 0."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the main difference between localStorage and sessionStorage?",
+        "hint": "Think about when the data disappears.",
+        "answer": "<strong>localStorage</strong> data persists forever until you explicitly delete it. <strong>sessionStorage</strong> data is cleared when the browser tab is closed. Both have the same API and same ~5MB limit.",
+        "explanation": "Use localStorage for data that should survive across sessions (preferences, saved data). Use sessionStorage for temporary per-session data (form progress, temporary state)."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why do you need JSON.stringify and JSON.parse when working with localStorage?",
+        "hint": "What type of data can localStorage store?",
+        "answer": "localStorage can only store <strong>strings</strong>. Objects and arrays are not strings. <code>JSON.stringify()</code> converts objects/arrays into a JSON string for storage. <code>JSON.parse()</code> converts the JSON string back into a real JavaScript object or array when reading.",
+        "explanation": "Without JSON.stringify, an object becomes \"[object Object]\" and its data is lost. Without JSON.parse, you get a raw JSON string instead of a usable object."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "When does the <code>storage</code> event fire, and when does it NOT fire?",
+        "hint": "Think about which tab triggers the event.",
+        "answer": "The <code>storage</code> event fires in <strong>other tabs</strong> of the same origin when localStorage is changed. It does <strong>NOT</strong> fire in the tab that made the change. The event object contains <code>key</code>, <code>oldValue</code>, <code>newValue</code>, and <code>storageArea</code>.",
+        "explanation": "This is designed for cross-tab synchronization. If Tab A changes the theme to dark, Tab B receives the storage event and can update its display. Tab A does not need the event because it already knows what it just did."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>localStorage.clear();\nlocalStorage.setItem(\"color\", \"purple\");\nconsole.log(localStorage.getItem(\"color\"));\nlocalStorage.removeItem(\"color\");\nconsole.log(localStorage.getItem(\"color\"));</code></pre>",
+        "hint": "removeItem deletes the key. getItem on a deleted key returns null.",
+        "answer": "<code>purple</code><br><code>null</code>",
+        "explanation": "After setItem, getItem returns \"purple\". After removeItem, the key is gone, so getItem returns null."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>localStorage.setItem(\"name\", \"Priya\");\nconst name = localStorage.getItem(\"name\") || \"Guest\";\nconsole.log(name);\n\nconst missing = localStorage.getItem(\"email\") || \"not set\";\nconsole.log(missing);</code></pre>",
+        "hint": "The || operator returns the first truthy value.",
+        "answer": "<code>Priya</code><br><code>not set</code>",
+        "explanation": "\"Priya\" is truthy so the || returns it. getItem(\"email\") returns null (falsy), so the || returns the default \"not set\"."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const config = { volume: 80, muted: false };\nlocalStorage.setItem(\"config\", JSON.stringify(config));\n\nconst loaded = JSON.parse(localStorage.getItem(\"config\"));\nconsole.log(loaded.volume);\nconsole.log(loaded.muted);\nconsole.log(typeof loaded.muted);</code></pre>",
+        "hint": "JSON preserves booleans and numbers correctly.",
+        "answer": "<code>80</code><br><code>false</code><br><code>boolean</code>",
+        "explanation": "JSON.stringify preserves the structure including numbers and booleans. JSON.parse restores them to their original types. So volume is a real number (80) and muted is a real boolean (false), not strings."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>localStorage.setItem(\"empty\", \"\");\nconsole.log(localStorage.getItem(\"empty\"));\nconsole.log(localStorage.getItem(\"empty\") === null);\nconsole.log(localStorage.getItem(\"empty\") === \"\");</code></pre>",
+        "hint": "An empty string is a valid value, different from null.",
+        "answer": "<code></code> (empty line)<br><code>false</code><br><code>true</code>",
+        "explanation": "An empty string is a valid value in localStorage. It is NOT the same as null. getItem returns \"\" (empty string), which is not null, so the null check is false and the empty string check is true."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>localStorage.clear();\nfor (let i = 0; i < 3; i++) {\n  localStorage.setItem(\"item\" + i, \"value\" + i);\n}\nconsole.log(localStorage.length);\nfor (let i = 0; i < localStorage.length; i++) {\n  console.log(localStorage.key(i));\n}</code></pre>",
+        "hint": "key(index) returns the key name at that index position.",
+        "answer": "<code>3</code><br><code>item0</code><br><code>item1</code><br><code>item2</code>",
+        "explanation": "Three items are stored with keys \"item0\", \"item1\", \"item2\". <code>localStorage.length</code> is 3. <code>localStorage.key(i)</code> returns the key name at each index."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function saveScore(name, score) {\n  const raw = localStorage.getItem(\"scores\");\n  const scores = raw ? JSON.parse(raw) : {};\n  scores[name] = score;\n  localStorage.setItem(\"scores\", JSON.stringify(scores));\n}\n\nlocalStorage.clear();\nsaveScore(\"Aarav\", 95);\nsaveScore(\"Priya\", 88);\nsaveScore(\"Aarav\", 97);\n\nconst result = JSON.parse(localStorage.getItem(\"scores\"));\nconsole.log(Object.keys(result).length);\nconsole.log(result[\"Aarav\"]);\nconsole.log(result[\"Priya\"]);</code></pre>",
+        "hint": "Setting the same key in the object overwrites the previous value.",
+        "answer": "<code>2</code><br><code>97</code><br><code>88</code>",
+        "explanation": "Aarav's score is set to 95, then overwritten to 97. Priya's score is 88. The final object has 2 keys. Aarav's latest score is 97."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const original = { a: 1, b: [2, 3] };\nlocalStorage.setItem(\"data\", JSON.stringify(original));\n\nconst copy = JSON.parse(localStorage.getItem(\"data\"));\ncopy.b.push(4);\n\nconsole.log(original.b);\nconsole.log(copy.b);</code></pre>",
+        "hint": "JSON parse creates a completely new object -- it is a deep copy.",
+        "answer": "<code>[2, 3]</code><br><code>[2, 3, 4]</code>",
+        "explanation": "JSON.stringify + JSON.parse creates a deep copy. The parsed object is completely independent of the original. Modifying <code>copy.b</code> does not affect <code>original.b</code>."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>localStorage.clear();\nlocalStorage.setItem(\"0\", \"zero\");\nlocalStorage.setItem(\"false\", \"nope\");\nlocalStorage.setItem(\"null\", \"nothing\");\n\nconsole.log(localStorage.getItem(\"0\"));\nconsole.log(localStorage.getItem(\"false\"));\nconsole.log(localStorage.getItem(\"null\"));\nconsole.log(localStorage.getItem(0));</code></pre>",
+        "hint": "Keys are always strings. The number 0 becomes the string \"0\".",
+        "answer": "<code>zero</code><br><code>nope</code><br><code>nothing</code><br><code>zero</code>",
+        "explanation": "\"0\", \"false\", and \"null\" are all valid string keys. <code>getItem(0)</code> converts 0 to the string \"0\" and finds the matching key, returning \"zero\"."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>try {\n  const result = JSON.parse(\"not valid json\");\n  console.log(result);\n} catch (e) {\n  console.log(\"Error:\", e.constructor.name);\n}</code></pre>",
+        "hint": "What happens when you try to parse invalid JSON?",
+        "answer": "<code>Error: SyntaxError</code>",
+        "explanation": "JSON.parse throws a SyntaxError when the input is not valid JSON. This is why you should wrap JSON.parse in try-catch when loading data from localStorage, in case the data is corrupted."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "A user stores their to-do list in sessionStorage. They close the browser tab. What happens to the data?",
+        "hint": "Think about the key difference between sessionStorage and localStorage.",
+        "answer": "The data is <strong>permanently lost</strong>. sessionStorage is cleared when the tab is closed. The user will have an empty to-do list when they reopen the page. For persistent data like to-do lists, localStorage should be used instead.",
+        "explanation": "This is a common mistake. sessionStorage is meant for temporary data within a single browsing session. To-do lists, user preferences, and saved notes should always use localStorage."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why should you NOT store passwords or sensitive tokens in localStorage?",
+        "hint": "Think about who can access localStorage.",
+        "answer": "localStorage is accessible to <strong>any JavaScript running on the page</strong>, including third-party scripts, browser extensions, and code injected through XSS (Cross-Site Scripting) attacks. If an attacker can run JavaScript on your page, they can read everything in localStorage. Sensitive data should be stored in httpOnly cookies (which JavaScript cannot access) or handled server-side.",
+        "explanation": "localStorage has no access controls. Any script on the page can read all keys and values. For authentication tokens, httpOnly secure cookies are the safer choice."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>localStorage.clear();\nlocalStorage.setItem(\"a\", \"1\");\nlocalStorage.setItem(\"b\", \"2\");\n\nconst allKeys = [];\nfor (let i = 0; i < localStorage.length; i++) {\n  allKeys.push(localStorage.key(i));\n}\nconsole.log(allKeys.sort());</code></pre>",
+        "hint": "key(index) returns the key name at that position.",
+        "answer": "<code>[\"a\", \"b\"]</code>",
+        "explanation": "After clearing and setting two items, localStorage.length is 2. The loop collects both key names using key(). After sorting, the result is [\"a\", \"b\"]."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does localStorage.getItem return when the key does not exist?",
+        "options": {
+          "A": "undefined",
+          "B": "\"\"",
+          "C": "null",
+          "D": "false"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>getItem</code> returns <code>null</code> when the key does not exist. It does not return undefined, an empty string, or false."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "How many main methods does localStorage have?",
+        "options": {
+          "A": "2 (get and set)",
+          "B": "3 (get, set, delete)",
+          "C": "4 (setItem, getItem, removeItem, clear)",
+          "D": "5 (setItem, getItem, removeItem, clear, update)"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> localStorage has 4 methods: <code>setItem</code> (save), <code>getItem</code> (read), <code>removeItem</code> (delete one), and <code>clear</code> (delete all)."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What data type does localStorage always store values as?",
+        "options": {
+          "A": "Number",
+          "B": "Boolean",
+          "C": "Object",
+          "D": "String"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> localStorage stores all values as strings. Numbers, booleans, and other types are automatically converted to strings."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which storage type persists after the browser is closed?",
+        "options": {
+          "A": "sessionStorage only",
+          "B": "localStorage only",
+          "C": "Both localStorage and sessionStorage",
+          "D": "Neither"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> localStorage persists until explicitly deleted. sessionStorage is cleared when the tab (or browser) is closed."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is the approximate storage limit for localStorage per origin?",
+        "options": {
+          "A": "4KB",
+          "B": "1MB",
+          "C": "5MB",
+          "D": "50MB"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> localStorage has a limit of approximately 5MB per origin. This is much more than cookies (4KB) but not enough for large files."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the correct way to store an object in localStorage?",
+        "options": {
+          "A": "localStorage.setItem(\"data\", myObject)",
+          "B": "localStorage.setItem(\"data\", JSON.stringify(myObject))",
+          "C": "localStorage.setObject(\"data\", myObject)",
+          "D": "localStorage.store(\"data\", myObject)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> You must convert the object to a JSON string using <code>JSON.stringify()</code> before storing it. Without this, the object becomes the useless string \"[object Object]\"."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does this code print? <code>localStorage.setItem(\"n\", 5); console.log(typeof localStorage.getItem(\"n\"));</code>",
+        "options": {
+          "A": "number",
+          "B": "string",
+          "C": "object",
+          "D": "undefined"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Even though the number 5 was stored, localStorage converts it to the string \"5\". <code>typeof</code> returns \"string\"."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "When does the 'storage' event fire?",
+        "options": {
+          "A": "In the same tab that made the change",
+          "B": "In other tabs of the same origin",
+          "C": "In all tabs of all websites",
+          "D": "It does not fire automatically"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The storage event fires in other tabs of the same origin when localStorage is changed. It does NOT fire in the tab that made the change."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Is sessionStorage shared between two tabs of the same website?",
+        "options": {
+          "A": "Yes, they share the same data",
+          "B": "No, each tab has its own sessionStorage",
+          "C": "Only if the tabs were opened within 5 seconds",
+          "D": "Only if cookies are enabled"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Each tab has its own separate sessionStorage. Even if two tabs are on the same website, their sessionStorage data is independent."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What happens when you call localStorage.setItem with a key that already exists?",
+        "options": {
+          "A": "It throws an error",
+          "B": "It creates a duplicate entry",
+          "C": "It overwrites the existing value",
+          "D": "It does nothing"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Setting an existing key overwrites the previous value. There are no duplicate keys in localStorage."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "Is localStorage data sent to the server with HTTP requests?",
+        "options": {
+          "A": "Yes, with every request",
+          "B": "Yes, but only with POST requests",
+          "C": "No, it stays in the browser only",
+          "D": "Only if you enable it"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Unlike cookies, localStorage data is never automatically sent to the server. It stays entirely in the browser. If you need to send it, you must include it in your JavaScript code manually."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What does JSON.parse(localStorage.getItem(\"noKey\")) return?",
+        "options": {
+          "A": "undefined",
+          "B": "\"null\"",
+          "C": "null",
+          "D": "It throws an error"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>getItem(\"noKey\")</code> returns null. <code>JSON.parse(null)</code> returns null. It does not throw an error because null is valid JSON."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the best practice for loading data from localStorage that might not exist?",
+        "options": {
+          "A": "Just call JSON.parse(localStorage.getItem(key))",
+          "B": "Check for null first, then parse, and wrap in try-catch",
+          "C": "Use localStorage.exists(key) to check first",
+          "D": "Always call localStorage.clear() first"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Check if getItem returns null (key does not exist), then parse, and use try-catch in case the stored data is corrupt or not valid JSON. This is the safest pattern."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Why should you NOT store sensitive data in localStorage?",
+        "options": {
+          "A": "localStorage is too slow for sensitive data",
+          "B": "localStorage has no encryption and is accessible by any JavaScript on the page",
+          "C": "localStorage only works on HTTPS",
+          "D": "Sensitive data exceeds the 5MB limit"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> localStorage has no encryption and any JavaScript running on the page (including malicious scripts from XSS attacks) can read all stored data. Sensitive data should use httpOnly cookies or server-side storage."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "What is the correct way to read an array stored in localStorage?",
+        "options": {
+          "A": "localStorage.getArray(\"key\")",
+          "B": "JSON.parse(localStorage.getItem(\"key\"))",
+          "C": "localStorage.getItem(\"key\").toArray()",
+          "D": "Array.from(localStorage.getItem(\"key\"))"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> getItem returns the JSON string. <code>JSON.parse</code> converts it back into a real JavaScript array."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Save and Load Theme Preference",
+        "difficulty": "Easy",
+        "description": "Write JavaScript that saves a user's theme preference (\"dark\" or \"light\") to localStorage when a button is clicked. On page load, check if a preference is saved and apply it by adding or removing a 'dark-mode' class on the body.",
+        "sampleInput": "User clicks the toggle button",
+        "sampleOutput": "Theme toggled to: dark\n(Page refresh)\nTheme loaded: dark",
+        "constraints": "Use localStorage.setItem and getItem. Check for null on load.",
+        "solution": "// On page load\nconst savedTheme = localStorage.getItem(\"theme\");\nif (savedTheme === \"dark\") {\n  document.body.classList.add(\"dark-mode\");\n  console.log(\"Theme loaded: dark\");\n} else {\n  console.log(\"Theme loaded: light\");\n}\n\n// Toggle button\ndocument.getElementById(\"themeToggle\").addEventListener(\"click\", function() {\n  document.body.classList.toggle(\"dark-mode\");\n  const isDark = document.body.classList.contains(\"dark-mode\");\n  localStorage.setItem(\"theme\", isDark ? \"dark\" : \"light\");\n  console.log(\"Theme toggled to:\", isDark ? \"dark\" : \"light\");\n});"
+      },
+      {
+        "id": "cc-2",
+        "title": "Remember Username",
+        "difficulty": "Easy",
+        "description": "Create a form with a username input and a \"Remember Me\" checkbox. If the checkbox is checked when the form is submitted, save the username to localStorage. On page load, if a username is saved, pre-fill the input field.",
+        "sampleInput": "Username: Aarav, checkbox checked",
+        "sampleOutput": "(Page refresh)\nUsername field shows: Aarav",
+        "constraints": "Use a checkbox to decide whether to save. Clear saved username if checkbox is unchecked.",
+        "solution": "const usernameInput = document.getElementById(\"username\");\nconst rememberCheckbox = document.getElementById(\"remember\");\nconst form = document.getElementById(\"loginForm\");\n\n// Load saved username\nconst savedUsername = localStorage.getItem(\"rememberedUser\");\nif (savedUsername) {\n  usernameInput.value = savedUsername;\n  rememberCheckbox.checked = true;\n}\n\nform.addEventListener(\"submit\", function(e) {\n  e.preventDefault();\n  if (rememberCheckbox.checked) {\n    localStorage.setItem(\"rememberedUser\", usernameInput.value);\n    console.log(\"Username saved:\", usernameInput.value);\n  } else {\n    localStorage.removeItem(\"rememberedUser\");\n    console.log(\"Username cleared from storage\");\n  }\n});"
+      },
+      {
+        "id": "cc-3",
+        "title": "Visit Counter",
+        "difficulty": "Easy",
+        "description": "Write JavaScript that counts how many times the user has visited the page. Store the count in localStorage and display it. The count should increase by 1 every time the page loads.",
+        "sampleInput": "(First visit, second visit, third visit)",
+        "sampleOutput": "Visit 1\nVisit 2\nVisit 3",
+        "constraints": "Use Number() to convert the stored string to a number.",
+        "solution": "const raw = localStorage.getItem(\"visitCount\");\nlet count = raw ? Number(raw) : 0;\ncount++;\nlocalStorage.setItem(\"visitCount\", count);\n\nconsole.log(\"Visit \" + count);\ndocument.getElementById(\"counter\").textContent = \"You have visited this page \" + count + \" time(s).\";"
+      },
+      {
+        "id": "cc-4",
+        "title": "Persistent Notes App",
+        "difficulty": "Medium",
+        "description": "Build a notes app where the user can add, delete, and view notes. Store all notes in localStorage as an array of objects with text and timestamp. Notes should persist across page refreshes.",
+        "sampleInput": "Add: \"Learn localStorage\", Add: \"Build to-do app\"",
+        "sampleOutput": "Notes:\n1. Learn localStorage (2026-04-09)\n2. Build to-do app (2026-04-09)\n2 notes saved.",
+        "constraints": "Use JSON.stringify/parse. Handle empty storage gracefully. Each note should have text and date.",
+        "solution": "function loadNotes() {\n  const raw = localStorage.getItem(\"notes\");\n  return raw ? JSON.parse(raw) : [];\n}\n\nfunction saveNotes(notes) {\n  localStorage.setItem(\"notes\", JSON.stringify(notes));\n}\n\nfunction addNote(text) {\n  const notes = loadNotes();\n  notes.push({ text: text, date: new Date().toISOString().split(\"T\")[0] });\n  saveNotes(notes);\n  renderNotes();\n}\n\nfunction deleteNote(index) {\n  const notes = loadNotes();\n  notes.splice(index, 1);\n  saveNotes(notes);\n  renderNotes();\n}\n\nfunction renderNotes() {\n  const notes = loadNotes();\n  const list = document.getElementById(\"notesList\");\n  list.innerHTML = \"\";\n  notes.forEach(function(note, i) {\n    const div = document.createElement(\"div\");\n    div.innerHTML = (i + 1) + \". \" + note.text + \" (\" + note.date + \") \";\n    const btn = document.createElement(\"button\");\n    btn.textContent = \"Delete\";\n    btn.addEventListener(\"click\", function() { deleteNote(i); });\n    div.appendChild(btn);\n    list.appendChild(div);\n  });\n  console.log(notes.length + \" notes saved.\");\n}\n\nrenderNotes();"
+      },
+      {
+        "id": "cc-5",
+        "title": "Shopping Cart with localStorage",
+        "difficulty": "Medium",
+        "description": "Build a simple shopping cart that saves items to localStorage. Each item has a name and quantity. Implement addItem, removeItem, updateQuantity, and getTotal functions. The cart should persist across page refreshes.",
+        "sampleInput": "Add Notebook x2, Add Pen x5, Update Notebook to x3",
+        "sampleOutput": "Cart: Notebook (3), Pen (5)\nTotal items: 8",
+        "constraints": "Use an array of objects in localStorage. Handle duplicates by updating quantity.",
+        "solution": "function loadCart() {\n  const raw = localStorage.getItem(\"cart\");\n  return raw ? JSON.parse(raw) : [];\n}\n\nfunction saveCart(cart) {\n  localStorage.setItem(\"cart\", JSON.stringify(cart));\n}\n\nfunction addItem(name, qty) {\n  const cart = loadCart();\n  const existing = cart.find(function(item) { return item.name === name; });\n  if (existing) {\n    existing.quantity += qty;\n  } else {\n    cart.push({ name: name, quantity: qty });\n  }\n  saveCart(cart);\n}\n\nfunction removeItem(name) {\n  let cart = loadCart();\n  cart = cart.filter(function(item) { return item.name !== name; });\n  saveCart(cart);\n}\n\nfunction getTotal() {\n  const cart = loadCart();\n  return cart.reduce(function(sum, item) { return sum + item.quantity; }, 0);\n}\n\n// Test\nlocalStorage.clear();\naddItem(\"Notebook\", 2);\naddItem(\"Pen\", 5);\naddItem(\"Notebook\", 1);\nconsole.log(\"Cart:\", loadCart());\nconsole.log(\"Total items:\", getTotal());"
+      },
+      {
+        "id": "cc-6",
+        "title": "Auto-Save Form with Multiple Fields",
+        "difficulty": "Medium",
+        "description": "Create a registration form with name, email, and message fields. Auto-save all field values to localStorage as the user types. Restore all fields on page load. Clear saved data when the form is submitted.",
+        "sampleInput": "Type in name, email, and message fields",
+        "sampleOutput": "(Page refresh)\nAll fields restored from saved draft.",
+        "constraints": "Save all fields as one object in localStorage. Use the input event for auto-save.",
+        "solution": "const fields = [\"name\", \"email\", \"message\"];\n\n// Load saved draft\nconst raw = localStorage.getItem(\"formDraft\");\nconst draft = raw ? JSON.parse(raw) : {};\nfields.forEach(function(field) {\n  const el = document.getElementById(field);\n  if (draft[field]) el.value = draft[field];\n  \n  el.addEventListener(\"input\", function() {\n    const current = raw ? JSON.parse(localStorage.getItem(\"formDraft\")) : {};\n    current[field] = el.value;\n    localStorage.setItem(\"formDraft\", JSON.stringify(current));\n    console.log(\"Draft saved\");\n  });\n});\n\ndocument.getElementById(\"regForm\").addEventListener(\"submit\", function(e) {\n  e.preventDefault();\n  localStorage.removeItem(\"formDraft\");\n  console.log(\"Form submitted, draft cleared.\");\n});"
+      },
+      {
+        "id": "cc-7",
+        "title": "High Score Board",
+        "difficulty": "Hard",
+        "description": "Build a high score board that stores the top 5 scores in localStorage. Each score has a player name, score, and date. When a new score is added, insert it in the correct position and keep only the top 5. Display the leaderboard.",
+        "sampleInput": "Aarav: 950, Priya: 1200, Rohan: 800, Meera: 1100, Kavya: 1050, Arjun: 1150",
+        "sampleOutput": "Leaderboard:\n1. Priya - 1200 (2026-04-09)\n2. Arjun - 1150 (2026-04-09)\n3. Meera - 1100 (2026-04-09)\n4. Kavya - 1050 (2026-04-09)\n5. Aarav - 950 (2026-04-09)",
+        "constraints": "Sort by score descending. Keep only top 5. Use JSON.stringify/parse.",
+        "solution": "function loadScores() {\n  const raw = localStorage.getItem(\"highScores\");\n  return raw ? JSON.parse(raw) : [];\n}\n\nfunction addScore(name, score) {\n  const scores = loadScores();\n  scores.push({\n    name: name,\n    score: score,\n    date: new Date().toISOString().split(\"T\")[0]\n  });\n  scores.sort(function(a, b) { return b.score - a.score; });\n  const top5 = scores.slice(0, 5);\n  localStorage.setItem(\"highScores\", JSON.stringify(top5));\n  return top5;\n}\n\nfunction displayScores() {\n  const scores = loadScores();\n  console.log(\"Leaderboard:\");\n  scores.forEach(function(entry, i) {\n    console.log((i + 1) + \". \" + entry.name + \" - \" + entry.score + \" (\" + entry.date + \")\");\n  });\n}\n\nlocalStorage.clear();\naddScore(\"Aarav\", 950);\naddScore(\"Priya\", 1200);\naddScore(\"Rohan\", 800);\naddScore(\"Meera\", 1100);\naddScore(\"Kavya\", 1050);\naddScore(\"Arjun\", 1150);\ndisplayScores();"
+      },
+      {
+        "id": "cc-8",
+        "title": "Storage Size Calculator",
+        "difficulty": "Hard",
+        "description": "Write a function that calculates how much localStorage space is being used (in KB). Also write a function that estimates how much space is remaining. Display a usage bar showing percentage used.",
+        "sampleInput": "(Run with some data in localStorage)",
+        "sampleOutput": "Used: 2.45 KB\nEstimated remaining: ~5117.55 KB\nUsage: 0.05%",
+        "constraints": "Iterate over all keys using localStorage.length and key(). Calculate size based on string length.",
+        "solution": "function getStorageUsed() {\n  let total = 0;\n  for (let i = 0; i < localStorage.length; i++) {\n    const key = localStorage.key(i);\n    const value = localStorage.getItem(key);\n    total += key.length + value.length;\n  }\n  return total * 2; // UTF-16 uses 2 bytes per character\n}\n\nfunction getStorageInfo() {\n  const used = getStorageUsed();\n  const usedKB = (used / 1024).toFixed(2);\n  const limit = 5 * 1024 * 1024; // ~5MB\n  const remainingKB = ((limit - used) / 1024).toFixed(2);\n  const percentage = ((used / limit) * 100).toFixed(2);\n\n  console.log(\"Used: \" + usedKB + \" KB\");\n  console.log(\"Estimated remaining: ~\" + remainingKB + \" KB\");\n  console.log(\"Usage: \" + percentage + \"%\");\n  console.log(\"Keys stored: \" + localStorage.length);\n  return { usedKB: usedKB, remainingKB: remainingKB, percentage: percentage };\n}\n\ngetStorageInfo();"
+      }
+    ]
+  }
+}

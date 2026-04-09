@@ -1,0 +1,664 @@
+{
+  "title": "Asynchronous JavaScript - Callbacks, Promises, Async/Await",
+  "slug": "asynchronous-javascript",
+  "language": "javascript",
+  "chapter": 19,
+  "difficulty": "Advanced",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 50,
+  "seo": {
+    "title": "Asynchronous JavaScript - Callbacks, Promises, Async/Await | Modern Age Coders",
+    "description": "Master asynchronous JavaScript including setTimeout, callbacks, callback hell, Promises, .then/.catch/.finally, Promise.all/race/allSettled, async/await, and the event loop. 56+ practice questions with console.log order prediction.",
+    "keywords": "javascript async await, javascript promises, callback hell, event loop javascript, setTimeout, Promise.all, async await tutorial, javascript asynchronous, then catch finally, javascript callback function"
+  },
+  "content": {
+    "what": "<h2>What Is Asynchronous JavaScript?</h2><p>Most code you have written so far is <strong>synchronous</strong>: each line runs one after another, and the next line waits for the current one to finish. But some operations take time: loading data from a server, reading a file, or waiting for a user action. If JavaScript waited for each of these, your web page would freeze.</p><p><strong>Asynchronous</strong> code lets JavaScript start a time-consuming operation and continue running other code. When the operation finishes, a callback function runs with the result.</p><pre><code>// Synchronous: each line waits for the previous\nconsole.log(\"1\");\nconsole.log(\"2\");\nconsole.log(\"3\");\n// Output: 1, 2, 3 (in order)\n\n// Asynchronous: setTimeout does not block\nconsole.log(\"A\");\nsetTimeout(function() {\n  console.log(\"B\"); // Runs after 2 seconds\n}, 2000);\nconsole.log(\"C\");\n// Output: A, C, B (C prints before B!)</code></pre><p>This is one of the most important concepts in JavaScript. Understanding async code is essential for working with APIs, animations, timers, and any real-world web application.</p>",
+    "why": "<h2>Why Learn Asynchronous JavaScript?</h2><h3>1. JavaScript Is Single-Threaded</h3><p>JavaScript has only one thread -- it can do one thing at a time. Without async, a network request taking 3 seconds would freeze the entire page for 3 seconds. No scrolling, no clicking, nothing. Async lets the browser handle the waiting while JavaScript continues running other code.</p><h3>2. Every Real App Is Asynchronous</h3><p>Loading user data from a database, fetching weather from an API, uploading a photo, sending a message -- all of these are async operations. If Aarav builds a weather app, the API request is async. If Priya builds a chat app, every message send and receive is async. You cannot build real apps without understanding async.</p><h3>3. It Explains Confusing Behavior</h3><p>Have you ever seen console.log output in a different order than expected? Or a variable that was <code>undefined</code> even though you assigned it? These are usually async issues. Understanding the event loop explains all of this.</p><h3>4. Promises and Async/Await Are Everywhere</h3><p>Modern JavaScript APIs (fetch, the File API, Web Workers) all return Promises. React, Node.js, and every major framework uses async/await heavily. It is an interview essential.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The Event Loop (How Async Works)</h3><p>JavaScript has a <strong>call stack</strong> (where code runs) and a <strong>task queue</strong> (where async callbacks wait). The <strong>event loop</strong> checks: is the call stack empty? If yes, take the next task from the queue and run it.</p><pre><code>console.log(\"1\");\n\nsetTimeout(function() {\n  console.log(\"2\");\n}, 0); // Even with 0ms delay!\n\nconsole.log(\"3\");\n\n// Output: 1, 3, 2\n// Why? setTimeout's callback goes to the task queue.\n// It runs only AFTER the current code finishes.</code></pre><p>Even with a 0ms delay, the setTimeout callback goes to the task queue and waits until the main code finishes. This is the key insight: <strong>async callbacks never run until the current synchronous code is done</strong>.</p><h3>2. setTimeout and setInterval</h3><pre><code>// setTimeout: run once after a delay\nsetTimeout(function() {\n  console.log(\"This runs after 2 seconds\");\n}, 2000);\n\n// setInterval: run repeatedly at intervals\nlet count = 0;\nconst timer = setInterval(function() {\n  count++;\n  console.log(\"Count: \" + count);\n  if (count >= 5) {\n    clearInterval(timer); // Stop the interval\n  }\n}, 1000);\n\n// clearTimeout cancels a setTimeout\nconst timeoutId = setTimeout(function() {\n  console.log(\"This will NOT run\");\n}, 5000);\nclearTimeout(timeoutId); // Cancelled!</code></pre><h3>3. Callbacks</h3><p>A <strong>callback</strong> is a function passed to another function, to be called later when an operation completes:</p><pre><code>function loadData(callback) {\n  console.log(\"Loading...\");\n  setTimeout(function() {\n    const data = { name: \"Aarav\", score: 95 };\n    callback(data); // Call the callback with the result\n  }, 1000);\n}\n\nloadData(function(result) {\n  console.log(\"Data loaded:\", result);\n});\nconsole.log(\"This prints first!\");\n\n// Output:\n// Loading...\n// This prints first!\n// Data loaded: { name: \"Aarav\", score: 95 }</code></pre><h3>4. Callback Hell (Pyramid of Doom)</h3><p>When async operations depend on each other, callbacks get nested deeper and deeper:</p><pre><code>// Callback Hell -- deeply nested, hard to read\ngetUser(userId, function(user) {\n  getOrders(user.id, function(orders) {\n    getOrderDetails(orders[0].id, function(details) {\n      getShippingInfo(details.trackingId, function(shipping) {\n        console.log(\"Shipping:\", shipping.status);\n        // And it gets worse...\n      });\n    });\n  });\n});</code></pre><p>This is called the \"pyramid of doom\" because the code drifts to the right with each level. It is hard to read, hard to debug, and hard to add error handling. Promises solve this problem.</p><h3>5. Promises</h3><p>A <strong>Promise</strong> represents a value that will be available in the future. It can be in three states: <strong>pending</strong> (waiting), <strong>fulfilled</strong> (succeeded), or <strong>rejected</strong> (failed).</p><pre><code>// Creating a Promise\nconst myPromise = new Promise(function(resolve, reject) {\n  setTimeout(function() {\n    const success = true;\n    if (success) {\n      resolve(\"Data loaded!\"); // Fulfilled\n    } else {\n      reject(\"Failed to load\"); // Rejected\n    }\n  }, 1000);\n});\n\n// Using a Promise\nmyPromise\n  .then(function(result) {\n    console.log(\"Success:\", result);\n  })\n  .catch(function(error) {\n    console.log(\"Error:\", error);\n  });\n\n// Output (after 1 second): Success: Data loaded!</code></pre><h3>6. Promise Chaining (.then)</h3><p>Instead of nesting callbacks, Promises chain with <code>.then()</code>:</p><pre><code>// Callback Hell becomes flat Promise chain\ngetUser(userId)\n  .then(function(user) {\n    return getOrders(user.id);\n  })\n  .then(function(orders) {\n    return getOrderDetails(orders[0].id);\n  })\n  .then(function(details) {\n    console.log(\"Details:\", details);\n  })\n  .catch(function(error) {\n    console.log(\"Error at any step:\", error);\n  });\n\n// Each .then returns a new Promise\n// .catch handles errors from ANY step in the chain</code></pre><h3>7. .catch() and .finally()</h3><pre><code>fetchData()\n  .then(function(data) {\n    console.log(\"Got data:\", data);\n  })\n  .catch(function(error) {\n    console.log(\"Error:\", error);\n  })\n  .finally(function() {\n    console.log(\"Done, success or failure\");\n    // Hide loading spinner here\n  });</code></pre><p><code>.catch()</code> handles any rejected Promise in the chain. <code>.finally()</code> runs regardless of success or failure, like the <code>finally</code> block in try-catch.</p><h3>8. Promise.all, Promise.race, Promise.allSettled, Promise.any</h3><pre><code>const p1 = new Promise(resolve => setTimeout(() => resolve(\"A\"), 1000));\nconst p2 = new Promise(resolve => setTimeout(() => resolve(\"B\"), 2000));\nconst p3 = new Promise(resolve => setTimeout(() => resolve(\"C\"), 1500));\n\n// Promise.all -- wait for ALL to finish (fails if ANY fails)\nPromise.all([p1, p2, p3]).then(function(results) {\n  console.log(results); // [\"A\", \"B\", \"C\"] (after 2 seconds)\n});\n\n// Promise.race -- first one to finish wins\nPromise.race([p1, p2, p3]).then(function(result) {\n  console.log(result); // \"A\" (fastest, 1 second)\n});\n\n// Promise.allSettled -- wait for ALL, even if some fail\nconst p4 = Promise.reject(\"error!\");\nPromise.allSettled([p1, p4]).then(function(results) {\n  console.log(results);\n  // [{ status: \"fulfilled\", value: \"A\" },\n  //  { status: \"rejected\", reason: \"error!\" }]\n});\n\n// Promise.any -- first one to SUCCEED (ignores failures)\nPromise.any([p4, p1, p2]).then(function(result) {\n  console.log(result); // \"A\" (first success)\n});</code></pre><h3>9. Async/Await</h3><p><code>async/await</code> is syntactic sugar over Promises. It makes async code look and behave like synchronous code:</p><pre><code>// With .then() chains\nfunction loadUserData() {\n  return getUser(1)\n    .then(function(user) {\n      return getOrders(user.id);\n    })\n    .then(function(orders) {\n      return orders;\n    });\n}\n\n// With async/await (much cleaner)\nasync function loadUserData() {\n  const user = await getUser(1);\n  const orders = await getOrders(user.id);\n  return orders;\n}\n\n// await pauses the function until the Promise resolves\n// The function itself returns a Promise</code></pre><p>Key rules:</p><ul><li><code>await</code> can only be used inside an <code>async</code> function</li><li><code>async</code> functions always return a Promise</li><li><code>await</code> pauses the function (not the entire program) until the Promise resolves</li></ul><h3>10. Error Handling with Async/Await</h3><pre><code>async function fetchUserData(userId) {\n  try {\n    const user = await getUser(userId);\n    const orders = await getOrders(user.id);\n    console.log(\"Orders:\", orders);\n    return orders;\n  } catch (error) {\n    console.log(\"Failed:\", error.message);\n    return [];\n  } finally {\n    console.log(\"Loading complete\");\n  }\n}\n\nfetchUserData(1);</code></pre><p>Use try-catch with async/await just like synchronous code. This is much cleaner than chaining <code>.catch()</code> calls.</p><h3>11. Sequential vs Parallel Async Operations</h3><pre><code>// Sequential -- each waits for the previous (slower)\nasync function sequential() {\n  const a = await slowOperation(\"A\"); // waits 1 sec\n  const b = await slowOperation(\"B\"); // waits another 1 sec\n  const c = await slowOperation(\"C\"); // waits another 1 sec\n  return [a, b, c]; // Total: 3 seconds\n}\n\n// Parallel -- all run at the same time (faster)\nasync function parallel() {\n  const [a, b, c] = await Promise.all([\n    slowOperation(\"A\"),\n    slowOperation(\"B\"),\n    slowOperation(\"C\")\n  ]);\n  return [a, b, c]; // Total: 1 second (all run simultaneously)\n}</code></pre><p>If operations are independent (they do not need each other's results), run them in parallel with <code>Promise.all</code> for much better performance.</p>"
+  ,
+  "codeExamples": [
+    {
+      "title": "Event Loop in Action",
+      "code": "console.log(\"1 - Start\");\n\nsetTimeout(function() {\n  console.log(\"2 - Timeout 0ms\");\n}, 0);\n\nPromise.resolve().then(function() {\n  console.log(\"3 - Promise\");\n});\n\nconsole.log(\"4 - End\");\n\n// Output order: 1, 4, 3, 2\n// Why?\n// 1 and 4 are synchronous (run immediately)\n// 3 is a microtask (Promises have higher priority)\n// 2 is a macrotask (setTimeout, runs after microtasks)",
+      "language": "javascript",
+      "explanation": "The event loop has two queues: the <strong>microtask queue</strong> (Promises, .then callbacks) and the <strong>macrotask queue</strong> (setTimeout, setInterval). After synchronous code finishes, microtasks run first, then macrotasks. That is why the Promise callback (3) runs before setTimeout (2), even though both are async.",
+      "output": "1 - Start\n4 - End\n3 - Promise\n2 - Timeout 0ms"
+    },
+    {
+      "title": "Creating and Using Promises",
+      "code": "function delay(ms) {\n  return new Promise(function(resolve) {\n    setTimeout(resolve, ms);\n  });\n}\n\nfunction loadStudent(name) {\n  return new Promise(function(resolve, reject) {\n    console.log(\"Loading \" + name + \"...\");\n    setTimeout(function() {\n      if (name) {\n        resolve({ name: name, score: Math.floor(Math.random() * 100) });\n      } else {\n        reject(new Error(\"Name is required\"));\n      }\n    }, 1000);\n  });\n}\n\n// Using the Promise\nloadStudent(\"Aarav\")\n  .then(function(student) {\n    console.log(\"Loaded:\", student.name, \"Score:\", student.score);\n    return loadStudent(\"Priya\"); // Chain another async operation\n  })\n  .then(function(student) {\n    console.log(\"Loaded:\", student.name, \"Score:\", student.score);\n  })\n  .catch(function(error) {\n    console.log(\"Error:\", error.message);\n  });",
+      "language": "javascript",
+      "explanation": "A Promise wraps an async operation. <code>resolve</code> is called on success, <code>reject</code> on failure. <code>.then()</code> chains operations sequentially. <code>.catch()</code> handles errors from any step. Returning a Promise from .then creates a chain.",
+      "output": "Loading Aarav...\n(after 1s) Loaded: Aarav Score: 73\nLoading Priya...\n(after 1s) Loaded: Priya Score: 88"
+    },
+    {
+      "title": "Promise.all for Parallel Operations",
+      "code": "function fetchScore(name, delayMs) {\n  return new Promise(function(resolve) {\n    setTimeout(function() {\n      resolve({ name: name, score: Math.floor(Math.random() * 100) });\n    }, delayMs);\n  });\n}\n\n// Sequential: total time = 1000 + 1500 + 800 = 3300ms\nasync function sequential() {\n  console.time(\"sequential\");\n  const a = await fetchScore(\"Aarav\", 1000);\n  const b = await fetchScore(\"Priya\", 1500);\n  const c = await fetchScore(\"Rohan\", 800);\n  console.timeEnd(\"sequential\");\n  console.log([a, b, c]);\n}\n\n// Parallel: total time = max(1000, 1500, 800) = 1500ms\nasync function parallel() {\n  console.time(\"parallel\");\n  const [a, b, c] = await Promise.all([\n    fetchScore(\"Aarav\", 1000),\n    fetchScore(\"Priya\", 1500),\n    fetchScore(\"Rohan\", 800)\n  ]);\n  console.timeEnd(\"parallel\");\n  console.log([a, b, c]);\n}\n\nsequential();\n// parallel(); // Uncomment to compare",
+      "language": "javascript",
+      "explanation": "Sequential awaits each operation before starting the next (total: sum of all times). Parallel starts all at once with Promise.all (total: time of the slowest). Use parallel when operations are independent. The results array preserves the order you passed them in.",
+      "output": "sequential: ~3300ms\n[{name:'Aarav',...}, {name:'Priya',...}, {name:'Rohan',...}]"
+    },
+    {
+      "title": "Async/Await with Error Handling",
+      "code": "function fetchData(id) {\n  return new Promise(function(resolve, reject) {\n    setTimeout(function() {\n      if (id > 0) {\n        resolve({ id: id, data: \"Item \" + id });\n      } else {\n        reject(new Error(\"Invalid ID: \" + id));\n      }\n    }, 500);\n  });\n}\n\nasync function processItems(ids) {\n  const results = [];\n\n  for (const id of ids) {\n    try {\n      const item = await fetchData(id);\n      results.push(item.data);\n      console.log(\"Loaded:\", item.data);\n    } catch (error) {\n      results.push(\"ERROR: \" + error.message);\n      console.log(\"Failed:\", error.message);\n    }\n  }\n\n  return results;\n}\n\nasync function main() {\n  const results = await processItems([1, 2, -1, 3]);\n  console.log(\"Final:\", results);\n}\n\nmain();",
+      "language": "javascript",
+      "explanation": "try-catch inside a for...of loop handles errors per item without stopping the entire loop. Each failed item logs an error but processing continues with the next item. The final results array contains both successful data and error messages.",
+      "output": "Loaded: Item 1\nLoaded: Item 2\nFailed: Invalid ID: -1\nLoaded: Item 3\nFinal: [\"Item 1\", \"Item 2\", \"ERROR: Invalid ID: -1\", \"Item 3\"]"
+    },
+    {
+      "title": "Practical: Simulating a Loading Sequence",
+      "code": "function simulateLoad(step, duration) {\n  return new Promise(function(resolve) {\n    console.log(step + \"...\");\n    setTimeout(function() {\n      console.log(step + \" done\");\n      resolve(step);\n    }, duration);\n  });\n}\n\nasync function bootApp() {\n  console.log(\"=== App Starting ===\");\n\n  // These must be sequential (each depends on the previous)\n  await simulateLoad(\"Loading config\", 500);\n  await simulateLoad(\"Connecting to database\", 800);\n\n  // These can be parallel (independent of each other)\n  await Promise.all([\n    simulateLoad(\"Loading images\", 600),\n    simulateLoad(\"Loading fonts\", 400),\n    simulateLoad(\"Loading scripts\", 700)\n  ]);\n\n  console.log(\"=== App Ready ===\");\n}\n\nbootApp();",
+      "language": "javascript",
+      "explanation": "Real apps often have a mix of sequential and parallel operations. Config must load before database connection (sequential). But images, fonts, and scripts are independent (parallel with Promise.all). This pattern is common in app initialization.",
+      "output": "=== App Starting ===\nLoading config...\nLoading config done\nConnecting to database...\nConnecting to database done\nLoading images...\nLoading fonts...\nLoading scripts...\nLoading fonts done\nLoading images done\nLoading scripts done\n=== App Ready ==="
+    },
+    {
+      "title": "setInterval with Cleanup",
+      "code": "function createCountdown(seconds) {\n  return new Promise(function(resolve) {\n    let remaining = seconds;\n    console.log(\"Countdown: \" + remaining);\n\n    const timer = setInterval(function() {\n      remaining--;\n      if (remaining > 0) {\n        console.log(\"Countdown: \" + remaining);\n      } else {\n        clearInterval(timer);\n        console.log(\"GO!\");\n        resolve(\"Countdown complete\");\n      }\n    }, 1000);\n  });\n}\n\nasync function startRace() {\n  console.log(\"Get ready...\");\n  const result = await createCountdown(3);\n  console.log(result);\n  console.log(\"The race has begun!\");\n}\n\nstartRace();",
+      "language": "javascript",
+      "explanation": "This wraps setInterval in a Promise so it can be used with await. The interval counts down each second. When it reaches 0, it clears itself and resolves the Promise. The async function waits for the countdown to finish before continuing.",
+      "output": "Get ready...\nCountdown: 3\nCountdown: 2\nCountdown: 1\nGO!\nCountdown complete\nThe race has begun!"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Expecting Async Code to Run in Order",
+      "wrongCode": "let data;\n\nsetTimeout(function() {\n  data = \"loaded\";\n}, 1000);\n\nconsole.log(data); // undefined! setTimeout hasn't run yet",
+      "error": "data is undefined because the setTimeout callback has not executed yet when console.log runs.",
+      "correctCode": "// Option 1: Use the data inside the callback\nsetTimeout(function() {\n  const data = \"loaded\";\n  console.log(data); // \"loaded\"\n}, 1000);\n\n// Option 2: Use async/await with a Promise\nasync function loadData() {\n  const data = await new Promise(resolve => {\n    setTimeout(() => resolve(\"loaded\"), 1000);\n  });\n  console.log(data); // \"loaded\"\n}\nloadData();",
+      "explanation": "Async operations complete later. Code after setTimeout runs immediately, before the callback. Use the data inside the callback, or wrap it in a Promise and use await."
+    },
+    {
+      "title": "Forgetting to Return a Promise in .then() Chain",
+      "wrongCode": "getUser(1)\n  .then(function(user) {\n    getOrders(user.id); // Forgot to return!\n  })\n  .then(function(orders) {\n    console.log(orders); // undefined!\n  });",
+      "error": "orders is undefined because the previous .then did not return the Promise from getOrders.",
+      "correctCode": "getUser(1)\n  .then(function(user) {\n    return getOrders(user.id); // Return the Promise!\n  })\n  .then(function(orders) {\n    console.log(orders); // Now this works\n  });",
+      "explanation": "In a .then chain, you must <code>return</code> the Promise for the next .then to receive its result. Without return, the next .then gets undefined."
+    },
+    {
+      "title": "Using await Outside an async Function",
+      "wrongCode": "// At the top level of a regular script\nconst data = await fetch(\"https://api.example.com/data\");\nconsole.log(data);\n// SyntaxError: await is only valid in async functions",
+      "error": "SyntaxError: await is only valid in async functions and at the top level of a module.",
+      "correctCode": "// Wrap in an async function\nasync function loadData() {\n  const response = await fetch(\"https://api.example.com/data\");\n  const data = await response.json();\n  console.log(data);\n}\nloadData();\n\n// Or use type=\"module\" in HTML (allows top-level await)\n// <script type=\"module\">\n//   const data = await fetch(\"...\");\n// </script>",
+      "explanation": "The <code>await</code> keyword can only be used inside a function declared with <code>async</code>. Or at the top level of a module (<code>&lt;script type=\"module\"&gt;</code>). Regular scripts do not support top-level await."
+    },
+    {
+      "title": "Not Handling Promise Rejections",
+      "wrongCode": "// No .catch() -- if the Promise rejects, the error is silent\nfetch(\"https://bad-url.example.com/data\")\n  .then(function(response) {\n    return response.json();\n  })\n  .then(function(data) {\n    console.log(data);\n  });\n// If fetch fails: UnhandledPromiseRejection warning",
+      "error": "Unhandled promise rejection. The error is silently lost or causes a warning.",
+      "correctCode": "fetch(\"https://bad-url.example.com/data\")\n  .then(function(response) {\n    return response.json();\n  })\n  .then(function(data) {\n    console.log(data);\n  })\n  .catch(function(error) {\n    console.log(\"Request failed:\", error.message);\n  });\n\n// Or with async/await:\nasync function loadData() {\n  try {\n    const response = await fetch(\"https://bad-url.example.com/data\");\n    const data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.log(\"Failed:\", error.message);\n  }\n}",
+      "explanation": "Always add <code>.catch()</code> to Promise chains or use try-catch with async/await. Unhandled rejections are a common source of silent failures that are hard to debug."
+    },
+    {
+      "title": "Running Async Operations Sequentially When They Could Be Parallel",
+      "wrongCode": "async function loadAll() {\n  const a = await fetchUser();    // waits 1s\n  const b = await fetchPosts();   // waits 1s\n  const c = await fetchComments(); // waits 1s\n  // Total: 3 seconds -- unnecessarily slow!\n}",
+      "error": "Each operation waits for the previous one to finish, even though they are independent.",
+      "correctCode": "async function loadAll() {\n  const [a, b, c] = await Promise.all([\n    fetchUser(),\n    fetchPosts(),\n    fetchComments()\n  ]);\n  // Total: ~1 second (all run in parallel)\n}",
+      "explanation": "If async operations do not depend on each other, use <code>Promise.all</code> to run them in parallel. This can cut loading time dramatically. Only use sequential await when each operation needs the previous result."
+    }
+  ],
+  "summary": [
+    "JavaScript is single-threaded: it can only do one thing at a time. The event loop manages async operations by placing callbacks in a queue and running them after the current code finishes.",
+    "setTimeout(fn, ms) runs a function after a delay. setInterval(fn, ms) runs repeatedly. clearTimeout and clearInterval cancel them. Even setTimeout with 0ms delay runs AFTER synchronous code.",
+    "Callbacks are functions passed to other functions, called when an async operation completes. Nested callbacks create 'callback hell' (pyramid of doom) that is hard to read and maintain.",
+    "A Promise represents a future value. It can be pending, fulfilled (resolved), or rejected. Create with new Promise((resolve, reject) => { }).",
+    ".then() handles success, .catch() handles errors, .finally() runs regardless. Always return Promises in .then() chains so the next .then receives the result.",
+    "Promise.all waits for ALL promises and returns an array of results. Promise.race returns the first to finish. Promise.allSettled waits for all and reports each status. Promise.any returns the first success.",
+    "async/await is syntactic sugar over Promises. async functions always return a Promise. await pauses the function until a Promise resolves. It makes async code look synchronous.",
+    "Use try-catch with async/await for error handling, just like synchronous code. Always handle errors -- unhandled rejections cause silent failures.",
+    "For independent operations, use Promise.all for parallel execution. Sequential await is only needed when each step depends on the previous step's result.",
+    "Microtasks (Promise callbacks) run before macrotasks (setTimeout callbacks). This is why Promise.resolve().then(fn) runs before setTimeout(fn, 0)."
+  ]
+  },
+  "relatedTopics": ["error-handling-and-debugging", "fetch-api-and-working-with-apis"],
+  "practice": {
+    "totalQuestions": 50,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(\"A\");\nsetTimeout(function() {\n  console.log(\"B\");\n}, 0);\nconsole.log(\"C\");</code></pre>",
+        "hint": "Even with 0ms delay, setTimeout callback runs after synchronous code.",
+        "answer": "<code>A</code><br><code>C</code><br><code>B</code>",
+        "explanation": "A prints (sync). setTimeout puts B in the task queue. C prints (sync). After sync code finishes, B runs from the queue."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(\"start\");\nsetTimeout(function() {\n  console.log(\"timeout\");\n}, 1000);\nconsole.log(\"end\");</code></pre>",
+        "hint": "The timeout fires after 1 second. The rest runs immediately.",
+        "answer": "<code>start</code><br><code>end</code><br>(after 1 second) <code>timeout</code>",
+        "explanation": "'start' prints, setTimeout schedules callback for 1 second later, 'end' prints. After 1 second, 'timeout' prints."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const p = new Promise(function(resolve) {\n  resolve(42);\n});\n\np.then(function(value) {\n  console.log(value);\n});</code></pre>",
+        "hint": "The Promise is immediately resolved with 42.",
+        "answer": "<code>42</code>",
+        "explanation": "The Promise resolves with 42. The .then callback receives 42 and logs it."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>async function greet() {\n  return \"Hello\";\n}\n\ngreet().then(function(msg) {\n  console.log(msg);\n});</code></pre>",
+        "hint": "async functions always return a Promise.",
+        "answer": "<code>Hello</code>",
+        "explanation": "An async function automatically wraps the return value in a Promise. greet() returns Promise that resolves to 'Hello'. The .then receives it."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(\"1\");\n\nPromise.resolve(\"2\").then(function(val) {\n  console.log(val);\n});\n\nconsole.log(\"3\");</code></pre>",
+        "hint": "Promise.then callbacks are microtasks -- they run after sync code but before setTimeout.",
+        "answer": "<code>1</code><br><code>3</code><br><code>2</code>",
+        "explanation": "'1' prints (sync). Promise.then is async (microtask). '3' prints (sync). After sync finishes, '2' prints from the microtask queue."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(\"1\");\n\nsetTimeout(function() {\n  console.log(\"2\");\n}, 0);\n\nPromise.resolve().then(function() {\n  console.log(\"3\");\n});\n\nconsole.log(\"4\");</code></pre>",
+        "hint": "Microtasks (Promises) run before macrotasks (setTimeout).",
+        "answer": "<code>1</code><br><code>4</code><br><code>3</code><br><code>2</code>",
+        "explanation": "'1' and '4' are synchronous. Promise.then is a microtask (3). setTimeout is a macrotask (2). Microtasks run first, then macrotasks."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const p = new Promise(function(resolve, reject) {\n  reject(\"error!\");\n});\n\np.then(function(val) {\n  console.log(\"then:\", val);\n}).catch(function(err) {\n  console.log(\"catch:\", err);\n});</code></pre>",
+        "hint": "The Promise is rejected, so .then is skipped and .catch runs.",
+        "answer": "<code>catch: error!</code>",
+        "explanation": "The Promise rejects with 'error!'. The .then callback is skipped (it only runs on resolve). The .catch callback runs with the rejection value."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>Promise.resolve(1)\n  .then(function(x) {\n    console.log(x);\n    return x + 1;\n  })\n  .then(function(x) {\n    console.log(x);\n    return x + 1;\n  })\n  .then(function(x) {\n    console.log(x);\n  });</code></pre>",
+        "hint": "Each .then receives the return value of the previous .then.",
+        "answer": "<code>1</code><br><code>2</code><br><code>3</code>",
+        "explanation": "First .then gets 1, returns 2. Second .then gets 2, returns 3. Third .then gets 3. The return value of each .then becomes the input to the next."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>async function test() {\n  console.log(\"A\");\n  await Promise.resolve();\n  console.log(\"B\");\n}\n\nconsole.log(\"C\");\ntest();\nconsole.log(\"D\");</code></pre>",
+        "hint": "await pauses the async function but NOT the caller.",
+        "answer": "<code>C</code><br><code>A</code><br><code>D</code><br><code>B</code>",
+        "explanation": "'C' prints. test() starts, 'A' prints. await pauses test(). Control returns to caller. 'D' prints. After sync finishes, 'B' prints."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>async function f1() {\n  console.log(\"f1 start\");\n  await f2();\n  console.log(\"f1 end\");\n}\n\nasync function f2() {\n  console.log(\"f2 start\");\n  await Promise.resolve();\n  console.log(\"f2 end\");\n}\n\nconsole.log(\"main start\");\nf1();\nconsole.log(\"main end\");</code></pre>",
+        "hint": "Each await pauses its function. Synchronous code always runs first.",
+        "answer": "<code>main start</code><br><code>f1 start</code><br><code>f2 start</code><br><code>main end</code><br><code>f2 end</code><br><code>f1 end</code>",
+        "explanation": "'main start' (sync). f1 starts, 'f1 start'. f1 calls f2. 'f2 start'. f2 hits await, pauses. f1 is also paused (waiting for f2). 'main end' (sync). Then f2 resumes: 'f2 end'. Then f1 resumes: 'f1 end'."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const p1 = new Promise(resolve => setTimeout(() => resolve(\"A\"), 100));\nconst p2 = new Promise(resolve => setTimeout(() => resolve(\"B\"), 50));\nconst p3 = new Promise(resolve => setTimeout(() => resolve(\"C\"), 150));\n\nPromise.all([p1, p2, p3]).then(function(results) {\n  console.log(results);\n});\n\nPromise.race([p1, p2, p3]).then(function(result) {\n  console.log(result);\n});</code></pre>",
+        "hint": "all returns results in input order. race returns the fastest.",
+        "answer": "<code>B</code><br><code>[\"A\", \"B\", \"C\"]</code>",
+        "explanation": "race resolves with the fastest (B at 50ms). all waits for all to finish (150ms) and returns results in the original order [A, B, C], not in the order they finished."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(\"1\");\n\nsetTimeout(() => console.log(\"2\"), 0);\nsetTimeout(() => console.log(\"3\"), 0);\n\nPromise.resolve()\n  .then(() => console.log(\"4\"))\n  .then(() => console.log(\"5\"));\n\nPromise.resolve()\n  .then(() => console.log(\"6\"));\n\nconsole.log(\"7\");</code></pre>",
+        "hint": "All microtasks drain before any macrotask runs.",
+        "answer": "<code>1</code><br><code>7</code><br><code>4</code><br><code>6</code><br><code>5</code><br><code>2</code><br><code>3</code>",
+        "explanation": "Sync: 1, 7. Then microtasks: 4 and 6 (both .then from resolved promises), then 5 (chained .then from first promise). Then macrotasks: 2, 3 (setTimeouts in order)."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>async function test() {\n  try {\n    const result = await Promise.reject(\"fail\");\n    console.log(\"result:\", result);\n  } catch (error) {\n    console.log(\"caught:\", error);\n  } finally {\n    console.log(\"finally\");\n  }\n}\n\ntest();\nconsole.log(\"after test\");</code></pre>",
+        "hint": "await on a rejected Promise throws in the async function.",
+        "answer": "<code>after test</code><br><code>caught: fail</code><br><code>finally</code>",
+        "explanation": "'after test' prints first (sync). Then the async function runs: await rejects, catch runs ('caught: fail'), finally runs ('finally'). The 'result' line never executes."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const p = Promise.resolve(\"done\");\nconsole.log(typeof p);\np.then(val => console.log(val));</code></pre>",
+        "hint": "Promise.resolve returns a Promise object.",
+        "answer": "<code>object</code><br><code>done</code>",
+        "explanation": "typeof a Promise is 'object'. The .then callback receives 'done' and logs it."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>async function add(a, b) {\n  return a + b;\n}\n\nadd(3, 4).then(result => console.log(result));</code></pre>",
+        "hint": "async functions wrap return values in a Promise.",
+        "answer": "<code>7</code>",
+        "explanation": "The async function returns 3 + 4 = 7 wrapped in a Promise. The .then receives 7."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let x = 0;\n\nsetTimeout(() => { x = 1; }, 0);\nPromise.resolve().then(() => { x = 2; });\n\nconsole.log(x);\n\nsetTimeout(() => { console.log(x); }, 100);</code></pre>",
+        "hint": "First console.log is sync. Second is after everything has run.",
+        "answer": "<code>0</code><br><code>1</code>",
+        "explanation": "First log: x is still 0 (async has not run). Then microtask sets x=2. Then macrotask sets x=1. After 100ms, x is 1 (setTimeout ran after Promise.then)."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function delay(ms, value) {\n  return new Promise(resolve => setTimeout(() => resolve(value), ms));\n}\n\nasync function test() {\n  const result = await delay(100, \"hello\");\n  console.log(result.toUpperCase());\n}\n\ntest();</code></pre>",
+        "hint": "await pauses until the Promise resolves with the value.",
+        "answer": "<code>HELLO</code>",
+        "explanation": "delay returns a Promise that resolves with 'hello' after 100ms. await gets 'hello'. toUpperCase() gives 'HELLO'."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>Promise.resolve(\"A\")\n  .then(val => {\n    console.log(val);\n    throw new Error(\"B\");\n  })\n  .then(val => {\n    console.log(\"C\");\n  })\n  .catch(err => {\n    console.log(err.message);\n  })\n  .then(() => {\n    console.log(\"D\");\n  });</code></pre>",
+        "hint": "An error in .then skips to .catch. After .catch, the chain continues.",
+        "answer": "<code>A</code><br><code>B</code><br><code>D</code>",
+        "explanation": "A logs. throw Error skips 'C' and goes to catch. catch logs 'B' (error message). After catch, the chain resumes: 'D' logs."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>async function test() {\n  const results = await Promise.allSettled([\n    Promise.resolve(\"ok\"),\n    Promise.reject(\"fail\"),\n    Promise.resolve(\"done\")\n  ]);\n\n  results.forEach(r => {\n    console.log(r.status, r.value || r.reason);\n  });\n}\n\ntest();</code></pre>",
+        "hint": "allSettled never rejects. It reports each Promise's status.",
+        "answer": "<code>fulfilled ok</code><br><code>rejected fail</code><br><code>fulfilled done</code>",
+        "explanation": "allSettled waits for all Promises regardless of success/failure. Each result has status ('fulfilled' or 'rejected') and either value or reason."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (var i = 0; i < 3; i++) {\n  setTimeout(() => console.log(\"var:\", i), 0);\n}\n\nfor (let j = 0; j < 3; j++) {\n  setTimeout(() => console.log(\"let:\", j), 0);\n}</code></pre>",
+        "hint": "var shares one variable. let creates a new one per iteration.",
+        "answer": "<code>var: 3</code><br><code>var: 3</code><br><code>var: 3</code><br><code>let: 0</code><br><code>let: 1</code><br><code>let: 2</code>",
+        "explanation": "With var, all callbacks share one i (which is 3 after the loop). With let, each iteration has its own j, so callbacks capture 0, 1, 2 correctly."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>Promise.all</code> and <code>Promise.allSettled</code>?",
+        "hint": "What happens when one Promise rejects?",
+        "answer": "<code>Promise.all</code> rejects immediately if ANY Promise rejects. You get the error and lose the results of successful Promises. <code>Promise.allSettled</code> waits for ALL Promises to finish and reports each one's status (fulfilled or rejected). It never rejects itself.",
+        "explanation": "Use all when you need every operation to succeed (and want to fail fast). Use allSettled when you want results for each operation regardless of whether some failed."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why does <code>Promise.resolve().then(fn)</code> run before <code>setTimeout(fn, 0)</code> even though both have 0 delay?",
+        "hint": "Think about microtasks vs macrotasks.",
+        "answer": "The event loop has two queues: the microtask queue (Promise callbacks) and the macrotask queue (setTimeout, setInterval). After each macrotask finishes, ALL microtasks are drained before the next macrotask runs. So Promise.then (microtask) always runs before setTimeout (macrotask), regardless of delay values.",
+        "explanation": "The priority order is: synchronous code > microtasks (Promise.then) > macrotasks (setTimeout). This is a fundamental rule of the JavaScript event loop."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does 'asynchronous' mean in JavaScript?",
+        "options": {
+          "A": "Code runs in parallel on multiple threads",
+          "B": "Code can start an operation and continue without waiting for it to finish",
+          "C": "Code runs backwards",
+          "D": "Code runs faster"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Asynchronous means starting an operation (like a network request) and continuing to run other code. When the operation finishes, a callback handles the result. JavaScript is still single-threaded."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does <code>setTimeout(fn, 0)</code> do?",
+        "options": {
+          "A": "Runs fn immediately",
+          "B": "Never runs fn",
+          "C": "Schedules fn to run after current synchronous code finishes",
+          "D": "Runs fn in a separate thread"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Even with 0ms delay, the callback is placed in the macrotask queue and runs only after the current synchronous code finishes and all microtasks drain."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What are the three states of a Promise?",
+        "options": {
+          "A": "start, middle, end",
+          "B": "pending, fulfilled, rejected",
+          "C": "open, closed, error",
+          "D": "loading, success, failure"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A Promise starts as pending, then transitions to either fulfilled (resolve was called) or rejected (reject was called). Once settled, it cannot change again."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What keyword makes a function return a Promise?",
+        "options": {
+          "A": "promise",
+          "B": "await",
+          "C": "async",
+          "D": "return"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Adding <code>async</code> before a function declaration makes it always return a Promise. The return value is automatically wrapped in Promise.resolve()."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Where can <code>await</code> be used?",
+        "options": {
+          "A": "Anywhere in JavaScript",
+          "B": "Only inside async functions (or top-level module code)",
+          "C": "Only inside .then callbacks",
+          "D": "Only inside setTimeout"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>await</code> can only appear inside <code>async</code> functions or at the top level of ES modules. Using it elsewhere causes a SyntaxError."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does <code>.catch()</code> do in a Promise chain?",
+        "options": {
+          "A": "Catches syntax errors",
+          "B": "Handles rejected Promises from any previous step in the chain",
+          "C": "Prevents all errors",
+          "D": "Runs before .then()"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>.catch()</code> handles rejections from ANY .then() before it in the chain. It is like a safety net for the entire chain."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does <code>Promise.all([p1, p2, p3])</code> do?",
+        "options": {
+          "A": "Returns the first Promise to resolve",
+          "B": "Waits for all Promises and returns an array of results (or rejects if any fails)",
+          "C": "Runs Promises one after another",
+          "D": "Returns the fastest Promise"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Promise.all waits for ALL Promises to resolve and returns their results as an array in the same order. If ANY Promise rejects, Promise.all immediately rejects."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is 'callback hell'?",
+        "options": {
+          "A": "When callbacks run too fast",
+          "B": "Deeply nested callbacks that are hard to read and maintain",
+          "C": "When a callback causes an infinite loop",
+          "D": "When callbacks are not called"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Callback hell (also called the pyramid of doom) occurs when async operations are nested inside each other, creating deeply indented code. Promises and async/await solve this."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does <code>.finally()</code> do on a Promise?",
+        "options": {
+          "A": "Runs only on success",
+          "B": "Runs only on failure",
+          "C": "Runs regardless of success or failure",
+          "D": "Ends the Promise chain"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>.finally()</code> runs whether the Promise resolved or rejected. It is used for cleanup like hiding loading spinners. It does not receive the value or error."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "Which runs first: <code>Promise.resolve().then(fn1)</code> or <code>setTimeout(fn2, 0)</code>?",
+        "options": {
+          "A": "setTimeout (fn2) runs first",
+          "B": "Promise.then (fn1) runs first",
+          "C": "They run at the same time",
+          "D": "It depends on the browser"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Promise.then callbacks are microtasks, which have higher priority than macrotasks (setTimeout). All microtasks drain before the next macrotask runs."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "When should you use <code>Promise.all</code> vs sequential <code>await</code>?",
+        "options": {
+          "A": "Always use Promise.all, it is faster",
+          "B": "Use Promise.all when operations are independent; sequential when each depends on the previous",
+          "C": "Always use sequential await, it is safer",
+          "D": "They do the same thing"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Promise.all runs operations in parallel (faster) but is only appropriate when they are independent. Use sequential await when operation B needs the result of operation A."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What happens if you forget to <code>await</code> an async function call?",
+        "options": {
+          "A": "The function does not run",
+          "B": "You get the Promise object instead of the resolved value",
+          "C": "It throws an error",
+          "D": "It runs synchronously"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without await, the async function returns a Promise object. Your variable holds the Promise, not its result. This leads to bugs like 'Promise { <pending> }' appearing in your output."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What does <code>Promise.race([p1, p2, p3])</code> return?",
+        "options": {
+          "A": "An array of all results",
+          "B": "The result of the fastest Promise (first to settle, resolve or reject)",
+          "C": "The result of the slowest Promise",
+          "D": "The result of the first Promise in the array"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Promise.race returns a Promise that settles with the result of whichever Promise finishes first, whether it resolves or rejects."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Easy",
+        "question": "What function cancels a setTimeout?",
+        "options": {
+          "A": "stopTimeout()",
+          "B": "cancelTimeout()",
+          "C": "clearTimeout()",
+          "D": "removeTimeout()"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>clearTimeout(timerId)</code> cancels a pending setTimeout. You need the ID returned by setTimeout: <code>const id = setTimeout(fn, 1000); clearTimeout(id);</code>"
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "What does <code>Promise.reject('error')</code> return?",
+        "options": {
+          "A": "The string 'error'",
+          "B": "A Promise that is immediately rejected with value 'error'",
+          "C": "undefined",
+          "D": "It throws an error"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>Promise.reject(value)</code> creates a Promise that is immediately in the rejected state. You need <code>.catch()</code> or try-catch to handle it."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What is a callback function?",
+        "options": {
+          "A": "A function that calls itself",
+          "B": "A function passed to another function to be called later",
+          "C": "A function that returns another function",
+          "D": "A function that runs automatically"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A callback is a function you pass as an argument to another function. The receiving function 'calls back' your function when an operation completes."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "What happens if a Promise is rejected and there is no .catch() handler?",
+        "options": {
+          "A": "Nothing happens",
+          "B": "The Promise silently succeeds",
+          "C": "An 'UnhandledPromiseRejection' warning is shown",
+          "D": "The browser crashes"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Unhandled promise rejections produce a warning in the console. In Node.js, they can even crash the process. Always add .catch() or use try-catch with await."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What does <code>Promise.any([p1, p2, p3])</code> do?",
+        "options": {
+          "A": "Waits for all Promises",
+          "B": "Returns the first Promise to settle (resolve or reject)",
+          "C": "Returns the first Promise to successfully resolve, ignoring rejections",
+          "D": "Returns an array of results"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>Promise.any</code> returns the first Promise that resolves successfully. It ignores rejections unless ALL Promises reject (then it throws AggregateError)."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "In <code>async function f() { return 42; }</code>, what does <code>f()</code> return?",
+        "options": {
+          "A": "42",
+          "B": "undefined",
+          "C": "Promise that resolves to 42",
+          "D": "Error"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> async functions always wrap their return value in a Promise. <code>f()</code> returns <code>Promise.resolve(42)</code>, not the number 42 directly. You need <code>await f()</code> or <code>f().then()</code> to get 42."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Medium",
+        "question": "What does <code>clearInterval(timer)</code> do?",
+        "options": {
+          "A": "Pauses the interval",
+          "B": "Stops the interval permanently",
+          "C": "Resets the interval to 0",
+          "D": "Speeds up the interval"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>clearInterval</code> permanently stops a running setInterval. The callback will never be called again. There is no way to pause and resume an interval."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Delay Function with Promise",
+        "difficulty": "Easy",
+        "description": "Write a function delay(ms) that returns a Promise which resolves after ms milliseconds. Then use it with async/await to print 'A', wait 1 second, print 'B', wait 1 second, print 'C'.",
+        "sampleInput": "delay(1000)",
+        "sampleOutput": "A (immediate)\nB (after 1s)\nC (after 2s)",
+        "constraints": "Use new Promise and setTimeout. Use async/await to sequence.",
+        "solution": "function delay(ms) {\n  return new Promise(function(resolve) {\n    setTimeout(resolve, ms);\n  });\n}\n\nasync function main() {\n  console.log('A');\n  await delay(1000);\n  console.log('B');\n  await delay(1000);\n  console.log('C');\n}\n\nmain();"
+      },
+      {
+        "id": "cc-2",
+        "title": "Promise-based Timer",
+        "difficulty": "Easy",
+        "description": "Write a function countdown(n) that returns a Promise. It should log n, n-1, n-2, ... 1 each second, then resolve with 'done' when it reaches 0.",
+        "sampleInput": "countdown(3)",
+        "sampleOutput": "3\n2\n1\ndone",
+        "constraints": "Use setInterval inside a new Promise. clearInterval when done.",
+        "solution": "function countdown(n) {\n  return new Promise(function(resolve) {\n    let current = n;\n    console.log(current);\n    const timer = setInterval(function() {\n      current--;\n      if (current > 0) {\n        console.log(current);\n      } else {\n        clearInterval(timer);\n        resolve('done');\n      }\n    }, 1000);\n  });\n}\n\ncountdown(3).then(result => console.log(result));"
+      },
+      {
+        "id": "cc-3",
+        "title": "Sequential vs Parallel Comparison",
+        "difficulty": "Medium",
+        "description": "Write two functions: sequentialLoad(names) and parallelLoad(names) that simulate loading data for each name (500ms each). Compare the time taken using console.time.",
+        "sampleInput": "[\"Aarav\", \"Priya\", \"Rohan\"]",
+        "sampleOutput": "sequential: ~1500ms\nparallel: ~500ms",
+        "constraints": "Use a fake loadUser function that returns a Promise. Use Promise.all for parallel.",
+        "solution": "function loadUser(name) {\n  return new Promise(resolve => {\n    setTimeout(() => resolve({ name, loaded: true }), 500);\n  });\n}\n\nasync function sequentialLoad(names) {\n  console.time('sequential');\n  const results = [];\n  for (const name of names) {\n    results.push(await loadUser(name));\n  }\n  console.timeEnd('sequential');\n  return results;\n}\n\nasync function parallelLoad(names) {\n  console.time('parallel');\n  const results = await Promise.all(names.map(loadUser));\n  console.timeEnd('parallel');\n  return results;\n}\n\nasync function main() {\n  await sequentialLoad(['Aarav', 'Priya', 'Rohan']);\n  await parallelLoad(['Aarav', 'Priya', 'Rohan']);\n}\nmain();"
+      },
+      {
+        "id": "cc-4",
+        "title": "Retry with Delay",
+        "difficulty": "Medium",
+        "description": "Write an async function retryWithDelay(fn, maxRetries, delayMs) that calls fn(), and if it throws, waits delayMs milliseconds and tries again, up to maxRetries times.",
+        "sampleInput": "A function that fails twice then succeeds",
+        "sampleOutput": "Attempt 1: failed, retrying in 500ms\nAttempt 2: failed, retrying in 500ms\nAttempt 3: success!",
+        "constraints": "Use async/await and a delay function.",
+        "solution": "function delay(ms) {\n  return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nasync function retryWithDelay(fn, maxRetries, delayMs) {\n  for (let attempt = 1; attempt <= maxRetries; attempt++) {\n    try {\n      const result = await fn();\n      console.log('Attempt ' + attempt + ': success!');\n      return result;\n    } catch (error) {\n      console.log('Attempt ' + attempt + ': failed, retrying in ' + delayMs + 'ms');\n      if (attempt === maxRetries) throw error;\n      await delay(delayMs);\n    }\n  }\n}\n\nlet callCount = 0;\nasync function unreliable() {\n  callCount++;\n  if (callCount < 3) throw new Error('not ready');\n  return 'data';\n}\n\nretryWithDelay(unreliable, 5, 500).then(r => console.log('Got:', r));"
+      },
+      {
+        "id": "cc-5",
+        "title": "Promise.allSettled Report",
+        "difficulty": "Medium",
+        "description": "Write an async function runAll(tasks) where tasks is an array of functions that return Promises. Use Promise.allSettled and return a summary: { total, succeeded, failed, results }.",
+        "sampleInput": "[() => Promise.resolve('a'), () => Promise.reject('b'), () => Promise.resolve('c')]",
+        "sampleOutput": "{ total: 3, succeeded: 2, failed: 1, results: [...] }",
+        "constraints": "Use Promise.allSettled. Count fulfilled and rejected.",
+        "solution": "async function runAll(tasks) {\n  const promises = tasks.map(fn => fn());\n  const results = await Promise.allSettled(promises);\n\n  return {\n    total: results.length,\n    succeeded: results.filter(r => r.status === 'fulfilled').length,\n    failed: results.filter(r => r.status === 'rejected').length,\n    results: results\n  };\n}\n\nasync function main() {\n  const report = await runAll([\n    () => Promise.resolve('data1'),\n    () => Promise.reject('error1'),\n    () => Promise.resolve('data2'),\n    () => Promise.reject('error2')\n  ]);\n  console.log('Total:', report.total);\n  console.log('Succeeded:', report.succeeded);\n  console.log('Failed:', report.failed);\n}\nmain();"
+      },
+      {
+        "id": "cc-6",
+        "title": "Timeout Wrapper",
+        "difficulty": "Hard",
+        "description": "Write a function withTimeout(promise, ms) that races the given Promise against a timer. If the Promise does not resolve within ms milliseconds, reject with 'Timeout after {ms}ms'.",
+        "sampleInput": "withTimeout(delay(5000, 'data'), 2000)",
+        "sampleOutput": "Error: Timeout after 2000ms",
+        "constraints": "Use Promise.race with a timeout Promise.",
+        "solution": "function withTimeout(promise, ms) {\n  const timeout = new Promise(function(_, reject) {\n    setTimeout(function() {\n      reject(new Error('Timeout after ' + ms + 'ms'));\n    }, ms);\n  });\n  return Promise.race([promise, timeout]);\n}\n\nfunction slowOperation() {\n  return new Promise(resolve => setTimeout(() => resolve('done'), 5000));\n}\n\nfunction fastOperation() {\n  return new Promise(resolve => setTimeout(() => resolve('done'), 500));\n}\n\nasync function main() {\n  try {\n    const result = await withTimeout(fastOperation(), 2000);\n    console.log('Fast:', result);\n  } catch (e) {\n    console.log('Fast error:', e.message);\n  }\n\n  try {\n    const result = await withTimeout(slowOperation(), 2000);\n    console.log('Slow:', result);\n  } catch (e) {\n    console.log('Slow error:', e.message);\n  }\n}\nmain();"
+      },
+      {
+        "id": "cc-7",
+        "title": "Async Queue (Process One at a Time)",
+        "difficulty": "Hard",
+        "description": "Build an AsyncQueue class with an add(asyncFn) method. Tasks should be processed one at a time in the order they are added. Each task must complete before the next starts.",
+        "sampleInput": "queue.add(() => delay(1000, 'A')); queue.add(() => delay(500, 'B'));",
+        "sampleOutput": "A finishes at 1000ms, B finishes at 1500ms (not 500ms)",
+        "constraints": "Tasks must run sequentially. Use async/await internally.",
+        "solution": "class AsyncQueue {\n  constructor() {\n    this.queue = [];\n    this.running = false;\n  }\n\n  add(asyncFn) {\n    return new Promise((resolve, reject) => {\n      this.queue.push({ fn: asyncFn, resolve, reject });\n      if (!this.running) {\n        this.process();\n      }\n    });\n  }\n\n  async process() {\n    this.running = true;\n    while (this.queue.length > 0) {\n      const { fn, resolve, reject } = this.queue.shift();\n      try {\n        const result = await fn();\n        resolve(result);\n      } catch (error) {\n        reject(error);\n      }\n    }\n    this.running = false;\n  }\n}\n\nconst queue = new AsyncQueue();\nfunction delay(ms, val) {\n  return new Promise(r => setTimeout(() => r(val), ms));\n}\n\nqueue.add(() => delay(1000, 'A')).then(v => console.log(v, Date.now()));\nqueue.add(() => delay(500, 'B')).then(v => console.log(v, Date.now()));\nqueue.add(() => delay(300, 'C')).then(v => console.log(v, Date.now()));"
+      },
+      {
+        "id": "cc-8",
+        "title": "Loading Indicator with Async/Await",
+        "difficulty": "Medium",
+        "description": "Write an async function fetchWithLoading(url, loadingEl) that shows 'Loading...' in a DOM element, fetches data (simulate with delay), shows the result on success, and shows 'Error' on failure. Use try-catch-finally to always clear the loading state.",
+        "sampleInput": "A simulated fetch with a DOM element",
+        "sampleOutput": "Loading... -> Data loaded -> (loading hidden)",
+        "constraints": "Use try-catch-finally. Show and hide loading state.",
+        "solution": "function simulateFetch(url) {\n  return new Promise((resolve, reject) => {\n    setTimeout(() => {\n      if (url.includes('fail')) reject(new Error('Network error'));\n      else resolve({ data: 'Result from ' + url });\n    }, 1000);\n  });\n}\n\nasync function fetchWithLoading(url, statusEl) {\n  statusEl.textContent = 'Loading...';\n  try {\n    const result = await simulateFetch(url);\n    statusEl.textContent = 'Success: ' + result.data;\n    return result;\n  } catch (error) {\n    statusEl.textContent = 'Error: ' + error.message;\n    return null;\n  } finally {\n    console.log('Loading complete for', url);\n  }\n}\n\n// Usage:\n// const el = document.getElementById('status');\n// fetchWithLoading('/api/data', el);\n// fetchWithLoading('/api/fail', el);"
+      }
+    ]
+  }
+}

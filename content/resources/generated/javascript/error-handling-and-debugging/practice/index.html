@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Error Handling and Debugging | JavaScript | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="50+ practice questions on Error Handling and Debugging in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="error handling and debugging practice, javascript questions, javascript practice problems, error handling and debugging exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging/practice">
+    <meta property="og:title" content="Practice Questions - Error Handling and Debugging | JavaScript | Modern Age Coders">
+    <meta property="og:description" content="50+ practice questions on Error Handling and Debugging in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging/practice">
+    <meta name="twitter:title" content="Practice Questions - Error Handling and Debugging | JavaScript | Modern Age Coders">
+    <meta name="twitter:description" content="50+ practice questions on Error Handling and Debugging in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Error Handling and Debugging",
+    "description": "50+ practice questions on Error Handling and Debugging in JavaScript.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Error Handling and Debugging"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Error Handling and Debugging",
+        "item": "https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript/error-handling-and-debugging">Error Handling and Debugging</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 18</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">50 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Error Handling and Debugging</h1>
+            <a href="/resources/javascript/error-handling-and-debugging" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">6</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>try {
+  console.log("A");
+  console.log("B");
+} catch (error) {
+  console.log("C");
+}
+console.log("D");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">No error occurs in the try block.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>A</code><br><code>B</code><br><code>D</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>try {
+  console.log("A");
+  JSON.parse("invalid");
+  console.log("B");
+} catch (error) {
+  console.log("C");
+}
+console.log("D");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">JSON.parse with invalid input throws SyntaxError.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>A</code><br><code>C</code><br><code>D</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>try {
+  console.log("start");
+} catch (error) {
+  console.log("error");
+} finally {
+  console.log("done");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">finally always runs, even when there is no error.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>start</code><br><code>done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What type of error does this code throw?<br><pre><code>console.log(myVar);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">myVar has not been declared anywhere.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>ReferenceError: myVar is not defined</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What type of error does this code throw?<br><pre><code>const num = 42;
+num.toUpperCase();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">toUpperCase is a string method, not a number method.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>TypeError: num.toUpperCase is not a function</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>try {
+  throw new Error("oops");
+  console.log("after throw");
+} catch (error) {
+  console.log(error.message);
+}
+console.log("end");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">throw immediately exits the try block.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>oops</code><br><code>end</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>function test() {
+  try {
+    return 1;
+  } finally {
+    console.log("finally");
+  }
+}
+
+const result = test();
+console.log(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">finally runs even after a return statement.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>finally</code><br><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>try {
+  const obj = null;
+  console.log(obj.name);
+} catch (error) {
+  console.log(error.name);
+  console.log(error.message.includes("null"));
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Accessing a property of null throws TypeError.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>TypeError</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>try {
+  JSON.parse("invalid");
+} catch (error) {
+  console.log(error instanceof SyntaxError);
+  console.log(error instanceof Error);
+  console.log(error instanceof TypeError);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">SyntaxError is a subclass of Error.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>true</code><br><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function outer() {
+  try {
+    inner();
+    console.log("after inner");
+  } catch (error) {
+    console.log("outer caught:", error.message);
+  }
+}
+
+function inner() {
+  throw new Error("inner error");
+}
+
+outer();
+console.log("done");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">The error from inner() propagates up to outer's try-catch.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>outer caught: inner error</code><br><code>done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function test(val) {
+  try {
+    if (val < 0) throw new RangeError("negative");
+    if (typeof val !== "number") throw new TypeError("not a number");
+    return val * 2;
+  } catch (error) {
+    return error.name + ": " + error.message;
+  } finally {
+    console.log("finally for " + val);
+  }
+}
+
+console.log(test(5));
+console.log(test(-3));
+console.log(test("abc"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">finally runs before the return value is delivered each time.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>finally for 5</code><br><code>10</code><br><code>finally for -3</code><br><code>RangeError: negative</code><br><code>finally for abc</code><br><code>TypeError: not a number</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>try {
+  try {
+    throw new TypeError("inner");
+  } catch (e) {
+    console.log("inner catch:", e.message);
+    throw new RangeError("re-thrown");
+  } finally {
+    console.log("inner finally");
+  }
+} catch (e) {
+  console.log("outer catch:", e.name, e.message);
+} finally {
+  console.log("outer finally");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">The inner catch throws a NEW error. The inner finally still runs. The new error propagates to outer catch.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>inner catch: inner</code><br><code>inner finally</code><br><code>outer catch: RangeError re-thrown</code><br><code>outer finally</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What type of error does this code throw?<br><pre><code>const arr = new Array(-1);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Array length cannot be negative.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>RangeError: Invalid array length</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>function greet(name) {
+  if (typeof name !== "string") {
+    throw new TypeError("Name must be a string");
+  }
+  return "Hello, " + name;
+}
+
+try {
+  console.log(greet("Aarav"));
+  console.log(greet(42));
+} catch (error) {
+  console.log(error.message);
+}
+console.log("done");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">First call succeeds. Second call throws.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>Hello, Aarav</code><br><code>Name must be a string</code><br><code>done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>console.warn("low disk space");
+console.log("program continues");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">console.warn does not stop execution.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>low disk space</code> (as a warning)<br><code>program continues</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>try {
+  const x = 10;
+  console.log(x / 2);
+} catch (error) {
+  console.log("Error!");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">10 / 2 is a valid operation.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>console.assert(5 > 3, "This should not log");
+console.assert(2 > 7, "Math is broken");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">console.assert only logs when the condition is FALSE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>Assertion failed: Math is broken</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>function safeDivide(a, b) {
+  if (b === 0) {
+    throw new Error("Cannot divide by zero");
+  }
+  return a / b;
+}
+
+const results = [];
+const pairs = [[10, 2], [6, 0], [9, 3]];
+
+for (const [a, b] of pairs) {
+  try {
+    results.push(safeDivide(a, b));
+  } catch (error) {
+    results.push(error.message);
+  }
+}
+console.log(results);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Each pair is processed independently. Errors are caught per iteration.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>[5, "Cannot divide by zero", 3]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>function parseAge(input) {
+  const age = Number(input);
+  if (isNaN(age)) throw new TypeError("Not a number: " + input);
+  if (age < 0) throw new RangeError("Negative age: " + age);
+  return age;
+}
+
+const inputs = ["25", "abc", "-5", "16"];
+for (const input of inputs) {
+  try {
+    console.log(parseAge(input));
+  } catch (e) {
+    console.log(e.name);
+  }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Number('abc') is NaN. Number('-5') is -5.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>25</code><br><code>TypeError</code><br><code>RangeError</code><br><code>16</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let count = 0;
+
+try {
+  count++;
+  JSON.parse("bad");
+  count++;
+} catch (e) {
+  count += 10;
+} finally {
+  count += 100;
+}
+
+console.log(count);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Track count: starts at 0, incremented in try, error occurs, then catch and finally both run.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>111</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function validate(data) {
+  if (!data) throw new Error("No data");
+  if (!data.name) throw new Error("No name");
+  if (typeof data.age !== "number") throw new TypeError("Bad age");
+  return "Valid";
+}
+
+const tests = [null, {}, { name: "A" }, { name: "B", age: 16 }];
+
+for (const test of tests) {
+  try {
+    console.log(validate(test));
+  } catch (e) {
+    console.log(e.message);
+  }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Each test object fails at a different validation check (or passes).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>No data</code><br><code>No name</code><br><code>Bad age</code><br><code>Valid</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function f() {
+  try {
+    return "try";
+  } catch (e) {
+    return "catch";
+  } finally {
+    return "finally";
+  }
+}
+console.log(f());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">If finally has a return, it overrides all previous returns.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>finally</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why should you always throw Error objects (like <code>new Error('msg')</code>) instead of strings (like <code>throw 'msg'</code>)?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">What properties do Error objects have that strings do not?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">Error objects provide <code>.name</code> (error type), <code>.message</code> (description), and <code>.stack</code> (where it happened). Strings have none of these. Without a stack trace, you cannot tell where the error originated. Without .name, you cannot distinguish error types. Throwing strings makes debugging much harder.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why does try-catch NOT work around setTimeout or event listeners for catching errors inside them?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about when the callback actually executes.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">try-catch only catches errors that happen synchronously within the try block. setTimeout and event listener callbacks run LATER, after the try-catch has already completed. By the time the callback executes and throws, the try-catch is no longer active. You need to put try-catch inside the callback, or use async/await.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which error occurs when you use a variable that has not been declared?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> TypeError</li><li><span class="mcq-option-label">B.</span> SyntaxError</li><li><span class="mcq-option-label">C.</span> ReferenceError</li><li><span class="mcq-option-label">D.</span> RangeError</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> Using an undeclared variable throws <code>ReferenceError: x is not defined</code>. TypeError is for wrong type operations, SyntaxError is for bad code structure.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What block always runs, whether an error occurred or not?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> try</li><li><span class="mcq-option-label">B.</span> catch</li><li><span class="mcq-option-label">C.</span> throw</li><li><span class="mcq-option-label">D.</span> finally</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: D</strong><br><strong>D is correct.</strong> <code>finally</code> always runs: after try succeeds, after catch handles an error, and even after return statements.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does <code>error.message</code> contain?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The line number of the error</li><li><span class="mcq-option-label">B.</span> The name of the error type</li><li><span class="mcq-option-label">C.</span> A human-readable description of what went wrong</li><li><span class="mcq-option-label">D.</span> The full stack trace</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>error.message</code> is a human-readable string describing the error. <code>error.name</code> is the type. <code>error.stack</code> is the trace.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which error does <code>null.toString()</code> throw?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ReferenceError</li><li><span class="mcq-option-label">B.</span> TypeError</li><li><span class="mcq-option-label">C.</span> SyntaxError</li><li><span class="mcq-option-label">D.</span> RangeError</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> Calling a method on null (or accessing a property) throws TypeError: Cannot read properties of null.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does <code>console.assert(false, 'test')</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Logs &#39;test&#39; because the condition is false</li><li><span class="mcq-option-label">B.</span> Throws an error</li><li><span class="mcq-option-label">C.</span> Logs nothing</li><li><span class="mcq-option-label">D.</span> Crashes the program</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>console.assert</code> logs the message only when the condition is false. It does not throw errors or crash -- it just logs to the console.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the correct way to create a custom error?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> throw &#39;my error message&#39;;</li><li><span class="mcq-option-label">B.</span> throw new Error(&#39;my error message&#39;);</li><li><span class="mcq-option-label">C.</span> console.error(&#39;my error message&#39;);</li><li><span class="mcq-option-label">D.</span> return new Error(&#39;my error message&#39;);</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>throw new Error('...')</code> creates an Error object and throws it. Option A throws a string (bad practice). Option C just logs. Option D creates but does not throw.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What console method displays data as a formatted table?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> console.display()</li><li><span class="mcq-option-label">B.</span> console.format()</li><li><span class="mcq-option-label">C.</span> console.table()</li><li><span class="mcq-option-label">D.</span> console.grid()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>console.table()</code> displays arrays and objects as a formatted table in the browser console. Very useful for debugging data.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">If a try block has a return statement and a finally block also has a return statement, which return wins?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The try return</li><li><span class="mcq-option-label">B.</span> The finally return</li><li><span class="mcq-option-label">C.</span> Both returns execute</li><li><span class="mcq-option-label">D.</span> It throws an error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> The finally return overrides the try return. This is because finally always runs last. However, returning from finally is considered bad practice.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">How do you check if an error is a specific type?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> error.type === &#39;TypeError&#39;</li><li><span class="mcq-option-label">B.</span> error instanceof TypeError</li><li><span class="mcq-option-label">C.</span> typeof error === &#39;TypeError&#39;</li><li><span class="mcq-option-label">D.</span> error.is(TypeError)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>instanceof</code> checks if an object is an instance of a class. <code>error instanceof TypeError</code> is true for TypeErrors (and false for other types).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What keyboard shortcut opens browser DevTools?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Ctrl+D</li><li><span class="mcq-option-label">B.</span> Ctrl+Shift+I or F12</li><li><span class="mcq-option-label">C.</span> Alt+F4</li><li><span class="mcq-option-label">D.</span> Ctrl+Alt+J</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> F12 or Ctrl+Shift+I opens DevTools in Chrome, Firefox, and Edge. This is the most important tool for debugging web applications.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Why does <code>try { setTimeout(() => { throw new Error(); }, 0); } catch(e) {}</code> NOT catch the error?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> setTimeout does not support errors</li><li><span class="mcq-option-label">B.</span> The catch block only runs once</li><li><span class="mcq-option-label">C.</span> The callback runs later, after the try-catch has finished</li><li><span class="mcq-option-label">D.</span> Arrow functions cannot throw errors</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> try-catch is synchronous. The setTimeout callback runs asynchronously in a later event loop tick. By then, the try-catch is long gone.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is a breakpoint in browser DevTools?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A line where the code crashes</li><li><span class="mcq-option-label">B.</span> A marker that pauses code execution at a specific line for inspection</li><li><span class="mcq-option-label">C.</span> A line that is skipped during execution</li><li><span class="mcq-option-label">D.</span> A point where the browser restarts</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> A breakpoint pauses execution at that line, letting you inspect variable values, the call stack, and step through code line by line. Set them by clicking a line number in the Sources tab.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the difference between <code>console.warn()</code> and <code>throw new Error()</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They do the same thing</li><li><span class="mcq-option-label">B.</span> warn logs a message without stopping execution; throw stops execution and requires catch</li><li><span class="mcq-option-label">C.</span> throw is for minor issues, warn is for critical errors</li><li><span class="mcq-option-label">D.</span> warn only works in Node.js</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>console.warn</code> logs a yellow warning and execution continues normally. <code>throw</code> stops execution immediately and the error must be caught by a try-catch or it crashes the program.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does <code>console.error('msg')</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Throws an error and stops the program</li><li><span class="mcq-option-label">B.</span> Logs a red error message to the console without stopping execution</li><li><span class="mcq-option-label">C.</span> Crashes the browser</li><li><span class="mcq-option-label">D.</span> Sends the error to the server</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>console.error</code> logs a message styled as an error (red in most browsers) but does NOT throw an error or stop execution.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does the <code>error.stack</code> property contain?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The error message</li><li><span class="mcq-option-label">B.</span> The line number only</li><li><span class="mcq-option-label">C.</span> A full trace of function calls leading to the error</li><li><span class="mcq-option-label">D.</span> The file name only</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>error.stack</code> contains a string showing the chain of function calls (call stack) that led to the error, including file names and line numbers. This is the most useful property for debugging.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Which error occurs when you call <code>JSON.parse('invalid')</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> TypeError</li><li><span class="mcq-option-label">B.</span> ReferenceError</li><li><span class="mcq-option-label">C.</span> SyntaxError</li><li><span class="mcq-option-label">D.</span> RangeError</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: C</strong><br><strong>C is correct.</strong> Invalid JSON causes a <code>SyntaxError</code> because the input string does not follow JSON syntax rules.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What is <code>Step Over (F10)</code> in browser DevTools?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Skips the entire function</li><li><span class="mcq-option-label">B.</span> Executes the current line and moves to the next line</li><li><span class="mcq-option-label">C.</span> Goes inside a function call</li><li><span class="mcq-option-label">D.</span> Resumes normal execution</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> Step Over executes the current line completely (including any function calls) and pauses at the next line. Step Into (F11) would go inside function calls.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Can you catch a SyntaxError with try-catch if it is in the same code block?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, always</li><li><span class="mcq-option-label">B.</span> No, SyntaxErrors are detected before the code runs, so try-catch never executes</li><li><span class="mcq-option-label">C.</span> Only in strict mode</li><li><span class="mcq-option-label">D.</span> Only in async functions</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> SyntaxErrors in your code are caught during parsing, before any code runs. The try-catch itself would not execute. However, SyntaxErrors from <code>eval()</code> or <code>JSON.parse()</code> CAN be caught because they happen at runtime.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">What property gives the error type name (like 'TypeError' or 'RangeError')?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> error.type</li><li><span class="mcq-option-label">B.</span> error.name</li><li><span class="mcq-option-label">C.</span> error.kind</li><li><span class="mcq-option-label">D.</span> error.class</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>error.name</code> contains the error type as a string, like 'TypeError', 'RangeError', or 'SyntaxError'.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Safe JSON Parser</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function safeJsonParse(str, fallback) that parses a JSON string and returns the result. If parsing fails, return the fallback value instead of crashing.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">safeJsonParse(&#39;{&quot;name&quot;:&quot;Aarav&quot;}&#39;, {}), safeJsonParse(&#39;bad&#39;, [])</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">{ name: &#39;Aarav&#39; }
+[]</div>
+                </div><div class="challenge-constraints">Use try-catch. Return the fallback on any error.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">function safeJsonParse(str, fallback) {
+  try {
+    return JSON.parse(str);
+  } catch (error) {
+    return fallback;
+  }
+}
+
+console.log(safeJsonParse(&#39;{&quot;name&quot;:&quot;Aarav&quot;}&#39;, {}));
+console.log(safeJsonParse(&#39;bad&#39;, []));
+console.log(safeJsonParse(null, { error: true }));</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Error Type Identifier</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function identifyError(fn) that takes a function, calls it, and returns the error type name if it throws, or 'No error' if it succeeds.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">() =&gt; null.x, () =&gt; unknownVar, () =&gt; 42</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">TypeError
+ReferenceError
+No error</div>
+                </div><div class="challenge-constraints">Use try-catch and error.name.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">function identifyError(fn) {
+  try {
+    fn();
+    return &quot;No error&quot;;
+  } catch (error) {
+    return error.name;
+  }
+}
+
+console.log(identifyError(() =&gt; null.x));        // TypeError
+console.log(identifyError(() =&gt; JSON.parse(&#39;{&#39;)));  // SyntaxError
+console.log(identifyError(() =&gt; 42));             // No error</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Input Validator with Custom Errors</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a ValidationError class that extends Error and has a 'field' property. Write a validateStudent(data) function that validates name (string, 2+ chars), age (number, 5-25), and email (must include @). Throw ValidationError with the field name for each failure.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">{ name: &#39;A&#39;, age: 16, email: &#39;a@b.com&#39; }</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">ValidationError on field &#39;name&#39;: Name must be at least 2 characters</div>
+                </div><div class="challenge-constraints">Custom error class with field property. Use instanceof to check error type.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">class ValidationError extends Error {
+  constructor(field, message) {
+    super(message);
+    this.name = &#39;ValidationError&#39;;
+    this.field = field;
+  }
+}
+
+function validateStudent(data) {
+  if (typeof data.name !== &#39;string&#39; || data.name.length &lt; 2) {
+    throw new ValidationError(&#39;name&#39;, &#39;Name must be at least 2 characters&#39;);
+  }
+  if (typeof data.age !== &#39;number&#39; || data.age &lt; 5 || data.age &gt; 25) {
+    throw new ValidationError(&#39;age&#39;, &#39;Age must be a number between 5 and 25&#39;);
+  }
+  if (!data.email || !data.email.includes(&#39;@&#39;)) {
+    throw new ValidationError(&#39;email&#39;, &#39;Email must contain @&#39;);
+  }
+  return true;
+}
+
+const tests = [
+  { name: &#39;A&#39;, age: 16, email: &#39;a@b.com&#39; },
+  { name: &#39;Aarav&#39;, age: 3, email: &#39;a@b.com&#39; },
+  { name: &#39;Priya&#39;, age: 15, email: &#39;bad&#39; },
+  { name: &#39;Rohan&#39;, age: 16, email: &#39;r@x.com&#39; }
+];
+
+for (const test of tests) {
+  try {
+    validateStudent(test);
+    console.log(test.name + &#39;: Valid&#39;);
+  } catch (e) {
+    if (e instanceof ValidationError) {
+      console.log(test.name + &#39;: &#39; + e.field + &#39; - &#39; + e.message);
+    }
+  }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Retry Function</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function retry(fn, maxAttempts) that calls fn() up to maxAttempts times. If fn succeeds, return the result. If fn throws and there are attempts left, try again. If all attempts fail, throw the last error.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">A function that fails randomly</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Attempt 1: failed
+Attempt 2: success -&gt; 42</div>
+                </div><div class="challenge-constraints">Track attempts. Re-throw the last error after all attempts fail.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">function retry(fn, maxAttempts) {
+  let lastError;
+  for (let attempt = 1; attempt &lt;= maxAttempts; attempt++) {
+    try {
+      const result = fn();
+      console.log(&#39;Attempt &#39; + attempt + &#39;: success -&gt; &#39; + result);
+      return result;
+    } catch (error) {
+      lastError = error;
+      console.log(&#39;Attempt &#39; + attempt + &#39;: failed - &#39; + error.message);
+    }
+  }
+  throw lastError;
+}
+
+let callCount = 0;
+function unreliable() {
+  callCount++;
+  if (callCount &lt; 3) throw new Error(&#39;not ready&#39;);
+  return 42;
+}
+
+try {
+  retry(unreliable, 5);
+} catch (e) {
+  console.log(&#39;All attempts failed&#39;);
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Safe Property Accessor</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function safeAccess(obj, path) where path is a dot-separated string like 'a.b.c'. Return the value at that path, or undefined if any part is missing. Do NOT use optional chaining -- use try-catch instead.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">({ a: { b: { c: 42 } } }, &#39;a.b.c&#39;)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">42</div>
+                </div><div class="challenge-constraints">Use try-catch and a loop. Do not use optional chaining (?.).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">function safeAccess(obj, path) {
+  try {
+    const keys = path.split(&#39;.&#39;);
+    let current = obj;
+    for (const key of keys) {
+      current = current[key];
+    }
+    return current;
+  } catch (error) {
+    return undefined;
+  }
+}
+
+const data = { a: { b: { c: 42 } } };
+console.log(safeAccess(data, &#39;a.b.c&#39;));   // 42
+console.log(safeAccess(data, &#39;a.b&#39;));     // { c: 42 }
+console.log(safeAccess(data, &#39;a.x.y&#39;));   // undefined
+console.log(safeAccess(data, &#39;z&#39;));        // undefined</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Error Statistics Collector</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a function testAll(functions) that takes an array of functions, calls each one, and returns an object with: { successes: count, errors: { TypeError: count, RangeError: count, ... } }.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">[() =&gt; 42, () =&gt; null.x, () =&gt; JSON.parse(&#39;{&#39;)]</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">{ successes: 1, errors: { TypeError: 1, SyntaxError: 1 } }</div>
+                </div><div class="challenge-constraints">Use try-catch and error.name to categorize.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">function testAll(functions) {
+  const result = { successes: 0, errors: {} };
+
+  for (const fn of functions) {
+    try {
+      fn();
+      result.successes++;
+    } catch (error) {
+      const type = error.name;
+      result.errors[type] = (result.errors[type] || 0) + 1;
+    }
+  }
+
+  return result;
+}
+
+const fns = [
+  () =&gt; 42,
+  () =&gt; null.x,
+  () =&gt; JSON.parse(&#39;{&#39;),
+  () =&gt; [].length,
+  () =&gt; undefined.name,
+  () =&gt; new Array(-1)
+];
+
+console.log(testAll(fns));
+// { successes: 2, errors: { TypeError: 2, SyntaxError: 1, RangeError: 1 } }</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Build a Debug Logger</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a DebugLogger class with methods: log(msg), warn(msg), error(msg), time(label), timeEnd(label), getLog(). It should store all messages internally with timestamps. getLog() returns all stored messages as an array.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">logger.log(&#39;hello&#39;); logger.warn(&#39;warning&#39;); logger.getLog()</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[{type:&#39;log&#39;, msg:&#39;hello&#39;, time:...}, {type:&#39;warn&#39;, msg:&#39;warning&#39;, time:...}]</div>
+                </div><div class="challenge-constraints">Store messages in an array. Include type, message, and timestamp for each.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">class DebugLogger {
+  constructor() {
+    this.messages = [];
+    this.timers = {};
+  }
+
+  log(msg) {
+    this.messages.push({ type: &#39;log&#39;, msg, time: Date.now() });
+    console.log(msg);
+  }
+
+  warn(msg) {
+    this.messages.push({ type: &#39;warn&#39;, msg, time: Date.now() });
+    console.warn(msg);
+  }
+
+  error(msg) {
+    this.messages.push({ type: &#39;error&#39;, msg, time: Date.now() });
+    console.error(msg);
+  }
+
+  time(label) {
+    this.timers[label] = Date.now();
+  }
+
+  timeEnd(label) {
+    if (this.timers[label]) {
+      const duration = Date.now() - this.timers[label];
+      this.log(label + &#39;: &#39; + duration + &#39;ms&#39;);
+      delete this.timers[label];
+    }
+  }
+
+  getLog() {
+    return this.messages;
+  }
+}
+
+const logger = new DebugLogger();
+logger.log(&#39;App started&#39;);
+logger.warn(&#39;Deprecated function used&#39;);
+logger.time(&#39;process&#39;);
+for (let i = 0; i &lt; 100000; i++) {}
+logger.timeEnd(&#39;process&#39;);
+console.log(logger.getLog());</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/javascript/es6-modern-javascript/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">ES6+ Modern JavaScript Features</span>
+        </a>
+            <a href="/resources/javascript/asynchronous-javascript/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Asynchronous JavaScript - Callbacks, Promises, Async/Await</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/javascript/error-handling-and-debugging" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

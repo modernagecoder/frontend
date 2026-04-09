@@ -1,0 +1,699 @@
+{
+  "title": "Forms and Input Validation",
+  "slug": "forms-and-validation",
+  "language": "javascript",
+  "chapter": 14,
+  "difficulty": "Intermediate",
+  "readingTime": "40 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "Forms and Input Validation in JavaScript - Submit, Regex, Real-time Validation | Modern Age Coders",
+    "description": "Learn JavaScript form handling and validation. Master form submit event, preventDefault, regex validation for email and phone, real-time input validation, checkbox/radio/select handling, password strength checker, and error messages. 58+ practice questions.",
+    "keywords": "javascript form validation, form submit javascript, email validation javascript, regex javascript, password validation, real-time validation, javascript form handling, checkbox radio select javascript, preventDefault form, input validation tutorial"
+  },
+  "content": {
+    "what": "<h2>What Is Form Validation?</h2><p><strong>Form validation</strong> is the process of checking that user input meets your requirements before processing it. Does the email have an @ symbol? Is the password at least 8 characters? Is the phone number 10 digits? Did the user fill in all required fields?</p><p>JavaScript can validate forms on the <strong>client side</strong> (in the browser) before data is sent to a server. This gives users instant feedback without waiting for a page reload.</p><pre><code>&lt;form id=\"loginForm\"&gt;\n  &lt;input type=\"email\" id=\"email\" placeholder=\"Email\"&gt;\n  &lt;input type=\"password\" id=\"password\" placeholder=\"Password\"&gt;\n  &lt;button type=\"submit\"&gt;Login&lt;/button&gt;\n&lt;/form&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"loginForm\").addEventListener(\"submit\", function(e) {\n  e.preventDefault();\n  const email = document.getElementById(\"email\").value;\n  const password = document.getElementById(\"password\").value;\n\n  if (email === \"\") {\n    alert(\"Email is required!\");\n    return;\n  }\n  if (password.length &lt; 8) {\n    alert(\"Password must be at least 8 characters!\");\n    return;\n  }\n  console.log(\"Form is valid. Submitting...\");\n});\n&lt;/script&gt;</code></pre>",
+    "why": "<h2>Why Learn Form Validation?</h2><h3>1. Forms Are Everywhere</h3><p>Login, registration, search, checkout, feedback, contact, booking -- nearly every website has forms. If you want to build websites, you will handle forms. A lot.</p><h3>2. User Experience</h3><p>Good validation gives users instant feedback. Instead of submitting a form and waiting for a server error, they see \"Password too short\" as they type. This is how all modern websites work -- Google, Amazon, Instagram all validate in real-time.</p><h3>3. Security Layer</h3><p>Client-side validation is the first line of defense against bad data. It catches typos, missing fields, and incorrect formats before they reach your server. Note: you should ALWAYS validate on the server too, because client-side validation can be bypassed.</p><h3>4. It Combines Everything You Have Learned</h3><p>Form validation uses DOM selection (getting inputs), events (submit, input, focus, blur), element creation (error messages), and CSS manipulation (red borders, green checkmarks). It is the perfect practice for combining all your DOM skills.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The Form Submit Event</h3><p>When a form is submitted (clicking submit button or pressing Enter in an input), the browser fires a <code>submit</code> event and reloads the page. To handle it with JavaScript, listen for the submit event and call <code>e.preventDefault()</code>:</p><pre><code>&lt;form id=\"form\"&gt;\n  &lt;input type=\"text\" id=\"name\" required&gt;\n  &lt;button type=\"submit\"&gt;Submit&lt;/button&gt;\n&lt;/form&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"form\").addEventListener(\"submit\", function(e) {\n  e.preventDefault(); // Stop page reload\n  const name = document.getElementById(\"name\").value.trim();\n  if (name === \"\") {\n    console.log(\"Name is required\");\n  } else {\n    console.log(\"Submitted: \" + name);\n  }\n});\n&lt;/script&gt;</code></pre><h3>2. Basic Validation Checks</h3><p>Common validations you need to write:</p><pre><code>const email = document.getElementById(\"email\").value.trim();\nconst password = document.getElementById(\"password\").value;\nconst age = Number(document.getElementById(\"age\").value);\n\n// Empty check\nif (email === \"\") { /* Show error */ }\n\n// Minimum length\nif (password.length &lt; 8) { /* Show error */ }\n\n// Maximum length\nif (password.length &gt; 50) { /* Show error */ }\n\n// Number range\nif (age &lt; 13 || age &gt; 120) { /* Show error */ }\n\n// Contains specific character\nif (!email.includes(\"@\")) { /* Show error */ }</code></pre><h3>3. Regular Expressions (Regex) for Validation</h3><p>Regex patterns let you check if a string matches a specific format:</p><pre><code>// Email: basic pattern\nconst emailRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\nconsole.log(emailRegex.test(\"aarav@gmail.com\")); // true\nconsole.log(emailRegex.test(\"aarav@\")); // false\nconsole.log(emailRegex.test(\"aarav\")); // false\n\n// Phone: exactly 10 digits\nconst phoneRegex = /^\\d{10}$/;\nconsole.log(phoneRegex.test(\"9876543210\")); // true\nconsole.log(phoneRegex.test(\"12345\")); // false\n\n// Password: at least 8 chars, one uppercase, one lowercase, one number\nconst passRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,}$/;\nconsole.log(passRegex.test(\"Aarav123\")); // true\nconsole.log(passRegex.test(\"aarav123\")); // false (no uppercase)\nconsole.log(passRegex.test(\"AARAV123\")); // false (no lowercase)\n\n// Only letters and spaces (for names)\nconst nameRegex = /^[A-Za-z\\s]+$/;\nconsole.log(nameRegex.test(\"Aarav Sharma\")); // true\nconsole.log(nameRegex.test(\"Aarav123\")); // false</code></pre><h3>4. Showing Error Messages Dynamically</h3><p>Instead of using alert(), create error message elements that appear below the input:</p><pre><code>function showError(input, message) {\n  // Remove existing error\n  const existing = input.parentNode.querySelector(\".error\");\n  if (existing) existing.remove();\n\n  // Create error element\n  const error = document.createElement(\"div\");\n  error.className = \"error\";\n  error.textContent = message;\n  error.style.color = \"red\";\n  error.style.fontSize = \"13px\";\n  error.style.marginTop = \"4px\";\n\n  // Add after the input\n  input.parentNode.appendChild(error);\n  input.style.borderColor = \"red\";\n}\n\nfunction clearError(input) {\n  const existing = input.parentNode.querySelector(\".error\");\n  if (existing) existing.remove();\n  input.style.borderColor = \"green\";\n}</code></pre><h3>5. Real-Time Validation (input event)</h3><p>Instead of waiting for form submission, validate as the user types using the <code>input</code> event:</p><pre><code>&lt;input type=\"email\" id=\"email\"&gt;\n&lt;div id=\"email-error\"&gt;&lt;/div&gt;\n\n&lt;script&gt;\nconst emailInput = document.getElementById(\"email\");\nconst emailError = document.getElementById(\"email-error\");\nconst emailRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\n\nemailInput.addEventListener(\"input\", function() {\n  const value = emailInput.value.trim();\n  if (value === \"\") {\n    emailError.textContent = \"\";\n    emailInput.style.borderColor = \"\";\n  } else if (emailRegex.test(value)) {\n    emailError.textContent = \"Valid email\";\n    emailError.style.color = \"green\";\n    emailInput.style.borderColor = \"green\";\n  } else {\n    emailError.textContent = \"Enter a valid email\";\n    emailError.style.color = \"red\";\n    emailInput.style.borderColor = \"red\";\n  }\n});\n&lt;/script&gt;</code></pre><h3>6. Handling Checkboxes, Radio Buttons, and Select</h3><pre><code>// Checkbox: .checked is a boolean\nconst agree = document.getElementById(\"agree\");\nconsole.log(agree.checked); // true or false\n\n// Radio buttons: find the checked one\nconst selectedGender = document.querySelector('input[name=\"gender\"]:checked');\nif (selectedGender) {\n  console.log(selectedGender.value); // \"male\", \"female\", etc.\n}\n\n// Select dropdown: .value gives the selected option's value\nconst city = document.getElementById(\"city\");\nconsole.log(city.value); // \"delhi\", \"mumbai\", etc.\n\n// Select: get the text of the selected option\nconsole.log(city.options[city.selectedIndex].text); // \"Delhi\"</code></pre><h3>7. Password Strength Checker</h3><p>A common feature that rates password strength as the user types:</p><pre><code>function checkStrength(password) {\n  let score = 0;\n  if (password.length &gt;= 8) score++;\n  if (password.length &gt;= 12) score++;\n  if (/[a-z]/.test(password)) score++;\n  if (/[A-Z]/.test(password)) score++;\n  if (/\\d/.test(password)) score++;\n  if (/[^A-Za-z0-9]/.test(password)) score++;\n\n  if (score &lt;= 2) return { text: \"Weak\", color: \"red\" };\n  if (score &lt;= 4) return { text: \"Medium\", color: \"orange\" };\n  return { text: \"Strong\", color: \"green\" };\n}</code></pre><h3>8. Enabling/Disabling the Submit Button</h3><p>Disable the submit button until all validations pass:</p><pre><code>const submitBtn = document.getElementById(\"submit\");\nconst nameInput = document.getElementById(\"name\");\nconst emailInput = document.getElementById(\"email\");\n\nfunction checkFormValidity() {\n  const nameValid = nameInput.value.trim().length &gt;= 2;\n  const emailValid = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(emailInput.value);\n  submitBtn.disabled = !(nameValid && emailValid);\n}\n\nnameInput.addEventListener(\"input\", checkFormValidity);\nemailInput.addEventListener(\"input\", checkFormValidity);</code></pre>"
+    ,
+    "codeExamples": [
+    {
+      "title": "Complete Registration Form with Validation",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    form { max-width: 400px; }\n    .field { margin-bottom: 16px; }\n    label { display: block; font-weight: bold; margin-bottom: 4px; }\n    input, select { width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 6px; font-size: 16px; box-sizing: border-box; }\n    input:focus { outline: none; }\n    .error-msg { color: #ef4444; font-size: 13px; margin-top: 4px; display: none; }\n    .error-msg.show { display: block; }\n    .valid { border-color: #10b981; }\n    .invalid { border-color: #ef4444; }\n    button { padding: 12px 24px; background: #a855f7; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; width: 100%; }\n    button:disabled { background: #d1d5db; cursor: not-allowed; }\n    #success { padding: 16px; background: #d1fae5; border-radius: 8px; display: none; margin-top: 16px; }\n  </style>\n</head>\n<body>\n  <h2>Student Registration</h2>\n  <form id=\"regForm\">\n    <div class=\"field\">\n      <label>Full Name</label>\n      <input type=\"text\" id=\"name\" placeholder=\"Aarav Sharma\">\n      <div class=\"error-msg\" id=\"name-error\">Name must be at least 2 characters (letters only)</div>\n    </div>\n    <div class=\"field\">\n      <label>Email</label>\n      <input type=\"text\" id=\"email\" placeholder=\"aarav@example.com\">\n      <div class=\"error-msg\" id=\"email-error\">Enter a valid email address</div>\n    </div>\n    <div class=\"field\">\n      <label>Phone (10 digits)</label>\n      <input type=\"text\" id=\"phone\" placeholder=\"9876543210\" maxlength=\"10\">\n      <div class=\"error-msg\" id=\"phone-error\">Phone must be exactly 10 digits</div>\n    </div>\n    <div class=\"field\">\n      <label>Password</label>\n      <input type=\"password\" id=\"password\" placeholder=\"Min 8 chars, 1 upper, 1 lower, 1 number\">\n      <div class=\"error-msg\" id=\"password-error\">Min 8 chars with uppercase, lowercase, and number</div>\n    </div>\n    <div class=\"field\">\n      <label>City</label>\n      <select id=\"city\">\n        <option value=\"\">Select city</option>\n        <option value=\"Delhi\">Delhi</option>\n        <option value=\"Mumbai\">Mumbai</option>\n        <option value=\"Bangalore\">Bangalore</option>\n        <option value=\"Chennai\">Chennai</option>\n        <option value=\"Pune\">Pune</option>\n      </select>\n      <div class=\"error-msg\" id=\"city-error\">Please select a city</div>\n    </div>\n    <button type=\"submit\" id=\"submitBtn\" disabled>Register</button>\n  </form>\n  <div id=\"success\"></div>\n\n  <script>\n    const form = document.getElementById(\"regForm\");\n    const fields = {\n      name: { el: document.getElementById(\"name\"), err: document.getElementById(\"name-error\"), valid: false },\n      email: { el: document.getElementById(\"email\"), err: document.getElementById(\"email-error\"), valid: false },\n      phone: { el: document.getElementById(\"phone\"), err: document.getElementById(\"phone-error\"), valid: false },\n      password: { el: document.getElementById(\"password\"), err: document.getElementById(\"password-error\"), valid: false },\n      city: { el: document.getElementById(\"city\"), err: document.getElementById(\"city-error\"), valid: false }\n    };\n    const submitBtn = document.getElementById(\"submitBtn\");\n\n    function validate(name, value) {\n      switch(name) {\n        case \"name\": return /^[A-Za-z\\s]{2,}$/.test(value);\n        case \"email\": return /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(value);\n        case \"phone\": return /^\\d{10}$/.test(value);\n        case \"password\": return /^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,}$/.test(value);\n        case \"city\": return value !== \"\";\n      }\n    }\n\n    function checkField(name) {\n      const f = fields[name];\n      const value = f.el.value.trim();\n      if (value === \"\" && name !== \"city\") {\n        f.el.classList.remove(\"valid\", \"invalid\");\n        f.err.classList.remove(\"show\");\n        f.valid = false;\n      } else if (validate(name, value)) {\n        f.el.classList.add(\"valid\");\n        f.el.classList.remove(\"invalid\");\n        f.err.classList.remove(\"show\");\n        f.valid = true;\n      } else {\n        f.el.classList.add(\"invalid\");\n        f.el.classList.remove(\"valid\");\n        f.err.classList.add(\"show\");\n        f.valid = false;\n      }\n      submitBtn.disabled = !Object.values(fields).every(function(f) { return f.valid; });\n    }\n\n    Object.keys(fields).forEach(function(name) {\n      const eventType = name === \"city\" ? \"change\" : \"input\";\n      fields[name].el.addEventListener(eventType, function() { checkField(name); });\n    });\n\n    form.addEventListener(\"submit\", function(e) {\n      e.preventDefault();\n      const success = document.getElementById(\"success\");\n      success.style.display = \"block\";\n      success.textContent = \"Welcome, \" + fields.name.el.value + \"! Registration successful.\";\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "A complete registration form with real-time validation. Each field validates as the user types (input event). The submit button stays disabled until all fields pass validation. On successful submission, a green success message appears. Regex is used for email, phone, and password patterns.",
+      "output": "A registration form with live validation. Fields turn green/red as you type. Submit is disabled until all fields are valid."
+    },
+    {
+      "title": "Password Strength Meter",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    input { width: 300px; padding: 10px; border: 2px solid #ddd; border-radius: 6px; font-size: 16px; }\n    .meter { width: 300px; height: 8px; background: #e5e7eb; border-radius: 4px; margin-top: 8px; overflow: hidden; }\n    .meter-fill { height: 100%; border-radius: 4px; transition: width 0.3s, background-color 0.3s; width: 0%; }\n    .strength-text { margin-top: 6px; font-size: 14px; font-weight: bold; }\n    .checks { margin-top: 12px; font-size: 14px; }\n    .check { margin: 4px 0; }\n    .pass { color: #10b981; }\n    .fail { color: #9ca3af; }\n  </style>\n</head>\n<body>\n  <h2>Password Strength Checker</h2>\n  <input type=\"password\" id=\"password\" placeholder=\"Enter password\">\n  <div class=\"meter\"><div class=\"meter-fill\" id=\"fill\"></div></div>\n  <div class=\"strength-text\" id=\"strength\"></div>\n  <div class=\"checks\" id=\"checks\"></div>\n\n  <script>\n    const passwordInput = document.getElementById(\"password\");\n    const fill = document.getElementById(\"fill\");\n    const strengthText = document.getElementById(\"strength\");\n    const checksDiv = document.getElementById(\"checks\");\n\n    const criteria = [\n      { label: \"At least 8 characters\", test: function(p) { return p.length >= 8; } },\n      { label: \"At least 12 characters\", test: function(p) { return p.length >= 12; } },\n      { label: \"Contains lowercase letter\", test: function(p) { return /[a-z]/.test(p); } },\n      { label: \"Contains uppercase letter\", test: function(p) { return /[A-Z]/.test(p); } },\n      { label: \"Contains a number\", test: function(p) { return /\\d/.test(p); } },\n      { label: \"Contains special character\", test: function(p) { return /[^A-Za-z0-9]/.test(p); } }\n    ];\n\n    passwordInput.addEventListener(\"input\", function() {\n      const password = passwordInput.value;\n      let score = 0;\n      let checksHTML = \"\";\n\n      criteria.forEach(function(c) {\n        const passed = c.test(password);\n        if (passed) score++;\n        const div = document.createElement(\"div\");\n        div.className = \"check \" + (passed ? \"pass\" : \"fail\");\n        div.textContent = (passed ? \"[ok] \" : \"[  ] \") + c.label;\n        checksHTML += div.outerHTML;\n      });\n\n      checksDiv.innerHTML = checksHTML;\n\n      const percent = (score / criteria.length) * 100;\n      fill.style.width = percent + \"%\";\n\n      if (password === \"\") {\n        fill.style.width = \"0%\";\n        strengthText.textContent = \"\";\n      } else if (score <= 2) {\n        fill.style.backgroundColor = \"#ef4444\";\n        strengthText.textContent = \"Weak\";\n        strengthText.style.color = \"#ef4444\";\n      } else if (score <= 4) {\n        fill.style.backgroundColor = \"#f59e0b\";\n        strengthText.textContent = \"Medium\";\n        strengthText.style.color = \"#f59e0b\";\n      } else {\n        fill.style.backgroundColor = \"#10b981\";\n        strengthText.textContent = \"Strong\";\n        strengthText.style.color = \"#10b981\";\n      }\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "Each criterion is a function that tests the password. As the user types, we check each criterion and calculate a score. The meter bar fills up based on the score (red for weak, amber for medium, green for strong). Each check is listed with a pass/fail indicator.",
+      "output": "A password field with a colored progress bar and a checklist that updates in real time as the user types."
+    },
+    {
+      "title": "Checkbox, Radio, and Select Handling",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    .group { margin-bottom: 16px; padding: 12px; border: 1px solid #e5e7eb; border-radius: 8px; }\n    label { display: block; margin: 4px 0; cursor: pointer; }\n    #summary { padding: 16px; background: #f3f4f6; border-radius: 8px; margin-top: 16px; }\n    button { padding: 10px 20px; background: #a855f7; color: white; border: none; border-radius: 6px; cursor: pointer; }\n  </style>\n</head>\n<body>\n  <h2>Student Preferences</h2>\n  <div class=\"group\">\n    <strong>Subjects (checkboxes - select multiple):</strong>\n    <label><input type=\"checkbox\" name=\"subject\" value=\"Maths\"> Maths</label>\n    <label><input type=\"checkbox\" name=\"subject\" value=\"Science\"> Science</label>\n    <label><input type=\"checkbox\" name=\"subject\" value=\"English\"> English</label>\n    <label><input type=\"checkbox\" name=\"subject\" value=\"Computer\"> Computer Science</label>\n  </div>\n  <div class=\"group\">\n    <strong>Batch (radio - select one):</strong>\n    <label><input type=\"radio\" name=\"batch\" value=\"morning\"> Morning (8 AM)</label>\n    <label><input type=\"radio\" name=\"batch\" value=\"afternoon\"> Afternoon (2 PM)</label>\n    <label><input type=\"radio\" name=\"batch\" value=\"evening\"> Evening (6 PM)</label>\n  </div>\n  <div class=\"group\">\n    <strong>Class (select dropdown):</strong>\n    <select id=\"classSelect\">\n      <option value=\"\">Select class</option>\n      <option value=\"8\">Class 8</option>\n      <option value=\"9\">Class 9</option>\n      <option value=\"10\">Class 10</option>\n      <option value=\"11\">Class 11</option>\n      <option value=\"12\">Class 12</option>\n    </select>\n  </div>\n  <button id=\"showBtn\">Show Summary</button>\n  <div id=\"summary\"></div>\n\n  <script>\n    document.getElementById(\"showBtn\").addEventListener(\"click\", function() {\n      // Checkboxes: get all checked values\n      const checkedSubjects = document.querySelectorAll('input[name=\"subject\"]:checked');\n      const subjects = Array.from(checkedSubjects).map(function(cb) { return cb.value; });\n\n      // Radio: get the selected one\n      const selectedBatch = document.querySelector('input[name=\"batch\"]:checked');\n      const batch = selectedBatch ? selectedBatch.value : \"None selected\";\n\n      // Select: get value\n      const classSelect = document.getElementById(\"classSelect\");\n      const selectedClass = classSelect.value || \"None selected\";\n\n      const summary = document.getElementById(\"summary\");\n      summary.innerHTML = \n        \"<strong>Subjects:</strong> \" + (subjects.length > 0 ? subjects.join(\", \") : \"None\") + \"<br>\" +\n        \"<strong>Batch:</strong> \" + batch + \"<br>\" +\n        \"<strong>Class:</strong> \" + (selectedClass !== \"None selected\" ? \"Class \" + selectedClass : selectedClass);\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "Checkboxes: use <code>querySelectorAll(':checked')</code> to get all checked boxes, then map their values. Radio buttons: use <code>querySelector(':checked')</code> to get the single selected option. Select: read <code>.value</code> for the current selection.",
+      "output": "A form with checkboxes, radio buttons, and a dropdown. Clicking 'Show Summary' displays all selected values."
+    },
+    {
+      "title": "Real-Time Field Validation with Visual Feedback",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    .field { margin-bottom: 14px; position: relative; }\n    label { display: block; font-weight: bold; margin-bottom: 4px; }\n    input { width: 300px; padding: 10px 36px 10px 10px; border: 2px solid #ddd; border-radius: 6px; font-size: 16px; box-sizing: border-box; }\n    .icon { position: absolute; right: 10px; top: 34px; font-size: 18px; }\n    .msg { font-size: 13px; margin-top: 2px; }\n    .valid input { border-color: #10b981; }\n    .valid .icon { color: #10b981; }\n    .valid .msg { color: #10b981; }\n    .invalid input { border-color: #ef4444; }\n    .invalid .icon { color: #ef4444; }\n    .invalid .msg { color: #ef4444; }\n  </style>\n</head>\n<body>\n  <h2>Live Validation</h2>\n  <div class=\"field\" id=\"name-field\">\n    <label>Name</label>\n    <input type=\"text\" id=\"name\" placeholder=\"At least 2 letters\">\n    <span class=\"icon\" id=\"name-icon\"></span>\n    <div class=\"msg\" id=\"name-msg\"></div>\n  </div>\n  <div class=\"field\" id=\"email-field\">\n    <label>Email</label>\n    <input type=\"text\" id=\"email\" placeholder=\"aarav@example.com\">\n    <span class=\"icon\" id=\"email-icon\"></span>\n    <div class=\"msg\" id=\"email-msg\"></div>\n  </div>\n  <div class=\"field\" id=\"phone-field\">\n    <label>Phone</label>\n    <input type=\"text\" id=\"phone\" placeholder=\"10 digit number\" maxlength=\"10\">\n    <span class=\"icon\" id=\"phone-icon\"></span>\n    <div class=\"msg\" id=\"phone-msg\"></div>\n  </div>\n\n  <script>\n    function setupValidation(id, testFn, validMsg, invalidMsg) {\n      const input = document.getElementById(id);\n      const field = document.getElementById(id + \"-field\");\n      const icon = document.getElementById(id + \"-icon\");\n      const msg = document.getElementById(id + \"-msg\");\n\n      input.addEventListener(\"input\", function() {\n        const value = input.value.trim();\n        if (value === \"\") {\n          field.classList.remove(\"valid\", \"invalid\");\n          icon.textContent = \"\";\n          msg.textContent = \"\";\n        } else if (testFn(value)) {\n          field.classList.add(\"valid\");\n          field.classList.remove(\"invalid\");\n          icon.textContent = \"[ok]\";\n          msg.textContent = validMsg;\n        } else {\n          field.classList.add(\"invalid\");\n          field.classList.remove(\"valid\");\n          icon.textContent = \"[x]\";\n          msg.textContent = invalidMsg;\n        }\n      });\n    }\n\n    setupValidation(\"name\",\n      function(v) { return /^[A-Za-z\\s]{2,}$/.test(v); },\n      \"Looks good!\",\n      \"Letters only, at least 2 characters\"\n    );\n\n    setupValidation(\"email\",\n      function(v) { return /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(v); },\n      \"Valid email!\",\n      \"Enter a valid email address\"\n    );\n\n    setupValidation(\"phone\",\n      function(v) { return /^\\d{10}$/.test(v); },\n      \"Valid phone number!\",\n      \"Must be exactly 10 digits\"\n    );\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "A reusable <code>setupValidation</code> function handles the validation logic for any field. It takes the field ID, a test function, and messages for valid/invalid states. Each field validates in real time as the user types, with color-coded borders, icons, and messages.",
+      "output": "Three input fields that show green check or red X icons and messages as you type. Each validates with a different rule."
+    },
+    {
+      "title": "Login Form with Error Messages",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; display: flex; justify-content: center; }\n    .login-card { width: 350px; padding: 30px; border: 1px solid #e5e7eb; border-radius: 12px; }\n    h2 { text-align: center; margin-bottom: 24px; }\n    .field { margin-bottom: 16px; }\n    label { display: block; font-size: 14px; font-weight: bold; margin-bottom: 4px; }\n    input { width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 6px; font-size: 16px; box-sizing: border-box; }\n    .error { color: #ef4444; font-size: 13px; margin-top: 4px; min-height: 18px; }\n    button { width: 100%; padding: 12px; background: #a855f7; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; }\n    button:hover { background: #9333ea; }\n    #result { text-align: center; margin-top: 16px; padding: 10px; border-radius: 6px; }\n    .success { background: #d1fae5; color: #065f46; }\n    .failure { background: #fecaca; color: #991b1b; }\n  </style>\n</head>\n<body>\n  <div class=\"login-card\">\n    <h2>Login</h2>\n    <form id=\"loginForm\">\n      <div class=\"field\">\n        <label>Email</label>\n        <input type=\"text\" id=\"email\" placeholder=\"aarav@example.com\">\n        <div class=\"error\" id=\"email-error\"></div>\n      </div>\n      <div class=\"field\">\n        <label>Password</label>\n        <input type=\"password\" id=\"password\" placeholder=\"Enter password\">\n        <div class=\"error\" id=\"password-error\"></div>\n      </div>\n      <button type=\"submit\">Login</button>\n    </form>\n    <div id=\"result\"></div>\n  </div>\n\n  <script>\n    document.getElementById(\"loginForm\").addEventListener(\"submit\", function(e) {\n      e.preventDefault();\n\n      const email = document.getElementById(\"email\");\n      const password = document.getElementById(\"password\");\n      const emailError = document.getElementById(\"email-error\");\n      const passwordError = document.getElementById(\"password-error\");\n      const result = document.getElementById(\"result\");\n\n      let isValid = true;\n\n      // Email validation\n      emailError.textContent = \"\";\n      if (email.value.trim() === \"\") {\n        emailError.textContent = \"Email is required\";\n        email.style.borderColor = \"#ef4444\";\n        isValid = false;\n      } else if (!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email.value)) {\n        emailError.textContent = \"Enter a valid email\";\n        email.style.borderColor = \"#ef4444\";\n        isValid = false;\n      } else {\n        email.style.borderColor = \"#10b981\";\n      }\n\n      // Password validation\n      passwordError.textContent = \"\";\n      if (password.value === \"\") {\n        passwordError.textContent = \"Password is required\";\n        password.style.borderColor = \"#ef4444\";\n        isValid = false;\n      } else if (password.value.length < 6) {\n        passwordError.textContent = \"Password must be at least 6 characters\";\n        password.style.borderColor = \"#ef4444\";\n        isValid = false;\n      } else {\n        password.style.borderColor = \"#10b981\";\n      }\n\n      // Result\n      result.className = \"\";\n      if (isValid) {\n        result.textContent = \"Login successful!\";\n        result.classList.add(\"success\");\n      }\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "On form submission, each field is validated. If empty or invalid, an error message appears below the input and the border turns red. If valid, the border turns green. Only when all validations pass does the success message appear. This is the basic pattern for any login form.",
+      "output": "A styled login form. Submitting with empty fields shows red error messages. Valid inputs turn green. Success shows a green banner."
+    },
+    {
+      "title": "Enable Submit Button Based on Validity",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    form { max-width: 350px; }\n    .field { margin-bottom: 12px; }\n    label { display: block; font-weight: bold; margin-bottom: 4px; }\n    input { width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 6px; font-size: 16px; box-sizing: border-box; }\n    button { width: 100%; padding: 12px; background: #a855f7; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; }\n    button:disabled { background: #d1d5db; cursor: not-allowed; }\n    .status { font-size: 13px; margin-top: 2px; }\n    .check { margin-top: 8px; }\n    label.check-label { font-weight: normal; cursor: pointer; }\n  </style>\n</head>\n<body>\n  <h2>Contact Form</h2>\n  <form id=\"form\">\n    <div class=\"field\">\n      <label>Name</label>\n      <input type=\"text\" id=\"name\" placeholder=\"Your name\">\n      <div class=\"status\" id=\"name-status\"></div>\n    </div>\n    <div class=\"field\">\n      <label>Email</label>\n      <input type=\"text\" id=\"email\" placeholder=\"you@example.com\">\n      <div class=\"status\" id=\"email-status\"></div>\n    </div>\n    <div class=\"field\">\n      <label>Message</label>\n      <input type=\"text\" id=\"message\" placeholder=\"At least 10 characters\">\n      <div class=\"status\" id=\"message-status\"></div>\n    </div>\n    <div class=\"check\">\n      <label class=\"check-label\"><input type=\"checkbox\" id=\"agree\"> I agree to the terms</label>\n    </div>\n    <br>\n    <button type=\"submit\" id=\"submit\" disabled>Send Message</button>\n  </form>\n\n  <script>\n    const nameInput = document.getElementById(\"name\");\n    const emailInput = document.getElementById(\"email\");\n    const messageInput = document.getElementById(\"message\");\n    const agreeCheckbox = document.getElementById(\"agree\");\n    const submitBtn = document.getElementById(\"submit\");\n\n    function checkAll() {\n      const nameOk = nameInput.value.trim().length >= 2;\n      const emailOk = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(emailInput.value.trim());\n      const msgOk = messageInput.value.trim().length >= 10;\n      const agreed = agreeCheckbox.checked;\n\n      document.getElementById(\"name-status\").textContent = nameInput.value.trim() ? (nameOk ? \"\" : \"Too short\") : \"\";\n      document.getElementById(\"name-status\").style.color = nameOk ? \"green\" : \"red\";\n      document.getElementById(\"email-status\").textContent = emailInput.value.trim() ? (emailOk ? \"\" : \"Invalid email\") : \"\";\n      document.getElementById(\"email-status\").style.color = emailOk ? \"green\" : \"red\";\n      document.getElementById(\"message-status\").textContent = messageInput.value.trim() ? (msgOk ? \"\" : (10 - messageInput.value.trim().length) + \" more chars needed\") : \"\";\n      document.getElementById(\"message-status\").style.color = msgOk ? \"green\" : \"red\";\n\n      submitBtn.disabled = !(nameOk && emailOk && msgOk && agreed);\n    }\n\n    nameInput.addEventListener(\"input\", checkAll);\n    emailInput.addEventListener(\"input\", checkAll);\n    messageInput.addEventListener(\"input\", checkAll);\n    agreeCheckbox.addEventListener(\"change\", checkAll);\n\n    document.getElementById(\"form\").addEventListener(\"submit\", function(e) {\n      e.preventDefault();\n      alert(\"Message sent! Thank you, \" + nameInput.value.trim());\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "The submit button is disabled by default. As the user fills in each field, the <code>checkAll</code> function validates all fields and enables the button only when ALL conditions are met: name >= 2 chars, valid email, message >= 10 chars, and checkbox is checked. The message field even shows how many more characters are needed.",
+      "output": "A contact form with a disabled submit button. It enables only when all fields are valid and the checkbox is checked."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Forgetting e.preventDefault() on Form Submit",
+      "wrongCode": "document.getElementById(\"form\").addEventListener(\"submit\", function() {\n  // Forgot e.preventDefault()!\n  console.log(\"This logs for a split second, then the page reloads\");\n});",
+      "error": "The page reloads because the default form submission behavior is not prevented.",
+      "correctCode": "document.getElementById(\"form\").addEventListener(\"submit\", function(e) {\n  e.preventDefault();\n  console.log(\"Now this works without page reload\");\n});",
+      "explanation": "The <code>submit</code> event's default behavior is to send the form data and reload the page. You must call <code>e.preventDefault()</code> to handle the form with JavaScript instead."
+    },
+    {
+      "title": "Reading .value of a Non-Existent Element",
+      "wrongCode": "const email = document.getElementById(\"emial\").value; // Typo in ID!\n// TypeError: Cannot read properties of null (reading 'value')",
+      "error": "TypeError: Cannot read properties of null (reading 'value'). The ID 'emial' does not exist (typo for 'email').",
+      "correctCode": "const email = document.getElementById(\"email\").value; // Correct ID",
+      "explanation": "If getElementById returns null (element not found), accessing <code>.value</code> on null throws a TypeError. Always check for typos in IDs, or add a null check before accessing properties."
+    },
+    {
+      "title": "Checking .checked on a Radio Group Without Handling No Selection",
+      "wrongCode": "const selected = document.querySelector('input[name=\"gender\"]:checked');\nconsole.log(selected.value); // TypeError if nothing is selected!",
+      "error": "TypeError: Cannot read properties of null (reading 'value'). If no radio button is checked, querySelector returns null.",
+      "correctCode": "const selected = document.querySelector('input[name=\"gender\"]:checked');\nif (selected) {\n  console.log(selected.value);\n} else {\n  console.log(\"No option selected\");\n}",
+      "explanation": "If no radio button is checked, <code>querySelector(':checked')</code> returns null. Always check if the result is not null before accessing .value."
+    },
+    {
+      "title": "Comparing Input Value as Number Without Conversion",
+      "wrongCode": "const age = document.getElementById(\"age\").value;\nif (age > 18) {\n  console.log(\"Adult\");\n}\n// Problem: age is a STRING, not a number\n// \"9\" > 18 is false (correct by luck), but \"9\" > \"18\" is true (string comparison)!",
+      "error": "The comparison works with numbers by coercion, but can give unexpected results with string comparisons. Also, \"\" (empty input) > 18 evaluates to false, which might mask an empty field.",
+      "correctCode": "const age = Number(document.getElementById(\"age\").value);\nif (isNaN(age) || age <= 0) {\n  console.log(\"Enter a valid age\");\n} else if (age > 18) {\n  console.log(\"Adult\");\n}",
+      "explanation": "Input values are always strings. Convert to a number with <code>Number()</code> or <code>parseInt()</code>. Also check for NaN (invalid input) before comparing."
+    },
+    {
+      "title": "Regex Without the test() Method",
+      "wrongCode": "const email = \"aarav@gmail.com\";\nconst regex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\nif (email === regex) { // Always false! Comparing string to regex object\n  console.log(\"Valid\");\n}",
+      "error": "A string is never equal to a regex object. The comparison is always false.",
+      "correctCode": "const email = \"aarav@gmail.com\";\nconst regex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\nif (regex.test(email)) {\n  console.log(\"Valid\");\n}",
+      "explanation": "Use <code>regex.test(string)</code> to check if a string matches the pattern. It returns true or false. You cannot compare a string to a regex with <code>===</code>."
+    }
+  ],
+  "summary": [
+    "Always use e.preventDefault() in the form submit handler to stop the page from reloading. This lets JavaScript process the form data.",
+    "Read input values with .value (returns a string). For numbers, convert with Number() or parseInt(). For checkboxes, use .checked (boolean).",
+    "Common validations: empty check (value.trim() === ''), minimum length (value.length < n), regex patterns for email, phone, and password.",
+    "Regular expressions: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/ for email, /^\\d{10}$/ for 10-digit phone, /^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,}$/ for strong passwords.",
+    "Show error messages by creating elements or toggling CSS classes. Never use alert() for validation -- it is disruptive to the user experience.",
+    "Use the input event for real-time validation (fires on every keystroke). Use the change event for final-value validation (fires when the field loses focus).",
+    "For checkboxes: querySelectorAll(':checked') gets all checked boxes. For radio buttons: querySelector(':checked') gets the selected one (null if none).",
+    "For select dropdowns: .value gives the selected option's value. .selectedIndex gives the index. .options[index].text gives the display text.",
+    "Disable the submit button until all validations pass. Re-check validity on every input event to enable/disable dynamically.",
+    "Always validate on the server too. Client-side validation improves UX but can be bypassed by disabling JavaScript or manipulating the request."
+    ]
+  },
+  "relatedTopics": ["creating-and-removing-elements", "css-manipulation-with-javascript"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What happens when the form is submitted with an empty input?<br><pre><code>&lt;form id=\"form\"&gt;\n  &lt;input type=\"text\" id=\"name\" value=\"\"&gt;\n  &lt;button type=\"submit\"&gt;Submit&lt;/button&gt;\n&lt;/form&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"form\").addEventListener(\"submit\", function(e) {\n  e.preventDefault();\n  const name = document.getElementById(\"name\").value.trim();\n  if (name === \"\") {\n    console.log(\"Name is required\");\n  } else {\n    console.log(\"Hello, \" + name);\n  }\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "The input is empty, so value.trim() is an empty string.",
+        "answer": "<code>Name is required</code>",
+        "explanation": "The input value is empty. <code>.trim()</code> removes whitespace (still empty). The if-check catches the empty string and logs the error message."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged?<br><pre><code>&lt;script&gt;\nconst regex = /^\\d{10}$/;\nconsole.log(regex.test(\"9876543210\"));\nconsole.log(regex.test(\"12345\"));\nconsole.log(regex.test(\"98765432101\"));\nconsole.log(regex.test(\"abcdefghij\"));\n&lt;/script&gt;</code></pre>",
+        "hint": "\\d{10} means exactly 10 digits. ^ and $ mean start and end of string.",
+        "answer": "<code>true</code><br><code>false</code><br><code>false</code><br><code>false</code>",
+        "explanation": "\"9876543210\" is exactly 10 digits -- true. \"12345\" is only 5 digits -- false. \"98765432101\" is 11 digits -- false. \"abcdefghij\" has no digits -- false."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged?<br><pre><code>&lt;input type=\"checkbox\" id=\"agree\"&gt;\n\n&lt;script&gt;\nconst cb = document.getElementById(\"agree\");\nconsole.log(cb.checked);\nconsole.log(typeof cb.checked);\ncb.checked = true;\nconsole.log(cb.checked);\n&lt;/script&gt;</code></pre>",
+        "hint": ".checked is a boolean property on checkboxes.",
+        "answer": "<code>false</code><br><code>boolean</code><br><code>true</code>",
+        "explanation": "The checkbox is unchecked by default, so <code>checked</code> is false (a boolean). After setting it to true, the checkbox becomes checked."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged?<br><pre><code>&lt;script&gt;\nconst emailRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\nconsole.log(emailRegex.test(\"aarav@gmail.com\"));\nconsole.log(emailRegex.test(\"priya@school\"));\nconsole.log(emailRegex.test(\"@gmail.com\"));\nconsole.log(emailRegex.test(\"rohan@mail.co.in\"));\n&lt;/script&gt;</code></pre>",
+        "hint": "The regex requires: something@something.something",
+        "answer": "<code>true</code><br><code>false</code><br><code>false</code><br><code>true</code>",
+        "explanation": "\"aarav@gmail.com\" matches the pattern. \"priya@school\" has no dot after @. \"@gmail.com\" has nothing before @. \"rohan@mail.co.in\" has valid characters on both sides."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;select id=\"city\"&gt;\n  &lt;option value=\"\"&gt;Select&lt;/option&gt;\n  &lt;option value=\"delhi\"&gt;Delhi&lt;/option&gt;\n  &lt;option value=\"mumbai\" selected&gt;Mumbai&lt;/option&gt;\n&lt;/select&gt;\n\n&lt;script&gt;\nconst select = document.getElementById(\"city\");\nconsole.log(select.value);\nconsole.log(select.selectedIndex);\nconsole.log(select.options[select.selectedIndex].text);\n&lt;/script&gt;</code></pre>",
+        "hint": "The 'selected' attribute makes Mumbai the initial selection.",
+        "answer": "<code>mumbai</code><br><code>2</code><br><code>Mumbai</code>",
+        "explanation": "Mumbai has the <code>selected</code> attribute, so it is the initial selection. Its value is \"mumbai\", its index is 2 (0-based), and its display text is \"Mumbai\"."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;input type=\"radio\" name=\"color\" value=\"red\"&gt;\n&lt;input type=\"radio\" name=\"color\" value=\"blue\" checked&gt;\n&lt;input type=\"radio\" name=\"color\" value=\"green\"&gt;\n\n&lt;script&gt;\nconst selected = document.querySelector('input[name=\"color\"]:checked');\nconsole.log(selected.value);\n\nconst all = document.querySelectorAll('input[name=\"color\"]');\nconsole.log(all.length);\n&lt;/script&gt;</code></pre>",
+        "hint": ":checked selects the checked radio button. The blue one has 'checked'.",
+        "answer": "<code>blue</code><br><code>3</code>",
+        "explanation": "The blue radio button has the <code>checked</code> attribute, so <code>querySelector(':checked')</code> returns it with value \"blue\". There are 3 radio buttons in total."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;script&gt;\nconst passRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,}$/;\nconsole.log(passRegex.test(\"Aarav123\"));\nconsole.log(passRegex.test(\"aarav123\"));\nconsole.log(passRegex.test(\"AARAV123\"));\nconsole.log(passRegex.test(\"Aa1\"));\nconsole.log(passRegex.test(\"Aarav@123!\"));\n&lt;/script&gt;</code></pre>",
+        "hint": "Requires: 8+ chars, at least one lowercase, one uppercase, one digit.",
+        "answer": "<code>true</code><br><code>false</code><br><code>false</code><br><code>false</code><br><code>true</code>",
+        "explanation": "\"Aarav123\": has all three + 8 chars = true. \"aarav123\": no uppercase = false. \"AARAV123\": no lowercase = false. \"Aa1\": only 3 chars = false. \"Aarav@123!\": has all three + 10 chars = true."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;input type=\"number\" id=\"age\" value=\"25\"&gt;\n\n&lt;script&gt;\nconst ageInput = document.getElementById(\"age\");\nconsole.log(ageInput.value);\nconsole.log(typeof ageInput.value);\nconsole.log(ageInput.value + 5);\nconsole.log(Number(ageInput.value) + 5);\n&lt;/script&gt;</code></pre>",
+        "hint": "Input .value is always a string, even for type='number'.",
+        "answer": "<code>25</code><br><code>string</code><br><code>255</code><br><code>30</code>",
+        "explanation": "Even with type=\"number\", <code>.value</code> returns a string. \"25\" + 5 is string concatenation: \"255\". <code>Number(\"25\") + 5</code> converts to number first: 30."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the result?<br><pre><code>&lt;form id=\"form\"&gt;\n  &lt;input type=\"text\" id=\"a\" value=\"Hello\"&gt;\n  &lt;input type=\"text\" id=\"b\" value=\"  \"&gt;\n  &lt;input type=\"text\" id=\"c\" value=\"\"&gt;\n&lt;/form&gt;\n\n&lt;script&gt;\nconst fields = [\"a\", \"b\", \"c\"];\nfields.forEach(function(id) {\n  const val = document.getElementById(id).value.trim();\n  console.log(id + \": \" + (val === \"\" ? \"empty\" : \"filled\") + \" (\" + JSON.stringify(val) + \")\");\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "trim() removes whitespace. A value of '  ' becomes '' after trim.",
+        "answer": "<code>a: filled (\"Hello\")</code><br><code>b: empty (\"\")</code><br><code>c: empty (\"\")</code>",
+        "explanation": "Field a: \"Hello\" trimmed is \"Hello\" -- filled. Field b: \"  \" trimmed is \"\" -- empty. Field c: \"\" trimmed is \"\" -- empty. The <code>trim()</code> catches whitespace-only inputs."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this password strength function return?<br><pre><code>&lt;script&gt;\nfunction strength(p) {\n  let s = 0;\n  if (p.length &gt;= 8) s++;\n  if (/[a-z]/.test(p)) s++;\n  if (/[A-Z]/.test(p)) s++;\n  if (/\\d/.test(p)) s++;\n  if (/[^A-Za-z0-9]/.test(p)) s++;\n  return s;\n}\n\nconsole.log(strength(\"\"));\nconsole.log(strength(\"hello\"));\nconsole.log(strength(\"Hello123\"));\nconsole.log(strength(\"Hello@123\"));\nconsole.log(strength(\"Aa1!\"));\n&lt;/script&gt;</code></pre>",
+        "hint": "Each criteria adds 1 to the score. Check: length >= 8, lowercase, uppercase, digit, special char.",
+        "answer": "<code>0</code><br><code>1</code><br><code>4</code><br><code>5</code><br><code>4</code>",
+        "explanation": "\"\": 0 criteria. \"hello\": lowercase only (1). \"Hello123\" (8 chars): length>=8 + lowercase + uppercase + digit = 4. \"Hello@123\" (9 chars): all 5 criteria = 5. \"Aa1!\" (4 chars): lowercase + uppercase + digit + special but not length >= 8 = 4."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does the button state become?<br><pre><code>&lt;input type=\"text\" id=\"name\" value=\"\"&gt;\n&lt;input type=\"email\" id=\"email\" value=\"\"&gt;\n&lt;button id=\"btn\" disabled&gt;Submit&lt;/button&gt;\n\n&lt;script&gt;\nconst name = document.getElementById(\"name\");\nconst email = document.getElementById(\"email\");\nconst btn = document.getElementById(\"btn\");\n\nfunction check() {\n  const nameOk = name.value.trim().length &gt;= 2;\n  const emailOk = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email.value);\n  btn.disabled = !(nameOk && emailOk);\n}\n\nname.addEventListener(\"input\", check);\nemail.addEventListener(\"input\", check);\n&lt;/script&gt;</code></pre><p>User types 'Aa' in name and 'a@b.c' in email.</p>",
+        "hint": "Both conditions must be true for the button to be enabled.",
+        "answer": "The button becomes enabled (not disabled). 'Aa' is 2+ characters and 'a@b.c' matches the email regex.",
+        "explanation": "nameOk: \"Aa\".length >= 2 is true. emailOk: \"a@b.c\" matches the email pattern. Both are true, so <code>btn.disabled = !(true && true) = false</code>. The button is enabled."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged?<br><pre><code>&lt;script&gt;\nconst nameRegex = /^[A-Za-z\\s]+$/;\nconsole.log(nameRegex.test(\"Aarav\"));\nconsole.log(nameRegex.test(\"Aarav Sharma\"));\nconsole.log(nameRegex.test(\"Aarav123\"));\nconsole.log(nameRegex.test(\"\"));\n&lt;/script&gt;</code></pre>",
+        "hint": "The regex allows only letters and spaces. + means one or more.",
+        "answer": "<code>true</code><br><code>true</code><br><code>false</code><br><code>false</code>",
+        "explanation": "\"Aarav\": letters only = true. \"Aarav Sharma\": letters and space = true. \"Aarav123\": has digits = false. \"\": empty, + requires at least one character = false."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;input type=\"text\" id=\"pw\" value=\"Hello@World1\"&gt;\n\n&lt;script&gt;\nconst pw = document.getElementById(\"pw\").value;\nconsole.log(pw.length &gt;= 8);\nconsole.log(/[a-z]/.test(pw));\nconsole.log(/[A-Z]/.test(pw));\nconsole.log(/\\d/.test(pw));\nconsole.log(/[^A-Za-z0-9]/.test(pw));\n&lt;/script&gt;</code></pre>",
+        "hint": "Check each condition individually against 'Hello@World1'.",
+        "answer": "<code>true</code><br><code>true</code><br><code>true</code><br><code>true</code><br><code>true</code>",
+        "explanation": "\"Hello@World1\" is 12 chars (>=8: true), has lowercase (true), has uppercase (true), has digit '1' (true), has special char '@' (true). All 5 conditions pass."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the state of the checkboxes?<br><pre><code>&lt;input type=\"checkbox\" id=\"a\" checked&gt;\n&lt;input type=\"checkbox\" id=\"b\"&gt;\n\n&lt;script&gt;\nconst a = document.getElementById(\"a\");\nconst b = document.getElementById(\"b\");\nconsole.log(a.checked);\nconsole.log(b.checked);\na.checked = false;\nb.checked = true;\nconsole.log(a.checked);\nconsole.log(b.checked);\n&lt;/script&gt;</code></pre>",
+        "hint": "The checked property can be read and set programmatically.",
+        "answer": "<code>true</code><br><code>false</code><br><code>false</code><br><code>true</code>",
+        "explanation": "Initially a is checked (true), b is unchecked (false). After toggling: a becomes unchecked (false), b becomes checked (true)."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;form id=\"form\"&gt;\n  &lt;input type=\"text\" name=\"field\" value=\"one\"&gt;\n  &lt;input type=\"text\" name=\"field\" value=\"two\"&gt;\n  &lt;input type=\"text\" name=\"field\" value=\"three\"&gt;\n&lt;/form&gt;\n\n&lt;script&gt;\nconst inputs = document.querySelectorAll('input[name=\"field\"]');\nconst values = Array.from(inputs).map(function(i) { return i.value; });\nconsole.log(values);\nconsole.log(values.join(\", \"));\n&lt;/script&gt;</code></pre>",
+        "hint": "Multiple inputs can share the same name. querySelectorAll gets them all.",
+        "answer": "<code>[\"one\", \"two\", \"three\"]</code><br><code>one, two, three</code>",
+        "explanation": "Three inputs share the name 'field'. querySelectorAll finds all three. map extracts their values into an array. join creates a comma-separated string."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged?<br><pre><code>&lt;input type=\"text\" id=\"name\" placeholder=\"Enter name\" value=\"\"&gt;\n\n&lt;script&gt;\nconst input = document.getElementById(\"name\");\nconsole.log(input.value);\nconsole.log(input.placeholder);\nconsole.log(input.value === \"\");\n&lt;/script&gt;</code></pre>",
+        "hint": "value and placeholder are different properties. An empty value does not show the placeholder in JS.",
+        "answer": "<code></code> (empty string)<br><code>Enter name</code><br><code>true</code>",
+        "explanation": "The value is empty (no text typed). The placeholder is \"Enter name\" (displayed in the UI but not in .value). The empty check returns true."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged?<br><pre><code>&lt;input type=\"text\" id=\"field\" value=\"  Hello World  \"&gt;\n\n&lt;script&gt;\nconst val = document.getElementById(\"field\").value;\nconsole.log(val);\nconsole.log(val.trim());\nconsole.log(val.trim().length);\n&lt;/script&gt;</code></pre>",
+        "hint": "trim() removes leading and trailing whitespace.",
+        "answer": "<code>  Hello World  </code><br><code>Hello World</code><br><code>11</code>",
+        "explanation": "The raw value includes spaces. <code>trim()</code> removes leading and trailing spaces but not spaces between words. \"Hello World\" is 11 characters."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens?<br><pre><code>&lt;form id=\"form\"&gt;\n  &lt;input type=\"text\" id=\"name\"&gt;\n  &lt;button type=\"submit\"&gt;Go&lt;/button&gt;\n&lt;/form&gt;\n&lt;p id=\"msg\"&gt;&lt;/p&gt;\n\n&lt;script&gt;\nconst form = document.getElementById(\"form\");\nconst input = document.getElementById(\"name\");\nconst msg = document.getElementById(\"msg\");\n\nform.addEventListener(\"submit\", function(e) {\n  e.preventDefault();\n  const value = input.value.trim();\n  if (value.length &lt; 3) {\n    msg.textContent = \"Too short (min 3 chars)\";\n    msg.style.color = \"red\";\n    input.style.borderColor = \"red\";\n    input.focus();\n  } else if (value.length &gt; 20) {\n    msg.textContent = \"Too long (max 20 chars)\";\n    msg.style.color = \"red\";\n  } else {\n    msg.textContent = \"Welcome, \" + value + \"!\";\n    msg.style.color = \"green\";\n    input.style.borderColor = \"green\";\n  }\n});\n&lt;/script&gt;</code></pre><p>User types 'Hi' and submits.</p>",
+        "hint": "'Hi' has only 2 characters, which is less than the minimum of 3.",
+        "answer": "The message shows \"Too short (min 3 chars)\" in red, the input border turns red, and the input gains focus.",
+        "explanation": "\"Hi\" trimmed is 2 characters, which is less than 3. The error message appears, the border turns red, and <code>input.focus()</code> puts the cursor back in the input for the user to fix the value."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why should you always validate form data on the server, even if you validate on the client?",
+        "hint": "Think about what a tech-savvy user could do.",
+        "answer": "Client-side validation runs in the browser, which the user controls. They can disable JavaScript, modify the HTML, or send requests directly to the server using tools like Postman or cURL. Server-side validation is the only truly reliable check because the server is under your control.",
+        "explanation": "Client-side validation is for user experience -- giving instant feedback. Server-side validation is for security -- ensuring only valid data is processed. Both are needed."
+      },
+      {
+        "id": "mx-4",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What does the <code>?=</code> mean in the regex <code>/^(?=.*[A-Z])(?=.*\\d).{8,}$/</code>?",
+        "hint": "These are called lookaheads.",
+        "answer": "<code>(?=...)</code> is a <strong>positive lookahead</strong>. It checks if the pattern exists somewhere in the string without consuming characters. <code>(?=.*[A-Z])</code> means 'somewhere in the string there must be an uppercase letter'. <code>(?=.*\\d)</code> means 'somewhere there must be a digit'. <code>.{8,}</code> means 'total length must be 8 or more characters'.",
+        "explanation": "Lookaheads let you enforce multiple conditions on the same string. Without them, you would need to check the conditions in order, which would not work for 'at least one of each anywhere in the string'."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;input type=\"checkbox\" name=\"lang\" value=\"html\" checked&gt;\n&lt;input type=\"checkbox\" name=\"lang\" value=\"css\" checked&gt;\n&lt;input type=\"checkbox\" name=\"lang\" value=\"js\"&gt;\n\n&lt;script&gt;\nconst checked = document.querySelectorAll('input[name=\"lang\"]:checked');\nconst values = Array.from(checked).map(function(cb) { return cb.value; });\nconsole.log(values);\nconsole.log(values.join(\", \"));\n&lt;/script&gt;</code></pre>",
+        "hint": "Only checkboxes with the 'checked' attribute are initially checked.",
+        "answer": "<code>[\"html\", \"css\"]</code><br><code>html, css</code>",
+        "explanation": "Only the first two checkboxes have the <code>checked</code> attribute. <code>querySelectorAll(':checked')</code> finds them. We convert to an array and map to get the values. <code>join(\", \")</code> creates a comma-separated string."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged when the user presses Enter in the input (the input is inside the form)?<br><pre><code>&lt;form id=\"form\"&gt;\n  &lt;input type=\"text\" id=\"search\" value=\"JavaScript\"&gt;\n&lt;/form&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"search\").addEventListener(\"keydown\", function(e) {\n  if (e.key === \"Enter\") {\n    console.log(\"Keydown Enter\");\n  }\n});\n\ndocument.getElementById(\"form\").addEventListener(\"submit\", function(e) {\n  e.preventDefault();\n  console.log(\"Form submitted\");\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "Pressing Enter in a form input triggers both keydown and form submit.",
+        "answer": "<code>Keydown Enter</code><br><code>Form submitted</code>",
+        "explanation": "Pressing Enter in an input inside a form triggers the keydown event first (\"Keydown Enter\"), then the form's submit event (\"Form submitted\"). The keydown fires before the submit."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;script&gt;\nconst tests = [\n  { input: \"aarav@gmail.com\", expected: true },\n  { input: \"@gmail.com\", expected: false },\n  { input: \"aarav@\", expected: false },\n  { input: \"aarav@g.c\", expected: true },\n  { input: \"a a@b.c\", expected: false }\n];\n\nconst regex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\nlet passed = 0;\n\ntests.forEach(function(t) {\n  const result = regex.test(t.input);\n  if (result === t.expected) passed++;\n});\n\nconsole.log(passed + \" / \" + tests.length + \" tests passed\");\n&lt;/script&gt;</code></pre>",
+        "hint": "Check each input against the regex and compare to expected.",
+        "answer": "<code>5 / 5 tests passed</code>",
+        "explanation": "All 5 test cases match their expected results: aarav@gmail.com = true, @gmail.com = false (nothing before @), aarav@ = false (nothing after @), aarav@g.c = true (minimal valid), a a@b.c = false (space is not allowed by [^\\s@])."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the value of the select after this code?<br><pre><code>&lt;select id=\"fruit\"&gt;\n  &lt;option value=\"apple\"&gt;Apple&lt;/option&gt;\n  &lt;option value=\"banana\"&gt;Banana&lt;/option&gt;\n  &lt;option value=\"cherry\"&gt;Cherry&lt;/option&gt;\n&lt;/select&gt;\n\n&lt;script&gt;\nconst select = document.getElementById(\"fruit\");\nselect.value = \"cherry\";\nconsole.log(select.value);\nconsole.log(select.selectedIndex);\n&lt;/script&gt;</code></pre>",
+        "hint": "Setting .value on a select changes the selected option.",
+        "answer": "<code>cherry</code><br><code>2</code>",
+        "explanation": "Setting <code>select.value = \"cherry\"</code> selects the Cherry option. Its value is \"cherry\" and its index is 2 (0-based: apple=0, banana=1, cherry=2)."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged?<br><pre><code>&lt;input type=\"text\" id=\"field\" value=\"  Aarav  \"&gt;\n\n&lt;script&gt;\nconst val = document.getElementById(\"field\").value;\nconsole.log(val.length);\nconsole.log(val.trim().length);\n&lt;/script&gt;</code></pre>",
+        "hint": "trim() removes leading and trailing spaces.",
+        "answer": "<code>9</code><br><code>5</code>",
+        "explanation": "The raw value \"  Aarav  \" is 9 characters (2 spaces + 5 letters + 2 spaces). After trim(), \"Aarav\" is 5 characters."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;form id=\"form\"&gt;\n  &lt;input type=\"text\" id=\"a\" value=\"hello\"&gt;\n  &lt;input type=\"text\" id=\"b\" value=\"\"&gt;\n  &lt;input type=\"text\" id=\"c\" value=\"world\"&gt;\n&lt;/form&gt;\n\n&lt;script&gt;\nconst inputs = document.querySelectorAll(\"#form input\");\nlet empty = 0;\ninputs.forEach(function(input) {\n  if (input.value.trim() === \"\") empty++;\n});\nconsole.log(\"Empty fields: \" + empty);\n&lt;/script&gt;</code></pre>",
+        "hint": "Loop through all inputs and count the empty ones.",
+        "answer": "<code>Empty fields: 1</code>",
+        "explanation": "Three inputs: \"hello\" (not empty), \"\" (empty), \"world\" (not empty). Only one field is empty."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;script&gt;\nfunction validateAge(val) {\n  const age = Number(val);\n  if (isNaN(age)) return \"Not a number\";\n  if (age &lt; 0) return \"Too young\";\n  if (age &gt; 120) return \"Too old\";\n  return \"Valid: \" + age;\n}\n\nconsole.log(validateAge(\"25\"));\nconsole.log(validateAge(\"\"));\nconsole.log(validateAge(\"abc\"));\nconsole.log(validateAge(\"-5\"));\nconsole.log(validateAge(\"150\"));\n&lt;/script&gt;</code></pre>",
+        "hint": "Number('') is 0 (not NaN). Number('abc') is NaN.",
+        "answer": "<code>Valid: 25</code><br><code>Valid: 0</code><br><code>Not a number</code><br><code>Too young</code><br><code>Too old</code>",
+        "explanation": "\"25\" becomes 25 (valid). \"\" becomes 0 (valid, 0 is >= 0 and <= 120). \"abc\" becomes NaN (not a number). \"-5\" becomes -5 (too young). \"150\" becomes 150 (too old)."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged?<br><pre><code>&lt;input type=\"text\" id=\"name\" value=\"Priya\"&gt;\n\n&lt;script&gt;\nconst input = document.getElementById(\"name\");\nconsole.log(input.value);\ninput.value = \"\";\nconsole.log(input.value);\nconsole.log(input.value === \"\");\n&lt;/script&gt;</code></pre>",
+        "hint": "Setting value to '' clears the input.",
+        "answer": "<code>Priya</code><br><code></code> (empty string)<br><code>true</code>",
+        "explanation": "Initially the value is \"Priya\". After setting to empty string, the input is cleared. Comparing to empty string returns true."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does the button do?<br><pre><code>&lt;input type=\"password\" id=\"pw\"&gt;\n&lt;button id=\"toggle\"&gt;Show&lt;/button&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"toggle\").addEventListener(\"click\", function() {\n  const pw = document.getElementById(\"pw\");\n  if (pw.type === \"password\") {\n    pw.type = \"text\";\n    this.textContent = \"Hide\";\n  } else {\n    pw.type = \"password\";\n    this.textContent = \"Show\";\n  }\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "Changing input type between 'password' and 'text' toggles visibility.",
+        "answer": "Clicking the button toggles the password field between hidden (dots) and visible (plain text). The button text switches between 'Show' and 'Hide'.",
+        "explanation": "When type is 'password', characters are hidden. Changing type to 'text' reveals them. The button text updates to reflect the current state. This is a common 'show/hide password' feature."
+      },
+      {
+        "id": "mx-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the difference between the <code>required</code> HTML attribute and JavaScript validation?",
+        "hint": "Think about browser support and customization.",
+        "answer": "The <code>required</code> HTML attribute uses the browser's built-in validation. It shows a default browser tooltip when the field is empty and the form is submitted. JavaScript validation gives you full control: custom error messages, real-time feedback as the user types, complex rules (like regex patterns, cross-field comparisons), and consistent styling across browsers. Most production forms use both: HTML attributes as a baseline and JavaScript for enhanced UX.",
+        "explanation": "HTML validation is simpler but less flexible. JavaScript validation is more powerful. Using both provides graceful degradation -- the form still validates even if JavaScript fails."
+      },
+      {
+        "id": "mx-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;script&gt;\nconst patterns = {\n  email: /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/,\n  phone: /^\\d{10}$/,\n  name: /^[A-Za-z\\s]{2,50}$/\n};\n\nfunction validate(type, value) {\n  return patterns[type] ? patterns[type].test(value) : false;\n}\n\nconsole.log(validate(\"email\", \"a@b.c\"));\nconsole.log(validate(\"phone\", \"1234567890\"));\nconsole.log(validate(\"name\", \"A\"));\nconsole.log(validate(\"zip\", \"12345\"));\n&lt;/script&gt;</code></pre>",
+        "hint": "The 'zip' pattern does not exist in the patterns object.",
+        "answer": "<code>true</code><br><code>true</code><br><code>false</code><br><code>false</code>",
+        "explanation": "\"a@b.c\" matches the email pattern. \"1234567890\" is 10 digits (matches phone). \"A\" is only 1 character (name needs 2-50, so false). \"zip\" is not in the patterns object, so patterns[\"zip\"] is undefined, returning false."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the first thing you should do in a form submit handler?",
+        "options": {
+          "A": "Read input values",
+          "B": "Call e.preventDefault()",
+          "C": "Show an alert",
+          "D": "Clear the form"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>e.preventDefault()</code> must be called first to prevent the page from reloading. After that, you can read values, validate, and process the form."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What type does <code>input.value</code> return for a number input?",
+        "options": {
+          "A": "number",
+          "B": "string",
+          "C": "boolean",
+          "D": "object"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>.value</code> always returns a string, even for <code>type=\"number\"</code> inputs. Use <code>Number()</code> or <code>parseInt()</code> to convert."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "How do you check if a checkbox is checked?",
+        "options": {
+          "A": "checkbox.value",
+          "B": "checkbox.checked",
+          "C": "checkbox.selected",
+          "D": "checkbox.isChecked()"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>.checked</code> is a boolean property (true/false) on checkbox and radio input elements. <code>.value</code> returns the value attribute, not whether it is checked."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which method tests if a string matches a regular expression?",
+        "options": {
+          "A": "string.match(regex)",
+          "B": "regex.test(string)",
+          "C": "string.test(regex)",
+          "D": "regex.match(string)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>regex.test(string)</code> returns true or false. <code>string.match(regex)</code> also works but returns the match result or null, not a boolean."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "What does <code>value.trim()</code> do?",
+        "options": {
+          "A": "Removes all spaces from the string",
+          "B": "Removes spaces from the beginning and end only",
+          "C": "Converts to lowercase",
+          "D": "Truncates the string"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>trim()</code> removes whitespace from the start and end of a string. Spaces between words are preserved. \"  hello world  \" becomes \"hello world\"."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Which event is best for real-time input validation?",
+        "options": {
+          "A": "change",
+          "B": "submit",
+          "C": "input",
+          "D": "click"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>input</code> event fires on every change (keystroke, paste, delete). <code>change</code> only fires when the element loses focus. <code>input</code> is ideal for real-time feedback as the user types."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "How do you get the selected radio button's value from a group?",
+        "options": {
+          "A": "document.getElementsByName('group').value",
+          "B": "document.querySelector('input[name=\"group\"]:checked').value",
+          "C": "document.getElementById('group').value",
+          "D": "document.querySelector('radio[name=\"group\"]').value"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>querySelector('input[name=\"group\"]:checked')</code> selects the checked radio button from the group. Remember to check for null if no option is selected."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What regex pattern matches exactly 10 digits?",
+        "options": {
+          "A": "/\\d{10}/",
+          "B": "/^\\d{10}$/",
+          "C": "/[0-9]{10}/",
+          "D": "/^\\d+$/"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>^\\d{10}$</code> anchors the match to the full string (^ start, $ end) and requires exactly 10 digits. Without ^ and $, /\\d{10}/ would match 10 digits anywhere in a longer string."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Hard",
+        "question": "What does <code>(?=.*[A-Z])</code> mean in a regex?",
+        "options": {
+          "A": "Match an uppercase letter at the start",
+          "B": "Match an uppercase letter at the end",
+          "C": "A positive lookahead: ensure at least one uppercase letter exists somewhere",
+          "D": "Match only uppercase letters"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>(?=.*[A-Z])</code> is a positive lookahead. It asserts that somewhere in the string there is at least one uppercase letter, without consuming any characters. It does not specify where the letter must be."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "Why is it bad practice to use <code>alert()</code> for form validation errors?",
+        "options": {
+          "A": "It does not work in all browsers",
+          "B": "It blocks the page, disrupts user flow, and cannot show multiple errors at once",
+          "C": "It is too slow",
+          "D": "It cannot display text"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>alert()</code> blocks the entire page (user cannot interact until they dismiss it), only shows one message at a time, and breaks the user's flow. Inline error messages below inputs are the standard approach."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Easy",
+        "question": "What does <code>input.focus()</code> do?",
+        "options": {
+          "A": "Blurs the input",
+          "B": "Places the cursor inside the input",
+          "C": "Validates the input",
+          "D": "Clears the input"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>focus()</code> places the cursor inside the input element, as if the user clicked on it. This is useful for directing the user to the first invalid field."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "How do you disable a button with JavaScript?",
+        "options": {
+          "A": "button.disabled = true",
+          "B": "button.enabled = false",
+          "C": "button.setAttribute('inactive', true)",
+          "D": "button.hide()"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Setting <code>button.disabled = true</code> disables the button. It cannot be clicked and appears grayed out. Set to <code>false</code> to re-enable it."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "When does the <code>change</code> event fire on a text input?",
+        "options": {
+          "A": "On every keystroke",
+          "B": "When the value changes and the input loses focus",
+          "C": "When the form is submitted",
+          "D": "When the input gains focus"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> For text inputs, <code>change</code> fires when the value has changed AND the element loses focus (blur). For checkboxes, radio buttons, and selects, it fires immediately on state change."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the correct way to check if a select dropdown has a value selected?",
+        "options": {
+          "A": "select.value !== null",
+          "B": "select.value !== \"\"",
+          "C": "select.checked === true",
+          "D": "select.selected === true"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> If the first option has <code>value=\"\"</code> (like a placeholder), then <code>select.value !== \"\"</code> correctly checks if a real option is selected. <code>.checked</code> and <code>.selected</code> are not properties of select elements."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "What does <code>input.value = ''</code> do?",
+        "options": {
+          "A": "Removes the input from the DOM",
+          "B": "Clears the input field (sets its value to empty string)",
+          "C": "Makes the input hidden",
+          "D": "Disables the input"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Setting <code>value</code> to an empty string clears whatever the user typed. The input remains visible and functional."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What does the regex <code>/^\\d{10}$/</code> match?",
+        "options": {
+          "A": "Any string containing 10 digits",
+          "B": "A string that is exactly 10 digits from start to end",
+          "C": "At least 10 digits",
+          "D": "A string with 10 characters of any type"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>^</code> anchors to the start, <code>$</code> anchors to the end, <code>\\d{10}</code> means exactly 10 digits. The entire string must be exactly 10 digits with nothing before or after."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "How do you programmatically submit a form with JavaScript?",
+        "options": {
+          "A": "form.submit()",
+          "B": "form.send()",
+          "C": "form.dispatch()",
+          "D": "form.fire('submit')"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>form.submit()</code> submits the form programmatically. Note: this does NOT fire the submit event or run addEventListener handlers. It directly submits."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the default value of an unchecked checkbox's <code>.value</code> property?",
+        "options": {
+          "A": "false",
+          "B": "null",
+          "C": "\"on\"",
+          "D": "\"\" (empty string)"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> If no <code>value</code> attribute is set on a checkbox, the default value is the string \"on\". The <code>.checked</code> property (boolean) tells you if it is checked; <code>.value</code> is always \"on\" regardless of checked state."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Simple Email Validator",
+        "difficulty": "Easy",
+        "description": "Create an email input and a paragraph below it. As the user types, show 'Valid email' (green) or 'Invalid email' (red) using the input event and a regex pattern.",
+        "sampleInput": "Type 'aarav@gmail.com'",
+        "sampleOutput": "'Valid email' appears in green below the input.",
+        "constraints": "Use the input event and regex.test(). Use CSS classes for colors, not inline styles.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>.valid{color:green;}.invalid{color:red;}</style></head>\n<body>\n  <input type=\"text\" id=\"email\" placeholder=\"Enter email\">\n  <p id=\"msg\"></p>\n  <script>\n    const email = document.getElementById(\"email\");\n    const msg = document.getElementById(\"msg\");\n    const regex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\n    email.addEventListener(\"input\", function() {\n      const val = email.value.trim();\n      if (val === \"\") { msg.textContent = \"\"; msg.className = \"\"; }\n      else if (regex.test(val)) { msg.textContent = \"Valid email\"; msg.className = \"valid\"; }\n      else { msg.textContent = \"Invalid email\"; msg.className = \"invalid\"; }\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Login Form with Validation",
+        "difficulty": "Easy",
+        "description": "Build a login form with email and password fields. On submit: show 'Email required' if email is empty, 'Invalid email' if format is wrong, 'Password required' if empty, 'Password too short' if < 6 chars. Show errors below each field.",
+        "sampleInput": "Submit with empty email",
+        "sampleOutput": "'Email required' appears below the email field in red.",
+        "constraints": "Use e.preventDefault(). Create error message elements dynamically or use pre-existing divs.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>.error{color:red;font-size:13px;} input{display:block;margin:8px 0;padding:8px;width:250px;}</style></head>\n<body>\n  <form id=\"form\">\n    <input type=\"text\" id=\"email\" placeholder=\"Email\">\n    <div class=\"error\" id=\"email-err\"></div>\n    <input type=\"password\" id=\"pass\" placeholder=\"Password\">\n    <div class=\"error\" id=\"pass-err\"></div>\n    <button type=\"submit\">Login</button>\n  </form>\n  <script>\n    document.getElementById(\"form\").addEventListener(\"submit\", function(e) {\n      e.preventDefault();\n      const email = document.getElementById(\"email\").value.trim();\n      const pass = document.getElementById(\"pass\").value;\n      const emailErr = document.getElementById(\"email-err\");\n      const passErr = document.getElementById(\"pass-err\");\n      emailErr.textContent = \"\";\n      passErr.textContent = \"\";\n      let valid = true;\n      if (email === \"\") { emailErr.textContent = \"Email required\"; valid = false; }\n      else if (!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email)) { emailErr.textContent = \"Invalid email\"; valid = false; }\n      if (pass === \"\") { passErr.textContent = \"Password required\"; valid = false; }\n      else if (pass.length < 6) { passErr.textContent = \"Password too short\"; valid = false; }\n      if (valid) alert(\"Login successful!\");\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Phone Number Formatter",
+        "difficulty": "Medium",
+        "description": "Create a phone input that only accepts digits (filter out non-digits in real time). As the user types, format the display as XXX-XXX-XXXX. Limit to 10 digits. Show 'Valid' when exactly 10 digits are entered.",
+        "sampleInput": "Type '9876543210'",
+        "sampleOutput": "Input shows '987-654-3210'. Message shows 'Valid'.",
+        "constraints": "Use the input event. Replace non-digits with regex. Format the value programmatically.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <input type=\"text\" id=\"phone\" placeholder=\"Phone number\" maxlength=\"12\">\n  <p id=\"status\"></p>\n  <script>\n    const phone = document.getElementById(\"phone\");\n    const status = document.getElementById(\"status\");\n    phone.addEventListener(\"input\", function() {\n      let digits = phone.value.replace(/\\D/g, \"\").slice(0, 10);\n      let formatted = digits;\n      if (digits.length > 6) formatted = digits.slice(0,3) + \"-\" + digits.slice(3,6) + \"-\" + digits.slice(6);\n      else if (digits.length > 3) formatted = digits.slice(0,3) + \"-\" + digits.slice(3);\n      phone.value = formatted;\n      if (digits.length === 10) { status.textContent = \"Valid\"; status.style.color = \"green\"; }\n      else { status.textContent = digits.length + \"/10 digits\"; status.style.color = \"red\"; }\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Registration Form with All Input Types",
+        "difficulty": "Medium",
+        "description": "Build a registration form with: text input (name), email input, password input, radio buttons (gender: Male/Female/Other), checkbox (agree to terms), and select (city). Validate all fields on submit. Show all errors at once. If valid, show a summary of all entered data.",
+        "sampleInput": "Fill all fields and submit",
+        "sampleOutput": "Summary: Name: Aarav, Email: aarav@mail.com, Gender: Male, City: Delhi, Agreed: Yes",
+        "constraints": "Handle all input types. Check checkbox.checked, radio :checked, select .value.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>.err{color:red;font-size:13px;} .field{margin:8px 0;} #summary{padding:16px;background:#d1fae5;border-radius:8px;margin-top:16px;display:none;}</style></head>\n<body>\n  <form id=\"form\">\n    <div class=\"field\"><input type=\"text\" id=\"name\" placeholder=\"Name\"><div class=\"err\" id=\"e-name\"></div></div>\n    <div class=\"field\"><input type=\"email\" id=\"email\" placeholder=\"Email\"><div class=\"err\" id=\"e-email\"></div></div>\n    <div class=\"field\"><input type=\"password\" id=\"pass\" placeholder=\"Password (8+ chars)\"><div class=\"err\" id=\"e-pass\"></div></div>\n    <div class=\"field\">Gender: <label><input type=\"radio\" name=\"gender\" value=\"Male\"> Male</label> <label><input type=\"radio\" name=\"gender\" value=\"Female\"> Female</label> <label><input type=\"radio\" name=\"gender\" value=\"Other\"> Other</label><div class=\"err\" id=\"e-gender\"></div></div>\n    <div class=\"field\"><select id=\"city\"><option value=\"\">Select city</option><option value=\"Delhi\">Delhi</option><option value=\"Mumbai\">Mumbai</option><option value=\"Pune\">Pune</option></select><div class=\"err\" id=\"e-city\"></div></div>\n    <div class=\"field\"><label><input type=\"checkbox\" id=\"agree\"> I agree to terms</label><div class=\"err\" id=\"e-agree\"></div></div>\n    <button type=\"submit\">Register</button>\n  </form>\n  <div id=\"summary\"></div>\n  <script>\n    document.getElementById(\"form\").addEventListener(\"submit\", function(e) {\n      e.preventDefault();\n      let valid = true;\n      const errs = {name:\"\",email:\"\",pass:\"\",gender:\"\",city:\"\",agree:\"\"};\n      const name = document.getElementById(\"name\").value.trim();\n      if (name.length < 2) { errs.name = \"Name required (2+ chars)\"; valid = false; }\n      const email = document.getElementById(\"email\").value.trim();\n      if (!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email)) { errs.email = \"Valid email required\"; valid = false; }\n      if (document.getElementById(\"pass\").value.length < 8) { errs.pass = \"Password must be 8+ chars\"; valid = false; }\n      const gender = document.querySelector('input[name=\"gender\"]:checked');\n      if (!gender) { errs.gender = \"Select gender\"; valid = false; }\n      const city = document.getElementById(\"city\").value;\n      if (!city) { errs.city = \"Select city\"; valid = false; }\n      if (!document.getElementById(\"agree\").checked) { errs.agree = \"Must agree to terms\"; valid = false; }\n      for (const k in errs) document.getElementById(\"e-\" + k).textContent = errs[k];\n      if (valid) {\n        const s = document.getElementById(\"summary\");\n        s.style.display = \"block\";\n        s.textContent = \"Name: \" + name + \", Email: \" + email + \", Gender: \" + gender.value + \", City: \" + city;\n      }\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Password Strength Meter",
+        "difficulty": "Hard",
+        "description": "Create a password input with a visual strength meter below it. Check: length >= 8, length >= 12, has lowercase, has uppercase, has number, has special character. Show a colored bar (red/amber/green) and a checklist of criteria with pass/fail indicators. Show 'Weak', 'Medium', or 'Strong' based on score.",
+        "sampleInput": "Type 'Aarav@123'",
+        "sampleOutput": "Bar fills to ~83% green. Shows 'Strong'. All criteria except length >= 12 are checked.",
+        "constraints": "Use regex for each criterion. Use classList for meter colors. Update on every keystroke.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>.bar{width:300px;height:8px;background:#e5e7eb;border-radius:4px;margin:8px 0;overflow:hidden;} .fill{height:100%;border-radius:4px;transition:all 0.3s;} .pass{color:#10b981;} .fail{color:#9ca3af;}</style></head>\n<body>\n  <input type=\"password\" id=\"pw\" placeholder=\"Enter password\" style=\"width:300px;padding:8px;\">\n  <div class=\"bar\"><div class=\"fill\" id=\"fill\"></div></div>\n  <div id=\"label\"></div>\n  <div id=\"checks\"></div>\n  <script>\n    const pw = document.getElementById(\"pw\");\n    const fill = document.getElementById(\"fill\");\n    const label = document.getElementById(\"label\");\n    const checks = document.getElementById(\"checks\");\n    const rules = [\n      {text:\"8+ characters\",fn:function(p){return p.length>=8;}},\n      {text:\"12+ characters\",fn:function(p){return p.length>=12;}},\n      {text:\"Lowercase letter\",fn:function(p){return /[a-z]/.test(p);}},\n      {text:\"Uppercase letter\",fn:function(p){return /[A-Z]/.test(p);}},\n      {text:\"Number\",fn:function(p){return /\\d/.test(p);}},\n      {text:\"Special character\",fn:function(p){return /[^A-Za-z0-9]/.test(p);}}\n    ];\n    pw.addEventListener(\"input\", function() {\n      const p = pw.value;\n      let score = 0;\n      let html = \"\";\n      rules.forEach(function(r) {\n        const ok = r.fn(p);\n        if (ok) score++;\n        html += '<div class=\"' + (ok?'pass':'fail') + '\">' + (ok?'[ok]':'[  ]') + ' ' + r.text + '</div>';\n      });\n      checks.innerHTML = html;\n      const pct = (score/rules.length)*100;\n      fill.style.width = pct + \"%\";\n      if (p === \"\") { fill.style.width = \"0%\"; label.textContent = \"\"; }\n      else if (score <= 2) { fill.style.backgroundColor = \"#ef4444\"; label.textContent = \"Weak\"; label.style.color = \"#ef4444\"; }\n      else if (score <= 4) { fill.style.backgroundColor = \"#f59e0b\"; label.textContent = \"Medium\"; label.style.color = \"#f59e0b\"; }\n      else { fill.style.backgroundColor = \"#10b981\"; label.textContent = \"Strong\"; label.style.color = \"#10b981\"; }\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Multi-Step Form Wizard",
+        "difficulty": "Hard",
+        "description": "Build a 3-step form wizard. Step 1: Name and email. Step 2: Phone and city (select). Step 3: Review all data and submit. Each step has 'Next' and 'Back' buttons. 'Next' validates the current step before proceeding. Only one step is visible at a time. The final step shows a summary.",
+        "sampleInput": "Fill Step 1, click Next, fill Step 2, click Next, review and submit",
+        "sampleOutput": "Steps transition smoothly. Invalid fields prevent advancing. Final step shows all entered data.",
+        "constraints": "Use classList to show/hide steps. Validate each step independently. Use DOM manipulation to display the summary.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>.step{display:none;padding:16px;border:1px solid #ddd;border-radius:8px;max-width:350px;} .step.active{display:block;} .err{color:red;font-size:13px;} input,select{display:block;margin:8px 0;padding:8px;width:100%;box-sizing:border-box;} button{padding:8px 16px;margin:4px;cursor:pointer;}</style></head>\n<body>\n  <h2>Registration Wizard</h2>\n  <div class=\"step active\" id=\"step1\">\n    <h3>Step 1: Personal Info</h3>\n    <input type=\"text\" id=\"name\" placeholder=\"Full Name\">\n    <div class=\"err\" id=\"e1-name\"></div>\n    <input type=\"email\" id=\"email\" placeholder=\"Email\">\n    <div class=\"err\" id=\"e1-email\"></div>\n    <button id=\"next1\">Next</button>\n  </div>\n  <div class=\"step\" id=\"step2\">\n    <h3>Step 2: Contact</h3>\n    <input type=\"text\" id=\"phone\" placeholder=\"Phone (10 digits)\" maxlength=\"10\">\n    <div class=\"err\" id=\"e2-phone\"></div>\n    <select id=\"city\"><option value=\"\">Select city</option><option value=\"Delhi\">Delhi</option><option value=\"Mumbai\">Mumbai</option><option value=\"Pune\">Pune</option></select>\n    <div class=\"err\" id=\"e2-city\"></div>\n    <button id=\"back2\">Back</button><button id=\"next2\">Next</button>\n  </div>\n  <div class=\"step\" id=\"step3\">\n    <h3>Step 3: Review</h3>\n    <div id=\"review\"></div>\n    <button id=\"back3\">Back</button><button id=\"submit\">Submit</button>\n  </div>\n  <script>\n    function goTo(step) {\n      document.querySelectorAll(\".step\").forEach(function(s){s.classList.remove(\"active\");});\n      document.getElementById(\"step\"+step).classList.add(\"active\");\n    }\n    document.getElementById(\"next1\").addEventListener(\"click\", function() {\n      let ok = true;\n      document.getElementById(\"e1-name\").textContent = \"\";\n      document.getElementById(\"e1-email\").textContent = \"\";\n      if (document.getElementById(\"name\").value.trim().length < 2) { document.getElementById(\"e1-name\").textContent = \"Name required\"; ok = false; }\n      if (!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(document.getElementById(\"email\").value)) { document.getElementById(\"e1-email\").textContent = \"Valid email required\"; ok = false; }\n      if (ok) goTo(2);\n    });\n    document.getElementById(\"back2\").addEventListener(\"click\", function() { goTo(1); });\n    document.getElementById(\"next2\").addEventListener(\"click\", function() {\n      let ok = true;\n      document.getElementById(\"e2-phone\").textContent = \"\";\n      document.getElementById(\"e2-city\").textContent = \"\";\n      if (!/^\\d{10}$/.test(document.getElementById(\"phone\").value)) { document.getElementById(\"e2-phone\").textContent = \"10 digit phone required\"; ok = false; }\n      if (!document.getElementById(\"city\").value) { document.getElementById(\"e2-city\").textContent = \"Select a city\"; ok = false; }\n      if (ok) {\n        document.getElementById(\"review\").innerHTML = \"<strong>Name:</strong> \" + document.getElementById(\"name\").value + \"<br><strong>Email:</strong> \" + document.getElementById(\"email\").value + \"<br><strong>Phone:</strong> \" + document.getElementById(\"phone\").value + \"<br><strong>City:</strong> \" + document.getElementById(\"city\").value;\n        goTo(3);\n      }\n    });\n    document.getElementById(\"back3\").addEventListener(\"click\", function() { goTo(2); });\n    document.getElementById(\"submit\").addEventListener(\"click\", function() { alert(\"Registration complete!\"); });\n  </script>\n</body>\n</html>"
+      }
+    ]
+  }
+}

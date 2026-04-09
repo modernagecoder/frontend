@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables and Data Types - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Store data with let, const, and var. Understand strings, numbers, booleans, null, undefined, and typeof.">
+    <meta name="keywords" content="variables and data types, javascript tutorial, javascript variables and data types, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/variables-and-data-types">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/variables-and-data-types">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/variables-and-data-types">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/variables-and-data-types">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/variables-and-data-types">
+    <meta property="og:title" content="Variables and Data Types - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Store data with let, const, and var. Understand strings, numbers, booleans, null, undefined, and typeof.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/variables-and-data-types">
+    <meta name="twitter:title" content="Variables and Data Types - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Store data with let, const, and var. Understand strings, numbers, booleans, null, undefined, and typeof.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Variables and Data Types",
+    "description": "Store data with let, const, and var. Understand strings, numbers, booleans, null, undefined, and typeof.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/variables-and-data-types"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/variables-and-data-types"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Variables and Data Types",
+        "item": "https://learn.modernagecoders.com/resources/javascript/variables-and-data-types"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Reassigning a const Variable",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>const</code> means the variable binding cannot be changed. If you need to reassign a variable, use <code>let</code> instead. Use <code>const</code> only when the variable should keep the same value throughout its lifetime."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing undefined and null",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>undefined</code> means a variable was declared but never assigned a value. <code>null</code> means the value was intentionally set to \"nothing\". They are different values but <code>==</code> considers them equal (<code>null == undefined</code> is true). Use <code>===</code> to distinguish between them."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Expecting typeof null to Return 'null'",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>typeof null</code> returns <code>\"object\"</code>, not <code>\"null\"</code>. This is a well-known bug. To check for null, use the strict equality check <code>data === null</code> instead of typeof."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using var Inside a Loop (Scope Bug)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>var</code> is function-scoped, not block-scoped. A variable declared with <code>var</code> inside a <code>for</code> loop is accessible outside the loop. <code>let</code> is block-scoped, so it stays inside the loop where it belongs. This is one of the main reasons <code>let</code> replaced <code>var</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Trusting == for Type Comparisons",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>==</code> operator converts types before comparing, leading to confusing results. <code>===</code> (strict equality) checks both value AND type, giving predictable results. Rule: <strong>always use <code>===</code> and <code>!==</code></strong> unless you have a specific reason to use <code>==</code>."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Variables and Data Types</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 3</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">25 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Variables and Data Types</h1>
+            <a href="/resources/javascript/variables-and-data-types/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Variables and Data Types?</h2><p>A <strong>variable</strong> is a named container that stores a value. Think of it like a labeled box: the label is the variable name, and the thing inside the box is the value. You can put something in the box, look at what is inside, replace it with something else, or use it in calculations.</p><p>In JavaScript, you create variables using three keywords: <code>let</code>, <code>const</code>, and <code>var</code>.</p><pre><code>let age = 15;         // a variable that can change
+const name = "Aarav"; // a variable that cannot change
+var score = 100;      // the old way (avoid in modern JS)</code></pre><p>A <strong>data type</strong> tells JavaScript what kind of value is stored in a variable. Is it a number? A piece of text? A true/false value? JavaScript has <strong>7 primitive data types</strong> and one complex type (object). Understanding types is critical because JavaScript handles different types differently — and sometimes in surprising ways.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Do Variables and Data Types Matter?</h2><h3>1. Every Program Needs to Store Data</h3><p>Whether you are building a calculator, a game, or a form — you need to store information: the user's name, the current score, the number of lives left. Variables make this possible. Without variables, your program would have no memory.</p><h3>2. let vs const vs var: Getting It Wrong Causes Bugs</h3><p>Using <code>var</code> when you should use <code>let</code> can cause subtle bugs because of how <code>var</code> handles scope. Using <code>let</code> when you should use <code>const</code> means your code does not communicate intent clearly. Knowing which one to use is a fundamental JavaScript skill.</p><h3>3. Type Coercion Is JavaScript's Biggest Trap</h3><p>JavaScript automatically converts between types in ways that surprise even experienced developers. <code>"5" + 3</code> gives <code>"53"</code> (string), but <code>"5" - 3</code> gives <code>2</code> (number). Understanding type coercion prevents hours of debugging mysterious results.</p><h3>4. Interviews Love This Topic</h3><p>Questions about <code>typeof null</code>, <code>NaN === NaN</code>, the difference between <code>==</code> and <code>===</code>, and type coercion quirks appear in virtually every JavaScript interview. Mastering this chapter gives you a significant advantage.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Declaring Variables: let, const, var</h3><h4>let — Use for Values That Change</h4><p><code>let</code> declares a variable whose value can be reassigned later. Use <code>let</code> when the value will change, like a counter, a score, or user input.</p><pre><code>let score = 0;
+score = 10;    // OK: let allows reassignment
+score = 20;    // OK: can change as many times as needed</code></pre><h4>const — Use for Values That Stay the Same</h4><p><code>const</code> declares a <strong>constant</strong> — a variable that cannot be reassigned after it is created. Use <code>const</code> for values that should never change, like configuration settings, mathematical constants, or DOM element references.</p><pre><code>const PI = 3.14159;
+PI = 3;        // ERROR: Assignment to constant variable</code></pre><p><strong>Important:</strong> <code>const</code> prevents reassignment, not mutation. If a <code>const</code> holds an object or array, you can still change the contents — you just cannot point the variable to a completely different object.</p><h4>var — The Old Way (Avoid It)</h4><p><code>var</code> was the only way to declare variables before ES6 (2015). It still works, but it has two problems: it is <strong>function-scoped</strong> (not block-scoped like <code>let</code> and <code>const</code>), and it is <strong>hoisted</strong> (the declaration is moved to the top of the function). Both of these behaviors lead to bugs. In modern JavaScript, always prefer <code>let</code> and <code>const</code>.</p><h4>The Rule of Thumb</h4><p>Start with <code>const</code>. If you realize you need to reassign the variable, change it to <code>let</code>. Never use <code>var</code> in new code.</p><h3>2. The 7 Primitive Data Types</h3><p>JavaScript has seven <strong>primitive</strong> (basic) data types:</p><table><tr><th>Type</th><th>Example</th><th>typeof Returns</th></tr><tr><td><strong>String</strong></td><td><code>"Hello"</code>, <code>'World'</code>, <code>`Hi`</code></td><td><code>"string"</code></td></tr><tr><td><strong>Number</strong></td><td><code>42</code>, <code>3.14</code>, <code>-7</code>, <code>Infinity</code>, <code>NaN</code></td><td><code>"number"</code></td></tr><tr><td><strong>Boolean</strong></td><td><code>true</code>, <code>false</code></td><td><code>"boolean"</code></td></tr><tr><td><strong>undefined</strong></td><td><code>undefined</code></td><td><code>"undefined"</code></td></tr><tr><td><strong>null</strong></td><td><code>null</code></td><td><code>"object"</code> (bug!)</td></tr><tr><td><strong>Symbol</strong></td><td><code>Symbol("id")</code></td><td><code>"symbol"</code></td></tr><tr><td><strong>BigInt</strong></td><td><code>9007199254740991n</code></td><td><code>"bigint"</code></td></tr></table><p>Plus one complex type: <strong>Object</strong> (includes arrays, functions, dates, etc.).</p><h3>3. The typeof Operator</h3><p><code>typeof</code> returns a string telling you the type of a value. It works on any value or variable.</p><pre><code>typeof 42          // "number"
+typeof "hello"     // "string"
+typeof true        // "boolean"
+typeof undefined   // "undefined"
+typeof null        // "object"   &lt;-- FAMOUS BUG
+typeof {}          // "object"
+typeof []          // "object"   &lt;-- arrays are objects
+typeof function(){} // "function"</code></pre><p>Two gotchas to memorize: <code>typeof null</code> is <code>"object"</code> (a bug from 1995 that will never be fixed), and <code>typeof []</code> is also <code>"object"</code> (use <code>Array.isArray()</code> to check for arrays).</p><h3>4. Type Coercion (Implicit Conversion)</h3><p>JavaScript automatically converts values between types in certain situations. This is called <strong>type coercion</strong> and it is one of the most confusing parts of the language.</p><h4>String Coercion (with +)</h4><p>When you use <code>+</code> with a string and a non-string, JavaScript converts the non-string to a string and concatenates.</p><pre><code>"5" + 3     // "53" (number 3 becomes string "3")
+"5" + true  // "5true"
+"5" + null  // "5null"</code></pre><h4>Number Coercion (with -, *, /, ==)</h4><p>The <code>-</code>, <code>*</code>, and <code>/</code> operators only work with numbers, so JavaScript converts strings to numbers.</p><pre><code>"5" - 3     // 2 (string "5" becomes number 5)
+"5" * 2     // 10
+"10" / "2"  // 5
+true + 1    // 2 (true becomes 1)
+false + 1   // 1 (false becomes 0)
+"" - 1      // -1 (empty string becomes 0)</code></pre><h3>5. NaN and isNaN()</h3><p><code>NaN</code> stands for <strong>Not a Number</strong>. It is the result of invalid math operations.</p><pre><code>"hello" * 2    // NaN
+Math.sqrt(-1)  // NaN
+undefined + 1  // NaN</code></pre><p>The weird part: <code>typeof NaN</code> is <code>"number"</code> (yes, "Not a Number" is technically a number), and <code>NaN === NaN</code> is <code>false</code> (NaN is not equal to itself). Use <code>Number.isNaN()</code> to check for NaN.</p><h3>6. Template Literals</h3><p>Template literals use backticks (<code>`</code>) instead of quotes and allow you to embed expressions using <code>${}</code>. They are much cleaner than string concatenation with <code>+</code>.</p><pre><code>let name = "Priya";
+let age = 16;
+
+// Old way (concatenation)
+console.log("My name is " + name + " and I am " + age + " years old.");
+
+// New way (template literal)
+console.log(`My name is ${name} and I am ${age} years old.`);</code></pre><p>You can put any expression inside <code>${}</code>: variables, math, function calls, even ternary operators.</p><h3>7. Type Conversion (Explicit)</h3><p>Sometimes you need to convert types manually. Here are the main conversion functions:</p><h4>String to Number</h4><pre><code>Number("42")       // 42
+Number("")         // 0
+Number("hello")    // NaN
+Number(true)       // 1
+Number(false)      // 0
+Number(null)       // 0
+Number(undefined)  // NaN
+
+parseInt("42px")   // 42 (stops at non-digit)
+parseFloat("3.14") // 3.14
++"42"              // 42 (unary plus shortcut)</code></pre><h4>Number to String</h4><pre><code>String(42)         // "42"
+(42).toString()    // "42"
+42 + ""            // "42" (concatenation trick)</code></pre><h4>To Boolean</h4><p>JavaScript has exactly six <strong>falsy</strong> values that convert to <code>false</code>: <code>0</code>, <code>""</code> (empty string), <code>null</code>, <code>undefined</code>, <code>NaN</code>, and <code>false</code>. Everything else is <strong>truthy</strong>.</p><pre><code>Boolean(0)         // false
+Boolean("")        // false
+Boolean(null)      // false
+Boolean(undefined) // false
+Boolean(NaN)       // false
+Boolean("0")       // true (non-empty string!)
+Boolean(" ")       // true (non-empty string!)
+Boolean([])        // true (empty array is truthy!)
+Boolean({})        // true (empty object is truthy!)</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">let vs const vs var</div><pre><code class="language-python">// let: can be reassigned
+let score = 0;
+console.log(score);  // 0
+score = 50;
+console.log(score);  // 50
+
+// const: cannot be reassigned
+const PI = 3.14159;
+console.log(PI);     // 3.14159
+// PI = 3;  // TypeError: Assignment to constant variable
+
+// const with objects: contents CAN change
+const student = { name: &quot;Aarav&quot;, age: 15 };
+student.age = 16;    // OK! Changing a property is fine
+console.log(student.age);  // 16
+// student = {};  // TypeError: can&#39;t reassign the variable itself
+
+// var: function-scoped (avoid in modern JS)
+if (true) {
+  var x = 10;   // var leaks out of the if block
+  let y = 20;   // let stays inside the if block
+}
+console.log(x);  // 10 (var leaked!)
+// console.log(y);  // ReferenceError: y is not defined</code></pre><div class="code-example-explanation"><code>let</code> allows reassignment. <code>const</code> blocks reassignment but allows mutation of objects and arrays. <code>var</code> is function-scoped, meaning it leaks out of <code>if/for</code> blocks — this is why <code>let</code> and <code>const</code> were introduced as replacements.</div><div class="code-example-output">0
+50
+3.14159
+16
+10</div></div>
+<div class="code-example"><div class="code-example-title">All 7 Primitive Types in Action</div><pre><code class="language-python">// String
+let name = &quot;Priya&quot;;
+console.log(typeof name);        // &quot;string&quot;
+
+// Number (integers AND decimals)
+let age = 15;
+let price = 99.99;
+console.log(typeof age);         // &quot;number&quot;
+console.log(typeof price);       // &quot;number&quot;
+console.log(typeof Infinity);    // &quot;number&quot;
+console.log(typeof NaN);         // &quot;number&quot; (yes, really!)
+
+// Boolean
+let isStudent = true;
+console.log(typeof isStudent);   // &quot;boolean&quot;
+
+// undefined (variable declared but no value assigned)
+let x;
+console.log(x);                  // undefined
+console.log(typeof x);           // &quot;undefined&quot;
+
+// null (intentional &quot;no value&quot;)
+let data = null;
+console.log(typeof data);        // &quot;object&quot; (famous bug!)
+
+// Symbol (unique identifier)
+let id = Symbol(&quot;userId&quot;);
+console.log(typeof id);          // &quot;symbol&quot;
+
+// BigInt (very large numbers)
+let big = 9007199254740991n;
+console.log(typeof big);         // &quot;bigint&quot;</code></pre><div class="code-example-explanation">JavaScript has 7 primitive types. <code>String</code> holds text. <code>Number</code> holds both integers and decimals (JavaScript has no separate int/float types). <code>Boolean</code> is true/false. <code>undefined</code> means no value was assigned. <code>null</code> means intentionally empty. <code>Symbol</code> creates unique identifiers. <code>BigInt</code> handles numbers larger than Number can safely represent.</div><div class="code-example-output">string
+number
+number
+number
+number
+boolean
+undefined
+undefined
+object
+symbol
+bigint</div></div>
+<div class="code-example"><div class="code-example-title">Type Coercion Surprises</div><pre><code class="language-python">// String + anything = String (concatenation)
+console.log(&quot;5&quot; + 3);         // &quot;53&quot;
+console.log(&quot;5&quot; + true);      // &quot;5true&quot;
+console.log(&quot;5&quot; + null);      // &quot;5null&quot;
+console.log(&quot;5&quot; + undefined); // &quot;5undefined&quot;
+
+// Math operators convert to Number
+console.log(&quot;5&quot; - 3);         // 2
+console.log(&quot;5&quot; * 2);         // 10
+console.log(&quot;10&quot; / &quot;2&quot;);      // 5
+
+// Weird coercions
+console.log(true + true);     // 2 (true = 1)
+console.log(true + false);    // 1 (false = 0)
+console.log(&quot;&quot; - 1);          // -1 (&quot;&quot; = 0)
+console.log(null + 1);        // 1 (null = 0)
+console.log(undefined + 1);   // NaN
+
+// The tricky ones
+console.log(&quot;&quot; == false);     // true
+console.log(&quot;0&quot; == false);    // true
+console.log(&quot;&quot; == 0);         // true
+console.log(null == undefined); // true
+console.log(null == 0);       // false (special case!)</code></pre><div class="code-example-explanation">The <code>+</code> operator prefers string concatenation when a string is involved. Other math operators (<code>-</code>, <code>*</code>, <code>/</code>) always convert to numbers. <code>true</code> becomes 1, <code>false</code> and empty string become 0, <code>null</code> becomes 0 in math but behaves specially with <code>==</code>. <code>undefined</code> becomes <code>NaN</code> in math. These quirks are why <code>===</code> (strict equality) is preferred over <code>==</code>.</div><div class="code-example-output">53
+5true
+5null
+5undefined
+2
+10
+5
+2
+1
+-1
+1
+NaN
+true
+true
+true
+true
+false</div></div>
+<div class="code-example"><div class="code-example-title">NaN: The Strangest Number</div><pre><code class="language-python">// Ways to get NaN
+console.log(&quot;hello&quot; * 2);     // NaN
+console.log(undefined + 1);   // NaN
+console.log(Math.sqrt(-1));   // NaN
+console.log(0 / 0);          // NaN
+console.log(parseInt(&quot;abc&quot;)); // NaN
+
+// NaN quirks
+console.log(typeof NaN);       // &quot;number&quot; (!)
+console.log(NaN === NaN);      // false (!)
+console.log(NaN == NaN);       // false (!)
+console.log(NaN !== NaN);      // true
+
+// How to check for NaN
+console.log(isNaN(NaN));           // true
+console.log(isNaN(&quot;hello&quot;));       // true (converts first)
+console.log(Number.isNaN(NaN));    // true
+console.log(Number.isNaN(&quot;hello&quot;)); // false (strict, no conversion)</code></pre><div class="code-example-explanation"><code>NaN</code> is the only JavaScript value not equal to itself. <code>typeof NaN</code> returns <code>"number"</code> because NaN is technically a special IEEE 754 float value. The global <code>isNaN()</code> converts the argument first (so <code>isNaN("hello")</code> is true because <code>Number("hello")</code> is NaN). <code>Number.isNaN()</code> is stricter — it only returns true for the actual NaN value.</div><div class="code-example-output">NaN
+NaN
+NaN
+NaN
+NaN
+number
+false
+false
+true
+true
+true
+true
+false</div></div>
+<div class="code-example"><div class="code-example-title">Template Literals and String Interpolation</div><pre><code class="language-python">let name = &quot;Rohan&quot;;
+let age = 16;
+let subject = &quot;Computer Science&quot;;
+
+// Old way: clunky concatenation
+let msg1 = &quot;Hi, I am &quot; + name + &quot;. I am &quot; + age + &quot; years old. I study &quot; + subject + &quot;.&quot;;
+console.log(msg1);
+
+// New way: clean template literals
+let msg2 = `Hi, I am ${name}. I am ${age} years old. I study ${subject}.`;
+console.log(msg2);
+
+// Expressions inside ${}
+console.log(`Next year I will be ${age + 1}.`);
+console.log(`Is teen? ${age &gt;= 13 &amp;&amp; age &lt;= 19}`);
+console.log(`Name in caps: ${name.toUpperCase()}`);
+
+// Multi-line strings (template literals preserve line breaks)
+let poem = `Roses are red,
+Violets are blue,
+JavaScript is fun,
+And so are you.`;
+console.log(poem);</code></pre><div class="code-example-explanation">Template literals use backticks (<code>`</code>) and <code>${}</code> for embedding expressions. They are far more readable than concatenation with <code>+</code>. You can put any expression inside <code>${}</code>: variables, math, method calls, comparisons. Template literals also support multi-line strings without needing <code>\n</code>.</div><div class="code-example-output">Hi, I am Rohan. I am 16 years old. I study Computer Science.
+Hi, I am Rohan. I am 16 years old. I study Computer Science.
+Next year I will be 17.
+Is teen? true
+Name in caps: ROHAN
+Roses are red,
+Violets are blue,
+JavaScript is fun,
+And so are you.</div></div>
+<div class="code-example"><div class="code-example-title">Type Conversion Functions</div><pre><code class="language-python">// String to Number
+console.log(Number(&quot;42&quot;));         // 42
+console.log(Number(&quot;&quot;));           // 0
+console.log(Number(&quot;hello&quot;));      // NaN
+console.log(Number(true));         // 1
+console.log(Number(false));        // 0
+console.log(Number(null));         // 0
+console.log(Number(undefined));    // NaN
+
+// parseInt and parseFloat
+console.log(parseInt(&quot;42px&quot;));     // 42
+console.log(parseInt(&quot;3.99&quot;));     // 3 (drops decimal)
+console.log(parseFloat(&quot;3.14&quot;));   // 3.14
+console.log(parseInt(&quot;abc&quot;));      // NaN
+
+// Unary + (shortcut for Number())
+console.log(+&quot;42&quot;);                // 42
+console.log(+&quot;&quot;);                  // 0
+console.log(+true);                // 1
+
+// Number to String
+console.log(String(42));           // &quot;42&quot;
+console.log((42).toString());      // &quot;42&quot;
+console.log(42 + &quot;&quot;);              // &quot;42&quot;
+
+// To Boolean
+console.log(Boolean(0));           // false
+console.log(Boolean(&quot;&quot;));          // false
+console.log(Boolean(&quot;0&quot;));         // true (non-empty string!)
+console.log(Boolean([]));          // true (empty array!)</code></pre><div class="code-example-explanation"><code>Number()</code> converts the entire value (fails on <code>"42px"</code>). <code>parseInt()</code> reads digits from the start and stops (handles <code>"42px"</code>). The unary <code>+</code> is a shortcut for <code>Number()</code>. For booleans, memorize the six falsy values: <code>0</code>, <code>""</code>, <code>null</code>, <code>undefined</code>, <code>NaN</code>, <code>false</code>. Everything else (including <code>"0"</code>, <code>" "</code>, <code>[]</code>, <code>{}</code>) is truthy.</div><div class="code-example-output">42
+0
+NaN
+1
+0
+0
+NaN
+42
+3
+3.14
+NaN
+42
+0
+1
+42
+42
+42
+false
+false
+true
+true</div></div>
+<div class="code-example"><div class="code-example-title">Variable Naming Rules and Conventions</div><pre><code class="language-python">// Valid variable names
+let firstName = &quot;Neha&quot;;       // camelCase (recommended)
+let _private = &quot;secret&quot;;      // can start with underscore
+let $price = 99;              // can start with dollar sign
+let student2 = &quot;Vikram&quot;;      // can contain digits (not first char)
+
+// INVALID variable names (these cause errors)
+// let 2nd = &quot;second&quot;;        // cannot start with a digit
+// let my-name = &quot;Aarav&quot;;     // hyphens not allowed
+// let let = 5;               // cannot use reserved words
+
+// Naming conventions in JavaScript
+let camelCase = &quot;for variables and functions&quot;; // most common
+const UPPER_SNAKE = &quot;for constants&quot;;           // e.g., MAX_SIZE
+let PascalCase = &quot;for classes&quot;;                // e.g., Student
+
+console.log(firstName, _private, $price, student2);</code></pre><div class="code-example-explanation">Variable names can contain letters, digits, underscores, and dollar signs, but cannot start with a digit. They cannot be reserved words like <code>let</code>, <code>const</code>, <code>if</code>, <code>for</code>, etc. JavaScript convention uses <code>camelCase</code> for variables and functions, <code>UPPER_SNAKE_CASE</code> for constants, and <code>PascalCase</code> for class names.</div><div class="code-example-output">Neha secret 99 Vikram</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Reassigning a const Variable</h3>
+                <div class="wrong-code"><pre><code class="language-python">const name = &quot;Aarav&quot;;
+name = &quot;Priya&quot;;</code></pre></div><div class="error-message">TypeError: Assignment to constant variable.</div><div class="correct-code"><pre><code class="language-python">let name = &quot;Aarav&quot;;
+name = &quot;Priya&quot;; // Use let if you need to reassign</code></pre></div><div class="mistake-explanation"><code>const</code> means the variable binding cannot be changed. If you need to reassign a variable, use <code>let</code> instead. Use <code>const</code> only when the variable should keep the same value throughout its lifetime.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing undefined and null</h3>
+                <div class="wrong-code"><pre><code class="language-python">let x;
+if (x == null) {
+  console.log(&quot;x is null&quot;); // This runs!
+}
+// But x is actually undefined, not null</code></pre></div><div class="error-message">No error, but the logic is misleading. == considers null and undefined equal.</div><div class="correct-code"><pre><code class="language-python">let x;
+if (x === undefined) {
+  console.log(&quot;x is undefined&quot;);
+}
+if (x === null) {
+  console.log(&quot;x is null&quot;); // This does NOT run
+}</code></pre></div><div class="mistake-explanation"><code>undefined</code> means a variable was declared but never assigned a value. <code>null</code> means the value was intentionally set to "nothing". They are different values but <code>==</code> considers them equal (<code>null == undefined</code> is true). Use <code>===</code> to distinguish between them.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Expecting typeof null to Return &#39;null&#39;</h3>
+                <div class="wrong-code"><pre><code class="language-python">let data = null;
+if (typeof data === &quot;null&quot;) {
+  console.log(&quot;data is null&quot;); // Never runs!
+}</code></pre></div><div class="error-message">No error, but the condition is always false because typeof null returns &#39;object&#39;, not &#39;null&#39;.</div><div class="correct-code"><pre><code class="language-python">let data = null;
+if (data === null) {
+  console.log(&quot;data is null&quot;); // This works
+}</code></pre></div><div class="mistake-explanation"><code>typeof null</code> returns <code>"object"</code>, not <code>"null"</code>. This is a well-known bug. To check for null, use the strict equality check <code>data === null</code> instead of typeof.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using var Inside a Loop (Scope Bug)</h3>
+                <div class="wrong-code"><pre><code class="language-python">for (var i = 0; i &lt; 3; i++) {
+  // do something
+}
+console.log(i); // 3 (var leaked out of the loop!)</code></pre></div><div class="error-message">No error, but i is accessible outside the loop, which can cause bugs.</div><div class="correct-code"><pre><code class="language-python">for (let i = 0; i &lt; 3; i++) {
+  // do something
+}
+// console.log(i); // ReferenceError: i is not defined (correct!)</code></pre></div><div class="mistake-explanation"><code>var</code> is function-scoped, not block-scoped. A variable declared with <code>var</code> inside a <code>for</code> loop is accessible outside the loop. <code>let</code> is block-scoped, so it stays inside the loop where it belongs. This is one of the main reasons <code>let</code> replaced <code>var</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Trusting == for Type Comparisons</h3>
+                <div class="wrong-code"><pre><code class="language-python">console.log(0 == &quot;&quot;);       // true (both coerce to 0)
+console.log(0 == false);    // true
+console.log(&quot;&quot; == false);   // true
+console.log(&quot;0&quot; == false);  // true
+// All these are confusing and can lead to bugs</code></pre></div><div class="error-message">No error, but loose equality gives unexpected results.</div><div class="correct-code"><pre><code class="language-python">console.log(0 === &quot;&quot;);      // false
+console.log(0 === false);   // false
+console.log(&quot;&quot; === false);  // false
+console.log(&quot;0&quot; === false); // false
+// Strict equality gives predictable results</code></pre></div><div class="mistake-explanation">The <code>==</code> operator converts types before comparing, leading to confusing results. <code>===</code> (strict equality) checks both value AND type, giving predictable results. Rule: <strong>always use <code>===</code> and <code>!==</code></strong> unless you have a specific reason to use <code>==</code>.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Variables store values. Use const by default, let when you need to reassign, and never use var in new code.</li>
+<li>const prevents reassignment, not mutation. A const object&#39;s properties can still be changed.</li>
+<li>JavaScript has 7 primitive types: string, number, boolean, undefined, null, symbol, and bigint.</li>
+<li>typeof returns the type as a string. Two gotchas: typeof null is &#39;object&#39; (bug), and typeof NaN is &#39;number&#39;.</li>
+<li>Type coercion: the + operator concatenates if any operand is a string. The -, *, / operators always convert to numbers.</li>
+<li>The six falsy values are: 0, &#39;&#39; (empty string), null, undefined, NaN, and false. Everything else is truthy, including &#39;0&#39;, &#39; &#39;, [], and {}.</li>
+<li>NaN is not equal to itself: NaN === NaN is false. Use Number.isNaN() to check for NaN.</li>
+<li>Template literals use backticks and ${} for cleaner string interpolation: `Hello ${name}` instead of &#39;Hello &#39; + name.</li>
+<li>Number() converts the entire string (or returns NaN). parseInt() reads digits from the start and stops at the first non-digit.</li>
+<li>Always use === (strict equality) instead of == (loose equality) to avoid type coercion surprises.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/javascript-in-the-browser" class="related-topic-link">JavaScript in the Browser - Script Tags and Console</a>
+<a href="/resources/javascript/operators-and-expressions" class="related-topic-link">Operators and Expressions</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/javascript-in-the-browser" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">JavaScript in the Browser - Script Tags and Console</span>
+        </a>
+            <a href="/resources/javascript/operators-and-expressions" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Operators and Expressions</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/variables-and-data-types/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

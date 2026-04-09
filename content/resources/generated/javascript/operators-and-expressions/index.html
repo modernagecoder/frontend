@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators and Expressions - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Master arithmetic, comparison, logical, and assignment operators. Understand type coercion and truthy/falsy.">
+    <meta name="keywords" content="operators and expressions, javascript tutorial, javascript operators and expressions, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/operators-and-expressions">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/operators-and-expressions">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/operators-and-expressions">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/operators-and-expressions">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/operators-and-expressions">
+    <meta property="og:title" content="Operators and Expressions - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Master arithmetic, comparison, logical, and assignment operators. Understand type coercion and truthy/falsy.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/operators-and-expressions">
+    <meta name="twitter:title" content="Operators and Expressions - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Master arithmetic, comparison, logical, and assignment operators. Understand type coercion and truthy/falsy.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Operators and Expressions",
+    "description": "Master arithmetic, comparison, logical, and assignment operators. Understand type coercion and truthy/falsy.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/operators-and-expressions"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/operators-and-expressions"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Operators and Expressions",
+        "item": "https://learn.modernagecoders.com/resources/javascript/operators-and-expressions"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using == Instead of ===",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>==</code> converts types: <code>\"0\"</code> becomes 0, <code>false</code> becomes 0, and <code>0 == 0</code> is true. With <code>===</code>, <code>\"0\"</code> (string) and <code>false</code> (boolean) are different types, so the comparison is immediately false. Always use <code>===</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using || for Default Values When 0 Is Valid",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>||</code> returns the right side for any falsy value, including <code>0</code>, <code>\"\"</code>, and <code>false</code>. <code>??</code> only returns the right side for <code>null</code> or <code>undefined</code>. When 0, empty string, or false are valid values, use <code>??</code> instead of <code>||</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing = with === in Conditions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>=</code> is assignment (stores a value). <code>===</code> is comparison (checks equality). In the wrong code, <code>score = 50</code> assigns 50 to score and the if evaluates 50, which is truthy. This is a very common bug that is hard to spot."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Postfix vs Prefix Confusion",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "With postfix <code>count++</code>, the old value (5) is returned first, then count is incremented to 6. With prefix <code>++count</code>, count is incremented to 6 first, then the new value (6) is returned. If you need the updated value immediately, use prefix."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Operators and Expressions</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 4</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">25 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Operators and Expressions</h1>
+            <a href="/resources/javascript/operators-and-expressions/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Operators and Expressions?</h2><p>An <strong>operator</strong> is a symbol that tells JavaScript to perform a specific operation on values. You have already used operators: <code>+</code> to add numbers, <code>=</code> to assign values, and <code>===</code> to compare. An <strong>expression</strong> is any piece of code that produces a value: <code>5 + 3</code> is an expression (it produces 8), <code>age >= 18</code> is an expression (it produces true or false), and even just <code>42</code> by itself is an expression.</p><p>JavaScript has many operators grouped into categories: arithmetic, assignment, comparison, logical, and some modern ones like nullish coalescing (<code>??</code>) and optional chaining (<code>?.</code>). This chapter covers all of them, with special focus on the tricky parts that trip up beginners — especially <code>==</code> vs <code>===</code> and truthy/falsy values.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Do Operators Matter?</h2><h3>1. == vs === Is the Most Common JavaScript Bug</h3><p>The loose equality operator <code>==</code> performs type coercion, leading to surprises like <code>0 == ''</code> being true and <code>'' == false</code> being true. Understanding when and why this happens — and always using <code>===</code> instead — prevents an entire category of bugs.</p><h3>2. Truthy/Falsy Values Control Your If Statements</h3><p>In JavaScript, <code>if (value)</code> does not just check for <code>true</code> or <code>false</code>. It checks if the value is <strong>truthy</strong> or <strong>falsy</strong>. Since <code>0</code>, <code>""</code>, <code>null</code>, <code>undefined</code>, and <code>NaN</code> are all falsy, your conditional logic can behave unexpectedly if you do not understand this concept.</p><h3>3. Modern Operators Save You Lines of Code</h3><p>The nullish coalescing operator (<code>??</code>) and optional chaining (<code>?.</code>) were added in recent JavaScript versions. They replace verbose <code>if</code> checks with elegant one-liners. Professional codebases use them constantly.</p><h3>4. Short-Circuit Evaluation Is Used Everywhere</h3><p><code>&&</code> and <code>||</code> do not just return true/false — they return actual values. This enables patterns like <code>name || "Guest"</code> (default value) and <code>isLoggedIn && showDashboard()</code> (conditional execution) that you will see in every JavaScript project.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Arithmetic Operators</h3><p>These perform mathematical operations:</p><table><tr><th>Operator</th><th>Name</th><th>Example</th><th>Result</th></tr><tr><td><code>+</code></td><td>Addition</td><td><code>10 + 3</code></td><td><code>13</code></td></tr><tr><td><code>-</code></td><td>Subtraction</td><td><code>10 - 3</code></td><td><code>7</code></td></tr><tr><td><code>*</code></td><td>Multiplication</td><td><code>10 * 3</code></td><td><code>30</code></td></tr><tr><td><code>/</code></td><td>Division</td><td><code>10 / 3</code></td><td><code>3.333...</code></td></tr><tr><td><code>%</code></td><td>Remainder (Modulo)</td><td><code>10 % 3</code></td><td><code>1</code></td></tr><tr><td><code>**</code></td><td>Exponentiation</td><td><code>2 ** 3</code></td><td><code>8</code></td></tr></table><p>Unlike Python, JavaScript has only one division operator (<code>/</code>) that always gives a decimal result. There is no separate floor division. Use <code>Math.floor()</code> if you need integer division.</p><p>The <code>+</code> operator is special: with two numbers it adds, but if either operand is a string, it concatenates. This dual behavior is the source of many bugs.</p><h3>2. Assignment Operators</h3><p>The basic assignment is <code>=</code>. Compound assignment operators combine an operation with assignment:</p><table><tr><th>Operator</th><th>Example</th><th>Same As</th></tr><tr><td><code>+=</code></td><td><code>x += 5</code></td><td><code>x = x + 5</code></td></tr><tr><td><code>-=</code></td><td><code>x -= 5</code></td><td><code>x = x - 5</code></td></tr><tr><td><code>*=</code></td><td><code>x *= 5</code></td><td><code>x = x * 5</code></td></tr><tr><td><code>/=</code></td><td><code>x /= 5</code></td><td><code>x = x / 5</code></td></tr><tr><td><code>%=</code></td><td><code>x %= 5</code></td><td><code>x = x % 5</code></td></tr><tr><td><code>**=</code></td><td><code>x **= 2</code></td><td><code>x = x ** 2</code></td></tr></table><p>Also: increment <code>x++</code> (same as <code>x = x + 1</code>) and decrement <code>x--</code> (same as <code>x = x - 1</code>). There is a difference between <code>x++</code> (returns old value, then increments) and <code>++x</code> (increments, then returns new value).</p><h3>3. Comparison Operators: == vs === (CRITICAL)</h3><p>This is one of the most important topics in all of JavaScript.</p><table><tr><th>Operator</th><th>Name</th><th>Example</th><th>Result</th></tr><tr><td><code>==</code></td><td>Loose equality</td><td><code>5 == '5'</code></td><td><code>true</code></td></tr><tr><td><code>===</code></td><td>Strict equality</td><td><code>5 === '5'</code></td><td><code>false</code></td></tr><tr><td><code>!=</code></td><td>Loose inequality</td><td><code>5 != '5'</code></td><td><code>false</code></td></tr><tr><td><code>!==</code></td><td>Strict inequality</td><td><code>5 !== '5'</code></td><td><code>true</code></td></tr><tr><td><code>&gt;</code></td><td>Greater than</td><td><code>5 &gt; 3</code></td><td><code>true</code></td></tr><tr><td><code>&lt;</code></td><td>Less than</td><td><code>5 &lt; 3</code></td><td><code>false</code></td></tr><tr><td><code>&gt;=</code></td><td>Greater or equal</td><td><code>5 &gt;= 5</code></td><td><code>true</code></td></tr><tr><td><code>&lt;=</code></td><td>Less or equal</td><td><code>5 &lt;= 3</code></td><td><code>false</code></td></tr></table><p><code>==</code> (loose equality) converts types before comparing. <code>===</code> (strict equality) checks both value AND type. The rule is simple: <strong>always use <code>===</code> and <code>!==</code></strong>. Never use <code>==</code> unless you specifically want type coercion.</p><h3>4. Logical Operators and Short-Circuit Evaluation</h3><table><tr><th>Operator</th><th>Name</th><th>Returns</th></tr><tr><td><code>&&</code></td><td>Logical AND</td><td>First falsy value, or last value if all truthy</td></tr><tr><td><code>||</code></td><td>Logical OR</td><td>First truthy value, or last value if all falsy</td></tr><tr><td><code>!</code></td><td>Logical NOT</td><td>Opposite boolean value</td></tr></table><p>The key insight: <code>&&</code> and <code>||</code> do not always return <code>true</code> or <code>false</code> — they return one of the actual operand values. This enables powerful patterns:</p><pre><code>// Default values with ||
+let name = userInput || "Guest";  // if userInput is falsy, use "Guest"
+
+// Conditional execution with &&
+isLoggedIn && showDashboard();  // only runs showDashboard() if isLoggedIn is truthy
+
+// Double NOT for explicit boolean conversion
+let exists = !!value;  // converts any value to true/false</code></pre><h3>5. Ternary Operator</h3><p>The ternary operator is a compact if-else expression:</p><pre><code>condition ? valueIfTrue : valueIfFalse</code></pre><p>Example: <code>let status = age >= 18 ? "adult" : "minor";</code></p><p>This is equivalent to an if-else but in a single expression, which makes it useful for assigning values or embedding logic in template literals.</p><h3>6. Nullish Coalescing Operator (??)</h3><p>The <code>??</code> operator returns the right side only when the left side is <code>null</code> or <code>undefined</code>. It is different from <code>||</code> which returns the right side for ANY falsy value.</p><pre><code>let count = 0;
+console.log(count || 10);   // 10 (0 is falsy, so || gives default)
+console.log(count ?? 10);   // 0 (?? only checks for null/undefined)</code></pre><p>Use <code>??</code> when <code>0</code>, <code>""</code>, or <code>false</code> are valid values that you want to keep.</p><h3>7. Optional Chaining (?.)</h3><p>The <code>?.</code> operator lets you safely access nested object properties without checking each level for null/undefined.</p><pre><code>let user = { profile: { name: "Priya" } };
+console.log(user.profile.name);     // "Priya"
+console.log(user.address?.city);    // undefined (no error!)
+console.log(user.address.city);     // TypeError! (without ?.)</code></pre><h3>8. Truthy and Falsy Values</h3><p>In JavaScript, every value is either <strong>truthy</strong> (treated as true in boolean context) or <strong>falsy</strong> (treated as false). The six falsy values are:</p><ul><li><code>false</code></li><li><code>0</code> (and <code>-0</code>)</li><li><code>""</code> (empty string)</li><li><code>null</code></li><li><code>undefined</code></li><li><code>NaN</code></li></ul><p><strong>Everything else is truthy</strong>, including: <code>"0"</code>, <code>" "</code>, <code>[]</code>, <code>{}</code>, <code>"false"</code>, and any non-zero number.</p><h3>9. Operator Precedence</h3><p>When multiple operators appear in one expression, JavaScript follows this priority (highest to lowest):</p><ol><li><code>()</code> — Parentheses</li><li><code>!</code>, <code>++</code>, <code>--</code>, unary <code>+</code>/<code>-</code>, <code>typeof</code> — Unary operators</li><li><code>**</code> — Exponentiation</li><li><code>*</code>, <code>/</code>, <code>%</code> — Multiplication, division, remainder</li><li><code>+</code>, <code>-</code> — Addition, subtraction</li><li><code>&lt;</code>, <code>&gt;</code>, <code>&lt;=</code>, <code>&gt;=</code> — Comparison</li><li><code>===</code>, <code>!==</code>, <code>==</code>, <code>!=</code> — Equality</li><li><code>&&</code> — Logical AND</li><li><code>||</code> — Logical OR</li><li><code>??</code> — Nullish coalescing</li><li><code>? :</code> — Ternary</li><li><code>=</code>, <code>+=</code>, <code>-=</code>, etc. — Assignment</li></ol><p>When in doubt, use parentheses to make your intent clear.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Arithmetic and the + String Trap</div><pre><code class="language-python">// Normal arithmetic
+console.log(10 + 5);    // 15
+console.log(10 - 5);    // 5
+console.log(10 * 5);    // 50
+console.log(10 / 3);    // 3.3333...
+console.log(10 % 3);    // 1 (remainder)
+console.log(2 ** 10);   // 1024
+
+// The + trap with strings
+console.log(5 + 3);         // 8 (number + number = addition)
+console.log(&quot;5&quot; + 3);       // &quot;53&quot; (string + number = concatenation)
+console.log(5 + &quot;3&quot;);       // &quot;53&quot; (number + string = concatenation)
+console.log(5 + 3 + &quot;px&quot;); // &quot;8px&quot; (5+3=8, then 8+&quot;px&quot;=&quot;8px&quot;)
+console.log(&quot;{{CODE_EXAMPLES_HTML}}quot; + 5 + 3);  // &quot;$53&quot; (&quot;{{CODE_EXAMPLES_HTML}}quot;+5=&quot;$5&quot;, then &quot;$5&quot;+3=&quot;$53&quot;)</code></pre><div class="code-example-explanation">Arithmetic operators work as expected with numbers. The danger is <code>+</code>: if either side is a string, JavaScript switches to concatenation. Notice how <code>5 + 3 + "px"</code> gives <code>"8px"</code> (addition first, then concatenation), but <code>"$" + 5 + 3</code> gives <code>"$53"</code> (concatenation from the start). The order and types matter.</div><div class="code-example-output">15
+5
+50
+3.3333333333333335
+1
+1024
+8
+53
+53
+8px
+$53</div></div>
+<div class="code-example"><div class="code-example-title">== vs === (The Most Important Comparison)</div><pre><code class="language-python">// Loose equality (==) converts types
+console.log(5 == &quot;5&quot;);       // true (string converted to number)
+console.log(0 == false);     // true (false converted to 0)
+console.log(&quot;&quot; == false);    // true (both become 0)
+console.log(null == undefined); // true (special rule)
+console.log(0 == &quot;&quot;);        // true (empty string becomes 0)
+
+// Strict equality (===) checks type AND value
+console.log(5 === &quot;5&quot;);      // false (number vs string)
+console.log(0 === false);    // false (number vs boolean)
+console.log(&quot;&quot; === false);   // false (string vs boolean)
+console.log(null === undefined); // false (different types)
+console.log(0 === &quot;&quot;);       // false (number vs string)
+
+// The confusing matrix with ==
+console.log(&quot;0&quot; == false);   // true
+console.log(&quot;0&quot; == 0);       // true
+console.log(false == 0);     // true
+console.log(&quot;0&quot; == &quot;&quot;);      // false! (this breaks the pattern)</code></pre><div class="code-example-explanation"><code>==</code> tries to convert operands to the same type before comparing, which leads to confusing results. <code>===</code> never converts types — if the types are different, it immediately returns false. The last line shows that <code>==</code> is not even consistent: <code>"0" == false</code> is true and <code>"" == false</code> is true, but <code>"0" == ""</code> is false. This inconsistency is why you should <strong>always use ===</strong>.</div><div class="code-example-output">true
+true
+true
+true
+true
+false
+false
+false
+false
+false
+true
+true
+true
+false</div></div>
+<div class="code-example"><div class="code-example-title">Logical Operators and Short-Circuit Evaluation</div><pre><code class="language-python">// &amp;&amp; returns first falsy value, or last value if all truthy
+console.log(&quot;Aarav&quot; &amp;&amp; &quot;Priya&quot;);    // &quot;Priya&quot; (both truthy, returns last)
+console.log(0 &amp;&amp; &quot;Priya&quot;);          // 0 (first is falsy, returns it)
+console.log(&quot;Aarav&quot; &amp;&amp; 0 &amp;&amp; &quot;Hi&quot;);  // 0 (stops at first falsy)
+
+// || returns first truthy value, or last value if all falsy
+console.log(&quot;&quot; || &quot;Guest&quot;);          // &quot;Guest&quot; (first is falsy, tries second)
+console.log(&quot;Rohan&quot; || &quot;Guest&quot;);    // &quot;Rohan&quot; (first is truthy, returns it)
+console.log(0 || &quot;&quot; || &quot;Default&quot;);  // &quot;Default&quot; (first truthy value)
+console.log(0 || &quot;&quot; || null);       // null (all falsy, returns last)
+
+// Practical patterns
+let username = &quot;&quot; || &quot;Anonymous&quot;;     // &quot;Anonymous&quot;
+let score = 0 || 100;                // 100 (BUG! 0 was a valid score)
+
+// ! (NOT) converts to boolean and flips
+console.log(!true);     // false
+console.log(!0);        // true (0 is falsy)
+console.log(!&quot;hello&quot;);  // false (non-empty string is truthy)
+console.log(!!&quot;hello&quot;); // true (double NOT = convert to boolean)</code></pre><div class="code-example-explanation"><code>&&</code> stops at the first falsy value (short-circuits). <code>||</code> stops at the first truthy value. This enables default value patterns: <code>name || "Guest"</code> provides a fallback. But be careful: <code>0 || 100</code> gives 100 even though 0 might be a valid value. For that case, use <code>??</code> instead. Double NOT (<code>!!</code>) is a common way to convert any value to a boolean.</div><div class="code-example-output">Priya
+0
+0
+Guest
+Rohan
+Default
+null
+false
+true
+false
+true</div></div>
+<div class="code-example"><div class="code-example-title">Ternary Operator and Practical Uses</div><pre><code class="language-python">let age = 16;
+
+// Basic ternary
+let status = age &gt;= 18 ? &quot;adult&quot; : &quot;minor&quot;;
+console.log(status);  // &quot;minor&quot;
+
+// Ternary in template literals
+console.log(`Vikram is ${age &gt;= 18 ? &#39;an adult&#39; : &#39;a minor&#39;}`);
+
+// Ternary for setting classes (common in web dev)
+let theme = &quot;dark&quot;;
+let className = theme === &quot;dark&quot; ? &quot;bg-dark text-white&quot; : &quot;bg-light text-dark&quot;;
+console.log(className);
+
+// Nested ternary (readable but do not overdo it)
+let score = 85;
+let grade = score &gt;= 90 ? &quot;A&quot; :
+            score &gt;= 80 ? &quot;B&quot; :
+            score &gt;= 70 ? &quot;C&quot; :
+            score &gt;= 60 ? &quot;D&quot; : &quot;F&quot;;
+console.log(`Score: ${score}, Grade: ${grade}`);
+
+// Using ternary in HTML updates
+// document.getElementById(&quot;status&quot;).textContent = isOnline ? &quot;Online&quot; : &quot;Offline&quot;;</code></pre><div class="code-example-explanation">The ternary operator <code>condition ? ifTrue : ifFalse</code> is a compact if-else. It works as an expression (returns a value), so you can use it inside assignments, template literals, and function arguments. Nested ternaries work for multiple conditions like grading, but if it gets too complex, switch to if-else for readability.</div><div class="code-example-output">minor
+Vikram is a minor
+bg-dark text-white
+Score: 85, Grade: B</div></div>
+<div class="code-example"><div class="code-example-title">Nullish Coalescing (??) vs Logical OR (||)</div><pre><code class="language-python">// || treats ALL falsy values as &quot;missing&quot;
+let count1 = 0;
+console.log(count1 || 10);  // 10 (BUG: 0 is valid but treated as falsy)
+
+let text1 = &quot;&quot;;
+console.log(text1 || &quot;default&quot;);  // &quot;default&quot; (BUG: empty string might be valid)
+
+// ?? only treats null and undefined as &quot;missing&quot;
+let count2 = 0;
+console.log(count2 ?? 10);  // 0 (correct: 0 is kept)
+
+let text2 = &quot;&quot;;
+console.log(text2 ?? &quot;default&quot;);  // &quot;&quot; (correct: empty string is kept)
+
+let data = null;
+console.log(data ?? &quot;fallback&quot;);  // &quot;fallback&quot; (null triggers ??)
+
+let nothing = undefined;
+console.log(nothing ?? &quot;fallback&quot;);  // &quot;fallback&quot; (undefined triggers ??)
+
+// Real-world example
+let settings = { volume: 0, name: &quot;&quot; };
+let volume = settings.volume ?? 50;  // 0 (preserves the setting)
+let name = settings.name ?? &quot;User&quot;;  // &quot;&quot; (preserves empty name)
+console.log(volume, name);</code></pre><div class="code-example-explanation"><code>||</code> returns the right side for ANY falsy value (0, "", null, undefined, NaN, false). <code>??</code> returns the right side ONLY for <code>null</code> or <code>undefined</code>. This distinction is crucial: if a user intentionally sets volume to 0 or clears their name to an empty string, <code>||</code> would override their choice, but <code>??</code> would respect it.</div><div class="code-example-output">10
+default
+0
+
+fallback
+fallback
+0 </div></div>
+<div class="code-example"><div class="code-example-title">Optional Chaining (?.) for Safe Property Access</div><pre><code class="language-python">let student = {
+  name: &quot;Ananya&quot;,
+  address: {
+    city: &quot;Mumbai&quot;
+  }
+};
+
+// Normal access (works fine)
+console.log(student.name);           // &quot;Ananya&quot;
+console.log(student.address.city);   // &quot;Mumbai&quot;
+
+// Accessing something that does not exist
+// console.log(student.phone.number);  // TypeError: Cannot read property &#39;number&#39; of undefined
+
+// Safe access with ?.
+console.log(student.phone?.number);   // undefined (no error!)
+console.log(student.address?.city);   // &quot;Mumbai&quot; (works normally when path exists)
+console.log(student.grades?.math);    // undefined
+
+// Works with methods too
+let arr = [1, 2, 3];
+console.log(arr.find?.(x =&gt; x &gt; 2));  // 3
+
+let obj = {};
+console.log(obj.greet?.());           // undefined (method does not exist)
+
+// Combining with ??
+let city = student.phone?.city ?? &quot;Unknown city&quot;;
+console.log(city);  // &quot;Unknown city&quot;</code></pre><div class="code-example-explanation">Without <code>?.</code>, accessing a property on <code>undefined</code> or <code>null</code> crashes your program. <code>?.</code> checks if the left side is null/undefined, and if so, returns <code>undefined</code> instead of throwing an error. You can chain it: <code>user?.address?.city?.zipCode</code>. Combining with <code>??</code> lets you provide default values: <code>user?.name ?? "Anonymous"</code>.</div><div class="code-example-output">Ananya
+Mumbai
+undefined
+Mumbai
+undefined
+3
+undefined
+Unknown city</div></div>
+<div class="code-example"><div class="code-example-title">Truthy/Falsy Values: Complete Guide</div><pre><code class="language-python">// All 6 falsy values
+console.log(&quot;=== Falsy values ===&quot;);
+console.log(Boolean(false));      // false
+console.log(Boolean(0));          // false
+console.log(Boolean(-0));         // false
+console.log(Boolean(&quot;&quot;));         // false
+console.log(Boolean(null));       // false
+console.log(Boolean(undefined));  // false
+console.log(Boolean(NaN));        // false
+
+// Surprising truthy values
+console.log(&quot;\n=== Truthy (surprising) ===&quot;);
+console.log(Boolean(&quot;0&quot;));        // true! (non-empty string)
+console.log(Boolean(&quot; &quot;));        // true! (space is not empty)
+console.log(Boolean(&quot;false&quot;));    // true! (the word false is a non-empty string)
+console.log(Boolean([]));         // true! (empty array)
+console.log(Boolean({}));         // true! (empty object)
+console.log(Boolean(-1));         // true! (any non-zero number)
+console.log(Boolean(Infinity));   // true!
+
+// Practical: checking if a value exists
+let input = &quot;&quot;;
+if (input) {
+  console.log(&quot;Has value&quot;);
+} else {
+  console.log(&quot;Empty or missing&quot;);  // This runs (empty string is falsy)
+}</code></pre><div class="code-example-explanation">Memorize the six falsy values: <code>false</code>, <code>0</code>, <code>""</code>, <code>null</code>, <code>undefined</code>, <code>NaN</code>. Everything else is truthy — including things that look empty like <code>"0"</code>, <code>[]</code>, and <code>{}</code>. This matters because <code>if (value)</code> checks truthiness, not just <code>true/false</code>.</div><div class="code-example-output">=== Falsy values ===
+false
+false
+false
+false
+false
+false
+false
+
+=== Truthy (surprising) ===
+true
+true
+true
+true
+true
+true
+true
+Empty or missing</div></div>
+<div class="code-example"><div class="code-example-title">Increment, Decrement, and Prefix vs Postfix</div><pre><code class="language-python">// Basic increment and decrement
+let a = 5;
+a++;  // a is now 6
+console.log(a);  // 6
+a--;  // a is now 5 again
+console.log(a);  // 5
+
+// Postfix (x++): returns OLD value, then increments
+let x = 10;
+let y = x++;   // y gets 10 (old value), THEN x becomes 11
+console.log(&quot;x:&quot;, x, &quot;y:&quot;, y);  // x: 11, y: 10
+
+// Prefix (++x): increments FIRST, then returns NEW value
+let m = 10;
+let n = ++m;   // m becomes 11 FIRST, then n gets 11
+console.log(&quot;m:&quot;, m, &quot;n:&quot;, n);  // m: 11, n: 11
+
+// This matters in expressions
+let count = 0;
+console.log(count++);  // 0 (returns old value)
+console.log(count);    // 1 (incremented after)
+console.log(++count);  // 2 (increments first, returns new value)</code></pre><div class="code-example-explanation">With <code>x++</code> (postfix), the old value is used in the expression, then x is incremented. With <code>++x</code> (prefix), x is incremented first, then the new value is used. This difference matters when the result is assigned to another variable or used in an expression.</div><div class="code-example-output">6
+5
+x: 11 y: 10
+m: 11 n: 11
+0
+1
+2</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using == Instead of ===</h3>
+                <div class="wrong-code"><pre><code class="language-python">let input = &quot;0&quot;;
+if (input == false) {
+  console.log(&quot;Input is false&quot;);  // This runs! &quot;0&quot; == false is true
+}</code></pre></div><div class="error-message">No error, but unexpected behavior. &#39;0&#39; is a valid input that should not be treated as false.</div><div class="correct-code"><pre><code class="language-python">let input = &quot;0&quot;;
+if (input === false) {
+  console.log(&quot;Input is false&quot;);  // Does NOT run (correct)
+}
+if (input === &quot;&quot;) {
+  console.log(&quot;Input is empty&quot;);  // Does NOT run (correct)
+}</code></pre></div><div class="mistake-explanation"><code>==</code> converts types: <code>"0"</code> becomes 0, <code>false</code> becomes 0, and <code>0 == 0</code> is true. With <code>===</code>, <code>"0"</code> (string) and <code>false</code> (boolean) are different types, so the comparison is immediately false. Always use <code>===</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using || for Default Values When 0 Is Valid</h3>
+                <div class="wrong-code"><pre><code class="language-python">let volume = 0;  // User set volume to 0 (muted)
+let actualVolume = volume || 50;
+console.log(actualVolume);  // 50 (BUG: user wanted 0!)</code></pre></div><div class="error-message">No error, but the user&#39;s intended value of 0 is overwritten because 0 is falsy.</div><div class="correct-code"><pre><code class="language-python">let volume = 0;
+let actualVolume = volume ?? 50;
+console.log(actualVolume);  // 0 (correct: ?? only checks null/undefined)</code></pre></div><div class="mistake-explanation"><code>||</code> returns the right side for any falsy value, including <code>0</code>, <code>""</code>, and <code>false</code>. <code>??</code> only returns the right side for <code>null</code> or <code>undefined</code>. When 0, empty string, or false are valid values, use <code>??</code> instead of <code>||</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing = with === in Conditions</h3>
+                <div class="wrong-code"><pre><code class="language-python">let score = 100;
+if (score = 50) {  // ASSIGNMENT, not comparison!
+  console.log(&quot;Score is 50&quot;);  // Always runs!
+}
+console.log(score);  // 50 (score got changed!)</code></pre></div><div class="error-message">No error. score is reassigned to 50, and since 50 is truthy, the if block runs.</div><div class="correct-code"><pre><code class="language-python">let score = 100;
+if (score === 50) {  // COMPARISON
+  console.log(&quot;Score is 50&quot;);  // Does not run (correct)
+}
+console.log(score);  // 100 (unchanged)</code></pre></div><div class="mistake-explanation"><code>=</code> is assignment (stores a value). <code>===</code> is comparison (checks equality). In the wrong code, <code>score = 50</code> assigns 50 to score and the if evaluates 50, which is truthy. This is a very common bug that is hard to spot.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Postfix vs Prefix Confusion</h3>
+                <div class="wrong-code"><pre><code class="language-python">let count = 5;
+let result = count++;
+console.log(result);  // 5 (expected 6!)</code></pre></div><div class="error-message">No error, but result is 5 instead of 6.</div><div class="correct-code"><pre><code class="language-python">let count = 5;
+let result = ++count;
+console.log(result);  // 6 (prefix increments first)</code></pre></div><div class="mistake-explanation">With postfix <code>count++</code>, the old value (5) is returned first, then count is incremented to 6. With prefix <code>++count</code>, count is incremented to 6 first, then the new value (6) is returned. If you need the updated value immediately, use prefix.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Arithmetic operators: +, -, *, /, % (remainder), ** (power). The + operator concatenates if either side is a string.</li>
+<li>Assignment operators: =, +=, -=, *=, /=, %=, **=. x += 5 is shorthand for x = x + 5.</li>
+<li>CRITICAL: Always use === (strict equality) instead of == (loose equality). == performs type coercion that leads to confusing results.</li>
+<li>Logical AND (&amp;&amp;) returns the first falsy value or the last value. Logical OR (||) returns the first truthy value or the last value.</li>
+<li>Short-circuit: || is used for default values (name || &#39;Guest&#39;). &amp;&amp; is used for conditional execution (isValid &amp;&amp; submit()).</li>
+<li>The ternary operator (condition ? a : b) is a compact if-else expression. Use it for simple conditions, not complex logic.</li>
+<li>Nullish coalescing (??) returns the right side only for null/undefined. Use it instead of || when 0, &#39;&#39;, or false are valid values.</li>
+<li>Optional chaining (?.) safely accesses properties that might not exist, returning undefined instead of throwing an error.</li>
+<li>The 6 falsy values: false, 0, &#39;&#39; (empty string), null, undefined, NaN. Everything else is truthy (including &#39;0&#39;, [], {}).</li>
+<li>Operator precedence: () &gt; unary &gt; ** &gt; */% &gt; +- &gt; comparisons &gt; equality &gt; &amp;&amp; &gt; || &gt; ?? &gt; ternary &gt; assignment.</li>
+<li>Prefix ++x increments first then returns. Postfix x++ returns first then increments. The difference matters in assignments.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/variables-and-data-types" class="related-topic-link">Variables and Data Types</a>
+<a href="/resources/javascript/conditional-statements" class="related-topic-link">Conditional Statements (if, else, switch)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/variables-and-data-types" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Variables and Data Types</span>
+        </a>
+            <a href="/resources/javascript/conditional-statements" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Conditional Statements (if, else, switch)</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/operators-and-expressions/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScript - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn what JavaScript is, how it powers the web, and write your first script that changes a webpage in real time.">
+    <meta name="keywords" content="introduction to javascript, javascript tutorial, javascript introduction to javascript, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/introduction-to-javascript">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/introduction-to-javascript">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/introduction-to-javascript">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/introduction-to-javascript">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/introduction-to-javascript">
+    <meta property="og:title" content="Introduction to JavaScript - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Learn what JavaScript is, how it powers the web, and write your first script that changes a webpage in real time.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/introduction-to-javascript">
+    <meta name="twitter:title" content="Introduction to JavaScript - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Learn what JavaScript is, how it powers the web, and write your first script that changes a webpage in real time.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Introduction to JavaScript",
+    "description": "Learn what JavaScript is, how it powers the web, and write your first script that changes a webpage in real time.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/introduction-to-javascript"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/introduction-to-javascript"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Introduction to JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript/introduction-to-javascript"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Putting the Script Tag Before the HTML Elements",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When the script is in the <code>&lt;head&gt;</code>, it runs before the browser has created the <code>&lt;p&gt;</code> element. So <code>getElementById(\"msg\")</code> returns <code>null</code> because the element does not exist yet. The fix is to put the <code>&lt;script&gt;</code> tag at the end of <code>&lt;body&gt;</code>, after all the HTML elements. This way, all elements are created before the JavaScript runs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using = Instead of == for Comparison",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A single <code>=</code> is the assignment operator — it stores a value. A double <code>==</code> or triple <code>===</code> is for comparison. In the wrong code, <code>score = 50</code> assigns 50 to score and the <code>if</code> evaluates 50, which is truthy. So the message prints even though the score was originally 100. Always use <code>===</code> for comparison in JavaScript."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting Quotes Around Strings",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Text values (strings) must be wrapped in quotes — either double quotes <code>\"Hello\"</code>, single quotes <code>'Hello'</code>, or backticks <code>`Hello`</code>. Without quotes, JavaScript thinks <code>Hello</code> is a variable name and looks for a variable called Hello. Since it does not exist, you get a ReferenceError."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Misspelling getElementById",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "JavaScript is <strong>case-sensitive</strong>. The method name is <code>getElementById</code> with a capital B, capital I, and lowercase d. Common misspellings include <code>getElementByld</code> (lowercase L instead of I), <code>getelementbyid</code> (all lowercase), and <code>getElementByID</code> (capital D). Always double-check the spelling."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using textContent vs innerHTML Incorrectly",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>textContent</code> treats everything as plain text — HTML tags are displayed as-is, not rendered. If you want to insert HTML that the browser should render (like bold text or links), use <code>innerHTML</code>. However, be careful with <code>innerHTML</code> when dealing with user input, as it can create security vulnerabilities (XSS attacks)."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Introduction to JavaScript</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 1</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">20 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Introduction to JavaScript</h1>
+            <a href="/resources/javascript/introduction-to-javascript/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is JavaScript?</h2><p><strong>JavaScript</strong> is the programming language of the web. Every interactive thing you see on a website — a button that changes color when you hover over it, a form that checks your email before you submit, a dropdown menu that slides open, a live chat widget, an animated counter — that is JavaScript at work.</p><p>Think of a website as a house. <strong>HTML</strong> is the structure — the walls, floors, and roof. <strong>CSS</strong> is the paint, furniture, and decoration. <strong>JavaScript</strong> is the electricity — it makes things actually work. Without JavaScript, websites would be static pages that just sit there. With JavaScript, they come alive.</p><h3>The Three Layers of the Web</h3><table><tr><th>Technology</th><th>Role</th><th>Example</th></tr><tr><td><code>HTML</code></td><td>Structure (content)</td><td>A button on the page</td></tr><tr><td><code>CSS</code></td><td>Style (appearance)</td><td>The button is blue and rounded</td></tr><tr><td><code>JavaScript</code></td><td>Behavior (interactivity)</td><td>Clicking the button shows a message</td></tr></table><p>You cannot build a modern website without all three working together. HTML without CSS looks ugly. HTML + CSS without JavaScript looks pretty but does nothing. JavaScript is what turns a poster into an app.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Should You Learn JavaScript?</h2><p>JavaScript is the single most important language to learn if you want to build anything for the web. Here is why:</p><h3>1. It Runs Everywhere</h3><p>JavaScript is the only programming language that runs natively in every web browser — Chrome, Firefox, Safari, Edge. You do not need to install anything. Open your browser, press F12, and you can start writing JavaScript right now. No compiler, no setup, no downloads.</p><h3>2. You See Results Instantly</h3><p>Unlike some languages where you write code, compile it, and then run it, JavaScript gives you instant feedback. Change a line of code, refresh the page, and you see the result immediately. This makes learning faster and more fun.</p><h3>3. It Powers Everything on the Web</h3><p>Every website you use daily — Google, YouTube, Instagram, WhatsApp Web, Netflix — uses JavaScript. Learning JavaScript means you can understand and build the same kind of interactive experiences.</p><h3>4. It Works Beyond the Browser</h3><p>JavaScript is not limited to websites. With <strong>Node.js</strong>, you can use JavaScript to build servers, desktop apps, mobile apps, and even control robots. Companies like Netflix, PayPal, and LinkedIn use JavaScript on their servers.</p><h3>5. Massive Job Market</h3><p>JavaScript is consistently the most popular programming language in developer surveys. Learning it opens doors to frontend development, backend development, mobile app development, and more.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>A Brief History</h3><p>JavaScript was created by <strong>Brendan Eich</strong> in 1995, working at Netscape (one of the first web browsers). He built the first version in just 10 days. The language was originally called Mocha, then LiveScript, and finally renamed to JavaScript as a marketing move to ride the popularity of Java — even though JavaScript and Java are completely different languages.</p><p>Over the years, JavaScript has evolved dramatically. The big update came in 2015 with <strong>ES6 (ECMAScript 2015)</strong>, which added features like <code>let</code>, <code>const</code>, arrow functions, and template literals. Today, JavaScript gets yearly updates and is one of the most powerful languages in the world.</p><h3>JavaScript vs Java</h3><p>This confuses a lot of beginners. <strong>JavaScript and Java are completely different languages.</strong> They have different syntax, different use cases, and were created by different people. The name similarity is purely a marketing decision from 1995. Think of it like "car" and "carpet" — they share letters but have nothing else in common.</p><h3>What Can JavaScript Do?</h3><p>Here is a concrete list of things JavaScript can do on a web page:</p><ul><li><strong>Change content:</strong> Update text, images, or HTML on the page without reloading</li><li><strong>Respond to events:</strong> React when a user clicks, types, scrolls, or hovers</li><li><strong>Validate forms:</strong> Check if an email is valid before sending it to the server</li><li><strong>Animate elements:</strong> Slide, fade, rotate, or bounce elements on the page</li><li><strong>Fetch data:</strong> Load new data from a server without refreshing the page (AJAX/Fetch API)</li><li><strong>Store data:</strong> Save information in the browser using localStorage</li><li><strong>Build games:</strong> Create interactive games using the HTML5 Canvas</li><li><strong>Control multimedia:</strong> Play/pause videos, create audio players</li></ul><h3>Where Does JavaScript Run?</h3><p>JavaScript runs in two main environments:</p><h4>1. The Browser</h4><p>Every web browser has a built-in <strong>JavaScript engine</strong> that reads and executes JavaScript code. Chrome uses the <strong>V8 engine</strong>, Firefox uses <strong>SpiderMonkey</strong>, and Safari uses <strong>JavaScriptCore</strong>. When you open a web page, the browser downloads the HTML, CSS, and JavaScript files, then the engine runs the JavaScript code.</p><h4>2. Node.js (Server-Side)</h4><p><strong>Node.js</strong> takes Chrome's V8 engine and lets you run JavaScript outside the browser — on your computer or on a server. This means you can use the same language for both the frontend (what users see) and the backend (the server logic). We will focus on browser JavaScript in this guide.</p><h3>Your First JavaScript Program</h3><p>Let us write a complete web page with HTML, CSS, and JavaScript working together. This page has a button that changes the text when you click it.</p><p>To try this, create a file called <code>index.html</code> on your computer, paste the code from Example 1 below, and open it in your browser. Click the button and watch the magic happen. That is JavaScript.</p><h3>How the Browser Reads Your Code</h3><p>When you open an HTML file in the browser, here is what happens in order:</p><ol><li>The browser reads the HTML from top to bottom</li><li>It builds the page structure (the DOM — Document Object Model)</li><li>It applies the CSS styles</li><li>It runs any JavaScript code it finds</li></ol><p>This order matters. If your JavaScript tries to find a button that has not been created yet (because the HTML has not been read that far), it will fail. That is why we usually put the <code>&lt;script&gt;</code> tag at the end of the <code>&lt;body&gt;</code>, after all the HTML elements. You will learn more about this in Chapter 2.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Your First Interactive Web Page</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My First JS Page&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Arial; text-align: center; padding: 50px; }
+    button { padding: 10px 20px; font-size: 18px; cursor: pointer; }
+    #message { font-size: 24px; margin: 20px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;My First JavaScript Page&lt;/h1&gt;
+  &lt;p id=&quot;message&quot;&gt;Click the button below!&lt;/p&gt;
+  &lt;button onclick=&quot;changeText()&quot;&gt;Click Me&lt;/button&gt;
+
+  &lt;script&gt;
+    function changeText() {
+      document.getElementById(&quot;message&quot;).textContent = &quot;JavaScript is working!&quot;;
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This is a complete web page with all three layers working together. The HTML creates a heading, a paragraph with <code>id="message"</code>, and a button. The CSS centers everything and styles the button. The JavaScript defines a function <code>changeText()</code> that finds the paragraph by its ID and changes its text. When you click the button, the <code>onclick</code> attribute calls this function. Notice the script tag is placed before the closing <code>&lt;/body&gt;</code> tag.</div><div class="code-example-output">Before click: &#39;Click the button below!&#39;
+After click: &#39;JavaScript is working!&#39;</div></div>
+<div class="code-example"><div class="code-example-title">Using console.log() to See Output</div><pre><code class="language-python">console.log(&quot;Hello from JavaScript!&quot;);
+console.log(42);
+console.log(10 + 5);
+console.log(&quot;Aarav&quot; + &quot; is learning JS&quot;);</code></pre><div class="code-example-explanation"><code>console.log()</code> is how you print output in JavaScript. It does not show anything on the web page — it prints to the browser's Developer Console (press F12 to open it). This is your best friend for testing and debugging. You can log text (strings in quotes), numbers, math expressions, and even combine strings with the <code>+</code> operator.</div><div class="code-example-output">Hello from JavaScript!
+42
+15
+Aarav is learning JS</div></div>
+<div class="code-example"><div class="code-example-title">JavaScript Can Change Styles</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Change Color&lt;/title&gt;
+  &lt;style&gt;
+    #box {
+      width: 200px; height: 200px;
+      background-color: #3498db;
+      margin: 20px auto;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&quot;box&quot;&gt;&lt;/div&gt;
+  &lt;button onclick=&quot;changeColor()&quot;&gt;Change Color&lt;/button&gt;
+
+  &lt;script&gt;
+    function changeColor() {
+      let box = document.getElementById(&quot;box&quot;);
+      box.style.backgroundColor = &quot;#e74c3c&quot;;
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">JavaScript can change any CSS property on any element. Here, clicking the button runs the <code>changeColor()</code> function, which finds the <code>div</code> with <code>id="box"</code> and changes its <code>backgroundColor</code> to red. Notice that CSS properties with hyphens (like <code>background-color</code>) become camelCase in JavaScript (<code>backgroundColor</code>). The CSS <code>transition</code> property makes the color change smooth.</div><div class="code-example-output">The blue box smoothly changes to red when the button is clicked.</div></div>
+<div class="code-example"><div class="code-example-title">JavaScript Can Respond to User Input</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Greeting App&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Arial; text-align: center; padding: 30px; }
+    input { padding: 8px; font-size: 16px; }
+    button { padding: 8px 16px; font-size: 16px; }
+    #greeting { font-size: 20px; color: #2ecc71; margin: 15px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Greeting App&lt;/h1&gt;
+  &lt;input type=&quot;text&quot; id=&quot;nameInput&quot; placeholder=&quot;Enter your name&quot;&gt;
+  &lt;button onclick=&quot;greet()&quot;&gt;Say Hello&lt;/button&gt;
+  &lt;p id=&quot;greeting&quot;&gt;&lt;/p&gt;
+
+  &lt;script&gt;
+    function greet() {
+      let name = document.getElementById(&quot;nameInput&quot;).value;
+      document.getElementById(&quot;greeting&quot;).textContent = &quot;Hello, &quot; + name + &quot;! Welcome to JavaScript.&quot;;
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This example reads user input from a text field using <code>.value</code>, then displays a personalized greeting. Priya types her name, clicks the button, and sees "Hello, Priya! Welcome to JavaScript." on the page. The <code>.value</code> property gets whatever the user typed in the input field. The <code>.textContent</code> property sets the text of the paragraph.</div><div class="code-example-output">If user types &#39;Priya&#39; and clicks the button:
+Hello, Priya! Welcome to JavaScript.</div></div>
+<div class="code-example"><div class="code-example-title">alert(), prompt(), and confirm()</div><pre><code class="language-python">// alert() shows a popup message
+alert(&quot;Welcome to JavaScript!&quot;);
+
+// prompt() asks for input and returns what the user typed
+let name = prompt(&quot;What is your name?&quot;);
+console.log(&quot;User entered: &quot; + name);
+
+// confirm() asks a yes/no question, returns true or false
+let likesJS = confirm(&quot;Do you like JavaScript?&quot;);
+console.log(&quot;Likes JavaScript: &quot; + likesJS);</code></pre><div class="code-example-explanation">These are three built-in browser dialog functions. <code>alert()</code> shows a message popup. <code>prompt()</code> shows an input dialog and returns whatever the user types (or <code>null</code> if they cancel). <code>confirm()</code> shows a dialog with OK and Cancel buttons, returning <code>true</code> for OK and <code>false</code> for Cancel. These are useful for quick interactions but should not be used in real websites because they block the page.</div><div class="code-example-output">A popup saying &#39;Welcome to JavaScript!&#39;
+A dialog asking for the user&#39;s name
+A dialog asking &#39;Do you like JavaScript?&#39; with OK and Cancel</div></div>
+<div class="code-example"><div class="code-example-title">typeof Operator - Checking Data Types</div><pre><code class="language-python">console.log(typeof 42);           // &quot;number&quot;
+console.log(typeof &quot;hello&quot;);      // &quot;string&quot;
+console.log(typeof true);         // &quot;boolean&quot;
+console.log(typeof undefined);    // &quot;undefined&quot;
+console.log(typeof null);         // &quot;object&quot; (a famous JS bug!)
+console.log(typeof console.log);  // &quot;function&quot;</code></pre><div class="code-example-explanation">The <code>typeof</code> operator tells you what type a value is. It returns a string like <code>"number"</code>, <code>"string"</code>, <code>"boolean"</code>, <code>"undefined"</code>, or <code>"function"</code>. There is one famous quirk: <code>typeof null</code> returns <code>"object"</code> instead of <code>"null"</code>. This is a bug from the very first version of JavaScript in 1995 that was never fixed because too many websites depend on it.</div><div class="code-example-output">number
+string
+boolean
+undefined
+object
+function</div></div>
+<div class="code-example"><div class="code-example-title">A Simple Counter App</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Counter&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Arial; text-align: center; padding: 40px; }
+    #count { font-size: 48px; margin: 20px; }
+    button { padding: 10px 25px; font-size: 20px; margin: 5px; cursor: pointer; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Click Counter&lt;/h1&gt;
+  &lt;p id=&quot;count&quot;&gt;0&lt;/p&gt;
+  &lt;button onclick=&quot;increment()&quot;&gt;+1&lt;/button&gt;
+  &lt;button onclick=&quot;decrement()&quot;&gt;-1&lt;/button&gt;
+  &lt;button onclick=&quot;reset()&quot;&gt;Reset&lt;/button&gt;
+
+  &lt;script&gt;
+    let count = 0;
+
+    function increment() {
+      count = count + 1;
+      document.getElementById(&quot;count&quot;).textContent = count;
+    }
+
+    function decrement() {
+      count = count - 1;
+      document.getElementById(&quot;count&quot;).textContent = count;
+    }
+
+    function reset() {
+      count = 0;
+      document.getElementById(&quot;count&quot;).textContent = count;
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This is a practical project — a counter app with three buttons. A variable <code>count</code> stores the current number. Each function modifies <code>count</code> and updates the page. <code>increment()</code> adds 1, <code>decrement()</code> subtracts 1, and <code>reset()</code> sets it back to 0. The variable lives outside the functions so all three functions can access it. This is your first real interactive app.</div><div class="code-example-output">A page showing 0 with +1, -1, and Reset buttons.
+Clicking +1 three times shows 3.
+Clicking -1 once shows 2.
+Clicking Reset shows 0.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Putting the Script Tag Before the HTML Elements</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;script&gt;
+    document.getElementById(&quot;msg&quot;).textContent = &quot;Hello!&quot;;
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p id=&quot;msg&quot;&gt;Original text&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div><div class="error-message">TypeError: Cannot set properties of null (reading &#39;textContent&#39;)</div><div class="correct-code"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;/head&gt;
+&lt;body&gt;
+  &lt;p id=&quot;msg&quot;&gt;Original text&lt;/p&gt;
+
+  &lt;script&gt;
+    document.getElementById(&quot;msg&quot;).textContent = &quot;Hello!&quot;;
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div><div class="mistake-explanation">When the script is in the <code>&lt;head&gt;</code>, it runs before the browser has created the <code>&lt;p&gt;</code> element. So <code>getElementById("msg")</code> returns <code>null</code> because the element does not exist yet. The fix is to put the <code>&lt;script&gt;</code> tag at the end of <code>&lt;body&gt;</code>, after all the HTML elements. This way, all elements are created before the JavaScript runs.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using = Instead of == for Comparison</h3>
+                <div class="wrong-code"><pre><code class="language-python">let score = 100;
+if (score = 50) {
+  console.log(&quot;Score is 50&quot;);
+}</code></pre></div><div class="error-message">No error, but the condition is always true! score gets reassigned to 50.</div><div class="correct-code"><pre><code class="language-python">let score = 100;
+if (score === 50) {
+  console.log(&quot;Score is 50&quot;);
+}</code></pre></div><div class="mistake-explanation">A single <code>=</code> is the assignment operator — it stores a value. A double <code>==</code> or triple <code>===</code> is for comparison. In the wrong code, <code>score = 50</code> assigns 50 to score and the <code>if</code> evaluates 50, which is truthy. So the message prints even though the score was originally 100. Always use <code>===</code> for comparison in JavaScript.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting Quotes Around Strings</h3>
+                <div class="wrong-code"><pre><code class="language-python">console.log(Hello World);</code></pre></div><div class="error-message">ReferenceError: Hello is not defined</div><div class="correct-code"><pre><code class="language-python">console.log(&quot;Hello World&quot;);</code></pre></div><div class="mistake-explanation">Text values (strings) must be wrapped in quotes — either double quotes <code>"Hello"</code>, single quotes <code>'Hello'</code>, or backticks <code>`Hello`</code>. Without quotes, JavaScript thinks <code>Hello</code> is a variable name and looks for a variable called Hello. Since it does not exist, you get a ReferenceError.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Misspelling getElementById</h3>
+                <div class="wrong-code"><pre><code class="language-python">document.getElementByld(&quot;msg&quot;).textContent = &quot;Hello&quot;;
+// Note: that is a lowercase &#39;L&#39; instead of capital &#39;I&#39; in &#39;Id&#39;</code></pre></div><div class="error-message">TypeError: document.getElementByld is not a function</div><div class="correct-code"><pre><code class="language-python">document.getElementById(&quot;msg&quot;).textContent = &quot;Hello&quot;;</code></pre></div><div class="mistake-explanation">JavaScript is <strong>case-sensitive</strong>. The method name is <code>getElementById</code> with a capital B, capital I, and lowercase d. Common misspellings include <code>getElementByld</code> (lowercase L instead of I), <code>getelementbyid</code> (all lowercase), and <code>getElementByID</code> (capital D). Always double-check the spelling.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using textContent vs innerHTML Incorrectly</h3>
+                <div class="wrong-code"><pre><code class="language-python">document.getElementById(&quot;msg&quot;).textContent = &quot;&lt;strong&gt;Bold text&lt;/strong&gt;&quot;;</code></pre></div><div class="error-message">No error, but the page literally shows &#39;&lt;strong&gt;Bold text&lt;/strong&gt;&#39; as plain text, not bold.</div><div class="correct-code"><pre><code class="language-python">document.getElementById(&quot;msg&quot;).innerHTML = &quot;&lt;strong&gt;Bold text&lt;/strong&gt;&quot;;</code></pre></div><div class="mistake-explanation"><code>textContent</code> treats everything as plain text — HTML tags are displayed as-is, not rendered. If you want to insert HTML that the browser should render (like bold text or links), use <code>innerHTML</code>. However, be careful with <code>innerHTML</code> when dealing with user input, as it can create security vulnerabilities (XSS attacks).</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>JavaScript is the programming language of the web. It adds interactivity and behavior to web pages built with HTML and CSS.</li>
+<li>HTML provides structure (content), CSS provides style (appearance), and JavaScript provides behavior (interactivity). All three work together.</li>
+<li>JavaScript was created by Brendan Eich in 1995 at Netscape. Despite the name, JavaScript and Java are completely different languages.</li>
+<li>JavaScript runs in every web browser using built-in engines (V8 in Chrome, SpiderMonkey in Firefox). It also runs on servers via Node.js.</li>
+<li>You can add JavaScript to a web page using the &lt;script&gt; tag, placed before the closing &lt;/body&gt; tag so all HTML elements are available.</li>
+<li>console.log() prints output to the browser&#39;s Developer Console (F12). It does not display anything on the web page itself.</li>
+<li>document.getElementById() finds an HTML element by its id attribute. You can then change its textContent, innerHTML, or style properties.</li>
+<li>The typeof operator returns the type of a value as a string: &#39;number&#39;, &#39;string&#39;, &#39;boolean&#39;, &#39;undefined&#39;, &#39;object&#39;, or &#39;function&#39;.</li>
+<li>alert() shows a popup, prompt() asks for input, and confirm() asks a yes/no question. These are useful for learning but not for real websites.</li>
+<li>JavaScript is case-sensitive. getElementById is not the same as getElementByid. Always watch your capitalization.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/javascript-in-the-browser" class="related-topic-link">JavaScript in the Browser - Script Tags and Console</a>
+<a href="/resources/javascript/variables-and-data-types" class="related-topic-link">Variables and Data Types</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            
+            <a href="/resources/javascript/javascript-in-the-browser" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">JavaScript in the Browser - Script Tags and Console</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/introduction-to-javascript/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

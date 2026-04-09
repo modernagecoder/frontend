@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Handling and Debugging - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Use try-catch-finally, throw errors, debug with console and DevTools, and handle common JavaScript errors.">
+    <meta name="keywords" content="error handling and debugging, javascript tutorial, javascript error handling and debugging, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging">
+    <meta property="og:title" content="Error Handling and Debugging - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Use try-catch-finally, throw errors, debug with console and DevTools, and handle common JavaScript errors.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging">
+    <meta name="twitter:title" content="Error Handling and Debugging - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Use try-catch-finally, throw errors, debug with console and DevTools, and handle common JavaScript errors.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Error Handling and Debugging",
+    "description": "Use try-catch-finally, throw errors, debug with console and DevTools, and handle common JavaScript errors.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Error Handling and Debugging",
+        "item": "https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Catching Errors Without Using the Error Object",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always log the error object or at least <code>error.message</code>. Without this, you will have no idea what actually failed, making debugging extremely difficult."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using try-catch Around Asynchronous Code (Does Not Work)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "try-catch only catches errors that happen synchronously within the try block. setTimeout's callback runs later, after the try-catch has already finished. Put try-catch inside the callback, or use async/await."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Throwing Strings Instead of Error Objects",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always throw Error objects (or subclasses). They provide <code>.message</code>, <code>.name</code>, and <code>.stack</code> properties that are essential for debugging. Throwing strings loses all this information."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrapping Too Much Code in try-catch",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Keep try blocks focused on the specific operation that might fail. Use separate try blocks for independent risky operations. This way, when an error occurs, you know exactly which part failed."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Error Handling and Debugging</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 18</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">45 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Error Handling and Debugging</h1>
+            <a href="/resources/javascript/error-handling-and-debugging/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Error Handling?</h2><p>Errors happen in every program. A user enters text instead of a number. A network request fails. You try to access a property of <code>undefined</code>. Without error handling, these situations crash your program and show ugly error messages.</p><p><strong>Error handling</strong> is the practice of anticipating things that can go wrong and writing code to deal with them gracefully. In JavaScript, this is done with <code>try</code>, <code>catch</code>, <code>finally</code>, and <code>throw</code>.</p><pre><code>// Without error handling -- crashes
+const data = JSON.parse("this is not JSON");
+console.log(data); // Never runs
+
+// With error handling -- recovers
+try {
+  const data = JSON.parse("this is not JSON");
+  console.log(data);
+} catch (error) {
+  console.log("Invalid JSON input");
+  console.log("Error:", error.message);
+}
+console.log("Program continues normally");</code></pre><p><strong>Debugging</strong> is the process of finding and fixing errors in your code. JavaScript provides powerful tools: the browser console, console methods (log, table, group, time), and browser DevTools with breakpoints, step-through execution, and variable watching.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is Error Handling Important?</h2><h3>1. Programs Must Not Crash in Front of Users</h3><p>If Kavya builds a weather app and the API is down, the app should show "Unable to fetch weather data" -- not a blank white screen or a cryptic error. Error handling lets you show helpful messages instead of crashes.</p><h3>2. JavaScript Errors Are Silent Killers</h3><p>In the browser, one unhandled error can stop all JavaScript on the page. A TypeError in your event handler means none of the rest of your code runs. Error handling isolates failures so one broken piece does not break everything.</p><h3>3. Debugging Skills Save Hours</h3><p>Beginners often spend hours staring at code trying to find bugs. Knowing how to use console.log effectively, read error messages, set breakpoints, and step through code turns hours of frustration into minutes of systematic investigation.</p><h3>4. Professional Code Always Handles Errors</h3><p>Every API call, every form submission, every file operation in professional code has error handling. If you want to write code that actually works in the real world, you must handle errors.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Common JavaScript Errors</h3><p>JavaScript has several built-in error types. Knowing them helps you read error messages and fix bugs faster:</p><pre><code>// ReferenceError -- using a variable that does not exist
+console.log(myVariable); // ReferenceError: myVariable is not defined
+
+// TypeError -- using a value in a way that is not allowed
+const num = 42;
+num.toUpperCase(); // TypeError: num.toUpperCase is not a function
+
+null.name; // TypeError: Cannot read properties of null
+undefined.length; // TypeError: Cannot read properties of undefined
+
+// SyntaxError -- code structure is wrong (usually caught before execution)
+// JSON.parse("{ bad json }"); // SyntaxError: Unexpected token b
+// eval("if("); // SyntaxError: Unexpected end of input
+
+// RangeError -- a value is outside the allowed range
+const arr = new Array(-1); // RangeError: Invalid array length
+const num = 1;
+num.toFixed(200); // RangeError: toFixed() digits argument must be between 0 and 100</code></pre><h3>2. try-catch</h3><p>The <code>try</code> block contains code that might throw an error. The <code>catch</code> block runs if an error occurs:</p><pre><code>try {
+  // Code that might fail
+  const result = riskyOperation();
+  console.log(result);
+} catch (error) {
+  // Runs only if an error occurred
+  console.log("Something went wrong:", error.message);
+}
+// Code here runs regardless</code></pre><p>If no error occurs, the catch block is skipped. If an error occurs, JavaScript immediately jumps to catch. Any code after the error in try does NOT run.</p><h3>3. The Error Object</h3><p>When an error is caught, the catch block receives an error object with useful properties:</p><pre><code>try {
+  null.toString();
+} catch (error) {
+  console.log(error.name);    // "TypeError"
+  console.log(error.message); // "Cannot read properties of null (reading 'toString')"
+  console.log(error.stack);   // Full stack trace (shows where the error happened)
+}</code></pre><h3>4. try-catch-finally</h3><p>The <code>finally</code> block always runs, whether an error occurred or not. It is used for cleanup:</p><pre><code>function loadData() {
+  const loadingEl = document.getElementById("loading");
+  loadingEl.style.display = "block";
+
+  try {
+    const data = JSON.parse(localStorage.getItem("data"));
+    displayData(data);
+  } catch (error) {
+    console.log("Failed to load data:", error.message);
+    showErrorMessage("Could not load your data.");
+  } finally {
+    // Always hide the loading spinner, success or failure
+    loadingEl.style.display = "none";
+  }
+}</code></pre><h3>5. throw -- Creating Your Own Errors</h3><p>Use <code>throw</code> to create errors when your code detects something wrong:</p><pre><code>function divide(a, b) {
+  if (typeof a !== "number" || typeof b !== "number") {
+    throw new TypeError("Both arguments must be numbers");
+  }
+  if (b === 0) {
+    throw new RangeError("Cannot divide by zero");
+  }
+  return a / b;
+}
+
+try {
+  console.log(divide(10, 2));    // 5
+  console.log(divide(10, 0));    // throws RangeError
+} catch (error) {
+  console.log(error.name + ": " + error.message);
+  // "RangeError: Cannot divide by zero"
+}</code></pre><p>You can throw any of the built-in error types: <code>Error</code>, <code>TypeError</code>, <code>RangeError</code>, <code>ReferenceError</code>. Always use <code>new</code> to create error objects.</p><h3>6. Custom Error Classes</h3><p>Create your own error types by extending the Error class:</p><pre><code>class ValidationError extends Error {
+  constructor(field, message) {
+    super(message);
+    this.name = "ValidationError";
+    this.field = field;
+  }
+}
+
+function validateAge(age) {
+  if (typeof age !== "number") {
+    throw new ValidationError("age", "Age must be a number");
+  }
+  if (age < 0 || age > 120) {
+    throw new ValidationError("age", "Age must be between 0 and 120");
+  }
+  return true;
+}
+
+try {
+  validateAge(-5);
+} catch (error) {
+  if (error instanceof ValidationError) {
+    console.log("Field:", error.field);     // "age"
+    console.log("Message:", error.message); // "Age must be between 0 and 120"
+  }
+}</code></pre><h3>7. Console Methods for Debugging</h3><p>The console has many methods beyond <code>console.log</code>:</p><pre><code>// console.log -- basic output
+console.log("Basic message");
+console.log("Name:", name, "Age:", age); // Multiple values
+
+// console.table -- display arrays/objects as tables
+const students = [
+  { name: "Aarav", score: 85 },
+  { name: "Priya", score: 92 },
+  { name: "Rohan", score: 78 }
+];
+console.table(students);
+
+// console.group / groupEnd -- group related logs
+console.group("User Data");
+console.log("Name: Aarav");
+console.log("Age: 16");
+console.log("City: Delhi");
+console.groupEnd();
+
+// console.time / timeEnd -- measure execution time
+console.time("loop");
+for (let i = 0; i < 1000000; i++) { /* empty */ }
+console.timeEnd("loop"); // loop: 3.5ms
+
+// console.warn -- yellow warning
+console.warn("This function is deprecated");
+
+// console.error -- red error (does not stop execution)
+console.error("Something failed!");
+
+// console.assert -- logs only if condition is FALSE
+console.assert(1 === 1, "This will NOT log");
+console.assert(1 === 2, "This WILL log because 1 !== 2");</code></pre><h3>8. Browser DevTools</h3><p>The browser DevTools (press F12 or Ctrl+Shift+I) are the most powerful debugging tools available:</p><p><strong>Console tab:</strong> Run JavaScript, see logs, errors, and warnings.</p><p><strong>Sources tab / Debugger:</strong></p><ul><li><strong>Breakpoints:</strong> Click a line number in your JS file to set a breakpoint. The code pauses there.</li><li><strong>Step Over (F10):</strong> Execute the current line and move to the next.</li><li><strong>Step Into (F11):</strong> Go inside a function call to see what happens inside.</li><li><strong>Step Out (Shift+F11):</strong> Finish the current function and return to the caller.</li><li><strong>Watch:</strong> Add expressions to watch their values change as you step through code.</li><li><strong>Call Stack:</strong> Shows the chain of function calls that led to the current point.</li></ul><p><strong>Network tab:</strong> See all network requests (API calls, images, CSS files), their status codes, response data, and timing. Essential for debugging fetch/API issues.</p><p><strong>Elements tab:</strong> Inspect and modify HTML/CSS in real time. Right-click any element and choose "Inspect".</p><h3>9. Common Debugging Patterns</h3><pre><code>// Pattern 1: Log before and after suspicious code
+console.log("Before fetch, URL:", url);
+const response = await fetch(url);
+console.log("After fetch, status:", response.status);
+
+// Pattern 2: Log the type when you get unexpected behavior
+console.log(typeof myVariable); // Is it string? number? undefined?
+console.log(Array.isArray(data)); // Is it actually an array?
+
+// Pattern 3: Use JSON.stringify for objects
+console.log(JSON.stringify(data, null, 2)); // Pretty-printed object
+
+// Pattern 4: Add temporary try-catch to isolate errors
+try {
+  suspiciousFunction();
+} catch (e) {
+  console.error("suspiciousFunction failed:", e);
+}</code></pre><h3>10. Handling Errors in DOM Code</h3><p>DOM operations can fail when elements do not exist. Handle them gracefully:</p><pre><code>// Bad: crashes if element does not exist
+const btn = document.getElementById("submit-btn");
+btn.addEventListener("click", handleSubmit); // TypeError if btn is null
+
+// Good: check before using
+const btn = document.getElementById("submit-btn");
+if (btn) {
+  btn.addEventListener("click", handleSubmit);
+} else {
+  console.warn("Submit button not found in the page");
+}
+
+// Good with optional chaining:
+document.getElementById("submit-btn")?.addEventListener("click", handleSubmit);</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">try-catch with Different Error Types</div><pre><code class="language-python">function processInput(input) {
+  try {
+    if (input === undefined) {
+      throw new Error(&quot;Input is required&quot;);
+    }
+
+    const parsed = JSON.parse(input);
+    console.log(&quot;Parsed:&quot;, parsed);
+
+    const name = parsed.user.name;
+    console.log(&quot;Name:&quot;, name);
+  } catch (error) {
+    console.log(&quot;Error type:&quot;, error.name);
+    console.log(&quot;Message:&quot;, error.message);
+  }
+}
+
+processInput(&#39;{&quot;user&quot;: {&quot;name&quot;: &quot;Aarav&quot;}}&#39;);
+console.log(&quot;---&quot;);
+processInput(&quot;not json&quot;);
+console.log(&quot;---&quot;);
+processInput(&#39;{&quot;data&quot;: 123}&#39;);
+console.log(&quot;---&quot;);
+processInput(undefined);</code></pre><div class="code-example-explanation">Different inputs cause different errors. Valid JSON with the right structure works. Invalid JSON causes SyntaxError. Valid JSON without the user property causes TypeError (accessing .name on undefined). Missing input triggers our custom Error. The catch block handles all cases.</div><div class="code-example-output">Parsed: { user: { name: &quot;Aarav&quot; } }
+Name: Aarav
+---
+Error type: SyntaxError
+Message: Unexpected token &#39;o&#39;, &quot;not json&quot; is not valid JSON
+---
+Error type: TypeError
+Message: Cannot read properties of undefined (reading &#39;name&#39;)
+---
+Error type: Error
+Message: Input is required</div></div>
+<div class="code-example"><div class="code-example-title">Form Validation with Custom Errors</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 20px; background: #1a1a2e; color: #e2e8f0; }
+    input { display: block; width: 250px; padding: 8px; margin: 8px 0; border-radius: 6px; border: 1px solid #334; background: #16213e; color: #e2e8f0; }
+    button { padding: 10px 20px; background: #a855f7; color: white; border: none; border-radius: 6px; cursor: pointer; }
+    .error { color: #ef4444; margin-top: 4px; font-size: 14px; }
+    .success { color: #10b981; margin-top: 8px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Registration&lt;/h2&gt;
+  &lt;input type=&quot;text&quot; id=&quot;name&quot; placeholder=&quot;Name&quot;&gt;
+  &lt;input type=&quot;text&quot; id=&quot;age&quot; placeholder=&quot;Age&quot;&gt;
+  &lt;input type=&quot;email&quot; id=&quot;email&quot; placeholder=&quot;Email&quot;&gt;
+  &lt;button id=&quot;registerBtn&quot;&gt;Register&lt;/button&gt;
+  &lt;div id=&quot;output&quot;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    class ValidationError extends Error {
+      constructor(field, message) {
+        super(message);
+        this.name = &quot;ValidationError&quot;;
+        this.field = field;
+      }
+    }
+
+    function validate(name, age, email) {
+      if (!name || name.trim().length &lt; 2) {
+        throw new ValidationError(&quot;name&quot;, &quot;Name must be at least 2 characters&quot;);
+      }
+      const ageNum = Number(age);
+      if (isNaN(ageNum) || ageNum &lt; 5 || ageNum &gt; 100) {
+        throw new ValidationError(&quot;age&quot;, &quot;Age must be a number between 5 and 100&quot;);
+      }
+      if (!email || !email.includes(&quot;@&quot;)) {
+        throw new ValidationError(&quot;email&quot;, &quot;Please enter a valid email&quot;);
+      }
+      return { name: name.trim(), age: ageNum, email };
+    }
+
+    document.getElementById(&quot;registerBtn&quot;).addEventListener(&quot;click&quot;, function() {
+      const output = document.getElementById(&quot;output&quot;);
+      try {
+        const user = validate(
+          document.getElementById(&quot;name&quot;).value,
+          document.getElementById(&quot;age&quot;).value,
+          document.getElementById(&quot;email&quot;).value
+        );
+        output.className = &quot;success&quot;;
+        output.textContent = &quot;Registered: &quot; + user.name + &quot;, age &quot; + user.age;
+      } catch (error) {
+        if (error instanceof ValidationError) {
+          output.className = &quot;error&quot;;
+          output.textContent = error.field + &quot;: &quot; + error.message;
+          document.getElementById(error.field).focus();
+        } else {
+          output.className = &quot;error&quot;;
+          output.textContent = &quot;Unexpected error: &quot; + error.message;
+        }
+      }
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Custom <code>ValidationError</code> carries a field name so the error handler knows which input caused the problem. The catch block checks <code>instanceof ValidationError</code> to handle validation errors differently from unexpected errors. The failing input is focused automatically.</div><div class="code-example-output">A registration form that shows specific field-level error messages. Wrong age shows &#39;age: Age must be a number between 5 and 100&#39;.</div></div>
+<div class="code-example"><div class="code-example-title">Console Methods Showcase</div><pre><code class="language-python">// console.table for structured data
+const scores = [
+  { name: &quot;Aarav&quot;, maths: 90, science: 85 },
+  { name: &quot;Priya&quot;, maths: 95, science: 92 },
+  { name: &quot;Rohan&quot;, maths: 78, science: 80 }
+];
+console.table(scores);
+
+// console.group for organized output
+console.group(&quot;Quiz Results&quot;);
+console.log(&quot;Total questions: 10&quot;);
+console.log(&quot;Correct: 7&quot;);
+console.log(&quot;Score: 70%&quot;);
+console.groupEnd();
+
+// console.time for performance measurement
+console.time(&quot;arrayCreation&quot;);
+const bigArray = [];
+for (let i = 0; i &lt; 100000; i++) {
+  bigArray.push(i * 2);
+}
+console.timeEnd(&quot;arrayCreation&quot;);
+
+// console.assert for debugging conditions
+const age = 15;
+console.assert(age &gt;= 18, &quot;User is not an adult, age is &quot; + age);
+console.assert(age &gt;= 0, &quot;This will NOT log because age is positive&quot;);
+
+// console.warn and console.error
+console.warn(&quot;API key will expire in 3 days&quot;);
+console.error(&quot;Failed to connect to database&quot;);</code></pre><div class="code-example-explanation"><code>console.table</code> displays data as a formatted table in the browser console. <code>console.group</code> creates collapsible sections. <code>console.time</code>/<code>timeEnd</code> measures how long code takes. <code>console.assert</code> only logs when the condition is false. These are much more useful than plain console.log for complex debugging.</div><div class="code-example-output">(table showing name/maths/science)
+Quiz Results
+  Total questions: 10
+  Correct: 7
+  Score: 70%
+arrayCreation: ~5ms
+Assertion failed: User is not an adult, age is 15
+Warning: API key will expire in 3 days
+Error: Failed to connect to database</div></div>
+<div class="code-example"><div class="code-example-title">Safe DOM Operations with Error Handling</div><pre><code class="language-python">// Helper function that safely selects an element
+function safeSelect(selector) {
+  const element = document.querySelector(selector);
+  if (!element) {
+    console.warn(&quot;Element not found: &quot; + selector);
+    return null;
+  }
+  return element;
+}
+
+// Helper that safely updates text content
+function safeSetText(selector, text) {
+  const el = safeSelect(selector);
+  if (el) {
+    el.textContent = text;
+    return true;
+  }
+  return false;
+}
+
+// Helper that safely adds event listener
+function safeAddListener(selector, event, handler) {
+  const el = safeSelect(selector);
+  if (el) {
+    el.addEventListener(event, handler);
+    return true;
+  }
+  return false;
+}
+
+// Usage
+safeSetText(&quot;#title&quot;, &quot;Hello World&quot;);
+safeSetText(&quot;#nonexistent&quot;, &quot;This safely does nothing&quot;);
+safeAddListener(&quot;#btn&quot;, &quot;click&quot;, function() {
+  console.log(&quot;Clicked!&quot;);
+});</code></pre><div class="code-example-explanation">Instead of letting the code crash when an element does not exist, these helper functions check for null and log a warning. This pattern is especially useful in large apps where HTML structure may change and elements may be conditionally rendered.</div><div class="code-example-output">(If #title exists) Sets its text to &#39;Hello World&#39;
+(If #nonexistent is missing) Console warning: Element not found: #nonexistent
+(If #btn exists) Adds click listener</div></div>
+<div class="code-example"><div class="code-example-title">finally for Cleanup</div><pre><code class="language-python">function fetchUserData(userId) {
+  console.log(&quot;Loading...&quot;);
+  // Simulating showing a loading spinner
+  let isLoading = true;
+
+  try {
+    if (typeof userId !== &quot;number&quot;) {
+      throw new TypeError(&quot;userId must be a number&quot;);
+    }
+    if (userId &lt;= 0) {
+      throw new RangeError(&quot;userId must be positive&quot;);
+    }
+
+    // Simulate successful data
+    const user = { id: userId, name: &quot;User &quot; + userId };
+    console.log(&quot;Data loaded:&quot;, user);
+    return user;
+  } catch (error) {
+    console.log(&quot;Error:&quot;, error.name, &quot;-&quot;, error.message);
+    return null;
+  } finally {
+    isLoading = false;
+    console.log(&quot;Loading done (isLoading:&quot;, isLoading, &quot;)&quot;);
+  }
+}
+
+console.log(&quot;Result:&quot;, fetchUserData(1));
+console.log(&quot;---&quot;);
+console.log(&quot;Result:&quot;, fetchUserData(&quot;abc&quot;));
+console.log(&quot;---&quot;);
+console.log(&quot;Result:&quot;, fetchUserData(-5));</code></pre><div class="code-example-explanation">The <code>finally</code> block guarantees the loading state is reset, whether the operation succeeded or failed. This is critical for UI -- a loading spinner that never disappears because of an error is a terrible user experience.</div><div class="code-example-output">Loading...
+Data loaded: { id: 1, name: &quot;User 1&quot; }
+Loading done (isLoading: false)
+Result: { id: 1, name: &quot;User 1&quot; }
+---
+Loading...
+Error: TypeError - userId must be a number
+Loading done (isLoading: false)
+Result: null
+---
+Loading...
+Error: RangeError - userId must be positive
+Loading done (isLoading: false)
+Result: null</div></div>
+<div class="code-example"><div class="code-example-title">Error Handling Pattern for JSON Parsing</div><pre><code class="language-python">function safeParse(jsonString, fallback = null) {
+  try {
+    return JSON.parse(jsonString);
+  } catch (error) {
+    console.warn(&quot;Invalid JSON:&quot;, error.message);
+    return fallback;
+  }
+}
+
+// Valid JSON
+console.log(safeParse(&#39;{&quot;name&quot;: &quot;Aarav&quot;}&#39;));
+// { name: &quot;Aarav&quot; }
+
+// Invalid JSON -- returns fallback
+console.log(safeParse(&quot;not json&quot;, {}));
+// {} (fallback)
+
+// null from localStorage
+console.log(safeParse(null, []));
+// [] (fallback)
+
+// Practical use with localStorage
+function loadSettings() {
+  const saved = localStorage.getItem(&quot;settings&quot;);
+  return safeParse(saved, { theme: &quot;dark&quot;, fontSize: 14 });
+}
+
+const settings = loadSettings();
+console.log(&quot;Settings:&quot;, settings);</code></pre><div class="code-example-explanation">Wrapping <code>JSON.parse</code> in try-catch is essential because invalid JSON throws a SyntaxError. The <code>safeParse</code> function provides a fallback value instead of crashing. This pattern is used constantly with localStorage and API responses.</div><div class="code-example-output">{ name: &quot;Aarav&quot; }
+Invalid JSON: Unexpected token &#39;o&#39;, &quot;not json&quot; is not valid JSON
+{}
+Invalid JSON: ...
+[]
+Settings: { theme: &quot;dark&quot;, fontSize: 14 }</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Catching Errors Without Using the Error Object</h3>
+                <div class="wrong-code"><pre><code class="language-python">try {
+  JSON.parse(&quot;bad json&quot;);
+} catch (error) {
+  console.log(&quot;Something went wrong&quot;);
+  // Ignoring the error object completely!
+}</code></pre></div><div class="error-message">No crash, but you lose all information about what went wrong. Debugging becomes impossible.</div><div class="correct-code"><pre><code class="language-python">try {
+  JSON.parse(&quot;bad json&quot;);
+} catch (error) {
+  console.log(&quot;Parse failed:&quot;, error.message);
+  // Or at minimum: console.error(error);
+}</code></pre></div><div class="mistake-explanation">Always log the error object or at least <code>error.message</code>. Without this, you will have no idea what actually failed, making debugging extremely difficult.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using try-catch Around Asynchronous Code (Does Not Work)</h3>
+                <div class="wrong-code"><pre><code class="language-python">try {
+  setTimeout(function() {
+    throw new Error(&quot;Async error!&quot;);
+  }, 1000);
+} catch (error) {
+  // This NEVER runs! The error happens later.
+  console.log(&quot;Caught:&quot;, error.message);
+}</code></pre></div><div class="error-message">The catch block never runs. The error crashes the program after 1 second because it happens outside the try-catch.</div><div class="correct-code"><pre><code class="language-python">// Put try-catch INSIDE the async callback
+setTimeout(function() {
+  try {
+    throw new Error(&quot;Async error!&quot;);
+  } catch (error) {
+    console.log(&quot;Caught:&quot;, error.message);
+  }
+}, 1000);
+
+// Or with async/await:
+// try {
+//   await someAsyncOperation();
+// } catch (error) {
+//   console.log(&quot;Caught:&quot;, error.message);
+// }</code></pre></div><div class="mistake-explanation">try-catch only catches errors that happen synchronously within the try block. setTimeout's callback runs later, after the try-catch has already finished. Put try-catch inside the callback, or use async/await.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Throwing Strings Instead of Error Objects</h3>
+                <div class="wrong-code"><pre><code class="language-python">function validate(age) {
+  if (age &lt; 0) {
+    throw &quot;Age cannot be negative&quot;; // Throwing a string!
+  }
+}
+
+try {
+  validate(-1);
+} catch (error) {
+  console.log(error.message); // undefined! Strings don&#39;t have .message
+  console.log(error.stack);   // undefined! No stack trace
+}</code></pre></div><div class="error-message">error.message is undefined because strings do not have a message property. No stack trace available for debugging.</div><div class="correct-code"><pre><code class="language-python">function validate(age) {
+  if (age &lt; 0) {
+    throw new RangeError(&quot;Age cannot be negative&quot;);
+  }
+}
+
+try {
+  validate(-1);
+} catch (error) {
+  console.log(error.message); // &quot;Age cannot be negative&quot;
+  console.log(error.name);    // &quot;RangeError&quot;
+  console.log(error.stack);   // Full stack trace
+}</code></pre></div><div class="mistake-explanation">Always throw Error objects (or subclasses). They provide <code>.message</code>, <code>.name</code>, and <code>.stack</code> properties that are essential for debugging. Throwing strings loses all this information.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrapping Too Much Code in try-catch</h3>
+                <div class="wrong-code"><pre><code class="language-python">try {
+  const name = document.getElementById(&quot;name&quot;).value;
+  const age = parseInt(document.getElementById(&quot;age&quot;).value);
+  const data = JSON.parse(localStorage.getItem(&quot;data&quot;));
+  const result = processData(data, name, age);
+  displayResult(result);
+} catch (error) {
+  console.log(&quot;Error&quot;); // Which line failed?
+}</code></pre></div><div class="error-message">When an error occurs, you cannot tell if it was the DOM access, the parsing, or the processing that failed.</div><div class="correct-code"><pre><code class="language-python">const nameEl = document.getElementById(&quot;name&quot;);
+if (!nameEl) {
+  console.error(&quot;Name input not found&quot;);
+  return;
+}
+const name = nameEl.value;
+const age = parseInt(document.getElementById(&quot;age&quot;).value);
+
+let data;
+try {
+  data = JSON.parse(localStorage.getItem(&quot;data&quot;));
+} catch (error) {
+  console.error(&quot;Invalid stored data:&quot;, error.message);
+  data = {};
+}
+
+try {
+  const result = processData(data, name, age);
+  displayResult(result);
+} catch (error) {
+  console.error(&quot;Processing failed:&quot;, error.message);
+}</code></pre></div><div class="mistake-explanation">Keep try blocks focused on the specific operation that might fail. Use separate try blocks for independent risky operations. This way, when an error occurs, you know exactly which part failed.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>JavaScript has built-in error types: ReferenceError (undefined variable), TypeError (wrong type usage, null.property), SyntaxError (bad code structure, bad JSON), and RangeError (value out of range).</li>
+<li>try-catch handles errors gracefully: the try block contains risky code, the catch block handles the error if one occurs. Code after the error in try does NOT run.</li>
+<li>The error object in catch has three key properties: error.name (type like &#39;TypeError&#39;), error.message (what went wrong), and error.stack (where it happened).</li>
+<li>The finally block always runs -- after try succeeds or after catch handles an error. Use it for cleanup like hiding loading spinners or resetting state.</li>
+<li>Use throw new Error(&#39;message&#39;) to create your own errors. Always throw Error objects (not strings) so you get .message, .name, and .stack properties.</li>
+<li>Custom error classes extend Error: class MyError extends Error. They can carry extra data like which field failed validation.</li>
+<li>console.table shows data as formatted tables. console.group organizes related logs. console.time measures performance. console.assert logs only on failure.</li>
+<li>Browser DevTools (F12): Set breakpoints by clicking line numbers, step through code with F10/F11, watch variable values, inspect the call stack, and monitor network requests.</li>
+<li>try-catch does NOT work around async callbacks (setTimeout, event handlers). Put try-catch inside the callback, or use async/await with try-catch.</li>
+<li>For DOM operations, always check if an element exists before using it. Use optional chaining (el?.addEventListener) or explicit null checks to prevent TypeErrors.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/es6-modern-javascript" class="related-topic-link">ES6+ Modern JavaScript Features</a>
+<a href="/resources/javascript/asynchronous-javascript" class="related-topic-link">Asynchronous JavaScript - Callbacks, Promises, Async/Await</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/es6-modern-javascript" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">ES6+ Modern JavaScript Features</span>
+        </a>
+            <a href="/resources/javascript/asynchronous-javascript" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Asynchronous JavaScript - Callbacks, Promises, Async/Await</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/error-handling-and-debugging/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

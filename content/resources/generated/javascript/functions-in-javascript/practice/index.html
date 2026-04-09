@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Functions - Regular, Arrow, and Callback | JavaScript | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="57+ practice questions on Functions - Regular, Arrow, and Callback in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="functions - regular, arrow, and callback practice, javascript questions, javascript practice problems, functions - regular, arrow, and callback exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/functions-in-javascript/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/functions-in-javascript/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/functions-in-javascript/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/functions-in-javascript/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/functions-in-javascript/practice">
+    <meta property="og:title" content="Practice Questions - Functions - Regular, Arrow, and Callback | JavaScript | Modern Age Coders">
+    <meta property="og:description" content="57+ practice questions on Functions - Regular, Arrow, and Callback in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/functions-in-javascript/practice">
+    <meta name="twitter:title" content="Practice Questions - Functions - Regular, Arrow, and Callback | JavaScript | Modern Age Coders">
+    <meta name="twitter:description" content="57+ practice questions on Functions - Regular, Arrow, and Callback in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Functions - Regular, Arrow, and Callback",
+    "description": "57+ practice questions on Functions - Regular, Arrow, and Callback in JavaScript.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Functions - Regular, Arrow, and Callback"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/functions-in-javascript/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Functions - Regular, Arrow, and Callback",
+        "item": "https://learn.modernagecoders.com/resources/javascript/functions-in-javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/javascript/functions-in-javascript/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript/functions-in-javascript">Functions - Regular, Arrow, and Callback</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 7</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">57 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Functions - Regular, Arrow, and Callback</h1>
+            <a href="/resources/javascript/functions-in-javascript" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>function greet() {
+  console.log("Hello!");
+}
+
+greet();
+greet();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The function is called twice.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Hello!</code><br><code>Hello!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>function add(a, b) {
+  return a + b;
+}
+
+console.log(add(3, 7));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">The function returns the sum of a and b.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>function multiply(a, b) {
+  a * b;
+}
+
+console.log(multiply(4, 5));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Look carefully - is there a return statement?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>undefined</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const double = (n) => n * 2;
+
+console.log(double(6));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">This is an arrow function with implicit return.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>12</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>function greet(name = "Student") {
+  console.log("Hello, " + name);
+}
+
+greet("Diya");
+greet();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">The second call passes no argument, so the default value is used.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>Hello, Diya</code><br><code>Hello, Student</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>sayHello();
+
+function sayHello() {
+  console.log("Hello!");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Function declarations are hoisted.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Hello!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>function sum(...nums) {
+  let total = 0;
+  for (const n of nums) {
+    total += n;
+  }
+  return total;
+}
+
+console.log(sum(1, 2, 3, 4, 5));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Rest parameters collect all arguments into an array.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const greet = function(name) {
+  return "Hi, " + name;
+};
+
+console.log(greet("Arjun"));
+console.log(typeof greet);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">A function expression stored in a variable. What is the type of a function?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Hi, Arjun</code><br><code>function</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>function test(a, b, c) {
+  console.log(a, b, c);
+}
+
+test(1, 2);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">What happens when fewer arguments are passed than parameters?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>1 2 undefined</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const calc = (a, b, operation) => {
+  return operation(a, b);
+};
+
+const subtract = (x, y) => x - y;
+
+console.log(calc(10, 3, subtract));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">subtract is passed as a callback to calc.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>function outer() {
+  const x = 10;
+  function inner() {
+    console.log(x);
+  }
+  inner();
+}
+
+outer();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Inner functions can access variables from outer functions.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function createCounter() {
+  let count = 0;
+  return function() {
+    count++;
+    return count;
+  };
+}
+
+const counter = createCounter();
+console.log(counter());
+console.log(counter());
+console.log(counter());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">The returned function remembers the count variable from createCounter.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>1</code><br><code>2</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>(function(name) {
+  console.log("Hello, " + name);
+})("Priya");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">This is an IIFE with an argument.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>Hello, Priya</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const funcs = [];
+for (let i = 0; i < 3; i++) {
+  funcs.push(() => i);
+}
+
+console.log(funcs[0]());
+console.log(funcs[1]());
+console.log(funcs[2]());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">let creates a new variable for each iteration.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>0</code><br><code>1</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function apply(arr, fn) {
+  const result = [];
+  for (const item of arr) {
+    result.push(fn(item));
+  }
+  return result;
+}
+
+const nums = [1, 2, 3, 4];
+console.log(apply(nums, n => n * n));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">The callback squares each number. What does the result array look like?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>[1, 4, 9, 16]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between a parameter and an argument?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">One is in the definition, the other is in the call.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">A <strong>parameter</strong> is a variable name listed in the function definition (like a placeholder). An <strong>argument</strong> is the actual value you pass when calling the function. In <code>function greet(name) { }</code>, <code>name</code> is a parameter. In <code>greet("Aarav")</code>, <code>"Aarav"</code> is an argument.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is a callback function? Give a simple example of when you would use one.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">A function passed as an argument to another function.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">A callback is a function passed as an argument to another function. The receiving function calls it when it is ready. Example: <code>setTimeout(function() { console.log("Done"); }, 1000)</code>. Here the anonymous function is a callback that runs after 1 second. Callbacks are used in event handlers, timers, and array methods.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const square = n => n * n;
+const cube = n => n * n * n;
+
+function applyTo5(fn) {
+  return fn(5);
+}
+
+console.log(applyTo5(square));
+console.log(applyTo5(cube));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">applyTo5 calls whatever function you pass with the argument 5.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>25</code><br><code>125</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function makeGreeter(greeting) {
+  return (name) => greeting + ", " + name + "!";
+}
+
+const hello = makeGreeter("Hello");
+const namaste = makeGreeter("Namaste");
+
+console.log(hello("Vikram"));
+console.log(namaste("Ananya"));
+console.log(hello("Kavya"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Each call to makeGreeter returns a new function that remembers the greeting.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>Hello, Vikram!</code><br><code>Namaste, Ananya!</code><br><code>Hello, Kavya!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const isEven = n => n % 2 === 0;
+
+console.log(isEven(4));
+console.log(isEven(7));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">The modulo operator % gives the remainder. Even numbers have remainder 0 when divided by 2.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>true</code><br><code>false</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>function max(a, b) {
+  if (a > b) return a;
+  return b;
+}
+
+console.log(max(15, 8));
+console.log(max(3, 12));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">The function returns the larger of two numbers.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>15</code><br><code>12</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const lengths = ["cat", "elephant", "dog"].map(w => w.length);
+console.log(lengths);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">map transforms each element. The callback returns the length of each word.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>[3, 8, 3]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>function repeat(str, times) {
+  let result = "";
+  for (let i = 0; i < times; i++) {
+    result += str;
+  }
+  return result;
+}
+
+console.log(repeat("Ha", 3));
+console.log(repeat("*", 5));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">The function concatenates the string 'times' number of times.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>HaHaHa</code><br><code>*****</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const operations = {
+  add: (a, b) => a + b,
+  sub: (a, b) => a - b,
+  mul: (a, b) => a * b
+};
+
+console.log(operations.add(5, 3));
+console.log(operations.sub(10, 4));
+console.log(operations.mul(6, 7));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Functions stored as object properties (methods).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>8</code><br><code>6</code><br><code>42</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>function first(a) {
+  return function second(b) {
+    return a + b;
+  };
+}
+
+console.log(first(10)(20));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">first(10) returns a function. That function is immediately called with 20.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function factorial(n) {
+  if (n <= 1) return 1;
+  return n * factorial(n - 1);
+}
+
+console.log(factorial(5));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">This is a recursive function. It calls itself with a smaller number each time.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>120</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const pipeline = [n => n * 2, n => n + 10, n => n / 3];
+
+let value = 5;
+for (const fn of pipeline) {
+  value = fn(value);
+}
+console.log(value);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Apply each function in sequence: 5 -> *2 -> +10 -> /3.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>6.666666666666667</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function compose(f, g) {
+  return (x) => f(g(x));
+}
+
+const double = n => n * 2;
+const addOne = n => n + 1;
+
+const doubleThenAdd = compose(addOne, double);
+console.log(doubleThenAdd(5));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">compose returns a function that applies g first, then f.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>11</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>console.log("Start");
+setTimeout(() => console.log("Timer"), 0);
+console.log("End");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Even with 0ms delay, setTimeout is asynchronous.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>Start</code><br><code>End</code><br><code>Timer</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const sayName = (name) => {
+  console.log("Name: " + name);
+};
+
+sayName("Meera");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Arrow function with braces needs no return for console.log.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>Name: Meera</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is an IIFE and why would you use one?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">It stands for Immediately Invoked Function Expression.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">An IIFE is a function that is defined and immediately called: <code>(function() { })();</code>. It creates a private scope where variables do not pollute the global namespace. It was commonly used before <code>let</code> and <code>const</code> existed to prevent variable leaks. It is still useful for initialization code that should run once and for module patterns.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function once(fn) {
+  let called = false;
+  let result;
+  return function(...args) {
+    if (!called) {
+      called = true;
+      result = fn(...args);
+    }
+    return result;
+  };
+}
+
+const addOnce = once((a, b) => a + b);
+console.log(addOnce(3, 4));
+console.log(addOnce(10, 20));
+console.log(addOnce(100, 200));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">The function only executes the original function on the first call.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>7</code><br><code>7</code><br><code>7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const arr = [1, 2, 3];
+arr.forEach((val, idx) => {
+  console.log(idx + ": " + val);
+});</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">forEach passes each value and its index to the callback.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>0: 1</code><br><code>1: 2</code><br><code>2: 3</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What keyword is used to send a value back from a function?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> send</li><li><span class="mcq-option-label">B.</span> output</li><li><span class="mcq-option-label">C.</span> return</li><li><span class="mcq-option-label">D.</span> give</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>return</code> keyword sends a value back to the caller and stops the function. The other options are not valid JavaScript keywords for this purpose.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does a function return if there is no return statement?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> null</li><li><span class="mcq-option-label">B.</span> 0</li><li><span class="mcq-option-label">C.</span> undefined</li><li><span class="mcq-option-label">D.</span> An empty string</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> By default, JavaScript functions return <code>undefined</code> when there is no explicit return statement. This is different from null (option A), which must be returned explicitly.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which of these is an arrow function?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> function add(a, b) { return a + b; }</li><li><span class="mcq-option-label">B.</span> const add = (a, b) =&gt; a + b;</li><li><span class="mcq-option-label">C.</span> const add = new Function(&quot;a&quot;, &quot;b&quot;, &quot;return a + b&quot;);</li><li><span class="mcq-option-label">D.</span> add = def(a, b) { a + b }</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Arrow functions use the <code>=></code> syntax. Option A is a function declaration. Option C uses the Function constructor (rarely used). Option D is not valid JavaScript syntax.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is the term for a function passed as an argument to another function?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Nested function</li><li><span class="mcq-option-label">B.</span> Callback function</li><li><span class="mcq-option-label">C.</span> Arrow function</li><li><span class="mcq-option-label">D.</span> Static function</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> A function passed as an argument to another function is called a <strong>callback</strong>. The receiving function decides when and how to call it. Callbacks are fundamental to JavaScript.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which type of function is hoisted in JavaScript?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Arrow functions</li><li><span class="mcq-option-label">B.</span> Function expressions</li><li><span class="mcq-option-label">C.</span> Function declarations</li><li><span class="mcq-option-label">D.</span> All of the above</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> Only function declarations (using the <code>function</code> keyword as a statement) are hoisted. Function expressions and arrow functions stored in variables are NOT hoisted.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the output of: const f = (a, b = 5) => a + b; console.log(f(3));</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 3</li><li><span class="mcq-option-label">B.</span> 8</li><li><span class="mcq-option-label">C.</span> NaN</li><li><span class="mcq-option-label">D.</span> undefined</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> The parameter <code>b</code> has a default value of 5. Since only one argument (3) is passed, <code>a = 3</code> and <code>b = 5</code>. The function returns 3 + 5 = 8.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does rest parameter syntax look like?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> function f(args...)</li><li><span class="mcq-option-label">B.</span> function f(...args)</li><li><span class="mcq-option-label">C.</span> function f(args[])</li><li><span class="mcq-option-label">D.</span> function f(*args)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> Rest parameters use three dots BEFORE the parameter name: <code>...args</code>. This collects all remaining arguments into an array. Option D is Python syntax, not JavaScript.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What does setTimeout do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Pauses the entire program for the specified time</li><li><span class="mcq-option-label">B.</span> Runs a function once after a delay</li><li><span class="mcq-option-label">C.</span> Runs a function repeatedly at intervals</li><li><span class="mcq-option-label">D.</span> Sets a time limit on a function</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>setTimeout</code> schedules a function to run once after a specified delay. It does NOT pause the program (option A). Option C describes <code>setInterval</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is an IIFE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A function that runs in a loop</li><li><span class="mcq-option-label">B.</span> A function that calls itself recursively</li><li><span class="mcq-option-label">C.</span> A function that is defined and immediately called</li><li><span class="mcq-option-label">D.</span> A function with no parameters</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> IIFE stands for Immediately Invoked Function Expression. It is a function wrapped in parentheses and called right away: <code>(function() { })();</code>. It creates a private scope.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">In the arrow function const f = x => x * 2, why are there no parentheses around x?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Arrow functions never need parentheses</li><li><span class="mcq-option-label">B.</span> When there is exactly one parameter, parentheses are optional</li><li><span class="mcq-option-label">C.</span> It is a syntax error that happens to work</li><li><span class="mcq-option-label">D.</span> Parentheses are only needed for return values</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Arrow functions allow omitting parentheses when there is exactly one parameter. With zero parameters <code>() => ...</code> or multiple parameters <code>(a, b) => ...</code>, parentheses are required.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the output?<br><pre><code>const f = () => {};
+console.log(f());</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> {}</li><li><span class="mcq-option-label">B.</span> null</li><li><span class="mcq-option-label">C.</span> undefined</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> The arrow function has an empty body (the <code>{}</code> is the function block, not an object literal). With no return statement, it returns <code>undefined</code>. If you wanted to return an empty object, you would write <code>() => ({})</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is a higher-order function?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A function defined at the top of the file</li><li><span class="mcq-option-label">B.</span> A function that takes a function as argument or returns a function</li><li><span class="mcq-option-label">C.</span> A function with more than 5 parameters</li><li><span class="mcq-option-label">D.</span> A function that calls itself</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> A higher-order function either takes a function as an argument, returns a function, or both. Examples include <code>map</code>, <code>filter</code>, <code>setTimeout</code>, and <code>addEventListener</code>. Option D describes a recursive function.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What happens when you call a function with more arguments than it has parameters?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> JavaScript throws an error</li><li><span class="mcq-option-label">B.</span> The extra arguments are silently ignored</li><li><span class="mcq-option-label">C.</span> The function runs multiple times</li><li><span class="mcq-option-label">D.</span> The extra arguments are stored in a special array</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> Extra arguments are simply ignored. <code>function f(a) {}</code> called as <code>f(1, 2, 3)</code> just sets a=1 and ignores 2 and 3. No error is thrown. You can access all arguments using rest parameters (<code>...args</code>).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the difference between clearTimeout and clearInterval?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are identical - both work the same way</li><li><span class="mcq-option-label">B.</span> clearTimeout cancels setTimeout, clearInterval cancels setInterval</li><li><span class="mcq-option-label">C.</span> clearTimeout stops a loop, clearInterval stops a timer</li><li><span class="mcq-option-label">D.</span> clearTimeout is synchronous, clearInterval is asynchronous</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>clearTimeout</code> cancels a one-time timer set by <code>setTimeout</code>. <code>clearInterval</code> cancels a repeating timer set by <code>setInterval</code>. Each is paired with its corresponding timer function.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the output of: function f() {} console.log(typeof f);</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;object&quot;</li><li><span class="mcq-option-label">B.</span> &quot;function&quot;</li><li><span class="mcq-option-label">C.</span> &quot;undefined&quot;</li><li><span class="mcq-option-label">D.</span> &quot;string&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Functions in JavaScript have their own type. <code>typeof</code> a function returns the string "function". Even though functions are technically objects, typeof distinguishes them.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What does the ... (spread/rest) syntax do in a function parameter?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Spreads the function across multiple files</li><li><span class="mcq-option-label">B.</span> Collects remaining arguments into an array</li><li><span class="mcq-option-label">C.</span> Makes all parameters optional</li><li><span class="mcq-option-label">D.</span> Repeats the function call</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> When used in function parameters, <code>...</code> is the rest syntax. It collects all remaining arguments into an array. <code>function sum(...nums) {}</code> called as <code>sum(1,2,3)</code> makes nums = [1,2,3].</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What is the output?<br><pre><code>const f = (x) => x * 2;
+console.log(f(f(f(3))));</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 6</li><li><span class="mcq-option-label">B.</span> 12</li><li><span class="mcq-option-label">C.</span> 24</li><li><span class="mcq-option-label">D.</span> 48</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> Working from inside out: f(3) = 6, f(6) = 12, f(12) = 24. Each call doubles the input. Three doublings of 3: 3 * 2 * 2 * 2 = 24.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Temperature Converter</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write two functions: celsiusToFahrenheit(c) and fahrenheitToCelsius(f). Test them with the values 0, 100, and 72.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">0C = 32F
+100C = 212F
+72F = 22.22C</div>
+                </div><div class="challenge-constraints">Use arrow functions. Formula: F = C * 9/5 + 32 and C = (F - 32) * 5/9.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">const celsiusToFahrenheit = (c) =&gt; c * 9/5 + 32;
+const fahrenheitToCelsius = (f) =&gt; ((f - 32) * 5/9).toFixed(2);
+
+console.log(&quot;0C = &quot; + celsiusToFahrenheit(0) + &quot;F&quot;);
+console.log(&quot;100C = &quot; + celsiusToFahrenheit(100) + &quot;F&quot;);
+console.log(&quot;72F = &quot; + fahrenheitToCelsius(72) + &quot;C&quot;);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Write a Function That Changes a Button&#39;s Color</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function called changeColor that takes a button's id and a color, and changes the button's background color when called. Test it with two different buttons.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required - assumes HTML buttons exist)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">(Button with id &#39;btn1&#39; turns purple, button with id &#39;btn2&#39; turns teal)</div>
+                </div><div class="challenge-constraints">Use document.getElementById and style.backgroundColor.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">function changeColor(buttonId, color) {
+  const btn = document.getElementById(buttonId);
+  btn.style.backgroundColor = color;
+  btn.style.color = &quot;white&quot;;
+  btn.style.padding = &quot;10px 20px&quot;;
+  btn.style.border = &quot;none&quot;;
+  btn.style.borderRadius = &quot;6px&quot;;
+  btn.style.cursor = &quot;pointer&quot;;
+}
+
+// Usage:
+// changeColor(&quot;btn1&quot;, &quot;#a855f7&quot;);
+// changeColor(&quot;btn2&quot;, &quot;#06b6d4&quot;);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Array Processor with Callback</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Kavya wants to build a flexible array processor. Write a function processArray(arr, callback) that applies the callback to each element and returns a new array. Test it with doubling, squaring, and checking if numbers are even.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Doubled: [2, 4, 6, 8, 10]
+Squared: [1, 4, 9, 16, 25]
+Is Even: [false, true, false, true, false]</div>
+                </div><div class="challenge-constraints">Write your own processArray function. Do not use built-in map.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">function processArray(arr, callback) {
+  const result = [];
+  for (const item of arr) {
+    result.push(callback(item));
+  }
+  return result;
+}
+
+const nums = [1, 2, 3, 4, 5];
+console.log(&quot;Doubled:&quot;, processArray(nums, n =&gt; n * 2));
+console.log(&quot;Squared:&quot;, processArray(nums, n =&gt; n * n));
+console.log(&quot;Is Even:&quot;, processArray(nums, n =&gt; n % 2 === 0));</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Countdown Timer Function</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function countdown(seconds) that uses setInterval to count down from the given number to 0, printing each second. When it reaches 0, print "Time's up!" and stop the timer.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">countdown(5)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">5
+4
+3
+2
+1
+0
+Time&#39;s up!</div>
+                </div><div class="challenge-constraints">Use setInterval and clearInterval. The function should work for any number of seconds.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">function countdown(seconds) {
+  let remaining = seconds;
+  console.log(remaining);
+  const timer = setInterval(() =&gt; {
+    remaining--;
+    console.log(remaining);
+    if (remaining === 0) {
+      console.log(&quot;Time&#39;s up!&quot;);
+      clearInterval(timer);
+    }
+  }, 1000);
+}
+
+countdown(5);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Function Composition</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Arjun wants to chain functions. Write a function compose(...fns) that takes any number of functions and returns a new function that applies them right to left. Test with double, addTen, and half.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Result: 15 (5 -&gt; double -&gt; addTen -&gt; half = 5*2=10, 10+10=20, 20/2=15... wait let me recalculate: right to left means half first, then addTen, then double)
+compose(double, addTen, half)(20) =&gt; double(addTen(half(20))) =&gt; double(addTen(10)) =&gt; double(20) =&gt; 40</div>
+                </div><div class="challenge-constraints">Use rest parameters. The rightmost function runs first.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">function compose(...fns) {
+  return function(x) {
+    let result = x;
+    for (let i = fns.length - 1; i &gt;= 0; i--) {
+      result = fns[i](result);
+    }
+    return result;
+  };
+}
+
+const double = n =&gt; n * 2;
+const addTen = n =&gt; n + 10;
+const half = n =&gt; n / 2;
+
+const transform = compose(double, addTen, half);
+console.log(transform(20)); // half(20)=10, addTen(10)=20, double(20)=40 =&gt; 40</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Memoize Function</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Meera is learning about optimization. Write a function memoize(fn) that caches the results of expensive function calls. If the same arguments are passed again, return the cached result instead of recalculating.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">First call: (calculates) 25
+Second call: (from cache) 25
+New call: (calculates) 100</div>
+                </div><div class="challenge-constraints">Use an object or Map to store cached results. Handle single-argument functions.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">function memoize(fn) {
+  const cache = {};
+  return function(arg) {
+    if (arg in cache) {
+      console.log(&quot;(from cache)&quot;);
+      return cache[arg];
+    }
+    console.log(&quot;(calculating)&quot;);
+    const result = fn(arg);
+    cache[arg] = result;
+    return result;
+  };
+}
+
+const square = memoize(n =&gt; n * n);
+console.log(square(5));  // (calculating) 25
+console.log(square(5));  // (from cache) 25
+console.log(square(10)); // (calculating) 100</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Debounce Function</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a debounce function that delays calling the original function until a certain amount of time has passed since the last call. If the function is called again before the delay expires, reset the timer.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">(Only the last call executes after the delay period)</div>
+                </div><div class="challenge-constraints">Use setTimeout and clearTimeout. Return a new function.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">function debounce(fn, delay) {
+  let timerId;
+  return function(...args) {
+    clearTimeout(timerId);
+    timerId = setTimeout(() =&gt; {
+      fn(...args);
+    }, delay);
+  };
+}
+
+// Usage example:
+const logMessage = debounce((msg) =&gt; {
+  console.log(&quot;Debounced:&quot;, msg);
+}, 500);
+
+logMessage(&quot;first&quot;);  // cancelled
+logMessage(&quot;second&quot;); // cancelled
+logMessage(&quot;third&quot;);  // runs after 500ms</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/javascript/loops-in-javascript/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Loops (for, while, for...of, for...in)</span>
+        </a>
+            <a href="/resources/javascript/arrays-in-javascript/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Arrays and Array Methods</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/javascript/functions-in-javascript" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,676 @@
+{
+  "title": "Operators and Expressions",
+  "slug": "operators-and-expressions",
+  "language": "javascript",
+  "chapter": 4,
+  "difficulty": "Beginner",
+  "readingTime": "25 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 57,
+  "seo": {
+    "title": "JavaScript Operators and Expressions - == vs ===, Truthy Falsy, Ternary | Modern Age Coders",
+    "description": "Master JavaScript operators: arithmetic, comparison (== vs ===), logical, ternary, nullish coalescing, optional chaining, truthy/falsy values, and operator precedence. 57 practice questions.",
+    "keywords": "javascript operators, == vs === javascript, truthy falsy javascript, ternary operator javascript, nullish coalescing, optional chaining, javascript operator precedence, logical operators javascript"
+  },
+  "content": {
+    "what": "<h2>What Are Operators and Expressions?</h2><p>An <strong>operator</strong> is a symbol that tells JavaScript to perform a specific operation on values. You have already used operators: <code>+</code> to add numbers, <code>=</code> to assign values, and <code>===</code> to compare. An <strong>expression</strong> is any piece of code that produces a value: <code>5 + 3</code> is an expression (it produces 8), <code>age >= 18</code> is an expression (it produces true or false), and even just <code>42</code> by itself is an expression.</p><p>JavaScript has many operators grouped into categories: arithmetic, assignment, comparison, logical, and some modern ones like nullish coalescing (<code>??</code>) and optional chaining (<code>?.</code>). This chapter covers all of them, with special focus on the tricky parts that trip up beginners — especially <code>==</code> vs <code>===</code> and truthy/falsy values.</p>",
+    "why": "<h2>Why Do Operators Matter?</h2><h3>1. == vs === Is the Most Common JavaScript Bug</h3><p>The loose equality operator <code>==</code> performs type coercion, leading to surprises like <code>0 == ''</code> being true and <code>'' == false</code> being true. Understanding when and why this happens — and always using <code>===</code> instead — prevents an entire category of bugs.</p><h3>2. Truthy/Falsy Values Control Your If Statements</h3><p>In JavaScript, <code>if (value)</code> does not just check for <code>true</code> or <code>false</code>. It checks if the value is <strong>truthy</strong> or <strong>falsy</strong>. Since <code>0</code>, <code>\"\"</code>, <code>null</code>, <code>undefined</code>, and <code>NaN</code> are all falsy, your conditional logic can behave unexpectedly if you do not understand this concept.</p><h3>3. Modern Operators Save You Lines of Code</h3><p>The nullish coalescing operator (<code>??</code>) and optional chaining (<code>?.</code>) were added in recent JavaScript versions. They replace verbose <code>if</code> checks with elegant one-liners. Professional codebases use them constantly.</p><h3>4. Short-Circuit Evaluation Is Used Everywhere</h3><p><code>&&</code> and <code>||</code> do not just return true/false — they return actual values. This enables patterns like <code>name || \"Guest\"</code> (default value) and <code>isLoggedIn && showDashboard()</code> (conditional execution) that you will see in every JavaScript project.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Arithmetic Operators</h3><p>These perform mathematical operations:</p><table><tr><th>Operator</th><th>Name</th><th>Example</th><th>Result</th></tr><tr><td><code>+</code></td><td>Addition</td><td><code>10 + 3</code></td><td><code>13</code></td></tr><tr><td><code>-</code></td><td>Subtraction</td><td><code>10 - 3</code></td><td><code>7</code></td></tr><tr><td><code>*</code></td><td>Multiplication</td><td><code>10 * 3</code></td><td><code>30</code></td></tr><tr><td><code>/</code></td><td>Division</td><td><code>10 / 3</code></td><td><code>3.333...</code></td></tr><tr><td><code>%</code></td><td>Remainder (Modulo)</td><td><code>10 % 3</code></td><td><code>1</code></td></tr><tr><td><code>**</code></td><td>Exponentiation</td><td><code>2 ** 3</code></td><td><code>8</code></td></tr></table><p>Unlike Python, JavaScript has only one division operator (<code>/</code>) that always gives a decimal result. There is no separate floor division. Use <code>Math.floor()</code> if you need integer division.</p><p>The <code>+</code> operator is special: with two numbers it adds, but if either operand is a string, it concatenates. This dual behavior is the source of many bugs.</p><h3>2. Assignment Operators</h3><p>The basic assignment is <code>=</code>. Compound assignment operators combine an operation with assignment:</p><table><tr><th>Operator</th><th>Example</th><th>Same As</th></tr><tr><td><code>+=</code></td><td><code>x += 5</code></td><td><code>x = x + 5</code></td></tr><tr><td><code>-=</code></td><td><code>x -= 5</code></td><td><code>x = x - 5</code></td></tr><tr><td><code>*=</code></td><td><code>x *= 5</code></td><td><code>x = x * 5</code></td></tr><tr><td><code>/=</code></td><td><code>x /= 5</code></td><td><code>x = x / 5</code></td></tr><tr><td><code>%=</code></td><td><code>x %= 5</code></td><td><code>x = x % 5</code></td></tr><tr><td><code>**=</code></td><td><code>x **= 2</code></td><td><code>x = x ** 2</code></td></tr></table><p>Also: increment <code>x++</code> (same as <code>x = x + 1</code>) and decrement <code>x--</code> (same as <code>x = x - 1</code>). There is a difference between <code>x++</code> (returns old value, then increments) and <code>++x</code> (increments, then returns new value).</p><h3>3. Comparison Operators: == vs === (CRITICAL)</h3><p>This is one of the most important topics in all of JavaScript.</p><table><tr><th>Operator</th><th>Name</th><th>Example</th><th>Result</th></tr><tr><td><code>==</code></td><td>Loose equality</td><td><code>5 == '5'</code></td><td><code>true</code></td></tr><tr><td><code>===</code></td><td>Strict equality</td><td><code>5 === '5'</code></td><td><code>false</code></td></tr><tr><td><code>!=</code></td><td>Loose inequality</td><td><code>5 != '5'</code></td><td><code>false</code></td></tr><tr><td><code>!==</code></td><td>Strict inequality</td><td><code>5 !== '5'</code></td><td><code>true</code></td></tr><tr><td><code>&gt;</code></td><td>Greater than</td><td><code>5 &gt; 3</code></td><td><code>true</code></td></tr><tr><td><code>&lt;</code></td><td>Less than</td><td><code>5 &lt; 3</code></td><td><code>false</code></td></tr><tr><td><code>&gt;=</code></td><td>Greater or equal</td><td><code>5 &gt;= 5</code></td><td><code>true</code></td></tr><tr><td><code>&lt;=</code></td><td>Less or equal</td><td><code>5 &lt;= 3</code></td><td><code>false</code></td></tr></table><p><code>==</code> (loose equality) converts types before comparing. <code>===</code> (strict equality) checks both value AND type. The rule is simple: <strong>always use <code>===</code> and <code>!==</code></strong>. Never use <code>==</code> unless you specifically want type coercion.</p><h3>4. Logical Operators and Short-Circuit Evaluation</h3><table><tr><th>Operator</th><th>Name</th><th>Returns</th></tr><tr><td><code>&&</code></td><td>Logical AND</td><td>First falsy value, or last value if all truthy</td></tr><tr><td><code>||</code></td><td>Logical OR</td><td>First truthy value, or last value if all falsy</td></tr><tr><td><code>!</code></td><td>Logical NOT</td><td>Opposite boolean value</td></tr></table><p>The key insight: <code>&&</code> and <code>||</code> do not always return <code>true</code> or <code>false</code> — they return one of the actual operand values. This enables powerful patterns:</p><pre><code>// Default values with ||\nlet name = userInput || \"Guest\";  // if userInput is falsy, use \"Guest\"\n\n// Conditional execution with &&\nisLoggedIn && showDashboard();  // only runs showDashboard() if isLoggedIn is truthy\n\n// Double NOT for explicit boolean conversion\nlet exists = !!value;  // converts any value to true/false</code></pre><h3>5. Ternary Operator</h3><p>The ternary operator is a compact if-else expression:</p><pre><code>condition ? valueIfTrue : valueIfFalse</code></pre><p>Example: <code>let status = age >= 18 ? \"adult\" : \"minor\";</code></p><p>This is equivalent to an if-else but in a single expression, which makes it useful for assigning values or embedding logic in template literals.</p><h3>6. Nullish Coalescing Operator (??)</h3><p>The <code>??</code> operator returns the right side only when the left side is <code>null</code> or <code>undefined</code>. It is different from <code>||</code> which returns the right side for ANY falsy value.</p><pre><code>let count = 0;\nconsole.log(count || 10);   // 10 (0 is falsy, so || gives default)\nconsole.log(count ?? 10);   // 0 (?? only checks for null/undefined)</code></pre><p>Use <code>??</code> when <code>0</code>, <code>\"\"</code>, or <code>false</code> are valid values that you want to keep.</p><h3>7. Optional Chaining (?.)</h3><p>The <code>?.</code> operator lets you safely access nested object properties without checking each level for null/undefined.</p><pre><code>let user = { profile: { name: \"Priya\" } };\nconsole.log(user.profile.name);     // \"Priya\"\nconsole.log(user.address?.city);    // undefined (no error!)\nconsole.log(user.address.city);     // TypeError! (without ?.)</code></pre><h3>8. Truthy and Falsy Values</h3><p>In JavaScript, every value is either <strong>truthy</strong> (treated as true in boolean context) or <strong>falsy</strong> (treated as false). The six falsy values are:</p><ul><li><code>false</code></li><li><code>0</code> (and <code>-0</code>)</li><li><code>\"\"</code> (empty string)</li><li><code>null</code></li><li><code>undefined</code></li><li><code>NaN</code></li></ul><p><strong>Everything else is truthy</strong>, including: <code>\"0\"</code>, <code>\" \"</code>, <code>[]</code>, <code>{}</code>, <code>\"false\"</code>, and any non-zero number.</p><h3>9. Operator Precedence</h3><p>When multiple operators appear in one expression, JavaScript follows this priority (highest to lowest):</p><ol><li><code>()</code> — Parentheses</li><li><code>!</code>, <code>++</code>, <code>--</code>, unary <code>+</code>/<code>-</code>, <code>typeof</code> — Unary operators</li><li><code>**</code> — Exponentiation</li><li><code>*</code>, <code>/</code>, <code>%</code> — Multiplication, division, remainder</li><li><code>+</code>, <code>-</code> — Addition, subtraction</li><li><code>&lt;</code>, <code>&gt;</code>, <code>&lt;=</code>, <code>&gt;=</code> — Comparison</li><li><code>===</code>, <code>!==</code>, <code>==</code>, <code>!=</code> — Equality</li><li><code>&&</code> — Logical AND</li><li><code>||</code> — Logical OR</li><li><code>??</code> — Nullish coalescing</li><li><code>? :</code> — Ternary</li><li><code>=</code>, <code>+=</code>, <code>-=</code>, etc. — Assignment</li></ol><p>When in doubt, use parentheses to make your intent clear.</p>",
+    "codeExamples": [
+      {
+        "title": "Arithmetic and the + String Trap",
+        "code": "// Normal arithmetic\nconsole.log(10 + 5);    // 15\nconsole.log(10 - 5);    // 5\nconsole.log(10 * 5);    // 50\nconsole.log(10 / 3);    // 3.3333...\nconsole.log(10 % 3);    // 1 (remainder)\nconsole.log(2 ** 10);   // 1024\n\n// The + trap with strings\nconsole.log(5 + 3);         // 8 (number + number = addition)\nconsole.log(\"5\" + 3);       // \"53\" (string + number = concatenation)\nconsole.log(5 + \"3\");       // \"53\" (number + string = concatenation)\nconsole.log(5 + 3 + \"px\"); // \"8px\" (5+3=8, then 8+\"px\"=\"8px\")\nconsole.log(\"$\" + 5 + 3);  // \"$53\" (\"$\"+5=\"$5\", then \"$5\"+3=\"$53\")",
+        "language": "javascript",
+        "explanation": "Arithmetic operators work as expected with numbers. The danger is <code>+</code>: if either side is a string, JavaScript switches to concatenation. Notice how <code>5 + 3 + \"px\"</code> gives <code>\"8px\"</code> (addition first, then concatenation), but <code>\"$\" + 5 + 3</code> gives <code>\"$53\"</code> (concatenation from the start). The order and types matter.",
+        "output": "15\n5\n50\n3.3333333333333335\n1\n1024\n8\n53\n53\n8px\n$53"
+      },
+      {
+        "title": "== vs === (The Most Important Comparison)",
+        "code": "// Loose equality (==) converts types\nconsole.log(5 == \"5\");       // true (string converted to number)\nconsole.log(0 == false);     // true (false converted to 0)\nconsole.log(\"\" == false);    // true (both become 0)\nconsole.log(null == undefined); // true (special rule)\nconsole.log(0 == \"\");        // true (empty string becomes 0)\n\n// Strict equality (===) checks type AND value\nconsole.log(5 === \"5\");      // false (number vs string)\nconsole.log(0 === false);    // false (number vs boolean)\nconsole.log(\"\" === false);   // false (string vs boolean)\nconsole.log(null === undefined); // false (different types)\nconsole.log(0 === \"\");       // false (number vs string)\n\n// The confusing matrix with ==\nconsole.log(\"0\" == false);   // true\nconsole.log(\"0\" == 0);       // true\nconsole.log(false == 0);     // true\nconsole.log(\"0\" == \"\");      // false! (this breaks the pattern)",
+        "language": "javascript",
+        "explanation": "<code>==</code> tries to convert operands to the same type before comparing, which leads to confusing results. <code>===</code> never converts types — if the types are different, it immediately returns false. The last line shows that <code>==</code> is not even consistent: <code>\"0\" == false</code> is true and <code>\"\" == false</code> is true, but <code>\"0\" == \"\"</code> is false. This inconsistency is why you should <strong>always use ===</strong>.",
+        "output": "true\ntrue\ntrue\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\nfalse\ntrue\ntrue\ntrue\nfalse"
+      },
+      {
+        "title": "Logical Operators and Short-Circuit Evaluation",
+        "code": "// && returns first falsy value, or last value if all truthy\nconsole.log(\"Aarav\" && \"Priya\");    // \"Priya\" (both truthy, returns last)\nconsole.log(0 && \"Priya\");          // 0 (first is falsy, returns it)\nconsole.log(\"Aarav\" && 0 && \"Hi\");  // 0 (stops at first falsy)\n\n// || returns first truthy value, or last value if all falsy\nconsole.log(\"\" || \"Guest\");          // \"Guest\" (first is falsy, tries second)\nconsole.log(\"Rohan\" || \"Guest\");    // \"Rohan\" (first is truthy, returns it)\nconsole.log(0 || \"\" || \"Default\");  // \"Default\" (first truthy value)\nconsole.log(0 || \"\" || null);       // null (all falsy, returns last)\n\n// Practical patterns\nlet username = \"\" || \"Anonymous\";     // \"Anonymous\"\nlet score = 0 || 100;                // 100 (BUG! 0 was a valid score)\n\n// ! (NOT) converts to boolean and flips\nconsole.log(!true);     // false\nconsole.log(!0);        // true (0 is falsy)\nconsole.log(!\"hello\");  // false (non-empty string is truthy)\nconsole.log(!!\"hello\"); // true (double NOT = convert to boolean)",
+        "language": "javascript",
+        "explanation": "<code>&&</code> stops at the first falsy value (short-circuits). <code>||</code> stops at the first truthy value. This enables default value patterns: <code>name || \"Guest\"</code> provides a fallback. But be careful: <code>0 || 100</code> gives 100 even though 0 might be a valid value. For that case, use <code>??</code> instead. Double NOT (<code>!!</code>) is a common way to convert any value to a boolean.",
+        "output": "Priya\n0\n0\nGuest\nRohan\nDefault\nnull\nfalse\ntrue\nfalse\ntrue"
+      },
+      {
+        "title": "Ternary Operator and Practical Uses",
+        "code": "let age = 16;\n\n// Basic ternary\nlet status = age >= 18 ? \"adult\" : \"minor\";\nconsole.log(status);  // \"minor\"\n\n// Ternary in template literals\nconsole.log(`Vikram is ${age >= 18 ? 'an adult' : 'a minor'}`);\n\n// Ternary for setting classes (common in web dev)\nlet theme = \"dark\";\nlet className = theme === \"dark\" ? \"bg-dark text-white\" : \"bg-light text-dark\";\nconsole.log(className);\n\n// Nested ternary (readable but do not overdo it)\nlet score = 85;\nlet grade = score >= 90 ? \"A\" :\n            score >= 80 ? \"B\" :\n            score >= 70 ? \"C\" :\n            score >= 60 ? \"D\" : \"F\";\nconsole.log(`Score: ${score}, Grade: ${grade}`);\n\n// Using ternary in HTML updates\n// document.getElementById(\"status\").textContent = isOnline ? \"Online\" : \"Offline\";",
+        "language": "javascript",
+        "explanation": "The ternary operator <code>condition ? ifTrue : ifFalse</code> is a compact if-else. It works as an expression (returns a value), so you can use it inside assignments, template literals, and function arguments. Nested ternaries work for multiple conditions like grading, but if it gets too complex, switch to if-else for readability.",
+        "output": "minor\nVikram is a minor\nbg-dark text-white\nScore: 85, Grade: B"
+      },
+      {
+        "title": "Nullish Coalescing (??) vs Logical OR (||)",
+        "code": "// || treats ALL falsy values as \"missing\"\nlet count1 = 0;\nconsole.log(count1 || 10);  // 10 (BUG: 0 is valid but treated as falsy)\n\nlet text1 = \"\";\nconsole.log(text1 || \"default\");  // \"default\" (BUG: empty string might be valid)\n\n// ?? only treats null and undefined as \"missing\"\nlet count2 = 0;\nconsole.log(count2 ?? 10);  // 0 (correct: 0 is kept)\n\nlet text2 = \"\";\nconsole.log(text2 ?? \"default\");  // \"\" (correct: empty string is kept)\n\nlet data = null;\nconsole.log(data ?? \"fallback\");  // \"fallback\" (null triggers ??)\n\nlet nothing = undefined;\nconsole.log(nothing ?? \"fallback\");  // \"fallback\" (undefined triggers ??)\n\n// Real-world example\nlet settings = { volume: 0, name: \"\" };\nlet volume = settings.volume ?? 50;  // 0 (preserves the setting)\nlet name = settings.name ?? \"User\";  // \"\" (preserves empty name)\nconsole.log(volume, name);",
+        "language": "javascript",
+        "explanation": "<code>||</code> returns the right side for ANY falsy value (0, \"\", null, undefined, NaN, false). <code>??</code> returns the right side ONLY for <code>null</code> or <code>undefined</code>. This distinction is crucial: if a user intentionally sets volume to 0 or clears their name to an empty string, <code>||</code> would override their choice, but <code>??</code> would respect it.",
+        "output": "10\ndefault\n0\n\nfallback\nfallback\n0 "
+      },
+      {
+        "title": "Optional Chaining (?.) for Safe Property Access",
+        "code": "let student = {\n  name: \"Ananya\",\n  address: {\n    city: \"Mumbai\"\n  }\n};\n\n// Normal access (works fine)\nconsole.log(student.name);           // \"Ananya\"\nconsole.log(student.address.city);   // \"Mumbai\"\n\n// Accessing something that does not exist\n// console.log(student.phone.number);  // TypeError: Cannot read property 'number' of undefined\n\n// Safe access with ?.\nconsole.log(student.phone?.number);   // undefined (no error!)\nconsole.log(student.address?.city);   // \"Mumbai\" (works normally when path exists)\nconsole.log(student.grades?.math);    // undefined\n\n// Works with methods too\nlet arr = [1, 2, 3];\nconsole.log(arr.find?.(x => x > 2));  // 3\n\nlet obj = {};\nconsole.log(obj.greet?.());           // undefined (method does not exist)\n\n// Combining with ??\nlet city = student.phone?.city ?? \"Unknown city\";\nconsole.log(city);  // \"Unknown city\"",
+        "language": "javascript",
+        "explanation": "Without <code>?.</code>, accessing a property on <code>undefined</code> or <code>null</code> crashes your program. <code>?.</code> checks if the left side is null/undefined, and if so, returns <code>undefined</code> instead of throwing an error. You can chain it: <code>user?.address?.city?.zipCode</code>. Combining with <code>??</code> lets you provide default values: <code>user?.name ?? \"Anonymous\"</code>.",
+        "output": "Ananya\nMumbai\nundefined\nMumbai\nundefined\n3\nundefined\nUnknown city"
+      },
+      {
+        "title": "Truthy/Falsy Values: Complete Guide",
+        "code": "// All 6 falsy values\nconsole.log(\"=== Falsy values ===\");\nconsole.log(Boolean(false));      // false\nconsole.log(Boolean(0));          // false\nconsole.log(Boolean(-0));         // false\nconsole.log(Boolean(\"\"));         // false\nconsole.log(Boolean(null));       // false\nconsole.log(Boolean(undefined));  // false\nconsole.log(Boolean(NaN));        // false\n\n// Surprising truthy values\nconsole.log(\"\\n=== Truthy (surprising) ===\");\nconsole.log(Boolean(\"0\"));        // true! (non-empty string)\nconsole.log(Boolean(\" \"));        // true! (space is not empty)\nconsole.log(Boolean(\"false\"));    // true! (the word false is a non-empty string)\nconsole.log(Boolean([]));         // true! (empty array)\nconsole.log(Boolean({}));         // true! (empty object)\nconsole.log(Boolean(-1));         // true! (any non-zero number)\nconsole.log(Boolean(Infinity));   // true!\n\n// Practical: checking if a value exists\nlet input = \"\";\nif (input) {\n  console.log(\"Has value\");\n} else {\n  console.log(\"Empty or missing\");  // This runs (empty string is falsy)\n}",
+        "language": "javascript",
+        "explanation": "Memorize the six falsy values: <code>false</code>, <code>0</code>, <code>\"\"</code>, <code>null</code>, <code>undefined</code>, <code>NaN</code>. Everything else is truthy — including things that look empty like <code>\"0\"</code>, <code>[]</code>, and <code>{}</code>. This matters because <code>if (value)</code> checks truthiness, not just <code>true/false</code>.",
+        "output": "=== Falsy values ===\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\nfalse\n\n=== Truthy (surprising) ===\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\ntrue\nEmpty or missing"
+      },
+      {
+        "title": "Increment, Decrement, and Prefix vs Postfix",
+        "code": "// Basic increment and decrement\nlet a = 5;\na++;  // a is now 6\nconsole.log(a);  // 6\na--;  // a is now 5 again\nconsole.log(a);  // 5\n\n// Postfix (x++): returns OLD value, then increments\nlet x = 10;\nlet y = x++;   // y gets 10 (old value), THEN x becomes 11\nconsole.log(\"x:\", x, \"y:\", y);  // x: 11, y: 10\n\n// Prefix (++x): increments FIRST, then returns NEW value\nlet m = 10;\nlet n = ++m;   // m becomes 11 FIRST, then n gets 11\nconsole.log(\"m:\", m, \"n:\", n);  // m: 11, n: 11\n\n// This matters in expressions\nlet count = 0;\nconsole.log(count++);  // 0 (returns old value)\nconsole.log(count);    // 1 (incremented after)\nconsole.log(++count);  // 2 (increments first, returns new value)",
+        "language": "javascript",
+        "explanation": "With <code>x++</code> (postfix), the old value is used in the expression, then x is incremented. With <code>++x</code> (prefix), x is incremented first, then the new value is used. This difference matters when the result is assigned to another variable or used in an expression.",
+        "output": "6\n5\nx: 11 y: 10\nm: 11 n: 11\n0\n1\n2"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using == Instead of ===",
+        "wrongCode": "let input = \"0\";\nif (input == false) {\n  console.log(\"Input is false\");  // This runs! \"0\" == false is true\n}",
+        "error": "No error, but unexpected behavior. '0' is a valid input that should not be treated as false.",
+        "correctCode": "let input = \"0\";\nif (input === false) {\n  console.log(\"Input is false\");  // Does NOT run (correct)\n}\nif (input === \"\") {\n  console.log(\"Input is empty\");  // Does NOT run (correct)\n}",
+        "explanation": "<code>==</code> converts types: <code>\"0\"</code> becomes 0, <code>false</code> becomes 0, and <code>0 == 0</code> is true. With <code>===</code>, <code>\"0\"</code> (string) and <code>false</code> (boolean) are different types, so the comparison is immediately false. Always use <code>===</code>."
+      },
+      {
+        "title": "Using || for Default Values When 0 Is Valid",
+        "wrongCode": "let volume = 0;  // User set volume to 0 (muted)\nlet actualVolume = volume || 50;\nconsole.log(actualVolume);  // 50 (BUG: user wanted 0!)",
+        "error": "No error, but the user's intended value of 0 is overwritten because 0 is falsy.",
+        "correctCode": "let volume = 0;\nlet actualVolume = volume ?? 50;\nconsole.log(actualVolume);  // 0 (correct: ?? only checks null/undefined)",
+        "explanation": "<code>||</code> returns the right side for any falsy value, including <code>0</code>, <code>\"\"</code>, and <code>false</code>. <code>??</code> only returns the right side for <code>null</code> or <code>undefined</code>. When 0, empty string, or false are valid values, use <code>??</code> instead of <code>||</code>."
+      },
+      {
+        "title": "Confusing = with === in Conditions",
+        "wrongCode": "let score = 100;\nif (score = 50) {  // ASSIGNMENT, not comparison!\n  console.log(\"Score is 50\");  // Always runs!\n}\nconsole.log(score);  // 50 (score got changed!)",
+        "error": "No error. score is reassigned to 50, and since 50 is truthy, the if block runs.",
+        "correctCode": "let score = 100;\nif (score === 50) {  // COMPARISON\n  console.log(\"Score is 50\");  // Does not run (correct)\n}\nconsole.log(score);  // 100 (unchanged)",
+        "explanation": "<code>=</code> is assignment (stores a value). <code>===</code> is comparison (checks equality). In the wrong code, <code>score = 50</code> assigns 50 to score and the if evaluates 50, which is truthy. This is a very common bug that is hard to spot."
+      },
+      {
+        "title": "Postfix vs Prefix Confusion",
+        "wrongCode": "let count = 5;\nlet result = count++;\nconsole.log(result);  // 5 (expected 6!)",
+        "error": "No error, but result is 5 instead of 6.",
+        "correctCode": "let count = 5;\nlet result = ++count;\nconsole.log(result);  // 6 (prefix increments first)",
+        "explanation": "With postfix <code>count++</code>, the old value (5) is returned first, then count is incremented to 6. With prefix <code>++count</code>, count is incremented to 6 first, then the new value (6) is returned. If you need the updated value immediately, use prefix."
+      }
+    ],
+    "summary": [
+      "Arithmetic operators: +, -, *, /, % (remainder), ** (power). The + operator concatenates if either side is a string.",
+      "Assignment operators: =, +=, -=, *=, /=, %=, **=. x += 5 is shorthand for x = x + 5.",
+      "CRITICAL: Always use === (strict equality) instead of == (loose equality). == performs type coercion that leads to confusing results.",
+      "Logical AND (&&) returns the first falsy value or the last value. Logical OR (||) returns the first truthy value or the last value.",
+      "Short-circuit: || is used for default values (name || 'Guest'). && is used for conditional execution (isValid && submit()).",
+      "The ternary operator (condition ? a : b) is a compact if-else expression. Use it for simple conditions, not complex logic.",
+      "Nullish coalescing (??) returns the right side only for null/undefined. Use it instead of || when 0, '', or false are valid values.",
+      "Optional chaining (?.) safely accesses properties that might not exist, returning undefined instead of throwing an error.",
+      "The 6 falsy values: false, 0, '' (empty string), null, undefined, NaN. Everything else is truthy (including '0', [], {}).",
+      "Operator precedence: () > unary > ** > */% > +- > comparisons > equality > && > || > ?? > ternary > assignment.",
+      "Prefix ++x increments first then returns. Postfix x++ returns first then increments. The difference matters in assignments."
+    ]
+  },
+  "relatedTopics": ["variables-and-data-types", "conditional-statements"],
+  "practice": {
+    "totalQuestions": 57,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(10 + 5);\nconsole.log(10 - 5);\nconsole.log(10 * 5);\nconsole.log(10 / 3);</code></pre>",
+        "hint": "Basic arithmetic. Division returns a decimal.",
+        "answer": "<code>15</code><br><code>5</code><br><code>50</code><br><code>3.3333333333333335</code>",
+        "explanation": "Addition, subtraction, and multiplication are straightforward. JavaScript division always returns a floating-point number — there is no integer division operator."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(10 % 3);\nconsole.log(15 % 5);\nconsole.log(7 % 2);</code></pre>",
+        "hint": "% returns the remainder after division.",
+        "answer": "<code>1</code><br><code>0</code><br><code>1</code>",
+        "explanation": "<code>10 % 3</code>: 10 / 3 = 3 remainder 1. <code>15 % 5</code>: 15 / 5 = 3 remainder 0 (evenly divisible). <code>7 % 2</code>: 7 / 2 = 3 remainder 1. The % operator is useful for checking if a number is even (<code>n % 2 === 0</code>)."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(5 == \"5\");\nconsole.log(5 === \"5\");</code></pre>",
+        "hint": "== converts types, === does not.",
+        "answer": "<code>true</code><br><code>false</code>",
+        "explanation": "<code>==</code> converts <code>\"5\"</code> to number 5, so <code>5 == 5</code> is true. <code>===</code> checks type AND value: number vs string, so it is false."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(0 == false);\nconsole.log(0 === false);\nconsole.log(\"\" == false);\nconsole.log(\"\" === false);</code></pre>",
+        "hint": "== converts types. false becomes 0, '' becomes 0.",
+        "answer": "<code>true</code><br><code>false</code><br><code>true</code><br><code>false</code>",
+        "explanation": "With ==: <code>0 == false</code> converts false to 0, true. <code>\"\" == false</code> converts both to 0, true. With ===: different types are immediately false."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(\"Aarav\" && \"Priya\");\nconsole.log(0 && \"Priya\");\nconsole.log(\"\" || \"Guest\");\nconsole.log(\"Rohan\" || \"Guest\");</code></pre>",
+        "hint": "&& returns first falsy or last value. || returns first truthy or last value.",
+        "answer": "<code>Priya</code><br><code>0</code><br><code>Guest</code><br><code>Rohan</code>",
+        "explanation": "<code>\"Aarav\" && \"Priya\"</code>: both truthy, returns last (\"Priya\"). <code>0 && \"Priya\"</code>: 0 is falsy, returns 0 immediately. <code>\"\" || \"Guest\"</code>: \"\" is falsy, tries next, returns \"Guest\". <code>\"Rohan\" || \"Guest\"</code>: \"Rohan\" is truthy, returns it."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let age = 15;\nlet result = age >= 18 ? \"adult\" : \"minor\";\nconsole.log(result);</code></pre>",
+        "hint": "condition ? valueIfTrue : valueIfFalse",
+        "answer": "<code>minor</code>",
+        "explanation": "<code>15 >= 18</code> is false, so the ternary returns the value after <code>:</code>, which is <code>\"minor\"</code>."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let count = 0;\nconsole.log(count || 10);\nconsole.log(count ?? 10);</code></pre>",
+        "hint": "|| checks for falsy. ?? checks only for null/undefined.",
+        "answer": "<code>10</code><br><code>0</code>",
+        "explanation": "<code>0 || 10</code>: 0 is falsy, so || returns 10. <code>0 ?? 10</code>: 0 is not null or undefined, so ?? returns 0. This is the key difference between || and ??."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let user = { name: \"Neha\" };\nconsole.log(user.name);\nconsole.log(user.address?.city);\nconsole.log(user.phone?.number ?? \"No phone\");</code></pre>",
+        "hint": "?. returns undefined if the property does not exist. ?? provides a fallback.",
+        "answer": "<code>Neha</code><br><code>undefined</code><br><code>No phone</code>",
+        "explanation": "<code>user.name</code> exists: \"Neha\". <code>user.address</code> is undefined, so <code>user.address?.city</code> returns undefined (no error). <code>user.phone?.number</code> is undefined, and <code>undefined ?? \"No phone\"</code> returns \"No phone\"."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let x = 5;\nconsole.log(x++);\nconsole.log(x);\nconsole.log(++x);\nconsole.log(x);</code></pre>",
+        "hint": "x++ returns old value then increments. ++x increments then returns new value.",
+        "answer": "<code>5</code><br><code>6</code><br><code>7</code><br><code>7</code>",
+        "explanation": "<code>x++</code> returns 5 (old value), then x becomes 6. <code>x</code> is now 6. <code>++x</code> increments x to 7, then returns 7. <code>x</code> is still 7."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(\"0\" == false);\nconsole.log(\"0\" == \"\");\nconsole.log(false == \"\");\nconsole.log(null == 0);\nconsole.log(undefined == 0);</code></pre>",
+        "hint": "== is inconsistent. null only equals undefined with ==, not 0.",
+        "answer": "<code>true</code><br><code>false</code><br><code>true</code><br><code>false</code><br><code>false</code>",
+        "explanation": "<code>\"0\" == false</code>: both convert to 0, true. <code>\"0\" == \"\"</code>: both strings, different values, false. <code>false == \"\"</code>: both convert to 0, true. <code>null == 0</code>: null only equals undefined, not 0, false. <code>undefined == 0</code>: same rule, false. This inconsistency is why === is preferred."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(true + true + true);\nconsole.log(true + \"hello\");\nconsole.log([] + {});\nconsole.log({} + []);</code></pre>",
+        "hint": "true is 1 in numeric context. [] becomes '' as a string. {} is '[object Object]'.",
+        "answer": "<code>3</code><br><code>truehello</code><br><code>[object Object]</code><br><code>[object Object]</code>",
+        "explanation": "<code>true + true + true</code>: 1+1+1 = 3. <code>true + \"hello\"</code>: string wins, \"truehello\". <code>[] + {}</code>: [] becomes \"\", {} becomes \"[object Object]\", concatenation gives \"[object Object]\". In a browser console, <code>{} + []</code> might show <code>0</code> because {} is treated as an empty block."
+      },
+      {
+        "id": "ts-12",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Vikram wrote a function to greet users but it greets everyone as 'Guest' even when they provide a name. Find the bug:<br><pre><code>function greet(name) {\n  let displayName = name || \"Guest\";\n  console.log(`Hello, ${displayName}!`);\n}\ngreet(\"\");  // User cleared their name intentionally</code></pre>",
+        "hint": "What happens when name is an empty string with ||?",
+        "answer": "Use <code>??</code> instead of <code>||</code>: <code>let displayName = name ?? \"Guest\";</code>",
+        "explanation": "Empty string <code>\"\"</code> is falsy, so <code>\"\" || \"Guest\"</code> returns \"Guest\". If the user intentionally cleared their name, we should keep the empty string. <code>\"\" ?? \"Guest\"</code> returns <code>\"\"</code> because <code>??</code> only triggers on null/undefined."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(2 + 3 * 4);\nconsole.log((2 + 3) * 4);\nconsole.log(2 ** 3 ** 2);\nconsole.log(!true || false && true);</code></pre>",
+        "hint": "PEMDAS for math. Precedence: ! > && > || for logical.",
+        "answer": "<code>14</code><br><code>20</code><br><code>512</code><br><code>false</code>",
+        "explanation": "Line 1: <code>3 * 4 = 12</code>, then <code>2 + 12 = 14</code>. Line 2: <code>(2+3) = 5</code>, then <code>5 * 4 = 20</code>. Line 3: <code>**</code> is right-associative, so <code>3**2 = 9</code>, then <code>2**9 = 512</code>. Line 4: <code>!true = false</code>, <code>false && true = false</code>, <code>false || false = false</code>."
+      },
+      {
+        "id": "ts-14",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write code that checks if a number is even or odd using the % operator. Test with the number 17.",
+        "hint": "A number is even if n % 2 === 0.",
+        "answer": "<pre><code>let n = 17;\nlet result = n % 2 === 0 ? \"even\" : \"odd\";\nconsole.log(`${n} is ${result}`);</code></pre>\nOutput: 17 is odd",
+        "explanation": "<code>17 % 2</code> equals 1 (not 0), so it is odd. The ternary operator assigns the correct string."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let a = 1;\nlet b = 2;\nconsole.log(a || b);\nconsole.log(a && b);\nconsole.log(!a);\nconsole.log(!!a);</code></pre>",
+        "hint": "|| returns first truthy value. && returns first falsy or last value. ! converts to boolean.",
+        "answer": "<code>1</code><br><code>2</code><br><code>false</code><br><code>true</code>",
+        "explanation": "<code>1 || 2</code>: 1 is truthy, returns 1. <code>1 && 2</code>: 1 is truthy, checks next, 2 is truthy, returns 2. <code>!1</code>: 1 is truthy, so !truthy = false. <code>!!1</code>: double NOT, converts to boolean true."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>let x = 10;\nx += 5;\nx *= 2;\nx -= 3;\nconsole.log(x);</code></pre>",
+        "hint": "Trace each step: 10, then +5, then *2, then -3.",
+        "answer": "<code>27</code>",
+        "explanation": "<code>x = 10</code>. <code>x += 5</code>: x = 15. <code>x *= 2</code>: x = 30. <code>x -= 3</code>: x = 27."
+      },
+      {
+        "id": "ts-17",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a one-liner using the ternary operator that assigns 'Pass' to a variable if marks >= 40, otherwise 'Fail'. Test with marks = 35.",
+        "hint": "Use condition ? 'Pass' : 'Fail'.",
+        "answer": "<pre><code>let marks = 35;\nlet result = marks >= 40 ? \"Pass\" : \"Fail\";\nconsole.log(`Marks: ${marks}, Result: ${result}`);</code></pre>\nOutput: Marks: 35, Result: Fail",
+        "explanation": "<code>35 >= 40</code> is false, so the ternary returns \"Fail\"."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(false || 0 || \"\" || null || undefined || \"found it\" || true);</code></pre>",
+        "hint": "|| keeps going until it finds a truthy value.",
+        "answer": "<code>found it</code>",
+        "explanation": "<code>||</code> checks each value left to right: false (falsy), 0 (falsy), \"\" (falsy), null (falsy), undefined (falsy), \"found it\" (truthy — stops here). The string \"found it\" is returned."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let score = 85;\nlet grade = score >= 90 ? \"A\" :\n            score >= 80 ? \"B\" :\n            score >= 70 ? \"C\" : \"F\";\nconsole.log(grade);</code></pre>",
+        "hint": "Nested ternaries evaluate from left to right.",
+        "answer": "<code>B</code>",
+        "explanation": "<code>85 >= 90</code> is false, so check next. <code>85 >= 80</code> is true, so return \"B\". The remaining conditions are not checked."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(null ?? \"a\" ?? \"b\");\nconsole.log(undefined ?? null ?? \"c\");\nconsole.log(0 ?? null ?? \"d\");</code></pre>",
+        "hint": "?? returns the right side only for null/undefined.",
+        "answer": "<code>a</code><br><code>c</code><br><code>0</code>",
+        "explanation": "<code>null ?? \"a\"</code>: null triggers ??, returns \"a\". The second ?? is not reached. <code>undefined ?? null</code>: undefined triggers ??, returns null. Then <code>null ?? \"c\"</code> returns \"c\". <code>0 ?? null</code>: 0 is not null/undefined, returns 0."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(2 ** 3);\nconsole.log(3 ** 2);\nconsole.log(10 ** 0);</code></pre>",
+        "hint": "** is the exponentiation operator (power).",
+        "answer": "<code>8</code><br><code>9</code><br><code>1</code>",
+        "explanation": "<code>2 ** 3</code> = 8 (2 cubed). <code>3 ** 2</code> = 9 (3 squared). <code>10 ** 0</code> = 1 (any number to the power of 0 is 1)."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write code that checks if a variable <code>age</code> (set to 16) is between 13 and 19 inclusive using comparison operators. Log: 'Is teenager: true'.",
+        "hint": "Use >= and <= with &&.",
+        "answer": "<pre><code>let age = 16;\nlet isTeen = age >= 13 && age <= 19;\nconsole.log(`Is teenager: ${isTeen}`);</code></pre>\nOutput: Is teenager: true",
+        "explanation": "<code>16 >= 13</code> is true, <code>16 <= 19</code> is true. <code>true && true</code> is true."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let x = 5;\nconsole.log(x > 3 && x < 10);\nconsole.log(x > 10 || x < 3);\nconsole.log(!(x === 5));</code></pre>",
+        "hint": "Evaluate each comparison first, then apply logical operators.",
+        "answer": "<code>true</code><br><code>false</code><br><code>false</code>",
+        "explanation": "Line 1: <code>5 > 3</code> is true, <code>5 < 10</code> is true, <code>true && true = true</code>. Line 2: <code>5 > 10</code> is false, <code>5 < 3</code> is false, <code>false || false = false</code>. Line 3: <code>5 === 5</code> is true, <code>!true = false</code>."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(!!\"\");\nconsole.log(!!\"hello\");\nconsole.log(!!0);\nconsole.log(!!null);\nconsole.log(!!undefined);\nconsole.log(!!\"0\");</code></pre>",
+        "hint": "!! converts any value to its boolean equivalent.",
+        "answer": "<code>false</code><br><code>true</code><br><code>false</code><br><code>false</code><br><code>false</code><br><code>true</code>",
+        "explanation": "Double NOT converts to boolean. Empty string, 0, null, undefined are falsy (false). Non-empty strings (including \"0\") and non-zero numbers are truthy (true)."
+      },
+      {
+        "id": "mx-5",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write an HTML page with a number input. When a button is clicked, display whether the number is positive, negative, or zero, AND whether it is even or odd — all using ternary operators.",
+        "hint": "Use two ternary operators: one for sign, one for even/odd.",
+        "answer": "<pre><code>&lt;input type=\"number\" id=\"num\"&gt;\n&lt;button onclick=\"check()\"&gt;Check&lt;/button&gt;\n&lt;p id=\"result\"&gt;&lt;/p&gt;\n&lt;script&gt;\n  function check() {\n    let n = Number(document.getElementById(\"num\").value);\n    let sign = n > 0 ? \"positive\" : n < 0 ? \"negative\" : \"zero\";\n    let parity = n % 2 === 0 ? \"even\" : \"odd\";\n    document.getElementById(\"result\").textContent = `${n} is ${sign} and ${parity}`;\n  }\n&lt;/script&gt;</code></pre>",
+        "explanation": "Two ternary operators determine the sign and parity. Template literal combines them for display."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let a = null;\nlet b = undefined;\nlet c = 0;\nlet d = \"\";\nlet e = false;\n\nconsole.log(a ?? \"default\");\nconsole.log(b ?? \"default\");\nconsole.log(c ?? \"default\");\nconsole.log(d ?? \"default\");\nconsole.log(e ?? \"default\");</code></pre>",
+        "hint": "?? only triggers on null and undefined. 0, '', and false are kept.",
+        "answer": "<code>default</code><br><code>default</code><br><code>0</code><br><code></code> (empty string)<br><code>false</code>",
+        "explanation": "<code>null ?? \"default\"</code>: null triggers ??, returns \"default\". <code>undefined ?? \"default\"</code>: same. <code>0 ?? \"default\"</code>: 0 is not null/undefined, returns 0. <code>\"\" ?? \"default\"</code>: empty string is kept. <code>false ?? \"default\"</code>: false is kept."
+      },
+      {
+        "id": "mx-7",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Ananya's calculator adds numbers from two inputs but keeps concatenating instead of adding:<br><pre><code>&lt;input id=\"a\" value=\"5\"&gt; &lt;input id=\"b\" value=\"3\"&gt;\n&lt;button onclick=\"add()\"&gt;Add&lt;/button&gt;\n&lt;script&gt;\n  function add() {\n    let result = document.getElementById('a').value + document.getElementById('b').value;\n    alert(result);  // Shows '53' instead of 8\n  }\n&lt;/script&gt;</code></pre>",
+        "hint": "Input .value always returns a string.",
+        "answer": "Convert inputs to numbers: <code>let result = Number(document.getElementById('a').value) + Number(document.getElementById('b').value);</code>",
+        "explanation": "Input values are always strings. <code>\"5\" + \"3\"</code> is string concatenation giving <code>\"53\"</code>. Wrapping in <code>Number()</code> converts them to numbers first."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(1 < 2 < 3);\nconsole.log(3 > 2 > 1);</code></pre>",
+        "hint": "JavaScript does NOT chain comparisons like Python. It evaluates left to right.",
+        "answer": "<code>true</code><br><code>false</code>",
+        "explanation": "JavaScript evaluates left to right: <code>1 < 2</code> is <code>true</code>, then <code>true < 3</code> converts true to 1, and <code>1 < 3</code> is true. <code>3 > 2</code> is <code>true</code>, then <code>true > 1</code> converts true to 1, and <code>1 > 1</code> is <code>false</code>. Unlike Python, JavaScript does not support chained comparisons."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write code that safely accesses deeply nested data. Given an API response object, access the first user's email and provide 'No email' as a default.",
+        "hint": "Use optional chaining (?.) and nullish coalescing (??).",
+        "answer": "<pre><code>let response = {\n  data: {\n    users: [\n      { name: \"Priya\", contact: { email: \"priya@example.com\" } }\n    ]\n  }\n};\n\n// Safe access with ?. and ??\nlet email = response?.data?.users?.[0]?.contact?.email ?? \"No email\";\nconsole.log(email);  // \"priya@example.com\"\n\n// Test with missing data\nlet emptyResponse = {};\nlet email2 = emptyResponse?.data?.users?.[0]?.contact?.email ?? \"No email\";\nconsole.log(email2);  // \"No email\"</code></pre>",
+        "explanation": "Each <code>?.</code> checks if the preceding value is null/undefined before proceeding. <code>?.[0]</code> is optional chaining for array access. If any step is null/undefined, the entire chain returns undefined, and <code>??</code> provides the fallback."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(5 + 3 + \"px\");\nconsole.log(\"$\" + 5 + 3);</code></pre>",
+        "hint": "JavaScript evaluates left to right. The + behavior changes when it encounters a string.",
+        "answer": "<code>8px</code><br><code>$53</code>",
+        "explanation": "Line 1: <code>5 + 3 = 8</code> (both numbers), then <code>8 + \"px\" = \"8px\"</code>. Line 2: <code>\"$\" + 5 = \"$5\"</code> (string wins), then <code>\"$5\" + 3 = \"$53\"</code>."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let x = 10;\nlet y = (x++, x + 5);\nconsole.log(x);\nconsole.log(y);</code></pre>",
+        "hint": "The comma operator evaluates both expressions and returns the last one.",
+        "answer": "<code>11</code><br><code>16</code>",
+        "explanation": "The comma operator evaluates <code>x++</code> first (x becomes 11), then evaluates <code>x + 5 = 11 + 5 = 16</code> and assigns it to y. <code>x</code> is 11, <code>y</code> is 16."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(typeof (10 > 5));\nconsole.log(typeof (5 === 5));\nconsole.log(typeof !true);</code></pre>",
+        "hint": "What type do comparison and logical operators return?",
+        "answer": "<code>boolean</code><br><code>boolean</code><br><code>boolean</code>",
+        "explanation": "Comparison operators (<code>></code>, <code>===</code>) and logical NOT (<code>!</code>) always return boolean values. <code>typeof true</code> or <code>typeof false</code> is <code>\"boolean\"</code>."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the output of: 5 === '5'?",
+        "options": {
+          "A": "true",
+          "B": "false",
+          "C": "NaN",
+          "D": "Error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>===</code> (strict equality) checks both value AND type. <code>5</code> is a number and <code>'5'</code> is a string. Since the types differ, the result is <code>false</code>."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does the % operator return?",
+        "options": {
+          "A": "The quotient",
+          "B": "The percentage",
+          "C": "The remainder after division",
+          "D": "The decimal part"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>%</code> is the remainder (modulo) operator. <code>10 % 3</code> returns 1 because 10 divided by 3 is 3 with a remainder of 1."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which operator should you use for comparisons in JavaScript?",
+        "options": {
+          "A": "=",
+          "B": "==",
+          "C": "===",
+          "D": "==="
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>===</code> (strict equality) is the recommended comparison operator. <code>=</code> is assignment. <code>==</code> performs type coercion which leads to bugs."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the output of: Boolean(0)?",
+        "options": {
+          "A": "true",
+          "B": "false",
+          "C": "0",
+          "D": "NaN"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>0</code> is one of the six falsy values in JavaScript. <code>Boolean(0)</code> returns <code>false</code>."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "What is the output of: '' || 'Guest'?",
+        "options": {
+          "A": "''",
+          "B": "Guest",
+          "C": "true",
+          "D": "false"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>||</code> returns the first truthy value. Empty string <code>''</code> is falsy, so <code>||</code> moves to the next value and returns <code>'Guest'</code>."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the output of: 0 ?? 'default'?",
+        "options": {
+          "A": "0",
+          "B": "default",
+          "C": "null",
+          "D": "false"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> <code>??</code> only returns the right side for <code>null</code> or <code>undefined</code>. <code>0</code> is neither, so it is returned as-is."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does the ternary operator do?",
+        "options": {
+          "A": "Loops three times",
+          "B": "Takes three operands and returns one based on a condition",
+          "C": "Divides a number by 3",
+          "D": "Creates three variables"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The ternary operator <code>condition ? a : b</code> evaluates the condition. If true, it returns <code>a</code>. If false, it returns <code>b</code>. It takes three operands: the condition, the true value, and the false value."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the output of: 'Aarav' && 'Priya'?",
+        "options": {
+          "A": "true",
+          "B": "Aarav",
+          "C": "Priya",
+          "D": "false"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>&&</code> returns the first falsy value, or the last value if all are truthy. Both strings are truthy, so it returns the last one: <code>'Priya'</code>."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which of these is a truthy value?",
+        "options": {
+          "A": "0",
+          "B": "null",
+          "C": "\"0\"",
+          "D": "NaN"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The string <code>\"0\"</code> is a non-empty string, which is truthy. <code>0</code>, <code>null</code>, and <code>NaN</code> are all falsy."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "What is the output of: 3 > 2 > 1?",
+        "options": {
+          "A": "true",
+          "B": "false",
+          "C": "Error",
+          "D": "1"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> JavaScript evaluates left to right: <code>3 > 2</code> is <code>true</code>. Then <code>true > 1</code> converts true to 1, and <code>1 > 1</code> is <code>false</code>. JavaScript does not chain comparisons like Python."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the difference between || and ??? ",
+        "options": {
+          "A": "No difference, they are the same",
+          "B": "|| checks for falsy values, ?? checks only for null/undefined",
+          "C": "?? checks for falsy values, || checks only for null/undefined",
+          "D": "|| is for numbers, ?? is for strings"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>||</code> returns the right side for ANY falsy value (0, '', null, undefined, NaN, false). <code>??</code> returns the right side ONLY for <code>null</code> or <code>undefined</code>. Use <code>??</code> when 0 or '' are valid values."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the output of: false || 0 || '' || null || 'found'?",
+        "options": {
+          "A": "false",
+          "B": "0",
+          "C": "null",
+          "D": "found"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> <code>||</code> checks each value left to right: false (falsy), 0 (falsy), '' (falsy), null (falsy), 'found' (truthy — returns it). The first truthy value encountered is <code>'found'</code>."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the output of: typeof (5 > 3)?",
+        "options": {
+          "A": "number",
+          "B": "boolean",
+          "C": "string",
+          "D": "true"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>5 > 3</code> evaluates to <code>true</code>. <code>typeof true</code> returns <code>\"boolean\"</code>. Comparison operators always return boolean values."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Easy",
+        "question": "What is x after: let x = 10; x += 5?",
+        "options": {
+          "A": "5",
+          "B": "10",
+          "C": "15",
+          "D": "50"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>x += 5</code> is shorthand for <code>x = x + 5</code>. <code>10 + 5 = 15</code>."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What is the output of: null == undefined?",
+        "options": {
+          "A": "true",
+          "B": "false",
+          "C": "null",
+          "D": "Error"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> With <code>==</code>, null and undefined are considered equal to each other (and only to each other). This is a special rule in the == algorithm. Note: <code>null === undefined</code> would be false."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Comparison Table Builder",
+        "difficulty": "Easy",
+        "description": "Write code that compares the number 5 with the string '5' using both == and ===. Display the results on a web page in a clear format.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "5 == '5': true\n5 === '5': false",
+        "constraints": "Show both results on the page.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <pre id=\"output\"></pre>\n  <script>\n    let result = `5 == '5': ${5 == '5'}\\n5 === '5': ${5 === '5'}\\n\\n0 == false: ${0 == false}\\n0 === false: ${0 === false}\\n\\n'' == false: ${'' == false}\\n'' === false: ${'' === false}`;\n    document.getElementById('output').textContent = result;\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Smart Default Values",
+        "difficulty": "Easy",
+        "description": "Create a function that takes a name and an age. If name is not provided, default to 'Guest'. If age is not provided, default to 0. Use ?? for defaults so that empty string names and age 0 are preserved.",
+        "sampleInput": "greet('', 0)",
+        "sampleOutput": "Hello, ! You are 0 years old.",
+        "constraints": "Use ?? instead of ||.",
+        "solution": "function greet(name, age) {\n  let displayName = name ?? 'Guest';\n  let displayAge = age ?? 0;\n  console.log(`Hello, ${displayName}! You are ${displayAge} years old.`);\n}\ngreet('Aarav', 15);   // Hello, Aarav! You are 15 years old.\ngreet('', 0);         // Hello, ! You are 0 years old.\ngreet(null, null);    // Hello, Guest! You are 0 years old.\ngreet(undefined);     // Hello, Guest! You are 0 years old."
+      },
+      {
+        "id": "cc-3",
+        "title": "Grade Calculator with Ternary",
+        "difficulty": "Medium",
+        "description": "Build an HTML page where the user enters marks (0-100) and clicks a button. Use nested ternary operators to determine the grade (A: 90+, B: 80+, C: 70+, D: 60+, F: below 60). Display the grade with a different color for each.",
+        "sampleInput": "User enters 85",
+        "sampleOutput": "Grade: B (displayed in blue)",
+        "constraints": "Use ternary operators, not if-else. Use different colors for each grade.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <input type=\"number\" id=\"marks\" placeholder=\"Enter marks (0-100)\">\n  <button onclick=\"calc()\">Get Grade</button>\n  <p id=\"result\"></p>\n  <script>\n    function calc() {\n      let marks = Number(document.getElementById('marks').value);\n      let grade = marks >= 90 ? 'A' : marks >= 80 ? 'B' : marks >= 70 ? 'C' : marks >= 60 ? 'D' : 'F';\n      let color = grade === 'A' ? 'green' : grade === 'B' ? 'blue' : grade === 'C' ? 'orange' : 'red';\n      let el = document.getElementById('result');\n      el.textContent = `Marks: ${marks}, Grade: ${grade}`;\n      el.style.color = color;\n    }\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Short-Circuit Pattern Demo",
+        "difficulty": "Medium",
+        "description": "Write code demonstrating three practical uses of short-circuit evaluation: (1) default values with ||, (2) conditional execution with &&, (3) safe property access before optional chaining existed. Log the results.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Name: Guest\nDashboard shown\nCity: Unknown",
+        "constraints": "Show each pattern clearly with comments.",
+        "solution": "// Pattern 1: Default values with ||\nlet userInput = '';\nlet name = userInput || 'Guest';\nconsole.log('Name:', name);\n\n// Pattern 2: Conditional execution with &&\nlet isLoggedIn = true;\nisLoggedIn && console.log('Dashboard shown');\n\n// Pattern 3: Safe access (old way, before ?.)\nlet user = { profile: null };\nlet city = user && user.profile && user.profile.city || 'Unknown';\nconsole.log('City:', city);\n\n// Modern way with ?. and ??\nlet city2 = user?.profile?.city ?? 'Unknown';\nconsole.log('City (modern):', city2);"
+      },
+      {
+        "id": "cc-5",
+        "title": "Truthy/Falsy Visual Tester",
+        "difficulty": "Hard",
+        "description": "Build an HTML page with an input field. As the user types (oninput event), show in real-time: the raw value, typeof, Boolean conversion (truthy/falsy), Number conversion, and highlight the box green for truthy or red for falsy.",
+        "sampleInput": "User types '0'",
+        "sampleOutput": "Value: '0' | typeof: string | Boolean: true (truthy) | Number: 0 [green border]",
+        "constraints": "Update in real time using oninput event.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <input type=\"text\" id=\"val\" oninput=\"test()\" placeholder=\"Type any value...\" style=\"padding:10px;font-size:16px;border:3px solid #ccc;\">\n  <pre id=\"output\" style=\"font-size:16px;\"></pre>\n  <script>\n    function test() {\n      let val = document.getElementById('val').value;\n      let boolVal = Boolean(val);\n      let numVal = Number(val);\n      let input = document.getElementById('val');\n      input.style.borderColor = boolVal ? 'green' : 'red';\n      document.getElementById('output').textContent = \n        `Value: '${val}'\\ntypeof: ${typeof val}\\nBoolean: ${boolVal} (${boolVal ? 'truthy' : 'falsy'})\\nNumber: ${numVal}\\n\\nNote: Only empty string is falsy for strings.\\n'0', ' ', and 'false' are all truthy strings!`;\n    }\n    test();\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Operator Precedence Challenge",
+        "difficulty": "Hard",
+        "description": "Write 5 complex expressions that test operator precedence knowledge. For each, show the expression, the step-by-step evaluation (as comments), and the final result. Include at least one with **, one with mixed && and ||, and one with ternary.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Step-by-step evaluation of 5 expressions with final results.",
+        "constraints": "Show detailed step-by-step comments for each expression.",
+        "solution": "// Expression 1: Math precedence\n// 2 + 3 * 4 ** 2 - 1\n// Step: 4**2=16, 3*16=48, 2+48-1=49\nconsole.log(2 + 3 * 4 ** 2 - 1);  // 49\n\n// Expression 2: Logical precedence\n// true || false && false\n// Step: && first: false && false = false, then true || false = true\nconsole.log(true || false && false);  // true\n\n// Expression 3: Mixed comparison and logical\n// 5 > 3 && 10 < 20 || false\n// Step: 5>3=true, 10<20=true, true&&true=true, true||false=true\nconsole.log(5 > 3 && 10 < 20 || false);  // true\n\n// Expression 4: Ternary with comparison\n// 10 > 5 ? 'yes' : 'no' + ' way'\n// Step: 10>5=true, returns 'yes' (+ is inside the false branch)\nconsole.log(10 > 5 ? 'yes' : 'no' + ' way');  // 'yes'\n\n// Expression 5: Nullish with logical\n// null ?? 'a' || 'b'\n// Step: null??'a' = 'a', 'a'||'b' = 'a'\nconsole.log(null ?? 'a' || 'b');  // 'a'"
+      }
+    ]
+  }
+}

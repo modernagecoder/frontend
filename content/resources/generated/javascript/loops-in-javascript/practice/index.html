@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Loops (for, while, for...of, for...in) | JavaScript | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="60+ practice questions on Loops (for, while, for...of, for...in) in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="loops (for, while, for...of, for...in) practice, javascript questions, javascript practice problems, loops (for, while, for...of, for...in) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/loops-in-javascript/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/loops-in-javascript/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/loops-in-javascript/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/loops-in-javascript/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/loops-in-javascript/practice">
+    <meta property="og:title" content="Practice Questions - Loops (for, while, for...of, for...in) | JavaScript | Modern Age Coders">
+    <meta property="og:description" content="60+ practice questions on Loops (for, while, for...of, for...in) in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/loops-in-javascript/practice">
+    <meta name="twitter:title" content="Practice Questions - Loops (for, while, for...of, for...in) | JavaScript | Modern Age Coders">
+    <meta name="twitter:description" content="60+ practice questions on Loops (for, while, for...of, for...in) in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Loops (for, while, for...of, for...in)",
+    "description": "60+ practice questions on Loops (for, while, for...of, for...in) in JavaScript.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Loops (for, while, for...of, for...in)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/loops-in-javascript/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Loops (for, while, for...of, for...in)",
+        "item": "https://learn.modernagecoders.com/resources/javascript/loops-in-javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/javascript/loops-in-javascript/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript/loops-in-javascript">Loops (for, while, for...of, for...in)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 6</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">60 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Loops (for, while, for...of, for...in)</h1>
+            <a href="/resources/javascript/loops-in-javascript" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>for (let i = 0; i < 4; i++) {
+  console.log(i);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The loop starts at 0 and runs while i is less than 4.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>0</code><br><code>1</code><br><code>2</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>for (let i = 1; i <= 5; i++) {
+  console.log(i * 2);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Multiply each value of i by 2.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>2</code><br><code>4</code><br><code>6</code><br><code>8</code><br><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const fruits = ["apple", "mango", "banana"];
+for (const fruit of fruits) {
+  console.log(fruit);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">for...of gives you each value in the array.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>apple</code><br><code>mango</code><br><code>banana</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>let count = 3;
+while (count > 0) {
+  console.log(count);
+  count--;
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">count starts at 3 and decreases by 1 each time.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>3</code><br><code>2</code><br><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>for (const char of "Hi!") {
+  console.log(char);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">for...of on a string gives you each character.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>H</code><br><code>i</code><br><code>!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>for (let i = 10; i >= 6; i--) {
+  console.log(i);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">The loop counts down from 10, stopping when i goes below 6.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>10</code><br><code>9</code><br><code>8</code><br><code>7</code><br><code>6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for (let i = 1; i <= 5; i++) {
+  if (i === 3) continue;
+  console.log(i);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">continue skips the rest of the current iteration.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>1</code><br><code>2</code><br><code>4</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for (let i = 1; i <= 10; i++) {
+  if (i === 4) break;
+  console.log(i);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">break exits the loop entirely.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>1</code><br><code>2</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let x = 1;
+while (x < 20) {
+  x *= 2;
+}
+console.log(x);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Trace x: 1, 2, 4, 8, 16, ... When does x first reach 20 or more?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>32</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let num = 10;
+do {
+  console.log(num);
+  num += 10;
+} while (num < 5);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">do...while always runs the body at least once before checking the condition.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const obj = { a: 1, b: 2, c: 3 };
+for (const key in obj) {
+  console.log(key);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">for...in gives you the property names (keys), not the values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>a</code><br><code>b</code><br><code>c</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let total = 0;
+for (let i = 1; i <= 5; i++) {
+  total += i;
+}
+console.log(total);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Add 1 + 2 + 3 + 4 + 5.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for (let i = 1; i <= 3; i++) {
+  for (let j = 1; j <= 2; j++) {
+    console.log(i + "," + j);
+  }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">The inner loop runs completely (j=1, j=2) for each value of i.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>1,1</code><br><code>1,2</code><br><code>2,1</code><br><code>2,2</code><br><code>3,1</code><br><code>3,2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for (let i = 0; i < 3; i++) {
+  for (let j = 0; j <= i; j++) {
+    process.stdout.write("* ");
+  }
+  console.log();
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">The inner loop runs i+1 times for each row.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>* </code><br><code>* * </code><br><code>* * * </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const arr = [10, 20, 30, 40];
+let result = 0;
+for (const val of arr) {
+  if (val === 30) break;
+  result += val;
+}
+console.log(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">The loop adds values until it hits 30, then breaks.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>let count = 0;
+for (let i = 0; i < 4; i++) {
+  for (let j = 0; j < 4; j++) {
+    if (i === j) count++;
+  }
+}
+console.log(count);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">How many times does i equal j in a 4x4 grid?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between for...of and for...in? When should you use each one?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Think about what each loop gives you: values vs keys.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>for...of</code> iterates over <strong>values</strong> of iterable objects like arrays and strings. <code>for...in</code> iterates over <strong>property names (keys)</strong> of objects. Use <code>for...of</code> for arrays and strings. Use <code>for...in</code> for plain objects. Never use <code>for...in</code> on arrays because it gives string indices and can include inherited properties.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between break and continue?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">One stops the loop entirely, the other skips one iteration.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>break</code> exits the loop completely - no more iterations run. <code>continue</code> skips the rest of the current iteration and moves on to the next one. With <code>break</code>, the loop is done. With <code>continue</code>, the loop keeps going.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const word = "JavaScript";
+let vowels = 0;
+for (const ch of word) {
+  if ("aeiouAEIOU".includes(ch)) {
+    vowels++;
+  }
+}
+console.log(vowels);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Count the vowels in "JavaScript": J-a-v-a-S-c-r-i-p-t.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>for (let i = 0; i < 3; i++) {
+  console.log("Hello");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">How many times does the loop run? i goes 0, 1, 2.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>Hello</code><br><code>Hello</code><br><code>Hello</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const nums = [5, 10, 15];
+for (const n of nums) {
+  console.log(n + 1);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Add 1 to each element.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>6</code><br><code>11</code><br><code>16</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>let sum = 0;
+for (let i = 2; i <= 10; i += 2) {
+  sum += i;
+}
+console.log(sum);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">i takes values 2, 4, 6, 8, 10. Add them up.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for (let i = 1; i <= 5; i++) {
+  if (i % 2 === 0) continue;
+  console.log(i);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">continue skips even numbers.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>1</code><br><code>3</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const scores = { maths: 95, science: 88, english: 76 };
+for (const subject in scores) {
+  if (scores[subject] >= 90) {
+    console.log(subject);
+  }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Only print subjects where the score is 90 or above.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>maths</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let result = "";
+for (let i = 3; i >= 1; i--) {
+  for (let j = 1; j <= i; j++) {
+    result += "*";
+  }
+  result += "\n";
+}
+console.log(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">The inner loop runs i times. i goes 3, 2, 1.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>***</code><br><code>**</code><br><code>*</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let i = 5;
+while (i > 0) {
+  i -= 2;
+}
+console.log(i);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Trace: 5, 3, 1, -1. What stops the loop?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>-1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const matrix = [[1, 2], [3, 4], [5, 6]];
+for (const row of matrix) {
+  for (const val of row) {
+    console.log(val);
+  }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">The outer loop gets each sub-array. The inner loop gets each value within that sub-array.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>1</code><br><code>2</code><br><code>3</code><br><code>4</code><br><code>5</code><br><code>6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>let n = 1;
+for (let i = 0; i < 4; i++) {
+  n *= 3;
+}
+console.log(n);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Multiply n by 3 four times: 1 * 3 * 3 * 3 * 3.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>81</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const text = "hello";
+let reversed = "";
+for (let i = text.length - 1; i >= 0; i--) {
+  reversed += text[i];
+}
+console.log(reversed);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Start from the last character and go backwards.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>olleh</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>outer:
+for (let i = 0; i < 3; i++) {
+  for (let j = 0; j < 3; j++) {
+    if (j === 1) continue outer;
+    console.log(i, j);
+  }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">continue outer skips to the next iteration of the outer loop, not the inner one.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>0 0</code><br><code>1 0</code><br><code>2 0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why should you use let instead of var in a for loop? What problem does var cause?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think about variable scope and closures.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>var</code> is function-scoped, meaning there is only one variable shared across all iterations. <code>let</code> is block-scoped, creating a new variable for each iteration. With <code>var</code>, if you use the loop variable inside a callback (like setTimeout), all callbacks will see the final value of the variable. With <code>let</code>, each callback captures its own copy of the variable.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>for (let i = 0; i < 5; i += 2) {
+  console.log(i);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">i starts at 0 and increases by 2 each time.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>0</code><br><code>2</code><br><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>let a = 0;
+let b = 1;
+for (let i = 0; i < 7; i++) {
+  let temp = a + b;
+  a = b;
+  b = temp;
+}
+console.log(a);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">This generates Fibonacci numbers. Trace a few iterations.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>13</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What are the three parts of a for loop in JavaScript?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> start, end, step</li><li><span class="mcq-option-label">B.</span> initialization, condition, update</li><li><span class="mcq-option-label">C.</span> begin, check, increment</li><li><span class="mcq-option-label">D.</span> declare, test, change</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> A for loop has three parts separated by semicolons: initialization (runs once), condition (checked before each iteration), and update (runs after each iteration). The other options use informal terms that are not standard.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which loop always runs its body at least once?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> for loop</li><li><span class="mcq-option-label">B.</span> while loop</li><li><span class="mcq-option-label">C.</span> do...while loop</li><li><span class="mcq-option-label">D.</span> for...of loop</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>do...while</code> loop executes the body first and then checks the condition. This guarantees at least one execution. The other loops check the condition before running the body, so they might not run at all.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which loop is best for iterating over array values?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> for...in</li><li><span class="mcq-option-label">B.</span> for...of</li><li><span class="mcq-option-label">C.</span> while</li><li><span class="mcq-option-label">D.</span> do...while</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>for...of</code> is designed to iterate over values of iterable objects like arrays and strings. <code>for...in</code> (option A) iterates over keys and should not be used on arrays. while and do...while work but require manual index management.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does the break statement do inside a loop?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Skips the current iteration</li><li><span class="mcq-option-label">B.</span> Restarts the loop</li><li><span class="mcq-option-label">C.</span> Exits the loop immediately</li><li><span class="mcq-option-label">D.</span> Pauses the loop</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>break</code> exits the loop completely, stopping all further iterations. Option A describes <code>continue</code>. Options B and D are not real loop behaviors in JavaScript.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">How many times does this loop run? for (let i = 0; i < 6; i++)</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 5 times</li><li><span class="mcq-option-label">B.</span> 6 times</li><li><span class="mcq-option-label">C.</span> 7 times</li><li><span class="mcq-option-label">D.</span> Infinite times</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> The loop starts at i=0 and runs while i < 6. The values of i are 0, 1, 2, 3, 4, 5 - that is 6 iterations. When i becomes 6, the condition fails and the loop stops.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does for...in loop over?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Array values</li><li><span class="mcq-option-label">B.</span> Object property names (keys)</li><li><span class="mcq-option-label">C.</span> String characters</li><li><span class="mcq-option-label">D.</span> Number sequences</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>for...in</code> iterates over the enumerable property names (keys) of an object. While it technically works on arrays (giving string indices), it is designed for objects. Use <code>for...of</code> for array values and string characters.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is the output of: let i = 10; while (i < 5) { console.log(i); i++; }</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10</li><li><span class="mcq-option-label">B.</span> 5 6 7 8 9</li><li><span class="mcq-option-label">C.</span> Nothing is printed</li><li><span class="mcq-option-label">D.</span> Infinite loop</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> The while loop checks the condition before running the body. Since <code>10 < 5</code> is false from the start, the body never executes. Nothing is printed.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What causes an infinite loop?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Using too many variables</li><li><span class="mcq-option-label">B.</span> The loop condition never becoming false</li><li><span class="mcq-option-label">C.</span> Using nested loops</li><li><span class="mcq-option-label">D.</span> Using break inside a loop</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> An infinite loop occurs when the condition never becomes false, usually because the loop variable is not updated correctly. Nested loops (C) and multiple variables (A) are perfectly fine. break (D) actually stops a loop.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the difference between continue and break?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> continue exits the loop, break skips an iteration</li><li><span class="mcq-option-label">B.</span> continue skips the current iteration, break exits the loop</li><li><span class="mcq-option-label">C.</span> They do the same thing</li><li><span class="mcq-option-label">D.</span> continue works in for loops only, break works in while loops only</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>continue</code> skips the rest of the current iteration and goes to the next one. <code>break</code> exits the loop entirely. Both work in all loop types (for, while, do...while, for...of, for...in).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which loop type should you NOT use with arrays?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> for loop</li><li><span class="mcq-option-label">B.</span> for...of loop</li><li><span class="mcq-option-label">C.</span> for...in loop</li><li><span class="mcq-option-label">D.</span> while loop</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>for...in</code> should not be used with arrays because it iterates over indices as strings and can include inherited properties. Use a regular <code>for</code> loop or <code>for...of</code> for arrays.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">How many times does the inner console.log execute?<br><pre><code>for (let i = 0; i < 5; i++) {
+  for (let j = 0; j < 3; j++) {
+    console.log(i, j);
+  }
+}</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 5</li><li><span class="mcq-option-label">B.</span> 3</li><li><span class="mcq-option-label">C.</span> 8</li><li><span class="mcq-option-label">D.</span> 15</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: D</strong><br><strong>D is correct.</strong> The outer loop runs 5 times and the inner loop runs 3 times for each outer iteration. Total: 5 x 3 = 15. Option C (8) incorrectly adds instead of multiplying.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the output?<br><pre><code>for (let i = 0; i < 3; i++) {
+  // empty body
+}
+console.log(typeof i);</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;number&quot;</li><li><span class="mcq-option-label">B.</span> &quot;undefined&quot;</li><li><span class="mcq-option-label">C.</span> 3</li><li><span class="mcq-option-label">D.</span> ReferenceError</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: D</strong><br><strong>D is correct.</strong> When you use <code>let</code> in a for loop, the variable is scoped to the loop block. After the loop ends, <code>i</code> does not exist in the outer scope. Trying to access it throws a ReferenceError. This is different from <code>var</code>, which would make i accessible.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does the following code create on a webpage?<br><pre><code>const items = ["A", "B", "C"];
+const ul = document.createElement("ul");
+for (const item of items) {
+  const li = document.createElement("li");
+  li.textContent = item;
+  ul.appendChild(li);
+}</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A table with 3 rows</li><li><span class="mcq-option-label">B.</span> An unordered list with 3 items</li><li><span class="mcq-option-label">C.</span> 3 separate paragraphs</li><li><span class="mcq-option-label">D.</span> 3 div elements</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> The code creates a <code>&lt;ul&gt;</code> element and loops through the array, creating a <code>&lt;li&gt;</code> for each item and appending it to the ul. The result is an unordered list with 3 list items: A, B, C.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is a labeled statement used for with loops?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Adding comments to loops</li><li><span class="mcq-option-label">B.</span> Naming loops so break/continue can target a specific outer loop</li><li><span class="mcq-option-label">C.</span> Making loops run faster</li><li><span class="mcq-option-label">D.</span> Creating loop variables</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> Labels like <code>outer:</code> allow <code>break outer</code> or <code>continue outer</code> to affect the labeled loop instead of just the innermost loop. This is useful in nested loops when you want to break out of or continue an outer loop from inside an inner loop.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does continue do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Stops the loop entirely</li><li><span class="mcq-option-label">B.</span> Restarts the loop from the beginning</li><li><span class="mcq-option-label">C.</span> Skips the rest of the current iteration and goes to the next</li><li><span class="mcq-option-label">D.</span> Pauses the loop for 1 second</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>continue</code> skips the remaining code in the current iteration and immediately starts the next iteration (after running the update expression in a for loop). It does not stop the loop or restart it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the correct syntax for a do...while loop?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> do { } while (condition)</li><li><span class="mcq-option-label">B.</span> do (condition) { }</li><li><span class="mcq-option-label">C.</span> while (condition) do { }</li><li><span class="mcq-option-label">D.</span> do { } (condition)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: A</strong><br><strong>A is correct.</strong> The syntax is <code>do { body } while (condition);</code>. The body comes first, then the while keyword with the condition. Note the semicolon after the closing parenthesis.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What happens when you use for...of on a regular object?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It loops over the values</li><li><span class="mcq-option-label">B.</span> It loops over the keys</li><li><span class="mcq-option-label">C.</span> It throws a TypeError</li><li><span class="mcq-option-label">D.</span> It returns undefined</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> Regular objects are not iterable, so <code>for...of</code> throws a TypeError saying the object is not iterable. Use <code>for...in</code> for object keys, or convert with <code>Object.keys()</code>/<code>Object.values()</code> to make an iterable array.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Sum of Odd Numbers</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a program that uses a for loop to calculate and print the sum of all odd numbers from 1 to 25.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Sum of odd numbers from 1 to 25: 169</div>
+                </div><div class="challenge-constraints">Use a for loop. Do not hardcode the answer.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">let sum = 0;
+for (let i = 1; i &lt;= 25; i += 2) {
+  sum += i;
+}
+console.log(&quot;Sum of odd numbers from 1 to 25:&quot;, sum);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Reverse a String Using a Loop</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Aarav has the string "JavaScript". Write a program using a for loop to print the string in reverse order.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">tpircSavaJ</div>
+                </div><div class="challenge-constraints">Use a for loop counting backwards. Do not use built-in reverse methods.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">const text = &quot;JavaScript&quot;;
+let reversed = &quot;&quot;;
+for (let i = text.length - 1; i &gt;= 0; i--) {
+  reversed += text[i];
+}
+console.log(reversed);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Create 10 Div Elements with Different Colors</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a loop that creates 10 div elements. Each div should have a different background color from this array: ["red", "orange", "yellow", "green", "teal", "blue", "indigo", "purple", "pink", "brown"]. Set each div's width to 100px, height to 50px, and display the color name as text.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">(10 colored divs appear on the webpage, each showing its color name)</div>
+                </div><div class="challenge-constraints">Use a for loop to create elements. Do not write the HTML manually.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">const colors = [&quot;red&quot;, &quot;orange&quot;, &quot;yellow&quot;, &quot;green&quot;, &quot;teal&quot;, &quot;blue&quot;, &quot;indigo&quot;, &quot;purple&quot;, &quot;pink&quot;, &quot;brown&quot;];
+
+for (let i = 0; i &lt; colors.length; i++) {
+  const div = document.createElement(&quot;div&quot;);
+  div.textContent = colors[i];
+  div.style.backgroundColor = colors[i];
+  div.style.color = &quot;white&quot;;
+  div.style.width = &quot;100px&quot;;
+  div.style.height = &quot;50px&quot;;
+  div.style.display = &quot;flex&quot;;
+  div.style.alignItems = &quot;center&quot;;
+  div.style.justifyContent = &quot;center&quot;;
+  div.style.margin = &quot;4px&quot;;
+  document.body.appendChild(div);
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: FizzBuzz</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Priya is practicing a classic programming challenge. Write a program that prints numbers 1 to 30. For multiples of 3, print "Fizz". For multiples of 5, print "Buzz". For multiples of both 3 and 5, print "FizzBuzz".</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+...</div>
+                </div><div class="challenge-constraints">Use a for loop. Check for both 3 and 5 first.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">for (let i = 1; i &lt;= 30; i++) {
+  if (i % 3 === 0 &amp;&amp; i % 5 === 0) {
+    console.log(&quot;FizzBuzz&quot;);
+  } else if (i % 3 === 0) {
+    console.log(&quot;Fizz&quot;);
+  } else if (i % 5 === 0) {
+    console.log(&quot;Buzz&quot;);
+  } else {
+    console.log(i);
+  }
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Multiplication Table on a Webpage</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Rohan wants to display a 10x10 multiplication table on a webpage using nested loops. Create an HTML table where each cell shows the product of its row and column numbers.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">(A 10x10 HTML table showing products: 1, 2, 3... in row 1; 2, 4, 6... in row 2; etc.)</div>
+                </div><div class="challenge-constraints">Use nested for loops. Create table, tr, and td elements with JavaScript.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">const table = document.createElement(&quot;table&quot;);
+table.style.borderCollapse = &quot;collapse&quot;;
+
+for (let i = 1; i &lt;= 10; i++) {
+  const tr = document.createElement(&quot;tr&quot;);
+  for (let j = 1; j &lt;= 10; j++) {
+    const td = document.createElement(&quot;td&quot;);
+    td.textContent = i * j;
+    td.style.border = &quot;1px solid #555&quot;;
+    td.style.padding = &quot;8px&quot;;
+    td.style.textAlign = &quot;center&quot;;
+    tr.appendChild(td);
+  }
+  table.appendChild(tr);
+}
+
+document.body.appendChild(table);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Count Vowels in a String</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Ananya has the string "Modern Age Coders teaches JavaScript". Write a program using for...of to count the number of vowels (a, e, i, o, u - both cases).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Vowels: 12</div>
+                </div><div class="challenge-constraints">Use a for...of loop to iterate through the string.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">const text = &quot;Modern Age Coders teaches JavaScript&quot;;
+let count = 0;
+for (const ch of text) {
+  if (&quot;aeiouAEIOU&quot;.includes(ch)) {
+    count++;
+  }
+}
+console.log(&quot;Vowels:&quot;, count);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Build a Student List from an Array of Objects</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Kavya has an array of student objects: [{name: "Aarav", grade: "10th"}, {name: "Diya", grade: "9th"}, {name: "Vikram", grade: "11th"}, {name: "Meera", grade: "10th"}]. Use a for...of loop to create an unordered list on the webpage where each item shows "Name - Grade".</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">(An unordered list: Aarav - 10th, Diya - 9th, Vikram - 11th, Meera - 10th)</div>
+                </div><div class="challenge-constraints">Use for...of to loop through the array. Create DOM elements.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">const students = [
+  { name: &quot;Aarav&quot;, grade: &quot;10th&quot; },
+  { name: &quot;Diya&quot;, grade: &quot;9th&quot; },
+  { name: &quot;Vikram&quot;, grade: &quot;11th&quot; },
+  { name: &quot;Meera&quot;, grade: &quot;10th&quot; }
+];
+
+const ul = document.createElement(&quot;ul&quot;);
+for (const student of students) {
+  const li = document.createElement(&quot;li&quot;);
+  li.textContent = student.name + &quot; - &quot; + student.grade;
+  ul.appendChild(li);
+}
+document.body.appendChild(ul);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Diamond Pattern</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program using nested loops to print a diamond pattern with 5 rows in the top half and 4 in the bottom half (total 9 rows).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *</div>
+                </div><div class="challenge-constraints">Use nested for loops. Build the pattern as a string.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">let pattern = &quot;&quot;;
+const n = 5;
+// Top half
+for (let i = 1; i &lt;= n; i++) {
+  pattern += &quot; &quot;.repeat(n - i);
+  pattern += &quot;*&quot;.repeat(2 * i - 1);
+  pattern += &quot;\n&quot;;
+}
+// Bottom half
+for (let i = n - 1; i &gt;= 1; i--) {
+  pattern += &quot; &quot;.repeat(n - i);
+  pattern += &quot;*&quot;.repeat(2 * i - 1);
+  pattern += &quot;\n&quot;;
+}
+console.log(pattern);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 9: Prime Numbers in a Range</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Arjun wants to find all prime numbers between 2 and 50. Write a program using nested loops. For each number, check if it is divisible by any number from 2 to its square root.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Primes: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47</div>
+                </div><div class="challenge-constraints">Use nested loops. Use break when a divisor is found.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-9" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-9"><pre><code class="language-python">let primes = &quot;Primes:&quot;;
+for (let num = 2; num &lt;= 50; num++) {
+  let isPrime = true;
+  for (let i = 2; i &lt;= Math.sqrt(num); i++) {
+    if (num % i === 0) {
+      isPrime = false;
+      break;
+    }
+  }
+  if (isPrime) {
+    primes += &quot; &quot; + num;
+  }
+}
+console.log(primes);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 10: Build a Color Grid on a Webpage</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program using nested loops to create a 5x5 grid of div elements on a webpage. Each div should be 60px by 60px. Use a different shade of blue for each cell, calculated as: rgb(0, 0, (row * 5 + col) * 10 + 50).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">(A 5x5 grid of divs with increasingly darker shades of blue)</div>
+                </div><div class="challenge-constraints">Use nested for loops. Create div elements and style them dynamically.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-10" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-10"><pre><code class="language-python">const container = document.createElement(&quot;div&quot;);
+container.style.display = &quot;grid&quot;;
+container.style.gridTemplateColumns = &quot;repeat(5, 60px)&quot;;
+container.style.gap = &quot;4px&quot;;
+
+for (let row = 0; row &lt; 5; row++) {
+  for (let col = 0; col &lt; 5; col++) {
+    const div = document.createElement(&quot;div&quot;);
+    const blue = (row * 5 + col) * 10 + 50;
+    div.style.width = &quot;60px&quot;;
+    div.style.height = &quot;60px&quot;;
+    div.style.backgroundColor = `rgb(0, 0, ${blue})`;
+    div.style.borderRadius = &quot;4px&quot;;
+    container.appendChild(div);
+  }
+}
+
+document.body.appendChild(container);</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/javascript/conditional-statements/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Conditional Statements (if, else, switch)</span>
+        </a>
+            <a href="/resources/javascript/functions-in-javascript/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Functions - Regular, Arrow, and Callback</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/javascript/loops-in-javascript" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

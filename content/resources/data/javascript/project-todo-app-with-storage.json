@@ -1,0 +1,644 @@
+{
+  "title": "Project: Build a To-Do App with Local Storage",
+  "slug": "project-todo-app-with-storage",
+  "language": "javascript",
+  "chapter": 22,
+  "difficulty": "Advanced",
+  "readingTime": "60 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 51,
+  "seo": {
+    "title": "Build a To-Do App with Local Storage - Complete JavaScript Project | Modern Age Coders",
+    "description": "Build a complete to-do list app with HTML, CSS, and JavaScript. Add, delete, edit, mark complete, filter tasks, and persist everything with localStorage. Includes full code walkthrough and 52+ practice questions.",
+    "keywords": "javascript todo app, build todo app javascript, todo list localstorage, javascript project tutorial, todo app html css js, localstorage todo app, javascript crud app, todo app step by step, beginner javascript project"
+  },
+  "content": {
+    "what": "<h2>What Are We Building?</h2><p>In this chapter, you will build a complete to-do list application from scratch. This is a <strong>project chapter</strong> -- you will combine HTML, CSS, JavaScript, and localStorage into a fully working app that you can actually use every day.</p><p>The to-do app will have:</p><ul><li>An input field and button to add new tasks</li><li>A list of tasks with checkboxes to mark them complete</li><li>A delete button on each task</li><li>Double-click to edit a task</li><li>Filter buttons: All, Active, Completed</li><li>A \"Clear Completed\" button</li><li>Task count display (\"3 tasks remaining\")</li><li>All data saved to localStorage -- refresh the page and your tasks are still there</li></ul><pre><code>Add a task: [ Learn JavaScript        ] [Add]\n-----------------------------------------------\n[x] Practice CSS           [Delete]\n[ ] Build to-do app         [Delete]\n[ ] Read chapter 22         [Delete]\n-----------------------------------------------\n[All] [Active] [Completed]   2 items left\n                          [Clear Completed]\n-----------------------------------------------\nDouble-click any task to edit it.</code></pre><p>By the end of this chapter, you will have a real, useful application and a deep understanding of how HTML, CSS, and JavaScript work together.</p>",
+    "why": "<h2>Why Build a To-Do App?</h2><h3>1. It Is the Ultimate Beginner Project</h3><p>A to-do app is the \"Hello World\" of web applications. It covers every fundamental skill: creating elements, handling events, managing state, storing data, and updating the UI. If you can build a to-do app from scratch, you can build almost anything.</p><h3>2. It Uses Everything You Have Learned</h3><p>This project combines DOM manipulation (creating and removing elements), event listeners (click, double-click, keydown), CSS manipulation (strikethrough for completed tasks), arrays and objects (storing task data), and localStorage (persisting data). It proves you understand these concepts together.</p><h3>3. CRUD Operations</h3><p>The to-do app implements all four CRUD operations: <strong>C</strong>reate (add a task), <strong>R</strong>ead (display tasks), <strong>U</strong>pdate (edit or toggle complete), <strong>D</strong>elete (remove a task). These operations are the foundation of every web application, from social media to e-commerce.</p><h3>4. You Can Actually Use It</h3><p>Unlike toy examples, this is an app you can use daily. Add it to your bookmarks. Track your homework, coding practice, or goals. Show it to friends and family.</p>",
+    "explanation": "<h2>Building the To-Do App Step by Step</h2><h3>Step 1: HTML Structure</h3><p>The HTML has three main sections: an input area for adding tasks, a task list, and a footer with filters and count.</p><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n  &lt;title&gt;To-Do App&lt;/title&gt;\n  &lt;link rel=\"stylesheet\" href=\"style.css\"&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;div class=\"todo-container\"&gt;\n    &lt;h1&gt;My To-Do List&lt;/h1&gt;\n\n    &lt;div class=\"input-area\"&gt;\n      &lt;input type=\"text\" id=\"taskInput\" placeholder=\"What do you need to do?\"&gt;\n      &lt;button id=\"addBtn\"&gt;Add&lt;/button&gt;\n    &lt;/div&gt;\n\n    &lt;ul id=\"taskList\"&gt;&lt;/ul&gt;\n\n    &lt;div class=\"footer\"&gt;\n      &lt;span id=\"taskCount\"&gt;0 items left&lt;/span&gt;\n      &lt;div class=\"filters\"&gt;\n        &lt;button class=\"filter-btn active\" data-filter=\"all\"&gt;All&lt;/button&gt;\n        &lt;button class=\"filter-btn\" data-filter=\"active\"&gt;Active&lt;/button&gt;\n        &lt;button class=\"filter-btn\" data-filter=\"completed\"&gt;Completed&lt;/button&gt;\n      &lt;/div&gt;\n      &lt;button id=\"clearCompleted\"&gt;Clear Completed&lt;/button&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n\n  &lt;script src=\"todo.js\"&gt;&lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre><p>Key decisions: the task list is a <code>&lt;ul&gt;</code> where each task will be an <code>&lt;li&gt;</code>. Filter buttons use <code>data-filter</code> attributes to identify which filter is selected.</p><h3>Step 2: CSS Styling</h3><p>The CSS creates a clean, modern look with strikethrough for completed tasks, hover effects for buttons, and responsive design.</p><pre><code>* { margin: 0; padding: 0; box-sizing: border-box; }\n\nbody {\n  font-family: 'Segoe UI', Arial, sans-serif;\n  background: #0f172a;\n  display: flex; justify-content: center;\n  padding: 40px 16px; color: #e2e8f0;\n}\n\n.todo-container {\n  background: #1e293b; border-radius: 16px;\n  padding: 32px; width: 100%; max-width: 560px;\n  box-shadow: 0 20px 60px rgba(0,0,0,0.4);\n}\n\nh1 {\n  text-align: center; margin-bottom: 24px;\n  color: #a855f7; font-size: 28px;\n}\n\n.input-area {\n  display: flex; gap: 10px; margin-bottom: 20px;\n}\n\n#taskInput {\n  flex: 1; padding: 12px 16px; font-size: 16px;\n  border: 2px solid #334155; border-radius: 10px;\n  background: #0f172a; color: #e2e8f0; outline: none;\n}\n\n#taskInput:focus { border-color: #a855f7; }\n\n#addBtn {\n  padding: 12px 24px; font-size: 16px; font-weight: 600;\n  background: #a855f7; color: white; border: none;\n  border-radius: 10px; cursor: pointer;\n}\n\n#addBtn:hover { background: #9333ea; }\n\n#taskList { list-style: none; }\n\n.task-item {\n  display: flex; align-items: center; gap: 12px;\n  padding: 12px 16px; margin-bottom: 8px;\n  background: #0f172a; border-radius: 10px;\n  border: 1px solid #334155;\n  transition: background 0.2s;\n}\n\n.task-item:hover { background: #1a2744; }\n\n.task-item input[type=\"checkbox\"] {\n  width: 20px; height: 20px; cursor: pointer;\n  accent-color: #a855f7;\n}\n\n.task-text {\n  flex: 1; font-size: 16px; cursor: pointer;\n}\n\n.task-text.completed {\n  text-decoration: line-through;\n  color: #64748b;\n}\n\n.task-text.editing {\n  background: #1e293b; border: 1px solid #a855f7;\n  padding: 4px 8px; border-radius: 6px;\n  outline: none; color: #e2e8f0;\n}\n\n.delete-btn {\n  background: none; border: none; color: #ef4444;\n  font-size: 18px; cursor: pointer; opacity: 0;\n  transition: opacity 0.2s;\n}\n\n.task-item:hover .delete-btn { opacity: 1; }\n\n.footer {\n  display: flex; justify-content: space-between;\n  align-items: center; margin-top: 16px;\n  padding-top: 16px; border-top: 1px solid #334155;\n  font-size: 14px; flex-wrap: wrap; gap: 8px;\n}\n\n#taskCount { color: #94a3b8; }\n\n.filters { display: flex; gap: 4px; }\n\n.filter-btn {\n  padding: 6px 14px; font-size: 13px;\n  background: none; border: 1px solid #334155;\n  border-radius: 6px; color: #94a3b8; cursor: pointer;\n}\n\n.filter-btn:hover { border-color: #a855f7; color: #e2e8f0; }\n.filter-btn.active { border-color: #a855f7; color: #a855f7; }\n\n#clearCompleted {\n  background: none; border: none;\n  color: #94a3b8; cursor: pointer; font-size: 13px;\n}\n\n#clearCompleted:hover { color: #ef4444; }\n\n@media (max-width: 480px) {\n  .footer { flex-direction: column; align-items: stretch; text-align: center; }\n  .filters { justify-content: center; }\n}</code></pre><h3>Step 3: JavaScript -- Data Structure and Storage</h3><p>Each task is stored as an object with three properties: id (unique identifier), text (the task description), and completed (true or false). All tasks are stored in an array in localStorage.</p><pre><code>// Task structure\n// { id: 1712678400000, text: \"Learn JavaScript\", completed: false }\n\n// Load tasks from localStorage\nfunction loadTasks() {\n  const raw = localStorage.getItem(\"tasks\");\n  return raw ? JSON.parse(raw) : [];\n}\n\n// Save tasks to localStorage\nfunction saveTasks(tasks) {\n  localStorage.setItem(\"tasks\", JSON.stringify(tasks));\n}</code></pre><h3>Step 4: JavaScript -- Adding a Task</h3><pre><code>let tasks = loadTasks();\nlet currentFilter = \"all\";\n\nfunction addTask() {\n  const input = document.getElementById(\"taskInput\");\n  const text = input.value.trim();\n  if (text === \"\") return;\n\n  tasks.push({\n    id: Date.now(),\n    text: text,\n    completed: false\n  });\n\n  saveTasks(tasks);\n  input.value = \"\";\n  renderTasks();\n}</code></pre><p>We use <code>Date.now()</code> as a unique ID for each task. This gives a timestamp in milliseconds, which is unique enough for our purposes.</p><h3>Step 5: JavaScript -- Rendering Tasks</h3><pre><code>function renderTasks() {\n  const list = document.getElementById(\"taskList\");\n  list.innerHTML = \"\";\n\n  const filtered = getFilteredTasks();\n\n  filtered.forEach(function(task) {\n    const li = document.createElement(\"li\");\n    li.classList.add(\"task-item\");\n\n    const checkbox = document.createElement(\"input\");\n    checkbox.type = \"checkbox\";\n    checkbox.checked = task.completed;\n    checkbox.addEventListener(\"change\", function() {\n      toggleTask(task.id);\n    });\n\n    const span = document.createElement(\"span\");\n    span.classList.add(\"task-text\");\n    if (task.completed) span.classList.add(\"completed\");\n    span.textContent = task.text;\n    span.addEventListener(\"dblclick\", function() {\n      editTask(task.id, span);\n    });\n\n    const deleteBtn = document.createElement(\"button\");\n    deleteBtn.classList.add(\"delete-btn\");\n    deleteBtn.textContent = \"X\";\n    deleteBtn.addEventListener(\"click\", function() {\n      deleteTask(task.id);\n    });\n\n    li.appendChild(checkbox);\n    li.appendChild(span);\n    li.appendChild(deleteBtn);\n    list.appendChild(li);\n  });\n\n  updateCount();\n}</code></pre><h3>Step 6: JavaScript -- Toggle, Delete, Edit</h3><pre><code>function toggleTask(id) {\n  tasks = tasks.map(function(task) {\n    if (task.id === id) {\n      return { id: task.id, text: task.text, completed: !task.completed };\n    }\n    return task;\n  });\n  saveTasks(tasks);\n  renderTasks();\n}\n\nfunction deleteTask(id) {\n  tasks = tasks.filter(function(task) {\n    return task.id !== id;\n  });\n  saveTasks(tasks);\n  renderTasks();\n}\n\nfunction editTask(id, span) {\n  const task = tasks.find(function(t) { return t.id === id; });\n  if (!task) return;\n\n  span.contentEditable = true;\n  span.classList.add(\"editing\");\n  span.focus();\n\n  function saveEdit() {\n    span.contentEditable = false;\n    span.classList.remove(\"editing\");\n    const newText = span.textContent.trim();\n    if (newText === \"\") {\n      deleteTask(id);\n    } else {\n      task.text = newText;\n      saveTasks(tasks);\n    }\n  }\n\n  span.addEventListener(\"blur\", saveEdit, { once: true });\n  span.addEventListener(\"keydown\", function(e) {\n    if (e.key === \"Enter\") {\n      e.preventDefault();\n      span.blur();\n    }\n  });\n}</code></pre><h3>Step 7: JavaScript -- Filtering and Count</h3><pre><code>function getFilteredTasks() {\n  if (currentFilter === \"active\") {\n    return tasks.filter(function(t) { return !t.completed; });\n  }\n  if (currentFilter === \"completed\") {\n    return tasks.filter(function(t) { return t.completed; });\n  }\n  return tasks;\n}\n\nfunction updateCount() {\n  const remaining = tasks.filter(function(t) { return !t.completed; }).length;\n  document.getElementById(\"taskCount\").textContent = remaining + \" item\" + (remaining !== 1 ? \"s\" : \"\") + \" left\";\n}\n\nfunction clearCompleted() {\n  tasks = tasks.filter(function(t) { return !t.completed; });\n  saveTasks(tasks);\n  renderTasks();\n}</code></pre><h3>Step 8: JavaScript -- Event Listeners</h3><pre><code>document.getElementById(\"addBtn\").addEventListener(\"click\", addTask);\n\ndocument.getElementById(\"taskInput\").addEventListener(\"keydown\", function(e) {\n  if (e.key === \"Enter\") addTask();\n});\n\ndocument.querySelectorAll(\".filter-btn\").forEach(function(btn) {\n  btn.addEventListener(\"click\", function() {\n    document.querySelector(\".filter-btn.active\").classList.remove(\"active\");\n    btn.classList.add(\"active\");\n    currentFilter = btn.dataset.filter;\n    renderTasks();\n  });\n});\n\ndocument.getElementById(\"clearCompleted\").addEventListener(\"click\", clearCompleted);\n\n// Initial render\nrenderTasks();</code></pre><h3>How It All Fits Together</h3><p>The app follows a simple pattern:</p><ol><li>User performs an action (add, toggle, delete, edit, filter)</li><li>The <code>tasks</code> array is updated</li><li><code>saveTasks()</code> writes the array to localStorage</li><li><code>renderTasks()</code> rebuilds the UI from the array</li></ol><p>This pattern -- action, update data, save, re-render -- is the foundation of how all web applications work. React, Vue, and Angular all follow this same principle.</p>"
+  ,
+  "codeExamples": [
+    {
+      "title": "Complete To-Do App -- All in One File",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>To-Do App</title>\n  <style>\n    * { margin: 0; padding: 0; box-sizing: border-box; }\n    body {\n      font-family: 'Segoe UI', Arial, sans-serif;\n      background: #0f172a; display: flex; justify-content: center;\n      padding: 40px 16px; color: #e2e8f0;\n    }\n    .todo-container {\n      background: #1e293b; border-radius: 16px; padding: 32px;\n      width: 100%; max-width: 560px;\n      box-shadow: 0 20px 60px rgba(0,0,0,0.4);\n    }\n    h1 { text-align: center; margin-bottom: 24px; color: #a855f7; font-size: 28px; }\n    .input-area { display: flex; gap: 10px; margin-bottom: 20px; }\n    #taskInput {\n      flex: 1; padding: 12px 16px; font-size: 16px;\n      border: 2px solid #334155; border-radius: 10px;\n      background: #0f172a; color: #e2e8f0; outline: none;\n    }\n    #taskInput:focus { border-color: #a855f7; }\n    #addBtn {\n      padding: 12px 24px; font-size: 16px; font-weight: 600;\n      background: #a855f7; color: white; border: none;\n      border-radius: 10px; cursor: pointer;\n    }\n    #addBtn:hover { background: #9333ea; }\n    #taskList { list-style: none; }\n    .task-item {\n      display: flex; align-items: center; gap: 12px;\n      padding: 12px 16px; margin-bottom: 8px;\n      background: #0f172a; border-radius: 10px; border: 1px solid #334155;\n    }\n    .task-item:hover { background: #1a2744; }\n    .task-item input[type=\"checkbox\"] {\n      width: 20px; height: 20px; cursor: pointer; accent-color: #a855f7;\n    }\n    .task-text { flex: 1; font-size: 16px; cursor: pointer; }\n    .task-text.completed { text-decoration: line-through; color: #64748b; }\n    .task-text.editing {\n      background: #1e293b; border: 1px solid #a855f7;\n      padding: 4px 8px; border-radius: 6px; outline: none; color: #e2e8f0;\n    }\n    .delete-btn {\n      background: none; border: none; color: #ef4444;\n      font-size: 18px; cursor: pointer; opacity: 0; transition: opacity 0.2s;\n    }\n    .task-item:hover .delete-btn { opacity: 1; }\n    .footer {\n      display: flex; justify-content: space-between; align-items: center;\n      margin-top: 16px; padding-top: 16px; border-top: 1px solid #334155;\n      font-size: 14px; flex-wrap: wrap; gap: 8px;\n    }\n    #taskCount { color: #94a3b8; }\n    .filters { display: flex; gap: 4px; }\n    .filter-btn {\n      padding: 6px 14px; font-size: 13px; background: none;\n      border: 1px solid #334155; border-radius: 6px;\n      color: #94a3b8; cursor: pointer;\n    }\n    .filter-btn:hover { border-color: #a855f7; color: #e2e8f0; }\n    .filter-btn.active { border-color: #a855f7; color: #a855f7; }\n    #clearCompleted {\n      background: none; border: none; color: #94a3b8;\n      cursor: pointer; font-size: 13px;\n    }\n    #clearCompleted:hover { color: #ef4444; }\n  </style>\n</head>\n<body>\n  <div class=\"todo-container\">\n    <h1>My To-Do List</h1>\n    <div class=\"input-area\">\n      <input type=\"text\" id=\"taskInput\" placeholder=\"What do you need to do?\">\n      <button id=\"addBtn\">Add</button>\n    </div>\n    <ul id=\"taskList\"></ul>\n    <div class=\"footer\">\n      <span id=\"taskCount\">0 items left</span>\n      <div class=\"filters\">\n        <button class=\"filter-btn active\" data-filter=\"all\">All</button>\n        <button class=\"filter-btn\" data-filter=\"active\">Active</button>\n        <button class=\"filter-btn\" data-filter=\"completed\">Completed</button>\n      </div>\n      <button id=\"clearCompleted\">Clear Completed</button>\n    </div>\n  </div>\n\n  <script>\n    let tasks = loadTasks();\n    let currentFilter = \"all\";\n\n    function loadTasks() {\n      const raw = localStorage.getItem(\"todoTasks\");\n      return raw ? JSON.parse(raw) : [];\n    }\n\n    function saveTasks() {\n      localStorage.setItem(\"todoTasks\", JSON.stringify(tasks));\n    }\n\n    function addTask() {\n      const input = document.getElementById(\"taskInput\");\n      const text = input.value.trim();\n      if (text === \"\") return;\n      tasks.push({ id: Date.now(), text: text, completed: false });\n      saveTasks();\n      input.value = \"\";\n      input.focus();\n      renderTasks();\n    }\n\n    function toggleTask(id) {\n      tasks = tasks.map(function(task) {\n        if (task.id === id) {\n          return { id: task.id, text: task.text, completed: !task.completed };\n        }\n        return task;\n      });\n      saveTasks();\n      renderTasks();\n    }\n\n    function deleteTask(id) {\n      tasks = tasks.filter(function(task) { return task.id !== id; });\n      saveTasks();\n      renderTasks();\n    }\n\n    function editTask(id, span) {\n      const task = tasks.find(function(t) { return t.id === id; });\n      if (!task) return;\n      span.contentEditable = true;\n      span.classList.add(\"editing\");\n      span.focus();\n      function saveEdit() {\n        span.contentEditable = false;\n        span.classList.remove(\"editing\");\n        const newText = span.textContent.trim();\n        if (newText === \"\") { deleteTask(id); }\n        else { task.text = newText; saveTasks(); }\n      }\n      span.addEventListener(\"blur\", saveEdit, { once: true });\n      span.addEventListener(\"keydown\", function(e) {\n        if (e.key === \"Enter\") { e.preventDefault(); span.blur(); }\n        if (e.key === \"Escape\") { span.textContent = task.text; span.blur(); }\n      });\n    }\n\n    function getFilteredTasks() {\n      if (currentFilter === \"active\") return tasks.filter(function(t) { return !t.completed; });\n      if (currentFilter === \"completed\") return tasks.filter(function(t) { return t.completed; });\n      return tasks;\n    }\n\n    function updateCount() {\n      const remaining = tasks.filter(function(t) { return !t.completed; }).length;\n      document.getElementById(\"taskCount\").textContent = remaining + \" item\" + (remaining !== 1 ? \"s\" : \"\") + \" left\";\n    }\n\n    function renderTasks() {\n      const list = document.getElementById(\"taskList\");\n      list.innerHTML = \"\";\n      const filtered = getFilteredTasks();\n      filtered.forEach(function(task) {\n        const li = document.createElement(\"li\");\n        li.classList.add(\"task-item\");\n\n        const checkbox = document.createElement(\"input\");\n        checkbox.type = \"checkbox\";\n        checkbox.checked = task.completed;\n        checkbox.addEventListener(\"change\", function() { toggleTask(task.id); });\n\n        const span = document.createElement(\"span\");\n        span.classList.add(\"task-text\");\n        if (task.completed) span.classList.add(\"completed\");\n        span.textContent = task.text;\n        span.addEventListener(\"dblclick\", function() { editTask(task.id, span); });\n\n        const deleteBtn = document.createElement(\"button\");\n        deleteBtn.classList.add(\"delete-btn\");\n        deleteBtn.textContent = \"X\";\n        deleteBtn.addEventListener(\"click\", function() { deleteTask(task.id); });\n\n        li.appendChild(checkbox);\n        li.appendChild(span);\n        li.appendChild(deleteBtn);\n        list.appendChild(li);\n      });\n      updateCount();\n    }\n\n    function clearCompleted() {\n      tasks = tasks.filter(function(t) { return !t.completed; });\n      saveTasks();\n      renderTasks();\n    }\n\n    // Event listeners\n    document.getElementById(\"addBtn\").addEventListener(\"click\", addTask);\n    document.getElementById(\"taskInput\").addEventListener(\"keydown\", function(e) {\n      if (e.key === \"Enter\") addTask();\n    });\n    document.querySelectorAll(\".filter-btn\").forEach(function(btn) {\n      btn.addEventListener(\"click\", function() {\n        document.querySelector(\".filter-btn.active\").classList.remove(\"active\");\n        btn.classList.add(\"active\");\n        currentFilter = btn.dataset.filter;\n        renderTasks();\n      });\n    });\n    document.getElementById(\"clearCompleted\").addEventListener(\"click\", clearCompleted);\n\n    renderTasks();\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "This is the complete to-do app in a single file. The HTML provides the structure (input, list, filters). The CSS styles the dark theme with purple accents, strikethrough for completed tasks, and fade-in delete buttons. The JavaScript manages the task array, saves to localStorage, and re-renders the list after every change. The pattern is: action -> update array -> save -> re-render.",
+      "output": "A fully interactive to-do app with add, delete, edit (double-click), toggle complete, filter (All/Active/Completed), clear completed, and localStorage persistence."
+    },
+    {
+      "title": "Task Data Structure and localStorage Functions",
+      "code": "// Each task is an object with 3 properties:\nconst exampleTask = {\n  id: 1712678400000,     // Date.now() gives a unique timestamp\n  text: \"Learn JavaScript\",\n  completed: false\n};\n\n// All tasks are stored as an array of objects\nconst exampleTasks = [\n  { id: 1712678400000, text: \"Learn JavaScript\", completed: false },\n  { id: 1712678400001, text: \"Practice CSS\", completed: true },\n  { id: 1712678400002, text: \"Build to-do app\", completed: false }\n];\n\n// Save to localStorage\nfunction saveTasks(tasks) {\n  localStorage.setItem(\"todoTasks\", JSON.stringify(tasks));\n  console.log(\"Saved \" + tasks.length + \" tasks\");\n}\n\n// Load from localStorage\nfunction loadTasks() {\n  const raw = localStorage.getItem(\"todoTasks\");\n  if (raw === null) {\n    console.log(\"No saved tasks, starting fresh\");\n    return [];\n  }\n  const tasks = JSON.parse(raw);\n  console.log(\"Loaded \" + tasks.length + \" tasks\");\n  return tasks;\n}\n\n// Test\nsaveTasks(exampleTasks);\nconst loaded = loadTasks();\nconsole.log(loaded[0].text);       // \"Learn JavaScript\"\nconsole.log(loaded[1].completed);  // true",
+      "language": "javascript",
+      "explanation": "Each task needs three things: a unique <code>id</code> (we use Date.now() for simplicity), the task <code>text</code>, and a <code>completed</code> boolean. The <code>saveTasks</code> function converts the array to JSON and stores it. The <code>loadTasks</code> function reads it back, handling the case when nothing is saved yet.",
+      "output": "Saved 3 tasks\nLoaded 3 tasks\nLearn JavaScript\ntrue"
+    },
+    {
+      "title": "Adding a Task",
+      "code": "let tasks = [];\n\nfunction addTask(text) {\n  // Don't add empty tasks\n  if (text.trim() === \"\") {\n    console.log(\"Cannot add empty task\");\n    return;\n  }\n\n  // Create task object with unique ID\n  const newTask = {\n    id: Date.now(),\n    text: text.trim(),\n    completed: false\n  };\n\n  // Add to array\n  tasks.push(newTask);\n  console.log(\"Added: \" + newTask.text + \" (id: \" + newTask.id + \")\");\n\n  // Save to localStorage\n  localStorage.setItem(\"todoTasks\", JSON.stringify(tasks));\n  console.log(\"Total tasks: \" + tasks.length);\n}\n\n// Test\naddTask(\"Learn JavaScript\");\naddTask(\"Build to-do app\");\naddTask(\"\");                 // Should not add\naddTask(\"   \");              // Should not add (whitespace only)\naddTask(\"Practice CSS\");\nconsole.log(tasks.length);   // 3",
+      "language": "javascript",
+      "explanation": "The addTask function validates the input (no empty strings), creates a task object with a unique ID from Date.now(), adds it to the array, and saves to localStorage. The <code>trim()</code> call removes leading/trailing whitespace.",
+      "output": "Added: Learn JavaScript (id: 1712678400000)\nTotal tasks: 1\nAdded: Build to-do app (id: 1712678400001)\nTotal tasks: 2\nCannot add empty task\nCannot add empty task\nAdded: Practice CSS (id: 1712678400002)\nTotal tasks: 3\n3"
+    },
+    {
+      "title": "Toggle, Delete, and Filter Functions",
+      "code": "let tasks = [\n  { id: 1, text: \"Learn JavaScript\", completed: false },\n  { id: 2, text: \"Practice CSS\", completed: true },\n  { id: 3, text: \"Build to-do app\", completed: false },\n  { id: 4, text: \"Read chapter 22\", completed: true }\n];\n\n// Toggle completed status\nfunction toggleTask(id) {\n  tasks = tasks.map(function(task) {\n    if (task.id === id) {\n      return { id: task.id, text: task.text, completed: !task.completed };\n    }\n    return task;\n  });\n}\n\n// Delete a task\nfunction deleteTask(id) {\n  tasks = tasks.filter(function(task) { return task.id !== id; });\n}\n\n// Filter tasks\nfunction getFiltered(filter) {\n  if (filter === \"active\") return tasks.filter(function(t) { return !t.completed; });\n  if (filter === \"completed\") return tasks.filter(function(t) { return t.completed; });\n  return tasks;\n}\n\n// Count remaining\nfunction getRemaining() {\n  return tasks.filter(function(t) { return !t.completed; }).length;\n}\n\n// Test toggle\nconsole.log(\"Before toggle:\", tasks[0].completed); // false\ntoggleTask(1);\nconsole.log(\"After toggle:\", tasks[0].completed);  // true\n\n// Test filter\nconsole.log(\"Active:\", getFiltered(\"active\").length);       // 1\nconsole.log(\"Completed:\", getFiltered(\"completed\").length); // 3\nconsole.log(\"All:\", getFiltered(\"all\").length);             // 4\n\n// Test delete\ndeleteTask(2);\nconsole.log(\"After delete:\", tasks.length); // 3\n\n// Test count\nconsole.log(\"Remaining:\", getRemaining()); // 1",
+      "language": "javascript",
+      "explanation": "<code>toggleTask</code> uses <code>map</code> to create a new array where the matching task has its completed status flipped. <code>deleteTask</code> uses <code>filter</code> to remove the task with the matching ID. <code>getFiltered</code> returns different subsets based on the filter. These are pure functions that work on the data without touching the DOM.",
+      "output": "Before toggle: false\nAfter toggle: true\nActive: 1\nCompleted: 3\nAll: 4\nAfter delete: 3\nRemaining: 1"
+    },
+    {
+      "title": "Building the Task List Element",
+      "code": "// This function creates one task <li> element\nfunction createTaskElement(task) {\n  const li = document.createElement(\"li\");\n  li.classList.add(\"task-item\");\n\n  // Checkbox\n  const checkbox = document.createElement(\"input\");\n  checkbox.type = \"checkbox\";\n  checkbox.checked = task.completed;\n  checkbox.addEventListener(\"change\", function() {\n    console.log(\"Toggled: \" + task.text);\n    // In the real app, this calls toggleTask(task.id)\n  });\n\n  // Task text\n  const span = document.createElement(\"span\");\n  span.classList.add(\"task-text\");\n  if (task.completed) {\n    span.classList.add(\"completed\"); // Adds strikethrough\n  }\n  span.textContent = task.text;\n\n  // Double-click to edit\n  span.addEventListener(\"dblclick\", function() {\n    console.log(\"Editing: \" + task.text);\n    // In the real app, this calls editTask(task.id, span)\n  });\n\n  // Delete button\n  const deleteBtn = document.createElement(\"button\");\n  deleteBtn.classList.add(\"delete-btn\");\n  deleteBtn.textContent = \"X\";\n  deleteBtn.addEventListener(\"click\", function() {\n    console.log(\"Deleted: \" + task.text);\n    // In the real app, this calls deleteTask(task.id)\n  });\n\n  // Assemble\n  li.appendChild(checkbox);\n  li.appendChild(span);\n  li.appendChild(deleteBtn);\n\n  return li;\n}\n\n// Test\nconst task = { id: 1, text: \"Learn JavaScript\", completed: false };\nconst element = createTaskElement(task);\nconsole.log(element.outerHTML);",
+      "language": "javascript",
+      "explanation": "Each task in the list is built from four elements: an <code>&lt;li&gt;</code> container, a checkbox input, a text span, and a delete button. Each element gets the appropriate event listener. The <code>.completed</code> class adds CSS strikethrough styling. This function is called for each task during rendering.",
+      "output": "<li class=\"task-item\"><input type=\"checkbox\"><span class=\"task-text\">Learn JavaScript</span><button class=\"delete-btn\">X</button></li>"
+    },
+    {
+      "title": "Edit Task with contentEditable",
+      "code": "function editTask(id, span, tasks) {\n  const task = tasks.find(function(t) { return t.id === id; });\n  if (!task) return;\n\n  // Make the span editable\n  span.contentEditable = true;\n  span.classList.add(\"editing\");\n  span.focus();\n\n  console.log(\"Editing mode: \" + task.text);\n\n  function saveEdit() {\n    span.contentEditable = false;\n    span.classList.remove(\"editing\");\n\n    const newText = span.textContent.trim();\n    if (newText === \"\") {\n      // Empty text = delete the task\n      console.log(\"Empty text, deleting task\");\n    } else if (newText !== task.text) {\n      task.text = newText;\n      console.log(\"Updated to: \" + newText);\n    } else {\n      console.log(\"No changes\");\n    }\n  }\n\n  // Save on blur (clicking outside)\n  span.addEventListener(\"blur\", saveEdit, { once: true });\n\n  // Save on Enter, cancel on Escape\n  span.addEventListener(\"keydown\", function(e) {\n    if (e.key === \"Enter\") {\n      e.preventDefault();\n      span.blur();  // Triggers saveEdit via blur\n    }\n    if (e.key === \"Escape\") {\n      span.textContent = task.text;  // Restore original\n      span.blur();\n    }\n  });\n}\n\n// This uses contentEditable, which makes any HTML element\n// act like a text input. It is simpler than replacing\n// the span with an <input> element.",
+      "language": "javascript",
+      "explanation": "The edit function uses <code>contentEditable</code> to turn the task text span into an editable field. The user can type a new text, press Enter to save, or Escape to cancel. Clicking outside (blur) also saves. If the text is empty after editing, the task is deleted. The <code>{ once: true }</code> option ensures the blur listener fires only once.",
+      "output": "Editing mode: Learn JavaScript\n(User types new text and presses Enter)\nUpdated to: Learn advanced JavaScript"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Not Saving After Every Change",
+      "wrongCode": "function toggleTask(id) {\n  tasks = tasks.map(function(task) {\n    if (task.id === id) task.completed = !task.completed;\n    return task;\n  });\n  renderTasks();\n  // Forgot to call saveTasks()!\n}",
+      "error": "No error, but changes are lost when the page is refreshed because the updated array was never saved to localStorage.",
+      "correctCode": "function toggleTask(id) {\n  tasks = tasks.map(function(task) {\n    if (task.id === id) {\n      return { id: task.id, text: task.text, completed: !task.completed };\n    }\n    return task;\n  });\n  saveTasks();   // Always save after modifying tasks\n  renderTasks();\n}",
+      "explanation": "Every time the tasks array changes (add, toggle, delete, edit), you must call <code>saveTasks()</code> to write the updated array to localStorage. Without this, the changes exist only in memory and disappear on refresh."
+    },
+    {
+      "title": "Mutating the Task Object Directly",
+      "wrongCode": "function toggleTask(id) {\n  const task = tasks.find(function(t) { return t.id === id; });\n  task.completed = !task.completed;  // Mutating the original object\n  saveTasks();\n  renderTasks();\n}",
+      "error": "This works but is a bad practice. Directly mutating objects makes bugs harder to track. It is better to create a new object.",
+      "correctCode": "function toggleTask(id) {\n  tasks = tasks.map(function(task) {\n    if (task.id === id) {\n      return { id: task.id, text: task.text, completed: !task.completed };\n    }\n    return task;\n  });\n  saveTasks();\n  renderTasks();\n}",
+      "explanation": "Using <code>map</code> to create a new array with a new object is a cleaner pattern. It makes it clear that the data changed and avoids bugs from shared references. This immutable approach is used by React and other frameworks."
+    },
+    {
+      "title": "Using Array Index Instead of Unique ID",
+      "wrongCode": "// Using array index to identify tasks\nfunction deleteTask(index) {\n  tasks.splice(index, 1);\n}\n// Problem: if the list is filtered, index 2 in the filtered\n// view is NOT index 2 in the full array!",
+      "error": "Deleting by index breaks when filters are active. The visible list has different indices than the full tasks array.",
+      "correctCode": "// Use a unique ID instead\nfunction deleteTask(id) {\n  tasks = tasks.filter(function(task) { return task.id !== id; });\n}\n// Works correctly regardless of filtering because ID is unique",
+      "explanation": "Array indices change when items are added, removed, or filtered. A unique ID (like <code>Date.now()</code>) stays the same regardless of the array's order or current filter. Always use unique IDs to identify items in a list."
+    },
+    {
+      "title": "Re-rendering Without Clearing the List First",
+      "wrongCode": "function renderTasks() {\n  const list = document.getElementById(\"taskList\");\n  // Forgot list.innerHTML = \"\";\n  tasks.forEach(function(task) {\n    const li = document.createElement(\"li\");\n    li.textContent = task.text;\n    list.appendChild(li);\n  });\n}",
+      "error": "Tasks are duplicated every time renderTasks is called because old elements are not removed before adding new ones.",
+      "correctCode": "function renderTasks() {\n  const list = document.getElementById(\"taskList\");\n  list.innerHTML = \"\";  // Clear existing tasks first\n  tasks.forEach(function(task) {\n    const li = document.createElement(\"li\");\n    li.textContent = task.text;\n    list.appendChild(li);\n  });\n}",
+      "explanation": "Always clear the container with <code>innerHTML = \"\"</code> before re-rendering. Otherwise, every call to renderTasks appends duplicate elements. The simple \"clear and rebuild\" approach is the safest for beginners."
+    }
+  ],
+  "summary": [
+    "A to-do app implements all four CRUD operations: Create (add task), Read (display tasks), Update (edit or toggle), Delete (remove task). These operations are the foundation of every web application.",
+    "Each task is stored as an object with three properties: id (unique, from Date.now()), text (the task description), and completed (boolean). Tasks are stored in an array.",
+    "The data flow pattern is: user action -> update array -> save to localStorage -> re-render UI. This same pattern is used by React, Vue, and every modern framework.",
+    "localStorage persistence uses two functions: saveTasks() calls JSON.stringify and setItem, loadTasks() calls getItem and JSON.parse with a fallback to an empty array.",
+    "Rendering clears the list with innerHTML = '' and rebuilds it from the array. Each task element is assembled from a checkbox, text span, and delete button with their own event listeners.",
+    "Toggling uses array.map() to create a new array where the matching task has its completed property flipped. Deleting uses array.filter() to exclude the matching task.",
+    "Editing uses contentEditable to make the text span editable in place. Enter saves, Escape cancels, and blur (clicking outside) also saves. Empty text after editing deletes the task.",
+    "Filtering uses array.filter() with the current filter state. 'active' shows tasks where completed is false, 'completed' shows tasks where completed is true, 'all' shows everything.",
+    "Always use unique IDs (not array indices) to identify tasks. Array indices change when items are added, removed, or filtered. IDs are stable and unique.",
+    "Always save to localStorage after every change to the tasks array. Without saving, changes exist only in memory and are lost on page refresh."
+  ]
+  },
+  "relatedTopics": ["local-storage-and-session-storage", "array-and-object-advanced-patterns"],
+  "practice": {
+    "totalQuestions": 51,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const tasks = [];\ntasks.push({ id: 1, text: \"Learn JS\", completed: false });\ntasks.push({ id: 2, text: \"Build app\", completed: false });\nconsole.log(tasks.length);\nconsole.log(tasks[0].text);</code></pre>",
+        "hint": "push adds items to the array. Access properties with dot notation.",
+        "answer": "<code>2</code><br><code>Learn JS</code>",
+        "explanation": "Two task objects are pushed to the array. <code>tasks.length</code> is 2. <code>tasks[0].text</code> accesses the text of the first task."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const tasks = [\n  { id: 1, text: \"A\", completed: false },\n  { id: 2, text: \"B\", completed: true },\n  { id: 3, text: \"C\", completed: false }\n];\nconst active = tasks.filter(function(t) { return !t.completed; });\nconsole.log(active.length);\nconsole.log(active[0].text);</code></pre>",
+        "hint": "filter keeps items where the callback returns true. !false is true.",
+        "answer": "<code>2</code><br><code>A</code>",
+        "explanation": "filter keeps tasks where completed is false (the ! flips it to true). Tasks A and C are not completed, so the filtered array has length 2 and the first item is A."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const task = { id: 1, text: \"Learn JS\", completed: false };\ntask.completed = !task.completed;\nconsole.log(task.completed);\ntask.completed = !task.completed;\nconsole.log(task.completed);</code></pre>",
+        "hint": "!false is true, !true is false.",
+        "answer": "<code>true</code><br><code>false</code>",
+        "explanation": "The first toggle flips false to true. The second toggle flips true back to false. This is how the checkbox toggle works."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const tasks = [\n  { id: 1, text: \"A\" },\n  { id: 2, text: \"B\" },\n  { id: 3, text: \"C\" }\n];\nconst filtered = tasks.filter(function(t) { return t.id !== 2; });\nconsole.log(filtered.length);\nfiltered.forEach(function(t) { console.log(t.text); });</code></pre>",
+        "hint": "filter keeps items where the condition is true. id !== 2 is true for tasks 1 and 3.",
+        "answer": "<code>2</code><br><code>A</code><br><code>C</code>",
+        "explanation": "filter removes the task with id 2, keeping A and C. This is exactly how deleteTask works."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const tasks = [\n  { id: 1, text: \"X\", completed: false },\n  { id: 2, text: \"Y\", completed: true },\n  { id: 3, text: \"Z\", completed: false }\n];\nconst remaining = tasks.filter(function(t) { return !t.completed; }).length;\nconsole.log(remaining + \" item\" + (remaining !== 1 ? \"s\" : \"\") + \" left\");</code></pre>",
+        "hint": "2 items are not completed. The ternary adds 's' for plural.",
+        "answer": "<code>2 items left</code>",
+        "explanation": "Two tasks (X and Z) are not completed. Since remaining (2) is not 1, the ternary adds \"s\" making it \"items\". The result is \"2 items left\"."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let tasks = [\n  { id: 1, text: \"A\", completed: false },\n  { id: 2, text: \"B\", completed: true }\n];\n\ntasks = tasks.map(function(task) {\n  if (task.id === 1) {\n    return { id: task.id, text: task.text, completed: !task.completed };\n  }\n  return task;\n});\n\nconsole.log(tasks[0].completed);\nconsole.log(tasks[1].completed);</code></pre>",
+        "hint": "map creates a new array. Only task with id 1 is modified.",
+        "answer": "<code>true</code><br><code>true</code>",
+        "explanation": "The map function flips the completed status of task 1 (false becomes true) and leaves task 2 unchanged (stays true). Both end up as true."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const id1 = Date.now();\nconst id2 = Date.now();\nconsole.log(id1 === id2);\nconsole.log(typeof id1);</code></pre>",
+        "hint": "Date.now() runs so fast that both calls happen in the same millisecond.",
+        "answer": "<code>true</code><br><code>number</code>",
+        "explanation": "Date.now() returns milliseconds since Jan 1, 1970. Both calls execute in the same millisecond, so they return the same value. This is why in production apps, you might use <code>Date.now() + Math.random()</code> for extra uniqueness. For a simple to-do app, Date.now() is sufficient because users cannot add tasks that fast."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let tasks = [\n  { id: 1, text: \"A\", completed: true },\n  { id: 2, text: \"B\", completed: false },\n  { id: 3, text: \"C\", completed: true },\n  { id: 4, text: \"D\", completed: false }\n];\n\n// Clear completed\ntasks = tasks.filter(function(t) { return !t.completed; });\nconsole.log(tasks.length);\ntasks.forEach(function(t) { console.log(t.text); });</code></pre>",
+        "hint": "filter keeps tasks where completed is false.",
+        "answer": "<code>2</code><br><code>B</code><br><code>D</code>",
+        "explanation": "Clearing completed removes tasks A and C (both completed). Tasks B and D (not completed) remain. This is how the \"Clear Completed\" button works."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why do we use Date.now() as the task ID instead of the array index?",
+        "hint": "Think about what happens when you delete a task or filter the list.",
+        "answer": "Array indices change when items are added, removed, or filtered. If you delete the task at index 0, all other indices shift down. But a Date.now() ID stays the same regardless of what happens to the array. It uniquely identifies the task forever.",
+        "explanation": "With filters, the visible list has different indices than the full array. If Aarav sees 3 active tasks and clicks delete on 'index 2', that might be index 5 in the full array. Using unique IDs avoids this problem."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why does the renderTasks function call <code>list.innerHTML = \"\"</code> before adding task elements?",
+        "hint": "What would happen if you did not clear the list?",
+        "answer": "Without clearing, each call to renderTasks would <strong>append</strong> new elements to the existing ones. After toggling a task, you would see the original list plus a duplicate list. Clearing first ensures the list always matches the current state of the data.",
+        "explanation": "The render function follows a 'clear and rebuild' pattern. It is simple and reliable: destroy the old UI, build a new one from the current data. More advanced approaches (like virtual DOM diffing) update only what changed, but clear-and-rebuild is perfect for learning."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is CRUD and how does the to-do app implement each operation?",
+        "hint": "CRUD stands for Create, Read, Update, Delete.",
+        "answer": "<strong>C</strong>reate: the addTask function pushes a new task object to the array. <strong>R</strong>ead: the renderTasks function reads the array and displays tasks on screen. <strong>U</strong>pdate: toggleTask and editTask modify task properties (completed, text). <strong>D</strong>elete: deleteTask removes a task using filter. These four operations are the backbone of nearly every web application.",
+        "explanation": "Whether it is a social media app (create post, read feed, update profile, delete comment) or a shopping site (create order, read products, update cart, delete item), all apps are built around CRUD operations."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const tasks = [\n  { id: 1, text: \"A\", completed: false },\n  { id: 2, text: \"B\", completed: true }\n];\nconsole.log(JSON.stringify(tasks));</code></pre>",
+        "hint": "JSON.stringify converts the array to a string.",
+        "answer": "<code>[{\"id\":1,\"text\":\"A\",\"completed\":false},{\"id\":2,\"text\":\"B\",\"completed\":true}]</code>",
+        "explanation": "JSON.stringify converts the array of objects to a JSON string. This is exactly how tasks are saved to localStorage."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const ul = document.createElement('ul');\nconst li = document.createElement('li');\nli.textContent = 'Task 1';\nul.appendChild(li);\nconsole.log(ul.children.length);\nconsole.log(ul.children[0].textContent);</code></pre>",
+        "hint": "appendChild adds the li to the ul. children gives child elements.",
+        "answer": "<code>1</code><br><code>Task 1</code>",
+        "explanation": "One li is appended to the ul. children.length is 1. children[0] is the first child element, whose text is 'Task 1'."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const tasks = [\n  { id: 1, text: \"A\", completed: true },\n  { id: 2, text: \"B\", completed: false },\n  { id: 3, text: \"C\", completed: true }\n];\nconst result = tasks.map(function(t) {\n  if (t.id === 2) return { id: t.id, text: t.text, completed: true };\n  return t;\n});\nconsole.log(result[1].completed);\nconsole.log(tasks[1].completed);</code></pre>",
+        "hint": "map creates a new array. The original is unchanged.",
+        "answer": "<code>true</code><br><code>false</code>",
+        "explanation": "map creates a new array where task 2 has completed changed to true. But the original tasks array is unmodified -- tasks[1].completed is still false."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const el = document.createElement('span');\nel.classList.add('task-text');\nel.classList.add('completed');\nconsole.log(el.className);\nel.classList.remove('completed');\nconsole.log(el.className);</code></pre>",
+        "hint": "classList.add adds classes, classList.remove removes them.",
+        "answer": "<code>task-text completed</code><br><code>task-text</code>",
+        "explanation": "After adding two classes, className shows both. After removing 'completed', only 'task-text' remains. This is how tasks are visually toggled between active and completed states."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let tasks = [\n  { id: 1, text: \"A\", completed: false },\n  { id: 2, text: \"B\", completed: true },\n  { id: 3, text: \"C\", completed: false }\n];\n\n// Toggle task 1\ntasks = tasks.map(function(t) {\n  return t.id === 1 ? { id: t.id, text: t.text, completed: !t.completed } : t;\n});\n\n// Delete task 2\ntasks = tasks.filter(function(t) { return t.id !== 2; });\n\n// Clear completed\ntasks = tasks.filter(function(t) { return !t.completed; });\n\nconsole.log(tasks.length);\nconsole.log(tasks[0].text);</code></pre>",
+        "hint": "Track each operation: toggle makes task 1 completed, delete removes task 2, clear completed removes task 1.",
+        "answer": "<code>1</code><br><code>C</code>",
+        "explanation": "After toggle: task 1 is completed. After delete: task 2 is gone (tasks: A-completed, C-active). After clear completed: task 1 (A) is removed. Only task 3 (C) remains."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why does the to-do app use innerHTML = '' before rendering tasks instead of removing individual elements?",
+        "hint": "Think about simplicity vs performance.",
+        "answer": "Setting <code>innerHTML = ''</code> is the simplest approach -- it clears everything in one step, then the render function rebuilds the list from the data array. Removing individual elements would require tracking which ones changed, which is more complex. For a small to-do list (tens of items), the performance difference is negligible, and simplicity is more important.",
+        "explanation": "This 'clear and rebuild' pattern is easy to understand and debug. More advanced approaches (like React's virtual DOM) selectively update only what changed, but for learning purposes and small apps, clear-and-rebuild is ideal."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const text = \"  Learn JavaScript  \";\nconsole.log(text.trim());\nconsole.log(text.trim() === \"\");</code></pre>",
+        "hint": "trim() removes whitespace from both ends of a string.",
+        "answer": "<code>Learn JavaScript</code><br><code>false</code>",
+        "explanation": "trim() removes leading and trailing spaces, producing \"Learn JavaScript\". This is not an empty string, so the comparison returns false. We use trim() to check if the user typed only spaces."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const el = document.createElement(\"li\");\nel.classList.add(\"task-item\");\nel.classList.add(\"completed\");\nconsole.log(el.classList.contains(\"task-item\"));\nconsole.log(el.classList.contains(\"active\"));\nconsole.log(el.className);</code></pre>",
+        "hint": "classList.add adds classes, contains checks if a class exists.",
+        "answer": "<code>true</code><br><code>false</code><br><code>task-item completed</code>",
+        "explanation": "The element has two classes: task-item and completed. contains(\"task-item\") is true, contains(\"active\") is false. className shows all classes as a space-separated string."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const tasks = [\n  { id: 1, text: \"A\", completed: false },\n  { id: 2, text: \"B\", completed: true },\n  { id: 3, text: \"C\", completed: false }\n];\n\nconst found = tasks.find(function(t) { return t.id === 2; });\nconsole.log(found.text);\n\nconst notFound = tasks.find(function(t) { return t.id === 99; });\nconsole.log(notFound);</code></pre>",
+        "hint": "find returns the first matching element, or undefined if none found.",
+        "answer": "<code>B</code><br><code>undefined</code>",
+        "explanation": "find returns the first task whose id is 2, which has text \"B\". No task has id 99, so find returns undefined. We use find to locate a specific task for editing."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const btn = document.createElement(\"button\");\nbtn.dataset.filter = \"active\";\nconsole.log(btn.dataset.filter);\nconsole.log(btn.getAttribute(\"data-filter\"));</code></pre>",
+        "hint": "dataset accesses data-* attributes. data-filter becomes dataset.filter.",
+        "answer": "<code>active</code><br><code>active</code>",
+        "explanation": "The <code>data-filter</code> HTML attribute is accessed via <code>dataset.filter</code> in JavaScript (the \"data-\" prefix is removed and the rest becomes camelCase). Both <code>dataset.filter</code> and <code>getAttribute(\"data-filter\")</code> return the same value."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let tasks = [\n  { id: 1, text: \"A\", completed: false },\n  { id: 2, text: \"B\", completed: false }\n];\n\nlocalStorage.setItem(\"tasks\", JSON.stringify(tasks));\ntasks[0].completed = true;\n\nconst saved = JSON.parse(localStorage.getItem(\"tasks\"));\nconsole.log(saved[0].completed);</code></pre>",
+        "hint": "Does changing the array in memory automatically update localStorage?",
+        "answer": "<code>false</code>",
+        "explanation": "Changing the in-memory array does NOT automatically update localStorage. The saved version still has the original data (completed: false). You must call setItem again to update localStorage."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const tasks = [\n  { id: 1, text: \"JS\", completed: false },\n  { id: 2, text: \"CSS\", completed: true },\n  { id: 3, text: \"HTML\", completed: false },\n  { id: 4, text: \"React\", completed: true }\n];\n\nconst activeTexts = tasks\n  .filter(function(t) { return !t.completed; })\n  .map(function(t) { return t.text; });\n\nconsole.log(activeTexts);</code></pre>",
+        "hint": "filter keeps active tasks, then map extracts just the text.",
+        "answer": "<code>[\"JS\", \"HTML\"]</code>",
+        "explanation": "filter keeps tasks 1 and 3 (not completed). map transforms them to just their text values. The result is [\"JS\", \"HTML\"]. Chaining filter and map is very common in real apps."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function addTask(tasks, text) {\n  return tasks.concat([{ id: Date.now(), text: text, completed: false }]);\n}\n\nlet tasks = [];\ntasks = addTask(tasks, \"A\");\ntasks = addTask(tasks, \"B\");\nconsole.log(tasks.length);\n\nconst original = [];\nconst updated = addTask(original, \"C\");\nconsole.log(original.length);\nconsole.log(updated.length);</code></pre>",
+        "hint": "concat returns a NEW array. It does not modify the original.",
+        "answer": "<code>2</code><br><code>0</code><br><code>1</code>",
+        "explanation": "concat creates a new array instead of modifying the original. After two addTask calls, tasks has 2 items. The original array remains empty (length 0) because concat does not mutate it. The updated array has 1 item."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const span = document.createElement(\"span\");\nspan.textContent = \"Learn JavaScript\";\nspan.contentEditable = true;\n\nconsole.log(span.contentEditable);\nconsole.log(span.isContentEditable);\n\nspan.contentEditable = false;\nconsole.log(span.contentEditable);\nconsole.log(span.isContentEditable);</code></pre>",
+        "hint": "contentEditable is a string attribute. isContentEditable is a boolean.",
+        "answer": "<code>true</code><br><code>true</code><br><code>false</code><br><code>false</code>",
+        "explanation": "Setting <code>contentEditable = true</code> makes the element editable (the user can click and type in it). <code>isContentEditable</code> returns a boolean indicating whether the element can be edited. The to-do app uses this for inline editing of task text."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const input = document.createElement('input');\ninput.value = '  Learn JavaScript  ';\nconsole.log(input.value.trim());\nconsole.log(input.value.trim().length);</code></pre>",
+        "hint": "trim() removes whitespace from both ends.",
+        "answer": "<code>Learn JavaScript</code><br><code>16</code>",
+        "explanation": "trim() removes the leading and trailing spaces, producing 'Learn JavaScript' which is 16 characters long."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const checkbox = document.createElement('input');\ncheckbox.type = 'checkbox';\ncheckbox.checked = false;\nconsole.log(checkbox.checked);\ncheckbox.checked = !checkbox.checked;\nconsole.log(checkbox.checked);</code></pre>",
+        "hint": "The ! operator flips a boolean.",
+        "answer": "<code>false</code><br><code>true</code>",
+        "explanation": "Initially checked is false. !false is true, so after toggling, checked becomes true. This is how checkboxes toggle task completion."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const tasks = [\n  { id: 1, text: \"JS\" },\n  { id: 2, text: \"CSS\" },\n  { id: 3, text: \"HTML\" }\n];\nconst idx = tasks.findIndex(function(t) { return t.id === 2; });\nconsole.log(idx);\nconsole.log(tasks[idx].text);</code></pre>",
+        "hint": "findIndex returns the index of the first matching element.",
+        "answer": "<code>1</code><br><code>CSS</code>",
+        "explanation": "findIndex returns the index where id === 2, which is index 1. tasks[1].text is 'CSS'."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const el = document.createElement('span');\nel.addEventListener('blur', function() {\n  console.log('blur fired');\n}, { once: true });\n\n// Simulate two blurs\nel.dispatchEvent(new Event('blur'));\nel.dispatchEvent(new Event('blur'));</code></pre>",
+        "hint": "{ once: true } removes the listener after it fires once.",
+        "answer": "<code>blur fired</code> (printed only once)",
+        "explanation": "The { once: true } option removes the event listener after it fires for the first time. The second dispatchEvent has no effect because the listener is already removed. This is used in the edit feature to save only once."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let tasks = [\n  { id: 1, text: \"A\", completed: false },\n  { id: 2, text: \"B\", completed: false }\n];\nlocalStorage.setItem('tasks', JSON.stringify(tasks));\n\ntasks.push({ id: 3, text: \"C\", completed: false });\nlocalStorage.setItem('tasks', JSON.stringify(tasks));\n\nconst loaded = JSON.parse(localStorage.getItem('tasks'));\nconsole.log(loaded.length);\nconsole.log(loaded[2].text);</code></pre>",
+        "hint": "The second setItem overwrites the first save.",
+        "answer": "<code>3</code><br><code>C</code>",
+        "explanation": "The first setItem saves 2 tasks. After pushing a third task, the second setItem saves all 3. Loading from localStorage gives the latest version with 3 tasks."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does CRUD stand for in web development?",
+        "options": {
+          "A": "Code, Run, Update, Deploy",
+          "B": "Create, Read, Update, Delete",
+          "C": "Copy, Remove, Undo, Download",
+          "D": "Compile, Render, Upload, Debug"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> CRUD stands for Create, Read, Update, Delete. These are the four basic operations for managing data in any application."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which array method is best for deleting a task by its ID?",
+        "options": {
+          "A": "splice",
+          "B": "pop",
+          "C": "filter",
+          "D": "shift"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>filter</code> creates a new array excluding the task with the matching ID: <code>tasks.filter(t => t.id !== id)</code>. splice works but requires finding the index first. pop and shift only remove from the end/start."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Why do we use Date.now() for task IDs?",
+        "options": {
+          "A": "It creates a human-readable date",
+          "B": "It creates a unique number based on the current time",
+          "C": "It creates a random string",
+          "D": "It creates an auto-incrementing counter"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Date.now() returns the current time in milliseconds, which is practically unique for each task creation. It is simple and does not require a counter variable."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What CSS property creates a line through completed task text?",
+        "options": {
+          "A": "font-style: strikethrough",
+          "B": "text-decoration: line-through",
+          "C": "text-style: crossed",
+          "D": "display: line-through"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>text-decoration: line-through</code> draws a line through the text. This is applied when the task has the <code>.completed</code> CSS class."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "Which array method is used to toggle a task's completed status immutably?",
+        "options": {
+          "A": "filter - to remove and re-add the task",
+          "B": "find - to locate and modify the task",
+          "C": "map - to create a new array with the task flipped",
+          "D": "forEach - to loop and toggle each task"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>map</code> creates a new array where the matching task has <code>completed: !task.completed</code> and all other tasks are unchanged. This is the immutable approach."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does contentEditable do to an HTML element?",
+        "options": {
+          "A": "Makes it draggable",
+          "B": "Makes it invisible",
+          "C": "Makes its text directly editable by the user",
+          "D": "Makes it read-only"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Setting <code>contentEditable = true</code> allows the user to click on the element and type to change its text, like a text input but on any element."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Why do we clear innerHTML before re-rendering the task list?",
+        "options": {
+          "A": "To free up memory",
+          "B": "To prevent duplicate elements from appearing",
+          "C": "To trigger a page refresh",
+          "D": "To remove event listeners"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without clearing, each render call would append new elements after the existing ones, causing duplicates. Clearing first ensures the list matches the current data."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does the { once: true } option do for addEventListener?",
+        "options": {
+          "A": "The event fires once per second",
+          "B": "The listener is automatically removed after it fires once",
+          "C": "The event is throttled to once per click",
+          "D": "The listener ignores the first event"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>{ once: true }</code> automatically removes the event listener after it fires once. This is useful for the blur event on editable tasks -- we only want to save once when editing ends."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Hard",
+        "question": "What is the data flow pattern used in the to-do app?",
+        "options": {
+          "A": "DOM -> Data -> Render",
+          "B": "Action -> Update Array -> Save to localStorage -> Re-render UI",
+          "C": "Save -> Load -> Display -> Save",
+          "D": "HTML -> CSS -> JavaScript -> HTML"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Every user action triggers: update the tasks array, save to localStorage, re-render the UI from the array. This unidirectional data flow is the same pattern used by React and other modern frameworks."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "Why is using array.filter() for deletion better than array.splice()?",
+        "options": {
+          "A": "filter is faster",
+          "B": "filter creates a new array, avoiding mutation of the original",
+          "C": "splice cannot remove elements from arrays",
+          "D": "filter works with objects, splice does not"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>filter</code> returns a new array, which is the immutable approach. <code>splice</code> modifies the original array in place. While both work, filter is cleaner and aligns with modern functional programming practices."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What happens if two tasks are added in the same millisecond using Date.now() as the ID?",
+        "options": {
+          "A": "An error is thrown",
+          "B": "Both tasks get the same ID, which can cause bugs",
+          "C": "JavaScript automatically adds 1 to the second ID",
+          "D": "localStorage rejects the duplicate"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> If Date.now() is called twice in the same millisecond, both return the same value. This is extremely rare in manual user interaction (humans cannot click that fast). For production apps, use crypto.randomUUID() or a library for truly unique IDs."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "What is the purpose of the data-filter attribute on the filter buttons?",
+        "options": {
+          "A": "It applies a CSS filter effect",
+          "B": "It stores which filter value the button represents",
+          "C": "It automatically filters the task list",
+          "D": "It connects the button to an API"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>data-filter</code> attribute stores the filter type (\"all\", \"active\", \"completed\"). When clicked, JavaScript reads <code>btn.dataset.filter</code> to know which filter to apply."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Easy",
+        "question": "What does input.value.trim() do?",
+        "options": {
+          "A": "Removes all spaces from the input",
+          "B": "Removes leading and trailing whitespace from the input value",
+          "C": "Converts the input to lowercase",
+          "D": "Validates the input format"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>trim()</code> removes whitespace from both ends of a string. It does not remove spaces in the middle."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the benefit of using event delegation for the delete buttons?",
+        "options": {
+          "A": "It makes the buttons look better",
+          "B": "It allows one listener on the parent to handle clicks on all child buttons, even ones added later",
+          "C": "It prevents event bubbling",
+          "D": "It makes the app load faster"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Event delegation uses one listener on a parent element instead of individual listeners on each child. This handles dynamically created elements automatically."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "What does the Escape key do during task editing in the to-do app?",
+        "options": {
+          "A": "Deletes the task",
+          "B": "Saves the changes",
+          "C": "Cancels editing and restores the original text",
+          "D": "Marks the task as completed"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Pressing Escape restores the original task text and exits edit mode. Enter saves the changes, and Escape cancels them."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Add Due Dates to Tasks",
+        "difficulty": "Easy",
+        "description": "Modify the to-do app to include a due date for each task. Add a date input next to the task input. Display the due date next to each task. Highlight tasks that are overdue (due date is in the past) with a red border.",
+        "sampleInput": "Task: 'Finish homework', Due: '2026-04-10'",
+        "sampleOutput": "[ ] Finish homework (Due: Apr 10) [Delete]\n[!] Overdue tasks shown with red border",
+        "constraints": "Store the due date in the task object. Use new Date() to compare dates.",
+        "solution": "// Modified task structure\n// { id: Date.now(), text: \"Finish homework\", completed: false, dueDate: \"2026-04-10\" }\n\nfunction addTask() {\n  const text = document.getElementById(\"taskInput\").value.trim();\n  const dueDate = document.getElementById(\"dateInput\").value;\n  if (text === \"\") return;\n  tasks.push({ id: Date.now(), text: text, completed: false, dueDate: dueDate || null });\n  saveTasks();\n  renderTasks();\n}\n\n// In renderTasks, check if overdue\nfunction isOverdue(task) {\n  if (!task.dueDate || task.completed) return false;\n  return new Date(task.dueDate) < new Date();\n}\n\n// Add red border class if overdue\nif (isOverdue(task)) {\n  li.style.borderColor = \"#ef4444\";\n}"
+      },
+      {
+        "id": "cc-2",
+        "title": "Add Task Categories/Tags",
+        "difficulty": "Medium",
+        "description": "Add a category system to tasks. Users can tag tasks as 'Work', 'Personal', 'Study', or 'Other'. Add a dropdown for category selection when adding tasks. Add filter buttons for each category. Show a colored dot next to each task based on its category.",
+        "sampleInput": "Task: 'Read chapter 23', Category: 'Study'",
+        "sampleOutput": "Categories: [All] [Work] [Personal] [Study]\n[purple dot] Read chapter 23 [Delete]\n[blue dot] Fix bug in code [Delete]",
+        "constraints": "Store category in the task object. Add color mapping for each category.",
+        "solution": "const categoryColors = {\n  work: \"#3b82f6\",\n  personal: \"#10b981\",\n  study: \"#a855f7\",\n  other: \"#94a3b8\"\n};\n\nfunction addTask() {\n  const text = document.getElementById(\"taskInput\").value.trim();\n  const category = document.getElementById(\"categorySelect\").value;\n  if (text === \"\") return;\n  tasks.push({ id: Date.now(), text: text, completed: false, category: category });\n  saveTasks();\n  renderTasks();\n}\n\n// In renderTasks, add category dot\nconst dot = document.createElement(\"span\");\ndot.style.width = \"10px\";\ndot.style.height = \"10px\";\ndot.style.borderRadius = \"50%\";\ndot.style.background = categoryColors[task.category] || \"#94a3b8\";\nli.prepend(dot);\n\n// Add category filter\nfunction filterByCategory(cat) {\n  if (cat === \"all\") return tasks;\n  return tasks.filter(function(t) { return t.category === cat; });\n}"
+      },
+      {
+        "id": "cc-3",
+        "title": "Drag and Drop Reordering",
+        "difficulty": "Hard",
+        "description": "Add drag-and-drop functionality to reorder tasks. Users should be able to drag a task and drop it at a new position in the list. The new order should be saved to localStorage.",
+        "sampleInput": "Drag task 3 above task 1",
+        "sampleOutput": "Tasks reordered:\n1. (was task 3)\n2. (was task 1)\n3. (was task 2)\nOrder saved to localStorage.",
+        "constraints": "Use the HTML Drag and Drop API (draggable, dragstart, dragover, drop events).",
+        "solution": "// Make task items draggable\nli.draggable = true;\nli.dataset.id = task.id;\n\nli.addEventListener(\"dragstart\", function(e) {\n  e.dataTransfer.setData(\"text/plain\", task.id);\n  li.classList.add(\"dragging\");\n});\n\nli.addEventListener(\"dragend\", function() {\n  li.classList.remove(\"dragging\");\n});\n\n// Allow dropping on the task list\nconst list = document.getElementById(\"taskList\");\nlist.addEventListener(\"dragover\", function(e) {\n  e.preventDefault();\n  const dragging = document.querySelector(\".dragging\");\n  const siblings = Array.from(list.querySelectorAll(\".task-item:not(.dragging)\"));\n  const nextSibling = siblings.find(function(sib) {\n    const box = sib.getBoundingClientRect();\n    return e.clientY < box.top + box.height / 2;\n  });\n  list.insertBefore(dragging, nextSibling || null);\n});\n\nlist.addEventListener(\"drop\", function(e) {\n  e.preventDefault();\n  // Read new order from DOM\n  const newOrder = Array.from(list.children).map(function(li) {\n    return Number(li.dataset.id);\n  });\n  // Reorder tasks array to match\n  tasks = newOrder.map(function(id) {\n    return tasks.find(function(t) { return t.id === id; });\n  });\n  saveTasks();\n});"
+      },
+      {
+        "id": "cc-4",
+        "title": "Task Statistics Dashboard",
+        "difficulty": "Medium",
+        "description": "Add a statistics section that shows: total tasks, completed tasks, completion percentage, most productive day (day with most tasks completed), and a simple bar showing completion progress.",
+        "sampleInput": "(5 tasks total, 3 completed)",
+        "sampleOutput": "Stats:\nTotal: 5 | Completed: 3 | Active: 2\nCompletion: 60%\n[====------] 60%",
+        "constraints": "Calculate stats from the tasks array. Display a visual progress bar using a div with dynamic width.",
+        "solution": "function showStats() {\n  const total = tasks.length;\n  const completed = tasks.filter(function(t) { return t.completed; }).length;\n  const active = total - completed;\n  const percentage = total > 0 ? Math.round((completed / total) * 100) : 0;\n\n  const statsEl = document.getElementById(\"stats\");\n  statsEl.innerHTML = '<p>Total: ' + total + ' | Completed: ' + completed + ' | Active: ' + active + '</p>' +\n    '<p>Completion: ' + percentage + '%</p>' +\n    '<div class=\"progress-bar\">' +\n    '<div class=\"progress-fill\" style=\"width: ' + percentage + '%\"></div>' +\n    '</div>';\n}\n\n// Call showStats() inside renderTasks()\n// CSS for progress bar:\n// .progress-bar { height: 8px; background: #334155; border-radius: 4px; }\n// .progress-fill { height: 100%; background: #a855f7; border-radius: 4px; transition: width 0.3s; }"
+      },
+      {
+        "id": "cc-5",
+        "title": "Export and Import Tasks",
+        "difficulty": "Hard",
+        "description": "Add buttons to export all tasks as a JSON file (download) and import tasks from a JSON file (upload). This lets users back up their tasks or transfer them between devices.",
+        "sampleInput": "Click 'Export' to download tasks.json, or click 'Import' to upload a file.",
+        "sampleOutput": "Exported 5 tasks to tasks.json\nImported 5 tasks from file",
+        "constraints": "Use Blob and URL.createObjectURL for export. Use FileReader for import.",
+        "solution": "// Export tasks as JSON file\nfunction exportTasks() {\n  const data = JSON.stringify(tasks, null, 2);\n  const blob = new Blob([data], { type: \"application/json\" });\n  const url = URL.createObjectURL(blob);\n  const a = document.createElement(\"a\");\n  a.href = url;\n  a.download = \"tasks.json\";\n  a.click();\n  URL.revokeObjectURL(url);\n  console.log(\"Exported \" + tasks.length + \" tasks\");\n}\n\n// Import tasks from JSON file\nfunction importTasks(file) {\n  const reader = new FileReader();\n  reader.onload = function(e) {\n    try {\n      const imported = JSON.parse(e.target.result);\n      if (Array.isArray(imported)) {\n        tasks = imported;\n        saveTasks();\n        renderTasks();\n        console.log(\"Imported \" + imported.length + \" tasks\");\n      }\n    } catch (err) {\n      console.log(\"Invalid file format\");\n    }\n  };\n  reader.readAsText(file);\n}\n\n// File input for import\ndocument.getElementById(\"importInput\").addEventListener(\"change\", function(e) {\n  if (e.target.files[0]) importTasks(e.target.files[0]);\n});"
+      },
+      {
+        "id": "cc-6",
+        "title": "Undo Delete Feature",
+        "difficulty": "Hard",
+        "description": "Add an undo feature. When a task is deleted, show a toast notification with an 'Undo' button. If the user clicks Undo within 5 seconds, the task is restored. After 5 seconds, the toast disappears and the deletion is final.",
+        "sampleInput": "Delete task 'Learn JavaScript', click Undo within 5 seconds",
+        "sampleOutput": "Task deleted. [Undo - 5s]\n(Click Undo)\nTask restored: Learn JavaScript",
+        "constraints": "Store the deleted task temporarily. Use setTimeout for auto-dismiss.",
+        "solution": "let lastDeleted = null;\nlet undoTimeout = null;\n\nfunction deleteTask(id) {\n  const task = tasks.find(function(t) { return t.id === id; });\n  lastDeleted = { task: task, index: tasks.indexOf(task) };\n  tasks = tasks.filter(function(t) { return t.id !== id; });\n  saveTasks();\n  renderTasks();\n  showUndoToast();\n}\n\nfunction showUndoToast() {\n  const toast = document.getElementById(\"undoToast\");\n  toast.textContent = 'Task deleted. ';\n  const undoBtn = document.createElement(\"button\");\n  undoBtn.textContent = \"Undo\";\n  undoBtn.addEventListener(\"click\", function() {\n    if (lastDeleted) {\n      tasks.splice(lastDeleted.index, 0, lastDeleted.task);\n      saveTasks();\n      renderTasks();\n      lastDeleted = null;\n    }\n    toast.style.display = \"none\";\n    clearTimeout(undoTimeout);\n  });\n  toast.appendChild(undoBtn);\n  toast.style.display = \"block\";\n  clearTimeout(undoTimeout);\n  undoTimeout = setTimeout(function() {\n    toast.style.display = \"none\";\n    lastDeleted = null;\n  }, 5000);\n}"
+      }
+    ]
+  }
+}

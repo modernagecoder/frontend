@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tutorial - Learn to Build Interactive Websites from Scratch | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn JavaScript from scratch with our free, detailed chapter-by-chapter guide. Build real interactive websites using HTML, CSS, and JavaScript together. Each topic includes hands-on code examples and 50+ practice questions.">
+    <meta name="keywords" content="javascript tutorial, learn javascript, javascript for beginners, javascript html css, javascript dom manipulation, javascript web development, javascript practice questions, interactive website tutorial">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript">
+    <meta property="og:title" content="JavaScript Tutorial - Learn to Build Interactive Websites from Scratch | Modern Age Coders">
+    <meta property="og:description" content="Learn JavaScript from scratch with our free, detailed chapter-by-chapter guide. Build real interactive websites using HTML, CSS, and JavaScript together. Each topic includes hands-on code examples and 50+ practice questions.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript">
+    <meta name="twitter:title" content="JavaScript Tutorial - Learn to Build Interactive Websites from Scratch | Modern Age Coders">
+    <meta name="twitter:description" content="Learn JavaScript from scratch with our free, detailed chapter-by-chapter guide. Build real interactive websites using HTML, CSS, and JavaScript together. Each topic includes hands-on code examples and 50+ practice questions.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "JavaScript Tutorial - Learn to Build Interactive Websites from Scratch",
+    "description": "Learn JavaScript from scratch with our free, detailed chapter-by-chapter guide. Build real interactive websites using HTML, CSS, and JavaScript together. Each topic includes hands-on code examples and 50+ practice questions.",
+    "numberOfItems": 25,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Introduction to JavaScript",
+        "url": "https://learn.modernagecoders.com/resources/javascript/introduction-to-javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JavaScript in the Browser - Script Tags and Console",
+        "url": "https://learn.modernagecoders.com/resources/javascript/javascript-in-the-browser"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Variables and Data Types",
+        "url": "https://learn.modernagecoders.com/resources/javascript/variables-and-data-types"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Operators and Expressions",
+        "url": "https://learn.modernagecoders.com/resources/javascript/operators-and-expressions"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Conditional Statements (if, else, switch)",
+        "url": "https://learn.modernagecoders.com/resources/javascript/conditional-statements"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Loops (for, while, for...of, for...in)",
+        "url": "https://learn.modernagecoders.com/resources/javascript/loops-in-javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Functions - Regular, Arrow, and Callback",
+        "url": "https://learn.modernagecoders.com/resources/javascript/functions-in-javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Arrays and Array Methods",
+        "url": "https://learn.modernagecoders.com/resources/javascript/arrays-in-javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "Objects and JSON",
+        "url": "https://learn.modernagecoders.com/resources/javascript/objects-in-javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": "Strings and Template Literals",
+        "url": "https://learn.modernagecoders.com/resources/javascript/strings-and-template-literals"
+      },
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "name": "DOM Selection and Manipulation",
+        "url": "https://learn.modernagecoders.com/resources/javascript/dom-selection-and-manipulation"
+      },
+      {
+        "@type": "ListItem",
+        "position": 12,
+        "name": "DOM Events and Event Listeners",
+        "url": "https://learn.modernagecoders.com/resources/javascript/dom-events-and-listeners"
+      },
+      {
+        "@type": "ListItem",
+        "position": 13,
+        "name": "Creating and Removing DOM Elements",
+        "url": "https://learn.modernagecoders.com/resources/javascript/creating-and-removing-elements"
+      },
+      {
+        "@type": "ListItem",
+        "position": 14,
+        "name": "Forms and Input Validation",
+        "url": "https://learn.modernagecoders.com/resources/javascript/forms-and-validation"
+      },
+      {
+        "@type": "ListItem",
+        "position": 15,
+        "name": "CSS Manipulation with JavaScript",
+        "url": "https://learn.modernagecoders.com/resources/javascript/css-manipulation-with-javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 16,
+        "name": "Project: Build an Interactive Quiz App",
+        "url": "https://learn.modernagecoders.com/resources/javascript/project-interactive-quiz-app"
+      },
+      {
+        "@type": "ListItem",
+        "position": 17,
+        "name": "ES6+ Modern JavaScript Features",
+        "url": "https://learn.modernagecoders.com/resources/javascript/es6-modern-javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 18,
+        "name": "Error Handling and Debugging",
+        "url": "https://learn.modernagecoders.com/resources/javascript/error-handling-and-debugging"
+      },
+      {
+        "@type": "ListItem",
+        "position": 19,
+        "name": "Asynchronous JavaScript - Callbacks, Promises, Async/Await",
+        "url": "https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 20,
+        "name": "Fetch API - Getting Data from the Internet",
+        "url": "https://learn.modernagecoders.com/resources/javascript/fetch-api-and-working-with-apis"
+      },
+      {
+        "@type": "ListItem",
+        "position": 21,
+        "name": "Local Storage and Session Storage",
+        "url": "https://learn.modernagecoders.com/resources/javascript/local-storage-and-session-storage"
+      },
+      {
+        "@type": "ListItem",
+        "position": 22,
+        "name": "Project: Build a To-Do App with Local Storage",
+        "url": "https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage"
+      },
+      {
+        "@type": "ListItem",
+        "position": 23,
+        "name": "Advanced Array and Object Patterns",
+        "url": "https://learn.modernagecoders.com/resources/javascript/array-and-object-advanced-patterns"
+      },
+      {
+        "@type": "ListItem",
+        "position": 24,
+        "name": "Closures, Scope, and Hoisting",
+        "url": "https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting"
+      },
+      {
+        "@type": "ListItem",
+        "position": 25,
+        "name": "Project: Build an Interactive Portfolio Website",
+        "url": "https://learn.modernagecoders.com/resources/javascript/project-interactive-portfolio"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+</head>
+
+<body class="resource-index-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">JavaScript</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <h1 class="resource-title">JavaScript Tutorial - Learn to Build Interactive Websites from Scratch</h1>
+            <div class="index-intro"><p>JavaScript is the language of the web. Every website you visit — from Google to Instagram to YouTube — uses JavaScript to make things interactive. When you click a button, fill a form, see an animation, or get a notification, that is JavaScript at work.</p><p>This guide teaches you JavaScript the right way — by building things. You will not just learn syntax. You will learn how to combine HTML (structure), CSS (style), and JavaScript (behavior) to create real, interactive web pages. Every chapter includes projects you can actually build and show to your friends.</p><p>Each chapter has 50+ practice questions that go from easy warm-ups to creative coding challenges. By the end of this guide, you will be able to build your own interactive websites from scratch.</p></div>
+            <div class="index-stats">
+                <span class="badge badge-chapter">25 Chapters</span>
+                <span class="badge badge-questions">1312+ Questions</span>
+                <span class="badge badge-free">Free</span>
+            </div>
+        </div><!-- /resource-header -->
+
+        <!-- Chapter Listing -->
+        <section class="chapter-listing">
+            <h2>Chapters</h2>
+            
+            <a href="/resources/javascript/introduction-to-javascript" class="chapter-card">
+                <div class="chapter-card-number">1</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Introduction to JavaScript</div>
+                    <div class="chapter-card-desc">Learn what JavaScript is, how it powers the web, and write your first script that changes a webpage in real time.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/javascript-in-the-browser" class="chapter-card">
+                <div class="chapter-card-number">2</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">JavaScript in the Browser - Script Tags and Console</div>
+                    <div class="chapter-card-desc">Add JavaScript to HTML pages, use the browser console, and understand how scripts load and execute.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/variables-and-data-types" class="chapter-card">
+                <div class="chapter-card-number">3</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Variables and Data Types</div>
+                    <div class="chapter-card-desc">Store data with let, const, and var. Understand strings, numbers, booleans, null, undefined, and typeof.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/operators-and-expressions" class="chapter-card">
+                <div class="chapter-card-number">4</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Operators and Expressions</div>
+                    <div class="chapter-card-desc">Master arithmetic, comparison, logical, and assignment operators. Understand type coercion and truthy/falsy.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/conditional-statements" class="chapter-card">
+                <div class="chapter-card-number">5</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Conditional Statements (if, else, switch)</div>
+                    <div class="chapter-card-desc">Make decisions in your code. Build interactive features that respond differently based on user input.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/loops-in-javascript" class="chapter-card">
+                <div class="chapter-card-number">6</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Loops (for, while, for...of, for...in)</div>
+                    <div class="chapter-card-desc">Repeat actions, iterate over data, and build dynamic lists on web pages using loops.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/functions-in-javascript" class="chapter-card">
+                <div class="chapter-card-number">7</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Functions - Regular, Arrow, and Callback</div>
+                    <div class="chapter-card-desc">Write reusable code with functions. Understand parameters, return values, arrow functions, and callbacks.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/arrays-in-javascript" class="chapter-card">
+                <div class="chapter-card-number">8</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Arrays and Array Methods</div>
+                    <div class="chapter-card-desc">Work with lists of data using push, pop, map, filter, reduce, find, sort, and spread operator.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/objects-in-javascript" class="chapter-card">
+                <div class="chapter-card-number">9</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Objects and JSON</div>
+                    <div class="chapter-card-desc">Create objects, access properties, use methods, destructure, and work with JSON data.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/strings-and-template-literals" class="chapter-card">
+                <div class="chapter-card-number">10</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Strings and Template Literals</div>
+                    <div class="chapter-card-desc">Master string methods, template literals with backticks, string interpolation, and build dynamic HTML.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/dom-selection-and-manipulation" class="chapter-card">
+                <div class="chapter-card-number">11</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">DOM Selection and Manipulation</div>
+                    <div class="chapter-card-desc">Select HTML elements with getElementById, querySelector. Change text, styles, attributes, and classes with JavaScript.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/dom-events-and-listeners" class="chapter-card">
+                <div class="chapter-card-number">12</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">DOM Events and Event Listeners</div>
+                    <div class="chapter-card-desc">Make pages interactive with click, input, submit, keydown, mouseover events. Build buttons, forms, and interactive UI.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/creating-and-removing-elements" class="chapter-card">
+                <div class="chapter-card-number">13</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Creating and Removing DOM Elements</div>
+                    <div class="chapter-card-desc">Dynamically create HTML elements, build lists, cards, and components. Remove elements and update the page.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/forms-and-validation" class="chapter-card">
+                <div class="chapter-card-number">14</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Forms and Input Validation</div>
+                    <div class="chapter-card-desc">Handle form submissions, validate user input, show error messages, and build real registration/login forms.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/css-manipulation-with-javascript" class="chapter-card">
+                <div class="chapter-card-number">15</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">CSS Manipulation with JavaScript</div>
+                    <div class="chapter-card-desc">Change styles dynamically, toggle classes, create animations, build dark mode toggles, and interactive UI effects.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/project-interactive-quiz-app" class="chapter-card">
+                <div class="chapter-card-number">16</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Project: Build an Interactive Quiz App</div>
+                    <div class="chapter-card-desc">Combine HTML, CSS, and JavaScript to build a fully working quiz application with scoring and feedback.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/es6-modern-javascript" class="chapter-card">
+                <div class="chapter-card-number">17</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">ES6+ Modern JavaScript Features</div>
+                    <div class="chapter-card-desc">Destructuring, spread/rest, default parameters, optional chaining, nullish coalescing, and modules.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/error-handling-and-debugging" class="chapter-card">
+                <div class="chapter-card-number">18</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Error Handling and Debugging</div>
+                    <div class="chapter-card-desc">Use try-catch-finally, throw errors, debug with console and DevTools, and handle common JavaScript errors.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/asynchronous-javascript" class="chapter-card">
+                <div class="chapter-card-number">19</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Asynchronous JavaScript - Callbacks, Promises, Async/Await</div>
+                    <div class="chapter-card-desc">Understand async code, setTimeout, Promises, .then/.catch, and async/await for handling time-based operations.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/fetch-api-and-working-with-apis" class="chapter-card">
+                <div class="chapter-card-number">20</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Fetch API - Getting Data from the Internet</div>
+                    <div class="chapter-card-desc">Fetch data from APIs, display it on your page, handle loading states, and build a weather app or movie search.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/local-storage-and-session-storage" class="chapter-card">
+                <div class="chapter-card-number">21</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Local Storage and Session Storage</div>
+                    <div class="chapter-card-desc">Save data in the browser, build a to-do app that remembers tasks, persist dark mode preference, and more.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/project-todo-app-with-storage" class="chapter-card">
+                <div class="chapter-card-number">22</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Project: Build a To-Do App with Local Storage</div>
+                    <div class="chapter-card-desc">Build a complete to-do list app with add, delete, mark complete, filter, and local storage persistence.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/array-and-object-advanced-patterns" class="chapter-card">
+                <div class="chapter-card-number">23</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Advanced Array and Object Patterns</div>
+                    <div class="chapter-card-desc">Chaining methods, nested destructuring, computed properties, Object.keys/values/entries, and real data processing.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/closures-scope-and-hoisting" class="chapter-card">
+                <div class="chapter-card-number">24</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Closures, Scope, and Hoisting</div>
+                    <div class="chapter-card-desc">Understand lexical scope, closures, the module pattern, var vs let hoisting, and common interview questions.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/javascript/project-interactive-portfolio" class="chapter-card">
+                <div class="chapter-card-number">25</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Project: Build an Interactive Portfolio Website</div>
+                    <div class="chapter-card-desc">Build a complete portfolio site with smooth scroll, dark mode, animated sections, contact form, and responsive design.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closures, Scope, and Hoisting - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Understand lexical scope, closures, the module pattern, var vs let hoisting, and common interview questions.">
+    <meta name="keywords" content="closures, scope, and hoisting, javascript tutorial, javascript closures, scope, and hoisting, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting">
+    <meta property="og:title" content="Closures, Scope, and Hoisting - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Understand lexical scope, closures, the module pattern, var vs let hoisting, and common interview questions.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting">
+    <meta name="twitter:title" content="Closures, Scope, and Hoisting - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Understand lexical scope, closures, the module pattern, var vs let hoisting, and common interview questions.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Closures, Scope, and Hoisting",
+    "description": "Understand lexical scope, closures, the module pattern, var vs let hoisting, and common interview questions.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Closures, Scope, and Hoisting",
+        "item": "https://learn.modernagecoders.com/resources/javascript/closures-scope-and-hoisting"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using var in a Loop with Closures",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>var</code> is function-scoped, so there is only one <code>i</code> shared by all iterations. <code>let</code> is block-scoped, creating a new <code>i</code> for each iteration. Always use <code>let</code> in loops."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Expecting var to Be Block-Scoped",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>var</code> is only scoped by functions, not by blocks like if, for, or while. <code>let</code> and <code>const</code> are properly block-scoped. Always use <code>let</code> or <code>const</code> to avoid accidental variable leaking."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using a Variable Before let/const Declaration",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>let</code> and <code>const</code> are hoisted but not initialized. The time between hoisting and the declaration line is the Temporal Dead Zone, where accessing the variable throws a ReferenceError. Always declare variables before using them."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Assuming Closures Copy Values",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Closures hold a reference to the variable, not a copy of its value. If the variable changes after the closure is created, the closure sees the updated value. To capture a specific value, assign it to a new variable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing Function Declaration and Expression Hoisting",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A function declaration (<code>function name() { }</code>) is fully hoisted -- you can call it before it appears in the code. A function expression (<code>var name = function() { }</code>) follows var hoisting rules: the variable exists but is undefined until the assignment line."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Closures, Scope, and Hoisting</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 24</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Closures, Scope, and Hoisting</h1>
+            <a href="/resources/javascript/closures-scope-and-hoisting/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Closures, Scope, and Hoisting?</h2><p>These three concepts explain how JavaScript manages variables -- where they are accessible, how long they live, and some surprising behaviors that trip up even experienced developers.</p><ul><li><strong>Scope</strong> determines where a variable can be accessed. If Aarav declares a variable inside a function, it cannot be used outside that function.</li><li><strong>Closures</strong> happen when an inner function remembers the variables from its outer function, even after the outer function has finished running. It is like a function carrying a backpack of variables.</li><li><strong>Hoisting</strong> is JavaScript's behavior of moving variable and function declarations to the top of their scope before execution. It explains why some code works in surprising ways.</li></ul><pre><code>// Closure example -- the inner function remembers 'count'
+function createCounter() {
+  let count = 0;          // This variable lives in the outer function
+  return function() {     // This inner function is a closure
+    count++;              // It can access 'count' even after createCounter returns
+    return count;
+  };
+}
+
+const counter = createCounter();
+console.log(counter()); // 1
+console.log(counter()); // 2
+console.log(counter()); // 3
+// The 'count' variable is private -- no one else can access it</code></pre>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are These Concepts Important?</h2><h3>1. Understanding How JavaScript Actually Works</h3><p>If you do not understand scope and closures, you will be confused by bugs that seem impossible. Variables appearing as undefined when you expected a value, loops behaving strangely, and callbacks not having access to data they should -- all of these are scope and closure issues.</p><h3>2. The #1 JavaScript Interview Topic</h3><p>"Explain closures" and "What is the output of this code?" are the most common JavaScript interview questions. The classic loop-with-closure trap question (var vs let inside a for loop) appears in almost every interview. Understanding these concepts deeply will make you stand out.</p><h3>3. Foundation for Design Patterns</h3><p>Closures enable powerful patterns: private variables (data hiding), factory functions (creating customized functions), memoization (caching expensive computations), and the module pattern (organizing code). React hooks (useState, useEffect) are built on closures.</p><h3>4. Debugging Superpowers</h3><p>When Priya sees a variable that is undefined when it should have a value, understanding scope tells her exactly where to look. When Rohan sees a stale value in a callback, understanding closures tells him why. These concepts turn mysterious bugs into obvious fixes.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Global Scope</h3><p>Variables declared outside any function or block are in the global scope. They are accessible everywhere in your code:</p><pre><code>const appName = "My App";  // Global scope
+let userCount = 0;          // Global scope
+
+function greet() {
+  console.log(appName);    // Can access global variables
+  userCount++;
+}
+
+greet();
+console.log(userCount);     // 1
+
+// Global variables are accessible in all functions, if-blocks, loops, etc.
+// But this is usually a BAD practice -- too many globals cause name conflicts</code></pre><h3>2. Function Scope</h3><p>Variables declared inside a function are only accessible inside that function. They do not exist outside:</p><pre><code>function calculateTotal() {
+  const tax = 0.18;        // Function scope -- only exists inside calculateTotal
+  const price = 100;
+  return price + price * tax;
+}
+
+console.log(calculateTotal()); // 118
+// console.log(tax);           // ReferenceError: tax is not defined
+// console.log(price);         // ReferenceError: price is not defined</code></pre><p>Each function call creates a NEW scope. Variables from one call do not interfere with another:</p><pre><code>function add(a, b) {
+  const result = a + b;   // Each call has its own 'result'
+  return result;
+}
+add(1, 2);  // result = 3 (in this call)
+add(3, 4);  // result = 7 (in this call) -- completely independent</code></pre><h3>3. Block Scope (let and const)</h3><p><code>let</code> and <code>const</code> are block-scoped. A block is anything between <code>{</code> and <code>}</code>:</p><pre><code>if (true) {
+  let x = 10;     // Block scope -- only exists inside this { }
+  const y = 20;   // Block scope
+  var z = 30;     // NOT block-scoped! var ignores blocks!
+}
+
+// console.log(x);  // ReferenceError: x is not defined
+// console.log(y);  // ReferenceError: y is not defined
+console.log(z);     // 30 -- var leaks out of blocks!
+
+// This is why you should always use let/const instead of var
+for (let i = 0; i < 3; i++) {
+  // i only exists inside this loop
+}
+// console.log(i); // ReferenceError: i is not defined</code></pre><h3>4. Lexical Scope</h3><p>Lexical scope means an inner function can access variables from its outer function. The scope is determined by where the function is written in the code, not where it is called:</p><pre><code>function outer() {
+  const message = "Hello from outer";
+
+  function inner() {
+    console.log(message);  // inner can access outer's variables
+  }
+
+  inner();
+}
+
+outer(); // "Hello from outer"
+
+// Nested three levels deep
+function level1() {
+  const a = "level 1";
+  function level2() {
+    const b = "level 2";
+    function level3() {
+      console.log(a);  // Can access level1's variable
+      console.log(b);  // Can access level2's variable
+    }
+    level3();
+  }
+  level2();
+}
+level1();</code></pre><h3>5. What Is a Closure?</h3><p>A closure is created when an inner function retains access to its outer function's variables even after the outer function has returned. The inner function "closes over" the variables it needs:</p><pre><code>function createGreeter(greeting) {
+  // 'greeting' is captured by the closure
+  return function(name) {
+    return greeting + ", " + name + "!";
+  };
+}
+
+const sayHello = createGreeter("Hello");
+const sayNamaste = createGreeter("Namaste");
+
+console.log(sayHello("Aarav"));    // "Hello, Aarav!"
+console.log(sayNamaste("Priya"));  // "Namaste, Priya!"
+
+// createGreeter has already returned, but the inner functions
+// still remember their 'greeting' values</code></pre><p>Each call to <code>createGreeter</code> creates a separate closure with its own <code>greeting</code> variable. sayHello remembers "Hello" and sayNamaste remembers "Namaste".</p><h3>6. Practical Closure: Counter Factory</h3><pre><code>function createCounter(start) {
+  let count = start || 0;
+
+  return {
+    increment: function() { count++; return count; },
+    decrement: function() { count--; return count; },
+    getCount: function() { return count; },
+    reset: function() { count = start || 0; return count; }
+  };
+}
+
+const counter1 = createCounter(0);
+const counter2 = createCounter(100);
+
+console.log(counter1.increment()); // 1
+console.log(counter1.increment()); // 2
+console.log(counter2.increment()); // 101
+console.log(counter1.getCount());  // 2
+console.log(counter2.getCount());  // 101
+// Each counter has its own private 'count' variable</code></pre><h3>7. Practical Closure: Private Variables</h3><pre><code>function createUser(name, age) {
+  // These are private -- no one can access them directly
+  let _name = name;
+  let _age = age;
+
+  return {
+    getName: function() { return _name; },
+    getAge: function() { return _age; },
+    setAge: function(newAge) {
+      if (newAge > 0 && newAge < 150) {
+        _age = newAge;
+        return true;
+      }
+      return false;
+    },
+    toString: function() {
+      return _name + " (age " + _age + ")";
+    }
+  };
+}
+
+const user = createUser("Aarav", 15);
+console.log(user.getName()); // "Aarav"
+console.log(user.getAge());  // 15
+user.setAge(16);
+console.log(user.toString()); // "Aarav (age 16)"
+// user._name is undefined -- the variable is truly private</code></pre><h3>8. Practical Closure: Memoization</h3><pre><code>function memoize(fn) {
+  const cache = {};   // Closure captures this cache
+  return function(n) {
+    if (cache[n] !== undefined) {
+      console.log("  Cache hit for " + n);
+      return cache[n];
+    }
+    console.log("  Computing " + n);
+    cache[n] = fn(n);
+    return cache[n];
+  };
+}
+
+function slowSquare(n) {
+  return n * n;
+}
+
+const fastSquare = memoize(slowSquare);
+console.log(fastSquare(5));  // Computing 5 -> 25
+console.log(fastSquare(5));  // Cache hit for 5 -> 25
+console.log(fastSquare(3));  // Computing 3 -> 9
+console.log(fastSquare(3));  // Cache hit for 3 -> 9</code></pre><h3>9. Hoisting: var Declarations</h3><p>JavaScript hoists <code>var</code> declarations (but not their values) to the top of the function scope:</p><pre><code>console.log(x); // undefined (not ReferenceError!)
+var x = 10;
+console.log(x); // 10
+
+// JavaScript interprets the above as:
+var x;           // Declaration hoisted to top
+console.log(x);  // undefined (declared but not assigned)
+x = 10;          // Assignment stays in place
+console.log(x);  // 10</code></pre><h3>10. Hoisting: let and const (Temporal Dead Zone)</h3><p><code>let</code> and <code>const</code> are also hoisted, but they are NOT initialized. Accessing them before declaration throws a ReferenceError. The period between hoisting and declaration is called the Temporal Dead Zone (TDZ):</p><pre><code>// console.log(a); // ReferenceError: Cannot access 'a' before initialization
+let a = 5;
+console.log(a);   // 5
+
+// console.log(b); // ReferenceError: Cannot access 'b' before initialization
+const b = 10;
+console.log(b);   // 10
+
+// var does NOT have a TDZ -- it returns undefined
+console.log(c);   // undefined
+var c = 15;</code></pre><h3>11. Hoisting: Function Declarations vs Expressions</h3><p>Function declarations are fully hoisted (you can call them before they appear). Function expressions are NOT:</p><pre><code>// Function declaration -- fully hoisted
+sayHello();  // Works! "Hello!"
+function sayHello() {
+  console.log("Hello!");
+}
+
+// Function expression -- NOT hoisted
+// sayBye();  // TypeError: sayBye is not a function
+var sayBye = function() {
+  console.log("Bye!");
+};
+sayBye();    // Works now
+
+// Arrow function expression -- also NOT hoisted
+// greet();  // ReferenceError: Cannot access 'greet' before initialization
+const greet = () => console.log("Hi!");
+greet();     // Works now</code></pre><h3>12. The Classic Closure-in-Loop Trap</h3><p>This is the most famous JavaScript interview question. With <code>var</code>, all iterations share the same variable:</p><pre><code>// THE TRAP -- var in a loop
+for (var i = 0; i < 3; i++) {
+  setTimeout(function() {
+    console.log(i);  // All print 3!
+  }, 100);
+}
+// Output: 3, 3, 3
+// By the time setTimeout callbacks run, the loop is done and i is 3.
+// All three closures share the SAME 'i' variable.
+
+// THE FIX -- use let
+for (let i = 0; i < 3; i++) {
+  setTimeout(function() {
+    console.log(i);  // Prints 0, 1, 2
+  }, 100);
+}
+// Output: 0, 1, 2
+// let creates a new 'i' for each iteration. Each closure has its own copy.</code></pre><h3>13. IIFE Pattern (Immediately Invoked Function Expression)</h3><p>An IIFE creates a scope to avoid polluting the global scope:</p><pre><code>(function() {
+  const secret = "hidden";
+  console.log("IIFE running");
+  // 'secret' is not accessible outside this function
+})();
+
+// console.log(secret); // ReferenceError
+
+// IIFE with parameters
+(function(name) {
+  console.log("Hello, " + name);
+})("Aarav");
+// Output: "Hello, Aarav"</code></pre><h3>14. Module Pattern Using Closures</h3><pre><code>const Calculator = (function() {
+  // Private state
+  let history = [];
+
+  // Private function
+  function record(operation) {
+    history.push(operation);
+  }
+
+  // Public API (returned object)
+  return {
+    add: function(a, b) {
+      const result = a + b;
+      record(a + " + " + b + " = " + result);
+      return result;
+    },
+    subtract: function(a, b) {
+      const result = a - b;
+      record(a + " - " + b + " = " + result);
+      return result;
+    },
+    getHistory: function() {
+      return [...history]; // Return a copy
+    }
+  };
+})();
+
+console.log(Calculator.add(5, 3));       // 8
+console.log(Calculator.subtract(10, 4)); // 6
+console.log(Calculator.getHistory());
+// ["5 + 3 = 8", "10 - 4 = 6"]
+// Calculator.history is undefined -- it is private!</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Scope Types: Global, Function, Block</div><pre><code class="language-python">// --- Global Scope ---
+const globalVar = &quot;I am global&quot;;
+
+function testScope() {
+  // --- Function Scope ---
+  const funcVar = &quot;I am in a function&quot;;
+  console.log(globalVar);  // Accessible
+  console.log(funcVar);    // Accessible
+
+  if (true) {
+    // --- Block Scope ---
+    let blockLet = &quot;let is block-scoped&quot;;
+    const blockConst = &quot;const is block-scoped&quot;;
+    var blockVar = &quot;var ignores blocks!&quot;;
+    console.log(blockLet);    // Accessible inside block
+  }
+
+  // console.log(blockLet);   // ReferenceError!
+  // console.log(blockConst); // ReferenceError!
+  console.log(blockVar);      // &quot;var ignores blocks!&quot; -- var leaks out
+}
+
+testScope();
+console.log(globalVar);     // Accessible
+// console.log(funcVar);    // ReferenceError -- function scope
+// console.log(blockVar);   // ReferenceError -- function scope (var is function-scoped)
+
+// Key lesson: let/const respect blocks. var only respects functions.</code></pre><div class="code-example-explanation">Global variables are accessible everywhere. Function variables are only accessible inside the function. <code>let</code> and <code>const</code> are block-scoped (trapped inside { }). <code>var</code> ignores block boundaries but respects function boundaries. This is the main reason to prefer <code>let</code> and <code>const</code> over <code>var</code>.</div><div class="code-example-output">I am global
+I am in a function
+let is block-scoped
+var ignores blocks!
+I am global</div></div>
+<div class="code-example"><div class="code-example-title">Closures: Functions That Remember</div><pre><code class="language-python">// --- Basic closure ---
+function makeMultiplier(multiplier) {
+  return function(number) {
+    return number * multiplier;  // &#39;multiplier&#39; is remembered
+  };
+}
+
+const double = makeMultiplier(2);
+const triple = makeMultiplier(3);
+const tenTimes = makeMultiplier(10);
+
+console.log(double(5));    // 10
+console.log(triple(5));    // 15
+console.log(tenTimes(5));  // 50
+
+// --- Counter with closure ---
+function createCounter() {
+  let count = 0;
+  return {
+    increment: function() { return ++count; },
+    decrement: function() { return --count; },
+    getCount: function() { return count; }
+  };
+}
+
+const c1 = createCounter();
+const c2 = createCounter();  // Separate closure!
+
+console.log(c1.increment()); // 1
+console.log(c1.increment()); // 2
+console.log(c2.increment()); // 1 (independent!)
+console.log(c1.getCount());  // 2
+console.log(c2.getCount());  // 1</code></pre><div class="code-example-explanation">Each call to <code>makeMultiplier</code> creates a new closure with its own <code>multiplier</code> value. <code>double</code> remembers 2, <code>triple</code> remembers 3, <code>tenTimes</code> remembers 10. Similarly, each <code>createCounter</code> call creates an independent counter with its own private <code>count</code> variable.</div><div class="code-example-output">10
+15
+50
+1
+2
+1
+2
+1</div></div>
+<div class="code-example"><div class="code-example-title">Hoisting: var, let, const, and Functions</div><pre><code class="language-python">// --- var hoisting ---
+console.log(&quot;a:&quot;, a); // undefined (hoisted, not initialized)
+var a = 10;
+console.log(&quot;a:&quot;, a); // 10
+
+// --- let/const: Temporal Dead Zone ---
+try {
+  console.log(b);
+} catch (e) {
+  console.log(&quot;b error:&quot;, e.message); // Cannot access &#39;b&#39; before initialization
+}
+let b = 20;
+console.log(&quot;b:&quot;, b); // 20
+
+// --- Function declaration: fully hoisted ---
+console.log(&quot;sayHi:&quot;, sayHi()); // &quot;Hi!&quot;
+function sayHi() { return &quot;Hi!&quot;; }
+
+// --- Function expression: NOT hoisted ---
+try {
+  console.log(sayBye());
+} catch (e) {
+  console.log(&quot;sayBye error:&quot;, e.message); // sayBye is not a function
+}
+var sayBye = function() { return &quot;Bye!&quot;; };
+console.log(&quot;sayBye:&quot;, sayBye()); // &quot;Bye!&quot;
+
+// --- Arrow function with const: TDZ ---
+try {
+  greet();
+} catch (e) {
+  console.log(&quot;greet error:&quot;, e.message); // Cannot access &#39;greet&#39; before initialization
+}
+const greet = () =&gt; &quot;Hello!&quot;;
+console.log(&quot;greet:&quot;, greet()); // &quot;Hello!&quot;</code></pre><div class="code-example-explanation"><code>var</code> declarations are hoisted and initialized to undefined. <code>let</code> and <code>const</code> are hoisted but NOT initialized (Temporal Dead Zone). Function declarations are fully hoisted (name + body). Function expressions and arrow functions follow the rules of their declaration keyword (var/let/const).</div><div class="code-example-output">a: undefined
+a: 10
+b error: Cannot access &#39;b&#39; before initialization
+b: 20
+sayHi: Hi!
+sayBye error: sayBye is not a function
+sayBye: Bye!
+greet error: Cannot access &#39;greet&#39; before initialization
+greet: Hello!</div></div>
+<div class="code-example"><div class="code-example-title">The Classic Loop Closure Trap (var vs let)</div><pre><code class="language-python">// ========== THE TRAP: var in a loop ==========
+console.log(&quot;--- var (broken) ---&quot;);
+var funcsVar = [];
+for (var i = 0; i &lt; 3; i++) {
+  funcsVar.push(function() { return i; });
+}
+// All functions return 3 because they share the SAME &#39;i&#39;
+console.log(funcsVar[0]()); // 3
+console.log(funcsVar[1]()); // 3
+console.log(funcsVar[2]()); // 3
+
+// ========== THE FIX: let in a loop ==========
+console.log(&quot;--- let (correct) ---&quot;);
+var funcsLet = [];
+for (let j = 0; j &lt; 3; j++) {
+  funcsLet.push(function() { return j; });
+}
+// Each function has its own &#39;j&#39; because let is block-scoped
+console.log(funcsLet[0]()); // 0
+console.log(funcsLet[1]()); // 1
+console.log(funcsLet[2]()); // 2
+
+// ========== OLD FIX: IIFE ==========
+console.log(&quot;--- IIFE fix ---&quot;);
+var funcsIIFE = [];
+for (var k = 0; k &lt; 3; k++) {
+  (function(captured) {
+    funcsIIFE.push(function() { return captured; });
+  })(k);  // Pass k as argument, creating a new scope
+}
+console.log(funcsIIFE[0]()); // 0
+console.log(funcsIIFE[1]()); // 1
+console.log(funcsIIFE[2]()); // 2</code></pre><div class="code-example-explanation">With <code>var</code>, all closures share the same variable <code>i</code>. By the time the functions run, the loop is done and <code>i</code> is 3. With <code>let</code>, each iteration creates a new block-scoped variable, so each closure captures its own value. The IIFE fix was the old solution before <code>let</code> existed -- it creates a new function scope to capture each value.</div><div class="code-example-output">--- var (broken) ---
+3
+3
+3
+--- let (correct) ---
+0
+1
+2
+--- IIFE fix ---
+0
+1
+2</div></div>
+<div class="code-example"><div class="code-example-title">Module Pattern with Private State</div><pre><code class="language-python">// Module pattern: IIFE that returns a public API
+const BankAccount = (function() {
+  // Private variables (not accessible from outside)
+  let balance = 0;
+  const transactions = [];
+
+  // Private function
+  function log(type, amount) {
+    transactions.push({
+      type: type,
+      amount: amount,
+      date: new Date().toISOString().split(&quot;T&quot;)[0],
+      balance: balance
+    });
+  }
+
+  // Public API
+  return {
+    deposit: function(amount) {
+      if (amount &lt;= 0) return &quot;Invalid amount&quot;;
+      balance += amount;
+      log(&quot;deposit&quot;, amount);
+      return &quot;Deposited Rs &quot; + amount + &quot;. Balance: Rs &quot; + balance;
+    },
+    withdraw: function(amount) {
+      if (amount &lt;= 0) return &quot;Invalid amount&quot;;
+      if (amount &gt; balance) return &quot;Insufficient balance&quot;;
+      balance -= amount;
+      log(&quot;withdraw&quot;, amount);
+      return &quot;Withdrawn Rs &quot; + amount + &quot;. Balance: Rs &quot; + balance;
+    },
+    getBalance: function() {
+      return balance;
+    },
+    getTransactions: function() {
+      return [...transactions]; // Return copy, not the original
+    }
+  };
+})();
+
+console.log(BankAccount.deposit(1000));
+console.log(BankAccount.deposit(500));
+console.log(BankAccount.withdraw(200));
+console.log(&quot;Balance:&quot;, BankAccount.getBalance());
+console.log(&quot;Transactions:&quot;, BankAccount.getTransactions().length);
+
+// BankAccount.balance is undefined -- truly private!
+console.log(&quot;Direct access:&quot;, BankAccount.balance);</code></pre><div class="code-example-explanation">The module pattern uses an IIFE that returns an object with methods. The methods form closures over the private variables (<code>balance</code>, <code>transactions</code>). The private variables cannot be accessed directly from outside -- only through the public methods. This is the JavaScript version of private/public access control.</div><div class="code-example-output">Deposited Rs 1000. Balance: Rs 1000
+Deposited Rs 500. Balance: Rs 1500
+Withdrawn Rs 200. Balance: Rs 1300
+Balance: 1300
+Transactions: 3
+Direct access: undefined</div></div>
+<div class="code-example"><div class="code-example-title">Closure Patterns: Function Factory and Memoize</div><pre><code class="language-python">// --- Function Factory ---
+function createValidator(min, max) {
+  return function(value) {
+    return value &gt;= min &amp;&amp; value &lt;= max;
+  };
+}
+
+const isValidAge = createValidator(0, 120);
+const isValidScore = createValidator(0, 100);
+const isValidTemperature = createValidator(-50, 60);
+
+console.log(isValidAge(25));          // true
+console.log(isValidAge(150));         // false
+console.log(isValidScore(85));        // true
+console.log(isValidTemperature(-10)); // true
+
+// --- Memoize ---
+function memoize(fn) {
+  const cache = {};
+  return function() {
+    const key = JSON.stringify(arguments);
+    if (cache[key] !== undefined) return cache[key];
+    cache[key] = fn.apply(this, arguments);
+    return cache[key];
+  };
+}
+
+function fibonacci(n) {
+  if (n &lt;= 1) return n;
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+const fastFib = memoize(function fib(n) {
+  if (n &lt;= 1) return n;
+  return fastFib(n - 1) + fastFib(n - 2);
+});
+
+console.log(fastFib(10));  // 55
+console.log(fastFib(20));  // 6765
+console.log(fastFib(30));  // 832040 (instant with memoization)</code></pre><div class="code-example-explanation">Function factories use closures to create specialized functions. <code>createValidator</code> captures <code>min</code> and <code>max</code>, returning a function that validates any value against those bounds. The memoize function uses a closure to maintain a <code>cache</code> object that stores previously computed results, making repeated calls instant.</div><div class="code-example-output">true
+false
+true
+true
+55
+6765
+832040</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using var in a Loop with Closures</h3>
+                <div class="wrong-code"><pre><code class="language-python">for (var i = 0; i &lt; 3; i++) {
+  setTimeout(function() {
+    console.log(i); // Prints 3, 3, 3
+  }, 100);
+}</code></pre></div><div class="error-message">All callbacks print 3 instead of 0, 1, 2. All closures share the same var i, which is 3 after the loop ends.</div><div class="correct-code"><pre><code class="language-python">for (let i = 0; i &lt; 3; i++) {
+  setTimeout(function() {
+    console.log(i); // Prints 0, 1, 2
+  }, 100);
+}</code></pre></div><div class="mistake-explanation"><code>var</code> is function-scoped, so there is only one <code>i</code> shared by all iterations. <code>let</code> is block-scoped, creating a new <code>i</code> for each iteration. Always use <code>let</code> in loops.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Expecting var to Be Block-Scoped</h3>
+                <div class="wrong-code"><pre><code class="language-python">if (true) {
+  var secret = &quot;hidden&quot;;
+}
+console.log(secret); // &quot;hidden&quot; -- oops, it leaked!</code></pre></div><div class="error-message">var ignores block boundaries. The variable leaks out of the if block.</div><div class="correct-code"><pre><code class="language-python">if (true) {
+  let secret = &quot;hidden&quot;;
+}
+// console.log(secret); // ReferenceError: secret is not defined</code></pre></div><div class="mistake-explanation"><code>var</code> is only scoped by functions, not by blocks like if, for, or while. <code>let</code> and <code>const</code> are properly block-scoped. Always use <code>let</code> or <code>const</code> to avoid accidental variable leaking.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using a Variable Before let/const Declaration</h3>
+                <div class="wrong-code"><pre><code class="language-python">console.log(name); // ReferenceError!
+let name = &quot;Aarav&quot;;</code></pre></div><div class="error-message">ReferenceError: Cannot access &#39;name&#39; before initialization. This is the Temporal Dead Zone (TDZ).</div><div class="correct-code"><pre><code class="language-python">let name = &quot;Aarav&quot;;
+console.log(name); // &quot;Aarav&quot;</code></pre></div><div class="mistake-explanation"><code>let</code> and <code>const</code> are hoisted but not initialized. The time between hoisting and the declaration line is the Temporal Dead Zone, where accessing the variable throws a ReferenceError. Always declare variables before using them.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Assuming Closures Copy Values</h3>
+                <div class="wrong-code"><pre><code class="language-python">function make() {
+  let x = 1;
+  const fn = function() { return x; };
+  x = 2;  // Change x after creating the closure
+  return fn;
+}
+console.log(make()()); // 2 (not 1!)
+// The closure references the variable, not the value at creation time</code></pre></div><div class="error-message">Expected 1 but got 2. Closures capture a reference to the variable, not a snapshot of its value.</div><div class="correct-code"><pre><code class="language-python">// If you need the value at creation time, capture it explicitly
+function make() {
+  let x = 1;
+  const captured = x;  // Capture the current value
+  const fn = function() { return captured; };
+  x = 2;
+  return fn;
+}
+console.log(make()()); // 1</code></pre></div><div class="mistake-explanation">Closures hold a reference to the variable, not a copy of its value. If the variable changes after the closure is created, the closure sees the updated value. To capture a specific value, assign it to a new variable.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing Function Declaration and Expression Hoisting</h3>
+                <div class="wrong-code"><pre><code class="language-python">sayHello(); // Works!
+function sayHello() { console.log(&quot;Hello&quot;); }
+
+sayBye(); // TypeError: sayBye is not a function
+var sayBye = function() { console.log(&quot;Bye&quot;); };</code></pre></div><div class="error-message">Function declarations are fully hoisted (name + body). Function expressions assigned to var are only partially hoisted (the variable is undefined until assignment).</div><div class="correct-code"><pre><code class="language-python">// Put function expressions BEFORE their first use
+var sayBye = function() { console.log(&quot;Bye&quot;); };
+sayBye(); // Works
+
+// Or use function declarations which are fully hoisted
+function sayHello() { console.log(&quot;Hello&quot;); }
+sayHello(); // Works regardless of position</code></pre></div><div class="mistake-explanation">A function declaration (<code>function name() { }</code>) is fully hoisted -- you can call it before it appears in the code. A function expression (<code>var name = function() { }</code>) follows var hoisting rules: the variable exists but is undefined until the assignment line.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Scope determines where variables are accessible. JavaScript has three types: global scope (accessible everywhere), function scope (inside a function only), and block scope (inside { } for let/const only).</li>
+<li>var is function-scoped and ignores blocks. let and const are block-scoped. This is the main reason to always prefer let/const over var.</li>
+<li>Lexical scope means inner functions can access variables from their outer functions. The scope is determined by where the code is written, not where it is called.</li>
+<li>A closure is an inner function that retains access to its outer function&#39;s variables even after the outer function returns. The inner function &#39;closes over&#39; the variables it needs.</li>
+<li>Practical closure patterns: counter factory (private state), function factory (customized functions), private variables (data hiding), and memoization (result caching).</li>
+<li>Hoisting: var declarations are moved to the top and initialized to undefined. let/const are hoisted but NOT initialized (Temporal Dead Zone). Function declarations are fully hoisted (can be called before they appear).</li>
+<li>The Temporal Dead Zone (TDZ) is the period between a let/const variable being hoisted and its actual declaration line. Accessing it during the TDZ throws a ReferenceError.</li>
+<li>Classic loop trap: var in a for loop creates ONE shared variable for all closures. let creates a NEW variable per iteration. Always use let in loops with callbacks or closures.</li>
+<li>IIFE (Immediately Invoked Function Expression) creates a scope to avoid polluting the global namespace. Syntax: (function() { ... })(). Used before let/const existed, still useful for the module pattern.</li>
+<li>The module pattern uses an IIFE that returns an object of public methods, with private variables trapped in the closure. This provides encapsulation -- private state that can only be accessed through the returned API.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/array-and-object-advanced-patterns" class="related-topic-link">Advanced Array and Object Patterns</a>
+<a href="/resources/javascript/project-interactive-portfolio" class="related-topic-link">Project: Build an Interactive Portfolio Website</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/array-and-object-advanced-patterns" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Advanced Array and Object Patterns</span>
+        </a>
+            <a href="/resources/javascript/project-interactive-portfolio" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Project: Build an Interactive Portfolio Website</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/closures-scope-and-hoisting/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

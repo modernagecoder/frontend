@@ -1,0 +1,760 @@
+{
+  "title": "Introduction to JavaScript",
+  "slug": "introduction-to-javascript",
+  "language": "javascript",
+  "chapter": 1,
+  "difficulty": "Beginner",
+  "readingTime": "20 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "Introduction to JavaScript - What Is JavaScript and Why Learn It | Modern Age Coders",
+    "description": "Learn what JavaScript is, how it works with HTML and CSS, and write your first interactive script. Includes 55 code-based practice questions for beginners.",
+    "keywords": "what is javascript, javascript introduction, why learn javascript, javascript for beginners, javascript html css, javascript first program, learn javascript from scratch, javascript tutorial for teens"
+  },
+  "content": {
+    "what": "<h2>What Is JavaScript?</h2><p><strong>JavaScript</strong> is the programming language of the web. Every interactive thing you see on a website — a button that changes color when you hover over it, a form that checks your email before you submit, a dropdown menu that slides open, a live chat widget, an animated counter — that is JavaScript at work.</p><p>Think of a website as a house. <strong>HTML</strong> is the structure — the walls, floors, and roof. <strong>CSS</strong> is the paint, furniture, and decoration. <strong>JavaScript</strong> is the electricity — it makes things actually work. Without JavaScript, websites would be static pages that just sit there. With JavaScript, they come alive.</p><h3>The Three Layers of the Web</h3><table><tr><th>Technology</th><th>Role</th><th>Example</th></tr><tr><td><code>HTML</code></td><td>Structure (content)</td><td>A button on the page</td></tr><tr><td><code>CSS</code></td><td>Style (appearance)</td><td>The button is blue and rounded</td></tr><tr><td><code>JavaScript</code></td><td>Behavior (interactivity)</td><td>Clicking the button shows a message</td></tr></table><p>You cannot build a modern website without all three working together. HTML without CSS looks ugly. HTML + CSS without JavaScript looks pretty but does nothing. JavaScript is what turns a poster into an app.</p>",
+    "why": "<h2>Why Should You Learn JavaScript?</h2><p>JavaScript is the single most important language to learn if you want to build anything for the web. Here is why:</p><h3>1. It Runs Everywhere</h3><p>JavaScript is the only programming language that runs natively in every web browser — Chrome, Firefox, Safari, Edge. You do not need to install anything. Open your browser, press F12, and you can start writing JavaScript right now. No compiler, no setup, no downloads.</p><h3>2. You See Results Instantly</h3><p>Unlike some languages where you write code, compile it, and then run it, JavaScript gives you instant feedback. Change a line of code, refresh the page, and you see the result immediately. This makes learning faster and more fun.</p><h3>3. It Powers Everything on the Web</h3><p>Every website you use daily — Google, YouTube, Instagram, WhatsApp Web, Netflix — uses JavaScript. Learning JavaScript means you can understand and build the same kind of interactive experiences.</p><h3>4. It Works Beyond the Browser</h3><p>JavaScript is not limited to websites. With <strong>Node.js</strong>, you can use JavaScript to build servers, desktop apps, mobile apps, and even control robots. Companies like Netflix, PayPal, and LinkedIn use JavaScript on their servers.</p><h3>5. Massive Job Market</h3><p>JavaScript is consistently the most popular programming language in developer surveys. Learning it opens doors to frontend development, backend development, mobile app development, and more.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>A Brief History</h3><p>JavaScript was created by <strong>Brendan Eich</strong> in 1995, working at Netscape (one of the first web browsers). He built the first version in just 10 days. The language was originally called Mocha, then LiveScript, and finally renamed to JavaScript as a marketing move to ride the popularity of Java — even though JavaScript and Java are completely different languages.</p><p>Over the years, JavaScript has evolved dramatically. The big update came in 2015 with <strong>ES6 (ECMAScript 2015)</strong>, which added features like <code>let</code>, <code>const</code>, arrow functions, and template literals. Today, JavaScript gets yearly updates and is one of the most powerful languages in the world.</p><h3>JavaScript vs Java</h3><p>This confuses a lot of beginners. <strong>JavaScript and Java are completely different languages.</strong> They have different syntax, different use cases, and were created by different people. The name similarity is purely a marketing decision from 1995. Think of it like \"car\" and \"carpet\" — they share letters but have nothing else in common.</p><h3>What Can JavaScript Do?</h3><p>Here is a concrete list of things JavaScript can do on a web page:</p><ul><li><strong>Change content:</strong> Update text, images, or HTML on the page without reloading</li><li><strong>Respond to events:</strong> React when a user clicks, types, scrolls, or hovers</li><li><strong>Validate forms:</strong> Check if an email is valid before sending it to the server</li><li><strong>Animate elements:</strong> Slide, fade, rotate, or bounce elements on the page</li><li><strong>Fetch data:</strong> Load new data from a server without refreshing the page (AJAX/Fetch API)</li><li><strong>Store data:</strong> Save information in the browser using localStorage</li><li><strong>Build games:</strong> Create interactive games using the HTML5 Canvas</li><li><strong>Control multimedia:</strong> Play/pause videos, create audio players</li></ul><h3>Where Does JavaScript Run?</h3><p>JavaScript runs in two main environments:</p><h4>1. The Browser</h4><p>Every web browser has a built-in <strong>JavaScript engine</strong> that reads and executes JavaScript code. Chrome uses the <strong>V8 engine</strong>, Firefox uses <strong>SpiderMonkey</strong>, and Safari uses <strong>JavaScriptCore</strong>. When you open a web page, the browser downloads the HTML, CSS, and JavaScript files, then the engine runs the JavaScript code.</p><h4>2. Node.js (Server-Side)</h4><p><strong>Node.js</strong> takes Chrome's V8 engine and lets you run JavaScript outside the browser — on your computer or on a server. This means you can use the same language for both the frontend (what users see) and the backend (the server logic). We will focus on browser JavaScript in this guide.</p><h3>Your First JavaScript Program</h3><p>Let us write a complete web page with HTML, CSS, and JavaScript working together. This page has a button that changes the text when you click it.</p><p>To try this, create a file called <code>index.html</code> on your computer, paste the code from Example 1 below, and open it in your browser. Click the button and watch the magic happen. That is JavaScript.</p><h3>How the Browser Reads Your Code</h3><p>When you open an HTML file in the browser, here is what happens in order:</p><ol><li>The browser reads the HTML from top to bottom</li><li>It builds the page structure (the DOM — Document Object Model)</li><li>It applies the CSS styles</li><li>It runs any JavaScript code it finds</li></ol><p>This order matters. If your JavaScript tries to find a button that has not been created yet (because the HTML has not been read that far), it will fail. That is why we usually put the <code>&lt;script&gt;</code> tag at the end of the <code>&lt;body&gt;</code>, after all the HTML elements. You will learn more about this in Chapter 2.</p>",
+    "codeExamples": [
+      {
+        "title": "Your First Interactive Web Page",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My First JS Page</title>\n  <style>\n    body { font-family: Arial; text-align: center; padding: 50px; }\n    button { padding: 10px 20px; font-size: 18px; cursor: pointer; }\n    #message { font-size: 24px; margin: 20px; }\n  </style>\n</head>\n<body>\n  <h1>My First JavaScript Page</h1>\n  <p id=\"message\">Click the button below!</p>\n  <button onclick=\"changeText()\">Click Me</button>\n\n  <script>\n    function changeText() {\n      document.getElementById(\"message\").textContent = \"JavaScript is working!\";\n    }\n  </script>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This is a complete web page with all three layers working together. The HTML creates a heading, a paragraph with <code>id=\"message\"</code>, and a button. The CSS centers everything and styles the button. The JavaScript defines a function <code>changeText()</code> that finds the paragraph by its ID and changes its text. When you click the button, the <code>onclick</code> attribute calls this function. Notice the script tag is placed before the closing <code>&lt;/body&gt;</code> tag.",
+        "output": "Before click: 'Click the button below!'\nAfter click: 'JavaScript is working!'"
+      },
+      {
+        "title": "Using console.log() to See Output",
+        "code": "console.log(\"Hello from JavaScript!\");\nconsole.log(42);\nconsole.log(10 + 5);\nconsole.log(\"Aarav\" + \" is learning JS\");",
+        "language": "javascript",
+        "explanation": "<code>console.log()</code> is how you print output in JavaScript. It does not show anything on the web page — it prints to the browser's Developer Console (press F12 to open it). This is your best friend for testing and debugging. You can log text (strings in quotes), numbers, math expressions, and even combine strings with the <code>+</code> operator.",
+        "output": "Hello from JavaScript!\n42\n15\nAarav is learning JS"
+      },
+      {
+        "title": "JavaScript Can Change Styles",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Change Color</title>\n  <style>\n    #box {\n      width: 200px; height: 200px;\n      background-color: #3498db;\n      margin: 20px auto;\n      border-radius: 10px;\n      transition: background-color 0.3s;\n    }\n  </style>\n</head>\n<body>\n  <div id=\"box\"></div>\n  <button onclick=\"changeColor()\">Change Color</button>\n\n  <script>\n    function changeColor() {\n      let box = document.getElementById(\"box\");\n      box.style.backgroundColor = \"#e74c3c\";\n    }\n  </script>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "JavaScript can change any CSS property on any element. Here, clicking the button runs the <code>changeColor()</code> function, which finds the <code>div</code> with <code>id=\"box\"</code> and changes its <code>backgroundColor</code> to red. Notice that CSS properties with hyphens (like <code>background-color</code>) become camelCase in JavaScript (<code>backgroundColor</code>). The CSS <code>transition</code> property makes the color change smooth.",
+        "output": "The blue box smoothly changes to red when the button is clicked."
+      },
+      {
+        "title": "JavaScript Can Respond to User Input",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Greeting App</title>\n  <style>\n    body { font-family: Arial; text-align: center; padding: 30px; }\n    input { padding: 8px; font-size: 16px; }\n    button { padding: 8px 16px; font-size: 16px; }\n    #greeting { font-size: 20px; color: #2ecc71; margin: 15px; }\n  </style>\n</head>\n<body>\n  <h1>Greeting App</h1>\n  <input type=\"text\" id=\"nameInput\" placeholder=\"Enter your name\">\n  <button onclick=\"greet()\">Say Hello</button>\n  <p id=\"greeting\"></p>\n\n  <script>\n    function greet() {\n      let name = document.getElementById(\"nameInput\").value;\n      document.getElementById(\"greeting\").textContent = \"Hello, \" + name + \"! Welcome to JavaScript.\";\n    }\n  </script>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This example reads user input from a text field using <code>.value</code>, then displays a personalized greeting. Priya types her name, clicks the button, and sees \"Hello, Priya! Welcome to JavaScript.\" on the page. The <code>.value</code> property gets whatever the user typed in the input field. The <code>.textContent</code> property sets the text of the paragraph.",
+        "output": "If user types 'Priya' and clicks the button:\nHello, Priya! Welcome to JavaScript."
+      },
+      {
+        "title": "alert(), prompt(), and confirm()",
+        "code": "// alert() shows a popup message\nalert(\"Welcome to JavaScript!\");\n\n// prompt() asks for input and returns what the user typed\nlet name = prompt(\"What is your name?\");\nconsole.log(\"User entered: \" + name);\n\n// confirm() asks a yes/no question, returns true or false\nlet likesJS = confirm(\"Do you like JavaScript?\");\nconsole.log(\"Likes JavaScript: \" + likesJS);",
+        "language": "javascript",
+        "explanation": "These are three built-in browser dialog functions. <code>alert()</code> shows a message popup. <code>prompt()</code> shows an input dialog and returns whatever the user types (or <code>null</code> if they cancel). <code>confirm()</code> shows a dialog with OK and Cancel buttons, returning <code>true</code> for OK and <code>false</code> for Cancel. These are useful for quick interactions but should not be used in real websites because they block the page.",
+        "output": "A popup saying 'Welcome to JavaScript!'\nA dialog asking for the user's name\nA dialog asking 'Do you like JavaScript?' with OK and Cancel"
+      },
+      {
+        "title": "typeof Operator - Checking Data Types",
+        "code": "console.log(typeof 42);           // \"number\"\nconsole.log(typeof \"hello\");      // \"string\"\nconsole.log(typeof true);         // \"boolean\"\nconsole.log(typeof undefined);    // \"undefined\"\nconsole.log(typeof null);         // \"object\" (a famous JS bug!)\nconsole.log(typeof console.log);  // \"function\"",
+        "language": "javascript",
+        "explanation": "The <code>typeof</code> operator tells you what type a value is. It returns a string like <code>\"number\"</code>, <code>\"string\"</code>, <code>\"boolean\"</code>, <code>\"undefined\"</code>, or <code>\"function\"</code>. There is one famous quirk: <code>typeof null</code> returns <code>\"object\"</code> instead of <code>\"null\"</code>. This is a bug from the very first version of JavaScript in 1995 that was never fixed because too many websites depend on it.",
+        "output": "number\nstring\nboolean\nundefined\nobject\nfunction"
+      },
+      {
+        "title": "A Simple Counter App",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Counter</title>\n  <style>\n    body { font-family: Arial; text-align: center; padding: 40px; }\n    #count { font-size: 48px; margin: 20px; }\n    button { padding: 10px 25px; font-size: 20px; margin: 5px; cursor: pointer; }\n  </style>\n</head>\n<body>\n  <h1>Click Counter</h1>\n  <p id=\"count\">0</p>\n  <button onclick=\"increment()\">+1</button>\n  <button onclick=\"decrement()\">-1</button>\n  <button onclick=\"reset()\">Reset</button>\n\n  <script>\n    let count = 0;\n\n    function increment() {\n      count = count + 1;\n      document.getElementById(\"count\").textContent = count;\n    }\n\n    function decrement() {\n      count = count - 1;\n      document.getElementById(\"count\").textContent = count;\n    }\n\n    function reset() {\n      count = 0;\n      document.getElementById(\"count\").textContent = count;\n    }\n  </script>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This is a practical project — a counter app with three buttons. A variable <code>count</code> stores the current number. Each function modifies <code>count</code> and updates the page. <code>increment()</code> adds 1, <code>decrement()</code> subtracts 1, and <code>reset()</code> sets it back to 0. The variable lives outside the functions so all three functions can access it. This is your first real interactive app.",
+        "output": "A page showing 0 with +1, -1, and Reset buttons.\nClicking +1 three times shows 3.\nClicking -1 once shows 2.\nClicking Reset shows 0."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Putting the Script Tag Before the HTML Elements",
+        "wrongCode": "<!DOCTYPE html>\n<html>\n<head>\n  <script>\n    document.getElementById(\"msg\").textContent = \"Hello!\";\n  </script>\n</head>\n<body>\n  <p id=\"msg\">Original text</p>\n</body>\n</html>",
+        "error": "TypeError: Cannot set properties of null (reading 'textContent')",
+        "correctCode": "<!DOCTYPE html>\n<html>\n<head></head>\n<body>\n  <p id=\"msg\">Original text</p>\n\n  <script>\n    document.getElementById(\"msg\").textContent = \"Hello!\";\n  </script>\n</body>\n</html>",
+        "explanation": "When the script is in the <code>&lt;head&gt;</code>, it runs before the browser has created the <code>&lt;p&gt;</code> element. So <code>getElementById(\"msg\")</code> returns <code>null</code> because the element does not exist yet. The fix is to put the <code>&lt;script&gt;</code> tag at the end of <code>&lt;body&gt;</code>, after all the HTML elements. This way, all elements are created before the JavaScript runs."
+      },
+      {
+        "title": "Using = Instead of == for Comparison",
+        "wrongCode": "let score = 100;\nif (score = 50) {\n  console.log(\"Score is 50\");\n}",
+        "error": "No error, but the condition is always true! score gets reassigned to 50.",
+        "correctCode": "let score = 100;\nif (score === 50) {\n  console.log(\"Score is 50\");\n}",
+        "explanation": "A single <code>=</code> is the assignment operator — it stores a value. A double <code>==</code> or triple <code>===</code> is for comparison. In the wrong code, <code>score = 50</code> assigns 50 to score and the <code>if</code> evaluates 50, which is truthy. So the message prints even though the score was originally 100. Always use <code>===</code> for comparison in JavaScript."
+      },
+      {
+        "title": "Forgetting Quotes Around Strings",
+        "wrongCode": "console.log(Hello World);",
+        "error": "ReferenceError: Hello is not defined",
+        "correctCode": "console.log(\"Hello World\");",
+        "explanation": "Text values (strings) must be wrapped in quotes — either double quotes <code>\"Hello\"</code>, single quotes <code>'Hello'</code>, or backticks <code>`Hello`</code>. Without quotes, JavaScript thinks <code>Hello</code> is a variable name and looks for a variable called Hello. Since it does not exist, you get a ReferenceError."
+      },
+      {
+        "title": "Misspelling getElementById",
+        "wrongCode": "document.getElementByld(\"msg\").textContent = \"Hello\";\n// Note: that is a lowercase 'L' instead of capital 'I' in 'Id'",
+        "error": "TypeError: document.getElementByld is not a function",
+        "correctCode": "document.getElementById(\"msg\").textContent = \"Hello\";",
+        "explanation": "JavaScript is <strong>case-sensitive</strong>. The method name is <code>getElementById</code> with a capital B, capital I, and lowercase d. Common misspellings include <code>getElementByld</code> (lowercase L instead of I), <code>getelementbyid</code> (all lowercase), and <code>getElementByID</code> (capital D). Always double-check the spelling."
+      },
+      {
+        "title": "Using textContent vs innerHTML Incorrectly",
+        "wrongCode": "document.getElementById(\"msg\").textContent = \"<strong>Bold text</strong>\";",
+        "error": "No error, but the page literally shows '<strong>Bold text</strong>' as plain text, not bold.",
+        "correctCode": "document.getElementById(\"msg\").innerHTML = \"<strong>Bold text</strong>\";",
+        "explanation": "<code>textContent</code> treats everything as plain text — HTML tags are displayed as-is, not rendered. If you want to insert HTML that the browser should render (like bold text or links), use <code>innerHTML</code>. However, be careful with <code>innerHTML</code> when dealing with user input, as it can create security vulnerabilities (XSS attacks)."
+      }
+    ],
+    "summary": [
+      "JavaScript is the programming language of the web. It adds interactivity and behavior to web pages built with HTML and CSS.",
+      "HTML provides structure (content), CSS provides style (appearance), and JavaScript provides behavior (interactivity). All three work together.",
+      "JavaScript was created by Brendan Eich in 1995 at Netscape. Despite the name, JavaScript and Java are completely different languages.",
+      "JavaScript runs in every web browser using built-in engines (V8 in Chrome, SpiderMonkey in Firefox). It also runs on servers via Node.js.",
+      "You can add JavaScript to a web page using the <script> tag, placed before the closing </body> tag so all HTML elements are available.",
+      "console.log() prints output to the browser's Developer Console (F12). It does not display anything on the web page itself.",
+      "document.getElementById() finds an HTML element by its id attribute. You can then change its textContent, innerHTML, or style properties.",
+      "The typeof operator returns the type of a value as a string: 'number', 'string', 'boolean', 'undefined', 'object', or 'function'.",
+      "alert() shows a popup, prompt() asks for input, and confirm() asks a yes/no question. These are useful for learning but not for real websites.",
+      "JavaScript is case-sensitive. getElementById is not the same as getElementByid. Always watch your capitalization."
+    ]
+  },
+  "relatedTopics": ["javascript-in-the-browser", "variables-and-data-types"],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>console.log(typeof 42);</code></pre>",
+        "hint": "typeof returns the type of a value as a string.",
+        "answer": "<code>number</code>",
+        "explanation": "The <code>typeof</code> operator returns a string representing the type. <code>42</code> is a number, so <code>typeof 42</code> returns the string <code>\"number\"</code>. This is printed to the console."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(typeof \"hello\");</code></pre>",
+        "hint": "Anything inside quotes is a string.",
+        "answer": "<code>string</code>",
+        "explanation": "<code>\"hello\"</code> is a text value enclosed in quotes, which makes it a string. <code>typeof \"hello\"</code> returns <code>\"string\"</code>."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(10 + 5);\nconsole.log(\"10\" + \"5\");</code></pre>",
+        "hint": "The + operator behaves differently with numbers and strings.",
+        "answer": "<code>15</code><br><code>105</code>",
+        "explanation": "When both values are numbers, <code>+</code> performs addition: <code>10 + 5 = 15</code>. When both values are strings (in quotes), <code>+</code> performs <strong>concatenation</strong> (joins them): <code>\"10\" + \"5\" = \"105\"</code>. This is a critical JavaScript concept."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(typeof true);\nconsole.log(typeof false);</code></pre>",
+        "hint": "true and false are special values in JavaScript.",
+        "answer": "<code>boolean</code><br><code>boolean</code>",
+        "explanation": "<code>true</code> and <code>false</code> are the two Boolean values in JavaScript. <code>typeof true</code> and <code>typeof false</code> both return <code>\"boolean\"</code>."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(typeof undefined);\nconsole.log(typeof null);</code></pre>",
+        "hint": "One of these has a famous quirk that is a known bug in JavaScript.",
+        "answer": "<code>undefined</code><br><code>object</code>",
+        "explanation": "<code>typeof undefined</code> returns <code>\"undefined\"</code> as expected. But <code>typeof null</code> returns <code>\"object\"</code>, which is a well-known bug in JavaScript from 1995. It was never fixed because changing it would break existing websites. Remember this quirk."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(\"Aarav\" + \" is \" + 15 + \" years old\");</code></pre>",
+        "hint": "When you add a string and a number, the number becomes a string.",
+        "answer": "<code>Aarav is 15 years old</code>",
+        "explanation": "JavaScript converts the number <code>15</code> to the string <code>\"15\"</code> when it is combined with strings using <code>+</code>. The entire expression joins all parts into one string: <code>\"Aarav is 15 years old\"</code>."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(5 + 3 + \" cats\");\nconsole.log(\"cats \" + 5 + 3);</code></pre>",
+        "hint": "JavaScript evaluates left to right. The + operator switches from addition to concatenation when it encounters a string.",
+        "answer": "<code>8 cats</code><br><code>cats 53</code>",
+        "explanation": "In the first line, <code>5 + 3</code> is evaluated first (both numbers, so addition gives 8), then <code>8 + \" cats\"</code> becomes string concatenation: <code>\"8 cats\"</code>. In the second line, <code>\"cats \" + 5</code> is string + number, so 5 becomes <code>\"5\"</code> giving <code>\"cats 5\"</code>, then <code>\"cats 5\" + 3</code> gives <code>\"cats 53\"</code>. The order matters!"
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let x;\nconsole.log(x);\nconsole.log(typeof x);</code></pre>",
+        "hint": "What happens when you declare a variable without assigning a value?",
+        "answer": "<code>undefined</code><br><code>undefined</code>",
+        "explanation": "When you declare a variable with <code>let</code> but do not assign a value, it is automatically set to <code>undefined</code>. <code>console.log(x)</code> prints <code>undefined</code>. <code>typeof x</code> returns the string <code>\"undefined\"</code>."
+      },
+      {
+        "id": "ts-9",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a complete HTML page with a button that shows an alert saying 'Hello, World!' when clicked.",
+        "hint": "Use the onclick attribute on the button and the alert() function.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;body&gt;\n  &lt;button onclick=\"alert('Hello, World!')\"&gt;Click Me&lt;/button&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "The <code>onclick</code> attribute runs JavaScript code when the button is clicked. <code>alert('Hello, World!')</code> shows a popup with the message. Note the use of single quotes inside the double quotes of the attribute value to avoid conflicts."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens when you run this code?<br><pre><code>console.log(typeof console.log);</code></pre>",
+        "hint": "console.log is itself a value. What kind of value is it?",
+        "answer": "<code>function</code>",
+        "explanation": "<code>console.log</code> without the parentheses refers to the function itself, not its return value. <code>typeof console.log</code> returns <code>\"function\"</code>. If you had written <code>typeof console.log()</code>, the <code>console.log()</code> would execute first (returning <code>undefined</code>), and then <code>typeof undefined</code> would give <code>\"undefined\"</code>."
+      },
+      {
+        "id": "ts-11",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Rohan wrote this code but gets an error. Find and fix the bug:<br><pre><code>&lt;script&gt;\n  console.log(Hello World);\n&lt;/script&gt;</code></pre>",
+        "hint": "Text values must be wrapped in something.",
+        "answer": "<pre><code>&lt;script&gt;\n  console.log(\"Hello World\");\n&lt;/script&gt;</code></pre>",
+        "explanation": "The string <code>Hello World</code> is missing quotes. Without quotes, JavaScript thinks <code>Hello</code> is a variable name and throws a <code>ReferenceError</code>. Strings must be in double quotes <code>\"\"</code>, single quotes <code>''</code>, or backticks <code>``</code>."
+      },
+      {
+        "id": "ts-12",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Ananya wrote this code. The page loads but nothing happens when she clicks the button. Find the bug:<br><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n  &lt;script&gt;\n    function show() {\n      document.getElementById(\"output\").textContent = \"Clicked!\";\n    }\n  &lt;/script&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;p id=\"output\"&gt;Waiting...&lt;/p&gt;\n  &lt;button onclick=\"show()\"&gt;Click&lt;/button&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "hint": "Think about when the script runs vs when the button is clicked.",
+        "answer": "Actually, this code will work! The function is defined in the head, but it does not run until the button is clicked. By the time the user clicks, the <code>&lt;p&gt;</code> element already exists. The bug is not here. However, the best practice is to move the script before <code>&lt;/body&gt;</code>. If the code inside the script tag tried to access the DOM directly (not inside a function), THAT would fail.",
+        "explanation": "This is a trick question. Functions defined in the <code>&lt;head&gt;</code> are stored in memory but do not execute until called. When the user clicks the button, the function runs and finds the <code>&lt;p&gt;</code> element successfully. The real problem only occurs when you write code that accesses DOM elements directly (not inside a function) in the head section."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(\"5\" - 3);\nconsole.log(\"5\" + 3);</code></pre>",
+        "hint": "The - operator does not concatenate strings, but the + operator does.",
+        "answer": "<code>2</code><br><code>53</code>",
+        "explanation": "The <code>-</code> operator only works with numbers, so JavaScript converts <code>\"5\"</code> to the number <code>5</code> and performs subtraction: <code>5 - 3 = 2</code>. The <code>+</code> operator can do both addition and string concatenation. When one operand is a string, it chooses concatenation: <code>\"5\" + 3 = \"53\"</code>. This inconsistency is one of JavaScript's most famous quirks."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(typeof typeof 42);</code></pre>",
+        "hint": "Work from the inside out. What does the inner typeof return? Then what is the typeof of that?",
+        "answer": "<code>string</code>",
+        "explanation": "The inner <code>typeof 42</code> returns the string <code>\"number\"</code>. Then the outer <code>typeof \"number\"</code> returns <code>\"string\"</code> because <code>\"number\"</code> is a string. <code>typeof</code> always returns a string, so <code>typeof typeof anything</code> will always be <code>\"string\"</code>."
+      },
+      {
+        "id": "ts-15",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write JavaScript code that declares a variable <code>name</code> with value <code>\"Vikram\"</code> and a variable <code>age</code> with value <code>16</code>, then logs: <code>Vikram is 16 years old</code>",
+        "hint": "You can combine strings and variables with the + operator.",
+        "answer": "<pre><code>let name = \"Vikram\";\nlet age = 16;\nconsole.log(name + \" is \" + age + \" years old\");</code></pre>",
+        "explanation": "Declare the variables with <code>let</code>, assign values, and use <code>+</code> to concatenate. JavaScript automatically converts the number <code>16</code> to a string when combined with other strings."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(\"\" + 1 + 0);\nconsole.log(\"\" - 1 + 0);\nconsole.log(true + false);\nconsole.log(\"6\" / \"2\");</code></pre>",
+        "hint": "The + operator with strings concatenates. The -, *, / operators always convert to numbers. true = 1, false = 0.",
+        "answer": "<code>10</code><br><code>-1</code><br><code>1</code><br><code>3</code>",
+        "explanation": "Line 1: <code>\"\" + 1</code> gives <code>\"1\"</code> (string concat), then <code>\"1\" + 0</code> gives <code>\"10\"</code>. Line 2: <code>\"\" - 1</code> converts empty string to 0, gives <code>-1</code>, then <code>-1 + 0 = -1</code>. Line 3: <code>true</code> is 1, <code>false</code> is 0, so <code>1 + 0 = 1</code>. Line 4: <code>/</code> converts both to numbers: <code>6 / 2 = 3</code>."
+      },
+      {
+        "id": "ts-17",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Priya wrote this code to change a heading's text, but nothing changes. Find the bug:<br><pre><code>&lt;h1 id=\"title\"&gt;Old Title&lt;/h1&gt;\n&lt;script&gt;\n  document.getElementById(\"Title\").textContent = \"New Title\";\n&lt;/script&gt;</code></pre>",
+        "hint": "JavaScript is case-sensitive when matching IDs.",
+        "answer": "<pre><code>document.getElementById(\"title\").textContent = \"New Title\";</code></pre>",
+        "explanation": "The id in the HTML is <code>\"title\"</code> (lowercase t), but the JavaScript looks for <code>\"Title\"</code> (uppercase T). Since IDs are case-sensitive, <code>getElementById(\"Title\")</code> returns <code>null</code>. The fix is to match the exact case: <code>\"title\"</code>."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(1 + \"2\" + 3 + 4);\nconsole.log(1 + 2 + \"3\" + 4);</code></pre>",
+        "hint": "JavaScript evaluates left to right. Once a string appears, everything after becomes concatenation.",
+        "answer": "<code>1234</code><br><code>334</code>",
+        "explanation": "Line 1: <code>1 + \"2\"</code> gives <code>\"12\"</code> (number + string = string), then <code>\"12\" + 3</code> gives <code>\"123\"</code>, then <code>\"123\" + 4</code> gives <code>\"1234\"</code>. Line 2: <code>1 + 2</code> gives <code>3</code> (both numbers), then <code>3 + \"3\"</code> gives <code>\"33\"</code>, then <code>\"33\" + 4</code> gives <code>\"334\"</code>. The position of the string changes everything."
+      },
+      {
+        "id": "ts-19",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a complete HTML page with an input field and a button. When the button is clicked, read the number from the input and display whether it is positive, negative, or zero in a paragraph below.",
+        "hint": "Use Number() or parseInt() to convert the input value to a number. Use if-else to check the condition.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;body&gt;\n  &lt;input type=\"number\" id=\"numInput\" placeholder=\"Enter a number\"&gt;\n  &lt;button onclick=\"check()\"&gt;Check&lt;/button&gt;\n  &lt;p id=\"result\"&gt;&lt;/p&gt;\n  &lt;script&gt;\n    function check() {\n      let num = Number(document.getElementById(\"numInput\").value);\n      let result;\n      if (num &gt; 0) {\n        result = num + \" is positive\";\n      } else if (num &lt; 0) {\n        result = num + \" is negative\";\n      } else {\n        result = \"The number is zero\";\n      }\n      document.getElementById(\"result\").textContent = result;\n    }\n  &lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "The input's <code>.value</code> property always returns a string. <code>Number()</code> converts it to a number. Then <code>if-else if-else</code> checks three conditions. The result is displayed in the paragraph using <code>.textContent</code>."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(Math.max(10, 20, 5));\nconsole.log(Math.min(10, 20, 5));</code></pre>",
+        "hint": "Math.max returns the largest number, Math.min returns the smallest.",
+        "answer": "<code>20</code><br><code>5</code>",
+        "explanation": "<code>Math.max()</code> takes any number of arguments and returns the largest one. <code>Math.max(10, 20, 5)</code> returns <code>20</code>. <code>Math.min()</code> returns the smallest: <code>Math.min(10, 20, 5)</code> returns <code>5</code>."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(\"Hello\" + \" \" + \"World\");</code></pre>",
+        "hint": "The + operator joins strings together.",
+        "answer": "<code>Hello World</code>",
+        "explanation": "The <code>+</code> operator when used with strings performs concatenation (joining). <code>\"Hello\" + \" \" + \"World\"</code> joins all three strings into <code>\"Hello World\"</code>."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(10 * 2 + 5);\nconsole.log(10 * (2 + 5));</code></pre>",
+        "hint": "Multiplication happens before addition, unless you use parentheses.",
+        "answer": "<code>25</code><br><code>70</code>",
+        "explanation": "In the first line, <code>10 * 2 = 20</code> is done first (multiplication before addition), then <code>20 + 5 = 25</code>. In the second line, parentheses force <code>2 + 5 = 7</code> first, then <code>10 * 7 = 70</code>."
+      },
+      {
+        "id": "mx-3",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write JavaScript code to calculate the area of a rectangle with width 12 and height 8. Log the result as: 'Area: 96'",
+        "hint": "Area = width * height.",
+        "answer": "<pre><code>let width = 12;\nlet height = 8;\nlet area = width * height;\nconsole.log(\"Area: \" + area);</code></pre>\nOutput: Area: 96",
+        "explanation": "Declare the width and height, multiply them to get the area, and concatenate the result with the label string. <code>12 * 8 = 96</code>."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let a = \"5\";\nlet b = 3;\nconsole.log(a + b);\nconsole.log(a - b);\nconsole.log(a * b);</code></pre>",
+        "hint": "Only the + operator concatenates strings. Other operators convert strings to numbers.",
+        "answer": "<code>53</code><br><code>2</code><br><code>15</code>",
+        "explanation": "<code>\"5\" + 3</code>: <code>+</code> with a string does concatenation, giving <code>\"53\"</code>. <code>\"5\" - 3</code>: <code>-</code> only works with numbers, so <code>\"5\"</code> is converted to <code>5</code>, giving <code>2</code>. <code>\"5\" * 3</code>: same conversion logic, giving <code>15</code>."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(Boolean(0));\nconsole.log(Boolean(\"\"));\nconsole.log(Boolean(\"0\"));\nconsole.log(Boolean(\" \"));</code></pre>",
+        "hint": "0 and empty string are falsy. But what about the string '0' and a string with just a space?",
+        "answer": "<code>false</code><br><code>false</code><br><code>true</code><br><code>true</code>",
+        "explanation": "<code>0</code> is falsy, so <code>Boolean(0)</code> is <code>false</code>. Empty string <code>\"\"</code> is falsy: <code>false</code>. But the string <code>\"0\"</code> is NOT empty — it has one character — so it is truthy: <code>true</code>. A space <code>\" \"</code> is also a non-empty string, so truthy: <code>true</code>. This catches many beginners."
+      },
+      {
+        "id": "mx-6",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a complete HTML page with a text input and a button. When the button is clicked, convert the text to uppercase and display it in a paragraph below the button.",
+        "hint": "Use .value to read the input and .toUpperCase() to convert the string.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;body&gt;\n  &lt;input type=\"text\" id=\"textInput\" placeholder=\"Type something\"&gt;\n  &lt;button onclick=\"convert()\"&gt;Convert&lt;/button&gt;\n  &lt;p id=\"output\"&gt;&lt;/p&gt;\n  &lt;script&gt;\n    function convert() {\n      let text = document.getElementById(\"textInput\").value;\n      document.getElementById(\"output\").textContent = text.toUpperCase();\n    }\n  &lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "The <code>.value</code> property reads the text from the input field. The <code>.toUpperCase()</code> string method converts all characters to uppercase. The result is displayed in the paragraph."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log([] + []);\nconsole.log([] + {});\nconsole.log({} + []);</code></pre>",
+        "hint": "Arrays and objects are converted to strings when used with +. An empty array becomes an empty string.",
+        "answer": "<code></code> (empty string)<br><code>[object Object]</code><br><code>[object Object]</code>",
+        "explanation": "When JavaScript uses <code>+</code> with non-primitives, it converts them to strings. An empty array <code>[]</code> becomes <code>\"\"</code>. So <code>[] + []</code> is <code>\"\" + \"\" = \"\"</code>. An empty object <code>{}</code> becomes <code>\"[object Object]\"</code>. So <code>[] + {}</code> is <code>\"\" + \"[object Object]\" = \"[object Object]\"</code>. In a console, <code>{} + []</code> may show <code>0</code> because <code>{}</code> is interpreted as an empty block, but as an expression it gives <code>\"[object Object]\"</code>."
+      },
+      {
+        "id": "mx-8",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Neha wrote this counter but the number keeps showing as text concatenation instead of addition (clicking +1 shows '01', '011', '0111'). Find and fix the bug:<br><pre><code>&lt;p id=\"count\"&gt;0&lt;/p&gt;\n&lt;button onclick=\"add()\"&gt;+1&lt;/button&gt;\n&lt;script&gt;\n  function add() {\n    let current = document.getElementById(\"count\").textContent;\n    document.getElementById(\"count\").textContent = current + 1;\n  }\n&lt;/script&gt;</code></pre>",
+        "hint": "What type does .textContent return? How can you convert it to a number?",
+        "answer": "<pre><code>function add() {\n  let current = Number(document.getElementById(\"count\").textContent);\n  document.getElementById(\"count\").textContent = current + 1;\n}</code></pre>",
+        "explanation": "<code>.textContent</code> always returns a <strong>string</strong>, even if the text looks like a number. So <code>current</code> is <code>\"0\"</code> (a string), and <code>\"0\" + 1</code> gives <code>\"01\"</code> (string concatenation). Wrapping it in <code>Number()</code> converts it to the number <code>0</code>, so <code>0 + 1</code> gives <code>1</code> (proper addition)."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(typeof NaN);\nconsole.log(NaN === NaN);\nconsole.log(isNaN(\"hello\"));</code></pre>",
+        "hint": "NaN stands for Not a Number, but what type does JavaScript think it is?",
+        "answer": "<code>number</code><br><code>false</code><br><code>true</code>",
+        "explanation": "Despite its name, <code>typeof NaN</code> is <code>\"number\"</code>. This is because NaN is technically a special IEEE 754 floating-point value. <code>NaN === NaN</code> is <code>false</code> — NaN is the only value in JavaScript that is not equal to itself. <code>isNaN(\"hello\")</code> tries to convert <code>\"hello\"</code> to a number (which gives NaN), then checks if it is NaN — result is <code>true</code>."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write JavaScript code that uses typeof to check and log the types of these values: 42, 'Rohan', true, null, undefined, [1,2,3].",
+        "hint": "Call typeof on each value and log the result.",
+        "answer": "<pre><code>console.log(typeof 42);          // number\nconsole.log(typeof 'Rohan');     // string\nconsole.log(typeof true);        // boolean\nconsole.log(typeof null);        // object\nconsole.log(typeof undefined);   // undefined\nconsole.log(typeof [1, 2, 3]);   // object</code></pre>",
+        "explanation": "Most results are intuitive except two: <code>typeof null</code> returns <code>\"object\"</code> (famous bug) and <code>typeof [1,2,3]</code> also returns <code>\"object\"</code> because arrays are objects in JavaScript. To check if something is an array, use <code>Array.isArray()</code>."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(\"b\" + \"a\" + + \"a\" + \"a\");</code></pre>",
+        "hint": "Pay attention to the + + part. The second + is a unary plus operator trying to convert 'a' to a number.",
+        "answer": "<code>baNaNa</code>",
+        "explanation": "Breaking it down: <code>\"b\" + \"a\"</code> gives <code>\"ba\"</code>. Then <code>+ \"a\"</code> is the unary plus trying to convert <code>\"a\"</code> to a number, which gives <code>NaN</code>. Then <code>\"ba\" + NaN</code> gives <code>\"baNaN\"</code>. Then <code>\"baNaN\" + \"a\"</code> gives <code>\"baNaNa\"</code>. This is a famous JavaScript trick that spells out \"baNaNa\"."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a complete HTML page with two number inputs and four buttons (+, -, *, /). When a button is clicked, perform the operation on the two numbers and display the result.",
+        "hint": "Use Number() to convert input values. Create a function for each operation or one function that takes the operator.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;body&gt;\n  &lt;input type=\"number\" id=\"num1\" placeholder=\"Number 1\"&gt;\n  &lt;input type=\"number\" id=\"num2\" placeholder=\"Number 2\"&gt;&lt;br&gt;&lt;br&gt;\n  &lt;button onclick=\"calc('+')\"&gt;+&lt;/button&gt;\n  &lt;button onclick=\"calc('-')\"&gt;-&lt;/button&gt;\n  &lt;button onclick=\"calc('*')\"&gt;*&lt;/button&gt;\n  &lt;button onclick=\"calc('/')\"&gt;/&lt;/button&gt;\n  &lt;p id=\"result\"&gt;&lt;/p&gt;\n  &lt;script&gt;\n    function calc(op) {\n      let a = Number(document.getElementById(\"num1\").value);\n      let b = Number(document.getElementById(\"num2\").value);\n      let result;\n      if (op === '+') result = a + b;\n      else if (op === '-') result = a - b;\n      else if (op === '*') result = a * b;\n      else if (op === '/') result = a / b;\n      document.getElementById(\"result\").textContent = \"Result: \" + result;\n    }\n  &lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "A single <code>calc()</code> function takes the operator as a parameter. It reads both input values, converts them to numbers, performs the correct operation using if-else, and displays the result."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does console.log() do in JavaScript?",
+        "options": {
+          "A": "Displays a message on the web page",
+          "B": "Prints output to the browser's developer console",
+          "C": "Shows an alert popup",
+          "D": "Writes to a log file on the computer"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>console.log()</code> prints output to the browser's Developer Console (accessible via F12). It does NOT display anything on the web page (A) — for that you would use <code>textContent</code> or <code>innerHTML</code>. It does not show a popup (C) — that is <code>alert()</code>. It does not write files (D)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the output of: console.log(typeof 'hello')?",
+        "options": {
+          "A": "text",
+          "B": "word",
+          "C": "string",
+          "D": "String"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>typeof 'hello'</code> returns <code>\"string\"</code> (lowercase). JavaScript's <code>typeof</code> returns lowercase type names. <code>String</code> with a capital S (D) is the String constructor, not the typeof result."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which of these correctly places JavaScript in an HTML file?",
+        "options": {
+          "A": "<javascript>code here</javascript>",
+          "B": "<js>code here</js>",
+          "C": "<script>code here</script>",
+          "D": "<code>code here</code>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> JavaScript is placed inside <code>&lt;script&gt;</code> tags in HTML. There are no <code>&lt;javascript&gt;</code> (A) or <code>&lt;js&gt;</code> (B) tags. The <code>&lt;code&gt;</code> tag (D) is for displaying code as text, not executing it."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the output of: console.log(10 + '5')?",
+        "options": {
+          "A": "15",
+          "B": "105",
+          "C": "NaN",
+          "D": "Error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> When the <code>+</code> operator is used with a number and a string, JavaScript converts the number to a string and performs concatenation. <code>10 + '5'</code> becomes <code>'10' + '5' = '105'</code>. It does not perform addition (A)."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does typeof null return in JavaScript?",
+        "options": {
+          "A": "null",
+          "B": "undefined",
+          "C": "object",
+          "D": "boolean"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>typeof null</code> returns <code>\"object\"</code>. This is a well-known bug from the first version of JavaScript in 1995. Logically it should return <code>\"null\"</code>, but the bug was never fixed to avoid breaking existing code."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which method finds an HTML element by its id?",
+        "options": {
+          "A": "document.findById()",
+          "B": "document.getElementById()",
+          "C": "document.getElement()",
+          "D": "document.selectId()"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>document.getElementById()</code> is the standard method to find an HTML element by its <code>id</code> attribute. The other options are not valid JavaScript methods."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the output of: console.log('5' - 2)?",
+        "options": {
+          "A": "52",
+          "B": "3",
+          "C": "NaN",
+          "D": "Error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>-</code> operator does not do string concatenation — it only works with numbers. JavaScript converts <code>'5'</code> to the number <code>5</code> and performs subtraction: <code>5 - 2 = 3</code>. This is different from <code>+</code> which would give <code>'52'</code>."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Where should you place the <script> tag for best practice?",
+        "options": {
+          "A": "Inside the <title> tag",
+          "B": "At the very top of the HTML file",
+          "C": "Just before the closing </body> tag",
+          "D": "After the closing </html> tag"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Placing the script just before <code>&lt;/body&gt;</code> ensures all HTML elements have been created before the JavaScript runs. Placing it in the head (B) can cause errors if the script tries to access elements that do not exist yet. After <code>&lt;/html&gt;</code> (D) is invalid."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the output of: console.log(typeof typeof 42)?",
+        "options": {
+          "A": "number",
+          "B": "string",
+          "C": "typeof",
+          "D": "undefined"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The inner <code>typeof 42</code> returns the string <code>\"number\"</code>. Then <code>typeof \"number\"</code> returns <code>\"string\"</code>, because <code>\"number\"</code> is a string value. <code>typeof</code> always returns a string."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What does prompt() return if the user clicks Cancel?",
+        "options": {
+          "A": "undefined",
+          "B": "false",
+          "C": "null",
+          "D": "An empty string"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> When the user clicks Cancel on a <code>prompt()</code> dialog, the function returns <code>null</code>. If the user clicks OK without typing anything, it returns an empty string <code>\"\"</code>. This distinction matters when processing user input."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What is the output of: console.log(5 + 3 + '2')?",
+        "options": {
+          "A": "10",
+          "B": "532",
+          "C": "82",
+          "D": "55"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> JavaScript evaluates left to right. <code>5 + 3 = 8</code> (both numbers, so addition). Then <code>8 + '2' = '82'</code> (number + string, so concatenation). The string <code>'2'</code> triggers concatenation only from that point onward."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Which of the following is NOT a valid way to declare a variable in JavaScript?",
+        "options": {
+          "A": "let x = 5;",
+          "B": "const x = 5;",
+          "C": "var x = 5;",
+          "D": "int x = 5;"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> JavaScript does not have an <code>int</code> keyword. That is from languages like C and Java. In JavaScript, you declare variables with <code>let</code>, <code>const</code>, or <code>var</code>. JavaScript variables do not have explicit types."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the output of: console.log('b' + 'a' + + 'a' + 'a')?",
+        "options": {
+          "A": "baaa",
+          "B": "baNaNa",
+          "C": "ba1a",
+          "D": "Error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>'b' + 'a'</code> gives <code>'ba'</code>. The <code>+ 'a'</code> is a unary plus on the string <code>'a'</code>, which cannot be converted to a number, so it becomes <code>NaN</code>. Then <code>'ba' + NaN</code> gives <code>'baNaN'</code>. Finally <code>'baNaN' + 'a'</code> gives <code>'baNaNa'</code>."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the output of: console.log('' == false)?",
+        "options": {
+          "A": "true",
+          "B": "false",
+          "C": "undefined",
+          "D": "Error"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> The <code>==</code> operator performs type coercion. An empty string <code>''</code> is coerced to <code>0</code>, and <code>false</code> is also coerced to <code>0</code>. <code>0 == 0</code> is <code>true</code>. This is why <code>===</code> (strict equality without coercion) is recommended over <code>==</code>."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What is the output of: console.log(NaN === NaN)?",
+        "options": {
+          "A": "true",
+          "B": "false",
+          "C": "NaN",
+          "D": "Error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>NaN</code> is the only value in JavaScript that is not equal to itself. <code>NaN === NaN</code> is <code>false</code>. To check if a value is NaN, use <code>Number.isNaN()</code> or <code>isNaN()</code>."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "What is the output of: console.log('' + 1 + 0)?",
+        "options": {
+          "A": "1",
+          "B": "10",
+          "C": "01",
+          "D": "'10'"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>'' + 1</code> is string concatenation, giving <code>'1'</code>. Then <code>'1' + 0</code> is also string concatenation, giving <code>'10'</code>. An empty string plus a number always gives a string, not a number."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "Which statement about JavaScript is TRUE?",
+        "options": {
+          "A": "JavaScript and Java are the same language",
+          "B": "JavaScript can only run in web browsers",
+          "C": "typeof null returns 'object' due to a historical bug",
+          "D": "JavaScript was created in 2005"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>typeof null</code> returning <code>'object'</code> is a well-documented bug from 1995. JavaScript and Java are different languages (A). JavaScript also runs in Node.js outside browsers (B). JavaScript was created in 1995, not 2005 (D)."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Easy",
+        "question": "What is the output of: console.log(2 + 2)?",
+        "options": {
+          "A": "22",
+          "B": "4",
+          "C": "2 + 2",
+          "D": "undefined"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Both <code>2</code> and <code>2</code> are numbers, so <code>+</code> performs addition: <code>2 + 2 = 4</code>. It would only be <code>\"22\"</code> (A) if one of them were a string like <code>'2' + 2</code>."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "What does the confirm() function return when the user clicks OK?",
+        "options": {
+          "A": "1",
+          "B": "'OK'",
+          "C": "true",
+          "D": "undefined"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>confirm()</code> shows a dialog with OK and Cancel buttons. Clicking OK returns the boolean <code>true</code>. Clicking Cancel returns <code>false</code>. It does not return a number or a string."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "What is the output of: console.log(true + true + true)?",
+        "options": {
+          "A": "true",
+          "B": "3",
+          "C": "'truetruetrue'",
+          "D": "Error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> When used with the <code>+</code> operator and no strings are involved, <code>true</code> is converted to <code>1</code> and <code>false</code> to <code>0</code>. So <code>true + true + true = 1 + 1 + 1 = 3</code>."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Personal Introduction Page",
+        "difficulty": "Easy",
+        "description": "Create an HTML page that displays your name, age, and favorite subject. Use JavaScript to set all the text content using getElementById (do not hardcode the text in HTML).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Name: Aarav\nAge: 15\nFavorite Subject: Computer Science",
+        "constraints": "HTML should have empty paragraphs with IDs. JavaScript should fill in all the text.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <p id=\"name\"></p>\n  <p id=\"age\"></p>\n  <p id=\"subject\"></p>\n  <script>\n    document.getElementById(\"name\").textContent = \"Name: Aarav\";\n    document.getElementById(\"age\").textContent = \"Age: 15\";\n    document.getElementById(\"subject\").textContent = \"Favorite Subject: Computer Science\";\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Background Color Picker",
+        "difficulty": "Easy",
+        "description": "Create an HTML page with three buttons: Red, Green, and Blue. Clicking a button changes the page's background color to that color using JavaScript.",
+        "sampleInput": "User clicks the Green button",
+        "sampleOutput": "The entire page background turns green.",
+        "constraints": "Use document.body.style.backgroundColor to change the color.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <h1>Pick a Background Color</h1>\n  <button onclick=\"document.body.style.backgroundColor='red'\">Red</button>\n  <button onclick=\"document.body.style.backgroundColor='green'\">Green</button>\n  <button onclick=\"document.body.style.backgroundColor='blue'\">Blue</button>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Character Counter",
+        "difficulty": "Medium",
+        "description": "Create an HTML page with a text input and a paragraph below it. As the user types (use the oninput event), show the number of characters typed in real time. For example: 'Characters: 7'",
+        "sampleInput": "User types 'Priya' in the input",
+        "sampleOutput": "Characters: 5",
+        "constraints": "Use the oninput event and the .length property of the string.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <input type=\"text\" id=\"textInput\" oninput=\"countChars()\" placeholder=\"Start typing...\">\n  <p id=\"counter\">Characters: 0</p>\n  <script>\n    function countChars() {\n      let text = document.getElementById(\"textInput\").value;\n      document.getElementById(\"counter\").textContent = \"Characters: \" + text.length;\n    }\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Temperature Converter",
+        "difficulty": "Medium",
+        "description": "Build an HTML page with a number input for Celsius and a button. When clicked, convert the Celsius value to Fahrenheit using the formula F = (C * 9/5) + 32 and display the result. Also display whether it is 'Hot' (above 35C), 'Comfortable' (15-35C), or 'Cold' (below 15C).",
+        "sampleInput": "User enters 40",
+        "sampleOutput": "40 C = 104 F - Hot!",
+        "constraints": "Use Number() to convert input. Use if-else for the temperature category.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <input type=\"number\" id=\"celsius\" placeholder=\"Celsius\">\n  <button onclick=\"convert()\">Convert</button>\n  <p id=\"result\"></p>\n  <script>\n    function convert() {\n      let c = Number(document.getElementById(\"celsius\").value);\n      let f = (c * 9/5) + 32;\n      let category;\n      if (c > 35) category = \"Hot!\";\n      else if (c >= 15) category = \"Comfortable\";\n      else category = \"Cold!\";\n      document.getElementById(\"result\").textContent = c + \" C = \" + f + \" F - \" + category;\n    }\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Show/Hide Toggle",
+        "difficulty": "Medium",
+        "description": "Create an HTML page with a paragraph of text and a button that says 'Hide'. When clicked, the paragraph disappears and the button text changes to 'Show'. Clicking again makes the paragraph reappear and the button says 'Hide'.",
+        "sampleInput": "User clicks the button",
+        "sampleOutput": "The paragraph toggles between visible and hidden.",
+        "constraints": "Use style.display = 'none' and style.display = 'block' to toggle visibility.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <p id=\"text\">This paragraph can be toggled. Try clicking the button below!</p>\n  <button id=\"btn\" onclick=\"toggle()\">Hide</button>\n  <script>\n    function toggle() {\n      let text = document.getElementById(\"text\");\n      let btn = document.getElementById(\"btn\");\n      if (text.style.display === \"none\") {\n        text.style.display = \"block\";\n        btn.textContent = \"Hide\";\n      } else {\n        text.style.display = \"none\";\n        btn.textContent = \"Show\";\n      }\n    }\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Type Checker Tool",
+        "difficulty": "Hard",
+        "description": "Build a page with an input field and a button. When the user enters a value and clicks the button, determine and display whether the input is: a number, the word 'true' or 'false' (boolean-like), an empty string, or just a regular string. Display the typeof the original input and the converted type.",
+        "sampleInput": "User enters '42'",
+        "sampleOutput": "You entered: '42'\ntypeof (raw input): string\nDetected type: number\nConverted value: 42",
+        "constraints": "Input values are always strings. Use Number(), isNaN(), and conditional checks.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <input type=\"text\" id=\"val\" placeholder=\"Enter any value\">\n  <button onclick=\"checkType()\">Check Type</button>\n  <p id=\"output\"></p>\n  <script>\n    function checkType() {\n      let raw = document.getElementById(\"val\").value;\n      let result = \"You entered: '\" + raw + \"'\\n\";\n      result += \"typeof (raw input): \" + typeof raw + \"\\n\";\n      if (raw === \"\") {\n        result += \"Detected type: empty string\";\n      } else if (raw === \"true\" || raw === \"false\") {\n        result += \"Detected type: boolean-like\\nConverted value: \" + (raw === \"true\");\n      } else if (!isNaN(Number(raw))) {\n        result += \"Detected type: number\\nConverted value: \" + Number(raw);\n      } else {\n        result += \"Detected type: regular string\";\n      }\n      document.getElementById(\"output\").textContent = result;\n    }\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-7",
+        "title": "Build a Simple Quiz Question",
+        "difficulty": "Hard",
+        "description": "Create a page with a question: 'What is typeof null in JavaScript?' with four clickable buttons (A: null, B: undefined, C: object, D: boolean). When the user clicks the correct answer (C), show 'Correct!' in green. For wrong answers, show 'Wrong! The answer is C: object' in red.",
+        "sampleInput": "User clicks option C",
+        "sampleOutput": "Correct! (displayed in green)",
+        "constraints": "Use style.color to change text color. Use if-else to check the answer.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <h2>What is typeof null in JavaScript?</h2>\n  <button onclick=\"check('A')\">A: null</button>\n  <button onclick=\"check('B')\">B: undefined</button>\n  <button onclick=\"check('C')\">C: object</button>\n  <button onclick=\"check('D')\">D: boolean</button>\n  <p id=\"feedback\"></p>\n  <script>\n    function check(answer) {\n      let fb = document.getElementById(\"feedback\");\n      if (answer === \"C\") {\n        fb.textContent = \"Correct!\";\n        fb.style.color = \"green\";\n      } else {\n        fb.textContent = \"Wrong! The answer is C: object\";\n        fb.style.color = \"red\";\n      }\n    }\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-8",
+        "title": "Dynamic Greeting Based on Time",
+        "difficulty": "Hard",
+        "description": "Create a page that automatically shows a greeting based on the current time: 'Good Morning' (5am-12pm), 'Good Afternoon' (12pm-5pm), 'Good Evening' (5pm-9pm), 'Good Night' (9pm-5am). Use JavaScript's Date object (new Date().getHours()) to get the current hour. Also display the current time.",
+        "sampleInput": "(No input - uses current time automatically)",
+        "sampleOutput": "Good Afternoon! It is 2:30 PM.",
+        "constraints": "Use new Date().getHours() and if-else to determine the greeting.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <h1 id=\"greeting\"></h1>\n  <p id=\"time\"></p>\n  <script>\n    let now = new Date();\n    let hour = now.getHours();\n    let greeting;\n    if (hour >= 5 && hour < 12) greeting = \"Good Morning!\";\n    else if (hour >= 12 && hour < 17) greeting = \"Good Afternoon!\";\n    else if (hour >= 17 && hour < 21) greeting = \"Good Evening!\";\n    else greeting = \"Good Night!\";\n    document.getElementById(\"greeting\").textContent = greeting;\n    document.getElementById(\"time\").textContent = \"Current time: \" + now.toLocaleTimeString();\n  </script>\n</body>\n</html>"
+      }
+    ]
+  }
+}

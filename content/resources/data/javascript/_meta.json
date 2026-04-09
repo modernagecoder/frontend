@@ -1,0 +1,51 @@
+{
+  "language": "JavaScript",
+  "slug": "javascript",
+  "audience": "teens",
+  "ageRange": "13-18",
+  "tone": "conversational but technical, project-oriented, visual",
+  "index": {
+    "title": "JavaScript Tutorial - Learn to Build Interactive Websites from Scratch",
+    "description": "Learn JavaScript from scratch with our free, detailed chapter-by-chapter guide. Build real interactive websites using HTML, CSS, and JavaScript together. Each topic includes hands-on code examples and 50+ practice questions.",
+    "keywords": "javascript tutorial, learn javascript, javascript for beginners, javascript html css, javascript dom manipulation, javascript web development, javascript practice questions, interactive website tutorial",
+    "intro": "<p>JavaScript is the language of the web. Every website you visit — from Google to Instagram to YouTube — uses JavaScript to make things interactive. When you click a button, fill a form, see an animation, or get a notification, that is JavaScript at work.</p><p>This guide teaches you JavaScript the right way — by building things. You will not just learn syntax. You will learn how to combine HTML (structure), CSS (style), and JavaScript (behavior) to create real, interactive web pages. Every chapter includes projects you can actually build and show to your friends.</p><p>Each chapter has 50+ practice questions that go from easy warm-ups to creative coding challenges. By the end of this guide, you will be able to build your own interactive websites from scratch.</p>"
+  },
+  "chapters": [
+    { "slug": "introduction-to-javascript", "order": 1, "title": "Introduction to JavaScript", "difficulty": "Beginner", "description": "Learn what JavaScript is, how it powers the web, and write your first script that changes a webpage in real time." },
+    { "slug": "javascript-in-the-browser", "order": 2, "title": "JavaScript in the Browser - Script Tags and Console", "difficulty": "Beginner", "description": "Add JavaScript to HTML pages, use the browser console, and understand how scripts load and execute." },
+    { "slug": "variables-and-data-types", "order": 3, "title": "Variables and Data Types", "difficulty": "Beginner", "description": "Store data with let, const, and var. Understand strings, numbers, booleans, null, undefined, and typeof." },
+    { "slug": "operators-and-expressions", "order": 4, "title": "Operators and Expressions", "difficulty": "Beginner", "description": "Master arithmetic, comparison, logical, and assignment operators. Understand type coercion and truthy/falsy." },
+    { "slug": "conditional-statements", "order": 5, "title": "Conditional Statements (if, else, switch)", "difficulty": "Beginner", "description": "Make decisions in your code. Build interactive features that respond differently based on user input." },
+    { "slug": "loops-in-javascript", "order": 6, "title": "Loops (for, while, for...of, for...in)", "difficulty": "Beginner", "description": "Repeat actions, iterate over data, and build dynamic lists on web pages using loops." },
+    { "slug": "functions-in-javascript", "order": 7, "title": "Functions - Regular, Arrow, and Callback", "difficulty": "Beginner", "description": "Write reusable code with functions. Understand parameters, return values, arrow functions, and callbacks." },
+    { "slug": "arrays-in-javascript", "order": 8, "title": "Arrays and Array Methods", "difficulty": "Intermediate", "description": "Work with lists of data using push, pop, map, filter, reduce, find, sort, and spread operator." },
+    { "slug": "objects-in-javascript", "order": 9, "title": "Objects and JSON", "difficulty": "Intermediate", "description": "Create objects, access properties, use methods, destructure, and work with JSON data." },
+    { "slug": "strings-and-template-literals", "order": 10, "title": "Strings and Template Literals", "difficulty": "Intermediate", "description": "Master string methods, template literals with backticks, string interpolation, and build dynamic HTML." },
+    { "slug": "dom-selection-and-manipulation", "order": 11, "title": "DOM Selection and Manipulation", "difficulty": "Intermediate", "description": "Select HTML elements with getElementById, querySelector. Change text, styles, attributes, and classes with JavaScript." },
+    { "slug": "dom-events-and-listeners", "order": 12, "title": "DOM Events and Event Listeners", "difficulty": "Intermediate", "description": "Make pages interactive with click, input, submit, keydown, mouseover events. Build buttons, forms, and interactive UI." },
+    { "slug": "creating-and-removing-elements", "order": 13, "title": "Creating and Removing DOM Elements", "difficulty": "Intermediate", "description": "Dynamically create HTML elements, build lists, cards, and components. Remove elements and update the page." },
+    { "slug": "forms-and-validation", "order": 14, "title": "Forms and Input Validation", "difficulty": "Intermediate", "description": "Handle form submissions, validate user input, show error messages, and build real registration/login forms." },
+    { "slug": "css-manipulation-with-javascript", "order": 15, "title": "CSS Manipulation with JavaScript", "difficulty": "Intermediate", "description": "Change styles dynamically, toggle classes, create animations, build dark mode toggles, and interactive UI effects." },
+    { "slug": "project-interactive-quiz-app", "order": 16, "title": "Project: Build an Interactive Quiz App", "difficulty": "Intermediate", "description": "Combine HTML, CSS, and JavaScript to build a fully working quiz application with scoring and feedback." },
+    { "slug": "es6-modern-javascript", "order": 17, "title": "ES6+ Modern JavaScript Features", "difficulty": "Advanced", "description": "Destructuring, spread/rest, default parameters, optional chaining, nullish coalescing, and modules." },
+    { "slug": "error-handling-and-debugging", "order": 18, "title": "Error Handling and Debugging", "difficulty": "Advanced", "description": "Use try-catch-finally, throw errors, debug with console and DevTools, and handle common JavaScript errors." },
+    { "slug": "asynchronous-javascript", "order": 19, "title": "Asynchronous JavaScript - Callbacks, Promises, Async/Await", "difficulty": "Advanced", "description": "Understand async code, setTimeout, Promises, .then/.catch, and async/await for handling time-based operations." },
+    { "slug": "fetch-api-and-working-with-apis", "order": 20, "title": "Fetch API - Getting Data from the Internet", "difficulty": "Advanced", "description": "Fetch data from APIs, display it on your page, handle loading states, and build a weather app or movie search." },
+    { "slug": "local-storage-and-session-storage", "order": 21, "title": "Local Storage and Session Storage", "difficulty": "Advanced", "description": "Save data in the browser, build a to-do app that remembers tasks, persist dark mode preference, and more." },
+    { "slug": "project-todo-app-with-storage", "order": 22, "title": "Project: Build a To-Do App with Local Storage", "difficulty": "Advanced", "description": "Build a complete to-do list app with add, delete, mark complete, filter, and local storage persistence." },
+    { "slug": "array-and-object-advanced-patterns", "order": 23, "title": "Advanced Array and Object Patterns", "difficulty": "Advanced", "description": "Chaining methods, nested destructuring, computed properties, Object.keys/values/entries, and real data processing." },
+    { "slug": "closures-scope-and-hoisting", "order": 24, "title": "Closures, Scope, and Hoisting", "difficulty": "Advanced", "description": "Understand lexical scope, closures, the module pattern, var vs let hoisting, and common interview questions." },
+    { "slug": "project-interactive-portfolio", "order": 25, "title": "Project: Build an Interactive Portfolio Website", "difficulty": "Advanced", "description": "Build a complete portfolio site with smooth scroll, dark mode, animated sections, contact form, and responsive design." }
+  ],
+  "courseCta": {
+    "text": "Want to learn web development with a live mentor?",
+    "linkText": "Explore our Frontend Masterclass",
+    "url": "/courses/frontend-development-masterclass-for-teens"
+  },
+  "relatedCourses": [
+    { "text": "Frontend for Teens", "url": "/courses/frontend-development-masterclass-for-teens" },
+    { "text": "Full Stack Web Dev (College)", "url": "/courses/full-stack-web-development-masterclass-college" },
+    { "text": "Full Stack for Teens", "url": "/courses/full-stack-web-development-teens-masterclass" },
+    { "text": "Web Dev for Kids", "url": "/courses/kids-ai-web-development-course" }
+  ]
+}

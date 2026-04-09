@@ -1,0 +1,652 @@
+{
+  "title": "Error Handling and Debugging",
+  "slug": "error-handling-and-debugging",
+  "language": "javascript",
+  "chapter": 18,
+  "difficulty": "Advanced",
+  "readingTime": "45 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 50,
+  "seo": {
+    "title": "JavaScript Error Handling and Debugging - try/catch, throw, DevTools | Modern Age Coders",
+    "description": "Learn JavaScript error handling with try-catch-finally, throw, custom errors, and debugging with console methods and browser DevTools. Includes 53+ practice questions with 'find the bug' and 'what error does this throw' challenges.",
+    "keywords": "javascript try catch, javascript error handling, javascript debugging, javascript throw error, javascript devtools, console.log debugging, ReferenceError, TypeError, SyntaxError, javascript custom error"
+  },
+  "content": {
+    "what": "<h2>What Is Error Handling?</h2><p>Errors happen in every program. A user enters text instead of a number. A network request fails. You try to access a property of <code>undefined</code>. Without error handling, these situations crash your program and show ugly error messages.</p><p><strong>Error handling</strong> is the practice of anticipating things that can go wrong and writing code to deal with them gracefully. In JavaScript, this is done with <code>try</code>, <code>catch</code>, <code>finally</code>, and <code>throw</code>.</p><pre><code>// Without error handling -- crashes\nconst data = JSON.parse(\"this is not JSON\");\nconsole.log(data); // Never runs\n\n// With error handling -- recovers\ntry {\n  const data = JSON.parse(\"this is not JSON\");\n  console.log(data);\n} catch (error) {\n  console.log(\"Invalid JSON input\");\n  console.log(\"Error:\", error.message);\n}\nconsole.log(\"Program continues normally\");</code></pre><p><strong>Debugging</strong> is the process of finding and fixing errors in your code. JavaScript provides powerful tools: the browser console, console methods (log, table, group, time), and browser DevTools with breakpoints, step-through execution, and variable watching.</p>",
+    "why": "<h2>Why Is Error Handling Important?</h2><h3>1. Programs Must Not Crash in Front of Users</h3><p>If Kavya builds a weather app and the API is down, the app should show \"Unable to fetch weather data\" -- not a blank white screen or a cryptic error. Error handling lets you show helpful messages instead of crashes.</p><h3>2. JavaScript Errors Are Silent Killers</h3><p>In the browser, one unhandled error can stop all JavaScript on the page. A TypeError in your event handler means none of the rest of your code runs. Error handling isolates failures so one broken piece does not break everything.</p><h3>3. Debugging Skills Save Hours</h3><p>Beginners often spend hours staring at code trying to find bugs. Knowing how to use console.log effectively, read error messages, set breakpoints, and step through code turns hours of frustration into minutes of systematic investigation.</p><h3>4. Professional Code Always Handles Errors</h3><p>Every API call, every form submission, every file operation in professional code has error handling. If you want to write code that actually works in the real world, you must handle errors.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Common JavaScript Errors</h3><p>JavaScript has several built-in error types. Knowing them helps you read error messages and fix bugs faster:</p><pre><code>// ReferenceError -- using a variable that does not exist\nconsole.log(myVariable); // ReferenceError: myVariable is not defined\n\n// TypeError -- using a value in a way that is not allowed\nconst num = 42;\nnum.toUpperCase(); // TypeError: num.toUpperCase is not a function\n\nnull.name; // TypeError: Cannot read properties of null\nundefined.length; // TypeError: Cannot read properties of undefined\n\n// SyntaxError -- code structure is wrong (usually caught before execution)\n// JSON.parse(\"{ bad json }\"); // SyntaxError: Unexpected token b\n// eval(\"if(\"); // SyntaxError: Unexpected end of input\n\n// RangeError -- a value is outside the allowed range\nconst arr = new Array(-1); // RangeError: Invalid array length\nconst num = 1;\nnum.toFixed(200); // RangeError: toFixed() digits argument must be between 0 and 100</code></pre><h3>2. try-catch</h3><p>The <code>try</code> block contains code that might throw an error. The <code>catch</code> block runs if an error occurs:</p><pre><code>try {\n  // Code that might fail\n  const result = riskyOperation();\n  console.log(result);\n} catch (error) {\n  // Runs only if an error occurred\n  console.log(\"Something went wrong:\", error.message);\n}\n// Code here runs regardless</code></pre><p>If no error occurs, the catch block is skipped. If an error occurs, JavaScript immediately jumps to catch. Any code after the error in try does NOT run.</p><h3>3. The Error Object</h3><p>When an error is caught, the catch block receives an error object with useful properties:</p><pre><code>try {\n  null.toString();\n} catch (error) {\n  console.log(error.name);    // \"TypeError\"\n  console.log(error.message); // \"Cannot read properties of null (reading 'toString')\"\n  console.log(error.stack);   // Full stack trace (shows where the error happened)\n}</code></pre><h3>4. try-catch-finally</h3><p>The <code>finally</code> block always runs, whether an error occurred or not. It is used for cleanup:</p><pre><code>function loadData() {\n  const loadingEl = document.getElementById(\"loading\");\n  loadingEl.style.display = \"block\";\n\n  try {\n    const data = JSON.parse(localStorage.getItem(\"data\"));\n    displayData(data);\n  } catch (error) {\n    console.log(\"Failed to load data:\", error.message);\n    showErrorMessage(\"Could not load your data.\");\n  } finally {\n    // Always hide the loading spinner, success or failure\n    loadingEl.style.display = \"none\";\n  }\n}</code></pre><h3>5. throw -- Creating Your Own Errors</h3><p>Use <code>throw</code> to create errors when your code detects something wrong:</p><pre><code>function divide(a, b) {\n  if (typeof a !== \"number\" || typeof b !== \"number\") {\n    throw new TypeError(\"Both arguments must be numbers\");\n  }\n  if (b === 0) {\n    throw new RangeError(\"Cannot divide by zero\");\n  }\n  return a / b;\n}\n\ntry {\n  console.log(divide(10, 2));    // 5\n  console.log(divide(10, 0));    // throws RangeError\n} catch (error) {\n  console.log(error.name + \": \" + error.message);\n  // \"RangeError: Cannot divide by zero\"\n}</code></pre><p>You can throw any of the built-in error types: <code>Error</code>, <code>TypeError</code>, <code>RangeError</code>, <code>ReferenceError</code>. Always use <code>new</code> to create error objects.</p><h3>6. Custom Error Classes</h3><p>Create your own error types by extending the Error class:</p><pre><code>class ValidationError extends Error {\n  constructor(field, message) {\n    super(message);\n    this.name = \"ValidationError\";\n    this.field = field;\n  }\n}\n\nfunction validateAge(age) {\n  if (typeof age !== \"number\") {\n    throw new ValidationError(\"age\", \"Age must be a number\");\n  }\n  if (age < 0 || age > 120) {\n    throw new ValidationError(\"age\", \"Age must be between 0 and 120\");\n  }\n  return true;\n}\n\ntry {\n  validateAge(-5);\n} catch (error) {\n  if (error instanceof ValidationError) {\n    console.log(\"Field:\", error.field);     // \"age\"\n    console.log(\"Message:\", error.message); // \"Age must be between 0 and 120\"\n  }\n}</code></pre><h3>7. Console Methods for Debugging</h3><p>The console has many methods beyond <code>console.log</code>:</p><pre><code>// console.log -- basic output\nconsole.log(\"Basic message\");\nconsole.log(\"Name:\", name, \"Age:\", age); // Multiple values\n\n// console.table -- display arrays/objects as tables\nconst students = [\n  { name: \"Aarav\", score: 85 },\n  { name: \"Priya\", score: 92 },\n  { name: \"Rohan\", score: 78 }\n];\nconsole.table(students);\n\n// console.group / groupEnd -- group related logs\nconsole.group(\"User Data\");\nconsole.log(\"Name: Aarav\");\nconsole.log(\"Age: 16\");\nconsole.log(\"City: Delhi\");\nconsole.groupEnd();\n\n// console.time / timeEnd -- measure execution time\nconsole.time(\"loop\");\nfor (let i = 0; i < 1000000; i++) { /* empty */ }\nconsole.timeEnd(\"loop\"); // loop: 3.5ms\n\n// console.warn -- yellow warning\nconsole.warn(\"This function is deprecated\");\n\n// console.error -- red error (does not stop execution)\nconsole.error(\"Something failed!\");\n\n// console.assert -- logs only if condition is FALSE\nconsole.assert(1 === 1, \"This will NOT log\");\nconsole.assert(1 === 2, \"This WILL log because 1 !== 2\");</code></pre><h3>8. Browser DevTools</h3><p>The browser DevTools (press F12 or Ctrl+Shift+I) are the most powerful debugging tools available:</p><p><strong>Console tab:</strong> Run JavaScript, see logs, errors, and warnings.</p><p><strong>Sources tab / Debugger:</strong></p><ul><li><strong>Breakpoints:</strong> Click a line number in your JS file to set a breakpoint. The code pauses there.</li><li><strong>Step Over (F10):</strong> Execute the current line and move to the next.</li><li><strong>Step Into (F11):</strong> Go inside a function call to see what happens inside.</li><li><strong>Step Out (Shift+F11):</strong> Finish the current function and return to the caller.</li><li><strong>Watch:</strong> Add expressions to watch their values change as you step through code.</li><li><strong>Call Stack:</strong> Shows the chain of function calls that led to the current point.</li></ul><p><strong>Network tab:</strong> See all network requests (API calls, images, CSS files), their status codes, response data, and timing. Essential for debugging fetch/API issues.</p><p><strong>Elements tab:</strong> Inspect and modify HTML/CSS in real time. Right-click any element and choose \"Inspect\".</p><h3>9. Common Debugging Patterns</h3><pre><code>// Pattern 1: Log before and after suspicious code\nconsole.log(\"Before fetch, URL:\", url);\nconst response = await fetch(url);\nconsole.log(\"After fetch, status:\", response.status);\n\n// Pattern 2: Log the type when you get unexpected behavior\nconsole.log(typeof myVariable); // Is it string? number? undefined?\nconsole.log(Array.isArray(data)); // Is it actually an array?\n\n// Pattern 3: Use JSON.stringify for objects\nconsole.log(JSON.stringify(data, null, 2)); // Pretty-printed object\n\n// Pattern 4: Add temporary try-catch to isolate errors\ntry {\n  suspiciousFunction();\n} catch (e) {\n  console.error(\"suspiciousFunction failed:\", e);\n}</code></pre><h3>10. Handling Errors in DOM Code</h3><p>DOM operations can fail when elements do not exist. Handle them gracefully:</p><pre><code>// Bad: crashes if element does not exist\nconst btn = document.getElementById(\"submit-btn\");\nbtn.addEventListener(\"click\", handleSubmit); // TypeError if btn is null\n\n// Good: check before using\nconst btn = document.getElementById(\"submit-btn\");\nif (btn) {\n  btn.addEventListener(\"click\", handleSubmit);\n} else {\n  console.warn(\"Submit button not found in the page\");\n}\n\n// Good with optional chaining:\ndocument.getElementById(\"submit-btn\")?.addEventListener(\"click\", handleSubmit);</code></pre>"
+  ,
+  "codeExamples": [
+    {
+      "title": "try-catch with Different Error Types",
+      "code": "function processInput(input) {\n  try {\n    if (input === undefined) {\n      throw new Error(\"Input is required\");\n    }\n\n    const parsed = JSON.parse(input);\n    console.log(\"Parsed:\", parsed);\n\n    const name = parsed.user.name;\n    console.log(\"Name:\", name);\n  } catch (error) {\n    console.log(\"Error type:\", error.name);\n    console.log(\"Message:\", error.message);\n  }\n}\n\nprocessInput('{\"user\": {\"name\": \"Aarav\"}}');\nconsole.log(\"---\");\nprocessInput(\"not json\");\nconsole.log(\"---\");\nprocessInput('{\"data\": 123}');\nconsole.log(\"---\");\nprocessInput(undefined);",
+      "language": "javascript",
+      "explanation": "Different inputs cause different errors. Valid JSON with the right structure works. Invalid JSON causes SyntaxError. Valid JSON without the user property causes TypeError (accessing .name on undefined). Missing input triggers our custom Error. The catch block handles all cases.",
+      "output": "Parsed: { user: { name: \"Aarav\" } }\nName: Aarav\n---\nError type: SyntaxError\nMessage: Unexpected token 'o', \"not json\" is not valid JSON\n---\nError type: TypeError\nMessage: Cannot read properties of undefined (reading 'name')\n---\nError type: Error\nMessage: Input is required"
+    },
+    {
+      "title": "Form Validation with Custom Errors",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; background: #1a1a2e; color: #e2e8f0; }\n    input { display: block; width: 250px; padding: 8px; margin: 8px 0; border-radius: 6px; border: 1px solid #334; background: #16213e; color: #e2e8f0; }\n    button { padding: 10px 20px; background: #a855f7; color: white; border: none; border-radius: 6px; cursor: pointer; }\n    .error { color: #ef4444; margin-top: 4px; font-size: 14px; }\n    .success { color: #10b981; margin-top: 8px; }\n  </style>\n</head>\n<body>\n  <h2>Registration</h2>\n  <input type=\"text\" id=\"name\" placeholder=\"Name\">\n  <input type=\"text\" id=\"age\" placeholder=\"Age\">\n  <input type=\"email\" id=\"email\" placeholder=\"Email\">\n  <button id=\"registerBtn\">Register</button>\n  <div id=\"output\"></div>\n\n  <script>\n    class ValidationError extends Error {\n      constructor(field, message) {\n        super(message);\n        this.name = \"ValidationError\";\n        this.field = field;\n      }\n    }\n\n    function validate(name, age, email) {\n      if (!name || name.trim().length < 2) {\n        throw new ValidationError(\"name\", \"Name must be at least 2 characters\");\n      }\n      const ageNum = Number(age);\n      if (isNaN(ageNum) || ageNum < 5 || ageNum > 100) {\n        throw new ValidationError(\"age\", \"Age must be a number between 5 and 100\");\n      }\n      if (!email || !email.includes(\"@\")) {\n        throw new ValidationError(\"email\", \"Please enter a valid email\");\n      }\n      return { name: name.trim(), age: ageNum, email };\n    }\n\n    document.getElementById(\"registerBtn\").addEventListener(\"click\", function() {\n      const output = document.getElementById(\"output\");\n      try {\n        const user = validate(\n          document.getElementById(\"name\").value,\n          document.getElementById(\"age\").value,\n          document.getElementById(\"email\").value\n        );\n        output.className = \"success\";\n        output.textContent = \"Registered: \" + user.name + \", age \" + user.age;\n      } catch (error) {\n        if (error instanceof ValidationError) {\n          output.className = \"error\";\n          output.textContent = error.field + \": \" + error.message;\n          document.getElementById(error.field).focus();\n        } else {\n          output.className = \"error\";\n          output.textContent = \"Unexpected error: \" + error.message;\n        }\n      }\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "Custom <code>ValidationError</code> carries a field name so the error handler knows which input caused the problem. The catch block checks <code>instanceof ValidationError</code> to handle validation errors differently from unexpected errors. The failing input is focused automatically.",
+      "output": "A registration form that shows specific field-level error messages. Wrong age shows 'age: Age must be a number between 5 and 100'."
+    },
+    {
+      "title": "Console Methods Showcase",
+      "code": "// console.table for structured data\nconst scores = [\n  { name: \"Aarav\", maths: 90, science: 85 },\n  { name: \"Priya\", maths: 95, science: 92 },\n  { name: \"Rohan\", maths: 78, science: 80 }\n];\nconsole.table(scores);\n\n// console.group for organized output\nconsole.group(\"Quiz Results\");\nconsole.log(\"Total questions: 10\");\nconsole.log(\"Correct: 7\");\nconsole.log(\"Score: 70%\");\nconsole.groupEnd();\n\n// console.time for performance measurement\nconsole.time(\"arrayCreation\");\nconst bigArray = [];\nfor (let i = 0; i < 100000; i++) {\n  bigArray.push(i * 2);\n}\nconsole.timeEnd(\"arrayCreation\");\n\n// console.assert for debugging conditions\nconst age = 15;\nconsole.assert(age >= 18, \"User is not an adult, age is \" + age);\nconsole.assert(age >= 0, \"This will NOT log because age is positive\");\n\n// console.warn and console.error\nconsole.warn(\"API key will expire in 3 days\");\nconsole.error(\"Failed to connect to database\");",
+      "language": "javascript",
+      "explanation": "<code>console.table</code> displays data as a formatted table in the browser console. <code>console.group</code> creates collapsible sections. <code>console.time</code>/<code>timeEnd</code> measures how long code takes. <code>console.assert</code> only logs when the condition is false. These are much more useful than plain console.log for complex debugging.",
+      "output": "(table showing name/maths/science)\nQuiz Results\n  Total questions: 10\n  Correct: 7\n  Score: 70%\narrayCreation: ~5ms\nAssertion failed: User is not an adult, age is 15\nWarning: API key will expire in 3 days\nError: Failed to connect to database"
+    },
+    {
+      "title": "Safe DOM Operations with Error Handling",
+      "code": "// Helper function that safely selects an element\nfunction safeSelect(selector) {\n  const element = document.querySelector(selector);\n  if (!element) {\n    console.warn(\"Element not found: \" + selector);\n    return null;\n  }\n  return element;\n}\n\n// Helper that safely updates text content\nfunction safeSetText(selector, text) {\n  const el = safeSelect(selector);\n  if (el) {\n    el.textContent = text;\n    return true;\n  }\n  return false;\n}\n\n// Helper that safely adds event listener\nfunction safeAddListener(selector, event, handler) {\n  const el = safeSelect(selector);\n  if (el) {\n    el.addEventListener(event, handler);\n    return true;\n  }\n  return false;\n}\n\n// Usage\nsafeSetText(\"#title\", \"Hello World\");\nsafeSetText(\"#nonexistent\", \"This safely does nothing\");\nsafeAddListener(\"#btn\", \"click\", function() {\n  console.log(\"Clicked!\");\n});",
+      "language": "javascript",
+      "explanation": "Instead of letting the code crash when an element does not exist, these helper functions check for null and log a warning. This pattern is especially useful in large apps where HTML structure may change and elements may be conditionally rendered.",
+      "output": "(If #title exists) Sets its text to 'Hello World'\n(If #nonexistent is missing) Console warning: Element not found: #nonexistent\n(If #btn exists) Adds click listener"
+    },
+    {
+      "title": "finally for Cleanup",
+      "code": "function fetchUserData(userId) {\n  console.log(\"Loading...\");\n  // Simulating showing a loading spinner\n  let isLoading = true;\n\n  try {\n    if (typeof userId !== \"number\") {\n      throw new TypeError(\"userId must be a number\");\n    }\n    if (userId <= 0) {\n      throw new RangeError(\"userId must be positive\");\n    }\n\n    // Simulate successful data\n    const user = { id: userId, name: \"User \" + userId };\n    console.log(\"Data loaded:\", user);\n    return user;\n  } catch (error) {\n    console.log(\"Error:\", error.name, \"-\", error.message);\n    return null;\n  } finally {\n    isLoading = false;\n    console.log(\"Loading done (isLoading:\", isLoading, \")\");\n  }\n}\n\nconsole.log(\"Result:\", fetchUserData(1));\nconsole.log(\"---\");\nconsole.log(\"Result:\", fetchUserData(\"abc\"));\nconsole.log(\"---\");\nconsole.log(\"Result:\", fetchUserData(-5));",
+      "language": "javascript",
+      "explanation": "The <code>finally</code> block guarantees the loading state is reset, whether the operation succeeded or failed. This is critical for UI -- a loading spinner that never disappears because of an error is a terrible user experience.",
+      "output": "Loading...\nData loaded: { id: 1, name: \"User 1\" }\nLoading done (isLoading: false)\nResult: { id: 1, name: \"User 1\" }\n---\nLoading...\nError: TypeError - userId must be a number\nLoading done (isLoading: false)\nResult: null\n---\nLoading...\nError: RangeError - userId must be positive\nLoading done (isLoading: false)\nResult: null"
+    },
+    {
+      "title": "Error Handling Pattern for JSON Parsing",
+      "code": "function safeParse(jsonString, fallback = null) {\n  try {\n    return JSON.parse(jsonString);\n  } catch (error) {\n    console.warn(\"Invalid JSON:\", error.message);\n    return fallback;\n  }\n}\n\n// Valid JSON\nconsole.log(safeParse('{\"name\": \"Aarav\"}'));\n// { name: \"Aarav\" }\n\n// Invalid JSON -- returns fallback\nconsole.log(safeParse(\"not json\", {}));\n// {} (fallback)\n\n// null from localStorage\nconsole.log(safeParse(null, []));\n// [] (fallback)\n\n// Practical use with localStorage\nfunction loadSettings() {\n  const saved = localStorage.getItem(\"settings\");\n  return safeParse(saved, { theme: \"dark\", fontSize: 14 });\n}\n\nconst settings = loadSettings();\nconsole.log(\"Settings:\", settings);",
+      "language": "javascript",
+      "explanation": "Wrapping <code>JSON.parse</code> in try-catch is essential because invalid JSON throws a SyntaxError. The <code>safeParse</code> function provides a fallback value instead of crashing. This pattern is used constantly with localStorage and API responses.",
+      "output": "{ name: \"Aarav\" }\nInvalid JSON: Unexpected token 'o', \"not json\" is not valid JSON\n{}\nInvalid JSON: ...\n[]\nSettings: { theme: \"dark\", fontSize: 14 }"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Catching Errors Without Using the Error Object",
+      "wrongCode": "try {\n  JSON.parse(\"bad json\");\n} catch (error) {\n  console.log(\"Something went wrong\");\n  // Ignoring the error object completely!\n}",
+      "error": "No crash, but you lose all information about what went wrong. Debugging becomes impossible.",
+      "correctCode": "try {\n  JSON.parse(\"bad json\");\n} catch (error) {\n  console.log(\"Parse failed:\", error.message);\n  // Or at minimum: console.error(error);\n}",
+      "explanation": "Always log the error object or at least <code>error.message</code>. Without this, you will have no idea what actually failed, making debugging extremely difficult."
+    },
+    {
+      "title": "Using try-catch Around Asynchronous Code (Does Not Work)",
+      "wrongCode": "try {\n  setTimeout(function() {\n    throw new Error(\"Async error!\");\n  }, 1000);\n} catch (error) {\n  // This NEVER runs! The error happens later.\n  console.log(\"Caught:\", error.message);\n}",
+      "error": "The catch block never runs. The error crashes the program after 1 second because it happens outside the try-catch.",
+      "correctCode": "// Put try-catch INSIDE the async callback\nsetTimeout(function() {\n  try {\n    throw new Error(\"Async error!\");\n  } catch (error) {\n    console.log(\"Caught:\", error.message);\n  }\n}, 1000);\n\n// Or with async/await:\n// try {\n//   await someAsyncOperation();\n// } catch (error) {\n//   console.log(\"Caught:\", error.message);\n// }",
+      "explanation": "try-catch only catches errors that happen synchronously within the try block. setTimeout's callback runs later, after the try-catch has already finished. Put try-catch inside the callback, or use async/await."
+    },
+    {
+      "title": "Throwing Strings Instead of Error Objects",
+      "wrongCode": "function validate(age) {\n  if (age < 0) {\n    throw \"Age cannot be negative\"; // Throwing a string!\n  }\n}\n\ntry {\n  validate(-1);\n} catch (error) {\n  console.log(error.message); // undefined! Strings don't have .message\n  console.log(error.stack);   // undefined! No stack trace\n}",
+      "error": "error.message is undefined because strings do not have a message property. No stack trace available for debugging.",
+      "correctCode": "function validate(age) {\n  if (age < 0) {\n    throw new RangeError(\"Age cannot be negative\");\n  }\n}\n\ntry {\n  validate(-1);\n} catch (error) {\n  console.log(error.message); // \"Age cannot be negative\"\n  console.log(error.name);    // \"RangeError\"\n  console.log(error.stack);   // Full stack trace\n}",
+      "explanation": "Always throw Error objects (or subclasses). They provide <code>.message</code>, <code>.name</code>, and <code>.stack</code> properties that are essential for debugging. Throwing strings loses all this information."
+    },
+    {
+      "title": "Wrapping Too Much Code in try-catch",
+      "wrongCode": "try {\n  const name = document.getElementById(\"name\").value;\n  const age = parseInt(document.getElementById(\"age\").value);\n  const data = JSON.parse(localStorage.getItem(\"data\"));\n  const result = processData(data, name, age);\n  displayResult(result);\n} catch (error) {\n  console.log(\"Error\"); // Which line failed?\n}",
+      "error": "When an error occurs, you cannot tell if it was the DOM access, the parsing, or the processing that failed.",
+      "correctCode": "const nameEl = document.getElementById(\"name\");\nif (!nameEl) {\n  console.error(\"Name input not found\");\n  return;\n}\nconst name = nameEl.value;\nconst age = parseInt(document.getElementById(\"age\").value);\n\nlet data;\ntry {\n  data = JSON.parse(localStorage.getItem(\"data\"));\n} catch (error) {\n  console.error(\"Invalid stored data:\", error.message);\n  data = {};\n}\n\ntry {\n  const result = processData(data, name, age);\n  displayResult(result);\n} catch (error) {\n  console.error(\"Processing failed:\", error.message);\n}",
+      "explanation": "Keep try blocks focused on the specific operation that might fail. Use separate try blocks for independent risky operations. This way, when an error occurs, you know exactly which part failed."
+    }
+  ],
+  "summary": [
+    "JavaScript has built-in error types: ReferenceError (undefined variable), TypeError (wrong type usage, null.property), SyntaxError (bad code structure, bad JSON), and RangeError (value out of range).",
+    "try-catch handles errors gracefully: the try block contains risky code, the catch block handles the error if one occurs. Code after the error in try does NOT run.",
+    "The error object in catch has three key properties: error.name (type like 'TypeError'), error.message (what went wrong), and error.stack (where it happened).",
+    "The finally block always runs -- after try succeeds or after catch handles an error. Use it for cleanup like hiding loading spinners or resetting state.",
+    "Use throw new Error('message') to create your own errors. Always throw Error objects (not strings) so you get .message, .name, and .stack properties.",
+    "Custom error classes extend Error: class MyError extends Error. They can carry extra data like which field failed validation.",
+    "console.table shows data as formatted tables. console.group organizes related logs. console.time measures performance. console.assert logs only on failure.",
+    "Browser DevTools (F12): Set breakpoints by clicking line numbers, step through code with F10/F11, watch variable values, inspect the call stack, and monitor network requests.",
+    "try-catch does NOT work around async callbacks (setTimeout, event handlers). Put try-catch inside the callback, or use async/await with try-catch.",
+    "For DOM operations, always check if an element exists before using it. Use optional chaining (el?.addEventListener) or explicit null checks to prevent TypeErrors."
+  ]
+  },
+  "relatedTopics": ["es6-modern-javascript", "asynchronous-javascript"],
+  "practice": {
+    "totalQuestions": 50,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>try {\n  console.log(\"A\");\n  console.log(\"B\");\n} catch (error) {\n  console.log(\"C\");\n}\nconsole.log(\"D\");</code></pre>",
+        "hint": "No error occurs in the try block.",
+        "answer": "<code>A</code><br><code>B</code><br><code>D</code>",
+        "explanation": "No error occurs, so the entire try block runs (A, B). The catch block is skipped. D prints after the try-catch."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>try {\n  console.log(\"A\");\n  JSON.parse(\"invalid\");\n  console.log(\"B\");\n} catch (error) {\n  console.log(\"C\");\n}\nconsole.log(\"D\");</code></pre>",
+        "hint": "JSON.parse with invalid input throws SyntaxError.",
+        "answer": "<code>A</code><br><code>C</code><br><code>D</code>",
+        "explanation": "A prints. JSON.parse throws SyntaxError, so B is skipped. Catch runs (C). D prints after the try-catch."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>try {\n  console.log(\"start\");\n} catch (error) {\n  console.log(\"error\");\n} finally {\n  console.log(\"done\");\n}</code></pre>",
+        "hint": "finally always runs, even when there is no error.",
+        "answer": "<code>start</code><br><code>done</code>",
+        "explanation": "No error: try runs (start), catch is skipped, finally always runs (done)."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What type of error does this code throw?<br><pre><code>console.log(myVar);</code></pre>",
+        "hint": "myVar has not been declared anywhere.",
+        "answer": "<code>ReferenceError: myVar is not defined</code>",
+        "explanation": "Accessing a variable that has not been declared throws a ReferenceError."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What type of error does this code throw?<br><pre><code>const num = 42;\nnum.toUpperCase();</code></pre>",
+        "hint": "toUpperCase is a string method, not a number method.",
+        "answer": "<code>TypeError: num.toUpperCase is not a function</code>",
+        "explanation": "num is a number, and numbers do not have a toUpperCase method. Calling a non-existent method is a TypeError."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>try {\n  throw new Error(\"oops\");\n  console.log(\"after throw\");\n} catch (error) {\n  console.log(error.message);\n}\nconsole.log(\"end\");</code></pre>",
+        "hint": "throw immediately exits the try block.",
+        "answer": "<code>oops</code><br><code>end</code>",
+        "explanation": "throw exits the try block immediately. 'after throw' never runs. Catch receives the error and prints 'oops'. Then 'end' prints normally."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function test() {\n  try {\n    return 1;\n  } finally {\n    console.log(\"finally\");\n  }\n}\n\nconst result = test();\nconsole.log(result);</code></pre>",
+        "hint": "finally runs even after a return statement.",
+        "answer": "<code>finally</code><br><code>1</code>",
+        "explanation": "The try block returns 1, but finally runs before the return value is delivered. So 'finally' prints first, then the return value 1 is logged."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>try {\n  const obj = null;\n  console.log(obj.name);\n} catch (error) {\n  console.log(error.name);\n  console.log(error.message.includes(\"null\"));\n}</code></pre>",
+        "hint": "Accessing a property of null throws TypeError.",
+        "answer": "<code>TypeError</code><br><code>true</code>",
+        "explanation": "null.name throws a TypeError. The error name is 'TypeError'. The message mentions 'null', so includes('null') is true."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>try {\n  JSON.parse(\"invalid\");\n} catch (error) {\n  console.log(error instanceof SyntaxError);\n  console.log(error instanceof Error);\n  console.log(error instanceof TypeError);\n}</code></pre>",
+        "hint": "SyntaxError is a subclass of Error.",
+        "answer": "<code>true</code><br><code>true</code><br><code>false</code>",
+        "explanation": "JSON.parse with invalid input throws SyntaxError. SyntaxError instanceof SyntaxError is true. SyntaxError is a subclass of Error, so instanceof Error is also true. It is not a TypeError, so false."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function outer() {\n  try {\n    inner();\n    console.log(\"after inner\");\n  } catch (error) {\n    console.log(\"outer caught:\", error.message);\n  }\n}\n\nfunction inner() {\n  throw new Error(\"inner error\");\n}\n\nouter();\nconsole.log(\"done\");</code></pre>",
+        "hint": "The error from inner() propagates up to outer's try-catch.",
+        "answer": "<code>outer caught: inner error</code><br><code>done</code>",
+        "explanation": "inner() throws an error. It propagates up to outer()'s catch block. 'after inner' never runs. The catch logs the message. Then 'done' prints normally."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function test(val) {\n  try {\n    if (val < 0) throw new RangeError(\"negative\");\n    if (typeof val !== \"number\") throw new TypeError(\"not a number\");\n    return val * 2;\n  } catch (error) {\n    return error.name + \": \" + error.message;\n  } finally {\n    console.log(\"finally for \" + val);\n  }\n}\n\nconsole.log(test(5));\nconsole.log(test(-3));\nconsole.log(test(\"abc\"));</code></pre>",
+        "hint": "finally runs before the return value is delivered each time.",
+        "answer": "<code>finally for 5</code><br><code>10</code><br><code>finally for -3</code><br><code>RangeError: negative</code><br><code>finally for abc</code><br><code>TypeError: not a number</code>",
+        "explanation": "test(5): no error, returns 10. finally prints first. test(-3): RangeError caught, returns error string. finally prints first. test('abc'): -3 < 0 check does not apply (string comparison), typeof is not 'number' so TypeError."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>try {\n  try {\n    throw new TypeError(\"inner\");\n  } catch (e) {\n    console.log(\"inner catch:\", e.message);\n    throw new RangeError(\"re-thrown\");\n  } finally {\n    console.log(\"inner finally\");\n  }\n} catch (e) {\n  console.log(\"outer catch:\", e.name, e.message);\n} finally {\n  console.log(\"outer finally\");\n}</code></pre>",
+        "hint": "The inner catch throws a NEW error. The inner finally still runs. The new error propagates to outer catch.",
+        "answer": "<code>inner catch: inner</code><br><code>inner finally</code><br><code>outer catch: RangeError re-thrown</code><br><code>outer finally</code>",
+        "explanation": "Inner try throws TypeError. Inner catch handles it and throws a new RangeError. Inner finally runs. The RangeError propagates to outer catch. Outer finally runs."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What type of error does this code throw?<br><pre><code>const arr = new Array(-1);</code></pre>",
+        "hint": "Array length cannot be negative.",
+        "answer": "<code>RangeError: Invalid array length</code>",
+        "explanation": "Creating an array with a negative length throws a RangeError because the length is outside the valid range (0 to 2^32 - 1)."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function greet(name) {\n  if (typeof name !== \"string\") {\n    throw new TypeError(\"Name must be a string\");\n  }\n  return \"Hello, \" + name;\n}\n\ntry {\n  console.log(greet(\"Aarav\"));\n  console.log(greet(42));\n} catch (error) {\n  console.log(error.message);\n}\nconsole.log(\"done\");</code></pre>",
+        "hint": "First call succeeds. Second call throws.",
+        "answer": "<code>Hello, Aarav</code><br><code>Name must be a string</code><br><code>done</code>",
+        "explanation": "greet(\"Aarav\") succeeds and prints. greet(42) throws TypeError because 42 is not a string. The catch block handles it. Then 'done' prints normally."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.warn(\"low disk space\");\nconsole.log(\"program continues\");</code></pre>",
+        "hint": "console.warn does not stop execution.",
+        "answer": "<code>low disk space</code> (as a warning)<br><code>program continues</code>",
+        "explanation": "console.warn displays a yellow warning in the console but does NOT stop execution. The next line runs normally."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>try {\n  const x = 10;\n  console.log(x / 2);\n} catch (error) {\n  console.log(\"Error!\");\n}</code></pre>",
+        "hint": "10 / 2 is a valid operation.",
+        "answer": "<code>5</code>",
+        "explanation": "No error occurs. 10 / 2 = 5. The catch block is skipped."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.assert(5 > 3, \"This should not log\");\nconsole.assert(2 > 7, \"Math is broken\");</code></pre>",
+        "hint": "console.assert only logs when the condition is FALSE.",
+        "answer": "<code>Assertion failed: Math is broken</code>",
+        "explanation": "First assert: 5 > 3 is true, nothing logs. Second assert: 2 > 7 is false, so the message 'Math is broken' is logged."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function safeDivide(a, b) {\n  if (b === 0) {\n    throw new Error(\"Cannot divide by zero\");\n  }\n  return a / b;\n}\n\nconst results = [];\nconst pairs = [[10, 2], [6, 0], [9, 3]];\n\nfor (const [a, b] of pairs) {\n  try {\n    results.push(safeDivide(a, b));\n  } catch (error) {\n    results.push(error.message);\n  }\n}\nconsole.log(results);</code></pre>",
+        "hint": "Each pair is processed independently. Errors are caught per iteration.",
+        "answer": "<code>[5, \"Cannot divide by zero\", 3]</code>",
+        "explanation": "10/2=5 (success). 6/0 throws error (message pushed). 9/3=3 (success). The for loop continues after each caught error."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function parseAge(input) {\n  const age = Number(input);\n  if (isNaN(age)) throw new TypeError(\"Not a number: \" + input);\n  if (age < 0) throw new RangeError(\"Negative age: \" + age);\n  return age;\n}\n\nconst inputs = [\"25\", \"abc\", \"-5\", \"16\"];\nfor (const input of inputs) {\n  try {\n    console.log(parseAge(input));\n  } catch (e) {\n    console.log(e.name);\n  }\n}</code></pre>",
+        "hint": "Number('abc') is NaN. Number('-5') is -5.",
+        "answer": "<code>25</code><br><code>TypeError</code><br><code>RangeError</code><br><code>16</code>",
+        "explanation": "\"25\" converts to 25 (success). \"abc\" is NaN (TypeError). \"-5\" is -5, which is negative (RangeError). \"16\" converts to 16 (success)."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let count = 0;\n\ntry {\n  count++;\n  JSON.parse(\"bad\");\n  count++;\n} catch (e) {\n  count += 10;\n} finally {\n  count += 100;\n}\n\nconsole.log(count);</code></pre>",
+        "hint": "Track count: starts at 0, incremented in try, error occurs, then catch and finally both run.",
+        "answer": "<code>111</code>",
+        "explanation": "count starts at 0. First count++ makes it 1. JSON.parse fails, so second count++ is skipped. Catch adds 10 (count=11). Finally adds 100 (count=111)."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function validate(data) {\n  if (!data) throw new Error(\"No data\");\n  if (!data.name) throw new Error(\"No name\");\n  if (typeof data.age !== \"number\") throw new TypeError(\"Bad age\");\n  return \"Valid\";\n}\n\nconst tests = [null, {}, { name: \"A\" }, { name: \"B\", age: 16 }];\n\nfor (const test of tests) {\n  try {\n    console.log(validate(test));\n  } catch (e) {\n    console.log(e.message);\n  }\n}</code></pre>",
+        "hint": "Each test object fails at a different validation check (or passes).",
+        "answer": "<code>No data</code><br><code>No name</code><br><code>Bad age</code><br><code>Valid</code>",
+        "explanation": "null: fails !data check. {}: fails !data.name check. {name:'A'}: age is undefined (not number), TypeError. {name:'B', age:16}: passes all checks."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function f() {\n  try {\n    return \"try\";\n  } catch (e) {\n    return \"catch\";\n  } finally {\n    return \"finally\";\n  }\n}\nconsole.log(f());</code></pre>",
+        "hint": "If finally has a return, it overrides all previous returns.",
+        "answer": "<code>finally</code>",
+        "explanation": "The try block returns 'try', but the finally block also returns. The finally return overrides the try return. The function returns 'finally'. This is a known JavaScript gotcha -- avoid returning from finally."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why should you always throw Error objects (like <code>new Error('msg')</code>) instead of strings (like <code>throw 'msg'</code>)?",
+        "hint": "What properties do Error objects have that strings do not?",
+        "answer": "Error objects provide <code>.name</code> (error type), <code>.message</code> (description), and <code>.stack</code> (where it happened). Strings have none of these. Without a stack trace, you cannot tell where the error originated. Without .name, you cannot distinguish error types. Throwing strings makes debugging much harder.",
+        "explanation": "Error objects are specifically designed for error handling. They automatically capture the call stack, have a standard interface (.name, .message), and work properly with instanceof for type checking."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why does try-catch NOT work around setTimeout or event listeners for catching errors inside them?",
+        "hint": "Think about when the callback actually executes.",
+        "answer": "try-catch only catches errors that happen synchronously within the try block. setTimeout and event listener callbacks run LATER, after the try-catch has already completed. By the time the callback executes and throws, the try-catch is no longer active. You need to put try-catch inside the callback, or use async/await.",
+        "explanation": "JavaScript is single-threaded with an event loop. The try-catch runs and finishes. The callback is placed in the event queue. When it runs later, it is in a completely separate execution context with no surrounding try-catch."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which error occurs when you use a variable that has not been declared?",
+        "options": {
+          "A": "TypeError",
+          "B": "SyntaxError",
+          "C": "ReferenceError",
+          "D": "RangeError"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Using an undeclared variable throws <code>ReferenceError: x is not defined</code>. TypeError is for wrong type operations, SyntaxError is for bad code structure."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What block always runs, whether an error occurred or not?",
+        "options": {
+          "A": "try",
+          "B": "catch",
+          "C": "throw",
+          "D": "finally"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> <code>finally</code> always runs: after try succeeds, after catch handles an error, and even after return statements."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does <code>error.message</code> contain?",
+        "options": {
+          "A": "The line number of the error",
+          "B": "The name of the error type",
+          "C": "A human-readable description of what went wrong",
+          "D": "The full stack trace"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>error.message</code> is a human-readable string describing the error. <code>error.name</code> is the type. <code>error.stack</code> is the trace."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which error does <code>null.toString()</code> throw?",
+        "options": {
+          "A": "ReferenceError",
+          "B": "TypeError",
+          "C": "SyntaxError",
+          "D": "RangeError"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Calling a method on null (or accessing a property) throws TypeError: Cannot read properties of null."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does <code>console.assert(false, 'test')</code> do?",
+        "options": {
+          "A": "Logs 'test' because the condition is false",
+          "B": "Throws an error",
+          "C": "Logs nothing",
+          "D": "Crashes the program"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>console.assert</code> logs the message only when the condition is false. It does not throw errors or crash -- it just logs to the console."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the correct way to create a custom error?",
+        "options": {
+          "A": "throw 'my error message';",
+          "B": "throw new Error('my error message');",
+          "C": "console.error('my error message');",
+          "D": "return new Error('my error message');"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>throw new Error('...')</code> creates an Error object and throws it. Option A throws a string (bad practice). Option C just logs. Option D creates but does not throw."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What console method displays data as a formatted table?",
+        "options": {
+          "A": "console.display()",
+          "B": "console.format()",
+          "C": "console.table()",
+          "D": "console.grid()"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>console.table()</code> displays arrays and objects as a formatted table in the browser console. Very useful for debugging data."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "If a try block has a return statement and a finally block also has a return statement, which return wins?",
+        "options": {
+          "A": "The try return",
+          "B": "The finally return",
+          "C": "Both returns execute",
+          "D": "It throws an error"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The finally return overrides the try return. This is because finally always runs last. However, returning from finally is considered bad practice."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "How do you check if an error is a specific type?",
+        "options": {
+          "A": "error.type === 'TypeError'",
+          "B": "error instanceof TypeError",
+          "C": "typeof error === 'TypeError'",
+          "D": "error.is(TypeError)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>instanceof</code> checks if an object is an instance of a class. <code>error instanceof TypeError</code> is true for TypeErrors (and false for other types)."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What keyboard shortcut opens browser DevTools?",
+        "options": {
+          "A": "Ctrl+D",
+          "B": "Ctrl+Shift+I or F12",
+          "C": "Alt+F4",
+          "D": "Ctrl+Alt+J"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> F12 or Ctrl+Shift+I opens DevTools in Chrome, Firefox, and Edge. This is the most important tool for debugging web applications."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "Why does <code>try { setTimeout(() => { throw new Error(); }, 0); } catch(e) {}</code> NOT catch the error?",
+        "options": {
+          "A": "setTimeout does not support errors",
+          "B": "The catch block only runs once",
+          "C": "The callback runs later, after the try-catch has finished",
+          "D": "Arrow functions cannot throw errors"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> try-catch is synchronous. The setTimeout callback runs asynchronously in a later event loop tick. By then, the try-catch is long gone."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is a breakpoint in browser DevTools?",
+        "options": {
+          "A": "A line where the code crashes",
+          "B": "A marker that pauses code execution at a specific line for inspection",
+          "C": "A line that is skipped during execution",
+          "D": "A point where the browser restarts"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A breakpoint pauses execution at that line, letting you inspect variable values, the call stack, and step through code line by line. Set them by clicking a line number in the Sources tab."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the difference between <code>console.warn()</code> and <code>throw new Error()</code>?",
+        "options": {
+          "A": "They do the same thing",
+          "B": "warn logs a message without stopping execution; throw stops execution and requires catch",
+          "C": "throw is for minor issues, warn is for critical errors",
+          "D": "warn only works in Node.js"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>console.warn</code> logs a yellow warning and execution continues normally. <code>throw</code> stops execution immediately and the error must be caught by a try-catch or it crashes the program."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Easy",
+        "question": "What does <code>console.error('msg')</code> do?",
+        "options": {
+          "A": "Throws an error and stops the program",
+          "B": "Logs a red error message to the console without stopping execution",
+          "C": "Crashes the browser",
+          "D": "Sends the error to the server"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>console.error</code> logs a message styled as an error (red in most browsers) but does NOT throw an error or stop execution."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "What does the <code>error.stack</code> property contain?",
+        "options": {
+          "A": "The error message",
+          "B": "The line number only",
+          "C": "A full trace of function calls leading to the error",
+          "D": "The file name only"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>error.stack</code> contains a string showing the chain of function calls (call stack) that led to the error, including file names and line numbers. This is the most useful property for debugging."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "Which error occurs when you call <code>JSON.parse('invalid')</code>?",
+        "options": {
+          "A": "TypeError",
+          "B": "ReferenceError",
+          "C": "SyntaxError",
+          "D": "RangeError"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Invalid JSON causes a <code>SyntaxError</code> because the input string does not follow JSON syntax rules."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "What is <code>Step Over (F10)</code> in browser DevTools?",
+        "options": {
+          "A": "Skips the entire function",
+          "B": "Executes the current line and moves to the next line",
+          "C": "Goes inside a function call",
+          "D": "Resumes normal execution"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Step Over executes the current line completely (including any function calls) and pauses at the next line. Step Into (F11) would go inside function calls."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Can you catch a SyntaxError with try-catch if it is in the same code block?",
+        "options": {
+          "A": "Yes, always",
+          "B": "No, SyntaxErrors are detected before the code runs, so try-catch never executes",
+          "C": "Only in strict mode",
+          "D": "Only in async functions"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> SyntaxErrors in your code are caught during parsing, before any code runs. The try-catch itself would not execute. However, SyntaxErrors from <code>eval()</code> or <code>JSON.parse()</code> CAN be caught because they happen at runtime."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Easy",
+        "question": "What property gives the error type name (like 'TypeError' or 'RangeError')?",
+        "options": {
+          "A": "error.type",
+          "B": "error.name",
+          "C": "error.kind",
+          "D": "error.class"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>error.name</code> contains the error type as a string, like 'TypeError', 'RangeError', or 'SyntaxError'."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Safe JSON Parser",
+        "difficulty": "Easy",
+        "description": "Write a function safeJsonParse(str, fallback) that parses a JSON string and returns the result. If parsing fails, return the fallback value instead of crashing.",
+        "sampleInput": "safeJsonParse('{\"name\":\"Aarav\"}', {}), safeJsonParse('bad', [])",
+        "sampleOutput": "{ name: 'Aarav' }\n[]",
+        "constraints": "Use try-catch. Return the fallback on any error.",
+        "solution": "function safeJsonParse(str, fallback) {\n  try {\n    return JSON.parse(str);\n  } catch (error) {\n    return fallback;\n  }\n}\n\nconsole.log(safeJsonParse('{\"name\":\"Aarav\"}', {}));\nconsole.log(safeJsonParse('bad', []));\nconsole.log(safeJsonParse(null, { error: true }));"
+      },
+      {
+        "id": "cc-2",
+        "title": "Error Type Identifier",
+        "difficulty": "Easy",
+        "description": "Write a function identifyError(fn) that takes a function, calls it, and returns the error type name if it throws, or 'No error' if it succeeds.",
+        "sampleInput": "() => null.x, () => unknownVar, () => 42",
+        "sampleOutput": "TypeError\nReferenceError\nNo error",
+        "constraints": "Use try-catch and error.name.",
+        "solution": "function identifyError(fn) {\n  try {\n    fn();\n    return \"No error\";\n  } catch (error) {\n    return error.name;\n  }\n}\n\nconsole.log(identifyError(() => null.x));        // TypeError\nconsole.log(identifyError(() => JSON.parse('{')));  // SyntaxError\nconsole.log(identifyError(() => 42));             // No error"
+      },
+      {
+        "id": "cc-3",
+        "title": "Input Validator with Custom Errors",
+        "difficulty": "Medium",
+        "description": "Create a ValidationError class that extends Error and has a 'field' property. Write a validateStudent(data) function that validates name (string, 2+ chars), age (number, 5-25), and email (must include @). Throw ValidationError with the field name for each failure.",
+        "sampleInput": "{ name: 'A', age: 16, email: 'a@b.com' }",
+        "sampleOutput": "ValidationError on field 'name': Name must be at least 2 characters",
+        "constraints": "Custom error class with field property. Use instanceof to check error type.",
+        "solution": "class ValidationError extends Error {\n  constructor(field, message) {\n    super(message);\n    this.name = 'ValidationError';\n    this.field = field;\n  }\n}\n\nfunction validateStudent(data) {\n  if (typeof data.name !== 'string' || data.name.length < 2) {\n    throw new ValidationError('name', 'Name must be at least 2 characters');\n  }\n  if (typeof data.age !== 'number' || data.age < 5 || data.age > 25) {\n    throw new ValidationError('age', 'Age must be a number between 5 and 25');\n  }\n  if (!data.email || !data.email.includes('@')) {\n    throw new ValidationError('email', 'Email must contain @');\n  }\n  return true;\n}\n\nconst tests = [\n  { name: 'A', age: 16, email: 'a@b.com' },\n  { name: 'Aarav', age: 3, email: 'a@b.com' },\n  { name: 'Priya', age: 15, email: 'bad' },\n  { name: 'Rohan', age: 16, email: 'r@x.com' }\n];\n\nfor (const test of tests) {\n  try {\n    validateStudent(test);\n    console.log(test.name + ': Valid');\n  } catch (e) {\n    if (e instanceof ValidationError) {\n      console.log(test.name + ': ' + e.field + ' - ' + e.message);\n    }\n  }\n}"
+      },
+      {
+        "id": "cc-4",
+        "title": "Retry Function",
+        "difficulty": "Medium",
+        "description": "Write a function retry(fn, maxAttempts) that calls fn() up to maxAttempts times. If fn succeeds, return the result. If fn throws and there are attempts left, try again. If all attempts fail, throw the last error.",
+        "sampleInput": "A function that fails randomly",
+        "sampleOutput": "Attempt 1: failed\nAttempt 2: success -> 42",
+        "constraints": "Track attempts. Re-throw the last error after all attempts fail.",
+        "solution": "function retry(fn, maxAttempts) {\n  let lastError;\n  for (let attempt = 1; attempt <= maxAttempts; attempt++) {\n    try {\n      const result = fn();\n      console.log('Attempt ' + attempt + ': success -> ' + result);\n      return result;\n    } catch (error) {\n      lastError = error;\n      console.log('Attempt ' + attempt + ': failed - ' + error.message);\n    }\n  }\n  throw lastError;\n}\n\nlet callCount = 0;\nfunction unreliable() {\n  callCount++;\n  if (callCount < 3) throw new Error('not ready');\n  return 42;\n}\n\ntry {\n  retry(unreliable, 5);\n} catch (e) {\n  console.log('All attempts failed');\n}"
+      },
+      {
+        "id": "cc-5",
+        "title": "Safe Property Accessor",
+        "difficulty": "Medium",
+        "description": "Write a function safeAccess(obj, path) where path is a dot-separated string like 'a.b.c'. Return the value at that path, or undefined if any part is missing. Do NOT use optional chaining -- use try-catch instead.",
+        "sampleInput": "({ a: { b: { c: 42 } } }, 'a.b.c')",
+        "sampleOutput": "42",
+        "constraints": "Use try-catch and a loop. Do not use optional chaining (?.).",
+        "solution": "function safeAccess(obj, path) {\n  try {\n    const keys = path.split('.');\n    let current = obj;\n    for (const key of keys) {\n      current = current[key];\n    }\n    return current;\n  } catch (error) {\n    return undefined;\n  }\n}\n\nconst data = { a: { b: { c: 42 } } };\nconsole.log(safeAccess(data, 'a.b.c'));   // 42\nconsole.log(safeAccess(data, 'a.b'));     // { c: 42 }\nconsole.log(safeAccess(data, 'a.x.y'));   // undefined\nconsole.log(safeAccess(data, 'z'));        // undefined"
+      },
+      {
+        "id": "cc-6",
+        "title": "Error Statistics Collector",
+        "difficulty": "Hard",
+        "description": "Write a function testAll(functions) that takes an array of functions, calls each one, and returns an object with: { successes: count, errors: { TypeError: count, RangeError: count, ... } }.",
+        "sampleInput": "[() => 42, () => null.x, () => JSON.parse('{')]",
+        "sampleOutput": "{ successes: 1, errors: { TypeError: 1, SyntaxError: 1 } }",
+        "constraints": "Use try-catch and error.name to categorize.",
+        "solution": "function testAll(functions) {\n  const result = { successes: 0, errors: {} };\n\n  for (const fn of functions) {\n    try {\n      fn();\n      result.successes++;\n    } catch (error) {\n      const type = error.name;\n      result.errors[type] = (result.errors[type] || 0) + 1;\n    }\n  }\n\n  return result;\n}\n\nconst fns = [\n  () => 42,\n  () => null.x,\n  () => JSON.parse('{'),\n  () => [].length,\n  () => undefined.name,\n  () => new Array(-1)\n];\n\nconsole.log(testAll(fns));\n// { successes: 2, errors: { TypeError: 2, SyntaxError: 1, RangeError: 1 } }"
+      },
+      {
+        "id": "cc-7",
+        "title": "Build a Debug Logger",
+        "difficulty": "Hard",
+        "description": "Create a DebugLogger class with methods: log(msg), warn(msg), error(msg), time(label), timeEnd(label), getLog(). It should store all messages internally with timestamps. getLog() returns all stored messages as an array.",
+        "sampleInput": "logger.log('hello'); logger.warn('warning'); logger.getLog()",
+        "sampleOutput": "[{type:'log', msg:'hello', time:...}, {type:'warn', msg:'warning', time:...}]",
+        "constraints": "Store messages in an array. Include type, message, and timestamp for each.",
+        "solution": "class DebugLogger {\n  constructor() {\n    this.messages = [];\n    this.timers = {};\n  }\n\n  log(msg) {\n    this.messages.push({ type: 'log', msg, time: Date.now() });\n    console.log(msg);\n  }\n\n  warn(msg) {\n    this.messages.push({ type: 'warn', msg, time: Date.now() });\n    console.warn(msg);\n  }\n\n  error(msg) {\n    this.messages.push({ type: 'error', msg, time: Date.now() });\n    console.error(msg);\n  }\n\n  time(label) {\n    this.timers[label] = Date.now();\n  }\n\n  timeEnd(label) {\n    if (this.timers[label]) {\n      const duration = Date.now() - this.timers[label];\n      this.log(label + ': ' + duration + 'ms');\n      delete this.timers[label];\n    }\n  }\n\n  getLog() {\n    return this.messages;\n  }\n}\n\nconst logger = new DebugLogger();\nlogger.log('App started');\nlogger.warn('Deprecated function used');\nlogger.time('process');\nfor (let i = 0; i < 100000; i++) {}\nlogger.timeEnd('process');\nconsole.log(logger.getLog());"
+      }
+    ]
+  }
+}

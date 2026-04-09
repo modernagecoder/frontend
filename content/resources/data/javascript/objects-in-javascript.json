@@ -1,0 +1,721 @@
+{
+  "title": "Objects and JSON",
+  "slug": "objects-in-javascript",
+  "language": "javascript",
+  "chapter": 9,
+  "difficulty": "Intermediate",
+  "readingTime": "25 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 57,
+  "seo": {
+    "title": "JavaScript Objects and JSON - Properties, Methods, Destructuring | Modern Age Coders",
+    "description": "Learn JavaScript objects: creating objects, dot vs bracket notation, methods, this keyword, Object.keys/values/entries, destructuring, spread, nested objects, JSON.stringify/parse. 57 practice questions.",
+    "keywords": "javascript objects, javascript JSON, object destructuring javascript, javascript object methods, this keyword javascript, JSON stringify parse, javascript object tutorial, javascript nested objects, javascript spread objects, Object.keys values entries"
+  },
+  "content": {
+    "what": "<h2>What Are Objects in JavaScript?</h2><p>An <strong>object</strong> is a collection of related data and functionality stored as key-value pairs. While arrays store data in an ordered list (accessed by index), objects store data with named labels (accessed by key).</p><p>Think of an object as a student ID card. It has a name, age, grade, and school - each piece of information has a label (key) and a value. In JavaScript, you write this as:</p><pre><code>const student = {\n  name: \"Aarav\",\n  age: 15,\n  grade: \"10th\",\n  school: \"DPS Delhi\"\n};</code></pre><p>Each key-value pair is called a <strong>property</strong>. The key is always a string (or Symbol), and the value can be any data type: string, number, boolean, array, another object, or even a function.</p><p>When a property's value is a function, we call it a <strong>method</strong>. Methods let objects have behavior, not just data.</p>",
+    "why": "<h2>Why Are Objects Important?</h2><p>Objects are everywhere in JavaScript. They are arguably the most important data structure in the language. Here is why:</p><h3>1. Modeling Real-World Things</h3><p>Every real thing has properties: a student has a name and marks, a product has a price and rating, a user has an email and password. Objects are the natural way to represent these entities in code.</p><h3>2. JSON - The Language of APIs</h3><p>When websites communicate with servers (like fetching weather data or movie listings), they use <strong>JSON</strong> (JavaScript Object Notation). JSON looks almost identical to JavaScript objects. Understanding objects is essential for working with APIs.</p><h3>3. DOM and Browser APIs</h3><p>Everything in the browser is an object. The <code>document</code>, <code>window</code>, every HTML element, every event - they are all objects with properties and methods. <code>document.getElementById(\"btn\")</code> returns an object.</p><h3>4. Configuration and State</h3><p>App settings, user preferences, form data, shopping cart contents - all stored as objects. React state, Vue data, and Angular components all use objects to manage application state.</p><h3>5. Foundation for Classes and OOP</h3><p>JavaScript classes are built on top of objects and prototypes. If you understand objects, you understand the foundation of object-oriented programming in JavaScript.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Creating Objects</h3><p>The most common way to create an object is with <strong>object literal notation</strong> using curly braces:</p><pre><code>const student = {\n  name: \"Priya\",\n  age: 16,\n  subjects: [\"Maths\", \"Science\", \"English\"],\n  isActive: true\n};</code></pre><p>Properties are separated by commas. The last comma is optional (called a trailing comma) but is recommended for cleaner version control diffs.</p><h3>2. Accessing Properties: Dot vs Bracket Notation</h3><p><strong>Dot notation</strong> is the most common way to access properties:</p><pre><code>console.log(student.name);  // \"Priya\"\nconsole.log(student.age);   // 16</code></pre><p><strong>Bracket notation</strong> uses a string inside square brackets. You must use it when the key has spaces, special characters, or is stored in a variable:</p><pre><code>console.log(student[\"name\"]); // \"Priya\"\n\nconst key = \"age\";\nconsole.log(student[key]);    // 16\n\n// Keys with spaces (only bracket notation works)\nconst obj = { \"full name\": \"Priya Sharma\" };\nconsole.log(obj[\"full name\"]);</code></pre><h3>3. Adding and Deleting Properties</h3><p>You can add new properties to an object at any time, and delete existing ones:</p><pre><code>const student = { name: \"Rohan\" };\n\nstudent.age = 17;          // Add new property\nstudent.school = \"DPS\";    // Add another\ndelete student.school;     // Remove property\n\nconsole.log(student); // { name: \"Rohan\", age: 17 }</code></pre><h3>4. Methods: Functions Inside Objects</h3><p>When a property holds a function, it is called a <strong>method</strong>. Methods give objects behavior:</p><pre><code>const student = {\n  name: \"Kavya\",\n  marks: [85, 92, 78],\n  getAverage() {\n    const sum = this.marks.reduce((a, b) => a + b, 0);\n    return sum / this.marks.length;\n  },\n  greet() {\n    return \"Hi, I am \" + this.name;\n  }\n};\n\nconsole.log(student.greet());       // Hi, I am Kavya\nconsole.log(student.getAverage());  // 85</code></pre><h3>5. The this Keyword</h3><p>Inside a method, <code>this</code> refers to the object the method belongs to. It lets a method access other properties of the same object:</p><pre><code>const person = {\n  name: \"Arjun\",\n  age: 18,\n  introduce() {\n    return this.name + \" is \" + this.age + \" years old\";\n  }\n};\n\nconsole.log(person.introduce()); // Arjun is 18 years old</code></pre><p><strong>Important:</strong> Arrow functions do NOT have their own <code>this</code>. If you use an arrow function as a method, <code>this</code> will not refer to the object. Always use regular function syntax for object methods.</p><h3>6. Object.keys(), Object.values(), Object.entries()</h3><p>These static methods let you extract information from objects as arrays:</p><pre><code>const student = { name: \"Diya\", age: 14, grade: \"9th\" };\n\nObject.keys(student);    // [\"name\", \"age\", \"grade\"]\nObject.values(student);  // [\"Diya\", 14, \"9th\"]\nObject.entries(student); // [[\"name\",\"Diya\"], [\"age\",14], [\"grade\",\"9th\"]]</code></pre><p>These are very useful for iterating over object properties using array methods like <code>forEach</code>, <code>map</code>, and <code>filter</code>.</p><h3>7. Destructuring Objects</h3><p>Destructuring lets you extract properties into individual variables in one line:</p><pre><code>const student = { name: \"Vikram\", age: 17, grade: \"12th\" };\n\n// Extract specific properties\nconst { name, age } = student;\nconsole.log(name); // \"Vikram\"\nconsole.log(age);  // 17\n\n// Rename variables\nconst { name: studentName, grade: studentGrade } = student;\nconsole.log(studentName);  // \"Vikram\"\nconsole.log(studentGrade); // \"12th\"\n\n// Default values\nconst { school = \"Unknown\" } = student;\nconsole.log(school); // \"Unknown\"</code></pre><h3>8. Spread with Objects</h3><p>The spread operator (<code>...</code>) copies properties from one object to another. It is great for creating copies and merging objects:</p><pre><code>const defaults = { theme: \"dark\", fontSize: 14 };\nconst userPrefs = { fontSize: 18, language: \"Hindi\" };\n\n// Merge (later properties overwrite earlier ones)\nconst settings = { ...defaults, ...userPrefs };\n// { theme: \"dark\", fontSize: 18, language: \"Hindi\" }\n\n// Copy and add new properties\nconst updated = { ...student, school: \"DPS\" };</code></pre><h3>9. Nested Objects</h3><p>Objects can contain other objects, creating a tree-like structure:</p><pre><code>const student = {\n  name: \"Meera\",\n  address: {\n    city: \"Mumbai\",\n    state: \"Maharashtra\",\n    pin: 400001\n  },\n  marks: {\n    maths: 92,\n    science: 88,\n    english: 76\n  }\n};\n\nconsole.log(student.address.city);  // \"Mumbai\"\nconsole.log(student.marks.maths);   // 92</code></pre><p>Access nested properties by chaining dot notation. Be careful with deeply nested objects - if any level is undefined, you will get a TypeError.</p><h3>10. JSON.stringify and JSON.parse</h3><p><strong>JSON</strong> (JavaScript Object Notation) is a text format for storing and transporting data. It looks like JavaScript objects but has stricter rules: all keys must be in double quotes, and values can only be strings, numbers, booleans, null, arrays, or objects (no functions, no undefined).</p><pre><code>const student = { name: \"Aarav\", age: 15, active: true };\n\n// Object to JSON string\nconst jsonString = JSON.stringify(student);\nconsole.log(jsonString);\n// '{\"name\":\"Aarav\",\"age\":15,\"active\":true}'\n\n// JSON string to object\nconst parsed = JSON.parse(jsonString);\nconsole.log(parsed.name); // \"Aarav\"</code></pre><p><code>JSON.stringify</code> converts a JavaScript object to a JSON string. <code>JSON.parse</code> converts a JSON string back to a JavaScript object. These are essential for sending data to and receiving data from servers.</p><h3>11. Comparing Objects: Reference vs Value</h3><p>In JavaScript, objects are compared by <strong>reference</strong> (memory address), not by value (content):</p><pre><code>const a = { name: \"Aarav\" };\nconst b = { name: \"Aarav\" };\nconst c = a;\n\nconsole.log(a === b); // false (different objects in memory)\nconsole.log(a === c); // true (same reference)</code></pre><p>To compare objects by their content, you can use <code>JSON.stringify</code>:</p><pre><code>console.log(JSON.stringify(a) === JSON.stringify(b)); // true</code></pre><h3>12. Copying Objects: Shallow vs Deep</h3><p>A <strong>shallow copy</strong> copies the top-level properties. If a property holds an object or array, the copy shares the same reference:</p><pre><code>const original = { name: \"Priya\", marks: [85, 90] };\nconst shallow = { ...original };\n\nshallow.name = \"Rohan\";   // Does NOT affect original\nshallow.marks.push(95);   // DOES affect original!\nconsole.log(original.marks); // [85, 90, 95] - changed!</code></pre><p>A <strong>deep copy</strong> copies everything, including nested objects and arrays:</p><pre><code>const deep = JSON.parse(JSON.stringify(original));\n// or: const deep = structuredClone(original);\n\ndeep.marks.push(100);  // Does NOT affect original</code></pre><p><code>structuredClone()</code> is the modern way to deep copy. <code>JSON.parse(JSON.stringify())</code> works too but loses functions, undefined values, and special types like Date objects.</p>",
+    "codeExamples": [
+      {
+        "title": "Creating Objects and Accessing Properties",
+        "code": "const student = {\n  name: \"Aarav\",\n  age: 15,\n  grade: \"10th\",\n  school: \"DPS Delhi\",\n  hobbies: [\"coding\", \"cricket\", \"chess\"]\n};\n\n// Dot notation\nconsole.log(student.name);\nconsole.log(student.hobbies[0]);\n\n// Bracket notation\nconst key = \"grade\";\nconsole.log(student[key]);\n\n// Adding a new property\nstudent.email = \"aarav@example.com\";\nconsole.log(student.email);",
+        "language": "javascript",
+        "explanation": "Objects store data as key-value pairs. Use dot notation for known property names and bracket notation when the key is in a variable or has special characters. You can add new properties at any time, even to <code>const</code> objects.",
+        "output": "Aarav\ncoding\n10th\naarav@example.com"
+      },
+      {
+        "title": "Object Methods and the this Keyword",
+        "code": "const calculator = {\n  history: [],\n  add(a, b) {\n    const result = a + b;\n    this.history.push(a + \" + \" + b + \" = \" + result);\n    return result;\n  },\n  multiply(a, b) {\n    const result = a * b;\n    this.history.push(a + \" * \" + b + \" = \" + result);\n    return result;\n  },\n  showHistory() {\n    this.history.forEach(entry => console.log(entry));\n  }\n};\n\ncalculator.add(5, 3);\ncalculator.multiply(4, 7);\ncalculator.add(10, 20);\ncalculator.showHistory();",
+        "language": "javascript",
+        "explanation": "Methods are functions inside objects. The <code>this</code> keyword refers to the object itself, allowing methods to access other properties. Here, each operation adds to the history array using <code>this.history</code>.",
+        "output": "5 + 3 = 8\n4 * 7 = 28\n10 + 20 = 30"
+      },
+      {
+        "title": "Object.keys, values, entries",
+        "code": "const scores = {\n  maths: 95,\n  science: 88,\n  english: 76,\n  hindi: 82\n};\n\nconsole.log(\"Keys:\", Object.keys(scores));\nconsole.log(\"Values:\", Object.values(scores));\n\n// Find the subject with the highest score\nconst entries = Object.entries(scores);\nconst best = entries.reduce((top, curr) => \n  curr[1] > top[1] ? curr : top\n);\nconsole.log(\"Best subject:\", best[0], \"with\", best[1]);",
+        "language": "javascript",
+        "explanation": "<code>Object.keys()</code> returns an array of property names. <code>Object.values()</code> returns an array of values. <code>Object.entries()</code> returns an array of [key, value] pairs. These convert objects into arrays so you can use array methods like reduce.",
+        "output": "Keys: [\"maths\", \"science\", \"english\", \"hindi\"]\nValues: [95, 88, 76, 82]\nBest subject: maths with 95"
+      },
+      {
+        "title": "Destructuring and Spread with Objects",
+        "code": "const student = {\n  name: \"Priya\",\n  age: 16,\n  grade: \"11th\",\n  school: \"Kendriya Vidyalaya\"\n};\n\n// Destructuring\nconst { name, grade, ...rest } = student;\nconsole.log(name);  // Priya\nconsole.log(grade); // 11th\nconsole.log(rest);  // { age: 16, school: \"Kendriya Vidyalaya\" }\n\n// Spread: merge and override\nconst defaults = { theme: \"dark\", lang: \"en\", fontSize: 14 };\nconst prefs = { lang: \"hi\", fontSize: 18 };\nconst settings = { ...defaults, ...prefs };\nconsole.log(settings);",
+        "language": "javascript",
+        "explanation": "Destructuring extracts properties into variables. The rest pattern <code>...rest</code> collects remaining properties. Spread <code>...</code> copies properties into a new object. When spreading multiple objects, later properties override earlier ones (fontSize: 18 overrides 14).",
+        "output": "Priya\n11th\n{ age: 16, school: \"Kendriya Vidyalaya\" }\n{ theme: \"dark\", lang: \"hi\", fontSize: 18 }"
+      },
+      {
+        "title": "Nested Objects and Safe Access",
+        "code": "const student = {\n  name: \"Rohan\",\n  address: {\n    city: \"Bangalore\",\n    state: \"Karnataka\"\n  },\n  marks: {\n    maths: 92,\n    science: 88\n  }\n};\n\n// Accessing nested properties\nconsole.log(student.address.city);\nconsole.log(student.marks.maths);\n\n// Optional chaining (?.) for safe access\nconsole.log(student.phone?.number);  // undefined (no error)\nconsole.log(student.address?.pin);   // undefined (no error)\n\n// Nested destructuring\nconst { address: { city }, marks: { maths } } = student;\nconsole.log(city, maths);",
+        "language": "javascript",
+        "explanation": "Access nested properties with chained dot notation. Use optional chaining <code>?.</code> to safely access properties that might not exist - it returns undefined instead of throwing an error. Nested destructuring lets you extract deeply nested values in one statement.",
+        "output": "Bangalore\n92\nundefined\nundefined\nBangalore 92"
+      },
+      {
+        "title": "JSON.stringify and JSON.parse",
+        "code": "const student = {\n  name: \"Diya\",\n  age: 14,\n  subjects: [\"Maths\", \"Science\"],\n  active: true\n};\n\n// Convert to JSON string\nconst json = JSON.stringify(student, null, 2);\nconsole.log(json);\n\n// Parse back to object\nconst parsed = JSON.parse(json);\nconsole.log(parsed.name);\nconsole.log(parsed.subjects[0]);\n\n// Pretty print any object\nconsole.log(JSON.stringify({ a: 1, b: [2, 3] }, null, 2));",
+        "language": "javascript",
+        "explanation": "<code>JSON.stringify(obj, null, 2)</code> converts an object to a formatted JSON string (2-space indentation). <code>JSON.parse(str)</code> converts a JSON string back to a JavaScript object. The second argument to stringify is a replacer (null means include everything).",
+        "output": "{\n  \"name\": \"Diya\",\n  \"age\": 14,\n  \"subjects\": [\n    \"Maths\",\n    \"Science\"\n  ],\n  \"active\": true\n}\nDiya\nMaths\n{\n  \"a\": 1,\n  \"b\": [\n    2,\n    3\n  ]\n}"
+      },
+      {
+        "title": "Building Card Components from Object Data",
+        "code": "// Student data\nconst students = [\n  { name: \"Aarav\", grade: \"10th\", score: 92 },\n  { name: \"Priya\", grade: \"9th\", score: 88 },\n  { name: \"Rohan\", grade: \"11th\", score: 95 }\n];\n\n// Generate HTML cards\nconst cards = students.map(s => {\n  return `<div class=\"student-card\">\n  <h3>${s.name}</h3>\n  <p>Grade: ${s.grade}</p>\n  <p>Score: ${s.score}/100</p>\n</div>`;\n}).join(\"\\n\");\n\nconsole.log(cards);\n\n// In a browser, you would do:\n// document.getElementById(\"container\").innerHTML = cards;",
+        "language": "javascript",
+        "explanation": "This is a very common pattern in web development: take an array of objects, map each object to an HTML string using template literals, and join them together. This is how you build dynamic UI components from data.",
+        "output": "<div class=\"student-card\">\n  <h3>Aarav</h3>\n  <p>Grade: 10th</p>\n  <p>Score: 92/100</p>\n</div>\n<div class=\"student-card\">\n  <h3>Priya</h3>\n  <p>Grade: 9th</p>\n  <p>Score: 88/100</p>\n</div>\n<div class=\"student-card\">\n  <h3>Rohan</h3>\n  <p>Grade: 11th</p>\n  <p>Score: 95/100</p>\n</div>"
+      },
+      {
+        "title": "Shallow vs Deep Copy",
+        "code": "const original = {\n  name: \"Kavya\",\n  marks: [85, 90, 78],\n  address: { city: \"Delhi\" }\n};\n\n// Shallow copy\nconst shallow = { ...original };\nshallow.name = \"Ananya\";       // Only changes shallow\nshallow.marks.push(95);         // Changes BOTH!\nshallow.address.city = \"Mumbai\"; // Changes BOTH!\n\nconsole.log(\"Original name:\", original.name);\nconsole.log(\"Original marks:\", original.marks);\nconsole.log(\"Original city:\", original.address.city);\n\n// Deep copy (revert original first)\noriginal.marks = [85, 90, 78];\noriginal.address.city = \"Delhi\";\nconst deep = structuredClone(original);\ndeep.marks.push(100);\nconsole.log(\"After deep copy push:\");\nconsole.log(\"Original marks:\", original.marks);\nconsole.log(\"Deep marks:\", deep.marks);",
+        "language": "javascript",
+        "explanation": "Shallow copy (<code>{ ...obj }</code>) copies top-level properties by value for primitives, but by reference for objects and arrays. So changing nested properties in the copy also changes the original. Deep copy (<code>structuredClone</code>) creates completely independent copies at all levels.",
+        "output": "Original name: Kavya\nOriginal marks: [85, 90, 78, 95]\nOriginal city: Mumbai\nAfter deep copy push:\nOriginal marks: [85, 90, 78]\nDeep marks: [85, 90, 78, 100]"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Arrow Functions as Object Methods",
+        "wrongCode": "const person = {\n  name: \"Aarav\",\n  greet: () => {\n    return \"Hi, I am \" + this.name;\n  }\n};\n\nconsole.log(person.greet()); // Hi, I am undefined",
+        "error": "Arrow functions do not have their own this. this.name is undefined.",
+        "correctCode": "const person = {\n  name: \"Aarav\",\n  greet() {\n    return \"Hi, I am \" + this.name;\n  }\n};\n\nconsole.log(person.greet()); // Hi, I am Aarav",
+        "explanation": "Arrow functions inherit <code>this</code> from the surrounding scope (usually the global object or undefined in strict mode). They do NOT get <code>this</code> from the object they are defined in. Always use regular function syntax (method shorthand) for object methods."
+      },
+      {
+        "title": "Comparing Objects with ===",
+        "wrongCode": "const a = { name: \"Priya\" };\nconst b = { name: \"Priya\" };\n\nif (a === b) {\n  console.log(\"Equal\");\n} else {\n  console.log(\"Not equal\"); // This runs!\n}",
+        "error": "Objects are compared by reference, not by content. Two objects with identical content are not equal.",
+        "correctCode": "const a = { name: \"Priya\" };\nconst b = { name: \"Priya\" };\n\n// Compare by content using JSON.stringify\nif (JSON.stringify(a) === JSON.stringify(b)) {\n  console.log(\"Equal\"); // This runs!\n}",
+        "explanation": "<code>===</code> checks if two variables point to the exact same object in memory. Two different objects with identical content are NOT equal. Use <code>JSON.stringify</code> to compare by content, or compare specific properties individually."
+      },
+      {
+        "title": "Modifying Objects During for...in Iteration",
+        "wrongCode": "const obj = { a: 1, b: 2, c: 3 };\nfor (const key in obj) {\n  if (obj[key] < 3) {\n    delete obj[key]; // Deleting during iteration!\n  }\n}\n// Results may be unpredictable",
+        "error": "Modifying an object while iterating over it can lead to unexpected behavior.",
+        "correctCode": "const obj = { a: 1, b: 2, c: 3 };\nconst keysToDelete = Object.keys(obj).filter(k => obj[k] < 3);\nkeysToDelete.forEach(k => delete obj[k]);\nconsole.log(obj); // { c: 3 }",
+        "explanation": "Deleting properties during a <code>for...in</code> loop can cause skipped properties or other issues. Instead, collect the keys to delete first (using filter), then delete them in a separate step."
+      },
+      {
+        "title": "Assuming Spread Creates a Deep Copy",
+        "wrongCode": "const original = { data: [1, 2, 3] };\nconst copy = { ...original };\ncopy.data.push(4);\nconsole.log(original.data); // [1, 2, 3, 4] - Original changed!",
+        "error": "Spread creates a shallow copy. Nested objects and arrays are still shared.",
+        "correctCode": "const original = { data: [1, 2, 3] };\nconst copy = structuredClone(original);\ncopy.data.push(4);\nconsole.log(original.data); // [1, 2, 3] - Unchanged!",
+        "explanation": "The spread operator only copies one level deep. Nested objects and arrays are copied by reference, meaning changes to nested data in the copy will affect the original. Use <code>structuredClone()</code> for a true deep copy."
+      }
+    ],
+    "summary": [
+      "Objects store data as key-value pairs (properties). Keys are strings, values can be any type. Create them using object literal notation: { key: value }.",
+      "Access properties with dot notation (obj.key) for known keys, or bracket notation (obj[\"key\"]) when the key is in a variable or has special characters.",
+      "Add properties by assignment (obj.newKey = value). Delete with the delete keyword (delete obj.key). Objects declared with const can still have their properties modified.",
+      "Methods are functions stored as object properties. Use regular function syntax (not arrow functions) so that the this keyword correctly refers to the object.",
+      "The this keyword inside a method refers to the object the method belongs to. Arrow functions do NOT have their own this - avoid using them as object methods.",
+      "Object.keys() returns property names as an array. Object.values() returns values. Object.entries() returns [key, value] pairs. These convert objects to arrays for processing.",
+      "Destructuring { name, age } = obj extracts properties into variables. You can rename ({ name: studentName }), set defaults ({ school = \"Unknown\" }), and use rest (...rest).",
+      "The spread operator { ...obj } creates a shallow copy. Merge objects by spreading multiple: { ...defaults, ...overrides }. Later properties overwrite earlier ones.",
+      "JSON.stringify converts objects to JSON strings (for sending to servers). JSON.parse converts JSON strings back to objects (for receiving from servers). Keys in JSON must be double-quoted.",
+      "Objects are compared by reference, not value. { a: 1 } === { a: 1 } is false. Use JSON.stringify for content comparison, or compare specific properties.",
+      "Shallow copies (spread, Object.assign) share nested references. Deep copies (structuredClone, JSON parse/stringify) are fully independent. Know which you need to avoid bugs."
+    ]
+  },
+  "relatedTopics": ["arrays-in-javascript", "strings-and-template-literals"],
+  "practice": {
+    "totalQuestions": 57,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>const obj = { name: \"Aarav\", age: 15 };\nconsole.log(obj.name);\nconsole.log(obj.age);</code></pre>",
+        "hint": "Dot notation accesses property values.",
+        "answer": "<code>Aarav</code><br><code>15</code>",
+        "explanation": "<code>obj.name</code> returns the value of the name property (\"Aarav\"). <code>obj.age</code> returns the value of the age property (15)."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const student = { name: \"Priya\", grade: \"10th\" };\nconst key = \"grade\";\nconsole.log(student[key]);</code></pre>",
+        "hint": "Bracket notation lets you use a variable as the key.",
+        "answer": "<code>10th</code>",
+        "explanation": "The variable <code>key</code> holds the string \"grade\". <code>student[key]</code> is the same as <code>student[\"grade\"]</code>, which returns \"10th\"."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const obj = { a: 1, b: 2, c: 3 };\nconsole.log(Object.keys(obj));</code></pre>",
+        "hint": "Object.keys returns an array of property names.",
+        "answer": "<code>[\"a\", \"b\", \"c\"]</code>",
+        "explanation": "<code>Object.keys()</code> returns an array of the object's own property names (keys) in the order they were added."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const obj = { x: 10, y: 20 };\nobj.z = 30;\nconsole.log(obj);</code></pre>",
+        "hint": "You can add properties to objects at any time.",
+        "answer": "<code>{ x: 10, y: 20, z: 30 }</code>",
+        "explanation": "Assigning <code>obj.z = 30</code> adds a new property z with value 30 to the object."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const scores = { maths: 95, science: 88 };\nconsole.log(Object.values(scores));</code></pre>",
+        "hint": "Object.values returns an array of property values.",
+        "answer": "<code>[95, 88]</code>",
+        "explanation": "<code>Object.values()</code> returns an array containing all the property values: [95, 88]."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const { name, age } = { name: \"Rohan\", age: 16, grade: \"11th\" };\nconsole.log(name);\nconsole.log(age);</code></pre>",
+        "hint": "Destructuring extracts specific properties into variables.",
+        "answer": "<code>Rohan</code><br><code>16</code>",
+        "explanation": "Destructuring extracts <code>name</code> and <code>age</code> from the object. The <code>grade</code> property is not extracted because it is not listed in the destructuring pattern."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const person = {\n  name: \"Kavya\",\n  greet() {\n    return \"Hi, \" + this.name;\n  }\n};\n\nconsole.log(person.greet());</code></pre>",
+        "hint": "this refers to the object the method belongs to.",
+        "answer": "<code>Hi, Kavya</code>",
+        "explanation": "Inside the <code>greet</code> method, <code>this</code> refers to the <code>person</code> object. So <code>this.name</code> is \"Kavya\". The method returns \"Hi, Kavya\"."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const a = { x: 1 };\nconst b = { ...a, y: 2 };\nconsole.log(b);\nconsole.log(a);</code></pre>",
+        "hint": "Spread copies properties into a new object.",
+        "answer": "<code>{ x: 1, y: 2 }</code><br><code>{ x: 1 }</code>",
+        "explanation": "<code>{ ...a, y: 2 }</code> creates a new object with all properties from a plus y: 2. The original object a is not modified."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const obj = { a: 1, b: 2, c: 3 };\nconst entries = Object.entries(obj);\nconsole.log(entries);</code></pre>",
+        "hint": "Object.entries returns [key, value] pairs.",
+        "answer": "<code>[[\"a\", 1], [\"b\", 2], [\"c\", 3]]</code>",
+        "explanation": "<code>Object.entries()</code> returns an array of [key, value] pairs. Each property becomes a two-element array inside the outer array."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const student = {\n  name: \"Diya\",\n  address: {\n    city: \"Chennai\",\n    state: \"Tamil Nadu\"\n  }\n};\n\nconsole.log(student.address.city);\nconsole.log(student.phone?.number);</code></pre>",
+        "hint": "Optional chaining (?.) returns undefined for missing properties instead of throwing an error.",
+        "answer": "<code>Chennai</code><br><code>undefined</code>",
+        "explanation": "<code>student.address.city</code> follows the chain and finds \"Chennai\". <code>student.phone?.number</code> uses optional chaining. Since <code>student.phone</code> is undefined, it returns undefined instead of throwing a TypeError."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const obj = { name: \"Vikram\" };\nconst json = JSON.stringify(obj);\nconsole.log(json);\nconsole.log(typeof json);</code></pre>",
+        "hint": "JSON.stringify converts an object to a string.",
+        "answer": "<code>{\"name\":\"Vikram\"}</code><br><code>string</code>",
+        "explanation": "<code>JSON.stringify</code> converts the object to a JSON string. The result is a string (not an object). Notice that keys in JSON are wrapped in double quotes."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const defaults = { color: \"red\", size: 10 };\nconst custom = { size: 20, weight: 5 };\nconst merged = { ...defaults, ...custom };\nconsole.log(merged);</code></pre>",
+        "hint": "When spreading, later properties overwrite earlier ones with the same key.",
+        "answer": "<code>{ color: \"red\", size: 20, weight: 5 }</code>",
+        "explanation": "Spreading defaults gives color: \"red\" and size: 10. Spreading custom gives size: 20 and weight: 5. The size from custom (20) overwrites the size from defaults (10)."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const a = { data: [1, 2, 3] };\nconst b = { ...a };\nb.data.push(4);\nconsole.log(a.data);</code></pre>",
+        "hint": "Spread creates a shallow copy. What happens to nested arrays?",
+        "answer": "<code>[1, 2, 3, 4]</code>",
+        "explanation": "Spread creates a <strong>shallow</strong> copy. The <code>data</code> array is not copied - both a.data and b.data point to the same array. Pushing to b.data also modifies a.data."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const a = { name: \"Meera\" };\nconst b = { name: \"Meera\" };\nconst c = a;\n\nconsole.log(a === b);\nconsole.log(a === c);</code></pre>",
+        "hint": "Objects are compared by reference, not content.",
+        "answer": "<code>false</code><br><code>true</code>",
+        "explanation": "<code>a</code> and <code>b</code> are two different objects in memory (even though they have the same content), so <code>a === b</code> is false. <code>c</code> is assigned the same reference as <code>a</code>, so <code>a === c</code> is true - they point to the exact same object."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const { name: studentName, age: studentAge = 18 } = { name: \"Arjun\" };\nconsole.log(studentName);\nconsole.log(studentAge);</code></pre>",
+        "hint": "Renaming and default values in destructuring.",
+        "answer": "<code>Arjun</code><br><code>18</code>",
+        "explanation": "<code>name: studentName</code> extracts the name property and stores it in a variable called studentName. <code>age: studentAge = 18</code> extracts age, renames it to studentAge, and since age does not exist in the object, uses the default value 18."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const person = {\n  name: \"Aarav\",\n  greet: () => {\n    return \"Hi, \" + this.name;\n  }\n};\n\nconsole.log(person.greet());</code></pre>",
+        "hint": "Arrow functions do NOT have their own this.",
+        "answer": "<code>Hi, undefined</code>",
+        "explanation": "The arrow function does not have its own <code>this</code>. It inherits <code>this</code> from the enclosing scope (likely the global object where <code>this.name</code> is undefined). This is why you should use regular function syntax for object methods."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between dot notation and bracket notation for accessing object properties?",
+        "hint": "When can you use each one?",
+        "answer": "Dot notation (<code>obj.key</code>) is simpler and more common. Bracket notation (<code>obj[\"key\"]</code>) is required when the key contains spaces or special characters, when the key is stored in a variable, or when the key is computed dynamically. Dot notation only works with valid identifier names.",
+        "explanation": "Example: <code>obj.name</code> works for simple keys. <code>obj[\"full name\"]</code> is needed for keys with spaces. <code>obj[variable]</code> is needed when the key is in a variable."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const student = {\n  name: \"Priya\",\n  marks: { maths: 92, science: 88 }\n};\n\nconst { marks: { maths, science } } = student;\nconsole.log(maths);\nconsole.log(science);</code></pre>",
+        "hint": "Nested destructuring extracts values from nested objects.",
+        "answer": "<code>92</code><br><code>88</code>",
+        "explanation": "This uses nested destructuring. It goes into the <code>marks</code> property and extracts <code>maths</code> and <code>science</code> directly into variables. The <code>marks</code> variable itself is not created."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const obj = { a: 1, b: 2, c: 3 };\ndelete obj.b;\nconsole.log(obj);</code></pre>",
+        "hint": "delete removes a property from an object.",
+        "answer": "<code>{ a: 1, c: 3 }</code>",
+        "explanation": "<code>delete obj.b</code> removes the <code>b</code> property from the object. The remaining properties are <code>a</code> and <code>c</code>."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const json = '{\"name\":\"Diya\",\"age\":14}';\nconst obj = JSON.parse(json);\nconsole.log(obj.name);\nconsole.log(typeof obj);</code></pre>",
+        "hint": "JSON.parse converts a JSON string to a JavaScript object.",
+        "answer": "<code>Diya</code><br><code>object</code>",
+        "explanation": "<code>JSON.parse</code> converts the JSON string to a JavaScript object. You can then access properties normally. The type of the result is \"object\"."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const person = { name: \"Kabir\", age: 17 };\nconsole.log(\"name\" in person);\nconsole.log(\"email\" in person);</code></pre>",
+        "hint": "The in operator checks if a property exists in an object.",
+        "answer": "<code>true</code><br><code>false</code>",
+        "explanation": "The <code>in</code> operator checks whether a property name exists in the object. \"name\" exists, so it returns true. \"email\" does not exist, so it returns false."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const obj = { x: 10, y: 20, z: 30 };\nconst sum = Object.values(obj).reduce((a, b) => a + b, 0);\nconsole.log(sum);</code></pre>",
+        "hint": "Extract values as an array, then reduce to sum.",
+        "answer": "<code>60</code>",
+        "explanation": "<code>Object.values(obj)</code> gives [10, 20, 30]. <code>reduce</code> sums them: 0 + 10 + 20 + 30 = 60."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const obj = { a: 1, b: 2, c: 3 };\nconst filtered = Object.entries(obj)\n  .filter(([key, val]) => val > 1)\n  .map(([key, val]) => key);\nconsole.log(filtered);</code></pre>",
+        "hint": "Convert to entries, filter by value, extract keys.",
+        "answer": "<code>[\"b\", \"c\"]</code>",
+        "explanation": "Object.entries gives [[\"a\",1],[\"b\",2],[\"c\",3]]. Filter keeps entries where value > 1: [[\"b\",2],[\"c\",3]]. Map extracts the keys: [\"b\", \"c\"]."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const student = { name: \"Ananya\", grade: \"10th\" };\nconst { name, ...rest } = student;\nconsole.log(name);\nconsole.log(rest);</code></pre>",
+        "hint": "Rest pattern collects remaining properties.",
+        "answer": "<code>Ananya</code><br><code>{ grade: \"10th\" }</code>",
+        "explanation": "Destructuring extracts <code>name</code> into a variable. The rest pattern <code>...rest</code> collects all remaining properties into a new object: { grade: \"10th\" }."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const key = \"color\";\nconst value = \"purple\";\nconst obj = { [key]: value };\nconsole.log(obj);</code></pre>",
+        "hint": "Square brackets in an object literal create a computed property name.",
+        "answer": "<code>{ color: \"purple\" }</code>",
+        "explanation": "Computed property names use square brackets <code>[key]</code> in the object literal. The value of the <code>key</code> variable (\"color\") becomes the property name. So the object has a property called color with value \"purple\"."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const students = [\n  { name: \"Aarav\", marks: 72 },\n  { name: \"Priya\", marks: 91 },\n  { name: \"Rohan\", marks: 85 },\n  { name: \"Diya\", marks: 68 }\n];\n\nconst names = students\n  .filter(s => s.marks >= 70)\n  .sort((a, b) => b.marks - a.marks)\n  .map(s => s.name);\n\nconsole.log(names);</code></pre>",
+        "hint": "Filter >= 70, sort descending, extract names.",
+        "answer": "<code>[\"Priya\", \"Rohan\", \"Aarav\"]</code>",
+        "explanation": "Filter keeps marks >= 70: Aarav(72), Priya(91), Rohan(85). Sort descending: Priya(91), Rohan(85), Aarav(72). Map to names: [\"Priya\", \"Rohan\", \"Aarav\"]. Diya(68) was filtered out."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const obj = {\n  count: 0,\n  increment() {\n    this.count++;\n    return this;\n  },\n  getCount() {\n    return this.count;\n  }\n};\n\nconsole.log(obj.increment().increment().increment().getCount());</code></pre>",
+        "hint": "Each increment returns this (the object), enabling chaining.",
+        "answer": "<code>3</code>",
+        "explanation": "Each <code>increment()</code> increases count by 1 and returns <code>this</code> (the object), enabling method chaining. After three increments, count is 3. <code>getCount()</code> returns 3."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const data = '{\"students\":[{\"name\":\"Meera\",\"score\":88},{\"name\":\"Kabir\",\"score\":92}]}';\nconst parsed = JSON.parse(data);\nconsole.log(parsed.students[1].name);\nconsole.log(parsed.students.length);</code></pre>",
+        "hint": "Parse the JSON string, then navigate the nested structure.",
+        "answer": "<code>Kabir</code><br><code>2</code>",
+        "explanation": "<code>JSON.parse</code> converts the string to an object. <code>parsed.students</code> is an array of 2 objects. <code>parsed.students[1]</code> is the second student (Kabir). <code>.name</code> gives \"Kabir\". <code>.length</code> gives 2."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const obj = { a: 1, b: 2 };\nconst copy = Object.assign({}, obj, { c: 3 });\nconsole.log(copy);\nconsole.log(obj);</code></pre>",
+        "hint": "Object.assign copies properties from source objects to a target.",
+        "answer": "<code>{ a: 1, b: 2, c: 3 }</code><br><code>{ a: 1, b: 2 }</code>",
+        "explanation": "<code>Object.assign({}, obj, { c: 3 })</code> copies properties from obj and { c: 3 } into a new empty object. The original obj is unchanged. This is similar to using spread: <code>{ ...obj, c: 3 }</code>."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the difference between a shallow copy and a deep copy of an object? How do you create each?",
+        "hint": "Think about what happens with nested objects and arrays.",
+        "answer": "A <strong>shallow copy</strong> copies top-level properties by value for primitives but by reference for nested objects/arrays. Changes to nested data in the copy affect the original. Create with <code>{ ...obj }</code> or <code>Object.assign({}, obj)</code>. A <strong>deep copy</strong> creates completely independent copies at all nesting levels. Create with <code>structuredClone(obj)</code> or <code>JSON.parse(JSON.stringify(obj))</code>.",
+        "explanation": "Example: if original = { data: [1,2] }, a shallow copy shares the same array. Pushing to the copy's data also pushes to the original's data. A deep copy has its own independent array."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const obj = { name: \"Ishaan\", age: 13 };\nconsole.log(obj.hasOwnProperty(\"name\"));\nconsole.log(obj.hasOwnProperty(\"email\"));</code></pre>",
+        "hint": "hasOwnProperty checks if the object directly has the property.",
+        "answer": "<code>true</code><br><code>false</code>",
+        "explanation": "<code>hasOwnProperty</code> checks if the object itself (not its prototype) has the specified property. \"name\" exists directly on obj (true). \"email\" does not exist (false)."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const people = [\n  { name: \"Aarav\", city: \"Delhi\" },\n  { name: \"Priya\", city: \"Mumbai\" },\n  { name: \"Rohan\", city: \"Delhi\" },\n  { name: \"Diya\", city: \"Mumbai\" }\n];\n\nconst grouped = people.reduce((acc, person) => {\n  const city = person.city;\n  acc[city] = acc[city] || [];\n  acc[city].push(person.name);\n  return acc;\n}, {});\n\nconsole.log(grouped);</code></pre>",
+        "hint": "reduce groups people by city into an object.",
+        "answer": "<code>{ Delhi: [\"Aarav\", \"Rohan\"], Mumbai: [\"Priya\", \"Diya\"] }</code>",
+        "explanation": "The reduce builds an object where each key is a city and each value is an array of names from that city. Delhi gets Aarav and Rohan. Mumbai gets Priya and Diya."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const obj = { a: 1, b: 2, c: 3 };\nfor (const [key, val] of Object.entries(obj)) {\n  console.log(key + \" = \" + val);\n}</code></pre>",
+        "hint": "Destructuring in the for...of loop unpacks each [key, value] pair.",
+        "answer": "<code>a = 1</code><br><code>b = 2</code><br><code>c = 3</code>",
+        "explanation": "<code>Object.entries(obj)</code> returns [[\"a\",1],[\"b\",2],[\"c\",3]]. The <code>for...of</code> loop destructures each pair into <code>key</code> and <code>val</code>."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "How do you create an object in JavaScript?",
+        "options": {
+          "A": "const obj = [];",
+          "B": "const obj = {};",
+          "C": "const obj = ();",
+          "D": "const obj = <>;"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Objects are created with curly braces <code>{}</code>. Square brackets <code>[]</code> (option A) create arrays. The other syntaxes are not valid."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does Object.keys(obj) return?",
+        "options": {
+          "A": "An array of values",
+          "B": "An array of key-value pairs",
+          "C": "An array of property names (keys)",
+          "D": "The number of properties"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>Object.keys()</code> returns an array of property names (strings). <code>Object.values()</code> returns values (option A). <code>Object.entries()</code> returns pairs (option B)."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "When must you use bracket notation instead of dot notation?",
+        "options": {
+          "A": "When the value is a number",
+          "B": "When the key has spaces or is in a variable",
+          "C": "When the object has more than 5 properties",
+          "D": "When the object is nested"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Bracket notation is required when the key contains spaces or special characters (<code>obj[\"full name\"]</code>), when the key is stored in a variable (<code>obj[key]</code>), or when it is computed dynamically."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does JSON stand for?",
+        "options": {
+          "A": "JavaScript Object Naming",
+          "B": "JavaScript Oriented Notation",
+          "C": "JavaScript Object Notation",
+          "D": "Java Standard Object Notation"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> JSON stands for JavaScript Object Notation. It is a text format for representing data that looks like JavaScript objects but with stricter rules (all keys must be double-quoted)."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does delete obj.key do?",
+        "options": {
+          "A": "Sets the property to null",
+          "B": "Sets the property to undefined",
+          "C": "Removes the property from the object",
+          "D": "Throws an error"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>delete</code> operator completely removes the property from the object. After deletion, the property no longer exists (not null, not undefined - gone)."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What happens when you use === to compare two objects with identical content?",
+        "options": {
+          "A": "Returns true because the content is the same",
+          "B": "Returns false because they are different references",
+          "C": "Throws a TypeError",
+          "D": "Compares them property by property"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>===</code> compares objects by reference (memory address), not by content. Two different objects with identical content are different references, so <code>===</code> returns false."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Why should you NOT use arrow functions as object methods?",
+        "options": {
+          "A": "Arrow functions are slower",
+          "B": "Arrow functions do not have their own this",
+          "C": "Arrow functions cannot be called",
+          "D": "Arrow functions cannot access object properties"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Arrow functions do not have their own <code>this</code>. They inherit <code>this</code> from the enclosing scope, which is usually NOT the object. So <code>this.propertyName</code> inside an arrow method will be undefined."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does JSON.stringify do?",
+        "options": {
+          "A": "Converts a JSON string to an object",
+          "B": "Validates JSON syntax",
+          "C": "Converts a JavaScript object to a JSON string",
+          "D": "Creates a new JSON file"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>JSON.stringify</code> converts a JavaScript object to a JSON string. <code>JSON.parse</code> does the opposite (option A)."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does the spread operator { ...obj } create?",
+        "options": {
+          "A": "A deep copy of the object",
+          "B": "A shallow copy of the object",
+          "C": "A reference to the same object",
+          "D": "A frozen copy of the object"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The spread operator creates a shallow copy. Top-level primitive properties are copied by value, but nested objects and arrays are copied by reference (shared). Use <code>structuredClone</code> for deep copies."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is optional chaining (?.) used for?",
+        "options": {
+          "A": "Adding optional properties to objects",
+          "B": "Safely accessing properties that might not exist",
+          "C": "Making properties optional in destructuring",
+          "D": "Creating nullable objects"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Optional chaining <code>?.</code> safely accesses nested properties. If any part of the chain is null or undefined, it short-circuits and returns undefined instead of throwing a TypeError."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the result of typeof null?",
+        "options": {
+          "A": "\"null\"",
+          "B": "\"undefined\"",
+          "C": "\"object\"",
+          "D": "\"boolean\""
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>typeof null</code> returns \"object\". This is a well-known bug in JavaScript from its early implementation. null is NOT actually an object - it is its own type. This has never been fixed for backward compatibility."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the modern way to create a deep copy of an object?",
+        "options": {
+          "A": "Object.assign({}, obj)",
+          "B": "{ ...obj }",
+          "C": "structuredClone(obj)",
+          "D": "obj.copy()"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>structuredClone()</code> creates a true deep copy of an object, including nested structures. Options A and B create shallow copies. Option D is not a real method."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What types of values are NOT allowed in JSON?",
+        "options": {
+          "A": "Strings and numbers",
+          "B": "Booleans and null",
+          "C": "Functions and undefined",
+          "D": "Arrays and objects"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> JSON only supports strings, numbers, booleans, null, arrays, and objects. Functions, undefined, Symbol, Infinity, and NaN are NOT valid JSON values. <code>JSON.stringify</code> silently omits these."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What does Object.entries({ a: 1, b: 2 }) return?",
+        "options": {
+          "A": "[\"a\", \"b\"]",
+          "B": "[1, 2]",
+          "C": "[[\"a\", 1], [\"b\", 2]]",
+          "D": "{\"a\": 1, \"b\": 2}"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>Object.entries()</code> returns an array of [key, value] pairs. Each property becomes a two-element array. Option A is Object.keys(). Option B is Object.values()."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "What is the output of: const obj = {}; console.log(typeof obj);",
+        "options": {
+          "A": "\"empty\"",
+          "B": "\"object\"",
+          "C": "\"undefined\"",
+          "D": "\"null\""
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> An empty object is still an object. <code>typeof {}</code> returns \"object\". It is not \"empty\" or \"undefined\" - those are not valid typeof results for objects."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What is the shorthand for { name: name, age: age } in ES6?",
+        "options": {
+          "A": "{ name, age }",
+          "B": "{ :name, :age }",
+          "C": "{ name => age }",
+          "D": "There is no shorthand"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> When the property name and variable name are the same, you can use the shorthand <code>{ name, age }</code> instead of <code>{ name: name, age: age }</code>. This is called shorthand property notation in ES6."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What does Object.freeze(obj) do?",
+        "options": {
+          "A": "Deletes all properties from the object",
+          "B": "Prevents adding, removing, or modifying properties",
+          "C": "Creates a deep copy of the object",
+          "D": "Converts the object to JSON"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>Object.freeze()</code> makes an object immutable at the top level. You cannot add, remove, or modify properties. It is a shallow freeze - nested objects can still be modified."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Student Report Card",
+        "difficulty": "Easy",
+        "description": "Aarav has a student object: {name: \"Aarav\", marks: {maths: 92, science: 88, english: 76, hindi: 82}}. Write a program that calculates the total marks, average, and percentage.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Student: Aarav\nTotal: 338 / 400\nAverage: 84.5\nPercentage: 84.5%",
+        "constraints": "Use Object.values to extract marks. Use reduce to calculate the total.",
+        "solution": "const student = {\n  name: \"Aarav\",\n  marks: { maths: 92, science: 88, english: 76, hindi: 82 }\n};\n\nconst values = Object.values(student.marks);\nconst total = values.reduce((a, b) => a + b, 0);\nconst maxTotal = values.length * 100;\nconst avg = total / values.length;\n\nconsole.log(\"Student:\", student.name);\nconsole.log(\"Total:\", total, \"/\", maxTotal);\nconsole.log(\"Average:\", avg);\nconsole.log(\"Percentage:\", avg + \"%\");"
+      },
+      {
+        "id": "cc-2",
+        "title": "Merge User Preferences",
+        "difficulty": "Easy",
+        "description": "Priya has default settings {theme: \"dark\", fontSize: 14, lang: \"en\", notifications: true} and user preferences {fontSize: 18, lang: \"hi\"}. Merge them so user preferences override defaults.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "{ theme: \"dark\", fontSize: 18, lang: \"hi\", notifications: true }",
+        "constraints": "Use the spread operator to merge.",
+        "solution": "const defaults = { theme: \"dark\", fontSize: 14, lang: \"en\", notifications: true };\nconst userPrefs = { fontSize: 18, lang: \"hi\" };\nconst settings = { ...defaults, ...userPrefs };\nconsole.log(settings);"
+      },
+      {
+        "id": "cc-3",
+        "title": "Build Product Cards from Objects",
+        "difficulty": "Medium",
+        "description": "Rohan has an array of product objects: [{name: \"Laptop\", price: 45000, rating: 4.5}, {name: \"Phone\", price: 15000, rating: 4.2}, {name: \"Watch\", price: 8000, rating: 4.8}]. Use map and template literals to generate HTML card strings for each product.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "(Three HTML cards with product name, price, and star rating)",
+        "constraints": "Use map with template literals. Include price formatted with commas.",
+        "solution": "const products = [\n  { name: \"Laptop\", price: 45000, rating: 4.5 },\n  { name: \"Phone\", price: 15000, rating: 4.2 },\n  { name: \"Watch\", price: 8000, rating: 4.8 }\n];\n\nconst cards = products.map(p => `<div class=\"product-card\">\n  <h3>${p.name}</h3>\n  <p class=\"price\">Rs ${p.price.toLocaleString()}</p>\n  <p class=\"rating\">${p.rating} / 5</p>\n</div>`);\n\nconsole.log(cards.join(\"\\n\"));"
+      },
+      {
+        "id": "cc-4",
+        "title": "Object Difference Checker",
+        "difficulty": "Medium",
+        "description": "Kavya wants to compare two versions of a student object and find what changed. Write a function diff(oldObj, newObj) that returns an object showing only the properties that changed.",
+        "sampleInput": "diff({name: \"Kavya\", age: 15, grade: \"10th\"}, {name: \"Kavya\", age: 16, grade: \"11th\"})",
+        "sampleOutput": "{ age: { old: 15, new: 16 }, grade: { old: \"10th\", new: \"11th\" } }",
+        "constraints": "Compare each property. Only include properties that changed.",
+        "solution": "function diff(oldObj, newObj) {\n  const changes = {};\n  for (const key of Object.keys(newObj)) {\n    if (oldObj[key] !== newObj[key]) {\n      changes[key] = { old: oldObj[key], new: newObj[key] };\n    }\n  }\n  return changes;\n}\n\nconst result = diff(\n  { name: \"Kavya\", age: 15, grade: \"10th\" },\n  { name: \"Kavya\", age: 16, grade: \"11th\" }\n);\nconsole.log(result);"
+      },
+      {
+        "id": "cc-5",
+        "title": "Invert Object Keys and Values",
+        "difficulty": "Medium",
+        "description": "Vikram has the object {a: 1, b: 2, c: 3}. Write a function invertObject that swaps keys and values, returning {1: \"a\", 2: \"b\", 3: \"c\"}.",
+        "sampleInput": "invertObject({a: 1, b: 2, c: 3})",
+        "sampleOutput": "{ 1: \"a\", 2: \"b\", 3: \"c\" }",
+        "constraints": "Use Object.entries and reduce.",
+        "solution": "function invertObject(obj) {\n  return Object.entries(obj).reduce((acc, [key, val]) => {\n    acc[val] = key;\n    return acc;\n  }, {});\n}\n\nconsole.log(invertObject({ a: 1, b: 2, c: 3 }));"
+      },
+      {
+        "id": "cc-6",
+        "title": "Deep Flatten Nested Object",
+        "difficulty": "Hard",
+        "description": "Arjun has a deeply nested object: {a: 1, b: {c: 2, d: {e: 3, f: 4}}, g: 5}. Write a function flattenObject that returns {a: 1, \"b.c\": 2, \"b.d.e\": 3, \"b.d.f\": 4, g: 5}.",
+        "sampleInput": "flattenObject({a: 1, b: {c: 2, d: {e: 3}}})",
+        "sampleOutput": "{a: 1, \"b.c\": 2, \"b.d.e\": 3}",
+        "constraints": "Use recursion. Concatenate keys with dots for nesting.",
+        "solution": "function flattenObject(obj, prefix = \"\") {\n  const result = {};\n  for (const [key, val] of Object.entries(obj)) {\n    const newKey = prefix ? prefix + \".\" + key : key;\n    if (typeof val === \"object\" && val !== null && !Array.isArray(val)) {\n      Object.assign(result, flattenObject(val, newKey));\n    } else {\n      result[newKey] = val;\n    }\n  }\n  return result;\n}\n\nconsole.log(flattenObject({ a: 1, b: { c: 2, d: { e: 3, f: 4 } }, g: 5 }));"
+      },
+      {
+        "id": "cc-7",
+        "title": "Student Ranking System",
+        "difficulty": "Hard",
+        "description": "Meera has student data as an array of objects. Write a function that takes the array, calculates each student's average, adds a rank property (1 = highest average), and returns the sorted array.",
+        "sampleInput": "[{name: \"Aarav\", marks: [85, 90, 78]}, {name: \"Priya\", marks: [92, 88, 95]}, {name: \"Rohan\", marks: [70, 65, 80]}]",
+        "sampleOutput": "[{name: \"Priya\", marks: [...], average: 91.67, rank: 1}, ...]",
+        "constraints": "Use map, sort, and forEach. Do not modify the original array.",
+        "solution": "function rankStudents(students) {\n  return students\n    .map(s => ({\n      ...s,\n      average: parseFloat((s.marks.reduce((a, b) => a + b, 0) / s.marks.length).toFixed(2))\n    }))\n    .sort((a, b) => b.average - a.average)\n    .map((s, i) => ({ ...s, rank: i + 1 }));\n}\n\nconst data = [\n  { name: \"Aarav\", marks: [85, 90, 78] },\n  { name: \"Priya\", marks: [92, 88, 95] },\n  { name: \"Rohan\", marks: [70, 65, 80] }\n];\n\nconsole.log(rankStudents(data));"
+      }
+    ]
+  }
+}

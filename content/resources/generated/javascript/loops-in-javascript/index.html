@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops (for, while, for...of, for...in) - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Repeat actions, iterate over data, and build dynamic lists on web pages using loops.">
+    <meta name="keywords" content="loops (for, while, for...of, for...in), javascript tutorial, javascript loops (for, while, for...of, for...in), learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/loops-in-javascript">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/loops-in-javascript">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/loops-in-javascript">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/loops-in-javascript">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/loops-in-javascript">
+    <meta property="og:title" content="Loops (for, while, for...of, for...in) - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Repeat actions, iterate over data, and build dynamic lists on web pages using loops.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/loops-in-javascript">
+    <meta name="twitter:title" content="Loops (for, while, for...of, for...in) - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Repeat actions, iterate over data, and build dynamic lists on web pages using loops.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Loops (for, while, for...of, for...in)",
+    "description": "Repeat actions, iterate over data, and build dynamic lists on web pages using loops.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/loops-in-javascript"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/loops-in-javascript"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Loops (for, while, for...of, for...in)",
+        "item": "https://learn.modernagecoders.com/resources/javascript/loops-in-javascript"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Off-by-One Error with < vs <=",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Using <code>i < 10</code> means the loop stops when i reaches 10 (since 10 is not less than 10). To include 10, use <code>i <= 10</code>. This off-by-one error is extremely common. Always ask yourself: do I want to include the last number or exclude it?"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Infinite Loop - Forgetting to Update the Counter",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A while loop needs its condition to eventually become false. If you forget to update the counter inside the loop body, the condition stays true forever. Always make sure you have an update statement (<code>count++</code>) that moves toward ending the loop."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using for...in on Arrays",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>for...in</code> is designed for objects. When used on arrays, it gives you the indices as strings (\"0\", \"1\", \"2\"), not the actual values. Use <code>for...of</code> for arrays - it gives you the values directly. This is a very common mistake, even among experienced developers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using var Instead of let in for Loops",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>var</code> is function-scoped, so there is only one <code>i</code> variable shared by all iterations. By the time setTimeout runs, the loop has finished and i is 3. <code>let</code> is block-scoped, creating a new <code>i</code> for each iteration. Always use <code>let</code> in for loops."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Missing Semicolons in for Loop Syntax",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A for loop uses semicolons (<code>;</code>) to separate its three parts: initialization, condition, and update. Using commas instead causes a syntax error. This is a common typo, especially for students coming from other languages."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Comparing Wrong Loop Type",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Regular objects are not iterable, so <code>for...of</code> does not work on them. Use <code>for...in</code> to loop through object keys. If you want to use <code>for...of</code>, first convert the object using <code>Object.keys()</code>, <code>Object.values()</code>, or <code>Object.entries()</code>."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Loops (for, while, for...of, for...in)</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 6</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">24 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Loops (for, while, for...of, for...in)</h1>
+            <a href="/resources/javascript/loops-in-javascript/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Loops in JavaScript?</h2><p>A <strong>loop</strong> is a way to repeat a block of code multiple times without writing it out again and again. Imagine you want to print the numbers 1 to 100 on a webpage. Without a loop, you would need 100 separate lines of code. With a loop, you write it once and tell JavaScript how many times to repeat.</p><p>JavaScript gives you several types of loops, each suited to different situations:</p><p><strong>1. for loop</strong> - The most common loop. Use it when you know how many times you want to repeat.</p><p><strong>2. while loop</strong> - Repeats as long as a condition is true. Use it when you do not know the exact number of repetitions.</p><p><strong>3. do...while loop</strong> - Like a while loop, but it always runs at least once before checking the condition.</p><p><strong>4. for...of loop</strong> - Loops through the values of arrays, strings, and other iterable objects.</p><p><strong>5. for...in loop</strong> - Loops through the property names (keys) of an object.</p><p>Each type of loop is a tool. Learning when to use which one is a big part of becoming a good JavaScript developer.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Loops Important?</h2><p>Loops are everywhere in real web development. Almost every interactive website uses loops behind the scenes. Here is why you need to understand them:</p><h3>1. Building Dynamic Web Pages</h3><p>When you have a list of products, student names, or blog posts, you use a loop to create HTML elements for each item. Instead of manually writing 50 product cards, you loop through your data and generate them automatically.</p><h3>2. Processing User Data</h3><p>Forms, surveys, shopping carts - all involve collections of data. Loops let you go through each item, validate it, calculate totals, or transform it into something useful.</p><h3>3. Creating Animations and Games</h3><p>Game loops, animation frames, countdown timers - these all use loops or loop-like patterns. Every game you have played has a loop running behind the scenes that updates the screen many times per second.</p><h3>4. Working with APIs</h3><p>When you fetch data from the internet (like weather data or movie listings), it usually comes as an array of objects. You need loops to go through each item and display it on your page.</p><h3>5. Foundation for Array Methods</h3><p>Methods like <code>map()</code>, <code>filter()</code>, and <code>forEach()</code> are built on top of loops. Understanding basic loops first makes these powerful methods much easier to learn later.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The for Loop</h3><p>The <code>for</code> loop is the most common loop in JavaScript. It has three parts inside the parentheses, separated by semicolons:</p><pre><code>for (initialization; condition; update) {
+  // code to repeat
+}</code></pre><p><strong>Initialization</strong> runs once before the loop starts. Usually, you create a counter variable here. <strong>Condition</strong> is checked before each iteration. If it is true, the loop body runs. If false, the loop stops. <strong>Update</strong> runs after each iteration, usually incrementing or decrementing the counter.</p><pre><code>for (let i = 0; i < 5; i++) {
+  console.log(i);
+}</code></pre><p>This prints 0, 1, 2, 3, 4. Here is the step-by-step: (1) <code>let i = 0</code> creates the counter. (2) Is <code>0 < 5</code>? Yes, run the body. (3) Print 0. (4) <code>i++</code> makes i = 1. (5) Is <code>1 < 5</code>? Yes, run the body. This continues until i becomes 5, at which point <code>5 < 5</code> is false and the loop stops.</p><h4>Counting with Different Steps</h4><p>You are not limited to incrementing by 1. You can count by 2, 3, or any number:</p><pre><code>// Count by 2 (even numbers)
+for (let i = 2; i <= 10; i += 2) {
+  console.log(i); // 2, 4, 6, 8, 10
+}
+
+// Count backwards
+for (let i = 10; i >= 1; i--) {
+  console.log(i); // 10, 9, 8, ... 1
+}</code></pre><h3>2. The while Loop</h3><p>A <code>while</code> loop checks its condition before each iteration. If the condition is false from the start, the body never runs.</p><pre><code>let count = 1;
+while (count <= 5) {
+  console.log(count);
+  count++;
+}</code></pre><p>This prints 1, 2, 3, 4, 5. The variable <code>count</code> starts at 1. Each time through the loop, we print it and add 1. When count reaches 6, the condition <code>6 <= 5</code> is false, and the loop stops.</p><p>Use a while loop when you do not know how many iterations you need. For example, doubling a number until it exceeds 1000 - you do not know in advance how many doublings that takes.</p><h3>3. The do...while Loop</h3><p>A <code>do...while</code> loop is like a while loop, but it checks the condition <strong>after</strong> the body runs. This means the body always executes at least once, even if the condition is false.</p><pre><code>let num = 10;
+do {
+  console.log(num);
+  num++;
+} while (num < 5);</code></pre><p>This prints 10. Even though <code>10 < 5</code> is false, the body runs once before the check happens. This is useful for things like showing a menu at least once, or asking for input at least once.</p><h3>4. The for...of Loop</h3><p>The <code>for...of</code> loop iterates over the <strong>values</strong> of an iterable object like an array or a string. It is cleaner than a traditional for loop when you do not need the index.</p><pre><code>const fruits = ["apple", "mango", "banana"];
+for (const fruit of fruits) {
+  console.log(fruit);
+}</code></pre><p>This prints each fruit: apple, mango, banana. You do not have to deal with indices or <code>.length</code>. The loop variable <code>fruit</code> gets each value automatically.</p><h4>for...of with Strings</h4><pre><code>const name = "Aarav";
+for (const char of name) {
+  console.log(char);
+}</code></pre><p>This prints each character: A, a, r, a, v. Strings are iterable in JavaScript, so <code>for...of</code> works on them directly.</p><h3>5. The for...in Loop</h3><p>The <code>for...in</code> loop iterates over the <strong>property names (keys)</strong> of an object. It is designed for objects, not arrays.</p><pre><code>const student = { name: "Priya", age: 15, grade: "10th" };
+for (const key in student) {
+  console.log(key + ": " + student[key]);
+}</code></pre><p>This prints: name: Priya, age: 15, grade: 10th. The loop variable <code>key</code> gets each property name, and you use <code>student[key]</code> (bracket notation) to access the value.</p><p><strong>Important:</strong> Do not use <code>for...in</code> with arrays. It loops over indices as strings, and it can also pick up inherited properties. Use <code>for...of</code> or a regular <code>for</code> loop for arrays.</p><h3>6. break and continue</h3><p>The <code>break</code> statement exits the loop immediately. The <code>continue</code> statement skips the rest of the current iteration and moves to the next one.</p><pre><code>// break - stop at 5
+for (let i = 1; i <= 10; i++) {
+  if (i === 5) break;
+  console.log(i); // prints 1, 2, 3, 4
+}
+
+// continue - skip 5
+for (let i = 1; i <= 10; i++) {
+  if (i === 5) continue;
+  console.log(i); // prints 1, 2, 3, 4, 6, 7, 8, 9, 10
+}</code></pre><p>With <code>break</code>, the loop stops entirely when i equals 5. With <code>continue</code>, the loop just skips printing 5 but keeps going until 10.</p><h3>7. Nested Loops</h3><p>A nested loop is a loop inside another loop. For each iteration of the outer loop, the inner loop runs completely from start to finish.</p><pre><code>for (let i = 1; i <= 3; i++) {
+  for (let j = 1; j <= 3; j++) {
+    console.log(i, j);
+  }
+}</code></pre><p>This prints 9 pairs: (1,1), (1,2), (1,3), (2,1), (2,2), (2,3), (3,1), (3,2), (3,3). The inner loop runs 3 times for EACH iteration of the outer loop, giving 3 x 3 = 9 total iterations.</p><h3>8. Building Dynamic HTML with Loops</h3><p>One of the most common uses of loops in web development is creating HTML elements dynamically. Instead of hardcoding every list item or card, you loop through your data and build the HTML.</p><pre><code>const names = ["Aarav", "Priya", "Rohan", "Ananya"];
+const ul = document.createElement("ul");
+
+for (const name of names) {
+  const li = document.createElement("li");
+  li.textContent = name;
+  ul.appendChild(li);
+}
+
+document.body.appendChild(ul);</code></pre><p>This creates an unordered list with four list items and adds it to the page. Each iteration creates a new <code>&lt;li&gt;</code> element, sets its text, and appends it to the <code>&lt;ul&gt;</code>. This is how real websites build lists, menus, and grids from data.</p><h3>9. Generating a Multiplication Table on a Webpage</h3><p>Nested loops are perfect for building tables. Here is how you can generate a multiplication table and display it on a webpage:</p><pre><code>const table = document.createElement("table");
+
+for (let i = 1; i <= 10; i++) {
+  const row = document.createElement("tr");
+  for (let j = 1; j <= 10; j++) {
+    const cell = document.createElement("td");
+    cell.textContent = i * j;
+    row.appendChild(cell);
+  }
+  table.appendChild(row);
+}
+
+document.body.appendChild(table);</code></pre><p>The outer loop creates rows, and the inner loop creates cells within each row. Each cell shows the product of the row number and column number. This gives you a 10x10 multiplication table right on the webpage.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">for Loop - All Variations</div><pre><code class="language-python">// Basic for loop
+for (let i = 0; i &lt; 5; i++) {
+  console.log(i);
+}
+// Output: 0 1 2 3 4
+
+// Counting by 3
+for (let i = 0; i &lt;= 15; i += 3) {
+  console.log(i);
+}
+// Output: 0 3 6 9 12 15
+
+// Counting backwards
+for (let i = 5; i &gt;= 1; i--) {
+  console.log(i);
+}
+// Output: 5 4 3 2 1</code></pre><div class="code-example-explanation">The for loop has three parts: initialization (<code>let i = 0</code>), condition (<code>i < 5</code>), and update (<code>i++</code>). You can change the step size with <code>i += 3</code> or count backwards with <code>i--</code>. The condition is checked before each iteration.</div><div class="code-example-output">0
+1
+2
+3
+4
+0
+3
+6
+9
+12
+15
+5
+4
+3
+2
+1</div></div>
+<div class="code-example"><div class="code-example-title">while and do...while Comparison</div><pre><code class="language-python">// while loop
+let a = 1;
+while (a &lt;= 3) {
+  console.log(&quot;while:&quot;, a);
+  a++;
+}
+
+// do...while loop - runs at least once
+let b = 10;
+do {
+  console.log(&quot;do-while:&quot;, b);
+  b++;
+} while (b &lt; 5);
+// b starts at 10, condition 10 &lt; 5 is false,
+// but body still runs once</code></pre><div class="code-example-explanation">The <code>while</code> loop checks the condition first. The <code>do...while</code> loop runs the body first, then checks. This means <code>do...while</code> always executes at least once. In this example, b = 10 and the condition is b < 5, which is false, but the body still prints once.</div><div class="code-example-output">while: 1
+while: 2
+while: 3
+do-while: 10</div></div>
+<div class="code-example"><div class="code-example-title">for...of with Arrays and Strings</div><pre><code class="language-python">// for...of with an array
+const colors = [&quot;red&quot;, &quot;green&quot;, &quot;blue&quot;];
+for (const color of colors) {
+  console.log(color);
+}
+
+// for...of with a string
+const word = &quot;Hello&quot;;
+for (const char of word) {
+  console.log(char);
+}</code></pre><div class="code-example-explanation"><code>for...of</code> gives you the values directly. With an array, you get each element. With a string, you get each character. No need to deal with index numbers. This is the cleanest way to loop through arrays when you do not need the index.</div><div class="code-example-output">red
+green
+blue
+H
+e
+l
+l
+o</div></div>
+<div class="code-example"><div class="code-example-title">for...in with Objects</div><pre><code class="language-python">const student = {
+  name: &quot;Kavya&quot;,
+  age: 16,
+  school: &quot;DPS Delhi&quot;,
+  grade: &quot;11th&quot;
+};
+
+for (const key in student) {
+  console.log(key + &quot; =&gt; &quot; + student[key]);
+}</code></pre><div class="code-example-explanation"><code>for...in</code> loops through the property names (keys) of an object. The variable <code>key</code> gets each property name as a string. You use bracket notation <code>student[key]</code> to access the corresponding value. This is the go-to way to loop through object properties.</div><div class="code-example-output">name =&gt; Kavya
+age =&gt; 16
+school =&gt; DPS Delhi
+grade =&gt; 11th</div></div>
+<div class="code-example"><div class="code-example-title">break and continue in Action</div><pre><code class="language-python">// break: find the first number divisible by 7
+for (let i = 1; i &lt;= 100; i++) {
+  if (i % 7 === 0) {
+    console.log(&quot;First multiple of 7:&quot;, i);
+    break;
+  }
+}
+
+// continue: print only odd numbers 1-10
+for (let i = 1; i &lt;= 10; i++) {
+  if (i % 2 === 0) continue;
+  console.log(i);
+}</code></pre><div class="code-example-explanation"><code>break</code> stops the loop immediately. Here it stops after finding the first multiple of 7 (which is 7). <code>continue</code> skips the rest of the current iteration. Here it skips even numbers, so only odd numbers get printed. Both are useful for controlling loop flow.</div><div class="code-example-output">First multiple of 7: 7
+1
+3
+5
+7
+9</div></div>
+<div class="code-example"><div class="code-example-title">Nested Loops - Star Pattern</div><pre><code class="language-python">// Right triangle pattern
+let pattern = &quot;&quot;;
+for (let i = 1; i &lt;= 5; i++) {
+  for (let j = 1; j &lt;= i; j++) {
+    pattern += &quot;* &quot;;
+  }
+  pattern += &quot;\n&quot;;
+}
+console.log(pattern);</code></pre><div class="code-example-explanation">The outer loop controls the rows (1 to 5). The inner loop runs <code>i</code> times for each row, so row 1 gets 1 star, row 2 gets 2 stars, and so on. We build the pattern as a string and print it at the end. Nested loops are essential for grids, tables, and pattern problems.</div><div class="code-example-output">* 
+* * 
+* * * 
+* * * * 
+* * * * * </div></div>
+<div class="code-example"><div class="code-example-title">Building Dynamic HTML List Items with a Loop</div><pre><code class="language-python">// This code runs in a browser with an HTML page
+const students = [&quot;Aarav&quot;, &quot;Meera&quot;, &quot;Rohan&quot;, &quot;Diya&quot;, &quot;Arjun&quot;];
+const ul = document.createElement(&quot;ul&quot;);
+
+for (const student of students) {
+  const li = document.createElement(&quot;li&quot;);
+  li.textContent = student;
+  li.style.padding = &quot;8px&quot;;
+  ul.appendChild(li);
+}
+
+document.body.appendChild(ul);
+// Creates:
+// &lt;ul&gt;
+//   &lt;li&gt;Aarav&lt;/li&gt;
+//   &lt;li&gt;Meera&lt;/li&gt;
+//   &lt;li&gt;Rohan&lt;/li&gt;
+//   &lt;li&gt;Diya&lt;/li&gt;
+//   &lt;li&gt;Arjun&lt;/li&gt;
+// &lt;/ul&gt;</code></pre><div class="code-example-explanation">This is how real websites build lists from data. The loop goes through each student name, creates an <code>&lt;li&gt;</code> element, sets its text content, adds some padding, and appends it to a <code>&lt;ul&gt;</code>. Finally the <code>&lt;ul&gt;</code> is added to the page. No need to write 5 separate HTML lines.</div><div class="code-example-output">(Creates an unordered list on the webpage with 5 student names)</div></div>
+<div class="code-example"><div class="code-example-title">Generating a Multiplication Table on a Webpage</div><pre><code class="language-python">// Creates a 10x10 multiplication table in the browser
+const table = document.createElement(&quot;table&quot;);
+table.style.borderCollapse = &quot;collapse&quot;;
+
+for (let i = 1; i &lt;= 10; i++) {
+  const tr = document.createElement(&quot;tr&quot;);
+  for (let j = 1; j &lt;= 10; j++) {
+    const td = document.createElement(&quot;td&quot;);
+    td.textContent = i * j;
+    td.style.border = &quot;1px solid #ccc&quot;;
+    td.style.padding = &quot;8px&quot;;
+    td.style.textAlign = &quot;center&quot;;
+    tr.appendChild(td);
+  }
+  table.appendChild(tr);
+}
+
+document.body.appendChild(table);</code></pre><div class="code-example-explanation">This uses nested loops to build an HTML table. The outer loop creates a <code>&lt;tr&gt;</code> (table row) for each number 1-10. The inner loop creates 10 <code>&lt;td&gt;</code> (table cell) elements within each row, each showing the product. The result is a fully styled multiplication table on the webpage.</div><div class="code-example-output">(Creates a 10x10 multiplication table on the webpage)</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Off-by-One Error with &lt; vs &lt;=</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Rohan wants to print 1 to 10
+for (let i = 1; i &lt; 10; i++) {
+  console.log(i);
+}
+// Only prints 1 to 9!</code></pre></div><div class="error-message">Prints 1 to 9 instead of 1 to 10 because &lt; 10 excludes 10.</div><div class="correct-code"><pre><code class="language-python">for (let i = 1; i &lt;= 10; i++) {
+  console.log(i);
+}</code></pre></div><div class="mistake-explanation">Using <code>i < 10</code> means the loop stops when i reaches 10 (since 10 is not less than 10). To include 10, use <code>i <= 10</code>. This off-by-one error is extremely common. Always ask yourself: do I want to include the last number or exclude it?</div>
+            </div>
+<div class="mistake-card">
+                <h3>Infinite Loop - Forgetting to Update the Counter</h3>
+                <div class="wrong-code"><pre><code class="language-python">let count = 1;
+while (count &lt;= 5) {
+  console.log(count);
+  // Forgot count++!
+}</code></pre></div><div class="error-message">Infinite loop! The browser tab will freeze because count never changes.</div><div class="correct-code"><pre><code class="language-python">let count = 1;
+while (count &lt;= 5) {
+  console.log(count);
+  count++;
+}</code></pre></div><div class="mistake-explanation">A while loop needs its condition to eventually become false. If you forget to update the counter inside the loop body, the condition stays true forever. Always make sure you have an update statement (<code>count++</code>) that moves toward ending the loop.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using for...in on Arrays</h3>
+                <div class="wrong-code"><pre><code class="language-python">const fruits = [&quot;apple&quot;, &quot;mango&quot;, &quot;banana&quot;];
+for (const i in fruits) {
+  console.log(typeof i); // &quot;string&quot;!
+  console.log(i); // &quot;0&quot;, &quot;1&quot;, &quot;2&quot; (strings, not numbers)
+}</code></pre></div><div class="error-message">for...in gives you string indices, not values. It can also pick up inherited properties.</div><div class="correct-code"><pre><code class="language-python">const fruits = [&quot;apple&quot;, &quot;mango&quot;, &quot;banana&quot;];
+for (const fruit of fruits) {
+  console.log(fruit); // &quot;apple&quot;, &quot;mango&quot;, &quot;banana&quot;
+}</code></pre></div><div class="mistake-explanation"><code>for...in</code> is designed for objects. When used on arrays, it gives you the indices as strings ("0", "1", "2"), not the actual values. Use <code>for...of</code> for arrays - it gives you the values directly. This is a very common mistake, even among experienced developers.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using var Instead of let in for Loops</h3>
+                <div class="wrong-code"><pre><code class="language-python">for (var i = 0; i &lt; 3; i++) {
+  setTimeout(function() {
+    console.log(i); // Prints 3, 3, 3 instead of 0, 1, 2
+  }, 100);
+}</code></pre></div><div class="error-message">All three timeouts print 3 because var is function-scoped, not block-scoped.</div><div class="correct-code"><pre><code class="language-python">for (let i = 0; i &lt; 3; i++) {
+  setTimeout(function() {
+    console.log(i); // Prints 0, 1, 2
+  }, 100);
+}</code></pre></div><div class="mistake-explanation"><code>var</code> is function-scoped, so there is only one <code>i</code> variable shared by all iterations. By the time setTimeout runs, the loop has finished and i is 3. <code>let</code> is block-scoped, creating a new <code>i</code> for each iteration. Always use <code>let</code> in for loops.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Missing Semicolons in for Loop Syntax</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Missing semicolons
+for (let i = 0, i &lt; 5, i++) {
+  console.log(i);
+}</code></pre></div><div class="error-message">SyntaxError! The three parts of a for loop must be separated by semicolons, not commas.</div><div class="correct-code"><pre><code class="language-python">for (let i = 0; i &lt; 5; i++) {
+  console.log(i);
+}</code></pre></div><div class="mistake-explanation">A for loop uses semicolons (<code>;</code>) to separate its three parts: initialization, condition, and update. Using commas instead causes a syntax error. This is a common typo, especially for students coming from other languages.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Comparing Wrong Loop Type</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Meera wants to loop through object keys
+const person = { name: &quot;Meera&quot;, age: 14 };
+for (const key of person) {
+  console.log(key);
+}</code></pre></div><div class="error-message">TypeError: person is not iterable. Objects are not iterable with for...of.</div><div class="correct-code"><pre><code class="language-python">const person = { name: &quot;Meera&quot;, age: 14 };
+for (const key in person) {
+  console.log(key + &quot;: &quot; + person[key]);
+}</code></pre></div><div class="mistake-explanation">Regular objects are not iterable, so <code>for...of</code> does not work on them. Use <code>for...in</code> to loop through object keys. If you want to use <code>for...of</code>, first convert the object using <code>Object.keys()</code>, <code>Object.values()</code>, or <code>Object.entries()</code>.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>The for loop is the most common loop: for (let i = 0; i &lt; n; i++). It has three parts separated by semicolons: initialization, condition, and update.</li>
+<li>The while loop checks its condition before each iteration. If the condition is false from the start, the body never runs. Always include an update to avoid infinite loops.</li>
+<li>The do...while loop checks the condition after the body runs, so it always executes at least once. Useful when you need something to happen at least one time.</li>
+<li>for...of iterates over values of arrays, strings, and other iterables. Use it when you need each value but not the index. It is the cleanest way to loop through arrays.</li>
+<li>for...in iterates over property names (keys) of objects. Do not use it on arrays - use for...of or a regular for loop for arrays instead.</li>
+<li>break exits the loop immediately. continue skips the rest of the current iteration and moves to the next one. Both work in all loop types.</li>
+<li>Nested loops place one loop inside another. The inner loop runs completely for each iteration of the outer loop. A 5x3 nested loop runs 15 total iterations.</li>
+<li>Always use let (not var) in for loop declarations. var is function-scoped and causes bugs with closures and asynchronous code.</li>
+<li>Loops are essential for building dynamic HTML. You can create elements in a loop and append them to the DOM to build lists, tables, and grids from data.</li>
+<li>Off-by-one errors are the most common loop bug. Double-check whether you need &lt; or &lt;= in your condition to include or exclude the boundary value.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/conditional-statements" class="related-topic-link">Conditional Statements (if, else, switch)</a>
+<a href="/resources/javascript/functions-in-javascript" class="related-topic-link">Functions - Regular, Arrow, and Callback</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/conditional-statements" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Conditional Statements (if, else, switch)</span>
+        </a>
+            <a href="/resources/javascript/functions-in-javascript" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Functions - Regular, Arrow, and Callback</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/loops-in-javascript/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Array and Object Patterns - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Chaining methods, nested destructuring, computed properties, Object.keys/values/entries, and real data processing.">
+    <meta name="keywords" content="advanced array and object patterns, javascript tutorial, javascript advanced array and object patterns, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/array-and-object-advanced-patterns">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/array-and-object-advanced-patterns">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/array-and-object-advanced-patterns">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/array-and-object-advanced-patterns">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/array-and-object-advanced-patterns">
+    <meta property="og:title" content="Advanced Array and Object Patterns - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Chaining methods, nested destructuring, computed properties, Object.keys/values/entries, and real data processing.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/array-and-object-advanced-patterns">
+    <meta name="twitter:title" content="Advanced Array and Object Patterns - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Chaining methods, nested destructuring, computed properties, Object.keys/values/entries, and real data processing.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Advanced Array and Object Patterns",
+    "description": "Chaining methods, nested destructuring, computed properties, Object.keys/values/entries, and real data processing.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/array-and-object-advanced-patterns"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/array-and-object-advanced-patterns"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Advanced Array and Object Patterns",
+        "item": "https://learn.modernagecoders.com/resources/javascript/array-and-object-advanced-patterns"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting That sort() Mutates the Original Array",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always spread <code>[...array]</code> before sorting if you need to keep the original order. The spread creates a shallow copy, and sort mutates only the copy."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Shallow Copy Does Not Clone Nested Objects",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For nested data, use <code>structuredClone()</code> for a true deep copy. The spread operator only copies the top-level properties. Nested objects and arrays are shared by reference."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Object.keys on an Array",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>Object.keys</code>, <code>Object.values</code>, and <code>Object.entries</code> are designed for plain objects. While they technically work on arrays, the results are confusing (indices as strings). Use array methods directly for arrays."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Grouping Without Initializing the Group Array",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When grouping with reduce, always check if the group key exists before pushing. If it does not exist, initialize it as an empty array first."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Advanced Array and Object Patterns</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 23</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Advanced Array and Object Patterns</h1>
+            <a href="/resources/javascript/array-and-object-advanced-patterns/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Advanced Array and Object Patterns?</h2><p>You already know the basics of arrays and objects. You can use <code>map</code>, <code>filter</code>, <code>reduce</code>, and destructuring. Now it is time to combine these tools into powerful patterns that solve real problems.</p><p>This chapter teaches you how to:</p><ul><li>Chain array methods together to process data in a pipeline</li><li>Use nested destructuring to extract deep values</li><li>Work with Object.keys, Object.values, and Object.entries to transform objects</li><li>Deep clone objects properly</li><li>Group, sort, deduplicate, and flatten data</li><li>Process real datasets like student records, shopping carts, and leaderboards</li></ul><pre><code>// Example: process student data in one chain
+const topStudents = students
+  .filter(s => s.grade >= 90)
+  .map(s => ({ name: s.name, grade: s.grade }))
+  .sort((a, b) => b.grade - a.grade)
+  .slice(0, 3);
+// Top 3 students with grade >= 90, sorted highest first</code></pre><p>These patterns are what separate a beginner from someone who can write real, professional JavaScript.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn Advanced Patterns?</h2><h3>1. Real Apps Process Data Constantly</h3><p>Every real application receives data from APIs, databases, or user input, and needs to transform it. An e-commerce site filters products by price, sorts by rating, and groups by category. A school app calculates averages, finds top students, and generates reports. These all use the patterns in this chapter.</p><h3>2. Method Chaining Makes Code Readable</h3><p>Instead of writing 10 lines with temporary variables, you can chain filter, map, sort, and reduce into a single readable pipeline. When Priya reads your code, she can follow the data transformation step by step, like reading a sentence.</p><h3>3. Interview Essentials</h3><p>Array and object manipulation questions dominate JavaScript interviews. "Group these items by category", "Find the most frequent element", "Flatten a nested array" -- these are extremely common. Knowing these patterns cold will make interviews feel easy.</p><h3>4. Foundation for Frameworks</h3><p>React, Vue, and Angular all rely heavily on immutable data transformations. Rendering a list of filtered, sorted products in React is exactly the same chain of filter-map-sort you learn here.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Method Chaining (Pipeline Pattern)</h3><p>Since <code>filter</code>, <code>map</code>, and <code>sort</code> each return a new array, you can chain them together. The output of one method becomes the input of the next.</p><pre><code>const students = [
+  { name: "Aarav", grade: 92, subject: "Maths" },
+  { name: "Priya", grade: 85, subject: "Science" },
+  { name: "Rohan", grade: 97, subject: "Maths" },
+  { name: "Meera", grade: 78, subject: "English" },
+  { name: "Kavya", grade: 91, subject: "Science" }
+];
+
+// Chain: filter -> map -> sort
+const result = students
+  .filter(function(s) { return s.grade >= 85; })  // Keep grade >= 85
+  .map(function(s) { return s.name + ": " + s.grade; }) // Format as string
+  .sort();  // Alphabetical sort
+
+console.log(result);
+// ["Aarav: 92", "Kavya: 91", "Priya: 85", "Rohan: 97"]</code></pre><p>You can also end a chain with <code>reduce</code> to produce a single value:</p><pre><code>// Total grade of students scoring 85+
+const total = students
+  .filter(function(s) { return s.grade >= 85; })
+  .reduce(function(sum, s) { return sum + s.grade; }, 0);
+console.log(total); // 365</code></pre><h3>2. Nested Destructuring</h3><p>Destructuring can go multiple levels deep to extract nested values:</p><pre><code>const student = {
+  name: "Aarav",
+  scores: { maths: 95, science: 88 },
+  address: { city: "Delhi", pin: "110001" }
+};
+
+// Nested destructuring
+const { name, scores: { maths, science }, address: { city } } = student;
+console.log(name);    // "Aarav"
+console.log(maths);   // 95
+console.log(city);    // "Delhi"
+
+// Array nested in object
+const response = {
+  data: {
+    users: [{ id: 1, name: "Aarav" }, { id: 2, name: "Priya" }]
+  }
+};
+
+const { data: { users: [firstUser] } } = response;
+console.log(firstUser); // { id: 1, name: "Aarav" }</code></pre><h3>3. Computed Property Names</h3><p>You can use an expression inside square brackets to compute an object property name:</p><pre><code>const field = "score";
+const obj = { [field]: 95 };
+console.log(obj); // { score: 95 }
+
+// Useful for dynamic object creation
+function createPair(key, value) {
+  return { [key]: value };
+}
+console.log(createPair("name", "Aarav")); // { name: "Aarav" }
+console.log(createPair("age", 15));       // { age: 15 }
+
+// Building objects from arrays
+const keys = ["a", "b", "c"];
+const values = [1, 2, 3];
+const combined = {};
+keys.forEach(function(key, i) {
+  combined[key] = values[i];
+});
+console.log(combined); // { a: 1, b: 2, c: 3 }</code></pre><h3>4. Object.keys, Object.values, Object.entries</h3><p>These methods convert an object into arrays that you can use with array methods:</p><pre><code>const scores = { maths: 95, science: 88, english: 92, hindi: 85 };
+
+// Keys: array of property names
+console.log(Object.keys(scores));   // ["maths", "science", "english", "hindi"]
+
+// Values: array of values
+console.log(Object.values(scores)); // [95, 88, 92, 85]
+
+// Entries: array of [key, value] pairs
+console.log(Object.entries(scores));
+// [["maths", 95], ["science", 88], ["english", 92], ["hindi", 85]]
+
+// Average score using Object.values
+const avg = Object.values(scores).reduce(function(sum, v) {
+  return sum + v;
+}, 0) / Object.values(scores).length;
+console.log(avg); // 90
+
+// Find highest scoring subject using entries
+const best = Object.entries(scores).sort(function(a, b) {
+  return b[1] - a[1];
+})[0];
+console.log(best[0] + ": " + best[1]); // "maths: 95"</code></pre><h3>5. Object.fromEntries</h3><p>Converts an array of [key, value] pairs back into an object. This is the reverse of Object.entries:</p><pre><code>const entries = [["name", "Aarav"], ["age", 15], ["city", "Delhi"]];
+const obj = Object.fromEntries(entries);
+console.log(obj); // { name: "Aarav", age: 15, city: "Delhi" }
+
+// Transform object values: double all scores
+const scores = { maths: 45, science: 40, english: 48 };
+const doubled = Object.fromEntries(
+  Object.entries(scores).map(function([key, val]) {
+    return [key, val * 2];
+  })
+);
+console.log(doubled); // { maths: 90, science: 80, english: 96 }
+
+// Filter an object: keep scores above 42
+const high = Object.fromEntries(
+  Object.entries(scores).filter(function([key, val]) {
+    return val > 42;
+  })
+);
+console.log(high); // { maths: 45, english: 48 }</code></pre><h3>6. Deep Cloning with structuredClone</h3><p>The spread operator and Object.assign create <strong>shallow copies</strong>. Nested objects and arrays are still shared references. <code>structuredClone</code> creates a true deep copy:</p><pre><code>const original = {
+  name: "Aarav",
+  scores: [95, 88, 92],
+  address: { city: "Delhi" }
+};
+
+// Shallow copy (nested objects are shared!)
+const shallow = { ...original };
+shallow.scores.push(100);
+console.log(original.scores); // [95, 88, 92, 100] -- original is modified!
+
+// Deep clone (completely independent)
+const deep = structuredClone(original);
+deep.scores.push(200);
+console.log(original.scores); // [95, 88, 92, 100] -- original is NOT affected
+console.log(deep.scores);     // [95, 88, 92, 100, 200]</code></pre><p><code>structuredClone</code> is built into modern browsers and Node.js. Before it existed, people used <code>JSON.parse(JSON.stringify(obj))</code> which cannot handle functions, undefined, or Date objects.</p><h3>7. Grouping Data with reduce</h3><p>One of the most powerful patterns: group an array of objects by a property:</p><pre><code>const students = [
+  { name: "Aarav", subject: "Maths" },
+  { name: "Priya", subject: "Science" },
+  { name: "Rohan", subject: "Maths" },
+  { name: "Meera", subject: "Science" },
+  { name: "Kavya", subject: "English" }
+];
+
+const grouped = students.reduce(function(groups, student) {
+  const key = student.subject;
+  if (!groups[key]) {
+    groups[key] = [];
+  }
+  groups[key].push(student.name);
+  return groups;
+}, {});
+
+console.log(grouped);
+// {
+//   Maths: ["Aarav", "Rohan"],
+//   Science: ["Priya", "Meera"],
+//   English: ["Kavya"]
+// }</code></pre><p>Modern JavaScript also has <code>Object.groupBy</code> (available in newer browsers).</p><h3>8. Sorting Objects by Property</h3><pre><code>const students = [
+  { name: "Aarav", grade: 92 },
+  { name: "Priya", grade: 85 },
+  { name: "Rohan", grade: 97 },
+  { name: "Meera", grade: 78 }
+];
+
+// Sort by grade (highest first)
+const byGrade = [...students].sort(function(a, b) {
+  return b.grade - a.grade;
+});
+console.log(byGrade[0].name); // "Rohan" (97)
+
+// Sort by name (alphabetical)
+const byName = [...students].sort(function(a, b) {
+  return a.name.localeCompare(b.name);
+});
+console.log(byName[0].name); // "Aarav"</code></pre><p>Note: <code>[...students]</code> creates a copy before sorting because <code>sort()</code> mutates the original array.</p><h3>9. Removing Duplicates</h3><pre><code>// Duplicates in a simple array
+const nums = [1, 2, 2, 3, 3, 3, 4];
+const unique = [...new Set(nums)];
+console.log(unique); // [1, 2, 3, 4]
+
+// Duplicates in strings
+const words = ["apple", "banana", "apple", "cherry", "banana"];
+const uniqueWords = [...new Set(words)];
+console.log(uniqueWords); // ["apple", "banana", "cherry"]
+
+// Unique objects by a property (using Map)
+const users = [
+  { id: 1, name: "Aarav" },
+  { id: 2, name: "Priya" },
+  { id: 1, name: "Aarav" }
+];
+const uniqueUsers = [...new Map(users.map(function(u) {
+  return [u.id, u];
+})).values()];
+console.log(uniqueUsers); // [{ id: 1, name: "Aarav" }, { id: 2, name: "Priya" }]</code></pre><h3>10. Flattening Nested Arrays</h3><pre><code>// One level deep
+const nested = [[1, 2], [3, 4], [5, 6]];
+console.log(nested.flat()); // [1, 2, 3, 4, 5, 6]
+
+// Multiple levels
+const deep = [1, [2, [3, [4]]]];
+console.log(deep.flat(1));        // [1, 2, [3, [4]]]
+console.log(deep.flat(2));        // [1, 2, 3, [4]]
+console.log(deep.flat(Infinity)); // [1, 2, 3, 4]
+
+// flatMap: map + flatten in one step
+const sentences = ["Hello world", "Good morning"];
+const words = sentences.flatMap(function(s) { return s.split(" "); });
+console.log(words); // ["Hello", "world", "Good", "morning"]</code></pre><h3>11. Creating Lookup Maps from Arrays</h3><pre><code>// Convert array to object for O(1) lookup
+const students = [
+  { id: 101, name: "Aarav", grade: 92 },
+  { id: 102, name: "Priya", grade: 85 },
+  { id: 103, name: "Rohan", grade: 97 }
+];
+
+const lookup = Object.fromEntries(
+  students.map(function(s) { return [s.id, s]; })
+);
+
+// Now find by ID instantly
+console.log(lookup[102].name);  // "Priya"
+console.log(lookup[101].grade); // 92</code></pre><h3>12. Real Data Processing Examples</h3><pre><code>// E-commerce cart total
+const cart = [
+  { item: "Notebook", price: 120, qty: 3 },
+  { item: "Pen", price: 15, qty: 10 },
+  { item: "Eraser", price: 8, qty: 5 }
+];
+
+const total = cart.reduce(function(sum, item) {
+  return sum + item.price * item.qty;
+}, 0);
+console.log("Cart total: Rs " + total); // "Cart total: Rs 550"
+
+// Leaderboard
+const players = [
+  { name: "Aarav", score: 850, wins: 12 },
+  { name: "Priya", score: 920, wins: 15 },
+  { name: "Rohan", score: 780, wins: 10 },
+  { name: "Meera", score: 920, wins: 13 }
+];
+
+// Sort by score descending, then by wins descending
+const leaderboard = [...players].sort(function(a, b) {
+  if (b.score !== a.score) return b.score - a.score;
+  return b.wins - a.wins;
+});
+leaderboard.forEach(function(p, i) {
+  console.log((i + 1) + ". " + p.name + " - " + p.score + " (" + p.wins + " wins)");
+});
+// 1. Priya - 920 (15 wins)
+// 2. Meera - 920 (13 wins)
+// 3. Aarav - 850 (12 wins)
+// 4. Rohan - 780 (10 wins)</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Method Chaining: Filter, Map, Sort, Reduce</div><pre><code class="language-python">const students = [
+  { name: &quot;Aarav&quot;, grade: 92, subject: &quot;Maths&quot; },
+  { name: &quot;Priya&quot;, grade: 85, subject: &quot;Science&quot; },
+  { name: &quot;Rohan&quot;, grade: 97, subject: &quot;Maths&quot; },
+  { name: &quot;Meera&quot;, grade: 78, subject: &quot;English&quot; },
+  { name: &quot;Kavya&quot;, grade: 91, subject: &quot;Maths&quot; },
+  { name: &quot;Arjun&quot;, grade: 68, subject: &quot;Science&quot; }
+];
+
+// Chain 1: top scorers formatted
+const topScorers = students
+  .filter(function(s) { return s.grade &gt;= 85; })
+  .sort(function(a, b) { return b.grade - a.grade; })
+  .map(function(s) { return s.name + &quot; (&quot; + s.grade + &quot;)&quot;; });
+console.log(&quot;Top scorers:&quot;, topScorers);
+
+// Chain 2: average of Maths students
+const mathStudents = students.filter(function(s) { return s.subject === &quot;Maths&quot;; });
+const mathAvg = mathStudents.reduce(function(sum, s) { return sum + s.grade; }, 0) / mathStudents.length;
+console.log(&quot;Maths average:&quot;, mathAvg.toFixed(1));
+
+// Chain 3: count per subject
+const counts = students.reduce(function(acc, s) {
+  acc[s.subject] = (acc[s.subject] || 0) + 1;
+  return acc;
+}, {});
+console.log(&quot;Subject counts:&quot;, counts);</code></pre><div class="code-example-explanation">Chain 1 filters students with grade >= 85, sorts by grade descending, and maps to formatted strings. Chain 2 filters Maths students and calculates their average. Chain 3 uses reduce to count how many students are in each subject. Each chain reads like a step-by-step data transformation.</div><div class="code-example-output">Top scorers: [&quot;Rohan (97)&quot;, &quot;Aarav (92)&quot;, &quot;Kavya (91)&quot;, &quot;Priya (85)&quot;]
+Maths average: 93.3
+Subject counts: { Maths: 3, Science: 2, English: 1 }</div></div>
+<div class="code-example"><div class="code-example-title">Object.keys, Object.values, Object.entries, Object.fromEntries</div><pre><code class="language-python">const scores = { maths: 95, science: 88, english: 92, hindi: 85 };
+
+// Object.keys -- array of key names
+const subjects = Object.keys(scores);
+console.log(&quot;Subjects:&quot;, subjects);
+
+// Object.values -- array of values
+const marks = Object.values(scores);
+console.log(&quot;Marks:&quot;, marks);
+console.log(&quot;Total:&quot;, marks.reduce(function(a, b) { return a + b; }, 0));
+
+// Object.entries -- array of [key, value] pairs
+const entries = Object.entries(scores);
+console.log(&quot;Entries:&quot;, entries);
+
+// Transform: add 5 bonus marks to each subject
+const boosted = Object.fromEntries(
+  Object.entries(scores).map(function([subject, mark]) {
+    return [subject, mark + 5];
+  })
+);
+console.log(&quot;Boosted:&quot;, boosted);
+
+// Filter: only subjects with score &gt; 88
+const high = Object.fromEntries(
+  Object.entries(scores).filter(function([subject, mark]) {
+    return mark &gt; 88;
+  })
+);
+console.log(&quot;High scores:&quot;, high);</code></pre><div class="code-example-explanation"><code>Object.keys</code> returns property names, <code>Object.values</code> returns values, and <code>Object.entries</code> returns [key, value] pairs. <code>Object.fromEntries</code> converts pairs back into an object. Together, they let you use array methods (map, filter, reduce) on objects.</div><div class="code-example-output">Subjects: [&quot;maths&quot;, &quot;science&quot;, &quot;english&quot;, &quot;hindi&quot;]
+Marks: [95, 88, 92, 85]
+Total: 360
+Entries: [[&quot;maths&quot;, 95], [&quot;science&quot;, 88], [&quot;english&quot;, 92], [&quot;hindi&quot;, 85]]
+Boosted: { maths: 100, science: 93, english: 97, hindi: 90 }
+High scores: { maths: 95, english: 92 }</div></div>
+<div class="code-example"><div class="code-example-title">Deep Cloning and Nested Destructuring</div><pre><code class="language-python">// --- Nested Destructuring ---
+const student = {
+  name: &quot;Aarav&quot;,
+  scores: { maths: 95, science: 88 },
+  hobbies: [&quot;coding&quot;, &quot;cricket&quot;, &quot;chess&quot;]
+};
+
+const { name, scores: { maths }, hobbies: [firstHobby] } = student;
+console.log(name);        // &quot;Aarav&quot;
+console.log(maths);       // 95
+console.log(firstHobby);  // &quot;coding&quot;
+
+// Destructuring in function parameters
+function printStudent({ name, scores: { maths, science } }) {
+  console.log(name + &quot;: Maths=&quot; + maths + &quot;, Science=&quot; + science);
+}
+printStudent(student);
+
+// --- Deep Clone vs Shallow Copy ---
+const original = { a: 1, nested: { b: 2 }, arr: [3, 4] };
+
+// Shallow copy: nested objects are shared
+const shallow = { ...original };
+shallow.nested.b = 99;
+console.log(&quot;Original after shallow change:&quot;, original.nested.b); // 99!
+
+// Reset
+original.nested.b = 2;
+
+// Deep clone: completely independent
+const deep = structuredClone(original);
+deep.nested.b = 99;
+deep.arr.push(5);
+console.log(&quot;Original after deep change:&quot;, original.nested.b); // 2
+console.log(&quot;Original arr:&quot;, original.arr);  // [3, 4]
+console.log(&quot;Deep arr:&quot;, deep.arr);          // [3, 4, 5]</code></pre><div class="code-example-explanation">Nested destructuring extracts values from deeply nested objects in one statement. Shallow copies (spread operator) share nested references, so modifying nested data in the copy also modifies the original. <code>structuredClone</code> creates a true deep copy where everything is independent.</div><div class="code-example-output">Aarav
+95
+coding
+Aarav: Maths=95, Science=88
+Original after shallow change: 99
+Original after deep change: 2
+Original arr: [3, 4]
+Deep arr: [3, 4, 5]</div></div>
+<div class="code-example"><div class="code-example-title">Grouping, Deduplication, and Flattening</div><pre><code class="language-python">// --- Grouping with reduce ---
+const orders = [
+  { product: &quot;Pen&quot;, category: &quot;Stationery&quot;, amount: 15 },
+  { product: &quot;Notebook&quot;, category: &quot;Stationery&quot;, amount: 120 },
+  { product: &quot;Mouse&quot;, category: &quot;Electronics&quot;, amount: 500 },
+  { product: &quot;Keyboard&quot;, category: &quot;Electronics&quot;, amount: 800 },
+  { product: &quot;Eraser&quot;, category: &quot;Stationery&quot;, amount: 8 }
+];
+
+const grouped = orders.reduce(function(groups, order) {
+  const key = order.category;
+  if (!groups[key]) groups[key] = [];
+  groups[key].push(order.product);
+  return groups;
+}, {});
+console.log(&quot;Grouped:&quot;, grouped);
+
+// --- Remove duplicates ---
+const nums = [1, 2, 2, 3, 3, 3, 4, 5, 5];
+console.log(&quot;Unique:&quot;, [...new Set(nums)]);
+
+const tags = [&quot;js&quot;, &quot;css&quot;, &quot;js&quot;, &quot;html&quot;, &quot;css&quot;];
+console.log(&quot;Unique tags:&quot;, [...new Set(tags)]);
+
+// --- Flatten ---
+const nested = [[1, 2], [3, 4], [5, 6]];
+console.log(&quot;Flat:&quot;, nested.flat());
+
+const deepNested = [1, [2, [3, [4, [5]]]]];
+console.log(&quot;Deep flat:&quot;, deepNested.flat(Infinity));
+
+// --- flatMap ---
+const classes = [
+  { teacher: &quot;Ms. Sharma&quot;, students: [&quot;Aarav&quot;, &quot;Priya&quot;] },
+  { teacher: &quot;Mr. Singh&quot;, students: [&quot;Rohan&quot;, &quot;Meera&quot;, &quot;Kavya&quot;] }
+];
+const allStudents = classes.flatMap(function(c) { return c.students; });
+console.log(&quot;All students:&quot;, allStudents);</code></pre><div class="code-example-explanation">Grouping uses reduce to build an object where each key contains an array of matching items. <code>new Set</code> removes duplicates from arrays (works for primitives). <code>flat()</code> flattens nested arrays, with a depth argument or <code>Infinity</code> for full flattening. <code>flatMap</code> combines map and flat in one step.</div><div class="code-example-output">Grouped: { Stationery: [&quot;Pen&quot;, &quot;Notebook&quot;, &quot;Eraser&quot;], Electronics: [&quot;Mouse&quot;, &quot;Keyboard&quot;] }
+Unique: [1, 2, 3, 4, 5]
+Unique tags: [&quot;js&quot;, &quot;css&quot;, &quot;html&quot;]
+Flat: [1, 2, 3, 4, 5, 6]
+Deep flat: [1, 2, 3, 4, 5]
+All students: [&quot;Aarav&quot;, &quot;Priya&quot;, &quot;Rohan&quot;, &quot;Meera&quot;, &quot;Kavya&quot;]</div></div>
+<div class="code-example"><div class="code-example-title">Sorting Objects and Creating Lookup Maps</div><pre><code class="language-python">// --- Sorting objects by property ---
+const players = [
+  { name: &quot;Aarav&quot;, score: 850 },
+  { name: &quot;Priya&quot;, score: 920 },
+  { name: &quot;Rohan&quot;, score: 780 },
+  { name: &quot;Meera&quot;, score: 920 }
+];
+
+// Sort by score descending (copy first to avoid mutation)
+const ranked = [...players].sort(function(a, b) { return b.score - a.score; });
+ranked.forEach(function(p, i) {
+  console.log((i + 1) + &quot;. &quot; + p.name + &quot;: &quot; + p.score);
+});
+
+// Sort by name alphabetically
+const byName = [...players].sort(function(a, b) {
+  return a.name.localeCompare(b.name);
+});
+console.log(&quot;Alphabetical:&quot;, byName.map(function(p) { return p.name; }));
+
+// --- Lookup map from array ---
+const products = [
+  { id: &quot;P001&quot;, name: &quot;Notebook&quot;, price: 120 },
+  { id: &quot;P002&quot;, name: &quot;Pen&quot;, price: 15 },
+  { id: &quot;P003&quot;, name: &quot;Eraser&quot;, price: 8 }
+];
+
+const productMap = Object.fromEntries(
+  products.map(function(p) { return [p.id, p]; })
+);
+
+console.log(productMap[&quot;P002&quot;].name);  // &quot;Pen&quot;
+console.log(productMap[&quot;P001&quot;].price); // 120
+
+// Using Map for non-string keys
+const userMap = new Map(players.map(function(p) { return [p.name, p]; }));
+console.log(userMap.get(&quot;Priya&quot;)); // { name: &quot;Priya&quot;, score: 920 }</code></pre><div class="code-example-explanation">Always spread <code>[...array]</code> before sorting to avoid mutating the original. <code>localeCompare</code> handles alphabetical sorting correctly (including special characters). Lookup maps convert an array into an object (or Map) keyed by a unique property, enabling O(1) lookups instead of O(n) searching.</div><div class="code-example-output">1. Priya: 920
+2. Meera: 920
+3. Aarav: 850
+4. Rohan: 780
+Alphabetical: [&quot;Aarav&quot;, &quot;Meera&quot;, &quot;Priya&quot;, &quot;Rohan&quot;]
+Pen
+120
+{ name: &quot;Priya&quot;, score: 920 }</div></div>
+<div class="code-example"><div class="code-example-title">Real Data Processing: Student Report Card</div><pre><code class="language-python">const students = [
+  { name: &quot;Aarav&quot;, scores: { maths: 95, science: 88, english: 92 } },
+  { name: &quot;Priya&quot;, scores: { maths: 78, science: 95, english: 85 } },
+  { name: &quot;Rohan&quot;, scores: { maths: 82, science: 76, english: 90 } },
+  { name: &quot;Meera&quot;, scores: { maths: 91, science: 93, english: 88 } },
+  { name: &quot;Kavya&quot;, scores: { maths: 67, science: 72, english: 95 } }
+];
+
+// 1. Calculate average for each student
+const withAverage = students.map(function(s) {
+  const values = Object.values(s.scores);
+  const avg = values.reduce(function(sum, v) { return sum + v; }, 0) / values.length;
+  return { name: s.name, average: Math.round(avg * 10) / 10, scores: s.scores };
+});
+
+// 2. Rank by average
+const ranked = [...withAverage].sort(function(a, b) { return b.average - a.average; });
+console.log(&quot;--- Report Card ---&quot;);
+ranked.forEach(function(s, i) {
+  console.log((i + 1) + &quot;. &quot; + s.name + &quot; -- Avg: &quot; + s.average);
+});
+
+// 3. Find subject topper for each subject
+const subjects = Object.keys(students[0].scores);
+const toppers = {};
+subjects.forEach(function(sub) {
+  const best = students.reduce(function(top, s) {
+    return s.scores[sub] &gt; top.scores[sub] ? s : top;
+  });
+  toppers[sub] = best.name + &quot; (&quot; + best.scores[sub] + &quot;)&quot;;
+});
+console.log(&quot;\nSubject toppers:&quot;, toppers);
+
+// 4. Students above class average
+const classAvg = withAverage.reduce(function(sum, s) { return sum + s.average; }, 0) / withAverage.length;
+const aboveAvg = withAverage.filter(function(s) { return s.average &gt; classAvg; });
+console.log(&quot;\nClass average:&quot;, classAvg.toFixed(1));
+console.log(&quot;Above average:&quot;, aboveAvg.map(function(s) { return s.name; }));</code></pre><div class="code-example-explanation">This example processes student data like a real school management system. It calculates individual averages using Object.values and reduce, ranks students by average, finds subject toppers using reduce, and identifies students above the class average. Every step uses the array/object patterns taught in this chapter.</div><div class="code-example-output">--- Report Card ---
+1. Meera -- Avg: 90.7
+2. Aarav -- Avg: 91.7
+3. Priya -- Avg: 86
+4. Rohan -- Avg: 82.7
+5. Kavya -- Avg: 78
+
+Subject toppers: { maths: &quot;Aarav (95)&quot;, science: &quot;Priya (95)&quot;, english: &quot;Kavya (95)&quot; }
+
+Class average: 85.8
+Above average: [&quot;Aarav&quot;, &quot;Priya&quot;, &quot;Meera&quot;]</div></div>
+<div class="code-example"><div class="code-example-title">Real Data Processing: E-Commerce Cart</div><pre><code class="language-python">const cart = [
+  { id: 1, name: &quot;JavaScript Book&quot;, price: 450, qty: 1, category: &quot;Books&quot; },
+  { id: 2, name: &quot;USB Cable&quot;, price: 199, qty: 2, category: &quot;Electronics&quot; },
+  { id: 3, name: &quot;Notebook&quot;, price: 80, qty: 5, category: &quot;Stationery&quot; },
+  { id: 4, name: &quot;Python Book&quot;, price: 550, qty: 1, category: &quot;Books&quot; },
+  { id: 5, name: &quot;Pen Pack&quot;, price: 120, qty: 3, category: &quot;Stationery&quot; },
+  { id: 6, name: &quot;Mouse&quot;, price: 699, qty: 1, category: &quot;Electronics&quot; }
+];
+
+// 1. Total cart value
+const total = cart.reduce(function(sum, item) {
+  return sum + item.price * item.qty;
+}, 0);
+console.log(&quot;Cart total: Rs&quot;, total);
+
+// 2. Total by category
+const byCategory = cart.reduce(function(groups, item) {
+  const cat = item.category;
+  if (!groups[cat]) groups[cat] = 0;
+  groups[cat] += item.price * item.qty;
+  return groups;
+}, {});
+console.log(&quot;By category:&quot;, byCategory);
+
+// 3. Most expensive item
+const expensive = cart.reduce(function(max, item) {
+  return item.price &gt; max.price ? item : max;
+});
+console.log(&quot;Most expensive:&quot;, expensive.name, &quot;- Rs&quot;, expensive.price);
+
+// 4. Items sorted by total value (price * qty)
+const sorted = [...cart]
+  .sort(function(a, b) { return (b.price * b.qty) - (a.price * a.qty); })
+  .map(function(item) {
+    return item.name + &quot;: Rs &quot; + (item.price * item.qty);
+  });
+console.log(&quot;Sorted by value:&quot;, sorted);
+
+// 5. Cart summary
+const summary = {
+  totalItems: cart.reduce(function(sum, item) { return sum + item.qty; }, 0),
+  totalValue: total,
+  categories: [...new Set(cart.map(function(item) { return item.category; }))],
+  averagePrice: Math.round(total / cart.length)
+};
+console.log(&quot;Summary:&quot;, summary);</code></pre><div class="code-example-explanation">This example mimics a real e-commerce cart system. It calculates the total, groups spending by category, finds the most expensive item, sorts by total value, and creates a summary. Every operation uses the patterns from this chapter: reduce for aggregation, sort for ordering, Set for unique values, and map for transformation.</div><div class="code-example-output">Cart total: Rs 2957
+By category: { Books: 1000, Electronics: 1097, Stationery: 760 }
+Most expensive: Mouse - Rs 699
+Sorted by value: [&quot;Mouse: Rs 699&quot;, &quot;Python Book: Rs 550&quot;, &quot;JavaScript Book: Rs 450&quot;, &quot;Notebook: Rs 400&quot;, &quot;USB Cable: Rs 398&quot;, &quot;Pen Pack: Rs 360&quot;]
+Summary: { totalItems: 13, totalValue: 2957, categories: [&quot;Books&quot;, &quot;Electronics&quot;, &quot;Stationery&quot;], averagePrice: 493 }</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting That sort() Mutates the Original Array</h3>
+                <div class="wrong-code"><pre><code class="language-python">const scores = [85, 92, 78, 97];
+const sorted = scores.sort(function(a, b) { return b - a; });
+console.log(sorted);  // [97, 92, 85, 78]
+console.log(scores);  // [97, 92, 85, 78] -- original is also changed!</code></pre></div><div class="error-message">sort() modifies the array in place. Both sorted and scores point to the same mutated array.</div><div class="correct-code"><pre><code class="language-python">const scores = [85, 92, 78, 97];
+const sorted = [...scores].sort(function(a, b) { return b - a; });
+console.log(sorted);  // [97, 92, 85, 78]
+console.log(scores);  // [85, 92, 78, 97] -- original preserved!</code></pre></div><div class="mistake-explanation">Always spread <code>[...array]</code> before sorting if you need to keep the original order. The spread creates a shallow copy, and sort mutates only the copy.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Shallow Copy Does Not Clone Nested Objects</h3>
+                <div class="wrong-code"><pre><code class="language-python">const original = { name: &quot;Aarav&quot;, scores: [90, 85] };
+const copy = { ...original };
+copy.scores.push(95);
+console.log(original.scores); // [90, 85, 95] -- original modified!</code></pre></div><div class="error-message">The spread operator creates a shallow copy. Nested arrays and objects are still shared references.</div><div class="correct-code"><pre><code class="language-python">const original = { name: &quot;Aarav&quot;, scores: [90, 85] };
+const copy = structuredClone(original);
+copy.scores.push(95);
+console.log(original.scores); // [90, 85] -- original safe!</code></pre></div><div class="mistake-explanation">For nested data, use <code>structuredClone()</code> for a true deep copy. The spread operator only copies the top-level properties. Nested objects and arrays are shared by reference.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Object.keys on an Array</h3>
+                <div class="wrong-code"><pre><code class="language-python">const arr = [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;];
+console.log(Object.keys(arr)); // [&quot;0&quot;, &quot;1&quot;, &quot;2&quot;] -- indices as strings!
+// This is technically correct but confusing and rarely useful</code></pre></div><div class="error-message">Object.keys on an array returns the indices as strings, not the array values.</div><div class="correct-code"><pre><code class="language-python">const arr = [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;];
+// For arrays, just use the array directly
+console.log(arr); // [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]
+
+// Object.keys is for objects
+const obj = { name: &quot;Aarav&quot;, age: 15 };
+console.log(Object.keys(obj)); // [&quot;name&quot;, &quot;age&quot;]</code></pre></div><div class="mistake-explanation"><code>Object.keys</code>, <code>Object.values</code>, and <code>Object.entries</code> are designed for plain objects. While they technically work on arrays, the results are confusing (indices as strings). Use array methods directly for arrays.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Grouping Without Initializing the Group Array</h3>
+                <div class="wrong-code"><pre><code class="language-python">const items = [{ cat: &quot;A&quot; }, { cat: &quot;B&quot; }, { cat: &quot;A&quot; }];
+const grouped = items.reduce(function(acc, item) {
+  acc[item.cat].push(item); // TypeError: Cannot read property &#39;push&#39; of undefined
+  return acc;
+}, {});</code></pre></div><div class="error-message">TypeError: Cannot read property &#39;push&#39; of undefined. The first time a category is encountered, acc[item.cat] is undefined.</div><div class="correct-code"><pre><code class="language-python">const items = [{ cat: &quot;A&quot; }, { cat: &quot;B&quot; }, { cat: &quot;A&quot; }];
+const grouped = items.reduce(function(acc, item) {
+  if (!acc[item.cat]) acc[item.cat] = [];  // Initialize if needed
+  acc[item.cat].push(item);
+  return acc;
+}, {});</code></pre></div><div class="mistake-explanation">When grouping with reduce, always check if the group key exists before pushing. If it does not exist, initialize it as an empty array first.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Method chaining connects filter, map, sort, reduce, and slice into readable data pipelines. Each method returns a new array (except reduce, which returns any value), so they can be chained left to right.</li>
+<li>Nested destructuring extracts values from deep objects: const { scores: { maths } } = student. You can destructure in function parameters too.</li>
+<li>Computed property names use square brackets to create dynamic keys: { [variable]: value }. Useful when building objects from variables or arrays.</li>
+<li>Object.keys returns property names, Object.values returns values, Object.entries returns [key, value] pairs. Object.fromEntries converts pairs back into an object.</li>
+<li>Object.entries + map/filter + Object.fromEntries is the standard pattern for transforming or filtering object properties.</li>
+<li>structuredClone creates a true deep copy of objects with nested data. The spread operator and Object.assign only create shallow copies where nested objects are shared references.</li>
+<li>Grouping with reduce: start with an empty object {}, check if the group key exists (initialize to [] if not), push items into their group. This is one of the most common and useful patterns.</li>
+<li>Always copy an array before sorting: [...array].sort(). sort() mutates the original array in place. Use localeCompare for alphabetical sorting of strings.</li>
+<li>Remove duplicates with new Set for primitives: [...new Set(array)]. For objects, use a Map keyed by the unique property.</li>
+<li>flat() flattens nested arrays (pass Infinity for full flattening). flatMap() combines map and flat in one step. Both are useful for working with nested data structures.</li>
+<li>Lookup maps (Object.fromEntries or new Map) convert arrays to key-value structures for O(1) lookups instead of O(n) array searching.</li>
+<li>Real data processing chains these patterns together: filter the data, transform with map, group with reduce, sort for display, and deduplicate with Set.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/project-todo-app-with-storage" class="related-topic-link">Project: Build a To-Do App with Local Storage</a>
+<a href="/resources/javascript/closures-scope-and-hoisting" class="related-topic-link">Closures, Scope, and Hoisting</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/project-todo-app-with-storage" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Project: Build a To-Do App with Local Storage</span>
+        </a>
+            <a href="/resources/javascript/closures-scope-and-hoisting" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Closures, Scope, and Hoisting</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/array-and-object-advanced-patterns/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

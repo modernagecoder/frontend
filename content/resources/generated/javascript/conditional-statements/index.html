@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statements (if, else, switch) - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Make decisions in your code. Build interactive features that respond differently based on user input.">
+    <meta name="keywords" content="conditional statements (if, else, switch), javascript tutorial, javascript conditional statements (if, else, switch), learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/conditional-statements">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/conditional-statements">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/conditional-statements">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/conditional-statements">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/conditional-statements">
+    <meta property="og:title" content="Conditional Statements (if, else, switch) - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Make decisions in your code. Build interactive features that respond differently based on user input.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/conditional-statements">
+    <meta name="twitter:title" content="Conditional Statements (if, else, switch) - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Make decisions in your code. Build interactive features that respond differently based on user input.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Conditional Statements (if, else, switch)",
+    "description": "Make decisions in your code. Build interactive features that respond differently based on user input.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/conditional-statements"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/conditional-statements"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Conditional Statements (if, else, switch)",
+        "item": "https://learn.modernagecoders.com/resources/javascript/conditional-statements"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting break in switch",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Without <code>break</code>, once a matching case is found, ALL subsequent cases execute regardless of whether they match. This is called \"fall-through.\" Always add <code>break</code> unless you intentionally want fall-through."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using = Instead of === in if Condition",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>=</code> assigns a value, <code>===</code> compares values. In the wrong code, <code>age = 18</code> assigns 18 to age and the <code>if</code> evaluates 18, which is truthy. This is one of the most common bugs in JavaScript."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Comparing Strings as Numbers",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always explicitly convert strings to numbers with <code>Number()</code> before comparing. Then check for <code>NaN</code> to handle invalid input. Relying on implicit coercion in comparisons can mask bugs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using if Without Curly Braces (Risky)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Without curly braces <code>{}</code>, only the very next statement belongs to the <code>if</code>. The second <code>console.log</code> is not inside the if — it always runs. Always use curly braces, even for single-line if statements."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "switch with Type Mismatch",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>switch</code> uses strict equality (<code>===</code>). The string <code>\"1\"</code> does not match the number <code>1</code> because their types are different. Make sure the case values match the type of the switch expression."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Conditional Statements (if, else, switch)</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 5</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">25 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Conditional Statements (if, else, switch)</h1>
+            <a href="/resources/javascript/conditional-statements/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Conditional Statements?</h2><p>A <strong>conditional statement</strong> lets your program make decisions. Instead of running every line of code from top to bottom, conditionals let your program choose which code to run based on whether a condition is true or false.</p><p>Think of it like a crossroad: if it is raining, you take an umbrella. If it is sunny, you wear sunglasses. Your program does the same thing — it checks a condition and takes a different action depending on the result.</p><p>JavaScript has three main conditional structures:</p><ul><li><code>if / else if / else</code> — for most decision-making</li><li><code>switch</code> — for checking a variable against many specific values</li><li><code>? :</code> (ternary) — for simple inline conditions</li></ul>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Conditionals Important?</h2><h3>1. Every Interactive Feature Needs Conditions</h3><p>When you build a form, you check: is the email valid? Is the password strong enough? When you build a game, you check: did the player score? Did they lose all lives? Conditionals are the foundation of all interactivity.</p><h3>2. User Input Is Unpredictable</h3><p>Users will type anything into your forms — empty strings, negative numbers, special characters. Conditionals let you handle every possible case and give appropriate feedback.</p><h3>3. The DOM Comes Alive with Conditions</h3><p>Want to show or hide an element? Change a color based on a value? Display different messages for different users? All of these require conditional logic combined with DOM manipulation — and that is what makes web pages feel alive.</p><h3>4. It Is the Gateway to Loops</h3><p>Loops (the next chapter) use conditions to decide when to stop repeating. Without understanding conditionals first, loops will not make sense.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The if Statement</h3><p>The simplest conditional. If the condition is true, run the code block. If false, skip it.</p><pre><code>if (condition) {
+  // code runs only if condition is true
+}</code></pre><p>The condition can be any expression that evaluates to a truthy or falsy value. It does not have to be strictly <code>true</code> or <code>false</code> — any truthy value will enter the if block.</p><h3>2. if-else</h3><p>Adds an alternative path when the condition is false.</p><pre><code>if (condition) {
+  // runs if condition is true
+} else {
+  // runs if condition is false
+}</code></pre><h3>3. if - else if - else (Multiple Conditions)</h3><p>Checks multiple conditions in sequence. Only the first matching block runs.</p><pre><code>if (condition1) {
+  // runs if condition1 is true
+} else if (condition2) {
+  // runs if condition1 is false AND condition2 is true
+} else if (condition3) {
+  // runs if both above are false AND condition3 is true
+} else {
+  // runs if ALL conditions are false
+}</code></pre><p>Important: once a condition matches, the remaining else-if and else blocks are skipped entirely. Order matters — put the most specific conditions first.</p><h3>4. Nested if Statements</h3><p>You can put an if inside another if to check conditions in stages.</p><pre><code>if (isLoggedIn) {
+  if (isAdmin) {
+    // show admin dashboard
+  } else {
+    // show user dashboard
+  }
+} else {
+  // show login page
+}</code></pre><p>Nested ifs can get messy. If you find yourself nesting more than 2-3 levels deep, consider refactoring with early returns or separate functions.</p><h3>5. The Ternary Operator (Quick Review)</h3><p>You learned this in the previous chapter. It is a one-line if-else:</p><pre><code>let result = condition ? valueIfTrue : valueIfFalse;</code></pre><p>Use ternary for simple assignments or template literals. Use if-else for complex logic with multiple statements.</p><h3>6. switch Statement</h3><p>Switch is ideal when you need to compare ONE variable against MANY specific values.</p><pre><code>switch (expression) {
+  case value1:
+    // code for value1
+    break;
+  case value2:
+    // code for value2
+    break;
+  default:
+    // code if no case matches
+}</code></pre><h4>Key Rules:</h4><ul><li><code>break</code> is essential. Without it, execution "falls through" to the next case.</li><li><code>default</code> is like the <code>else</code> — it runs when no case matches.</li><li>Switch uses <code>===</code> (strict comparison), not <code>==</code>.</li><li>You can intentionally omit <code>break</code> for fall-through behavior (grouping cases).</li></ul><h4>Fall-Through (Grouping Cases)</h4><p>Sometimes you want multiple cases to run the same code. Omitting <code>break</code> lets execution fall through:</p><pre><code>switch (day) {
+  case "Saturday":
+  case "Sunday":
+    console.log("Weekend!");
+    break;
+  default:
+    console.log("Weekday");
+}</code></pre><h3>7. Conditionals with the DOM</h3><p>The real power of conditionals appears when you combine them with DOM manipulation to create interactive pages:</p><ul><li>Show/hide elements based on user input</li><li>Change colors based on values (red for errors, green for success)</li><li>Enable/disable buttons based on form validation</li><li>Display different content for different user types</li></ul><h3>8. Comparing Strings</h3><p>Strings are compared character by character using Unicode values. This means:</p><pre><code>"apple" &lt; "banana"   // true (a comes before b)
+"Apple" &lt; "apple"    // true (uppercase A has lower Unicode value than lowercase a)
+"10" &lt; "9"           // true (string comparison: '1' comes before '9')</code></pre><p>The last one catches many beginners: <code>"10" &lt; "9"</code> is <code>true</code> because string comparison checks the first character ('1' vs '9'), and '1' comes before '9'. If you want numeric comparison, convert to numbers first.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">if, if-else, and else-if in Action</div><pre><code class="language-python">let marks = 78;
+
+// Simple if
+if (marks &gt;= 40) {
+  console.log(&quot;Passed!&quot;);
+}
+
+// if-else
+if (marks &gt;= 90) {
+  console.log(&quot;Excellent!&quot;);
+} else {
+  console.log(&quot;Keep working hard.&quot;);
+}
+
+// else-if chain (grade calculator)
+let grade;
+if (marks &gt;= 90) {
+  grade = &quot;A&quot;;
+} else if (marks &gt;= 80) {
+  grade = &quot;B&quot;;
+} else if (marks &gt;= 70) {
+  grade = &quot;C&quot;;
+} else if (marks &gt;= 60) {
+  grade = &quot;D&quot;;
+} else {
+  grade = &quot;F&quot;;
+}
+console.log(`Marks: ${marks}, Grade: ${grade}`);</code></pre><div class="code-example-explanation">The first <code>if</code> checks if marks are at least 40. The if-else provides two paths. The else-if chain checks conditions in order — since 78 is not >= 90 and not >= 80, but it IS >= 70, the grade is "C". The remaining else-if and else are skipped.</div><div class="code-example-output">Passed!
+Keep working hard.
+Marks: 78, Grade: C</div></div>
+<div class="code-example"><div class="code-example-title">Interactive Grade Calculator on a Web Page</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial; text-align: center; padding: 30px; }
+    input { padding: 10px; font-size: 18px; width: 200px; }
+    button { padding: 10px 20px; font-size: 18px; cursor: pointer; }
+    #result { font-size: 24px; margin-top: 20px; font-weight: bold; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Grade Calculator&lt;/h1&gt;
+  &lt;input type=&quot;number&quot; id=&quot;marks&quot; placeholder=&quot;Enter marks (0-100)&quot;&gt;
+  &lt;button onclick=&quot;calculateGrade()&quot;&gt;Get Grade&lt;/button&gt;
+  &lt;p id=&quot;result&quot;&gt;&lt;/p&gt;
+
+  &lt;script&gt;
+    function calculateGrade() {
+      let marks = Number(document.getElementById(&quot;marks&quot;).value);
+      let result = document.getElementById(&quot;result&quot;);
+
+      if (marks &lt; 0 || marks &gt; 100) {
+        result.textContent = &quot;Invalid! Enter 0-100.&quot;;
+        result.style.color = &quot;red&quot;;
+      } else if (marks &gt;= 90) {
+        result.textContent = `${marks} marks = Grade A`;
+        result.style.color = &quot;#2ecc71&quot;;
+      } else if (marks &gt;= 80) {
+        result.textContent = `${marks} marks = Grade B`;
+        result.style.color = &quot;#3498db&quot;;
+      } else if (marks &gt;= 70) {
+        result.textContent = `${marks} marks = Grade C`;
+        result.style.color = &quot;#f39c12&quot;;
+      } else if (marks &gt;= 60) {
+        result.textContent = `${marks} marks = Grade D`;
+        result.style.color = &quot;#e67e22&quot;;
+      } else {
+        result.textContent = `${marks} marks = Grade F`;
+        result.style.color = &quot;#e74c3c&quot;;
+      }
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This is a practical project. The function reads the input, validates it (catches invalid values like -5 or 150), then uses else-if to assign a grade. Each grade gets a different color using <code>style.color</code>. This combines conditionals with DOM manipulation — the core of interactive web development.</div><div class="code-example-output">Entering 85 shows: &#39;85 marks = Grade B&#39; in blue.
+Entering 150 shows: &#39;Invalid! Enter 0-100.&#39; in red.</div></div>
+<div class="code-example"><div class="code-example-title">switch Statement with Days of the Week</div><pre><code class="language-python">let day = new Date().toLocaleDateString(&quot;en-US&quot;, { weekday: &quot;long&quot; });
+console.log(`Today is ${day}`);
+
+switch (day) {
+  case &quot;Monday&quot;:
+    console.log(&quot;Start of the work week.&quot;);
+    break;
+  case &quot;Tuesday&quot;:
+  case &quot;Wednesday&quot;:
+  case &quot;Thursday&quot;:
+    console.log(&quot;Midweek. Keep going!&quot;);
+    break;
+  case &quot;Friday&quot;:
+    console.log(&quot;Almost weekend!&quot;);
+    break;
+  case &quot;Saturday&quot;:
+  case &quot;Sunday&quot;:
+    console.log(&quot;Weekend! Relax and code for fun.&quot;);
+    break;
+  default:
+    console.log(&quot;Unknown day.&quot;);
+}</code></pre><div class="code-example-explanation">This switch uses the current day. Tuesday, Wednesday, and Thursday share the same code block (fall-through without break). Saturday and Sunday also share a block. <code>break</code> prevents execution from falling into the next case. <code>default</code> handles unexpected values. Notice how switch is cleaner than writing 7 if-else statements.</div><div class="code-example-output">Today is [current day]
+[corresponding message]</div></div>
+<div class="code-example"><div class="code-example-title">Nested if for Login System</div><pre><code class="language-python">let username = &quot;aarav&quot;;
+let password = &quot;secure123&quot;;
+let role = &quot;admin&quot;;
+
+if (username !== &quot;&quot; &amp;&amp; password !== &quot;&quot;) {
+  if (username === &quot;aarav&quot; &amp;&amp; password === &quot;secure123&quot;) {
+    if (role === &quot;admin&quot;) {
+      console.log(&quot;Welcome, Admin Aarav! You have full access.&quot;);
+    } else {
+      console.log(&quot;Welcome, Aarav! You have standard access.&quot;);
+    }
+  } else {
+    console.log(&quot;Invalid username or password.&quot;);
+  }
+} else {
+  console.log(&quot;Please enter both username and password.&quot;);
+}</code></pre><div class="code-example-explanation">Nested ifs check conditions in stages: first, are the fields filled? Then, do the credentials match? Finally, what is the user's role? This pattern is common in authentication flows. Each level narrows the check before proceeding deeper.</div><div class="code-example-output">Welcome, Admin Aarav! You have full access.</div></div>
+<div class="code-example"><div class="code-example-title">Conditionals with DOM: Show/Hide and Color Change</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial; text-align: center; padding: 30px; }
+    #tempDisplay { font-size: 48px; margin: 20px; padding: 20px; border-radius: 10px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Temperature Monitor&lt;/h1&gt;
+  &lt;input type=&quot;number&quot; id=&quot;temp&quot; placeholder=&quot;Enter temperature (C)&quot;&gt;
+  &lt;button onclick=&quot;checkTemp()&quot;&gt;Check&lt;/button&gt;
+  &lt;div id=&quot;tempDisplay&quot;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    function checkTemp() {
+      let temp = Number(document.getElementById(&quot;temp&quot;).value);
+      let display = document.getElementById(&quot;tempDisplay&quot;);
+
+      if (temp &gt; 40) {
+        display.textContent = `${temp} C - Extreme Heat!`;
+        display.style.backgroundColor = &quot;#e74c3c&quot;;
+        display.style.color = &quot;white&quot;;
+      } else if (temp &gt; 30) {
+        display.textContent = `${temp} C - Hot`;
+        display.style.backgroundColor = &quot;#f39c12&quot;;
+        display.style.color = &quot;white&quot;;
+      } else if (temp &gt; 15) {
+        display.textContent = `${temp} C - Comfortable`;
+        display.style.backgroundColor = &quot;#2ecc71&quot;;
+        display.style.color = &quot;white&quot;;
+      } else if (temp &gt; 0) {
+        display.textContent = `${temp} C - Cold`;
+        display.style.backgroundColor = &quot;#3498db&quot;;
+        display.style.color = &quot;white&quot;;
+      } else {
+        display.textContent = `${temp} C - Freezing!`;
+        display.style.backgroundColor = &quot;#9b59b6&quot;;
+        display.style.color = &quot;white&quot;;
+      }
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This project combines conditionals with DOM styling. Each temperature range gets a different background color: red for extreme heat, orange for hot, green for comfortable, blue for cold, purple for freezing. The user sees immediate visual feedback. This is the kind of interactive feature that makes web pages engaging.</div><div class="code-example-output">Entering 42 shows: &#39;42 C - Extreme Heat!&#39; with red background.
+Entering 22 shows: &#39;22 C - Comfortable&#39; with green background.</div></div>
+<div class="code-example"><div class="code-example-title">switch with Return Values (in a Function)</div><pre><code class="language-python">function getDayType(day) {
+  switch (day.toLowerCase()) {
+    case &quot;monday&quot;:
+    case &quot;tuesday&quot;:
+    case &quot;wednesday&quot;:
+    case &quot;thursday&quot;:
+    case &quot;friday&quot;:
+      return &quot;weekday&quot;;
+    case &quot;saturday&quot;:
+    case &quot;sunday&quot;:
+      return &quot;weekend&quot;;
+    default:
+      return &quot;invalid day&quot;;
+  }
+}
+
+console.log(getDayType(&quot;Monday&quot;));    // &quot;weekday&quot;
+console.log(getDayType(&quot;SATURDAY&quot;));  // &quot;weekend&quot;
+console.log(getDayType(&quot;Holiday&quot;));   // &quot;invalid day&quot;
+
+// Using it in a conditional
+let today = &quot;Saturday&quot;;
+if (getDayType(today) === &quot;weekend&quot;) {
+  console.log(&quot;No school today!&quot;);
+} else {
+  console.log(&quot;Time for school.&quot;);
+}</code></pre><div class="code-example-explanation">Using <code>return</code> inside a function means you do not need <code>break</code> — return exits the function immediately. <code>day.toLowerCase()</code> makes the comparison case-insensitive ("Monday", "MONDAY", "monday" all work). Fall-through groups weekdays together and weekend days together.</div><div class="code-example-output">weekday
+weekend
+invalid day
+No school today!</div></div>
+<div class="code-example"><div class="code-example-title">String Comparison Gotchas</div><pre><code class="language-python">// Alphabetical comparison works as expected
+console.log(&quot;apple&quot; &lt; &quot;banana&quot;);    // true
+console.log(&quot;cat&quot; &gt; &quot;car&quot;);          // true (3rd char: t &gt; r)
+
+// But case matters!
+console.log(&quot;Apple&quot; &lt; &quot;apple&quot;);     // true (uppercase has lower Unicode value)
+console.log(&quot;Z&quot; &lt; &quot;a&quot;);            // true (all uppercase &lt; all lowercase)
+
+// Number strings compared as strings, NOT numbers!
+console.log(&quot;10&quot; &lt; &quot;9&quot;);            // true! (&#39;1&#39; &lt; &#39;9&#39;)
+console.log(&quot;100&quot; &lt; &quot;20&quot;);          // true! (&#39;1&#39; &lt; &#39;2&#39;)
+
+// Fix: convert to numbers for numeric comparison
+console.log(Number(&quot;10&quot;) &lt; Number(&quot;9&quot;));   // false (correct)
+console.log(10 &lt; 9);                       // false (correct)
+
+// Case-insensitive comparison
+let a = &quot;Hello&quot;;
+let b = &quot;hello&quot;;
+console.log(a === b);                          // false
+console.log(a.toLowerCase() === b.toLowerCase()); // true</code></pre><div class="code-example-explanation">String comparison uses Unicode values, character by character. This means uppercase letters come before lowercase (Z < a), and number strings are compared as strings ("10" < "9" because '1' < '9'). Always convert to numbers for numeric comparison. Use <code>.toLowerCase()</code> for case-insensitive string comparison.</div><div class="code-example-output">true
+true
+true
+true
+true
+true
+false
+false
+false
+true</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting break in switch</h3>
+                <div class="wrong-code"><pre><code class="language-python">let fruit = &quot;apple&quot;;
+switch (fruit) {
+  case &quot;apple&quot;:
+    console.log(&quot;It is an apple&quot;);
+  case &quot;banana&quot;:
+    console.log(&quot;It is a banana&quot;);
+  case &quot;cherry&quot;:
+    console.log(&quot;It is a cherry&quot;);
+}</code></pre></div><div class="error-message">No error, but ALL three messages print! Without break, execution falls through to the next case.</div><div class="correct-code"><pre><code class="language-python">let fruit = &quot;apple&quot;;
+switch (fruit) {
+  case &quot;apple&quot;:
+    console.log(&quot;It is an apple&quot;);
+    break;
+  case &quot;banana&quot;:
+    console.log(&quot;It is a banana&quot;);
+    break;
+  case &quot;cherry&quot;:
+    console.log(&quot;It is a cherry&quot;);
+    break;
+}</code></pre></div><div class="mistake-explanation">Without <code>break</code>, once a matching case is found, ALL subsequent cases execute regardless of whether they match. This is called "fall-through." Always add <code>break</code> unless you intentionally want fall-through.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using = Instead of === in if Condition</h3>
+                <div class="wrong-code"><pre><code class="language-python">let age = 20;
+if (age = 18) {
+  console.log(&quot;You are 18&quot;);
+}
+console.log(age);  // 18 (age got changed!)</code></pre></div><div class="error-message">No error, but age is reassigned to 18 and the condition always runs because 18 is truthy.</div><div class="correct-code"><pre><code class="language-python">let age = 20;
+if (age === 18) {
+  console.log(&quot;You are 18&quot;);
+}
+console.log(age);  // 20 (unchanged)</code></pre></div><div class="mistake-explanation"><code>=</code> assigns a value, <code>===</code> compares values. In the wrong code, <code>age = 18</code> assigns 18 to age and the <code>if</code> evaluates 18, which is truthy. This is one of the most common bugs in JavaScript.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Comparing Strings as Numbers</h3>
+                <div class="wrong-code"><pre><code class="language-python">let input = &quot;42&quot;;
+if (input &gt; 100) {
+  console.log(&quot;Big number&quot;);
+}
+// This works by accident because JS converts the string to a number.
+// But what if input is &quot;abc&quot;?</code></pre></div><div class="error-message">If input is &#39;abc&#39;, the comparison &#39;abc&#39; &gt; 100 gives false (NaN &gt; 100 is false), which might silently give wrong results.</div><div class="correct-code"><pre><code class="language-python">let input = &quot;42&quot;;
+let num = Number(input);
+if (Number.isNaN(num)) {
+  console.log(&quot;Not a valid number&quot;);
+} else if (num &gt; 100) {
+  console.log(&quot;Big number&quot;);
+} else {
+  console.log(&quot;Small number&quot;);
+}</code></pre></div><div class="mistake-explanation">Always explicitly convert strings to numbers with <code>Number()</code> before comparing. Then check for <code>NaN</code> to handle invalid input. Relying on implicit coercion in comparisons can mask bugs.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using if Without Curly Braces (Risky)</h3>
+                <div class="wrong-code"><pre><code class="language-python">let score = 85;
+if (score &gt;= 90)
+  console.log(&quot;Grade A&quot;);
+  console.log(&quot;Excellent!&quot;);  // This ALWAYS runs (not part of the if)</code></pre></div><div class="error-message">No error, but &#39;Excellent!&#39; prints regardless of the condition because only the first line is part of the if.</div><div class="correct-code"><pre><code class="language-python">let score = 85;
+if (score &gt;= 90) {
+  console.log(&quot;Grade A&quot;);
+  console.log(&quot;Excellent!&quot;);
+}</code></pre></div><div class="mistake-explanation">Without curly braces <code>{}</code>, only the very next statement belongs to the <code>if</code>. The second <code>console.log</code> is not inside the if — it always runs. Always use curly braces, even for single-line if statements.</div>
+            </div>
+<div class="mistake-card">
+                <h3>switch with Type Mismatch</h3>
+                <div class="wrong-code"><pre><code class="language-python">let x = &quot;1&quot;;
+switch (x) {
+  case 1:
+    console.log(&quot;One&quot;);
+    break;
+  default:
+    console.log(&quot;Not matched&quot;);  // This runs!
+}</code></pre></div><div class="error-message">No error, but &#39;Not matched&#39; prints because switch uses === (strict comparison). &#39;1&#39; !== 1.</div><div class="correct-code"><pre><code class="language-python">let x = &quot;1&quot;;
+switch (x) {
+  case &quot;1&quot;:  // Match the type!
+    console.log(&quot;One&quot;);
+    break;
+  default:
+    console.log(&quot;Not matched&quot;);
+}</code></pre></div><div class="mistake-explanation"><code>switch</code> uses strict equality (<code>===</code>). The string <code>"1"</code> does not match the number <code>1</code> because their types are different. Make sure the case values match the type of the switch expression.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>The if statement runs code only when a condition is true. if-else provides an alternative path. else-if handles multiple conditions.</li>
+<li>In an else-if chain, only the first matching condition runs. Order matters: put the most specific conditions first.</li>
+<li>The ternary operator (condition ? a : b) is a one-line if-else. Use it for simple assignments, not complex logic.</li>
+<li>switch compares one value against many cases using === (strict equality). Always include break to prevent fall-through.</li>
+<li>Intentional fall-through in switch groups cases that share the same code: case &#39;Sat&#39;: case &#39;Sun&#39;: code; break;</li>
+<li>Curly braces {} are required for if blocks with multiple statements. Always use them, even for single statements, to prevent bugs.</li>
+<li>Conditionals work with truthy/falsy values: if (value) runs for any truthy value, not just the boolean true.</li>
+<li>String comparison uses Unicode values: &#39;Apple&#39; &lt; &#39;apple&#39;, and &#39;10&#39; &lt; &#39;9&#39; (character by character). Convert to numbers for numeric comparison.</li>
+<li>Combine conditionals with DOM manipulation to build interactive features: showing/hiding elements, changing colors, validating forms.</li>
+<li>Nested ifs are sometimes necessary but should be avoided when more than 2-3 levels deep. Refactor with early returns or separate functions.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/operators-and-expressions" class="related-topic-link">Operators and Expressions</a>
+<a href="/resources/javascript/loops-in-javascript" class="related-topic-link">Loops (for, while, for...of, for...in)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/operators-and-expressions" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Operators and Expressions</span>
+        </a>
+            <a href="/resources/javascript/loops-in-javascript" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Loops (for, while, for...of, for...in)</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/conditional-statements/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

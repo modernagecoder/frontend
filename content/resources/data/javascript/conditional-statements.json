@@ -1,0 +1,662 @@
+{
+  "title": "Conditional Statements (if, else, switch)",
+  "slug": "conditional-statements",
+  "language": "javascript",
+  "chapter": 5,
+  "difficulty": "Beginner",
+  "readingTime": "25 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 56,
+  "seo": {
+    "title": "JavaScript Conditional Statements - if, else, switch, Ternary Operator | Modern Age Coders",
+    "description": "Master JavaScript conditionals: if, if-else, else-if, nested if, switch-case, ternary operator. Build interactive pages that respond to user input. 56 practice questions.",
+    "keywords": "javascript if else, javascript switch case, javascript conditional, javascript ternary operator, javascript decision making, if else javascript beginners, switch fall through javascript"
+  },
+  "content": {
+    "what": "<h2>What Are Conditional Statements?</h2><p>A <strong>conditional statement</strong> lets your program make decisions. Instead of running every line of code from top to bottom, conditionals let your program choose which code to run based on whether a condition is true or false.</p><p>Think of it like a crossroad: if it is raining, you take an umbrella. If it is sunny, you wear sunglasses. Your program does the same thing — it checks a condition and takes a different action depending on the result.</p><p>JavaScript has three main conditional structures:</p><ul><li><code>if / else if / else</code> — for most decision-making</li><li><code>switch</code> — for checking a variable against many specific values</li><li><code>? :</code> (ternary) — for simple inline conditions</li></ul>",
+    "why": "<h2>Why Are Conditionals Important?</h2><h3>1. Every Interactive Feature Needs Conditions</h3><p>When you build a form, you check: is the email valid? Is the password strong enough? When you build a game, you check: did the player score? Did they lose all lives? Conditionals are the foundation of all interactivity.</p><h3>2. User Input Is Unpredictable</h3><p>Users will type anything into your forms — empty strings, negative numbers, special characters. Conditionals let you handle every possible case and give appropriate feedback.</p><h3>3. The DOM Comes Alive with Conditions</h3><p>Want to show or hide an element? Change a color based on a value? Display different messages for different users? All of these require conditional logic combined with DOM manipulation — and that is what makes web pages feel alive.</p><h3>4. It Is the Gateway to Loops</h3><p>Loops (the next chapter) use conditions to decide when to stop repeating. Without understanding conditionals first, loops will not make sense.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The if Statement</h3><p>The simplest conditional. If the condition is true, run the code block. If false, skip it.</p><pre><code>if (condition) {\n  // code runs only if condition is true\n}</code></pre><p>The condition can be any expression that evaluates to a truthy or falsy value. It does not have to be strictly <code>true</code> or <code>false</code> — any truthy value will enter the if block.</p><h3>2. if-else</h3><p>Adds an alternative path when the condition is false.</p><pre><code>if (condition) {\n  // runs if condition is true\n} else {\n  // runs if condition is false\n}</code></pre><h3>3. if - else if - else (Multiple Conditions)</h3><p>Checks multiple conditions in sequence. Only the first matching block runs.</p><pre><code>if (condition1) {\n  // runs if condition1 is true\n} else if (condition2) {\n  // runs if condition1 is false AND condition2 is true\n} else if (condition3) {\n  // runs if both above are false AND condition3 is true\n} else {\n  // runs if ALL conditions are false\n}</code></pre><p>Important: once a condition matches, the remaining else-if and else blocks are skipped entirely. Order matters — put the most specific conditions first.</p><h3>4. Nested if Statements</h3><p>You can put an if inside another if to check conditions in stages.</p><pre><code>if (isLoggedIn) {\n  if (isAdmin) {\n    // show admin dashboard\n  } else {\n    // show user dashboard\n  }\n} else {\n  // show login page\n}</code></pre><p>Nested ifs can get messy. If you find yourself nesting more than 2-3 levels deep, consider refactoring with early returns or separate functions.</p><h3>5. The Ternary Operator (Quick Review)</h3><p>You learned this in the previous chapter. It is a one-line if-else:</p><pre><code>let result = condition ? valueIfTrue : valueIfFalse;</code></pre><p>Use ternary for simple assignments or template literals. Use if-else for complex logic with multiple statements.</p><h3>6. switch Statement</h3><p>Switch is ideal when you need to compare ONE variable against MANY specific values.</p><pre><code>switch (expression) {\n  case value1:\n    // code for value1\n    break;\n  case value2:\n    // code for value2\n    break;\n  default:\n    // code if no case matches\n}</code></pre><h4>Key Rules:</h4><ul><li><code>break</code> is essential. Without it, execution \"falls through\" to the next case.</li><li><code>default</code> is like the <code>else</code> — it runs when no case matches.</li><li>Switch uses <code>===</code> (strict comparison), not <code>==</code>.</li><li>You can intentionally omit <code>break</code> for fall-through behavior (grouping cases).</li></ul><h4>Fall-Through (Grouping Cases)</h4><p>Sometimes you want multiple cases to run the same code. Omitting <code>break</code> lets execution fall through:</p><pre><code>switch (day) {\n  case \"Saturday\":\n  case \"Sunday\":\n    console.log(\"Weekend!\");\n    break;\n  default:\n    console.log(\"Weekday\");\n}</code></pre><h3>7. Conditionals with the DOM</h3><p>The real power of conditionals appears when you combine them with DOM manipulation to create interactive pages:</p><ul><li>Show/hide elements based on user input</li><li>Change colors based on values (red for errors, green for success)</li><li>Enable/disable buttons based on form validation</li><li>Display different content for different user types</li></ul><h3>8. Comparing Strings</h3><p>Strings are compared character by character using Unicode values. This means:</p><pre><code>\"apple\" &lt; \"banana\"   // true (a comes before b)\n\"Apple\" &lt; \"apple\"    // true (uppercase A has lower Unicode value than lowercase a)\n\"10\" &lt; \"9\"           // true (string comparison: '1' comes before '9')</code></pre><p>The last one catches many beginners: <code>\"10\" &lt; \"9\"</code> is <code>true</code> because string comparison checks the first character ('1' vs '9'), and '1' comes before '9'. If you want numeric comparison, convert to numbers first.</p>",
+    "codeExamples": [
+      {
+        "title": "if, if-else, and else-if in Action",
+        "code": "let marks = 78;\n\n// Simple if\nif (marks >= 40) {\n  console.log(\"Passed!\");\n}\n\n// if-else\nif (marks >= 90) {\n  console.log(\"Excellent!\");\n} else {\n  console.log(\"Keep working hard.\");\n}\n\n// else-if chain (grade calculator)\nlet grade;\nif (marks >= 90) {\n  grade = \"A\";\n} else if (marks >= 80) {\n  grade = \"B\";\n} else if (marks >= 70) {\n  grade = \"C\";\n} else if (marks >= 60) {\n  grade = \"D\";\n} else {\n  grade = \"F\";\n}\nconsole.log(`Marks: ${marks}, Grade: ${grade}`);",
+        "language": "javascript",
+        "explanation": "The first <code>if</code> checks if marks are at least 40. The if-else provides two paths. The else-if chain checks conditions in order — since 78 is not >= 90 and not >= 80, but it IS >= 70, the grade is \"C\". The remaining else-if and else are skipped.",
+        "output": "Passed!\nKeep working hard.\nMarks: 78, Grade: C"
+      },
+      {
+        "title": "Interactive Grade Calculator on a Web Page",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial; text-align: center; padding: 30px; }\n    input { padding: 10px; font-size: 18px; width: 200px; }\n    button { padding: 10px 20px; font-size: 18px; cursor: pointer; }\n    #result { font-size: 24px; margin-top: 20px; font-weight: bold; }\n  </style>\n</head>\n<body>\n  <h1>Grade Calculator</h1>\n  <input type=\"number\" id=\"marks\" placeholder=\"Enter marks (0-100)\">\n  <button onclick=\"calculateGrade()\">Get Grade</button>\n  <p id=\"result\"></p>\n\n  <script>\n    function calculateGrade() {\n      let marks = Number(document.getElementById(\"marks\").value);\n      let result = document.getElementById(\"result\");\n\n      if (marks < 0 || marks > 100) {\n        result.textContent = \"Invalid! Enter 0-100.\";\n        result.style.color = \"red\";\n      } else if (marks >= 90) {\n        result.textContent = `${marks} marks = Grade A`;\n        result.style.color = \"#2ecc71\";\n      } else if (marks >= 80) {\n        result.textContent = `${marks} marks = Grade B`;\n        result.style.color = \"#3498db\";\n      } else if (marks >= 70) {\n        result.textContent = `${marks} marks = Grade C`;\n        result.style.color = \"#f39c12\";\n      } else if (marks >= 60) {\n        result.textContent = `${marks} marks = Grade D`;\n        result.style.color = \"#e67e22\";\n      } else {\n        result.textContent = `${marks} marks = Grade F`;\n        result.style.color = \"#e74c3c\";\n      }\n    }\n  </script>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This is a practical project. The function reads the input, validates it (catches invalid values like -5 or 150), then uses else-if to assign a grade. Each grade gets a different color using <code>style.color</code>. This combines conditionals with DOM manipulation — the core of interactive web development.",
+        "output": "Entering 85 shows: '85 marks = Grade B' in blue.\nEntering 150 shows: 'Invalid! Enter 0-100.' in red."
+      },
+      {
+        "title": "switch Statement with Days of the Week",
+        "code": "let day = new Date().toLocaleDateString(\"en-US\", { weekday: \"long\" });\nconsole.log(`Today is ${day}`);\n\nswitch (day) {\n  case \"Monday\":\n    console.log(\"Start of the work week.\");\n    break;\n  case \"Tuesday\":\n  case \"Wednesday\":\n  case \"Thursday\":\n    console.log(\"Midweek. Keep going!\");\n    break;\n  case \"Friday\":\n    console.log(\"Almost weekend!\");\n    break;\n  case \"Saturday\":\n  case \"Sunday\":\n    console.log(\"Weekend! Relax and code for fun.\");\n    break;\n  default:\n    console.log(\"Unknown day.\");\n}",
+        "language": "javascript",
+        "explanation": "This switch uses the current day. Tuesday, Wednesday, and Thursday share the same code block (fall-through without break). Saturday and Sunday also share a block. <code>break</code> prevents execution from falling into the next case. <code>default</code> handles unexpected values. Notice how switch is cleaner than writing 7 if-else statements.",
+        "output": "Today is [current day]\n[corresponding message]"
+      },
+      {
+        "title": "Nested if for Login System",
+        "code": "let username = \"aarav\";\nlet password = \"secure123\";\nlet role = \"admin\";\n\nif (username !== \"\" && password !== \"\") {\n  if (username === \"aarav\" && password === \"secure123\") {\n    if (role === \"admin\") {\n      console.log(\"Welcome, Admin Aarav! You have full access.\");\n    } else {\n      console.log(\"Welcome, Aarav! You have standard access.\");\n    }\n  } else {\n    console.log(\"Invalid username or password.\");\n  }\n} else {\n  console.log(\"Please enter both username and password.\");\n}",
+        "language": "javascript",
+        "explanation": "Nested ifs check conditions in stages: first, are the fields filled? Then, do the credentials match? Finally, what is the user's role? This pattern is common in authentication flows. Each level narrows the check before proceeding deeper.",
+        "output": "Welcome, Admin Aarav! You have full access."
+      },
+      {
+        "title": "Conditionals with DOM: Show/Hide and Color Change",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial; text-align: center; padding: 30px; }\n    #tempDisplay { font-size: 48px; margin: 20px; padding: 20px; border-radius: 10px; }\n  </style>\n</head>\n<body>\n  <h1>Temperature Monitor</h1>\n  <input type=\"number\" id=\"temp\" placeholder=\"Enter temperature (C)\">\n  <button onclick=\"checkTemp()\">Check</button>\n  <div id=\"tempDisplay\"></div>\n\n  <script>\n    function checkTemp() {\n      let temp = Number(document.getElementById(\"temp\").value);\n      let display = document.getElementById(\"tempDisplay\");\n\n      if (temp > 40) {\n        display.textContent = `${temp} C - Extreme Heat!`;\n        display.style.backgroundColor = \"#e74c3c\";\n        display.style.color = \"white\";\n      } else if (temp > 30) {\n        display.textContent = `${temp} C - Hot`;\n        display.style.backgroundColor = \"#f39c12\";\n        display.style.color = \"white\";\n      } else if (temp > 15) {\n        display.textContent = `${temp} C - Comfortable`;\n        display.style.backgroundColor = \"#2ecc71\";\n        display.style.color = \"white\";\n      } else if (temp > 0) {\n        display.textContent = `${temp} C - Cold`;\n        display.style.backgroundColor = \"#3498db\";\n        display.style.color = \"white\";\n      } else {\n        display.textContent = `${temp} C - Freezing!`;\n        display.style.backgroundColor = \"#9b59b6\";\n        display.style.color = \"white\";\n      }\n    }\n  </script>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "This project combines conditionals with DOM styling. Each temperature range gets a different background color: red for extreme heat, orange for hot, green for comfortable, blue for cold, purple for freezing. The user sees immediate visual feedback. This is the kind of interactive feature that makes web pages engaging.",
+        "output": "Entering 42 shows: '42 C - Extreme Heat!' with red background.\nEntering 22 shows: '22 C - Comfortable' with green background."
+      },
+      {
+        "title": "switch with Return Values (in a Function)",
+        "code": "function getDayType(day) {\n  switch (day.toLowerCase()) {\n    case \"monday\":\n    case \"tuesday\":\n    case \"wednesday\":\n    case \"thursday\":\n    case \"friday\":\n      return \"weekday\";\n    case \"saturday\":\n    case \"sunday\":\n      return \"weekend\";\n    default:\n      return \"invalid day\";\n  }\n}\n\nconsole.log(getDayType(\"Monday\"));    // \"weekday\"\nconsole.log(getDayType(\"SATURDAY\"));  // \"weekend\"\nconsole.log(getDayType(\"Holiday\"));   // \"invalid day\"\n\n// Using it in a conditional\nlet today = \"Saturday\";\nif (getDayType(today) === \"weekend\") {\n  console.log(\"No school today!\");\n} else {\n  console.log(\"Time for school.\");\n}",
+        "language": "javascript",
+        "explanation": "Using <code>return</code> inside a function means you do not need <code>break</code> — return exits the function immediately. <code>day.toLowerCase()</code> makes the comparison case-insensitive (\"Monday\", \"MONDAY\", \"monday\" all work). Fall-through groups weekdays together and weekend days together.",
+        "output": "weekday\nweekend\ninvalid day\nNo school today!"
+      },
+      {
+        "title": "String Comparison Gotchas",
+        "code": "// Alphabetical comparison works as expected\nconsole.log(\"apple\" < \"banana\");    // true\nconsole.log(\"cat\" > \"car\");          // true (3rd char: t > r)\n\n// But case matters!\nconsole.log(\"Apple\" < \"apple\");     // true (uppercase has lower Unicode value)\nconsole.log(\"Z\" < \"a\");            // true (all uppercase < all lowercase)\n\n// Number strings compared as strings, NOT numbers!\nconsole.log(\"10\" < \"9\");            // true! ('1' < '9')\nconsole.log(\"100\" < \"20\");          // true! ('1' < '2')\n\n// Fix: convert to numbers for numeric comparison\nconsole.log(Number(\"10\") < Number(\"9\"));   // false (correct)\nconsole.log(10 < 9);                       // false (correct)\n\n// Case-insensitive comparison\nlet a = \"Hello\";\nlet b = \"hello\";\nconsole.log(a === b);                          // false\nconsole.log(a.toLowerCase() === b.toLowerCase()); // true",
+        "language": "javascript",
+        "explanation": "String comparison uses Unicode values, character by character. This means uppercase letters come before lowercase (Z < a), and number strings are compared as strings (\"10\" < \"9\" because '1' < '9'). Always convert to numbers for numeric comparison. Use <code>.toLowerCase()</code> for case-insensitive string comparison.",
+        "output": "true\ntrue\ntrue\ntrue\ntrue\ntrue\nfalse\nfalse\nfalse\ntrue"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting break in switch",
+        "wrongCode": "let fruit = \"apple\";\nswitch (fruit) {\n  case \"apple\":\n    console.log(\"It is an apple\");\n  case \"banana\":\n    console.log(\"It is a banana\");\n  case \"cherry\":\n    console.log(\"It is a cherry\");\n}",
+        "error": "No error, but ALL three messages print! Without break, execution falls through to the next case.",
+        "correctCode": "let fruit = \"apple\";\nswitch (fruit) {\n  case \"apple\":\n    console.log(\"It is an apple\");\n    break;\n  case \"banana\":\n    console.log(\"It is a banana\");\n    break;\n  case \"cherry\":\n    console.log(\"It is a cherry\");\n    break;\n}",
+        "explanation": "Without <code>break</code>, once a matching case is found, ALL subsequent cases execute regardless of whether they match. This is called \"fall-through.\" Always add <code>break</code> unless you intentionally want fall-through."
+      },
+      {
+        "title": "Using = Instead of === in if Condition",
+        "wrongCode": "let age = 20;\nif (age = 18) {\n  console.log(\"You are 18\");\n}\nconsole.log(age);  // 18 (age got changed!)",
+        "error": "No error, but age is reassigned to 18 and the condition always runs because 18 is truthy.",
+        "correctCode": "let age = 20;\nif (age === 18) {\n  console.log(\"You are 18\");\n}\nconsole.log(age);  // 20 (unchanged)",
+        "explanation": "<code>=</code> assigns a value, <code>===</code> compares values. In the wrong code, <code>age = 18</code> assigns 18 to age and the <code>if</code> evaluates 18, which is truthy. This is one of the most common bugs in JavaScript."
+      },
+      {
+        "title": "Comparing Strings as Numbers",
+        "wrongCode": "let input = \"42\";\nif (input > 100) {\n  console.log(\"Big number\");\n}\n// This works by accident because JS converts the string to a number.\n// But what if input is \"abc\"?",
+        "error": "If input is 'abc', the comparison 'abc' > 100 gives false (NaN > 100 is false), which might silently give wrong results.",
+        "correctCode": "let input = \"42\";\nlet num = Number(input);\nif (Number.isNaN(num)) {\n  console.log(\"Not a valid number\");\n} else if (num > 100) {\n  console.log(\"Big number\");\n} else {\n  console.log(\"Small number\");\n}",
+        "explanation": "Always explicitly convert strings to numbers with <code>Number()</code> before comparing. Then check for <code>NaN</code> to handle invalid input. Relying on implicit coercion in comparisons can mask bugs."
+      },
+      {
+        "title": "Using if Without Curly Braces (Risky)",
+        "wrongCode": "let score = 85;\nif (score >= 90)\n  console.log(\"Grade A\");\n  console.log(\"Excellent!\");  // This ALWAYS runs (not part of the if)",
+        "error": "No error, but 'Excellent!' prints regardless of the condition because only the first line is part of the if.",
+        "correctCode": "let score = 85;\nif (score >= 90) {\n  console.log(\"Grade A\");\n  console.log(\"Excellent!\");\n}",
+        "explanation": "Without curly braces <code>{}</code>, only the very next statement belongs to the <code>if</code>. The second <code>console.log</code> is not inside the if — it always runs. Always use curly braces, even for single-line if statements."
+      },
+      {
+        "title": "switch with Type Mismatch",
+        "wrongCode": "let x = \"1\";\nswitch (x) {\n  case 1:\n    console.log(\"One\");\n    break;\n  default:\n    console.log(\"Not matched\");  // This runs!\n}",
+        "error": "No error, but 'Not matched' prints because switch uses === (strict comparison). '1' !== 1.",
+        "correctCode": "let x = \"1\";\nswitch (x) {\n  case \"1\":  // Match the type!\n    console.log(\"One\");\n    break;\n  default:\n    console.log(\"Not matched\");\n}",
+        "explanation": "<code>switch</code> uses strict equality (<code>===</code>). The string <code>\"1\"</code> does not match the number <code>1</code> because their types are different. Make sure the case values match the type of the switch expression."
+      }
+    ],
+    "summary": [
+      "The if statement runs code only when a condition is true. if-else provides an alternative path. else-if handles multiple conditions.",
+      "In an else-if chain, only the first matching condition runs. Order matters: put the most specific conditions first.",
+      "The ternary operator (condition ? a : b) is a one-line if-else. Use it for simple assignments, not complex logic.",
+      "switch compares one value against many cases using === (strict equality). Always include break to prevent fall-through.",
+      "Intentional fall-through in switch groups cases that share the same code: case 'Sat': case 'Sun': code; break;",
+      "Curly braces {} are required for if blocks with multiple statements. Always use them, even for single statements, to prevent bugs.",
+      "Conditionals work with truthy/falsy values: if (value) runs for any truthy value, not just the boolean true.",
+      "String comparison uses Unicode values: 'Apple' < 'apple', and '10' < '9' (character by character). Convert to numbers for numeric comparison.",
+      "Combine conditionals with DOM manipulation to build interactive features: showing/hiding elements, changing colors, validating forms.",
+      "Nested ifs are sometimes necessary but should be avoided when more than 2-3 levels deep. Refactor with early returns or separate functions."
+    ]
+  },
+  "relatedTopics": ["operators-and-expressions", "loops-in-javascript"],
+  "practice": {
+    "totalQuestions": 56,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>let x = 10;\nif (x > 5) {\n  console.log(\"Big\");\n}\nconsole.log(\"Done\");</code></pre>",
+        "hint": "The if block runs because x > 5 is true. The last line runs regardless.",
+        "answer": "<code>Big</code><br><code>Done</code>",
+        "explanation": "<code>10 > 5</code> is true, so \"Big\" is printed. \"Done\" is outside the if block, so it always prints."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>let age = 12;\nif (age >= 18) {\n  console.log(\"Adult\");\n} else {\n  console.log(\"Minor\");\n}</code></pre>",
+        "hint": "12 is not >= 18.",
+        "answer": "<code>Minor</code>",
+        "explanation": "<code>12 >= 18</code> is false, so the else block runs, printing \"Minor\"."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>let score = 85;\nif (score >= 90) {\n  console.log(\"A\");\n} else if (score >= 80) {\n  console.log(\"B\");\n} else if (score >= 70) {\n  console.log(\"C\");\n} else {\n  console.log(\"F\");\n}</code></pre>",
+        "hint": "85 is not >= 90, but it IS >= 80.",
+        "answer": "<code>B</code>",
+        "explanation": "<code>85 >= 90</code> is false. <code>85 >= 80</code> is true, so \"B\" is printed. The remaining conditions are skipped."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let x = 0;\nif (x) {\n  console.log(\"Truthy\");\n} else {\n  console.log(\"Falsy\");\n}</code></pre>",
+        "hint": "if checks for truthy/falsy, not just true/false. What is Boolean(0)?",
+        "answer": "<code>Falsy</code>",
+        "explanation": "<code>0</code> is a falsy value in JavaScript. <code>if (0)</code> evaluates to <code>if (false)</code>, so the else block runs."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let name = \"\";\nif (name) {\n  console.log(`Hello, ${name}!`);\n} else {\n  console.log(\"Name is empty.\");\n}</code></pre>",
+        "hint": "Empty string is falsy.",
+        "answer": "<code>Name is empty.</code>",
+        "explanation": "An empty string <code>\"\"</code> is falsy. <code>if (\"\")</code> is false, so the else block runs."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let color = \"red\";\nswitch (color) {\n  case \"red\":\n    console.log(\"Stop\");\n    break;\n  case \"yellow\":\n    console.log(\"Slow down\");\n    break;\n  case \"green\":\n    console.log(\"Go\");\n    break;\n  default:\n    console.log(\"Unknown\");\n}</code></pre>",
+        "hint": "color matches 'red'. break prevents fall-through.",
+        "answer": "<code>Stop</code>",
+        "explanation": "<code>color</code> is \"red\", which matches <code>case \"red\"</code>. \"Stop\" is printed, then <code>break</code> exits the switch."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let num = 2;\nswitch (num) {\n  case 1:\n    console.log(\"One\");\n  case 2:\n    console.log(\"Two\");\n  case 3:\n    console.log(\"Three\");\n  default:\n    console.log(\"Default\");\n}</code></pre>",
+        "hint": "There are no break statements. What happens after case 2 matches?",
+        "answer": "<code>Two</code><br><code>Three</code><br><code>Default</code>",
+        "explanation": "Case 2 matches and prints \"Two\". Without <code>break</code>, execution falls through to case 3 (\"Three\") and default (\"Default\"). This is the fall-through behavior."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let x = \"1\";\nswitch (x) {\n  case 1:\n    console.log(\"Number one\");\n    break;\n  case \"1\":\n    console.log(\"String one\");\n    break;\n  default:\n    console.log(\"No match\");\n}</code></pre>",
+        "hint": "switch uses === (strict equality). '1' is not the same as 1.",
+        "answer": "<code>String one</code>",
+        "explanation": "Switch uses <code>===</code>. <code>\"1\" === 1</code> is false (different types). <code>\"1\" === \"1\"</code> is true (same type and value). So \"String one\" is printed."
+      },
+      {
+        "id": "ts-9",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Priya wrote this code but both messages print. Find the bug:<br><pre><code>let score = 50;\nif (score >= 90)\n  console.log(\"Grade A\");\n  console.log(\"Excellent!\");</code></pre>",
+        "hint": "Without curly braces, only the first line belongs to the if.",
+        "answer": "Add curly braces: <pre><code>if (score >= 90) {\n  console.log(\"Grade A\");\n  console.log(\"Excellent!\");\n}</code></pre>",
+        "explanation": "Without <code>{}</code>, only <code>console.log(\"Grade A\")</code> is part of the if. <code>console.log(\"Excellent!\")</code> is a separate statement that always runs. Curly braces group both statements inside the if."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let a = 5;\nlet b = 10;\nlet c = 15;\n\nif (a > b) {\n  if (b > c) {\n    console.log(\"A\");\n  } else {\n    console.log(\"B\");\n  }\n} else {\n  if (a + b > c) {\n    console.log(\"C\");\n  } else {\n    console.log(\"D\");\n  }\n}</code></pre>",
+        "hint": "5 > 10 is false, so go to the outer else. Then check 5 + 10 > 15.",
+        "answer": "<code>D</code>",
+        "explanation": "<code>5 > 10</code> is false, so we go to the outer else. <code>5 + 10 > 15</code> is <code>15 > 15</code>, which is false. So we go to the inner else and print \"D\"."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write code that checks if a number stored in variable <code>n</code> (set to 7) is even or odd. Print the result.",
+        "hint": "Use the % operator: n % 2 === 0 means even.",
+        "answer": "<pre><code>let n = 7;\nif (n % 2 === 0) {\n  console.log(`${n} is even`);\n} else {\n  console.log(`${n} is odd`);\n}</code></pre>\nOutput: 7 is odd",
+        "explanation": "<code>7 % 2</code> is 1 (not 0), so the else block runs."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let x = 5;\nif (x > 3) {\n  console.log(\"A\");\n}\nif (x > 4) {\n  console.log(\"B\");\n}\nif (x > 5) {\n  console.log(\"C\");\n}</code></pre>",
+        "hint": "These are separate if statements (not else-if), so each is checked independently.",
+        "answer": "<code>A</code><br><code>B</code>",
+        "explanation": "Three separate <code>if</code> statements (not else-if). Each is checked independently. <code>5 > 3</code>: true, prints \"A\". <code>5 > 4</code>: true, prints \"B\". <code>5 > 5</code>: false, skips. Note: if these were else-if, only \"A\" would print."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let n = 15;\nif (n % 3 === 0 && n % 5 === 0) {\n  console.log(\"FizzBuzz\");\n} else if (n % 3 === 0) {\n  console.log(\"Fizz\");\n} else if (n % 5 === 0) {\n  console.log(\"Buzz\");\n} else {\n  console.log(n);\n}</code></pre>",
+        "hint": "15 is divisible by both 3 and 5. Which condition is checked first?",
+        "answer": "<code>FizzBuzz</code>",
+        "explanation": "<code>15 % 3 === 0</code> is true and <code>15 % 5 === 0</code> is true. The first condition <code>&& both true</code> matches, so \"FizzBuzz\" is printed. The order matters — if the combined check was not first, you would get \"Fizz\" instead."
+      },
+      {
+        "id": "ts-14",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a switch statement that takes a month number (1-12) and prints the season: 'Winter' (12,1,2), 'Spring' (3,4,5), 'Summer' (6,7,8), 'Autumn' (9,10,11). Test with month = 7.",
+        "hint": "Use fall-through by grouping cases without break.",
+        "answer": "<pre><code>let month = 7;\nswitch (month) {\n  case 12: case 1: case 2:\n    console.log(\"Winter\");\n    break;\n  case 3: case 4: case 5:\n    console.log(\"Spring\");\n    break;\n  case 6: case 7: case 8:\n    console.log(\"Summer\");\n    break;\n  case 9: case 10: case 11:\n    console.log(\"Autumn\");\n    break;\n  default:\n    console.log(\"Invalid month\");\n}</code></pre>\nOutput: Summer",
+        "explanation": "Month 7 matches case 7, which is grouped with 6 and 8 (all Summer). Fall-through without break groups the cases, then break exits after printing."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let x = null;\nif (x === null) {\n  console.log(\"A\");\n}\nif (x === undefined) {\n  console.log(\"B\");\n}\nif (x == undefined) {\n  console.log(\"C\");\n}\nif (!x) {\n  console.log(\"D\");\n}</code></pre>",
+        "hint": "null === null is true. null === undefined is false. null == undefined is true. null is falsy.",
+        "answer": "<code>A</code><br><code>C</code><br><code>D</code>",
+        "explanation": "<code>null === null</code>: true (A prints). <code>null === undefined</code>: false (B skips). <code>null == undefined</code>: true by special rule (C prints). <code>!null</code>: null is falsy, so !falsy = true (D prints)."
+      },
+      {
+        "id": "ts-16",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write an HTML page with an input for temperature (in Celsius) and a button. When clicked, change the body's background color: red if >40, orange if >30, green if >15, blue if >0, purple if <=0.",
+        "hint": "Use document.body.style.backgroundColor and if-else.",
+        "answer": "<pre><code>&lt;input type=\"number\" id=\"temp\" placeholder=\"Temperature (C)\"&gt;\n&lt;button onclick=\"update()\"&gt;Update&lt;/button&gt;\n&lt;p id=\"msg\"&gt;&lt;/p&gt;\n&lt;script&gt;\n  function update() {\n    let t = Number(document.getElementById(\"temp\").value);\n    let color;\n    if (t > 40) color = \"#e74c3c\";\n    else if (t > 30) color = \"#f39c12\";\n    else if (t > 15) color = \"#2ecc71\";\n    else if (t > 0) color = \"#3498db\";\n    else color = \"#9b59b6\";\n    document.body.style.backgroundColor = color;\n    document.getElementById(\"msg\").textContent = `${t} C`;\n    document.getElementById(\"msg\").style.color = \"white\";\n  }\n&lt;/script&gt;</code></pre>",
+        "explanation": "Reads the temperature, uses else-if to determine the color, and applies it to the body background. This demonstrates conditional logic driving visual changes on the page."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let day = \"Monday\";\nswitch (day) {\n  case \"Saturday\":\n  case \"Sunday\":\n    console.log(\"Weekend\");\n    break;\n  default:\n    console.log(\"Weekday\");\n    break;\n}</code></pre>",
+        "hint": "Monday does not match Saturday or Sunday.",
+        "answer": "<code>Weekday</code>",
+        "explanation": "\"Monday\" does not match \"Saturday\" or \"Sunday\", so the default case runs, printing \"Weekday\"."
+      },
+      {
+        "id": "ts-18",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Rohan's code always prints 'Fail' even when marks is 85. Find the bug:<br><pre><code>let marks = 85;\nif (marks >= 90) {\n  console.log(\"Grade A\");\n} else if (marks >= 80) {\n  console.log(\"Grade B\");\n} else if (marks >= 40) {\n  console.log(\"Pass\");\n}\nif (marks < 40) {\n  console.log(\"Fail\");\n} else {\n  console.log(\"Fail\");  // BUG: this always prints when marks >= 40!\n}</code></pre>",
+        "hint": "Look at the second if-else block. When marks is 85, which branch runs?",
+        "answer": "The second if-else is a separate block. When marks >= 40, the else of the second block runs and prints \"Fail\". Fix by combining into one else-if chain or removing the second block.",
+        "explanation": "The second <code>if-else</code> is completely separate from the first. When marks is 85, the first chain prints \"Grade B\". Then the second block checks: <code>85 < 40</code> is false, so the else runs and prints \"Fail\". The fix is to make it all one else-if chain."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let a = \"10\";\nlet b = \"9\";\nif (a > b) {\n  console.log(\"a is greater\");\n} else {\n  console.log(\"b is greater\");\n}</code></pre>",
+        "hint": "Both are strings. String comparison is character by character.",
+        "answer": "<code>b is greater</code>",
+        "explanation": "Both <code>a</code> and <code>b</code> are strings. String comparison is character by character: '1' (from \"10\") vs '9' (from \"9\"). Since '1' < '9' in Unicode, <code>\"10\" < \"9\"</code> is true. So the else block runs. This is a common trap with string comparison."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>let x = 5;\nlet result = x > 3 ? \"big\" : \"small\";\nconsole.log(result);</code></pre>",
+        "hint": "5 > 3 is true, so the ternary returns the first option.",
+        "answer": "<code>big</code>",
+        "explanation": "<code>5 > 3</code> is true. The ternary returns <code>\"big\"</code>."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>let temp = 25;\nif (temp > 30) {\n  console.log(\"Hot\");\n} else if (temp > 20) {\n  console.log(\"Warm\");\n} else {\n  console.log(\"Cold\");\n}</code></pre>",
+        "hint": "25 is not > 30, but it IS > 20.",
+        "answer": "<code>Warm</code>",
+        "explanation": "<code>25 > 30</code> is false. <code>25 > 20</code> is true. \"Warm\" is printed."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write code that checks if a year (2024) is a leap year. A year is a leap year if: divisible by 4 AND (not divisible by 100 OR divisible by 400).",
+        "hint": "Use % for divisibility and && / || for combining conditions.",
+        "answer": "<pre><code>let year = 2024;\nif ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {\n  console.log(`${year} is a leap year`);\n} else {\n  console.log(`${year} is not a leap year`);\n}</code></pre>\nOutput: 2024 is a leap year",
+        "explanation": "2024 % 4 === 0 (true) and 2024 % 100 !== 0 (true, 2024 is not a century year). True AND true = true. So 2024 is a leap year."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let val = \"\";\nif (val) {\n  console.log(\"Has value\");\n} else if (val === \"\") {\n  console.log(\"Empty string\");\n} else {\n  console.log(\"Something else\");\n}</code></pre>",
+        "hint": "Empty string is falsy, so the first condition is false.",
+        "answer": "<code>Empty string</code>",
+        "explanation": "<code>if (\"\"))</code> is false (empty string is falsy). <code>else if (\"\" === \"\")</code> is true. So \"Empty string\" is printed."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for (let i = 1; i <= 5; i++) {\n  if (i === 3) {\n    continue;\n  }\n  console.log(i);\n}</code></pre>",
+        "hint": "continue skips the rest of the loop body for the current iteration.",
+        "answer": "<code>1</code><br><code>2</code><br><code>4</code><br><code>5</code>",
+        "explanation": "The loop runs from 1 to 5. When <code>i === 3</code>, <code>continue</code> skips the <code>console.log</code> for that iteration. So 3 is not printed."
+      },
+      {
+        "id": "mx-5",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write an HTML page with a text input for a password. As the user types (oninput), show feedback: 'Weak' (red) if < 6 chars, 'Medium' (orange) if 6-9 chars, 'Strong' (green) if >= 10 chars.",
+        "hint": "Use the .length property of the input value and if-else for feedback.",
+        "answer": "<pre><code>&lt;input type=\"text\" id=\"pass\" oninput=\"check()\" placeholder=\"Enter password\"&gt;\n&lt;p id=\"feedback\"&gt;&lt;/p&gt;\n&lt;script&gt;\n  function check() {\n    let len = document.getElementById(\"pass\").value.length;\n    let fb = document.getElementById(\"feedback\");\n    if (len === 0) {\n      fb.textContent = \"\";\n    } else if (len < 6) {\n      fb.textContent = \"Weak\";\n      fb.style.color = \"red\";\n    } else if (len < 10) {\n      fb.textContent = \"Medium\";\n      fb.style.color = \"orange\";\n    } else {\n      fb.textContent = \"Strong\";\n      fb.style.color = \"green\";\n    }\n  }\n&lt;/script&gt;</code></pre>",
+        "explanation": "The oninput event fires on every keystroke. We check the length of the password and show colored feedback. This is a common real-world pattern for password strength indicators."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let x = 10;\nlet y = 20;\nlet z = 30;\n\nif (x < y && y < z) {\n  console.log(\"Ascending\");\n}\nif (x < y || x > z) {\n  console.log(\"At least one true\");\n}\nif (!(x === 10)) {\n  console.log(\"Not ten\");\n} else {\n  console.log(\"It is ten\");\n}</code></pre>",
+        "hint": "Evaluate each condition step by step. These are separate if blocks.",
+        "answer": "<code>Ascending</code><br><code>At least one true</code><br><code>It is ten</code>",
+        "explanation": "<code>10 < 20 && 20 < 30</code>: true && true = true. <code>10 < 20 || 10 > 30</code>: true || false = true. <code>!(10 === 10)</code>: !true = false, so else runs."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function check(val) {\n  if (typeof val === \"number\") {\n    if (val > 0) return \"positive number\";\n    if (val < 0) return \"negative number\";\n    return \"zero\";\n  } else if (typeof val === \"string\") {\n    if (val.length > 0) return \"non-empty string\";\n    return \"empty string\";\n  }\n  return \"other type\";\n}\n\nconsole.log(check(42));\nconsole.log(check(-5));\nconsole.log(check(\"\"));\nconsole.log(check(null));</code></pre>",
+        "hint": "typeof null is 'object', not 'number' or 'string'.",
+        "answer": "<code>positive number</code><br><code>negative number</code><br><code>empty string</code><br><code>other type</code>",
+        "explanation": "<code>check(42)</code>: number, > 0, \"positive number\". <code>check(-5)</code>: number, < 0, \"negative number\". <code>check(\"\")</code>: string, length 0, \"empty string\". <code>check(null)</code>: typeof null is \"object\", not matched, \"other type\"."
+      },
+      {
+        "id": "mx-8",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "Vikram's switch statement should print the Indian season but prints the wrong one for month 4. Find the bug:<br><pre><code>let month = 4;\nswitch (month) {\n  case 3: case 4: case 5:\n    console.log(\"Summer\");\n    break;\n  case 6: case 7: case 8: case 9:\n    console.log(\"Monsoon\");\n    break;\n  case 10: case 11:\n    console.log(\"Autumn\");\n    break;\n  case 12: case 1: case 2:\n    console.log(\"Winter\");\n    break;\n  default:\n    console.log(\"Spring\");\n}</code></pre>",
+        "hint": "In India, April (4) is Summer. The code does print 'Summer' for month 4. Look more carefully at the season mapping.",
+        "answer": "The code actually works correctly for month 4 (prints Summer). If Vikram expected \"Spring\" for April, the mapping is wrong. In India, March-May is typically Summer, not Spring. The code matches the Indian season calendar correctly.",
+        "explanation": "This is a trick question. The switch is technically correct for the Indian calendar where March-May is Summer. If a different mapping is desired, the case groupings need to be changed."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a function that takes a number and returns its English ordinal suffix: 1st, 2nd, 3rd, 4th, 5th, ... 11th, 12th, 13th, 21st, 22nd, 23rd, 31st. Test with 1, 2, 3, 4, 11, 13, 21, 22.",
+        "hint": "The tricky part is 11, 12, 13 which all use 'th' (not st, nd, rd).",
+        "answer": "<pre><code>function ordinal(n) {\n  let suffix;\n  if (n % 100 >= 11 && n % 100 <= 13) {\n    suffix = \"th\";\n  } else {\n    switch (n % 10) {\n      case 1: suffix = \"st\"; break;\n      case 2: suffix = \"nd\"; break;\n      case 3: suffix = \"rd\"; break;\n      default: suffix = \"th\";\n    }\n  }\n  return n + suffix;\n}\nconsole.log(ordinal(1));   // 1st\nconsole.log(ordinal(2));   // 2nd\nconsole.log(ordinal(3));   // 3rd\nconsole.log(ordinal(4));   // 4th\nconsole.log(ordinal(11));  // 11th\nconsole.log(ordinal(13));  // 13th\nconsole.log(ordinal(21));  // 21st\nconsole.log(ordinal(22));  // 22nd</code></pre>",
+        "explanation": "First check if the last two digits are 11, 12, or 13 (these always use 'th'). Otherwise, check the last digit: 1='st', 2='nd', 3='rd', everything else='th'. This uses both if and switch effectively."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let x = 5;\nlet y = \"5\";\n\nif (x == y) console.log(\"A\");\nif (x === y) console.log(\"B\");\nif (x != y) console.log(\"C\");\nif (x !== y) console.log(\"D\");</code></pre>",
+        "hint": "== converts types. === does not. Same applies to != vs !==.",
+        "answer": "<code>A</code><br><code>D</code>",
+        "explanation": "<code>5 == \"5\"</code>: true (type coercion), prints A. <code>5 === \"5\"</code>: false (different types), B skips. <code>5 != \"5\"</code>: false (== says they are equal), C skips. <code>5 !== \"5\"</code>: true (different types), prints D."
+      },
+      {
+        "id": "mx-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write an HTML page with a dropdown select for a traffic light color (Red, Yellow, Green). When the selection changes, display the appropriate message and change a div's background to that color.",
+        "hint": "Use the onchange event on a select element and switch or if-else.",
+        "answer": "<pre><code>&lt;select id=\"light\" onchange=\"update()\"&gt;\n  &lt;option value=\"red\"&gt;Red&lt;/option&gt;\n  &lt;option value=\"yellow\"&gt;Yellow&lt;/option&gt;\n  &lt;option value=\"green\"&gt;Green&lt;/option&gt;\n&lt;/select&gt;\n&lt;div id=\"signal\" style=\"width:100px;height:100px;border-radius:50%;margin:20px;\"&gt;&lt;/div&gt;\n&lt;p id=\"msg\"&gt;&lt;/p&gt;\n&lt;script&gt;\n  function update() {\n    let color = document.getElementById(\"light\").value;\n    let signal = document.getElementById(\"signal\");\n    let msg = document.getElementById(\"msg\");\n    signal.style.backgroundColor = color;\n    switch (color) {\n      case \"red\":\n        msg.textContent = \"STOP!\";\n        break;\n      case \"yellow\":\n        msg.textContent = \"SLOW DOWN\";\n        break;\n      case \"green\":\n        msg.textContent = \"GO!\";\n        break;\n    }\n  }\n  update();\n&lt;/script&gt;</code></pre>",
+        "explanation": "The onchange event fires when the dropdown selection changes. Switch matches the color value and sets the appropriate message. The div's background color is set directly to the color value."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let n = 0;\n\nif (n) {\n  console.log(\"truthy\");\n}\n\nif (n === 0) {\n  console.log(\"zero\");\n}\n\nif (n == false) {\n  console.log(\"loose false\");\n}\n\nif (n === false) {\n  console.log(\"strict false\");\n}</code></pre>",
+        "hint": "0 is falsy. 0 == false is true. 0 === false is false (different types).",
+        "answer": "<code>zero</code><br><code>loose false</code>",
+        "explanation": "<code>if (0)</code>: 0 is falsy, skips. <code>if (0 === 0)</code>: true, prints \"zero\". <code>if (0 == false)</code>: false becomes 0, 0==0 is true, prints \"loose false\". <code>if (0 === false)</code>: number vs boolean, false."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does the if statement check?",
+        "options": {
+          "A": "Whether a variable exists",
+          "B": "Whether a condition is truthy or falsy",
+          "C": "Whether two values are the same type",
+          "D": "Whether a loop should continue"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>if</code> statement evaluates a condition. If the result is truthy (not just <code>true</code>, but any truthy value), the code block runs. If falsy, it is skipped."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the else block for?",
+        "options": {
+          "A": "It runs when the if condition is true",
+          "B": "It runs when the if condition is false",
+          "C": "It runs every time",
+          "D": "It is optional and runs before the if"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>else</code> block runs only when the <code>if</code> condition is false (falsy). It provides the alternative path."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What keyword exits a switch case?",
+        "options": {
+          "A": "exit",
+          "B": "stop",
+          "C": "break",
+          "D": "end"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>break</code> exits the switch statement. Without it, execution falls through to the next case."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What comparison does switch use?",
+        "options": {
+          "A": "== (loose equality)",
+          "B": "=== (strict equality)",
+          "C": "= (assignment)",
+          "D": "It depends on the type"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>switch</code> uses <code>===</code> (strict equality) to compare the expression with each case value. This means types must match."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "What happens when you omit break in a switch case?",
+        "options": {
+          "A": "An error occurs",
+          "B": "The switch exits immediately",
+          "C": "Execution falls through to the next case",
+          "D": "The default case runs"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Without <code>break</code>, execution continues into the next case regardless of whether it matches. This is called \"fall-through\" and can be used intentionally to group cases."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the output of: if ('') console.log('yes'); else console.log('no');",
+        "options": {
+          "A": "yes",
+          "B": "no",
+          "C": "Error",
+          "D": "undefined"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> An empty string <code>''</code> is falsy in JavaScript. <code>if ('')</code> evaluates to false, so the else block runs, printing 'no'."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "In an else-if chain, how many blocks can execute?",
+        "options": {
+          "A": "All of them",
+          "B": "At most one",
+          "C": "At least one",
+          "D": "Exactly two"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> In an if / else-if / else chain, only the first matching condition's block runs. All subsequent blocks are skipped. If none match and there is no else, zero blocks run."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the output of: console.log('10' < '9')?",
+        "options": {
+          "A": "true",
+          "B": "false",
+          "C": "Error",
+          "D": "NaN"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> Both values are strings, so JavaScript compares them character by character. '1' (from '10') has a lower Unicode value than '9', so <code>'10' < '9'</code> is <code>true</code>. To compare as numbers, convert first."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "When should you use switch instead of if-else?",
+        "options": {
+          "A": "When you have only two conditions",
+          "B": "When comparing one value against many specific values",
+          "C": "When you need to check ranges (> or <)",
+          "D": "Always, because switch is faster"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Switch is ideal when checking one variable against many specific values (like days of the week or color names). For range checks (>, <, >=), if-else is more appropriate. Switch does not support range comparisons directly."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "What is the output of: if ([] == false) console.log('yes'); else console.log('no');",
+        "options": {
+          "A": "yes",
+          "B": "no",
+          "C": "Error",
+          "D": "undefined"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> With <code>==</code>, the array <code>[]</code> is converted to a string <code>\"\"</code>, then to number <code>0</code>. <code>false</code> is also converted to <code>0</code>. <code>0 == 0</code> is <code>true</code>. However, <code>if ([])</code> would be truthy because [] is an object. This shows why == is confusing."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What happens if you write: if (x = 5) { ... }?",
+        "options": {
+          "A": "Checks if x equals 5",
+          "B": "Assigns 5 to x, and the block always runs (5 is truthy)",
+          "C": "Syntax error",
+          "D": "Assigns 5 to x, and the block never runs"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>x = 5</code> is assignment, not comparison. It assigns 5 to x and evaluates to 5. Since 5 is truthy, the if block always runs. This is a common bug — use <code>===</code> for comparison."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "In a switch, what is the default case?",
+        "options": {
+          "A": "The first case that runs",
+          "B": "The case that runs when no other case matches",
+          "C": "The case that always runs",
+          "D": "A required part of every switch"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>default</code> runs when no case matches, similar to <code>else</code> in if-else. It is optional — you do not have to include it, but it is good practice for handling unexpected values."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Easy",
+        "question": "What is the ternary operator syntax?",
+        "options": {
+          "A": "condition : valueIfTrue ? valueIfFalse",
+          "B": "condition ? valueIfTrue : valueIfFalse",
+          "C": "if condition then value else value",
+          "D": "condition && valueIfTrue || valueIfFalse"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The ternary syntax is <code>condition ? valueIfTrue : valueIfFalse</code>. The <code>?</code> separates the condition from the true value, and <code>:</code> separates the true and false values."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the output of: let x = 0; if (x !== false) console.log('yes'); else console.log('no');",
+        "options": {
+          "A": "yes",
+          "B": "no",
+          "C": "Error",
+          "D": "undefined"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> <code>!==</code> is strict inequality. <code>0 !== false</code> is <code>true</code> because 0 is a number and false is a boolean (different types). So 'yes' prints. Note: <code>0 != false</code> would be <code>false</code> because <code>==</code> converts types."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Age Category Classifier",
+        "difficulty": "Easy",
+        "description": "Write a function that takes an age and returns a category: 'Infant' (0-2), 'Child' (3-12), 'Teenager' (13-19), 'Adult' (20-59), 'Senior' (60+). Test with ages: 1, 8, 16, 35, 72.",
+        "sampleInput": "classifyAge(16)",
+        "sampleOutput": "Teenager",
+        "constraints": "Use if-else. Handle invalid ages (negative or non-number).",
+        "solution": "function classifyAge(age) {\n  if (typeof age !== 'number' || age < 0) return 'Invalid age';\n  if (age <= 2) return 'Infant';\n  if (age <= 12) return 'Child';\n  if (age <= 19) return 'Teenager';\n  if (age <= 59) return 'Adult';\n  return 'Senior';\n}\nconsole.log(classifyAge(1));   // Infant\nconsole.log(classifyAge(8));   // Child\nconsole.log(classifyAge(16));  // Teenager\nconsole.log(classifyAge(35));  // Adult\nconsole.log(classifyAge(72));  // Senior"
+      },
+      {
+        "id": "cc-2",
+        "title": "Simple Calculator Page",
+        "difficulty": "Easy",
+        "description": "Build an HTML page with two number inputs, a dropdown for the operation (+, -, *, /), and a button. When clicked, perform the selected operation and display the result. Handle division by zero.",
+        "sampleInput": "10, 3, division",
+        "sampleOutput": "10 / 3 = 3.3333...",
+        "constraints": "Use switch for the operation. Show 'Cannot divide by zero' for 0 divisor.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <input type=\"number\" id=\"a\" placeholder=\"Number 1\">\n  <select id=\"op\">\n    <option value=\"+\">+</option>\n    <option value=\"-\">-</option>\n    <option value=\"*\">*</option>\n    <option value=\"/\">/</option>\n  </select>\n  <input type=\"number\" id=\"b\" placeholder=\"Number 2\">\n  <button onclick=\"calc()\">Calculate</button>\n  <p id=\"result\"></p>\n  <script>\n    function calc() {\n      let a = Number(document.getElementById('a').value);\n      let b = Number(document.getElementById('b').value);\n      let op = document.getElementById('op').value;\n      let result;\n      switch (op) {\n        case '+': result = a + b; break;\n        case '-': result = a - b; break;\n        case '*': result = a * b; break;\n        case '/':\n          if (b === 0) { result = 'Cannot divide by zero'; }\n          else { result = a / b; }\n          break;\n      }\n      document.getElementById('result').textContent = `${a} ${op} ${b} = ${result}`;\n    }\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "FizzBuzz on a Web Page",
+        "difficulty": "Medium",
+        "description": "Build an HTML page with a number input. When a button is clicked, display FizzBuzz output from 1 to the entered number. For multiples of 3, show 'Fizz'. For multiples of 5, show 'Buzz'. For multiples of both, show 'FizzBuzz'. Style FizzBuzz in purple, Fizz in green, Buzz in blue, numbers in gray.",
+        "sampleInput": "User enters 15",
+        "sampleOutput": "1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz",
+        "constraints": "Use a loop with if-else inside. Color-code each type.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <input type=\"number\" id=\"n\" placeholder=\"Enter number\">\n  <button onclick=\"fizzBuzz()\">Go</button>\n  <div id=\"output\"></div>\n  <script>\n    function fizzBuzz() {\n      let n = Number(document.getElementById('n').value);\n      let html = '';\n      for (let i = 1; i <= n; i++) {\n        if (i % 3 === 0 && i % 5 === 0) {\n          html += '<span style=\"color:purple;font-weight:bold;\">FizzBuzz</span> ';\n        } else if (i % 3 === 0) {\n          html += '<span style=\"color:green;\">Fizz</span> ';\n        } else if (i % 5 === 0) {\n          html += '<span style=\"color:blue;\">Buzz</span> ';\n        } else {\n          html += '<span style=\"color:gray;\">' + i + '</span> ';\n        }\n      }\n      document.getElementById('output').innerHTML = html;\n    }\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Day Planner with Switch",
+        "difficulty": "Medium",
+        "description": "Build a page that shows today's day and a schedule. Use switch with the current day to display different activities. Include fall-through for weekdays sharing activities. Style the page with different colors for weekdays vs weekends.",
+        "sampleInput": "(Uses current day automatically)",
+        "sampleOutput": "Today is Wednesday\nSchedule: School 8am-3pm, Coding class 4pm-5pm, Homework 6pm-8pm",
+        "constraints": "Use new Date().getDay() and switch. Group weekdays and weekends.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <h1 id=\"day\"></h1>\n  <p id=\"schedule\"></p>\n  <script>\n    let dayNum = new Date().getDay();\n    let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];\n    document.getElementById('day').textContent = 'Today is ' + days[dayNum];\n    let schedule;\n    switch (dayNum) {\n      case 1: case 2: case 3: case 4: case 5:\n        schedule = 'School 8am-3pm, Coding class 4pm-5pm, Homework 6pm-8pm';\n        document.body.style.backgroundColor = '#ecf0f1';\n        break;\n      case 6:\n        schedule = 'Sleep in! Project work 10am-12pm, Free time!';\n        document.body.style.backgroundColor = '#d5f5e3';\n        break;\n      case 0:\n        schedule = 'Family time, light study 5pm-6pm, relax!';\n        document.body.style.backgroundColor = '#fdebd0';\n        break;\n    }\n    document.getElementById('schedule').textContent = 'Schedule: ' + schedule;\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Form Validator",
+        "difficulty": "Hard",
+        "description": "Build a registration form with name, email, age, and password fields. When submitted, validate: name must not be empty, email must contain '@', age must be 13-100, password must be 8+ characters with at least one number. Show all errors at once in red. If valid, show 'Registration successful!' in green.",
+        "sampleInput": "Name: '', Email: 'test', Age: 10, Password: 'short'",
+        "sampleOutput": "Errors: Name is required. Email must contain @. Age must be 13-100. Password must be 8+ characters with a number.",
+        "constraints": "Check all fields and show all errors (do not stop at the first error).",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <input id=\"name\" placeholder=\"Name\"><br>\n  <input id=\"email\" placeholder=\"Email\"><br>\n  <input id=\"age\" type=\"number\" placeholder=\"Age\"><br>\n  <input id=\"pass\" type=\"password\" placeholder=\"Password\"><br>\n  <button onclick=\"validate()\">Register</button>\n  <div id=\"errors\"></div>\n  <script>\n    function validate() {\n      let name = document.getElementById('name').value;\n      let email = document.getElementById('email').value;\n      let age = Number(document.getElementById('age').value);\n      let pass = document.getElementById('pass').value;\n      let errors = [];\n      if (name.trim() === '') errors.push('Name is required.');\n      if (!email.includes('@')) errors.push('Email must contain @.');\n      if (age < 13 || age > 100) errors.push('Age must be 13-100.');\n      if (pass.length < 8) {\n        errors.push('Password must be 8+ characters.');\n      } else if (!/[0-9]/.test(pass)) {\n        errors.push('Password must contain at least one number.');\n      }\n      let el = document.getElementById('errors');\n      if (errors.length > 0) {\n        el.innerHTML = errors.map(e => '<p style=\"color:red;\">' + e + '</p>').join('');\n      } else {\n        el.innerHTML = '<p style=\"color:green;font-weight:bold;\">Registration successful!</p>';\n      }\n    }\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Interactive BMI Calculator",
+        "difficulty": "Hard",
+        "description": "Build a BMI calculator page. User enters weight (kg) and height (cm). Calculate BMI = weight / (height/100)^2. Display the BMI value and category: Underweight (<18.5), Normal (18.5-24.9), Overweight (25-29.9), Obese (30+). Color-code the result. Also show a health tip for each category.",
+        "sampleInput": "Weight: 70, Height: 175",
+        "sampleOutput": "BMI: 22.86 - Normal weight (green)\nTip: Great job! Maintain a balanced diet and regular exercise.",
+        "constraints": "Validate inputs. Show 2 decimal places. Use if-else for categories.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <h2>BMI Calculator</h2>\n  <input id=\"weight\" type=\"number\" placeholder=\"Weight (kg)\"><br>\n  <input id=\"height\" type=\"number\" placeholder=\"Height (cm)\"><br>\n  <button onclick=\"calcBMI()\">Calculate</button>\n  <h3 id=\"result\"></h3>\n  <p id=\"tip\"></p>\n  <script>\n    function calcBMI() {\n      let weight = Number(document.getElementById('weight').value);\n      let height = Number(document.getElementById('height').value);\n      let resultEl = document.getElementById('result');\n      let tipEl = document.getElementById('tip');\n      if (weight <= 0 || height <= 0) {\n        resultEl.textContent = 'Please enter valid values.';\n        resultEl.style.color = 'red';\n        tipEl.textContent = '';\n        return;\n      }\n      let bmi = weight / ((height / 100) ** 2);\n      let category, color, tip;\n      if (bmi < 18.5) {\n        category = 'Underweight';\n        color = '#3498db';\n        tip = 'Consider eating more nutritious meals and consulting a doctor.';\n      } else if (bmi < 25) {\n        category = 'Normal weight';\n        color = '#2ecc71';\n        tip = 'Great job! Maintain a balanced diet and regular exercise.';\n      } else if (bmi < 30) {\n        category = 'Overweight';\n        color = '#f39c12';\n        tip = 'Try increasing physical activity and reducing processed food.';\n      } else {\n        category = 'Obese';\n        color = '#e74c3c';\n        tip = 'Please consult a healthcare professional for guidance.';\n      }\n      resultEl.textContent = `BMI: ${bmi.toFixed(2)} - ${category}`;\n      resultEl.style.color = color;\n      tipEl.textContent = 'Tip: ' + tip;\n    }\n  </script>\n</body>\n</html>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: Build an Interactive Quiz App - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Combine HTML, CSS, and JavaScript to build a fully working quiz application with scoring and feedback.">
+    <meta name="keywords" content="project: build an interactive quiz app, javascript tutorial, javascript project: build an interactive quiz app, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/project-interactive-quiz-app">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/project-interactive-quiz-app">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/project-interactive-quiz-app">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/project-interactive-quiz-app">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/project-interactive-quiz-app">
+    <meta property="og:title" content="Project: Build an Interactive Quiz App - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Combine HTML, CSS, and JavaScript to build a fully working quiz application with scoring and feedback.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/project-interactive-quiz-app">
+    <meta name="twitter:title" content="Project: Build an Interactive Quiz App - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Combine HTML, CSS, and JavaScript to build a fully working quiz application with scoring and feedback.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Project: Build an Interactive Quiz App",
+    "description": "Combine HTML, CSS, and JavaScript to build a fully working quiz application with scoring and feedback.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/project-interactive-quiz-app"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/project-interactive-quiz-app"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Project: Build an Interactive Quiz App",
+        "item": "https://learn.modernagecoders.com/resources/javascript/project-interactive-quiz-app"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting to Clear Previous Options",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When creating elements dynamically, always clear the container first with <code>innerHTML = \"\"</code>. Otherwise, previous elements remain and new ones stack on top, creating a mess."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Disabling Buttons After Selection",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "After any selection, all option buttons must be disabled immediately. Using a CSS class with <code>pointer-events: none</code> is the cleanest approach. Also, always highlight the correct answer when the user picks wrong -- this is how they learn."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using var Inside forEach Creates Closure Bug",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "With <code>var</code>, the variable <code>i</code> is shared across all iterations. By the time any button is clicked, the loop has finished and <code>i</code> is 4. Using <code>forEach</code> or <code>let</code> in a for loop creates a separate binding per iteration."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting to Reset Both State and DOM on Restart",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Restarting an app means resetting both the JavaScript variables AND the visual state. Every element that was shown or hidden during the quiz must be put back to its initial state."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hardcoding the Total Number of Questions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always use <code>quizData.length</code> instead of hardcoding numbers. This way, anyone can add or remove questions from the data array and the app adapts automatically."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Project: Build an Interactive Quiz App</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 16</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Project: Build an Interactive Quiz App</h1>
+            <a href="/resources/javascript/project-interactive-quiz-app/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are We Building?</h2><p>In this chapter, you will build a complete interactive quiz app from scratch using HTML, CSS, and JavaScript. This is a <strong>project chapter</strong> -- instead of learning one concept, you will combine everything you have learned so far into a working application.</p><p>The quiz app will have:</p><ul><li>A question displayed with 4 clickable option buttons</li><li>A score counter that tracks correct answers</li><li>Visual feedback -- green for correct, red for wrong</li><li>A "Next" button to move to the next question</li><li>A results screen at the end showing the final score</li><li>A restart button to play again</li></ul><p>Here is what the finished app looks like in action:</p><pre><code>Question 1 of 5
+-------------------------------
+What does CSS stand for?
+
+[ ] Computer Style Sheets
+[x] Cascading Style Sheets    &lt;-- turns green
+[ ] Creative Style Syntax
+[ ] Coded Style Sheets
+-------------------------------
+Score: 1 | [Next Question]</code></pre><p>By the end of this chapter, you will have a project you can customize with your own questions and show to anyone.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Build a Quiz App?</h2><h3>1. It Uses Everything You Have Learned</h3><p>A quiz app combines DOM selection, event listeners, creating elements, CSS manipulation, arrays, objects, functions, and conditional logic. Building it proves you actually understand these concepts, not just in isolation, but together.</p><h3>2. It Is a Real Application</h3><p>This is not a toy example. Quiz apps are used in education platforms, interview prep sites, trivia games, and even corporate training. The patterns you learn here apply to real-world web development.</p><h3>3. It Teaches Application Architecture</h3><p>You will learn how to structure an app: separating data (questions) from logic (checking answers) from display (updating the screen). This separation is the foundation of how professional web apps are built.</p><h3>4. It Is Fun to Customize</h3><p>Once you build the base quiz, you can add your own questions about any topic -- science, history, cricket, movies, coding. You can share it with friends and family.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Building the Quiz App Step by Step</h2><h3>Step 1: HTML Structure</h3><p>First, we create the HTML skeleton. The quiz app needs three main areas: a quiz container that shows questions, a results container that shows the final score, and control buttons.</p><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Quiz App&lt;/title&gt;
+  &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class="quiz-container"&gt;
+    &lt;div class="quiz-header"&gt;
+      &lt;span id="questionCounter"&gt;Question 1 of 5&lt;/span&gt;
+      &lt;span id="scoreDisplay"&gt;Score: 0&lt;/span&gt;
+    &lt;/div&gt;
+
+    &lt;div id="quiz"&gt;
+      &lt;h2 id="question"&gt;&lt;/h2&gt;
+      &lt;div id="options"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div id="results" style="display: none;"&gt;
+      &lt;h2&gt;Quiz Complete!&lt;/h2&gt;
+      &lt;p id="finalScore"&gt;&lt;/p&gt;
+      &lt;p id="message"&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="quiz-footer"&gt;
+      &lt;button id="nextBtn" style="display: none;"&gt;Next Question&lt;/button&gt;
+      &lt;button id="restartBtn" style="display: none;"&gt;Restart Quiz&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;script src="quiz.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p>Key structural decisions:</p><ul><li><code>#quiz</code> holds the active question and options</li><li><code>#results</code> is hidden initially and shown at the end</li><li><code>#nextBtn</code> appears only after answering</li><li><code>#restartBtn</code> appears only on the results screen</li></ul><h3>Step 2: CSS Styling</h3><p>The CSS creates a clean card layout with hover effects and correct/wrong colors:</p><pre><code>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #1a1a2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #e2e8f0;
+}
+
+.quiz-container {
+  background: #16213e;
+  border-radius: 16px;
+  padding: 32px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+#question {
+  font-size: 20px;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.option-btn {
+  display: block;
+  width: 100%;
+  padding: 14px 20px;
+  margin-bottom: 12px;
+  background: #0f3460;
+  border: 2px solid #1a4a7a;
+  border-radius: 10px;
+  color: #e2e8f0;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.2s, border-color 0.2s, transform 0.1s;
+}
+
+.option-btn:hover {
+  background: #1a4a7a;
+  border-color: #a855f7;
+  transform: translateY(-1px);
+}
+
+.option-btn.correct {
+  background: #065f46;
+  border-color: #10b981;
+  color: #d1fae5;
+}
+
+.option-btn.wrong {
+  background: #7f1d1d;
+  border-color: #ef4444;
+  color: #fecaca;
+}
+
+.option-btn.disabled {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.quiz-footer {
+  margin-top: 24px;
+  text-align: center;
+}
+
+#nextBtn, #restartBtn {
+  padding: 12px 32px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#nextBtn {
+  background: #a855f7;
+  color: white;
+}
+
+#nextBtn:hover {
+  background: #9333ea;
+}
+
+#restartBtn {
+  background: #06b6d4;
+  color: white;
+}
+
+#restartBtn:hover {
+  background: #0891b2;
+}
+
+#results h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: #a855f7;
+}
+
+#results p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 480px) {
+  .quiz-container {
+    margin: 16px;
+    padding: 20px;
+  }
+  #question {
+    font-size: 18px;
+  }
+}</code></pre><p>Key CSS decisions:</p><ul><li><code>.option-btn.correct</code> turns green when the answer is right</li><li><code>.option-btn.wrong</code> turns red when the answer is wrong</li><li><code>.option-btn.disabled</code> prevents clicking after answering</li><li>Hover effects use <code>transform</code> for a subtle lift</li><li>Responsive: padding and font sizes reduce on mobile</li></ul><h3>Step 3: Quiz Data</h3><p>The quiz questions are stored as an array of objects. Each object has a question, an array of options, and the index of the correct answer:</p><pre><code>const quizData = [
+  {
+    question: "What does HTML stand for?",
+    options: [
+      "Hyper Trainer Marking Language",
+      "HyperText Markup Language",
+      "HyperText Marketing Language",
+      "HyperText Modeling Language"
+    ],
+    correct: 1
+  },
+  {
+    question: "Which CSS property changes the text color?",
+    options: [
+      "font-color",
+      "text-color",
+      "color",
+      "foreground-color"
+    ],
+    correct: 2
+  },
+  {
+    question: "What does the === operator check in JavaScript?",
+    options: [
+      "Only value",
+      "Only type",
+      "Value and type both",
+      "Neither value nor type"
+    ],
+    correct: 2
+  },
+  {
+    question: "Which method adds an element to the end of an array?",
+    options: [
+      "array.add()",
+      "array.append()",
+      "array.push()",
+      "array.insert()"
+    ],
+    correct: 2
+  },
+  {
+    question: "What does DOM stand for?",
+    options: [
+      "Document Object Model",
+      "Data Object Model",
+      "Display Object Management",
+      "Document Oriented Middleware"
+    ],
+    correct: 0
+  }
+];</code></pre><p>The <code>correct</code> field holds the index (0, 1, 2, or 3) of the correct option. This makes checking answers simple: compare the clicked button's index with the correct index.</p><h3>Step 4: JavaScript Logic</h3><p>Now the main logic. We need to: load a question, handle option clicks, track the score, move to the next question, and show results.</p><pre><code>// --- State Variables ---
+let currentQuestion = 0;
+let score = 0;
+
+// --- DOM Elements ---
+const questionEl = document.getElementById("question");
+const optionsEl = document.getElementById("options");
+const nextBtn = document.getElementById("nextBtn");
+const restartBtn = document.getElementById("restartBtn");
+const quizEl = document.getElementById("quiz");
+const resultsEl = document.getElementById("results");
+const finalScoreEl = document.getElementById("finalScore");
+const messageEl = document.getElementById("message");
+const counterEl = document.getElementById("questionCounter");
+const scoreDisplayEl = document.getElementById("scoreDisplay");
+
+// --- Load a Question ---
+function loadQuestion() {
+  const data = quizData[currentQuestion];
+  questionEl.textContent = data.question;
+  counterEl.textContent = "Question " + (currentQuestion + 1) + " of " + quizData.length;
+  optionsEl.innerHTML = "";
+  nextBtn.style.display = "none";
+
+  data.options.forEach(function(option, index) {
+    const btn = document.createElement("button");
+    btn.textContent = option;
+    btn.classList.add("option-btn");
+    btn.addEventListener("click", function() {
+      selectAnswer(index, btn);
+    });
+    optionsEl.appendChild(btn);
+  });
+}
+
+// --- Handle Answer Selection ---
+function selectAnswer(selectedIndex, selectedBtn) {
+  const data = quizData[currentQuestion];
+  const allBtns = optionsEl.querySelectorAll(".option-btn");
+
+  // Disable all buttons
+  allBtns.forEach(function(btn) {
+    btn.classList.add("disabled");
+  });
+
+  // Check answer
+  if (selectedIndex === data.correct) {
+    selectedBtn.classList.add("correct");
+    score++;
+    scoreDisplayEl.textContent = "Score: " + score;
+  } else {
+    selectedBtn.classList.add("wrong");
+    // Highlight the correct answer
+    allBtns[data.correct].classList.add("correct");
+  }
+
+  // Show next button
+  nextBtn.style.display = "inline-block";
+}
+
+// --- Next Question ---
+nextBtn.addEventListener("click", function() {
+  currentQuestion++;
+  if (currentQuestion < quizData.length) {
+    loadQuestion();
+  } else {
+    showResults();
+  }
+});
+
+// --- Show Results ---
+function showResults() {
+  quizEl.style.display = "none";
+  resultsEl.style.display = "block";
+  nextBtn.style.display = "none";
+  restartBtn.style.display = "inline-block";
+  counterEl.style.display = "none";
+
+  const percentage = Math.round((score / quizData.length) * 100);
+  finalScoreEl.textContent = "You scored " + score + " out of " + quizData.length + " (" + percentage + "%)";
+
+  if (percentage === 100) {
+    messageEl.textContent = "Perfect score! You are a genius!";
+  } else if (percentage >= 70) {
+    messageEl.textContent = "Great job! You know your stuff!";
+  } else if (percentage >= 40) {
+    messageEl.textContent = "Not bad, but you can do better!";
+  } else {
+    messageEl.textContent = "Keep practicing, you will get there!";
+  }
+}
+
+// --- Restart Quiz ---
+restartBtn.addEventListener("click", function() {
+  currentQuestion = 0;
+  score = 0;
+  scoreDisplayEl.textContent = "Score: 0";
+  quizEl.style.display = "block";
+  resultsEl.style.display = "none";
+  restartBtn.style.display = "none";
+  counterEl.style.display = "inline";
+  loadQuestion();
+});
+
+// --- Start the Quiz ---
+loadQuestion();</code></pre><h3>Step 5: How Each Part Works</h3><h4>Loading a Question</h4><p>The <code>loadQuestion</code> function reads the current question from the array, sets the question text, and creates 4 buttons dynamically. Each button gets a click listener that calls <code>selectAnswer</code> with its index.</p><h4>Checking the Answer</h4><p>When an option is clicked, <code>selectAnswer</code> compares the clicked index with <code>data.correct</code>. If they match, the button turns green and the score increases. If wrong, the clicked button turns red and the correct button turns green. All buttons are disabled to prevent multiple clicks.</p><h4>Moving to the Next Question</h4><p>The "Next" button increments <code>currentQuestion</code> and calls <code>loadQuestion</code> again. If there are no more questions, it calls <code>showResults</code>.</p><h4>Results Screen</h4><p>The <code>showResults</code> function hides the quiz, shows the results div, calculates the percentage, and displays a message based on the score.</p><h4>Restarting</h4><p>The restart button resets the score and question index to 0, hides the results, shows the quiz, and loads the first question again.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Complete Quiz App - All in One File</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Quiz App&lt;/title&gt;
+  &lt;style&gt;
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: &#39;Segoe UI&#39;, Arial, sans-serif;
+      background: #1a1a2e;
+      display: flex; justify-content: center; align-items: center;
+      min-height: 100vh; color: #e2e8f0;
+    }
+    .quiz-container {
+      background: #16213e; border-radius: 16px; padding: 32px;
+      width: 100%; max-width: 600px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    .quiz-header {
+      display: flex; justify-content: space-between;
+      margin-bottom: 24px; font-size: 14px; color: #94a3b8;
+    }
+    #question { font-size: 20px; margin-bottom: 24px; line-height: 1.5; }
+    .option-btn {
+      display: block; width: 100%; padding: 14px 20px; margin-bottom: 12px;
+      background: #0f3460; border: 2px solid #1a4a7a; border-radius: 10px;
+      color: #e2e8f0; font-size: 16px; cursor: pointer; text-align: left;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .option-btn:hover { background: #1a4a7a; border-color: #a855f7; }
+    .option-btn.correct { background: #065f46; border-color: #10b981; color: #d1fae5; }
+    .option-btn.wrong { background: #7f1d1d; border-color: #ef4444; color: #fecaca; }
+    .option-btn.disabled { pointer-events: none; opacity: 0.7; }
+    .quiz-footer { margin-top: 24px; text-align: center; }
+    #nextBtn, #restartBtn {
+      padding: 12px 32px; font-size: 16px; border: none;
+      border-radius: 10px; cursor: pointer; font-weight: 600;
+    }
+    #nextBtn { background: #a855f7; color: white; }
+    #nextBtn:hover { background: #9333ea; }
+    #restartBtn { background: #06b6d4; color: white; }
+    #restartBtn:hover { background: #0891b2; }
+    #results h2 { font-size: 28px; margin-bottom: 16px; color: #a855f7; }
+    #results p { font-size: 18px; margin-bottom: 8px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;quiz-container&quot;&gt;
+    &lt;div class=&quot;quiz-header&quot;&gt;
+      &lt;span id=&quot;questionCounter&quot;&gt;Question 1 of 5&lt;/span&gt;
+      &lt;span id=&quot;scoreDisplay&quot;&gt;Score: 0&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;quiz&quot;&gt;
+      &lt;h2 id=&quot;question&quot;&gt;&lt;/h2&gt;
+      &lt;div id=&quot;options&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;results&quot; style=&quot;display: none;&quot;&gt;
+      &lt;h2&gt;Quiz Complete!&lt;/h2&gt;
+      &lt;p id=&quot;finalScore&quot;&gt;&lt;/p&gt;
+      &lt;p id=&quot;message&quot;&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;quiz-footer&quot;&gt;
+      &lt;button id=&quot;nextBtn&quot; style=&quot;display: none;&quot;&gt;Next Question&lt;/button&gt;
+      &lt;button id=&quot;restartBtn&quot; style=&quot;display: none;&quot;&gt;Restart Quiz&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;script&gt;
+    const quizData = [
+      {
+        question: &quot;What does HTML stand for?&quot;,
+        options: [&quot;Hyper Trainer Marking Language&quot;, &quot;HyperText Markup Language&quot;, &quot;HyperText Marketing Language&quot;, &quot;HyperText Modeling Language&quot;],
+        correct: 1
+      },
+      {
+        question: &quot;Which CSS property changes the text color?&quot;,
+        options: [&quot;font-color&quot;, &quot;text-color&quot;, &quot;color&quot;, &quot;foreground-color&quot;],
+        correct: 2
+      },
+      {
+        question: &quot;What does === check in JavaScript?&quot;,
+        options: [&quot;Only value&quot;, &quot;Only type&quot;, &quot;Value and type both&quot;, &quot;Neither&quot;],
+        correct: 2
+      },
+      {
+        question: &quot;Which method adds an element to the end of an array?&quot;,
+        options: [&quot;array.add()&quot;, &quot;array.append()&quot;, &quot;array.push()&quot;, &quot;array.insert()&quot;],
+        correct: 2
+      },
+      {
+        question: &quot;What does DOM stand for?&quot;,
+        options: [&quot;Document Object Model&quot;, &quot;Data Object Model&quot;, &quot;Display Object Management&quot;, &quot;Document Oriented Middleware&quot;],
+        correct: 0
+      }
+    ];
+
+    let currentQuestion = 0;
+    let score = 0;
+    const questionEl = document.getElementById(&quot;question&quot;);
+    const optionsEl = document.getElementById(&quot;options&quot;);
+    const nextBtn = document.getElementById(&quot;nextBtn&quot;);
+    const restartBtn = document.getElementById(&quot;restartBtn&quot;);
+    const quizEl = document.getElementById(&quot;quiz&quot;);
+    const resultsEl = document.getElementById(&quot;results&quot;);
+    const finalScoreEl = document.getElementById(&quot;finalScore&quot;);
+    const messageEl = document.getElementById(&quot;message&quot;);
+    const counterEl = document.getElementById(&quot;questionCounter&quot;);
+    const scoreDisplayEl = document.getElementById(&quot;scoreDisplay&quot;);
+
+    function loadQuestion() {
+      const data = quizData[currentQuestion];
+      questionEl.textContent = data.question;
+      counterEl.textContent = &quot;Question &quot; + (currentQuestion + 1) + &quot; of &quot; + quizData.length;
+      optionsEl.innerHTML = &quot;&quot;;
+      nextBtn.style.display = &quot;none&quot;;
+      data.options.forEach(function(option, index) {
+        const btn = document.createElement(&quot;button&quot;);
+        btn.textContent = option;
+        btn.classList.add(&quot;option-btn&quot;);
+        btn.addEventListener(&quot;click&quot;, function() { selectAnswer(index, btn); });
+        optionsEl.appendChild(btn);
+      });
+    }
+
+    function selectAnswer(selectedIndex, selectedBtn) {
+      const data = quizData[currentQuestion];
+      const allBtns = optionsEl.querySelectorAll(&quot;.option-btn&quot;);
+      allBtns.forEach(function(btn) { btn.classList.add(&quot;disabled&quot;); });
+      if (selectedIndex === data.correct) {
+        selectedBtn.classList.add(&quot;correct&quot;);
+        score++;
+        scoreDisplayEl.textContent = &quot;Score: &quot; + score;
+      } else {
+        selectedBtn.classList.add(&quot;wrong&quot;);
+        allBtns[data.correct].classList.add(&quot;correct&quot;);
+      }
+      nextBtn.style.display = &quot;inline-block&quot;;
+    }
+
+    nextBtn.addEventListener(&quot;click&quot;, function() {
+      currentQuestion++;
+      if (currentQuestion &lt; quizData.length) { loadQuestion(); }
+      else { showResults(); }
+    });
+
+    function showResults() {
+      quizEl.style.display = &quot;none&quot;;
+      resultsEl.style.display = &quot;block&quot;;
+      nextBtn.style.display = &quot;none&quot;;
+      restartBtn.style.display = &quot;inline-block&quot;;
+      counterEl.style.display = &quot;none&quot;;
+      const pct = Math.round((score / quizData.length) * 100);
+      finalScoreEl.textContent = &quot;You scored &quot; + score + &quot; out of &quot; + quizData.length + &quot; (&quot; + pct + &quot;%)&quot;;
+      if (pct === 100) messageEl.textContent = &quot;Perfect score! You are a genius!&quot;;
+      else if (pct &gt;= 70) messageEl.textContent = &quot;Great job! You know your stuff!&quot;;
+      else if (pct &gt;= 40) messageEl.textContent = &quot;Not bad, keep practicing!&quot;;
+      else messageEl.textContent = &quot;Keep learning, you will improve!&quot;;
+    }
+
+    restartBtn.addEventListener(&quot;click&quot;, function() {
+      currentQuestion = 0; score = 0;
+      scoreDisplayEl.textContent = &quot;Score: 0&quot;;
+      quizEl.style.display = &quot;block&quot;;
+      resultsEl.style.display = &quot;none&quot;;
+      restartBtn.style.display = &quot;none&quot;;
+      counterEl.style.display = &quot;inline&quot;;
+      loadQuestion();
+    });
+
+    loadQuestion();
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This is the complete quiz app in a single file. The HTML provides structure, the CSS styles the card and buttons with correct/wrong feedback colors, and the JavaScript manages state (current question, score), renders questions dynamically, checks answers, and handles navigation between questions and the results screen.</div><div class="code-example-output">A fully interactive quiz app with questions, clickable options, score tracking, and a results screen.</div></div>
+<div class="code-example"><div class="code-example-title">Quiz Data Structure</div><pre><code class="language-python">// Each question is an object with:
+// - question: the question text (string)
+// - options: array of 4 answer choices (strings)
+// - correct: index of the correct option (0-3)
+
+const quizData = [
+  {
+    question: &quot;Which tag is used for the largest heading in HTML?&quot;,
+    options: [&quot;&lt;header&gt;&quot;, &quot;&lt;heading&gt;&quot;, &quot;&lt;h6&gt;&quot;, &quot;&lt;h1&gt;&quot;],
+    correct: 3
+  },
+  {
+    question: &quot;Which property is used to change background color in CSS?&quot;,
+    options: [&quot;bgcolor&quot;, &quot;background-color&quot;, &quot;color-background&quot;, &quot;bg-color&quot;],
+    correct: 1
+  }
+];
+
+// Accessing question data
+console.log(quizData[0].question);
+// &quot;Which tag is used for the largest heading in HTML?&quot;
+
+console.log(quizData[0].options[quizData[0].correct]);
+// &quot;&lt;h1&gt;&quot; -- the correct answer
+
+console.log(quizData.length);
+// 2 -- total number of questions</code></pre><div class="code-example-explanation">The quiz data is an array of objects. Each object stores one question, its 4 options, and which option is correct (by index). This structure makes it easy to add, remove, or modify questions without touching the logic code.</div><div class="code-example-output">Which tag is used for the largest heading in HTML?
+&lt;h1&gt;
+2</div></div>
+<div class="code-example"><div class="code-example-title">Dynamic Button Creation with Event Listeners</div><pre><code class="language-python">// Creating option buttons for a question
+const optionsContainer = document.getElementById(&quot;options&quot;);
+const questionData = {
+  question: &quot;What is 2 + 2?&quot;,
+  options: [&quot;3&quot;, &quot;4&quot;, &quot;5&quot;, &quot;22&quot;],
+  correct: 1
+};
+
+// Clear previous buttons
+optionsContainer.innerHTML = &quot;&quot;;
+
+// Create a button for each option
+questionData.options.forEach(function(optionText, index) {
+  const btn = document.createElement(&quot;button&quot;);
+  btn.textContent = optionText;
+  btn.classList.add(&quot;option-btn&quot;);
+
+  // Each button knows its own index
+  btn.addEventListener(&quot;click&quot;, function() {
+    console.log(&quot;Clicked option &quot; + index + &quot;: &quot; + optionText);
+
+    if (index === questionData.correct) {
+      console.log(&quot;Correct!&quot;);
+      btn.classList.add(&quot;correct&quot;);
+    } else {
+      console.log(&quot;Wrong!&quot;);
+      btn.classList.add(&quot;wrong&quot;);
+    }
+  });
+
+  optionsContainer.appendChild(btn);
+});
+
+console.log(&quot;Created &quot; + questionData.options.length + &quot; buttons&quot;);</code></pre><div class="code-example-explanation">This shows the core pattern: loop through options, create a button for each, and attach a click listener that knows which option index it represents. The closure captures the <code>index</code> variable so each button remembers its own position.</div><div class="code-example-output">Created 4 buttons
+(On click) Clicked option 1: 4
+Correct!</div></div>
+<div class="code-example"><div class="code-example-title">Disabling Buttons After Selection</div><pre><code class="language-python">function selectAnswer(selectedIndex, selectedBtn) {
+  const correctIndex = quizData[currentQuestion].correct;
+
+  // Get all option buttons
+  const allBtns = document.querySelectorAll(&quot;.option-btn&quot;);
+
+  // Disable ALL buttons so user cannot click again
+  allBtns.forEach(function(btn) {
+    btn.classList.add(&quot;disabled&quot;);
+  });
+
+  // Show correct/wrong feedback
+  if (selectedIndex === correctIndex) {
+    selectedBtn.classList.add(&quot;correct&quot;);
+    score++;
+  } else {
+    selectedBtn.classList.add(&quot;wrong&quot;);
+    // Always show which one was correct
+    allBtns[correctIndex].classList.add(&quot;correct&quot;);
+  }
+}
+
+// The CSS .disabled class uses pointer-events: none
+// This prevents any further clicks on the buttons
+// The opacity: 0.7 also gives visual feedback that buttons are inactive</code></pre><div class="code-example-explanation">After clicking any option, all buttons get the <code>disabled</code> class (which uses CSS <code>pointer-events: none</code> to block clicks). If the answer is wrong, the correct answer is highlighted in green so the user learns the right answer.</div><div class="code-example-output">Buttons become unclickable after first selection. Wrong answers turn red, correct answer turns green.</div></div>
+<div class="code-example"><div class="code-example-title">Score Calculation and Results Display</div><pre><code class="language-python">function showResults() {
+  // Hide the quiz, show the results div
+  document.getElementById(&quot;quiz&quot;).style.display = &quot;none&quot;;
+  document.getElementById(&quot;results&quot;).style.display = &quot;block&quot;;
+  document.getElementById(&quot;nextBtn&quot;).style.display = &quot;none&quot;;
+  document.getElementById(&quot;restartBtn&quot;).style.display = &quot;inline-block&quot;;
+
+  // Calculate percentage
+  const total = quizData.length;
+  const percentage = Math.round((score / total) * 100);
+
+  // Display score
+  document.getElementById(&quot;finalScore&quot;).textContent =
+    &quot;You scored &quot; + score + &quot; out of &quot; + total + &quot; (&quot; + percentage + &quot;%)&quot;;
+
+  // Give a message based on performance
+  let msg = &quot;&quot;;
+  if (percentage === 100) {
+    msg = &quot;Perfect score! Incredible!&quot;;
+  } else if (percentage &gt;= 80) {
+    msg = &quot;Excellent work!&quot;;
+  } else if (percentage &gt;= 60) {
+    msg = &quot;Good effort, keep going!&quot;;
+  } else if (percentage &gt;= 40) {
+    msg = &quot;Not bad, practice more!&quot;;
+  } else {
+    msg = &quot;Keep studying, you will improve!&quot;;
+  }
+  document.getElementById(&quot;message&quot;).textContent = msg;
+}
+
+// Example: score = 4, total = 5
+// Output: &quot;You scored 4 out of 5 (80%)&quot; + &quot;Excellent work!&quot;</code></pre><div class="code-example-explanation">The results function calculates the percentage using <code>Math.round</code>, displays the score, and picks an encouraging message based on the score range. It also toggles visibility between the quiz and results containers.</div><div class="code-example-output">You scored 4 out of 5 (80%)
+Excellent work!</div></div>
+<div class="code-example"><div class="code-example-title">Restart Functionality</div><pre><code class="language-python">document.getElementById(&quot;restartBtn&quot;).addEventListener(&quot;click&quot;, function() {
+  // Reset state
+  currentQuestion = 0;
+  score = 0;
+
+  // Reset display
+  document.getElementById(&quot;scoreDisplay&quot;).textContent = &quot;Score: 0&quot;;
+  document.getElementById(&quot;quiz&quot;).style.display = &quot;block&quot;;
+  document.getElementById(&quot;results&quot;).style.display = &quot;none&quot;;
+  document.getElementById(&quot;restartBtn&quot;).style.display = &quot;none&quot;;
+  document.getElementById(&quot;questionCounter&quot;).style.display = &quot;inline&quot;;
+
+  // Load the first question
+  loadQuestion();
+});
+
+// The restart resets two things:
+// 1. JavaScript state (currentQuestion and score variables)
+// 2. DOM state (show/hide the right elements)
+// Then it loads question 0 as if the app just started</code></pre><div class="code-example-explanation">Restarting requires resetting both the JavaScript state (variables) and the visual state (showing/hiding elements). After resetting, <code>loadQuestion()</code> renders the first question fresh, as if the page just loaded.</div><div class="code-example-output">Quiz restarts from Question 1 with score reset to 0.</div></div>
+<div class="code-example"><div class="code-example-title">Adding Option Labels (A, B, C, D)</div><pre><code class="language-python">// Enhancement: add letter labels before each option
+function loadQuestion() {
+  const data = quizData[currentQuestion];
+  questionEl.textContent = data.question;
+  optionsEl.innerHTML = &quot;&quot;;
+
+  const labels = [&quot;A&quot;, &quot;B&quot;, &quot;C&quot;, &quot;D&quot;];
+
+  data.options.forEach(function(option, index) {
+    const btn = document.createElement(&quot;button&quot;);
+    btn.textContent = labels[index] + &quot;. &quot; + option;
+    btn.classList.add(&quot;option-btn&quot;);
+    btn.addEventListener(&quot;click&quot;, function() {
+      selectAnswer(index, btn);
+    });
+    optionsEl.appendChild(btn);
+  });
+}
+
+// Result:
+// A. Hyper Trainer Marking Language
+// B. HyperText Markup Language
+// C. HyperText Marketing Language
+// D. HyperText Modeling Language</code></pre><div class="code-example-explanation">A small enhancement that adds "A.", "B.", "C.", "D." labels before each option. The <code>labels</code> array maps indices 0-3 to letters. This makes the quiz feel more like a real multiple-choice test.</div><div class="code-example-output">Options display with A, B, C, D labels before each choice.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting to Clear Previous Options</h3>
+                <div class="wrong-code"><pre><code class="language-python">function loadQuestion() {
+  const data = quizData[currentQuestion];
+  questionEl.textContent = data.question;
+  // Missing: optionsEl.innerHTML = &quot;&quot;;
+  data.options.forEach(function(option, index) {
+    const btn = document.createElement(&quot;button&quot;);
+    btn.textContent = option;
+    optionsEl.appendChild(btn);
+  });
+}</code></pre></div><div class="error-message">Each time loadQuestion runs, 4 new buttons are ADDED to the existing ones. After 3 questions, there are 12 buttons visible.</div><div class="correct-code"><pre><code class="language-python">function loadQuestion() {
+  const data = quizData[currentQuestion];
+  questionEl.textContent = data.question;
+  optionsEl.innerHTML = &quot;&quot;; // Clear previous buttons first
+  data.options.forEach(function(option, index) {
+    const btn = document.createElement(&quot;button&quot;);
+    btn.textContent = option;
+    optionsEl.appendChild(btn);
+  });
+}</code></pre></div><div class="mistake-explanation">When creating elements dynamically, always clear the container first with <code>innerHTML = ""</code>. Otherwise, previous elements remain and new ones stack on top, creating a mess.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Disabling Buttons After Selection</h3>
+                <div class="wrong-code"><pre><code class="language-python">function selectAnswer(selectedIndex, selectedBtn) {
+  if (selectedIndex === quizData[currentQuestion].correct) {
+    selectedBtn.classList.add(&quot;correct&quot;);
+    score++;
+  } else {
+    selectedBtn.classList.add(&quot;wrong&quot;);
+  }
+  // User can keep clicking other options!
+}</code></pre></div><div class="error-message">The user can click multiple options and increase the score multiple times for the same question.</div><div class="correct-code"><pre><code class="language-python">function selectAnswer(selectedIndex, selectedBtn) {
+  const allBtns = optionsEl.querySelectorAll(&quot;.option-btn&quot;);
+  allBtns.forEach(function(btn) {
+    btn.classList.add(&quot;disabled&quot;); // Disable all buttons
+  });
+  if (selectedIndex === quizData[currentQuestion].correct) {
+    selectedBtn.classList.add(&quot;correct&quot;);
+    score++;
+  } else {
+    selectedBtn.classList.add(&quot;wrong&quot;);
+    allBtns[quizData[currentQuestion].correct].classList.add(&quot;correct&quot;);
+  }
+}</code></pre></div><div class="mistake-explanation">After any selection, all option buttons must be disabled immediately. Using a CSS class with <code>pointer-events: none</code> is the cleanest approach. Also, always highlight the correct answer when the user picks wrong -- this is how they learn.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using var Inside forEach Creates Closure Bug</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Using var in a loop -- all buttons share the same index!
+for (var i = 0; i &lt; data.options.length; i++) {
+  const btn = document.createElement(&quot;button&quot;);
+  btn.textContent = data.options[i];
+  btn.addEventListener(&quot;click&quot;, function() {
+    selectAnswer(i, btn); // i is always 4 (after loop ends)
+  });
+  optionsEl.appendChild(btn);
+}</code></pre></div><div class="error-message">All buttons pass i = 4 to selectAnswer because var is function-scoped and the loop finishes before any click happens.</div><div class="correct-code"><pre><code class="language-python">// Use let or forEach -- each iteration has its own index
+data.options.forEach(function(option, index) {
+  const btn = document.createElement(&quot;button&quot;);
+  btn.textContent = option;
+  btn.addEventListener(&quot;click&quot;, function() {
+    selectAnswer(index, btn); // index is unique per iteration
+  });
+  optionsEl.appendChild(btn);
+});</code></pre></div><div class="mistake-explanation">With <code>var</code>, the variable <code>i</code> is shared across all iterations. By the time any button is clicked, the loop has finished and <code>i</code> is 4. Using <code>forEach</code> or <code>let</code> in a for loop creates a separate binding per iteration.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting to Reset Both State and DOM on Restart</h3>
+                <div class="wrong-code"><pre><code class="language-python">restartBtn.addEventListener(&quot;click&quot;, function() {
+  currentQuestion = 0;
+  score = 0;
+  loadQuestion();
+  // Forgot to hide results, show quiz, reset counter display
+});</code></pre></div><div class="error-message">The results screen stays visible on top of the quiz. The score display still shows the old score.</div><div class="correct-code"><pre><code class="language-python">restartBtn.addEventListener(&quot;click&quot;, function() {
+  currentQuestion = 0;
+  score = 0;
+  scoreDisplayEl.textContent = &quot;Score: 0&quot;;
+  quizEl.style.display = &quot;block&quot;;
+  resultsEl.style.display = &quot;none&quot;;
+  restartBtn.style.display = &quot;none&quot;;
+  counterEl.style.display = &quot;inline&quot;;
+  loadQuestion();
+});</code></pre></div><div class="mistake-explanation">Restarting an app means resetting both the JavaScript variables AND the visual state. Every element that was shown or hidden during the quiz must be put back to its initial state.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Hardcoding the Total Number of Questions</h3>
+                <div class="wrong-code"><pre><code class="language-python">counterEl.textContent = &quot;Question &quot; + (currentQuestion + 1) + &quot; of 5&quot;;
+// If you add more questions, this still says &quot;of 5&quot;</code></pre></div><div class="error-message">If someone adds 3 more questions, the counter still says &#39;of 5&#39; even when there are 8 questions.</div><div class="correct-code"><pre><code class="language-python">counterEl.textContent = &quot;Question &quot; + (currentQuestion + 1) + &quot; of &quot; + quizData.length;
+// Automatically adjusts to the actual number of questions</code></pre></div><div class="mistake-explanation">Always use <code>quizData.length</code> instead of hardcoding numbers. This way, anyone can add or remove questions from the data array and the app adapts automatically.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>A quiz app combines HTML (structure), CSS (styling and feedback), and JavaScript (logic and interactivity). Separating these concerns makes the code organized and maintainable.</li>
+<li>Quiz questions are stored as an array of objects. Each object has a question string, an options array, and a correct index. This data-driven approach means you can change questions without touching the logic.</li>
+<li>Dynamic element creation (createElement + appendChild) is used to build option buttons. Each button gets its own event listener. Always clear the container (innerHTML = &#39;&#39;) before adding new elements.</li>
+<li>Answer checking compares the clicked button&#39;s index with the correct index stored in the data. Visual feedback uses CSS classes: .correct (green) and .wrong (red).</li>
+<li>After any selection, disable all buttons immediately to prevent multiple clicks. Use a CSS class with pointer-events: none for clean disabling.</li>
+<li>When the wrong answer is selected, always highlight the correct answer too. This teaches the user the right answer instead of just saying &#39;wrong&#39;.</li>
+<li>The results screen calculates a percentage with Math.round((score / total) * 100) and shows a message based on the score range.</li>
+<li>Restarting requires resetting both JavaScript state (variables) and DOM state (show/hide elements). Missing either causes bugs.</li>
+<li>Use quizData.length instead of hardcoded numbers so the app works with any number of questions.</li>
+<li>Closures in forEach callbacks ensure each button remembers its own index. Using var in a for loop would cause all buttons to share the same index value.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/css-manipulation-with-javascript" class="related-topic-link">CSS Manipulation with JavaScript</a>
+<a href="/resources/javascript/es6-modern-javascript" class="related-topic-link">ES6+ Modern JavaScript Features</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/css-manipulation-with-javascript" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">CSS Manipulation with JavaScript</span>
+        </a>
+            <a href="/resources/javascript/es6-modern-javascript" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">ES6+ Modern JavaScript Features</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/project-interactive-quiz-app/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,679 @@
+{
+  "title": "Project: Build an Interactive Quiz App",
+  "slug": "project-interactive-quiz-app",
+  "language": "javascript",
+  "chapter": 16,
+  "difficulty": "Intermediate",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 52,
+  "seo": {
+    "title": "Build a JavaScript Quiz App - Complete Project Tutorial | Modern Age Coders",
+    "description": "Build a complete interactive quiz app from scratch with HTML, CSS, and JavaScript. Includes question display, scoring, timer, progress bar, results screen, and restart. 52+ practice questions and coding challenges.",
+    "keywords": "javascript quiz app, build quiz app javascript, javascript project tutorial, interactive quiz html css js, quiz app with score, javascript quiz game, beginner javascript project, quiz app step by step"
+  },
+  "content": {
+    "what": "<h2>What Are We Building?</h2><p>In this chapter, you will build a complete interactive quiz app from scratch using HTML, CSS, and JavaScript. This is a <strong>project chapter</strong> -- instead of learning one concept, you will combine everything you have learned so far into a working application.</p><p>The quiz app will have:</p><ul><li>A question displayed with 4 clickable option buttons</li><li>A score counter that tracks correct answers</li><li>Visual feedback -- green for correct, red for wrong</li><li>A \"Next\" button to move to the next question</li><li>A results screen at the end showing the final score</li><li>A restart button to play again</li></ul><p>Here is what the finished app looks like in action:</p><pre><code>Question 1 of 5\n-------------------------------\nWhat does CSS stand for?\n\n[ ] Computer Style Sheets\n[x] Cascading Style Sheets    &lt;-- turns green\n[ ] Creative Style Syntax\n[ ] Coded Style Sheets\n-------------------------------\nScore: 1 | [Next Question]</code></pre><p>By the end of this chapter, you will have a project you can customize with your own questions and show to anyone.</p>",
+    "why": "<h2>Why Build a Quiz App?</h2><h3>1. It Uses Everything You Have Learned</h3><p>A quiz app combines DOM selection, event listeners, creating elements, CSS manipulation, arrays, objects, functions, and conditional logic. Building it proves you actually understand these concepts, not just in isolation, but together.</p><h3>2. It Is a Real Application</h3><p>This is not a toy example. Quiz apps are used in education platforms, interview prep sites, trivia games, and even corporate training. The patterns you learn here apply to real-world web development.</p><h3>3. It Teaches Application Architecture</h3><p>You will learn how to structure an app: separating data (questions) from logic (checking answers) from display (updating the screen). This separation is the foundation of how professional web apps are built.</p><h3>4. It Is Fun to Customize</h3><p>Once you build the base quiz, you can add your own questions about any topic -- science, history, cricket, movies, coding. You can share it with friends and family.</p>",
+    "explanation": "<h2>Building the Quiz App Step by Step</h2><h3>Step 1: HTML Structure</h3><p>First, we create the HTML skeleton. The quiz app needs three main areas: a quiz container that shows questions, a results container that shows the final score, and control buttons.</p><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n  &lt;title&gt;Quiz App&lt;/title&gt;\n  &lt;link rel=\"stylesheet\" href=\"style.css\"&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;div class=\"quiz-container\"&gt;\n    &lt;div class=\"quiz-header\"&gt;\n      &lt;span id=\"questionCounter\"&gt;Question 1 of 5&lt;/span&gt;\n      &lt;span id=\"scoreDisplay\"&gt;Score: 0&lt;/span&gt;\n    &lt;/div&gt;\n\n    &lt;div id=\"quiz\"&gt;\n      &lt;h2 id=\"question\"&gt;&lt;/h2&gt;\n      &lt;div id=\"options\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n\n    &lt;div id=\"results\" style=\"display: none;\"&gt;\n      &lt;h2&gt;Quiz Complete!&lt;/h2&gt;\n      &lt;p id=\"finalScore\"&gt;&lt;/p&gt;\n      &lt;p id=\"message\"&gt;&lt;/p&gt;\n    &lt;/div&gt;\n\n    &lt;div class=\"quiz-footer\"&gt;\n      &lt;button id=\"nextBtn\" style=\"display: none;\"&gt;Next Question&lt;/button&gt;\n      &lt;button id=\"restartBtn\" style=\"display: none;\"&gt;Restart Quiz&lt;/button&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n\n  &lt;script src=\"quiz.js\"&gt;&lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre><p>Key structural decisions:</p><ul><li><code>#quiz</code> holds the active question and options</li><li><code>#results</code> is hidden initially and shown at the end</li><li><code>#nextBtn</code> appears only after answering</li><li><code>#restartBtn</code> appears only on the results screen</li></ul><h3>Step 2: CSS Styling</h3><p>The CSS creates a clean card layout with hover effects and correct/wrong colors:</p><pre><code>* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  font-family: 'Segoe UI', Arial, sans-serif;\n  background: #1a1a2e;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  min-height: 100vh;\n  color: #e2e8f0;\n}\n\n.quiz-container {\n  background: #16213e;\n  border-radius: 16px;\n  padding: 32px;\n  width: 100%;\n  max-width: 600px;\n  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);\n}\n\n.quiz-header {\n  display: flex;\n  justify-content: space-between;\n  margin-bottom: 24px;\n  font-size: 14px;\n  color: #94a3b8;\n}\n\n#question {\n  font-size: 20px;\n  margin-bottom: 24px;\n  line-height: 1.5;\n}\n\n.option-btn {\n  display: block;\n  width: 100%;\n  padding: 14px 20px;\n  margin-bottom: 12px;\n  background: #0f3460;\n  border: 2px solid #1a4a7a;\n  border-radius: 10px;\n  color: #e2e8f0;\n  font-size: 16px;\n  cursor: pointer;\n  text-align: left;\n  transition: background 0.2s, border-color 0.2s, transform 0.1s;\n}\n\n.option-btn:hover {\n  background: #1a4a7a;\n  border-color: #a855f7;\n  transform: translateY(-1px);\n}\n\n.option-btn.correct {\n  background: #065f46;\n  border-color: #10b981;\n  color: #d1fae5;\n}\n\n.option-btn.wrong {\n  background: #7f1d1d;\n  border-color: #ef4444;\n  color: #fecaca;\n}\n\n.option-btn.disabled {\n  pointer-events: none;\n  opacity: 0.7;\n}\n\n.quiz-footer {\n  margin-top: 24px;\n  text-align: center;\n}\n\n#nextBtn, #restartBtn {\n  padding: 12px 32px;\n  font-size: 16px;\n  border: none;\n  border-radius: 10px;\n  cursor: pointer;\n  font-weight: 600;\n}\n\n#nextBtn {\n  background: #a855f7;\n  color: white;\n}\n\n#nextBtn:hover {\n  background: #9333ea;\n}\n\n#restartBtn {\n  background: #06b6d4;\n  color: white;\n}\n\n#restartBtn:hover {\n  background: #0891b2;\n}\n\n#results h2 {\n  font-size: 28px;\n  margin-bottom: 16px;\n  color: #a855f7;\n}\n\n#results p {\n  font-size: 18px;\n  margin-bottom: 8px;\n}\n\n@media (max-width: 480px) {\n  .quiz-container {\n    margin: 16px;\n    padding: 20px;\n  }\n  #question {\n    font-size: 18px;\n  }\n}</code></pre><p>Key CSS decisions:</p><ul><li><code>.option-btn.correct</code> turns green when the answer is right</li><li><code>.option-btn.wrong</code> turns red when the answer is wrong</li><li><code>.option-btn.disabled</code> prevents clicking after answering</li><li>Hover effects use <code>transform</code> for a subtle lift</li><li>Responsive: padding and font sizes reduce on mobile</li></ul><h3>Step 3: Quiz Data</h3><p>The quiz questions are stored as an array of objects. Each object has a question, an array of options, and the index of the correct answer:</p><pre><code>const quizData = [\n  {\n    question: \"What does HTML stand for?\",\n    options: [\n      \"Hyper Trainer Marking Language\",\n      \"HyperText Markup Language\",\n      \"HyperText Marketing Language\",\n      \"HyperText Modeling Language\"\n    ],\n    correct: 1\n  },\n  {\n    question: \"Which CSS property changes the text color?\",\n    options: [\n      \"font-color\",\n      \"text-color\",\n      \"color\",\n      \"foreground-color\"\n    ],\n    correct: 2\n  },\n  {\n    question: \"What does the === operator check in JavaScript?\",\n    options: [\n      \"Only value\",\n      \"Only type\",\n      \"Value and type both\",\n      \"Neither value nor type\"\n    ],\n    correct: 2\n  },\n  {\n    question: \"Which method adds an element to the end of an array?\",\n    options: [\n      \"array.add()\",\n      \"array.append()\",\n      \"array.push()\",\n      \"array.insert()\"\n    ],\n    correct: 2\n  },\n  {\n    question: \"What does DOM stand for?\",\n    options: [\n      \"Document Object Model\",\n      \"Data Object Model\",\n      \"Display Object Management\",\n      \"Document Oriented Middleware\"\n    ],\n    correct: 0\n  }\n];</code></pre><p>The <code>correct</code> field holds the index (0, 1, 2, or 3) of the correct option. This makes checking answers simple: compare the clicked button's index with the correct index.</p><h3>Step 4: JavaScript Logic</h3><p>Now the main logic. We need to: load a question, handle option clicks, track the score, move to the next question, and show results.</p><pre><code>// --- State Variables ---\nlet currentQuestion = 0;\nlet score = 0;\n\n// --- DOM Elements ---\nconst questionEl = document.getElementById(\"question\");\nconst optionsEl = document.getElementById(\"options\");\nconst nextBtn = document.getElementById(\"nextBtn\");\nconst restartBtn = document.getElementById(\"restartBtn\");\nconst quizEl = document.getElementById(\"quiz\");\nconst resultsEl = document.getElementById(\"results\");\nconst finalScoreEl = document.getElementById(\"finalScore\");\nconst messageEl = document.getElementById(\"message\");\nconst counterEl = document.getElementById(\"questionCounter\");\nconst scoreDisplayEl = document.getElementById(\"scoreDisplay\");\n\n// --- Load a Question ---\nfunction loadQuestion() {\n  const data = quizData[currentQuestion];\n  questionEl.textContent = data.question;\n  counterEl.textContent = \"Question \" + (currentQuestion + 1) + \" of \" + quizData.length;\n  optionsEl.innerHTML = \"\";\n  nextBtn.style.display = \"none\";\n\n  data.options.forEach(function(option, index) {\n    const btn = document.createElement(\"button\");\n    btn.textContent = option;\n    btn.classList.add(\"option-btn\");\n    btn.addEventListener(\"click\", function() {\n      selectAnswer(index, btn);\n    });\n    optionsEl.appendChild(btn);\n  });\n}\n\n// --- Handle Answer Selection ---\nfunction selectAnswer(selectedIndex, selectedBtn) {\n  const data = quizData[currentQuestion];\n  const allBtns = optionsEl.querySelectorAll(\".option-btn\");\n\n  // Disable all buttons\n  allBtns.forEach(function(btn) {\n    btn.classList.add(\"disabled\");\n  });\n\n  // Check answer\n  if (selectedIndex === data.correct) {\n    selectedBtn.classList.add(\"correct\");\n    score++;\n    scoreDisplayEl.textContent = \"Score: \" + score;\n  } else {\n    selectedBtn.classList.add(\"wrong\");\n    // Highlight the correct answer\n    allBtns[data.correct].classList.add(\"correct\");\n  }\n\n  // Show next button\n  nextBtn.style.display = \"inline-block\";\n}\n\n// --- Next Question ---\nnextBtn.addEventListener(\"click\", function() {\n  currentQuestion++;\n  if (currentQuestion < quizData.length) {\n    loadQuestion();\n  } else {\n    showResults();\n  }\n});\n\n// --- Show Results ---\nfunction showResults() {\n  quizEl.style.display = \"none\";\n  resultsEl.style.display = \"block\";\n  nextBtn.style.display = \"none\";\n  restartBtn.style.display = \"inline-block\";\n  counterEl.style.display = \"none\";\n\n  const percentage = Math.round((score / quizData.length) * 100);\n  finalScoreEl.textContent = \"You scored \" + score + \" out of \" + quizData.length + \" (\" + percentage + \"%)\";\n\n  if (percentage === 100) {\n    messageEl.textContent = \"Perfect score! You are a genius!\";\n  } else if (percentage >= 70) {\n    messageEl.textContent = \"Great job! You know your stuff!\";\n  } else if (percentage >= 40) {\n    messageEl.textContent = \"Not bad, but you can do better!\";\n  } else {\n    messageEl.textContent = \"Keep practicing, you will get there!\";\n  }\n}\n\n// --- Restart Quiz ---\nrestartBtn.addEventListener(\"click\", function() {\n  currentQuestion = 0;\n  score = 0;\n  scoreDisplayEl.textContent = \"Score: 0\";\n  quizEl.style.display = \"block\";\n  resultsEl.style.display = \"none\";\n  restartBtn.style.display = \"none\";\n  counterEl.style.display = \"inline\";\n  loadQuestion();\n});\n\n// --- Start the Quiz ---\nloadQuestion();</code></pre><h3>Step 5: How Each Part Works</h3><h4>Loading a Question</h4><p>The <code>loadQuestion</code> function reads the current question from the array, sets the question text, and creates 4 buttons dynamically. Each button gets a click listener that calls <code>selectAnswer</code> with its index.</p><h4>Checking the Answer</h4><p>When an option is clicked, <code>selectAnswer</code> compares the clicked index with <code>data.correct</code>. If they match, the button turns green and the score increases. If wrong, the clicked button turns red and the correct button turns green. All buttons are disabled to prevent multiple clicks.</p><h4>Moving to the Next Question</h4><p>The \"Next\" button increments <code>currentQuestion</code> and calls <code>loadQuestion</code> again. If there are no more questions, it calls <code>showResults</code>.</p><h4>Results Screen</h4><p>The <code>showResults</code> function hides the quiz, shows the results div, calculates the percentage, and displays a message based on the score.</p><h4>Restarting</h4><p>The restart button resets the score and question index to 0, hides the results, shows the quiz, and loads the first question again.</p>"
+  ,
+  "codeExamples": [
+    {
+      "title": "Complete Quiz App - All in One File",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Quiz App</title>\n  <style>\n    * { margin: 0; padding: 0; box-sizing: border-box; }\n    body {\n      font-family: 'Segoe UI', Arial, sans-serif;\n      background: #1a1a2e;\n      display: flex; justify-content: center; align-items: center;\n      min-height: 100vh; color: #e2e8f0;\n    }\n    .quiz-container {\n      background: #16213e; border-radius: 16px; padding: 32px;\n      width: 100%; max-width: 600px;\n      box-shadow: 0 20px 60px rgba(0,0,0,0.3);\n    }\n    .quiz-header {\n      display: flex; justify-content: space-between;\n      margin-bottom: 24px; font-size: 14px; color: #94a3b8;\n    }\n    #question { font-size: 20px; margin-bottom: 24px; line-height: 1.5; }\n    .option-btn {\n      display: block; width: 100%; padding: 14px 20px; margin-bottom: 12px;\n      background: #0f3460; border: 2px solid #1a4a7a; border-radius: 10px;\n      color: #e2e8f0; font-size: 16px; cursor: pointer; text-align: left;\n      transition: background 0.2s, border-color 0.2s;\n    }\n    .option-btn:hover { background: #1a4a7a; border-color: #a855f7; }\n    .option-btn.correct { background: #065f46; border-color: #10b981; color: #d1fae5; }\n    .option-btn.wrong { background: #7f1d1d; border-color: #ef4444; color: #fecaca; }\n    .option-btn.disabled { pointer-events: none; opacity: 0.7; }\n    .quiz-footer { margin-top: 24px; text-align: center; }\n    #nextBtn, #restartBtn {\n      padding: 12px 32px; font-size: 16px; border: none;\n      border-radius: 10px; cursor: pointer; font-weight: 600;\n    }\n    #nextBtn { background: #a855f7; color: white; }\n    #nextBtn:hover { background: #9333ea; }\n    #restartBtn { background: #06b6d4; color: white; }\n    #restartBtn:hover { background: #0891b2; }\n    #results h2 { font-size: 28px; margin-bottom: 16px; color: #a855f7; }\n    #results p { font-size: 18px; margin-bottom: 8px; }\n  </style>\n</head>\n<body>\n  <div class=\"quiz-container\">\n    <div class=\"quiz-header\">\n      <span id=\"questionCounter\">Question 1 of 5</span>\n      <span id=\"scoreDisplay\">Score: 0</span>\n    </div>\n    <div id=\"quiz\">\n      <h2 id=\"question\"></h2>\n      <div id=\"options\"></div>\n    </div>\n    <div id=\"results\" style=\"display: none;\">\n      <h2>Quiz Complete!</h2>\n      <p id=\"finalScore\"></p>\n      <p id=\"message\"></p>\n    </div>\n    <div class=\"quiz-footer\">\n      <button id=\"nextBtn\" style=\"display: none;\">Next Question</button>\n      <button id=\"restartBtn\" style=\"display: none;\">Restart Quiz</button>\n    </div>\n  </div>\n\n  <script>\n    const quizData = [\n      {\n        question: \"What does HTML stand for?\",\n        options: [\"Hyper Trainer Marking Language\", \"HyperText Markup Language\", \"HyperText Marketing Language\", \"HyperText Modeling Language\"],\n        correct: 1\n      },\n      {\n        question: \"Which CSS property changes the text color?\",\n        options: [\"font-color\", \"text-color\", \"color\", \"foreground-color\"],\n        correct: 2\n      },\n      {\n        question: \"What does === check in JavaScript?\",\n        options: [\"Only value\", \"Only type\", \"Value and type both\", \"Neither\"],\n        correct: 2\n      },\n      {\n        question: \"Which method adds an element to the end of an array?\",\n        options: [\"array.add()\", \"array.append()\", \"array.push()\", \"array.insert()\"],\n        correct: 2\n      },\n      {\n        question: \"What does DOM stand for?\",\n        options: [\"Document Object Model\", \"Data Object Model\", \"Display Object Management\", \"Document Oriented Middleware\"],\n        correct: 0\n      }\n    ];\n\n    let currentQuestion = 0;\n    let score = 0;\n    const questionEl = document.getElementById(\"question\");\n    const optionsEl = document.getElementById(\"options\");\n    const nextBtn = document.getElementById(\"nextBtn\");\n    const restartBtn = document.getElementById(\"restartBtn\");\n    const quizEl = document.getElementById(\"quiz\");\n    const resultsEl = document.getElementById(\"results\");\n    const finalScoreEl = document.getElementById(\"finalScore\");\n    const messageEl = document.getElementById(\"message\");\n    const counterEl = document.getElementById(\"questionCounter\");\n    const scoreDisplayEl = document.getElementById(\"scoreDisplay\");\n\n    function loadQuestion() {\n      const data = quizData[currentQuestion];\n      questionEl.textContent = data.question;\n      counterEl.textContent = \"Question \" + (currentQuestion + 1) + \" of \" + quizData.length;\n      optionsEl.innerHTML = \"\";\n      nextBtn.style.display = \"none\";\n      data.options.forEach(function(option, index) {\n        const btn = document.createElement(\"button\");\n        btn.textContent = option;\n        btn.classList.add(\"option-btn\");\n        btn.addEventListener(\"click\", function() { selectAnswer(index, btn); });\n        optionsEl.appendChild(btn);\n      });\n    }\n\n    function selectAnswer(selectedIndex, selectedBtn) {\n      const data = quizData[currentQuestion];\n      const allBtns = optionsEl.querySelectorAll(\".option-btn\");\n      allBtns.forEach(function(btn) { btn.classList.add(\"disabled\"); });\n      if (selectedIndex === data.correct) {\n        selectedBtn.classList.add(\"correct\");\n        score++;\n        scoreDisplayEl.textContent = \"Score: \" + score;\n      } else {\n        selectedBtn.classList.add(\"wrong\");\n        allBtns[data.correct].classList.add(\"correct\");\n      }\n      nextBtn.style.display = \"inline-block\";\n    }\n\n    nextBtn.addEventListener(\"click\", function() {\n      currentQuestion++;\n      if (currentQuestion < quizData.length) { loadQuestion(); }\n      else { showResults(); }\n    });\n\n    function showResults() {\n      quizEl.style.display = \"none\";\n      resultsEl.style.display = \"block\";\n      nextBtn.style.display = \"none\";\n      restartBtn.style.display = \"inline-block\";\n      counterEl.style.display = \"none\";\n      const pct = Math.round((score / quizData.length) * 100);\n      finalScoreEl.textContent = \"You scored \" + score + \" out of \" + quizData.length + \" (\" + pct + \"%)\";\n      if (pct === 100) messageEl.textContent = \"Perfect score! You are a genius!\";\n      else if (pct >= 70) messageEl.textContent = \"Great job! You know your stuff!\";\n      else if (pct >= 40) messageEl.textContent = \"Not bad, keep practicing!\";\n      else messageEl.textContent = \"Keep learning, you will improve!\";\n    }\n\n    restartBtn.addEventListener(\"click\", function() {\n      currentQuestion = 0; score = 0;\n      scoreDisplayEl.textContent = \"Score: 0\";\n      quizEl.style.display = \"block\";\n      resultsEl.style.display = \"none\";\n      restartBtn.style.display = \"none\";\n      counterEl.style.display = \"inline\";\n      loadQuestion();\n    });\n\n    loadQuestion();\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "This is the complete quiz app in a single file. The HTML provides structure, the CSS styles the card and buttons with correct/wrong feedback colors, and the JavaScript manages state (current question, score), renders questions dynamically, checks answers, and handles navigation between questions and the results screen.",
+      "output": "A fully interactive quiz app with questions, clickable options, score tracking, and a results screen."
+    },
+    {
+      "title": "Quiz Data Structure",
+      "code": "// Each question is an object with:\n// - question: the question text (string)\n// - options: array of 4 answer choices (strings)\n// - correct: index of the correct option (0-3)\n\nconst quizData = [\n  {\n    question: \"Which tag is used for the largest heading in HTML?\",\n    options: [\"<header>\", \"<heading>\", \"<h6>\", \"<h1>\"],\n    correct: 3\n  },\n  {\n    question: \"Which property is used to change background color in CSS?\",\n    options: [\"bgcolor\", \"background-color\", \"color-background\", \"bg-color\"],\n    correct: 1\n  }\n];\n\n// Accessing question data\nconsole.log(quizData[0].question);\n// \"Which tag is used for the largest heading in HTML?\"\n\nconsole.log(quizData[0].options[quizData[0].correct]);\n// \"<h1>\" -- the correct answer\n\nconsole.log(quizData.length);\n// 2 -- total number of questions",
+      "language": "javascript",
+      "explanation": "The quiz data is an array of objects. Each object stores one question, its 4 options, and which option is correct (by index). This structure makes it easy to add, remove, or modify questions without touching the logic code.",
+      "output": "Which tag is used for the largest heading in HTML?\n<h1>\n2"
+    },
+    {
+      "title": "Dynamic Button Creation with Event Listeners",
+      "code": "// Creating option buttons for a question\nconst optionsContainer = document.getElementById(\"options\");\nconst questionData = {\n  question: \"What is 2 + 2?\",\n  options: [\"3\", \"4\", \"5\", \"22\"],\n  correct: 1\n};\n\n// Clear previous buttons\noptionsContainer.innerHTML = \"\";\n\n// Create a button for each option\nquestionData.options.forEach(function(optionText, index) {\n  const btn = document.createElement(\"button\");\n  btn.textContent = optionText;\n  btn.classList.add(\"option-btn\");\n\n  // Each button knows its own index\n  btn.addEventListener(\"click\", function() {\n    console.log(\"Clicked option \" + index + \": \" + optionText);\n\n    if (index === questionData.correct) {\n      console.log(\"Correct!\");\n      btn.classList.add(\"correct\");\n    } else {\n      console.log(\"Wrong!\");\n      btn.classList.add(\"wrong\");\n    }\n  });\n\n  optionsContainer.appendChild(btn);\n});\n\nconsole.log(\"Created \" + questionData.options.length + \" buttons\");",
+      "language": "javascript",
+      "explanation": "This shows the core pattern: loop through options, create a button for each, and attach a click listener that knows which option index it represents. The closure captures the <code>index</code> variable so each button remembers its own position.",
+      "output": "Created 4 buttons\n(On click) Clicked option 1: 4\nCorrect!"
+    },
+    {
+      "title": "Disabling Buttons After Selection",
+      "code": "function selectAnswer(selectedIndex, selectedBtn) {\n  const correctIndex = quizData[currentQuestion].correct;\n\n  // Get all option buttons\n  const allBtns = document.querySelectorAll(\".option-btn\");\n\n  // Disable ALL buttons so user cannot click again\n  allBtns.forEach(function(btn) {\n    btn.classList.add(\"disabled\");\n  });\n\n  // Show correct/wrong feedback\n  if (selectedIndex === correctIndex) {\n    selectedBtn.classList.add(\"correct\");\n    score++;\n  } else {\n    selectedBtn.classList.add(\"wrong\");\n    // Always show which one was correct\n    allBtns[correctIndex].classList.add(\"correct\");\n  }\n}\n\n// The CSS .disabled class uses pointer-events: none\n// This prevents any further clicks on the buttons\n// The opacity: 0.7 also gives visual feedback that buttons are inactive",
+      "language": "javascript",
+      "explanation": "After clicking any option, all buttons get the <code>disabled</code> class (which uses CSS <code>pointer-events: none</code> to block clicks). If the answer is wrong, the correct answer is highlighted in green so the user learns the right answer.",
+      "output": "Buttons become unclickable after first selection. Wrong answers turn red, correct answer turns green."
+    },
+    {
+      "title": "Score Calculation and Results Display",
+      "code": "function showResults() {\n  // Hide the quiz, show the results div\n  document.getElementById(\"quiz\").style.display = \"none\";\n  document.getElementById(\"results\").style.display = \"block\";\n  document.getElementById(\"nextBtn\").style.display = \"none\";\n  document.getElementById(\"restartBtn\").style.display = \"inline-block\";\n\n  // Calculate percentage\n  const total = quizData.length;\n  const percentage = Math.round((score / total) * 100);\n\n  // Display score\n  document.getElementById(\"finalScore\").textContent =\n    \"You scored \" + score + \" out of \" + total + \" (\" + percentage + \"%)\";\n\n  // Give a message based on performance\n  let msg = \"\";\n  if (percentage === 100) {\n    msg = \"Perfect score! Incredible!\";\n  } else if (percentage >= 80) {\n    msg = \"Excellent work!\";\n  } else if (percentage >= 60) {\n    msg = \"Good effort, keep going!\";\n  } else if (percentage >= 40) {\n    msg = \"Not bad, practice more!\";\n  } else {\n    msg = \"Keep studying, you will improve!\";\n  }\n  document.getElementById(\"message\").textContent = msg;\n}\n\n// Example: score = 4, total = 5\n// Output: \"You scored 4 out of 5 (80%)\" + \"Excellent work!\"",
+      "language": "javascript",
+      "explanation": "The results function calculates the percentage using <code>Math.round</code>, displays the score, and picks an encouraging message based on the score range. It also toggles visibility between the quiz and results containers.",
+      "output": "You scored 4 out of 5 (80%)\nExcellent work!"
+    },
+    {
+      "title": "Restart Functionality",
+      "code": "document.getElementById(\"restartBtn\").addEventListener(\"click\", function() {\n  // Reset state\n  currentQuestion = 0;\n  score = 0;\n\n  // Reset display\n  document.getElementById(\"scoreDisplay\").textContent = \"Score: 0\";\n  document.getElementById(\"quiz\").style.display = \"block\";\n  document.getElementById(\"results\").style.display = \"none\";\n  document.getElementById(\"restartBtn\").style.display = \"none\";\n  document.getElementById(\"questionCounter\").style.display = \"inline\";\n\n  // Load the first question\n  loadQuestion();\n});\n\n// The restart resets two things:\n// 1. JavaScript state (currentQuestion and score variables)\n// 2. DOM state (show/hide the right elements)\n// Then it loads question 0 as if the app just started",
+      "language": "javascript",
+      "explanation": "Restarting requires resetting both the JavaScript state (variables) and the visual state (showing/hiding elements). After resetting, <code>loadQuestion()</code> renders the first question fresh, as if the page just loaded.",
+      "output": "Quiz restarts from Question 1 with score reset to 0."
+    },
+    {
+      "title": "Adding Option Labels (A, B, C, D)",
+      "code": "// Enhancement: add letter labels before each option\nfunction loadQuestion() {\n  const data = quizData[currentQuestion];\n  questionEl.textContent = data.question;\n  optionsEl.innerHTML = \"\";\n\n  const labels = [\"A\", \"B\", \"C\", \"D\"];\n\n  data.options.forEach(function(option, index) {\n    const btn = document.createElement(\"button\");\n    btn.textContent = labels[index] + \". \" + option;\n    btn.classList.add(\"option-btn\");\n    btn.addEventListener(\"click\", function() {\n      selectAnswer(index, btn);\n    });\n    optionsEl.appendChild(btn);\n  });\n}\n\n// Result:\n// A. Hyper Trainer Marking Language\n// B. HyperText Markup Language\n// C. HyperText Marketing Language\n// D. HyperText Modeling Language",
+      "language": "javascript",
+      "explanation": "A small enhancement that adds \"A.\", \"B.\", \"C.\", \"D.\" labels before each option. The <code>labels</code> array maps indices 0-3 to letters. This makes the quiz feel more like a real multiple-choice test.",
+      "output": "Options display with A, B, C, D labels before each choice."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Forgetting to Clear Previous Options",
+      "wrongCode": "function loadQuestion() {\n  const data = quizData[currentQuestion];\n  questionEl.textContent = data.question;\n  // Missing: optionsEl.innerHTML = \"\";\n  data.options.forEach(function(option, index) {\n    const btn = document.createElement(\"button\");\n    btn.textContent = option;\n    optionsEl.appendChild(btn);\n  });\n}",
+      "error": "Each time loadQuestion runs, 4 new buttons are ADDED to the existing ones. After 3 questions, there are 12 buttons visible.",
+      "correctCode": "function loadQuestion() {\n  const data = quizData[currentQuestion];\n  questionEl.textContent = data.question;\n  optionsEl.innerHTML = \"\"; // Clear previous buttons first\n  data.options.forEach(function(option, index) {\n    const btn = document.createElement(\"button\");\n    btn.textContent = option;\n    optionsEl.appendChild(btn);\n  });\n}",
+      "explanation": "When creating elements dynamically, always clear the container first with <code>innerHTML = \"\"</code>. Otherwise, previous elements remain and new ones stack on top, creating a mess."
+    },
+    {
+      "title": "Not Disabling Buttons After Selection",
+      "wrongCode": "function selectAnswer(selectedIndex, selectedBtn) {\n  if (selectedIndex === quizData[currentQuestion].correct) {\n    selectedBtn.classList.add(\"correct\");\n    score++;\n  } else {\n    selectedBtn.classList.add(\"wrong\");\n  }\n  // User can keep clicking other options!\n}",
+      "error": "The user can click multiple options and increase the score multiple times for the same question.",
+      "correctCode": "function selectAnswer(selectedIndex, selectedBtn) {\n  const allBtns = optionsEl.querySelectorAll(\".option-btn\");\n  allBtns.forEach(function(btn) {\n    btn.classList.add(\"disabled\"); // Disable all buttons\n  });\n  if (selectedIndex === quizData[currentQuestion].correct) {\n    selectedBtn.classList.add(\"correct\");\n    score++;\n  } else {\n    selectedBtn.classList.add(\"wrong\");\n    allBtns[quizData[currentQuestion].correct].classList.add(\"correct\");\n  }\n}",
+      "explanation": "After any selection, all option buttons must be disabled immediately. Using a CSS class with <code>pointer-events: none</code> is the cleanest approach. Also, always highlight the correct answer when the user picks wrong -- this is how they learn."
+    },
+    {
+      "title": "Using var Inside forEach Creates Closure Bug",
+      "wrongCode": "// Using var in a loop -- all buttons share the same index!\nfor (var i = 0; i < data.options.length; i++) {\n  const btn = document.createElement(\"button\");\n  btn.textContent = data.options[i];\n  btn.addEventListener(\"click\", function() {\n    selectAnswer(i, btn); // i is always 4 (after loop ends)\n  });\n  optionsEl.appendChild(btn);\n}",
+      "error": "All buttons pass i = 4 to selectAnswer because var is function-scoped and the loop finishes before any click happens.",
+      "correctCode": "// Use let or forEach -- each iteration has its own index\ndata.options.forEach(function(option, index) {\n  const btn = document.createElement(\"button\");\n  btn.textContent = option;\n  btn.addEventListener(\"click\", function() {\n    selectAnswer(index, btn); // index is unique per iteration\n  });\n  optionsEl.appendChild(btn);\n});",
+      "explanation": "With <code>var</code>, the variable <code>i</code> is shared across all iterations. By the time any button is clicked, the loop has finished and <code>i</code> is 4. Using <code>forEach</code> or <code>let</code> in a for loop creates a separate binding per iteration."
+    },
+    {
+      "title": "Forgetting to Reset Both State and DOM on Restart",
+      "wrongCode": "restartBtn.addEventListener(\"click\", function() {\n  currentQuestion = 0;\n  score = 0;\n  loadQuestion();\n  // Forgot to hide results, show quiz, reset counter display\n});",
+      "error": "The results screen stays visible on top of the quiz. The score display still shows the old score.",
+      "correctCode": "restartBtn.addEventListener(\"click\", function() {\n  currentQuestion = 0;\n  score = 0;\n  scoreDisplayEl.textContent = \"Score: 0\";\n  quizEl.style.display = \"block\";\n  resultsEl.style.display = \"none\";\n  restartBtn.style.display = \"none\";\n  counterEl.style.display = \"inline\";\n  loadQuestion();\n});",
+      "explanation": "Restarting an app means resetting both the JavaScript variables AND the visual state. Every element that was shown or hidden during the quiz must be put back to its initial state."
+    },
+    {
+      "title": "Hardcoding the Total Number of Questions",
+      "wrongCode": "counterEl.textContent = \"Question \" + (currentQuestion + 1) + \" of 5\";\n// If you add more questions, this still says \"of 5\"",
+      "error": "If someone adds 3 more questions, the counter still says 'of 5' even when there are 8 questions.",
+      "correctCode": "counterEl.textContent = \"Question \" + (currentQuestion + 1) + \" of \" + quizData.length;\n// Automatically adjusts to the actual number of questions",
+      "explanation": "Always use <code>quizData.length</code> instead of hardcoding numbers. This way, anyone can add or remove questions from the data array and the app adapts automatically."
+    }
+  ],
+  "summary": [
+    "A quiz app combines HTML (structure), CSS (styling and feedback), and JavaScript (logic and interactivity). Separating these concerns makes the code organized and maintainable.",
+    "Quiz questions are stored as an array of objects. Each object has a question string, an options array, and a correct index. This data-driven approach means you can change questions without touching the logic.",
+    "Dynamic element creation (createElement + appendChild) is used to build option buttons. Each button gets its own event listener. Always clear the container (innerHTML = '') before adding new elements.",
+    "Answer checking compares the clicked button's index with the correct index stored in the data. Visual feedback uses CSS classes: .correct (green) and .wrong (red).",
+    "After any selection, disable all buttons immediately to prevent multiple clicks. Use a CSS class with pointer-events: none for clean disabling.",
+    "When the wrong answer is selected, always highlight the correct answer too. This teaches the user the right answer instead of just saying 'wrong'.",
+    "The results screen calculates a percentage with Math.round((score / total) * 100) and shows a message based on the score range.",
+    "Restarting requires resetting both JavaScript state (variables) and DOM state (show/hide elements). Missing either causes bugs.",
+    "Use quizData.length instead of hardcoded numbers so the app works with any number of questions.",
+    "Closures in forEach callbacks ensure each button remembers its own index. Using var in a for loop would cause all buttons to share the same index value."
+  ]
+  },
+  "relatedTopics": ["css-manipulation-with-javascript", "es6-modern-javascript"],
+  "practice": {
+    "totalQuestions": 52,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const quizData = [\n  { question: \"Q1\", options: [\"A\", \"B\", \"C\", \"D\"], correct: 2 },\n  { question: \"Q2\", options: [\"X\", \"Y\", \"Z\", \"W\"], correct: 0 }\n];\n\nconsole.log(quizData[0].options[quizData[0].correct]);</code></pre>",
+        "hint": "correct is 2, so look at index 2 of the options array.",
+        "answer": "<code>C</code>",
+        "explanation": "<code>quizData[0].correct</code> is 2. <code>quizData[0].options[2]</code> is \"C\". This is how the quiz app finds the correct answer text."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>let score = 0;\nconst total = 5;\n\nscore++;\nscore++;\nscore++;\n\nconst pct = Math.round((score / total) * 100);\nconsole.log(pct + \"%\");</code></pre>",
+        "hint": "3 out of 5 is 60%.",
+        "answer": "<code>60%</code>",
+        "explanation": "score is incremented 3 times to 3. <code>(3 / 5) * 100 = 60</code>. <code>Math.round(60)</code> is 60. String concatenation gives \"60%\"."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const quizData = [\n  { question: \"Q1\", correct: 1 },\n  { question: \"Q2\", correct: 3 },\n  { question: \"Q3\", correct: 0 }\n];\n\nconsole.log(quizData.length);\nconsole.log(quizData[2].question);</code></pre>",
+        "hint": "The array has 3 objects. Index 2 is the third one.",
+        "answer": "<code>3</code><br><code>Q3</code>",
+        "explanation": "The array has 3 elements, so <code>length</code> is 3. Index 2 is the third element, whose question property is \"Q3\"."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const labels = [\"A\", \"B\", \"C\", \"D\"];\nconst options = [\"Red\", \"Blue\", \"Green\", \"Yellow\"];\n\noptions.forEach(function(option, index) {\n  console.log(labels[index] + \". \" + option);\n});</code></pre>",
+        "hint": "forEach gives both the element and its index.",
+        "answer": "<code>A. Red</code><br><code>B. Blue</code><br><code>C. Green</code><br><code>D. Yellow</code>",
+        "explanation": "forEach iterates through each option with its index. labels[0] is \"A\", labels[1] is \"B\", etc. Each line combines the label with the option text."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>let currentQuestion = 0;\nconst total = 3;\n\ncurrentQuestion++;\nconsole.log(\"Question \" + (currentQuestion + 1) + \" of \" + total);\n\ncurrentQuestion++;\nconsole.log(\"Question \" + (currentQuestion + 1) + \" of \" + total);</code></pre>",
+        "hint": "currentQuestion starts at 0, incremented to 1 then 2. Display adds 1.",
+        "answer": "<code>Question 2 of 3</code><br><code>Question 3 of 3</code>",
+        "explanation": "After first increment, currentQuestion is 1. Display shows 1+1=2. After second increment, it is 2. Display shows 2+1=3."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function checkAnswer(selected, correct) {\n  if (selected === correct) {\n    return \"correct\";\n  } else {\n    return \"wrong\";\n  }\n}\n\nconsole.log(checkAnswer(2, 2));\nconsole.log(checkAnswer(1, 3));\nconsole.log(checkAnswer(0, 0));</code></pre>",
+        "hint": "Compare selected with correct using ===.",
+        "answer": "<code>correct</code><br><code>wrong</code><br><code>correct</code>",
+        "explanation": "2 === 2 is true (correct). 1 === 3 is false (wrong). 0 === 0 is true (correct)."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const quizData = [\n  { question: \"Q1\", correct: 1 },\n  { question: \"Q2\", correct: 0 },\n  { question: \"Q3\", correct: 2 }\n];\n\nlet score = 0;\nconst answers = [1, 1, 2]; // user picked these\n\nfor (let i = 0; i < quizData.length; i++) {\n  if (answers[i] === quizData[i].correct) {\n    score++;\n  }\n}\nconsole.log(\"Score: \" + score + \"/\" + quizData.length);</code></pre>",
+        "hint": "Compare each user answer with the correct answer for that question.",
+        "answer": "<code>Score: 2/3</code>",
+        "explanation": "Q1: user picked 1, correct is 1 (match). Q2: user picked 1, correct is 0 (no match). Q3: user picked 2, correct is 2 (match). Score is 2 out of 3."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function getMessage(percentage) {\n  if (percentage === 100) return \"Perfect!\";\n  if (percentage >= 70) return \"Great!\";\n  if (percentage >= 40) return \"OK!\";\n  return \"Try again!\";\n}\n\nconsole.log(getMessage(100));\nconsole.log(getMessage(80));\nconsole.log(getMessage(50));\nconsole.log(getMessage(20));</code></pre>",
+        "hint": "Each if checks from highest to lowest. First match returns.",
+        "answer": "<code>Perfect!</code><br><code>Great!</code><br><code>OK!</code><br><code>Try again!</code>",
+        "explanation": "100 matches first check (Perfect). 80 is >= 70 (Great). 50 is >= 40 (OK). 20 does not match any if, so the default return runs (Try again)."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const container = document.createElement(\"div\");\n\nconst options = [\"HTML\", \"CSS\", \"JS\"];\noptions.forEach(function(opt) {\n  const btn = document.createElement(\"button\");\n  btn.textContent = opt;\n  container.appendChild(btn);\n});\n\nconsole.log(container.children.length);\nconsole.log(container.children[1].textContent);</code></pre>",
+        "hint": "3 buttons are created and appended. Index 1 is the second button.",
+        "answer": "<code>3</code><br><code>CSS</code>",
+        "explanation": "Three buttons are created and appended to the container. <code>children.length</code> is 3. The second child (index 1) has textContent \"CSS\"."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let currentQuestion = 4;\nconst quizData = [{}, {}, {}, {}, {}]; // 5 items\n\ncurrentQuestion++;\nconsole.log(currentQuestion);\nconsole.log(currentQuestion < quizData.length);\n\nif (currentQuestion < quizData.length) {\n  console.log(\"load next\");\n} else {\n  console.log(\"show results\");\n}</code></pre>",
+        "hint": "After incrementing, currentQuestion is 5. quizData.length is also 5.",
+        "answer": "<code>5</code><br><code>false</code><br><code>show results</code>",
+        "explanation": "currentQuestion goes from 4 to 5. <code>5 < 5</code> is false. Since it is not less than the length, we go to the else branch and show results. This is the exact logic used in the Next button handler."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const data = [\n  { q: \"Q1\", opts: [\"a\", \"b\", \"c\", \"d\"], correct: 2 },\n  { q: \"Q2\", opts: [\"w\", \"x\", \"y\", \"z\"], correct: 0 }\n];\n\nlet score = 0;\nconst picks = [2, 1];\n\nfor (let i = 0; i < data.length; i++) {\n  const isCorrect = picks[i] === data[i].correct;\n  if (isCorrect) score++;\n  const picked = data[i].opts[picks[i]];\n  const correct = data[i].opts[data[i].correct];\n  console.log(data[i].q + \": picked \" + picked + \", correct \" + correct + \" -> \" + (isCorrect ? \"right\" : \"wrong\"));\n}\nconsole.log(\"Final: \" + score + \"/\" + data.length);</code></pre>",
+        "hint": "Q1: picked index 2 (\"c\"), correct is 2 (\"c\"). Q2: picked index 1 (\"x\"), correct is 0 (\"w\").",
+        "answer": "<code>Q1: picked c, correct c -> right</code><br><code>Q2: picked x, correct w -> wrong</code><br><code>Final: 1/2</code>",
+        "explanation": "Q1: picked index 2 = \"c\", correct index 2 = \"c\" -- match, score becomes 1. Q2: picked index 1 = \"x\", correct index 0 = \"w\" -- no match. Final score 1/2."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const container = document.createElement(\"div\");\n\n[\"A\", \"B\", \"C\"].forEach(function(text) {\n  const btn = document.createElement(\"button\");\n  btn.textContent = text;\n  container.appendChild(btn);\n});\n\n// Simulate disabling all buttons\nconst allBtns = container.querySelectorAll(\"button\");\nallBtns.forEach(function(btn) {\n  btn.disabled = true;\n});\n\nconsole.log(allBtns.length);\nconsole.log(allBtns[0].disabled);\nconsole.log(allBtns[2].textContent);</code></pre>",
+        "hint": "3 buttons created. All are disabled. Check length, disabled state, and text.",
+        "answer": "<code>3</code><br><code>true</code><br><code>C</code>",
+        "explanation": "3 buttons created. After disabling, <code>allBtns.length</code> is 3. The first button's disabled is true. The third button (index 2) has textContent \"C\"."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why do we store quiz questions in an array of objects instead of writing them directly in the HTML?",
+        "hint": "Think about what happens when you want to add or change questions.",
+        "answer": "Storing questions in a JavaScript array of objects separates <strong>data</strong> from <strong>display logic</strong>. This means you can add, remove, or change questions by editing just the data array, without touching the HTML or the functions that render questions. It also makes it possible to load questions from an external source (like a JSON file or API) in the future.",
+        "explanation": "This is the principle of separation of concerns. Data (questions) is separate from logic (checking answers) and display (showing buttons). Each can change independently."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why do we use <code>innerHTML = \"\"</code> before creating new option buttons? What would happen without it?",
+        "hint": "Think about what appendChild does to a container that already has children.",
+        "answer": "Without clearing the container, each call to <code>loadQuestion</code> would add 4 NEW buttons while the old buttons remain. After 3 questions, there would be 12 buttons visible. Setting <code>innerHTML = \"\"</code> removes all existing children first, so only the current question's 4 options are shown.",
+        "explanation": "<code>appendChild</code> adds elements -- it does not replace them. So if the container already has children and you append more, they stack up. Clearing first ensures a clean slate."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why do we disable ALL buttons after the user clicks one option, not just the clicked button?",
+        "hint": "What could the user do if the other buttons were still clickable?",
+        "answer": "If only the clicked button was disabled, the user could click other options too. They could click the correct answer after seeing which was wrong (cheating), or click multiple options and increase the score multiple times. Disabling all buttons ensures only one answer per question.",
+        "explanation": "This is a common pattern in interactive apps: once a choice is made, lock the interface to prevent manipulation. The quiz must record exactly one answer per question for the score to be valid."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const arr = [\"apple\", \"banana\", \"cherry\"];\narr.forEach(function(item, i) {\n  console.log(i + \": \" + item);\n});</code></pre>",
+        "hint": "forEach gives the item and index for each element.",
+        "answer": "<code>0: apple</code><br><code>1: banana</code><br><code>2: cherry</code>",
+        "explanation": "forEach iterates through the array. On each iteration, <code>item</code> is the element and <code>i</code> is its index."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const div = document.createElement(\"div\");\ndiv.innerHTML = \"\";\nconsole.log(div.children.length);\n\ndiv.innerHTML = \"<p>Hello</p><p>World</p>\";\nconsole.log(div.children.length);</code></pre>",
+        "hint": "After clearing, 0 children. After adding HTML, count the elements.",
+        "answer": "<code>0</code><br><code>2</code>",
+        "explanation": "After setting innerHTML to empty string, no children. After setting to two <p> tags, there are 2 child elements."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>let x = 0;\n\nfunction increment() {\n  x++;\n  console.log(x);\n}\n\nincrement();\nincrement();\nincrement();</code></pre>",
+        "hint": "Each call increments the same variable x.",
+        "answer": "<code>1</code><br><code>2</code><br><code>3</code>",
+        "explanation": "x starts at 0. Each call to increment adds 1 and logs. So we get 1, 2, 3. This is the same pattern used for tracking quiz scores."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function reset() {\n  let count = 0;\n  count = 0;\n  console.log(\"Count: \" + count);\n}\n\nlet count = 10;\nreset();\nconsole.log(\"Outside: \" + count);</code></pre>",
+        "hint": "The function has its own local count variable. The outer count is separate.",
+        "answer": "<code>Count: 0</code><br><code>Outside: 10</code>",
+        "explanation": "Inside the function, <code>let count</code> creates a LOCAL variable. Setting it to 0 only affects the local one. The outer <code>count</code> remains 10."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const data = [\n  { name: \"Aarav\", score: 80 },\n  { name: \"Priya\", score: 95 },\n  { name: \"Rohan\", score: 60 }\n];\n\ndata.forEach(function(student) {\n  let msg;\n  if (student.score >= 90) msg = \"Excellent\";\n  else if (student.score >= 70) msg = \"Good\";\n  else msg = \"Needs work\";\n  console.log(student.name + \": \" + msg);\n});</code></pre>",
+        "hint": "Check each score against the conditions.",
+        "answer": "<code>Aarav: Good</code><br><code>Priya: Excellent</code><br><code>Rohan: Needs work</code>",
+        "explanation": "Aarav: 80 >= 90 false, 80 >= 70 true (Good). Priya: 95 >= 90 true (Excellent). Rohan: 60 >= 90 false, 60 >= 70 false (Needs work)."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const el = document.createElement(\"button\");\nel.textContent = \"Click me\";\nel.classList.add(\"active\");\nel.classList.add(\"primary\");\n\nconsole.log(el.classList.length);\nconsole.log(el.classList.contains(\"active\"));\n\nel.classList.remove(\"active\");\nconsole.log(el.classList.contains(\"active\"));\nconsole.log(el.classList.length);</code></pre>",
+        "hint": "Two classes added, then one removed.",
+        "answer": "<code>2</code><br><code>true</code><br><code>false</code><br><code>1</code>",
+        "explanation": "Two classes added: length is 2, contains \"active\" is true. After removing \"active\": contains is false, length is 1 (only \"primary\" remains)."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const items = [];\n\nfor (let i = 0; i < 3; i++) {\n  items.push(function() {\n    return i;\n  });\n}\n\nconsole.log(items[0]());\nconsole.log(items[1]());\nconsole.log(items[2]());</code></pre>",
+        "hint": "let creates a new binding per iteration. Each function captures its own i.",
+        "answer": "<code>0</code><br><code>1</code><br><code>2</code>",
+        "explanation": "With <code>let</code>, each iteration of the loop creates a new scope with its own <code>i</code>. So items[0] returns 0, items[1] returns 1, items[2] returns 2. If <code>var</code> was used instead, all three would return 3."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const quizData = [\n  { q: \"Q1\", correct: 0 },\n  { q: \"Q2\", correct: 3 },\n  { q: \"Q3\", correct: 1 }\n];\n\nfunction simulateQuiz(userAnswers) {\n  let score = 0;\n  const results = [];\n\n  userAnswers.forEach(function(answer, i) {\n    const isCorrect = answer === quizData[i].correct;\n    if (isCorrect) score++;\n    results.push(quizData[i].q + \":\" + (isCorrect ? \"Y\" : \"N\"));\n  });\n\n  return { score: score, total: quizData.length, log: results };\n}\n\nconst result = simulateQuiz([0, 2, 1]);\nconsole.log(result.log.join(\", \"));\nconsole.log(result.score + \"/\" + result.total);</code></pre>",
+        "hint": "Q1: 0===0 (Y). Q2: 2===3 (N). Q3: 1===1 (Y).",
+        "answer": "<code>Q1:Y, Q2:N, Q3:Y</code><br><code>2/3</code>",
+        "explanation": "Q1: answer 0 matches correct 0 (Y, score 1). Q2: answer 2 does not match correct 3 (N). Q3: answer 1 matches correct 1 (Y, score 2). Final score 2/3."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "If you used <code>var i</code> instead of <code>let i</code> in a for loop that creates buttons with click handlers, what would happen when any button is clicked?",
+        "hint": "var is function-scoped, not block-scoped.",
+        "answer": "With <code>var i</code>, all button click handlers would share the same variable <code>i</code>. By the time any button is clicked, the loop has already finished and <code>i</code> equals the total number of options (e.g., 4). So every button would pass the same wrong index to <code>selectAnswer</code>, and every answer check would fail or give incorrect results.",
+        "explanation": "<code>var</code> is function-scoped, so there is only one <code>i</code> shared across all iterations. After the loop, <code>i</code> holds its final value. <code>let</code> is block-scoped, creating a fresh <code>i</code> per iteration, which closures capture correctly."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why do we show the correct answer (in green) even when the user picks wrong? Would it not be simpler to just show the wrong answer in red?",
+        "hint": "Think about the purpose of a quiz app for learning.",
+        "answer": "Showing the correct answer when the user picks wrong serves an educational purpose. The user immediately learns what the right answer was, which helps them remember it for next time. Just showing red without revealing the correct answer leaves the user confused -- they know they were wrong but not what was right. A good quiz app helps users learn, not just test them.",
+        "explanation": "This is a UX (user experience) principle: provide actionable feedback. Knowing something is wrong is less useful than knowing what is correct."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "In the quiz app, where are the quiz questions stored?",
+        "options": {
+          "A": "In the HTML directly",
+          "B": "In a JavaScript array of objects",
+          "C": "In a CSS file",
+          "D": "In a separate database"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Quiz questions are stored in a JavaScript array where each element is an object with question, options, and correct properties. This separates data from logic."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does <code>optionsEl.innerHTML = \"\"</code> do?",
+        "options": {
+          "A": "Adds new HTML content",
+          "B": "Removes all child elements from the container",
+          "C": "Hides the element",
+          "D": "Creates a new element"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Setting innerHTML to an empty string removes all child elements and content from inside the element. This clears old option buttons before adding new ones."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which CSS property prevents an element from being clicked?",
+        "options": {
+          "A": "cursor: none",
+          "B": "display: none",
+          "C": "pointer-events: none",
+          "D": "click-disabled: true"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>pointer-events: none</code> makes the element ignore all mouse/touch interactions. The element is still visible but cannot be clicked. display: none would hide it entirely."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does <code>Math.round((3 / 5) * 100)</code> return?",
+        "options": {
+          "A": "0.6",
+          "B": "60",
+          "C": "0.60",
+          "D": "6"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> (3/5) = 0.6. 0.6 * 100 = 60. Math.round(60) = 60. This is how the quiz calculates the percentage score."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "In the quiz data object <code>{ question: \"...\", options: [...], correct: 2 }</code>, what does <code>correct: 2</code> mean?",
+        "options": {
+          "A": "The answer is the number 2",
+          "B": "There are 2 correct answers",
+          "C": "The correct answer is at index 2 of the options array",
+          "D": "The second option is wrong"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The correct property stores the index (0-3) of the correct answer in the options array. So correct: 2 means options[2] is the right answer."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What method is used to create new HTML elements dynamically in JavaScript?",
+        "options": {
+          "A": "document.newElement()",
+          "B": "document.createElement()",
+          "C": "document.addElement()",
+          "D": "document.buildElement()"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>document.createElement(tagName)</code> creates a new HTML element. After creating it, you set its properties and use appendChild to add it to the page."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Why does the quiz app use <code>forEach</code> instead of a <code>for</code> loop with <code>var</code> to create buttons?",
+        "options": {
+          "A": "forEach is faster",
+          "B": "for loops cannot create elements",
+          "C": "forEach gives each iteration its own scope for the index",
+          "D": "forEach works with arrays, for loops do not"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> With forEach, the callback has its own scope per iteration, so the index value is captured correctly in closures. A for loop with var shares one variable across all iterations, causing bugs in event handlers."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What happens if you forget to disable buttons after the user clicks an option?",
+        "options": {
+          "A": "Nothing, it works fine",
+          "B": "The user can click multiple options and inflate the score",
+          "C": "The page crashes",
+          "D": "The buttons disappear"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without disabling, the user can click the correct answer after seeing their wrong answer (cheating), or click multiple answers to increase the score multiple times per question."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which method adds a created element to the page?",
+        "options": {
+          "A": "parent.insertElement(child)",
+          "B": "parent.appendChild(child)",
+          "C": "parent.addChild(child)",
+          "D": "parent.pushElement(child)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>appendChild</code> adds a child element to the end of a parent element's children list. It is the standard DOM method for inserting dynamically created elements."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is the advantage of using <code>quizData.length</code> instead of hardcoding the number 5?",
+        "options": {
+          "A": "It runs faster",
+          "B": "It automatically adapts when questions are added or removed",
+          "C": "It prevents errors",
+          "D": "It is required by JavaScript"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> If you hardcode 5 and later add 3 more questions, the counter would still say 'of 5'. Using .length makes the app automatically reflect the actual number of questions."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "In the quiz app, why do we separate the quiz data (array of objects) from the rendering logic (functions)?",
+        "options": {
+          "A": "It is required by HTML",
+          "B": "Separation of concerns -- data, logic, and display can change independently",
+          "C": "It makes the code longer, which is better",
+          "D": "JavaScript cannot mix data and functions"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Separation of concerns is a fundamental principle. The quiz data can be changed (new questions) without touching the functions. The functions can be improved without changing the data. This is how real applications are built."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What CSS property creates the smooth green/red color change on quiz buttons?",
+        "options": {
+          "A": "animation: color 0.2s",
+          "B": "transform: color(green)",
+          "C": "transition: background 0.2s",
+          "D": "change: background 0.2s"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>transition</code> property creates smooth animations when CSS properties change. <code>transition: background 0.2s</code> means the background color animates over 0.2 seconds when a class like .correct or .wrong is added."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Easy",
+        "question": "What does <code>element.style.display = \"none\"</code> do?",
+        "options": {
+          "A": "Deletes the element",
+          "B": "Makes the element invisible but keeps its space",
+          "C": "Hides the element and removes it from layout",
+          "D": "Changes the element's text color"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>display: none</code> hides the element completely -- it is not rendered and takes no space. The quiz app uses this to hide the results div until the quiz is finished."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "What does <code>element.classList.add(\"disabled\")</code> do?",
+        "options": {
+          "A": "Removes the element from the page",
+          "B": "Adds the CSS class 'disabled' to the element",
+          "C": "Sets the element's disabled HTML attribute",
+          "D": "Prevents the element from being styled"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>classList.add</code> adds a CSS class to an element. If you have CSS rules for <code>.disabled</code> (like pointer-events: none), they take effect immediately."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Why does the quiz app create buttons dynamically with <code>createElement</code> instead of putting them in the HTML?",
+        "options": {
+          "A": "It is faster",
+          "B": "HTML buttons cannot have event listeners",
+          "C": "The questions change each time, so the buttons need different text for each question",
+          "D": "CSS cannot style HTML buttons"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Each question has different option text. Creating buttons dynamically lets the app set each button's text from the quiz data array. Static HTML buttons would always show the same text."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What is the purpose of the <code>currentQuestion</code> variable in the quiz app?",
+        "options": {
+          "A": "It stores the question text",
+          "B": "It tracks which question the user is currently on (as an index)",
+          "C": "It counts the total number of questions",
+          "D": "It stores the user's answer"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>currentQuestion</code> is an index into the quizData array. It starts at 0 and increments with each 'Next' click. It is used to load the correct question: <code>quizData[currentQuestion]</code>."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Easy",
+        "question": "What event does the Next button listen for?",
+        "options": {
+          "A": "submit",
+          "B": "change",
+          "C": "click",
+          "D": "keydown"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The Next button uses <code>addEventListener('click', ...)</code> to detect when the user clicks it. Click is the standard event for buttons."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Add a Timer (10 Seconds Per Question)",
+        "difficulty": "Medium",
+        "description": "Add a countdown timer that gives the user 10 seconds per question. Display the remaining seconds. If time runs out, automatically mark the answer as wrong, highlight the correct answer, disable buttons, and show the Next button.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Time: 10\n... counts down ...\nTime: 0\n(Auto-selects wrong, shows correct answer, enables Next button)",
+        "constraints": "Use setInterval and clearInterval. Reset the timer for each new question. Clear the timer when the user answers before time runs out.",
+        "solution": "let timer;\nlet timeLeft;\nconst timerEl = document.createElement(\"span\");\ntimerEl.id = \"timer\";\ndocument.querySelector(\".quiz-header\").appendChild(timerEl);\n\nfunction startTimer() {\n  timeLeft = 10;\n  timerEl.textContent = \"Time: \" + timeLeft;\n  timer = setInterval(function() {\n    timeLeft--;\n    timerEl.textContent = \"Time: \" + timeLeft;\n    if (timeLeft <= 0) {\n      clearInterval(timer);\n      // Time's up -- disable all buttons, show correct\n      const allBtns = optionsEl.querySelectorAll(\".option-btn\");\n      allBtns.forEach(function(btn) { btn.classList.add(\"disabled\"); });\n      allBtns[quizData[currentQuestion].correct].classList.add(\"correct\");\n      nextBtn.style.display = \"inline-block\";\n    }\n  }, 1000);\n}\n\n// In loadQuestion, add: startTimer();\n// In selectAnswer, add: clearInterval(timer);"
+      },
+      {
+        "id": "cc-2",
+        "title": "Add a Progress Bar",
+        "difficulty": "Easy",
+        "description": "Add a progress bar at the top that fills up as the user goes through questions. If there are 5 questions and the user is on question 3, the bar should be 60% full.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Question 1: bar is 20% wide\nQuestion 3: bar is 60% wide\nQuestion 5: bar is 100% wide",
+        "constraints": "Use a div inside a div. The inner div's width is set as a percentage using JavaScript.",
+        "solution": "// Add to HTML:\n// <div id=\"progressBar\" style=\"height:6px;background:#333;border-radius:3px;margin-bottom:16px;\">\n//   <div id=\"progressFill\" style=\"height:100%;background:#a855f7;border-radius:3px;width:0%;transition:width 0.3s;\"></div>\n// </div>\n\n// In loadQuestion, add:\nconst progress = ((currentQuestion + 1) / quizData.length) * 100;\ndocument.getElementById(\"progressFill\").style.width = progress + \"%\";"
+      },
+      {
+        "id": "cc-3",
+        "title": "Randomize Question Order",
+        "difficulty": "Easy",
+        "description": "Shuffle the quiz questions so they appear in a different order each time the quiz is started or restarted. Use the Fisher-Yates shuffle algorithm.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "First play: Q3, Q1, Q5, Q2, Q4\nRestart: Q2, Q5, Q1, Q4, Q3",
+        "constraints": "Shuffle the array in place. Apply the shuffle when the quiz starts and when the user restarts.",
+        "solution": "function shuffleArray(arr) {\n  for (let i = arr.length - 1; i > 0; i--) {\n    const j = Math.floor(Math.random() * (i + 1));\n    const temp = arr[i];\n    arr[i] = arr[j];\n    arr[j] = temp;\n  }\n  return arr;\n}\n\n// Call at start:\nshuffleArray(quizData);\nloadQuestion();\n\n// Call in restart handler:\nshuffleArray(quizData);\ncurrentQuestion = 0;\nscore = 0;\nloadQuestion();"
+      },
+      {
+        "id": "cc-4",
+        "title": "Show Answer Explanation",
+        "difficulty": "Medium",
+        "description": "Add an explanation property to each question object. After the user answers, display the explanation below the options.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "(After answering) Explanation: The DOM is a tree structure that represents the HTML document in memory. JavaScript uses the DOM to read and change page content.",
+        "constraints": "Add an explanation field to each quiz data object. Create a div to show it after selection.",
+        "solution": "// Add to quiz data:\n// { question: \"...\", options: [...], correct: 0,\n//   explanation: \"The DOM stands for Document Object Model...\" }\n\n// In selectAnswer, after showing correct/wrong:\nconst explanationDiv = document.createElement(\"div\");\nexplanationDiv.style.marginTop = \"16px\";\nexplanationDiv.style.padding = \"12px\";\nexplanationDiv.style.background = \"#1e293b\";\nexplanationDiv.style.borderRadius = \"8px\";\nexplanationDiv.style.color = \"#94a3b8\";\nexplanationDiv.textContent = \"Explanation: \" + quizData[currentQuestion].explanation;\noptionsEl.appendChild(explanationDiv);"
+      },
+      {
+        "id": "cc-5",
+        "title": "Track and Display Wrong Answers at the End",
+        "difficulty": "Medium",
+        "description": "Keep track of which questions the user got wrong. On the results screen, show a list of wrong answers with the correct answer for each.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "You scored 3/5 (60%)\n\nQuestions you got wrong:\n- What does CSS stand for? (Correct answer: Cascading Style Sheets)\n- Which method adds to an array? (Correct answer: array.push())",
+        "constraints": "Use an array to store wrong question indices. Display them in the results.",
+        "solution": "const wrongAnswers = [];\n\n// In selectAnswer, when wrong:\nif (selectedIndex !== data.correct) {\n  wrongAnswers.push({\n    question: data.question,\n    yourAnswer: data.options[selectedIndex],\n    correctAnswer: data.options[data.correct]\n  });\n}\n\n// In showResults:\nif (wrongAnswers.length > 0) {\n  const wrongList = document.createElement(\"div\");\n  wrongList.innerHTML = \"<h3>Questions you got wrong:</h3>\";\n  wrongAnswers.forEach(function(item) {\n    const p = document.createElement(\"p\");\n    p.textContent = item.question + \" (Correct: \" + item.correctAnswer + \")\";\n    wrongList.appendChild(p);\n  });\n  resultsEl.appendChild(wrongList);\n}\n\n// In restart, clear: wrongAnswers.length = 0;"
+      },
+      {
+        "id": "cc-6",
+        "title": "Add Sound Effects",
+        "difficulty": "Medium",
+        "description": "Play a short sound when the user answers correctly and a different sound when wrong. You can use the Web Audio API or HTML Audio element with free sound URLs.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "(Correct answer) plays a positive 'ding' sound\n(Wrong answer) plays a buzzer sound",
+        "constraints": "Create Audio objects. Handle the case where sound fails to play (some browsers block autoplay).",
+        "solution": "// Create audio objects\nconst correctSound = new Audio(\"https://example.com/correct.mp3\");\nconst wrongSound = new Audio(\"https://example.com/wrong.mp3\");\n\n// In selectAnswer:\nif (selectedIndex === data.correct) {\n  selectedBtn.classList.add(\"correct\");\n  score++;\n  correctSound.currentTime = 0;\n  correctSound.play().catch(function() {}); // Catch autoplay errors\n} else {\n  selectedBtn.classList.add(\"wrong\");\n  allBtns[data.correct].classList.add(\"correct\");\n  wrongSound.currentTime = 0;\n  wrongSound.play().catch(function() {});\n}"
+      },
+      {
+        "id": "cc-7",
+        "title": "Difficulty Levels",
+        "difficulty": "Hard",
+        "description": "Add a difficulty selector before the quiz starts (Easy, Medium, Hard). Each difficulty shows a different set of questions. Add a difficulty property to each question object and filter based on the selected level.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Select Difficulty: [Easy] [Medium] [Hard]\n(User picks Medium)\nShowing 5 medium questions...",
+        "constraints": "Add a difficulty property to each question. Filter quizData based on selection. Show a start screen.",
+        "solution": "// Add difficulty to data:\n// { question: \"...\", options: [...], correct: 0, difficulty: \"easy\" }\n\nlet filteredQuestions = [];\n\nfunction startQuiz(level) {\n  filteredQuestions = quizData.filter(function(q) {\n    return q.difficulty === level;\n  });\n  currentQuestion = 0;\n  score = 0;\n  document.getElementById(\"startScreen\").style.display = \"none\";\n  document.getElementById(\"quiz\").style.display = \"block\";\n  loadQuestion(); // Modify loadQuestion to use filteredQuestions\n}\n\n// In HTML:\n// <div id=\"startScreen\">\n//   <h2>Select Difficulty</h2>\n//   <button onclick=\"startQuiz('easy')\">Easy</button>\n//   <button onclick=\"startQuiz('medium')\">Medium</button>\n//   <button onclick=\"startQuiz('hard')\">Hard</button>\n// </div>"
+      },
+      {
+        "id": "cc-8",
+        "title": "High Score Tracker with Local Storage",
+        "difficulty": "Hard",
+        "description": "Save the highest score in localStorage so it persists across page reloads. Display the high score on the results screen. If the user beats the high score, show a special message.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "You scored 4/5 (80%)\nHigh Score: 5/5 (100%)\n---\nYou scored 5/5 (100%)\nNew High Score!",
+        "constraints": "Use localStorage.getItem and localStorage.setItem. Handle the case where no high score exists yet.",
+        "solution": "function showResults() {\n  const percentage = Math.round((score / quizData.length) * 100);\n  const highScore = parseInt(localStorage.getItem(\"quizHighScore\")) || 0;\n\n  finalScoreEl.textContent = \"You scored \" + score + \"/\" + quizData.length + \" (\" + percentage + \"%)\";\n\n  if (percentage > highScore) {\n    localStorage.setItem(\"quizHighScore\", percentage);\n    messageEl.textContent = \"New High Score!\";\n  } else {\n    messageEl.textContent = \"High Score: \" + highScore + \"%\";\n  }\n\n  quizEl.style.display = \"none\";\n  resultsEl.style.display = \"block\";\n  nextBtn.style.display = \"none\";\n  restartBtn.style.display = \"inline-block\";\n}"
+      },
+      {
+        "id": "cc-9",
+        "title": "Multi-Category Quiz",
+        "difficulty": "Hard",
+        "description": "Add a category property to each question (e.g., 'html', 'css', 'javascript'). Before starting, let the user pick a category. Only show questions from that category.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Choose a category: [HTML] [CSS] [JavaScript] [All]\n(User picks CSS)\nShowing 5 CSS questions...",
+        "constraints": "Use the filter method on the quiz data array. Handle the 'All' option by not filtering.",
+        "solution": "function getCategories() {\n  const categories = [];\n  quizData.forEach(function(q) {\n    if (categories.indexOf(q.category) === -1) {\n      categories.push(q.category);\n    }\n  });\n  return categories;\n}\n\nfunction startByCategory(category) {\n  let questions;\n  if (category === \"all\") {\n    questions = quizData.slice();\n  } else {\n    questions = quizData.filter(function(q) {\n      return q.category === category;\n    });\n  }\n  // Use 'questions' instead of 'quizData' in loadQuestion\n  activeQuestions = questions;\n  currentQuestion = 0;\n  score = 0;\n  loadQuestion();\n}"
+      },
+      {
+        "id": "cc-10",
+        "title": "Animated Score Counter",
+        "difficulty": "Easy",
+        "description": "When the score increases, make the score display briefly scale up and change color (like a bounce animation) before returning to normal. Use CSS transitions or keyframe animations.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "(On correct answer) Score number grows to 1.3x size, turns green, then shrinks back to normal after 0.3s.",
+        "constraints": "Add a CSS animation class, apply it with JavaScript, then remove it after the animation completes.",
+        "solution": "// CSS:\n// @keyframes scoreBounce {\n//   0% { transform: scale(1); color: #94a3b8; }\n//   50% { transform: scale(1.3); color: #10b981; }\n//   100% { transform: scale(1); color: #94a3b8; }\n// }\n// .score-animate { animation: scoreBounce 0.4s ease; }\n\n// In selectAnswer, when correct:\nscore++;\nscoreDisplayEl.textContent = \"Score: \" + score;\nscoreDisplayEl.classList.add(\"score-animate\");\nsetTimeout(function() {\n  scoreDisplayEl.classList.remove(\"score-animate\");\n}, 400);"
+      }
+    ]
+  }
+}

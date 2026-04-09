@@ -1,0 +1,643 @@
+{
+  "title": "Project: Build an Interactive Portfolio Website",
+  "slug": "project-interactive-portfolio",
+  "language": "javascript",
+  "chapter": 25,
+  "difficulty": "Advanced",
+  "readingTime": "65 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 33,
+  "seo": {
+    "title": "Build an Interactive Portfolio Website - Complete HTML CSS JavaScript Project | Modern Age Coders",
+    "description": "Build a complete interactive portfolio website from scratch with HTML, CSS, and JavaScript. Includes smooth scroll, dark mode toggle, typing effect, project filter, contact form validation, scroll animations, responsive hamburger menu, and more. 52+ practice questions.",
+    "keywords": "javascript portfolio project, build portfolio website, html css javascript project, interactive portfolio tutorial, smooth scroll javascript, dark mode javascript, typing effect javascript, intersection observer animation, responsive portfolio, javascript project tutorial"
+  },
+  "content": {
+    "what": "<h2>What Are We Building?</h2><p>In this final chapter, you will build a complete, interactive portfolio website from scratch. This is the <strong>capstone project</strong> -- it combines everything you have learned across all 25 chapters into one impressive, real-world project.</p><p>The portfolio will include:</p><ul><li>Navigation bar with smooth scroll to sections</li><li>Hero section with a typing effect</li><li>About section with your bio</li><li>Skills section with progress bars</li><li>Projects grid with category filters (All / Web / JavaScript / Design)</li><li>Contact form with validation and submission feedback</li><li>Footer with social links</li><li>Dark/light mode toggle that saves to localStorage</li><li>Scroll animations using Intersection Observer</li><li>Mobile-responsive hamburger menu</li><li>Scroll-to-top button</li><li>Active nav link highlighting on scroll</li></ul><p>By the end, you will have a portfolio you can customize with your own content, deploy on the web, and show to anyone.</p>",
+    "why": "<h2>Why Build a Portfolio Website?</h2><h3>1. It Showcases Everything You Have Learned</h3><p>This project uses DOM manipulation, event listeners, CSS manipulation, localStorage, closures, array methods, Intersection Observer, form validation, responsive design, and more. If you can build this, you have proven mastery of frontend web development fundamentals.</p><h3>2. It Is Your Professional Calling Card</h3><p>A portfolio website is the first thing employers and clients look at. Having a custom-built portfolio (not a template) immediately demonstrates your skills. When Aarav applies for an internship and shares a link to his handmade portfolio, it speaks louder than any resume.</p><h3>3. It Uses Modern Web Development Patterns</h3><p>The techniques used here -- Intersection Observer for scroll animations, CSS custom properties for theming, localStorage for persistence, responsive design with mobile-first CSS -- are the same techniques used by professional developers every day.</p><h3>4. It Is Fully Customizable</h3><p>After building the base, you can add your own projects, change the colors, add new sections, and make it truly yours. The skills and patterns you learn here will let you modify and extend any website.</p>",
+    "explanation": "<h2>Building the Portfolio Step by Step</h2><h3>Step 1: HTML Structure</h3><p>The HTML has seven main sections: nav, hero, about, skills, projects, contact, and footer.</p><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n  &lt;title&gt;Aarav | Web Developer&lt;/title&gt;\n  &lt;link rel=\"stylesheet\" href=\"style.css\"&gt;\n&lt;/head&gt;\n&lt;body&gt;\n\n  &lt;!-- Navigation --&gt;\n  &lt;nav class=\"navbar\"&gt;\n    &lt;div class=\"nav-brand\"&gt;Aarav.dev&lt;/div&gt;\n    &lt;button class=\"hamburger\" id=\"hamburger\"&gt;\n      &lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;\n    &lt;/button&gt;\n    &lt;ul class=\"nav-links\" id=\"navLinks\"&gt;\n      &lt;li&gt;&lt;a href=\"#hero\" class=\"nav-link active\"&gt;Home&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\"#about\" class=\"nav-link\"&gt;About&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\"#skills\" class=\"nav-link\"&gt;Skills&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\"#projects\" class=\"nav-link\"&gt;Projects&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\"#contact\" class=\"nav-link\"&gt;Contact&lt;/a&gt;&lt;/li&gt;\n    &lt;/ul&gt;\n    &lt;button class=\"theme-toggle\" id=\"themeToggle\"&gt;Dark&lt;/button&gt;\n  &lt;/nav&gt;\n\n  &lt;!-- Hero Section --&gt;\n  &lt;section id=\"hero\" class=\"hero\"&gt;\n    &lt;div class=\"hero-content\"&gt;\n      &lt;p class=\"hero-greeting\"&gt;Hello, I am&lt;/p&gt;\n      &lt;h1 class=\"hero-name\"&gt;Aarav Sharma&lt;/h1&gt;\n      &lt;p class=\"hero-title\"&gt;I build &lt;span id=\"typingText\"&gt;&lt;/span&gt;&lt;span class=\"cursor\"&gt;|&lt;/span&gt;&lt;/p&gt;\n      &lt;div class=\"hero-buttons\"&gt;\n        &lt;a href=\"#projects\" class=\"btn btn-primary\"&gt;View My Work&lt;/a&gt;\n        &lt;a href=\"#contact\" class=\"btn btn-outline\"&gt;Contact Me&lt;/a&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/section&gt;\n\n  &lt;!-- About Section --&gt;\n  &lt;section id=\"about\" class=\"section\"&gt;\n    &lt;h2 class=\"section-title\"&gt;About Me&lt;/h2&gt;\n    &lt;div class=\"about-content animate-on-scroll\"&gt;\n      &lt;p&gt;I am a 16-year-old web developer from Delhi who loves building interactive websites. I started learning HTML and CSS when I was 14, and now I build full projects with JavaScript.&lt;/p&gt;\n      &lt;p&gt;When I am not coding, I play chess, read sci-fi novels, and practice competitive maths.&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/section&gt;\n\n  &lt;!-- Skills Section --&gt;\n  &lt;section id=\"skills\" class=\"section\"&gt;\n    &lt;h2 class=\"section-title\"&gt;My Skills&lt;/h2&gt;\n    &lt;div class=\"skills-grid animate-on-scroll\"&gt;\n      &lt;div class=\"skill-item\"&gt;\n        &lt;div class=\"skill-header\"&gt;\n          &lt;span&gt;HTML &amp; CSS&lt;/span&gt;&lt;span&gt;90%&lt;/span&gt;\n        &lt;/div&gt;\n        &lt;div class=\"skill-bar\"&gt;&lt;div class=\"skill-fill\" data-width=\"90\"&gt;&lt;/div&gt;&lt;/div&gt;\n      &lt;/div&gt;\n      &lt;div class=\"skill-item\"&gt;\n        &lt;div class=\"skill-header\"&gt;\n          &lt;span&gt;JavaScript&lt;/span&gt;&lt;span&gt;85%&lt;/span&gt;\n        &lt;/div&gt;\n        &lt;div class=\"skill-bar\"&gt;&lt;div class=\"skill-fill\" data-width=\"85\"&gt;&lt;/div&gt;&lt;/div&gt;\n      &lt;/div&gt;\n      &lt;div class=\"skill-item\"&gt;\n        &lt;div class=\"skill-header\"&gt;\n          &lt;span&gt;React&lt;/span&gt;&lt;span&gt;70%&lt;/span&gt;\n        &lt;/div&gt;\n        &lt;div class=\"skill-bar\"&gt;&lt;div class=\"skill-fill\" data-width=\"70\"&gt;&lt;/div&gt;&lt;/div&gt;\n      &lt;/div&gt;\n      &lt;div class=\"skill-item\"&gt;\n        &lt;div class=\"skill-header\"&gt;\n          &lt;span&gt;Python&lt;/span&gt;&lt;span&gt;65%&lt;/span&gt;\n        &lt;/div&gt;\n        &lt;div class=\"skill-bar\"&gt;&lt;div class=\"skill-fill\" data-width=\"65\"&gt;&lt;/div&gt;&lt;/div&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/section&gt;\n\n  &lt;!-- Projects Section --&gt;\n  &lt;section id=\"projects\" class=\"section\"&gt;\n    &lt;h2 class=\"section-title\"&gt;My Projects&lt;/h2&gt;\n    &lt;div class=\"project-filters\"&gt;\n      &lt;button class=\"filter-btn active\" data-category=\"all\"&gt;All&lt;/button&gt;\n      &lt;button class=\"filter-btn\" data-category=\"web\"&gt;Web&lt;/button&gt;\n      &lt;button class=\"filter-btn\" data-category=\"javascript\"&gt;JavaScript&lt;/button&gt;\n      &lt;button class=\"filter-btn\" data-category=\"design\"&gt;Design&lt;/button&gt;\n    &lt;/div&gt;\n    &lt;div class=\"projects-grid\" id=\"projectsGrid\"&gt;&lt;/div&gt;\n  &lt;/section&gt;\n\n  &lt;!-- Contact Section --&gt;\n  &lt;section id=\"contact\" class=\"section\"&gt;\n    &lt;h2 class=\"section-title\"&gt;Contact Me&lt;/h2&gt;\n    &lt;form id=\"contactForm\" class=\"contact-form animate-on-scroll\"&gt;\n      &lt;div class=\"form-group\"&gt;\n        &lt;input type=\"text\" id=\"nameInput\" placeholder=\"Your Name\" required&gt;\n        &lt;span class=\"error-msg\" id=\"nameError\"&gt;&lt;/span&gt;\n      &lt;/div&gt;\n      &lt;div class=\"form-group\"&gt;\n        &lt;input type=\"email\" id=\"emailInput\" placeholder=\"Your Email\" required&gt;\n        &lt;span class=\"error-msg\" id=\"emailError\"&gt;&lt;/span&gt;\n      &lt;/div&gt;\n      &lt;div class=\"form-group\"&gt;\n        &lt;textarea id=\"messageInput\" placeholder=\"Your Message\" rows=\"5\" required&gt;&lt;/textarea&gt;\n        &lt;span class=\"error-msg\" id=\"messageError\"&gt;&lt;/span&gt;\n      &lt;/div&gt;\n      &lt;button type=\"submit\" class=\"btn btn-primary\"&gt;Send Message&lt;/button&gt;\n      &lt;p id=\"formFeedback\" class=\"form-feedback\"&gt;&lt;/p&gt;\n    &lt;/form&gt;\n  &lt;/section&gt;\n\n  &lt;!-- Footer --&gt;\n  &lt;footer class=\"footer\"&gt;\n    &lt;p&gt;Built by Aarav Sharma | 2026&lt;/p&gt;\n  &lt;/footer&gt;\n\n  &lt;!-- Scroll to top button --&gt;\n  &lt;button id=\"scrollTopBtn\" class=\"scroll-top-btn\"&gt;Top&lt;/button&gt;\n\n  &lt;script src=\"portfolio.js\"&gt;&lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre><h3>Step 2: CSS Styling</h3><p>The CSS uses custom properties (CSS variables) for easy theming and a dark/light mode toggle:</p><pre><code>:root {\n  --bg-primary: #0f172a;\n  --bg-secondary: #1e293b;\n  --text-primary: #e2e8f0;\n  --text-secondary: #94a3b8;\n  --accent: #a855f7;\n  --accent-hover: #9333ea;\n  --card-bg: #1e293b;\n  --border: #334155;\n}\n\n.light-mode {\n  --bg-primary: #f8fafc;\n  --bg-secondary: #ffffff;\n  --text-primary: #1e293b;\n  --text-secondary: #64748b;\n  --accent: #7c3aed;\n  --accent-hover: #6d28d9;\n  --card-bg: #ffffff;\n  --border: #e2e8f0;\n}</code></pre><p>The full CSS covers the navigation, hero with gradient text, glassmorphism project cards, responsive grid, skill bars, form styling, transitions, and scroll animations.</p><h3>Step 3: JavaScript Features</h3><p>The JavaScript implements eight interactive features:</p><h4>1. Smooth Scroll Navigation</h4><pre><code>document.querySelectorAll('.nav-link').forEach(function(link) {\n  link.addEventListener('click', function(e) {\n    e.preventDefault();\n    const targetId = this.getAttribute('href');\n    const target = document.querySelector(targetId);\n    target.scrollIntoView({ behavior: 'smooth' });\n    // Close mobile menu if open\n    document.getElementById('navLinks').classList.remove('open');\n  });\n});</code></pre><h4>2. Typing Effect</h4><pre><code>function typeWriter(element, words, speed) {\n  let wordIndex = 0;\n  let charIndex = 0;\n  let isDeleting = false;\n\n  function type() {\n    const currentWord = words[wordIndex];\n    if (isDeleting) {\n      element.textContent = currentWord.substring(0, charIndex - 1);\n      charIndex--;\n    } else {\n      element.textContent = currentWord.substring(0, charIndex + 1);\n      charIndex++;\n    }\n\n    let delay = isDeleting ? speed / 2 : speed;\n\n    if (!isDeleting && charIndex === currentWord.length) {\n      delay = 2000; // Pause at end of word\n      isDeleting = true;\n    } else if (isDeleting && charIndex === 0) {\n      isDeleting = false;\n      wordIndex = (wordIndex + 1) % words.length;\n      delay = 500; // Pause before next word\n    }\n\n    setTimeout(type, delay);\n  }\n\n  type();\n}\n\ntypeWriter(\n  document.getElementById('typingText'),\n  ['interactive websites', 'web applications', 'creative projects'],\n  80\n);</code></pre><h4>3. Dark/Light Mode Toggle</h4><pre><code>const themeToggle = document.getElementById('themeToggle');\nconst savedTheme = localStorage.getItem('portfolioTheme');\n\nif (savedTheme === 'light') {\n  document.body.classList.add('light-mode');\n  themeToggle.textContent = 'Dark';\n}\n\nthemeToggle.addEventListener('click', function() {\n  document.body.classList.toggle('light-mode');\n  const isLight = document.body.classList.contains('light-mode');\n  themeToggle.textContent = isLight ? 'Dark' : 'Light';\n  localStorage.setItem('portfolioTheme', isLight ? 'light' : 'dark');\n});</code></pre><h4>4. Scroll Animations with Intersection Observer</h4><pre><code>const observer = new IntersectionObserver(function(entries) {\n  entries.forEach(function(entry) {\n    if (entry.isIntersecting) {\n      entry.target.classList.add('visible');\n      observer.unobserve(entry.target);\n    }\n  });\n}, { threshold: 0.1 });\n\ndocument.querySelectorAll('.animate-on-scroll').forEach(function(el) {\n  observer.observe(el);\n});</code></pre><h4>5. Project Filter</h4><pre><code>const projects = [\n  { title: 'Quiz App', category: 'javascript', description: 'Interactive quiz with scoring', tech: ['HTML', 'CSS', 'JS'] },\n  { title: 'Portfolio Site', category: 'web', description: 'Personal portfolio website', tech: ['HTML', 'CSS', 'JS'] },\n  { title: 'To-Do App', category: 'javascript', description: 'Task manager with localStorage', tech: ['HTML', 'CSS', 'JS'] },\n  { title: 'Landing Page', category: 'design', description: 'Modern landing page design', tech: ['HTML', 'CSS'] },\n  { title: 'Weather App', category: 'web', description: 'Weather data from API', tech: ['HTML', 'CSS', 'JS', 'API'] },\n  { title: 'Calculator', category: 'javascript', description: 'Scientific calculator', tech: ['HTML', 'CSS', 'JS'] }\n];\n\nfunction renderProjects(filter) {\n  const grid = document.getElementById('projectsGrid');\n  grid.innerHTML = '';\n  const filtered = filter === 'all' ? projects : projects.filter(function(p) { return p.category === filter; });\n  filtered.forEach(function(project) {\n    const card = document.createElement('div');\n    card.classList.add('project-card');\n    card.innerHTML = '&lt;h3&gt;' + project.title + '&lt;/h3&gt;' +\n      '&lt;p&gt;' + project.description + '&lt;/p&gt;' +\n      '&lt;div class=\"tech-tags\"&gt;' + project.tech.map(function(t) {\n        return '&lt;span class=\"tag\"&gt;' + t + '&lt;/span&gt;';\n      }).join('') + '&lt;/div&gt;';\n    grid.appendChild(card);\n  });\n}</code></pre><h4>6. Contact Form Validation</h4><pre><code>document.getElementById('contactForm').addEventListener('submit', function(e) {\n  e.preventDefault();\n  let valid = true;\n  const name = document.getElementById('nameInput').value.trim();\n  const email = document.getElementById('emailInput').value.trim();\n  const message = document.getElementById('messageInput').value.trim();\n\n  if (name.length < 2) {\n    document.getElementById('nameError').textContent = 'Name must be at least 2 characters';\n    valid = false;\n  } else {\n    document.getElementById('nameError').textContent = '';\n  }\n\n  const emailRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\n  if (!emailRegex.test(email)) {\n    document.getElementById('emailError').textContent = 'Please enter a valid email';\n    valid = false;\n  } else {\n    document.getElementById('emailError').textContent = '';\n  }\n\n  if (message.length < 10) {\n    document.getElementById('messageError').textContent = 'Message must be at least 10 characters';\n    valid = false;\n  } else {\n    document.getElementById('messageError').textContent = '';\n  }\n\n  if (valid) {\n    document.getElementById('formFeedback').textContent = 'Message sent successfully!';\n    document.getElementById('formFeedback').style.color = '#10b981';\n    this.reset();\n  }\n});</code></pre><h4>7. Mobile Hamburger Menu</h4><pre><code>document.getElementById('hamburger').addEventListener('click', function() {\n  document.getElementById('navLinks').classList.toggle('open');\n  this.classList.toggle('active');\n});</code></pre><h4>8. Scroll-to-Top Button and Active Nav</h4><pre><code>const scrollTopBtn = document.getElementById('scrollTopBtn');\nwindow.addEventListener('scroll', function() {\n  if (window.scrollY > 500) {\n    scrollTopBtn.classList.add('visible');\n  } else {\n    scrollTopBtn.classList.remove('visible');\n  }\n\n  // Active nav link on scroll\n  const sections = document.querySelectorAll('section');\n  sections.forEach(function(section) {\n    const top = section.offsetTop - 100;\n    const bottom = top + section.offsetHeight;\n    const link = document.querySelector('.nav-link[href=\"#' + section.id + '\"]');\n    if (window.scrollY >= top && window.scrollY < bottom) {\n      document.querySelectorAll('.nav-link').forEach(function(l) { l.classList.remove('active'); });\n      if (link) link.classList.add('active');\n    }\n  });\n});\n\nscrollTopBtn.addEventListener('click', function() {\n  window.scrollTo({ top: 0, behavior: 'smooth' });\n});</code></pre>"
+  ,
+  "codeExamples": [
+    {
+      "title": "Complete Portfolio -- HTML + CSS + JavaScript",
+      "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Aarav | Web Developer</title>\n  <style>\n    :root {\n      --bg-primary: #0f172a; --bg-secondary: #1e293b;\n      --text-primary: #e2e8f0; --text-secondary: #94a3b8;\n      --accent: #a855f7; --accent-hover: #9333ea;\n      --card-bg: #1e293b; --border: #334155;\n    }\n    .light-mode {\n      --bg-primary: #f8fafc; --bg-secondary: #ffffff;\n      --text-primary: #1e293b; --text-secondary: #64748b;\n      --accent: #7c3aed; --accent-hover: #6d28d9;\n      --card-bg: #ffffff; --border: #e2e8f0;\n    }\n    * { margin: 0; padding: 0; box-sizing: border-box; }\n    body { font-family: 'Segoe UI', sans-serif; background: var(--bg-primary); color: var(--text-primary); transition: background 0.3s, color 0.3s; }\n    \n    /* Navigation */\n    .navbar { position: fixed; top: 0; width: 100%; background: var(--bg-secondary); padding: 16px 32px; display: flex; align-items: center; justify-content: space-between; z-index: 100; border-bottom: 1px solid var(--border); }\n    .nav-brand { font-size: 24px; font-weight: 700; color: var(--accent); }\n    .nav-links { list-style: none; display: flex; gap: 24px; }\n    .nav-link { color: var(--text-secondary); text-decoration: none; font-size: 15px; transition: color 0.2s; }\n    .nav-link:hover, .nav-link.active { color: var(--accent); }\n    .hamburger { display: none; background: none; border: none; cursor: pointer; flex-direction: column; gap: 5px; }\n    .hamburger span { display: block; width: 25px; height: 3px; background: var(--text-primary); transition: 0.3s; }\n    .theme-toggle { padding: 8px 16px; background: var(--accent); color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; }\n    \n    /* Hero */\n    .hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 120px 32px 80px; }\n    .hero-greeting { font-size: 18px; color: var(--accent); margin-bottom: 8px; }\n    .hero-name { font-size: 56px; font-weight: 800; margin-bottom: 16px; background: linear-gradient(135deg, var(--accent), #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }\n    .hero-title { font-size: 24px; color: var(--text-secondary); margin-bottom: 32px; }\n    .cursor { animation: blink 1s infinite; }\n    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }\n    .hero-buttons { display: flex; gap: 16px; justify-content: center; }\n    .btn { padding: 14px 32px; border-radius: 10px; font-size: 16px; font-weight: 600; text-decoration: none; transition: 0.2s; cursor: pointer; }\n    .btn-primary { background: var(--accent); color: white; border: none; }\n    .btn-primary:hover { background: var(--accent-hover); }\n    .btn-outline { border: 2px solid var(--accent); color: var(--accent); background: none; }\n    .btn-outline:hover { background: var(--accent); color: white; }\n    \n    /* Sections */\n    .section { padding: 80px 32px; max-width: 900px; margin: 0 auto; }\n    .section-title { font-size: 36px; text-align: center; margin-bottom: 40px; color: var(--accent); }\n    .about-content p { font-size: 17px; line-height: 1.8; color: var(--text-secondary); margin-bottom: 16px; }\n    \n    /* Skills */\n    .skills-grid { display: grid; gap: 20px; }\n    .skill-header { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 15px; }\n    .skill-bar { height: 10px; background: var(--border); border-radius: 5px; overflow: hidden; }\n    .skill-fill { height: 100%; background: linear-gradient(90deg, var(--accent), #06b6d4); border-radius: 5px; width: 0; transition: width 1s ease; }\n    \n    /* Projects */\n    .project-filters { display: flex; justify-content: center; gap: 8px; margin-bottom: 32px; flex-wrap: wrap; }\n    .filter-btn { padding: 8px 20px; background: none; border: 1px solid var(--border); border-radius: 8px; color: var(--text-secondary); cursor: pointer; font-size: 14px; }\n    .filter-btn:hover, .filter-btn.active { border-color: var(--accent); color: var(--accent); }\n    .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }\n    .project-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; padding: 24px; transition: transform 0.2s, box-shadow 0.2s; }\n    .project-card:hover { transform: translateY(-4px); box-shadow: 0 10px 30px rgba(168, 85, 247, 0.1); }\n    .project-card h3 { margin-bottom: 8px; font-size: 20px; }\n    .project-card p { color: var(--text-secondary); font-size: 15px; margin-bottom: 12px; }\n    .tech-tags { display: flex; gap: 6px; flex-wrap: wrap; }\n    .tag { padding: 4px 10px; background: var(--bg-primary); border-radius: 4px; font-size: 12px; color: var(--accent); }\n    \n    /* Contact */\n    .contact-form { max-width: 500px; margin: 0 auto; }\n    .form-group { margin-bottom: 16px; }\n    .form-group input, .form-group textarea { width: 100%; padding: 14px; font-size: 16px; border: 2px solid var(--border); border-radius: 10px; background: var(--bg-primary); color: var(--text-primary); outline: none; }\n    .form-group input:focus, .form-group textarea:focus { border-color: var(--accent); }\n    .error-msg { color: #ef4444; font-size: 13px; margin-top: 4px; display: block; }\n    .form-feedback { text-align: center; margin-top: 16px; font-weight: 600; }\n    \n    /* Footer */\n    .footer { text-align: center; padding: 32px; color: var(--text-secondary); border-top: 1px solid var(--border); }\n    \n    /* Scroll to top */\n    .scroll-top-btn { position: fixed; bottom: 30px; right: 30px; padding: 12px 16px; background: var(--accent); color: white; border: none; border-radius: 10px; cursor: pointer; font-size: 14px; opacity: 0; transition: opacity 0.3s; pointer-events: none; }\n    .scroll-top-btn.visible { opacity: 1; pointer-events: auto; }\n    \n    /* Animations */\n    .animate-on-scroll { opacity: 0; transform: translateY(30px); transition: opacity 0.6s, transform 0.6s; }\n    .animate-on-scroll.visible { opacity: 1; transform: translateY(0); }\n    \n    /* Mobile */\n    @media (max-width: 768px) {\n      .hamburger { display: flex; }\n      .nav-links { position: fixed; top: 60px; left: 0; right: 0; background: var(--bg-secondary); flex-direction: column; padding: 20px; gap: 16px; transform: translateY(-100%); transition: transform 0.3s; }\n      .nav-links.open { transform: translateY(0); }\n      .hero-name { font-size: 36px; }\n      .hero-title { font-size: 18px; }\n      .hero-buttons { flex-direction: column; align-items: center; }\n    }\n  </style>\n</head>\n<body>\n  <nav class=\"navbar\">\n    <div class=\"nav-brand\">Aarav.dev</div>\n    <button class=\"hamburger\" id=\"hamburger\"><span></span><span></span><span></span></button>\n    <ul class=\"nav-links\" id=\"navLinks\">\n      <li><a href=\"#hero\" class=\"nav-link active\">Home</a></li>\n      <li><a href=\"#about\" class=\"nav-link\">About</a></li>\n      <li><a href=\"#skills\" class=\"nav-link\">Skills</a></li>\n      <li><a href=\"#projects\" class=\"nav-link\">Projects</a></li>\n      <li><a href=\"#contact\" class=\"nav-link\">Contact</a></li>\n    </ul>\n    <button class=\"theme-toggle\" id=\"themeToggle\">Light</button>\n  </nav>\n\n  <section id=\"hero\" class=\"hero\">\n    <div class=\"hero-content\">\n      <p class=\"hero-greeting\">Hello, I am</p>\n      <h1 class=\"hero-name\">Aarav Sharma</h1>\n      <p class=\"hero-title\">I build <span id=\"typingText\"></span><span class=\"cursor\">|</span></p>\n      <div class=\"hero-buttons\">\n        <a href=\"#projects\" class=\"btn btn-primary\">View My Work</a>\n        <a href=\"#contact\" class=\"btn btn-outline\">Contact Me</a>\n      </div>\n    </div>\n  </section>\n\n  <section id=\"about\" class=\"section\">\n    <h2 class=\"section-title\">About Me</h2>\n    <div class=\"about-content animate-on-scroll\">\n      <p>I am a 16-year-old web developer from Delhi who loves building interactive websites. I started with HTML and CSS, and now I build full projects with JavaScript.</p>\n      <p>When I am not coding, I play chess, read sci-fi novels, and practice competitive maths.</p>\n    </div>\n  </section>\n\n  <section id=\"skills\" class=\"section\">\n    <h2 class=\"section-title\">My Skills</h2>\n    <div class=\"skills-grid animate-on-scroll\">\n      <div class=\"skill-item\"><div class=\"skill-header\"><span>HTML and CSS</span><span>90%</span></div><div class=\"skill-bar\"><div class=\"skill-fill\" data-width=\"90\"></div></div></div>\n      <div class=\"skill-item\"><div class=\"skill-header\"><span>JavaScript</span><span>85%</span></div><div class=\"skill-bar\"><div class=\"skill-fill\" data-width=\"85\"></div></div></div>\n      <div class=\"skill-item\"><div class=\"skill-header\"><span>React</span><span>70%</span></div><div class=\"skill-bar\"><div class=\"skill-fill\" data-width=\"70\"></div></div></div>\n      <div class=\"skill-item\"><div class=\"skill-header\"><span>Python</span><span>65%</span></div><div class=\"skill-bar\"><div class=\"skill-fill\" data-width=\"65\"></div></div></div>\n    </div>\n  </section>\n\n  <section id=\"projects\" class=\"section\">\n    <h2 class=\"section-title\">My Projects</h2>\n    <div class=\"project-filters\">\n      <button class=\"filter-btn active\" data-category=\"all\">All</button>\n      <button class=\"filter-btn\" data-category=\"web\">Web</button>\n      <button class=\"filter-btn\" data-category=\"javascript\">JavaScript</button>\n      <button class=\"filter-btn\" data-category=\"design\">Design</button>\n    </div>\n    <div class=\"projects-grid\" id=\"projectsGrid\"></div>\n  </section>\n\n  <section id=\"contact\" class=\"section\">\n    <h2 class=\"section-title\">Contact Me</h2>\n    <form id=\"contactForm\" class=\"contact-form animate-on-scroll\">\n      <div class=\"form-group\"><input type=\"text\" id=\"nameInput\" placeholder=\"Your Name\" required><span class=\"error-msg\" id=\"nameError\"></span></div>\n      <div class=\"form-group\"><input type=\"email\" id=\"emailInput\" placeholder=\"Your Email\" required><span class=\"error-msg\" id=\"emailError\"></span></div>\n      <div class=\"form-group\"><textarea id=\"messageInput\" placeholder=\"Your Message\" rows=\"5\" required></textarea><span class=\"error-msg\" id=\"messageError\"></span></div>\n      <button type=\"submit\" class=\"btn btn-primary\" style=\"width:100%\">Send Message</button>\n      <p id=\"formFeedback\" class=\"form-feedback\"></p>\n    </form>\n  </section>\n\n  <footer class=\"footer\"><p>Built by Aarav Sharma | 2026</p></footer>\n  <button id=\"scrollTopBtn\" class=\"scroll-top-btn\">Top</button>\n\n  <script>\n    // --- Projects Data ---\n    const projects = [\n      { title: 'Quiz App', category: 'javascript', desc: 'Interactive quiz with scoring and timer', tech: ['HTML', 'CSS', 'JS'] },\n      { title: 'Portfolio Site', category: 'web', desc: 'Personal portfolio with dark mode', tech: ['HTML', 'CSS', 'JS'] },\n      { title: 'To-Do App', category: 'javascript', desc: 'Task manager with localStorage', tech: ['HTML', 'CSS', 'JS'] },\n      { title: 'Landing Page', category: 'design', desc: 'Modern business landing page', tech: ['HTML', 'CSS'] },\n      { title: 'Weather App', category: 'web', desc: 'Live weather from API', tech: ['HTML', 'CSS', 'JS', 'API'] },\n      { title: 'Calculator', category: 'javascript', desc: 'Scientific calculator', tech: ['HTML', 'CSS', 'JS'] }\n    ];\n\n    // --- Render Projects ---\n    function renderProjects(filter) {\n      const grid = document.getElementById('projectsGrid');\n      grid.innerHTML = '';\n      const list = filter === 'all' ? projects : projects.filter(function(p) { return p.category === filter; });\n      list.forEach(function(p) {\n        const card = document.createElement('div');\n        card.classList.add('project-card');\n        card.innerHTML = '<h3>' + p.title + '</h3><p>' + p.desc + '</p><div class=\"tech-tags\">' + p.tech.map(function(t) { return '<span class=\"tag\">' + t + '</span>'; }).join('') + '</div>';\n        grid.appendChild(card);\n      });\n    }\n\n    // --- Project Filters ---\n    document.querySelectorAll('.filter-btn').forEach(function(btn) {\n      btn.addEventListener('click', function() {\n        document.querySelector('.filter-btn.active').classList.remove('active');\n        btn.classList.add('active');\n        renderProjects(btn.dataset.category);\n      });\n    });\n\n    // --- Typing Effect ---\n    function typeWriter(element, words, speed) {\n      let wordIdx = 0, charIdx = 0, deleting = false;\n      function tick() {\n        var word = words[wordIdx];\n        element.textContent = deleting ? word.substring(0, charIdx - 1) : word.substring(0, charIdx + 1);\n        charIdx += deleting ? -1 : 1;\n        var delay = deleting ? speed / 2 : speed;\n        if (!deleting && charIdx === word.length) { delay = 2000; deleting = true; }\n        else if (deleting && charIdx === 0) { deleting = false; wordIdx = (wordIdx + 1) % words.length; delay = 500; }\n        setTimeout(tick, delay);\n      }\n      tick();\n    }\n    typeWriter(document.getElementById('typingText'), ['interactive websites', 'web applications', 'creative projects'], 80);\n\n    // --- Dark/Light Mode ---\n    var themeToggle = document.getElementById('themeToggle');\n    if (localStorage.getItem('portfolioTheme') === 'light') {\n      document.body.classList.add('light-mode');\n      themeToggle.textContent = 'Dark';\n    }\n    themeToggle.addEventListener('click', function() {\n      document.body.classList.toggle('light-mode');\n      var isLight = document.body.classList.contains('light-mode');\n      themeToggle.textContent = isLight ? 'Dark' : 'Light';\n      localStorage.setItem('portfolioTheme', isLight ? 'light' : 'dark');\n    });\n\n    // --- Smooth Scroll ---\n    document.querySelectorAll('.nav-link').forEach(function(link) {\n      link.addEventListener('click', function(e) {\n        e.preventDefault();\n        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });\n        document.getElementById('navLinks').classList.remove('open');\n        document.getElementById('hamburger').classList.remove('active');\n      });\n    });\n\n    // --- Hamburger Menu ---\n    document.getElementById('hamburger').addEventListener('click', function() {\n      document.getElementById('navLinks').classList.toggle('open');\n      this.classList.toggle('active');\n    });\n\n    // --- Scroll Animations ---\n    var scrollObserver = new IntersectionObserver(function(entries) {\n      entries.forEach(function(entry) {\n        if (entry.isIntersecting) {\n          entry.target.classList.add('visible');\n          // Animate skill bars when skills section is visible\n          entry.target.querySelectorAll('.skill-fill').forEach(function(bar) {\n            bar.style.width = bar.dataset.width + '%';\n          });\n          scrollObserver.unobserve(entry.target);\n        }\n      });\n    }, { threshold: 0.1 });\n    document.querySelectorAll('.animate-on-scroll').forEach(function(el) { scrollObserver.observe(el); });\n\n    // --- Scroll-to-Top and Active Nav ---\n    var scrollTopBtn = document.getElementById('scrollTopBtn');\n    window.addEventListener('scroll', function() {\n      scrollTopBtn.classList.toggle('visible', window.scrollY > 500);\n      var sections = document.querySelectorAll('section');\n      sections.forEach(function(sec) {\n        var top = sec.offsetTop - 100;\n        var link = document.querySelector('.nav-link[href=\"#' + sec.id + '\"]');\n        if (window.scrollY >= top && window.scrollY < top + sec.offsetHeight) {\n          document.querySelectorAll('.nav-link').forEach(function(l) { l.classList.remove('active'); });\n          if (link) link.classList.add('active');\n        }\n      });\n    });\n    scrollTopBtn.addEventListener('click', function() { window.scrollTo({ top: 0, behavior: 'smooth' }); });\n\n    // --- Contact Form Validation ---\n    document.getElementById('contactForm').addEventListener('submit', function(e) {\n      e.preventDefault();\n      var valid = true;\n      var name = document.getElementById('nameInput').value.trim();\n      var email = document.getElementById('emailInput').value.trim();\n      var message = document.getElementById('messageInput').value.trim();\n      document.getElementById('nameError').textContent = name.length < 2 ? (valid = false, 'Name must be at least 2 characters') : '';\n      document.getElementById('emailError').textContent = !/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email) ? (valid = false, 'Please enter a valid email') : '';\n      document.getElementById('messageError').textContent = message.length < 10 ? (valid = false, 'Message must be at least 10 characters') : '';\n      if (valid) {\n        document.getElementById('formFeedback').textContent = 'Message sent successfully!';\n        document.getElementById('formFeedback').style.color = '#10b981';\n        this.reset();\n      }\n    });\n\n    // --- Initial Render ---\n    renderProjects('all');\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "This is the complete portfolio website in a single file. It combines all 25 chapters of JavaScript knowledge: DOM manipulation for rendering projects, event listeners for interactivity, localStorage for theme persistence, Intersection Observer for scroll animations, closures in the typing effect, array methods for filtering projects, form validation, and responsive design with a hamburger menu.",
+      "output": "A complete, interactive portfolio website with smooth scroll navigation, typing effect, dark/light mode toggle, project filter, scroll animations, contact form validation, mobile hamburger menu, and scroll-to-top button."
+    },
+    {
+      "title": "Typing Effect with Closure",
+      "code": "function typeWriter(element, words, speed) {\n  let wordIndex = 0;\n  let charIndex = 0;\n  let isDeleting = false;\n\n  function tick() {\n    const currentWord = words[wordIndex];\n\n    if (isDeleting) {\n      element.textContent = currentWord.substring(0, charIndex - 1);\n      charIndex--;\n    } else {\n      element.textContent = currentWord.substring(0, charIndex + 1);\n      charIndex++;\n    }\n\n    let delay = isDeleting ? speed / 2 : speed;\n\n    if (!isDeleting && charIndex === currentWord.length) {\n      delay = 2000;\n      isDeleting = true;\n    } else if (isDeleting && charIndex === 0) {\n      isDeleting = false;\n      wordIndex = (wordIndex + 1) % words.length;\n      delay = 500;\n    }\n\n    setTimeout(tick, delay);\n  }\n\n  tick();\n}\n\n// Usage\nconst el = document.getElementById('typingText');\ntypeWriter(el, ['web developer', 'problem solver', 'creative coder'], 80);\n\n// The tick function is a closure that remembers:\n// - wordIndex, charIndex, isDeleting (state)\n// - element, words, speed (configuration)\n// It calls itself recursively via setTimeout",
+      "language": "javascript",
+      "explanation": "The typing effect uses a closure to maintain state (which word, which character, whether deleting). The <code>tick</code> function calls itself with setTimeout, creating an animation loop. Typing speed is normal, deleting is faster (speed/2), and there is a pause at the end of each word and between words. The modulo operator cycles through words infinitely.",
+      "output": "Text types out letter by letter: 'w', 'we', 'web', 'web ', 'web d'... then deletes, then types the next word."
+    },
+    {
+      "title": "Intersection Observer for Scroll Animations",
+      "code": "// CSS needed:\n// .animate-on-scroll { opacity: 0; transform: translateY(30px); transition: opacity 0.6s, transform 0.6s; }\n// .animate-on-scroll.visible { opacity: 1; transform: translateY(0); }\n\n// JavaScript\nconst observer = new IntersectionObserver(\n  function(entries) {\n    entries.forEach(function(entry) {\n      if (entry.isIntersecting) {\n        entry.target.classList.add('visible');\n\n        // Animate skill bars if present\n        entry.target.querySelectorAll('.skill-fill').forEach(function(bar) {\n          bar.style.width = bar.dataset.width + '%';\n        });\n\n        // Stop observing (animate only once)\n        observer.unobserve(entry.target);\n      }\n    });\n  },\n  { threshold: 0.1 }  // Trigger when 10% of element is visible\n);\n\n// Observe all elements with the class\ndocument.querySelectorAll('.animate-on-scroll').forEach(function(el) {\n  observer.observe(el);\n});\n\nconsole.log('Observing', document.querySelectorAll('.animate-on-scroll').length, 'elements');",
+      "language": "javascript",
+      "explanation": "Intersection Observer watches elements and fires a callback when they enter the viewport. When an element becomes visible (isIntersecting is true), we add the 'visible' class which triggers CSS transitions (fade in and slide up). We also animate skill bar widths at this point. <code>unobserve</code> ensures the animation only plays once.",
+      "output": "Elements fade in and slide up as the user scrolls down the page. Skill bars animate to their target width when the skills section becomes visible."
+    },
+    {
+      "title": "Project Filter System",
+      "code": "const projects = [\n  { title: 'Quiz App', category: 'javascript', desc: 'Interactive quiz with scoring', tech: ['HTML', 'CSS', 'JS'] },\n  { title: 'Portfolio', category: 'web', desc: 'Personal portfolio website', tech: ['HTML', 'CSS', 'JS'] },\n  { title: 'To-Do App', category: 'javascript', desc: 'Task manager with storage', tech: ['HTML', 'CSS', 'JS'] },\n  { title: 'Landing Page', category: 'design', desc: 'Modern landing page', tech: ['HTML', 'CSS'] },\n  { title: 'Weather App', category: 'web', desc: 'Live weather data', tech: ['JS', 'API'] },\n  { title: 'Calculator', category: 'javascript', desc: 'Scientific calculator', tech: ['HTML', 'CSS', 'JS'] }\n];\n\nfunction renderProjects(filter) {\n  const grid = document.getElementById('projectsGrid');\n  grid.innerHTML = '';\n\n  const filtered = filter === 'all'\n    ? projects\n    : projects.filter(function(p) { return p.category === filter; });\n\n  console.log('Showing', filtered.length, 'of', projects.length, 'projects');\n\n  filtered.forEach(function(project) {\n    const card = document.createElement('div');\n    card.classList.add('project-card');\n    card.innerHTML =\n      '<h3>' + project.title + '</h3>' +\n      '<p>' + project.desc + '</p>' +\n      '<div class=\"tech-tags\">' +\n        project.tech.map(function(t) {\n          return '<span class=\"tag\">' + t + '</span>';\n        }).join('') +\n      '</div>';\n    grid.appendChild(card);\n  });\n}\n\n// Filter button listeners\ndocument.querySelectorAll('.filter-btn').forEach(function(btn) {\n  btn.addEventListener('click', function() {\n    document.querySelector('.filter-btn.active').classList.remove('active');\n    btn.classList.add('active');\n    renderProjects(btn.dataset.category);\n  });\n});\n\n// Initial render\nrenderProjects('all');",
+      "language": "javascript",
+      "explanation": "Projects are stored as an array of objects. The <code>renderProjects</code> function filters the array based on the selected category and dynamically creates card elements. Filter buttons use data-category attributes to specify which category to show. This same pattern is used in e-commerce sites for product filtering.",
+      "output": "Showing 6 of 6 projects\n(Click 'JavaScript')\nShowing 3 of 6 projects\n(Click 'Web')\nShowing 2 of 6 projects"
+    },
+    {
+      "title": "Contact Form Validation",
+      "code": "document.getElementById('contactForm').addEventListener('submit', function(e) {\n  e.preventDefault();\n  let valid = true;\n\n  // Get values\n  const name = document.getElementById('nameInput').value.trim();\n  const email = document.getElementById('emailInput').value.trim();\n  const message = document.getElementById('messageInput').value.trim();\n\n  // Validate name\n  if (name.length < 2) {\n    document.getElementById('nameError').textContent = 'Name must be at least 2 characters';\n    valid = false;\n  } else {\n    document.getElementById('nameError').textContent = '';\n  }\n\n  // Validate email with regex\n  const emailRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\n  if (!emailRegex.test(email)) {\n    document.getElementById('emailError').textContent = 'Please enter a valid email';\n    valid = false;\n  } else {\n    document.getElementById('emailError').textContent = '';\n  }\n\n  // Validate message\n  if (message.length < 10) {\n    document.getElementById('messageError').textContent = 'Message must be at least 10 characters';\n    valid = false;\n  } else {\n    document.getElementById('messageError').textContent = '';\n  }\n\n  // Submit if valid\n  const feedback = document.getElementById('formFeedback');\n  if (valid) {\n    feedback.textContent = 'Message sent successfully!';\n    feedback.style.color = '#10b981';\n    this.reset();\n    console.log('Form submitted:', { name: name, email: email, message: message });\n  } else {\n    feedback.textContent = 'Please fix the errors above.';\n    feedback.style.color = '#ef4444';\n  }\n});",
+      "language": "javascript",
+      "explanation": "The form validation checks three fields: name must be at least 2 characters, email must match a basic regex pattern, and message must be at least 10 characters. Error messages are shown below each field. If all validations pass, a success message is shown and the form is reset. <code>e.preventDefault()</code> stops the form from actually submitting (refreshing the page).",
+      "output": "(Submit with empty fields)\nError: Name must be at least 2 characters\nError: Please enter a valid email\nError: Message must be at least 10 characters\n\n(Submit with valid data)\nMessage sent successfully!"
+    },
+    {
+      "title": "Active Nav Link on Scroll",
+      "code": "// Highlight the nav link that corresponds to the currently visible section\nwindow.addEventListener('scroll', function() {\n  const sections = document.querySelectorAll('section');\n  const navLinks = document.querySelectorAll('.nav-link');\n\n  sections.forEach(function(section) {\n    const sectionTop = section.offsetTop - 100;\n    const sectionBottom = sectionTop + section.offsetHeight;\n\n    if (window.scrollY >= sectionTop && window.scrollY < sectionBottom) {\n      // Remove active from all links\n      navLinks.forEach(function(link) {\n        link.classList.remove('active');\n      });\n\n      // Add active to the matching link\n      const activeLink = document.querySelector('.nav-link[href=\"#' + section.id + '\"]');\n      if (activeLink) {\n        activeLink.classList.add('active');\n      }\n    }\n  });\n});\n\n// The nav link for the currently visible section gets highlighted\n// as the user scrolls through the page. The -100 offset accounts\n// for the fixed navbar height.",
+      "language": "javascript",
+      "explanation": "On every scroll event, the code checks which section is currently in the viewport by comparing the scroll position with each section's top and bottom boundaries. The nav link whose href matches the visible section gets the 'active' class (highlighted with the accent color). The 100px offset accounts for the fixed navbar.",
+      "output": "As the user scrolls past the About section, the 'About' nav link becomes highlighted. Scrolling to Projects highlights 'Projects', and so on."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Forgetting e.preventDefault() on Form Submit",
+      "wrongCode": "document.getElementById('contactForm').addEventListener('submit', function(e) {\n  // Missing e.preventDefault()!\n  const name = document.getElementById('nameInput').value;\n  console.log('Name:', name);\n  // Page refreshes immediately, console.log is lost\n});",
+      "error": "The page refreshes when the form is submitted, losing all JavaScript state and any feedback messages.",
+      "correctCode": "document.getElementById('contactForm').addEventListener('submit', function(e) {\n  e.preventDefault();  // Stop the page from refreshing\n  const name = document.getElementById('nameInput').value;\n  console.log('Name:', name);\n  // Now you can validate and show feedback without page refresh\n});",
+      "explanation": "By default, HTML forms refresh the page when submitted. <code>e.preventDefault()</code> stops this default behavior so JavaScript can handle the submission, validate fields, and show feedback without losing the page state."
+    },
+    {
+      "title": "Not Unobserving After Scroll Animation",
+      "wrongCode": "const observer = new IntersectionObserver(function(entries) {\n  entries.forEach(function(entry) {\n    if (entry.isIntersecting) {\n      entry.target.classList.add('visible');\n      // Not calling unobserve -- animation triggers every time user scrolls past!\n    }\n  });\n});",
+      "error": "The animation replays every time the element enters the viewport. Scrolling up and down causes elements to flicker.",
+      "correctCode": "const observer = new IntersectionObserver(function(entries) {\n  entries.forEach(function(entry) {\n    if (entry.isIntersecting) {\n      entry.target.classList.add('visible');\n      observer.unobserve(entry.target);  // Stop watching after animation\n    }\n  });\n});",
+      "explanation": "Call <code>unobserve</code> after adding the visible class so the animation only plays once. Without it, the observer keeps firing every time the element scrolls in and out of view."
+    },
+    {
+      "title": "Smooth Scroll Not Working Because of href",
+      "wrongCode": "// HTML: <a href=\"#about\">About</a>\n// Clicking jumps instantly to #about instead of smooth scrolling\n// Because the default anchor behavior takes over",
+      "error": "The browser's default anchor link behavior (instant jump) overrides the smooth scroll JavaScript.",
+      "correctCode": "document.querySelectorAll('.nav-link').forEach(function(link) {\n  link.addEventListener('click', function(e) {\n    e.preventDefault();  // Stop default anchor behavior\n    const target = document.querySelector(this.getAttribute('href'));\n    target.scrollIntoView({ behavior: 'smooth' });\n  });\n});",
+      "explanation": "Anchor links (<code>&lt;a href=\"#section\"&gt;</code>) have default browser behavior that instantly jumps to the target. You must call <code>e.preventDefault()</code> to stop this, then use <code>scrollIntoView({ behavior: 'smooth' })</code> for smooth scrolling."
+    },
+    {
+      "title": "Hamburger Menu Not Closing After Link Click",
+      "wrongCode": "// Menu opens on hamburger click, but stays open after clicking a nav link\ndocument.getElementById('hamburger').addEventListener('click', function() {\n  document.getElementById('navLinks').classList.toggle('open');\n});\n// Nav links do not close the menu!",
+      "error": "On mobile, after tapping a nav link, the menu stays open covering the content. The user has to manually close it.",
+      "correctCode": "document.getElementById('hamburger').addEventListener('click', function() {\n  document.getElementById('navLinks').classList.toggle('open');\n});\n\n// Close menu when a nav link is clicked\ndocument.querySelectorAll('.nav-link').forEach(function(link) {\n  link.addEventListener('click', function() {\n    document.getElementById('navLinks').classList.remove('open');\n    document.getElementById('hamburger').classList.remove('active');\n  });\n});",
+      "explanation": "When a nav link is clicked, the menu should close automatically. Add a click listener to each nav link that removes the 'open' class from the menu. This is essential for a good mobile experience."
+    }
+  ],
+  "summary": [
+    "A portfolio website is the ultimate capstone project that combines all JavaScript concepts: DOM manipulation, event listeners, localStorage, closures, array methods, Intersection Observer, form validation, and responsive design.",
+    "CSS custom properties (variables) enable easy theming. Define colors as --variable-name in :root, override them in .light-mode, and all elements using those variables update automatically.",
+    "Smooth scroll navigation uses e.preventDefault() on anchor links and scrollIntoView({ behavior: 'smooth' }) to scroll to the target section.",
+    "The typing effect uses a closure to maintain state (word index, character index, deleting flag) and setTimeout for recursive self-calling. It types, pauses, deletes, and cycles through words infinitely.",
+    "Dark/light mode toggle: toggle a CSS class on the body, save the preference to localStorage, and load it on page start. CSS variables make the color switch automatic.",
+    "Intersection Observer efficiently detects when elements enter the viewport. Use it for scroll animations (fade in, slide up) and skill bar animations. Always unobserve after the animation plays.",
+    "Project filtering uses an array of project objects, filter() to match the selected category, and dynamic DOM creation to render project cards. The filter buttons use data-category attributes.",
+    "Contact form validation checks each field (name length, email regex, message length), shows individual error messages, and displays a success message when all fields pass. e.preventDefault() stops page refresh.",
+    "Mobile hamburger menu: toggle an 'open' class on the nav links container. Close the menu when a nav link is clicked. Use CSS transform for the slide-in animation.",
+    "Active nav link highlighting: on scroll, compare window.scrollY with each section's offsetTop to determine which section is visible, then add the 'active' class to the corresponding nav link."
+  ]
+  },
+  "relatedTopics": ["closures-scope-and-hoisting", "css-manipulation-with-javascript"],
+  "practice": {
+    "totalQuestions": 33,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const el = document.querySelector('#hero');\nel.scrollIntoView({ behavior: 'smooth' });\nconsole.log('Scrolling started');</code></pre>",
+        "hint": "Does scrollIntoView block execution?",
+        "answer": "<code>Scrolling started</code> (prints immediately, scroll happens asynchronously)",
+        "explanation": "scrollIntoView starts the smooth scroll animation but does not block. JavaScript continues executing immediately. The console.log runs right away while the scroll happens in the background."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const btn = document.createElement('button');\nbtn.dataset.category = 'javascript';\nconsole.log(btn.dataset.category);\nconsole.log(btn.getAttribute('data-category'));</code></pre>",
+        "hint": "dataset and data-* attributes are two ways to access the same thing.",
+        "answer": "<code>javascript</code><br><code>javascript</code>",
+        "explanation": "Both <code>dataset.category</code> and <code>getAttribute('data-category')</code> access the same data attribute. dataset uses camelCase, getAttribute uses the full attribute name."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>document.body.classList.add('light-mode');\nconsole.log(document.body.classList.contains('light-mode'));\ndocument.body.classList.toggle('light-mode');\nconsole.log(document.body.classList.contains('light-mode'));</code></pre>",
+        "hint": "add adds the class, toggle removes it if present.",
+        "answer": "<code>true</code><br><code>false</code>",
+        "explanation": "add puts 'light-mode' on the body (contains returns true). toggle removes it because it was already present (contains returns false)."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const projects = [\n  { title: 'A', category: 'web' },\n  { title: 'B', category: 'js' },\n  { title: 'C', category: 'web' },\n  { title: 'D', category: 'design' }\n];\nconst webProjects = projects.filter(function(p) {\n  return p.category === 'web';\n});\nconsole.log(webProjects.length);\nconsole.log(webProjects.map(function(p) { return p.title; }));</code></pre>",
+        "hint": "filter keeps items matching the condition.",
+        "answer": "<code>2</code><br><code>[\"A\", \"C\"]</code>",
+        "explanation": "filter keeps projects with category 'web' (A and C). There are 2 such projects, and map extracts their titles."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const style = getComputedStyle(document.documentElement);\nconst accent = style.getPropertyValue('--accent');\nconsole.log(typeof accent);\nconsole.log(accent.trim());</code></pre>",
+        "hint": "CSS variable values are returned as strings, often with leading spaces.",
+        "answer": "<code>string</code><br><code>#a855f7</code> (or whatever the current --accent value is)",
+        "explanation": "getPropertyValue returns the CSS variable value as a string. It may include leading whitespace, so trim() is used. The value is the current --accent color defined in :root."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const words = ['hello', 'world'];\nlet i = 0;\ni = (i + 1) % words.length;\nconsole.log(i, words[i]);\ni = (i + 1) % words.length;\nconsole.log(i, words[i]);\ni = (i + 1) % words.length;\nconsole.log(i, words[i]);</code></pre>",
+        "hint": "The modulo operator wraps around to 0 after reaching the array length.",
+        "answer": "<code>1 world</code><br><code>0 hello</code><br><code>1 world</code>",
+        "explanation": "With 2 words, the modulo cycles: 0->1->0->1. This pattern is used in the typing effect to cycle through words infinitely."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const emailRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\nconsole.log(emailRegex.test('aarav@gmail.com'));\nconsole.log(emailRegex.test('aarav@gmail'));\nconsole.log(emailRegex.test('aarav gmail.com'));\nconsole.log(emailRegex.test('@gmail.com'));</code></pre>",
+        "hint": "The regex requires: something@something.something with no spaces.",
+        "answer": "<code>true</code><br><code>false</code><br><code>false</code><br><code>false</code>",
+        "explanation": "The regex requires at least one character before @, at least one character after @ but before the dot, and at least one character after the dot. No spaces allowed. Only the first email passes all checks."
+      },
+      {
+        "id": "ts-8",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why do we use CSS custom properties (variables) for theming instead of changing individual styles in JavaScript?",
+        "hint": "Think about how many elements need to change when switching themes.",
+        "answer": "CSS variables let you define colors once and use them throughout the stylesheet. To switch themes, you only need to change the variable values (by toggling a CSS class like <code>.light-mode</code>), and every element using those variables updates automatically. Without variables, you would need JavaScript to find and update every single element's color individually.",
+        "explanation": "With CSS variables, switching from dark to light mode is a single classList.toggle() call. Without them, you might need to update 50+ elements individually."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why do we call observer.unobserve(entry.target) after the scroll animation plays?",
+        "hint": "What happens if we keep observing?",
+        "answer": "Without <code>unobserve</code>, the observer keeps watching the element. Every time it scrolls in and out of the viewport, the callback fires again. For animations that should only play once (like fade-in on first scroll), unobserve stops the observer from re-triggering. It also improves performance by reducing the number of elements being tracked.",
+        "explanation": "If you want an animation to replay every time the user scrolls past it, keep observing. But for portfolio-style reveal animations, play once and unobserve."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "How does the typing effect use closures?",
+        "hint": "What variables does the tick function remember?",
+        "answer": "The <code>tick</code> function inside <code>typeWriter</code> forms a closure over the variables <code>wordIndex</code>, <code>charIndex</code>, <code>isDeleting</code>, <code>element</code>, <code>words</code>, and <code>speed</code>. These variables persist between setTimeout calls because the closure keeps them alive. Each time tick runs, it reads and modifies the state variables, then schedules itself again. Without closures, the state would be lost between setTimeout callbacks.",
+        "explanation": "The tick function calls itself recursively via setTimeout. The closure ensures the state (which word, which character, whether deleting) is preserved across these asynchronous calls."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const el = document.createElement('div');\nel.style.opacity = '0';\nconsole.log(el.style.opacity);\nel.style.opacity = '1';\nconsole.log(el.style.opacity);</code></pre>",
+        "hint": "style.opacity is set and read as a string.",
+        "answer": "<code>0</code><br><code>1</code>",
+        "explanation": "Setting <code>style.opacity</code> to '0' makes the element invisible. Setting it to '1' makes it fully visible. This is used in scroll animations."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const links = document.querySelectorAll('a');\nconsole.log(typeof links);\nconsole.log(links instanceof NodeList);\nconsole.log(Array.isArray(links));</code></pre>",
+        "hint": "querySelectorAll returns a NodeList, not an Array.",
+        "answer": "<code>object</code><br><code>true</code><br><code>false</code>",
+        "explanation": "querySelectorAll returns a NodeList, which is an object (not an Array). It has forEach but not map, filter, or reduce. Use Array.from() to convert it if you need array methods."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const el = document.createElement('section');\nel.id = 'about';\nconsole.log(el.offsetTop);</code></pre>",
+        "hint": "The element is not in the DOM yet.",
+        "answer": "<code>0</code>",
+        "explanation": "offsetTop returns 0 for elements not attached to the DOM. The element must be in the document for offsetTop to return its actual position. This matters for scroll-based nav highlighting."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const observer = new IntersectionObserver(function(entries) {\n  entries.forEach(function(entry) {\n    console.log(entry.isIntersecting);\n  });\n});\nconst el = document.createElement('div');\nobserver.observe(el);</code></pre>",
+        "hint": "What happens when you observe an element that is not in the DOM?",
+        "answer": "The callback fires immediately with <code>false</code> because the element is not in the viewport (it is not even in the DOM).",
+        "explanation": "IntersectionObserver fires its callback once when observe is called, reporting the initial state. An element not in the DOM is not intersecting, so isIntersecting is false."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between opacity: 0 and display: none for hiding elements in scroll animations?",
+        "hint": "Think about whether the element takes up space.",
+        "answer": "<code>opacity: 0</code> makes the element invisible but it still takes up space in the layout. <code>display: none</code> removes the element from the layout entirely, causing other elements to shift. For scroll animations, opacity: 0 is preferred because the element maintains its position and can smoothly transition to opacity: 1.",
+        "explanation": "If you used display: none, adding the visible class would cause a layout jump as the element suddenly appears and pushes other content. opacity with transitions creates a smooth fade effect."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "How would you add keyboard accessibility to the hamburger menu?",
+        "hint": "Think about Enter key, Escape key, and focus management.",
+        "answer": "Add a keydown listener for Enter/Space to toggle the menu (matching button behavior). Add Escape key support to close the menu. When the menu opens, move focus to the first nav link. When it closes, return focus to the hamburger button. Add <code>aria-expanded</code> attribute to communicate the menu state to screen readers.",
+        "explanation": "Accessibility ensures that users who navigate with keyboards or screen readers can use the menu. The hamburger button should have aria-expanded='true' when open and aria-expanded='false' when closed."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const el = document.createElement('div');\nel.classList.add('animate-on-scroll');\nconsole.log(el.classList.contains('visible'));\nel.classList.add('visible');\nconsole.log(el.classList.contains('visible'));</code></pre>",
+        "hint": "The element starts without the 'visible' class.",
+        "answer": "<code>false</code><br><code>true</code>",
+        "explanation": "Initially the div only has 'animate-on-scroll'. After adding 'visible', contains returns true. This is how the scroll animation works: elements start hidden, and 'visible' is added when they scroll into view."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>localStorage.setItem('portfolioTheme', 'light');\nconst saved = localStorage.getItem('portfolioTheme');\nif (saved === 'light') {\n  console.log('Apply light mode');\n} else {\n  console.log('Apply dark mode');\n}</code></pre>",
+        "hint": "localStorage stores and returns strings.",
+        "answer": "<code>Apply light mode</code>",
+        "explanation": "The saved value is the string 'light', which matches the comparison. The light mode CSS class would be added to the body."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const word = 'JavaScript';\nconsole.log(word.substring(0, 1));\nconsole.log(word.substring(0, 4));\nconsole.log(word.substring(0, word.length));</code></pre>",
+        "hint": "substring(start, end) extracts characters from start up to (but not including) end.",
+        "answer": "<code>J</code><br><code>Java</code><br><code>JavaScript</code>",
+        "explanation": "substring(0, 1) gets the first character. substring(0, 4) gets the first 4 characters. substring(0, word.length) gets the entire string. The typing effect uses this to show progressively more characters."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const sections = [\n  { id: 'hero', top: 0, height: 800 },\n  { id: 'about', top: 800, height: 400 },\n  { id: 'projects', top: 1200, height: 600 }\n];\nconst scrollY = 900;\nsections.forEach(function(sec) {\n  if (scrollY >= sec.top && scrollY < sec.top + sec.height) {\n    console.log('Active: ' + sec.id);\n  }\n});</code></pre>",
+        "hint": "Find which section range contains scrollY = 900.",
+        "answer": "<code>Active: about</code>",
+        "explanation": "scrollY 900 is >= 800 (about's top) and < 1200 (about's top + height). So the 'about' section is active. This is the logic behind active nav link highlighting."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const bar = document.createElement('div');\nbar.dataset.width = '85';\nbar.style.width = '0%';\n\n// Simulate Intersection Observer callback\nbar.style.width = bar.dataset.width + '%';\nconsole.log(bar.style.width);</code></pre>",
+        "hint": "dataset.width is a string. Concatenating with '%' creates the CSS value.",
+        "answer": "<code>85%</code>",
+        "explanation": "dataset.width returns the string '85'. Concatenating with '%' gives '85%'. This is how skill bar widths are animated: start at 0%, then set to the target percentage when the section is visible."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const el = document.createElement('div');\nel.innerHTML = '<h3>Quiz App</h3><p>A quiz game</p>';\nconsole.log(el.querySelector('h3').textContent);\nconsole.log(el.querySelector('p').textContent);</code></pre>",
+        "hint": "innerHTML creates child elements. querySelector finds them.",
+        "answer": "<code>Quiz App</code><br><code>A quiz game</code>",
+        "explanation": "innerHTML creates the h3 and p elements inside the div. querySelector finds them within that div and textContent extracts the text."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const tech = ['HTML', 'CSS', 'JS'];\nconst tags = tech.map(function(t) {\n  return '<span>' + t + '</span>';\n}).join('');\nconsole.log(tags);</code></pre>",
+        "hint": "map transforms each element, join combines them into a string.",
+        "answer": "<code>&lt;span&gt;HTML&lt;/span&gt;&lt;span&gt;CSS&lt;/span&gt;&lt;span&gt;JS&lt;/span&gt;</code>",
+        "explanation": "map creates an array of span strings. join('') combines them into one string with no separator. This pattern is used to create tech tags for project cards."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>localStorage.setItem('portfolioTheme', 'dark');\ndocument.body.classList.remove('light-mode');\nconsole.log(document.body.classList.contains('light-mode'));\nconsole.log(localStorage.getItem('portfolioTheme'));</code></pre>",
+        "hint": "classList.remove removes the class. localStorage stores the string.",
+        "answer": "<code>false</code><br><code>dark</code>",
+        "explanation": "After removing 'light-mode', the body does not contain that class (false). localStorage stores 'dark' as a string and returns it."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const name = '  Aarav  ';\nconst email = 'aarav@test.com';\nconst msg = 'Hi';\n\nconsole.log(name.trim().length >= 2);\nconsole.log(/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email));\nconsole.log(msg.length >= 10);</code></pre>",
+        "hint": "Check each validation rule: name >= 2 chars after trim, valid email, message >= 10 chars.",
+        "answer": "<code>true</code><br><code>true</code><br><code>false</code>",
+        "explanation": "name.trim() is 'Aarav' (5 chars >= 2, true). The email matches the regex (true). 'Hi' is 2 characters (< 10, false). The form would show an error for the message."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function typeStep(word, index) {\n  return word.substring(0, index);\n}\n\nconsole.log(typeStep('Hello', 0));\nconsole.log(typeStep('Hello', 3));\nconsole.log(typeStep('Hello', 5));</code></pre>",
+        "hint": "substring(0, n) returns the first n characters.",
+        "answer": "<code></code> (empty string)<br><code>Hel</code><br><code>Hello</code>",
+        "explanation": "substring(0, 0) returns empty string. substring(0, 3) returns 'Hel'. substring(0, 5) returns the full word 'Hello'. This is the core of the typing effect -- incrementing the index reveals more letters."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const root = document.documentElement;\nroot.style.setProperty('--accent', '#ff0000');\nconst computed = getComputedStyle(root).getPropertyValue('--accent');\nconsole.log(computed.trim());</code></pre>",
+        "hint": "setProperty changes a CSS variable. getPropertyValue reads it.",
+        "answer": "<code>#ff0000</code>",
+        "explanation": "setProperty changes the --accent CSS variable to red. getPropertyValue reads it back. This technique could be used for a color theme picker where the user chooses their own accent color."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does scrollIntoView({ behavior: 'smooth' }) do?",
+        "options": {
+          "A": "Hides the element",
+          "B": "Smoothly scrolls the page to make the element visible",
+          "C": "Makes the element fade in",
+          "D": "Removes the element from the page"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> scrollIntoView scrolls the page so the element is visible in the viewport. The 'smooth' behavior creates a smooth animation instead of an instant jump."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the purpose of CSS custom properties (--variable-name)?",
+        "options": {
+          "A": "To create JavaScript variables",
+          "B": "To define reusable values that can be changed from one place",
+          "C": "To add animations",
+          "D": "To create media queries"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> CSS custom properties let you define values once (:root) and use them throughout your CSS with var(). Changing the variable changes all uses automatically."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Why do we call e.preventDefault() in the form submit handler?",
+        "options": {
+          "A": "To prevent the form from being styled",
+          "B": "To prevent the page from refreshing when the form is submitted",
+          "C": "To prevent JavaScript errors",
+          "D": "To prevent the form from being visible"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> By default, form submission refreshes the page. preventDefault() stops this so JavaScript can handle the form data without losing the page state."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Medium",
+        "question": "What does IntersectionObserver detect?",
+        "options": {
+          "A": "When a CSS animation ends",
+          "B": "When an element enters or leaves the viewport",
+          "C": "When the user clicks an element",
+          "D": "When an API call finishes"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> IntersectionObserver watches elements and fires a callback when they enter or leave the viewport (or any specified root element)."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "How does the dark mode toggle work with localStorage?",
+        "options": {
+          "A": "localStorage changes the CSS automatically",
+          "B": "Save the preference, then on page load check localStorage and apply the CSS class",
+          "C": "localStorage sends the preference to the server",
+          "D": "localStorage modifies the HTML file"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> On toggle click, save the preference to localStorage. On page load, read from localStorage and add the appropriate CSS class. localStorage just stores the string; your JavaScript applies it."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What CSS property is used to make elements initially hidden for scroll animations?",
+        "options": {
+          "A": "display: none",
+          "B": "visibility: hidden",
+          "C": "opacity: 0 combined with transform",
+          "D": "position: absolute"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> opacity: 0 with transform: translateY(30px) makes elements invisible and slightly below their final position. Adding the 'visible' class transitions them to opacity: 1 and translateY(0). display: none would remove them from layout."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Why do we use the modulo operator (%) in the typing effect?",
+        "options": {
+          "A": "To calculate the typing speed",
+          "B": "To cycle through the words array infinitely",
+          "C": "To count the number of characters",
+          "D": "To generate random words"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>(wordIndex + 1) % words.length</code> wraps the index back to 0 after reaching the end of the array, creating an infinite cycle through the words."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Hard",
+        "question": "What is the threshold option in IntersectionObserver?",
+        "options": {
+          "A": "The maximum number of elements to observe",
+          "B": "The percentage of the element that must be visible to trigger the callback",
+          "C": "The animation speed",
+          "D": "The scroll position"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> threshold: 0.1 means the callback fires when 10% of the element is visible. threshold: 1 would require the entire element to be visible. It can be a single number or an array of numbers."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Hard",
+        "question": "How does the active nav link highlighting determine which section is visible?",
+        "options": {
+          "A": "It uses IntersectionObserver for each section",
+          "B": "It compares window.scrollY with each section's offsetTop and offsetHeight",
+          "C": "It uses CSS :target pseudo-class",
+          "D": "It checks which nav link was last clicked"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> On each scroll event, the code checks if scrollY is between a section's top (offsetTop - navHeight) and bottom (top + offsetHeight). The nav link matching the visible section gets the active class."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "Why does the portfolio use data-width attributes on skill bars instead of hardcoded CSS widths?",
+        "options": {
+          "A": "To save bandwidth",
+          "B": "So JavaScript can read the target width and animate from 0 to that value when the section is visible",
+          "C": "Because CSS does not support percentage widths",
+          "D": "For SEO purposes"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Skill bars start at width: 0. When the skills section scrolls into view, JavaScript reads data-width and sets the element's width to that percentage, creating a smooth animation via CSS transition."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What is the hamburger menu pattern?",
+        "options": {
+          "A": "A menu shaped like a hamburger",
+          "B": "Three horizontal lines that toggle the navigation menu on mobile devices",
+          "C": "A dropdown menu for food ordering apps",
+          "D": "A menu that slides from the bottom"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The hamburger menu is a common mobile UI pattern: three horizontal lines that, when tapped, reveal or hide the navigation links. It saves space on small screens."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What technique does the typing effect use to create the animation loop?",
+        "options": {
+          "A": "setInterval with a fixed delay",
+          "B": "requestAnimationFrame",
+          "C": "setTimeout calling itself recursively (via closure)",
+          "D": "CSS @keyframes animation"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The tick function uses setTimeout to call itself with a variable delay (slower for typing, faster for deleting, pause at end of word). This recursive approach via closure gives more control than setInterval."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Easy",
+        "question": "What does document.body.classList.toggle('light-mode') do?",
+        "options": {
+          "A": "Always adds the class",
+          "B": "Always removes the class",
+          "C": "Adds the class if absent, removes it if present",
+          "D": "Toggles the body visibility"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>classList.toggle</code> adds the class if the element does not have it, or removes it if it does. This is perfect for dark/light mode switching."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "What is the purpose of the glassmorphism effect on project cards?",
+        "options": {
+          "A": "To improve page load speed",
+          "B": "To create a modern, translucent card appearance with blur and transparency",
+          "C": "To prevent click events",
+          "D": "To make cards invisible"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Glassmorphism is a design trend that uses background blur, transparency, and subtle borders to create cards that look like frosted glass."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Why does the portfolio use event.target.closest('.project-card') for click handling?",
+        "options": {
+          "A": "To find the nearest CSS class",
+          "B": "To use event delegation -- find the ancestor card element when a child (like a tag or paragraph) is clicked",
+          "C": "To measure the card's distance from the viewport",
+          "D": "To close the card"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When a user clicks a tag or paragraph inside a card, event.target is the tag/paragraph, not the card. closest('.project-card') walks up the DOM to find the card ancestor."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What does the scroll-to-top button do?",
+        "options": {
+          "A": "Scrolls to the bottom of the page",
+          "B": "Refreshes the page",
+          "C": "Smoothly scrolls to the top of the page",
+          "D": "Opens a new tab"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The button calls <code>window.scrollTo({ top: 0, behavior: 'smooth' })</code> to smoothly scroll back to the top."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "Why are CSS transitions used for the scroll animations instead of JavaScript animations?",
+        "options": {
+          "A": "CSS cannot do animations",
+          "B": "CSS transitions are hardware-accelerated and more performant than JavaScript-driven animations",
+          "C": "JavaScript animations do not work in browsers",
+          "D": "CSS transitions only work on mobile"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> CSS transitions for opacity and transform are hardware-accelerated by the browser's GPU, making them smoother and more performant than JavaScript-driven style changes."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Add Skill Progress Bar Animation",
+        "difficulty": "Easy",
+        "description": "Add a CSS transition to the skill bars so they animate from 0% to their target width when the skills section scrolls into view. Use Intersection Observer and data-width attributes.",
+        "sampleInput": "User scrolls to the skills section",
+        "sampleOutput": "Skill bars smoothly expand from 0% to their target widths (90%, 85%, etc.)",
+        "constraints": "Use CSS transition for the animation. Use IntersectionObserver to trigger it.",
+        "solution": "// CSS:\n// .skill-fill { width: 0; transition: width 1s ease; }\n\nconst observer = new IntersectionObserver(function(entries) {\n  entries.forEach(function(entry) {\n    if (entry.isIntersecting) {\n      entry.target.querySelectorAll('.skill-fill').forEach(function(bar) {\n        bar.style.width = bar.dataset.width + '%';\n      });\n      observer.unobserve(entry.target);\n    }\n  });\n}, { threshold: 0.2 });\n\nobserver.observe(document.querySelector('.skills-grid'));"
+      },
+      {
+        "id": "cc-2",
+        "title": "Add a Testimonials Carousel",
+        "difficulty": "Medium",
+        "description": "Add a testimonials section with a carousel that automatically cycles through quotes. Show one testimonial at a time with a fade transition. Include left/right arrow buttons for manual navigation.",
+        "sampleInput": "3 testimonials with name, quote, and role",
+        "sampleOutput": "Testimonials auto-rotate every 4 seconds. Arrows allow manual navigation.",
+        "constraints": "Use setInterval for auto-rotation. Use classList for transitions.",
+        "solution": "const testimonials = [\n  { name: 'Priya', role: 'Student', quote: 'Aarav built an amazing website for our school project!' },\n  { name: 'Mr. Sharma', role: 'Teacher', quote: 'Impressive skills for a 16-year-old developer.' },\n  { name: 'Rohan', role: 'Classmate', quote: 'He taught me JavaScript in just one week!' }\n];\nlet current = 0;\n\nfunction showTestimonial(index) {\n  const el = document.getElementById('testimonialContent');\n  el.style.opacity = 0;\n  setTimeout(function() {\n    el.innerHTML = '<p>\"' + testimonials[index].quote + '\"</p><strong>' + testimonials[index].name + '</strong><span> - ' + testimonials[index].role + '</span>';\n    el.style.opacity = 1;\n  }, 300);\n}\n\nsetInterval(function() {\n  current = (current + 1) % testimonials.length;\n  showTestimonial(current);\n}, 4000);\n\ndocument.getElementById('prevBtn').addEventListener('click', function() {\n  current = (current - 1 + testimonials.length) % testimonials.length;\n  showTestimonial(current);\n});\n\ndocument.getElementById('nextBtn').addEventListener('click', function() {\n  current = (current + 1) % testimonials.length;\n  showTestimonial(current);\n});"
+      },
+      {
+        "id": "cc-3",
+        "title": "Add a Blog Section",
+        "difficulty": "Medium",
+        "description": "Add a blog section that displays blog post cards. Each card shows a title, date, excerpt, and 'Read More' link. Store blog data as an array of objects. Add a 'Load More' button that shows 3 posts at a time.",
+        "sampleInput": "6 blog posts, initially showing 3",
+        "sampleOutput": "3 blog cards visible. Click 'Load More' to see 3 more. Button hides when all are shown.",
+        "constraints": "Use array.slice() for pagination. Dynamically create card elements.",
+        "solution": "const posts = [\n  { title: 'Getting Started with JS', date: '2026-04-01', excerpt: 'Learn the basics of JavaScript...' },\n  { title: 'CSS Grid Layout', date: '2026-03-15', excerpt: 'Master CSS Grid for layouts...' },\n  { title: 'DOM Manipulation', date: '2026-03-01', excerpt: 'How to change HTML with JS...' },\n  { title: 'Async JavaScript', date: '2026-02-15', excerpt: 'Understanding promises...' },\n  { title: 'Building APIs', date: '2026-02-01', excerpt: 'Create your own REST API...' },\n  { title: 'React Basics', date: '2026-01-15', excerpt: 'Introduction to React...' }\n];\nlet shown = 0;\nconst perPage = 3;\n\nfunction loadMore() {\n  const grid = document.getElementById('blogGrid');\n  const batch = posts.slice(shown, shown + perPage);\n  batch.forEach(function(post) {\n    const card = document.createElement('div');\n    card.classList.add('blog-card');\n    card.innerHTML = '<h3>' + post.title + '</h3><time>' + post.date + '</time><p>' + post.excerpt + '</p><a href=\"#\">Read More</a>';\n    grid.appendChild(card);\n  });\n  shown += batch.length;\n  if (shown >= posts.length) {\n    document.getElementById('loadMoreBtn').style.display = 'none';\n  }\n}\n\ndocument.getElementById('loadMoreBtn').addEventListener('click', loadMore);\nloadMore();"
+      },
+      {
+        "id": "cc-4",
+        "title": "Add Project Search",
+        "difficulty": "Easy",
+        "description": "Add a search input above the projects grid that filters projects in real-time as the user types. Search should match against the project title and description.",
+        "sampleInput": "User types 'quiz' in the search box",
+        "sampleOutput": "Only the Quiz App project card is shown",
+        "constraints": "Use the input event for real-time filtering. Convert to lowercase for case-insensitive search.",
+        "solution": "document.getElementById('projectSearch').addEventListener('input', function() {\n  const query = this.value.toLowerCase().trim();\n  const grid = document.getElementById('projectsGrid');\n  grid.innerHTML = '';\n  const matching = projects.filter(function(p) {\n    return p.title.toLowerCase().includes(query) || p.desc.toLowerCase().includes(query);\n  });\n  matching.forEach(function(p) {\n    const card = document.createElement('div');\n    card.classList.add('project-card');\n    card.innerHTML = '<h3>' + p.title + '</h3><p>' + p.desc + '</p>';\n    grid.appendChild(card);\n  });\n});"
+      },
+      {
+        "id": "cc-5",
+        "title": "Add Animated Number Counters",
+        "difficulty": "Hard",
+        "description": "Add a stats section with animated number counters (e.g., '5+ Projects', '1000+ Lines of Code', '3 Languages'). The numbers should count up from 0 to their target value when the section scrolls into view.",
+        "sampleInput": "Section scrolls into view with targets: 5, 1000, 3",
+        "sampleOutput": "Numbers animate: 0->1->2->3->4->5, 0->100->200...->1000, 0->1->2->3",
+        "constraints": "Use IntersectionObserver to trigger. Use setInterval or requestAnimationFrame for counting.",
+        "solution": "function animateCounter(element, target, duration) {\n  let current = 0;\n  const increment = target / (duration / 16);\n  const timer = setInterval(function() {\n    current += increment;\n    if (current >= target) {\n      current = target;\n      clearInterval(timer);\n    }\n    element.textContent = Math.floor(current);\n  }, 16);\n}\n\nconst statsObserver = new IntersectionObserver(function(entries) {\n  entries.forEach(function(entry) {\n    if (entry.isIntersecting) {\n      entry.target.querySelectorAll('.counter').forEach(function(el) {\n        animateCounter(el, parseInt(el.dataset.target), 1500);\n      });\n      statsObserver.unobserve(entry.target);\n    }\n  });\n}, { threshold: 0.3 });\n\nstatsObserver.observe(document.querySelector('.stats-section'));"
+      },
+      {
+        "id": "cc-6",
+        "title": "Add a Project Detail Modal",
+        "difficulty": "Hard",
+        "description": "When a project card is clicked, show a modal overlay with full project details: title, description, technologies used, a screenshot placeholder, and links to live demo and source code. The modal should close when clicking the X button or the overlay background.",
+        "sampleInput": "User clicks on the 'Quiz App' project card",
+        "sampleOutput": "Modal appears with Quiz App details, tech tags, and links. Clicking X or overlay closes it.",
+        "constraints": "Create the modal dynamically. Use event delegation. Add a fade-in animation.",
+        "solution": "function showModal(project) {\n  const overlay = document.createElement('div');\n  overlay.classList.add('modal-overlay');\n  overlay.innerHTML = '<div class=\"modal-content\">' +\n    '<button class=\"modal-close\">X</button>' +\n    '<h2>' + project.title + '</h2>' +\n    '<p>' + project.desc + '</p>' +\n    '<div class=\"tech-tags\">' + project.tech.map(function(t) { return '<span class=\"tag\">' + t + '</span>'; }).join('') + '</div>' +\n    '<div class=\"modal-links\">' +\n    '<a href=\"#\" class=\"btn btn-primary\">Live Demo</a>' +\n    '<a href=\"#\" class=\"btn btn-outline\">Source Code</a>' +\n    '</div></div>';\n\n  document.body.appendChild(overlay);\n  requestAnimationFrame(function() { overlay.classList.add('visible'); });\n\n  overlay.querySelector('.modal-close').addEventListener('click', function() {\n    overlay.classList.remove('visible');\n    setTimeout(function() { overlay.remove(); }, 300);\n  });\n  overlay.addEventListener('click', function(e) {\n    if (e.target === overlay) {\n      overlay.classList.remove('visible');\n      setTimeout(function() { overlay.remove(); }, 300);\n    }\n  });\n}\n\n// Attach to project cards\ndocument.getElementById('projectsGrid').addEventListener('click', function(e) {\n  const card = e.target.closest('.project-card');\n  if (card) {\n    const title = card.querySelector('h3').textContent;\n    const project = projects.find(function(p) { return p.title === title; });\n    if (project) showModal(project);\n  }\n});"
+      }
+    ]
+  }
+}

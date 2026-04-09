@@ -1,0 +1,734 @@
+{
+  "title": "Functions - Regular, Arrow, and Callback",
+  "slug": "functions-in-javascript",
+  "language": "javascript",
+  "chapter": 7,
+  "difficulty": "Beginner",
+  "readingTime": "26 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 57,
+  "seo": {
+    "title": "JavaScript Functions - Regular, Arrow, Callback, IIFE | Modern Age Coders",
+    "description": "Learn JavaScript functions: declarations, expressions, arrow functions, callbacks, default and rest parameters, setTimeout, IIFE, and event handlers. Includes 57 practice questions with coding challenges.",
+    "keywords": "javascript functions, arrow functions javascript, callback functions javascript, javascript function tutorial, javascript parameters, javascript return value, IIFE javascript, function expression javascript, javascript event handler function, javascript setTimeout callback"
+  },
+  "content": {
+    "what": "<h2>What Are Functions in JavaScript?</h2><p>A <strong>function</strong> is a reusable block of code that performs a specific task. Instead of writing the same code over and over, you put it inside a function and call that function whenever you need it. Think of a function as a recipe: you define the steps once, and you can follow that recipe any time you want to make the dish.</p><p>Functions are one of the most important building blocks of JavaScript. They let you organize your code, avoid repetition, and build complex programs from small, manageable pieces.</p><p>JavaScript gives you several ways to create functions:</p><p><strong>1. Function Declaration</strong> - The classic way: <code>function greet() { }</code></p><p><strong>2. Function Expression</strong> - Storing a function in a variable: <code>const greet = function() { }</code></p><p><strong>3. Arrow Function</strong> - A shorter syntax introduced in ES6: <code>const greet = () => { }</code></p><p>Each style has its own use cases, and you will see all three in real codebases.</p>",
+    "why": "<h2>Why Are Functions Important?</h2><p>Functions are everywhere in JavaScript. Every interactive feature on a website uses functions. Here is why they matter:</p><h3>1. Code Reusability</h3><p>Instead of copying and pasting the same calculation or logic multiple times, you write it once as a function and call it wherever you need it. If you need to change how it works, you change it in one place.</p><h3>2. Organization</h3><p>Functions break a large program into smaller, named pieces. Instead of one massive block of code, you have functions like <code>validateForm()</code>, <code>calculateTotal()</code>, and <code>displayResults()</code>. Each function has a clear purpose.</p><h3>3. Event Handling</h3><p>Every time a user clicks a button, types in a form, or scrolls the page, a function runs. Functions are the backbone of interactivity on the web. You cannot build interactive websites without them.</p><h3>4. Working with Timers and Async Code</h3><p>Functions are passed to <code>setTimeout</code>, <code>setInterval</code>, and Promises as callbacks. Understanding how functions work is essential for handling time-based operations and asynchronous code.</p><h3>5. Foundation for Everything Else</h3><p>Array methods (<code>map</code>, <code>filter</code>, <code>reduce</code>), event listeners, API calls, and frameworks like React are all built on functions. If you understand functions deeply, everything else becomes easier.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Function Declaration</h3><p>A function declaration uses the <code>function</code> keyword, followed by a name, parentheses for parameters, and curly braces for the body:</p><pre><code>function greet() {\n  console.log(\"Hello!\");\n}\n\ngreet(); // Call the function</code></pre><p>You define the function once and call it by writing its name followed by parentheses. You can call it as many times as you want.</p><p>Function declarations are <strong>hoisted</strong>, which means they are moved to the top of their scope before the code runs. You can call a declared function before the line where it is defined:</p><pre><code>sayHi(); // Works! Function is hoisted\n\nfunction sayHi() {\n  console.log(\"Hi!\");\n}</code></pre><h3>2. Parameters and Arguments</h3><p><strong>Parameters</strong> are the variable names listed in the function definition. <strong>Arguments</strong> are the actual values you pass when calling the function.</p><pre><code>function greetStudent(name, grade) {\n  console.log(\"Hello, \" + name + \" from grade \" + grade);\n}\n\ngreetStudent(\"Aarav\", \"10th\"); // name = \"Aarav\", grade = \"10th\"\ngreetStudent(\"Priya\", \"9th\");  // name = \"Priya\", grade = \"9th\"</code></pre><p>The function is defined with two parameters: <code>name</code> and <code>grade</code>. When you call it, you pass the actual values (arguments). The parameters act as local variables inside the function.</p><h3>3. Return Values</h3><p>A function can send a value back to the caller using the <code>return</code> statement. Once <code>return</code> executes, the function stops immediately.</p><pre><code>function add(a, b) {\n  return a + b;\n}\n\nconst result = add(5, 3); // result = 8\nconsole.log(result);</code></pre><p>If a function does not have a <code>return</code> statement, it returns <code>undefined</code> by default.</p><h3>4. Default Parameters</h3><p>You can give parameters default values that are used when no argument is provided:</p><pre><code>function greet(name = \"Student\") {\n  console.log(\"Hello, \" + name);\n}\n\ngreet(\"Rohan\"); // Hello, Rohan\ngreet();        // Hello, Student</code></pre><p>The default value <code>\"Student\"</code> is used only when the argument is not passed or is <code>undefined</code>.</p><h3>5. Rest Parameters (...args)</h3><p>Rest parameters let a function accept any number of arguments as an array:</p><pre><code>function sum(...numbers) {\n  let total = 0;\n  for (const num of numbers) {\n    total += num;\n  }\n  return total;\n}\n\nconsole.log(sum(1, 2, 3));       // 6\nconsole.log(sum(10, 20, 30, 40)); // 100</code></pre><p>The three dots (<code>...</code>) before the parameter name collect all remaining arguments into an array. This is useful when you do not know how many arguments will be passed.</p><h3>6. Function Expression</h3><p>A function expression stores a function in a variable. The function itself can be anonymous (no name):</p><pre><code>const multiply = function(a, b) {\n  return a * b;\n};\n\nconsole.log(multiply(4, 5)); // 20</code></pre><p>Unlike function declarations, function expressions are NOT hoisted. You must define them before you call them.</p><h3>7. Arrow Functions (=>)</h3><p>Arrow functions are a shorter syntax for writing functions, introduced in ES6:</p><pre><code>// Regular function\nconst add = function(a, b) {\n  return a + b;\n};\n\n// Arrow function (same thing)\nconst addArrow = (a, b) => {\n  return a + b;\n};\n\n// Even shorter: implicit return (one expression)\nconst addShort = (a, b) => a + b;\n\n// Single parameter: parentheses optional\nconst double = n => n * 2;</code></pre><p>Arrow functions have a few shortcuts: (1) If the body is a single expression, you can omit the curly braces and the <code>return</code> keyword. The expression is automatically returned. (2) If there is only one parameter, you can omit the parentheses.</p><h3>8. Callback Functions</h3><p>A <strong>callback</strong> is a function passed as an argument to another function. The receiving function decides when to call it.</p><pre><code>function processStudent(name, callback) {\n  console.log(\"Processing: \" + name);\n  callback(name);\n}\n\nfunction celebrate(studentName) {\n  console.log(\"Congratulations, \" + studentName + \"!\");\n}\n\nprocessStudent(\"Meera\", celebrate);</code></pre><p>Here, <code>celebrate</code> is passed as a callback to <code>processStudent</code>. The <code>processStudent</code> function calls it when it is ready. Callbacks are fundamental to JavaScript - they are used in event handlers, timers, and asynchronous operations.</p><h3>9. setTimeout and setInterval with Callbacks</h3><p><code>setTimeout</code> calls a function after a delay. <code>setInterval</code> calls a function repeatedly at a fixed interval.</p><pre><code>// Run once after 2 seconds\nsetTimeout(function() {\n  console.log(\"2 seconds passed!\");\n}, 2000);\n\n// Run every 1 second\nlet count = 0;\nconst timer = setInterval(function() {\n  count++;\n  console.log(\"Tick: \" + count);\n  if (count >= 5) {\n    clearInterval(timer); // Stop after 5 ticks\n  }\n}, 1000);</code></pre><p>The first argument to both is a callback function. The second argument is the time in milliseconds (1000ms = 1 second). Use <code>clearTimeout</code> and <code>clearInterval</code> to cancel them.</p><h3>10. IIFE (Immediately Invoked Function Expression)</h3><p>An IIFE is a function that runs immediately after it is defined. It is wrapped in parentheses and called right away:</p><pre><code>(function() {\n  const secret = \"hidden value\";\n  console.log(\"IIFE ran!\");\n})();\n\n// Arrow function IIFE\n(() => {\n  console.log(\"Arrow IIFE ran!\");\n})();</code></pre><p>IIFEs create a private scope. Variables declared inside do not leak into the global scope. This was very important before <code>let</code> and <code>const</code> existed, and is still useful for encapsulation.</p><h3>11. Functions as Event Handlers</h3><p>In web development, you often attach functions to HTML elements as event handlers. When the user interacts with the element, your function runs:</p><pre><code>// HTML: <button id=\"myBtn\">Click me</button>\n\nconst btn = document.getElementById(\"myBtn\");\n\nbtn.addEventListener(\"click\", function() {\n  btn.style.backgroundColor = \"purple\";\n  btn.textContent = \"Clicked!\";\n});\n\n// Same thing with an arrow function\nbtn.addEventListener(\"click\", () => {\n  console.log(\"Button was clicked\");\n});</code></pre><p>The function you pass to <code>addEventListener</code> is a callback. It waits until the event (click, keypress, etc.) happens, and then it runs.</p>",
+    "codeExamples": [
+      {
+        "title": "Function Declaration vs Expression vs Arrow",
+        "code": "// Function declaration (hoisted)\nfunction greet(name) {\n  return \"Hello, \" + name;\n}\n\n// Function expression (not hoisted)\nconst greetExpr = function(name) {\n  return \"Hi, \" + name;\n};\n\n// Arrow function (not hoisted)\nconst greetArrow = (name) => \"Hey, \" + name;\n\nconsole.log(greet(\"Aarav\"));\nconsole.log(greetExpr(\"Priya\"));\nconsole.log(greetArrow(\"Rohan\"));",
+        "language": "javascript",
+        "explanation": "All three create functions that do the same thing. The declaration is hoisted (can be called before it is defined). The expression and arrow function must be defined before use. The arrow function uses implicit return since the body is a single expression.",
+        "output": "Hello, Aarav\nHi, Priya\nHey, Rohan"
+      },
+      {
+        "title": "Parameters, Default Values, and Rest Parameters",
+        "code": "// Default parameter\nfunction enroll(name, course = \"JavaScript\") {\n  console.log(name + \" enrolled in \" + course);\n}\n\nenroll(\"Diya\", \"Python\");  // Diya enrolled in Python\nenroll(\"Vikram\");           // Vikram enrolled in JavaScript\n\n// Rest parameters\nfunction average(...scores) {\n  let total = 0;\n  for (const score of scores) {\n    total += score;\n  }\n  return total / scores.length;\n}\n\nconsole.log(average(80, 90, 70));       // 80\nconsole.log(average(95, 85, 75, 65));   // 80",
+        "language": "javascript",
+        "explanation": "Default parameters use a fallback value when no argument is given. Rest parameters (<code>...scores</code>) collect any number of arguments into an array. The <code>average</code> function works with 3 arguments or 4 arguments or any number - it handles them all.",
+        "output": "Diya enrolled in Python\nVikram enrolled in JavaScript\n80\n80"
+      },
+      {
+        "title": "Arrow Function Shortcuts",
+        "code": "// Full arrow function\nconst add = (a, b) => {\n  return a + b;\n};\n\n// Implicit return (single expression)\nconst multiply = (a, b) => a * b;\n\n// Single parameter - no parentheses needed\nconst double = n => n * 2;\n\n// No parameters - empty parentheses required\nconst getRandom = () => Math.floor(Math.random() * 100);\n\nconsole.log(add(3, 4));       // 7\nconsole.log(multiply(5, 6));   // 30\nconsole.log(double(8));        // 16\nconsole.log(getRandom());      // random number 0-99",
+        "language": "javascript",
+        "explanation": "Arrow functions have shortcuts. If the body is one expression, skip the braces and return keyword. If there is one parameter, skip the parentheses. If there are no parameters, you need empty parentheses <code>()</code>. These shortcuts make code more concise.",
+        "output": "7\n30\n16\n(random number between 0 and 99)"
+      },
+      {
+        "title": "Callback Functions",
+        "code": "// A function that takes a callback\nfunction processMarks(marks, callback) {\n  for (const mark of marks) {\n    callback(mark);\n  }\n}\n\n// Different callbacks for different behavior\nfunction printMark(m) {\n  console.log(\"Score: \" + m);\n}\n\nfunction checkPass(m) {\n  if (m >= 40) {\n    console.log(m + \" - Pass\");\n  } else {\n    console.log(m + \" - Fail\");\n  }\n}\n\nconst marks = [85, 32, 67, 28, 91];\nconsole.log(\"--- Print ---\");\nprocessMarks(marks, printMark);\nconsole.log(\"--- Check ---\");\nprocessMarks(marks, checkPass);",
+        "language": "javascript",
+        "explanation": "The <code>processMarks</code> function accepts an array and a callback. It loops through the array and calls the callback for each element. By passing different callbacks (<code>printMark</code> vs <code>checkPass</code>), the same function behaves differently. This is the power of callbacks.",
+        "output": "--- Print ---\nScore: 85\nScore: 32\nScore: 67\nScore: 28\nScore: 91\n--- Check ---\n85 - Pass\n32 - Fail\n67 - Pass\n28 - Fail\n91 - Pass"
+      },
+      {
+        "title": "setTimeout and setInterval",
+        "code": "// setTimeout - runs once after a delay\nconsole.log(\"Starting...\");\nsetTimeout(() => {\n  console.log(\"This runs after 1 second\");\n}, 1000);\n\n// setInterval - runs repeatedly\nlet ticks = 0;\nconst timer = setInterval(() => {\n  ticks++;\n  console.log(\"Tick \" + ticks);\n  if (ticks === 3) {\n    clearInterval(timer);\n    console.log(\"Timer stopped\");\n  }\n}, 1000);\n\nconsole.log(\"This runs immediately (before timeouts)\");",
+        "language": "javascript",
+        "explanation": "Both <code>setTimeout</code> and <code>setInterval</code> take a callback function and a delay in milliseconds. The code after them runs immediately, without waiting. The callbacks run later when the timer fires. Use <code>clearInterval</code> to stop a repeating timer.",
+        "output": "Starting...\nThis runs immediately (before timeouts)\nThis runs after 1 second\nTick 1\nTick 2\nTick 3\nTimer stopped"
+      },
+      {
+        "title": "IIFE (Immediately Invoked Function Expression)",
+        "code": "// IIFE with regular function\n(function() {\n  const message = \"I run immediately!\";\n  console.log(message);\n})();\n\n// IIFE with arrow function\n(() => {\n  const x = 10;\n  const y = 20;\n  console.log(\"Sum:\", x + y);\n})();\n\n// IIFE with a return value\nconst result = (() => {\n  return 42;\n})();\nconsole.log(\"Result:\", result);",
+        "language": "javascript",
+        "explanation": "An IIFE is a function wrapped in parentheses that is called immediately with <code>()</code> at the end. Variables inside an IIFE are private and do not leak into the global scope. The third example shows that an IIFE can return a value, which gets stored in the variable.",
+        "output": "I run immediately!\nSum: 30\nResult: 42"
+      },
+      {
+        "title": "Functions as Event Handlers (Browser)",
+        "code": "// Assume HTML: <button id=\"colorBtn\">Change Color</button>\n\nfunction changeButtonColor(buttonId) {\n  const btn = document.getElementById(buttonId);\n  const colors = [\"#a855f7\", \"#06b6d4\", \"#f59e0b\", \"#ef4444\"];\n  let index = 0;\n\n  btn.addEventListener(\"click\", () => {\n    btn.style.backgroundColor = colors[index];\n    btn.style.color = \"white\";\n    index = (index + 1) % colors.length;\n  });\n}\n\nchangeButtonColor(\"colorBtn\");\n// Each click cycles through purple, cyan, amber, red",
+        "language": "javascript",
+        "explanation": "This function takes a button's id and adds a click event listener. Each click changes the background color by cycling through an array of colors. The <code>% colors.length</code> makes the index wrap around to 0 after reaching the end. This shows how functions and callbacks work together in real web development.",
+        "output": "(Button changes color on each click: purple, cyan, amber, red, purple...)"
+      },
+      {
+        "title": "Higher-Order Function Pattern",
+        "code": "// A function that returns a function\nfunction createMultiplier(factor) {\n  return function(number) {\n    return number * factor;\n  };\n}\n\nconst double = createMultiplier(2);\nconst triple = createMultiplier(3);\nconst tenTimes = createMultiplier(10);\n\nconsole.log(double(5));    // 10\nconsole.log(triple(5));    // 15\nconsole.log(tenTimes(5));  // 50",
+        "language": "javascript",
+        "explanation": "A <strong>higher-order function</strong> is a function that takes a function as an argument or returns a function. Here, <code>createMultiplier</code> returns a new function that remembers the <code>factor</code>. Each call to <code>createMultiplier</code> creates a specialized multiplier function. This pattern is called a <strong>closure</strong>.",
+        "output": "10\n15\n50"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Calling a Function Without Parentheses",
+        "wrongCode": "function sayHello() {\n  return \"Hello!\";\n}\n\nconst result = sayHello; // Missing ()\nconsole.log(result); // Prints the function itself, not \"Hello!\"",
+        "error": "Prints the function code instead of its return value.",
+        "correctCode": "function sayHello() {\n  return \"Hello!\";\n}\n\nconst result = sayHello(); // With ()\nconsole.log(result); // \"Hello!\"",
+        "explanation": "Without parentheses, <code>sayHello</code> is just a reference to the function object. You are storing the function itself, not calling it. To actually run the function and get its return value, you need the parentheses: <code>sayHello()</code>."
+      },
+      {
+        "title": "Forgetting the return Statement",
+        "wrongCode": "function add(a, b) {\n  a + b; // Calculates but does not return!\n}\n\nconst sum = add(3, 4);\nconsole.log(sum); // undefined",
+        "error": "The function returns undefined because there is no return statement.",
+        "correctCode": "function add(a, b) {\n  return a + b;\n}\n\nconst sum = add(3, 4);\nconsole.log(sum); // 7",
+        "explanation": "If you calculate something inside a function but do not use <code>return</code>, the result is thrown away. The function returns <code>undefined</code> by default. Always use <code>return</code> to send a value back to the caller."
+      },
+      {
+        "title": "Arrow Function Returning an Object Literal",
+        "wrongCode": "// Trying to return an object\nconst makeStudent = (name) => { name: name, grade: \"10th\" };\n// JavaScript thinks the braces are a function body!",
+        "error": "SyntaxError or returns undefined. JavaScript interprets the braces as a block, not an object.",
+        "correctCode": "// Wrap the object in parentheses\nconst makeStudent = (name) => ({ name: name, grade: \"10th\" });\nconsole.log(makeStudent(\"Aarav\")); // { name: \"Aarav\", grade: \"10th\" }",
+        "explanation": "When an arrow function implicitly returns an object literal, you must wrap the object in parentheses. Without them, JavaScript thinks the curly braces are the function body, not an object. The parentheses tell JavaScript: this is an expression (an object), not a block."
+      },
+      {
+        "title": "Using a Function Expression Before It Is Defined",
+        "wrongCode": "sayHi(); // TypeError: sayHi is not a function\n\nconst sayHi = function() {\n  console.log(\"Hi!\");\n};",
+        "error": "TypeError: sayHi is not a function. Function expressions are NOT hoisted.",
+        "correctCode": "const sayHi = function() {\n  console.log(\"Hi!\");\n};\n\nsayHi(); // Works! Defined before the call.",
+        "explanation": "Function declarations are hoisted (you can call them before they appear in code). But function expressions and arrow functions stored in <code>const</code> or <code>let</code> are NOT hoisted. You must define them before you call them."
+      },
+      {
+        "title": "Not Understanding Callback Execution Timing",
+        "wrongCode": "console.log(\"A\");\nsetTimeout(() => console.log(\"B\"), 0);\nconsole.log(\"C\");\n// Many students expect: A, B, C\n// Actual output: A, C, B",
+        "error": "B prints after C, even though the timeout is 0 milliseconds.",
+        "correctCode": "// This is correct behavior!\nconsole.log(\"A\");\nsetTimeout(() => console.log(\"B\"), 0);\nconsole.log(\"C\");\n// Output: A, C, B (this is expected!)",
+        "explanation": "Even with a 0ms delay, <code>setTimeout</code> puts the callback in a queue. JavaScript finishes all synchronous code first (A, then C), and then processes the queue (B). This is how the JavaScript event loop works. Callbacks always run after the current code finishes."
+      },
+      {
+        "title": "Confusing Parameters and Arguments",
+        "wrongCode": "function greet(name) {\n  console.log(\"Hello, \" + name);\n}\n\n// Calling with no argument\ngreet(); // Hello, undefined",
+        "error": "No error, but prints \"Hello, undefined\" because no argument was passed.",
+        "correctCode": "function greet(name = \"friend\") {\n  console.log(\"Hello, \" + name);\n}\n\ngreet();        // Hello, friend\ngreet(\"Kavya\"); // Hello, Kavya",
+        "explanation": "If you call a function without providing an argument, the parameter becomes <code>undefined</code>. Use default parameters (<code>name = \"friend\"</code>) to handle missing arguments gracefully."
+      }
+    ],
+    "summary": [
+      "A function is a reusable block of code. Define it once, call it many times. Functions make code organized, readable, and maintainable.",
+      "Function declarations use the function keyword and are hoisted (can be called before they are defined). Function expressions and arrow functions are NOT hoisted.",
+      "Parameters are the variable names in the function definition. Arguments are the actual values passed when calling the function. If fewer arguments are passed, missing parameters become undefined.",
+      "The return statement sends a value back to the caller and stops the function. Without return, a function returns undefined by default.",
+      "Default parameters (name = \"value\") provide fallback values when arguments are not passed. Rest parameters (...args) collect any number of arguments into an array.",
+      "Arrow functions (=>) are a shorter syntax for functions. With one expression, you can skip braces and return. With one parameter, you can skip parentheses.",
+      "A callback is a function passed as an argument to another function. The receiving function decides when to call it. Callbacks are used in event handlers, timers, and async operations.",
+      "setTimeout runs a callback once after a delay. setInterval runs a callback repeatedly. Use clearTimeout and clearInterval to cancel them.",
+      "An IIFE (Immediately Invoked Function Expression) runs immediately after it is defined. It creates a private scope where variables do not leak into the global scope.",
+      "Functions are the backbone of event handling. You pass functions to addEventListener to respond to user interactions like clicks, key presses, and form submissions."
+    ]
+  },
+  "relatedTopics": ["loops-in-javascript", "arrays-in-javascript"],
+  "practice": {
+    "totalQuestions": 57,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>function greet() {\n  console.log(\"Hello!\");\n}\n\ngreet();\ngreet();</code></pre>",
+        "hint": "The function is called twice.",
+        "answer": "<code>Hello!</code><br><code>Hello!</code>",
+        "explanation": "The function <code>greet</code> is called twice. Each call executes the body, printing \"Hello!\" each time."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>function add(a, b) {\n  return a + b;\n}\n\nconsole.log(add(3, 7));</code></pre>",
+        "hint": "The function returns the sum of a and b.",
+        "answer": "<code>10</code>",
+        "explanation": "The function adds 3 and 7, returning 10. The <code>return</code> statement sends the value back to the caller, and <code>console.log</code> prints it."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>function multiply(a, b) {\n  a * b;\n}\n\nconsole.log(multiply(4, 5));</code></pre>",
+        "hint": "Look carefully - is there a return statement?",
+        "answer": "<code>undefined</code>",
+        "explanation": "The function calculates <code>a * b</code> but does not <code>return</code> the result. Without a return statement, the function returns <code>undefined</code> by default. This is a very common mistake."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const double = (n) => n * 2;\n\nconsole.log(double(6));</code></pre>",
+        "hint": "This is an arrow function with implicit return.",
+        "answer": "<code>12</code>",
+        "explanation": "The arrow function takes one parameter <code>n</code> and returns <code>n * 2</code>. Since the body is a single expression without braces, the return is implicit. 6 * 2 = 12."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>function greet(name = \"Student\") {\n  console.log(\"Hello, \" + name);\n}\n\ngreet(\"Diya\");\ngreet();</code></pre>",
+        "hint": "The second call passes no argument, so the default value is used.",
+        "answer": "<code>Hello, Diya</code><br><code>Hello, Student</code>",
+        "explanation": "The first call passes \"Diya\", so the default is not used. The second call passes nothing, so <code>name</code> gets the default value \"Student\"."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>sayHello();\n\nfunction sayHello() {\n  console.log(\"Hello!\");\n}</code></pre>",
+        "hint": "Function declarations are hoisted.",
+        "answer": "<code>Hello!</code>",
+        "explanation": "Function declarations are hoisted to the top of their scope. So even though <code>sayHello()</code> is called before the function definition, it works perfectly. The function is available throughout the scope."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function sum(...nums) {\n  let total = 0;\n  for (const n of nums) {\n    total += n;\n  }\n  return total;\n}\n\nconsole.log(sum(1, 2, 3, 4, 5));</code></pre>",
+        "hint": "Rest parameters collect all arguments into an array.",
+        "answer": "<code>15</code>",
+        "explanation": "The rest parameter <code>...nums</code> collects all 5 arguments into the array [1, 2, 3, 4, 5]. The loop adds them: 1+2+3+4+5 = 15."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const greet = function(name) {\n  return \"Hi, \" + name;\n};\n\nconsole.log(greet(\"Arjun\"));\nconsole.log(typeof greet);</code></pre>",
+        "hint": "A function expression stored in a variable. What is the type of a function?",
+        "answer": "<code>Hi, Arjun</code><br><code>function</code>",
+        "explanation": "The function expression is stored in <code>greet</code>. Calling it with \"Arjun\" returns \"Hi, Arjun\". The <code>typeof</code> a function is the string \"function\"."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function test(a, b, c) {\n  console.log(a, b, c);\n}\n\ntest(1, 2);</code></pre>",
+        "hint": "What happens when fewer arguments are passed than parameters?",
+        "answer": "<code>1 2 undefined</code>",
+        "explanation": "The function expects 3 parameters but receives only 2. The missing third parameter <code>c</code> becomes <code>undefined</code>. JavaScript does not throw an error for missing arguments."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const calc = (a, b, operation) => {\n  return operation(a, b);\n};\n\nconst subtract = (x, y) => x - y;\n\nconsole.log(calc(10, 3, subtract));</code></pre>",
+        "hint": "subtract is passed as a callback to calc.",
+        "answer": "<code>7</code>",
+        "explanation": "The function <code>calc</code> takes two numbers and a callback function <code>operation</code>. It calls <code>operation(10, 3)</code>, which is <code>subtract(10, 3)</code>, which returns 10 - 3 = 7."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function outer() {\n  const x = 10;\n  function inner() {\n    console.log(x);\n  }\n  inner();\n}\n\nouter();</code></pre>",
+        "hint": "Inner functions can access variables from outer functions.",
+        "answer": "<code>10</code>",
+        "explanation": "The <code>inner</code> function has access to the variable <code>x</code> from its enclosing function <code>outer</code>. This is called <strong>closure</strong>. When <code>inner()</code> runs, it looks for <code>x</code> and finds it in the outer scope."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function createCounter() {\n  let count = 0;\n  return function() {\n    count++;\n    return count;\n  };\n}\n\nconst counter = createCounter();\nconsole.log(counter());\nconsole.log(counter());\nconsole.log(counter());</code></pre>",
+        "hint": "The returned function remembers the count variable from createCounter.",
+        "answer": "<code>1</code><br><code>2</code><br><code>3</code>",
+        "explanation": "This is a closure. <code>createCounter</code> returns a function that remembers <code>count</code>. Each call to <code>counter()</code> increments and returns count. The variable persists between calls because the inner function holds a reference to it."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>(function(name) {\n  console.log(\"Hello, \" + name);\n})(\"Priya\");</code></pre>",
+        "hint": "This is an IIFE with an argument.",
+        "answer": "<code>Hello, Priya</code>",
+        "explanation": "This IIFE (Immediately Invoked Function Expression) is defined and called immediately. The argument \"Priya\" is passed as the <code>name</code> parameter. It prints \"Hello, Priya\" and then the function is done."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const funcs = [];\nfor (let i = 0; i < 3; i++) {\n  funcs.push(() => i);\n}\n\nconsole.log(funcs[0]());\nconsole.log(funcs[1]());\nconsole.log(funcs[2]());</code></pre>",
+        "hint": "let creates a new variable for each iteration.",
+        "answer": "<code>0</code><br><code>1</code><br><code>2</code>",
+        "explanation": "Because <code>let</code> is block-scoped, each iteration of the loop gets its own <code>i</code>. The arrow function in each iteration captures that specific <code>i</code>. So funcs[0] returns 0, funcs[1] returns 1, funcs[2] returns 2. With <code>var</code>, all three would return 3."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function apply(arr, fn) {\n  const result = [];\n  for (const item of arr) {\n    result.push(fn(item));\n  }\n  return result;\n}\n\nconst nums = [1, 2, 3, 4];\nconsole.log(apply(nums, n => n * n));</code></pre>",
+        "hint": "The callback squares each number. What does the result array look like?",
+        "answer": "<code>[1, 4, 9, 16]</code>",
+        "explanation": "The <code>apply</code> function loops through each item in the array and calls the callback <code>fn</code> on it. The callback <code>n => n * n</code> squares each number. The results [1, 4, 9, 16] are collected and returned."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between a parameter and an argument?",
+        "hint": "One is in the definition, the other is in the call.",
+        "answer": "A <strong>parameter</strong> is a variable name listed in the function definition (like a placeholder). An <strong>argument</strong> is the actual value you pass when calling the function. In <code>function greet(name) { }</code>, <code>name</code> is a parameter. In <code>greet(\"Aarav\")</code>, <code>\"Aarav\"</code> is an argument.",
+        "explanation": "Think of parameters as the labels on empty boxes. Arguments are the actual things you put in those boxes. The function is defined with parameters and called with arguments."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is a callback function? Give a simple example of when you would use one.",
+        "hint": "A function passed as an argument to another function.",
+        "answer": "A callback is a function passed as an argument to another function. The receiving function calls it when it is ready. Example: <code>setTimeout(function() { console.log(\"Done\"); }, 1000)</code>. Here the anonymous function is a callback that runs after 1 second. Callbacks are used in event handlers, timers, and array methods.",
+        "explanation": "Callbacks allow you to customize behavior. Instead of hardcoding what happens, you let the caller decide by passing a function. The click handler on a button is a callback. The function you pass to forEach is a callback."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const square = n => n * n;\nconst cube = n => n * n * n;\n\nfunction applyTo5(fn) {\n  return fn(5);\n}\n\nconsole.log(applyTo5(square));\nconsole.log(applyTo5(cube));</code></pre>",
+        "hint": "applyTo5 calls whatever function you pass with the argument 5.",
+        "answer": "<code>25</code><br><code>125</code>",
+        "explanation": "<code>applyTo5(square)</code> calls <code>square(5)</code> which returns 5*5=25. <code>applyTo5(cube)</code> calls <code>cube(5)</code> which returns 5*5*5=125. The function <code>applyTo5</code> is a higher-order function that accepts a callback."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function makeGreeter(greeting) {\n  return (name) => greeting + \", \" + name + \"!\";\n}\n\nconst hello = makeGreeter(\"Hello\");\nconst namaste = makeGreeter(\"Namaste\");\n\nconsole.log(hello(\"Vikram\"));\nconsole.log(namaste(\"Ananya\"));\nconsole.log(hello(\"Kavya\"));</code></pre>",
+        "hint": "Each call to makeGreeter returns a new function that remembers the greeting.",
+        "answer": "<code>Hello, Vikram!</code><br><code>Namaste, Ananya!</code><br><code>Hello, Kavya!</code>",
+        "explanation": "<code>makeGreeter</code> returns an arrow function that closes over <code>greeting</code>. <code>hello</code> remembers \"Hello\" and <code>namaste</code> remembers \"Namaste\". Each is an independent function with its own captured greeting."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const isEven = n => n % 2 === 0;\n\nconsole.log(isEven(4));\nconsole.log(isEven(7));</code></pre>",
+        "hint": "The modulo operator % gives the remainder. Even numbers have remainder 0 when divided by 2.",
+        "answer": "<code>true</code><br><code>false</code>",
+        "explanation": "4 % 2 is 0, so 0 === 0 is true. 7 % 2 is 1, so 1 === 0 is false. The arrow function returns a boolean."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>function max(a, b) {\n  if (a > b) return a;\n  return b;\n}\n\nconsole.log(max(15, 8));\nconsole.log(max(3, 12));</code></pre>",
+        "hint": "The function returns the larger of two numbers.",
+        "answer": "<code>15</code><br><code>12</code>",
+        "explanation": "First call: 15 > 8 is true, returns 15. Second call: 3 > 12 is false, falls through to return 12."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const lengths = [\"cat\", \"elephant\", \"dog\"].map(w => w.length);\nconsole.log(lengths);</code></pre>",
+        "hint": "map transforms each element. The callback returns the length of each word.",
+        "answer": "<code>[3, 8, 3]</code>",
+        "explanation": "The <code>map</code> method calls the arrow function on each element. \"cat\".length is 3, \"elephant\".length is 8, \"dog\".length is 3. The result is [3, 8, 3]."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function repeat(str, times) {\n  let result = \"\";\n  for (let i = 0; i < times; i++) {\n    result += str;\n  }\n  return result;\n}\n\nconsole.log(repeat(\"Ha\", 3));\nconsole.log(repeat(\"*\", 5));</code></pre>",
+        "hint": "The function concatenates the string 'times' number of times.",
+        "answer": "<code>HaHaHa</code><br><code>*****</code>",
+        "explanation": "First call: \"Ha\" repeated 3 times = \"HaHaHa\". Second call: \"*\" repeated 5 times = \"*****\". The function builds the result string using a loop."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const operations = {\n  add: (a, b) => a + b,\n  sub: (a, b) => a - b,\n  mul: (a, b) => a * b\n};\n\nconsole.log(operations.add(5, 3));\nconsole.log(operations.sub(10, 4));\nconsole.log(operations.mul(6, 7));</code></pre>",
+        "hint": "Functions stored as object properties (methods).",
+        "answer": "<code>8</code><br><code>6</code><br><code>42</code>",
+        "explanation": "The object <code>operations</code> stores three arrow functions as properties. Each is called using dot notation: add(5,3)=8, sub(10,4)=6, mul(6,7)=42."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function first(a) {\n  return function second(b) {\n    return a + b;\n  };\n}\n\nconsole.log(first(10)(20));</code></pre>",
+        "hint": "first(10) returns a function. That function is immediately called with 20.",
+        "answer": "<code>30</code>",
+        "explanation": "<code>first(10)</code> returns the <code>second</code> function with <code>a = 10</code>. Then <code>(20)</code> calls that returned function with <code>b = 20</code>. It returns 10 + 20 = 30. This is called currying."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function factorial(n) {\n  if (n <= 1) return 1;\n  return n * factorial(n - 1);\n}\n\nconsole.log(factorial(5));</code></pre>",
+        "hint": "This is a recursive function. It calls itself with a smaller number each time.",
+        "answer": "<code>120</code>",
+        "explanation": "factorial(5) = 5 * factorial(4) = 5 * 4 * factorial(3) = 5 * 4 * 3 * factorial(2) = 5 * 4 * 3 * 2 * factorial(1) = 5 * 4 * 3 * 2 * 1 = 120. The base case is n <= 1, which returns 1."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const pipeline = [n => n * 2, n => n + 10, n => n / 3];\n\nlet value = 5;\nfor (const fn of pipeline) {\n  value = fn(value);\n}\nconsole.log(value);</code></pre>",
+        "hint": "Apply each function in sequence: 5 -> *2 -> +10 -> /3.",
+        "answer": "<code>6.666666666666667</code>",
+        "explanation": "Step 1: 5 * 2 = 10. Step 2: 10 + 10 = 20. Step 3: 20 / 3 = 6.666666666666667. Each function in the pipeline transforms the value and passes it to the next."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function compose(f, g) {\n  return (x) => f(g(x));\n}\n\nconst double = n => n * 2;\nconst addOne = n => n + 1;\n\nconst doubleThenAdd = compose(addOne, double);\nconsole.log(doubleThenAdd(5));</code></pre>",
+        "hint": "compose returns a function that applies g first, then f.",
+        "answer": "<code>11</code>",
+        "explanation": "<code>compose(addOne, double)</code> returns <code>(x) => addOne(double(x))</code>. Calling with 5: double(5) = 10, then addOne(10) = 11. The function g (double) runs first, then f (addOne) runs on the result."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(\"Start\");\nsetTimeout(() => console.log(\"Timer\"), 0);\nconsole.log(\"End\");</code></pre>",
+        "hint": "Even with 0ms delay, setTimeout is asynchronous.",
+        "answer": "<code>Start</code><br><code>End</code><br><code>Timer</code>",
+        "explanation": "\"Start\" prints first. <code>setTimeout</code> with 0ms puts the callback in the task queue. \"End\" prints next (synchronous code runs first). Then \"Timer\" prints when the event loop processes the queue."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const sayName = (name) => {\n  console.log(\"Name: \" + name);\n};\n\nsayName(\"Meera\");</code></pre>",
+        "hint": "Arrow function with braces needs no return for console.log.",
+        "answer": "<code>Name: Meera</code>",
+        "explanation": "The arrow function takes \"Meera\" as the name parameter and logs \"Name: Meera\". Since we are using <code>console.log</code> (side effect) and not returning anything, the braces are fine."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is an IIFE and why would you use one?",
+        "hint": "It stands for Immediately Invoked Function Expression.",
+        "answer": "An IIFE is a function that is defined and immediately called: <code>(function() { })();</code>. It creates a private scope where variables do not pollute the global namespace. It was commonly used before <code>let</code> and <code>const</code> existed to prevent variable leaks. It is still useful for initialization code that should run once and for module patterns.",
+        "explanation": "Example: <code>(function() { const secret = 42; })();</code>. The variable <code>secret</code> is completely hidden from the outside. You cannot access it after the IIFE runs. This is useful for one-time setup code or creating isolated scopes."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function once(fn) {\n  let called = false;\n  let result;\n  return function(...args) {\n    if (!called) {\n      called = true;\n      result = fn(...args);\n    }\n    return result;\n  };\n}\n\nconst addOnce = once((a, b) => a + b);\nconsole.log(addOnce(3, 4));\nconsole.log(addOnce(10, 20));\nconsole.log(addOnce(100, 200));</code></pre>",
+        "hint": "The function only executes the original function on the first call.",
+        "answer": "<code>7</code><br><code>7</code><br><code>7</code>",
+        "explanation": "The <code>once</code> function wraps another function so it can only run once. The first call computes 3+4=7 and stores it. All subsequent calls return the cached result (7) without running the original function again."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const arr = [1, 2, 3];\narr.forEach((val, idx) => {\n  console.log(idx + \": \" + val);\n});</code></pre>",
+        "hint": "forEach passes each value and its index to the callback.",
+        "answer": "<code>0: 1</code><br><code>1: 2</code><br><code>2: 3</code>",
+        "explanation": "<code>forEach</code> calls the callback for each element, passing the value and the index. The callback prints both: index 0 has value 1, index 1 has value 2, index 2 has value 3."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What keyword is used to send a value back from a function?",
+        "options": {
+          "A": "send",
+          "B": "output",
+          "C": "return",
+          "D": "give"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>return</code> keyword sends a value back to the caller and stops the function. The other options are not valid JavaScript keywords for this purpose."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does a function return if there is no return statement?",
+        "options": {
+          "A": "null",
+          "B": "0",
+          "C": "undefined",
+          "D": "An empty string"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> By default, JavaScript functions return <code>undefined</code> when there is no explicit return statement. This is different from null (option A), which must be returned explicitly."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which of these is an arrow function?",
+        "options": {
+          "A": "function add(a, b) { return a + b; }",
+          "B": "const add = (a, b) => a + b;",
+          "C": "const add = new Function(\"a\", \"b\", \"return a + b\");",
+          "D": "add = def(a, b) { a + b }"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Arrow functions use the <code>=></code> syntax. Option A is a function declaration. Option C uses the Function constructor (rarely used). Option D is not valid JavaScript syntax."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the term for a function passed as an argument to another function?",
+        "options": {
+          "A": "Nested function",
+          "B": "Callback function",
+          "C": "Arrow function",
+          "D": "Static function"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A function passed as an argument to another function is called a <strong>callback</strong>. The receiving function decides when and how to call it. Callbacks are fundamental to JavaScript."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which type of function is hoisted in JavaScript?",
+        "options": {
+          "A": "Arrow functions",
+          "B": "Function expressions",
+          "C": "Function declarations",
+          "D": "All of the above"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Only function declarations (using the <code>function</code> keyword as a statement) are hoisted. Function expressions and arrow functions stored in variables are NOT hoisted."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the output of: const f = (a, b = 5) => a + b; console.log(f(3));",
+        "options": {
+          "A": "3",
+          "B": "8",
+          "C": "NaN",
+          "D": "undefined"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The parameter <code>b</code> has a default value of 5. Since only one argument (3) is passed, <code>a = 3</code> and <code>b = 5</code>. The function returns 3 + 5 = 8."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does rest parameter syntax look like?",
+        "options": {
+          "A": "function f(args...)",
+          "B": "function f(...args)",
+          "C": "function f(args[])",
+          "D": "function f(*args)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Rest parameters use three dots BEFORE the parameter name: <code>...args</code>. This collects all remaining arguments into an array. Option D is Python syntax, not JavaScript."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does setTimeout do?",
+        "options": {
+          "A": "Pauses the entire program for the specified time",
+          "B": "Runs a function once after a delay",
+          "C": "Runs a function repeatedly at intervals",
+          "D": "Sets a time limit on a function"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>setTimeout</code> schedules a function to run once after a specified delay. It does NOT pause the program (option A). Option C describes <code>setInterval</code>."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is an IIFE?",
+        "options": {
+          "A": "A function that runs in a loop",
+          "B": "A function that calls itself recursively",
+          "C": "A function that is defined and immediately called",
+          "D": "A function with no parameters"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> IIFE stands for Immediately Invoked Function Expression. It is a function wrapped in parentheses and called right away: <code>(function() { })();</code>. It creates a private scope."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "In the arrow function const f = x => x * 2, why are there no parentheses around x?",
+        "options": {
+          "A": "Arrow functions never need parentheses",
+          "B": "When there is exactly one parameter, parentheses are optional",
+          "C": "It is a syntax error that happens to work",
+          "D": "Parentheses are only needed for return values"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Arrow functions allow omitting parentheses when there is exactly one parameter. With zero parameters <code>() => ...</code> or multiple parameters <code>(a, b) => ...</code>, parentheses are required."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const f = () => {};\nconsole.log(f());</code></pre>",
+        "options": {
+          "A": "{}",
+          "B": "null",
+          "C": "undefined",
+          "D": "Error"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The arrow function has an empty body (the <code>{}</code> is the function block, not an object literal). With no return statement, it returns <code>undefined</code>. If you wanted to return an empty object, you would write <code>() => ({})</code>."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is a higher-order function?",
+        "options": {
+          "A": "A function defined at the top of the file",
+          "B": "A function that takes a function as argument or returns a function",
+          "C": "A function with more than 5 parameters",
+          "D": "A function that calls itself"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A higher-order function either takes a function as an argument, returns a function, or both. Examples include <code>map</code>, <code>filter</code>, <code>setTimeout</code>, and <code>addEventListener</code>. Option D describes a recursive function."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What happens when you call a function with more arguments than it has parameters?",
+        "options": {
+          "A": "JavaScript throws an error",
+          "B": "The extra arguments are silently ignored",
+          "C": "The function runs multiple times",
+          "D": "The extra arguments are stored in a special array"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Extra arguments are simply ignored. <code>function f(a) {}</code> called as <code>f(1, 2, 3)</code> just sets a=1 and ignores 2 and 3. No error is thrown. You can access all arguments using rest parameters (<code>...args</code>)."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the difference between clearTimeout and clearInterval?",
+        "options": {
+          "A": "They are identical - both work the same way",
+          "B": "clearTimeout cancels setTimeout, clearInterval cancels setInterval",
+          "C": "clearTimeout stops a loop, clearInterval stops a timer",
+          "D": "clearTimeout is synchronous, clearInterval is asynchronous"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>clearTimeout</code> cancels a one-time timer set by <code>setTimeout</code>. <code>clearInterval</code> cancels a repeating timer set by <code>setInterval</code>. Each is paired with its corresponding timer function."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "What is the output of: function f() {} console.log(typeof f);",
+        "options": {
+          "A": "\"object\"",
+          "B": "\"function\"",
+          "C": "\"undefined\"",
+          "D": "\"string\""
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Functions in JavaScript have their own type. <code>typeof</code> a function returns the string \"function\". Even though functions are technically objects, typeof distinguishes them."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What does the ... (spread/rest) syntax do in a function parameter?",
+        "options": {
+          "A": "Spreads the function across multiple files",
+          "B": "Collects remaining arguments into an array",
+          "C": "Makes all parameters optional",
+          "D": "Repeats the function call"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When used in function parameters, <code>...</code> is the rest syntax. It collects all remaining arguments into an array. <code>function sum(...nums) {}</code> called as <code>sum(1,2,3)</code> makes nums = [1,2,3]."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const f = (x) => x * 2;\nconsole.log(f(f(f(3))));</code></pre>",
+        "options": {
+          "A": "6",
+          "B": "12",
+          "C": "24",
+          "D": "48"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Working from inside out: f(3) = 6, f(6) = 12, f(12) = 24. Each call doubles the input. Three doublings of 3: 3 * 2 * 2 * 2 = 24."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Temperature Converter",
+        "difficulty": "Easy",
+        "description": "Write two functions: celsiusToFahrenheit(c) and fahrenheitToCelsius(f). Test them with the values 0, 100, and 72.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "0C = 32F\n100C = 212F\n72F = 22.22C",
+        "constraints": "Use arrow functions. Formula: F = C * 9/5 + 32 and C = (F - 32) * 5/9.",
+        "solution": "const celsiusToFahrenheit = (c) => c * 9/5 + 32;\nconst fahrenheitToCelsius = (f) => ((f - 32) * 5/9).toFixed(2);\n\nconsole.log(\"0C = \" + celsiusToFahrenheit(0) + \"F\");\nconsole.log(\"100C = \" + celsiusToFahrenheit(100) + \"F\");\nconsole.log(\"72F = \" + fahrenheitToCelsius(72) + \"C\");"
+      },
+      {
+        "id": "cc-2",
+        "title": "Write a Function That Changes a Button's Color",
+        "difficulty": "Easy",
+        "description": "Write a function called changeColor that takes a button's id and a color, and changes the button's background color when called. Test it with two different buttons.",
+        "sampleInput": "(No input required - assumes HTML buttons exist)",
+        "sampleOutput": "(Button with id 'btn1' turns purple, button with id 'btn2' turns teal)",
+        "constraints": "Use document.getElementById and style.backgroundColor.",
+        "solution": "function changeColor(buttonId, color) {\n  const btn = document.getElementById(buttonId);\n  btn.style.backgroundColor = color;\n  btn.style.color = \"white\";\n  btn.style.padding = \"10px 20px\";\n  btn.style.border = \"none\";\n  btn.style.borderRadius = \"6px\";\n  btn.style.cursor = \"pointer\";\n}\n\n// Usage:\n// changeColor(\"btn1\", \"#a855f7\");\n// changeColor(\"btn2\", \"#06b6d4\");"
+      },
+      {
+        "id": "cc-3",
+        "title": "Array Processor with Callback",
+        "difficulty": "Medium",
+        "description": "Kavya wants to build a flexible array processor. Write a function processArray(arr, callback) that applies the callback to each element and returns a new array. Test it with doubling, squaring, and checking if numbers are even.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Doubled: [2, 4, 6, 8, 10]\nSquared: [1, 4, 9, 16, 25]\nIs Even: [false, true, false, true, false]",
+        "constraints": "Write your own processArray function. Do not use built-in map.",
+        "solution": "function processArray(arr, callback) {\n  const result = [];\n  for (const item of arr) {\n    result.push(callback(item));\n  }\n  return result;\n}\n\nconst nums = [1, 2, 3, 4, 5];\nconsole.log(\"Doubled:\", processArray(nums, n => n * 2));\nconsole.log(\"Squared:\", processArray(nums, n => n * n));\nconsole.log(\"Is Even:\", processArray(nums, n => n % 2 === 0));"
+      },
+      {
+        "id": "cc-4",
+        "title": "Countdown Timer Function",
+        "difficulty": "Medium",
+        "description": "Write a function countdown(seconds) that uses setInterval to count down from the given number to 0, printing each second. When it reaches 0, print \"Time's up!\" and stop the timer.",
+        "sampleInput": "countdown(5)",
+        "sampleOutput": "5\n4\n3\n2\n1\n0\nTime's up!",
+        "constraints": "Use setInterval and clearInterval. The function should work for any number of seconds.",
+        "solution": "function countdown(seconds) {\n  let remaining = seconds;\n  console.log(remaining);\n  const timer = setInterval(() => {\n    remaining--;\n    console.log(remaining);\n    if (remaining === 0) {\n      console.log(\"Time's up!\");\n      clearInterval(timer);\n    }\n  }, 1000);\n}\n\ncountdown(5);"
+      },
+      {
+        "id": "cc-5",
+        "title": "Function Composition",
+        "difficulty": "Hard",
+        "description": "Arjun wants to chain functions. Write a function compose(...fns) that takes any number of functions and returns a new function that applies them right to left. Test with double, addTen, and half.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Result: 15 (5 -> double -> addTen -> half = 5*2=10, 10+10=20, 20/2=15... wait let me recalculate: right to left means half first, then addTen, then double)\ncompose(double, addTen, half)(20) => double(addTen(half(20))) => double(addTen(10)) => double(20) => 40",
+        "constraints": "Use rest parameters. The rightmost function runs first.",
+        "solution": "function compose(...fns) {\n  return function(x) {\n    let result = x;\n    for (let i = fns.length - 1; i >= 0; i--) {\n      result = fns[i](result);\n    }\n    return result;\n  };\n}\n\nconst double = n => n * 2;\nconst addTen = n => n + 10;\nconst half = n => n / 2;\n\nconst transform = compose(double, addTen, half);\nconsole.log(transform(20)); // half(20)=10, addTen(10)=20, double(20)=40 => 40"
+      },
+      {
+        "id": "cc-6",
+        "title": "Memoize Function",
+        "difficulty": "Hard",
+        "description": "Meera is learning about optimization. Write a function memoize(fn) that caches the results of expensive function calls. If the same arguments are passed again, return the cached result instead of recalculating.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "First call: (calculates) 25\nSecond call: (from cache) 25\nNew call: (calculates) 100",
+        "constraints": "Use an object or Map to store cached results. Handle single-argument functions.",
+        "solution": "function memoize(fn) {\n  const cache = {};\n  return function(arg) {\n    if (arg in cache) {\n      console.log(\"(from cache)\");\n      return cache[arg];\n    }\n    console.log(\"(calculating)\");\n    const result = fn(arg);\n    cache[arg] = result;\n    return result;\n  };\n}\n\nconst square = memoize(n => n * n);\nconsole.log(square(5));  // (calculating) 25\nconsole.log(square(5));  // (from cache) 25\nconsole.log(square(10)); // (calculating) 100"
+      },
+      {
+        "id": "cc-7",
+        "title": "Debounce Function",
+        "difficulty": "Hard",
+        "description": "Write a debounce function that delays calling the original function until a certain amount of time has passed since the last call. If the function is called again before the delay expires, reset the timer.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "(Only the last call executes after the delay period)",
+        "constraints": "Use setTimeout and clearTimeout. Return a new function.",
+        "solution": "function debounce(fn, delay) {\n  let timerId;\n  return function(...args) {\n    clearTimeout(timerId);\n    timerId = setTimeout(() => {\n      fn(...args);\n    }, delay);\n  };\n}\n\n// Usage example:\nconst logMessage = debounce((msg) => {\n  console.log(\"Debounced:\", msg);\n}, 500);\n\nlogMessage(\"first\");  // cancelled\nlogMessage(\"second\"); // cancelled\nlogMessage(\"third\");  // runs after 500ms"
+      }
+    ]
+  }
+}

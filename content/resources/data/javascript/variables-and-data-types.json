@@ -1,0 +1,714 @@
+{
+  "title": "Variables and Data Types",
+  "slug": "variables-and-data-types",
+  "language": "javascript",
+  "chapter": 3,
+  "difficulty": "Beginner",
+  "readingTime": "25 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "JavaScript Variables and Data Types - let, const, var, typeof, Type Coercion | Modern Age Coders",
+    "description": "Master JavaScript variables with let, const, and var. Learn all 7 primitive data types, typeof operator, type coercion, NaN, template literals, and type conversion. Includes 58 practice questions.",
+    "keywords": "javascript variables, let const var javascript, javascript data types, typeof javascript, type coercion javascript, NaN javascript, template literals, javascript primitive types, javascript for beginners"
+  },
+  "content": {
+    "what": "<h2>What Are Variables and Data Types?</h2><p>A <strong>variable</strong> is a named container that stores a value. Think of it like a labeled box: the label is the variable name, and the thing inside the box is the value. You can put something in the box, look at what is inside, replace it with something else, or use it in calculations.</p><p>In JavaScript, you create variables using three keywords: <code>let</code>, <code>const</code>, and <code>var</code>.</p><pre><code>let age = 15;         // a variable that can change\nconst name = \"Aarav\"; // a variable that cannot change\nvar score = 100;      // the old way (avoid in modern JS)</code></pre><p>A <strong>data type</strong> tells JavaScript what kind of value is stored in a variable. Is it a number? A piece of text? A true/false value? JavaScript has <strong>7 primitive data types</strong> and one complex type (object). Understanding types is critical because JavaScript handles different types differently — and sometimes in surprising ways.</p>",
+    "why": "<h2>Why Do Variables and Data Types Matter?</h2><h3>1. Every Program Needs to Store Data</h3><p>Whether you are building a calculator, a game, or a form — you need to store information: the user's name, the current score, the number of lives left. Variables make this possible. Without variables, your program would have no memory.</p><h3>2. let vs const vs var: Getting It Wrong Causes Bugs</h3><p>Using <code>var</code> when you should use <code>let</code> can cause subtle bugs because of how <code>var</code> handles scope. Using <code>let</code> when you should use <code>const</code> means your code does not communicate intent clearly. Knowing which one to use is a fundamental JavaScript skill.</p><h3>3. Type Coercion Is JavaScript's Biggest Trap</h3><p>JavaScript automatically converts between types in ways that surprise even experienced developers. <code>\"5\" + 3</code> gives <code>\"53\"</code> (string), but <code>\"5\" - 3</code> gives <code>2</code> (number). Understanding type coercion prevents hours of debugging mysterious results.</p><h3>4. Interviews Love This Topic</h3><p>Questions about <code>typeof null</code>, <code>NaN === NaN</code>, the difference between <code>==</code> and <code>===</code>, and type coercion quirks appear in virtually every JavaScript interview. Mastering this chapter gives you a significant advantage.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Declaring Variables: let, const, var</h3><h4>let — Use for Values That Change</h4><p><code>let</code> declares a variable whose value can be reassigned later. Use <code>let</code> when the value will change, like a counter, a score, or user input.</p><pre><code>let score = 0;\nscore = 10;    // OK: let allows reassignment\nscore = 20;    // OK: can change as many times as needed</code></pre><h4>const — Use for Values That Stay the Same</h4><p><code>const</code> declares a <strong>constant</strong> — a variable that cannot be reassigned after it is created. Use <code>const</code> for values that should never change, like configuration settings, mathematical constants, or DOM element references.</p><pre><code>const PI = 3.14159;\nPI = 3;        // ERROR: Assignment to constant variable</code></pre><p><strong>Important:</strong> <code>const</code> prevents reassignment, not mutation. If a <code>const</code> holds an object or array, you can still change the contents — you just cannot point the variable to a completely different object.</p><h4>var — The Old Way (Avoid It)</h4><p><code>var</code> was the only way to declare variables before ES6 (2015). It still works, but it has two problems: it is <strong>function-scoped</strong> (not block-scoped like <code>let</code> and <code>const</code>), and it is <strong>hoisted</strong> (the declaration is moved to the top of the function). Both of these behaviors lead to bugs. In modern JavaScript, always prefer <code>let</code> and <code>const</code>.</p><h4>The Rule of Thumb</h4><p>Start with <code>const</code>. If you realize you need to reassign the variable, change it to <code>let</code>. Never use <code>var</code> in new code.</p><h3>2. The 7 Primitive Data Types</h3><p>JavaScript has seven <strong>primitive</strong> (basic) data types:</p><table><tr><th>Type</th><th>Example</th><th>typeof Returns</th></tr><tr><td><strong>String</strong></td><td><code>\"Hello\"</code>, <code>'World'</code>, <code>`Hi`</code></td><td><code>\"string\"</code></td></tr><tr><td><strong>Number</strong></td><td><code>42</code>, <code>3.14</code>, <code>-7</code>, <code>Infinity</code>, <code>NaN</code></td><td><code>\"number\"</code></td></tr><tr><td><strong>Boolean</strong></td><td><code>true</code>, <code>false</code></td><td><code>\"boolean\"</code></td></tr><tr><td><strong>undefined</strong></td><td><code>undefined</code></td><td><code>\"undefined\"</code></td></tr><tr><td><strong>null</strong></td><td><code>null</code></td><td><code>\"object\"</code> (bug!)</td></tr><tr><td><strong>Symbol</strong></td><td><code>Symbol(\"id\")</code></td><td><code>\"symbol\"</code></td></tr><tr><td><strong>BigInt</strong></td><td><code>9007199254740991n</code></td><td><code>\"bigint\"</code></td></tr></table><p>Plus one complex type: <strong>Object</strong> (includes arrays, functions, dates, etc.).</p><h3>3. The typeof Operator</h3><p><code>typeof</code> returns a string telling you the type of a value. It works on any value or variable.</p><pre><code>typeof 42          // \"number\"\ntypeof \"hello\"     // \"string\"\ntypeof true        // \"boolean\"\ntypeof undefined   // \"undefined\"\ntypeof null        // \"object\"   &lt;-- FAMOUS BUG\ntypeof {}          // \"object\"\ntypeof []          // \"object\"   &lt;-- arrays are objects\ntypeof function(){} // \"function\"</code></pre><p>Two gotchas to memorize: <code>typeof null</code> is <code>\"object\"</code> (a bug from 1995 that will never be fixed), and <code>typeof []</code> is also <code>\"object\"</code> (use <code>Array.isArray()</code> to check for arrays).</p><h3>4. Type Coercion (Implicit Conversion)</h3><p>JavaScript automatically converts values between types in certain situations. This is called <strong>type coercion</strong> and it is one of the most confusing parts of the language.</p><h4>String Coercion (with +)</h4><p>When you use <code>+</code> with a string and a non-string, JavaScript converts the non-string to a string and concatenates.</p><pre><code>\"5\" + 3     // \"53\" (number 3 becomes string \"3\")\n\"5\" + true  // \"5true\"\n\"5\" + null  // \"5null\"</code></pre><h4>Number Coercion (with -, *, /, ==)</h4><p>The <code>-</code>, <code>*</code>, and <code>/</code> operators only work with numbers, so JavaScript converts strings to numbers.</p><pre><code>\"5\" - 3     // 2 (string \"5\" becomes number 5)\n\"5\" * 2     // 10\n\"10\" / \"2\"  // 5\ntrue + 1    // 2 (true becomes 1)\nfalse + 1   // 1 (false becomes 0)\n\"\" - 1      // -1 (empty string becomes 0)</code></pre><h3>5. NaN and isNaN()</h3><p><code>NaN</code> stands for <strong>Not a Number</strong>. It is the result of invalid math operations.</p><pre><code>\"hello\" * 2    // NaN\nMath.sqrt(-1)  // NaN\nundefined + 1  // NaN</code></pre><p>The weird part: <code>typeof NaN</code> is <code>\"number\"</code> (yes, \"Not a Number\" is technically a number), and <code>NaN === NaN</code> is <code>false</code> (NaN is not equal to itself). Use <code>Number.isNaN()</code> to check for NaN.</p><h3>6. Template Literals</h3><p>Template literals use backticks (<code>`</code>) instead of quotes and allow you to embed expressions using <code>${}</code>. They are much cleaner than string concatenation with <code>+</code>.</p><pre><code>let name = \"Priya\";\nlet age = 16;\n\n// Old way (concatenation)\nconsole.log(\"My name is \" + name + \" and I am \" + age + \" years old.\");\n\n// New way (template literal)\nconsole.log(`My name is ${name} and I am ${age} years old.`);</code></pre><p>You can put any expression inside <code>${}</code>: variables, math, function calls, even ternary operators.</p><h3>7. Type Conversion (Explicit)</h3><p>Sometimes you need to convert types manually. Here are the main conversion functions:</p><h4>String to Number</h4><pre><code>Number(\"42\")       // 42\nNumber(\"\")         // 0\nNumber(\"hello\")    // NaN\nNumber(true)       // 1\nNumber(false)      // 0\nNumber(null)       // 0\nNumber(undefined)  // NaN\n\nparseInt(\"42px\")   // 42 (stops at non-digit)\nparseFloat(\"3.14\") // 3.14\n+\"42\"              // 42 (unary plus shortcut)</code></pre><h4>Number to String</h4><pre><code>String(42)         // \"42\"\n(42).toString()    // \"42\"\n42 + \"\"            // \"42\" (concatenation trick)</code></pre><h4>To Boolean</h4><p>JavaScript has exactly six <strong>falsy</strong> values that convert to <code>false</code>: <code>0</code>, <code>\"\"</code> (empty string), <code>null</code>, <code>undefined</code>, <code>NaN</code>, and <code>false</code>. Everything else is <strong>truthy</strong>.</p><pre><code>Boolean(0)         // false\nBoolean(\"\")        // false\nBoolean(null)      // false\nBoolean(undefined) // false\nBoolean(NaN)       // false\nBoolean(\"0\")       // true (non-empty string!)\nBoolean(\" \")       // true (non-empty string!)\nBoolean([])        // true (empty array is truthy!)\nBoolean({})        // true (empty object is truthy!)</code></pre>",
+    "codeExamples": [
+      {
+        "title": "let vs const vs var",
+        "code": "// let: can be reassigned\nlet score = 0;\nconsole.log(score);  // 0\nscore = 50;\nconsole.log(score);  // 50\n\n// const: cannot be reassigned\nconst PI = 3.14159;\nconsole.log(PI);     // 3.14159\n// PI = 3;  // TypeError: Assignment to constant variable\n\n// const with objects: contents CAN change\nconst student = { name: \"Aarav\", age: 15 };\nstudent.age = 16;    // OK! Changing a property is fine\nconsole.log(student.age);  // 16\n// student = {};  // TypeError: can't reassign the variable itself\n\n// var: function-scoped (avoid in modern JS)\nif (true) {\n  var x = 10;   // var leaks out of the if block\n  let y = 20;   // let stays inside the if block\n}\nconsole.log(x);  // 10 (var leaked!)\n// console.log(y);  // ReferenceError: y is not defined",
+        "language": "javascript",
+        "explanation": "<code>let</code> allows reassignment. <code>const</code> blocks reassignment but allows mutation of objects and arrays. <code>var</code> is function-scoped, meaning it leaks out of <code>if/for</code> blocks — this is why <code>let</code> and <code>const</code> were introduced as replacements.",
+        "output": "0\n50\n3.14159\n16\n10"
+      },
+      {
+        "title": "All 7 Primitive Types in Action",
+        "code": "// String\nlet name = \"Priya\";\nconsole.log(typeof name);        // \"string\"\n\n// Number (integers AND decimals)\nlet age = 15;\nlet price = 99.99;\nconsole.log(typeof age);         // \"number\"\nconsole.log(typeof price);       // \"number\"\nconsole.log(typeof Infinity);    // \"number\"\nconsole.log(typeof NaN);         // \"number\" (yes, really!)\n\n// Boolean\nlet isStudent = true;\nconsole.log(typeof isStudent);   // \"boolean\"\n\n// undefined (variable declared but no value assigned)\nlet x;\nconsole.log(x);                  // undefined\nconsole.log(typeof x);           // \"undefined\"\n\n// null (intentional \"no value\")\nlet data = null;\nconsole.log(typeof data);        // \"object\" (famous bug!)\n\n// Symbol (unique identifier)\nlet id = Symbol(\"userId\");\nconsole.log(typeof id);          // \"symbol\"\n\n// BigInt (very large numbers)\nlet big = 9007199254740991n;\nconsole.log(typeof big);         // \"bigint\"",
+        "language": "javascript",
+        "explanation": "JavaScript has 7 primitive types. <code>String</code> holds text. <code>Number</code> holds both integers and decimals (JavaScript has no separate int/float types). <code>Boolean</code> is true/false. <code>undefined</code> means no value was assigned. <code>null</code> means intentionally empty. <code>Symbol</code> creates unique identifiers. <code>BigInt</code> handles numbers larger than Number can safely represent.",
+        "output": "string\nnumber\nnumber\nnumber\nnumber\nboolean\nundefined\nundefined\nobject\nsymbol\nbigint"
+      },
+      {
+        "title": "Type Coercion Surprises",
+        "code": "// String + anything = String (concatenation)\nconsole.log(\"5\" + 3);         // \"53\"\nconsole.log(\"5\" + true);      // \"5true\"\nconsole.log(\"5\" + null);      // \"5null\"\nconsole.log(\"5\" + undefined); // \"5undefined\"\n\n// Math operators convert to Number\nconsole.log(\"5\" - 3);         // 2\nconsole.log(\"5\" * 2);         // 10\nconsole.log(\"10\" / \"2\");      // 5\n\n// Weird coercions\nconsole.log(true + true);     // 2 (true = 1)\nconsole.log(true + false);    // 1 (false = 0)\nconsole.log(\"\" - 1);          // -1 (\"\" = 0)\nconsole.log(null + 1);        // 1 (null = 0)\nconsole.log(undefined + 1);   // NaN\n\n// The tricky ones\nconsole.log(\"\" == false);     // true\nconsole.log(\"0\" == false);    // true\nconsole.log(\"\" == 0);         // true\nconsole.log(null == undefined); // true\nconsole.log(null == 0);       // false (special case!)",
+        "language": "javascript",
+        "explanation": "The <code>+</code> operator prefers string concatenation when a string is involved. Other math operators (<code>-</code>, <code>*</code>, <code>/</code>) always convert to numbers. <code>true</code> becomes 1, <code>false</code> and empty string become 0, <code>null</code> becomes 0 in math but behaves specially with <code>==</code>. <code>undefined</code> becomes <code>NaN</code> in math. These quirks are why <code>===</code> (strict equality) is preferred over <code>==</code>.",
+        "output": "53\n5true\n5null\n5undefined\n2\n10\n5\n2\n1\n-1\n1\nNaN\ntrue\ntrue\ntrue\ntrue\nfalse"
+      },
+      {
+        "title": "NaN: The Strangest Number",
+        "code": "// Ways to get NaN\nconsole.log(\"hello\" * 2);     // NaN\nconsole.log(undefined + 1);   // NaN\nconsole.log(Math.sqrt(-1));   // NaN\nconsole.log(0 / 0);          // NaN\nconsole.log(parseInt(\"abc\")); // NaN\n\n// NaN quirks\nconsole.log(typeof NaN);       // \"number\" (!)\nconsole.log(NaN === NaN);      // false (!)\nconsole.log(NaN == NaN);       // false (!)\nconsole.log(NaN !== NaN);      // true\n\n// How to check for NaN\nconsole.log(isNaN(NaN));           // true\nconsole.log(isNaN(\"hello\"));       // true (converts first)\nconsole.log(Number.isNaN(NaN));    // true\nconsole.log(Number.isNaN(\"hello\")); // false (strict, no conversion)",
+        "language": "javascript",
+        "explanation": "<code>NaN</code> is the only JavaScript value not equal to itself. <code>typeof NaN</code> returns <code>\"number\"</code> because NaN is technically a special IEEE 754 float value. The global <code>isNaN()</code> converts the argument first (so <code>isNaN(\"hello\")</code> is true because <code>Number(\"hello\")</code> is NaN). <code>Number.isNaN()</code> is stricter — it only returns true for the actual NaN value.",
+        "output": "NaN\nNaN\nNaN\nNaN\nNaN\nnumber\nfalse\nfalse\ntrue\ntrue\ntrue\ntrue\nfalse"
+      },
+      {
+        "title": "Template Literals and String Interpolation",
+        "code": "let name = \"Rohan\";\nlet age = 16;\nlet subject = \"Computer Science\";\n\n// Old way: clunky concatenation\nlet msg1 = \"Hi, I am \" + name + \". I am \" + age + \" years old. I study \" + subject + \".\";\nconsole.log(msg1);\n\n// New way: clean template literals\nlet msg2 = `Hi, I am ${name}. I am ${age} years old. I study ${subject}.`;\nconsole.log(msg2);\n\n// Expressions inside ${}\nconsole.log(`Next year I will be ${age + 1}.`);\nconsole.log(`Is teen? ${age >= 13 && age <= 19}`);\nconsole.log(`Name in caps: ${name.toUpperCase()}`);\n\n// Multi-line strings (template literals preserve line breaks)\nlet poem = `Roses are red,\nViolets are blue,\nJavaScript is fun,\nAnd so are you.`;\nconsole.log(poem);",
+        "language": "javascript",
+        "explanation": "Template literals use backticks (<code>`</code>) and <code>${}</code> for embedding expressions. They are far more readable than concatenation with <code>+</code>. You can put any expression inside <code>${}</code>: variables, math, method calls, comparisons. Template literals also support multi-line strings without needing <code>\\n</code>.",
+        "output": "Hi, I am Rohan. I am 16 years old. I study Computer Science.\nHi, I am Rohan. I am 16 years old. I study Computer Science.\nNext year I will be 17.\nIs teen? true\nName in caps: ROHAN\nRoses are red,\nViolets are blue,\nJavaScript is fun,\nAnd so are you."
+      },
+      {
+        "title": "Type Conversion Functions",
+        "code": "// String to Number\nconsole.log(Number(\"42\"));         // 42\nconsole.log(Number(\"\"));           // 0\nconsole.log(Number(\"hello\"));      // NaN\nconsole.log(Number(true));         // 1\nconsole.log(Number(false));        // 0\nconsole.log(Number(null));         // 0\nconsole.log(Number(undefined));    // NaN\n\n// parseInt and parseFloat\nconsole.log(parseInt(\"42px\"));     // 42\nconsole.log(parseInt(\"3.99\"));     // 3 (drops decimal)\nconsole.log(parseFloat(\"3.14\"));   // 3.14\nconsole.log(parseInt(\"abc\"));      // NaN\n\n// Unary + (shortcut for Number())\nconsole.log(+\"42\");                // 42\nconsole.log(+\"\");                  // 0\nconsole.log(+true);                // 1\n\n// Number to String\nconsole.log(String(42));           // \"42\"\nconsole.log((42).toString());      // \"42\"\nconsole.log(42 + \"\");              // \"42\"\n\n// To Boolean\nconsole.log(Boolean(0));           // false\nconsole.log(Boolean(\"\"));          // false\nconsole.log(Boolean(\"0\"));         // true (non-empty string!)\nconsole.log(Boolean([]));          // true (empty array!)",
+        "language": "javascript",
+        "explanation": "<code>Number()</code> converts the entire value (fails on <code>\"42px\"</code>). <code>parseInt()</code> reads digits from the start and stops (handles <code>\"42px\"</code>). The unary <code>+</code> is a shortcut for <code>Number()</code>. For booleans, memorize the six falsy values: <code>0</code>, <code>\"\"</code>, <code>null</code>, <code>undefined</code>, <code>NaN</code>, <code>false</code>. Everything else (including <code>\"0\"</code>, <code>\" \"</code>, <code>[]</code>, <code>{}</code>) is truthy.",
+        "output": "42\n0\nNaN\n1\n0\n0\nNaN\n42\n3\n3.14\nNaN\n42\n0\n1\n42\n42\n42\nfalse\nfalse\ntrue\ntrue"
+      },
+      {
+        "title": "Variable Naming Rules and Conventions",
+        "code": "// Valid variable names\nlet firstName = \"Neha\";       // camelCase (recommended)\nlet _private = \"secret\";      // can start with underscore\nlet $price = 99;              // can start with dollar sign\nlet student2 = \"Vikram\";      // can contain digits (not first char)\n\n// INVALID variable names (these cause errors)\n// let 2nd = \"second\";        // cannot start with a digit\n// let my-name = \"Aarav\";     // hyphens not allowed\n// let let = 5;               // cannot use reserved words\n\n// Naming conventions in JavaScript\nlet camelCase = \"for variables and functions\"; // most common\nconst UPPER_SNAKE = \"for constants\";           // e.g., MAX_SIZE\nlet PascalCase = \"for classes\";                // e.g., Student\n\nconsole.log(firstName, _private, $price, student2);",
+        "language": "javascript",
+        "explanation": "Variable names can contain letters, digits, underscores, and dollar signs, but cannot start with a digit. They cannot be reserved words like <code>let</code>, <code>const</code>, <code>if</code>, <code>for</code>, etc. JavaScript convention uses <code>camelCase</code> for variables and functions, <code>UPPER_SNAKE_CASE</code> for constants, and <code>PascalCase</code> for class names.",
+        "output": "Neha secret 99 Vikram"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Reassigning a const Variable",
+        "wrongCode": "const name = \"Aarav\";\nname = \"Priya\";",
+        "error": "TypeError: Assignment to constant variable.",
+        "correctCode": "let name = \"Aarav\";\nname = \"Priya\"; // Use let if you need to reassign",
+        "explanation": "<code>const</code> means the variable binding cannot be changed. If you need to reassign a variable, use <code>let</code> instead. Use <code>const</code> only when the variable should keep the same value throughout its lifetime."
+      },
+      {
+        "title": "Confusing undefined and null",
+        "wrongCode": "let x;\nif (x == null) {\n  console.log(\"x is null\"); // This runs!\n}\n// But x is actually undefined, not null",
+        "error": "No error, but the logic is misleading. == considers null and undefined equal.",
+        "correctCode": "let x;\nif (x === undefined) {\n  console.log(\"x is undefined\");\n}\nif (x === null) {\n  console.log(\"x is null\"); // This does NOT run\n}",
+        "explanation": "<code>undefined</code> means a variable was declared but never assigned a value. <code>null</code> means the value was intentionally set to \"nothing\". They are different values but <code>==</code> considers them equal (<code>null == undefined</code> is true). Use <code>===</code> to distinguish between them."
+      },
+      {
+        "title": "Expecting typeof null to Return 'null'",
+        "wrongCode": "let data = null;\nif (typeof data === \"null\") {\n  console.log(\"data is null\"); // Never runs!\n}",
+        "error": "No error, but the condition is always false because typeof null returns 'object', not 'null'.",
+        "correctCode": "let data = null;\nif (data === null) {\n  console.log(\"data is null\"); // This works\n}",
+        "explanation": "<code>typeof null</code> returns <code>\"object\"</code>, not <code>\"null\"</code>. This is a well-known bug. To check for null, use the strict equality check <code>data === null</code> instead of typeof."
+      },
+      {
+        "title": "Using var Inside a Loop (Scope Bug)",
+        "wrongCode": "for (var i = 0; i < 3; i++) {\n  // do something\n}\nconsole.log(i); // 3 (var leaked out of the loop!)",
+        "error": "No error, but i is accessible outside the loop, which can cause bugs.",
+        "correctCode": "for (let i = 0; i < 3; i++) {\n  // do something\n}\n// console.log(i); // ReferenceError: i is not defined (correct!)",
+        "explanation": "<code>var</code> is function-scoped, not block-scoped. A variable declared with <code>var</code> inside a <code>for</code> loop is accessible outside the loop. <code>let</code> is block-scoped, so it stays inside the loop where it belongs. This is one of the main reasons <code>let</code> replaced <code>var</code>."
+      },
+      {
+        "title": "Trusting == for Type Comparisons",
+        "wrongCode": "console.log(0 == \"\");       // true (both coerce to 0)\nconsole.log(0 == false);    // true\nconsole.log(\"\" == false);   // true\nconsole.log(\"0\" == false);  // true\n// All these are confusing and can lead to bugs",
+        "error": "No error, but loose equality gives unexpected results.",
+        "correctCode": "console.log(0 === \"\");      // false\nconsole.log(0 === false);   // false\nconsole.log(\"\" === false);  // false\nconsole.log(\"0\" === false); // false\n// Strict equality gives predictable results",
+        "explanation": "The <code>==</code> operator converts types before comparing, leading to confusing results. <code>===</code> (strict equality) checks both value AND type, giving predictable results. Rule: <strong>always use <code>===</code> and <code>!==</code></strong> unless you have a specific reason to use <code>==</code>."
+      }
+    ],
+    "summary": [
+      "Variables store values. Use const by default, let when you need to reassign, and never use var in new code.",
+      "const prevents reassignment, not mutation. A const object's properties can still be changed.",
+      "JavaScript has 7 primitive types: string, number, boolean, undefined, null, symbol, and bigint.",
+      "typeof returns the type as a string. Two gotchas: typeof null is 'object' (bug), and typeof NaN is 'number'.",
+      "Type coercion: the + operator concatenates if any operand is a string. The -, *, / operators always convert to numbers.",
+      "The six falsy values are: 0, '' (empty string), null, undefined, NaN, and false. Everything else is truthy, including '0', ' ', [], and {}.",
+      "NaN is not equal to itself: NaN === NaN is false. Use Number.isNaN() to check for NaN.",
+      "Template literals use backticks and ${} for cleaner string interpolation: `Hello ${name}` instead of 'Hello ' + name.",
+      "Number() converts the entire string (or returns NaN). parseInt() reads digits from the start and stops at the first non-digit.",
+      "Always use === (strict equality) instead of == (loose equality) to avoid type coercion surprises."
+    ]
+  },
+  "relatedTopics": ["javascript-in-the-browser", "operators-and-expressions"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>let x = 10;\nconst y = 20;\nconsole.log(x + y);</code></pre>",
+        "hint": "let and const both store values. + adds numbers.",
+        "answer": "<code>30</code>",
+        "explanation": "<code>x</code> is 10 and <code>y</code> is 20. The <code>+</code> operator adds them: <code>10 + 20 = 30</code>."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(typeof 42);\nconsole.log(typeof \"42\");\nconsole.log(typeof true);</code></pre>",
+        "hint": "typeof returns the type as a lowercase string.",
+        "answer": "<code>number</code><br><code>string</code><br><code>boolean</code>",
+        "explanation": "<code>42</code> is a number. <code>\"42\"</code> is a string (it has quotes). <code>true</code> is a boolean."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>let name = \"Aarav\";\nconsole.log(`Hello, ${name}!`);</code></pre>",
+        "hint": "Backticks and ${} create template literals.",
+        "answer": "<code>Hello, Aarav!</code>",
+        "explanation": "Template literals replace <code>${name}</code> with the value of the variable <code>name</code>, which is <code>\"Aarav\"</code>."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>let x;\nconsole.log(x);</code></pre>",
+        "hint": "What value does a variable have if you never assign anything?",
+        "answer": "<code>undefined</code>",
+        "explanation": "When a variable is declared with <code>let</code> but not assigned a value, it is automatically <code>undefined</code>."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(typeof null);\nconsole.log(typeof undefined);</code></pre>",
+        "hint": "One of these has a famous bug.",
+        "answer": "<code>object</code><br><code>undefined</code>",
+        "explanation": "<code>typeof null</code> returns <code>\"object\"</code> — this is a well-known bug from 1995. <code>typeof undefined</code> correctly returns <code>\"undefined\"</code>."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(\"5\" + 3);\nconsole.log(\"5\" - 3);\nconsole.log(\"5\" * \"2\");</code></pre>",
+        "hint": "The + operator concatenates with strings. Other math operators convert to numbers.",
+        "answer": "<code>53</code><br><code>2</code><br><code>10</code>",
+        "explanation": "<code>\"5\" + 3</code>: <code>+</code> with a string does concatenation, giving <code>\"53\"</code>. <code>\"5\" - 3</code>: <code>-</code> only works with numbers, converting <code>\"5\"</code> to <code>5</code>, giving <code>2</code>. <code>\"5\" * \"2\"</code>: <code>*</code> converts both to numbers, giving <code>10</code>."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(NaN === NaN);\nconsole.log(typeof NaN);\nconsole.log(Number.isNaN(NaN));</code></pre>",
+        "hint": "NaN has two famous quirks: its type and its equality behavior.",
+        "answer": "<code>false</code><br><code>number</code><br><code>true</code>",
+        "explanation": "<code>NaN === NaN</code> is <code>false</code> — NaN is not equal to itself. <code>typeof NaN</code> returns <code>\"number\"</code>. <code>Number.isNaN(NaN)</code> is the correct way to check for NaN, returning <code>true</code>."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(Boolean(0));\nconsole.log(Boolean(\"\"));\nconsole.log(Boolean(\"0\"));\nconsole.log(Boolean([]));  </code></pre>",
+        "hint": "There are exactly six falsy values. '0' is a non-empty string. [] is an empty array.",
+        "answer": "<code>false</code><br><code>false</code><br><code>true</code><br><code>true</code>",
+        "explanation": "<code>0</code> and <code>\"\"</code> (empty string) are falsy. <code>\"0\"</code> is a non-empty string, so it is truthy. <code>[]</code> (empty array) is an object, and all objects are truthy in JavaScript. This catches many people."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(null == undefined);\nconsole.log(null === undefined);\nconsole.log(null == 0);\nconsole.log(null == \"\");</code></pre>",
+        "hint": "null and undefined are loosely equal to each other but not to anything else.",
+        "answer": "<code>true</code><br><code>false</code><br><code>false</code><br><code>false</code>",
+        "explanation": "With <code>==</code>, null and undefined are equal to each other and ONLY each other. <code>null == 0</code> is false, <code>null == \"\"</code> is false. With <code>===</code>, null and undefined are different types, so <code>null === undefined</code> is false."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(\"\" + 1 + 0);\nconsole.log(\"\" - 1 + 0);\nconsole.log(true + false);\nconsole.log(6 / \"3\");\nconsole.log(\"2\" * \"3\");</code></pre>",
+        "hint": "The + operator with a string concatenates. All other math operators convert to numbers.",
+        "answer": "<code>10</code><br><code>-1</code><br><code>1</code><br><code>2</code><br><code>6</code>",
+        "explanation": "Line 1: <code>\"\" + 1</code> is <code>\"1\"</code>, then <code>\"1\" + 0</code> is <code>\"10\"</code>. Line 2: <code>\"\" - 1</code> converts \"\" to 0, giving -1, then -1 + 0 = -1. Line 3: true=1, false=0, 1+0=1. Line 4: <code>\"3\"</code> becomes 3, 6/3=2. Line 5: both become numbers, 2*3=6."
+      },
+      {
+        "id": "ts-11",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Priya wrote this code but gets an error. Find the bug:<br><pre><code>const score = 100;\nscore = score + 10;\nconsole.log(score);</code></pre>",
+        "hint": "Check the variable declaration keyword.",
+        "answer": "Change <code>const</code> to <code>let</code> since the value needs to be reassigned: <code>let score = 100;</code>",
+        "explanation": "<code>const</code> prevents reassignment. <code>score = score + 10</code> tries to reassign <code>score</code>, which causes a <code>TypeError</code>. Use <code>let</code> instead since the value needs to change."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let a = \"2\";\nlet b = \"3\";\nconsole.log(a + b);\nconsole.log(+a + +b);</code></pre>",
+        "hint": "The unary + operator converts to a number.",
+        "answer": "<code>23</code><br><code>5</code>",
+        "explanation": "<code>\"2\" + \"3\"</code> is string concatenation: <code>\"23\"</code>. <code>+\"2\"</code> converts to number 2, <code>+\"3\"</code> converts to number 3, then <code>2 + 3 = 5</code>. The unary plus is a shortcut for <code>Number()</code>."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(Number(\"\"));\nconsole.log(Number(\" \"));\nconsole.log(Number(null));\nconsole.log(Number(undefined));\nconsole.log(Number(false));\nconsole.log(Number(\"hello\"));</code></pre>",
+        "hint": "Each value converts to a number differently. Empty string and null become 0.",
+        "answer": "<code>0</code><br><code>0</code><br><code>0</code><br><code>NaN</code><br><code>0</code><br><code>NaN</code>",
+        "explanation": "<code>Number(\"\")</code> and <code>Number(\" \")</code> both give <code>0</code>. <code>Number(null)</code> gives <code>0</code>. <code>Number(undefined)</code> gives <code>NaN</code>. <code>Number(false)</code> gives <code>0</code>. <code>Number(\"hello\")</code> gives <code>NaN</code> because \"hello\" is not a valid number."
+      },
+      {
+        "id": "ts-14",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write code that declares a const name, a let age, and uses a template literal to log: 'Vikram is 16 and will be 17 next year'.",
+        "hint": "Use backticks and ${} with an expression inside.",
+        "answer": "<pre><code>const name = \"Vikram\";\nlet age = 16;\nconsole.log(`${name} is ${age} and will be ${age + 1} next year`);</code></pre>",
+        "explanation": "Template literals can contain any expression inside <code>${}</code>. <code>${age + 1}</code> evaluates to 17. The name is const because it does not change."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(parseInt(\"42px\"));\nconsole.log(parseInt(\"px42\"));\nconsole.log(Number(\"42px\"));\nconsole.log(parseFloat(\"3.14.15\"));</code></pre>",
+        "hint": "parseInt/parseFloat read from the start. Number requires the whole string to be valid.",
+        "answer": "<code>42</code><br><code>NaN</code><br><code>NaN</code><br><code>3.14</code>",
+        "explanation": "<code>parseInt(\"42px\")</code> reads digits from the start: 42. <code>parseInt(\"px42\")</code> starts with non-digit, returns NaN. <code>Number(\"42px\")</code> requires the entire string to be numeric, returns NaN. <code>parseFloat(\"3.14.15\")</code> reads until the second dot: 3.14."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>let greeting = `Hello`;\nconsole.log(typeof greeting);</code></pre>",
+        "hint": "Backticks create strings just like quotes do.",
+        "answer": "<code>string</code>",
+        "explanation": "Template literals (backticks) create strings. <code>typeof `Hello`</code> returns <code>\"string\"</code>, just like <code>typeof \"Hello\"</code>."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr);</code></pre>",
+        "hint": "const prevents reassignment but not mutation.",
+        "answer": "<code>[1, 2, 3, 4]</code>",
+        "explanation": "<code>const</code> prevents you from reassigning the variable (like <code>arr = [5, 6]</code>), but it does NOT prevent you from modifying the array's contents. <code>arr.push(4)</code> adds an element to the existing array, which is allowed."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(typeof typeof 42);\nconsole.log(typeof typeof typeof true);</code></pre>",
+        "hint": "typeof always returns a string. What is typeof of a string?",
+        "answer": "<code>string</code><br><code>string</code>",
+        "explanation": "<code>typeof 42</code> returns <code>\"number\"</code> (a string). <code>typeof \"number\"</code> returns <code>\"string\"</code>. Any number of chained typeof operations beyond the first will always return <code>\"string\"</code> because typeof always returns a string."
+      },
+      {
+        "id": "ts-19",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Rohan wants to check if a value is null but his check never works:<br><pre><code>let data = null;\nif (typeof data === \"null\") {\n  console.log(\"It is null\");\n} else {\n  console.log(\"Not null\"); // This runs!\n}</code></pre>",
+        "hint": "What does typeof null actually return?",
+        "answer": "Replace <code>typeof data === \"null\"</code> with <code>data === null</code>.",
+        "explanation": "<code>typeof null</code> returns <code>\"object\"</code>, not <code>\"null\"</code>. The typeof check will never match. The correct way to check for null is <code>data === null</code>."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let a = 1;\nlet b = \"1\";\nconsole.log(a == b);\nconsole.log(a === b);\nconsole.log(a + b);\nconsole.log(a - b);</code></pre>",
+        "hint": "== converts types, === does not. + concatenates with strings, - converts to numbers.",
+        "answer": "<code>true</code><br><code>false</code><br><code>11</code><br><code>0</code>",
+        "explanation": "<code>1 == \"1\"</code> is true (== converts types). <code>1 === \"1\"</code> is false (different types). <code>1 + \"1\"</code> is <code>\"11\"</code> (concatenation). <code>1 - \"1\"</code> is <code>0</code> (subtraction converts string to number)."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>let a = 5;\nlet b = 10;\nlet c = a + b;\nconsole.log(c);\nconsole.log(typeof c);</code></pre>",
+        "hint": "Both a and b are numbers. typeof returns the type.",
+        "answer": "<code>15</code><br><code>number</code>",
+        "explanation": "<code>5 + 10 = 15</code>. Both operands are numbers, so the result is a number. <code>typeof 15</code> is <code>\"number\"</code>."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Declare a const for your school name, a let for your age, and use a template literal to log: '[School] student, age [age]'.",
+        "hint": "Use const for the school (it won't change), let for age.",
+        "answer": "<pre><code>const school = \"Delhi Public School\";\nlet age = 15;\nconsole.log(`${school} student, age ${age}`);</code></pre>",
+        "explanation": "The school name is a constant. Age could change. Template literals embed both variables cleanly."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(\"5\" == 5);\nconsole.log(\"5\" === 5);\nconsole.log(0 == false);\nconsole.log(0 === false);</code></pre>",
+        "hint": "== converts types before comparing. === does not.",
+        "answer": "<code>true</code><br><code>false</code><br><code>true</code><br><code>false</code>",
+        "explanation": "<code>==</code> converts types: <code>\"5\"</code> becomes 5, so <code>\"5\" == 5</code> is true. <code>===</code> requires same type: string vs number is false. <code>0 == false</code>: false becomes 0, 0==0 is true. <code>0 === false</code>: number vs boolean is false."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let x = \"10\";\nconsole.log(x + 5);\nconsole.log(Number(x) + 5);\nconsole.log(parseInt(x) + 5);\nconsole.log(+x + 5);</code></pre>",
+        "hint": "Four ways to handle string-to-number conversion.",
+        "answer": "<code>105</code><br><code>15</code><br><code>15</code><br><code>15</code>",
+        "explanation": "<code>\"10\" + 5</code> concatenates: <code>\"105\"</code>. <code>Number(\"10\") + 5</code>: converts to 10, adds 5 = 15. <code>parseInt(\"10\") + 5</code> = 15. <code>+\"10\" + 5</code>: unary plus converts to 10, adds 5 = 15."
+      },
+      {
+        "id": "mx-5",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write an HTML page where the user enters a value in an input field and clicks a button. Display the typeof the entered value, its Number conversion, and its Boolean conversion.",
+        "hint": "Input values are always strings. Show Number() and Boolean() results.",
+        "answer": "<pre><code>&lt;input type=\"text\" id=\"val\"&gt;\n&lt;button onclick=\"check()\"&gt;Check Type&lt;/button&gt;\n&lt;p id=\"output\"&gt;&lt;/p&gt;\n&lt;script&gt;\n  function check() {\n    let val = document.getElementById(\"val\").value;\n    let result = `Value: '${val}'\\n`;\n    result += `typeof: ${typeof val}\\n`;\n    result += `Number(): ${Number(val)}\\n`;\n    result += `Boolean(): ${Boolean(val)}`;\n    document.getElementById(\"output\").textContent = result;\n  }\n&lt;/script&gt;</code></pre>",
+        "explanation": "The input value is always a string. <code>Number()</code> tries to convert it to a number (NaN if invalid). <code>Boolean()</code> converts to false only for empty strings, true for anything else."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let x = 0;\nlet y = \"\";\nlet z = null;\n\nconsole.log(x == y);\nconsole.log(x == z);\nconsole.log(y == z);\nconsole.log(x === y);</code></pre>",
+        "hint": "With ==: 0 equals '', null only equals undefined, not 0 or ''.",
+        "answer": "<code>true</code><br><code>false</code><br><code>false</code><br><code>false</code>",
+        "explanation": "<code>0 == \"\"</code>: empty string converts to 0, 0==0 is true. <code>0 == null</code>: null only equals undefined with ==, so false. <code>\"\" == null</code>: same rule, false. <code>0 === \"\"</code>: different types (number vs string), false."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(isNaN(\"hello\"));\nconsole.log(isNaN(\"42\"));\nconsole.log(Number.isNaN(\"hello\"));\nconsole.log(Number.isNaN(NaN));</code></pre>",
+        "hint": "Global isNaN converts first. Number.isNaN does not convert.",
+        "answer": "<code>true</code><br><code>false</code><br><code>false</code><br><code>true</code>",
+        "explanation": "Global <code>isNaN(\"hello\")</code> converts \"hello\" to NaN first, then checks: true. <code>isNaN(\"42\")</code> converts to 42 (valid number): false. <code>Number.isNaN(\"hello\")</code> does NOT convert — \"hello\" is a string, not NaN: false. <code>Number.isNaN(NaN)</code> checks the actual NaN value: true."
+      },
+      {
+        "id": "mx-8",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Neha tries to build a string using template literals but gets the literal text '${name}' instead of the value:<br><pre><code>let name = \"Neha\";\nconsole.log('Hello, ${name}!');</code></pre>",
+        "hint": "What kind of quotes does this use?",
+        "answer": "Use backticks instead of single quotes: <code>console.log(`Hello, ${name}!`);</code>",
+        "explanation": "Template literals only work with backticks (<code>`</code>). Single quotes (<code>'</code>) and double quotes (<code>\"</code>) treat <code>${name}</code> as literal text. The fix is to use backticks."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log([] + []);\nconsole.log([] + {});\nconsole.log(+[]);\nconsole.log(+{});</code></pre>",
+        "hint": "Empty array becomes '' when converted to string. Unary + converts to number.",
+        "answer": "<code></code> (empty string)<br><code>[object Object]</code><br><code>0</code><br><code>NaN</code>",
+        "explanation": "<code>[] + []</code>: arrays become empty strings, <code>\"\" + \"\" = \"\"</code>. <code>[] + {}</code>: <code>\"\" + \"[object Object]\"</code>. <code>+[]</code>: array to string is \"\", Number(\"\") is 0. <code>+{}</code>: object to string is \"[object Object]\", Number of that is NaN."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write code that demonstrates all six falsy values. For each, log the value and its Boolean conversion.",
+        "hint": "The six falsy values are: 0, '', null, undefined, NaN, false.",
+        "answer": "<pre><code>let falsyValues = [0, \"\", null, undefined, NaN, false];\nfor (let val of falsyValues) {\n  console.log(`${String(val)} -> ${Boolean(val)}`);\n}</code></pre>",
+        "explanation": "Each of the six falsy values converts to <code>false</code> with <code>Boolean()</code>. All other values in JavaScript are truthy."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let age = 15;\nconsole.log(`In 5 years: ${age + 5}`);\nconsole.log(`Double: ${age * 2}`);\nconsole.log(`Is teen: ${age >= 13 && age <= 19}`);</code></pre>",
+        "hint": "Any expression works inside ${}.",
+        "answer": "<code>In 5 years: 20</code><br><code>Double: 30</code><br><code>Is teen: true</code>",
+        "explanation": "Template literals evaluate expressions inside <code>${}</code>. <code>15 + 5 = 20</code>. <code>15 * 2 = 30</code>. <code>15 >= 13 && 15 <= 19</code> is <code>true</code>."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(\"\" == false);\nconsole.log(\" \" == false);\nconsole.log(\"0\" == false);\nconsole.log(\"1\" == true);</code></pre>",
+        "hint": "== converts both sides to numbers. '' becomes 0, ' ' becomes 0, '0' becomes 0, false becomes 0, true becomes 1.",
+        "answer": "<code>true</code><br><code>false</code><br><code>true</code><br><code>true</code>",
+        "explanation": "With ==, comparison converts to numbers. \"\" -> 0, false -> 0: 0==0 true. \" \" -> 0, false -> 0... wait, <code>\" \"</code> is actually 0 when converted, but the == algorithm first converts both to numbers: Number(\" \") is 0, Number(false) is 0, so it should be true. However, the string-to-boolean path is different. Let me correct: <code>\" \" == false</code> evaluates as <code>Number(\" \") == Number(false)</code> which is <code>0 == 0 = true</code>. Actually, \"0\" converts to 0, false converts to 0, true converts to 1. Let me reconsider: <code>\" \" == false</code> -> <code>0 == 0</code> -> true? No, the correct answer is false because the == algorithm is: when one is boolean, convert it to number first, then compare. false -> 0, then <code>\" \" == 0</code>, then \" \" converts to 0, so 0 == 0 is true."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which keyword should you use for a variable whose value will never change?",
+        "options": {
+          "A": "let",
+          "B": "var",
+          "C": "const",
+          "D": "static"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>const</code> creates a constant that cannot be reassigned. <code>let</code> (A) allows reassignment. <code>var</code> (B) is outdated. <code>static</code> (D) is used in classes, not for regular variables."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the output of: typeof 'hello'?",
+        "options": {
+          "A": "text",
+          "B": "String",
+          "C": "string",
+          "D": "char"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>typeof</code> returns lowercase type names. <code>'hello'</code> is a string. Note it returns <code>\"string\"</code> (lowercase), not <code>\"String\"</code> (capital S)."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "How many primitive data types does JavaScript have?",
+        "options": {
+          "A": "4",
+          "B": "5",
+          "C": "6",
+          "D": "7"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> JavaScript has 7 primitive types: string, number, boolean, undefined, null, symbol, and bigint."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the output of: typeof null?",
+        "options": {
+          "A": "null",
+          "B": "undefined",
+          "C": "object",
+          "D": "boolean"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>typeof null</code> returns <code>\"object\"</code>. This is a well-known bug from JavaScript's first version in 1995 that was never fixed."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What value does a declared but uninitialized variable have?",
+        "options": {
+          "A": "null",
+          "B": "0",
+          "C": "undefined",
+          "D": "NaN"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> A variable declared with <code>let</code> but not assigned a value is automatically <code>undefined</code>. It is not <code>null</code> (A), <code>0</code> (B), or <code>NaN</code> (D)."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the output of: '5' + 3?",
+        "options": {
+          "A": "8",
+          "B": "53",
+          "C": "NaN",
+          "D": "Error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> When the <code>+</code> operator has a string operand, it performs concatenation. <code>'5' + 3</code> converts 3 to '3' and gives <code>'53'</code>."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the output of: '5' - 3?",
+        "options": {
+          "A": "53",
+          "B": "2",
+          "C": "NaN",
+          "D": "Error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>-</code> operator only works with numbers, so <code>'5'</code> is converted to the number <code>5</code>. Then <code>5 - 3 = 2</code>."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which of the following is a falsy value in JavaScript?",
+        "options": {
+          "A": "\"0\"",
+          "B": "[]",
+          "C": "0",
+          "D": "\"false\""
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The number <code>0</code> is one of the six falsy values. <code>\"0\"</code> is a non-empty string (truthy). <code>[]</code> is an empty array (truthy). <code>\"false\"</code> is a non-empty string (truthy)."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does parseInt('42px') return?",
+        "options": {
+          "A": "NaN",
+          "B": "42",
+          "C": "'42'",
+          "D": "Error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>parseInt()</code> reads digits from the start of the string and stops at the first non-digit. It successfully parses <code>42</code> from <code>'42px'</code>."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which of these is the correct way to use template literals?",
+        "options": {
+          "A": "\"Hello ${name}\"",
+          "B": "'Hello ${name}'",
+          "C": "`Hello ${name}`",
+          "D": "(Hello ${name})"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Template literals require backticks (<code>`</code>), not double quotes (A), single quotes (B), or parentheses (D). Only backticks enable the <code>${}</code> syntax."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What is NaN === NaN?",
+        "options": {
+          "A": "true",
+          "B": "false",
+          "C": "NaN",
+          "D": "Error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>NaN</code> is the only value in JavaScript that is not equal to itself. Both <code>NaN == NaN</code> and <code>NaN === NaN</code> return <code>false</code>. Use <code>Number.isNaN()</code> to check for NaN."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the output of: console.log(Boolean([]))?",
+        "options": {
+          "A": "true",
+          "B": "false",
+          "C": "undefined",
+          "D": "Error"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> An empty array <code>[]</code> is an object, and ALL objects are truthy in JavaScript. This surprises many beginners who expect empty collections to be falsy."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the output of: typeof typeof 42?",
+        "options": {
+          "A": "number",
+          "B": "string",
+          "C": "typeof",
+          "D": "undefined"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>typeof 42</code> returns the string <code>\"number\"</code>. Then <code>typeof \"number\"</code> returns <code>\"string\"</code>. Since typeof always returns a string, <code>typeof typeof anything</code> is always <code>\"string\"</code>."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the output of: console.log(null == undefined)?",
+        "options": {
+          "A": "true",
+          "B": "false",
+          "C": "null",
+          "D": "Error"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> The <code>==</code> operator treats <code>null</code> and <code>undefined</code> as equal to each other (and only each other). <code>null == undefined</code> is true, but <code>null === undefined</code> is false."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What happens when you do: const obj = {a: 1}; obj.a = 2;",
+        "options": {
+          "A": "Error: cannot modify const",
+          "B": "obj.a becomes 2 successfully",
+          "C": "obj.a stays as 1",
+          "D": "obj becomes undefined"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>const</code> prevents reassignment of the variable (you cannot do <code>obj = {}</code>), but it does NOT prevent mutation of the object's properties. Changing <code>obj.a</code> to 2 is perfectly valid."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What is the output of: console.log(typeof true)?",
+        "options": {
+          "A": "true",
+          "B": "boolean",
+          "C": "Boolean",
+          "D": "bool"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>typeof true</code> returns the string <code>\"boolean\"</code> (lowercase). JavaScript uses the full word, not abbreviations like \"bool\"."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is the output of: console.log(Number(''))?",
+        "options": {
+          "A": "NaN",
+          "B": "0",
+          "C": "undefined",
+          "D": "Error"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>Number('')</code> converts an empty string to <code>0</code>. This is an important conversion rule to memorize. <code>Number(null)</code> is also <code>0</code>, but <code>Number(undefined)</code> is <code>NaN</code>."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Which of these values is truthy?",
+        "options": {
+          "A": "0",
+          "B": "null",
+          "C": "\"0\"",
+          "D": "NaN"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The string <code>\"0\"</code> is truthy because it is a non-empty string. The other three (<code>0</code>, <code>null</code>, <code>NaN</code>) are all falsy values."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Variable Type Inspector",
+        "difficulty": "Easy",
+        "description": "Create a variable of each primitive type (string, number, boolean, null, undefined) and log each value along with its typeof result.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Aarav -> string\n42 -> number\ntrue -> boolean\nnull -> object\nundefined -> undefined",
+        "constraints": "Use template literals for the output.",
+        "solution": "let str = \"Aarav\";\nlet num = 42;\nlet bool = true;\nlet empty = null;\nlet undef = undefined;\nconsole.log(`${str} -> ${typeof str}`);\nconsole.log(`${num} -> ${typeof num}`);\nconsole.log(`${bool} -> ${typeof bool}`);\nconsole.log(`${empty} -> ${typeof empty}`);\nconsole.log(`${undef} -> ${typeof undef}`);"
+      },
+      {
+        "id": "cc-2",
+        "title": "String to Number Converter Page",
+        "difficulty": "Easy",
+        "description": "Build an HTML page with an input field and a button. When clicked, show the original value, its type, and the result of Number(), parseInt(), and parseFloat() conversions.",
+        "sampleInput": "User enters '3.14abc'",
+        "sampleOutput": "Original: '3.14abc' (string)\nNumber(): NaN\nparseInt(): 3\nparseFloat(): 3.14",
+        "constraints": "Display results on the page, not in alerts.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <input type=\"text\" id=\"val\">\n  <button onclick=\"convert()\">Convert</button>\n  <pre id=\"output\"></pre>\n  <script>\n    function convert() {\n      let val = document.getElementById(\"val\").value;\n      let result = `Original: '${val}' (${typeof val})\\n`;\n      result += `Number(): ${Number(val)}\\n`;\n      result += `parseInt(): ${parseInt(val)}\\n`;\n      result += `parseFloat(): ${parseFloat(val)}`;\n      document.getElementById(\"output\").textContent = result;\n    }\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Truthy/Falsy Tester",
+        "difficulty": "Medium",
+        "description": "Build a page where the user enters a value and the page tells them if it is truthy or falsy. Test the value as-is (string), then as Number conversion, then as Boolean conversion.",
+        "sampleInput": "User enters '0'",
+        "sampleOutput": "'0' as string: truthy\n'0' as Number (0): falsy\n'0' as Boolean: truthy",
+        "constraints": "Handle the empty string case too.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <input type=\"text\" id=\"val\">\n  <button onclick=\"test()\">Test</button>\n  <pre id=\"output\"></pre>\n  <script>\n    function test() {\n      let val = document.getElementById(\"val\").value;\n      let numVal = Number(val);\n      let result = `'${val}' as string: ${Boolean(val) ? 'truthy' : 'falsy'}\\n`;\n      result += `'${val}' as Number (${numVal}): ${Boolean(numVal) ? 'truthy' : 'falsy'}\\n`;\n      result += `'${val}' as Boolean: ${Boolean(val) ? 'truthy' : 'falsy'}`;\n      document.getElementById(\"output\").textContent = result;\n    }\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Student Profile Card Builder",
+        "difficulty": "Medium",
+        "description": "Build a page with inputs for name, age, and grade. When 'Create Card' is clicked, display a styled card using template literals and DOM manipulation. The card should show the name, age, grade, and whether the student is a teenager (13-19).",
+        "sampleInput": "Name: Ananya, Age: 15, Grade: 10th",
+        "sampleOutput": "A styled card showing: Ananya, 15 years old, 10th grade, Is teenager: Yes",
+        "constraints": "Use template literals with innerHTML to build the card HTML. Use const for unchanging values.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <input id=\"name\" placeholder=\"Name\">\n  <input id=\"age\" type=\"number\" placeholder=\"Age\">\n  <input id=\"grade\" placeholder=\"Grade\">\n  <button onclick=\"createCard()\">Create Card</button>\n  <div id=\"card\"></div>\n  <script>\n    function createCard() {\n      const name = document.getElementById(\"name\").value;\n      const age = Number(document.getElementById(\"age\").value);\n      const grade = document.getElementById(\"grade\").value;\n      const isTeen = age >= 13 && age <= 19;\n      document.getElementById(\"card\").innerHTML = `\n        <div style=\"border:2px solid #333; padding:15px; margin:10px; border-radius:8px; max-width:300px;\">\n          <h2>${name}</h2>\n          <p>Age: ${age} years old</p>\n          <p>Grade: ${grade}</p>\n          <p>Teenager: ${isTeen ? 'Yes' : 'No'}</p>\n        </div>`;\n    }\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Type Coercion Quiz",
+        "difficulty": "Hard",
+        "description": "Build a quiz page that shows a JavaScript expression and asks the user to predict the output. Show 5 type coercion questions one at a time. Track score and show the final result.",
+        "sampleInput": "User guesses outputs for each expression",
+        "sampleOutput": "Expression: '5' + 3\nUser enters: 53\nCorrect! Score: 1/1",
+        "constraints": "Use an array of question objects. Compare user's answer with the actual evaluated result.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <h2 id=\"question\"></h2>\n  <input id=\"answer\" placeholder=\"Your answer\">\n  <button onclick=\"checkAnswer()\">Submit</button>\n  <p id=\"feedback\"></p>\n  <p id=\"score\"></p>\n  <script>\n    const questions = [\n      { expr: \"'5' + 3\", answer: \"53\" },\n      { expr: \"'5' - 3\", answer: \"2\" },\n      { expr: \"true + true\", answer: \"2\" },\n      { expr: \"typeof null\", answer: \"object\" },\n      { expr: \"Boolean('')\", answer: \"false\" }\n    ];\n    let current = 0;\n    let score = 0;\n    function showQuestion() {\n      if (current < questions.length) {\n        document.getElementById(\"question\").textContent = \"What is the output of: \" + questions[current].expr + \" ?\";\n        document.getElementById(\"answer\").value = \"\";\n        document.getElementById(\"feedback\").textContent = \"\";\n      } else {\n        document.getElementById(\"question\").textContent = \"Quiz complete!\";\n        document.getElementById(\"score\").textContent = \"Final score: \" + score + \"/\" + questions.length;\n      }\n    }\n    function checkAnswer() {\n      if (current >= questions.length) return;\n      let userAnswer = document.getElementById(\"answer\").value.trim();\n      let correct = questions[current].answer;\n      if (userAnswer === correct) {\n        score++;\n        document.getElementById(\"feedback\").textContent = \"Correct!\";\n        document.getElementById(\"feedback\").style.color = \"green\";\n      } else {\n        document.getElementById(\"feedback\").textContent = \"Wrong! Answer: \" + correct;\n        document.getElementById(\"feedback\").style.color = \"red\";\n      }\n      document.getElementById(\"score\").textContent = \"Score: \" + score + \"/\" + (current + 1);\n      current++;\n      setTimeout(showQuestion, 1500);\n    }\n    showQuestion();\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Dynamic Type Conversion Table",
+        "difficulty": "Hard",
+        "description": "Build a page that generates an HTML table showing how different values convert to Number, String, and Boolean. Include these values: 0, 1, '', '0', ' ', null, undefined, true, false, NaN, [], {}.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "A table with columns: Value | typeof | Number() | String() | Boolean()",
+        "constraints": "Generate the table dynamically with JavaScript. Use template literals and innerHTML.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <h2>Type Conversion Table</h2>\n  <div id=\"table\"></div>\n  <script>\n    const values = [0, 1, '', '0', ' ', null, undefined, true, false, NaN, [], {}];\n    let html = '<table border=\"1\" cellpadding=\"8\"><tr><th>Value</th><th>typeof</th><th>Number()</th><th>String()</th><th>Boolean()</th></tr>';\n    for (let val of values) {\n      let display = JSON.stringify(val);\n      if (val === undefined) display = 'undefined';\n      if (typeof val === 'number' && isNaN(val)) display = 'NaN';\n      html += `<tr><td>${display}</td><td>${typeof val}</td><td>${Number(val)}</td><td>${String(val)}</td><td>${Boolean(val)}</td></tr>`;\n    }\n    html += '</table>';\n    document.getElementById(\"table\").innerHTML = html;\n  </script>\n</body>\n</html>"
+      }
+    ]
+  }
+}

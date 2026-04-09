@@ -1,0 +1,733 @@
+{
+  "title": "DOM Events and Event Listeners",
+  "slug": "dom-events-and-listeners",
+  "language": "javascript",
+  "chapter": 12,
+  "difficulty": "Intermediate",
+  "readingTime": "45 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 60,
+  "seo": {
+    "title": "DOM Events and Event Listeners in JavaScript - click, input, submit, keydown | Modern Age Coders",
+    "description": "Learn JavaScript event handling with addEventListener, click, input, submit, keydown, mouseover events. Master the event object, event delegation, preventDefault, and build interactive web pages. 60+ practice questions.",
+    "keywords": "javascript events, addEventListener javascript, click event javascript, javascript event listener, keydown event, submit event, event delegation, event object javascript, preventDefault, javascript interactive webpage"
+  },
+  "content": {
+    "what": "<h2>What Are DOM Events?</h2><p>An <strong>event</strong> is something that happens on a web page -- a user clicks a button, types in a text field, moves the mouse, scrolls the page, or submits a form. JavaScript can <strong>listen</strong> for these events and run code when they happen. This is what makes websites interactive.</p><p>Every interactive thing you have ever done on a website -- liking a post, opening a dropdown, typing a search query, playing a video -- was powered by events.</p><pre><code>&lt;button id=\"btn\"&gt;Click Me&lt;/button&gt;\n\n&lt;script&gt;\nconst btn = document.getElementById(\"btn\");\n\nbtn.addEventListener(\"click\", function() {\n  alert(\"Button was clicked!\");\n});\n&lt;/script&gt;</code></pre><p>This code tells the browser: \"When the user clicks the button with id 'btn', run this function.\" The function is called an <strong>event handler</strong> or <strong>callback</strong>.</p>",
+    "why": "<h2>Why Learn Events?</h2><h3>1. Events Are the Core of Web Interactivity</h3><p>Without events, JavaScript cannot respond to users. Every form, every button, every slider, every game on the web relies on events. If you want to build anything interactive, you need events.</p><h3>2. Understanding the Event Object Unlocks Power</h3><p>When an event fires, the browser passes an <strong>event object</strong> to your handler. This object contains information like which element was clicked, which key was pressed, or where the mouse is. Learning to use this object lets you build smart, responsive interfaces.</p><h3>3. Event Delegation Saves Memory and Code</h3><p>Instead of attaching listeners to 100 list items, you attach one listener to the parent. This pattern (event delegation) is how professional developers handle dynamic content. React and other frameworks use this pattern internally.</p><h3>4. It Is Essential for Form Handling</h3><p>Forms are everywhere on the web -- login, signup, search, checkout, feedback. Handling form events (submit, input, change, focus, blur) is a core skill for any web developer.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. addEventListener Basics</h3><p>The <code>addEventListener</code> method attaches an event handler to an element. It takes two required arguments: the event type (a string) and a callback function:</p><pre><code>element.addEventListener(eventType, handlerFunction);</code></pre><p>You can attach multiple listeners to the same element for the same event. They all run in order:</p><pre><code>&lt;button id=\"btn\"&gt;Click&lt;/button&gt;\n\n&lt;script&gt;\nconst btn = document.getElementById(\"btn\");\n\nbtn.addEventListener(\"click\", function() {\n  console.log(\"First handler\");\n});\n\nbtn.addEventListener(\"click\", function() {\n  console.log(\"Second handler\");\n});\n// Both run when button is clicked\n&lt;/script&gt;</code></pre><h3>2. Common Event Types</h3><p><strong>Mouse events:</strong></p><ul><li><code>click</code> -- element is clicked</li><li><code>dblclick</code> -- element is double-clicked</li><li><code>mouseover</code> -- mouse enters the element (bubbles to children)</li><li><code>mouseout</code> -- mouse leaves the element</li><li><code>mouseenter</code> -- mouse enters the element (does not bubble)</li><li><code>mouseleave</code> -- mouse leaves the element (does not bubble)</li></ul><p><strong>Keyboard events:</strong></p><ul><li><code>keydown</code> -- a key is pressed down</li><li><code>keyup</code> -- a key is released</li></ul><p><strong>Form / Input events:</strong></p><ul><li><code>input</code> -- the value of an input/textarea changes (fires on every keystroke)</li><li><code>change</code> -- the value changes and the element loses focus (or for select/checkbox, on change)</li><li><code>submit</code> -- a form is submitted</li><li><code>focus</code> -- an input gains focus (user clicks or tabs into it)</li><li><code>blur</code> -- an input loses focus</li></ul><p><strong>Page events:</strong></p><ul><li><code>scroll</code> -- the page or element is scrolled</li><li><code>load</code> -- the page or resource finishes loading</li><li><code>DOMContentLoaded</code> -- the HTML is fully parsed (before images load)</li></ul><h3>3. The Event Object</h3><p>When an event fires, the browser creates an event object and passes it to your handler. You can name it anything, but <code>e</code>, <code>event</code>, or <code>evt</code> are common:</p><pre><code>&lt;button id=\"btn\"&gt;Click Me&lt;/button&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(e) {\n  console.log(e.type);    // \"click\"\n  console.log(e.target);  // the button element\n  console.log(e.target.textContent); // \"Click Me\"\n});\n&lt;/script&gt;</code></pre><p>Key properties of the event object:</p><ul><li><code>e.type</code> -- the event type (\"click\", \"keydown\", etc.)</li><li><code>e.target</code> -- the element that triggered the event</li><li><code>e.currentTarget</code> -- the element the listener is attached to</li><li><code>e.key</code> -- (keyboard events) which key was pressed</li><li><code>e.preventDefault()</code> -- stops the default browser behavior</li><li><code>e.stopPropagation()</code> -- stops the event from bubbling up</li></ul><h3>4. preventDefault</h3><p>Some elements have default behaviors: forms submit and reload the page, links navigate to a URL. <code>e.preventDefault()</code> stops these defaults:</p><pre><code>&lt;form id=\"myForm\"&gt;\n  &lt;input type=\"text\" id=\"name\" placeholder=\"Name\"&gt;\n  &lt;button type=\"submit\"&gt;Submit&lt;/button&gt;\n&lt;/form&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"myForm\").addEventListener(\"submit\", function(e) {\n  e.preventDefault(); // Stop page reload\n  const name = document.getElementById(\"name\").value;\n  console.log(\"Form submitted with name:\", name);\n});\n&lt;/script&gt;</code></pre><h3>5. Event Bubbling and stopPropagation</h3><p>When an event fires on an element, it <strong>bubbles up</strong> through its parent elements. A click on a button inside a div also triggers click handlers on the div and body:</p><pre><code>&lt;div id=\"outer\"&gt;\n  &lt;button id=\"inner\"&gt;Click&lt;/button&gt;\n&lt;/div&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"outer\").addEventListener(\"click\", function() {\n  console.log(\"Outer div clicked\");\n});\n\ndocument.getElementById(\"inner\").addEventListener(\"click\", function(e) {\n  console.log(\"Button clicked\");\n  // e.stopPropagation(); // Uncomment to stop bubbling\n});\n// Clicking the button logs: \"Button clicked\" then \"Outer div clicked\"\n&lt;/script&gt;</code></pre><h3>6. Event Delegation</h3><p>Instead of adding a listener to every child element, add one listener to the parent and use <code>e.target</code> to detect which child was clicked:</p><pre><code>&lt;ul id=\"menu\"&gt;\n  &lt;li&gt;Home&lt;/li&gt;\n  &lt;li&gt;About&lt;/li&gt;\n  &lt;li&gt;Contact&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"menu\").addEventListener(\"click\", function(e) {\n  if (e.target.tagName === \"LI\") {\n    console.log(\"Clicked:\", e.target.textContent);\n  }\n});\n&lt;/script&gt;</code></pre><p>This works even for elements added later dynamically. It is also more efficient -- one listener instead of many.</p><h3>7. Removing Event Listeners</h3><p>To remove a listener, you need a reference to the same function. Anonymous functions cannot be removed:</p><pre><code>function handleClick() {\n  console.log(\"Clicked!\");\n}\n\nconst btn = document.getElementById(\"btn\");\nbtn.addEventListener(\"click\", handleClick);\n\n// Later, remove it:\nbtn.removeEventListener(\"click\", handleClick);\n\n// This does NOT work (different function reference):\nbtn.addEventListener(\"click\", function() { console.log(\"X\"); });\nbtn.removeEventListener(\"click\", function() { console.log(\"X\"); }); // Fails!</code></pre><h3>8. Keyboard Events</h3><p>Use <code>keydown</code> and <code>keyup</code> to respond to keyboard input. The <code>e.key</code> property tells you which key was pressed:</p><pre><code>document.addEventListener(\"keydown\", function(e) {\n  console.log(\"Key pressed:\", e.key);\n  \n  if (e.key === \"Enter\") {\n    console.log(\"Enter was pressed!\");\n  }\n  \n  if (e.key === \"Escape\") {\n    console.log(\"Escape was pressed!\");\n  }\n  \n  // Ctrl + S\n  if (e.ctrlKey && e.key === \"s\") {\n    e.preventDefault(); // Stop browser save dialog\n    console.log(\"Ctrl+S pressed! Saving...\");\n  }\n});</code></pre>"
+    ,
+    "codeExamples": [
+    {
+      "title": "Click Event with Button Counter",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    button { padding: 12px 24px; font-size: 18px; cursor: pointer; background: #a855f7; color: white; border: none; border-radius: 8px; }\n    #count { font-size: 48px; margin: 20px 0; }\n  </style>\n</head>\n<body>\n  <h2>Click Counter</h2>\n  <div id=\"count\">0</div>\n  <button id=\"increment\">+1</button>\n  <button id=\"decrement\">-1</button>\n  <button id=\"reset\">Reset</button>\n\n  <script>\n    let count = 0;\n    const display = document.getElementById(\"count\");\n\n    document.getElementById(\"increment\").addEventListener(\"click\", function() {\n      count++;\n      display.textContent = count;\n    });\n\n    document.getElementById(\"decrement\").addEventListener(\"click\", function() {\n      count--;\n      display.textContent = count;\n    });\n\n    document.getElementById(\"reset\").addEventListener(\"click\", function() {\n      count = 0;\n      display.textContent = count;\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "Three buttons each have a click event listener. The increment button increases the count, the decrement button decreases it, and the reset button sets it back to 0. The display updates after every click.",
+      "output": "A counter display with +1, -1, and Reset buttons. Clicking them updates the number shown."
+    },
+    {
+      "title": "Real-Time Input with Character Count",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    textarea { width: 100%; max-width: 400px; height: 100px; padding: 10px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; }\n    textarea:focus { border-color: #a855f7; outline: none; }\n    .counter { margin-top: 8px; color: #666; }\n    .counter.warning { color: #f59e0b; }\n    .counter.danger { color: #ef4444; }\n  </style>\n</head>\n<body>\n  <h2>Tweet Composer</h2>\n  <textarea id=\"tweet\" placeholder=\"What is happening?\"></textarea>\n  <div class=\"counter\" id=\"counter\">0 / 280 characters</div>\n\n  <script>\n    const textarea = document.getElementById(\"tweet\");\n    const counter = document.getElementById(\"counter\");\n    const MAX = 280;\n\n    textarea.addEventListener(\"input\", function() {\n      const length = textarea.value.length;\n      counter.textContent = length + \" / \" + MAX + \" characters\";\n\n      counter.classList.remove(\"warning\", \"danger\");\n      if (length > MAX) {\n        counter.classList.add(\"danger\");\n      } else if (length > MAX * 0.8) {\n        counter.classList.add(\"warning\");\n      }\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "The <code>input</code> event fires on every keystroke, paste, or deletion. We read the textarea's length, update the counter text, and change the counter color when approaching or exceeding the limit. The <code>input</code> event is ideal for real-time feedback.",
+      "output": "A textarea with a character counter below it. The counter turns yellow above 224 characters and red above 280."
+    },
+    {
+      "title": "Form Submit with preventDefault",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    form { max-width: 300px; }\n    input { display: block; width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }\n    button { padding: 10px 20px; background: #a855f7; color: white; border: none; border-radius: 6px; cursor: pointer; }\n    #result { margin-top: 16px; padding: 12px; background: #d1fae5; border-radius: 6px; display: none; }\n  </style>\n</head>\n<body>\n  <h2>Student Registration</h2>\n  <form id=\"regForm\">\n    <input type=\"text\" id=\"name\" placeholder=\"Full Name\" required>\n    <input type=\"email\" id=\"email\" placeholder=\"Email\" required>\n    <input type=\"text\" id=\"school\" placeholder=\"School Name\">\n    <button type=\"submit\">Register</button>\n  </form>\n  <div id=\"result\"></div>\n\n  <script>\n    document.getElementById(\"regForm\").addEventListener(\"submit\", function(e) {\n      e.preventDefault();\n\n      const name = document.getElementById(\"name\").value;\n      const email = document.getElementById(\"email\").value;\n      const school = document.getElementById(\"school\").value;\n\n      const result = document.getElementById(\"result\");\n      result.style.display = \"block\";\n      result.textContent = \"Registered: \" + name + \" (\" + email + \") from \" + (school || \"N/A\");\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "<code>e.preventDefault()</code> stops the form from actually submitting (which would reload the page). Instead, we read the values and display them in a result div. This is the pattern used by every modern web form.",
+      "output": "A registration form that shows submitted data below the form without reloading the page."
+    },
+    {
+      "title": "Event Delegation with Dynamic List",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    #list { list-style: none; padding: 0; }\n    #list li { padding: 10px; margin: 4px 0; background: #f3f4f6; border-radius: 4px; cursor: pointer; }\n    #list li:hover { background: #e5e7eb; }\n    #list li.done { text-decoration: line-through; color: #9ca3af; }\n    .add-area { margin-bottom: 16px; }\n    input { padding: 8px; border: 1px solid #ddd; border-radius: 4px; }\n    button { padding: 8px 16px; background: #a855f7; color: white; border: none; border-radius: 4px; cursor: pointer; }\n  </style>\n</head>\n<body>\n  <h2>To-Do List (Event Delegation)</h2>\n  <div class=\"add-area\">\n    <input type=\"text\" id=\"taskInput\" placeholder=\"New task...\">\n    <button id=\"addBtn\">Add</button>\n  </div>\n  <ul id=\"list\">\n    <li>Complete homework</li>\n    <li>Practice coding</li>\n    <li>Read a book</li>\n  </ul>\n\n  <script>\n    const list = document.getElementById(\"list\");\n    const taskInput = document.getElementById(\"taskInput\");\n\n    // Event delegation: one listener on the parent ul\n    list.addEventListener(\"click\", function(e) {\n      if (e.target.tagName === \"LI\") {\n        e.target.classList.toggle(\"done\");\n      }\n    });\n\n    // Add new tasks\n    document.getElementById(\"addBtn\").addEventListener(\"click\", function() {\n      const text = taskInput.value.trim();\n      if (text !== \"\") {\n        const li = document.createElement(\"li\");\n        li.textContent = text;\n        list.appendChild(li);\n        taskInput.value = \"\";\n      }\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "Instead of attaching click listeners to every li, we use <strong>event delegation</strong>: one listener on the ul parent. When any li is clicked, <code>e.target</code> tells us which one. This works even for new li elements added dynamically -- they do not need their own listeners.",
+      "output": "A to-do list where clicking any item toggles line-through. New items can be added and they also respond to clicks."
+    },
+    {
+      "title": "Keyboard Shortcuts",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    #log { padding: 16px; background: #1a1a2e; color: #e0e0e0; border-radius: 8px; min-height: 200px; font-family: monospace; white-space: pre-wrap; }\n    .shortcut { display: inline-block; padding: 4px 8px; background: #374151; color: #f9fafb; border-radius: 4px; margin: 2px; font-family: monospace; }\n  </style>\n</head>\n<body>\n  <h2>Keyboard Event Logger</h2>\n  <p>Try these shortcuts: <span class=\"shortcut\">Ctrl+B</span> <span class=\"shortcut\">Ctrl+I</span> <span class=\"shortcut\">Escape</span> <span class=\"shortcut\">Arrow keys</span></p>\n  <div id=\"log\">Press any key...</div>\n\n  <script>\n    const log = document.getElementById(\"log\");\n\n    document.addEventListener(\"keydown\", function(e) {\n      let message = \"Key: \" + e.key + \" | Code: \" + e.code;\n\n      if (e.ctrlKey && e.key === \"b\") {\n        e.preventDefault();\n        message = \"SHORTCUT: Bold (Ctrl+B)\";\n      } else if (e.ctrlKey && e.key === \"i\") {\n        e.preventDefault();\n        message = \"SHORTCUT: Italic (Ctrl+I)\";\n      } else if (e.key === \"Escape\") {\n        message = \"SHORTCUT: Escape pressed - closing panel\";\n      } else if (e.key.startsWith(\"Arrow\")) {\n        message = \"ARROW: Moving \" + e.key.replace(\"Arrow\", \"\").toLowerCase();\n      }\n\n      log.textContent = message + \"\\n\" + log.textContent;\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "We listen for <code>keydown</code> on the entire document. <code>e.key</code> gives the key name, <code>e.code</code> gives the physical key code. <code>e.ctrlKey</code> is true when Ctrl is held. <code>e.preventDefault()</code> stops browser shortcuts (like Ctrl+B for bookmarks) from firing.",
+      "output": "A log panel that shows which key was pressed. Ctrl+B, Ctrl+I, Escape, and arrow keys trigger special messages."
+    },
+    {
+      "title": "Mouse Events: Hover Card Effect",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    .card { display: inline-block; width: 200px; padding: 20px; margin: 10px; border: 2px solid #ddd; border-radius: 12px; text-align: center; transition: all 0.3s; cursor: pointer; }\n    .card img { width: 80px; height: 80px; border-radius: 50%; }\n    .card .details { display: none; margin-top: 10px; font-size: 14px; color: #666; }\n    #status { margin-top: 16px; padding: 10px; background: #f3f4f6; border-radius: 4px; }\n  </style>\n</head>\n<body>\n  <h2>Student Cards</h2>\n  <div class=\"card\" id=\"card1\">\n    <img src=\"https://placehold.co/80/a855f7/white?text=A\" alt=\"Aarav\">\n    <h3>Aarav</h3>\n    <div class=\"details\">Class 10 | Delhi | Loves coding</div>\n  </div>\n  <div class=\"card\" id=\"card2\">\n    <img src=\"https://placehold.co/80/06b6d4/white?text=P\" alt=\"Priya\">\n    <h3>Priya</h3>\n    <div class=\"details\">Class 9 | Mumbai | Loves maths</div>\n  </div>\n  <div id=\"status\">Hover over a card</div>\n\n  <script>\n    const cards = document.querySelectorAll(\".card\");\n    const status = document.getElementById(\"status\");\n\n    cards.forEach(function(card) {\n      card.addEventListener(\"mouseenter\", function() {\n        card.style.borderColor = \"#a855f7\";\n        card.style.transform = \"scale(1.05)\";\n        card.querySelector(\".details\").style.display = \"block\";\n        status.textContent = \"Viewing: \" + card.querySelector(\"h3\").textContent;\n      });\n\n      card.addEventListener(\"mouseleave\", function() {\n        card.style.borderColor = \"#ddd\";\n        card.style.transform = \"scale(1)\";\n        card.querySelector(\".details\").style.display = \"none\";\n        status.textContent = \"Hover over a card\";\n      });\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "<code>mouseenter</code> fires when the mouse enters the element. <code>mouseleave</code> fires when it leaves. We scale the card, change its border color, show hidden details, and update a status bar. Unlike <code>mouseover/mouseout</code>, mouseenter/mouseleave do not bubble to children.",
+      "output": "Two student cards that scale up, show details, and highlight their border when hovered."
+    },
+    {
+      "title": "Focus and Blur on Form Inputs",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    .field { margin-bottom: 12px; }\n    input { padding: 10px; border: 2px solid #ddd; border-radius: 6px; width: 250px; font-size: 16px; transition: border-color 0.3s; }\n    input:focus { outline: none; }\n    .hint { font-size: 13px; color: #9ca3af; display: none; margin-top: 4px; }\n  </style>\n</head>\n<body>\n  <h2>Smart Form Hints</h2>\n  <div class=\"field\">\n    <input type=\"text\" id=\"username\" placeholder=\"Username\">\n    <div class=\"hint\" id=\"hint-username\">Username must be 3-20 characters, letters and numbers only.</div>\n  </div>\n  <div class=\"field\">\n    <input type=\"email\" id=\"email\" placeholder=\"Email\">\n    <div class=\"hint\" id=\"hint-email\">Enter a valid email like aarav@example.com.</div>\n  </div>\n  <div class=\"field\">\n    <input type=\"password\" id=\"password\" placeholder=\"Password\">\n    <div class=\"hint\" id=\"hint-password\">Password must be at least 8 characters with one number.</div>\n  </div>\n\n  <script>\n    const fields = [\n      { input: \"username\", hint: \"hint-username\", color: \"#a855f7\" },\n      { input: \"email\", hint: \"hint-email\", color: \"#06b6d4\" },\n      { input: \"password\", hint: \"hint-password\", color: \"#f59e0b\" }\n    ];\n\n    fields.forEach(function(field) {\n      const input = document.getElementById(field.input);\n      const hint = document.getElementById(field.hint);\n\n      input.addEventListener(\"focus\", function() {\n        input.style.borderColor = field.color;\n        hint.style.display = \"block\";\n        hint.style.color = field.color;\n      });\n\n      input.addEventListener(\"blur\", function() {\n        input.style.borderColor = \"#ddd\";\n        hint.style.display = \"none\";\n      });\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "<code>focus</code> fires when the user clicks into or tabs to an input. <code>blur</code> fires when they leave it. We use these events to show context-specific hints below each field and highlight the border. This pattern improves the user experience of forms.",
+      "output": "Each input shows a colored hint when focused and hides it when blurred. The input border highlights in a matching color."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Calling the Function Instead of Passing It",
+      "wrongCode": "const btn = document.getElementById(\"btn\");\n\nfunction handleClick() {\n  console.log(\"Clicked!\");\n}\n\nbtn.addEventListener(\"click\", handleClick()); // Wrong: calls immediately!",
+      "error": "The function runs immediately when the page loads, not when the button is clicked. The return value (undefined) is passed to addEventListener.",
+      "correctCode": "const btn = document.getElementById(\"btn\");\n\nfunction handleClick() {\n  console.log(\"Clicked!\");\n}\n\nbtn.addEventListener(\"click\", handleClick); // Correct: pass the reference",
+      "explanation": "<code>handleClick()</code> with parentheses calls the function and passes its return value. <code>handleClick</code> without parentheses passes the function itself. addEventListener needs the function reference, not its return value."
+    },
+    {
+      "title": "Forgetting preventDefault on Form Submit",
+      "wrongCode": "document.getElementById(\"form\").addEventListener(\"submit\", function(e) {\n  // Forgot e.preventDefault()!\n  const name = document.getElementById(\"name\").value;\n  console.log(name); // Logs briefly, then page reloads\n});",
+      "error": "The page reloads after form submission, losing all JavaScript state and the console log.",
+      "correctCode": "document.getElementById(\"form\").addEventListener(\"submit\", function(e) {\n  e.preventDefault(); // Stop page reload\n  const name = document.getElementById(\"name\").value;\n  console.log(name); // Works!\n});",
+      "explanation": "By default, submitting a form causes the browser to reload the page. <code>e.preventDefault()</code> stops this default behavior so your JavaScript can handle the data without a page reload."
+    },
+    {
+      "title": "Cannot Remove Anonymous Event Listeners",
+      "wrongCode": "const btn = document.getElementById(\"btn\");\n\nbtn.addEventListener(\"click\", function() {\n  console.log(\"Clicked!\");\n});\n\n// Trying to remove it:\nbtn.removeEventListener(\"click\", function() {\n  console.log(\"Clicked!\");\n}); // Fails! Different function objects",
+      "error": "The listener is not removed because the two anonymous functions are different objects in memory, even though they look identical.",
+      "correctCode": "const btn = document.getElementById(\"btn\");\n\nfunction handleClick() {\n  console.log(\"Clicked!\");\n}\n\nbtn.addEventListener(\"click\", handleClick);\n// Later:\nbtn.removeEventListener(\"click\", handleClick); // Works!",
+      "explanation": "Each <code>function() {...}</code> expression creates a new function object. To remove a listener, you must pass the exact same function reference that was used to add it. Store the function in a named variable."
+    },
+    {
+      "title": "Using e.target Instead of e.currentTarget in Delegation",
+      "wrongCode": "// HTML: <ul id=\"list\"><li>Item <strong>1</strong></li></ul>\n\ndocument.getElementById(\"list\").addEventListener(\"click\", function(e) {\n  console.log(e.target.textContent); // If user clicks the <strong>, e.target is the <strong>, not the <li>\n});",
+      "error": "If the user clicks on a nested element (like the bold text), e.target is the inner element, not the li you expected.",
+      "correctCode": "document.getElementById(\"list\").addEventListener(\"click\", function(e) {\n  const li = e.target.closest(\"li\"); // Find the nearest li ancestor\n  if (li) {\n    console.log(li.textContent); // Always gets the li\n  }\n});",
+      "explanation": "<code>e.target</code> is the exact element clicked, which could be a child element. Use <code>e.target.closest('li')</code> to find the nearest matching ancestor. This makes event delegation reliable even with nested elements."
+    },
+    {
+      "title": "Listening to keypress Instead of keydown",
+      "wrongCode": "document.addEventListener(\"keypress\", function(e) {\n  console.log(e.key); // Does not fire for Escape, Arrow keys, Ctrl, etc.\n});",
+      "error": "The keypress event is deprecated and does not fire for many important keys like Escape, arrow keys, Ctrl, Shift, and function keys.",
+      "correctCode": "document.addEventListener(\"keydown\", function(e) {\n  console.log(e.key); // Works for ALL keys\n});",
+      "explanation": "<code>keypress</code> is deprecated and only fires for keys that produce a character. Use <code>keydown</code> instead -- it fires for all keys and is the modern standard."
+    }
+  ],
+  "summary": [
+    "addEventListener(type, handler) attaches a function that runs when the specified event occurs on an element. You can attach multiple listeners to the same element.",
+    "Common mouse events: click, dblclick, mouseenter, mouseleave, mouseover, mouseout. Use mouseenter/mouseleave for hover effects as they do not bubble.",
+    "Common keyboard events: keydown (key pressed) and keyup (key released). Use e.key to check which key. The keypress event is deprecated.",
+    "Common form events: input (fires on every keystroke), change (fires when value changes and element loses focus), submit (fires when form is submitted), focus, blur.",
+    "The event object (e) contains information about the event: e.type, e.target (element that triggered it), e.key (for keyboard), e.preventDefault(), e.stopPropagation().",
+    "e.preventDefault() stops the browser's default behavior -- form submission page reload, link navigation, or browser keyboard shortcuts.",
+    "Events bubble up from child to parent. e.stopPropagation() stops this bubbling. Understanding bubbling is key to understanding event delegation.",
+    "Event delegation: attach one listener to a parent element instead of many listeners to children. Use e.target to detect which child was clicked. Works for dynamically added elements too.",
+    "To remove an event listener, you must pass the exact same function reference to removeEventListener. Anonymous functions cannot be removed.",
+    "Always use keydown over keypress. Always call preventDefault on form submit. Always use named functions if you need to remove listeners later."
+    ]
+  },
+  "relatedTopics": ["dom-selection-and-manipulation", "creating-and-removing-elements"],
+  "practice": {
+    "totalQuestions": 60,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What happens when the button is clicked?<br><pre><code>&lt;button id=\"btn\"&gt;Click Me&lt;/button&gt;\n&lt;p id=\"msg\"&gt;Waiting...&lt;/p&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"btn\").addEventListener(\"click\", function() {\n  document.getElementById(\"msg\").textContent = \"Button clicked!\";\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "The click handler changes the paragraph text.",
+        "answer": "When the button is clicked, the paragraph text changes from \"Waiting...\" to \"Button clicked!\".",
+        "explanation": "The click event listener runs the function when the button is clicked. The function selects the paragraph by ID and sets its textContent to \"Button clicked!\"."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged to the console when the button is clicked?<br><pre><code>&lt;button id=\"btn\"&gt;Hello&lt;/button&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(e) {\n  console.log(e.type);\n  console.log(e.target.textContent);\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "e.type gives the event type. e.target is the clicked element.",
+        "answer": "<code>click</code><br><code>Hello</code>",
+        "explanation": "<code>e.type</code> is the string \"click\" (the event type). <code>e.target</code> is the button element, and its textContent is \"Hello\"."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What happens when you type in the input?<br><pre><code>&lt;input type=\"text\" id=\"name\"&gt;\n&lt;p id=\"output\"&gt;&lt;/p&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"name\").addEventListener(\"input\", function() {\n  document.getElementById(\"output\").textContent = \"Hello, \" + this.value;\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "The input event fires on every keystroke. 'this' refers to the input element.",
+        "answer": "As you type, the paragraph below updates in real time. Typing \"Aarav\" shows \"Hello, Aarav\".",
+        "explanation": "The <code>input</code> event fires on every keystroke, paste, or deletion. <code>this.value</code> inside the event handler refers to the current value of the input. The paragraph updates immediately."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged when the user presses the 'a' key?<br><pre><code>&lt;script&gt;\ndocument.addEventListener(\"keydown\", function(e) {\n  console.log(\"Key: \" + e.key);\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "e.key gives the name of the key that was pressed.",
+        "answer": "<code>Key: a</code>",
+        "explanation": "When the 'a' key is pressed, the keydown event fires. <code>e.key</code> returns the string \"a\". If Shift+A was pressed, e.key would be \"A\" (uppercase)."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What happens when the form is submitted?<br><pre><code>&lt;form id=\"myForm\"&gt;\n  &lt;input type=\"text\" value=\"Aarav\"&gt;\n  &lt;button type=\"submit\"&gt;Go&lt;/button&gt;\n&lt;/form&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"myForm\").addEventListener(\"submit\", function(e) {\n  e.preventDefault();\n  console.log(\"Form submitted!\");\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "preventDefault stops the page from reloading.",
+        "answer": "The console logs \"Form submitted!\" and the page does NOT reload.",
+        "explanation": "<code>e.preventDefault()</code> stops the default form submission behavior (page reload). The handler runs, logs the message, and the page stays as it is."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged when the button inside the div is clicked?<br><pre><code>&lt;div id=\"outer\"&gt;\n  &lt;button id=\"inner\"&gt;Click&lt;/button&gt;\n&lt;/div&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"outer\").addEventListener(\"click\", function() {\n  console.log(\"Outer\");\n});\ndocument.getElementById(\"inner\").addEventListener(\"click\", function() {\n  console.log(\"Inner\");\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "Events bubble from child to parent.",
+        "answer": "<code>Inner</code><br><code>Outer</code>",
+        "explanation": "When the button is clicked, its handler runs first (\"Inner\"). Then the event bubbles up to the div, triggering its handler (\"Outer\"). This is event bubbling."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged when the button is clicked?<br><pre><code>&lt;div id=\"parent\"&gt;\n  &lt;button id=\"child\"&gt;Click&lt;/button&gt;\n&lt;/div&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"parent\").addEventListener(\"click\", function() {\n  console.log(\"Parent\");\n});\ndocument.getElementById(\"child\").addEventListener(\"click\", function(e) {\n  e.stopPropagation();\n  console.log(\"Child\");\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "stopPropagation prevents the event from bubbling up.",
+        "answer": "<code>Child</code>",
+        "explanation": "<code>e.stopPropagation()</code> stops the event from bubbling to the parent. Only \"Child\" is logged. Without stopPropagation, \"Parent\" would also be logged."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given this HTML, what is logged when 'Banana' is clicked?<br><pre><code>&lt;ul id=\"fruits\"&gt;\n  &lt;li&gt;Apple&lt;/li&gt;\n  &lt;li&gt;Banana&lt;/li&gt;\n  &lt;li&gt;Cherry&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"fruits\").addEventListener(\"click\", function(e) {\n  console.log(\"Clicked:\", e.target.textContent);\n  console.log(\"Listener on:\", e.currentTarget.id);\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "e.target is what was clicked. e.currentTarget is where the listener is attached.",
+        "answer": "<code>Clicked: Banana</code><br><code>Listener on: fruits</code>",
+        "explanation": "<code>e.target</code> is the li element that was actually clicked (\"Banana\"). <code>e.currentTarget</code> is the ul element where the listener is attached (id=\"fruits\"). This is event delegation in action."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;button id=\"btn\"&gt;Click&lt;/button&gt;\n\n&lt;script&gt;\nconst btn = document.getElementById(\"btn\");\n\nbtn.addEventListener(\"click\", function() {\n  console.log(\"First\");\n});\n\nbtn.addEventListener(\"click\", function() {\n  console.log(\"Second\");\n});\n\nbtn.addEventListener(\"click\", function() {\n  console.log(\"Third\");\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "Multiple listeners on the same element run in the order they were added.",
+        "answer": "<code>First</code><br><code>Second</code><br><code>Third</code>",
+        "explanation": "You can add multiple event listeners to the same element for the same event. They run in the order they were registered."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens when the button is clicked?<br><pre><code>&lt;button id=\"btn\"&gt;Click Me&lt;/button&gt;\n\n&lt;script&gt;\nfunction greet() {\n  console.log(\"Hello!\");\n}\n\nconst btn = document.getElementById(\"btn\");\nbtn.addEventListener(\"click\", greet);\nbtn.removeEventListener(\"click\", greet);\n&lt;/script&gt;</code></pre>",
+        "hint": "The listener is added and then immediately removed.",
+        "answer": "Nothing happens when the button is clicked. No console output.",
+        "explanation": "The event listener is added with addEventListener but immediately removed with removeEventListener. Since the same function reference (greet) is used for both, the removal works. Clicking the button does nothing."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged when the button is clicked?<br><pre><code>&lt;button id=\"btn\"&gt;Click&lt;/button&gt;\n\n&lt;script&gt;\nconst btn = document.getElementById(\"btn\");\nlet count = 0;\n\nfunction handleClick() {\n  count++;\n  console.log(\"Count: \" + count);\n  if (count >= 3) {\n    btn.removeEventListener(\"click\", handleClick);\n    console.log(\"Listener removed\");\n  }\n}\n\nbtn.addEventListener(\"click\", handleClick);\n&lt;/script&gt;</code></pre><p>The button is clicked 5 times.</p>",
+        "hint": "After 3 clicks, the listener removes itself.",
+        "answer": "<code>Count: 1</code><br><code>Count: 2</code><br><code>Count: 3</code><br><code>Listener removed</code><br>(Clicks 4 and 5 produce no output)",
+        "explanation": "The first 3 clicks increment the count and log it. On the 3rd click, count reaches 3, so the listener removes itself. Clicks 4 and 5 do nothing because there is no listener anymore."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged when 'Enter' is pressed while the input is focused?<br><pre><code>&lt;input type=\"text\" id=\"search\" value=\"JavaScript\"&gt;\n\n&lt;script&gt;\nconst input = document.getElementById(\"search\");\n\ninput.addEventListener(\"keydown\", function(e) {\n  if (e.key === \"Enter\") {\n    console.log(\"Searching for: \" + this.value);\n    console.log(\"Input or Textarea: \" + (e.target.tagName));\n  }\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "'this' in a regular function handler refers to the element the listener is on. tagName returns uppercase.",
+        "answer": "<code>Searching for: JavaScript</code><br><code>Input or Textarea: INPUT</code>",
+        "explanation": "When Enter is pressed, e.key is \"Enter\". <code>this.value</code> returns \"JavaScript\" (the input's current value). <code>e.target.tagName</code> returns \"INPUT\" (tag names are always uppercase)."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"container\"&gt;\n  &lt;button class=\"btn\" data-action=\"save\"&gt;Save&lt;/button&gt;\n  &lt;button class=\"btn\" data-action=\"delete\"&gt;Delete&lt;/button&gt;\n  &lt;button class=\"btn\" data-action=\"edit\"&gt;Edit&lt;/button&gt;\n&lt;/div&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"container\").addEventListener(\"click\", function(e) {\n  if (e.target.classList.contains(\"btn\")) {\n    const action = e.target.getAttribute(\"data-action\");\n    console.log(\"Action: \" + action);\n  }\n});\n&lt;/script&gt;</code></pre><p>The user clicks the 'Delete' button.</p>",
+        "hint": "Event delegation with data attributes to determine the action.",
+        "answer": "<code>Action: delete</code>",
+        "explanation": "The listener is on the container div (event delegation). When Delete is clicked, <code>e.target</code> is the Delete button. It has class \"btn\" so the if-check passes. <code>getAttribute(\"data-action\")</code> returns \"delete\"."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged?<br><pre><code>&lt;input type=\"text\" id=\"name\"&gt;\n\n&lt;script&gt;\nconst input = document.getElementById(\"name\");\n\ninput.addEventListener(\"focus\", function() {\n  console.log(\"Focused\");\n});\n\ninput.addEventListener(\"blur\", function() {\n  console.log(\"Blurred\");\n});\n&lt;/script&gt;</code></pre><p>The user clicks the input, types 'Hi', then clicks outside the input.</p>",
+        "hint": "focus fires when the input gains focus, blur when it loses focus.",
+        "answer": "<code>Focused</code><br><code>Blurred</code>",
+        "explanation": "Clicking the input triggers <code>focus</code> (logged \"Focused\"). Typing does not trigger focus or blur. Clicking outside the input triggers <code>blur</code> (logged \"Blurred\")."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the difference in output between input and change events?<br><pre><code>&lt;input type=\"text\" id=\"field\"&gt;\n\n&lt;script&gt;\nconst field = document.getElementById(\"field\");\n\nfield.addEventListener(\"input\", function() {\n  console.log(\"input: \" + field.value);\n});\n\nfield.addEventListener(\"change\", function() {\n  console.log(\"change: \" + field.value);\n});\n&lt;/script&gt;</code></pre><p>The user types 'Hi' and then clicks outside the input.</p>",
+        "hint": "input fires on every keystroke. change fires when the value changes AND the element loses focus.",
+        "answer": "<code>input: H</code><br><code>input: Hi</code><br><code>change: Hi</code>",
+        "explanation": "The <code>input</code> event fires on every keystroke: once for 'H', once for 'Hi'. The <code>change</code> event fires once when the input loses focus AND the value has changed since it gained focus."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;button id=\"btn\"&gt;Click&lt;/button&gt;\n\n&lt;script&gt;\nconst btn = document.getElementById(\"btn\");\n\nbtn.addEventListener(\"click\", () =&gt; {\n  console.log(\"this:\", this === window);\n});\n\nbtn.addEventListener(\"click\", function() {\n  console.log(\"this:\", this === btn);\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "Arrow functions do not have their own 'this'. Regular functions get 'this' set to the element.",
+        "answer": "<code>this: true</code><br><code>this: true</code>",
+        "explanation": "In an arrow function event handler, <code>this</code> is the outer scope's this (which is <code>window</code> in a script). In a regular function handler, <code>this</code> is the element the listener is attached to (the button). Both comparisons are true."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged when the user presses Ctrl+Enter?<br><pre><code>&lt;script&gt;\ndocument.addEventListener(\"keydown\", function(e) {\n  console.log(\"key:\", e.key);\n  console.log(\"ctrlKey:\", e.ctrlKey);\n  console.log(\"shiftKey:\", e.shiftKey);\n  console.log(\"altKey:\", e.altKey);\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "Modifier key properties (ctrlKey, shiftKey, altKey) are booleans.",
+        "answer": "<code>key: Enter</code><br><code>ctrlKey: true</code><br><code>shiftKey: false</code><br><code>altKey: false</code>",
+        "explanation": "When Ctrl+Enter is pressed, <code>e.key</code> is \"Enter\". <code>e.ctrlKey</code> is true because Ctrl is held. <code>e.shiftKey</code> and <code>e.altKey</code> are false because Shift and Alt are not held."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What happens when this code runs?<br><pre><code>&lt;button id=\"btn\"&gt;Click Me&lt;/button&gt;\n\n&lt;script&gt;\nconst btn = document.getElementById(\"btn\");\nbtn.addEventListener(\"click\", function() {\n  btn.textContent = \"Clicked!\";\n  btn.disabled = true;\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "Setting disabled to true prevents further clicks.",
+        "answer": "On the first click, the button text changes to \"Clicked!\" and the button becomes disabled. It cannot be clicked again.",
+        "explanation": "The handler changes the button text and sets <code>disabled = true</code>. A disabled button does not fire click events, so this creates a one-time-use button."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged when the button is clicked twice?<br><pre><code>&lt;button id=\"btn\"&gt;Toggle&lt;/button&gt;\n\n&lt;script&gt;\nlet isOn = false;\ndocument.getElementById(\"btn\").addEventListener(\"click\", function() {\n  isOn = !isOn;\n  console.log(isOn);\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "!false is true, !true is false.",
+        "answer": "<code>true</code><br><code>false</code>",
+        "explanation": "First click: isOn goes from false to true (logged). Second click: isOn goes from true to false (logged). The <code>!</code> operator toggles the boolean."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this code do?<br><pre><code>&lt;a href=\"https://google.com\" id=\"link\"&gt;Google&lt;/a&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"link\").addEventListener(\"click\", function(e) {\n  e.preventDefault();\n  console.log(\"Link click prevented!\");\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "preventDefault stops the default link navigation.",
+        "answer": "Clicking the link does NOT navigate to Google. Instead, \"Link click prevented!\" is logged to the console.",
+        "explanation": "<code>e.preventDefault()</code> stops the browser from following the link's href. The page stays as is and the console message is logged. This is useful for handling link clicks with custom JavaScript."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged when 'Item 2' is clicked?<br><pre><code>&lt;ul id=\"list\"&gt;\n  &lt;li data-id=\"1\"&gt;Item 1&lt;/li&gt;\n  &lt;li data-id=\"2\"&gt;Item 2&lt;/li&gt;\n  &lt;li data-id=\"3\"&gt;Item 3&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"list\").addEventListener(\"click\", function(e) {\n  if (e.target.tagName === \"LI\") {\n    console.log(\"ID: \" + e.target.dataset.id);\n    console.log(\"Text: \" + e.target.textContent);\n  }\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "dataset gives access to data-* attributes. data-id becomes dataset.id.",
+        "answer": "<code>ID: 2</code><br><code>Text: Item 2</code>",
+        "explanation": "Event delegation on the ul. When Item 2 is clicked, <code>e.target</code> is that li. <code>e.target.dataset.id</code> reads the data-id attribute value (\"2\"). <code>e.target.textContent</code> returns \"Item 2\"."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged when the button is clicked 3 times?<br><pre><code>&lt;button id=\"btn\"&gt;Click&lt;/button&gt;\n&lt;p id=\"result\"&gt;&lt;/p&gt;\n\n&lt;script&gt;\nlet clicks = [];\ndocument.getElementById(\"btn\").addEventListener(\"click\", function() {\n  const now = new Date();\n  clicks.push(now.getSeconds());\n  document.getElementById(\"result\").textContent = clicks.join(\", \");\n  console.log(\"Clicks so far: \" + clicks.length);\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "Each click adds the current second to the array.",
+        "answer": "<code>Clicks so far: 1</code><br><code>Clicks so far: 2</code><br><code>Clicks so far: 3</code>",
+        "explanation": "Each click pushes the current second to the clicks array and updates the paragraph. The console shows the running count. The actual seconds depend on when you click."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between the <code>input</code> event and the <code>change</code> event on a text input?",
+        "hint": "One fires in real time, the other waits.",
+        "answer": "The <code>input</code> event fires immediately on every change to the input's value (every keystroke, paste, or deletion). The <code>change</code> event fires only when the value has changed AND the input loses focus (the user clicks or tabs away). Use <code>input</code> for real-time updates and <code>change</code> for final values.",
+        "explanation": "For a live search or character counter, use <code>input</code>. For processing the final submitted value, use <code>change</code>. On checkboxes and select elements, <code>change</code> fires immediately when the selection changes."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is event delegation and why is it useful?",
+        "hint": "Think about attaching one listener vs many.",
+        "answer": "Event delegation is a pattern where you attach a single event listener to a parent element instead of individual listeners to each child. When a child is clicked, the event bubbles up to the parent, where you use <code>e.target</code> to identify which child triggered it. Benefits: (1) uses less memory (one listener vs many), (2) works for dynamically added elements, (3) less code to write and maintain.",
+        "explanation": "Example: instead of adding click handlers to 50 list items, add one handler to the ul. If new items are added later, they automatically work because the parent is listening. React and other frameworks use this pattern internally."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>e.target</code> and <code>e.currentTarget</code>?",
+        "hint": "One is what was clicked, the other is where the listener lives.",
+        "answer": "<code>e.target</code> is the actual element that was clicked (the most specific element). <code>e.currentTarget</code> is the element the event listener is attached to. In event delegation, e.target is the child that was clicked and e.currentTarget is the parent with the listener.",
+        "explanation": "If a click listener is on a ul and you click an li inside it: <code>e.target</code> is the li (what was clicked), <code>e.currentTarget</code> is the ul (where the listener is). They are the same only when you click directly on the element with the listener."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"outer\"&gt;\n  &lt;div id=\"middle\"&gt;\n    &lt;button id=\"inner\"&gt;Click&lt;/button&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"outer\").addEventListener(\"click\", function(e) {\n  console.log(\"outer - target: \" + e.target.id + \", currentTarget: \" + e.currentTarget.id);\n});\ndocument.getElementById(\"middle\").addEventListener(\"click\", function(e) {\n  console.log(\"middle - target: \" + e.target.id + \", currentTarget: \" + e.currentTarget.id);\n});\ndocument.getElementById(\"inner\").addEventListener(\"click\", function(e) {\n  console.log(\"inner - target: \" + e.target.id + \", currentTarget: \" + e.currentTarget.id);\n});\n&lt;/script&gt;</code></pre><p>The button is clicked.</p>",
+        "hint": "e.target is always the clicked element. e.currentTarget changes as the event bubbles.",
+        "answer": "<code>inner - target: inner, currentTarget: inner</code><br><code>middle - target: inner, currentTarget: middle</code><br><code>outer - target: inner, currentTarget: outer</code>",
+        "explanation": "The button is clicked, so <code>e.target</code> is always \"inner\" at every level. As the event bubbles up, <code>e.currentTarget</code> changes: it is the element whose listener is currently running."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged? The user types 'AB' into the input.<br><pre><code>&lt;input type=\"text\" id=\"field\"&gt;\n\n&lt;script&gt;\nconst field = document.getElementById(\"field\");\n\nfield.addEventListener(\"keydown\", function(e) {\n  console.log(\"keydown: \" + e.key + \" value: \" + field.value);\n});\n\nfield.addEventListener(\"keyup\", function(e) {\n  console.log(\"keyup: \" + e.key + \" value: \" + field.value);\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "keydown fires before the character appears. keyup fires after.",
+        "answer": "<code>keydown: A value: </code> (empty)<br><code>keyup: A value: A</code><br><code>keydown: B value: A</code><br><code>keyup: B value: AB</code>",
+        "explanation": "<code>keydown</code> fires before the character is inserted into the input, so the value has not updated yet. <code>keyup</code> fires after the character is inserted, so the value includes the new character."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;button id=\"btn\"&gt;Click&lt;/button&gt;\n\n&lt;script&gt;\nconst btn = document.getElementById(\"btn\");\n\nbtn.onclick = function() {\n  console.log(\"First\");\n};\n\nbtn.onclick = function() {\n  console.log(\"Second\");\n};\n\nbtn.addEventListener(\"click\", function() {\n  console.log(\"Third\");\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "onclick is a property -- setting it replaces the previous value. addEventListener adds to a list.",
+        "answer": "<code>Second</code><br><code>Third</code>",
+        "explanation": "Setting <code>onclick</code> as a property replaces the previous handler. The second assignment overwrites the first, so only \"Second\" runs from onclick. <code>addEventListener</code> adds a separate handler, so \"Third\" also runs. The onclick handler runs before addEventListener handlers."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output of this scroll handler?<br><pre><code>&lt;script&gt;\nlet scrollCount = 0;\n\nwindow.addEventListener(\"scroll\", function() {\n  scrollCount++;\n});\n\nsetTimeout(function() {\n  console.log(\"Scroll events fired: \" + scrollCount);\n}, 5000);\n&lt;/script&gt;</code></pre><p>Assume the user scrolls continuously for 5 seconds.</p>",
+        "hint": "The scroll event fires many times per second during scrolling.",
+        "answer": "A large number, typically in the hundreds (e.g., \"Scroll events fired: 200+\"). The exact number depends on how fast and how much the user scrolls.",
+        "explanation": "The <code>scroll</code> event fires very rapidly during scrolling -- potentially dozens of times per second. This is why scroll handlers should be lightweight, or you should use techniques like throttling or debouncing to limit how often the handler runs."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What happens?<br><pre><code>&lt;form id=\"form\"&gt;\n  &lt;input type=\"text\" id=\"name\" required&gt;\n  &lt;button type=\"submit\"&gt;Submit&lt;/button&gt;\n&lt;/form&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"form\").addEventListener(\"submit\", function(e) {\n  e.preventDefault();\n  const name = document.getElementById(\"name\");\n  if (name.value.trim() === \"\") {\n    name.style.borderColor = \"red\";\n    name.focus();\n  } else {\n    name.style.borderColor = \"green\";\n    console.log(\"Submitted: \" + name.value);\n  }\n});\n&lt;/script&gt;</code></pre><p>The user clicks Submit with an empty input, then types 'Aarav' and submits again.</p>",
+        "hint": "First submit: empty check triggers. Second submit: name has a value.",
+        "answer": "First submit: the input border turns red and the input gains focus. Second submit: the input border turns green and \"Submitted: Aarav\" is logged.",
+        "explanation": "First click: the name value is empty, so borderColor becomes red and <code>focus()</code> puts the cursor in the input. Second click: \"Aarav\" is not empty, so borderColor becomes green and the name is logged."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which method is used to attach an event handler to an element?",
+        "options": {
+          "A": "element.onEvent()",
+          "B": "element.addEventListener()",
+          "C": "element.attachEvent()",
+          "D": "element.listenFor()"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>addEventListener</code> is the standard method for attaching event handlers. Option C is an old IE-only method. Options A and D do not exist."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which event fires when a user clicks a button?",
+        "options": {
+          "A": "press",
+          "B": "tap",
+          "C": "click",
+          "D": "activate"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>click</code> event fires when an element is clicked (mouse or touch). Options A, B, and D are not standard DOM events."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does <code>e.preventDefault()</code> do?",
+        "options": {
+          "A": "Stops all JavaScript on the page",
+          "B": "Removes the event listener",
+          "C": "Stops the browser's default action for that event",
+          "D": "Prevents the event from being created"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>e.preventDefault()</code> stops default behaviors like form submission page reload, link navigation, or browser shortcuts. It does not stop JavaScript or remove listeners."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which property of the event object tells you which element was clicked?",
+        "options": {
+          "A": "e.element",
+          "B": "e.source",
+          "C": "e.target",
+          "D": "e.origin"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>e.target</code> references the element that triggered the event. Options A, B, and D are not properties of DOM events."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which event fires on every keystroke in a text input?",
+        "options": {
+          "A": "change",
+          "B": "input",
+          "C": "submit",
+          "D": "keypress"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>input</code> event fires on every change to the value (keystroke, paste, delete). <code>change</code> fires only when the element loses focus. <code>keypress</code> is deprecated."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is event bubbling?",
+        "options": {
+          "A": "Events fire from parent to child",
+          "B": "Events fire from child to parent through the DOM tree",
+          "C": "Events fire only on the clicked element",
+          "D": "Events fire on all elements simultaneously"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When an event fires on a child element, it bubbles up through all ancestors (parent, grandparent, etc.). A click on a button inside a div also fires click handlers on the div, body, and document."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Which method stops an event from bubbling to parent elements?",
+        "options": {
+          "A": "e.preventDefault()",
+          "B": "e.stopBubbling()",
+          "C": "e.stopPropagation()",
+          "D": "e.cancelBubble()"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>e.stopPropagation()</code> prevents the event from bubbling up to parent elements. <code>e.preventDefault()</code> stops the default browser action but does not stop bubbling."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Why can you NOT remove an anonymous function event listener?",
+        "options": {
+          "A": "Anonymous functions are faster and cannot be stopped",
+          "B": "Each anonymous function creates a unique object; removeEventListener needs the same reference",
+          "C": "Anonymous functions do not support removeEventListener",
+          "D": "You can remove them; there is no issue"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Two identical-looking anonymous functions are different objects in memory. <code>removeEventListener</code> compares by reference, not by code content. You must store the function in a variable to remove it later."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which keyboard event is deprecated and should NOT be used?",
+        "options": {
+          "A": "keydown",
+          "B": "keyup",
+          "C": "keypress",
+          "D": "keyinput"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>keypress</code> is deprecated. It only fires for keys that produce characters and does not fire for Escape, arrow keys, Ctrl, etc. Use <code>keydown</code> or <code>keyup</code> instead."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What does <code>e.target.closest('li')</code> do in event delegation?",
+        "options": {
+          "A": "Selects the first li on the page",
+          "B": "Finds the nearest li ancestor of the clicked element",
+          "C": "Selects the closest sibling li",
+          "D": "Returns null always"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>closest('li')</code> traverses up the DOM tree from the clicked element and returns the first ancestor (or self) that matches the selector. This is essential for reliable event delegation with nested elements."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the value of <code>this</code> inside an arrow function event handler?",
+        "options": {
+          "A": "The element the listener is attached to",
+          "B": "The event object",
+          "C": "The outer scope's this (usually window)",
+          "D": "undefined"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Arrow functions do not have their own <code>this</code>. They inherit <code>this</code> from the enclosing scope. In a top-level script, that is <code>window</code>. If you need <code>this</code> to be the element, use a regular function."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "Which fires first: <code>DOMContentLoaded</code> or <code>load</code>?",
+        "options": {
+          "A": "load fires first",
+          "B": "DOMContentLoaded fires first",
+          "C": "They fire at the same time",
+          "D": "It depends on the browser"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>DOMContentLoaded</code> fires when the HTML is fully parsed (DOM tree built). <code>load</code> fires after everything including images, stylesheets, and iframes have finished loading. DOMContentLoaded is always first."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What does <code>{ once: true }</code> do as a third argument to addEventListener?",
+        "options": {
+          "A": "Makes the listener fire only one time, then automatically removes itself",
+          "B": "Ensures only one listener can be added",
+          "C": "Fires the event immediately once",
+          "D": "It is not a valid option"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>element.addEventListener('click', handler, { once: true })</code> runs the handler once and then automatically removes the listener. This is useful for one-time actions like welcome modals or first-click tutorials."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "In the event flow, what are the three phases?",
+        "options": {
+          "A": "Start, middle, end",
+          "B": "Capture, target, bubble",
+          "C": "Create, dispatch, destroy",
+          "D": "Attach, fire, detach"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Events travel in three phases: (1) Capture phase (from document down to the target), (2) Target phase (on the target element), (3) Bubble phase (from target back up to document). By default, listeners run during the bubble phase."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "What does <code>e.key</code> return when the Enter key is pressed?",
+        "options": {
+          "A": "13",
+          "B": "\"enter\"",
+          "C": "\"Enter\"",
+          "D": "true"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>e.key</code> returns the string \"Enter\" (capital E). Other examples: \"Escape\", \"ArrowUp\", \"a\", \"Shift\". The old <code>e.keyCode</code> (which returns 13) is deprecated."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>mouseenter</code> and <code>mouseover</code>?",
+        "options": {
+          "A": "They are identical",
+          "B": "mouseenter does not bubble; mouseover bubbles to child elements",
+          "C": "mouseenter is faster",
+          "D": "mouseover only works on div elements"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>mouseover</code> bubbles, which means it fires again when the mouse moves over child elements. <code>mouseenter</code> does not bubble, so it fires only once when entering the element. mouseenter/mouseleave are usually preferred for hover effects."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Easy",
+        "question": "What happens if you call <code>addEventListener</code> with the same function on the same event twice?",
+        "options": {
+          "A": "The handler runs twice per event",
+          "B": "The second call is ignored (duplicate handlers are not added)",
+          "C": "An error is thrown",
+          "D": "The first handler is replaced"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> If you pass the exact same function reference for the same event type on the same element, the browser ignores the duplicate. The handler runs only once per event."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the difference between <code>onclick</code> property and <code>addEventListener('click', ...)</code>?",
+        "options": {
+          "A": "They are identical",
+          "B": "onclick can only have one handler (last one wins); addEventListener can have multiple",
+          "C": "addEventListener only works for click events",
+          "D": "onclick is faster"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Setting <code>element.onclick = fn</code> replaces any previous onclick handler. <code>addEventListener</code> adds handlers to a list, so multiple handlers can coexist for the same event."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "Which event fires when the user selects an option from a <code>&lt;select&gt;</code> dropdown?",
+        "options": {
+          "A": "click",
+          "B": "input",
+          "C": "change",
+          "D": "select"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>change</code> event fires when the user selects a different option in a select dropdown. The <code>input</code> event also fires on select elements in modern browsers, but <code>change</code> is the standard and most reliable."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "What does <code>e.target.closest('li')</code> return if the click was on a span inside a div (not inside any li)?",
+        "options": {
+          "A": "The span element",
+          "B": "The div element",
+          "C": "null",
+          "D": "An error is thrown"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>closest('li')</code> traverses up from the clicked element looking for an li ancestor. If none is found (the element is not inside an li), it returns null. Always check for null before using the result."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Live Character Counter for Textarea",
+        "difficulty": "Easy",
+        "description": "Create a textarea with a maximum of 150 characters. Show a live counter below it that says 'X / 150 characters'. Change the counter color to red when over 150.",
+        "sampleInput": "Type in the textarea",
+        "sampleOutput": "Counter updates: '45 / 150 characters'. Turns red at 151+.",
+        "constraints": "Use the input event. Use classList.add/remove for the red color, not inline styles.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    .over-limit { color: red; font-weight: bold; }\n  </style>\n</head>\n<body>\n  <textarea id=\"text\" rows=\"4\" cols=\"40\"></textarea>\n  <p id=\"counter\">0 / 150 characters</p>\n  <script>\n    const text = document.getElementById(\"text\");\n    const counter = document.getElementById(\"counter\");\n    text.addEventListener(\"input\", function() {\n      const len = text.value.length;\n      counter.textContent = len + \" / 150 characters\";\n      if (len > 150) {\n        counter.classList.add(\"over-limit\");\n      } else {\n        counter.classList.remove(\"over-limit\");\n      }\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Keyboard Navigation",
+        "difficulty": "Easy",
+        "description": "Create a colored box (div) on the page. Use keydown events to move it: Arrow keys move it 20px in the corresponding direction. Display the current position (x, y) below the box.",
+        "sampleInput": "Press arrow keys",
+        "sampleOutput": "The box moves around the page. Position display: 'x: 100, y: 60'.",
+        "constraints": "Use keydown on the document. Use element.style.left and element.style.top. Use position: absolute on the box.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    #box { width: 50px; height: 50px; background: #a855f7; position: absolute; top: 100px; left: 100px; border-radius: 8px; }\n  </style>\n</head>\n<body>\n  <p id=\"pos\">x: 100, y: 100</p>\n  <div id=\"box\"></div>\n  <script>\n    const box = document.getElementById(\"box\");\n    const pos = document.getElementById(\"pos\");\n    let x = 100, y = 100;\n    document.addEventListener(\"keydown\", function(e) {\n      if (e.key === \"ArrowUp\") y -= 20;\n      if (e.key === \"ArrowDown\") y += 20;\n      if (e.key === \"ArrowLeft\") x -= 20;\n      if (e.key === \"ArrowRight\") x += 20;\n      box.style.left = x + \"px\";\n      box.style.top = y + \"px\";\n      pos.textContent = \"x: \" + x + \", y: \" + y;\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Color Picker with Delegation",
+        "difficulty": "Medium",
+        "description": "Create a grid of 9 colored divs (3x3) using different background colors. Use event delegation on the parent container. When any color div is clicked, change the page body background to that color. Show the selected color code in a paragraph.",
+        "sampleInput": "Click any color square",
+        "sampleOutput": "Body background changes to the clicked color. Display shows '#a855f7'.",
+        "constraints": "Use a single event listener on the parent (event delegation). Store colors in data-color attributes.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    .grid { display: grid; grid-template-columns: repeat(3, 80px); gap: 8px; }\n    .color-box { width: 80px; height: 80px; border-radius: 8px; cursor: pointer; border: 3px solid transparent; }\n    .color-box:hover { border-color: #000; }\n    body { transition: background-color 0.3s; padding: 20px; font-family: Arial; }\n  </style>\n</head>\n<body>\n  <h2>Pick a Color</h2>\n  <div class=\"grid\" id=\"grid\">\n    <div class=\"color-box\" data-color=\"#a855f7\" style=\"background:#a855f7\"></div>\n    <div class=\"color-box\" data-color=\"#06b6d4\" style=\"background:#06b6d4\"></div>\n    <div class=\"color-box\" data-color=\"#f59e0b\" style=\"background:#f59e0b\"></div>\n    <div class=\"color-box\" data-color=\"#ef4444\" style=\"background:#ef4444\"></div>\n    <div class=\"color-box\" data-color=\"#10b981\" style=\"background:#10b981\"></div>\n    <div class=\"color-box\" data-color=\"#3b82f6\" style=\"background:#3b82f6\"></div>\n    <div class=\"color-box\" data-color=\"#ec4899\" style=\"background:#ec4899\"></div>\n    <div class=\"color-box\" data-color=\"#8b5cf6\" style=\"background:#8b5cf6\"></div>\n    <div class=\"color-box\" data-color=\"#14b8a6\" style=\"background:#14b8a6\"></div>\n  </div>\n  <p id=\"selected\">No color selected</p>\n  <script>\n    document.getElementById(\"grid\").addEventListener(\"click\", function(e) {\n      if (e.target.classList.contains(\"color-box\")) {\n        const color = e.target.getAttribute(\"data-color\");\n        document.body.style.backgroundColor = color;\n        document.getElementById(\"selected\").textContent = \"Selected: \" + color;\n      }\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Interactive Quiz with Score",
+        "difficulty": "Medium",
+        "description": "Create a simple quiz with 3 multiple-choice questions. Each question has 4 radio button options. A 'Check Answers' button at the bottom checks all answers, highlights correct ones in green and wrong ones in red, and shows the score (e.g., '2 / 3').",
+        "sampleInput": "Select answers and click 'Check Answers'",
+        "sampleOutput": "Correct answers highlighted green, wrong ones red. Score: '2 / 3'.",
+        "constraints": "Use the submit event with preventDefault. Use querySelectorAll to check radio button values. Use classList for green/red highlighting.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    .correct { background: #d1fae5; padding: 8px; border-radius: 4px; }\n    .wrong { background: #fecaca; padding: 8px; border-radius: 4px; }\n    .question { margin: 16px 0; padding: 12px; border: 1px solid #ddd; border-radius: 8px; }\n    button { padding: 10px 20px; background: #a855f7; color: white; border: none; border-radius: 6px; cursor: pointer; }\n  </style>\n</head>\n<body>\n  <h2>Quick Quiz</h2>\n  <form id=\"quiz\">\n    <div class=\"question\" id=\"q1\">\n      <p>1. What does DOM stand for?</p>\n      <label><input type=\"radio\" name=\"q1\" value=\"a\"> Document Object Model</label><br>\n      <label><input type=\"radio\" name=\"q1\" value=\"b\"> Data Object Method</label><br>\n      <label><input type=\"radio\" name=\"q1\" value=\"c\"> Digital Output Machine</label>\n    </div>\n    <div class=\"question\" id=\"q2\">\n      <p>2. Which event fires on every keystroke?</p>\n      <label><input type=\"radio\" name=\"q2\" value=\"a\"> change</label><br>\n      <label><input type=\"radio\" name=\"q2\" value=\"b\"> input</label><br>\n      <label><input type=\"radio\" name=\"q2\" value=\"c\"> submit</label>\n    </div>\n    <div class=\"question\" id=\"q3\">\n      <p>3. What does e.preventDefault() do?</p>\n      <label><input type=\"radio\" name=\"q3\" value=\"a\"> Stops JavaScript</label><br>\n      <label><input type=\"radio\" name=\"q3\" value=\"b\"> Removes the element</label><br>\n      <label><input type=\"radio\" name=\"q3\" value=\"c\"> Stops the default browser action</label>\n    </div>\n    <button type=\"submit\">Check Answers</button>\n  </form>\n  <p id=\"score\"></p>\n  <script>\n    const answers = { q1: \"a\", q2: \"b\", q3: \"c\" };\n    document.getElementById(\"quiz\").addEventListener(\"submit\", function(e) {\n      e.preventDefault();\n      let score = 0;\n      for (const q in answers) {\n        const div = document.getElementById(q);\n        const selected = document.querySelector('input[name=\"' + q + '\"]:checked');\n        div.classList.remove(\"correct\", \"wrong\");\n        if (selected && selected.value === answers[q]) {\n          div.classList.add(\"correct\");\n          score++;\n        } else {\n          div.classList.add(\"wrong\");\n        }\n      }\n      document.getElementById(\"score\").textContent = \"Score: \" + score + \" / 3\";\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Double Click to Edit",
+        "difficulty": "Hard",
+        "description": "Create a list of 5 items. When an item is double-clicked, it turns into an editable text input with the current text. When the user presses Enter or clicks outside (blur), the input is replaced back with the updated text. Use event delegation for the double-click.",
+        "sampleInput": "Double-click 'Read a book', change to 'Read two books', press Enter",
+        "sampleOutput": "The list item text changes from 'Read a book' to 'Read two books'.",
+        "constraints": "Use event delegation (single listener on the ul). Use dblclick event. Use keydown for Enter detection. Use blur for click-outside.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    li { padding: 10px; cursor: pointer; font-size: 18px; border-bottom: 1px solid #eee; }\n    li:hover { background: #f3f4f6; }\n    input.edit { font-size: 18px; padding: 8px; width: 100%; border: 2px solid #a855f7; border-radius: 4px; }\n  </style>\n</head>\n<body>\n  <h2>Double-Click to Edit</h2>\n  <ul id=\"list\">\n    <li>Complete homework</li>\n    <li>Practice coding</li>\n    <li>Read a book</li>\n    <li>Go for a walk</li>\n    <li>Call a friend</li>\n  </ul>\n  <script>\n    document.getElementById(\"list\").addEventListener(\"dblclick\", function(e) {\n      if (e.target.tagName === \"LI\") {\n        const li = e.target;\n        const oldText = li.textContent;\n        const input = document.createElement(\"input\");\n        input.className = \"edit\";\n        input.value = oldText;\n        li.textContent = \"\";\n        li.appendChild(input);\n        input.focus();\n        function save() {\n          li.textContent = input.value || oldText;\n        }\n        input.addEventListener(\"blur\", save);\n        input.addEventListener(\"keydown\", function(ev) {\n          if (ev.key === \"Enter\") { input.blur(); }\n          if (ev.key === \"Escape\") { input.value = oldText; input.blur(); }\n        });\n      }\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Keyboard Shortcuts Panel",
+        "difficulty": "Hard",
+        "description": "Build a page with a content area and a shortcuts panel. Implement these keyboard shortcuts: Ctrl+B toggles bold on the content, Ctrl+I toggles italic, Ctrl+L toggles a 'large' class (bigger font), Escape hides the shortcuts panel, and 'H' (without Ctrl) toggles the panel visibility. Show which shortcut was last used.",
+        "sampleInput": "Press Ctrl+B, then Ctrl+I, then Escape",
+        "sampleOutput": "Content becomes bold, then bold+italic. Panel hides on Escape.",
+        "constraints": "Use keydown on document. Use e.preventDefault() to override browser shortcuts. Use classList.toggle for all styling.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial; padding: 20px; }\n    #content { padding: 20px; border: 1px solid #ddd; border-radius: 8px; min-height: 100px; }\n    #content.bold { font-weight: bold; }\n    #content.italic { font-style: italic; }\n    #content.large { font-size: 24px; }\n    #panel { margin-top: 16px; padding: 16px; background: #f3f4f6; border-radius: 8px; }\n    #panel.hidden { display: none; }\n    .shortcut { font-family: monospace; background: #e5e7eb; padding: 2px 6px; border-radius: 4px; }\n  </style>\n</head>\n<body>\n  <div id=\"content\">This is the editable content area. Use keyboard shortcuts to style it.</div>\n  <div id=\"panel\">\n    <h3>Shortcuts</h3>\n    <p><span class=\"shortcut\">Ctrl+B</span> Bold | <span class=\"shortcut\">Ctrl+I</span> Italic | <span class=\"shortcut\">Ctrl+L</span> Large | <span class=\"shortcut\">Esc</span> Hide panel | <span class=\"shortcut\">H</span> Toggle panel</p>\n  </div>\n  <p id=\"last\">Last shortcut: none</p>\n  <script>\n    const content = document.getElementById(\"content\");\n    const panel = document.getElementById(\"panel\");\n    const last = document.getElementById(\"last\");\n    document.addEventListener(\"keydown\", function(e) {\n      if (e.ctrlKey && e.key === \"b\") { e.preventDefault(); content.classList.toggle(\"bold\"); last.textContent = \"Last shortcut: Ctrl+B\"; }\n      else if (e.ctrlKey && e.key === \"i\") { e.preventDefault(); content.classList.toggle(\"italic\"); last.textContent = \"Last shortcut: Ctrl+I\"; }\n      else if (e.ctrlKey && e.key === \"l\") { e.preventDefault(); content.classList.toggle(\"large\"); last.textContent = \"Last shortcut: Ctrl+L\"; }\n      else if (e.key === \"Escape\") { panel.classList.add(\"hidden\"); last.textContent = \"Last shortcut: Escape\"; }\n      else if (e.key === \"h\" || e.key === \"H\") { if (!e.ctrlKey) { panel.classList.toggle(\"hidden\"); last.textContent = \"Last shortcut: H\"; } }\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-7",
+        "title": "Stopwatch with Start/Stop/Reset",
+        "difficulty": "Hard",
+        "description": "Build a stopwatch with a time display (MM:SS:ms format) and three buttons: Start, Stop, Reset. Start begins counting, Stop pauses it, Reset sets it back to 00:00:00. Also add a Lap button that records the current time and displays it in a list below.",
+        "sampleInput": "Click Start, wait, click Lap, click Stop, click Reset",
+        "sampleOutput": "Timer counts up. Lap times are recorded. Stop pauses. Reset clears.",
+        "constraints": "Use setInterval for the timer. Use click events for buttons. Use createElement to add lap times to a list.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial; padding: 20px; text-align: center; }\n    #display { font-size: 48px; font-family: monospace; margin: 20px; }\n    button { padding: 10px 20px; margin: 4px; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; color: white; }\n    #start { background: #10b981; } #stop { background: #ef4444; }\n    #reset { background: #6b7280; } #lap { background: #a855f7; }\n    #laps { text-align: left; max-width: 300px; margin: 20px auto; }\n    #laps li { padding: 4px 0; font-family: monospace; }\n  </style>\n</head>\n<body>\n  <h2>Stopwatch</h2>\n  <div id=\"display\">00:00:00</div>\n  <button id=\"start\">Start</button>\n  <button id=\"stop\">Stop</button>\n  <button id=\"reset\">Reset</button>\n  <button id=\"lap\">Lap</button>\n  <ol id=\"laps\"></ol>\n  <script>\n    let ms = 0, timer = null;\n    const display = document.getElementById(\"display\");\n    function format(ms) {\n      const minutes = String(Math.floor(ms / 6000)).padStart(2, \"0\");\n      const seconds = String(Math.floor((ms % 6000) / 100)).padStart(2, \"0\");\n      const centis = String(ms % 100).padStart(2, \"0\");\n      return minutes + \":\" + seconds + \":\" + centis;\n    }\n    document.getElementById(\"start\").addEventListener(\"click\", function() {\n      if (!timer) { timer = setInterval(function() { ms++; display.textContent = format(ms); }, 10); }\n    });\n    document.getElementById(\"stop\").addEventListener(\"click\", function() {\n      clearInterval(timer); timer = null;\n    });\n    document.getElementById(\"reset\").addEventListener(\"click\", function() {\n      clearInterval(timer); timer = null; ms = 0; display.textContent = format(ms);\n      document.getElementById(\"laps\").innerHTML = \"\";\n    });\n    document.getElementById(\"lap\").addEventListener(\"click\", function() {\n      const li = document.createElement(\"li\");\n      li.textContent = format(ms);\n      document.getElementById(\"laps\").appendChild(li);\n    });\n  </script>\n</body>\n</html>"
+      }
+    ]
+  }
+}

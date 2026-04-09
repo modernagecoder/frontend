@@ -1,0 +1,699 @@
+{
+  "title": "Strings and Template Literals",
+  "slug": "strings-and-template-literals",
+  "language": "javascript",
+  "chapter": 10,
+  "difficulty": "Intermediate",
+  "readingTime": "26 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "JavaScript Strings and Template Literals - Methods, Interpolation, Dynamic HTML | Modern Age Coders",
+    "description": "Master JavaScript strings: length, charAt, indexOf, includes, slice, split, join, replace, template literals, string interpolation, multiline strings, and building dynamic HTML. 55 practice questions.",
+    "keywords": "javascript strings, template literals javascript, string methods javascript, javascript string interpolation, javascript string tutorial, javascript split join, javascript replace replaceAll, javascript backtick strings, javascript dynamic html template, javascript padStart padEnd"
+  },
+  "content": {
+    "what": "<h2>What Are Strings in JavaScript?</h2><p>A <strong>string</strong> is a sequence of characters used to represent text. Anything enclosed in quotes is a string: a name, a sentence, a password, a URL, or even HTML code. Strings are one of the most commonly used data types in programming.</p><p>JavaScript gives you three ways to write strings:</p><pre><code>const single = 'Hello';           // Single quotes\nconst double = \"Hello\";           // Double quotes\nconst backtick = `Hello`;         // Backticks (template literals)</code></pre><p>Single and double quotes work the same way. <strong>Backticks</strong> (template literals) are special - they let you embed expressions, create multiline strings, and build dynamic HTML. You will use backticks heavily in web development.</p><p>Strings in JavaScript are <strong>immutable</strong>, meaning once created, they cannot be changed. Every string method returns a <strong>new</strong> string instead of modifying the original.</p>",
+    "why": "<h2>Why Are Strings Important?</h2><p>Strings are everywhere in web development. Here is why you need to master them:</p><h3>1. User Input and Forms</h3><p>Every piece of text a user types into a form - their name, email, password, search query - is a string. You need string methods to validate, clean, and process this input.</p><h3>2. Building Dynamic HTML</h3><p>Modern web apps generate HTML dynamically from data. Template literals let you build HTML strings with embedded variables, creating cards, lists, tables, and entire page sections from JavaScript.</p><h3>3. Working with APIs</h3><p>API URLs contain parameters as strings. JSON data (from servers) contains strings. HTTP headers, query strings, and response bodies are all text. String manipulation is essential for API work.</p><h3>4. Text Processing</h3><p>Searching text, extracting parts, replacing content, formatting dates and numbers, building URLs, parsing CSV data - all of these involve string operations.</p><h3>5. Template Literals Changed Everything</h3><p>Before template literals (ES6), building strings with variables was painful: <code>\"Hello \" + name + \", you are \" + age + \" years old\"</code>. Now you write: <code>`Hello ${name}, you are ${age} years old`</code>. This single feature makes JavaScript code dramatically more readable.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. String Properties and Basic Methods</h3><p><strong>length</strong> gives the number of characters in a string. <strong>charAt(index)</strong> returns the character at a given position. You can also use bracket notation <code>str[index]</code>.</p><pre><code>const name = \"Aarav\";\nconsole.log(name.length);    // 5\nconsole.log(name.charAt(0)); // \"A\"\nconsole.log(name[4]);        // \"v\"</code></pre><h3>2. Searching: indexOf, lastIndexOf, includes, startsWith, endsWith</h3><pre><code>const text = \"JavaScript is amazing and JavaScript is everywhere\";\n\ntext.indexOf(\"JavaScript\");     // 0 (first occurrence)\ntext.lastIndexOf(\"JavaScript\"); // 26 (last occurrence)\ntext.indexOf(\"Python\");         // -1 (not found)\n\ntext.includes(\"amazing\");   // true\ntext.startsWith(\"Java\");    // true\ntext.endsWith(\"everywhere\"); // true</code></pre><p><code>indexOf</code> returns the position of the first match, or -1 if not found. <code>lastIndexOf</code> searches from the end. <code>includes</code>, <code>startsWith</code>, and <code>endsWith</code> return booleans.</p><h3>3. Extracting Parts: slice and substring</h3><pre><code>const str = \"Hello, World!\";\n\nstr.slice(0, 5);     // \"Hello\" (start to end, exclusive)\nstr.slice(7);        // \"World!\" (start to end of string)\nstr.slice(-6);       // \"orld!\" (negative = from end)\nstr.substring(0, 5); // \"Hello\" (similar to slice)</code></pre><p><code>slice</code> is the most commonly used. It takes a start index and an optional end index (exclusive). Negative indices count from the end.</p><h3>4. Changing Case: toUpperCase and toLowerCase</h3><pre><code>const name = \"Priya Sharma\";\nname.toUpperCase(); // \"PRIYA SHARMA\"\nname.toLowerCase(); // \"priya sharma\"</code></pre><p>These return new strings. The original is unchanged (strings are immutable).</p><h3>5. Trimming Whitespace: trim, trimStart, trimEnd</h3><pre><code>const input = \"   hello   \";\ninput.trim();      // \"hello\"\ninput.trimStart(); // \"hello   \"\ninput.trimEnd();   // \"   hello\"</code></pre><p>Very useful for cleaning user input from forms.</p><h3>6. Splitting and Joining: split and join</h3><p><code>split</code> breaks a string into an array. <code>join</code> combines an array into a string.</p><pre><code>const csv = \"Aarav,Priya,Rohan,Diya\";\nconst names = csv.split(\",\"); // [\"Aarav\", \"Priya\", \"Rohan\", \"Diya\"]\n\nconst sentence = names.join(\" and \"); // \"Aarav and Priya and Rohan and Diya\"\n\n// Split a sentence into words\n\"Hello World\".split(\" \"); // [\"Hello\", \"World\"]\n\n// Split into individual characters\n\"Code\".split(\"\"); // [\"C\", \"o\", \"d\", \"e\"]</code></pre><h3>7. Replacing: replace and replaceAll</h3><pre><code>const text = \"I love Java. Java is great.\";\n\ntext.replace(\"Java\", \"JavaScript\");\n// \"I love JavaScript. Java is great.\" (only first match)\n\ntext.replaceAll(\"Java\", \"JavaScript\");\n// \"I love JavaScript. JavaScript is great.\" (all matches)</code></pre><p><code>replace</code> replaces only the first occurrence. <code>replaceAll</code> replaces every occurrence. Both return new strings.</p><h3>8. Repeating and Padding: repeat, padStart, padEnd</h3><pre><code>\"Ha\".repeat(3);         // \"HaHaHa\"\n\"5\".padStart(3, \"0\");   // \"005\"\n\"5\".padEnd(3, \"0\");     // \"500\"\n\"42\".padStart(5, \" \");  // \"   42\"</code></pre><p><code>padStart</code> and <code>padEnd</code> are great for formatting numbers, creating aligned text, and building consistent displays.</p><h3>9. Template Literals (Backticks)</h3><p>Template literals use backticks (<code>`</code>) instead of quotes. They have three superpowers:</p><h4>String Interpolation</h4><p>Embed expressions directly inside strings using <code>${expression}</code>:</p><pre><code>const name = \"Aarav\";\nconst age = 15;\n\nconsole.log(`Hello, ${name}! You are ${age} years old.`);\n// Hello, Aarav! You are 15 years old.\n\nconsole.log(`Next year you will be ${age + 1}.`);\n// Next year you will be 16.\n\nconsole.log(`${name.toUpperCase()} scored ${85 + 7} marks.`);\n// AARAV scored 92 marks.</code></pre><p>Any valid JavaScript expression works inside <code>${}</code>: variables, math, function calls, ternary operators, etc.</p><h4>Multiline Strings</h4><pre><code>const poem = `Roses are red,\nViolets are blue,\nJavaScript is awesome,\nAnd so are you.`;\n\nconsole.log(poem);</code></pre><p>With regular quotes, you would need <code>\\n</code> for each new line. Template literals preserve actual line breaks.</p><h3>10. Building Dynamic HTML with Template Literals</h3><p>This is one of the most practical uses of template literals. You can build HTML strings from data and insert them into the page:</p><pre><code>const student = { name: \"Priya\", grade: \"10th\", score: 92 };\n\nconst card = `\n  <div class=\"student-card\">\n    <h3>${student.name}</h3>\n    <p>Grade: ${student.grade}</p>\n    <p>Score: ${student.score}/100</p>\n    <span class=\"badge\">${student.score >= 90 ? \"Topper\" : \"Pass\"}</span>\n  </div>\n`;\n\ndocument.body.innerHTML += card;</code></pre><p>Notice the ternary operator inside <code>${}</code> - it adds \"Topper\" or \"Pass\" based on the score. This is how modern web apps build UI components from data.</p><h3>11. Building Lists from Arrays</h3><pre><code>const students = [\"Aarav\", \"Priya\", \"Rohan\", \"Diya\"];\n\nconst listHTML = `\n  <ul>\n    ${students.map(name => `<li>${name}</li>`).join(\"\\n    \")}\n  </ul>\n`;\n\nconsole.log(listHTML);</code></pre><p>This uses <code>map</code> to transform each name into an <code>&lt;li&gt;</code> element, then <code>join</code> to combine them into a single string. The result is a complete HTML list.</p><h3>12. Tagged Templates (Brief)</h3><p>Tagged templates let you process a template literal with a function. The function receives the string parts and the values separately:</p><pre><code>function highlight(strings, ...values) {\n  let result = \"\";\n  strings.forEach((str, i) => {\n    result += str;\n    if (i < values.length) {\n      result += `<strong>${values[i]}</strong>`;\n    }\n  });\n  return result;\n}\n\nconst name = \"Aarav\";\nconst score = 95;\nconst html = highlight`${name} scored ${score} marks`;\n// <strong>Aarav</strong> scored <strong>95</strong> marks</code></pre><p>Tagged templates are advanced but very powerful. Libraries like styled-components in React use them extensively.</p><h3>13. String.raw</h3><p><code>String.raw</code> is a built-in tagged template that returns the raw string without processing escape sequences:</p><pre><code>console.log(`Hello\\nWorld`);       // Hello (newline) World\nconsole.log(String.raw`Hello\\nWorld`); // Hello\\nWorld (literal backslash n)</code></pre><p>Useful when you want backslashes to remain as-is, like in file paths or regular expressions.</p>",
+    "codeExamples": [
+      {
+        "title": "Essential String Methods",
+        "code": "const text = \"JavaScript is Fun!\";\n\nconsole.log(\"Length:\", text.length);\nconsole.log(\"Char at 4:\", text.charAt(4));\nconsole.log(\"Index of 'is':\", text.indexOf(\"is\"));\nconsole.log(\"Includes 'Fun':\", text.includes(\"Fun\"));\nconsole.log(\"Starts with 'Java':\", text.startsWith(\"Java\"));\nconsole.log(\"Ends with '!':\", text.endsWith(\"!\"));\nconsole.log(\"Uppercase:\", text.toUpperCase());\nconsole.log(\"Lowercase:\", text.toLowerCase());",
+        "language": "javascript",
+        "explanation": "These are the most commonly used string methods. <code>length</code> counts characters. <code>charAt/indexOf</code> find positions. <code>includes/startsWith/endsWith</code> check for content. <code>toUpperCase/toLowerCase</code> change case. All return new values without modifying the original.",
+        "output": "Length: 18\nChar at 4: S\nIndex of 'is': 11\nIncludes 'Fun': true\nStarts with 'Java': true\nEnds with '!': true\nUppercase: JAVASCRIPT IS FUN!\nLowercase: javascript is fun!"
+      },
+      {
+        "title": "slice, split, join, replace",
+        "code": "const email = \"aarav.sharma@school.edu\";\n\n// slice: extract parts\nconsole.log(\"Username:\", email.slice(0, email.indexOf(\"@\")));\nconsole.log(\"Domain:\", email.slice(email.indexOf(\"@\") + 1));\n\n// split and join\nconst parts = email.split(\"@\");\nconsole.log(\"Parts:\", parts);\n\nconst csv = \"Maths,Science,English,Hindi\";\nconst subjects = csv.split(\",\");\nconsole.log(\"Subjects:\", subjects);\nconsole.log(\"Joined:\", subjects.join(\" | \"));\n\n// replace\nconst greeting = \"Hello World, Hello Everyone\";\nconsole.log(greeting.replace(\"Hello\", \"Hi\"));\nconsole.log(greeting.replaceAll(\"Hello\", \"Hi\"));",
+        "language": "javascript",
+        "explanation": "<code>slice</code> extracts a portion of a string. <code>split</code> breaks a string into an array at each separator. <code>join</code> combines array elements into a string. <code>replace</code> changes the first match; <code>replaceAll</code> changes all matches.",
+        "output": "Username: aarav.sharma\nDomain: school.edu\nParts: [\"aarav.sharma\", \"school.edu\"]\nSubjects: [\"Maths\", \"Science\", \"English\", \"Hindi\"]\nJoined: Maths | Science | English | Hindi\nHi World, Hello Everyone\nHi World, Hi Everyone"
+      },
+      {
+        "title": "trim, repeat, padStart, padEnd",
+        "code": "// Cleaning user input\nconst userInput = \"   Priya Sharma   \";\nconsole.log(\"Trimmed:\", userInput.trim());\n\n// Repeating strings\nconsole.log(\"Ha\".repeat(5));\nconsole.log(\"-\".repeat(20));\n\n// Padding numbers\nconst nums = [1, 12, 123, 1234];\nnums.forEach(n => {\n  console.log(String(n).padStart(6, \"0\"));\n});\n\n// Right-padding\nconsole.log(\"Price\".padEnd(15, \".\") + \"Rs 500\");",
+        "language": "javascript",
+        "explanation": "<code>trim()</code> removes whitespace from both ends (essential for form input). <code>repeat(n)</code> repeats the string n times. <code>padStart(length, char)</code> pads the beginning to reach the target length. <code>padEnd</code> pads the end.",
+        "output": "Trimmed: Priya Sharma\nHaHaHaHaHa\n--------------------\n000001\n000012\n000123\n001234\nPrice..........Rs 500"
+      },
+      {
+        "title": "Template Literals - String Interpolation",
+        "code": "const student = {\n  name: \"Rohan\",\n  age: 16,\n  marks: 88\n};\n\n// Basic interpolation\nconsole.log(`Name: ${student.name}`);\nconsole.log(`Age: ${student.age}, Next year: ${student.age + 1}`);\n\n// Expressions inside ${}\nconsole.log(`Status: ${student.marks >= 50 ? \"PASS\" : \"FAIL\"}`);\nconsole.log(`Grade: ${student.marks >= 90 ? \"A\" : student.marks >= 75 ? \"B\" : \"C\"}`);\n\n// Function calls inside ${}\nconsole.log(`Uppercase: ${student.name.toUpperCase()}`);",
+        "language": "javascript",
+        "explanation": "Template literals let you embed any JavaScript expression inside <code>${}</code>. Variables, math, ternary operators, function calls - anything that evaluates to a value works. This is much cleaner than string concatenation with the + operator.",
+        "output": "Name: Rohan\nAge: 16, Next year: 17\nStatus: PASS\nGrade: B\nUppercase: ROHAN"
+      },
+      {
+        "title": "Building an HTML Card from a Student Object",
+        "code": "const student = {\n  name: \"Kavya Nair\",\n  grade: \"10th\",\n  score: 94,\n  subjects: [\"Maths\", \"Science\", \"English\"]\n};\n\nconst card = `\n<div class=\"card\">\n  <h3>${student.name}</h3>\n  <p>Grade: ${student.grade} | Score: ${student.score}/100</p>\n  <p>Status: ${student.score >= 90 ? \"Distinction\" : \"Pass\"}</p>\n  <ul>\n    ${student.subjects.map(s => `<li>${s}</li>`).join(\"\\n    \")}\n  </ul>\n</div>`;\n\nconsole.log(card);",
+        "language": "javascript",
+        "explanation": "This generates a complete HTML card from an object. The template literal handles multiline HTML naturally. Inside <code>${}</code>, we use a ternary for conditional text and <code>map().join()</code> to build a list from an array. This pattern is used constantly in real web development.",
+        "output": "\n<div class=\"card\">\n  <h3>Kavya Nair</h3>\n  <p>Grade: 10th | Score: 94/100</p>\n  <p>Status: Distinction</p>\n  <ul>\n    <li>Maths</li>\n    <li>Science</li>\n    <li>English</li>\n  </ul>\n</div>"
+      },
+      {
+        "title": "Building a Dynamic List from an Array",
+        "code": "const courses = [\n  { name: \"JavaScript\", level: \"Beginner\" },\n  { name: \"React\", level: \"Intermediate\" },\n  { name: \"Node.js\", level: \"Advanced\" }\n];\n\nconst html = `\n<div class=\"course-list\">\n  <h2>Available Courses</h2>\n  ${courses.map(c => `\n  <div class=\"course\">\n    <strong>${c.name}</strong>\n    <span class=\"badge\">${c.level}</span>\n  </div>`).join(\"\")}\n</div>`;\n\nconsole.log(html);",
+        "language": "javascript",
+        "explanation": "This builds a complete course listing from an array of objects. Each course is mapped to an HTML div using template literals. The outer template literal wraps everything in a container. This is exactly how components work in frameworks like React.",
+        "output": "\n<div class=\"course-list\">\n  <h2>Available Courses</h2>\n  \n  <div class=\"course\">\n    <strong>JavaScript</strong>\n    <span class=\"badge\">Beginner</span>\n  </div>\n  <div class=\"course\">\n    <strong>React</strong>\n    <span class=\"badge\">Intermediate</span>\n  </div>\n  <div class=\"course\">\n    <strong>Node.js</strong>\n    <span class=\"badge\">Advanced</span>\n  </div>\n</div>"
+      },
+      {
+        "title": "Tagged Template Literal",
+        "code": "function currency(strings, ...values) {\n  let result = \"\";\n  strings.forEach((str, i) => {\n    result += str;\n    if (i < values.length) {\n      result += \"Rs \" + values[i].toLocaleString();\n    }\n  });\n  return result;\n}\n\nconst price = 45000;\nconst tax = 8100;\nconst total = price + tax;\n\nconsole.log(currency`Price: ${price}, Tax: ${tax}, Total: ${total}`);",
+        "language": "javascript",
+        "explanation": "A tagged template is a function that processes a template literal. It receives the string parts and the interpolated values separately. Here, the <code>currency</code> tag automatically formats numbers with \"Rs\" and commas. This pattern is used in libraries for CSS-in-JS, internationalization, and more.",
+        "output": "Price: Rs 45,000, Tax: Rs 8,100, Total: Rs 53,100"
+      },
+      {
+        "title": "String.raw for Escape Sequences",
+        "code": "// Normal template literal processes escape sequences\nconsole.log(`Line 1\\nLine 2`);\n\n// String.raw keeps backslashes as-is\nconsole.log(String.raw`Line 1\\nLine 2`);\n\n// Useful for file paths\nconst path = String.raw`C:\\Users\\Aarav\\Desktop\\project`;\nconsole.log(path);\n\n// Useful for regex patterns\nconst pattern = String.raw`\\d{3}-\\d{4}`;\nconsole.log(pattern);",
+        "language": "javascript",
+        "explanation": "<code>String.raw</code> is a built-in tagged template that returns the raw string without processing escape sequences like <code>\\n</code> or <code>\\t</code>. This is useful for Windows file paths and regular expression patterns where backslashes should be literal.",
+        "output": "Line 1\nLine 2\nLine 1\\nLine 2\nC:\\Users\\Aarav\\Desktop\\project\n\\d{3}-\\d{4}"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Thinking Strings Are Mutable",
+        "wrongCode": "let name = \"Aarav\";\nname[0] = \"B\"; // Trying to change first character\nconsole.log(name); // Still \"Aarav\" - not \"Baarav\"!",
+        "error": "Strings are immutable. You cannot change individual characters.",
+        "correctCode": "let name = \"Aarav\";\nname = \"B\" + name.slice(1); // Create a new string\nconsole.log(name); // \"Baarav\"",
+        "explanation": "Strings in JavaScript are immutable. You cannot modify individual characters. To change a string, you must create a new one. All string methods return new strings - they never modify the original."
+      },
+      {
+        "title": "Forgetting That replace Only Changes the First Match",
+        "wrongCode": "const text = \"cat dog cat bird cat\";\nconst result = text.replace(\"cat\", \"fish\");\nconsole.log(result); // \"fish dog cat bird cat\" - only first!",
+        "error": "replace only replaces the first occurrence, not all of them.",
+        "correctCode": "const text = \"cat dog cat bird cat\";\nconst result = text.replaceAll(\"cat\", \"fish\");\nconsole.log(result); // \"fish dog fish bird fish\"",
+        "explanation": "<code>replace</code> only changes the first occurrence. Use <code>replaceAll</code> to change all occurrences. Alternatively, you can use a regex with the global flag: <code>text.replace(/cat/g, \"fish\")</code>."
+      },
+      {
+        "title": "Confusing slice Parameters",
+        "wrongCode": "const str = \"JavaScript\";\n// Priya thinks slice(3, 6) extracts 4 characters\nconsole.log(str.slice(3, 6)); // \"aSc\" (only 3 chars, not 4)",
+        "error": "slice(start, end) does not include the character at the end index.",
+        "correctCode": "const str = \"JavaScript\";\n// slice(start, end) - end is EXCLUSIVE\nconsole.log(str.slice(3, 6)); // \"aSc\" (indices 3, 4, 5)\nconsole.log(str.slice(3, 7)); // \"aScr\" (indices 3, 4, 5, 6)",
+        "explanation": "The end index in <code>slice(start, end)</code> is exclusive - the character at that index is NOT included. <code>slice(3, 6)</code> extracts characters at indices 3, 4, and 5. To include index 6, use <code>slice(3, 7)</code>."
+      },
+      {
+        "title": "Using + Instead of Template Literals",
+        "wrongCode": "const name = \"Rohan\";\nconst age = 16;\n\n// Messy string concatenation\nconst msg = \"Hello \" + name + \", you are \" + age + \" years old and will be \" + (age + 1) + \" next year.\";\nconsole.log(msg);",
+        "error": "Not an error, but hard to read and maintain with many variables.",
+        "correctCode": "const name = \"Rohan\";\nconst age = 16;\n\n// Clean template literal\nconst msg = `Hello ${name}, you are ${age} years old and will be ${age + 1} next year.`;\nconsole.log(msg);",
+        "explanation": "Template literals with <code>${}</code> are much more readable than string concatenation with <code>+</code>. As strings get more complex (especially with HTML), the readability difference becomes huge. Always prefer template literals for strings with variables."
+      },
+      {
+        "title": "Not Converting Numbers Before Using padStart",
+        "wrongCode": "const num = 42;\nconsole.log(num.padStart(5, \"0\")); // TypeError!",
+        "error": "padStart is a string method. Numbers do not have it.",
+        "correctCode": "const num = 42;\nconsole.log(String(num).padStart(5, \"0\")); // \"00042\"",
+        "explanation": "<code>padStart</code> and <code>padEnd</code> are string methods. You cannot call them on numbers directly. Convert the number to a string first using <code>String(num)</code> or <code>num.toString()</code>."
+      }
+    ],
+    "summary": [
+      "Strings are sequences of characters, created with single quotes, double quotes, or backticks. They are immutable - every string method returns a new string.",
+      "length gives the character count. charAt(i) or str[i] returns the character at position i. Indices start at 0.",
+      "indexOf/lastIndexOf find positions. includes/startsWith/endsWith return booleans. indexOf returns -1 when not found.",
+      "slice(start, end) extracts a portion of a string. The end index is exclusive. Negative indices count from the end. This is the most common extraction method.",
+      "toUpperCase/toLowerCase change case. trim/trimStart/trimEnd remove whitespace. These are essential for cleaning user input.",
+      "split breaks a string into an array at each separator. join combines array elements into a string with a separator. These are a powerful pair for text processing.",
+      "replace changes the first match. replaceAll changes every match. Both return new strings. Use replaceAll when you want to replace all occurrences.",
+      "Template literals (backticks) enable string interpolation with ${expression}, multiline strings, and embedded expressions. Any valid JavaScript expression works inside ${}.",
+      "Template literals are the preferred way to build dynamic HTML. Use map().join() inside ${} to generate lists from arrays. Use ternary operators for conditional content.",
+      "padStart/padEnd pad strings to a target length. repeat(n) repeats a string n times. Convert numbers to strings before using padStart.",
+      "Tagged templates are functions that process template literals. They receive string parts and values separately. String.raw is a built-in tag that preserves escape sequences."
+    ]
+  },
+  "relatedTopics": ["objects-in-javascript", "dom-selection-and-manipulation"],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>const name = \"Aarav\";\nconsole.log(name.length);\nconsole.log(name[0]);</code></pre>",
+        "hint": "length counts characters. Index 0 is the first character.",
+        "answer": "<code>5</code><br><code>A</code>",
+        "explanation": "\"Aarav\" has 5 characters. <code>name[0]</code> returns the first character \"A\"."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const str = \"Hello World\";\nconsole.log(str.toUpperCase());\nconsole.log(str);</code></pre>",
+        "hint": "toUpperCase returns a new string. The original is unchanged.",
+        "answer": "<code>HELLO WORLD</code><br><code>Hello World</code>",
+        "explanation": "<code>toUpperCase()</code> returns a new all-uppercase string. The original <code>str</code> is unchanged because strings are immutable."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const text = \"JavaScript\";\nconsole.log(text.includes(\"Script\"));\nconsole.log(text.includes(\"script\"));</code></pre>",
+        "hint": "includes is case-sensitive.",
+        "answer": "<code>true</code><br><code>false</code>",
+        "explanation": "<code>includes</code> is case-sensitive. \"Script\" (capital S) is found, so true. \"script\" (lowercase s) is not found because the actual text has an uppercase S."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const name = \"Priya\";\nconst age = 15;\nconsole.log(`${name} is ${age} years old.`);</code></pre>",
+        "hint": "Template literals use ${} for interpolation.",
+        "answer": "<code>Priya is 15 years old.</code>",
+        "explanation": "Template literals (backticks) replace <code>${name}</code> with \"Priya\" and <code>${age}</code> with 15, producing the complete sentence."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const str = \"Hello, World!\";\nconsole.log(str.indexOf(\"World\"));\nconsole.log(str.indexOf(\"world\"));</code></pre>",
+        "hint": "indexOf returns -1 if not found. It is case-sensitive.",
+        "answer": "<code>7</code><br><code>-1</code>",
+        "explanation": "\"World\" starts at index 7. \"world\" (lowercase w) is not found, so indexOf returns -1. The search is case-sensitive."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(\"Ha\".repeat(4));</code></pre>",
+        "hint": "repeat(n) repeats the string n times.",
+        "answer": "<code>HaHaHaHa</code>",
+        "explanation": "<code>\"Ha\".repeat(4)</code> creates a new string by repeating \"Ha\" four times: \"HaHaHaHa\"."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const text = \"JavaScript\";\nconsole.log(text.slice(4, 10));\nconsole.log(text.slice(-6));</code></pre>",
+        "hint": "slice(4, 10) extracts from index 4 to 9. Negative index counts from the end.",
+        "answer": "<code>Script</code><br><code>Script</code>",
+        "explanation": "<code>slice(4, 10)</code> extracts characters at indices 4 through 9: \"Script\". <code>slice(-6)</code> starts 6 characters from the end: \"Script\". Both produce the same result here."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const csv = \"Aarav,Priya,Rohan\";\nconst names = csv.split(\",\");\nconsole.log(names);\nconsole.log(names.join(\" - \"));</code></pre>",
+        "hint": "split breaks at commas. join combines with the given separator.",
+        "answer": "<code>[\"Aarav\", \"Priya\", \"Rohan\"]</code><br><code>Aarav - Priya - Rohan</code>",
+        "explanation": "<code>split(\",\")</code> breaks the string at each comma, creating an array. <code>join(\" - \")</code> combines the array elements back into a string with \" - \" between each."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const str = \"   hello   \";\nconsole.log(str.trim());\nconsole.log(str.trim().length);</code></pre>",
+        "hint": "trim removes whitespace from both ends.",
+        "answer": "<code>hello</code><br><code>5</code>",
+        "explanation": "<code>trim()</code> removes leading and trailing whitespace, leaving \"hello\" (5 characters). The spaces in the original string are gone."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const text = \"hello hello hello\";\nconsole.log(text.replace(\"hello\", \"hi\"));\nconsole.log(text.replaceAll(\"hello\", \"hi\"));</code></pre>",
+        "hint": "replace changes only the first match. replaceAll changes all.",
+        "answer": "<code>hi hello hello</code><br><code>hi hi hi</code>",
+        "explanation": "<code>replace</code> only changes the first \"hello\" to \"hi\". <code>replaceAll</code> changes every occurrence."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const n = 42;\nconsole.log(String(n).padStart(6, \"0\"));\nconsole.log(\"Hi\".padEnd(10, \".\"));</code></pre>",
+        "hint": "padStart pads the beginning. padEnd pads the end.",
+        "answer": "<code>000042</code><br><code>Hi........</code>",
+        "explanation": "<code>padStart(6, \"0\")</code> adds zeros to the start until the string is 6 characters long: \"000042\". <code>padEnd(10, \".\")</code> adds dots to the end until the string is 10 characters long: \"Hi........\"."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const score = 85;\nconsole.log(`Grade: ${score >= 90 ? \"A\" : score >= 75 ? \"B\" : \"C\"}`);</code></pre>",
+        "hint": "Ternary operators work inside ${}.",
+        "answer": "<code>Grade: B</code>",
+        "explanation": "Inside <code>${}</code>, the ternary chain evaluates: 85 >= 90? No. 85 >= 75? Yes, so \"B\". The result is \"Grade: B\"."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const str = \"abcabc\";\nconsole.log(str.indexOf(\"c\"));\nconsole.log(str.lastIndexOf(\"c\"));\nconsole.log(str.indexOf(\"c\", 3));</code></pre>",
+        "hint": "indexOf searches from the start. lastIndexOf from the end. The second argument is the start position.",
+        "answer": "<code>2</code><br><code>5</code><br><code>5</code>",
+        "explanation": "<code>indexOf(\"c\")</code> finds the first \"c\" at index 2. <code>lastIndexOf(\"c\")</code> finds the last \"c\" at index 5. <code>indexOf(\"c\", 3)</code> starts searching from index 3 and finds \"c\" at index 5."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const students = [\"Aarav\", \"Priya\", \"Rohan\"];\nconst html = students.map(s => `<li>${s}</li>`).join(\"\\n\");\nconsole.log(html);</code></pre>",
+        "hint": "map transforms each name into an li element. join combines with newlines.",
+        "answer": "<code>&lt;li&gt;Aarav&lt;/li&gt;</code><br><code>&lt;li&gt;Priya&lt;/li&gt;</code><br><code>&lt;li&gt;Rohan&lt;/li&gt;</code>",
+        "explanation": "<code>map</code> wraps each name in <code>&lt;li&gt;</code> tags. <code>join(\"\\n\")</code> puts a newline between each element. The result is three list items, one per line."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const email = \"priya.sharma@school.edu.in\";\nconst parts = email.split(\".\");\nconsole.log(parts);\nconsole.log(parts.length);</code></pre>",
+        "hint": "split at every dot character.",
+        "answer": "<code>[\"priya\", \"sharma@school\", \"edu\", \"in\"]</code><br><code>4</code>",
+        "explanation": "<code>split(\".\")</code> breaks the string at every dot. The email has 3 dots, creating 4 parts. Note that the @ is not a split point, so \"sharma@school\" stays as one piece."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between single quotes, double quotes, and backticks in JavaScript?",
+        "hint": "Two of them are the same. One has special powers.",
+        "answer": "Single quotes (<code>'</code>) and double quotes (<code>\"</code>) are functionally identical - use either one consistently. Backticks (<code>`</code>) create <strong>template literals</strong> which have special features: string interpolation with <code>${expression}</code>, multiline strings (actual line breaks preserved), and tagged templates. Use backticks whenever you need variables in a string or multiline text.",
+        "explanation": "Convention varies: some teams use single quotes for JS and double quotes for HTML attributes. But backticks should be used whenever you need interpolation. Template literals do not need escape characters for newlines."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why are strings called immutable in JavaScript? What does that mean practically?",
+        "hint": "You cannot change a string after it is created.",
+        "answer": "Immutable means strings cannot be changed once created. You cannot modify individual characters: <code>str[0] = \"X\"</code> does nothing. Every string method (<code>toUpperCase</code>, <code>replace</code>, <code>slice</code>, etc.) returns a <strong>new</strong> string instead of modifying the original. To change a string variable, you must reassign it to a new string.",
+        "explanation": "Example: <code>let s = \"hello\"; s.toUpperCase();</code> does NOT change s. You need <code>s = s.toUpperCase();</code> to update the variable."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const words = \"  hello   world  \";\nconst clean = words.trim().split(/\\s+/);\nconsole.log(clean);\nconsole.log(clean.join(\"-\"));</code></pre>",
+        "hint": "trim first, then split on one or more whitespace characters.",
+        "answer": "<code>[\"hello\", \"world\"]</code><br><code>hello-world</code>",
+        "explanation": "<code>trim()</code> removes leading/trailing spaces: \"hello   world\". <code>split(/\\s+/)</code> splits on one or more whitespace characters (regex), handling the multiple spaces between words. The result is [\"hello\", \"world\"]. <code>join(\"-\")</code> combines them: \"hello-world\"."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const str = \"Hello\";\nconsole.log(str.startsWith(\"He\"));\nconsole.log(str.endsWith(\"lo\"));\nconsole.log(str.startsWith(\"he\"));</code></pre>",
+        "hint": "Both methods are case-sensitive.",
+        "answer": "<code>true</code><br><code>true</code><br><code>false</code>",
+        "explanation": "\"Hello\" starts with \"He\" (true) and ends with \"lo\" (true). It does NOT start with \"he\" (false) because the check is case-sensitive."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const student = { name: \"Diya\", score: 95 };\nconst card = `<div>\n  <h3>${student.name}</h3>\n  <p>${student.score >= 90 ? \"Distinction\" : \"Pass\"}</p>\n</div>`;\nconsole.log(card);</code></pre>",
+        "hint": "Template literal with nested ternary and multiline HTML.",
+        "answer": "<code>&lt;div&gt;</code><br><code>  &lt;h3&gt;Diya&lt;/h3&gt;</code><br><code>  &lt;p&gt;Distinction&lt;/p&gt;</code><br><code>&lt;/div&gt;</code>",
+        "explanation": "The template literal builds multiline HTML. <code>${student.name}</code> inserts \"Diya\". <code>${student.score >= 90 ? \"Distinction\" : \"Pass\"}</code> evaluates to \"Distinction\" since 95 >= 90."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const word = \"Code\";\nconsole.log(word.split(\"\"));</code></pre>",
+        "hint": "split with empty string splits into individual characters.",
+        "answer": "<code>[\"C\", \"o\", \"d\", \"e\"]</code>",
+        "explanation": "<code>split(\"\")</code> splits the string at every character boundary, creating an array of individual characters."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(\"5\".padStart(3, \"0\"));\nconsole.log(\"42\".padStart(3, \"0\"));\nconsole.log(\"123\".padStart(3, \"0\"));</code></pre>",
+        "hint": "padStart pads to the target length. If already long enough, no padding is added.",
+        "answer": "<code>005</code><br><code>042</code><br><code>123</code>",
+        "explanation": "\"5\" is 1 character, padded to 3: \"005\". \"42\" is 2 characters, padded to 3: \"042\". \"123\" is already 3 characters, no padding needed: \"123\"."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const email = \"aarav@school.com\";\nconst username = email.slice(0, email.indexOf(\"@\"));\nconst domain = email.slice(email.indexOf(\"@\") + 1);\nconsole.log(username);\nconsole.log(domain);</code></pre>",
+        "hint": "Find the @ position, then slice before and after it.",
+        "answer": "<code>aarav</code><br><code>school.com</code>",
+        "explanation": "<code>indexOf(\"@\")</code> returns 5. <code>slice(0, 5)</code> gives \"aarav\". <code>slice(6)</code> (5+1) gives \"school.com\". This is a common pattern for parsing emails."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const str = \"JavaScript\";\nconsole.log(str.charAt(0) + str.slice(1).toLowerCase());</code></pre>",
+        "hint": "Take the first character, then lowercase the rest.",
+        "answer": "<code>Javascript</code>",
+        "explanation": "<code>charAt(0)</code> gives \"J\". <code>slice(1)</code> gives \"avaScript\". <code>.toLowerCase()</code> gives \"avascript\". Concatenated: \"Javascript\". This is a capitalize-first-letter pattern."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const arr = [\"Maths\", \"Science\", \"English\"];\nconst result = arr.map(s => s.toUpperCase()).join(\", \");\nconsole.log(result);</code></pre>",
+        "hint": "Map to uppercase, then join with comma-space.",
+        "answer": "<code>MATHS, SCIENCE, ENGLISH</code>",
+        "explanation": "<code>map</code> transforms each string to uppercase: [\"MATHS\", \"SCIENCE\", \"ENGLISH\"]. <code>join(\", \")</code> combines them into a single comma-separated string."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const str = \"hello world hello\";\nconst count = str.split(\"hello\").length - 1;\nconsole.log(count);</code></pre>",
+        "hint": "split at \"hello\" creates one more segment than there are occurrences.",
+        "answer": "<code>2</code>",
+        "explanation": "Splitting \"hello world hello\" at \"hello\" gives [\"\", \" world \", \"\"]. The array has 3 elements. The number of occurrences is <code>length - 1</code> = 2."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const words = [\"the\", \"quick\", \"brown\", \"fox\"];\nconst result = words\n  .map(w => w.charAt(0).toUpperCase() + w.slice(1))\n  .join(\" \");\nconsole.log(result);</code></pre>",
+        "hint": "Capitalize the first letter of each word.",
+        "answer": "<code>The Quick Brown Fox</code>",
+        "explanation": "For each word, <code>charAt(0).toUpperCase()</code> capitalizes the first letter, and <code>slice(1)</code> keeps the rest. This creates a Title Case string."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const str = \"racecar\";\nconst reversed = str.split(\"\").reverse().join(\"\");\nconsole.log(reversed);\nconsole.log(str === reversed);</code></pre>",
+        "hint": "Split into chars, reverse the array, join back. Is racecar a palindrome?",
+        "answer": "<code>racecar</code><br><code>true</code>",
+        "explanation": "Splitting \"racecar\" into characters, reversing them, and joining gives \"racecar\" (same as the original). Since the original equals the reversed version, it is a palindrome."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const data = [\n  { name: \"Aarav\", score: 92 },\n  { name: \"Priya\", score: 88 }\n];\n\nconst html = data.map(s => \n  `<tr><td>${s.name}</td><td>${s.score}</td></tr>`\n).join(\"\\n\");\n\nconsole.log(`<table>\\n${html}\\n</table>`);</code></pre>",
+        "hint": "Build table rows from data, then wrap in a table element.",
+        "answer": "<code>&lt;table&gt;</code><br><code>&lt;tr&gt;&lt;td&gt;Aarav&lt;/td&gt;&lt;td&gt;92&lt;/td&gt;&lt;/tr&gt;</code><br><code>&lt;tr&gt;&lt;td&gt;Priya&lt;/td&gt;&lt;td&gt;88&lt;/td&gt;&lt;/tr&gt;</code><br><code>&lt;/table&gt;</code>",
+        "explanation": "Each student is mapped to a table row using template literals. The rows are joined with newlines and wrapped in <code>&lt;table&gt;</code> tags. This is a fundamental pattern for generating HTML tables from data."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(String.raw`Hello\\nWorld`);\nconsole.log(`Hello\\nWorld`);</code></pre>",
+        "hint": "String.raw does not process escape sequences.",
+        "answer": "<code>Hello\\nWorld</code><br><code>Hello</code><br><code>World</code>",
+        "explanation": "<code>String.raw</code> treats backslash-n as literal characters (prints \\n as text). The regular template literal processes \\n as a newline, printing Hello and World on separate lines."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between split and join? How do they work together?",
+        "hint": "One breaks strings into arrays. The other combines arrays into strings.",
+        "answer": "<code>split(separator)</code> breaks a string into an array at each occurrence of the separator. <code>join(separator)</code> combines array elements into a string with the separator between each element. They are inverses of each other. <code>\"a-b-c\".split(\"-\")</code> gives [\"a\",\"b\",\"c\"]. <code>[\"a\",\"b\",\"c\"].join(\"-\")</code> gives \"a-b-c\".",
+        "explanation": "A common pattern is split -> transform -> join. For example, capitalizing each word: split on spaces, capitalize each word with map, then join with spaces."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const a = 10;\nconst b = 20;\nconsole.log(`Sum: ${a + b}`);\nconsole.log(`Product: ${a * b}`);</code></pre>",
+        "hint": "Any expression works inside ${}.",
+        "answer": "<code>Sum: 30</code><br><code>Product: 200</code>",
+        "explanation": "Inside <code>${}</code>, the expressions are evaluated: 10+20=30 and 10*20=200. The results are inserted into the string."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const str = \"abcdef\";\nconsole.log(str.slice(2, 5));\nconsole.log(str.slice(-3));\nconsole.log(str.slice(1, -1));</code></pre>",
+        "hint": "Negative indices count from the end. End index is exclusive.",
+        "answer": "<code>cde</code><br><code>def</code><br><code>bcde</code>",
+        "explanation": "<code>slice(2, 5)</code>: indices 2,3,4 = \"cde\". <code>slice(-3)</code>: last 3 characters = \"def\". <code>slice(1, -1)</code>: from index 1 to one before the end = \"bcde\"."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does str.length return?",
+        "options": {
+          "A": "The last index of the string",
+          "B": "The number of characters in the string",
+          "C": "The number of words in the string",
+          "D": "The size in bytes"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>length</code> returns the total number of characters. The last index is length - 1 (option A). It counts characters, not words (option C)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which method checks if a string contains a specific substring?",
+        "options": {
+          "A": "has()",
+          "B": "contains()",
+          "C": "includes()",
+          "D": "find()"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>includes()</code> returns true or false depending on whether the substring is found. <code>has()</code> and <code>contains()</code> are not string methods. <code>find()</code> is an array method."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is the output of \"Hello\".indexOf(\"xyz\")?",
+        "options": {
+          "A": "0",
+          "B": "false",
+          "C": "-1",
+          "D": "undefined"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>indexOf</code> returns -1 when the substring is not found. It returns a number, not a boolean (option B) or undefined (option D)."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which of these creates a template literal?",
+        "options": {
+          "A": "\"Hello ${name}\"",
+          "B": "'Hello ${name}'",
+          "C": "`Hello ${name}`",
+          "D": "(Hello ${name})"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Template literals use backticks (<code>`</code>). Single and double quotes (options A, B) treat <code>${name}</code> as literal text. Option D is not valid syntax."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does trim() do?",
+        "options": {
+          "A": "Removes all spaces from the string",
+          "B": "Removes spaces from the beginning and end",
+          "C": "Removes the first and last characters",
+          "D": "Shortens the string to 10 characters"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>trim()</code> removes whitespace from both ends of a string. It does NOT remove spaces in the middle (option A) or remove non-whitespace characters (option C)."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the difference between replace and replaceAll?",
+        "options": {
+          "A": "replace is faster than replaceAll",
+          "B": "replace changes the first match, replaceAll changes all matches",
+          "C": "replace changes all matches, replaceAll changes the first",
+          "D": "There is no difference"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>replace()</code> only replaces the first occurrence of the search string. <code>replaceAll()</code> replaces every occurrence. Both return new strings."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does \"Hello\".split(\"\") return?",
+        "options": {
+          "A": "[\"Hello\"]",
+          "B": "[\"H\", \"e\", \"l\", \"l\", \"o\"]",
+          "C": "\"Hello\"",
+          "D": "5"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>split(\"\")</code> with an empty string splits at every character boundary, creating an array of individual characters: [\"H\", \"e\", \"l\", \"l\", \"o\"]."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the end index parameter in slice(start, end)?",
+        "options": {
+          "A": "The number of characters to extract",
+          "B": "The last index to include",
+          "C": "The first index to exclude",
+          "D": "The total length of the result"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In <code>slice(start, end)</code>, the character at the end index is NOT included. It extracts from start up to (but not including) end. <code>\"Hello\".slice(1, 4)</code> gives \"ell\" (indices 1, 2, 3)."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Why are strings called immutable in JavaScript?",
+        "options": {
+          "A": "You cannot assign them to variables",
+          "B": "They cannot be compared",
+          "C": "They cannot be changed after creation",
+          "D": "They can only be used with const"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Immutable means strings cannot be modified after creation. You cannot change individual characters. Every string method returns a new string. The variable can be reassigned, but the string itself cannot be altered."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What does ${ } do inside a template literal?",
+        "options": {
+          "A": "Creates a new variable",
+          "B": "Embeds a JavaScript expression whose result is inserted into the string",
+          "C": "Adds a comment",
+          "D": "Escapes special characters"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>${expression}</code> evaluates the JavaScript expression inside and inserts the result into the string. This is called string interpolation. Any valid expression works: variables, math, function calls, ternary operators."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the output of \"abc\".padStart(2, \"0\")?",
+        "options": {
+          "A": "\"0abc\"",
+          "B": "\"abc\"",
+          "C": "\"00abc\"",
+          "D": "\"ab\""
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>padStart(2, \"0\")</code> pads to a total length of 2. Since \"abc\" is already 3 characters (longer than 2), no padding is added. The string is returned unchanged."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What does String.raw do?",
+        "options": {
+          "A": "Removes all escape sequences from a string",
+          "B": "Returns the string without processing escape sequences",
+          "C": "Converts the string to raw bytes",
+          "D": "Creates an unformatted string"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>String.raw</code> is a tagged template that returns the raw string content without processing escape sequences like <code>\\n</code> or <code>\\t</code>. Backslashes are treated as literal characters."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is a tagged template literal?",
+        "options": {
+          "A": "A template literal with HTML tags",
+          "B": "A function that processes a template literal's parts",
+          "C": "A template literal with a label",
+          "D": "A template literal stored in a variable"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A tagged template is a function placed before a template literal: <code>myTag`text ${value}`</code>. The function receives the string parts and interpolated values separately, allowing custom processing."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "How do you check if a string is a palindrome?",
+        "options": {
+          "A": "str.isPalindrome()",
+          "B": "str === str.reverse()",
+          "C": "str === str.split(\"\").reverse().join(\"\")",
+          "D": "str.palindrome()"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Strings do not have a <code>reverse()</code> method. You must split into an array, reverse the array, and join back into a string. If the result equals the original, it is a palindrome."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Capitalize First Letter of Each Word",
+        "difficulty": "Easy",
+        "description": "Aarav has the string \"hello world from javascript\". Write a function titleCase that capitalizes the first letter of each word.",
+        "sampleInput": "\"hello world from javascript\"",
+        "sampleOutput": "Hello World From Javascript",
+        "constraints": "Use split, map, and join.",
+        "solution": "function titleCase(str) {\n  return str.split(\" \")\n    .map(word => word.charAt(0).toUpperCase() + word.slice(1))\n    .join(\" \");\n}\n\nconsole.log(titleCase(\"hello world from javascript\"));"
+      },
+      {
+        "id": "cc-2",
+        "title": "Count Character Frequency",
+        "difficulty": "Easy",
+        "description": "Priya has the string \"programming\". Write a program that counts how many times each character appears.",
+        "sampleInput": "\"programming\"",
+        "sampleOutput": "{ p: 1, r: 2, o: 1, g: 2, a: 1, m: 2, i: 1, n: 1 }",
+        "constraints": "Use split and reduce.",
+        "solution": "const str = \"programming\";\nconst freq = str.split(\"\").reduce((acc, char) => {\n  acc[char] = (acc[char] || 0) + 1;\n  return acc;\n}, {});\n\nconsole.log(freq);"
+      },
+      {
+        "id": "cc-3",
+        "title": "Generate an HTML Card from a Student Object",
+        "difficulty": "Medium",
+        "description": "Use template literals to generate an HTML card from the student object: {name: \"Kavya\", grade: \"10th\", score: 94, subjects: [\"Maths\", \"Science\", \"English\"]}. The card should include the name, grade, score with a status (Distinction if >= 90, else Pass), and a list of subjects.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "(An HTML card with student details and a subject list)",
+        "constraints": "Use template literals with ${} interpolation. Use map and join for the subjects list.",
+        "solution": "const student = {\n  name: \"Kavya\",\n  grade: \"10th\",\n  score: 94,\n  subjects: [\"Maths\", \"Science\", \"English\"]\n};\n\nconst card = `<div class=\"student-card\">\n  <h3>${student.name}</h3>\n  <p>Grade: ${student.grade} | Score: ${student.score}/100</p>\n  <p>Status: ${student.score >= 90 ? \"Distinction\" : \"Pass\"}</p>\n  <h4>Subjects:</h4>\n  <ul>\n    ${student.subjects.map(s => `<li>${s}</li>`).join(\"\\n    \")}\n  </ul>\n</div>`;\n\nconsole.log(card);"
+      },
+      {
+        "id": "cc-4",
+        "title": "Palindrome Checker",
+        "difficulty": "Medium",
+        "description": "Rohan wants to check if a string is a palindrome (reads the same forwards and backwards). Write a function isPalindrome that ignores spaces and case.",
+        "sampleInput": "\"Race Car\"",
+        "sampleOutput": "true",
+        "constraints": "Convert to lowercase and remove spaces before checking.",
+        "solution": "function isPalindrome(str) {\n  const clean = str.toLowerCase().replaceAll(\" \", \"\");\n  const reversed = clean.split(\"\").reverse().join(\"\");\n  return clean === reversed;\n}\n\nconsole.log(isPalindrome(\"Race Car\"));   // true\nconsole.log(isPalindrome(\"Hello\"));      // false\nconsole.log(isPalindrome(\"Was It A Car Or A Cat I Saw\")); // true"
+      },
+      {
+        "id": "cc-5",
+        "title": "Email Validator",
+        "difficulty": "Medium",
+        "description": "Diya wants to validate email addresses. Write a function isValidEmail that checks if a string has exactly one @, at least one character before @, and at least one dot after @.",
+        "sampleInput": "\"diya@school.com\"",
+        "sampleOutput": "true",
+        "constraints": "Use string methods like indexOf, includes, and slice. Do not use regex.",
+        "solution": "function isValidEmail(email) {\n  const trimmed = email.trim();\n  const atIndex = trimmed.indexOf(\"@\");\n  \n  if (atIndex < 1) return false; // nothing before @\n  if (trimmed.lastIndexOf(\"@\") !== atIndex) return false; // multiple @\n  \n  const domain = trimmed.slice(atIndex + 1);\n  if (!domain.includes(\".\")) return false; // no dot in domain\n  if (domain.startsWith(\".\") || domain.endsWith(\".\")) return false;\n  \n  return true;\n}\n\nconsole.log(isValidEmail(\"diya@school.com\"));  // true\nconsole.log(isValidEmail(\"@school.com\"));      // false\nconsole.log(isValidEmail(\"diya@school\"));      // false\nconsole.log(isValidEmail(\"diya@@school.com\")); // false"
+      },
+      {
+        "id": "cc-6",
+        "title": "String Compression",
+        "difficulty": "Hard",
+        "description": "Arjun wants to compress strings by counting consecutive characters. For example, \"aaabbbccda\" becomes \"a3b3c2d1a1\". Write a function compress(str).",
+        "sampleInput": "\"aaabbbccda\"",
+        "sampleOutput": "a3b3c2d1a1",
+        "constraints": "Use a loop. Handle single characters and edge cases.",
+        "solution": "function compress(str) {\n  if (str.length === 0) return \"\";\n  \n  let result = \"\";\n  let count = 1;\n  \n  for (let i = 1; i <= str.length; i++) {\n    if (i < str.length && str[i] === str[i - 1]) {\n      count++;\n    } else {\n      result += str[i - 1] + count;\n      count = 1;\n    }\n  }\n  \n  return result;\n}\n\nconsole.log(compress(\"aaabbbccda\"));  // a3b3c2d1a1\nconsole.log(compress(\"aabbcc\"));      // a2b2c2\nconsole.log(compress(\"abcdef\"));      // a1b1c1d1e1f1"
+      },
+      {
+        "id": "cc-7",
+        "title": "Build a Formatted Table from Data",
+        "difficulty": "Hard",
+        "description": "Meera has an array of student objects. Write a function that generates a formatted text table using padStart and padEnd for alignment.",
+        "sampleInput": "[{name: \"Aarav\", maths: 95, science: 88}, {name: \"Priya\", maths: 78, science: 92}]",
+        "sampleOutput": "Name        Maths    Science\n--------------------------\nAarav          95         88\nPriya          78         92",
+        "constraints": "Use padStart and padEnd for column alignment.",
+        "solution": "const students = [\n  { name: \"Aarav\", maths: 95, science: 88 },\n  { name: \"Priya\", maths: 78, science: 92 },\n  { name: \"Rohan\", maths: 85, science: 76 }\n];\n\nconst header = \"Name\".padEnd(12) + \"Maths\".padStart(8) + \"Science\".padStart(10);\nconst separator = \"-\".repeat(30);\nconst rows = students.map(s => \n  s.name.padEnd(12) + String(s.maths).padStart(8) + String(s.science).padStart(10)\n);\n\nconsole.log(header);\nconsole.log(separator);\nrows.forEach(row => console.log(row));"
+      },
+      {
+        "id": "cc-8",
+        "title": "URL Slug Generator",
+        "difficulty": "Hard",
+        "description": "Vikram wants to convert blog titles into URL-friendly slugs. Write a function slugify that converts \"Hello World! This is Great\" to \"hello-world-this-is-great\" by lowercasing, removing special characters, and replacing spaces with hyphens.",
+        "sampleInput": "\"Hello World! This is Great\"",
+        "sampleOutput": "hello-world-this-is-great",
+        "constraints": "Use toLowerCase, replace/replaceAll, and trim. Handle multiple spaces.",
+        "solution": "function slugify(title) {\n  return title\n    .toLowerCase()\n    .trim()\n    .replace(/[^a-z0-9\\s-]/g, \"\")  // remove special chars\n    .replace(/\\s+/g, \"-\")           // spaces to hyphens\n    .replace(/-+/g, \"-\")            // collapse multiple hyphens\n    .replace(/^-|-$/g, \"\");          // trim hyphens\n}\n\nconsole.log(slugify(\"Hello World! This is Great\"));\nconsole.log(slugify(\"  JavaScript: The Good Parts  \"));\nconsole.log(slugify(\"10 Tips & Tricks for Coding!\"));"
+      }
+    ]
+  }
+}

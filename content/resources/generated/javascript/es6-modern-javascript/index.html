@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6+ Modern JavaScript Features - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Destructuring, spread/rest, default parameters, optional chaining, nullish coalescing, and modules.">
+    <meta name="keywords" content="es6+ modern javascript features, javascript tutorial, javascript es6+ modern javascript features, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/es6-modern-javascript">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/es6-modern-javascript">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/es6-modern-javascript">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/es6-modern-javascript">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/es6-modern-javascript">
+    <meta property="og:title" content="ES6+ Modern JavaScript Features - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Destructuring, spread/rest, default parameters, optional chaining, nullish coalescing, and modules.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/es6-modern-javascript">
+    <meta name="twitter:title" content="ES6+ Modern JavaScript Features - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Destructuring, spread/rest, default parameters, optional chaining, nullish coalescing, and modules.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "ES6+ Modern JavaScript Features",
+    "description": "Destructuring, spread/rest, default parameters, optional chaining, nullish coalescing, and modules.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/es6-modern-javascript"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/es6-modern-javascript"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "ES6+ Modern JavaScript Features",
+        "item": "https://learn.modernagecoders.com/resources/javascript/es6-modern-javascript"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Trying to Reassign a const Variable",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>const</code> prevents reassigning the variable itself. For primitives (strings, numbers), this means the value cannot change. For objects and arrays, the reference cannot change, but you CAN modify properties or elements."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting Parentheses When Arrow Function Returns an Object",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When an arrow function returns an object literal, wrap it in parentheses <code>=> ({ ... })</code>. Without them, JavaScript interprets the curly braces as the function body, not an object."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing Spread (Copy) with Assignment (Reference)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Assignment (<code>=</code>) with arrays and objects copies the <strong>reference</strong>, not the data. Both variables point to the same array. Use spread <code>[...arr]</code> or <code>{...obj}</code> to create a shallow copy."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using ?? When You Mean || (or Vice Versa)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>||</code> returns the right side for ANY falsy value (0, \"\", false, null, undefined, NaN). <code>??</code> returns the right side ONLY for null and undefined. Use ?? when values like 0 and empty string are legitimate."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Destructuring from undefined",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When destructuring nested objects, if a middle level is undefined, JavaScript cannot read properties from it. Provide a default value <code>= {}</code> for the nested object, or use optional chaining instead."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">ES6+ Modern JavaScript Features</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 17</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">50 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">ES6+ Modern JavaScript Features</h1>
+            <a href="/resources/javascript/es6-modern-javascript/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is ES6+ JavaScript?</h2><p><strong>ES6</strong> (also called ES2015) was a massive update to JavaScript released in 2015. It added features that make code shorter, cleaner, and more powerful. Since then, new features have been added every year (ES2016, ES2017, etc.). Together, these are called <strong>ES6+</strong> or <strong>modern JavaScript</strong>.</p><p>Before ES6, JavaScript had only <code>var</code> for variables, no arrow functions, no destructuring, and limited ways to work with data. ES6+ changed everything. Today, every professional JavaScript codebase uses these features.</p><pre><code>// Old JavaScript (before ES6)
+var name = "Aarav";
+var greet = function(person) {
+  return "Hello, " + person + "!";
+};
+
+// Modern JavaScript (ES6+)
+const name = "Aarav";
+const greet = (person) => `Hello, ${person}!`;</code></pre><p>Both do the same thing, but the modern version is shorter and more readable.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn ES6+?</h2><h3>1. Every Modern Codebase Uses It</h3><p>If you look at any professional JavaScript project, React component, Node.js server, or open-source library, you will see ES6+ everywhere. Arrow functions, destructuring, and const/let have completely replaced older patterns. You cannot read or contribute to modern code without knowing these features.</p><h3>2. It Makes Code Shorter and Clearer</h3><p>Destructuring pulls values out of objects and arrays in one line. Arrow functions remove boilerplate. Template literals make string building readable. Spread operators replace complex copying patterns. Your code becomes easier to write and easier to read.</p><h3>3. It Prevents Bugs</h3><p><code>let</code> and <code>const</code> have block scoping, which prevents the accidental variable sharing bugs that <code>var</code> caused. Optional chaining prevents the "Cannot read property of undefined" error. Nullish coalescing handles default values properly.</p><h3>4. Interview and Job Essential</h3><p>ES6+ questions appear in almost every JavaScript interview. Destructuring, arrow functions, and spread/rest are among the most commonly tested topics. Employers expect candidates to write modern JavaScript.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. let and const (Block Scoping)</h3><p><code>let</code> and <code>const</code> replace <code>var</code>. The key difference is <strong>block scoping</strong>: they exist only inside the block <code>{ }</code> where they are declared.</p><pre><code>// var is function-scoped (leaks out of blocks)
+if (true) {
+  var x = 10;
+}
+console.log(x); // 10 -- var leaks out!
+
+// let is block-scoped (stays inside the block)
+if (true) {
+  let y = 20;
+}
+// console.log(y); // ReferenceError: y is not defined
+
+// const is also block-scoped and cannot be reassigned
+const PI = 3.14159;
+// PI = 3; // TypeError: Assignment to constant variable
+
+// But const objects/arrays CAN be modified
+const arr = [1, 2, 3];
+arr.push(4); // OK! The array itself is modified, not the variable
+console.log(arr); // [1, 2, 3, 4]
+
+const obj = { name: "Aarav" };
+obj.age = 16; // OK! Adding a property to the object
+console.log(obj); // { name: "Aarav", age: 16 }</code></pre><p><strong>Rule of thumb:</strong> Use <code>const</code> by default. Use <code>let</code> only when you need to reassign. Never use <code>var</code>.</p><h3>2. Arrow Functions Deep Dive</h3><p>Arrow functions are a shorter way to write functions. They have some differences from regular functions:</p><pre><code>// Regular function
+function add(a, b) {
+  return a + b;
+}
+
+// Arrow function (full form)
+const add = (a, b) => {
+  return a + b;
+};
+
+// Arrow function (short form -- implicit return)
+const add = (a, b) => a + b;
+
+// Single parameter -- parentheses optional
+const double = n => n * 2;
+
+// No parameters -- empty parentheses required
+const greet = () => "Hello!";
+
+// Returning an object literal -- wrap in parentheses
+const makeUser = (name, age) => ({ name: name, age: age });</code></pre><p>When the function body is a single expression, you can remove the curly braces and the <code>return</code> keyword. The expression's value is returned automatically (implicit return).</p><h3>3. Destructuring</h3><p>Destructuring lets you pull values out of arrays and objects into variables in one step.</p><h4>Array Destructuring</h4><pre><code>// Without destructuring
+const colors = ["red", "green", "blue"];
+const first = colors[0];
+const second = colors[1];
+
+// With destructuring
+const [first, second, third] = ["red", "green", "blue"];
+console.log(first);  // "red"
+console.log(second); // "green"
+console.log(third);  // "blue"
+
+// Skip elements
+const [a, , c] = [10, 20, 30];
+console.log(a); // 10
+console.log(c); // 30
+
+// Default values
+const [x = 5, y = 10] = [1];
+console.log(x); // 1 (provided)
+console.log(y); // 10 (default, since not provided)
+
+// Swap variables
+let p = 1, q = 2;
+[p, q] = [q, p];
+console.log(p, q); // 2, 1</code></pre><h4>Object Destructuring</h4><pre><code>const student = { name: "Priya", age: 15, city: "Mumbai" };
+
+// Without destructuring
+const name = student.name;
+const age = student.age;
+
+// With destructuring
+const { name, age, city } = student;
+console.log(name); // "Priya"
+console.log(age);  // 15
+
+// Renaming variables
+const { name: studentName, age: studentAge } = student;
+console.log(studentName); // "Priya"
+
+// Default values
+const { name, grade = "10th" } = student;
+console.log(grade); // "10th" (default, not in object)
+
+// Nested destructuring
+const user = {
+  name: "Rohan",
+  address: {
+    city: "Delhi",
+    pin: 110001
+  }
+};
+
+const { address: { city, pin } } = user;
+console.log(city); // "Delhi"
+console.log(pin);  // 110001</code></pre><h4>Destructuring in Function Parameters</h4><pre><code>// Without destructuring
+function greet(person) {
+  return "Hello, " + person.name + " from " + person.city;
+}
+
+// With destructuring in the parameter
+function greet({ name, city }) {
+  return `Hello, ${name} from ${city}`;
+}
+
+const result = greet({ name: "Diya", city: "Bangalore" });
+console.log(result); // "Hello, Diya from Bangalore"</code></pre><h3>4. Spread Operator (...)</h3><p>The spread operator <code>...</code> expands an array or object into individual elements.</p><pre><code>// Spread with arrays
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const merged = [...arr1, ...arr2];
+console.log(merged); // [1, 2, 3, 4, 5, 6]
+
+// Copy an array (not a reference)
+const original = [1, 2, 3];
+const copy = [...original];
+copy.push(4);
+console.log(original); // [1, 2, 3] -- not affected
+console.log(copy);     // [1, 2, 3, 4]
+
+// Spread with objects
+const base = { color: "red", size: "M" };
+const extended = { ...base, size: "L", weight: 100 };
+console.log(extended); // { color: "red", size: "L", weight: 100 }
+// Notice: size is "L" because the later property wins
+
+// Spread in function calls
+const numbers = [5, 2, 8, 1, 9];
+console.log(Math.max(...numbers)); // 9</code></pre><h3>5. Rest Parameters (...)</h3><p>Rest looks like spread but works in reverse -- it collects multiple elements into an array.</p><pre><code>// Rest in function parameters
+function sum(...numbers) {
+  let total = 0;
+  for (const n of numbers) {
+    total += n;
+  }
+  return total;
+}
+console.log(sum(1, 2, 3));    // 6
+console.log(sum(10, 20));     // 30
+console.log(sum(5));          // 5
+
+// Rest with regular parameters
+function introduce(greeting, ...names) {
+  return greeting + " " + names.join(" and ");
+}
+console.log(introduce("Hello", "Aarav", "Priya", "Rohan"));
+// "Hello Aarav and Priya and Rohan"
+
+// Rest in destructuring
+const [first, second, ...remaining] = [1, 2, 3, 4, 5];
+console.log(first);     // 1
+console.log(second);    // 2
+console.log(remaining); // [3, 4, 5]
+
+const { name, ...rest } = { name: "Aarav", age: 16, city: "Delhi" };
+console.log(name); // "Aarav"
+console.log(rest); // { age: 16, city: "Delhi" }</code></pre><h3>6. Default Parameters</h3><pre><code>// Default parameter values
+function greet(name = "Guest", greeting = "Hello") {
+  return `${greeting}, ${name}!`;
+}
+
+console.log(greet("Aarav", "Hi")); // "Hi, Aarav!"
+console.log(greet("Priya"));       // "Hello, Priya!"
+console.log(greet());              // "Hello, Guest!"
+
+// Default using previous parameters
+function createUser(name, role = "student", id = name.toLowerCase()) {
+  return { name, role, id };
+}
+console.log(createUser("Aarav")); // { name: "Aarav", role: "student", id: "aarav" }</code></pre><h3>7. Enhanced Object Literals</h3><pre><code>const name = "Diya";
+const age = 14;
+const hobby = "coding";
+
+// Shorthand properties (key = variable name)
+const student = { name, age, hobby };
+console.log(student); // { name: "Diya", age: 14, hobby: "coding" }
+
+// Shorthand methods
+const calculator = {
+  add(a, b) { return a + b; },
+  subtract(a, b) { return a - b; }
+};
+console.log(calculator.add(5, 3)); // 8
+
+// Computed property names
+const key = "score";
+const obj = { [key]: 95, [key + "Max"]: 100 };
+console.log(obj); // { score: 95, scoreMax: 100 }</code></pre><h3>8. Optional Chaining (?.)</h3><p>Optional chaining lets you safely access deeply nested properties without checking each level:</p><pre><code>const user = {
+  name: "Aarav",
+  address: {
+    city: "Delhi"
+  }
+};
+
+// Without optional chaining -- crashes if address is undefined
+// console.log(user.phone.number); // TypeError!
+
+// With optional chaining -- returns undefined instead of crashing
+console.log(user.phone?.number); // undefined
+console.log(user.address?.city); // "Delhi"
+console.log(user.address?.pin);  // undefined
+
+// Chaining multiple levels
+const data = { a: { b: { c: 42 } } };
+console.log(data.a?.b?.c);  // 42
+console.log(data.x?.y?.z);  // undefined
+
+// With methods
+const arr = [1, 2, 3];
+console.log(arr.find?.(x => x > 2)); // 3
+console.log(arr.flatten?.());        // undefined (method does not exist)</code></pre><h3>9. Nullish Coalescing (??)</h3><p>The <code>??</code> operator returns the right side only if the left side is <code>null</code> or <code>undefined</code> (not just falsy):</p><pre><code>// Problem with || for defaults
+const count = 0;
+console.log(count || 10); // 10 -- WRONG! 0 is valid but falsy
+
+// ?? only triggers on null/undefined
+console.log(count ?? 10); // 0 -- CORRECT! 0 is not null/undefined
+
+console.log(null ?? "default");      // "default"
+console.log(undefined ?? "default"); // "default"
+console.log(0 ?? "default");         // 0
+console.log("" ?? "default");        // ""
+console.log(false ?? "default");     // false
+
+// Combine with optional chaining
+const user = {};
+const city = user.address?.city ?? "Unknown";
+console.log(city); // "Unknown"</code></pre><h3>10. for...of Loop</h3><pre><code>// for...of iterates over values (arrays, strings, Maps, Sets)
+const fruits = ["apple", "banana", "cherry"];
+
+for (const fruit of fruits) {
+  console.log(fruit);
+}
+// "apple", "banana", "cherry"
+
+// Works with strings
+for (const char of "Hello") {
+  console.log(char);
+}
+// "H", "e", "l", "l", "o"
+
+// for...in iterates over keys (object properties)
+const student = { name: "Aarav", age: 16 };
+for (const key in student) {
+  console.log(key + ": " + student[key]);
+}
+// "name: Aarav", "age: 16"</code></pre><h3>11. Map and Set</h3><pre><code>// Map -- key-value pairs where keys can be ANY type
+const map = new Map();
+map.set("name", "Aarav");
+map.set(42, "the answer");
+map.set(true, "yes");
+
+console.log(map.get("name")); // "Aarav"
+console.log(map.get(42));     // "the answer"
+console.log(map.size);        // 3
+console.log(map.has("name")); // true
+
+map.forEach(function(value, key) {
+  console.log(key + " => " + value);
+});
+
+// Set -- collection of unique values
+const set = new Set([1, 2, 3, 2, 1, 4]);
+console.log(set); // Set {1, 2, 3, 4} -- duplicates removed
+console.log(set.size); // 4
+console.log(set.has(3)); // true
+
+set.add(5);
+set.delete(1);
+console.log([...set]); // [2, 3, 4, 5] -- convert to array</code></pre><h3>12. Import/Export Modules</h3><pre><code>// math.js -- exporting
+export const PI = 3.14159;
+
+export function add(a, b) {
+  return a + b;
+}
+
+export default function multiply(a, b) {
+  return a * b;
+}
+
+// app.js -- importing
+import multiply, { PI, add } from "./math.js";
+
+console.log(PI);           // 3.14159
+console.log(add(2, 3));    // 5
+console.log(multiply(4, 5)); // 20
+
+// In HTML, use type="module":
+// &lt;script type="module" src="app.js"&gt;&lt;/script&gt;</code></pre><p>Named exports use <code>{ }</code> when importing. Default exports can be imported with any name, without curly braces.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">let vs var in Loops (Closure Trap)</div><pre><code class="language-python">// Problem with var
+for (var i = 0; i &lt; 3; i++) {
+  setTimeout(function() {
+    console.log(&quot;var:&quot;, i);
+  }, 100);
+}
+// Output: var: 3, var: 3, var: 3 (all 3!)
+
+// Fixed with let
+for (let j = 0; j &lt; 3; j++) {
+  setTimeout(function() {
+    console.log(&quot;let:&quot;, j);
+  }, 100);
+}
+// Output: let: 0, let: 1, let: 2</code></pre><div class="code-example-explanation">With <code>var</code>, there is only one <code>i</code> shared across all iterations. By the time setTimeout runs, the loop is done and <code>i</code> is 3. With <code>let</code>, each iteration creates a new <code>j</code> in its own scope, so each callback captures a different value.</div><div class="code-example-output">var: 3
+var: 3
+var: 3
+let: 0
+let: 1
+let: 2</div></div>
+<div class="code-example"><div class="code-example-title">Destructuring with Nested Objects and Defaults</div><pre><code class="language-python">const apiResponse = {
+  user: {
+    name: &quot;Kavya&quot;,
+    scores: [85, 92, 78],
+    address: {
+      city: &quot;Chennai&quot;
+    }
+  },
+  status: 200
+};
+
+// Nested destructuring with renaming and defaults
+const {
+  user: {
+    name: userName,
+    scores: [first, ...otherScores],
+    address: { city, state = &quot;Tamil Nadu&quot; }
+  },
+  status
+} = apiResponse;
+
+console.log(userName);     // &quot;Kavya&quot;
+console.log(first);        // 85
+console.log(otherScores);  // [92, 78]
+console.log(city);         // &quot;Chennai&quot;
+console.log(state);        // &quot;Tamil Nadu&quot; (default)
+console.log(status);       // 200</code></pre><div class="code-example-explanation">This example combines nested object destructuring, array destructuring with rest, variable renaming (<code>name: userName</code>), and default values (<code>state = "Tamil Nadu"</code>) all in one statement. While powerful, do not go deeper than 2-3 levels or the code becomes hard to read.</div><div class="code-example-output">Kavya
+85
+[92, 78]
+Chennai
+Tamil Nadu
+200</div></div>
+<div class="code-example"><div class="code-example-title">Spread and Rest in Real Scenarios</div><pre><code class="language-python">// Merge arrays
+const morning = [&quot;Maths&quot;, &quot;Science&quot;];
+const afternoon = [&quot;English&quot;, &quot;Hindi&quot;];
+const schedule = [...morning, &quot;Lunch&quot;, ...afternoon];
+console.log(schedule);
+// [&quot;Maths&quot;, &quot;Science&quot;, &quot;Lunch&quot;, &quot;English&quot;, &quot;Hindi&quot;]
+
+// Merge objects with override
+const defaults = { theme: &quot;dark&quot;, fontSize: 14, lang: &quot;en&quot; };
+const userPrefs = { fontSize: 18, lang: &quot;hi&quot; };
+const settings = { ...defaults, ...userPrefs };
+console.log(settings);
+// { theme: &quot;dark&quot;, fontSize: 18, lang: &quot;hi&quot; }
+
+// Rest to collect remaining
+function logFirst(first, ...rest) {
+  console.log(&quot;First:&quot;, first);
+  console.log(&quot;Rest:&quot;, rest);
+}
+logFirst(&quot;Aarav&quot;, &quot;Priya&quot;, &quot;Rohan&quot;, &quot;Diya&quot;);
+// First: Aarav
+// Rest: [&quot;Priya&quot;, &quot;Rohan&quot;, &quot;Diya&quot;]</code></pre><div class="code-example-explanation">Spread <code>...</code> expands arrays/objects. Rest <code>...</code> collects elements. When merging objects, later properties override earlier ones (fontSize 14 becomes 18). Rest parameters must be the last parameter in a function.</div><div class="code-example-output">[&quot;Maths&quot;, &quot;Science&quot;, &quot;Lunch&quot;, &quot;English&quot;, &quot;Hindi&quot;]
+{ theme: &quot;dark&quot;, fontSize: 18, lang: &quot;hi&quot; }
+First: Aarav
+Rest: [&quot;Priya&quot;, &quot;Rohan&quot;, &quot;Diya&quot;]</div></div>
+<div class="code-example"><div class="code-example-title">Optional Chaining and Nullish Coalescing Together</div><pre><code class="language-python">const students = [
+  { name: &quot;Aarav&quot;, scores: { maths: 90, science: 85 } },
+  { name: &quot;Priya&quot;, scores: { maths: 78 } },
+  { name: &quot;Rohan&quot; }  // no scores at all
+];
+
+students.forEach(function(student) {
+  const maths = student.scores?.maths ?? &quot;N/A&quot;;
+  const science = student.scores?.science ?? &quot;N/A&quot;;
+  console.log(`${student.name}: Maths=${maths}, Science=${science}`);
+});
+
+// Without ?. and ??, you would need:
+// if (student.scores &amp;&amp; student.scores.maths !== undefined) ...</code></pre><div class="code-example-explanation">Optional chaining (<code>?.</code>) safely accesses nested properties, returning <code>undefined</code> if any part is missing. Nullish coalescing (<code>??</code>) provides a fallback only for <code>null</code>/<code>undefined</code>. Together, they handle missing data cleanly without nested if checks.</div><div class="code-example-output">Aarav: Maths=90, Science=85
+Priya: Maths=78, Science=N/A
+Rohan: Maths=N/A, Science=N/A</div></div>
+<div class="code-example"><div class="code-example-title">Map and Set Practical Usage</div><pre><code class="language-python">// Count character frequency with Map
+function charCount(str) {
+  const map = new Map();
+  for (const char of str) {
+    map.set(char, (map.get(char) || 0) + 1);
+  }
+  return map;
+}
+
+const counts = charCount(&quot;banana&quot;);
+counts.forEach(function(count, char) {
+  console.log(char + &quot;: &quot; + count);
+});
+// b: 1, a: 3, n: 2
+
+// Remove duplicates with Set
+const numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
+const unique = [...new Set(numbers)];
+console.log(unique); // [3, 1, 4, 5, 9, 2, 6]
+
+// Find common elements between two arrays
+function intersection(arr1, arr2) {
+  const set = new Set(arr1);
+  return arr2.filter(item =&gt; set.has(item));
+}
+console.log(intersection([1, 2, 3, 4], [3, 4, 5, 6])); // [3, 4]</code></pre><div class="code-example-explanation">Map is perfect for counting because keys can be any type. Set automatically removes duplicates and provides O(1) lookup with <code>has()</code>. Converting a Set to an array with <code>[...set]</code> uses the spread operator.</div><div class="code-example-output">b: 1
+a: 3
+n: 2
+[3, 1, 4, 5, 9, 2, 6]
+[3, 4]</div></div>
+<div class="code-example"><div class="code-example-title">Arrow Functions vs Regular Functions</div><pre><code class="language-python">// Arrow functions and &#39;this&#39;
+const team = {
+  name: &quot;Sky Coders&quot;,
+  members: [&quot;Aarav&quot;, &quot;Priya&quot;, &quot;Rohan&quot;],
+
+  // Regular function -- &#39;this&#39; depends on how it is called
+  listMembers: function() {
+    // Arrow inside a method -- inherits &#39;this&#39; from listMembers
+    this.members.forEach(member =&gt; {
+      console.log(member + &quot; is in &quot; + this.name);
+    });
+  }
+};
+
+team.listMembers();
+// Aarav is in Sky Coders
+// Priya is in Sky Coders
+// Rohan is in Sky Coders
+
+// Different arrow function forms
+const square = x =&gt; x * x;
+const add = (a, b) =&gt; a + b;
+const getObj = () =&gt; ({ key: &quot;value&quot; }); // Object needs parentheses
+const multiLine = (x) =&gt; {
+  const result = x * 2;
+  return result + 1;
+};
+
+console.log(square(5));     // 25
+console.log(add(3, 4));     // 7
+console.log(getObj());      // { key: &quot;value&quot; }
+console.log(multiLine(10)); // 21</code></pre><div class="code-example-explanation">Arrow functions do not have their own <code>this</code> -- they inherit it from the enclosing scope. Inside forEach, a regular function would lose <code>this</code>, but an arrow function inherits <code>this</code> from <code>listMembers</code>, so <code>this.name</code> works correctly.</div><div class="code-example-output">Aarav is in Sky Coders
+Priya is in Sky Coders
+Rohan is in Sky Coders
+25
+7
+{ key: &quot;value&quot; }
+21</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Trying to Reassign a const Variable</h3>
+                <div class="wrong-code"><pre><code class="language-python">const name = &quot;Aarav&quot;;
+name = &quot;Priya&quot;; // TypeError!</code></pre></div><div class="error-message">TypeError: Assignment to constant variable.</div><div class="correct-code"><pre><code class="language-python">let name = &quot;Aarav&quot;;
+name = &quot;Priya&quot;; // Use let when you need to reassign
+
+// Or with const for objects (modify properties, not the variable)
+const student = { name: &quot;Aarav&quot; };
+student.name = &quot;Priya&quot;; // OK! Modifying property, not reassigning</code></pre></div><div class="mistake-explanation"><code>const</code> prevents reassigning the variable itself. For primitives (strings, numbers), this means the value cannot change. For objects and arrays, the reference cannot change, but you CAN modify properties or elements.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting Parentheses When Arrow Function Returns an Object</h3>
+                <div class="wrong-code"><pre><code class="language-python">const makeUser = (name) =&gt; { name: name, age: 16 };
+console.log(makeUser(&quot;Aarav&quot;)); // undefined!</code></pre></div><div class="error-message">Returns undefined because JavaScript treats { } as a function body, not an object literal. The &#39;name: name&#39; is interpreted as a label.</div><div class="correct-code"><pre><code class="language-python">const makeUser = (name) =&gt; ({ name: name, age: 16 });
+console.log(makeUser(&quot;Aarav&quot;)); // { name: &quot;Aarav&quot;, age: 16 }</code></pre></div><div class="mistake-explanation">When an arrow function returns an object literal, wrap it in parentheses <code>=> ({ ... })</code>. Without them, JavaScript interprets the curly braces as the function body, not an object.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing Spread (Copy) with Assignment (Reference)</h3>
+                <div class="wrong-code"><pre><code class="language-python">const original = [1, 2, 3];
+const copy = original; // This is NOT a copy!
+copy.push(4);
+console.log(original); // [1, 2, 3, 4] -- original changed!</code></pre></div><div class="error-message">Both variables point to the same array. Modifying one affects the other.</div><div class="correct-code"><pre><code class="language-python">const original = [1, 2, 3];
+const copy = [...original]; // Spread creates a real copy
+copy.push(4);
+console.log(original); // [1, 2, 3] -- untouched
+console.log(copy);     // [1, 2, 3, 4]</code></pre></div><div class="mistake-explanation">Assignment (<code>=</code>) with arrays and objects copies the <strong>reference</strong>, not the data. Both variables point to the same array. Use spread <code>[...arr]</code> or <code>{...obj}</code> to create a shallow copy.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using ?? When You Mean || (or Vice Versa)</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Using || when 0 and &#39;&#39; are valid values
+const score = 0;
+const displayScore = score || &quot;No score&quot;; // &quot;No score&quot; -- WRONG!
+
+const name = &quot;&quot;;
+const displayName = name || &quot;Anonymous&quot;; // &quot;Anonymous&quot; -- WRONG!</code></pre></div><div class="error-message">|| treats 0, &quot;&quot;, false, NaN as falsy and replaces them. If these are valid values in your program, || gives wrong results.</div><div class="correct-code"><pre><code class="language-python">const score = 0;
+const displayScore = score ?? &quot;No score&quot;; // 0 -- CORRECT!
+
+const name = &quot;&quot;;
+const displayName = name ?? &quot;Anonymous&quot;; // &quot;&quot; -- CORRECT!
+
+// Use ?? when null/undefined means &#39;missing&#39;
+// Use || when any falsy value means &#39;missing&#39;</code></pre></div><div class="mistake-explanation"><code>||</code> returns the right side for ANY falsy value (0, "", false, null, undefined, NaN). <code>??</code> returns the right side ONLY for null and undefined. Use ?? when values like 0 and empty string are legitimate.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Destructuring from undefined</h3>
+                <div class="wrong-code"><pre><code class="language-python">const user = {};
+const { address: { city } } = user;
+// TypeError: Cannot destructure property &#39;city&#39; of undefined</code></pre></div><div class="error-message">TypeError: Cannot destructure property &#39;city&#39; of undefined. user.address is undefined, and you cannot destructure undefined.</div><div class="correct-code"><pre><code class="language-python">const user = {};
+
+// Option 1: Default value for nested object
+const { address: { city } = {} } = user;
+console.log(city); // undefined (but no error)
+
+// Option 2: Optional chaining
+const city = user.address?.city;
+console.log(city); // undefined (no error)</code></pre></div><div class="mistake-explanation">When destructuring nested objects, if a middle level is undefined, JavaScript cannot read properties from it. Provide a default value <code>= {}</code> for the nested object, or use optional chaining instead.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Use const by default, let when you need to reassign, and never use var. const and let are block-scoped (inside { }), while var is function-scoped and leaks out of blocks.</li>
+<li>Arrow functions are shorter: (a, b) =&gt; a + b. They have implicit return for single expressions (no curly braces or return keyword needed). They inherit &#39;this&#39; from the enclosing scope.</li>
+<li>Destructuring extracts values from arrays [a, b] = arr and objects { name, age } = obj in one step. It supports default values, renaming, nested destructuring, and rest patterns.</li>
+<li>The spread operator (...) expands arrays and objects: [...arr1, ...arr2] merges arrays, { ...obj1, ...obj2 } merges objects. Later properties override earlier ones in object spread.</li>
+<li>Rest parameters (...args) collect multiple arguments into an array. Rest in destructuring collects remaining elements: [first, ...rest] = arr.</li>
+<li>Default parameters (name = &#39;Guest&#39;) provide fallback values when arguments are not passed or are undefined.</li>
+<li>Optional chaining (?.) safely accesses nested properties: user.address?.city returns undefined instead of throwing TypeError when address is missing.</li>
+<li>Nullish coalescing (??) provides defaults only for null/undefined: 0 ?? 10 gives 0 (not 10). Use ?? instead of || when 0, &#39;&#39;, or false are valid values.</li>
+<li>Map holds key-value pairs with any key type. Set holds unique values and removes duplicates automatically. Both are iterable with for...of and forEach.</li>
+<li>ES modules use export/import to share code between files. Named exports use { }, default exports do not. In HTML, use script type=&#39;module&#39;.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/project-interactive-quiz-app" class="related-topic-link">Project: Build an Interactive Quiz App</a>
+<a href="/resources/javascript/error-handling-and-debugging" class="related-topic-link">Error Handling and Debugging</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/project-interactive-quiz-app" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Project: Build an Interactive Quiz App</span>
+        </a>
+            <a href="/resources/javascript/error-handling-and-debugging" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Error Handling and Debugging</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/es6-modern-javascript/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

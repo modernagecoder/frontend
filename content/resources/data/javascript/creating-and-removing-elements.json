@@ -1,0 +1,706 @@
+{
+  "title": "Creating and Removing DOM Elements",
+  "slug": "creating-and-removing-elements",
+  "language": "javascript",
+  "chapter": 13,
+  "difficulty": "Intermediate",
+  "readingTime": "40 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "Creating and Removing DOM Elements in JavaScript - createElement, appendChild, remove | Modern Age Coders",
+    "description": "Learn to dynamically create and remove HTML elements with JavaScript. Master createElement, appendChild, prepend, insertBefore, remove, replaceWith, DocumentFragment, and innerHTML vs createElement security. 58+ practice questions.",
+    "keywords": "javascript createElement, appendChild javascript, remove element javascript, dynamic html javascript, insertBefore javascript, replaceWith javascript, DocumentFragment, javascript dom create elements, javascript build list dynamically, XSS innerHTML"
+  },
+  "content": {
+    "what": "<h2>What Is Dynamic Element Creation?</h2><p>So far you have learned to select existing HTML elements and modify them. Now it is time to learn how to <strong>create brand new elements</strong> from scratch using JavaScript and add them to the page. You can also <strong>remove</strong> elements that are already there.</p><p>This is how real web apps work. When you post a comment on YouTube, the comment does not already exist in the HTML -- JavaScript creates a new element, fills it with your text, and inserts it into the page. When you delete a message, JavaScript removes that element from the DOM.</p><pre><code>// Create a new paragraph\nconst p = document.createElement(\"p\");\np.textContent = \"I was created by JavaScript!\";\np.classList.add(\"message\");\n\n// Add it to the page\ndocument.body.appendChild(p);\n\n// Remove it later\np.remove();</code></pre><p>With <code>createElement</code>, <code>appendChild</code>, and <code>remove</code>, you can build entire interfaces dynamically -- lists, cards, tables, comments, notifications -- all from JavaScript.</p>",
+    "why": "<h2>Why Learn to Create and Remove Elements?</h2><h3>1. Real Apps Are Dynamic</h3><p>Real websites do not have all their content hardcoded in HTML. Data comes from APIs, user input, or databases. JavaScript takes that data and builds the UI on the fly. Every social media feed, e-commerce product grid, and chat application creates elements dynamically.</p><h3>2. It Completes Your DOM Toolkit</h3><p>You know how to select elements (Chapter 11) and respond to events (Chapter 12). Creating and removing elements is the third piece. Together, these three skills let you build any interactive feature.</p><h3>3. It Teaches You About Performance</h3><p>Creating elements the wrong way can make your page slow. Learning about DocumentFragment and the differences between innerHTML and createElement teaches you to think about performance -- a skill that separates good developers from great ones.</p><h3>4. Security: innerHTML vs createElement</h3><p>Using innerHTML with user input is dangerous (XSS attacks). createElement is safe by default because it does not parse HTML strings. Understanding this difference is critical for building secure websites.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. document.createElement()</h3><p>This creates a new element in memory. It does not appear on the page until you add it somewhere:</p><pre><code>const div = document.createElement(\"div\");\nconst p = document.createElement(\"p\");\nconst img = document.createElement(\"img\");\nconst btn = document.createElement(\"button\");\n\n// At this point, these elements exist in memory but are NOT visible on the page</code></pre><p>After creating an element, you typically set its content, attributes, and styles before adding it to the page:</p><pre><code>const card = document.createElement(\"div\");\ncard.className = \"card\";                // Set class\ncard.id = \"student-card\";               // Set id\ncard.textContent = \"Aarav's Card\";      // Set text\ncard.style.padding = \"20px\";            // Set style\ncard.setAttribute(\"data-student\", \"1\"); // Set custom attribute</code></pre><h3>2. Appending Elements</h3><p>There are several ways to add an element to the page:</p><pre><code>const parent = document.getElementById(\"container\");\nconst child = document.createElement(\"p\");\nchild.textContent = \"New paragraph\";\n\n// appendChild: adds as the last child\nparent.appendChild(child);\n\n// prepend: adds as the first child\nparent.prepend(child);\n\n// append: like appendChild but accepts strings too\nparent.append(child);\nparent.append(\"Plain text\"); // Can append text directly\n\n// insertBefore: insert before a specific element\nconst reference = document.getElementById(\"existing\");\nparent.insertBefore(child, reference); // child goes before reference</code></pre><h3>3. Removing Elements</h3><p>The modern way to remove an element is simply calling <code>.remove()</code> on it:</p><pre><code>const element = document.getElementById(\"old-item\");\nelement.remove(); // Gone from the page\n\n// Older way (still works): removeChild on the parent\nconst parent = element.parentNode;\nparent.removeChild(element);</code></pre><h3>4. Replacing Elements</h3><p><code>replaceWith()</code> replaces an element with a new one:</p><pre><code>const oldElement = document.getElementById(\"old\");\nconst newElement = document.createElement(\"div\");\nnewElement.textContent = \"I replaced the old element!\";\n\noldElement.replaceWith(newElement);\n// oldElement is removed, newElement takes its place</code></pre><h3>5. Building Structured Elements</h3><p>You can nest createElement calls to build complex structures:</p><pre><code>// Build a card with a title and description\nconst card = document.createElement(\"div\");\ncard.className = \"card\";\n\nconst title = document.createElement(\"h3\");\ntitle.textContent = \"Aarav's Project\";\n\nconst desc = document.createElement(\"p\");\ndesc.textContent = \"A calculator app built with JavaScript\";\n\ncard.appendChild(title);\ncard.appendChild(desc);\n\ndocument.getElementById(\"container\").appendChild(card);</code></pre><h3>6. Creating Elements from Data Arrays</h3><p>A common pattern is looping through data to create elements for each item:</p><pre><code>const students = [\n  { name: \"Aarav\", grade: \"A\" },\n  { name: \"Priya\", grade: \"B+\" },\n  { name: \"Rohan\", grade: \"A+\" }\n];\n\nconst list = document.getElementById(\"student-list\");\n\nstudents.forEach(function(student) {\n  const li = document.createElement(\"li\");\n  li.textContent = student.name + \" - Grade: \" + student.grade;\n  list.appendChild(li);\n});</code></pre><h3>7. DocumentFragment for Performance</h3><p>When adding many elements, each <code>appendChild</code> causes the browser to re-render. A <code>DocumentFragment</code> lets you build a batch of elements off-screen and add them all at once:</p><pre><code>const fragment = document.createDocumentFragment();\n\nfor (let i = 1; i &lt;= 100; i++) {\n  const li = document.createElement(\"li\");\n  li.textContent = \"Item \" + i;\n  fragment.appendChild(li); // Adds to fragment (off-screen)\n}\n\ndocument.getElementById(\"list\").appendChild(fragment); // One DOM update!</code></pre><p>Without a fragment, the browser would re-render 100 times. With a fragment, it re-renders once. For small lists the difference is negligible, but for large lists it matters.</p><h3>8. innerHTML vs createElement: Security</h3><p><code>innerHTML</code> is quick and easy, but it parses strings as HTML. If the string contains user input, it can execute malicious code (XSS):</p><pre><code>// DANGEROUS with user input:\nconst userInput = '&lt;img src=x onerror=\"alert(document.cookie)\"&gt;';\ncontainer.innerHTML = userInput; // Executes the script!\n\n// SAFE: createElement + textContent\nconst p = document.createElement(\"p\");\np.textContent = userInput; // Displays as plain text, no execution\ncontainer.appendChild(p);</code></pre><p>Rule of thumb: use <code>innerHTML</code> only with trusted, developer-controlled content. Use <code>createElement</code> + <code>textContent</code> for anything involving user input.</p><h3>9. cloneNode()</h3><p><code>cloneNode()</code> creates a copy of an existing element. Pass <code>true</code> for a deep clone (includes children):</p><pre><code>const original = document.getElementById(\"template-card\");\n\n// Shallow clone (just the element, no children)\nconst shallow = original.cloneNode(false);\n\n// Deep clone (element + all children)\nconst deep = original.cloneNode(true);\ndeep.id = \"card-copy\"; // Change the id to avoid duplicates\ndocument.body.appendChild(deep);</code></pre>"
+    ,
+    "codeExamples": [
+    {
+      "title": "Building a Dynamic Student List",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    .student { padding: 10px; margin: 4px 0; background: #f3f4f6; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; }\n    .student .name { font-weight: bold; }\n    .student .grade { color: #a855f7; }\n    .add-area { margin-bottom: 16px; }\n    input { padding: 8px; border: 1px solid #ddd; border-radius: 4px; margin-right: 8px; }\n    button { padding: 8px 16px; background: #a855f7; color: white; border: none; border-radius: 6px; cursor: pointer; }\n    .delete-btn { background: #ef4444; font-size: 12px; padding: 4px 10px; }\n  </style>\n</head>\n<body>\n  <h2>Class Roster</h2>\n  <div class=\"add-area\">\n    <input type=\"text\" id=\"nameInput\" placeholder=\"Student name\">\n    <input type=\"text\" id=\"gradeInput\" placeholder=\"Grade\">\n    <button id=\"addBtn\">Add Student</button>\n  </div>\n  <div id=\"roster\"></div>\n\n  <script>\n    const roster = document.getElementById(\"roster\");\n\n    // Initial students\n    const students = [\n      { name: \"Aarav\", grade: \"A\" },\n      { name: \"Priya\", grade: \"A+\" },\n      { name: \"Rohan\", grade: \"B+\" }\n    ];\n\n    function createStudentElement(student) {\n      const div = document.createElement(\"div\");\n      div.className = \"student\";\n\n      const nameSpan = document.createElement(\"span\");\n      nameSpan.className = \"name\";\n      nameSpan.textContent = student.name;\n\n      const gradeSpan = document.createElement(\"span\");\n      gradeSpan.className = \"grade\";\n      gradeSpan.textContent = \"Grade: \" + student.grade;\n\n      const deleteBtn = document.createElement(\"button\");\n      deleteBtn.className = \"delete-btn\";\n      deleteBtn.textContent = \"Remove\";\n      deleteBtn.addEventListener(\"click\", function() {\n        div.remove();\n      });\n\n      div.appendChild(nameSpan);\n      div.appendChild(gradeSpan);\n      div.appendChild(deleteBtn);\n      return div;\n    }\n\n    // Render initial students\n    students.forEach(function(student) {\n      roster.appendChild(createStudentElement(student));\n    });\n\n    // Add new student\n    document.getElementById(\"addBtn\").addEventListener(\"click\", function() {\n      const name = document.getElementById(\"nameInput\").value.trim();\n      const grade = document.getElementById(\"gradeInput\").value.trim();\n      if (name && grade) {\n        roster.appendChild(createStudentElement({ name: name, grade: grade }));\n        document.getElementById(\"nameInput\").value = \"\";\n        document.getElementById(\"gradeInput\").value = \"\";\n      }\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "A reusable <code>createStudentElement</code> function builds a complete student row with name, grade, and a delete button. The delete button removes the element using <code>div.remove()</code>. Initial students are rendered from an array, and new students can be added via the form.",
+      "output": "A student list with name, grade, and a remove button for each. New students can be added from input fields."
+    },
+    {
+      "title": "Comment System (Add and Delete)",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; max-width: 500px; }\n    .comment { padding: 12px; margin: 8px 0; background: #f9fafb; border-left: 3px solid #a855f7; border-radius: 0 8px 8px 0; }\n    .comment .author { font-weight: bold; color: #a855f7; }\n    .comment .time { font-size: 12px; color: #9ca3af; }\n    .comment .text { margin-top: 6px; }\n    .comment .delete { float: right; background: none; border: none; color: #ef4444; cursor: pointer; font-size: 16px; }\n    textarea { width: 100%; height: 60px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; resize: vertical; box-sizing: border-box; }\n    .post-area { margin-bottom: 16px; }\n    button { padding: 8px 16px; background: #a855f7; color: white; border: none; border-radius: 6px; cursor: pointer; margin-top: 8px; }\n    #count { color: #6b7280; margin-bottom: 10px; }\n  </style>\n</head>\n<body>\n  <h2>Comments</h2>\n  <div class=\"post-area\">\n    <input type=\"text\" id=\"author\" placeholder=\"Your name\" style=\"padding:8px;border:1px solid #ddd;border-radius:4px;margin-bottom:8px;width:200px;\">\n    <textarea id=\"commentText\" placeholder=\"Write a comment...\"></textarea>\n    <button id=\"postBtn\">Post Comment</button>\n  </div>\n  <div id=\"count\">0 comments</div>\n  <div id=\"comments\"></div>\n\n  <script>\n    const commentsContainer = document.getElementById(\"comments\");\n    const countDisplay = document.getElementById(\"count\");\n    let commentCount = 0;\n\n    function updateCount() {\n      commentCount = commentsContainer.children.length;\n      countDisplay.textContent = commentCount + \" comment\" + (commentCount !== 1 ? \"s\" : \"\");\n    }\n\n    function addComment(author, text) {\n      const comment = document.createElement(\"div\");\n      comment.className = \"comment\";\n\n      const deleteBtn = document.createElement(\"button\");\n      deleteBtn.className = \"delete\";\n      deleteBtn.textContent = \"x\";\n      deleteBtn.addEventListener(\"click\", function() {\n        comment.remove();\n        updateCount();\n      });\n\n      const authorEl = document.createElement(\"div\");\n      authorEl.className = \"author\";\n      authorEl.textContent = author;\n\n      const timeEl = document.createElement(\"div\");\n      timeEl.className = \"time\";\n      timeEl.textContent = \"Just now\";\n\n      const textEl = document.createElement(\"div\");\n      textEl.className = \"text\";\n      textEl.textContent = text;\n\n      comment.appendChild(deleteBtn);\n      comment.appendChild(authorEl);\n      comment.appendChild(timeEl);\n      comment.appendChild(textEl);\n\n      commentsContainer.prepend(comment); // Newest first\n      updateCount();\n    }\n\n    document.getElementById(\"postBtn\").addEventListener(\"click\", function() {\n      const author = document.getElementById(\"author\").value.trim() || \"Anonymous\";\n      const text = document.getElementById(\"commentText\").value.trim();\n      if (text) {\n        addComment(author, text);\n        document.getElementById(\"commentText\").value = \"\";\n      }\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "The <code>addComment</code> function creates a complete comment element with author name, timestamp, text, and a delete button. <code>prepend</code> adds new comments at the top (newest first). The delete button removes its comment and updates the count. All user input is set via <code>textContent</code> for XSS safety.",
+      "output": "A comment section where users can post and delete comments. New comments appear at the top."
+    },
+    {
+      "title": "Card Grid from Data Array",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }\n    .card { padding: 20px; border: 2px solid #e5e7eb; border-radius: 12px; text-align: center; transition: transform 0.2s, border-color 0.2s; }\n    .card:hover { transform: translateY(-4px); border-color: #a855f7; }\n    .card .emoji { font-size: 40px; margin-bottom: 8px; }\n    .card .title { font-weight: bold; font-size: 18px; margin-bottom: 4px; }\n    .card .desc { color: #6b7280; font-size: 14px; }\n    .card .level { display: inline-block; margin-top: 8px; padding: 2px 10px; border-radius: 12px; font-size: 12px; color: white; }\n    .beginner { background: #10b981; }\n    .intermediate { background: #f59e0b; }\n    .advanced { background: #ef4444; }\n  </style>\n</head>\n<body>\n  <h2>Course Catalog</h2>\n  <div class=\"grid\" id=\"grid\"></div>\n\n  <script>\n    const courses = [\n      { title: \"HTML Basics\", desc: \"Build your first webpage\", icon: \"[H]\", level: \"beginner\" },\n      { title: \"CSS Layouts\", desc: \"Flexbox and Grid mastery\", icon: \"[C]\", level: \"beginner\" },\n      { title: \"JavaScript DOM\", desc: \"Make pages interactive\", icon: \"[J]\", level: \"intermediate\" },\n      { title: \"React Basics\", desc: \"Component-based UI\", icon: \"[R]\", level: \"intermediate\" },\n      { title: \"Node.js APIs\", desc: \"Build backend services\", icon: \"[N]\", level: \"advanced\" },\n      { title: \"Databases\", desc: \"SQL and MongoDB\", icon: \"[D]\", level: \"advanced\" }\n    ];\n\n    const grid = document.getElementById(\"grid\");\n    const fragment = document.createDocumentFragment();\n\n    courses.forEach(function(course) {\n      const card = document.createElement(\"div\");\n      card.className = \"card\";\n\n      const icon = document.createElement(\"div\");\n      icon.className = \"emoji\";\n      icon.textContent = course.icon;\n\n      const title = document.createElement(\"div\");\n      title.className = \"title\";\n      title.textContent = course.title;\n\n      const desc = document.createElement(\"div\");\n      desc.className = \"desc\";\n      desc.textContent = course.desc;\n\n      const level = document.createElement(\"span\");\n      level.className = \"level \" + course.level;\n      level.textContent = course.level.charAt(0).toUpperCase() + course.level.slice(1);\n\n      card.appendChild(icon);\n      card.appendChild(title);\n      card.appendChild(desc);\n      card.appendChild(level);\n\n      fragment.appendChild(card);\n    });\n\n    grid.appendChild(fragment); // One DOM update\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "We loop through a data array and create a card for each course. Each card has an icon, title, description, and a color-coded difficulty level. We use a <code>DocumentFragment</code> to batch all cards together and add them to the DOM in a single operation for better performance.",
+      "output": "A responsive grid of course cards built entirely from a JavaScript data array, with color-coded difficulty badges."
+    },
+    {
+      "title": "cloneNode for Template-Based Rendering",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    .notification { padding: 12px 16px; margin: 6px 0; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; }\n    .notification.info { background: #dbeafe; border-left: 4px solid #3b82f6; }\n    .notification.success { background: #d1fae5; border-left: 4px solid #10b981; }\n    .notification.error { background: #fecaca; border-left: 4px solid #ef4444; }\n    .notification .close { background: none; border: none; font-size: 18px; cursor: pointer; color: #6b7280; }\n    button { padding: 8px 16px; margin: 4px; border: none; border-radius: 6px; cursor: pointer; color: white; }\n    #add-info { background: #3b82f6; }\n    #add-success { background: #10b981; }\n    #add-error { background: #ef4444; }\n  </style>\n</head>\n<body>\n  <h2>Notification System</h2>\n  <button id=\"add-info\">Add Info</button>\n  <button id=\"add-success\">Add Success</button>\n  <button id=\"add-error\">Add Error</button>\n  <div id=\"notifications\"></div>\n\n  <!-- Hidden template -->\n  <template id=\"notif-template\">\n    <div class=\"notification\">\n      <span class=\"message\"></span>\n      <button class=\"close\">x</button>\n    </div>\n  </template>\n\n  <script>\n    const container = document.getElementById(\"notifications\");\n    const template = document.getElementById(\"notif-template\");\n    let counter = 0;\n\n    function addNotification(type, text) {\n      counter++;\n      const clone = template.content.cloneNode(true);\n      const notif = clone.querySelector(\".notification\");\n      notif.classList.add(type);\n      clone.querySelector(\".message\").textContent = text;\n      clone.querySelector(\".close\").addEventListener(\"click\", function() {\n        notif.remove();\n      });\n      container.prepend(clone);\n    }\n\n    document.getElementById(\"add-info\").addEventListener(\"click\", function() {\n      addNotification(\"info\", \"Info #\" + counter + \": Aarav submitted homework.\");\n    });\n    document.getElementById(\"add-success\").addEventListener(\"click\", function() {\n      addNotification(\"success\", \"Success #\" + counter + \": Assignment graded!\");\n    });\n    document.getElementById(\"add-error\").addEventListener(\"click\", function() {\n      addNotification(\"error\", \"Error #\" + counter + \": Network connection lost.\");\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "We use an HTML <code>&lt;template&gt;</code> element as a reusable blueprint. <code>template.content.cloneNode(true)</code> creates a deep copy of the template content. We then fill in the text and type class, attach a close handler, and add it to the page. The template itself is never visible.",
+      "output": "Buttons add colored notifications (blue info, green success, red error). Each notification has an 'x' button to dismiss it."
+    },
+    {
+      "title": "insertBefore and replaceWith",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    #list { list-style: none; padding: 0; }\n    #list li { padding: 10px; margin: 4px 0; background: #f3f4f6; border-radius: 6px; }\n    #list li.highlight { background: #fef3c7; border: 1px solid #f59e0b; }\n    button { padding: 8px 14px; margin: 4px; cursor: pointer; border: 1px solid #ddd; border-radius: 4px; background: white; }\n    button:hover { background: #f3f4f6; }\n  </style>\n</head>\n<body>\n  <h2>List Operations</h2>\n  <ul id=\"list\">\n    <li>First item</li>\n    <li id=\"second\">Second item</li>\n    <li>Third item</li>\n  </ul>\n  <button id=\"prepend-btn\">Prepend Item</button>\n  <button id=\"insert-btn\">Insert Before Second</button>\n  <button id=\"replace-btn\">Replace Second</button>\n  <button id=\"remove-btn\">Remove Last</button>\n  <p id=\"status\"></p>\n\n  <script>\n    const list = document.getElementById(\"list\");\n    const status = document.getElementById(\"status\");\n    let count = 0;\n\n    document.getElementById(\"prepend-btn\").addEventListener(\"click\", function() {\n      count++;\n      const li = document.createElement(\"li\");\n      li.textContent = \"Prepended item #\" + count;\n      li.classList.add(\"highlight\");\n      list.prepend(li);\n      status.textContent = \"Prepended item at the top.\";\n    });\n\n    document.getElementById(\"insert-btn\").addEventListener(\"click\", function() {\n      const second = document.getElementById(\"second\");\n      if (second) {\n        count++;\n        const li = document.createElement(\"li\");\n        li.textContent = \"Inserted item #\" + count;\n        li.classList.add(\"highlight\");\n        list.insertBefore(li, second);\n        status.textContent = \"Inserted before 'Second item'.\";\n      } else {\n        status.textContent = \"Second item no longer exists.\";\n      }\n    });\n\n    document.getElementById(\"replace-btn\").addEventListener(\"click\", function() {\n      const second = document.getElementById(\"second\");\n      if (second) {\n        const replacement = document.createElement(\"li\");\n        replacement.textContent = \"Replaced element!\";\n        replacement.classList.add(\"highlight\");\n        replacement.id = \"second\"; // Keep the id for future operations\n        second.replaceWith(replacement);\n        status.textContent = \"Replaced 'Second item'.\";\n      }\n    });\n\n    document.getElementById(\"remove-btn\").addEventListener(\"click\", function() {\n      if (list.lastElementChild) {\n        list.lastElementChild.remove();\n        status.textContent = \"Removed the last item.\";\n      } else {\n        status.textContent = \"List is empty.\";\n      }\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "<code>prepend</code> adds at the beginning. <code>insertBefore(newEl, referenceEl)</code> places the new element right before the reference. <code>replaceWith</code> swaps one element for another. <code>lastElementChild.remove()</code> removes the last item. All operations update a status message.",
+      "output": "Buttons demonstrate prepend, insertBefore, replaceWith, and remove operations on a list. A status message shows what happened."
+    },
+    {
+      "title": "innerHTML vs createElement: Security Demo",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    .demo-box { padding: 16px; margin: 10px 0; border: 2px solid #ddd; border-radius: 8px; min-height: 40px; }\n    .danger { border-color: #ef4444; }\n    .safe { border-color: #10b981; }\n    label { font-weight: bold; display: block; margin-top: 12px; }\n    input { padding: 8px; width: 300px; border: 1px solid #ddd; border-radius: 4px; }\n    button { padding: 8px 16px; margin: 4px; cursor: pointer; border: none; border-radius: 6px; color: white; }\n    .btn-danger { background: #ef4444; }\n    .btn-safe { background: #10b981; }\n  </style>\n</head>\n<body>\n  <h2>innerHTML vs createElement Security</h2>\n  <label>Enter some text (try typing HTML tags):</label>\n  <input type=\"text\" id=\"userInput\" value=\"Hello <b>World</b>\" placeholder=\"Try HTML tags...\">\n  <br><br>\n  <button class=\"btn-danger\" id=\"innerBtn\">Render with innerHTML</button>\n  <button class=\"btn-safe\" id=\"safeBtn\">Render with createElement + textContent</button>\n\n  <h3>innerHTML (parses HTML -- dangerous with user input):</h3>\n  <div class=\"demo-box danger\" id=\"innerDemo\"></div>\n\n  <h3>createElement + textContent (safe -- treats as plain text):</h3>\n  <div class=\"demo-box safe\" id=\"safeDemo\"></div>\n\n  <script>\n    const input = document.getElementById(\"userInput\");\n\n    document.getElementById(\"innerBtn\").addEventListener(\"click\", function() {\n      document.getElementById(\"innerDemo\").innerHTML = input.value;\n    });\n\n    document.getElementById(\"safeBtn\").addEventListener(\"click\", function() {\n      const container = document.getElementById(\"safeDemo\");\n      container.textContent = \"\"; // Clear previous\n      const p = document.createElement(\"p\");\n      p.textContent = input.value;\n      container.appendChild(p);\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "This demo shows the difference between innerHTML and createElement. If the user types <code>&lt;b&gt;Bold&lt;/b&gt;</code>, innerHTML renders it as bold text (it parses the HTML). createElement + textContent displays the raw string including the tags. With malicious input like <code>&lt;img src=x onerror=alert(1)&gt;</code>, innerHTML would execute the script, while textContent is safe.",
+      "output": "Two areas side by side. innerHTML renders HTML tags. createElement + textContent shows them as plain text."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Forgetting to Append the Created Element",
+      "wrongCode": "const p = document.createElement(\"p\");\np.textContent = \"Hello World\";\n// Forgot to add it to the page!\n// The paragraph exists in memory but is invisible",
+      "error": "No error, but the element never appears on the page. It exists only in JavaScript's memory.",
+      "correctCode": "const p = document.createElement(\"p\");\np.textContent = \"Hello World\";\ndocument.body.appendChild(p); // Now it appears on the page",
+      "explanation": "<code>createElement</code> creates an element in memory. It is NOT visible until you append it to a visible parent using <code>appendChild</code>, <code>prepend</code>, or <code>insertBefore</code>."
+    },
+    {
+      "title": "Using innerHTML with User Input (XSS Vulnerability)",
+      "wrongCode": "const userComment = document.getElementById(\"input\").value;\ndocument.getElementById(\"comments\").innerHTML += \"<p>\" + userComment + \"</p>\";\n// If userComment is: <img src=x onerror=\"alert('hacked')\">\n// The script EXECUTES!",
+      "error": "Cross-Site Scripting (XSS): malicious HTML or JavaScript in user input gets executed by the browser.",
+      "correctCode": "const userComment = document.getElementById(\"input\").value;\nconst p = document.createElement(\"p\");\np.textContent = userComment; // Safe: treats as plain text\ndocument.getElementById(\"comments\").appendChild(p);",
+      "explanation": "<code>innerHTML</code> parses strings as HTML. User input with script tags or event handlers (like onerror) will execute. <code>createElement</code> + <code>textContent</code> is safe because it never parses HTML."
+    },
+    {
+      "title": "Appending the Same Element Twice (Moves Instead of Copying)",
+      "wrongCode": "const p = document.createElement(\"p\");\np.textContent = \"Hello\";\n\ndocument.getElementById(\"box1\").appendChild(p);\ndocument.getElementById(\"box2\").appendChild(p);\n// p is only in box2! It was MOVED, not copied.",
+      "error": "An element can only exist in one place in the DOM. Appending it elsewhere moves it from the original location.",
+      "correctCode": "const p = document.createElement(\"p\");\np.textContent = \"Hello\";\n\ndocument.getElementById(\"box1\").appendChild(p);\ndocument.getElementById(\"box2\").appendChild(p.cloneNode(true)); // Clone it!",
+      "explanation": "A DOM node can only have one parent. Appending it to a new parent removes it from the old one. To put the same content in two places, use <code>cloneNode(true)</code> to create a copy."
+    },
+    {
+      "title": "innerHTML += Destroys Event Listeners",
+      "wrongCode": "const container = document.getElementById(\"list\");\n\n// Add a button with a listener\nconst btn = document.createElement(\"button\");\nbtn.textContent = \"Click me\";\nbtn.addEventListener(\"click\", function() { alert(\"Works!\"); });\ncontainer.appendChild(btn);\n\n// Later, add more content with innerHTML +=\ncontainer.innerHTML += \"<p>New paragraph</p>\";\n// The button's click listener is GONE! innerHTML destroys and rebuilds ALL children.",
+      "error": "The button still appears but clicking it does nothing. innerHTML += re-parses and rebuilds the entire inner HTML, destroying all event listeners on existing elements.",
+      "correctCode": "// Use createElement for the new content too\nconst p = document.createElement(\"p\");\np.textContent = \"New paragraph\";\ncontainer.appendChild(p);\n// Now the button's click listener is preserved",
+      "explanation": "<code>innerHTML +=</code> reads the current HTML as a string, appends the new string, and re-parses the entire thing. This destroys all existing DOM nodes and their event listeners. Always use <code>appendChild</code> or <code>prepend</code> to add content without destroying existing elements."
+    }
+  ],
+  "summary": [
+    "document.createElement('tag') creates a new element in memory. It does not appear on the page until you add it to a parent element.",
+    "appendChild adds an element as the last child. prepend adds it as the first child. insertBefore(newEl, refEl) places it before a specific element.",
+    "element.remove() removes an element from the page. The older way is parentNode.removeChild(element).",
+    "element.replaceWith(newElement) replaces an element with a new one in place.",
+    "After creating an element, set its content (textContent), attributes (className, id, setAttribute), and styles before appending it.",
+    "Loop through data arrays and create elements for each item. This is the pattern used by every modern web application to render dynamic content.",
+    "DocumentFragment lets you batch-create elements off-screen and add them all at once, reducing the number of DOM updates for better performance.",
+    "innerHTML is convenient but dangerous with user input (XSS). Always use createElement + textContent for user-provided data.",
+    "innerHTML += destroys existing event listeners because it rebuilds the entire inner content. Use appendChild instead.",
+    "cloneNode(true) creates a deep copy of an element (including children). cloneNode(false) creates a shallow copy (just the element, no children).",
+    "The HTML template element provides a reusable, invisible blueprint. Use template.content.cloneNode(true) to create instances of it."
+    ]
+  },
+  "relatedTopics": ["dom-events-and-listeners", "forms-and-validation"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What appears on the page after this code runs?<br><pre><code>&lt;div id=\"box\"&gt;&lt;/div&gt;\n\n&lt;script&gt;\nconst p = document.createElement(\"p\");\np.textContent = \"Hello from JavaScript!\";\ndocument.getElementById(\"box\").appendChild(p);\n&lt;/script&gt;</code></pre>",
+        "hint": "createElement creates an element, textContent sets its text, appendChild adds it.",
+        "answer": "The div now contains a paragraph that says \"Hello from JavaScript!\".",
+        "explanation": "We create a new <code>&lt;p&gt;</code> element, set its text, and append it to the div. The page now shows the text inside the div."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the HTML inside #container after this code?<br><pre><code>&lt;div id=\"container\"&gt;\n  &lt;p&gt;Original&lt;/p&gt;\n&lt;/div&gt;\n\n&lt;script&gt;\nconst newP = document.createElement(\"p\");\nnewP.textContent = \"New\";\ndocument.getElementById(\"container\").appendChild(newP);\n&lt;/script&gt;</code></pre>",
+        "hint": "appendChild adds at the end.",
+        "answer": "The container has two paragraphs: \"Original\" (first) and \"New\" (second).",
+        "explanation": "<code>appendChild</code> adds the new element as the last child. The original paragraph stays in place, and the new one appears after it."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the HTML inside #container after this code?<br><pre><code>&lt;div id=\"container\"&gt;\n  &lt;p&gt;Original&lt;/p&gt;\n&lt;/div&gt;\n\n&lt;script&gt;\nconst newP = document.createElement(\"p\");\nnewP.textContent = \"First!\";\ndocument.getElementById(\"container\").prepend(newP);\n&lt;/script&gt;</code></pre>",
+        "hint": "prepend adds at the beginning.",
+        "answer": "The container has two paragraphs: \"First!\" (first) and \"Original\" (second).",
+        "explanation": "<code>prepend</code> adds the new element as the first child, before any existing content."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What happens after this code runs?<br><pre><code>&lt;ul id=\"list\"&gt;\n  &lt;li&gt;Apple&lt;/li&gt;\n  &lt;li id=\"banana\"&gt;Banana&lt;/li&gt;\n  &lt;li&gt;Cherry&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"banana\").remove();\n&lt;/script&gt;</code></pre>",
+        "hint": "remove() removes the element from the DOM.",
+        "answer": "The list now contains only \"Apple\" and \"Cherry\". \"Banana\" is removed.",
+        "explanation": "<code>element.remove()</code> removes the element from its parent. The Banana li is no longer in the DOM."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What appears on the page?<br><pre><code>&lt;div id=\"box\"&gt;&lt;/div&gt;\n\n&lt;script&gt;\nconst div = document.createElement(\"div\");\ndiv.className = \"card\";\ndiv.id = \"my-card\";\ndiv.textContent = \"Card content\";\ndocument.getElementById(\"box\").appendChild(div);\nconsole.log(div.className);\nconsole.log(div.id);\n&lt;/script&gt;</code></pre>",
+        "hint": "className sets the class, id sets the id.",
+        "answer": "A div with text \"Card content\" appears inside #box. Console logs: <code>card</code> and <code>my-card</code>.",
+        "explanation": "We create a div, set its class to \"card\", id to \"my-card\", and text to \"Card content\". After appending, the div is visible. The console confirms the class and id."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does the list contain after this code?<br><pre><code>&lt;ul id=\"list\"&gt;\n  &lt;li&gt;A&lt;/li&gt;\n  &lt;li id=\"target\"&gt;B&lt;/li&gt;\n  &lt;li&gt;C&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;script&gt;\nconst list = document.getElementById(\"list\");\nconst target = document.getElementById(\"target\");\nconst newLi = document.createElement(\"li\");\nnewLi.textContent = \"X\";\nlist.insertBefore(newLi, target);\n&lt;/script&gt;</code></pre>",
+        "hint": "insertBefore places the new element before the reference element.",
+        "answer": "The list contains: A, X, B, C (in that order).",
+        "explanation": "<code>insertBefore(newLi, target)</code> places \"X\" right before \"B\". The final order is A, X, B, C."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does the page show?<br><pre><code>&lt;p id=\"old\"&gt;Old text&lt;/p&gt;\n\n&lt;script&gt;\nconst oldP = document.getElementById(\"old\");\nconst newP = document.createElement(\"p\");\nnewP.textContent = \"New text\";\nnewP.style.color = \"green\";\noldP.replaceWith(newP);\n&lt;/script&gt;</code></pre>",
+        "hint": "replaceWith swaps the old element for the new one.",
+        "answer": "The page shows a green paragraph with text \"New text\". The old paragraph is gone.",
+        "explanation": "<code>replaceWith</code> removes the old element from the DOM and puts the new element in its place. The old element no longer exists on the page."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"box\"&gt;\n  &lt;p&gt;One&lt;/p&gt;\n  &lt;p&gt;Two&lt;/p&gt;\n  &lt;p&gt;Three&lt;/p&gt;\n&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nconsole.log(box.children.length);\nconsole.log(box.firstElementChild.textContent);\nconsole.log(box.lastElementChild.textContent);\n&lt;/script&gt;</code></pre>",
+        "hint": "children returns element children. firstElementChild and lastElementChild are the first and last.",
+        "answer": "<code>3</code><br><code>One</code><br><code>Three</code>",
+        "explanation": "<code>children</code> returns the 3 p elements. <code>firstElementChild</code> is the first p (\"One\"). <code>lastElementChild</code> is the last p (\"Three\")."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"box\"&gt;&lt;p&gt;Hello&lt;/p&gt;&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nconst original = box.firstElementChild;\nconst clone = original.cloneNode(true);\nclone.textContent = \"World\";\nbox.appendChild(clone);\nconsole.log(original.textContent);\nconsole.log(clone.textContent);\nconsole.log(box.children.length);\n&lt;/script&gt;</code></pre>",
+        "hint": "cloneNode creates an independent copy. Changing the clone does not affect the original.",
+        "answer": "<code>Hello</code><br><code>World</code><br><code>2</code>",
+        "explanation": "<code>cloneNode(true)</code> creates a deep copy. We change the clone's text to \"World\" without affecting the original (\"Hello\"). The box now has 2 children."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the final HTML inside #container?<br><pre><code>&lt;div id=\"container\"&gt;&lt;/div&gt;\n\n&lt;script&gt;\nconst container = document.getElementById(\"container\");\nconst p = document.createElement(\"p\");\np.textContent = \"Only one\";\n\ncontainer.appendChild(p);\ncontainer.appendChild(p);\ncontainer.appendChild(p);\n&lt;/script&gt;</code></pre>",
+        "hint": "An element can only exist in one place. Appending it again moves it.",
+        "answer": "The container has one paragraph: \"Only one\".",
+        "explanation": "A DOM element can only be in one location. Each <code>appendChild</code> moves the same element (it does not copy it). After three appends of the same element, it is just in its final position -- still one element."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;ul id=\"list\"&gt;\n  &lt;li&gt;A&lt;/li&gt;\n  &lt;li&gt;B&lt;/li&gt;\n  &lt;li&gt;C&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;script&gt;\nconst list = document.getElementById(\"list\");\nwhile (list.firstChild) {\n  list.removeChild(list.firstChild);\n}\nconsole.log(list.children.length);\nconsole.log(list.innerHTML);\n&lt;/script&gt;</code></pre>",
+        "hint": "The while loop keeps removing the first child until there are none left.",
+        "answer": "<code>0</code><br><code></code> (empty string)",
+        "explanation": "The while loop removes children one by one until there are none left. After the loop, the ul is empty: 0 children and empty innerHTML. Note: <code>firstChild</code> includes text nodes (whitespace), so this removes everything."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"box\"&gt;&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nconst fragment = document.createDocumentFragment();\n\nfor (let i = 1; i &lt;= 3; i++) {\n  const p = document.createElement(\"p\");\n  p.textContent = \"Item \" + i;\n  fragment.appendChild(p);\n}\n\nconsole.log(fragment.childNodes.length);\nconsole.log(box.children.length);\n\nbox.appendChild(fragment);\n\nconsole.log(fragment.childNodes.length);\nconsole.log(box.children.length);\n&lt;/script&gt;</code></pre>",
+        "hint": "After appending a fragment, its children move to the parent. The fragment becomes empty.",
+        "answer": "<code>3</code><br><code>0</code><br><code>0</code><br><code>3</code>",
+        "explanation": "Before appending: fragment has 3 children, box has 0. After appending the fragment, its children are transferred to box. Fragment becomes empty (0 children), box now has 3."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does the page show?<br><pre><code>&lt;div id=\"container\"&gt;\n  &lt;p&gt;First&lt;/p&gt;\n  &lt;p&gt;Third&lt;/p&gt;\n&lt;/div&gt;\n\n&lt;script&gt;\nconst container = document.getElementById(\"container\");\nconst third = container.children[1]; // The \"Third\" paragraph\nconst second = document.createElement(\"p\");\nsecond.textContent = \"Second\";\ncontainer.insertBefore(second, third);\n&lt;/script&gt;</code></pre>",
+        "hint": "insertBefore(new, reference) places new before reference.",
+        "answer": "The page shows three paragraphs: \"First\", \"Second\", \"Third\".",
+        "explanation": "<code>children[1]</code> is the \"Third\" paragraph. <code>insertBefore(second, third)</code> places \"Second\" right before \"Third\". Order: First, Second, Third."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the result?<br><pre><code>&lt;div id=\"box\"&gt;\n  &lt;p&gt;Original &lt;strong&gt;bold&lt;/strong&gt; text&lt;/p&gt;\n&lt;/div&gt;\n\n&lt;script&gt;\nconst p = document.querySelector(\"#box p\");\nconst shallow = p.cloneNode(false);\nconst deep = p.cloneNode(true);\nconsole.log(shallow.childNodes.length);\nconsole.log(deep.childNodes.length);\nconsole.log(shallow.textContent);\nconsole.log(deep.textContent);\n&lt;/script&gt;</code></pre>",
+        "hint": "cloneNode(false) copies only the element. cloneNode(true) copies children too.",
+        "answer": "<code>0</code><br><code>3</code><br><code></code> (empty string)<br><code>Original bold text</code>",
+        "explanation": "Shallow clone (false): just the p tag with no children, so 0 childNodes and empty textContent. Deep clone (true): copies all children (text node + strong + text node = 3 childNodes) with their text."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does the page show?<br><pre><code>&lt;div id=\"box\"&gt;&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nconst h2 = document.createElement(\"h2\");\nh2.textContent = \"Welcome, Aarav!\";\nh2.style.color = \"#a855f7\";\nbox.appendChild(h2);\n&lt;/script&gt;</code></pre>",
+        "hint": "Create an h2, set its text and color, then append it.",
+        "answer": "A purple heading that says \"Welcome, Aarav!\" appears inside the div.",
+        "explanation": "We create an h2 element, set its text to \"Welcome, Aarav!\", set its color to purple (#a855f7), and append it to the div. The heading appears on the page."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;ul id=\"list\"&gt;\n  &lt;li&gt;A&lt;/li&gt;\n  &lt;li&gt;B&lt;/li&gt;\n  &lt;li&gt;C&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;script&gt;\nconst list = document.getElementById(\"list\");\nconst items = list.querySelectorAll(\"li\");\nitems.forEach(function(item) {\n  const span = document.createElement(\"span\");\n  span.textContent = \" [done]\";\n  item.appendChild(span);\n});\nconsole.log(list.textContent.trim().replace(/\\s+/g, ' '));\n&lt;/script&gt;</code></pre>",
+        "hint": "Each li gets a span appended to it with ' [done]'.",
+        "answer": "<code>A [done] B [done] C [done]</code>",
+        "explanation": "For each li, we create a span with \" [done]\" and append it. Each li now has its original text plus the span text. The console shows all text content joined."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does the page show?<br><pre><code>&lt;ul id=\"list\"&gt;&lt;/ul&gt;\n\n&lt;script&gt;\nconst fruits = [\"Apple\", \"Banana\", \"Cherry\"];\nconst list = document.getElementById(\"list\");\n\nfruits.forEach(function(fruit) {\n  const li = document.createElement(\"li\");\n  li.textContent = fruit;\n  list.appendChild(li);\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "forEach loops through the array and creates an li for each fruit.",
+        "answer": "A list with three items: Apple, Banana, Cherry.",
+        "explanation": "The forEach loop creates a new li element for each fruit in the array, sets its text, and appends it to the ul. The list is built dynamically from the data."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"parent\"&gt;\n  &lt;p&gt;Child 1&lt;/p&gt;\n  &lt;p&gt;Child 2&lt;/p&gt;\n&lt;/div&gt;\n\n&lt;script&gt;\nconst parent = document.getElementById(\"parent\");\nconsole.log(parent.childElementCount);\nparent.innerHTML = \"\";\nconsole.log(parent.childElementCount);\n&lt;/script&gt;</code></pre>",
+        "hint": "childElementCount tells you how many child elements exist. innerHTML = '' empties the element.",
+        "answer": "<code>2</code><br><code>0</code>",
+        "explanation": "Initially the div has 2 child elements (two p tags). Setting <code>innerHTML = \"\"</code> removes all content. Now childElementCount is 0."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does the page show after this code?<br><pre><code>&lt;div id=\"container\"&gt;&lt;/div&gt;\n\n&lt;script&gt;\nconst students = [\n  { name: \"Aarav\", score: 95 },\n  { name: \"Priya\", score: 88 },\n  { name: \"Rohan\", score: 72 }\n];\n\nconst container = document.getElementById(\"container\");\n\nstudents.forEach(function(s) {\n  const div = document.createElement(\"div\");\n  const name = document.createElement(\"strong\");\n  name.textContent = s.name;\n  const score = document.createElement(\"span\");\n  score.textContent = \" - Score: \" + s.score;\n  div.appendChild(name);\n  div.appendChild(score);\n  container.appendChild(div);\n});\n&lt;/script&gt;</code></pre>",
+        "hint": "Each student gets a div with a bold name and a score span.",
+        "answer": "Three divs appear: \"<strong>Aarav</strong> - Score: 95\", \"<strong>Priya</strong> - Score: 88\", \"<strong>Rohan</strong> - Score: 72\".",
+        "explanation": "For each student, we create a div containing a strong element (name) and a span element (score). Each div is appended to the container."
+      },
+      {
+        "id": "mx-4",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between <code>appendChild</code> and <code>prepend</code>?",
+        "hint": "Think about where the new element is placed.",
+        "answer": "<code>appendChild</code> adds an element as the <strong>last child</strong> of the parent. <code>prepend</code> adds it as the <strong>first child</strong>. Both add the element inside the parent, but at different positions.",
+        "explanation": "If a parent has children [A, B, C]: <code>appendChild(D)</code> makes it [A, B, C, D]. <code>prepend(D)</code> makes it [D, A, B, C]."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is <code>innerHTML +=</code> problematic when existing elements have event listeners?",
+        "hint": "Think about what happens to the existing elements.",
+        "answer": "<code>innerHTML +=</code> reads the current HTML as a string, appends the new content, and then completely re-parses and rebuilds all the inner HTML. This destroys the original DOM nodes along with their event listeners. The elements look the same but they are actually new elements without any listeners. Use <code>appendChild</code> or <code>prepend</code> to preserve existing elements and their listeners.",
+        "explanation": "Example: a button with a click listener inside the container. After <code>container.innerHTML += '&lt;p&gt;New&lt;/p&gt;'</code>, the button appears but clicking it does nothing because it is a brand new button element without the listener."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is a DocumentFragment and when should you use it?",
+        "hint": "Think about performance when adding many elements.",
+        "answer": "A DocumentFragment is an invisible, lightweight container that exists only in memory. You can add many elements to a fragment without triggering DOM re-renders. When you finally append the fragment to the page, all its children are transferred in a single operation. Use it when creating many elements in a loop (like 100+ list items) to improve performance.",
+        "explanation": "Without a fragment, each appendChild triggers a browser re-render. With a fragment, you batch all additions into one re-render. The fragment itself is not added to the DOM -- only its children are."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the result?<br><pre><code>&lt;div id=\"a\"&gt;&lt;/div&gt;\n&lt;div id=\"b\"&gt;&lt;/div&gt;\n\n&lt;script&gt;\nconst p = document.createElement(\"p\");\np.textContent = \"Shared\";\n\ndocument.getElementById(\"a\").appendChild(p);\nconsole.log(document.getElementById(\"a\").children.length);\nconsole.log(document.getElementById(\"b\").children.length);\n\ndocument.getElementById(\"b\").appendChild(p);\nconsole.log(document.getElementById(\"a\").children.length);\nconsole.log(document.getElementById(\"b\").children.length);\n&lt;/script&gt;</code></pre>",
+        "hint": "An element can only exist in one parent. Appending it elsewhere moves it.",
+        "answer": "<code>1</code><br><code>0</code><br><code>0</code><br><code>1</code>",
+        "explanation": "After first appendChild: p is in div#a (1 child in a, 0 in b). After second appendChild: p is moved to div#b (0 in a, 1 in b). An element can only have one parent."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does the page show?<br><pre><code>&lt;ul id=\"list\"&gt;\n  &lt;li&gt;Keep&lt;/li&gt;\n  &lt;li class=\"remove\"&gt;Remove 1&lt;/li&gt;\n  &lt;li&gt;Keep&lt;/li&gt;\n  &lt;li class=\"remove\"&gt;Remove 2&lt;/li&gt;\n  &lt;li&gt;Keep&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;script&gt;\nconst toRemove = document.querySelectorAll(\".remove\");\ntoRemove.forEach(function(el) {\n  el.remove();\n});\nconsole.log(document.getElementById(\"list\").children.length);\n&lt;/script&gt;</code></pre>",
+        "hint": "querySelectorAll captures all .remove elements, then forEach removes each one.",
+        "answer": "The list shows three \"Keep\" items. Console logs: <code>3</code>.",
+        "explanation": "querySelectorAll finds both .remove elements. forEach removes each one. The 3 \"Keep\" items remain (3 children)."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"box\"&gt;&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\n\nconst p1 = document.createElement(\"p\");\np1.textContent = \"First\";\n\nconst p2 = document.createElement(\"p\");\np2.textContent = \"Second\";\n\nbox.append(p1, \" and \", p2);\nconsole.log(box.innerHTML);\n&lt;/script&gt;</code></pre>",
+        "hint": "append() can take multiple arguments, including strings.",
+        "answer": "<code>&lt;p&gt;First&lt;/p&gt; and &lt;p&gt;Second&lt;/p&gt;</code>",
+        "explanation": "<code>append()</code> can accept multiple arguments including elements and strings. It adds them all in order. The result is two p elements with the text \" and \" between them."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"box\"&gt;&lt;p&gt;Hello&lt;/p&gt;&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nconst p = box.firstElementChild;\n\np.remove();\nconsole.log(box.children.length);\nconsole.log(p.textContent);\nconsole.log(p.parentNode);\n&lt;/script&gt;</code></pre>",
+        "hint": "After remove(), the element still exists in memory but has no parent.",
+        "answer": "<code>0</code><br><code>Hello</code><br><code>null</code>",
+        "explanation": "After <code>remove()</code>, the element is detached from the DOM (box has 0 children). But the JavaScript variable <code>p</code> still references the element in memory. Its textContent is still \"Hello\" but its parentNode is null."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the HTML inside the ul after this code?<br><pre><code>&lt;ul id=\"list\"&gt;&lt;/ul&gt;\n\n&lt;script&gt;\nconst list = document.getElementById(\"list\");\nconst li1 = document.createElement(\"li\");\nli1.textContent = \"First\";\nconst li2 = document.createElement(\"li\");\nli2.textContent = \"Second\";\nlist.appendChild(li1);\nlist.prepend(li2);\n&lt;/script&gt;</code></pre>",
+        "hint": "appendChild adds at the end, prepend adds at the beginning.",
+        "answer": "The ul contains: Second (first), then First (second).",
+        "explanation": "li1 (\"First\") is appended at the end. li2 (\"Second\") is prepended at the beginning. Final order: Second, First."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens?<br><pre><code>&lt;div id=\"container\"&gt;\n  &lt;p id=\"a\"&gt;A&lt;/p&gt;\n  &lt;p id=\"b\"&gt;B&lt;/p&gt;\n  &lt;p id=\"c\"&gt;C&lt;/p&gt;\n&lt;/div&gt;\n\n&lt;script&gt;\nconst container = document.getElementById(\"container\");\nconst c = document.getElementById(\"c\");\ncontainer.insertBefore(c, container.firstElementChild);\nconsole.log(container.children[0].textContent);\nconsole.log(container.children[1].textContent);\nconsole.log(container.children[2].textContent);\n&lt;/script&gt;</code></pre>",
+        "hint": "insertBefore moves existing elements, not copies them.",
+        "answer": "<code>C</code><br><code>A</code><br><code>B</code>",
+        "explanation": "insertBefore moves C before the first child (A). C is removed from its original position and placed first. New order: C, A, B."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;template id=\"tmpl\"&gt;\n  &lt;div class=\"card\"&gt;\n    &lt;h3 class=\"title\"&gt;&lt;/h3&gt;\n    &lt;p class=\"body\"&gt;&lt;/p&gt;\n  &lt;/div&gt;\n&lt;/template&gt;\n\n&lt;script&gt;\nconst tmpl = document.getElementById(\"tmpl\");\nconsole.log(tmpl.innerHTML.includes(\"card\"));\nconsole.log(tmpl.content instanceof DocumentFragment);\nconsole.log(document.querySelectorAll(\".card\").length);\n&lt;/script&gt;</code></pre>",
+        "hint": "Template content is not rendered in the DOM. It exists only in the template's content property.",
+        "answer": "<code>true</code><br><code>true</code><br><code>0</code>",
+        "explanation": "The template's innerHTML contains the 'card' string (true). template.content is a DocumentFragment (true). But querySelectorAll('.card') finds 0 elements because template content is not part of the active DOM."
+      },
+      {
+        "id": "mx-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"box\"&gt;&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nbox.innerHTML = \"&lt;p&gt;Hello&lt;/p&gt;\";\nconst p1 = box.firstElementChild;\n\nbox.innerHTML = \"&lt;p&gt;Hello&lt;/p&gt;\";\nconst p2 = box.firstElementChild;\n\nconsole.log(p1.textContent);\nconsole.log(p2.textContent);\nconsole.log(p1 === p2);\n&lt;/script&gt;</code></pre>",
+        "hint": "Setting innerHTML destroys old elements and creates new ones.",
+        "answer": "<code>Hello</code><br><code>Hello</code><br><code>false</code>",
+        "explanation": "Setting innerHTML destroys the old p and creates a new one. p1 references the old (detached) element. p2 references the new element. They have the same text but are different objects (p1 === p2 is false)."
+      },
+      {
+        "id": "mx-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "When should you use <code>innerHTML</code> and when should you use <code>createElement</code>?",
+        "hint": "Think about security, performance, and event listeners.",
+        "answer": "Use <code>innerHTML</code> when: (1) you need to set a large chunk of trusted, static HTML quickly, and (2) the content does not come from user input. Use <code>createElement</code> when: (1) the content includes user input (for XSS safety), (2) existing elements have event listeners you want to preserve, and (3) you need references to the created elements for further manipulation.",
+        "explanation": "innerHTML is faster for bulk HTML insertion but destroys existing elements and their listeners, and is unsafe with user input. createElement is safer, preserves existing DOM, and gives you direct references to new elements."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which method creates a new HTML element?",
+        "options": {
+          "A": "document.newElement()",
+          "B": "document.createElement()",
+          "C": "document.addElement()",
+          "D": "document.buildElement()"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>document.createElement('tag')</code> creates a new element. The other methods do not exist in the DOM API."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Where does <code>appendChild</code> place the new element?",
+        "options": {
+          "A": "Before all children",
+          "B": "After all children (as the last child)",
+          "C": "In the middle",
+          "D": "Outside the parent"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>appendChild</code> adds the new element as the last child of the parent. To add as the first child, use <code>prepend</code>."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "How do you remove an element from the DOM?",
+        "options": {
+          "A": "element.delete()",
+          "B": "element.destroy()",
+          "C": "element.remove()",
+          "D": "element.hide()"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>element.remove()</code> removes the element from the DOM. <code>delete</code> and <code>destroy</code> are not DOM methods. <code>hide</code> does not exist (you would use CSS for hiding)."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What happens if you call <code>createElement</code> but never <code>appendChild</code>?",
+        "options": {
+          "A": "The element appears at the bottom of the page",
+          "B": "An error is thrown",
+          "C": "The element exists in memory but does not appear on the page",
+          "D": "The element is automatically appended to body"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>createElement</code> creates an element in JavaScript's memory. It has no parent and is invisible. You must explicitly append it to a visible element for it to appear."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "What does <code>element.replaceWith(newElement)</code> do?",
+        "options": {
+          "A": "Adds newElement after element",
+          "B": "Removes element and puts newElement in its place",
+          "C": "Copies element into newElement",
+          "D": "Merges element and newElement"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>replaceWith</code> removes the original element from the DOM and inserts the new element exactly where the old one was."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the danger of using <code>innerHTML</code> with user input?",
+        "options": {
+          "A": "It is too slow",
+          "B": "It does not work in all browsers",
+          "C": "It can cause XSS (Cross-Site Scripting) attacks",
+          "D": "It removes all existing styles"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>innerHTML</code> parses strings as HTML. If user input contains malicious scripts (like <code>&lt;script&gt;</code> tags or event handlers), they get executed. Always use <code>textContent</code> for user input."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What happens when you append the same element to a different parent?",
+        "options": {
+          "A": "It is copied to the new parent",
+          "B": "It is moved from the old parent to the new parent",
+          "C": "An error is thrown",
+          "D": "It appears in both parents"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A DOM element can only have one parent. Appending it to a new parent moves it from the old one. To have it in both places, use <code>cloneNode(true)</code>."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does <code>cloneNode(true)</code> do compared to <code>cloneNode(false)</code>?",
+        "options": {
+          "A": "true makes a deep copy (including children), false makes a shallow copy (element only)",
+          "B": "true makes it visible, false keeps it hidden",
+          "C": "true clones styles, false does not",
+          "D": "There is no difference"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>cloneNode(true)</code> creates a deep clone: the element AND all its children and their text. <code>cloneNode(false)</code> clones only the element itself, with no children."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Hard",
+        "question": "Why does <code>innerHTML +=</code> destroy event listeners on existing elements?",
+        "options": {
+          "A": "It is a browser bug",
+          "B": "It reads innerHTML as a string, appends text, then re-parses everything -- creating new elements without listeners",
+          "C": "It calls removeEventListener automatically",
+          "D": "Event listeners expire after innerHTML changes"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>innerHTML +=</code> serializes current content to a string, concatenates the new string, then re-parses the entire result. The old DOM nodes (with their listeners) are destroyed and replaced with new ones that look the same but have no listeners."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "What is a DocumentFragment?",
+        "options": {
+          "A": "A broken part of the DOM",
+          "B": "A special error object",
+          "C": "A lightweight, invisible container for batching DOM operations",
+          "D": "A cached copy of the page"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A DocumentFragment is a minimal document object that is not part of the active DOM tree. You can add elements to it without triggering re-renders, then append the fragment to add all elements at once."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Easy",
+        "question": "Which method adds an element as the first child of a parent?",
+        "options": {
+          "A": "appendChild",
+          "B": "prepend",
+          "C": "insertBefore",
+          "D": "addFirst"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>prepend</code> adds an element at the beginning (first child). <code>appendChild</code> adds at the end. <code>insertBefore</code> can also achieve this but requires a reference to the current first child."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "What does the <code>append</code> method accept that <code>appendChild</code> does not?",
+        "options": {
+          "A": "Multiple arguments and plain strings",
+          "B": "Only elements",
+          "C": "Only strings",
+          "D": "There is no difference"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>append()</code> can take multiple arguments and accepts both elements and strings. <code>appendChild()</code> accepts only a single node and returns the appended node."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "After calling <code>element.remove()</code>, what happens to JavaScript variables referencing that element?",
+        "options": {
+          "A": "They become null",
+          "B": "They become undefined",
+          "C": "They still reference the element in memory, but it has no parent",
+          "D": "They throw an error when accessed"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>remove()</code> detaches the element from the DOM, but the JavaScript variable still references the element object in memory. Its <code>parentNode</code> becomes null, but you can still read its properties or even re-append it."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What does <code>insertBefore(newNode, null)</code> do?",
+        "options": {
+          "A": "Throws an error",
+          "B": "Inserts at the beginning",
+          "C": "Inserts at the end (same as appendChild)",
+          "D": "Does nothing"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> When the reference node is <code>null</code>, <code>insertBefore</code> appends the new node at the end of the parent's children, behaving exactly like <code>appendChild</code>."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "What does <code>element.textContent = ''</code> do?",
+        "options": {
+          "A": "Removes the element from the DOM",
+          "B": "Removes all text and child elements inside the element",
+          "C": "Sets the text to the word 'empty'",
+          "D": "Has no effect"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Setting textContent to an empty string removes all child nodes (text and elements) from inside the element. The element itself remains in the DOM, just empty."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>append()</code> and <code>appendChild()</code>?",
+        "options": {
+          "A": "append can take strings and multiple arguments; appendChild takes only one node",
+          "B": "appendChild is newer",
+          "C": "They are identical",
+          "D": "append only works with text"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>append()</code> can accept multiple arguments including strings and nodes. <code>appendChild()</code> takes only a single DOM node and returns the appended node."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "What does <code>parentNode</code> return for an element that has been removed with <code>remove()</code>?",
+        "options": {
+          "A": "The document",
+          "B": "The body",
+          "C": "null",
+          "D": "undefined"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> After calling <code>remove()</code>, the element is detached from the DOM. Its <code>parentNode</code> becomes null because it no longer has a parent."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Why is <code>DocumentFragment</code> better than appending elements one by one in a loop?",
+        "options": {
+          "A": "Fragments are visible while being built",
+          "B": "Each individual appendChild triggers a browser re-render; the fragment batches them into one",
+          "C": "Fragments use less memory",
+          "D": "Fragments support event listeners"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Each <code>appendChild</code> call on a visible element can trigger the browser to re-render. A DocumentFragment is an invisible container; building elements there does not trigger renders. Appending the fragment causes just one re-render."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Easy",
+        "question": "What method creates a text node (not an element)?",
+        "options": {
+          "A": "document.createText()",
+          "B": "document.createTextNode()",
+          "C": "document.createElement('text')",
+          "D": "document.newText()"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>document.createTextNode('some text')</code> creates a text node. This is rarely needed because <code>textContent</code> is simpler, but it is useful for precise text insertion."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Dynamic Shopping List",
+        "difficulty": "Easy",
+        "description": "Create a page with an input field and an 'Add Item' button. When the button is clicked, add the input text as a new list item. Each list item should have a 'Remove' button that deletes it. Show the total count of items above the list.",
+        "sampleInput": "Type 'Milk' and click Add Item",
+        "sampleOutput": "List item 'Milk' appears with a remove button. Count shows '1 item'.",
+        "constraints": "Use createElement, appendChild, remove. Use textContent for the item text.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <h2>Shopping List</h2>\n  <input type=\"text\" id=\"item\" placeholder=\"Add item...\"><button id=\"add\">Add Item</button>\n  <p id=\"count\">0 items</p>\n  <ul id=\"list\"></ul>\n  <script>\n    const list = document.getElementById(\"list\");\n    const count = document.getElementById(\"count\");\n    function updateCount() { count.textContent = list.children.length + \" item\" + (list.children.length !== 1 ? \"s\" : \"\"); }\n    document.getElementById(\"add\").addEventListener(\"click\", function() {\n      const text = document.getElementById(\"item\").value.trim();\n      if (text) {\n        const li = document.createElement(\"li\");\n        li.textContent = text + \" \";\n        const btn = document.createElement(\"button\");\n        btn.textContent = \"Remove\";\n        btn.addEventListener(\"click\", function() { li.remove(); updateCount(); });\n        li.appendChild(btn);\n        list.appendChild(li);\n        document.getElementById(\"item\").value = \"\";\n        updateCount();\n      }\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Student Cards from Array",
+        "difficulty": "Easy",
+        "description": "Given an array of student objects [{name, age, city}], create a card for each student and add them to the page. Each card should show the name (bold), age, and city. Use a DocumentFragment for performance.",
+        "sampleInput": "const students = [{name:'Aarav',age:15,city:'Delhi'},{name:'Priya',age:14,city:'Mumbai'},{name:'Rohan',age:16,city:'Pune'}]",
+        "sampleOutput": "Three styled cards appear on the page with student info.",
+        "constraints": "Use createElement, DocumentFragment, textContent. Do not use innerHTML.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>.card{padding:16px;margin:8px 0;border:1px solid #ddd;border-radius:8px;} .card .name{font-weight:bold;font-size:18px;}</style></head>\n<body>\n  <h2>Students</h2>\n  <div id=\"container\"></div>\n  <script>\n    const students = [{name:'Aarav',age:15,city:'Delhi'},{name:'Priya',age:14,city:'Mumbai'},{name:'Rohan',age:16,city:'Pune'}];\n    const fragment = document.createDocumentFragment();\n    students.forEach(function(s) {\n      const card = document.createElement(\"div\");\n      card.className = \"card\";\n      const name = document.createElement(\"div\");\n      name.className = \"name\";\n      name.textContent = s.name;\n      const info = document.createElement(\"div\");\n      info.textContent = \"Age: \" + s.age + \" | City: \" + s.city;\n      card.appendChild(name);\n      card.appendChild(info);\n      fragment.appendChild(card);\n    });\n    document.getElementById(\"container\").appendChild(fragment);\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Notification Stack",
+        "difficulty": "Medium",
+        "description": "Build a notification system. Add buttons for 'Info', 'Success', 'Warning', and 'Error' notifications. Each notification appears at the top of a stack, shows a message and type, has a close button, and auto-removes after 5 seconds. Use different background colors for each type.",
+        "sampleInput": "Click 'Success' button",
+        "sampleOutput": "A green notification appears saying 'Success: Operation completed!' with an 'x' button. It disappears after 5 seconds.",
+        "constraints": "Use createElement, prepend, remove, setTimeout. Use classList for type-based styling.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>.notif{padding:12px;margin:6px 0;border-radius:6px;display:flex;justify-content:space-between;} .info{background:#dbeafe;} .success{background:#d1fae5;} .warning{background:#fef3c7;} .error{background:#fecaca;} .close{background:none;border:none;cursor:pointer;font-size:16px;}</style></head>\n<body>\n  <button id=\"info\">Info</button><button id=\"success\">Success</button><button id=\"warning\">Warning</button><button id=\"error\">Error</button>\n  <div id=\"stack\"></div>\n  <script>\n    function notify(type, msg) {\n      const div = document.createElement(\"div\");\n      div.className = \"notif \" + type;\n      const text = document.createElement(\"span\");\n      text.textContent = type.charAt(0).toUpperCase() + type.slice(1) + \": \" + msg;\n      const btn = document.createElement(\"button\");\n      btn.className = \"close\";\n      btn.textContent = \"x\";\n      btn.addEventListener(\"click\", function() { div.remove(); });\n      div.appendChild(text);\n      div.appendChild(btn);\n      document.getElementById(\"stack\").prepend(div);\n      setTimeout(function() { if (div.parentNode) div.remove(); }, 5000);\n    }\n    document.getElementById(\"info\").addEventListener(\"click\", function() { notify(\"info\", \"Here is some information.\"); });\n    document.getElementById(\"success\").addEventListener(\"click\", function() { notify(\"success\", \"Operation completed!\"); });\n    document.getElementById(\"warning\").addEventListener(\"click\", function() { notify(\"warning\", \"Check your input.\"); });\n    document.getElementById(\"error\").addEventListener(\"click\", function() { notify(\"error\", \"Something went wrong.\"); });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Sortable List with Move Up/Down",
+        "difficulty": "Medium",
+        "description": "Create a list of 5 items. Each item has 'Move Up' and 'Move Down' buttons. Clicking 'Move Up' moves the item one position up in the list. Clicking 'Move Down' moves it one position down. The first item should not move up, and the last should not move down.",
+        "sampleInput": "Click 'Move Up' on the third item",
+        "sampleOutput": "The third item moves to the second position.",
+        "constraints": "Use insertBefore for moving. Check if the element is first or last before moving.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>li{padding:10px;margin:4px 0;background:#f3f4f6;border-radius:4px;display:flex;justify-content:space-between;align-items:center;} button{padding:4px 8px;margin:0 2px;cursor:pointer;}</style></head>\n<body>\n  <h2>Reorder List</h2>\n  <ul id=\"list\">\n    <li>Item 1 <span><button class=\"up\">Up</button><button class=\"down\">Down</button></span></li>\n    <li>Item 2 <span><button class=\"up\">Up</button><button class=\"down\">Down</button></span></li>\n    <li>Item 3 <span><button class=\"up\">Up</button><button class=\"down\">Down</button></span></li>\n    <li>Item 4 <span><button class=\"up\">Up</button><button class=\"down\">Down</button></span></li>\n    <li>Item 5 <span><button class=\"up\">Up</button><button class=\"down\">Down</button></span></li>\n  </ul>\n  <script>\n    const list = document.getElementById(\"list\");\n    list.addEventListener(\"click\", function(e) {\n      const li = e.target.closest(\"li\");\n      if (!li) return;\n      if (e.target.classList.contains(\"up\") && li.previousElementSibling) {\n        list.insertBefore(li, li.previousElementSibling);\n      }\n      if (e.target.classList.contains(\"down\") && li.nextElementSibling) {\n        list.insertBefore(li.nextElementSibling, li);\n      }\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Dynamic Table Builder",
+        "difficulty": "Hard",
+        "description": "Build a table generator. The user enters the number of rows and columns. When they click 'Generate', create a table with those dimensions. Each cell should show its row and column number (e.g., 'R1C2'). Add a 'Delete Row' button at the end of each row and a 'Delete Column' button at the top of each column.",
+        "sampleInput": "Rows: 3, Columns: 4",
+        "sampleOutput": "A 3x4 table with cells labeled R1C1, R1C2, etc. Delete buttons on rows and columns.",
+        "constraints": "Use createElement for table, tr, td, th elements. Use event delegation for delete buttons.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>table{border-collapse:collapse;margin:16px 0;} td,th{border:1px solid #ddd;padding:8px;text-align:center;} button{padding:4px 8px;cursor:pointer;}</style></head>\n<body>\n  <h2>Table Builder</h2>\n  <input type=\"number\" id=\"rows\" value=\"3\" min=\"1\" max=\"10\" style=\"width:60px;\"> rows\n  <input type=\"number\" id=\"cols\" value=\"4\" min=\"1\" max=\"10\" style=\"width:60px;\"> cols\n  <button id=\"gen\">Generate</button>\n  <div id=\"output\"></div>\n  <script>\n    document.getElementById(\"gen\").addEventListener(\"click\", function() {\n      const rows = parseInt(document.getElementById(\"rows\").value);\n      const cols = parseInt(document.getElementById(\"cols\").value);\n      const output = document.getElementById(\"output\");\n      output.innerHTML = \"\";\n      const table = document.createElement(\"table\");\n      for (let r = 1; r <= rows; r++) {\n        const tr = document.createElement(\"tr\");\n        for (let c = 1; c <= cols; c++) {\n          const td = document.createElement(\"td\");\n          td.textContent = \"R\" + r + \"C\" + c;\n          tr.appendChild(td);\n        }\n        const delTd = document.createElement(\"td\");\n        const delBtn = document.createElement(\"button\");\n        delBtn.textContent = \"Delete Row\";\n        delBtn.addEventListener(\"click\", function() { tr.remove(); });\n        delTd.appendChild(delBtn);\n        tr.appendChild(delTd);\n        table.appendChild(tr);\n      }\n      output.appendChild(table);\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Bookmark Manager",
+        "difficulty": "Hard",
+        "description": "Build a bookmark manager. Users can add bookmarks with a title and URL. Each bookmark is displayed as a card with the title (as a clickable link), URL text, and a 'Delete' button. Add a search input that filters bookmarks by title in real time. Use textContent for the title (for XSS safety) and setAttribute for the href.",
+        "sampleInput": "Title: 'Google', URL: 'https://google.com'",
+        "sampleOutput": "A bookmark card appears with 'Google' as a clickable link and a delete button.",
+        "constraints": "Use createElement for everything. Use textContent for user input. Use setAttribute for href. Use a DocumentFragment when initially rendering.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>.card{padding:12px;margin:8px 0;border:1px solid #ddd;border-radius:8px;display:flex;justify-content:space-between;align-items:center;} .card a{font-weight:bold;color:#a855f7;} .card .url{font-size:12px;color:#9ca3af;} button{padding:4px 12px;cursor:pointer;} input{padding:8px;margin:4px;border:1px solid #ddd;border-radius:4px;}</style></head>\n<body>\n  <h2>Bookmarks</h2>\n  <input type=\"text\" id=\"title\" placeholder=\"Title\">\n  <input type=\"url\" id=\"url\" placeholder=\"URL\">\n  <button id=\"add\">Add</button>\n  <input type=\"text\" id=\"search\" placeholder=\"Search bookmarks...\" style=\"display:block;margin-top:12px;width:300px;\">\n  <div id=\"bookmarks\"></div>\n  <script>\n    const container = document.getElementById(\"bookmarks\");\n    document.getElementById(\"add\").addEventListener(\"click\", function() {\n      const title = document.getElementById(\"title\").value.trim();\n      const url = document.getElementById(\"url\").value.trim();\n      if (title && url) {\n        const card = document.createElement(\"div\");\n        card.className = \"card\";\n        card.setAttribute(\"data-title\", title.toLowerCase());\n        const info = document.createElement(\"div\");\n        const link = document.createElement(\"a\");\n        link.textContent = title;\n        link.setAttribute(\"href\", url);\n        link.setAttribute(\"target\", \"_blank\");\n        const urlText = document.createElement(\"div\");\n        urlText.className = \"url\";\n        urlText.textContent = url;\n        info.appendChild(link);\n        info.appendChild(urlText);\n        const del = document.createElement(\"button\");\n        del.textContent = \"Delete\";\n        del.addEventListener(\"click\", function() { card.remove(); });\n        card.appendChild(info);\n        card.appendChild(del);\n        container.appendChild(card);\n        document.getElementById(\"title\").value = \"\";\n        document.getElementById(\"url\").value = \"\";\n      }\n    });\n    document.getElementById(\"search\").addEventListener(\"input\", function() {\n      const q = this.value.toLowerCase();\n      document.querySelectorAll(\".card\").forEach(function(card) {\n        card.style.display = card.getAttribute(\"data-title\").includes(q) ? \"flex\" : \"none\";\n      });\n    });\n  </script>\n</body>\n</html>"
+      }
+    ]
+  }
+}

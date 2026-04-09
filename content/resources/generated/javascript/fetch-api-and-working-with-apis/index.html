@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API - Getting Data from the Internet - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Fetch data from APIs, display it on your page, handle loading states, and build a weather app or movie search.">
+    <meta name="keywords" content="fetch api - getting data from the internet, javascript tutorial, javascript fetch api - getting data from the internet, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/fetch-api-and-working-with-apis">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/fetch-api-and-working-with-apis">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/fetch-api-and-working-with-apis">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/fetch-api-and-working-with-apis">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/fetch-api-and-working-with-apis">
+    <meta property="og:title" content="Fetch API - Getting Data from the Internet - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Fetch data from APIs, display it on your page, handle loading states, and build a weather app or movie search.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/fetch-api-and-working-with-apis">
+    <meta name="twitter:title" content="Fetch API - Getting Data from the Internet - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Fetch data from APIs, display it on your page, handle loading states, and build a weather app or movie search.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Fetch API - Getting Data from the Internet",
+    "description": "Fetch data from APIs, display it on your page, handle loading states, and build a weather app or movie search.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/fetch-api-and-working-with-apis"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/fetch-api-and-working-with-apis"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Fetch API - Getting Data from the Internet",
+        "item": "https://learn.modernagecoders.com/resources/javascript/fetch-api-and-working-with-apis"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting that fetch Does Not Reject on HTTP Errors",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>fetch()</code> only rejects on network failures. For HTTP errors (404, 500), it resolves with a Response that has <code>ok: false</code>. Always check <code>response.ok</code> before parsing the body."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting to Parse the JSON Response",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>fetch()</code> returns a Response object. To get the actual JSON data, you must call <code>response.json()</code>, which itself returns a Promise. You need two awaits: one for fetch, one for .json()."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Using JSON.stringify for POST Body",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>body</code> must be a string. JavaScript objects are NOT automatically converted to JSON. You must use <code>JSON.stringify()</code> to convert the object to a JSON string that the server can parse."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Showing Loading State",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always show a loading indicator before starting a fetch request. Users need visual feedback that something is happening. Also show clear error messages when something goes wrong."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Fetch API - Getting Data from the Internet</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 20</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">50 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Fetch API - Getting Data from the Internet</h1>
+            <a href="/resources/javascript/fetch-api-and-working-with-apis/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is the Fetch API?</h2><p>The <strong>Fetch API</strong> is JavaScript's built-in way to make HTTP requests -- to get data from servers, send data to servers, and communicate with web APIs. When you use a weather app, a movie search, or any site that loads data without refreshing the page, fetch (or something like it) is working behind the scenes.</p><p>Think of an API like a restaurant. You (the browser) are the customer. The waiter (the API) takes your order (request) to the kitchen (server) and brings back your food (response/data). You do not need to know how the kitchen works -- you just need to know what to order.</p><pre><code>// Basic fetch: get data from an API
+fetch("https://jsonplaceholder.typicode.com/users/1")
+  .then(function(response) {
+    return response.json(); // Parse the JSON
+  })
+  .then(function(user) {
+    console.log(user.name);  // "Leanne Graham"
+    console.log(user.email); // "Sincere@april.biz"
+  });</code></pre><p>That is it. Three lines to get data from anywhere on the internet and display it on your page.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn the Fetch API?</h2><h3>1. Every Modern Web App Fetches Data</h3><p>Instagram loads posts from an API. Google Maps loads map tiles from an API. Swiggy loads restaurant menus from an API. If a web app shows data that changes, it is almost certainly using fetch or a similar tool. Learning fetch lets you build the same kind of apps.</p><h3>2. It Connects Your Frontend to the World</h3><p>Without fetch, your web page can only display static content that is hardcoded in the HTML. With fetch, you can pull in weather data, news articles, user profiles, movie databases, and thousands of other data sources. Your skills go from building static pages to building real applications.</p><h3>3. It Ties Together Everything You Have Learned</h3><p>Fetch uses Promises and async/await (Chapter 19), JSON and objects (Chapter 9), DOM manipulation to display data (Chapters 11-13), and error handling (Chapter 18). It is the capstone skill that brings everything together.</p><h3>4. It Is the Foundation for Full-Stack Development</h3><p>Whether you go into React, Angular, Node.js, or any other technology, making HTTP requests is fundamental. The patterns you learn with fetch apply everywhere.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. How APIs Work</h3><p>An API (Application Programming Interface) is a URL that returns data instead of a web page. When you visit a normal website, the server returns HTML. When you call an API, the server returns <strong>JSON</strong> (JavaScript Object Notation) -- structured data that JavaScript can easily work with.</p><pre><code>// Normal website URL: returns HTML
+// https://example.com/about  -> &lt;html&gt;&lt;body&gt;About us...&lt;/body&gt;&lt;/html&gt;
+
+// API URL: returns JSON data
+// https://jsonplaceholder.typicode.com/users/1
+// -> { "id": 1, "name": "Leanne Graham", "email": "Sincere@april.biz" }</code></pre><p>Free APIs you can practice with:</p><ul><li><code>jsonplaceholder.typicode.com</code> -- fake users, posts, comments</li><li><code>api.openweathermap.org</code> -- weather data (needs free API key)</li><li><code>pokeapi.co/api/v2</code> -- Pokemon data</li><li><code>restcountries.com/v3.1</code> -- country information</li></ul><h3>2. fetch() Basics (GET Request)</h3><p>The <code>fetch()</code> function takes a URL and returns a Promise that resolves to a Response object:</p><pre><code>// fetch returns a Promise
+const promise = fetch("https://jsonplaceholder.typicode.com/users/1");
+
+// The Promise resolves to a Response object
+promise.then(function(response) {
+  console.log(response.status);  // 200
+  console.log(response.ok);      // true
+  console.log(response.headers); // Headers object
+
+  // To get the actual data, call .json()
+  return response.json(); // This is also a Promise!
+}).then(function(data) {
+  console.log(data); // The actual JSON data
+});</code></pre><p>Important: <code>fetch()</code> resolves the Promise as soon as the server responds, even if the response is an error (like 404). You need to check <code>response.ok</code> to know if the request was actually successful.</p><h3>3. Using async/await with fetch</h3><p>async/await makes fetch code much cleaner:</p><pre><code>async function getUser(id) {
+  const response = await fetch("https://jsonplaceholder.typicode.com/users/" + id);
+  const user = await response.json();
+  return user;
+}
+
+async function main() {
+  const user = await getUser(1);
+  console.log(user.name);  // "Leanne Graham"
+  console.log(user.email); // "Sincere@april.biz"
+}
+
+main();</code></pre><h3>4. Handling JSON Response</h3><p>Most APIs return JSON. The <code>response.json()</code> method parses it:</p><pre><code>async function getUsers() {
+  const response = await fetch("https://jsonplaceholder.typicode.com/users");
+  const users = await response.json(); // Parse JSON to JavaScript array
+
+  console.log(users.length); // 10
+  users.forEach(function(user) {
+    console.log(user.name + " - " + user.email);
+  });
+}
+
+getUsers();</code></pre><h3>5. Error Handling</h3><p>There are two types of errors with fetch:</p><ul><li><strong>Network errors</strong>: no internet, server down, DNS failure. These cause fetch() to reject.</li><li><strong>HTTP errors</strong>: server responds with 404, 500, etc. Fetch does NOT reject for these -- you must check response.ok.</li></ul><pre><code>async function fetchSafely(url) {
+  try {
+    const response = await fetch(url);
+
+    // Check for HTTP errors (404, 500, etc.)
+    if (!response.ok) {
+      throw new Error("HTTP error: " + response.status);
+    }
+
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    // Catches both network errors and our thrown HTTP errors
+    console.log("Fetch failed:", error.message);
+    return null;
+  }
+}
+
+// Usage
+const user = await fetchSafely("https://jsonplaceholder.typicode.com/users/1");
+const notFound = await fetchSafely("https://jsonplaceholder.typicode.com/users/9999");</code></pre><h3>6. Loading States</h3><p>While data is being fetched, show a loading indicator. Hide it when the data arrives:</p><pre><code>async function loadUsers() {
+  const container = document.getElementById("users");
+  container.innerHTML = "<p>Loading...</p>";
+
+  try {
+    const response = await fetch("https://jsonplaceholder.typicode.com/users");
+    if (!response.ok) throw new Error("Failed to load users");
+    const users = await response.json();
+
+    container.innerHTML = ""; // Clear loading message
+    users.forEach(function(user) {
+      const card = document.createElement("div");
+      card.innerHTML = "<h3>" + user.name + "</h3><p>" + user.email + "</p>";
+      container.appendChild(card);
+    });
+  } catch (error) {
+    container.innerHTML = "<p>Error: " + error.message + "</p>";
+  }
+}</code></pre><h3>7. POST Requests (Sending Data)</h3><p>To send data to a server, use a POST request with a body:</p><pre><code>async function createPost(title, body, userId) {
+  const response = await fetch("https://jsonplaceholder.typicode.com/posts", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      title: title,
+      body: body,
+      userId: userId
+    })
+  });
+
+  const result = await response.json();
+  console.log("Created post:", result);
+  return result;
+}
+
+createPost("My First Post", "Hello from JavaScript!", 1);</code></pre><p>Key parts of a POST request:</p><ul><li><code>method: "POST"</code> -- tells the server we are sending data</li><li><code>headers: { "Content-Type": "application/json" }</code> -- tells the server the data format</li><li><code>body: JSON.stringify(data)</code> -- converts the JavaScript object to a JSON string</li></ul><h3>8. CORS (Cross-Origin Resource Sharing)</h3><p>When your website at <code>mysite.com</code> tries to fetch data from <code>api.other.com</code>, the browser checks if the API server allows it. This is called <strong>CORS</strong>.</p><pre><code>// This might fail with a CORS error:
+fetch("https://some-api-without-cors.com/data")
+  .then(response => response.json())
+  .catch(error => console.log("CORS error:", error));
+
+// Error in console:
+// Access to fetch at 'https://...' from origin 'http://localhost'
+// has been blocked by CORS policy</code></pre><p>CORS is a <strong>security feature</strong>. The API server must include the header <code>Access-Control-Allow-Origin</code> to allow requests from your domain. Public APIs like jsonplaceholder allow all origins. Private APIs may not.</p><p>If you hit a CORS error:</p><ul><li>Check if the API supports CORS (read its documentation)</li><li>Use an API that supports CORS for practice</li><li>In production, your backend server makes the API call (server-to-server has no CORS)</li></ul><h3>9. Displaying API Data on a Page</h3><pre><code>// Fetch users and display as cards
+async function displayUsers() {
+  const response = await fetch("https://jsonplaceholder.typicode.com/users");
+  const users = await response.json();
+  const container = document.getElementById("users");
+
+  users.forEach(function(user) {
+    const card = document.createElement("div");
+    card.className = "user-card";
+    card.innerHTML = `
+      &lt;h3&gt;${user.name}&lt;/h3&gt;
+      &lt;p&gt;Email: ${user.email}&lt;/p&gt;
+      &lt;p&gt;Phone: ${user.phone}&lt;/p&gt;
+      &lt;p&gt;City: ${user.address.city}&lt;/p&gt;
+    `;
+    container.appendChild(card);
+  });
+}</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Complete User Card Display from API</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;User Cards&lt;/title&gt;
+  &lt;style&gt;
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: &#39;Segoe UI&#39;, Arial, sans-serif; background: #1a1a2e; color: #e2e8f0; padding: 20px; }
+    h1 { text-align: center; margin-bottom: 24px; color: #a855f7; }
+    #status { text-align: center; padding: 20px; color: #94a3b8; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; max-width: 900px; margin: 0 auto; }
+    .card { background: #16213e; border-radius: 12px; padding: 20px; border: 1px solid #1e3a5f; }
+    .card h3 { color: #a855f7; margin-bottom: 8px; }
+    .card p { color: #94a3b8; margin-bottom: 4px; font-size: 14px; }
+    .error { color: #ef4444; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Users from API&lt;/h1&gt;
+  &lt;div id=&quot;status&quot;&gt;Loading...&lt;/div&gt;
+  &lt;div class=&quot;cards&quot; id=&quot;cards&quot;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    async function loadUsers() {
+      const status = document.getElementById(&quot;status&quot;);
+      const cards = document.getElementById(&quot;cards&quot;);
+
+      try {
+        const response = await fetch(&quot;https://jsonplaceholder.typicode.com/users&quot;);
+        if (!response.ok) throw new Error(&quot;HTTP &quot; + response.status);
+        const users = await response.json();
+
+        status.style.display = &quot;none&quot;;
+        users.forEach(function(user) {
+          const card = document.createElement(&quot;div&quot;);
+          card.className = &quot;card&quot;;
+          card.innerHTML = &quot;&lt;h3&gt;&quot; + user.name + &quot;&lt;/h3&gt;&quot; +
+            &quot;&lt;p&gt;Email: &quot; + user.email + &quot;&lt;/p&gt;&quot; +
+            &quot;&lt;p&gt;Phone: &quot; + user.phone + &quot;&lt;/p&gt;&quot; +
+            &quot;&lt;p&gt;City: &quot; + user.address.city + &quot;&lt;/p&gt;&quot; +
+            &quot;&lt;p&gt;Company: &quot; + user.company.name + &quot;&lt;/p&gt;&quot;;
+          cards.appendChild(card);
+        });
+      } catch (error) {
+        status.className = &quot;error&quot;;
+        status.textContent = &quot;Failed to load users: &quot; + error.message;
+      }
+    }
+
+    loadUsers();
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This fetches 10 users from jsonplaceholder.typicode.com and displays them as cards. It shows 'Loading...' while fetching, handles errors with a red message, and uses <code>response.ok</code> to catch HTTP errors. The cards use CSS Grid for responsive layout.</div><div class="code-example-output">A grid of 10 user cards, each showing name, email, phone, city, and company.</div></div>
+<div class="code-example"><div class="code-example-title">Fetch with Async/Await and Error Handling</div><pre><code class="language-python">async function fetchJSON(url) {
+  try {
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      throw new Error(&quot;HTTP error &quot; + response.status + &quot;: &quot; + response.statusText);
+    }
+
+    const data = await response.json();
+    return { success: true, data: data };
+  } catch (error) {
+    return { success: false, error: error.message };
+  }
+}
+
+async function demo() {
+  // Successful request
+  const result1 = await fetchJSON(&quot;https://jsonplaceholder.typicode.com/posts/1&quot;);
+  if (result1.success) {
+    console.log(&quot;Title:&quot;, result1.data.title);
+  }
+
+  // 404 error
+  const result2 = await fetchJSON(&quot;https://jsonplaceholder.typicode.com/posts/99999&quot;);
+  console.log(&quot;404 result:&quot;, result2);
+
+  // Network error (bad URL)
+  const result3 = await fetchJSON(&quot;https://this-does-not-exist.example.com&quot;);
+  console.log(&quot;Network error:&quot;, result3);
+}
+
+demo();</code></pre><div class="code-example-explanation">The <code>fetchJSON</code> function wraps fetch with proper error handling. It checks <code>response.ok</code> for HTTP errors and uses try-catch for network errors. The return object always has a <code>success</code> flag so the caller knows what happened without try-catch.</div><div class="code-example-output">Title: sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+404 result: { success: false, error: &#39;HTTP error 404: Not Found&#39; }
+Network error: { success: false, error: &#39;fetch failed&#39; }</div></div>
+<div class="code-example"><div class="code-example-title">POST Request - Sending Data to an API</div><pre><code class="language-python">async function createUser(name, email) {
+  const response = await fetch(&quot;https://jsonplaceholder.typicode.com/users&quot;, {
+    method: &quot;POST&quot;,
+    headers: {
+      &quot;Content-Type&quot;: &quot;application/json&quot;
+    },
+    body: JSON.stringify({
+      name: name,
+      email: email,
+      username: name.toLowerCase().replace(/\s/g, &quot;&quot;)
+    })
+  });
+
+  if (!response.ok) {
+    throw new Error(&quot;Failed to create user: &quot; + response.status);
+  }
+
+  const result = await response.json();
+  return result;
+}
+
+async function demo() {
+  try {
+    const user = await createUser(&quot;Aarav Kumar&quot;, &quot;aarav@example.com&quot;);
+    console.log(&quot;Created user:&quot;);
+    console.log(&quot;  ID:&quot;, user.id);
+    console.log(&quot;  Name:&quot;, user.name);
+    console.log(&quot;  Email:&quot;, user.email);
+  } catch (error) {
+    console.log(&quot;Error:&quot;, error.message);
+  }
+}
+
+demo();</code></pre><div class="code-example-explanation">POST requests need three extra parts: <code>method: 'POST'</code>, <code>headers</code> with Content-Type, and <code>body</code> with JSON.stringify. The server receives the data and returns the created resource (including a new ID). jsonplaceholder simulates the creation without actually saving it.</div><div class="code-example-output">Created user:
+  ID: 11
+  Name: Aarav Kumar
+  Email: aarav@example.com</div></div>
+<div class="code-example"><div class="code-example-title">Search with Fetch (Dynamic Query)</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 20px; background: #1a1a2e; color: #e2e8f0; }
+    input { padding: 10px; width: 300px; border-radius: 8px; border: 1px solid #334; background: #16213e; color: #e2e8f0; font-size: 16px; }
+    #results { margin-top: 16px; }
+    .post { background: #16213e; padding: 12px; margin-bottom: 8px; border-radius: 8px; border: 1px solid #1e3a5f; }
+    .post h3 { color: #a855f7; font-size: 16px; margin-bottom: 4px; }
+    .post p { color: #94a3b8; font-size: 14px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Search Posts&lt;/h2&gt;
+  &lt;input type=&quot;text&quot; id=&quot;search&quot; placeholder=&quot;Search by user ID (1-10)&quot;&gt;
+  &lt;div id=&quot;results&quot;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    const searchInput = document.getElementById(&quot;search&quot;);
+    const resultsDiv = document.getElementById(&quot;results&quot;);
+    let debounceTimer;
+
+    searchInput.addEventListener(&quot;input&quot;, function() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(searchPosts, 500);
+    });
+
+    async function searchPosts() {
+      const userId = searchInput.value.trim();
+      if (!userId) {
+        resultsDiv.innerHTML = &quot;&quot;;
+        return;
+      }
+
+      resultsDiv.innerHTML = &quot;&lt;p&gt;Searching...&lt;/p&gt;&quot;;
+
+      try {
+        const response = await fetch(
+          &quot;https://jsonplaceholder.typicode.com/posts?userId=&quot; + userId
+        );
+        if (!response.ok) throw new Error(&quot;HTTP &quot; + response.status);
+        const posts = await response.json();
+
+        if (posts.length === 0) {
+          resultsDiv.innerHTML = &quot;&lt;p&gt;No posts found.&lt;/p&gt;&quot;;
+          return;
+        }
+
+        resultsDiv.innerHTML = &quot;&quot;;
+        posts.forEach(function(post) {
+          const div = document.createElement(&quot;div&quot;);
+          div.className = &quot;post&quot;;
+          div.innerHTML = &quot;&lt;h3&gt;&quot; + post.title + &quot;&lt;/h3&gt;&lt;p&gt;&quot; + post.body + &quot;&lt;/p&gt;&quot;;
+          resultsDiv.appendChild(div);
+        });
+      } catch (error) {
+        resultsDiv.innerHTML = &quot;&lt;p&gt;Error: &quot; + error.message + &quot;&lt;/p&gt;&quot;;
+      }
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This combines fetch with user input. The debounce pattern (clearTimeout/setTimeout) waits 500ms after the user stops typing before making the API call, preventing excessive requests. The API URL includes a query parameter (<code>?userId=</code>) to filter results.</div><div class="code-example-output">A search input that fetches and displays blog posts filtered by user ID, with debounced API calls.</div></div>
+<div class="code-example"><div class="code-example-title">Parallel Fetch with Promise.all</div><pre><code class="language-python">async function fetchMultipleUsers(ids) {
+  console.time(&quot;fetch&quot;);
+
+  // Create an array of fetch Promises
+  const promises = ids.map(function(id) {
+    return fetch(&quot;https://jsonplaceholder.typicode.com/users/&quot; + id)
+      .then(function(response) {
+        if (!response.ok) throw new Error(&quot;User &quot; + id + &quot; not found&quot;);
+        return response.json();
+      });
+  });
+
+  // Wait for ALL requests to complete
+  const users = await Promise.all(promises);
+
+  console.timeEnd(&quot;fetch&quot;);
+  return users;
+}
+
+async function main() {
+  try {
+    const users = await fetchMultipleUsers([1, 2, 3, 4, 5]);
+    users.forEach(function(user) {
+      console.log(user.name + &quot; (&quot; + user.email + &quot;)&quot;);
+    });
+  } catch (error) {
+    console.log(&quot;One or more requests failed:&quot;, error.message);
+  }
+}
+
+main();</code></pre><div class="code-example-explanation">Instead of fetching users one at a time (sequential), we create all fetch Promises at once and use Promise.all to wait for all of them. 5 requests that each take 200ms would take ~1000ms sequentially but only ~200ms in parallel.</div><div class="code-example-output">fetch: ~200ms
+Leanne Graham (Sincere@april.biz)
+Ervin Howell (Shanna@melissa.tv)
+Clementine Bauch (Nathan@yesenia.net)
+Patricia Lebsack (Julianne.OConner@kory.org)
+Chelsey Dietrich (Lucio_Hettinger@annie.ca)</div></div>
+<div class="code-example"><div class="code-example-title">Complete Mini-App: Country Information Finder</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 20px; background: #1a1a2e; color: #e2e8f0; }
+    input { padding: 10px; width: 250px; border-radius: 8px; border: 1px solid #334; background: #16213e; color: #e2e8f0; }
+    button { padding: 10px 20px; background: #a855f7; color: white; border: none; border-radius: 8px; cursor: pointer; margin-left: 8px; }
+    #result { margin-top: 20px; background: #16213e; padding: 20px; border-radius: 12px; display: none; }
+    .flag { font-size: 64px; }
+    .error { color: #ef4444; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Country Finder&lt;/h2&gt;
+  &lt;input type=&quot;text&quot; id=&quot;countryInput&quot; placeholder=&quot;Enter country name&quot;&gt;
+  &lt;button id=&quot;searchBtn&quot;&gt;Search&lt;/button&gt;
+  &lt;div id=&quot;result&quot;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    document.getElementById(&quot;searchBtn&quot;).addEventListener(&quot;click&quot;, searchCountry);
+    document.getElementById(&quot;countryInput&quot;).addEventListener(&quot;keydown&quot;, function(e) {
+      if (e.key === &quot;Enter&quot;) searchCountry();
+    });
+
+    async function searchCountry() {
+      const name = document.getElementById(&quot;countryInput&quot;).value.trim();
+      const resultDiv = document.getElementById(&quot;result&quot;);
+
+      if (!name) return;
+
+      resultDiv.style.display = &quot;block&quot;;
+      resultDiv.innerHTML = &quot;&lt;p&gt;Searching...&lt;/p&gt;&quot;;
+
+      try {
+        const response = await fetch(&quot;https://restcountries.com/v3.1/name/&quot; + name);
+        if (!response.ok) throw new Error(&quot;Country not found&quot;);
+        const countries = await response.json();
+        const country = countries[0];
+
+        resultDiv.innerHTML =
+          &#39;&lt;div class=&quot;flag&quot;&gt;&#39; + country.flag + &#39;&lt;/div&gt;&#39; +
+          &#39;&lt;h2&gt;&#39; + country.name.common + &#39;&lt;/h2&gt;&#39; +
+          &#39;&lt;p&gt;Capital: &#39; + (country.capital ? country.capital[0] : &#39;N/A&#39;) + &#39;&lt;/p&gt;&#39; +
+          &#39;&lt;p&gt;Population: &#39; + country.population.toLocaleString() + &#39;&lt;/p&gt;&#39; +
+          &#39;&lt;p&gt;Region: &#39; + country.region + &#39;&lt;/p&gt;&#39; +
+          &#39;&lt;p&gt;Languages: &#39; + Object.values(country.languages || {}).join(&#39;, &#39;) + &#39;&lt;/p&gt;&#39;;
+      } catch (error) {
+        resultDiv.innerHTML = &#39;&lt;p class=&quot;error&quot;&gt;&#39; + error.message + &#39;&lt;/p&gt;&#39;;
+      }
+    }
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A complete mini-app that searches the REST Countries API. It handles user input (click and Enter key), shows loading state, displays country data (flag, capital, population, region, languages), and handles errors. Uses a real public API with no API key required.</div><div class="code-example-output">An input field where typing &#39;India&#39; and clicking Search shows the Indian flag, capital (New Delhi), population, region (Asia), and languages.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting that fetch Does Not Reject on HTTP Errors</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Expecting catch to handle 404
+try {
+  const response = await fetch(&quot;https://api.example.com/users/9999&quot;);
+  const data = await response.json(); // Might parse error HTML as JSON!
+  console.log(data);
+} catch (error) {
+  console.log(&quot;Error:&quot;, error); // Only runs for NETWORK errors, not 404!
+}</code></pre></div><div class="error-message">404 responses do NOT cause fetch to reject. The catch block only handles network errors (no internet, server down). HTTP error responses are still &#39;successful&#39; fetches.</div><div class="correct-code"><pre><code class="language-python">try {
+  const response = await fetch(&quot;https://api.example.com/users/9999&quot;);
+
+  if (!response.ok) {
+    throw new Error(&quot;HTTP &quot; + response.status + &quot;: &quot; + response.statusText);
+  }
+
+  const data = await response.json();
+  console.log(data);
+} catch (error) {
+  console.log(&quot;Error:&quot;, error.message);
+}</code></pre></div><div class="mistake-explanation"><code>fetch()</code> only rejects on network failures. For HTTP errors (404, 500), it resolves with a Response that has <code>ok: false</code>. Always check <code>response.ok</code> before parsing the body.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting to Parse the JSON Response</h3>
+                <div class="wrong-code"><pre><code class="language-python">const response = await fetch(&quot;https://jsonplaceholder.typicode.com/users/1&quot;);
+console.log(response.name); // undefined!
+// response is a Response object, not the JSON data</code></pre></div><div class="error-message">response is a Response object with properties like status and ok. The actual data must be extracted with .json().</div><div class="correct-code"><pre><code class="language-python">const response = await fetch(&quot;https://jsonplaceholder.typicode.com/users/1&quot;);
+const user = await response.json(); // Parse the body as JSON
+console.log(user.name); // &quot;Leanne Graham&quot;</code></pre></div><div class="mistake-explanation"><code>fetch()</code> returns a Response object. To get the actual JSON data, you must call <code>response.json()</code>, which itself returns a Promise. You need two awaits: one for fetch, one for .json().</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Using JSON.stringify for POST Body</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Sending an object directly -- does not work!
+fetch(&quot;https://api.example.com/users&quot;, {
+  method: &quot;POST&quot;,
+  headers: { &quot;Content-Type&quot;: &quot;application/json&quot; },
+  body: { name: &quot;Aarav&quot;, age: 16 } // JavaScript object, not JSON string!
+});</code></pre></div><div class="error-message">The body is converted to &quot;[object Object]&quot; string. The server receives garbage data.</div><div class="correct-code"><pre><code class="language-python">fetch(&quot;https://api.example.com/users&quot;, {
+  method: &quot;POST&quot;,
+  headers: { &quot;Content-Type&quot;: &quot;application/json&quot; },
+  body: JSON.stringify({ name: &quot;Aarav&quot;, age: 16 }) // Convert to JSON string
+});</code></pre></div><div class="mistake-explanation">The <code>body</code> must be a string. JavaScript objects are NOT automatically converted to JSON. You must use <code>JSON.stringify()</code> to convert the object to a JSON string that the server can parse.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Showing Loading State</h3>
+                <div class="wrong-code"><pre><code class="language-python">// User clicks search, nothing happens for 2 seconds, then data appears
+async function search() {
+  const response = await fetch(url); // User sees nothing while waiting
+  const data = await response.json();
+  displayResults(data);
+}</code></pre></div><div class="error-message">The user has no feedback that something is happening. They might click the button again or think the app is broken.</div><div class="correct-code"><pre><code class="language-python">async function search() {
+  const container = document.getElementById(&quot;results&quot;);
+  container.innerHTML = &quot;&lt;p&gt;Loading...&lt;/p&gt;&quot;; // Show loading state
+
+  try {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(&quot;Request failed&quot;);
+    const data = await response.json();
+    displayResults(data);
+  } catch (error) {
+    container.innerHTML = &quot;&lt;p&gt;Error: &quot; + error.message + &quot;&lt;/p&gt;&quot;;
+  }
+}</code></pre></div><div class="mistake-explanation">Always show a loading indicator before starting a fetch request. Users need visual feedback that something is happening. Also show clear error messages when something goes wrong.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>An API is a URL that returns data (usually JSON) instead of a web page. Think of it like a restaurant: you send an order (request) to the kitchen (server) and the waiter (API) brings back your food (data).</li>
+<li>fetch(url) makes a GET request and returns a Promise that resolves to a Response object. Call response.json() (also a Promise) to parse the JSON body into a JavaScript object.</li>
+<li>async/await makes fetch code clean: const response = await fetch(url); const data = await response.json();</li>
+<li>fetch does NOT reject on HTTP errors (404, 500). It only rejects on network failures. Always check response.ok before parsing the body.</li>
+<li>Loading states are essential UX: show &#39;Loading...&#39; before fetch, show data on success, show error message on failure.</li>
+<li>POST requests need method: &#39;POST&#39;, headers with Content-Type: &#39;application/json&#39;, and body: JSON.stringify(data).</li>
+<li>CORS (Cross-Origin Resource Sharing) is a browser security feature. If an API does not allow requests from your domain, you get a CORS error. Use public APIs that support CORS for practice.</li>
+<li>Use Promise.all with multiple fetch calls for parallel requests. This is much faster than sequential awaits when the requests are independent.</li>
+<li>Free practice APIs: jsonplaceholder.typicode.com (users, posts, comments), restcountries.com (countries), pokeapi.co (Pokemon).</li>
+<li>Always handle both network errors (try-catch) and HTTP errors (response.ok check) when using fetch.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/asynchronous-javascript" class="related-topic-link">Asynchronous JavaScript - Callbacks, Promises, Async/Await</a>
+<a href="/resources/javascript/local-storage-and-session-storage" class="related-topic-link">Local Storage and Session Storage</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/asynchronous-javascript" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Asynchronous JavaScript - Callbacks, Promises, Async/Await</span>
+        </a>
+            <a href="/resources/javascript/local-storage-and-session-storage" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Local Storage and Session Storage</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/fetch-api-and-working-with-apis/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

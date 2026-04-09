@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Asynchronous JavaScript - Callbacks, Promises, Async/Await | JavaScript | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="50+ practice questions on Asynchronous JavaScript - Callbacks, Promises, Async/Await in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="asynchronous javascript - callbacks, promises, async/await practice, javascript questions, javascript practice problems, asynchronous javascript - callbacks, promises, async/await exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript/practice">
+    <meta property="og:title" content="Practice Questions - Asynchronous JavaScript - Callbacks, Promises, Async/Await | JavaScript | Modern Age Coders">
+    <meta property="og:description" content="50+ practice questions on Asynchronous JavaScript - Callbacks, Promises, Async/Await in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript/practice">
+    <meta name="twitter:title" content="Practice Questions - Asynchronous JavaScript - Callbacks, Promises, Async/Await | JavaScript | Modern Age Coders">
+    <meta name="twitter:description" content="50+ practice questions on Asynchronous JavaScript - Callbacks, Promises, Async/Await in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Asynchronous JavaScript - Callbacks, Promises, Async/Await",
+    "description": "50+ practice questions on Asynchronous JavaScript - Callbacks, Promises, Async/Await in JavaScript.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Asynchronous JavaScript - Callbacks, Promises, Async/Await"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Asynchronous JavaScript - Callbacks, Promises, Async/Await",
+        "item": "https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript/asynchronous-javascript">Asynchronous JavaScript - Callbacks, Promises, Async/Await</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 19</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">50 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Asynchronous JavaScript - Callbacks, Promises, Async/Await</h1>
+            <a href="/resources/javascript/asynchronous-javascript" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>console.log("A");
+setTimeout(function() {
+  console.log("B");
+}, 0);
+console.log("C");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Even with 0ms delay, setTimeout callback runs after synchronous code.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>A</code><br><code>C</code><br><code>B</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>console.log("start");
+setTimeout(function() {
+  console.log("timeout");
+}, 1000);
+console.log("end");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">The timeout fires after 1 second. The rest runs immediately.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>start</code><br><code>end</code><br>(after 1 second) <code>timeout</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const p = new Promise(function(resolve) {
+  resolve(42);
+});
+
+p.then(function(value) {
+  console.log(value);
+});</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">The Promise is immediately resolved with 42.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>42</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>async function greet() {
+  return "Hello";
+}
+
+greet().then(function(msg) {
+  console.log(msg);
+});</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">async functions always return a Promise.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Hello</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>console.log("1");
+
+Promise.resolve("2").then(function(val) {
+  console.log(val);
+});
+
+console.log("3");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Promise.then callbacks are microtasks -- they run after sync code but before setTimeout.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>1</code><br><code>3</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>console.log("1");
+
+setTimeout(function() {
+  console.log("2");
+}, 0);
+
+Promise.resolve().then(function() {
+  console.log("3");
+});
+
+console.log("4");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Microtasks (Promises) run before macrotasks (setTimeout).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>1</code><br><code>4</code><br><code>3</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const p = new Promise(function(resolve, reject) {
+  reject("error!");
+});
+
+p.then(function(val) {
+  console.log("then:", val);
+}).catch(function(err) {
+  console.log("catch:", err);
+});</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">The Promise is rejected, so .then is skipped and .catch runs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>catch: error!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>Promise.resolve(1)
+  .then(function(x) {
+    console.log(x);
+    return x + 1;
+  })
+  .then(function(x) {
+    console.log(x);
+    return x + 1;
+  })
+  .then(function(x) {
+    console.log(x);
+  });</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Each .then receives the return value of the previous .then.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>1</code><br><code>2</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>async function test() {
+  console.log("A");
+  await Promise.resolve();
+  console.log("B");
+}
+
+console.log("C");
+test();
+console.log("D");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">await pauses the async function but NOT the caller.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>C</code><br><code>A</code><br><code>D</code><br><code>B</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>async function f1() {
+  console.log("f1 start");
+  await f2();
+  console.log("f1 end");
+}
+
+async function f2() {
+  console.log("f2 start");
+  await Promise.resolve();
+  console.log("f2 end");
+}
+
+console.log("main start");
+f1();
+console.log("main end");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Each await pauses its function. Synchronous code always runs first.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>main start</code><br><code>f1 start</code><br><code>f2 start</code><br><code>main end</code><br><code>f2 end</code><br><code>f1 end</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const p1 = new Promise(resolve => setTimeout(() => resolve("A"), 100));
+const p2 = new Promise(resolve => setTimeout(() => resolve("B"), 50));
+const p3 = new Promise(resolve => setTimeout(() => resolve("C"), 150));
+
+Promise.all([p1, p2, p3]).then(function(results) {
+  console.log(results);
+});
+
+Promise.race([p1, p2, p3]).then(function(result) {
+  console.log(result);
+});</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">all returns results in input order. race returns the fastest.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>B</code><br><code>["A", "B", "C"]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>console.log("1");
+
+setTimeout(() => console.log("2"), 0);
+setTimeout(() => console.log("3"), 0);
+
+Promise.resolve()
+  .then(() => console.log("4"))
+  .then(() => console.log("5"));
+
+Promise.resolve()
+  .then(() => console.log("6"));
+
+console.log("7");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">All microtasks drain before any macrotask runs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>1</code><br><code>7</code><br><code>4</code><br><code>6</code><br><code>5</code><br><code>2</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>async function test() {
+  try {
+    const result = await Promise.reject("fail");
+    console.log("result:", result);
+  } catch (error) {
+    console.log("caught:", error);
+  } finally {
+    console.log("finally");
+  }
+}
+
+test();
+console.log("after test");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">await on a rejected Promise throws in the async function.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>after test</code><br><code>caught: fail</code><br><code>finally</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const p = Promise.resolve("done");
+console.log(typeof p);
+p.then(val => console.log(val));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Promise.resolve returns a Promise object.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>object</code><br><code>done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>async function add(a, b) {
+  return a + b;
+}
+
+add(3, 4).then(result => console.log(result));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">async functions wrap return values in a Promise.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let x = 0;
+
+setTimeout(() => { x = 1; }, 0);
+Promise.resolve().then(() => { x = 2; });
+
+console.log(x);
+
+setTimeout(() => { console.log(x); }, 100);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">First console.log is sync. Second is after everything has run.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>0</code><br><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>function delay(ms, value) {
+  return new Promise(resolve => setTimeout(() => resolve(value), ms));
+}
+
+async function test() {
+  const result = await delay(100, "hello");
+  console.log(result.toUpperCase());
+}
+
+test();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">await pauses until the Promise resolves with the value.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>HELLO</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>Promise.resolve("A")
+  .then(val => {
+    console.log(val);
+    throw new Error("B");
+  })
+  .then(val => {
+    console.log("C");
+  })
+  .catch(err => {
+    console.log(err.message);
+  })
+  .then(() => {
+    console.log("D");
+  });</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">An error in .then skips to .catch. After .catch, the chain continues.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>A</code><br><code>B</code><br><code>D</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>async function test() {
+  const results = await Promise.allSettled([
+    Promise.resolve("ok"),
+    Promise.reject("fail"),
+    Promise.resolve("done")
+  ]);
+
+  results.forEach(r => {
+    console.log(r.status, r.value || r.reason);
+  });
+}
+
+test();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">allSettled never rejects. It reports each Promise's status.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>fulfilled ok</code><br><code>rejected fail</code><br><code>fulfilled done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for (var i = 0; i < 3; i++) {
+  setTimeout(() => console.log("var:", i), 0);
+}
+
+for (let j = 0; j < 3; j++) {
+  setTimeout(() => console.log("let:", j), 0);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">var shares one variable. let creates a new one per iteration.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>var: 3</code><br><code>var: 3</code><br><code>var: 3</code><br><code>let: 0</code><br><code>let: 1</code><br><code>let: 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>Promise.all</code> and <code>Promise.allSettled</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">What happens when one Promise rejects?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>Promise.all</code> rejects immediately if ANY Promise rejects. You get the error and lose the results of successful Promises. <code>Promise.allSettled</code> waits for ALL Promises to finish and reports each one's status (fulfilled or rejected). It never rejects itself.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why does <code>Promise.resolve().then(fn)</code> run before <code>setTimeout(fn, 0)</code> even though both have 0 delay?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about microtasks vs macrotasks.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">The event loop has two queues: the microtask queue (Promise callbacks) and the macrotask queue (setTimeout, setInterval). After each macrotask finishes, ALL microtasks are drained before the next macrotask runs. So Promise.then (microtask) always runs before setTimeout (macrotask), regardless of delay values.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does 'asynchronous' mean in JavaScript?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Code runs in parallel on multiple threads</li><li><span class="mcq-option-label">B.</span> Code can start an operation and continue without waiting for it to finish</li><li><span class="mcq-option-label">C.</span> Code runs backwards</li><li><span class="mcq-option-label">D.</span> Code runs faster</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> Asynchronous means starting an operation (like a network request) and continuing to run other code. When the operation finishes, a callback handles the result. JavaScript is still single-threaded.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does <code>setTimeout(fn, 0)</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Runs fn immediately</li><li><span class="mcq-option-label">B.</span> Never runs fn</li><li><span class="mcq-option-label">C.</span> Schedules fn to run after current synchronous code finishes</li><li><span class="mcq-option-label">D.</span> Runs fn in a separate thread</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> Even with 0ms delay, the callback is placed in the macrotask queue and runs only after the current synchronous code finishes and all microtasks drain.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What are the three states of a Promise?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> start, middle, end</li><li><span class="mcq-option-label">B.</span> pending, fulfilled, rejected</li><li><span class="mcq-option-label">C.</span> open, closed, error</li><li><span class="mcq-option-label">D.</span> loading, success, failure</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> A Promise starts as pending, then transitions to either fulfilled (resolve was called) or rejected (reject was called). Once settled, it cannot change again.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What keyword makes a function return a Promise?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> promise</li><li><span class="mcq-option-label">B.</span> await</li><li><span class="mcq-option-label">C.</span> async</li><li><span class="mcq-option-label">D.</span> return</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> Adding <code>async</code> before a function declaration makes it always return a Promise. The return value is automatically wrapped in Promise.resolve().</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Where can <code>await</code> be used?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Anywhere in JavaScript</li><li><span class="mcq-option-label">B.</span> Only inside async functions (or top-level module code)</li><li><span class="mcq-option-label">C.</span> Only inside .then callbacks</li><li><span class="mcq-option-label">D.</span> Only inside setTimeout</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>await</code> can only appear inside <code>async</code> functions or at the top level of ES modules. Using it elsewhere causes a SyntaxError.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does <code>.catch()</code> do in a Promise chain?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Catches syntax errors</li><li><span class="mcq-option-label">B.</span> Handles rejected Promises from any previous step in the chain</li><li><span class="mcq-option-label">C.</span> Prevents all errors</li><li><span class="mcq-option-label">D.</span> Runs before .then()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>.catch()</code> handles rejections from ANY .then() before it in the chain. It is like a safety net for the entire chain.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does <code>Promise.all([p1, p2, p3])</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Returns the first Promise to resolve</li><li><span class="mcq-option-label">B.</span> Waits for all Promises and returns an array of results (or rejects if any fails)</li><li><span class="mcq-option-label">C.</span> Runs Promises one after another</li><li><span class="mcq-option-label">D.</span> Returns the fastest Promise</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> Promise.all waits for ALL Promises to resolve and returns their results as an array in the same order. If ANY Promise rejects, Promise.all immediately rejects.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is 'callback hell'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> When callbacks run too fast</li><li><span class="mcq-option-label">B.</span> Deeply nested callbacks that are hard to read and maintain</li><li><span class="mcq-option-label">C.</span> When a callback causes an infinite loop</li><li><span class="mcq-option-label">D.</span> When callbacks are not called</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> Callback hell (also called the pyramid of doom) occurs when async operations are nested inside each other, creating deeply indented code. Promises and async/await solve this.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does <code>.finally()</code> do on a Promise?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Runs only on success</li><li><span class="mcq-option-label">B.</span> Runs only on failure</li><li><span class="mcq-option-label">C.</span> Runs regardless of success or failure</li><li><span class="mcq-option-label">D.</span> Ends the Promise chain</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>.finally()</code> runs whether the Promise resolved or rejected. It is used for cleanup like hiding loading spinners. It does not receive the value or error.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which runs first: <code>Promise.resolve().then(fn1)</code> or <code>setTimeout(fn2, 0)</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> setTimeout (fn2) runs first</li><li><span class="mcq-option-label">B.</span> Promise.then (fn1) runs first</li><li><span class="mcq-option-label">C.</span> They run at the same time</li><li><span class="mcq-option-label">D.</span> It depends on the browser</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Promise.then callbacks are microtasks, which have higher priority than macrotasks (setTimeout). All microtasks drain before the next macrotask runs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">When should you use <code>Promise.all</code> vs sequential <code>await</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Always use Promise.all, it is faster</li><li><span class="mcq-option-label">B.</span> Use Promise.all when operations are independent; sequential when each depends on the previous</li><li><span class="mcq-option-label">C.</span> Always use sequential await, it is safer</li><li><span class="mcq-option-label">D.</span> They do the same thing</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> Promise.all runs operations in parallel (faster) but is only appropriate when they are independent. Use sequential await when operation B needs the result of operation A.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What happens if you forget to <code>await</code> an async function call?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The function does not run</li><li><span class="mcq-option-label">B.</span> You get the Promise object instead of the resolved value</li><li><span class="mcq-option-label">C.</span> It throws an error</li><li><span class="mcq-option-label">D.</span> It runs synchronously</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Without await, the async function returns a Promise object. Your variable holds the Promise, not its result. This leads to bugs like 'Promise { <pending> }' appearing in your output.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does <code>Promise.race([p1, p2, p3])</code> return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> An array of all results</li><li><span class="mcq-option-label">B.</span> The result of the fastest Promise (first to settle, resolve or reject)</li><li><span class="mcq-option-label">C.</span> The result of the slowest Promise</li><li><span class="mcq-option-label">D.</span> The result of the first Promise in the array</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> Promise.race returns a Promise that settles with the result of whichever Promise finishes first, whether it resolves or rejects.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What function cancels a setTimeout?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> stopTimeout()</li><li><span class="mcq-option-label">B.</span> cancelTimeout()</li><li><span class="mcq-option-label">C.</span> clearTimeout()</li><li><span class="mcq-option-label">D.</span> removeTimeout()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>clearTimeout(timerId)</code> cancels a pending setTimeout. You need the ID returned by setTimeout: <code>const id = setTimeout(fn, 1000); clearTimeout(id);</code></div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does <code>Promise.reject('error')</code> return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The string &#39;error&#39;</li><li><span class="mcq-option-label">B.</span> A Promise that is immediately rejected with value &#39;error&#39;</li><li><span class="mcq-option-label">C.</span> undefined</li><li><span class="mcq-option-label">D.</span> It throws an error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>Promise.reject(value)</code> creates a Promise that is immediately in the rejected state. You need <code>.catch()</code> or try-catch to handle it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is a callback function?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A function that calls itself</li><li><span class="mcq-option-label">B.</span> A function passed to another function to be called later</li><li><span class="mcq-option-label">C.</span> A function that returns another function</li><li><span class="mcq-option-label">D.</span> A function that runs automatically</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> A callback is a function you pass as an argument to another function. The receiving function 'calls back' your function when an operation completes.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What happens if a Promise is rejected and there is no .catch() handler?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Nothing happens</li><li><span class="mcq-option-label">B.</span> The Promise silently succeeds</li><li><span class="mcq-option-label">C.</span> An &#39;UnhandledPromiseRejection&#39; warning is shown</li><li><span class="mcq-option-label">D.</span> The browser crashes</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> Unhandled promise rejections produce a warning in the console. In Node.js, they can even crash the process. Always add .catch() or use try-catch with await.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What does <code>Promise.any([p1, p2, p3])</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Waits for all Promises</li><li><span class="mcq-option-label">B.</span> Returns the first Promise to settle (resolve or reject)</li><li><span class="mcq-option-label">C.</span> Returns the first Promise to successfully resolve, ignoring rejections</li><li><span class="mcq-option-label">D.</span> Returns an array of results</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>Promise.any</code> returns the first Promise that resolves successfully. It ignores rejections unless ALL Promises reject (then it throws AggregateError).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">In <code>async function f() { return 42; }</code>, what does <code>f()</code> return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 42</li><li><span class="mcq-option-label">B.</span> undefined</li><li><span class="mcq-option-label">C.</span> Promise that resolves to 42</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: C</strong><br><strong>C is correct.</strong> async functions always wrap their return value in a Promise. <code>f()</code> returns <code>Promise.resolve(42)</code>, not the number 42 directly. You need <code>await f()</code> or <code>f().then()</code> to get 42.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">What does <code>clearInterval(timer)</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Pauses the interval</li><li><span class="mcq-option-label">B.</span> Stops the interval permanently</li><li><span class="mcq-option-label">C.</span> Resets the interval to 0</li><li><span class="mcq-option-label">D.</span> Speeds up the interval</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>clearInterval</code> permanently stops a running setInterval. The callback will never be called again. There is no way to pause and resume an interval.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Delay Function with Promise</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function delay(ms) that returns a Promise which resolves after ms milliseconds. Then use it with async/await to print 'A', wait 1 second, print 'B', wait 1 second, print 'C'.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">delay(1000)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A (immediate)
+B (after 1s)
+C (after 2s)</div>
+                </div><div class="challenge-constraints">Use new Promise and setTimeout. Use async/await to sequence.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">function delay(ms) {
+  return new Promise(function(resolve) {
+    setTimeout(resolve, ms);
+  });
+}
+
+async function main() {
+  console.log(&#39;A&#39;);
+  await delay(1000);
+  console.log(&#39;B&#39;);
+  await delay(1000);
+  console.log(&#39;C&#39;);
+}
+
+main();</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Promise-based Timer</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function countdown(n) that returns a Promise. It should log n, n-1, n-2, ... 1 each second, then resolve with 'done' when it reaches 0.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">countdown(3)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">3
+2
+1
+done</div>
+                </div><div class="challenge-constraints">Use setInterval inside a new Promise. clearInterval when done.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">function countdown(n) {
+  return new Promise(function(resolve) {
+    let current = n;
+    console.log(current);
+    const timer = setInterval(function() {
+      current--;
+      if (current &gt; 0) {
+        console.log(current);
+      } else {
+        clearInterval(timer);
+        resolve(&#39;done&#39;);
+      }
+    }, 1000);
+  });
+}
+
+countdown(3).then(result =&gt; console.log(result));</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Sequential vs Parallel Comparison</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write two functions: sequentialLoad(names) and parallelLoad(names) that simulate loading data for each name (500ms each). Compare the time taken using console.time.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">[&quot;Aarav&quot;, &quot;Priya&quot;, &quot;Rohan&quot;]</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">sequential: ~1500ms
+parallel: ~500ms</div>
+                </div><div class="challenge-constraints">Use a fake loadUser function that returns a Promise. Use Promise.all for parallel.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">function loadUser(name) {
+  return new Promise(resolve =&gt; {
+    setTimeout(() =&gt; resolve({ name, loaded: true }), 500);
+  });
+}
+
+async function sequentialLoad(names) {
+  console.time(&#39;sequential&#39;);
+  const results = [];
+  for (const name of names) {
+    results.push(await loadUser(name));
+  }
+  console.timeEnd(&#39;sequential&#39;);
+  return results;
+}
+
+async function parallelLoad(names) {
+  console.time(&#39;parallel&#39;);
+  const results = await Promise.all(names.map(loadUser));
+  console.timeEnd(&#39;parallel&#39;);
+  return results;
+}
+
+async function main() {
+  await sequentialLoad([&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Rohan&#39;]);
+  await parallelLoad([&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Rohan&#39;]);
+}
+main();</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Retry with Delay</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write an async function retryWithDelay(fn, maxRetries, delayMs) that calls fn(), and if it throws, waits delayMs milliseconds and tries again, up to maxRetries times.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">A function that fails twice then succeeds</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Attempt 1: failed, retrying in 500ms
+Attempt 2: failed, retrying in 500ms
+Attempt 3: success!</div>
+                </div><div class="challenge-constraints">Use async/await and a delay function.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">function delay(ms) {
+  return new Promise(resolve =&gt; setTimeout(resolve, ms));
+}
+
+async function retryWithDelay(fn, maxRetries, delayMs) {
+  for (let attempt = 1; attempt &lt;= maxRetries; attempt++) {
+    try {
+      const result = await fn();
+      console.log(&#39;Attempt &#39; + attempt + &#39;: success!&#39;);
+      return result;
+    } catch (error) {
+      console.log(&#39;Attempt &#39; + attempt + &#39;: failed, retrying in &#39; + delayMs + &#39;ms&#39;);
+      if (attempt === maxRetries) throw error;
+      await delay(delayMs);
+    }
+  }
+}
+
+let callCount = 0;
+async function unreliable() {
+  callCount++;
+  if (callCount &lt; 3) throw new Error(&#39;not ready&#39;);
+  return &#39;data&#39;;
+}
+
+retryWithDelay(unreliable, 5, 500).then(r =&gt; console.log(&#39;Got:&#39;, r));</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Promise.allSettled Report</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write an async function runAll(tasks) where tasks is an array of functions that return Promises. Use Promise.allSettled and return a summary: { total, succeeded, failed, results }.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">[() =&gt; Promise.resolve(&#39;a&#39;), () =&gt; Promise.reject(&#39;b&#39;), () =&gt; Promise.resolve(&#39;c&#39;)]</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">{ total: 3, succeeded: 2, failed: 1, results: [...] }</div>
+                </div><div class="challenge-constraints">Use Promise.allSettled. Count fulfilled and rejected.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">async function runAll(tasks) {
+  const promises = tasks.map(fn =&gt; fn());
+  const results = await Promise.allSettled(promises);
+
+  return {
+    total: results.length,
+    succeeded: results.filter(r =&gt; r.status === &#39;fulfilled&#39;).length,
+    failed: results.filter(r =&gt; r.status === &#39;rejected&#39;).length,
+    results: results
+  };
+}
+
+async function main() {
+  const report = await runAll([
+    () =&gt; Promise.resolve(&#39;data1&#39;),
+    () =&gt; Promise.reject(&#39;error1&#39;),
+    () =&gt; Promise.resolve(&#39;data2&#39;),
+    () =&gt; Promise.reject(&#39;error2&#39;)
+  ]);
+  console.log(&#39;Total:&#39;, report.total);
+  console.log(&#39;Succeeded:&#39;, report.succeeded);
+  console.log(&#39;Failed:&#39;, report.failed);
+}
+main();</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Timeout Wrapper</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a function withTimeout(promise, ms) that races the given Promise against a timer. If the Promise does not resolve within ms milliseconds, reject with 'Timeout after {ms}ms'.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">withTimeout(delay(5000, &#39;data&#39;), 2000)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Error: Timeout after 2000ms</div>
+                </div><div class="challenge-constraints">Use Promise.race with a timeout Promise.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">function withTimeout(promise, ms) {
+  const timeout = new Promise(function(_, reject) {
+    setTimeout(function() {
+      reject(new Error(&#39;Timeout after &#39; + ms + &#39;ms&#39;));
+    }, ms);
+  });
+  return Promise.race([promise, timeout]);
+}
+
+function slowOperation() {
+  return new Promise(resolve =&gt; setTimeout(() =&gt; resolve(&#39;done&#39;), 5000));
+}
+
+function fastOperation() {
+  return new Promise(resolve =&gt; setTimeout(() =&gt; resolve(&#39;done&#39;), 500));
+}
+
+async function main() {
+  try {
+    const result = await withTimeout(fastOperation(), 2000);
+    console.log(&#39;Fast:&#39;, result);
+  } catch (e) {
+    console.log(&#39;Fast error:&#39;, e.message);
+  }
+
+  try {
+    const result = await withTimeout(slowOperation(), 2000);
+    console.log(&#39;Slow:&#39;, result);
+  } catch (e) {
+    console.log(&#39;Slow error:&#39;, e.message);
+  }
+}
+main();</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Async Queue (Process One at a Time)</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build an AsyncQueue class with an add(asyncFn) method. Tasks should be processed one at a time in the order they are added. Each task must complete before the next starts.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">queue.add(() =&gt; delay(1000, &#39;A&#39;)); queue.add(() =&gt; delay(500, &#39;B&#39;));</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A finishes at 1000ms, B finishes at 1500ms (not 500ms)</div>
+                </div><div class="challenge-constraints">Tasks must run sequentially. Use async/await internally.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">class AsyncQueue {
+  constructor() {
+    this.queue = [];
+    this.running = false;
+  }
+
+  add(asyncFn) {
+    return new Promise((resolve, reject) =&gt; {
+      this.queue.push({ fn: asyncFn, resolve, reject });
+      if (!this.running) {
+        this.process();
+      }
+    });
+  }
+
+  async process() {
+    this.running = true;
+    while (this.queue.length &gt; 0) {
+      const { fn, resolve, reject } = this.queue.shift();
+      try {
+        const result = await fn();
+        resolve(result);
+      } catch (error) {
+        reject(error);
+      }
+    }
+    this.running = false;
+  }
+}
+
+const queue = new AsyncQueue();
+function delay(ms, val) {
+  return new Promise(r =&gt; setTimeout(() =&gt; r(val), ms));
+}
+
+queue.add(() =&gt; delay(1000, &#39;A&#39;)).then(v =&gt; console.log(v, Date.now()));
+queue.add(() =&gt; delay(500, &#39;B&#39;)).then(v =&gt; console.log(v, Date.now()));
+queue.add(() =&gt; delay(300, &#39;C&#39;)).then(v =&gt; console.log(v, Date.now()));</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Loading Indicator with Async/Await</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write an async function fetchWithLoading(url, loadingEl) that shows 'Loading...' in a DOM element, fetches data (simulate with delay), shows the result on success, and shows 'Error' on failure. Use try-catch-finally to always clear the loading state.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">A simulated fetch with a DOM element</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Loading... -&gt; Data loaded -&gt; (loading hidden)</div>
+                </div><div class="challenge-constraints">Use try-catch-finally. Show and hide loading state.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">function simulateFetch(url) {
+  return new Promise((resolve, reject) =&gt; {
+    setTimeout(() =&gt; {
+      if (url.includes(&#39;fail&#39;)) reject(new Error(&#39;Network error&#39;));
+      else resolve({ data: &#39;Result from &#39; + url });
+    }, 1000);
+  });
+}
+
+async function fetchWithLoading(url, statusEl) {
+  statusEl.textContent = &#39;Loading...&#39;;
+  try {
+    const result = await simulateFetch(url);
+    statusEl.textContent = &#39;Success: &#39; + result.data;
+    return result;
+  } catch (error) {
+    statusEl.textContent = &#39;Error: &#39; + error.message;
+    return null;
+  } finally {
+    console.log(&#39;Loading complete for&#39;, url);
+  }
+}
+
+// Usage:
+// const el = document.getElementById(&#39;status&#39;);
+// fetchWithLoading(&#39;/api/data&#39;, el);
+// fetchWithLoading(&#39;/api/fail&#39;, el);</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/javascript/error-handling-and-debugging/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Error Handling and Debugging</span>
+        </a>
+            <a href="/resources/javascript/fetch-api-and-working-with-apis/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Fetch API - Getting Data from the Internet</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/javascript/asynchronous-javascript" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

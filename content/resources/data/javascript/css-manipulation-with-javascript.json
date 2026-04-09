@@ -1,0 +1,718 @@
+{
+  "title": "CSS Manipulation with JavaScript",
+  "slug": "css-manipulation-with-javascript",
+  "language": "javascript",
+  "chapter": 15,
+  "difficulty": "Intermediate",
+  "readingTime": "40 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "CSS Manipulation with JavaScript - classList, getComputedStyle, Dark Mode, Animations | Modern Age Coders",
+    "description": "Learn to manipulate CSS with JavaScript. Master element.style, classList, getComputedStyle, CSS custom properties, dark mode toggle, scroll effects, theme switcher, and CSS transitions triggered by JS. 58+ practice questions.",
+    "keywords": "javascript css manipulation, classList javascript, getComputedStyle javascript, dark mode javascript, css variables javascript, toggle class javascript, scroll effect javascript, theme switcher javascript, css transitions javascript, javascript animations"
+  },
+  "content": {
+    "what": "<h2>What Is CSS Manipulation with JavaScript?</h2><p>CSS Manipulation means using JavaScript to dynamically change the appearance of elements -- colors, sizes, visibility, positions, animations -- in response to user actions or application state. You have already used <code>element.style</code> and <code>classList</code> in previous chapters. This chapter goes deeper into all the techniques for controlling CSS from JavaScript.</p><p>There are three main approaches:</p><ol><li><strong>Inline styles</strong> (<code>element.style.property</code>) -- directly set CSS on an element</li><li><strong>CSS classes</strong> (<code>element.classList</code>) -- toggle predefined CSS classes</li><li><strong>CSS custom properties</strong> (<code>setProperty</code>) -- change CSS variables from JS</li></ol><pre><code>// Approach 1: Inline style\nelement.style.backgroundColor = \"red\";\n\n// Approach 2: Toggle a class\nelement.classList.toggle(\"active\");\n\n// Approach 3: CSS variable\ndocument.documentElement.style.setProperty(\"--primary-color\", \"#a855f7\");</code></pre>",
+    "why": "<h2>Why Learn CSS Manipulation?</h2><h3>1. Every Modern Feature Uses It</h3><p>Dark mode, animated menus, scroll-to-top buttons, progress bars, loading spinners, tooltip popups, modal animations -- all of these change CSS dynamically with JavaScript. This is the skill that turns a static page into a polished, professional web app.</p><h3>2. Performance Matters</h3><p>Changing styles the wrong way causes the browser to recalculate layouts, which makes pages sluggish. Knowing the difference between toggling classes (fast) and setting inline styles in a loop (slow) makes you a better developer.</p><h3>3. CSS Variables + JS = Powerful Theming</h3><p>CSS custom properties (variables) let you define colors, sizes, and spacings once and change them everywhere by updating a single variable from JavaScript. This is how theme switchers work -- change one variable and the entire site updates.</p><h3>4. It Is the Foundation for Animations</h3><p>CSS transitions and animations are triggered by class changes. JavaScript adds or removes a class, and CSS handles the smooth animation. This separation of concerns (JS handles logic, CSS handles visuals) is a professional best practice.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. element.style (Inline Styles)</h3><p>Sets styles directly on the element's <code>style</code> attribute. Useful for dynamic values that cannot be predefined in CSS:</p><pre><code>const box = document.getElementById(\"box\");\n\n// Set styles (CSS uses kebab-case, JS uses camelCase)\nbox.style.width = \"200px\";\nbox.style.height = \"200px\";\nbox.style.backgroundColor = \"#a855f7\";  // background-color\nbox.style.borderRadius = \"12px\";        // border-radius\nbox.style.boxShadow = \"0 4px 6px rgba(0,0,0,0.1)\"; // box-shadow\n\n// Read a style (only reads inline styles, not stylesheet styles)\nconsole.log(box.style.width);           // \"200px\"\nconsole.log(box.style.backgroundColor); // \"#a855f7\"\n\n// Remove an inline style\nbox.style.backgroundColor = \"\";  // Removes the inline style\n\n// Set multiple styles at once\nbox.style.cssText = \"width:100px; height:100px; background:red;\";\n// Warning: cssText REPLACES all existing inline styles</code></pre><h3>2. element.classList (CSS Classes)</h3><p>The preferred way to manage styles. Define styles in CSS, toggle classes in JS:</p><pre><code>&lt;style&gt;\n  .hidden { display: none; }\n  .visible { display: block; }\n  .highlight { background-color: yellow; font-weight: bold; }\n  .fade-in { opacity: 1; transition: opacity 0.5s; }\n  .fade-out { opacity: 0; transition: opacity 0.5s; }\n&lt;/style&gt;\n\n&lt;script&gt;\nconst el = document.getElementById(\"element\");\n\nel.classList.add(\"highlight\");         // Add a class\nel.classList.remove(\"highlight\");      // Remove a class\nel.classList.toggle(\"hidden\");         // Add if missing, remove if present\nel.classList.contains(\"highlight\");    // Check: returns true/false\nel.classList.replace(\"old\", \"new\");    // Replace one class with another\n\n// Why classList is better than inline styles:\n// 1. Styles are defined in CSS (separation of concerns)\n// 2. Easier to manage (toggle one class vs set 10 properties)\n// 3. CSS handles animations/transitions automatically\n// 4. Easier to debug (inspect classes in DevTools)\n&lt;/script&gt;</code></pre><h3>3. getComputedStyle()</h3><p><code>element.style</code> only reads inline styles. <code>getComputedStyle()</code> reads the actual, final computed value from all sources (stylesheets, inherited styles, defaults):</p><pre><code>&lt;style&gt;\n  #box { width: 200px; background-color: blue; padding: 20px; }\n&lt;/style&gt;\n&lt;div id=\"box\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\n\n// element.style reads ONLY inline styles\nconsole.log(box.style.width);           // \"\" (empty -- not inline)\nconsole.log(box.style.backgroundColor); // \"\" (empty -- not inline)\n\n// getComputedStyle reads the ACTUAL applied styles\nconst computed = getComputedStyle(box);\nconsole.log(computed.width);            // \"200px\"\nconsole.log(computed.backgroundColor);  // \"rgb(0, 0, 255)\"\nconsole.log(computed.padding);          // \"20px\"\nconsole.log(computed.fontSize);         // \"16px\" (browser default)\n&lt;/script&gt;</code></pre><p>Note: computed values are always in resolved units (px, rgb) even if you defined them in em, %, or hex.</p><h3>4. CSS Custom Properties (Variables) with JavaScript</h3><p>CSS variables let you define reusable values. JavaScript can read and change them:</p><pre><code>&lt;style&gt;\n  :root {\n    --primary: #a855f7;\n    --bg: #ffffff;\n    --text: #1a1a2e;\n  }\n  body {\n    background-color: var(--bg);\n    color: var(--text);\n  }\n  .btn {\n    background-color: var(--primary);\n    color: white;\n  }\n&lt;/style&gt;\n\n&lt;script&gt;\nconst root = document.documentElement; // The &lt;html&gt; element\n\n// Read a CSS variable\nconst primary = getComputedStyle(root).getPropertyValue(\"--primary\");\nconsole.log(primary); // \"#a855f7\"\n\n// Change a CSS variable (updates everywhere it is used!)\nroot.style.setProperty(\"--primary\", \"#06b6d4\");\nroot.style.setProperty(\"--bg\", \"#1a1a2e\");\nroot.style.setProperty(\"--text\", \"#f1f5f9\");\n// The entire page updates because all elements reference these variables\n&lt;/script&gt;</code></pre><p>This is incredibly powerful. Change one variable and every element using it updates automatically. This is how professional theme switchers work.</p><h3>5. CSS Transitions Triggered by JavaScript</h3><p>Define a transition in CSS. JavaScript triggers it by adding/removing a class:</p><pre><code>&lt;style&gt;\n  .box {\n    width: 100px;\n    height: 100px;\n    background: #a855f7;\n    transition: all 0.5s ease;\n  }\n  .box.expanded {\n    width: 300px;\n    height: 200px;\n    background: #06b6d4;\n    border-radius: 20px;\n  }\n&lt;/style&gt;\n\n&lt;div class=\"box\" id=\"box\"&gt;&lt;/div&gt;\n&lt;button id=\"btn\"&gt;Toggle&lt;/button&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"btn\").addEventListener(\"click\", function() {\n  document.getElementById(\"box\").classList.toggle(\"expanded\");\n});\n// The CSS transition handles the smooth animation automatically\n&lt;/script&gt;</code></pre><h3>6. Reading Scroll Position</h3><p><code>window.scrollY</code> gives the vertical scroll position. Use it to add classes based on scroll:</p><pre><code>window.addEventListener(\"scroll\", function() {\n  const nav = document.getElementById(\"nav\");\n  if (window.scrollY > 100) {\n    nav.classList.add(\"scrolled\");\n  } else {\n    nav.classList.remove(\"scrolled\");\n  }\n});</code></pre>"
+    ,
+    "codeExamples": [
+    {
+      "title": "Dark Mode Toggle with CSS Variables",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    :root {\n      --bg: #ffffff;\n      --text: #1a1a2e;\n      --card-bg: #f3f4f6;\n      --border: #e5e7eb;\n      --primary: #a855f7;\n    }\n    body {\n      font-family: Arial, sans-serif;\n      padding: 20px;\n      background-color: var(--bg);\n      color: var(--text);\n      transition: background-color 0.3s, color 0.3s;\n    }\n    .card {\n      background: var(--card-bg);\n      border: 1px solid var(--border);\n      padding: 20px;\n      border-radius: 12px;\n      margin: 16px 0;\n      transition: background-color 0.3s, border-color 0.3s;\n    }\n    .toggle-btn {\n      padding: 10px 20px;\n      background: var(--primary);\n      color: white;\n      border: none;\n      border-radius: 8px;\n      cursor: pointer;\n      font-size: 16px;\n    }\n  </style>\n</head>\n<body>\n  <h1>My Dashboard</h1>\n  <button class=\"toggle-btn\" id=\"themeBtn\">Switch to Dark Mode</button>\n  <div class=\"card\">\n    <h3>Welcome, Aarav!</h3>\n    <p>You have 5 new assignments and 2 messages.</p>\n  </div>\n  <div class=\"card\">\n    <h3>Upcoming Test</h3>\n    <p>Mathematics - Chapter 12 - April 15, 2026</p>\n  </div>\n\n  <script>\n    const root = document.documentElement;\n    const btn = document.getElementById(\"themeBtn\");\n    let isDark = false;\n\n    const themes = {\n      light: {\n        \"--bg\": \"#ffffff\",\n        \"--text\": \"#1a1a2e\",\n        \"--card-bg\": \"#f3f4f6\",\n        \"--border\": \"#e5e7eb\"\n      },\n      dark: {\n        \"--bg\": \"#1a1a2e\",\n        \"--text\": \"#f1f5f9\",\n        \"--card-bg\": \"#16213e\",\n        \"--border\": \"#374151\"\n      }\n    };\n\n    btn.addEventListener(\"click\", function() {\n      isDark = !isDark;\n      const theme = isDark ? themes.dark : themes.light;\n\n      Object.keys(theme).forEach(function(key) {\n        root.style.setProperty(key, theme[key]);\n      });\n\n      btn.textContent = isDark ? \"Switch to Light Mode\" : \"Switch to Dark Mode\";\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "CSS variables are defined on <code>:root</code>. All elements reference these variables. When the button is clicked, JavaScript changes the variables using <code>setProperty</code>, and every element updates instantly. The CSS <code>transition</code> makes the color change smooth.",
+      "output": "A dashboard page with cards. Clicking the button switches between light and dark mode with smooth transitions."
+    },
+    {
+      "title": "Multi-Theme Switcher",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    :root {\n      --bg: #ffffff;\n      --text: #1a1a2e;\n      --primary: #a855f7;\n      --accent: #06b6d4;\n    }\n    body {\n      font-family: Arial, sans-serif;\n      padding: 20px;\n      background: var(--bg);\n      color: var(--text);\n      transition: all 0.4s;\n    }\n    h1 { color: var(--primary); }\n    .theme-grid { display: flex; gap: 12px; margin: 16px 0; }\n    .theme-dot {\n      width: 40px; height: 40px; border-radius: 50%; cursor: pointer;\n      border: 3px solid transparent; transition: border-color 0.3s, transform 0.2s;\n    }\n    .theme-dot:hover { transform: scale(1.15); }\n    .theme-dot.selected { border-color: var(--text); }\n    .demo-card {\n      padding: 20px; background: var(--primary); color: white;\n      border-radius: 12px; margin-top: 16px;\n    }\n    .demo-btn {\n      padding: 8px 16px; background: var(--accent); color: white;\n      border: none; border-radius: 6px; cursor: pointer; margin-top: 10px;\n    }\n  </style>\n</head>\n<body>\n  <h1>Theme Switcher</h1>\n  <p>Choose a theme:</p>\n  <div class=\"theme-grid\" id=\"themes\"></div>\n  <div class=\"demo-card\">\n    <h3>Sample Card</h3>\n    <p>This card uses the primary color as background.</p>\n    <button class=\"demo-btn\">Action Button</button>\n  </div>\n\n  <script>\n    const themes = [\n      { name: \"Purple\", bg: \"#ffffff\", text: \"#1a1a2e\", primary: \"#a855f7\", accent: \"#06b6d4\", dot: \"#a855f7\" },\n      { name: \"Ocean\", bg: \"#f0f9ff\", text: \"#0c4a6e\", primary: \"#0369a1\", accent: \"#06b6d4\", dot: \"#0369a1\" },\n      { name: \"Forest\", bg: \"#f0fdf4\", text: \"#14532d\", primary: \"#15803d\", accent: \"#a3e635\", dot: \"#15803d\" },\n      { name: \"Sunset\", bg: \"#fff7ed\", text: \"#7c2d12\", primary: \"#ea580c\", accent: \"#facc15\", dot: \"#ea580c\" },\n      { name: \"Dark\", bg: \"#1a1a2e\", text: \"#f1f5f9\", primary: \"#a855f7\", accent: \"#06b6d4\", dot: \"#1a1a2e\" },\n      { name: \"Rose\", bg: \"#fff1f2\", text: \"#881337\", primary: \"#e11d48\", accent: \"#fb7185\", dot: \"#e11d48\" }\n    ];\n\n    const grid = document.getElementById(\"themes\");\n    const root = document.documentElement;\n    let dots = [];\n\n    themes.forEach(function(theme, index) {\n      const dot = document.createElement(\"div\");\n      dot.className = \"theme-dot\" + (index === 0 ? \" selected\" : \"\");\n      dot.style.backgroundColor = theme.dot;\n      dot.title = theme.name;\n      dot.addEventListener(\"click\", function() {\n        root.style.setProperty(\"--bg\", theme.bg);\n        root.style.setProperty(\"--text\", theme.text);\n        root.style.setProperty(\"--primary\", theme.primary);\n        root.style.setProperty(\"--accent\", theme.accent);\n        dots.forEach(function(d) { d.classList.remove(\"selected\"); });\n        dot.classList.add(\"selected\");\n      });\n      grid.appendChild(dot);\n      dots.push(dot);\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "Six theme presets are defined as objects. Clicking a colored dot changes all four CSS variables at once, instantly updating the entire page. The transition on body makes the switch smooth. The selected dot gets a border to show the active theme.",
+      "output": "A page with 6 colored dots. Clicking any dot changes the entire color scheme (background, text, buttons, cards)."
+    },
+    {
+      "title": "Scroll-Based Navigation Effects",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    * { margin: 0; padding: 0; box-sizing: border-box; }\n    body { font-family: Arial, sans-serif; }\n    .nav {\n      position: fixed; top: 0; left: 0; right: 0;\n      padding: 20px 30px;\n      display: flex; justify-content: space-between; align-items: center;\n      background: transparent;\n      transition: all 0.3s;\n      z-index: 100;\n    }\n    .nav.scrolled {\n      background: rgba(255,255,255,0.95);\n      padding: 10px 30px;\n      box-shadow: 0 2px 10px rgba(0,0,0,0.1);\n    }\n    .nav .logo { font-size: 24px; font-weight: bold; color: #a855f7; }\n    .progress-bar {\n      position: fixed; top: 0; left: 0; height: 3px;\n      background: linear-gradient(to right, #a855f7, #06b6d4);\n      z-index: 200; transition: width 0.1s;\n    }\n    .scroll-top {\n      position: fixed; bottom: 30px; right: 30px;\n      width: 40px; height: 40px;\n      background: #a855f7; color: white;\n      border: none; border-radius: 50%;\n      font-size: 20px; cursor: pointer;\n      opacity: 0; transform: translateY(20px);\n      transition: opacity 0.3s, transform 0.3s;\n    }\n    .scroll-top.visible { opacity: 1; transform: translateY(0); }\n    .content { padding: 100px 30px 30px; }\n    section { padding: 60px 0; min-height: 50vh; }\n    h2 { color: #a855f7; margin-bottom: 16px; }\n  </style>\n</head>\n<body>\n  <div class=\"progress-bar\" id=\"progress\"></div>\n  <nav class=\"nav\" id=\"nav\">\n    <div class=\"logo\">SiteName</div>\n    <div>Home | About | Contact</div>\n  </nav>\n  <div class=\"content\">\n    <section><h2>Section 1</h2><p>Scroll down to see the navigation change, progress bar fill, and scroll-to-top button appear.</p></section>\n    <section><h2>Section 2</h2><p>The navigation shrinks and gets a white background when you scroll past 100px.</p></section>\n    <section><h2>Section 3</h2><p>The progress bar at the top shows how far you have scrolled through the page.</p></section>\n    <section><h2>Section 4</h2><p>The scroll-to-top button appears after scrolling 300px down.</p></section>\n    <section><h2>Section 5</h2><p>All of these effects use CSS classes toggled by JavaScript scroll events.</p></section>\n  </div>\n  <button class=\"scroll-top\" id=\"scrollTop\">^</button>\n\n  <script>\n    const nav = document.getElementById(\"nav\");\n    const progress = document.getElementById(\"progress\");\n    const scrollTopBtn = document.getElementById(\"scrollTop\");\n\n    window.addEventListener(\"scroll\", function() {\n      // Nav shrink effect\n      if (window.scrollY > 100) {\n        nav.classList.add(\"scrolled\");\n      } else {\n        nav.classList.remove(\"scrolled\");\n      }\n\n      // Progress bar\n      const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;\n      const scrollPercent = (window.scrollY / scrollHeight) * 100;\n      progress.style.width = scrollPercent + \"%\";\n\n      // Scroll to top button\n      if (window.scrollY > 300) {\n        scrollTopBtn.classList.add(\"visible\");\n      } else {\n        scrollTopBtn.classList.remove(\"visible\");\n      }\n    });\n\n    scrollTopBtn.addEventListener(\"click\", function() {\n      window.scrollTo({ top: 0, behavior: \"smooth\" });\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "Three scroll-based effects: (1) Navigation shrinks and gets a background after 100px scroll. (2) A progress bar shows scroll percentage using <code>window.scrollY</code> and <code>document.documentElement.scrollHeight</code>. (3) A scroll-to-top button appears after 300px. All use classList for toggling and element.style for the progress width.",
+      "output": "A page with a navbar that shrinks on scroll, a progress bar at the top, and a scroll-to-top button that fades in."
+    },
+    {
+      "title": "Animated Navigation Menu",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; margin: 0; }\n    .navbar { display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; background: #1a1a2e; color: white; }\n    .menu-btn { background: none; border: 2px solid white; color: white; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 16px; }\n    .sidebar {\n      position: fixed; top: 0; right: -300px; width: 300px; height: 100%;\n      background: #16213e; color: white; padding: 24px;\n      transition: right 0.4s ease;\n      z-index: 200;\n    }\n    .sidebar.open { right: 0; }\n    .overlay {\n      position: fixed; top: 0; left: 0; right: 0; bottom: 0;\n      background: rgba(0,0,0,0.5);\n      opacity: 0; visibility: hidden;\n      transition: opacity 0.4s, visibility 0.4s;\n      z-index: 150;\n    }\n    .overlay.visible { opacity: 1; visibility: visible; }\n    .sidebar a { display: block; color: white; text-decoration: none; padding: 12px 0; border-bottom: 1px solid #374151; font-size: 18px; }\n    .sidebar a:hover { color: #a855f7; }\n    .close-btn { background: none; border: none; color: #9ca3af; font-size: 24px; cursor: pointer; position: absolute; top: 16px; right: 16px; }\n    .content { padding: 24px; }\n  </style>\n</head>\n<body>\n  <nav class=\"navbar\">\n    <div style=\"font-size:20px;font-weight:bold;\">MyApp</div>\n    <button class=\"menu-btn\" id=\"menuBtn\">Menu</button>\n  </nav>\n  <div class=\"overlay\" id=\"overlay\"></div>\n  <div class=\"sidebar\" id=\"sidebar\">\n    <button class=\"close-btn\" id=\"closeBtn\">x</button>\n    <h3 style=\"margin-top:40px;\">Navigation</h3>\n    <a href=\"#\">Home</a>\n    <a href=\"#\">Courses</a>\n    <a href=\"#\">About</a>\n    <a href=\"#\">Contact</a>\n  </div>\n  <div class=\"content\">\n    <h2>Page Content</h2>\n    <p>Click the Menu button to open the animated sidebar navigation.</p>\n  </div>\n\n  <script>\n    const menuBtn = document.getElementById(\"menuBtn\");\n    const closeBtn = document.getElementById(\"closeBtn\");\n    const sidebar = document.getElementById(\"sidebar\");\n    const overlay = document.getElementById(\"overlay\");\n\n    function openMenu() {\n      sidebar.classList.add(\"open\");\n      overlay.classList.add(\"visible\");\n    }\n\n    function closeMenu() {\n      sidebar.classList.remove(\"open\");\n      overlay.classList.remove(\"visible\");\n    }\n\n    menuBtn.addEventListener(\"click\", openMenu);\n    closeBtn.addEventListener(\"click\", closeMenu);\n    overlay.addEventListener(\"click\", closeMenu);\n\n    document.addEventListener(\"keydown\", function(e) {\n      if (e.key === \"Escape\") closeMenu();\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "The sidebar starts off-screen (right: -300px). Adding the \"open\" class moves it on-screen (right: 0) with a CSS transition. The overlay fades in with opacity. Closing happens by removing both classes. The Escape key also closes the menu. All animation is handled by CSS transitions -- JavaScript only toggles classes.",
+      "output": "A page with a menu button. Clicking it slides in a sidebar from the right with a dark overlay. Click overlay or press Escape to close."
+    },
+    {
+      "title": "getComputedStyle and Reading CSS Values",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    #box {\n      width: 200px;\n      height: 150px;\n      background-color: #a855f7;\n      color: white;\n      padding: 20px;\n      border-radius: 12px;\n      font-size: 18px;\n      margin-bottom: 16px;\n    }\n    #results { padding: 16px; background: #f3f4f6; border-radius: 8px; font-family: monospace; font-size: 14px; }\n    button { padding: 8px 16px; margin: 4px; cursor: pointer; border: 1px solid #ddd; border-radius: 4px; }\n  </style>\n</head>\n<body>\n  <div id=\"box\">Styled Box</div>\n  <button id=\"readBtn\">Read Computed Styles</button>\n  <button id=\"readInlineBtn\">Read Inline Styles</button>\n  <button id=\"addInlineBtn\">Add Inline Border</button>\n  <div id=\"results\"></div>\n\n  <script>\n    const box = document.getElementById(\"box\");\n    const results = document.getElementById(\"results\");\n\n    document.getElementById(\"readBtn\").addEventListener(\"click\", function() {\n      const computed = getComputedStyle(box);\n      results.innerHTML =\n        \"<strong>getComputedStyle:</strong><br>\" +\n        \"width: \" + computed.width + \"<br>\" +\n        \"height: \" + computed.height + \"<br>\" +\n        \"backgroundColor: \" + computed.backgroundColor + \"<br>\" +\n        \"padding: \" + computed.padding + \"<br>\" +\n        \"borderRadius: \" + computed.borderRadius + \"<br>\" +\n        \"fontSize: \" + computed.fontSize + \"<br>\" +\n        \"display: \" + computed.display + \"<br>\" +\n        \"position: \" + computed.position;\n    });\n\n    document.getElementById(\"readInlineBtn\").addEventListener(\"click\", function() {\n      results.innerHTML =\n        \"<strong>element.style (inline only):</strong><br>\" +\n        \"width: '\" + box.style.width + \"'<br>\" +\n        \"backgroundColor: '\" + box.style.backgroundColor + \"'<br>\" +\n        \"border: '\" + box.style.border + \"'<br>\" +\n        \"(Most are empty because styles come from the stylesheet, not inline)\";\n    });\n\n    document.getElementById(\"addInlineBtn\").addEventListener(\"click\", function() {\n      box.style.border = \"3px solid #f59e0b\";\n      results.innerHTML = \"Added inline border. Now element.style.border = '\" + box.style.border + \"'\";\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "This demo shows the critical difference between <code>element.style</code> and <code>getComputedStyle()</code>. element.style only shows inline styles (most are empty because styles come from the stylesheet). getComputedStyle shows the actual computed values from all CSS sources, returned in resolved units (px, rgb).",
+      "output": "A styled box with buttons to read computed styles (shows all values), read inline styles (mostly empty), and add an inline border."
+    },
+    {
+      "title": "Progress Bar with JavaScript Control",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    body { font-family: Arial, sans-serif; padding: 20px; }\n    .progress-container {\n      width: 100%; max-width: 400px;\n      height: 24px; background: #e5e7eb;\n      border-radius: 12px; overflow: hidden;\n      margin: 16px 0;\n    }\n    .progress-fill {\n      height: 100%; width: 0%;\n      background: linear-gradient(to right, #a855f7, #06b6d4);\n      border-radius: 12px;\n      transition: width 0.3s ease;\n      display: flex; align-items: center; justify-content: center;\n      color: white; font-size: 12px; font-weight: bold;\n      min-width: 30px;\n    }\n    button { padding: 8px 16px; margin: 4px; cursor: pointer; border: 1px solid #ddd; border-radius: 6px; }\n    .controls { margin-top: 12px; }\n  </style>\n</head>\n<body>\n  <h2>Progress Bar</h2>\n  <div class=\"progress-container\">\n    <div class=\"progress-fill\" id=\"fill\">0%</div>\n  </div>\n  <div class=\"controls\">\n    <button id=\"minus10\">-10%</button>\n    <button id=\"plus10\">+10%</button>\n    <button id=\"reset\">Reset</button>\n    <button id=\"auto\">Auto Fill</button>\n  </div>\n\n  <script>\n    const fill = document.getElementById(\"fill\");\n    let progress = 0;\n\n    function updateBar() {\n      fill.style.width = progress + \"%\";\n      fill.textContent = progress + \"%\";\n    }\n\n    document.getElementById(\"plus10\").addEventListener(\"click\", function() {\n      progress = Math.min(100, progress + 10);\n      updateBar();\n    });\n\n    document.getElementById(\"minus10\").addEventListener(\"click\", function() {\n      progress = Math.max(0, progress - 10);\n      updateBar();\n    });\n\n    document.getElementById(\"reset\").addEventListener(\"click\", function() {\n      progress = 0;\n      updateBar();\n    });\n\n    document.getElementById(\"auto\").addEventListener(\"click\", function() {\n      progress = 0;\n      updateBar();\n      const interval = setInterval(function() {\n        progress += 5;\n        updateBar();\n        if (progress >= 100) clearInterval(interval);\n      }, 200);\n    });\n  </script>\n</body>\n</html>",
+      "language": "html",
+      "explanation": "The progress bar's width is controlled by setting <code>fill.style.width</code>. The CSS transition makes width changes animate smoothly. The \"Auto Fill\" button uses <code>setInterval</code> to incrementally increase the progress. <code>Math.min</code> and <code>Math.max</code> keep the value between 0 and 100.",
+      "output": "A gradient progress bar with +10%, -10%, Reset, and Auto Fill buttons. The bar animates smoothly when changing."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Using element.style to Read Stylesheet Styles",
+      "wrongCode": "// CSS: #box { background-color: blue; }\nconst box = document.getElementById(\"box\");\nconsole.log(box.style.backgroundColor); // \"\" (empty!)",
+      "error": "element.style only reads inline styles, not styles from stylesheets. It returns an empty string.",
+      "correctCode": "const box = document.getElementById(\"box\");\nconst computed = getComputedStyle(box);\nconsole.log(computed.backgroundColor); // \"rgb(0, 0, 255)\"",
+      "explanation": "<code>element.style</code> only reads inline styles (set via the style attribute or JS). Use <code>getComputedStyle(element)</code> to read the actual applied styles from all sources."
+    },
+    {
+      "title": "Forgetting that CSS Variables Need the -- Prefix",
+      "wrongCode": "root.style.setProperty(\"primary\", \"#a855f7\"); // Missing --\n// Does not set a CSS variable",
+      "error": "The property is set but not recognized as a CSS custom property. CSS variables must start with --.",
+      "correctCode": "root.style.setProperty(\"--primary\", \"#a855f7\"); // Correct",
+      "explanation": "CSS custom properties must always start with <code>--</code>. Without the prefix, it is just a regular (invalid) CSS property that has no effect."
+    },
+    {
+      "title": "Animating Properties That Cannot Be Transitioned",
+      "wrongCode": "<style>\n  .box { display: none; transition: display 0.5s; }\n  .box.visible { display: block; }\n</style>\n/* The transition does not work -- display is not animatable */",
+      "error": "The element appears/disappears instantly. The display property cannot be animated with CSS transitions.",
+      "correctCode": "<style>\n  .box { opacity: 0; visibility: hidden; transition: opacity 0.5s, visibility 0.5s; }\n  .box.visible { opacity: 1; visibility: visible; }\n</style>",
+      "explanation": "<code>display</code> is not animatable. Use <code>opacity</code> and <code>visibility</code> instead for fade effects. Alternatively, use <code>transform: scale(0)</code> to <code>scale(1)</code> for shrink/grow effects."
+    },
+    {
+      "title": "Setting style.cssText Replaces All Inline Styles",
+      "wrongCode": "const el = document.getElementById(\"box\");\nel.style.color = \"red\";\nel.style.fontSize = \"20px\";\nel.style.cssText = \"background: blue;\"; // Destroys color and fontSize!",
+      "error": "After setting cssText, only background: blue remains. The color and fontSize are gone.",
+      "correctCode": "// Option 1: Set individual properties\nel.style.backgroundColor = \"blue\";\n\n// Option 2: Include all properties in cssText\nel.style.cssText = \"color: red; font-size: 20px; background: blue;\";",
+      "explanation": "<code>cssText</code> replaces the entire inline style. It does not append. Either set individual properties or include all desired properties in the cssText string."
+    }
+  ],
+  "summary": [
+    "element.style.property sets inline CSS styles. Use camelCase: background-color becomes backgroundColor, font-size becomes fontSize.",
+    "element.style only reads INLINE styles. Use getComputedStyle(element) to read the actual applied styles from all CSS sources (stylesheets, inherited, defaults).",
+    "classList.add/remove/toggle/contains is the preferred way to manage styles. Define styles in CSS, toggle classes in JS. This keeps style logic in CSS and behavior logic in JS.",
+    "classList.replace('old', 'new') swaps one class for another in a single operation.",
+    "CSS custom properties (variables) are defined with -- prefix on :root. Change them with document.documentElement.style.setProperty('--name', 'value'). All elements using that variable update automatically.",
+    "Read CSS variables with getComputedStyle(root).getPropertyValue('--name').",
+    "CSS transitions handle smooth animations. JavaScript just toggles classes; CSS handles the animation timing, easing, and duration.",
+    "window.scrollY gives the current vertical scroll position. Use the scroll event to add/remove classes based on scroll position (sticky navbars, scroll-to-top buttons, progress bars).",
+    "getComputedStyle returns values in resolved units: px for sizes, rgb() for colors, even if the original CSS used em, %, hex, or named colors.",
+    "style.cssText replaces ALL inline styles. Set individual properties when you want to preserve existing inline styles."
+    ]
+  },
+  "relatedTopics": ["forms-and-validation", "project-interactive-quiz-app"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"box\" style=\"color: red; font-size: 20px;\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nconsole.log(box.style.color);\nconsole.log(box.style.fontSize);\n&lt;/script&gt;</code></pre>",
+        "hint": "element.style reads inline styles.",
+        "answer": "<code>red</code><br><code>20px</code>",
+        "explanation": "Both color and fontSize are set as inline styles on the element. <code>element.style</code> can read them."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged?<br><pre><code>&lt;style&gt;#box { background-color: blue; width: 200px; }&lt;/style&gt;\n&lt;div id=\"box\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nconsole.log(box.style.backgroundColor);\nconsole.log(box.style.width);\n&lt;/script&gt;</code></pre>",
+        "hint": "element.style only reads inline styles, not styles from a stylesheet.",
+        "answer": "<code></code> (empty string)<br><code></code> (empty string)",
+        "explanation": "The styles are in a stylesheet, not inline. <code>element.style</code> only reads inline styles and returns empty strings for stylesheet-defined properties."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged?<br><pre><code>&lt;style&gt;#box { background-color: blue; width: 200px; }&lt;/style&gt;\n&lt;div id=\"box\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst computed = getComputedStyle(document.getElementById(\"box\"));\nconsole.log(computed.width);\nconsole.log(computed.backgroundColor);\n&lt;/script&gt;</code></pre>",
+        "hint": "getComputedStyle reads the actual computed values from all CSS sources.",
+        "answer": "<code>200px</code><br><code>rgb(0, 0, 255)</code>",
+        "explanation": "<code>getComputedStyle</code> returns the actual computed values. Width is \"200px\". Blue is returned as <code>rgb(0, 0, 255)</code> because computed values use resolved formats."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What class does the div have after this code?<br><pre><code>&lt;div id=\"box\" class=\"card\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nbox.classList.replace(\"card\", \"panel\");\nconsole.log(box.className);\n&lt;/script&gt;</code></pre>",
+        "hint": "replace swaps one class for another.",
+        "answer": "<code>panel</code>",
+        "explanation": "<code>classList.replace(\"card\", \"panel\")</code> removes \"card\" and adds \"panel\" in one step. The div now has class \"panel\"."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;style&gt;\n  :root { --color: #a855f7; }\n  #box { color: var(--color); }\n&lt;/style&gt;\n&lt;div id=\"box\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst root = document.documentElement;\nconst value = getComputedStyle(root).getPropertyValue(\"--color\");\nconsole.log(value.trim());\n\nroot.style.setProperty(\"--color\", \"#06b6d4\");\nconst newValue = getComputedStyle(root).getPropertyValue(\"--color\");\nconsole.log(newValue.trim());\n&lt;/script&gt;</code></pre>",
+        "hint": "setProperty changes the CSS variable. getPropertyValue reads it.",
+        "answer": "<code>#a855f7</code><br><code>#06b6d4</code>",
+        "explanation": "First, the CSS variable --color is #a855f7. After <code>setProperty</code>, it changes to #06b6d4. All elements using var(--color) update automatically."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens?<br><pre><code>&lt;style&gt;\n  .box { width: 100px; height: 100px; background: #a855f7; transition: all 0.5s; }\n  .box.big { width: 300px; background: #06b6d4; }\n&lt;/style&gt;\n&lt;div class=\"box\" id=\"box\"&gt;&lt;/div&gt;\n\n&lt;script&gt;\ndocument.getElementById(\"box\").classList.add(\"big\");\n&lt;/script&gt;</code></pre>",
+        "hint": "Adding the 'big' class changes width and background. The transition animates the change.",
+        "answer": "The box smoothly animates from 100px wide (purple) to 300px wide (teal) over 0.5 seconds.",
+        "explanation": "Adding the \"big\" class changes the width and background. Because the .box rule has <code>transition: all 0.5s</code>, both properties animate smoothly instead of changing instantly."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"box\" style=\"color: red;\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nconsole.log(box.style.cssText);\nbox.style.cssText = \"background: blue; font-size: 20px;\";\nconsole.log(box.style.color);\nconsole.log(box.style.backgroundColor);\nconsole.log(box.style.fontSize);\n&lt;/script&gt;</code></pre>",
+        "hint": "cssText replaces ALL inline styles.",
+        "answer": "<code>color: red;</code><br><code></code> (empty string)<br><code>blue</code><br><code>20px</code>",
+        "explanation": "Initially, cssText is \"color: red;\". After setting cssText, ALL inline styles are replaced. Color is gone (empty string). Only background and fontSize remain from the new cssText."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"box\" style=\"width: 200px;\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nbox.style.width = \"\";\nconsole.log(box.style.width);\nconsole.log(box.getAttribute(\"style\"));\n&lt;/script&gt;</code></pre>",
+        "hint": "Setting a style to empty string removes that inline style.",
+        "answer": "<code></code> (empty string)<br><code></code> (empty string or null)",
+        "explanation": "Setting <code>style.width = \"\"</code> removes the width inline style. Since it was the only inline style, the style attribute becomes empty."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;style&gt;\n  :root {\n    --gap: 10px;\n    --cols: 3;\n  }\n&lt;/style&gt;\n\n&lt;script&gt;\nconst root = document.documentElement;\nconsole.log(getComputedStyle(root).getPropertyValue(\"--gap\").trim());\nconsole.log(getComputedStyle(root).getPropertyValue(\"--cols\").trim());\n\nroot.style.setProperty(\"--cols\", \"4\");\nconsole.log(getComputedStyle(root).getPropertyValue(\"--cols\").trim());\n\nconsole.log(getComputedStyle(root).getPropertyValue(\"--missing\").trim());\n&lt;/script&gt;</code></pre>",
+        "hint": "getPropertyValue returns empty string for undefined variables.",
+        "answer": "<code>10px</code><br><code>3</code><br><code>4</code><br><code></code> (empty string)",
+        "explanation": "--gap is \"10px\", --cols starts as \"3\" then changes to \"4\" via setProperty. --missing is not defined, so getPropertyValue returns an empty string."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the color of the box text?<br><pre><code>&lt;style&gt;\n  #box { color: blue; }\n  .highlight { color: green !important; }\n&lt;/style&gt;\n&lt;div id=\"box\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nbox.style.color = \"red\"; // Inline style\nbox.classList.add(\"highlight\"); // Has !important\n&lt;/script&gt;</code></pre>",
+        "hint": "!important overrides inline styles.",
+        "answer": "The text is <strong>green</strong>.",
+        "explanation": "Normally inline styles override stylesheet styles. But <code>!important</code> in the stylesheet overrides even inline styles. The cascade order: normal stylesheet < inline style < !important stylesheet. Green wins."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;style&gt;.box { width: 50%; padding: 1em; font-size: 20px; }&lt;/style&gt;\n&lt;div class=\"box\" id=\"box\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst computed = getComputedStyle(document.getElementById(\"box\"));\nconsole.log(typeof computed.width);\nconsole.log(computed.width.endsWith(\"px\"));\nconsole.log(computed.padding.endsWith(\"px\"));\n&lt;/script&gt;</code></pre>",
+        "hint": "getComputedStyle returns resolved values in px, not the original units.",
+        "answer": "<code>string</code><br><code>true</code><br><code>true</code>",
+        "explanation": "getComputedStyle always returns strings in resolved units. Even though width was \"50%\" and padding was \"1em\" in CSS, the computed values are in pixels (e.g., \"500px\", \"20px\"). Both end with \"px\"."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does the box look like after this code?<br><pre><code>&lt;div id=\"box\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nbox.style.padding = \"20px\";\nbox.style.backgroundColor = \"#a855f7\";\nbox.style.color = \"white\";\nbox.style.borderRadius = \"12px\";\n&lt;/script&gt;</code></pre>",
+        "hint": "Each line sets an inline CSS style.",
+        "answer": "A white text \"Hello\" on a purple (#a855f7) background with 20px padding and rounded corners (12px radius).",
+        "explanation": "Four inline styles are set: padding, purple background, white text, and rounded corners. These appear immediately on the element."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;style&gt;\n  :root { --theme: light; --bg: white; }\n&lt;/style&gt;\n\n&lt;script&gt;\nconst root = document.documentElement;\nroot.style.setProperty(\"--theme\", \"dark\");\nroot.style.setProperty(\"--bg\", \"#1a1a2e\");\n\nconsole.log(getComputedStyle(root).getPropertyValue(\"--theme\").trim());\nconsole.log(getComputedStyle(root).getPropertyValue(\"--bg\").trim());\n&lt;/script&gt;</code></pre>",
+        "hint": "setProperty overrides the CSS variable values.",
+        "answer": "<code>dark</code><br><code>#1a1a2e</code>",
+        "explanation": "setProperty changes the CSS variables on the root element. getPropertyValue reads the updated values: --theme is now \"dark\" and --bg is now \"#1a1a2e\"."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;style&gt;\n  #box { transition: opacity 0.5s; opacity: 1; }\n  #box.hidden { opacity: 0; }\n&lt;/style&gt;\n&lt;div id=\"box\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nbox.classList.add(\"hidden\");\nconsole.log(getComputedStyle(box).opacity);\nsetTimeout(function() {\n  console.log(box.classList.contains(\"hidden\"));\n}, 600);\n&lt;/script&gt;</code></pre>",
+        "hint": "The class is added immediately. The visual transition takes 0.5s but the computed value updates instantly.",
+        "answer": "<code>0</code> (logged immediately)<br><code>true</code> (logged after 600ms)",
+        "explanation": "Adding the 'hidden' class immediately changes the computed opacity to 0 (the target value). The visual transition takes 0.5s to fade. After 600ms, the class is still there (true). The transition is purely visual -- the computed value reflects the end state right away."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"box\" style=\"width: 100px; height: 50px; background: red;\"&gt;&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nconsole.log(box.style.width);\nconsole.log(box.style.height);\nbox.style.width = \"200px\";\nconsole.log(box.style.cssText);\n&lt;/script&gt;</code></pre>",
+        "hint": "style.cssText shows all inline styles as a string.",
+        "answer": "<code>100px</code><br><code>50px</code><br><code>width: 200px; height: 50px; background: red;</code>",
+        "explanation": "Initially width is 100px and height is 50px (inline styles). After changing width to 200px, cssText shows all current inline styles including the updated width."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"box\" class=\"card active\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nconsole.log(box.classList.length);\nconsole.log(box.classList[0]);\nconsole.log(box.classList[1]);\n&lt;/script&gt;</code></pre>",
+        "hint": "classList is array-like with indexed access.",
+        "answer": "<code>2</code><br><code>card</code><br><code>active</code>",
+        "explanation": "The div has 2 classes. classList supports indexed access like an array: index 0 is \"card\", index 1 is \"active\"."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the value of --primary after this code?<br><pre><code>&lt;style&gt;\n  :root { --primary: red; }\n  body { --primary: blue; }\n&lt;/style&gt;\n\n&lt;script&gt;\nconst rootVal = getComputedStyle(document.documentElement).getPropertyValue(\"--primary\").trim();\nconst bodyVal = getComputedStyle(document.body).getPropertyValue(\"--primary\").trim();\nconsole.log(\"root:\", rootVal);\nconsole.log(\"body:\", bodyVal);\n&lt;/script&gt;</code></pre>",
+        "hint": "CSS variables can be overridden at different levels of the DOM.",
+        "answer": "<code>root: red</code><br><code>body: blue</code>",
+        "explanation": "The :root level has --primary as red. The body level overrides it to blue. getComputedStyle on the html element returns \"red\". On body (and its children), it returns \"blue\" because body's value overrides root's."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between <code>element.style</code> and <code>getComputedStyle(element)</code>?",
+        "hint": "One reads inline styles, the other reads all applied styles.",
+        "answer": "<code>element.style</code> reads and sets only inline styles (styles set directly on the element via the style attribute or JavaScript). <code>getComputedStyle(element)</code> reads the final computed styles from all CSS sources: inline styles, stylesheets, inherited styles, and browser defaults. getComputedStyle is read-only; you cannot set styles with it.",
+        "explanation": "Use element.style when you need to set inline styles or read values you previously set. Use getComputedStyle when you need to read the actual visual state of an element."
+      },
+      {
+        "id": "mx-4",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is <code>classList.toggle</code> better than inline styles for a dark mode toggle?",
+        "hint": "Think about code organization and maintainability.",
+        "answer": "classList.toggle is better because: (1) All dark mode styles are defined in CSS, keeping style logic in one place. (2) One toggle call changes all properties at once instead of setting each one individually. (3) CSS transitions work automatically on class changes. (4) It is easier to debug -- you can see the class in DevTools. (5) You can define complex selectors like .dark .card, .dark .nav in CSS. With inline styles, you would need to set every property on every element manually.",
+        "explanation": "Separation of concerns: JS handles when to change (logic), CSS handles what changes (visuals). This makes code cleaner, more maintainable, and easier to collaborate on."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "How do CSS custom properties (variables) make theme switching easy?",
+        "hint": "Think about what happens when you change a variable that is used in 50 places.",
+        "answer": "CSS variables are defined once (usually on :root) and referenced everywhere with var(--name). When JavaScript changes a variable with setProperty, every element using that variable updates automatically. For a theme switch, you change 4-5 variables (--bg, --text, --primary, etc.) and the entire site's color scheme updates instantly. Without variables, you would need to find and change every element individually.",
+        "explanation": "Example: if 30 elements use var(--primary), changing --primary once with setProperty updates all 30. This is far more efficient and maintainable than changing 30 element.style.color calls."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;style&gt;\n  .fade { opacity: 0; transition: opacity 0.5s; }\n  .fade.show { opacity: 1; }\n&lt;/style&gt;\n&lt;div class=\"fade\" id=\"box\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nconsole.log(getComputedStyle(box).opacity);\nbox.classList.add(\"show\");\nconsole.log(getComputedStyle(box).opacity);\n&lt;/script&gt;</code></pre>",
+        "hint": "Adding the class changes opacity immediately in the computed style.",
+        "answer": "<code>0</code><br><code>1</code>",
+        "explanation": "Before adding \"show\", opacity is 0. After adding \"show\", the computed opacity immediately becomes 1. Note: the visual transition takes 0.5s, but getComputedStyle returns the target value right away."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;style&gt;\n  :root { --size: 16px; }\n  #box { font-size: var(--size); }\n&lt;/style&gt;\n&lt;div id=\"box\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst root = document.documentElement;\nconst box = document.getElementById(\"box\");\n\nconsole.log(getComputedStyle(box).fontSize);\nroot.style.setProperty(\"--size\", \"24px\");\nconsole.log(getComputedStyle(box).fontSize);\nroot.style.setProperty(\"--size\", \"2em\");\nconsole.log(getComputedStyle(box).fontSize);\n&lt;/script&gt;</code></pre>",
+        "hint": "CSS variables are applied as regular CSS values. em is relative to parent font-size.",
+        "answer": "<code>16px</code><br><code>24px</code><br><code>32px</code>",
+        "explanation": "Initially --size is 16px. After changing to 24px, computed fontSize is 24px. After changing to 2em, the box's font-size is 2x the parent's font-size. If the parent is 16px (browser default), 2em = 32px."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What happens?<br><pre><code>&lt;style&gt;\n  .box { width: 100px; transition: width 1s; }\n&lt;/style&gt;\n&lt;div class=\"box\" id=\"box\" style=\"background: #a855f7; height: 50px;\"&gt;&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nbox.style.width = \"100px\"; // Same as current\nbox.style.width = \"300px\"; // Change\n&lt;/script&gt;</code></pre>",
+        "hint": "Both style changes happen in the same synchronous code block.",
+        "answer": "The box jumps directly to 300px without any animation.",
+        "explanation": "Both assignments happen in the same synchronous block before the browser has a chance to render. The browser only sees the final state (300px). Since it never rendered the 100px state, there is no transition. To trigger a transition, you need the browser to render the initial state first (using requestAnimationFrame or setTimeout)."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;script&gt;\nconsole.log(window.scrollY);\nwindow.scrollTo(0, 500);\nconsole.log(window.scrollY);\n&lt;/script&gt;</code></pre><p>Assuming the page is long enough to scroll.</p>",
+        "hint": "scrollTo changes the scroll position synchronously.",
+        "answer": "<code>0</code><br><code>500</code>",
+        "explanation": "Initially at the top (scrollY = 0). <code>scrollTo(0, 500)</code> scrolls to 500px. scrollY is updated immediately (synchronously)."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;style&gt;\n  .card { color: blue; }\n  .card.dark { color: white; background: #1a1a2e; }\n&lt;/style&gt;\n&lt;div class=\"card\" id=\"card\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst card = document.getElementById(\"card\");\nconsole.log(getComputedStyle(card).color);\ncard.style.color = \"red\"; // Inline\nconsole.log(getComputedStyle(card).color);\ncard.classList.add(\"dark\"); // .card.dark says color: white\nconsole.log(getComputedStyle(card).color);\n&lt;/script&gt;</code></pre>",
+        "hint": "Inline styles have higher specificity than class selectors.",
+        "answer": "<code>rgb(0, 0, 255)</code><br><code>rgb(255, 0, 0)</code><br><code>rgb(255, 0, 0)</code>",
+        "explanation": "Initially blue (from .card). After setting inline color to red, it overrides the class (inline > class specificity). After adding .dark class which sets color: white, the inline red still wins because inline styles have higher specificity than any class selector."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What happens?<br><pre><code>&lt;style&gt;\n  .box { width: 100px; height: 100px; background: #a855f7; }\n&lt;/style&gt;\n&lt;div class=\"box\" id=\"box\"&gt;&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nbox.style.background = \"#06b6d4\";\n&lt;/script&gt;</code></pre>",
+        "hint": "Inline styles override stylesheet styles.",
+        "answer": "The box changes from purple (#a855f7) to teal (#06b6d4). The inline style overrides the stylesheet.",
+        "explanation": "Inline styles have higher specificity than class selectors. The box's background changes from the stylesheet value (#a855f7) to the inline value (#06b6d4)."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;style&gt;\n  #box { width: 50%; }\n&lt;/style&gt;\n&lt;div id=\"box\" style=\"width:300px;\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nconsole.log(box.style.width);\nconsole.log(getComputedStyle(box).width);\n&lt;/script&gt;</code></pre>",
+        "hint": "The inline style (300px) overrides the stylesheet (50%). element.style reads inline; getComputedStyle reads the final value.",
+        "answer": "<code>300px</code><br><code>300px</code>",
+        "explanation": "The inline style (300px) overrides the stylesheet (50%). element.style reads the inline value: \"300px\". getComputedStyle reads the final computed value, which is also 300px because the inline style wins."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"box\" class=\"a b c\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nconsole.log(box.classList.length);\nbox.classList.remove(\"b\");\nconsole.log(box.className);\n&lt;/script&gt;</code></pre>",
+        "hint": "classList.length counts the classes. remove takes out one class.",
+        "answer": "<code>3</code><br><code>a c</code>",
+        "explanation": "Initially there are 3 classes (a, b, c). After removing 'b', className is 'a c'."
+      },
+      {
+        "id": "mx-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is logged?<br><pre><code>&lt;style&gt;\n  :root { --gap: 10; }\n&lt;/style&gt;\n\n&lt;script&gt;\nconst root = document.documentElement;\nconst gap = getComputedStyle(root).getPropertyValue(\"--gap\").trim();\nconsole.log(gap);\nconsole.log(typeof gap);\nconsole.log(gap * 2);\n&lt;/script&gt;</code></pre>",
+        "hint": "CSS variable values are always returned as strings.",
+        "answer": "<code>10</code><br><code>string</code><br><code>20</code>",
+        "explanation": "CSS variable values are always strings. getPropertyValue returns \"10\" (a string). typeof is \"string\". But JavaScript coerces it to a number for multiplication: \"10\" * 2 = 20."
+      },
+      {
+        "id": "mx-15",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the best way to create a hover effect: CSS <code>:hover</code> or JavaScript <code>mouseenter/mouseleave</code>?",
+        "hint": "Think about simplicity and performance.",
+        "answer": "For simple hover effects (color change, scale, shadow), CSS <code>:hover</code> is better -- it is simpler, more performant, and does not require JavaScript. Use JavaScript <code>mouseenter/mouseleave</code> only when you need complex logic (like fetching data on hover, showing different content based on state, or coordinating with other elements). Rule: use CSS when possible, JS when necessary.",
+        "explanation": "CSS hover effects are handled by the browser's rendering engine, which is faster than JavaScript event handlers. JavaScript adds overhead (event loop, function execution). Only use JS hover events when CSS cannot achieve the desired behavior."
+      },
+      {
+        "id": "mx-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is logged?<br><pre><code>&lt;div id=\"box\" class=\"active\"&gt;Hello&lt;/div&gt;\n\n&lt;script&gt;\nconst box = document.getElementById(\"box\");\nconst result = box.classList.replace(\"active\", \"inactive\");\nconsole.log(result);\nconsole.log(box.className);\n\nconst result2 = box.classList.replace(\"missing\", \"found\");\nconsole.log(result2);\nconsole.log(box.className);\n&lt;/script&gt;</code></pre>",
+        "hint": "replace returns true if the replacement was made, false if the old class was not found.",
+        "answer": "<code>true</code><br><code>inactive</code><br><code>false</code><br><code>inactive</code>",
+        "explanation": "First replace: 'active' exists, so it is replaced with 'inactive'. Returns true. Second replace: 'missing' does not exist, so nothing happens. Returns false. Class remains 'inactive'."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "How do you change the background color of an element with JavaScript?",
+        "options": {
+          "A": "element.bg = 'red'",
+          "B": "element.style.backgroundColor = 'red'",
+          "C": "element.setBackground('red')",
+          "D": "element.css('background', 'red')"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>element.style.backgroundColor</code> is the correct property. CSS uses background-color (kebab-case), JavaScript uses backgroundColor (camelCase)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does <code>getComputedStyle(element)</code> return?",
+        "options": {
+          "A": "Only inline styles",
+          "B": "Only stylesheet styles",
+          "C": "The final computed styles from all CSS sources",
+          "D": "CSS variable values only"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> getComputedStyle returns the final, computed values from all sources: inline styles, stylesheets, inherited properties, and browser defaults."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does <code>classList.toggle('dark')</code> return?",
+        "options": {
+          "A": "undefined",
+          "B": "The element",
+          "C": "true if the class was added, false if removed",
+          "D": "The class name"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>toggle</code> returns a boolean: <code>true</code> if the class was added (was missing), <code>false</code> if it was removed (was present)."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "How do you set a CSS custom property with JavaScript?",
+        "options": {
+          "A": "document.style.setProperty('--color', 'red')",
+          "B": "document.documentElement.style.setProperty('--color', 'red')",
+          "C": "document.css('--color', 'red')",
+          "D": "root.setVariable('--color', 'red')"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>document.documentElement</code> is the html element where :root variables live. <code>style.setProperty('--color', 'red')</code> sets the CSS variable."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "Why does <code>element.style.width</code> return empty string when width is set in a stylesheet?",
+        "options": {
+          "A": "It is a bug",
+          "B": "element.style only reads inline styles, not stylesheet styles",
+          "C": "Width is not a valid CSS property",
+          "D": "The element must be visible first"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>element.style</code> is the inline style object. It only contains properties set directly on the element's style attribute, not properties from external or internal stylesheets."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What format does <code>getComputedStyle</code> return colors in?",
+        "options": {
+          "A": "Hex (#ff0000)",
+          "B": "Named color (red)",
+          "C": "RGB (rgb(255, 0, 0))",
+          "D": "HSL (hsl(0, 100%, 50%))"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Computed values for colors are returned in <code>rgb(r, g, b)</code> format (or <code>rgba</code> if transparent). Even if you defined the color as hex, named, or HSL, the computed value is always RGB."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Which CSS property CANNOT be animated with transitions?",
+        "options": {
+          "A": "opacity",
+          "B": "transform",
+          "C": "display",
+          "D": "background-color"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>display</code> is a discrete property (none/block/flex etc.) that cannot be smoothly animated. Use opacity + visibility instead for show/hide animations."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is <code>window.scrollY</code>?",
+        "options": {
+          "A": "The width of the scrollbar",
+          "B": "The number of pixels scrolled vertically from the top",
+          "C": "The total height of the page",
+          "D": "The viewport height"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>window.scrollY</code> returns the number of pixels the page has been scrolled vertically from the top. At the top of the page, it is 0."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Hard",
+        "question": "What does <code>style.cssText = 'color: red;'</code> do?",
+        "options": {
+          "A": "Adds color: red to existing inline styles",
+          "B": "Replaces ALL inline styles with only color: red",
+          "C": "Sets a CSS class",
+          "D": "Has no effect"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>cssText</code> replaces the entire inline style attribute with the new string. Any previously set inline styles are lost."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "In terms of CSS specificity, what is the order from lowest to highest?",
+        "options": {
+          "A": "Inline > Class > ID > Element",
+          "B": "Element > Class > ID > Inline",
+          "C": "ID > Class > Inline > Element",
+          "D": "Class > Element > Inline > ID"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Specificity from lowest to highest: element selectors (p, div) < class selectors (.card) < ID selectors (#main) < inline styles. !important overrides all of these."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Easy",
+        "question": "Which method replaces one CSS class with another?",
+        "options": {
+          "A": "classList.swap('old', 'new')",
+          "B": "classList.replace('old', 'new')",
+          "C": "classList.change('old', 'new')",
+          "D": "classList.switch('old', 'new')"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>classList.replace('old', 'new')</code> removes the old class and adds the new one in a single operation. Returns true if the replacement was made."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "What is <code>document.documentElement</code>?",
+        "options": {
+          "A": "The body element",
+          "B": "The head element",
+          "C": "The html element (root of the DOM)",
+          "D": "The document object"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>document.documentElement</code> returns the root element of the document, which is the <code>&lt;html&gt;</code> element. This is where :root CSS variables are typically defined."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Why does an inline style override a stylesheet class with the same property?",
+        "options": {
+          "A": "Inline styles load first",
+          "B": "Inline styles have higher specificity than class or ID selectors",
+          "C": "Classes are ignored when inline styles exist",
+          "D": "It is a browser rendering quirk"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In CSS specificity, inline styles (style attribute) have a specificity of 1000, which is higher than any selector in a stylesheet (IDs = 100, classes = 10, elements = 1). Only <code>!important</code> can override inline styles."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "How do you smoothly scroll to the top of the page?",
+        "options": {
+          "A": "window.scrollTo(0, 0)",
+          "B": "window.scrollTo({ top: 0, behavior: 'smooth' })",
+          "C": "document.body.scrollTop = 0",
+          "D": "window.scroll('top')"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Passing an object with <code>behavior: 'smooth'</code> makes the scroll animated instead of instant. Option A works but jumps instantly without animation."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "How do you remove an inline style that was set with JavaScript?",
+        "options": {
+          "A": "element.style.color = null",
+          "B": "element.style.color = ''",
+          "C": "element.removeStyle('color')",
+          "D": "delete element.style.color"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Setting a style property to an empty string removes that inline style, allowing stylesheet styles to take effect again."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "What prefix do CSS custom properties (variables) require?",
+        "options": {
+          "A": "$ (dollar sign)",
+          "B": "@ (at sign)",
+          "C": "-- (double hyphen)",
+          "D": "# (hash)"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> CSS custom properties must start with <code>--</code> (double hyphen). Example: <code>--primary-color: #a855f7;</code>. They are referenced with <code>var(--primary-color)</code>."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "What does <code>getComputedStyle(element).display</code> return for an element with <code>display: flex</code> in a stylesheet?",
+        "options": {
+          "A": "''  (empty string)",
+          "B": "flex",
+          "C": "block",
+          "D": "undefined"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>getComputedStyle</code> returns the actual computed value from all CSS sources. If the stylesheet sets <code>display: flex</code>, it returns \"flex\"."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is <code>requestAnimationFrame</code> used for?",
+        "options": {
+          "A": "Loading images faster",
+          "B": "Scheduling code to run before the next browser repaint, ideal for smooth animations",
+          "C": "Creating CSS keyframe animations",
+          "D": "Pausing JavaScript execution"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>requestAnimationFrame(callback)</code> tells the browser to call your function before the next repaint (typically 60fps). This is the most efficient way to create smooth JavaScript-driven animations."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Easy",
+        "question": "Which is the preferred way to change element styles: inline styles or CSS classes?",
+        "options": {
+          "A": "Inline styles (element.style) are always preferred",
+          "B": "CSS classes (classList) are preferred for predefined styles; inline styles for dynamic values",
+          "C": "They are equivalent",
+          "D": "Neither -- use only stylesheets"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> CSS classes are preferred because they separate style from logic, are easier to manage, and work with CSS transitions. Use inline styles only for truly dynamic values that cannot be predefined (like positioning based on mouse coordinates)."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "What happens if you set <code>element.style.setProperty('--custom', 'blue')</code> on a specific element instead of <code>:root</code>?",
+        "options": {
+          "A": "It does not work -- variables can only be set on :root",
+          "B": "The variable overrides the :root value for that element and its descendants only",
+          "C": "It changes the variable globally",
+          "D": "An error is thrown"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> CSS variables follow inheritance. Setting a variable on a specific element overrides the :root value for that element and all its children, while the rest of the page keeps the :root value."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Dark Mode Toggle",
+        "difficulty": "Easy",
+        "description": "Create a page with a heading, paragraph, and a toggle button. Define a .dark class on body that changes background to #1a1a2e and text to #f1f5f9. Clicking the button toggles dark mode. The button text should change between 'Dark Mode' and 'Light Mode'.",
+        "sampleInput": "Click the toggle button",
+        "sampleOutput": "Page switches to dark background and light text. Button says 'Light Mode'.",
+        "constraints": "Use classList.toggle on body. Use CSS transitions for smooth color changes. No inline styles for the theme.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  body { font-family: Arial; padding: 20px; transition: background 0.3s, color 0.3s; }\n  body.dark { background: #1a1a2e; color: #f1f5f9; }\n  button { padding: 10px 20px; cursor: pointer; }\n</style></head>\n<body>\n  <h1>My Page</h1>\n  <p>Toggle the theme with the button below.</p>\n  <button id=\"btn\">Dark Mode</button>\n  <script>\n    const btn = document.getElementById(\"btn\");\n    btn.addEventListener(\"click\", function() {\n      const isDark = document.body.classList.toggle(\"dark\");\n      btn.textContent = isDark ? \"Light Mode\" : \"Dark Mode\";\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Font Size Controller",
+        "difficulty": "Easy",
+        "description": "Create a paragraph of text and three buttons: 'A-' (decrease), 'A' (reset), 'A+' (increase). Clicking them should change the paragraph font size by 2px. Show the current font size. Minimum 12px, maximum 36px.",
+        "sampleInput": "Click A+ three times",
+        "sampleOutput": "Font grows from 16px to 22px. Display shows '22px'.",
+        "constraints": "Use element.style.fontSize. Use getComputedStyle for the initial value. Clamp between 12 and 36.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <p id=\"text\" style=\"font-size: 16px;\">This is sample text. Change the font size with the buttons below.</p>\n  <button id=\"minus\">A-</button>\n  <button id=\"reset\">A</button>\n  <button id=\"plus\">A+</button>\n  <span id=\"display\">16px</span>\n  <script>\n    const text = document.getElementById(\"text\");\n    const display = document.getElementById(\"display\");\n    let size = 16;\n    function update() { text.style.fontSize = size + \"px\"; display.textContent = size + \"px\"; }\n    document.getElementById(\"plus\").addEventListener(\"click\", function() { if (size < 36) { size += 2; update(); } });\n    document.getElementById(\"minus\").addEventListener(\"click\", function() { if (size > 12) { size -= 2; update(); } });\n    document.getElementById(\"reset\").addEventListener(\"click\", function() { size = 16; update(); });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "CSS Variable Theme Switcher",
+        "difficulty": "Medium",
+        "description": "Define 4 CSS variables on :root (--bg, --text, --primary, --accent). Create 4 theme presets (Purple, Ocean, Forest, Sunset) as JavaScript objects. Create 4 buttons. Clicking each button changes all 4 variables using setProperty. All elements on the page should use var() references so they update automatically.",
+        "sampleInput": "Click 'Ocean' button",
+        "sampleOutput": "Entire page switches to blue/teal color scheme.",
+        "constraints": "Use CSS custom properties. Use setProperty to change them. All colors must use var() in CSS.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  :root { --bg: #fff; --text: #1a1a2e; --primary: #a855f7; --accent: #06b6d4; }\n  body { background: var(--bg); color: var(--text); font-family: Arial; padding: 20px; transition: all 0.3s; }\n  h1 { color: var(--primary); }\n  .card { background: var(--primary); color: white; padding: 20px; border-radius: 12px; margin: 16px 0; }\n  button { padding: 8px 16px; margin: 4px; cursor: pointer; border: 2px solid var(--primary); border-radius: 6px; background: var(--accent); color: white; }\n</style></head>\n<body>\n  <h1>Theme Demo</h1>\n  <button id=\"t1\">Purple</button><button id=\"t2\">Ocean</button><button id=\"t3\">Forest</button><button id=\"t4\">Sunset</button>\n  <div class=\"card\"><h3>Card</h3><p>This card uses the primary color.</p></div>\n  <script>\n    const themes = {\n      t1: {\"--bg\":\"#fff\",\"--text\":\"#1a1a2e\",\"--primary\":\"#a855f7\",\"--accent\":\"#06b6d4\"},\n      t2: {\"--bg\":\"#f0f9ff\",\"--text\":\"#0c4a6e\",\"--primary\":\"#0369a1\",\"--accent\":\"#06b6d4\"},\n      t3: {\"--bg\":\"#f0fdf4\",\"--text\":\"#14532d\",\"--primary\":\"#15803d\",\"--accent\":\"#a3e635\"},\n      t4: {\"--bg\":\"#fff7ed\",\"--text\":\"#7c2d12\",\"--primary\":\"#ea580c\",\"--accent\":\"#facc15\"}\n    };\n    const root = document.documentElement;\n    Object.keys(themes).forEach(function(id) {\n      document.getElementById(id).addEventListener(\"click\", function() {\n        Object.entries(themes[id]).forEach(function(entry) { root.style.setProperty(entry[0], entry[1]); });\n      });\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Scroll Progress Bar",
+        "difficulty": "Medium",
+        "description": "Create a fixed progress bar at the top of the page that fills from left to right as the user scrolls. At the top, width is 0%. At the bottom, width is 100%. Use a gradient background for the bar. Also add a percentage display.",
+        "sampleInput": "Scroll halfway down the page",
+        "sampleOutput": "Progress bar is 50% wide. Display shows '50%'.",
+        "constraints": "Use window.scrollY, document.documentElement.scrollHeight, and window.innerHeight for calculation. Use element.style.width for the bar.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  body { font-family: Arial; padding: 20px; margin: 0; }\n  .bar { position: fixed; top: 0; left: 0; height: 4px; background: linear-gradient(to right, #a855f7, #06b6d4); z-index: 100; transition: width 0.1s; }\n  .pct { position: fixed; top: 8px; right: 16px; font-size: 13px; color: #666; z-index: 100; }\n  .content { padding-top: 30px; }\n  section { min-height: 50vh; padding: 40px 0; border-bottom: 1px solid #eee; }\n</style></head>\n<body>\n  <div class=\"bar\" id=\"bar\"></div>\n  <div class=\"pct\" id=\"pct\">0%</div>\n  <div class=\"content\">\n    <section><h2>Section 1</h2><p>Scroll down to see the progress bar fill.</p></section>\n    <section><h2>Section 2</h2><p>Content here.</p></section>\n    <section><h2>Section 3</h2><p>More content.</p></section>\n    <section><h2>Section 4</h2><p>Almost there.</p></section>\n    <section><h2>Section 5</h2><p>Bottom of page.</p></section>\n  </div>\n  <script>\n    const bar = document.getElementById(\"bar\");\n    const pct = document.getElementById(\"pct\");\n    window.addEventListener(\"scroll\", function() {\n      const scrollable = document.documentElement.scrollHeight - window.innerHeight;\n      const percent = Math.round((window.scrollY / scrollable) * 100);\n      bar.style.width = percent + \"%\";\n      pct.textContent = percent + \"%\";\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Animated Card Flip",
+        "difficulty": "Hard",
+        "description": "Create a card with a front and back face. Clicking the card flips it with a 3D rotation animation. The front shows a question. The back shows the answer. Use CSS transform: rotateY and backface-visibility. JavaScript just toggles a class.",
+        "sampleInput": "Click the card",
+        "sampleOutput": "Card flips 180 degrees revealing the answer on the back. Click again to flip back.",
+        "constraints": "Use CSS 3D transforms (perspective, rotateY, backface-visibility). JavaScript should only toggle a 'flipped' class.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  body { font-family: Arial; padding: 40px; display: flex; justify-content: center; }\n  .card-container { perspective: 800px; width: 300px; height: 200px; cursor: pointer; }\n  .card { width: 100%; height: 100%; position: relative; transition: transform 0.6s; transform-style: preserve-3d; }\n  .card.flipped { transform: rotateY(180deg); }\n  .front, .back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; border-radius: 12px; padding: 20px; box-sizing: border-box; text-align: center; font-size: 18px; }\n  .front { background: #a855f7; color: white; }\n  .back { background: #06b6d4; color: white; transform: rotateY(180deg); }\n</style></head>\n<body>\n  <div class=\"card-container\" id=\"container\">\n    <div class=\"card\" id=\"card\">\n      <div class=\"front\"><strong>What does DOM stand for?</strong></div>\n      <div class=\"back\"><strong>Document Object Model</strong></div>\n    </div>\n  </div>\n  <script>\n    document.getElementById(\"container\").addEventListener(\"click\", function() {\n      document.getElementById(\"card\").classList.toggle(\"flipped\");\n    });\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Interactive Color Mixer",
+        "difficulty": "Hard",
+        "description": "Create three range sliders for Red, Green, and Blue (0-255). As the user adjusts any slider, update: (1) a preview box showing the mixed color as background, (2) the hex code display, (3) the RGB display, (4) CSS variables --red, --green, --blue that control text labels. Show the numeric value next to each slider.",
+        "sampleInput": "Set R:168, G:85, B:247",
+        "sampleOutput": "Preview shows purple (#a855f7). Displays: 'HEX: #a855f7' and 'RGB: rgb(168, 85, 247)'.",
+        "constraints": "Use input event on range sliders. Use CSS custom properties for dynamic coloring. Calculate hex from RGB values.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head><style>\n  body { font-family: Arial; padding: 20px; }\n  .slider-group { margin: 8px 0; display: flex; align-items: center; gap: 12px; }\n  input[type=range] { width: 200px; }\n  #preview { width: 200px; height: 200px; border-radius: 12px; margin: 16px 0; border: 1px solid #ddd; }\n  .value { font-family: monospace; font-size: 18px; min-width: 40px; }\n  .code { font-family: monospace; font-size: 16px; margin: 4px 0; }\n</style></head>\n<body>\n  <h2>Color Mixer</h2>\n  <div class=\"slider-group\"><label style=\"color:red;width:50px;\">Red</label><input type=\"range\" id=\"r\" min=\"0\" max=\"255\" value=\"168\"><span class=\"value\" id=\"rv\">168</span></div>\n  <div class=\"slider-group\"><label style=\"color:green;width:50px;\">Green</label><input type=\"range\" id=\"g\" min=\"0\" max=\"255\" value=\"85\"><span class=\"value\" id=\"gv\">85</span></div>\n  <div class=\"slider-group\"><label style=\"color:blue;width:50px;\">Blue</label><input type=\"range\" id=\"b\" min=\"0\" max=\"255\" value=\"247\"><span class=\"value\" id=\"bv\">247</span></div>\n  <div id=\"preview\"></div>\n  <div class=\"code\" id=\"hex\"></div>\n  <div class=\"code\" id=\"rgb\"></div>\n  <script>\n    const rSlider = document.getElementById(\"r\");\n    const gSlider = document.getElementById(\"g\");\n    const bSlider = document.getElementById(\"b\");\n    function toHex(n) { return Number(n).toString(16).padStart(2, \"0\"); }\n    function update() {\n      const r = rSlider.value, g = gSlider.value, b = bSlider.value;\n      document.getElementById(\"rv\").textContent = r;\n      document.getElementById(\"gv\").textContent = g;\n      document.getElementById(\"bv\").textContent = b;\n      const hex = \"#\" + toHex(r) + toHex(g) + toHex(b);\n      document.getElementById(\"preview\").style.backgroundColor = hex;\n      document.getElementById(\"hex\").textContent = \"HEX: \" + hex;\n      document.getElementById(\"rgb\").textContent = \"RGB: rgb(\" + r + \", \" + g + \", \" + b + \")\";\n    }\n    rSlider.addEventListener(\"input\", update);\n    gSlider.addEventListener(\"input\", update);\n    bSlider.addEventListener(\"input\", update);\n    update();\n  </script>\n</body>\n</html>"
+      }
+    ]
+  }
+}

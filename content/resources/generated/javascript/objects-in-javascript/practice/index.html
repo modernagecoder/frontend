@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Objects and JSON | JavaScript | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="57+ practice questions on Objects and JSON in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="objects and json practice, javascript questions, javascript practice problems, objects and json exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/objects-in-javascript/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/objects-in-javascript/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/objects-in-javascript/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/objects-in-javascript/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/objects-in-javascript/practice">
+    <meta property="og:title" content="Practice Questions - Objects and JSON | JavaScript | Modern Age Coders">
+    <meta property="og:description" content="57+ practice questions on Objects and JSON in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/objects-in-javascript/practice">
+    <meta name="twitter:title" content="Practice Questions - Objects and JSON | JavaScript | Modern Age Coders">
+    <meta name="twitter:description" content="57+ practice questions on Objects and JSON in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Objects and JSON",
+    "description": "57+ practice questions on Objects and JSON in JavaScript.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Objects and JSON"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/objects-in-javascript/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Objects and JSON",
+        "item": "https://learn.modernagecoders.com/resources/javascript/objects-in-javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/javascript/objects-in-javascript/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript/objects-in-javascript">Objects and JSON</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 9</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">57 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Objects and JSON</h1>
+            <a href="/resources/javascript/objects-in-javascript" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>const obj = { name: "Aarav", age: 15 };
+console.log(obj.name);
+console.log(obj.age);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Dot notation accesses property values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Aarav</code><br><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const student = { name: "Priya", grade: "10th" };
+const key = "grade";
+console.log(student[key]);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Bracket notation lets you use a variable as the key.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>10th</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const obj = { a: 1, b: 2, c: 3 };
+console.log(Object.keys(obj));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Object.keys returns an array of property names.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>["a", "b", "c"]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const obj = { x: 10, y: 20 };
+obj.z = 30;
+console.log(obj);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">You can add properties to objects at any time.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>{ x: 10, y: 20, z: 30 }</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const scores = { maths: 95, science: 88 };
+console.log(Object.values(scores));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Object.values returns an array of property values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>[95, 88]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const { name, age } = { name: "Rohan", age: 16, grade: "11th" };
+console.log(name);
+console.log(age);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Destructuring extracts specific properties into variables.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Rohan</code><br><code>16</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const person = {
+  name: "Kavya",
+  greet() {
+    return "Hi, " + this.name;
+  }
+};
+
+console.log(person.greet());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">this refers to the object the method belongs to.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Hi, Kavya</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const a = { x: 1 };
+const b = { ...a, y: 2 };
+console.log(b);
+console.log(a);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Spread copies properties into a new object.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>{ x: 1, y: 2 }</code><br><code>{ x: 1 }</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const obj = { a: 1, b: 2, c: 3 };
+const entries = Object.entries(obj);
+console.log(entries);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Object.entries returns [key, value] pairs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>[["a", 1], ["b", 2], ["c", 3]]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const student = {
+  name: "Diya",
+  address: {
+    city: "Chennai",
+    state: "Tamil Nadu"
+  }
+};
+
+console.log(student.address.city);
+console.log(student.phone?.number);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Optional chaining (?.) returns undefined for missing properties instead of throwing an error.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>Chennai</code><br><code>undefined</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const obj = { name: "Vikram" };
+const json = JSON.stringify(obj);
+console.log(json);
+console.log(typeof json);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">JSON.stringify converts an object to a string.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>{"name":"Vikram"}</code><br><code>string</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const defaults = { color: "red", size: 10 };
+const custom = { size: 20, weight: 5 };
+const merged = { ...defaults, ...custom };
+console.log(merged);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">When spreading, later properties overwrite earlier ones with the same key.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>{ color: "red", size: 20, weight: 5 }</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const a = { data: [1, 2, 3] };
+const b = { ...a };
+b.data.push(4);
+console.log(a.data);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Spread creates a shallow copy. What happens to nested arrays?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>[1, 2, 3, 4]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const a = { name: "Meera" };
+const b = { name: "Meera" };
+const c = a;
+
+console.log(a === b);
+console.log(a === c);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Objects are compared by reference, not content.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>false</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const { name: studentName, age: studentAge = 18 } = { name: "Arjun" };
+console.log(studentName);
+console.log(studentAge);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Renaming and default values in destructuring.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>Arjun</code><br><code>18</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const person = {
+  name: "Aarav",
+  greet: () => {
+    return "Hi, " + this.name;
+  }
+};
+
+console.log(person.greet());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Arrow functions do NOT have their own this.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>Hi, undefined</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between dot notation and bracket notation for accessing object properties?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">When can you use each one?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">Dot notation (<code>obj.key</code>) is simpler and more common. Bracket notation (<code>obj["key"]</code>) is required when the key contains spaces or special characters, when the key is stored in a variable, or when the key is computed dynamically. Dot notation only works with valid identifier names.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const student = {
+  name: "Priya",
+  marks: { maths: 92, science: 88 }
+};
+
+const { marks: { maths, science } } = student;
+console.log(maths);
+console.log(science);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Nested destructuring extracts values from nested objects.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>92</code><br><code>88</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const obj = { a: 1, b: 2, c: 3 };
+delete obj.b;
+console.log(obj);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">delete removes a property from an object.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>{ a: 1, c: 3 }</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const json = '{"name":"Diya","age":14}';
+const obj = JSON.parse(json);
+console.log(obj.name);
+console.log(typeof obj);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">JSON.parse converts a JSON string to a JavaScript object.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>Diya</code><br><code>object</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const person = { name: "Kabir", age: 17 };
+console.log("name" in person);
+console.log("email" in person);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">The in operator checks if a property exists in an object.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const obj = { x: 10, y: 20, z: 30 };
+const sum = Object.values(obj).reduce((a, b) => a + b, 0);
+console.log(sum);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Extract values as an array, then reduce to sum.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>60</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const obj = { a: 1, b: 2, c: 3 };
+const filtered = Object.entries(obj)
+  .filter(([key, val]) => val > 1)
+  .map(([key, val]) => key);
+console.log(filtered);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Convert to entries, filter by value, extract keys.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>["b", "c"]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const student = { name: "Ananya", grade: "10th" };
+const { name, ...rest } = student;
+console.log(name);
+console.log(rest);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Rest pattern collects remaining properties.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Ananya</code><br><code>{ grade: "10th" }</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const key = "color";
+const value = "purple";
+const obj = { [key]: value };
+console.log(obj);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Square brackets in an object literal create a computed property name.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>{ color: "purple" }</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const students = [
+  { name: "Aarav", marks: 72 },
+  { name: "Priya", marks: 91 },
+  { name: "Rohan", marks: 85 },
+  { name: "Diya", marks: 68 }
+];
+
+const names = students
+  .filter(s => s.marks >= 70)
+  .sort((a, b) => b.marks - a.marks)
+  .map(s => s.name);
+
+console.log(names);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Filter >= 70, sort descending, extract names.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>["Priya", "Rohan", "Aarav"]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const obj = {
+  count: 0,
+  increment() {
+    this.count++;
+    return this;
+  },
+  getCount() {
+    return this.count;
+  }
+};
+
+console.log(obj.increment().increment().increment().getCount());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Each increment returns this (the object), enabling chaining.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const data = '{"students":[{"name":"Meera","score":88},{"name":"Kabir","score":92}]}';
+const parsed = JSON.parse(data);
+console.log(parsed.students[1].name);
+console.log(parsed.students.length);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Parse the JSON string, then navigate the nested structure.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>Kabir</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const obj = { a: 1, b: 2 };
+const copy = Object.assign({}, obj, { c: 3 });
+console.log(copy);
+console.log(obj);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Object.assign copies properties from source objects to a target.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>{ a: 1, b: 2, c: 3 }</code><br><code>{ a: 1, b: 2 }</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the difference between a shallow copy and a deep copy of an object? How do you create each?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Think about what happens with nested objects and arrays.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">A <strong>shallow copy</strong> copies top-level properties by value for primitives but by reference for nested objects/arrays. Changes to nested data in the copy affect the original. Create with <code>{ ...obj }</code> or <code>Object.assign({}, obj)</code>. A <strong>deep copy</strong> creates completely independent copies at all nesting levels. Create with <code>structuredClone(obj)</code> or <code>JSON.parse(JSON.stringify(obj))</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const obj = { name: "Ishaan", age: 13 };
+console.log(obj.hasOwnProperty("name"));
+console.log(obj.hasOwnProperty("email"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">hasOwnProperty checks if the object directly has the property.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const people = [
+  { name: "Aarav", city: "Delhi" },
+  { name: "Priya", city: "Mumbai" },
+  { name: "Rohan", city: "Delhi" },
+  { name: "Diya", city: "Mumbai" }
+];
+
+const grouped = people.reduce((acc, person) => {
+  const city = person.city;
+  acc[city] = acc[city] || [];
+  acc[city].push(person.name);
+  return acc;
+}, {});
+
+console.log(grouped);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">reduce groups people by city into an object.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>{ Delhi: ["Aarav", "Rohan"], Mumbai: ["Priya", "Diya"] }</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const obj = { a: 1, b: 2, c: 3 };
+for (const [key, val] of Object.entries(obj)) {
+  console.log(key + " = " + val);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Destructuring in the for...of loop unpacks each [key, value] pair.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>a = 1</code><br><code>b = 2</code><br><code>c = 3</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">How do you create an object in JavaScript?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> const obj = [];</li><li><span class="mcq-option-label">B.</span> const obj = {};</li><li><span class="mcq-option-label">C.</span> const obj = ();</li><li><span class="mcq-option-label">D.</span> const obj = &lt;&gt;;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> Objects are created with curly braces <code>{}</code>. Square brackets <code>[]</code> (option A) create arrays. The other syntaxes are not valid.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does Object.keys(obj) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> An array of values</li><li><span class="mcq-option-label">B.</span> An array of key-value pairs</li><li><span class="mcq-option-label">C.</span> An array of property names (keys)</li><li><span class="mcq-option-label">D.</span> The number of properties</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>Object.keys()</code> returns an array of property names (strings). <code>Object.values()</code> returns values (option A). <code>Object.entries()</code> returns pairs (option B).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">When must you use bracket notation instead of dot notation?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> When the value is a number</li><li><span class="mcq-option-label">B.</span> When the key has spaces or is in a variable</li><li><span class="mcq-option-label">C.</span> When the object has more than 5 properties</li><li><span class="mcq-option-label">D.</span> When the object is nested</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Bracket notation is required when the key contains spaces or special characters (<code>obj["full name"]</code>), when the key is stored in a variable (<code>obj[key]</code>), or when it is computed dynamically.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does JSON stand for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> JavaScript Object Naming</li><li><span class="mcq-option-label">B.</span> JavaScript Oriented Notation</li><li><span class="mcq-option-label">C.</span> JavaScript Object Notation</li><li><span class="mcq-option-label">D.</span> Java Standard Object Notation</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> JSON stands for JavaScript Object Notation. It is a text format for representing data that looks like JavaScript objects but with stricter rules (all keys must be double-quoted).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does delete obj.key do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Sets the property to null</li><li><span class="mcq-option-label">B.</span> Sets the property to undefined</li><li><span class="mcq-option-label">C.</span> Removes the property from the object</li><li><span class="mcq-option-label">D.</span> Throws an error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>delete</code> operator completely removes the property from the object. After deletion, the property no longer exists (not null, not undefined - gone).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What happens when you use === to compare two objects with identical content?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Returns true because the content is the same</li><li><span class="mcq-option-label">B.</span> Returns false because they are different references</li><li><span class="mcq-option-label">C.</span> Throws a TypeError</li><li><span class="mcq-option-label">D.</span> Compares them property by property</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>===</code> compares objects by reference (memory address), not by content. Two different objects with identical content are different references, so <code>===</code> returns false.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Why should you NOT use arrow functions as object methods?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Arrow functions are slower</li><li><span class="mcq-option-label">B.</span> Arrow functions do not have their own this</li><li><span class="mcq-option-label">C.</span> Arrow functions cannot be called</li><li><span class="mcq-option-label">D.</span> Arrow functions cannot access object properties</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> Arrow functions do not have their own <code>this</code>. They inherit <code>this</code> from the enclosing scope, which is usually NOT the object. So <code>this.propertyName</code> inside an arrow method will be undefined.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What does JSON.stringify do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Converts a JSON string to an object</li><li><span class="mcq-option-label">B.</span> Validates JSON syntax</li><li><span class="mcq-option-label">C.</span> Converts a JavaScript object to a JSON string</li><li><span class="mcq-option-label">D.</span> Creates a new JSON file</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>JSON.stringify</code> converts a JavaScript object to a JSON string. <code>JSON.parse</code> does the opposite (option A).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does the spread operator { ...obj } create?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A deep copy of the object</li><li><span class="mcq-option-label">B.</span> A shallow copy of the object</li><li><span class="mcq-option-label">C.</span> A reference to the same object</li><li><span class="mcq-option-label">D.</span> A frozen copy of the object</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> The spread operator creates a shallow copy. Top-level primitive properties are copied by value, but nested objects and arrays are copied by reference (shared). Use <code>structuredClone</code> for deep copies.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is optional chaining (?.) used for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Adding optional properties to objects</li><li><span class="mcq-option-label">B.</span> Safely accessing properties that might not exist</li><li><span class="mcq-option-label">C.</span> Making properties optional in destructuring</li><li><span class="mcq-option-label">D.</span> Creating nullable objects</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Optional chaining <code>?.</code> safely accesses nested properties. If any part of the chain is null or undefined, it short-circuits and returns undefined instead of throwing a TypeError.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the result of typeof null?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;null&quot;</li><li><span class="mcq-option-label">B.</span> &quot;undefined&quot;</li><li><span class="mcq-option-label">C.</span> &quot;object&quot;</li><li><span class="mcq-option-label">D.</span> &quot;boolean&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>typeof null</code> returns "object". This is a well-known bug in JavaScript from its early implementation. null is NOT actually an object - it is its own type. This has never been fixed for backward compatibility.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the modern way to create a deep copy of an object?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Object.assign({}, obj)</li><li><span class="mcq-option-label">B.</span> { ...obj }</li><li><span class="mcq-option-label">C.</span> structuredClone(obj)</li><li><span class="mcq-option-label">D.</span> obj.copy()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>structuredClone()</code> creates a true deep copy of an object, including nested structures. Options A and B create shallow copies. Option D is not a real method.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What types of values are NOT allowed in JSON?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Strings and numbers</li><li><span class="mcq-option-label">B.</span> Booleans and null</li><li><span class="mcq-option-label">C.</span> Functions and undefined</li><li><span class="mcq-option-label">D.</span> Arrays and objects</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> JSON only supports strings, numbers, booleans, null, arrays, and objects. Functions, undefined, Symbol, Infinity, and NaN are NOT valid JSON values. <code>JSON.stringify</code> silently omits these.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does Object.entries({ a: 1, b: 2 }) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [&quot;a&quot;, &quot;b&quot;]</li><li><span class="mcq-option-label">B.</span> [1, 2]</li><li><span class="mcq-option-label">C.</span> [[&quot;a&quot;, 1], [&quot;b&quot;, 2]]</li><li><span class="mcq-option-label">D.</span> {&quot;a&quot;: 1, &quot;b&quot;: 2}</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>Object.entries()</code> returns an array of [key, value] pairs. Each property becomes a two-element array. Option A is Object.keys(). Option B is Object.values().</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the output of: const obj = {}; console.log(typeof obj);</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;empty&quot;</li><li><span class="mcq-option-label">B.</span> &quot;object&quot;</li><li><span class="mcq-option-label">C.</span> &quot;undefined&quot;</li><li><span class="mcq-option-label">D.</span> &quot;null&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> An empty object is still an object. <code>typeof {}</code> returns "object". It is not "empty" or "undefined" - those are not valid typeof results for objects.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the shorthand for { name: name, age: age } in ES6?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> { name, age }</li><li><span class="mcq-option-label">B.</span> { :name, :age }</li><li><span class="mcq-option-label">C.</span> { name =&gt; age }</li><li><span class="mcq-option-label">D.</span> There is no shorthand</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: A</strong><br><strong>A is correct.</strong> When the property name and variable name are the same, you can use the shorthand <code>{ name, age }</code> instead of <code>{ name: name, age: age }</code>. This is called shorthand property notation in ES6.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What does Object.freeze(obj) do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Deletes all properties from the object</li><li><span class="mcq-option-label">B.</span> Prevents adding, removing, or modifying properties</li><li><span class="mcq-option-label">C.</span> Creates a deep copy of the object</li><li><span class="mcq-option-label">D.</span> Converts the object to JSON</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>Object.freeze()</code> makes an object immutable at the top level. You cannot add, remove, or modify properties. It is a shallow freeze - nested objects can still be modified.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Student Report Card</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Aarav has a student object: {name: "Aarav", marks: {maths: 92, science: 88, english: 76, hindi: 82}}. Write a program that calculates the total marks, average, and percentage.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Student: Aarav
+Total: 338 / 400
+Average: 84.5
+Percentage: 84.5%</div>
+                </div><div class="challenge-constraints">Use Object.values to extract marks. Use reduce to calculate the total.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">const student = {
+  name: &quot;Aarav&quot;,
+  marks: { maths: 92, science: 88, english: 76, hindi: 82 }
+};
+
+const values = Object.values(student.marks);
+const total = values.reduce((a, b) =&gt; a + b, 0);
+const maxTotal = values.length * 100;
+const avg = total / values.length;
+
+console.log(&quot;Student:&quot;, student.name);
+console.log(&quot;Total:&quot;, total, &quot;/&quot;, maxTotal);
+console.log(&quot;Average:&quot;, avg);
+console.log(&quot;Percentage:&quot;, avg + &quot;%&quot;);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Merge User Preferences</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Priya has default settings {theme: "dark", fontSize: 14, lang: "en", notifications: true} and user preferences {fontSize: 18, lang: "hi"}. Merge them so user preferences override defaults.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">{ theme: &quot;dark&quot;, fontSize: 18, lang: &quot;hi&quot;, notifications: true }</div>
+                </div><div class="challenge-constraints">Use the spread operator to merge.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">const defaults = { theme: &quot;dark&quot;, fontSize: 14, lang: &quot;en&quot;, notifications: true };
+const userPrefs = { fontSize: 18, lang: &quot;hi&quot; };
+const settings = { ...defaults, ...userPrefs };
+console.log(settings);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Build Product Cards from Objects</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Rohan has an array of product objects: [{name: "Laptop", price: 45000, rating: 4.5}, {name: "Phone", price: 15000, rating: 4.2}, {name: "Watch", price: 8000, rating: 4.8}]. Use map and template literals to generate HTML card strings for each product.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">(Three HTML cards with product name, price, and star rating)</div>
+                </div><div class="challenge-constraints">Use map with template literals. Include price formatted with commas.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">const products = [
+  { name: &quot;Laptop&quot;, price: 45000, rating: 4.5 },
+  { name: &quot;Phone&quot;, price: 15000, rating: 4.2 },
+  { name: &quot;Watch&quot;, price: 8000, rating: 4.8 }
+];
+
+const cards = products.map(p =&gt; `&lt;div class=&quot;product-card&quot;&gt;
+  &lt;h3&gt;${p.name}&lt;/h3&gt;
+  &lt;p class=&quot;price&quot;&gt;Rs ${p.price.toLocaleString()}&lt;/p&gt;
+  &lt;p class=&quot;rating&quot;&gt;${p.rating} / 5&lt;/p&gt;
+&lt;/div&gt;`);
+
+console.log(cards.join(&quot;\n&quot;));</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Object Difference Checker</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Kavya wants to compare two versions of a student object and find what changed. Write a function diff(oldObj, newObj) that returns an object showing only the properties that changed.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">diff({name: &quot;Kavya&quot;, age: 15, grade: &quot;10th&quot;}, {name: &quot;Kavya&quot;, age: 16, grade: &quot;11th&quot;})</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">{ age: { old: 15, new: 16 }, grade: { old: &quot;10th&quot;, new: &quot;11th&quot; } }</div>
+                </div><div class="challenge-constraints">Compare each property. Only include properties that changed.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">function diff(oldObj, newObj) {
+  const changes = {};
+  for (const key of Object.keys(newObj)) {
+    if (oldObj[key] !== newObj[key]) {
+      changes[key] = { old: oldObj[key], new: newObj[key] };
+    }
+  }
+  return changes;
+}
+
+const result = diff(
+  { name: &quot;Kavya&quot;, age: 15, grade: &quot;10th&quot; },
+  { name: &quot;Kavya&quot;, age: 16, grade: &quot;11th&quot; }
+);
+console.log(result);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Invert Object Keys and Values</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Vikram has the object {a: 1, b: 2, c: 3}. Write a function invertObject that swaps keys and values, returning {1: "a", 2: "b", 3: "c"}.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">invertObject({a: 1, b: 2, c: 3})</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">{ 1: &quot;a&quot;, 2: &quot;b&quot;, 3: &quot;c&quot; }</div>
+                </div><div class="challenge-constraints">Use Object.entries and reduce.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">function invertObject(obj) {
+  return Object.entries(obj).reduce((acc, [key, val]) =&gt; {
+    acc[val] = key;
+    return acc;
+  }, {});
+}
+
+console.log(invertObject({ a: 1, b: 2, c: 3 }));</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Deep Flatten Nested Object</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Arjun has a deeply nested object: {a: 1, b: {c: 2, d: {e: 3, f: 4}}, g: 5}. Write a function flattenObject that returns {a: 1, "b.c": 2, "b.d.e": 3, "b.d.f": 4, g: 5}.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">flattenObject({a: 1, b: {c: 2, d: {e: 3}}})</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">{a: 1, &quot;b.c&quot;: 2, &quot;b.d.e&quot;: 3}</div>
+                </div><div class="challenge-constraints">Use recursion. Concatenate keys with dots for nesting.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">function flattenObject(obj, prefix = &quot;&quot;) {
+  const result = {};
+  for (const [key, val] of Object.entries(obj)) {
+    const newKey = prefix ? prefix + &quot;.&quot; + key : key;
+    if (typeof val === &quot;object&quot; &amp;&amp; val !== null &amp;&amp; !Array.isArray(val)) {
+      Object.assign(result, flattenObject(val, newKey));
+    } else {
+      result[newKey] = val;
+    }
+  }
+  return result;
+}
+
+console.log(flattenObject({ a: 1, b: { c: 2, d: { e: 3, f: 4 } }, g: 5 }));</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Student Ranking System</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Meera has student data as an array of objects. Write a function that takes the array, calculates each student's average, adds a rank property (1 = highest average), and returns the sorted array.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">[{name: &quot;Aarav&quot;, marks: [85, 90, 78]}, {name: &quot;Priya&quot;, marks: [92, 88, 95]}, {name: &quot;Rohan&quot;, marks: [70, 65, 80]}]</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[{name: &quot;Priya&quot;, marks: [...], average: 91.67, rank: 1}, ...]</div>
+                </div><div class="challenge-constraints">Use map, sort, and forEach. Do not modify the original array.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">function rankStudents(students) {
+  return students
+    .map(s =&gt; ({
+      ...s,
+      average: parseFloat((s.marks.reduce((a, b) =&gt; a + b, 0) / s.marks.length).toFixed(2))
+    }))
+    .sort((a, b) =&gt; b.average - a.average)
+    .map((s, i) =&gt; ({ ...s, rank: i + 1 }));
+}
+
+const data = [
+  { name: &quot;Aarav&quot;, marks: [85, 90, 78] },
+  { name: &quot;Priya&quot;, marks: [92, 88, 95] },
+  { name: &quot;Rohan&quot;, marks: [70, 65, 80] }
+];
+
+console.log(rankStudents(data));</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/javascript/arrays-in-javascript/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Arrays and Array Methods</span>
+        </a>
+            <a href="/resources/javascript/strings-and-template-literals/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Strings and Template Literals</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/javascript/objects-in-javascript" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

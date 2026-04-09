@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - DOM Selection and Manipulation | JavaScript | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="58+ practice questions on DOM Selection and Manipulation in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="dom selection and manipulation practice, javascript questions, javascript practice problems, dom selection and manipulation exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/dom-selection-and-manipulation/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/dom-selection-and-manipulation/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/dom-selection-and-manipulation/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/dom-selection-and-manipulation/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/dom-selection-and-manipulation/practice">
+    <meta property="og:title" content="Practice Questions - DOM Selection and Manipulation | JavaScript | Modern Age Coders">
+    <meta property="og:description" content="58+ practice questions on DOM Selection and Manipulation in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/dom-selection-and-manipulation/practice">
+    <meta name="twitter:title" content="Practice Questions - DOM Selection and Manipulation | JavaScript | Modern Age Coders">
+    <meta name="twitter:description" content="58+ practice questions on DOM Selection and Manipulation in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - DOM Selection and Manipulation",
+    "description": "58+ practice questions on DOM Selection and Manipulation in JavaScript.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "DOM Selection and Manipulation"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/dom-selection-and-manipulation/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "DOM Selection and Manipulation",
+        "item": "https://learn.modernagecoders.com/resources/javascript/dom-selection-and-manipulation"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/javascript/dom-selection-and-manipulation/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript/dom-selection-and-manipulation">DOM Selection and Manipulation</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 11</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">58 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; DOM Selection and Manipulation</h1>
+            <a href="/resources/javascript/dom-selection-and-manipulation" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Given this HTML and JS, what is logged to the console?<br><pre><code>&lt;h1 id="title"&gt;Hello World&lt;/h1&gt;
+
+&lt;script&gt;
+const el = document.getElementById("title");
+console.log(el.textContent);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">textContent returns the text inside the element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Hello World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this code log?<br><pre><code>&lt;p id="msg"&gt;Good &lt;strong&gt;Morning&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script&gt;
+const p = document.getElementById("msg");
+console.log(p.textContent);
+console.log(p.innerHTML);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">textContent strips HTML tags. innerHTML preserves them.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>Good Morning</code><br><code>Good &lt;strong&gt;Morning&lt;/strong&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;ul&gt;
+  &lt;li class="item"&gt;Apple&lt;/li&gt;
+  &lt;li class="item"&gt;Banana&lt;/li&gt;
+  &lt;li class="item"&gt;Cherry&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script&gt;
+const items = document.querySelectorAll(".item");
+console.log(items.length);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">querySelectorAll returns all matching elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this code log?<br><pre><code>&lt;input type="text" id="username" value="Aarav"&gt;
+
+&lt;script&gt;
+const input = document.getElementById("username");
+console.log(input.value);
+input.value = "Priya";
+console.log(input.value);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">The .value property reads and sets the current value of an input.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Aarav</code><br><code>Priya</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;div id="box" class="card active"&gt;Hello&lt;/div&gt;
+
+&lt;script&gt;
+const box = document.getElementById("box");
+console.log(box.classList.contains("active"));
+console.log(box.classList.contains("hidden"));
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">classList.contains() checks if an element has a specific class.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged after this code runs?<br><pre><code>&lt;p id="text"&gt;Original&lt;/p&gt;
+
+&lt;script&gt;
+const p = document.getElementById("text");
+p.textContent = "Updated";
+console.log(p.textContent);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Setting textContent replaces the element's text.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Updated</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;div id="box" class="card"&gt;Hello&lt;/div&gt;
+
+&lt;script&gt;
+const box = document.getElementById("box");
+const result1 = box.classList.toggle("active");
+console.log(result1);
+console.log(box.className);
+
+const result2 = box.classList.toggle("active");
+console.log(result2);
+console.log(box.className);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">toggle() returns true if the class was added, false if removed. className returns all classes as a string.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>true</code><br><code>card active</code><br><code>false</code><br><code>card</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;img id="pic" src="cat.jpg" alt="A cat"&gt;
+
+&lt;script&gt;
+const img = document.getElementById("pic");
+console.log(img.getAttribute("alt"));
+img.setAttribute("alt", "A dog");
+console.log(img.getAttribute("alt"));
+console.log(img.hasAttribute("title"));
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">getAttribute reads, setAttribute writes, hasAttribute checks existence.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>A cat</code><br><code>A dog</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does the h1 display after this code runs?<br><pre><code>&lt;h1 id="heading"&gt;Welcome&lt;/h1&gt;
+
+&lt;script&gt;
+const h1 = document.getElementById("heading");
+h1.innerHTML = "Hello &lt;span style='color:red'&gt;World&lt;/span&gt;";
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">innerHTML parses and renders HTML tags.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">The h1 displays "Hello <span style='color:red'>World</span>" -- the word "Hello" in default color and "World" in red.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this code log?<br><pre><code>&lt;ul id="list"&gt;
+  &lt;li&gt;One&lt;/li&gt;
+  &lt;li&gt;Two&lt;/li&gt;
+  &lt;li&gt;Three&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script&gt;
+const first = document.querySelector("#list li");
+const all = document.querySelectorAll("#list li");
+console.log(first.textContent);
+console.log(all.length);
+console.log(all[2].textContent);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">querySelector returns the first match. querySelectorAll returns all. NodeList is zero-indexed.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>One</code><br><code>3</code><br><code>Three</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;div id="box"&gt;Hello&lt;/div&gt;
+
+&lt;script&gt;
+const box = document.getElementById("box");
+box.style.color = "white";
+box.style.backgroundColor = "#a855f7";
+box.style.padding = "20px";
+console.log(box.style.color);
+console.log(box.style.backgroundColor);
+console.log(box.style.margin);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">element.style only reads inline styles, not styles from a stylesheet.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>white</code><br><code>#a855f7</code><br><code></code> (empty string)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this code log?<br><pre><code>&lt;p id="demo"&gt;Hello&lt;/p&gt;
+
+&lt;script&gt;
+const p = document.getElementById("demo");
+p.textContent = "&lt;strong&gt;Bold&lt;/strong&gt;";
+console.log(p.textContent);
+console.log(p.innerHTML);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">textContent does not parse HTML. It treats everything as plain text.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>&lt;strong&gt;Bold&lt;/strong&gt;</code><br><code>&amp;lt;strong&amp;gt;Bold&amp;lt;/strong&amp;gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;div class="box" data-color="red"&gt;A&lt;/div&gt;
+&lt;div class="box" data-color="blue"&gt;B&lt;/div&gt;
+&lt;div class="box" data-color="red"&gt;C&lt;/div&gt;
+
+&lt;script&gt;
+const redBoxes = document.querySelectorAll('.box[data-color="red"]');
+console.log(redBoxes.length);
+redBoxes.forEach(function(box) {
+  console.log(box.textContent);
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Attribute selectors filter by attribute value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>2</code><br><code>A</code><br><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;div id="wrapper"&gt;
+  &lt;p class="text"&gt;First&lt;/p&gt;
+  &lt;p class="text highlight"&gt;Second&lt;/p&gt;
+  &lt;p class="text"&gt;Third&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+const el = document.querySelector(".text.highlight");
+console.log(el.textContent);
+
+const notFound = document.querySelector(".text.missing");
+console.log(notFound);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">querySelector returns null when no element matches the selector.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>Second</code><br><code>null</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does the paragraph display on the page after this code runs?<br><pre><code>&lt;p id="info"&gt;Name: &lt;span id="name"&gt;Guest&lt;/span&gt;&lt;/p&gt;
+
+&lt;script&gt;
+const nameSpan = document.getElementById("name");
+nameSpan.textContent = "Aarav";
+
+const info = document.getElementById("info");
+console.log(info.textContent);
+console.log(info.innerHTML);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Changing the span's text changes it inside the parent too.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">Console logs:<br><code>Name: Aarav</code><br><code>Name: &lt;span id="name"&gt;Aarav&lt;/span&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;div id="box" class="card"&gt;Hello&lt;/div&gt;
+
+&lt;script&gt;
+const box = document.getElementById("box");
+box.classList.add("active", "large");
+console.log(box.className);
+
+box.classList.remove("card", "large");
+console.log(box.className);
+
+box.classList.toggle("hidden");
+box.classList.toggle("active");
+console.log(box.className);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Track the classes step by step. add/remove can take multiple arguments.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>card active large</code><br><code>active</code><br><code>hidden</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this code log?<br><pre><code>&lt;select id="color"&gt;
+  &lt;option value="red"&gt;Red&lt;/option&gt;
+  &lt;option value="green" selected&gt;Green&lt;/option&gt;
+  &lt;option value="blue"&gt;Blue&lt;/option&gt;
+&lt;/select&gt;
+
+&lt;script&gt;
+const select = document.getElementById("color");
+console.log(select.value);
+console.log(select.selectedIndex);
+select.value = "blue";
+console.log(select.value);
+console.log(select.selectedIndex);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">The selected attribute determines the initial value. selectedIndex is zero-based.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>green</code><br><code>1</code><br><code>blue</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;a id="link" href="https://example.com"&gt;Visit&lt;/a&gt;
+
+&lt;script&gt;
+const link = document.getElementById("link");
+console.log(link.textContent);
+console.log(link.getAttribute("href"));
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">textContent gives the visible text. getAttribute reads the attribute value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>Visit</code><br><code>https://example.com</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this code do?<br><pre><code>&lt;button id="btn"&gt;Click Me&lt;/button&gt;
+
+&lt;script&gt;
+const btn = document.getElementById("btn");
+btn.textContent = "Clicked!";
+btn.style.backgroundColor = "green";
+btn.style.color = "white";
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">The code runs immediately, not on click.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">The button immediately shows "Clicked!" with a green background and white text. No click is needed because the code runs as soon as the page loads.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this code log?<br><pre><code>&lt;div id="box"&gt;Hello&lt;/div&gt;
+
+&lt;script&gt;
+const box = document.querySelector("#box");
+const box2 = document.getElementById("box");
+console.log(box === box2);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Both methods select the same element.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;div id="container"&gt;
+  &lt;span class="tag"&gt;HTML&lt;/span&gt;
+  &lt;span class="tag"&gt;CSS&lt;/span&gt;
+  &lt;span class="tag"&gt;JavaScript&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+const tags = document.querySelectorAll(".tag");
+const arr = Array.from(tags);
+const result = arr.map(tag =&gt; tag.textContent.toUpperCase());
+console.log(result);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Array.from converts a NodeList to an array, enabling map().</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>["HTML", "CSS", "JAVASCRIPT"]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">After this code runs, what CSS classes does the div have?<br><pre><code>&lt;div id="card" class="card"&gt;Hello&lt;/div&gt;
+
+&lt;script&gt;
+const card = document.getElementById("card");
+card.classList.add("active");
+card.classList.add("active");  // Adding same class again
+card.classList.toggle("card");
+card.classList.toggle("new");
+console.log(card.className);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Adding a class that already exists does nothing. Toggle removes if present, adds if missing.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>active new</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this code log?<br><pre><code>&lt;input type="checkbox" id="agree"&gt;
+
+&lt;script&gt;
+const checkbox = document.getElementById("agree");
+console.log(checkbox.checked);
+console.log(checkbox.value);
+checkbox.checked = true;
+console.log(checkbox.checked);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Checkboxes have a checked property (boolean) and a value property.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>false</code><br><code>on</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this code log?<br><pre><code>&lt;ul id="list"&gt;
+  &lt;li&gt;Aarav&lt;/li&gt;
+  &lt;li&gt;Priya&lt;/li&gt;
+  &lt;li&gt;Rohan&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script&gt;
+const items = document.querySelectorAll("#list li");
+let names = "";
+items.forEach(function(item, index) {
+  names += index + ": " + item.textContent + " ";
+});
+console.log(names.trim());
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">forEach on a NodeList provides the element and its index.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>0: Aarav 1: Priya 2: Rohan</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this code log?<br><pre><code>&lt;div id="outer"&gt;
+  &lt;p id="inner"&gt;Hello&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+const outer = document.getElementById("outer");
+const inner = document.getElementById("inner");
+
+outer.innerHTML = "&lt;p id='inner'&gt;Replaced&lt;/p&gt;";
+
+const innerAgain = document.getElementById("inner");
+console.log(inner.textContent);
+console.log(innerAgain.textContent);
+console.log(inner === innerAgain);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">innerHTML destroys old elements and creates new ones. The old reference still points to the old element.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>Hello</code><br><code>Replaced</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this code log?<br><pre><code>&lt;div id="box" style="color: red; font-size: 20px;"&gt;Text&lt;/div&gt;
+
+&lt;script&gt;
+const box = document.getElementById("box");
+console.log(box.style.color);
+console.log(box.style.fontSize);
+box.style.cssText = "background: blue;";
+console.log(box.style.color);
+console.log(box.style.cssText);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Setting style.cssText replaces ALL inline styles with the new string.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>red</code><br><code>20px</code><br><code></code> (empty string)<br><code>background: blue;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between <code>textContent</code> and <code>innerHTML</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">One treats the content as plain text, the other as HTML.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>textContent</code> gets or sets the plain text inside an element. It ignores HTML tags and treats everything as text. <code>innerHTML</code> gets or sets the HTML content, parsing and rendering any HTML tags. For security, use textContent when dealing with user input to prevent XSS attacks.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why should you avoid using <code>innerHTML</code> with user input?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Think about what happens if a user types a script tag.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">Using innerHTML with user input creates a Cross-Site Scripting (XSS) vulnerability. If a user enters <code>&lt;img src=x onerror="alert('hacked')"&gt;</code>, innerHTML will parse it as real HTML and execute the JavaScript. Always use <code>textContent</code> for user input, which treats everything as safe plain text.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>querySelector</code> and <code>getElementById</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think about what selectors each one accepts.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>getElementById</code> only selects by ID and takes the ID string without the # symbol. <code>querySelector</code> accepts any CSS selector (#id, .class, tag, [attribute], combinations). getElementById is slightly faster for ID lookups, but querySelector is more flexible and is the modern approach.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this code log?<br><pre><code>&lt;p id="text" class="blue bold"&gt;Hello&lt;/p&gt;
+
+&lt;script&gt;
+const p = document.getElementById("text");
+const classes = [...p.classList];
+console.log(classes);
+console.log(typeof p.classList);
+console.log(Array.isArray(p.classList));
+console.log(Array.isArray(classes));
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">classList is a DOMTokenList, not an array. Spreading converts it.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>["blue", "bold"]</code><br><code>object</code><br><code>false</code><br><code>true</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which method selects an element by its ID?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> document.querySelector()</li><li><span class="mcq-option-label">B.</span> document.getElementById()</li><li><span class="mcq-option-label">C.</span> document.getElementsByClassName()</li><li><span class="mcq-option-label">D.</span> document.getElement()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>document.getElementById()</code> selects a single element by its unique ID. Option A uses CSS selectors. Option C selects by class name. Option D does not exist.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does <code>document.querySelectorAll('.item')</code> return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A single element</li><li><span class="mcq-option-label">B.</span> An array</li><li><span class="mcq-option-label">C.</span> A NodeList</li><li><span class="mcq-option-label">D.</span> undefined</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>querySelectorAll</code> returns a NodeList containing all matching elements. A NodeList is array-like but not a true array. It supports forEach but not map or filter directly.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which property should you use to safely display user input on a page?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> innerHTML</li><li><span class="mcq-option-label">B.</span> outerHTML</li><li><span class="mcq-option-label">C.</span> textContent</li><li><span class="mcq-option-label">D.</span> innerText</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>textContent</code> treats the input as plain text and does not parse HTML tags, preventing XSS attacks. <code>innerHTML</code> would parse and execute any HTML or scripts in the input.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">How do you read the current value of a text input field?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> input.textContent</li><li><span class="mcq-option-label">B.</span> input.innerHTML</li><li><span class="mcq-option-label">C.</span> input.text</li><li><span class="mcq-option-label">D.</span> input.value</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: D</strong><br><strong>D is correct.</strong> The <code>.value</code> property reads and sets the current value of input, textarea, and select elements. textContent and innerHTML are for reading content of regular HTML elements, not form inputs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does <code>getElementById</code> return if no element matches?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> undefined</li><li><span class="mcq-option-label">B.</span> false</li><li><span class="mcq-option-label">C.</span> null</li><li><span class="mcq-option-label">D.</span> An empty string</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>getElementById</code> returns <code>null</code> when no element with that ID exists. This is important to check before using the element to avoid TypeError.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">How do you write <code>background-color</code> in JavaScript's style property?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> background-color</li><li><span class="mcq-option-label">B.</span> backgroundColor</li><li><span class="mcq-option-label">C.</span> backgroundcolor</li><li><span class="mcq-option-label">D.</span> BACKGROUND_COLOR</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> CSS property names with hyphens are converted to camelCase in JavaScript. Remove the hyphen and capitalize the next letter: background-color becomes backgroundColor.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does <code>classList.toggle('active')</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Always adds the &#39;active&#39; class</li><li><span class="mcq-option-label">B.</span> Always removes the &#39;active&#39; class</li><li><span class="mcq-option-label">C.</span> Adds the class if missing, removes it if present</li><li><span class="mcq-option-label">D.</span> Checks if the class exists</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>toggle()</code> adds the class if it is not present and removes it if it is. It returns true if the class was added and false if it was removed.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which selector would match <code>&lt;li class='item active'&gt;</code> but NOT <code>&lt;li class='item'&gt;</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> document.querySelector(&#39;.item&#39;)</li><li><span class="mcq-option-label">B.</span> document.querySelector(&#39;.active&#39;)</li><li><span class="mcq-option-label">C.</span> document.querySelector(&#39;.item.active&#39;)</li><li><span class="mcq-option-label">D.</span> document.querySelector(&#39;.item .active&#39;)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>.item.active</code> (no space) selects elements with BOTH classes. <code>.item .active</code> (with space) selects .active elements that are descendants of .item elements. Option A matches both because both have class 'item'.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the security risk of using <code>innerHTML</code> with user input?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It is slow</li><li><span class="mcq-option-label">B.</span> It can cause Cross-Site Scripting (XSS) attacks</li><li><span class="mcq-option-label">C.</span> It crashes the browser</li><li><span class="mcq-option-label">D.</span> It only works in Chrome</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> XSS (Cross-Site Scripting) occurs when user input containing malicious HTML or JavaScript is inserted into the page via innerHTML. The browser executes the injected code, which can steal data or hijack sessions.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">How do you convert a NodeList to a real array?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> nodeList.toArray()</li><li><span class="mcq-option-label">B.</span> Array.from(nodeList) or [...nodeList]</li><li><span class="mcq-option-label">C.</span> nodeList.array()</li><li><span class="mcq-option-label">D.</span> new Array(nodeList)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>Array.from(nodeList)</code> and the spread operator <code>[...nodeList]</code> both convert a NodeList to a real array, enabling methods like map, filter, and reduce.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What does <code>element.style.fontSize</code> read?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The font-size from any CSS source</li><li><span class="mcq-option-label">B.</span> The font-size from the stylesheet only</li><li><span class="mcq-option-label">C.</span> The font-size set as an inline style only</li><li><span class="mcq-option-label">D.</span> The computed font-size</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>element.style</code> only reads inline styles (styles set directly on the element via the style attribute or JS). To get the computed style from all CSS sources, use <code>getComputedStyle(element)</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What happens when you set <code>element.innerHTML = ''</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The element is removed from the DOM</li><li><span class="mcq-option-label">B.</span> All child elements inside are removed</li><li><span class="mcq-option-label">C.</span> Nothing happens</li><li><span class="mcq-option-label">D.</span> An error is thrown</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Setting innerHTML to an empty string removes all child nodes (elements and text) inside the element. The element itself remains in the DOM, just empty.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does <code>setAttribute('disabled', '')</code> do to a button?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Nothing, because the value is empty</li><li><span class="mcq-option-label">B.</span> Removes the disabled attribute</li><li><span class="mcq-option-label">C.</span> Disables the button (boolean attributes are enabled by their presence)</li><li><span class="mcq-option-label">D.</span> Throws an error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> HTML boolean attributes like <code>disabled</code>, <code>checked</code>, and <code>readonly</code> are active simply by being present on the element. The value does not matter. Even <code>disabled=""</code> disables the button.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which method returns the styles actually applied to an element (including styles from CSS files)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> element.style</li><li><span class="mcq-option-label">B.</span> element.currentStyle</li><li><span class="mcq-option-label">C.</span> getComputedStyle(element)</li><li><span class="mcq-option-label">D.</span> element.getStyle()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>getComputedStyle(element)</code> returns the final computed values of all CSS properties, including those from stylesheets, inherited styles, and browser defaults. <code>element.style</code> only reads inline styles.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the difference between <code>removeAttribute('disabled')</code> and <code>element.disabled = false</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are identical</li><li><span class="mcq-option-label">B.</span> removeAttribute removes the HTML attribute; .disabled = false sets the property to false. Both enable the element.</li><li><span class="mcq-option-label">C.</span> Only removeAttribute works</li><li><span class="mcq-option-label">D.</span> Only .disabled = false works</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>removeAttribute</code> removes the attribute from the HTML markup. Setting the property to false changes the element's behavior. Both effectively enable the element, but they work at different levels (attribute vs. property).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Which selector selects the first child <code>&lt;li&gt;</code> inside <code>#list</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> document.querySelector(&#39;#list li&#39;)</li><li><span class="mcq-option-label">B.</span> document.querySelector(&#39;#list &gt; li:last-child&#39;)</li><li><span class="mcq-option-label">C.</span> document.querySelectorAll(&#39;#list li&#39;)</li><li><span class="mcq-option-label">D.</span> document.querySelector(&#39;#list&#39;)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>querySelector</code> returns the first matching element. <code>#list li</code> matches all li elements inside #list, but querySelector only returns the first one.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What does <code>element.className</code> return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A DOMTokenList of all classes</li><li><span class="mcq-option-label">B.</span> The first class name only</li><li><span class="mcq-option-label">C.</span> A string of all class names separated by spaces</li><li><span class="mcq-option-label">D.</span> An array of class names</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>className</code> returns a string like <code>"card active large"</code>. For individual class manipulation, use <code>classList</code> which provides add, remove, toggle, and contains methods.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Why should you place <code>&lt;script&gt;</code> tags at the end of the <code>&lt;body&gt;</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It makes JavaScript run faster</li><li><span class="mcq-option-label">B.</span> It ensures all HTML elements exist before the script tries to access them</li><li><span class="mcq-option-label">C.</span> It is required by the HTML specification</li><li><span class="mcq-option-label">D.</span> It prevents caching</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> The browser parses HTML top to bottom. If a script in the <code>&lt;head&gt;</code> tries to access an element in the body, the element does not exist yet and getElementById returns null. Placing scripts at the end ensures all elements are loaded.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Live Character Counter</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create an HTML page with a textarea and a paragraph below it. As the user types in the textarea, show the character count in the paragraph. Example: 'Characters: 15'.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required -- type in the textarea)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Characters: 0 (updates as you type)</div>
+                </div><div class="challenge-constraints">Use the &#39;input&#39; event on the textarea and textContent to update the count.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;textarea id=&quot;text&quot; rows=&quot;4&quot; cols=&quot;40&quot; placeholder=&quot;Start typing...&quot;&gt;&lt;/textarea&gt;
+  &lt;p id=&quot;count&quot;&gt;Characters: 0&lt;/p&gt;
+  &lt;script&gt;
+    const textarea = document.getElementById(&quot;text&quot;);
+    const countDisplay = document.getElementById(&quot;count&quot;);
+    textarea.addEventListener(&quot;input&quot;, function() {
+      countDisplay.textContent = &quot;Characters: &quot; + textarea.value.length;
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Profile Card Builder</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a form with fields for name, age, and hobby. When a 'Generate Card' button is clicked, display a styled card below the form showing the entered information. Use textContent for security.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Name: Aarav, Age: 15, Hobby: Coding</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A card appears showing: Name: Aarav, Age: 15, Hobby: Coding</div>
+                </div><div class="challenge-constraints">Use getElementById to get input values. Use textContent (not innerHTML) to display user input.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    .card { padding: 16px; border: 2px solid #a855f7; border-radius: 8px; margin-top: 16px; display: none; }
+    .card.visible { display: block; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;input type=&quot;text&quot; id=&quot;name&quot; placeholder=&quot;Name&quot;&gt;
+  &lt;input type=&quot;number&quot; id=&quot;age&quot; placeholder=&quot;Age&quot;&gt;
+  &lt;input type=&quot;text&quot; id=&quot;hobby&quot; placeholder=&quot;Hobby&quot;&gt;
+  &lt;button id=&quot;generate&quot;&gt;Generate Card&lt;/button&gt;
+  &lt;div class=&quot;card&quot; id=&quot;card&quot;&gt;
+    &lt;p id=&quot;card-name&quot;&gt;&lt;/p&gt;
+    &lt;p id=&quot;card-age&quot;&gt;&lt;/p&gt;
+    &lt;p id=&quot;card-hobby&quot;&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;script&gt;
+    document.getElementById(&quot;generate&quot;).addEventListener(&quot;click&quot;, function() {
+      document.getElementById(&quot;card-name&quot;).textContent = &quot;Name: &quot; + document.getElementById(&quot;name&quot;).value;
+      document.getElementById(&quot;card-age&quot;).textContent = &quot;Age: &quot; + document.getElementById(&quot;age&quot;).value;
+      document.getElementById(&quot;card-hobby&quot;).textContent = &quot;Hobby: &quot; + document.getElementById(&quot;hobby&quot;).value;
+      document.getElementById(&quot;card&quot;).classList.add(&quot;visible&quot;);
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Color Theme Switcher</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a page with three buttons: 'Purple', 'Teal', 'Amber'. Clicking each button should change the page's background color and text color using classList. Define three CSS classes (.theme-purple, .theme-teal, .theme-amber) with different color schemes. Only one theme should be active at a time.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(Click buttons)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Background and text colors change based on which button is clicked.</div>
+                </div><div class="challenge-constraints">Use classList.add and classList.remove. Do not use inline styles. Remove the previous theme class before adding the new one.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial; padding: 20px; transition: all 0.3s; }
+    .theme-purple { background: #a855f7; color: white; }
+    .theme-teal { background: #06b6d4; color: white; }
+    .theme-amber { background: #f59e0b; color: #1a1a1a; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Theme Switcher&lt;/h1&gt;
+  &lt;button id=&quot;purple&quot;&gt;Purple&lt;/button&gt;
+  &lt;button id=&quot;teal&quot;&gt;Teal&lt;/button&gt;
+  &lt;button id=&quot;amber&quot;&gt;Amber&lt;/button&gt;
+  &lt;script&gt;
+    const themes = [&quot;theme-purple&quot;, &quot;theme-teal&quot;, &quot;theme-amber&quot;];
+    function setTheme(theme) {
+      themes.forEach(function(t) { document.body.classList.remove(t); });
+      document.body.classList.add(theme);
+    }
+    document.getElementById(&quot;purple&quot;).addEventListener(&quot;click&quot;, function() { setTheme(&quot;theme-purple&quot;); });
+    document.getElementById(&quot;teal&quot;).addEventListener(&quot;click&quot;, function() { setTheme(&quot;theme-teal&quot;); });
+    document.getElementById(&quot;amber&quot;).addEventListener(&quot;click&quot;, function() { setTheme(&quot;theme-amber&quot;); });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Student List Filter</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create an HTML page with a list of 6 student names (as li elements with a class 'student'). Add a text input at the top. As the user types, hide students whose names do not match the search text (case-insensitive). Use classList to add/remove a 'hidden' class.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Type &#39;pr&#39; in the search box</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Only &#39;Priya&#39; and &#39;Pramod&#39; remain visible. Other students are hidden.</div>
+                </div><div class="challenge-constraints">Use querySelectorAll, forEach, textContent.toLowerCase(), and classList.toggle or add/remove.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    .hidden { display: none; }
+    li { padding: 8px; font-size: 18px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;input type=&quot;text&quot; id=&quot;search&quot; placeholder=&quot;Search students...&quot;&gt;
+  &lt;ul&gt;
+    &lt;li class=&quot;student&quot;&gt;Aarav&lt;/li&gt;
+    &lt;li class=&quot;student&quot;&gt;Priya&lt;/li&gt;
+    &lt;li class=&quot;student&quot;&gt;Rohan&lt;/li&gt;
+    &lt;li class=&quot;student&quot;&gt;Meera&lt;/li&gt;
+    &lt;li class=&quot;student&quot;&gt;Pramod&lt;/li&gt;
+    &lt;li class=&quot;student&quot;&gt;Kavya&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;script&gt;
+    const search = document.getElementById(&quot;search&quot;);
+    const students = document.querySelectorAll(&quot;.student&quot;);
+    search.addEventListener(&quot;input&quot;, function() {
+      const query = search.value.toLowerCase();
+      students.forEach(function(student) {
+        const name = student.textContent.toLowerCase();
+        if (name.includes(query)) {
+          student.classList.remove(&quot;hidden&quot;);
+        } else {
+          student.classList.add(&quot;hidden&quot;);
+        }
+      });
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Attribute Inspector</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a page with an image element that has src, alt, width, and a data-photographer attribute. Add four buttons: 'Show src', 'Show alt', 'Change alt', 'Remove data-photographer'. Each button should perform its action and display the result in a paragraph below using getAttribute, setAttribute, and removeAttribute.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(Click buttons)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Clicking &#39;Show src&#39; displays the image source URL. Clicking &#39;Remove data-photographer&#39; removes that attribute.</div>
+                </div><div class="challenge-constraints">Use getAttribute, setAttribute, removeAttribute, and hasAttribute.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;img id=&quot;photo&quot; src=&quot;https://placehold.co/200x150&quot; alt=&quot;A scenic view&quot; width=&quot;200&quot; data-photographer=&quot;Aarav&quot;&gt;
+  &lt;br&gt;
+  &lt;button id=&quot;show-src&quot;&gt;Show src&lt;/button&gt;
+  &lt;button id=&quot;show-alt&quot;&gt;Show alt&lt;/button&gt;
+  &lt;button id=&quot;change-alt&quot;&gt;Change alt&lt;/button&gt;
+  &lt;button id=&quot;remove-data&quot;&gt;Remove data-photographer&lt;/button&gt;
+  &lt;p id=&quot;output&quot;&gt;&lt;/p&gt;
+  &lt;script&gt;
+    const img = document.getElementById(&quot;photo&quot;);
+    const output = document.getElementById(&quot;output&quot;);
+    document.getElementById(&quot;show-src&quot;).addEventListener(&quot;click&quot;, function() {
+      output.textContent = &quot;src: &quot; + img.getAttribute(&quot;src&quot;);
+    });
+    document.getElementById(&quot;show-alt&quot;).addEventListener(&quot;click&quot;, function() {
+      output.textContent = &quot;alt: &quot; + img.getAttribute(&quot;alt&quot;);
+    });
+    document.getElementById(&quot;change-alt&quot;).addEventListener(&quot;click&quot;, function() {
+      img.setAttribute(&quot;alt&quot;, &quot;Updated scenic view&quot;);
+      output.textContent = &quot;alt changed to: &quot; + img.getAttribute(&quot;alt&quot;);
+    });
+    document.getElementById(&quot;remove-data&quot;).addEventListener(&quot;click&quot;, function() {
+      img.removeAttribute(&quot;data-photographer&quot;);
+      output.textContent = &quot;Has data-photographer: &quot; + img.hasAttribute(&quot;data-photographer&quot;);
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Interactive Grade Card</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a grade card page. Create a table with 5 subjects (Maths, Science, English, Hindi, Computer) and input fields for marks. Add a 'Calculate' button. When clicked: (1) Read all marks from inputs. (2) Calculate total and percentage. (3) Display results below the table. (4) If percentage >= 90, add a 'distinction' class to the result div (gold background). If >= 60, add 'pass' class (green). Otherwise add 'fail' class (red). Use classList for styling.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Maths: 90, Science: 85, English: 78, Hindi: 92, Computer: 95</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Total: 440/500, Percentage: 88%, Class: pass (green background)</div>
+                </div><div class="challenge-constraints">Use querySelectorAll to get all input values. Use classList for conditional styling. Do not use inline styles.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    .distinction { background: #fef3c7; border: 2px solid #f59e0b; padding: 16px; border-radius: 8px; }
+    .pass { background: #d1fae5; border: 2px solid #10b981; padding: 16px; border-radius: 8px; }
+    .fail { background: #fecaca; border: 2px solid #ef4444; padding: 16px; border-radius: 8px; }
+    input { width: 60px; padding: 4px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Grade Card&lt;/h2&gt;
+  &lt;table&gt;
+    &lt;tr&gt;&lt;td&gt;Maths:&lt;/td&gt;&lt;td&gt;&lt;input type=&quot;number&quot; class=&quot;mark&quot; max=&quot;100&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Science:&lt;/td&gt;&lt;td&gt;&lt;input type=&quot;number&quot; class=&quot;mark&quot; max=&quot;100&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;English:&lt;/td&gt;&lt;td&gt;&lt;input type=&quot;number&quot; class=&quot;mark&quot; max=&quot;100&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Hindi:&lt;/td&gt;&lt;td&gt;&lt;input type=&quot;number&quot; class=&quot;mark&quot; max=&quot;100&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Computer:&lt;/td&gt;&lt;td&gt;&lt;input type=&quot;number&quot; class=&quot;mark&quot; max=&quot;100&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;/table&gt;
+  &lt;button id=&quot;calc&quot;&gt;Calculate&lt;/button&gt;
+  &lt;div id=&quot;result&quot;&gt;&lt;/div&gt;
+  &lt;script&gt;
+    document.getElementById(&quot;calc&quot;).addEventListener(&quot;click&quot;, function() {
+      const inputs = document.querySelectorAll(&quot;.mark&quot;);
+      let total = 0;
+      inputs.forEach(function(input) { total += Number(input.value) || 0; });
+      const percentage = (total / 500) * 100;
+      const result = document.getElementById(&quot;result&quot;);
+      result.classList.remove(&quot;distinction&quot;, &quot;pass&quot;, &quot;fail&quot;);
+      result.textContent = &quot;Total: &quot; + total + &quot;/500, Percentage: &quot; + percentage.toFixed(1) + &quot;%&quot;;
+      if (percentage &gt;= 90) { result.classList.add(&quot;distinction&quot;); }
+      else if (percentage &gt;= 60) { result.classList.add(&quot;pass&quot;); }
+      else { result.classList.add(&quot;fail&quot;); }
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Bulk Style Editor</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a page with 5 paragraph elements with class 'editable'. Add a control panel with: (1) a color input for text color, (2) a range input (12-36) for font size, (3) a checkbox for bold. As the user changes any control, ALL paragraphs should update their style immediately. Use querySelectorAll and forEach.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Set color to red, font size to 24, check bold</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">All 5 paragraphs turn red, 24px, bold simultaneously.</div>
+                </div><div class="challenge-constraints">Use querySelectorAll to get all paragraphs. Use the input event on controls. You may use inline styles here since the values are dynamic.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;label&gt;Color: &lt;input type=&quot;color&quot; id=&quot;color&quot; value=&quot;#000000&quot;&gt;&lt;/label&gt;
+    &lt;label&gt;Size: &lt;input type=&quot;range&quot; id=&quot;size&quot; min=&quot;12&quot; max=&quot;36&quot; value=&quot;16&quot;&gt; &lt;span id=&quot;size-display&quot;&gt;16px&lt;/span&gt;&lt;/label&gt;
+    &lt;label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;bold&quot;&gt; Bold&lt;/label&gt;
+  &lt;/div&gt;
+  &lt;p class=&quot;editable&quot;&gt;Paragraph 1 by Aarav&lt;/p&gt;
+  &lt;p class=&quot;editable&quot;&gt;Paragraph 2 by Priya&lt;/p&gt;
+  &lt;p class=&quot;editable&quot;&gt;Paragraph 3 by Rohan&lt;/p&gt;
+  &lt;p class=&quot;editable&quot;&gt;Paragraph 4 by Meera&lt;/p&gt;
+  &lt;p class=&quot;editable&quot;&gt;Paragraph 5 by Kavya&lt;/p&gt;
+  &lt;script&gt;
+    const paragraphs = document.querySelectorAll(&quot;.editable&quot;);
+    const colorInput = document.getElementById(&quot;color&quot;);
+    const sizeInput = document.getElementById(&quot;size&quot;);
+    const boldInput = document.getElementById(&quot;bold&quot;);
+    const sizeDisplay = document.getElementById(&quot;size-display&quot;);
+    function updateStyles() {
+      const color = colorInput.value;
+      const size = sizeInput.value + &quot;px&quot;;
+      const weight = boldInput.checked ? &quot;bold&quot; : &quot;normal&quot;;
+      sizeDisplay.textContent = size;
+      paragraphs.forEach(function(p) {
+        p.style.color = color;
+        p.style.fontSize = size;
+        p.style.fontWeight = weight;
+      });
+    }
+    colorInput.addEventListener(&quot;input&quot;, updateStyles);
+    sizeInput.addEventListener(&quot;input&quot;, updateStyles);
+    boldInput.addEventListener(&quot;change&quot;, updateStyles);
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Accordion FAQ</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build an FAQ accordion. Create 4 question-answer pairs where each question is in a div with class 'question' and the answer is in a div with class 'answer'. Initially all answers are hidden (display: none via a CSS class). Clicking a question toggles its answer visibility. Only one answer should be visible at a time -- clicking a new question hides the previously open answer.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(Click on questions)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Clicking &#39;What is JavaScript?&#39; shows its answer and hides any other open answer.</div>
+                </div><div class="challenge-constraints">Use querySelectorAll, forEach, classList.toggle, and classList.remove. Do not use inline styles.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    .question { padding: 12px; background: #f3f4f6; cursor: pointer; border-bottom: 1px solid #ddd; font-weight: bold; }
+    .answer { padding: 12px; display: none; }
+    .answer.open { display: block; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;FAQ&lt;/h2&gt;
+  &lt;div class=&quot;faq&quot;&gt;
+    &lt;div class=&quot;question&quot;&gt;What is JavaScript?&lt;/div&gt;
+    &lt;div class=&quot;answer&quot;&gt;JavaScript is a programming language that makes websites interactive.&lt;/div&gt;
+    &lt;div class=&quot;question&quot;&gt;What is the DOM?&lt;/div&gt;
+    &lt;div class=&quot;answer&quot;&gt;The DOM is a tree of objects representing your HTML page.&lt;/div&gt;
+    &lt;div class=&quot;question&quot;&gt;What is querySelector?&lt;/div&gt;
+    &lt;div class=&quot;answer&quot;&gt;querySelector selects the first element matching a CSS selector.&lt;/div&gt;
+    &lt;div class=&quot;question&quot;&gt;What is classList?&lt;/div&gt;
+    &lt;div class=&quot;answer&quot;&gt;classList provides methods to add, remove, and toggle CSS classes.&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;script&gt;
+    const questions = document.querySelectorAll(&quot;.question&quot;);
+    questions.forEach(function(q) {
+      q.addEventListener(&quot;click&quot;, function() {
+        const answer = q.nextElementSibling;
+        const isOpen = answer.classList.contains(&quot;open&quot;);
+        document.querySelectorAll(&quot;.answer&quot;).forEach(function(a) { a.classList.remove(&quot;open&quot;); });
+        if (!isOpen) { answer.classList.add(&quot;open&quot;); }
+      });
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/javascript/strings-and-template-literals/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Strings and Template Literals</span>
+        </a>
+            <a href="/resources/javascript/dom-events-and-listeners/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">DOM Events and Event Listeners</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/javascript/dom-selection-and-manipulation" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

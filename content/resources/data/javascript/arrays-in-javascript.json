@@ -1,0 +1,735 @@
+{
+  "title": "Arrays and Array Methods",
+  "slug": "arrays-in-javascript",
+  "language": "javascript",
+  "chapter": 8,
+  "difficulty": "Intermediate",
+  "readingTime": "28 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "JavaScript Arrays - map, filter, reduce, sort, spread, destructuring | Modern Age Coders",
+    "description": "Master JavaScript arrays: push, pop, map, filter, reduce, sort, find, includes, spread operator, destructuring, and method chaining. Includes 58 practice questions with real data processing challenges.",
+    "keywords": "javascript arrays, javascript map filter reduce, array methods javascript, javascript array tutorial, javascript spread operator, array destructuring javascript, javascript sort array, javascript forEach, javascript find findIndex, javascript array chaining"
+  },
+  "content": {
+    "what": "<h2>What Are Arrays in JavaScript?</h2><p>An <strong>array</strong> is an ordered collection of values stored in a single variable. Instead of creating separate variables for 100 student names, you store them all in one array and access any of them by position (index).</p><p>Arrays in JavaScript are flexible. They can hold any type of data: numbers, strings, booleans, objects, and even other arrays. They can also grow and shrink dynamically - you do not need to specify a size when creating one.</p><pre><code>const fruits = [\"apple\", \"mango\", \"banana\"];\nconst scores = [85, 92, 78, 95, 88];\nconst mixed = [\"Aarav\", 16, true, null];</code></pre><p>Each element has an <strong>index</strong>, starting at 0. The first element is at index 0, the second at index 1, and so on. You access elements using square brackets: <code>fruits[0]</code> gives \"apple\".</p>",
+    "why": "<h2>Why Are Arrays Important?</h2><p>Arrays are one of the most used data structures in all of programming. Here is why you need to master them:</p><h3>1. Real Data Comes in Lists</h3><p>Student names, product prices, quiz scores, blog posts, search results - almost all real data is a collection of items. Arrays are how JavaScript stores and works with these collections.</p><h3>2. Powerful Built-in Methods</h3><p>JavaScript arrays come with dozens of built-in methods like <code>map()</code>, <code>filter()</code>, <code>reduce()</code>, <code>sort()</code>, and <code>find()</code>. These methods let you transform, filter, search, and process data in just one or two lines of code.</p><h3>3. Building Dynamic UIs</h3><p>Every time you see a list of products on Amazon, search results on Google, or posts on Instagram, an array of data was processed and turned into HTML elements. Arrays are the backbone of dynamic web pages.</p><h3>4. API Data Processing</h3><p>When you fetch data from an API (like weather data or movie listings), it almost always comes as an array of objects. You need array methods to filter, sort, and display this data.</p><h3>5. Foundation for Advanced Patterns</h3><p>Method chaining, functional programming, state management in React, and data pipelines all rely heavily on array methods. If you master arrays, everything else becomes easier.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Creating and Accessing Arrays</h3><p>You create arrays using square brackets. Access elements by their index (starting at 0). Modify elements by assigning to an index.</p><pre><code>const colors = [\"red\", \"green\", \"blue\"];\nconsole.log(colors[0]);    // \"red\"\nconsole.log(colors[2]);    // \"blue\"\nconsole.log(colors.length); // 3\n\ncolors[1] = \"yellow\"; // Modify an element\nconsole.log(colors);  // [\"red\", \"yellow\", \"blue\"]</code></pre><p>Note: even though the array is declared with <code>const</code>, you can still modify its contents. The <code>const</code> only prevents reassigning the variable, not changing the array itself.</p><h3>2. Adding and Removing Elements</h3><p>JavaScript provides methods to add and remove elements from both ends of an array:</p><pre><code>const arr = [1, 2, 3];\n\narr.push(4);     // Add to end: [1, 2, 3, 4]\narr.pop();       // Remove from end: [1, 2, 3]\narr.unshift(0);  // Add to start: [0, 1, 2, 3]\narr.shift();     // Remove from start: [1, 2, 3]</code></pre><p><code>push</code> and <code>pop</code> work on the end. <code>unshift</code> and <code>shift</code> work on the start. <code>push</code> and <code>unshift</code> return the new length. <code>pop</code> and <code>shift</code> return the removed element.</p><h3>3. splice and slice</h3><p><code>splice</code> changes the array in place - it can remove, replace, or insert elements at any position:</p><pre><code>const arr = [\"a\", \"b\", \"c\", \"d\", \"e\"];\n\narr.splice(2, 1);          // Remove 1 element at index 2: [\"a\", \"b\", \"d\", \"e\"]\narr.splice(1, 0, \"x\");     // Insert \"x\" at index 1: [\"a\", \"x\", \"b\", \"d\", \"e\"]\narr.splice(0, 2, \"y\", \"z\"); // Replace 2 elements at start: [\"y\", \"z\", \"b\", \"d\", \"e\"]</code></pre><p><code>slice</code> creates a <strong>new array</strong> from a portion of the original, without modifying it:</p><pre><code>const arr = [1, 2, 3, 4, 5];\nconsole.log(arr.slice(1, 4)); // [2, 3, 4] (index 1 to 3)\nconsole.log(arr.slice(2));    // [3, 4, 5] (index 2 to end)\nconsole.log(arr);             // [1, 2, 3, 4, 5] (unchanged)</code></pre><h3>4. Searching: indexOf, includes, find, findIndex</h3><pre><code>const nums = [10, 20, 30, 40, 50];\n\nnums.indexOf(30);     // 2 (index of first match)\nnums.includes(20);    // true (does it exist?)\nnums.find(n => n > 25);      // 30 (first element passing the test)\nnums.findIndex(n => n > 25); // 2 (index of first element passing the test)</code></pre><p><code>indexOf</code> and <code>includes</code> work with simple values. <code>find</code> and <code>findIndex</code> take a callback function, making them powerful for complex conditions.</p><h3>5. map - Transform Every Element</h3><p><code>map()</code> creates a new array by calling a function on every element of the original:</p><pre><code>const prices = [100, 200, 300];\nconst withTax = prices.map(price => price * 1.18);\nconsole.log(withTax); // [118, 236, 354]</code></pre><p>The original array is unchanged. <code>map</code> always returns a new array of the same length. It is the most common array method in web development.</p><h3>6. filter - Select Elements</h3><p><code>filter()</code> creates a new array with only the elements that pass a test:</p><pre><code>const scores = [85, 42, 67, 91, 38, 73];\nconst passing = scores.filter(s => s >= 50);\nconsole.log(passing); // [85, 67, 91, 73]</code></pre><p>The callback must return <code>true</code> or <code>false</code>. Elements where the callback returns true are included; others are excluded.</p><h3>7. reduce - Accumulate to a Single Value</h3><p><code>reduce()</code> processes all elements and reduces them to a single value (a number, string, object, etc.):</p><pre><code>const nums = [1, 2, 3, 4, 5];\nconst sum = nums.reduce((acc, curr) => acc + curr, 0);\nconsole.log(sum); // 15</code></pre><p>The callback takes an <strong>accumulator</strong> (running result) and the <strong>current element</strong>. The second argument to reduce (0) is the initial value of the accumulator. Step by step: 0+1=1, 1+2=3, 3+3=6, 6+4=10, 10+5=15.</p><h3>8. sort - Ordering Elements</h3><p><code>sort()</code> sorts the array <strong>in place</strong> (modifies the original). By default, it sorts elements as strings, which causes problems with numbers:</p><pre><code>const nums = [40, 100, 1, 5, 25];\nnums.sort(); // [1, 100, 25, 40, 5] - WRONG! (string comparison)\n\n// Correct: use a compare function\nnums.sort((a, b) => a - b); // [1, 5, 25, 40, 100] - ascending\nnums.sort((a, b) => b - a); // [100, 40, 25, 5, 1] - descending</code></pre><p>The compare function returns a negative number (a comes first), zero (equal), or positive number (b comes first).</p><h3>9. forEach - Do Something for Each Element</h3><p><code>forEach()</code> calls a function for each element but does NOT return a new array. Use it for side effects like logging or DOM manipulation:</p><pre><code>const names = [\"Aarav\", \"Priya\", \"Rohan\"];\nnames.forEach((name, index) => {\n  console.log(index + 1 + \". \" + name);\n});</code></pre><h3>10. every and some</h3><p><code>every()</code> checks if ALL elements pass a test. <code>some()</code> checks if AT LEAST ONE element passes:</p><pre><code>const ages = [15, 17, 14, 16, 18];\nages.every(a => a >= 18); // false (not all are 18+)\nages.some(a => a >= 18);  // true (at least one is 18+)</code></pre><h3>11. Spread Operator [...] and Array.from()</h3><p>The spread operator (<code>...</code>) expands an array into individual elements. It is great for copying and merging arrays:</p><pre><code>const a = [1, 2, 3];\nconst b = [4, 5, 6];\nconst combined = [...a, ...b]; // [1, 2, 3, 4, 5, 6]\nconst copy = [...a];           // [1, 2, 3] (shallow copy)</code></pre><p><code>Array.from()</code> creates an array from array-like objects:</p><pre><code>Array.from(\"hello\");     // [\"h\", \"e\", \"l\", \"l\", \"o\"]\nArray.from({length: 5}, (_, i) => i * 2); // [0, 2, 4, 6, 8]</code></pre><h3>12. flat and flatMap</h3><p><code>flat()</code> flattens nested arrays. <code>flatMap()</code> maps and flattens in one step:</p><pre><code>const nested = [[1, 2], [3, 4], [5, 6]];\nnested.flat(); // [1, 2, 3, 4, 5, 6]\n\nconst sentences = [\"hello world\", \"goodbye moon\"];\nsentences.flatMap(s => s.split(\" \")); // [\"hello\", \"world\", \"goodbye\", \"moon\"]</code></pre><h3>13. Method Chaining</h3><p>Since methods like <code>map</code>, <code>filter</code>, and <code>sort</code> return arrays, you can chain them together:</p><pre><code>const students = [\n  { name: \"Aarav\", score: 85 },\n  { name: \"Priya\", score: 42 },\n  { name: \"Rohan\", score: 91 },\n  { name: \"Diya\", score: 67 }\n];\n\nconst topScorers = students\n  .filter(s => s.score >= 60)\n  .sort((a, b) => b.score - a.score)\n  .map(s => s.name);\n\nconsole.log(topScorers); // [\"Rohan\", \"Aarav\", \"Diya\"]</code></pre><p>This reads like a pipeline: filter out low scores, sort by score descending, then extract just the names. Chaining is extremely common in real JavaScript.</p><h3>14. Destructuring Arrays</h3><p>Destructuring lets you unpack array values into individual variables:</p><pre><code>const [first, second, third] = [\"apple\", \"mango\", \"banana\"];\nconsole.log(first);  // \"apple\"\nconsole.log(second); // \"mango\"\n\n// Skip elements\nconst [a, , c] = [1, 2, 3];\nconsole.log(a, c); // 1 3\n\n// Rest pattern\nconst [head, ...tail] = [10, 20, 30, 40];\nconsole.log(head); // 10\nconsole.log(tail); // [20, 30, 40]</code></pre>",
+    "codeExamples": [
+      {
+        "title": "Creating, Accessing, and Modifying Arrays",
+        "code": "const students = [\"Aarav\", \"Priya\", \"Rohan\", \"Diya\", \"Vikram\"];\n\n// Accessing elements\nconsole.log(students[0]);       // First element\nconsole.log(students[students.length - 1]); // Last element\n\n// Modifying\nstudents[2] = \"Arjun\";\nconsole.log(students);\n\n// Length\nconsole.log(\"Count:\", students.length);",
+        "language": "javascript",
+        "explanation": "Arrays are zero-indexed: the first element is at index 0. Access the last element using <code>arr[arr.length - 1]</code>. You can modify elements by assigning to an index, even with <code>const</code> (const prevents reassignment of the variable, not mutation of the array).",
+        "output": "Aarav\nVikram\n[\"Aarav\", \"Priya\", \"Arjun\", \"Diya\", \"Vikram\"]\nCount: 5"
+      },
+      {
+        "title": "push, pop, shift, unshift, splice",
+        "code": "const queue = [\"Meera\", \"Kabir\", \"Ananya\"];\n\nqueue.push(\"Ishaan\");    // Add to end\nconsole.log(queue);\n\nconst removed = queue.shift(); // Remove from start\nconsole.log(\"Served:\", removed);\nconsole.log(queue);\n\n// splice: insert at index 1\nqueue.splice(1, 0, \"Neha\");\nconsole.log(queue);\n\n// splice: remove 2 elements starting at index 0\nqueue.splice(0, 2);\nconsole.log(queue);",
+        "language": "javascript",
+        "explanation": "<code>push</code> adds to the end, <code>shift</code> removes from the start (like a real queue). <code>splice(index, deleteCount, ...items)</code> is the Swiss army knife: it can insert, remove, or replace elements at any position.",
+        "output": "[\"Meera\", \"Kabir\", \"Ananya\", \"Ishaan\"]\nServed: Meera\n[\"Kabir\", \"Ananya\", \"Ishaan\"]\n[\"Kabir\", \"Neha\", \"Ananya\", \"Ishaan\"]\n[\"Ananya\", \"Ishaan\"]"
+      },
+      {
+        "title": "map, filter, and reduce",
+        "code": "const marks = [85, 42, 91, 67, 38, 73, 55];\n\n// map: add 5 bonus marks to each\nconst boosted = marks.map(m => m + 5);\nconsole.log(\"Boosted:\", boosted);\n\n// filter: only passing marks (>= 50)\nconst passing = marks.filter(m => m >= 50);\nconsole.log(\"Passing:\", passing);\n\n// reduce: calculate average\nconst total = marks.reduce((sum, m) => sum + m, 0);\nconst average = total / marks.length;\nconsole.log(\"Average:\", average.toFixed(1));",
+        "language": "javascript",
+        "explanation": "<code>map</code> transforms every element (adds 5 to each mark). <code>filter</code> keeps only elements passing a condition (marks >= 50). <code>reduce</code> compresses the array into a single value (sum of all marks). None of these modify the original array.",
+        "output": "Boosted: [90, 47, 96, 72, 43, 78, 60]\nPassing: [85, 91, 67, 73, 55]\nAverage: 64.4"
+      },
+      {
+        "title": "Method Chaining with Real Data",
+        "code": "const products = [\n  { name: \"Laptop\", price: 45000, inStock: true },\n  { name: \"Phone\", price: 15000, inStock: false },\n  { name: \"Tablet\", price: 25000, inStock: true },\n  { name: \"Watch\", price: 8000, inStock: true },\n  { name: \"Headphones\", price: 3000, inStock: true }\n];\n\nconst affordable = products\n  .filter(p => p.inStock)\n  .filter(p => p.price <= 25000)\n  .sort((a, b) => a.price - b.price)\n  .map(p => p.name + \" (Rs \" + p.price + \")\");\n\nconsole.log(\"Affordable in-stock items:\");\naffordable.forEach(item => console.log(\"- \" + item));",
+        "language": "javascript",
+        "explanation": "This chain first filters products that are in stock, then filters by price, sorts by price ascending, and finally maps to display strings. Each method returns a new array, so you can keep chaining. This is how real e-commerce sites process product data.",
+        "output": "Affordable in-stock items:\n- Headphones (Rs 3000)\n- Watch (Rs 8000)\n- Tablet (Rs 25000)"
+      },
+      {
+        "title": "sort with Compare Function",
+        "code": "// Sorting numbers (must use compare function)\nconst nums = [40, 100, 1, 5, 25, 10];\n\n// Default sort (wrong for numbers!):\nconst defaultSort = [...nums].sort();\nconsole.log(\"Default:\", defaultSort);\n\n// Ascending\nconst ascending = [...nums].sort((a, b) => a - b);\nconsole.log(\"Ascending:\", ascending);\n\n// Descending\nconst descending = [...nums].sort((a, b) => b - a);\nconsole.log(\"Descending:\", descending);\n\n// Sort strings alphabetically\nconst names = [\"Rohan\", \"Aarav\", \"Priya\", \"Diya\"];\nnames.sort();\nconsole.log(\"Names:\", names);",
+        "language": "javascript",
+        "explanation": "Default <code>sort()</code> converts everything to strings, which gives wrong results for numbers (100 comes before 25 alphabetically). Always use a compare function for numbers: <code>(a, b) => a - b</code> for ascending, <code>(a, b) => b - a</code> for descending. We use <code>[...nums]</code> to copy the array before sorting since sort modifies in place.",
+        "output": "Default: [1, 10, 100, 25, 40, 5]\nAscending: [1, 5, 10, 25, 40, 100]\nDescending: [100, 40, 25, 10, 5, 1]\nNames: [\"Aarav\", \"Diya\", \"Priya\", \"Rohan\"]"
+      },
+      {
+        "title": "Spread Operator, Array.from, and Destructuring",
+        "code": "// Spread: merge arrays\nconst frontEnd = [\"HTML\", \"CSS\", \"JavaScript\"];\nconst backEnd = [\"Node\", \"Python\", \"Java\"];\nconst fullStack = [...frontEnd, ...backEnd];\nconsole.log(\"Full stack:\", fullStack);\n\n// Array.from: create array from a range\nconst evens = Array.from({ length: 5 }, (_, i) => (i + 1) * 2);\nconsole.log(\"Evens:\", evens);\n\n// Destructuring\nconst [gold, silver, bronze, ...rest] = [\"Aarav\", \"Priya\", \"Rohan\", \"Diya\", \"Vikram\"];\nconsole.log(\"Gold:\", gold);\nconsole.log(\"Silver:\", silver);\nconsole.log(\"Rest:\", rest);",
+        "language": "javascript",
+        "explanation": "The spread operator <code>...</code> unpacks arrays. Use it to merge arrays or create copies. <code>Array.from</code> creates arrays from array-like objects or with a mapping function. Destructuring unpacks array values into variables. The rest pattern <code>...rest</code> collects remaining elements.",
+        "output": "Full stack: [\"HTML\", \"CSS\", \"JavaScript\", \"Node\", \"Python\", \"Java\"]\nEvens: [2, 4, 6, 8, 10]\nGold: Aarav\nSilver: Priya\nRest: [\"Diya\", \"Vikram\"]"
+      },
+      {
+        "title": "find, findIndex, every, some",
+        "code": "const students = [\n  { name: \"Aarav\", marks: 85 },\n  { name: \"Priya\", marks: 92 },\n  { name: \"Rohan\", marks: 67 },\n  { name: \"Diya\", marks: 45 }\n];\n\n// find: first student with marks > 80\nconst topStudent = students.find(s => s.marks > 80);\nconsole.log(\"First topper:\", topStudent.name);\n\n// findIndex: index of first failing student\nconst failIdx = students.findIndex(s => s.marks < 50);\nconsole.log(\"First fail at index:\", failIdx);\n\n// every: did everyone pass?\nconsole.log(\"All passed:\", students.every(s => s.marks >= 50));\n\n// some: did anyone score above 90?\nconsole.log(\"Any above 90:\", students.some(s => s.marks > 90));",
+        "language": "javascript",
+        "explanation": "<code>find</code> returns the first element matching the condition. <code>findIndex</code> returns its index. <code>every</code> checks if ALL elements match (returns false if even one fails). <code>some</code> checks if ANY element matches (returns true if at least one passes).",
+        "output": "First topper: Aarav\nFirst fail at index: 3\nAll passed: false\nAny above 90: true"
+      },
+      {
+        "title": "flat, flatMap, and Real Data Processing",
+        "code": "// flat: flatten nested arrays\nconst grades = [[85, 92], [67, 73], [91, 88]];\nconsole.log(\"Flat:\", grades.flat());\n\n// flatMap: split sentences into words\nconst reviews = [\"Great course\", \"Loved the projects\", \"Very helpful\"];\nconst words = reviews.flatMap(r => r.split(\" \"));\nconsole.log(\"Words:\", words);\n\n// Real data processing: student report\nconst classData = [\n  { name: \"Kavya\", subjects: [\"Maths\", \"Science\"] },\n  { name: \"Arjun\", subjects: [\"English\", \"Maths\"] }\n];\n\nconst allSubjects = [...new Set(classData.flatMap(s => s.subjects))];\nconsole.log(\"All unique subjects:\", allSubjects);",
+        "language": "javascript",
+        "explanation": "<code>flat()</code> flattens one level of nesting by default. <code>flatMap()</code> is like calling <code>map()</code> then <code>flat(1)</code> in one step. The last example uses flatMap to get all subjects from all students, then a Set to remove duplicates, and spread to convert back to an array.",
+        "output": "Flat: [85, 92, 67, 73, 91, 88]\nWords: [\"Great\", \"course\", \"Loved\", \"the\", \"projects\", \"Very\", \"helpful\"]\nAll unique subjects: [\"Maths\", \"Science\", \"English\"]"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Sorting Numbers Without a Compare Function",
+        "wrongCode": "const nums = [40, 100, 1, 5, 25];\nnums.sort();\nconsole.log(nums); // [1, 100, 25, 40, 5] - Wrong!",
+        "error": "Numbers are sorted as strings. 100 comes before 25 because \"1\" < \"2\" alphabetically.",
+        "correctCode": "const nums = [40, 100, 1, 5, 25];\nnums.sort((a, b) => a - b);\nconsole.log(nums); // [1, 5, 25, 40, 100] - Correct!",
+        "explanation": "The default <code>sort()</code> converts elements to strings and sorts them alphabetically. For numbers, you MUST pass a compare function: <code>(a, b) => a - b</code> for ascending order. This is one of the most common JavaScript gotchas."
+      },
+      {
+        "title": "Confusing map and forEach",
+        "wrongCode": "const nums = [1, 2, 3];\nconst doubled = nums.forEach(n => n * 2);\nconsole.log(doubled); // undefined!",
+        "error": "forEach returns undefined. It does not create a new array.",
+        "correctCode": "const nums = [1, 2, 3];\nconst doubled = nums.map(n => n * 2);\nconsole.log(doubled); // [2, 4, 6]",
+        "explanation": "<code>forEach</code> is for side effects (like logging or DOM updates). It always returns <code>undefined</code>. <code>map</code> is for transforming data - it returns a new array with the results. Use <code>map</code> when you need a new array, <code>forEach</code> when you just want to do something with each element."
+      },
+      {
+        "title": "Forgetting That sort Mutates the Original Array",
+        "wrongCode": "const original = [3, 1, 4, 1, 5];\nconst sorted = original.sort((a, b) => a - b);\nconsole.log(sorted);   // [1, 1, 3, 4, 5]\nconsole.log(original); // [1, 1, 3, 4, 5] - Also changed!",
+        "error": "sort modifies the original array. Both variables point to the same sorted array.",
+        "correctCode": "const original = [3, 1, 4, 1, 5];\nconst sorted = [...original].sort((a, b) => a - b);\nconsole.log(sorted);   // [1, 1, 3, 4, 5]\nconsole.log(original); // [3, 1, 4, 1, 5] - Unchanged!",
+        "explanation": "<code>sort()</code> modifies the array in place. If you need to keep the original, spread it into a new array first: <code>[...original].sort()</code>. Methods like <code>map</code>, <code>filter</code>, and <code>slice</code> create new arrays, but <code>sort</code>, <code>splice</code>, <code>push</code>, and <code>pop</code> mutate the original."
+      },
+      {
+        "title": "Using Wrong Initial Value in reduce",
+        "wrongCode": "const nums = [1, 2, 3];\nconst product = nums.reduce((acc, n) => acc * n);\nconsole.log(product); // 6 (works here)\n\nconst empty = [];\nconst sum = empty.reduce((acc, n) => acc + n);\n// TypeError: Reduce of empty array with no initial value",
+        "error": "Without an initial value, reduce fails on empty arrays.",
+        "correctCode": "const nums = [1, 2, 3];\nconst product = nums.reduce((acc, n) => acc * n, 1);\nconsole.log(product); // 6\n\nconst empty = [];\nconst sum = empty.reduce((acc, n) => acc + n, 0);\nconsole.log(sum); // 0 (no error)",
+        "explanation": "Always provide an initial value as the second argument to <code>reduce</code>. Without it, reduce uses the first element as the initial value, which fails on empty arrays. For sum, use 0. For product, use 1. For string concatenation, use \"\"."
+      },
+      {
+        "title": "Expecting indexOf to Work with Objects",
+        "wrongCode": "const students = [{ name: \"Aarav\" }, { name: \"Priya\" }];\nconsole.log(students.indexOf({ name: \"Aarav\" })); // -1 (not found!)",
+        "error": "indexOf compares by reference, not by value. Two different objects with the same content are not equal.",
+        "correctCode": "const students = [{ name: \"Aarav\" }, { name: \"Priya\" }];\nconst index = students.findIndex(s => s.name === \"Aarav\");\nconsole.log(index); // 0",
+        "explanation": "In JavaScript, objects are compared by reference (memory address), not by their content. <code>{ name: \"Aarav\" } === { name: \"Aarav\" }</code> is false because they are two different objects. Use <code>findIndex</code> with a callback to search by property values."
+      }
+    ],
+    "summary": [
+      "Arrays are ordered collections of values, accessed by zero-based index. They can hold any data type and grow/shrink dynamically.",
+      "push/pop add/remove from the end. unshift/shift add/remove from the start. splice can insert, remove, or replace at any position.",
+      "slice creates a new array from a portion without modifying the original. splice modifies the original array in place.",
+      "map transforms every element and returns a new array. Use it when you need to convert data (like adding tax to prices or extracting names).",
+      "filter creates a new array with only elements that pass a test. Use it to select or exclude items based on a condition.",
+      "reduce processes all elements into a single value. Always provide an initial value as the second argument to avoid errors with empty arrays.",
+      "sort modifies the array in place. For numbers, always use a compare function: (a, b) => a - b for ascending. Spread into a copy to preserve the original.",
+      "find returns the first matching element. findIndex returns its index. every checks if ALL match. some checks if ANY match.",
+      "The spread operator [...arr] copies arrays, merges arrays, and converts iterables to arrays. Array.from creates arrays from array-like objects.",
+      "Method chaining (filter then sort then map) is a powerful pattern for data processing. Each method returns a new array, enabling the chain.",
+      "Destructuring unpacks array values into variables. The rest pattern (...rest) collects remaining elements into a new array."
+    ]
+  },
+  "relatedTopics": ["functions-in-javascript", "objects-in-javascript"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>const arr = [10, 20, 30];\nconsole.log(arr[1]);</code></pre>",
+        "hint": "Arrays are zero-indexed. Index 1 is the second element.",
+        "answer": "<code>20</code>",
+        "explanation": "Index 0 is 10, index 1 is 20, index 2 is 30. So <code>arr[1]</code> returns 20."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr);</code></pre>",
+        "hint": "push adds an element to the end.",
+        "answer": "<code>[1, 2, 3, 4]</code>",
+        "explanation": "<code>push(4)</code> adds 4 to the end of the array. The array becomes [1, 2, 3, 4]."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const arr = [\"a\", \"b\", \"c\"];\nconsole.log(arr.length);\nconsole.log(arr[arr.length - 1]);</code></pre>",
+        "hint": "length is 3. The last index is length - 1.",
+        "answer": "<code>3</code><br><code>c</code>",
+        "explanation": "The array has 3 elements. <code>arr[arr.length - 1]</code> is <code>arr[2]</code> which is \"c\". This is the standard way to access the last element."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const nums = [5, 10, 15];\nconst doubled = nums.map(n => n * 2);\nconsole.log(doubled);</code></pre>",
+        "hint": "map transforms each element and returns a new array.",
+        "answer": "<code>[10, 20, 30]</code>",
+        "explanation": "<code>map</code> calls the callback on each element: 5*2=10, 10*2=20, 15*2=30. Returns a new array [10, 20, 30]. The original array is unchanged."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const nums = [1, 2, 3, 4, 5];\nconst even = nums.filter(n => n % 2 === 0);\nconsole.log(even);</code></pre>",
+        "hint": "filter keeps elements where the callback returns true.",
+        "answer": "<code>[2, 4]</code>",
+        "explanation": "<code>filter</code> tests each element. 1%2=1 (false), 2%2=0 (true), 3%2=1 (false), 4%2=0 (true), 5%2=1 (false). Only 2 and 4 pass the test."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const arr = [10, 20, 30];\nconsole.log(arr.includes(20));\nconsole.log(arr.includes(25));</code></pre>",
+        "hint": "includes returns true if the value is in the array.",
+        "answer": "<code>true</code><br><code>false</code>",
+        "explanation": "20 is in the array, so <code>includes(20)</code> returns true. 25 is not in the array, so <code>includes(25)</code> returns false."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const nums = [1, 2, 3, 4, 5];\nconst sum = nums.reduce((acc, n) => acc + n, 0);\nconsole.log(sum);</code></pre>",
+        "hint": "reduce accumulates: 0+1=1, 1+2=3, 3+3=6, 6+4=10, 10+5=15.",
+        "answer": "<code>15</code>",
+        "explanation": "reduce starts with acc=0. Step by step: 0+1=1, 1+2=3, 3+3=6, 6+4=10, 10+5=15. The final accumulated value is 15."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const arr = [3, 1, 4, 1, 5];\nconst sorted = [...arr].sort((a, b) => a - b);\nconsole.log(sorted);\nconsole.log(arr);</code></pre>",
+        "hint": "Spreading creates a copy. Sort modifies the copy, not the original.",
+        "answer": "<code>[1, 1, 3, 4, 5]</code><br><code>[3, 1, 4, 1, 5]</code>",
+        "explanation": "<code>[...arr]</code> creates a copy. <code>sort</code> modifies that copy, not the original. So sorted is [1,1,3,4,5] but arr remains [3,1,4,1,5]."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const arr = [1, 2, 3, 4, 5];\nconsole.log(arr.slice(1, 4));\nconsole.log(arr.slice(3));</code></pre>",
+        "hint": "slice(start, end) extracts from start up to (not including) end.",
+        "answer": "<code>[2, 3, 4]</code><br><code>[4, 5]</code>",
+        "explanation": "<code>slice(1, 4)</code> extracts elements at indices 1, 2, 3 (not 4): [2, 3, 4]. <code>slice(3)</code> extracts from index 3 to the end: [4, 5]. The original array is unchanged."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const students = [\n  { name: \"Aarav\", score: 72 },\n  { name: \"Priya\", score: 91 },\n  { name: \"Rohan\", score: 85 }\n];\n\nconst top = students.find(s => s.score > 80);\nconsole.log(top.name);</code></pre>",
+        "hint": "find returns the FIRST element that matches.",
+        "answer": "<code>Priya</code>",
+        "explanation": "<code>find</code> returns the first element where the callback returns true. It checks Aarav (72 > 80? No), then Priya (91 > 80? Yes). It returns Priya's object immediately without checking Rohan."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const [a, b, ...rest] = [10, 20, 30, 40, 50];\nconsole.log(a);\nconsole.log(b);\nconsole.log(rest);</code></pre>",
+        "hint": "Destructuring with rest pattern collects remaining elements.",
+        "answer": "<code>10</code><br><code>20</code><br><code>[30, 40, 50]</code>",
+        "explanation": "<code>a</code> gets the first element (10), <code>b</code> gets the second (20), and <code>...rest</code> collects everything else into an array [30, 40, 50]."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const nums = [1, 2, 3, 4, 5, 6];\nconst result = nums\n  .filter(n => n % 2 === 0)\n  .map(n => n * n);\nconsole.log(result);</code></pre>",
+        "hint": "Filter even numbers first, then square each one.",
+        "answer": "<code>[4, 16, 36]</code>",
+        "explanation": "First, <code>filter</code> keeps even numbers: [2, 4, 6]. Then <code>map</code> squares each: [4, 16, 36]. This is method chaining - the output of filter feeds into map."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const words = [\"hello\", \"world\", \"javascript\"];\nconst result = words.reduce((longest, word) => {\n  return word.length > longest.length ? word : longest;\n}, \"\");\nconsole.log(result);</code></pre>",
+        "hint": "reduce finds the longest word by comparing lengths.",
+        "answer": "<code>javascript</code>",
+        "explanation": "Starting with \"\" (length 0): \"hello\" (5 > 0, keep \"hello\"), \"world\" (5 > 5? No, keep \"hello\"), \"javascript\" (10 > 5, keep \"javascript\"). The longest word is \"javascript\"."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const nums = [1, 2, 3, 4, 5];\nconst result = nums.reduce((acc, n) => {\n  acc[n % 2 === 0 ? \"even\" : \"odd\"].push(n);\n  return acc;\n}, { even: [], odd: [] });\nconsole.log(result);</code></pre>",
+        "hint": "reduce builds an object that groups numbers into even and odd arrays.",
+        "answer": "<code>{ even: [2, 4], odd: [1, 3, 5] }</code>",
+        "explanation": "The accumulator starts as <code>{ even: [], odd: [] }</code>. Each number is pushed into the appropriate array based on whether it is even or odd. This is a grouping pattern using reduce."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const a = [1, 2, 3];\nconst b = [3, 4, 5];\nconst unique = [...new Set([...a, ...b])];\nconsole.log(unique);</code></pre>",
+        "hint": "Spread both arrays, use a Set to remove duplicates, spread back to array.",
+        "answer": "<code>[1, 2, 3, 4, 5]</code>",
+        "explanation": "<code>[...a, ...b]</code> merges into [1,2,3,3,4,5]. <code>new Set()</code> removes duplicates: {1,2,3,4,5}. Spreading the Set back gives [1,2,3,4,5]."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between map and forEach? When would you use each one?",
+        "hint": "One returns a new array, the other returns undefined.",
+        "answer": "<code>map</code> transforms each element and returns a <strong>new array</strong> with the results. <code>forEach</code> runs a function for each element but returns <code>undefined</code>. Use <code>map</code> when you need to transform data into a new array. Use <code>forEach</code> for side effects like logging, updating DOM elements, or other operations where you do not need a return value.",
+        "explanation": "Example: <code>[1,2,3].map(n => n*2)</code> returns [2,4,6]. <code>[1,2,3].forEach(n => console.log(n))</code> logs each number but returns undefined. A common mistake is trying to use forEach to create a new array."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const ages = [12, 18, 15, 21, 16];\nconsole.log(ages.every(a => a >= 18));\nconsole.log(ages.some(a => a >= 18));</code></pre>",
+        "hint": "every checks ALL elements. some checks if ANY element passes.",
+        "answer": "<code>false</code><br><code>true</code>",
+        "explanation": "<code>every</code> returns false because not all ages are >= 18 (12, 15, 16 fail). <code>some</code> returns true because at least one age is >= 18 (18 and 21 pass)."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const arr = [\"a\", \"b\", \"c\"];\nconst removed = arr.pop();\nconsole.log(removed);\nconsole.log(arr);</code></pre>",
+        "hint": "pop removes and returns the last element.",
+        "answer": "<code>c</code><br><code>[\"a\", \"b\"]</code>",
+        "explanation": "<code>pop()</code> removes the last element (\"c\") and returns it. The array is now [\"a\", \"b\"]."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const data = [[1, 2], [3, 4], [5, 6]];\nconst flat = data.flat();\nconst sum = flat.reduce((a, b) => a + b, 0);\nconsole.log(flat);\nconsole.log(sum);</code></pre>",
+        "hint": "flat flattens one level of nesting. Then reduce sums them all.",
+        "answer": "<code>[1, 2, 3, 4, 5, 6]</code><br><code>21</code>",
+        "explanation": "<code>flat()</code> turns [[1,2],[3,4],[5,6]] into [1,2,3,4,5,6]. Then <code>reduce</code> sums all values: 1+2+3+4+5+6 = 21."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const arr = [1, 2, 3, 4, 5];\nconst idx = arr.findIndex(n => n > 3);\nconsole.log(idx);</code></pre>",
+        "hint": "findIndex returns the INDEX of the first matching element.",
+        "answer": "<code>3</code>",
+        "explanation": "<code>findIndex</code> tests each element: 1>3? No. 2>3? No. 3>3? No. 4>3? Yes, at index 3. Returns 3 (the index, not the value)."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const arr = [\"x\", \"y\", \"z\"];\narr.unshift(\"w\");\nconsole.log(arr);</code></pre>",
+        "hint": "unshift adds to the start of the array.",
+        "answer": "<code>[\"w\", \"x\", \"y\", \"z\"]</code>",
+        "explanation": "<code>unshift(\"w\")</code> adds \"w\" to the beginning. The array becomes [\"w\", \"x\", \"y\", \"z\"]."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const names = [\"Aarav\", \"Priya\", \"Rohan\"];\nconsole.log(names.indexOf(\"Priya\"));\nconsole.log(names.indexOf(\"Diya\"));</code></pre>",
+        "hint": "indexOf returns the index or -1 if not found.",
+        "answer": "<code>1</code><br><code>-1</code>",
+        "explanation": "\"Priya\" is at index 1. \"Diya\" is not in the array, so indexOf returns -1."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const nums = [10, 20, 30, 40, 50];\nconst result = nums\n  .filter(n => n >= 20)\n  .map(n => n / 10);\nconsole.log(result);</code></pre>",
+        "hint": "Filter first (>= 20), then divide each by 10.",
+        "answer": "<code>[2, 3, 4, 5]</code>",
+        "explanation": "Filter keeps [20, 30, 40, 50] (all >= 20). Map divides each by 10: [2, 3, 4, 5]."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const a = [1, 2];\nconst b = [3, 4];\nconst c = [...a, ...b, 5];\nconsole.log(c);</code></pre>",
+        "hint": "Spread unpacks arrays. You can add extra elements too.",
+        "answer": "<code>[1, 2, 3, 4, 5]</code>",
+        "explanation": "<code>...a</code> gives 1, 2. <code>...b</code> gives 3, 4. Then 5 is added. The result is [1, 2, 3, 4, 5]."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const arr = [\"hello\", \"world\", \"test\"];\nconst result = arr.map(s => s.toUpperCase());\nconsole.log(result);</code></pre>",
+        "hint": "map transforms each string to uppercase.",
+        "answer": "<code>[\"HELLO\", \"WORLD\", \"TEST\"]</code>",
+        "explanation": "<code>map</code> calls <code>toUpperCase()</code> on each string and returns a new array with the uppercase versions."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const scores = [85, 42, 91, 67, 38];\nconst passCount = scores.filter(s => s >= 50).length;\nconsole.log(passCount);</code></pre>",
+        "hint": "Filter, then check the length of the filtered array.",
+        "answer": "<code>3</code>",
+        "explanation": "<code>filter</code> keeps scores >= 50: [85, 91, 67]. The length of that array is 3. Three students passed."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const students = [\n  { name: \"Aarav\", marks: 85 },\n  { name: \"Priya\", marks: 92 },\n  { name: \"Rohan\", marks: 78 },\n  { name: \"Diya\", marks: 95 }\n];\n\nconst toppers = students\n  .filter(s => s.marks >= 85)\n  .sort((a, b) => b.marks - a.marks)\n  .map(s => s.name);\n\nconsole.log(toppers);</code></pre>",
+        "hint": "Filter >= 85, sort descending by marks, extract names.",
+        "answer": "<code>[\"Diya\", \"Priya\", \"Aarav\"]</code>",
+        "explanation": "Filter keeps students with marks >= 85: Aarav(85), Priya(92), Diya(95). Sort descending: Diya(95), Priya(92), Aarav(85). Map extracts names: [\"Diya\", \"Priya\", \"Aarav\"]."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const words = [\"cat\", \"elephant\", \"dog\", \"hippopotamus\"];\nconst longest = words.reduce((a, b) => a.length >= b.length ? a : b);\nconsole.log(longest);</code></pre>",
+        "hint": "reduce compares each word's length to find the longest.",
+        "answer": "<code>hippopotamus</code>",
+        "explanation": "Starting with \"cat\": \"elephant\"(8) > \"cat\"(3) -> \"elephant\". \"dog\"(3) < \"elephant\"(8) -> \"elephant\". \"hippopotamus\"(12) > \"elephant\"(8) -> \"hippopotamus\". The longest word is \"hippopotamus\"."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const arr = Array.from({ length: 5 }, (_, i) => i * i);\nconsole.log(arr);</code></pre>",
+        "hint": "Array.from with a mapping function. The second parameter (i) is the index.",
+        "answer": "<code>[0, 1, 4, 9, 16]</code>",
+        "explanation": "<code>Array.from</code> creates an array of length 5. The mapping function receives each index (0,1,2,3,4) and returns its square: 0, 1, 4, 9, 16."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const data = [\n  { category: \"fruit\", name: \"apple\" },\n  { category: \"veg\", name: \"carrot\" },\n  { category: \"fruit\", name: \"mango\" },\n  { category: \"veg\", name: \"potato\" }\n];\n\nconst grouped = data.reduce((acc, item) => {\n  if (!acc[item.category]) acc[item.category] = [];\n  acc[item.category].push(item.name);\n  return acc;\n}, {});\n\nconsole.log(grouped);</code></pre>",
+        "hint": "reduce groups items by category into an object.",
+        "answer": "<code>{ fruit: [\"apple\", \"mango\"], veg: [\"carrot\", \"potato\"] }</code>",
+        "explanation": "This is a groupBy pattern. The accumulator starts as an empty object. For each item, it creates an array for the category (if it does not exist) and pushes the name into it. The result groups items by their category."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain the difference between slice and splice. Which one modifies the original array?",
+        "hint": "One copies, the other cuts.",
+        "answer": "<code>slice(start, end)</code> creates a new array from a portion of the original without modifying it. <code>splice(start, deleteCount, ...items)</code> modifies the original array by removing, replacing, or inserting elements at a specified position. <code>splice</code> modifies the original, <code>slice</code> does not.",
+        "explanation": "Think of it this way: sl<strong>ice</strong> is like photocopying some pages from a book (original stays intact). Spl<strong>ice</strong> is like cutting pages out of the book and optionally inserting new ones (original is changed)."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const arr = [1, 2, 3, 4];\nconst shifted = arr.shift();\nconsole.log(shifted);\nconsole.log(arr);</code></pre>",
+        "hint": "shift removes and returns the first element.",
+        "answer": "<code>1</code><br><code>[2, 3, 4]</code>",
+        "explanation": "<code>shift()</code> removes the first element (1) and returns it. The array becomes [2, 3, 4]."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const sentences = [\"hello world\", \"foo bar baz\"];\nconst words = sentences.flatMap(s => s.split(\" \"));\nconsole.log(words);</code></pre>",
+        "hint": "flatMap maps then flattens one level.",
+        "answer": "<code>[\"hello\", \"world\", \"foo\", \"bar\", \"baz\"]</code>",
+        "explanation": "<code>map</code> would give [[\"hello\",\"world\"],[\"foo\",\"bar\",\"baz\"]]. <code>flatMap</code> flattens that one level to [\"hello\",\"world\",\"foo\",\"bar\",\"baz\"]."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What index does the first element of an array have?",
+        "options": {
+          "A": "1",
+          "B": "0",
+          "C": "-1",
+          "D": "It depends on the array"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Arrays in JavaScript are zero-indexed. The first element is always at index 0, the second at index 1, and so on."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which method adds an element to the END of an array?",
+        "options": {
+          "A": "unshift()",
+          "B": "shift()",
+          "C": "push()",
+          "D": "pop()"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>push()</code> adds to the end. <code>unshift()</code> adds to the start. <code>pop()</code> removes from the end. <code>shift()</code> removes from the start."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which method returns a new array with transformed elements?",
+        "options": {
+          "A": "forEach()",
+          "B": "map()",
+          "C": "filter()",
+          "D": "reduce()"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>map()</code> calls a function on each element and returns a new array with the results. <code>forEach</code> returns undefined. <code>filter</code> returns selected elements. <code>reduce</code> returns a single value."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does [1, 2, 3].includes(2) return?",
+        "options": {
+          "A": "1",
+          "B": "true",
+          "C": "2",
+          "D": "false"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>includes()</code> returns a boolean: <code>true</code> if the value is found in the array, <code>false</code> if not. Since 2 is in the array, it returns true."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does arr.pop() return?",
+        "options": {
+          "A": "The new length of the array",
+          "B": "The removed element",
+          "C": "undefined",
+          "D": "The modified array"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>pop()</code> removes the last element from the array and returns that removed element. <code>push()</code> is the one that returns the new length."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the default sorting behavior of arr.sort()?",
+        "options": {
+          "A": "Sorts numbers in ascending order",
+          "B": "Sorts numbers in descending order",
+          "C": "Converts elements to strings and sorts alphabetically",
+          "D": "Sorts by element type"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> By default, <code>sort()</code> converts elements to strings and sorts them by Unicode code points (alphabetically). This is why [40, 100, 1] sorts as [1, 100, 40] - because \"100\" comes before \"40\" as strings."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does filter() return if no elements match the condition?",
+        "options": {
+          "A": "null",
+          "B": "undefined",
+          "C": "An empty array []",
+          "D": "false"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>filter()</code> always returns an array. If no elements pass the test, it returns an empty array <code>[]</code>. It never returns null, undefined, or false."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which method modifies the original array?",
+        "options": {
+          "A": "map()",
+          "B": "filter()",
+          "C": "slice()",
+          "D": "sort()"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> <code>sort()</code> modifies the original array in place. <code>map()</code>, <code>filter()</code>, and <code>slice()</code> all return new arrays without changing the original."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does the spread operator [...arr] do?",
+        "options": {
+          "A": "Reverses the array",
+          "B": "Creates a shallow copy of the array",
+          "C": "Flattens nested arrays",
+          "D": "Removes duplicates"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>[...arr]</code> creates a shallow copy of the array. It does not reverse (option A), flatten deeply nested arrays (option C), or remove duplicates (option D - use a Set for that)."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is the second argument to reduce()?",
+        "options": {
+          "A": "The callback function",
+          "B": "The maximum number of iterations",
+          "C": "The initial value of the accumulator",
+          "D": "The array to reduce"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>reduce(callback, initialValue)</code> takes a callback as the first argument and an optional initial value for the accumulator as the second. Always provide an initial value to avoid errors with empty arrays."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the result of [1, 2, 3].map(n => n > 1)?",
+        "options": {
+          "A": "[2, 3]",
+          "B": "[false, true, true]",
+          "C": "[1]",
+          "D": "true"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>map</code> transforms each element using the callback. <code>1 > 1</code> is false, <code>2 > 1</code> is true, <code>3 > 1</code> is true. The result is [false, true, true]. If you wanted [2, 3], you would use <code>filter</code> instead."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What does Array.from({length: 3}, (_, i) => i) return?",
+        "options": {
+          "A": "[1, 2, 3]",
+          "B": "[0, 1, 2]",
+          "C": "[undefined, undefined, undefined]",
+          "D": "Error"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>Array.from</code> creates an array of length 3 and calls the mapping function for each index. The function receives the element (undefined, which we ignore with _) and the index. It returns [0, 1, 2]."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the difference between find() and filter()?",
+        "options": {
+          "A": "find returns an array, filter returns a single element",
+          "B": "find returns the first matching element, filter returns all matching elements as an array",
+          "C": "They are the same",
+          "D": "find searches by index, filter searches by value"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>find</code> returns the first element that matches (or undefined if none match). <code>filter</code> returns a new array with ALL elements that match (or an empty array if none match). find stops at the first match; filter checks every element."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What does [1, [2, [3]]].flat() return?",
+        "options": {
+          "A": "[1, 2, 3]",
+          "B": "[1, 2, [3]]",
+          "C": "[[1], [2], [3]]",
+          "D": "Error"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> By default, <code>flat()</code> flattens one level of nesting. The outer array [1, [2, [3]]] becomes [1, 2, [3]]. The inner [3] is not flattened because it is at depth 2. Use <code>flat(2)</code> or <code>flat(Infinity)</code> to flatten deeper."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "What does arr.length return?",
+        "options": {
+          "A": "The last index of the array",
+          "B": "The total number of elements",
+          "C": "The size in bytes",
+          "D": "The maximum capacity"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>length</code> returns the total number of elements in the array. The last index is <code>length - 1</code> (option A). JavaScript arrays do not have a fixed capacity (option D)."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "How do you correctly sort numbers in ascending order?",
+        "options": {
+          "A": "arr.sort()",
+          "B": "arr.sort((a, b) => b - a)",
+          "C": "arr.sort((a, b) => a - b)",
+          "D": "arr.sort(\"asc\")"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>(a, b) => a - b</code> sorts numbers ascending. If a < b, the result is negative (a comes first). If a > b, the result is positive (b comes first). Option B sorts descending."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Find the Maximum Value",
+        "difficulty": "Easy",
+        "description": "Aarav has the array [23, 67, 12, 89, 45, 91, 34]. Write a program using reduce to find the maximum value without using Math.max.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Maximum: 91",
+        "constraints": "Use reduce. Do not use Math.max or sort.",
+        "solution": "const nums = [23, 67, 12, 89, 45, 91, 34];\nconst max = nums.reduce((a, b) => a > b ? a : b);\nconsole.log(\"Maximum:\", max);"
+      },
+      {
+        "id": "cc-2",
+        "title": "Remove Duplicates",
+        "difficulty": "Easy",
+        "description": "Priya has the array [1, 3, 5, 3, 7, 1, 9, 5]. Write a program to remove duplicates and return a sorted array.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[1, 3, 5, 7, 9]",
+        "constraints": "Use the Set object and spread operator.",
+        "solution": "const arr = [1, 3, 5, 3, 7, 1, 9, 5];\nconst unique = [...new Set(arr)].sort((a, b) => a - b);\nconsole.log(unique);"
+      },
+      {
+        "id": "cc-3",
+        "title": "Student Grade Report",
+        "difficulty": "Medium",
+        "description": "Given an array of student objects [{name: \"Aarav\", marks: 85}, {name: \"Priya\", marks: 42}, {name: \"Rohan\", marks: 91}, {name: \"Diya\", marks: 67}, {name: \"Vikram\", marks: 38}], use method chaining to: (1) filter students who passed (marks >= 50), (2) sort by marks descending, (3) map to strings like \"Rohan: 91\".",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Rohan: 91\nAarav: 85\nDiya: 67",
+        "constraints": "Use filter, sort, and map chained together.",
+        "solution": "const students = [\n  { name: \"Aarav\", marks: 85 },\n  { name: \"Priya\", marks: 42 },\n  { name: \"Rohan\", marks: 91 },\n  { name: \"Diya\", marks: 67 },\n  { name: \"Vikram\", marks: 38 }\n];\n\nstudents\n  .filter(s => s.marks >= 50)\n  .sort((a, b) => b.marks - a.marks)\n  .map(s => s.name + \": \" + s.marks)\n  .forEach(line => console.log(line));"
+      },
+      {
+        "id": "cc-4",
+        "title": "Group By Category",
+        "difficulty": "Medium",
+        "description": "Kavya has an array of products: [{name: \"Apple\", type: \"fruit\"}, {name: \"Carrot\", type: \"vegetable\"}, {name: \"Mango\", type: \"fruit\"}, {name: \"Potato\", type: \"vegetable\"}, {name: \"Banana\", type: \"fruit\"}]. Use reduce to group them by type.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "{ fruit: [\"Apple\", \"Mango\", \"Banana\"], vegetable: [\"Carrot\", \"Potato\"] }",
+        "constraints": "Use reduce with an object as the accumulator.",
+        "solution": "const products = [\n  { name: \"Apple\", type: \"fruit\" },\n  { name: \"Carrot\", type: \"vegetable\" },\n  { name: \"Mango\", type: \"fruit\" },\n  { name: \"Potato\", type: \"vegetable\" },\n  { name: \"Banana\", type: \"fruit\" }\n];\n\nconst grouped = products.reduce((acc, p) => {\n  if (!acc[p.type]) acc[p.type] = [];\n  acc[p.type].push(p.name);\n  return acc;\n}, {});\n\nconsole.log(grouped);"
+      },
+      {
+        "id": "cc-5",
+        "title": "Flatten and Sum Nested Arrays",
+        "difficulty": "Medium",
+        "description": "Arjun has the nested array [[10, 20], [30, 40], [50]]. Write a program that flattens it and calculates the sum using flat and reduce.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Flat: [10, 20, 30, 40, 50]\nSum: 150",
+        "constraints": "Use flat() and reduce().",
+        "solution": "const nested = [[10, 20], [30, 40], [50]];\nconst flat = nested.flat();\nconst sum = flat.reduce((acc, n) => acc + n, 0);\nconsole.log(\"Flat:\", flat);\nconsole.log(\"Sum:\", sum);"
+      },
+      {
+        "id": "cc-6",
+        "title": "Word Frequency Counter",
+        "difficulty": "Hard",
+        "description": "Meera has the string \"the cat sat on the mat the cat\". Write a program that splits the string into words and uses reduce to count the frequency of each word.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "{ the: 3, cat: 2, sat: 1, on: 1, mat: 1 }",
+        "constraints": "Use split and reduce.",
+        "solution": "const text = \"the cat sat on the mat the cat\";\nconst freq = text.split(\" \").reduce((acc, word) => {\n  acc[word] = (acc[word] || 0) + 1;\n  return acc;\n}, {});\n\nconsole.log(freq);"
+      },
+      {
+        "id": "cc-7",
+        "title": "Intersection of Two Arrays",
+        "difficulty": "Hard",
+        "description": "Rohan has two arrays: [1, 2, 3, 4, 5] and [3, 4, 5, 6, 7]. Write a program to find the common elements (intersection) and the elements unique to each array (difference).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Common: [3, 4, 5]\nOnly in A: [1, 2]\nOnly in B: [6, 7]",
+        "constraints": "Use filter and includes.",
+        "solution": "const a = [1, 2, 3, 4, 5];\nconst b = [3, 4, 5, 6, 7];\n\nconst common = a.filter(x => b.includes(x));\nconst onlyA = a.filter(x => !b.includes(x));\nconst onlyB = b.filter(x => !a.includes(x));\n\nconsole.log(\"Common:\", common);\nconsole.log(\"Only in A:\", onlyA);\nconsole.log(\"Only in B:\", onlyB);"
+      },
+      {
+        "id": "cc-8",
+        "title": "Build Product Cards from Data",
+        "difficulty": "Hard",
+        "description": "Diya has an array of products: [{name: \"Laptop\", price: 45000}, {name: \"Phone\", price: 15000}, {name: \"Watch\", price: 8000}]. Use map to generate HTML card strings for each product using template literals, then join them together.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "(Three HTML card divs with product name and price)",
+        "constraints": "Use map and template literals. Generate valid HTML strings.",
+        "solution": "const products = [\n  { name: \"Laptop\", price: 45000 },\n  { name: \"Phone\", price: 15000 },\n  { name: \"Watch\", price: 8000 }\n];\n\nconst cards = products.map(p => {\n  return `<div class=\"card\">\n  <h3>${p.name}</h3>\n  <p>Rs ${p.price.toLocaleString()}</p>\n</div>`;\n});\n\nconsole.log(cards.join(\"\\n\"));"
+      },
+      {
+        "id": "cc-9",
+        "title": "Custom Array Method: chunk",
+        "difficulty": "Hard",
+        "description": "Write a function chunk(arr, size) that splits an array into groups of the given size. For example, chunk([1,2,3,4,5], 2) should return [[1,2], [3,4], [5]].",
+        "sampleInput": "chunk([1, 2, 3, 4, 5, 6, 7], 3)",
+        "sampleOutput": "[[1, 2, 3], [4, 5, 6], [7]]",
+        "constraints": "Use a loop with slice. Return a new array of arrays.",
+        "solution": "function chunk(arr, size) {\n  const result = [];\n  for (let i = 0; i < arr.length; i += size) {\n    result.push(arr.slice(i, i + size));\n  }\n  return result;\n}\n\nconsole.log(chunk([1, 2, 3, 4, 5, 6, 7], 3));\nconsole.log(chunk([1, 2, 3, 4, 5], 2));"
+      }
+    ]
+  }
+}

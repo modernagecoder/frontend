@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript in the Browser - Script Tags and Console - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Add JavaScript to HTML pages, use the browser console, and understand how scripts load and execute.">
+    <meta name="keywords" content="javascript in the browser - script tags and console, javascript tutorial, javascript javascript in the browser - script tags and console, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/javascript-in-the-browser">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/javascript-in-the-browser">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/javascript-in-the-browser">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/javascript-in-the-browser">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/javascript-in-the-browser">
+    <meta property="og:title" content="JavaScript in the Browser - Script Tags and Console - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Add JavaScript to HTML pages, use the browser console, and understand how scripts load and execute.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/javascript-in-the-browser">
+    <meta name="twitter:title" content="JavaScript in the Browser - Script Tags and Console - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Add JavaScript to HTML pages, use the browser console, and understand how scripts load and execute.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "JavaScript in the Browser - Script Tags and Console",
+    "description": "Add JavaScript to HTML pages, use the browser console, and understand how scripts load and execute.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/javascript-in-the-browser"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/javascript-in-the-browser"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "JavaScript in the Browser - Script Tags and Console",
+        "item": "https://learn.modernagecoders.com/resources/javascript/javascript-in-the-browser"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Mixing src Attribute with Inline Code",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When a <code>&lt;script&gt;</code> tag has a <code>src</code> attribute, the browser ignores any code between the opening and closing tags. If you need both an external file and inline code, use two separate <code>&lt;script&gt;</code> tags."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting the Closing Script Tag",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Unlike some HTML tags (like <code>&lt;img /&gt;</code>), the <code>&lt;script&gt;</code> tag is <strong>not self-closing</strong>. You must always write the full closing tag <code>&lt;/script&gt;</code>. Using a self-closing <code>&lt;script /&gt;</code> can cause the browser to treat all subsequent HTML as script content."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using console.log to Display on the Page",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>console.log()</code> prints to the browser's Developer Console (F12), not to the visible web page. To display something on the page, you need to modify an HTML element using <code>.textContent</code>, <code>.innerHTML</code>, or <code>.innerText</code>. This is one of the most common beginner confusions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using prompt Without Converting the Type",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>prompt()</code> <strong>always returns a string</strong>, even when the user types a number. <code>\"5\" + \"3\"</code> is string concatenation, giving <code>\"53\"</code>. Wrap the prompt in <code>Number()</code> to convert the string to a number first: <code>Number(\"5\") + Number(\"3\") = 8</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Calling document.write After Page Load",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When <code>document.write()</code> is called after the page has finished loading (e.g., from a button click), it destroys the entire page content and replaces it. Use <code>.textContent</code> or <code>.innerHTML</code> to update specific elements instead."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">JavaScript in the Browser - Script Tags and Console</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 2</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">22 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">JavaScript in the Browser - Script Tags and Console</h1>
+            <a href="/resources/javascript/javascript-in-the-browser/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Script Tags and the Browser Console?</h2><p>In the previous chapter, you learned that JavaScript adds interactivity to web pages. But how exactly do you connect JavaScript code to your HTML page? That is where the <code>&lt;script&gt;</code> tag comes in.</p><p>The <code>&lt;script&gt;</code> tag tells the browser: "Hey, the code inside this tag is JavaScript. Please run it." Without this tag, the browser would treat your JavaScript code as plain text and display it on the page instead of executing it.</p><p>The <strong>browser console</strong> is a built-in tool in every modern browser that lets you see JavaScript output, test code snippets, and debug errors. Think of it as a scratchpad where you can experiment with JavaScript in real time. Open it by pressing <strong>F12</strong> (or Ctrl+Shift+J on Chrome) and clicking the <strong>Console</strong> tab.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Do Script Tags and the Console Matter?</h2><p>Understanding how to properly add JavaScript to HTML and how to use the browser console are foundational skills that everything else builds on.</p><h3>1. Script Placement Affects Whether Your Code Works</h3><p>If you put your script in the wrong place, your JavaScript can fail silently — the page loads fine but nothing happens. Understanding where to place script tags and how script loading works prevents hours of frustration.</p><h3>2. The Console Is Your Debugging Lifeline</h3><p>When something goes wrong in your JavaScript (and it will), the console shows you the error message, the file name, and even the exact line number. Without the console, debugging would be like trying to find a typo in a book with your eyes closed.</p><h3>3. console.log Is Your Best Learning Tool</h3><p>As you learn JavaScript, you will constantly use <code>console.log()</code> to check values, test expressions, and understand what your code is doing at each step. Professional developers use it daily too. Mastering the console early makes every future chapter easier.</p><h3>4. External Scripts Are Industry Standard</h3><p>Real websites never put thousands of lines of JavaScript directly in their HTML files. They use external <code>.js</code> files linked with <code>&lt;script src="..."&gt;</code>. Understanding this pattern is essential for building real projects.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Three Ways to Add JavaScript to HTML</h3><p>There are three methods to include JavaScript in an HTML page:</p><h4>Method 1: Inline Script (Inside the HTML)</h4><p>Write JavaScript directly between <code>&lt;script&gt;</code> and <code>&lt;/script&gt;</code> tags in your HTML file. This is the simplest method and good for small scripts or learning.</p><pre><code>&lt;script&gt;
+  console.log("This is inline JavaScript");
+&lt;/script&gt;</code></pre><h4>Method 2: External Script File</h4><p>Write your JavaScript in a separate <code>.js</code> file and link it using the <code>src</code> attribute. This is the preferred method for real projects because it keeps your HTML clean and your JavaScript organized.</p><pre><code>&lt;!-- In your HTML file --&gt;
+&lt;script src="script.js"&gt;&lt;/script&gt;
+
+&lt;!-- In a file called script.js --&gt;
+console.log("This is from an external file");</code></pre><p><strong>Important rule:</strong> When a <code>&lt;script&gt;</code> tag has a <code>src</code> attribute, any code between the opening and closing tags is <strong>ignored</strong>. You cannot mix both methods in one tag.</p><h4>Method 3: Inline Event Handlers</h4><p>Write JavaScript directly in HTML attributes like <code>onclick</code>, <code>onmouseover</code>, etc. This should only be used for very simple one-line actions, not for real projects.</p><pre><code>&lt;button onclick="alert('Clicked!')"&gt;Click Me&lt;/button&gt;</code></pre><h3>2. Where to Place Script Tags</h3><p>The placement of your script tag matters a lot. Here are the three options:</p><h4>Option A: In the &lt;head&gt; (Usually Bad)</h4><p>When the browser encounters a <code>&lt;script&gt;</code> tag in the <code>&lt;head&gt;</code>, it <strong>stops building the page</strong>, downloads and runs the script, and only then continues with the rest of the HTML. If your script tries to access HTML elements that have not been created yet, it will fail.</p><h4>Option B: Before &lt;/body&gt; (Traditional Best Practice)</h4><p>Placing the script just before the closing <code>&lt;/body&gt;</code> tag means all HTML elements are already created when the script runs. This was the standard approach for years.</p><h4>Option C: In &lt;head&gt; with defer (Modern Best Practice)</h4><p>The <code>defer</code> attribute tells the browser: "Download this script in the background, but do not run it until the entire HTML page is fully loaded." This gives you the best of both worlds — the script starts downloading early but runs after the page is ready.</p><pre><code>&lt;head&gt;
+  &lt;script src="script.js" defer&gt;&lt;/script&gt;
+&lt;/head&gt;</code></pre><p>There is also the <code>async</code> attribute, which downloads the script in the background and runs it as soon as the download finishes — even if the page is not fully loaded. Use <code>async</code> for scripts that do not depend on the page content (like analytics). Use <code>defer</code> for scripts that interact with the page.</p><h3>3. Console Methods</h3><p>The <code>console</code> object has many methods beyond just <code>log()</code>. Here are the most useful ones:</p><h4>console.log()</h4><p>The workhorse. Prints any value to the console. You can pass multiple arguments separated by commas, and they will all be printed on the same line.</p><h4>console.warn()</h4><p>Prints a warning message with a yellow background. Use it when something is not an error but might cause problems. Browsers display a warning icon next to these messages.</p><h4>console.error()</h4><p>Prints an error message with a red background. Use it when something has gone wrong. Unlike <code>console.log()</code>, the output includes a stack trace showing where the error came from.</p><h4>console.table()</h4><p>Displays arrays or objects in a neat table format. This is incredibly useful when working with structured data. Pass an array of objects and the console shows a beautiful table with columns.</p><h4>console.clear()</h4><p>Clears all messages from the console. Useful when the console gets cluttered during debugging.</p><h4>console.time() and console.timeEnd()</h4><p>Measures how long a block of code takes to execute. Call <code>console.time("label")</code> before the code and <code>console.timeEnd("label")</code> after. The console will print the elapsed time in milliseconds.</p><h3>4. Browser Dialog Functions</h3><h4>alert()</h4><p><code>alert()</code> shows a popup message box with an OK button. It <strong>blocks the page</strong> — the user cannot interact with anything else until they click OK. Good for learning, bad for real websites.</p><h4>prompt()</h4><p><code>prompt()</code> shows a dialog with a text input field. It returns whatever the user types (as a string), or <code>null</code> if they click Cancel. You can pass a second argument as the default value.</p><h4>confirm()</h4><p><code>confirm()</code> shows a dialog with OK and Cancel buttons. It returns <code>true</code> if the user clicks OK, <code>false</code> if they click Cancel. Useful for asking yes/no questions.</p><h3>5. document.write() (And Why You Should Avoid It)</h3><p><code>document.write()</code> writes text directly into the HTML document. It seems convenient, but it has a dangerous behavior: <strong>if called after the page has fully loaded, it erases the entire page</strong> and replaces it with whatever you pass to it. This makes it unreliable and potentially destructive. Use <code>.textContent</code> or <code>.innerHTML</code> instead.</p><h3>6. Opening the Browser DevTools</h3><p>Every browser has built-in Developer Tools (DevTools). Here is how to open them:</p><ul><li><strong>Chrome/Edge:</strong> Press <code>F12</code> or <code>Ctrl + Shift + J</code> (Windows) / <code>Cmd + Option + J</code> (Mac)</li><li><strong>Firefox:</strong> Press <code>F12</code> or <code>Ctrl + Shift + K</code></li><li><strong>Safari:</strong> Enable Developer menu in Preferences, then press <code>Cmd + Option + C</code></li></ul><p>The Console tab is where you will spend most of your time. You can type JavaScript directly into the console and press Enter to run it. This is perfect for testing small code snippets.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Inline Script vs External Script</div><pre><code class="language-python">&lt;!-- Method 1: Inline Script --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;h1&gt;Inline Script Example&lt;/h1&gt;
+  &lt;script&gt;
+    console.log(&quot;This runs from an inline script&quot;);
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!-- Method 2: External Script --&gt;
+&lt;!-- index.html --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;h1&gt;External Script Example&lt;/h1&gt;
+  &lt;script src=&quot;app.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!-- app.js --&gt;
+console.log(&quot;This runs from an external file&quot;);</code></pre><div class="code-example-explanation">Method 1 puts JavaScript directly in the HTML. Method 2 keeps JavaScript in a separate <code>app.js</code> file. Both produce the same result in the console. For real projects, always use external files — it keeps your code organized and allows the browser to cache the JavaScript file separately.</div><div class="code-example-output">Console shows: This runs from an inline script
+(or: This runs from an external file)</div></div>
+<div class="code-example"><div class="code-example-title">Script Placement: Head vs Body vs Defer</div><pre><code class="language-python">&lt;!-- BAD: Script in head without defer --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;script&gt;
+    // This will FAIL because #greeting does not exist yet
+    document.getElementById(&quot;greeting&quot;).textContent = &quot;Hello!&quot;;
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p id=&quot;greeting&quot;&gt;Waiting...&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!-- GOOD: Script at end of body --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;/head&gt;
+&lt;body&gt;
+  &lt;p id=&quot;greeting&quot;&gt;Waiting...&lt;/p&gt;
+  &lt;script&gt;
+    document.getElementById(&quot;greeting&quot;).textContent = &quot;Hello!&quot;;
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!-- BEST: Script in head with defer --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;script src=&quot;app.js&quot; defer&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p id=&quot;greeting&quot;&gt;Waiting...&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The first example fails because the script runs before <code>&lt;p id="greeting"&gt;</code> exists. The second example works because the script runs after the element is created. The third example uses <code>defer</code>, which downloads the script early but waits to execute until the full page is ready. The <code>defer</code> approach is the modern standard.</div><div class="code-example-output">BAD: TypeError (null reference)
+GOOD: Paragraph shows &#39;Hello!&#39;
+BEST: Paragraph shows &#39;Hello!&#39;</div></div>
+<div class="code-example"><div class="code-example-title">All Console Methods</div><pre><code class="language-python">// Basic logging
+console.log(&quot;Regular message&quot;);
+console.log(&quot;Name:&quot;, &quot;Aarav&quot;, &quot;Age:&quot;, 15);
+
+// Warning (yellow background)
+console.warn(&quot;This is a warning!&quot;);
+
+// Error (red background)
+console.error(&quot;Something went wrong!&quot;);
+
+// Table (displays structured data in a table)
+let students = [
+  { name: &quot;Aarav&quot;, marks: 92 },
+  { name: &quot;Priya&quot;, marks: 88 },
+  { name: &quot;Rohan&quot;, marks: 95 }
+];
+console.table(students);
+
+// Timing how long code takes
+console.time(&quot;loop&quot;);
+for (let i = 0; i &lt; 100000; i++) { /* empty */ }
+console.timeEnd(&quot;loop&quot;);
+
+// Clear the console
+// console.clear();</code></pre><div class="code-example-explanation"><code>console.log()</code> accepts multiple arguments separated by commas. <code>console.warn()</code> and <code>console.error()</code> display colored messages. <code>console.table()</code> is excellent for viewing arrays of objects in a table format. <code>console.time()</code> and <code>console.timeEnd()</code> measure execution time. Each method serves a different purpose for debugging and development.</div><div class="code-example-output">Regular message
+Name: Aarav Age: 15
+(warning icon) This is a warning!
+(error icon) Something went wrong!
+(table with name and marks columns)
+loop: 2.345ms</div></div>
+<div class="code-example"><div class="code-example-title">alert, prompt, and confirm in Action</div><pre><code class="language-python">// alert: Show a message
+alert(&quot;Welcome to Vikram&#39;s website!&quot;);
+
+// prompt: Ask for input (returns a string or null)
+let name = prompt(&quot;What is your name?&quot;, &quot;Guest&quot;);
+console.log(&quot;Hello, &quot; + name);
+
+// confirm: Ask yes/no (returns true or false)
+let wantsCoffee = confirm(&quot;Would you like some coffee?&quot;);
+if (wantsCoffee) {
+  console.log(&quot;Making coffee...&quot;);
+} else {
+  console.log(&quot;Maybe later!&quot;);
+}
+
+// prompt always returns a STRING
+let age = prompt(&quot;Enter your age:&quot;);
+console.log(typeof age);  // &quot;string&quot; even if user types a number!</code></pre><div class="code-example-explanation">These three functions create browser popup dialogs. <code>alert()</code> just shows a message. <code>prompt()</code> returns the typed text as a string (the second argument <code>"Guest"</code> is the default value). <code>confirm()</code> returns <code>true</code> for OK, <code>false</code> for Cancel. Critical detail: <code>prompt()</code> always returns a <strong>string</strong>, even if the user types a number like <code>42</code> — you get <code>"42"</code> and need to convert it with <code>Number()</code>.</div><div class="code-example-output">If user enters &#39;Priya&#39; for name and clicks OK for coffee:
+Hello, Priya
+Making coffee...
+string</div></div>
+<div class="code-example"><div class="code-example-title">Why document.write() Is Dangerous</div><pre><code class="language-python">&lt;!-- This seems to work when the page loads --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;h1&gt;My Page&lt;/h1&gt;
+  &lt;script&gt;
+    document.write(&quot;&lt;p&gt;Added by JavaScript&lt;/p&gt;&quot;);
+  &lt;/script&gt;
+  &lt;p&gt;This paragraph stays.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!-- BUT THIS DESTROYS THE PAGE: --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;h1&gt;My Page&lt;/h1&gt;
+  &lt;p&gt;Important content here&lt;/p&gt;
+  &lt;button onclick=&quot;document.write(&#39;Oops!&#39;)&quot;&gt;Click Me&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">When <code>document.write()</code> runs during page loading (as the browser reads the HTML), it inserts content into the page. But when called <strong>after</strong> the page has loaded (like from a button click), it <strong>erases the entire page</strong> and replaces everything with the new content. In the second example, clicking the button wipes out the heading, paragraph, and button — replacing it all with just "Oops!". This is why <code>document.write()</code> should be avoided.</div><div class="code-example-output">First example: Page shows heading, &#39;Added by JavaScript&#39;, and paragraph.
+Second example: Clicking the button erases everything and shows only &#39;Oops!&#39;</div></div>
+<div class="code-example"><div class="code-example-title">Multiple Script Tags and Execution Order</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;script&gt;
+    console.log(&quot;Script 1 runs first&quot;);
+    let message = &quot;Hello&quot;;
+  &lt;/script&gt;
+
+  &lt;p&gt;Some HTML content here&lt;/p&gt;
+
+  &lt;script&gt;
+    console.log(&quot;Script 2 runs second&quot;);
+    console.log(message);  // Can access variable from Script 1
+    message = message + &quot; World&quot;;
+  &lt;/script&gt;
+
+  &lt;script&gt;
+    console.log(&quot;Script 3 runs third&quot;);
+    console.log(message);  // &quot;Hello World&quot;
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Multiple script tags on a page execute in order, from top to bottom. They share the same global scope, so a variable declared in Script 1 is accessible in Script 2 and Script 3. This is important to understand: all scripts on a page share the same variable space unless you use modules.</div><div class="code-example-output">Script 1 runs first
+Script 2 runs second
+Hello
+Script 3 runs third
+Hello World</div></div>
+<div class="code-example"><div class="code-example-title">Using the Console as a Calculator and Scratchpad</div><pre><code class="language-python">// You can type these directly into the browser console (F12)
+
+// Math
+25 * 4          // 100
+Math.sqrt(144)  // 12
+Math.PI         // 3.141592653589793
+
+// String operations
+&quot;Ananya&quot;.length         // 6
+&quot;Ananya&quot;.toUpperCase()  // &quot;ANANYA&quot;
+&quot;Hello World&quot;.split(&quot; &quot;) // [&quot;Hello&quot;, &quot;World&quot;]
+
+// Quick tests
+typeof 42        // &quot;number&quot;
+typeof null      // &quot;object&quot;
+5 &gt; 3            // true
+&quot;5&quot; === 5        // false
+
+// Even create elements on the fly
+document.title = &quot;I changed the tab title!&quot;;</code></pre><div class="code-example-explanation">The browser console is a live JavaScript environment. You can type any expression and immediately see the result. Use it as a calculator, test string methods, check types, or even modify the current page. This is the fastest way to experiment with JavaScript. Every professional developer uses the console daily.</div><div class="code-example-output">Each expression returns its result immediately in the console.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Mixing src Attribute with Inline Code</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;script src=&quot;app.js&quot;&gt;
+  console.log(&quot;This will be ignored!&quot;);
+&lt;/script&gt;</code></pre></div><div class="error-message">No error, but the inline code never runs. Only app.js executes.</div><div class="correct-code"><pre><code class="language-python">&lt;script src=&quot;app.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  console.log(&quot;This runs from a separate inline script&quot;);
+&lt;/script&gt;</code></pre></div><div class="mistake-explanation">When a <code>&lt;script&gt;</code> tag has a <code>src</code> attribute, the browser ignores any code between the opening and closing tags. If you need both an external file and inline code, use two separate <code>&lt;script&gt;</code> tags.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting the Closing Script Tag</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;script src=&quot;app.js&quot; /&gt;
+&lt;p&gt;This paragraph might not show up&lt;/p&gt;</code></pre></div><div class="error-message">The paragraph and everything after may be treated as part of the script and hidden.</div><div class="correct-code"><pre><code class="language-python">&lt;script src=&quot;app.js&quot;&gt;&lt;/script&gt;
+&lt;p&gt;This paragraph shows up correctly&lt;/p&gt;</code></pre></div><div class="mistake-explanation">Unlike some HTML tags (like <code>&lt;img /&gt;</code>), the <code>&lt;script&gt;</code> tag is <strong>not self-closing</strong>. You must always write the full closing tag <code>&lt;/script&gt;</code>. Using a self-closing <code>&lt;script /&gt;</code> can cause the browser to treat all subsequent HTML as script content.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using console.log to Display on the Page</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Neha wants to show a message on the page
+console.log(&quot;Welcome to my website!&quot;);
+// But nothing appears on the page!</code></pre></div><div class="error-message">No error, but the message only appears in the DevTools console, not on the web page.</div><div class="correct-code"><pre><code class="language-python">// To display text ON the page, use DOM methods:
+document.getElementById(&quot;output&quot;).textContent = &quot;Welcome to my website!&quot;;
+
+// Or for quick testing, alert works:
+alert(&quot;Welcome to my website!&quot;);</code></pre></div><div class="mistake-explanation"><code>console.log()</code> prints to the browser's Developer Console (F12), not to the visible web page. To display something on the page, you need to modify an HTML element using <code>.textContent</code>, <code>.innerHTML</code>, or <code>.innerText</code>. This is one of the most common beginner confusions.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using prompt Without Converting the Type</h3>
+                <div class="wrong-code"><pre><code class="language-python">let a = prompt(&quot;Enter first number:&quot;);   // returns &quot;5&quot;
+let b = prompt(&quot;Enter second number:&quot;);   // returns &quot;3&quot;
+let sum = a + b;
+console.log(&quot;Sum: &quot; + sum);  // Shows &quot;Sum: 53&quot; instead of &quot;Sum: 8&quot;</code></pre></div><div class="error-message">No error, but the result is &#39;53&#39; (string concatenation) instead of 8 (addition).</div><div class="correct-code"><pre><code class="language-python">let a = Number(prompt(&quot;Enter first number:&quot;));
+let b = Number(prompt(&quot;Enter second number:&quot;));
+let sum = a + b;
+console.log(&quot;Sum: &quot; + sum);  // Shows &quot;Sum: 8&quot;</code></pre></div><div class="mistake-explanation"><code>prompt()</code> <strong>always returns a string</strong>, even when the user types a number. <code>"5" + "3"</code> is string concatenation, giving <code>"53"</code>. Wrap the prompt in <code>Number()</code> to convert the string to a number first: <code>Number("5") + Number("3") = 8</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Calling document.write After Page Load</h3>
+                <div class="wrong-code"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;h1&gt;My Important Page&lt;/h1&gt;
+  &lt;button onclick=&quot;document.write(&#39;Hello!&#39;)&quot;&gt;Click&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div><div class="error-message">Clicking the button erases the entire page (heading and button disappear) and shows only &#39;Hello!&#39;.</div><div class="correct-code"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  &lt;h1&gt;My Important Page&lt;/h1&gt;
+  &lt;p id=&quot;output&quot;&gt;&lt;/p&gt;
+  &lt;button onclick=&quot;document.getElementById(&#39;output&#39;).textContent = &#39;Hello!&#39;&quot;&gt;Click&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div><div class="mistake-explanation">When <code>document.write()</code> is called after the page has finished loading (e.g., from a button click), it destroys the entire page content and replaces it. Use <code>.textContent</code> or <code>.innerHTML</code> to update specific elements instead.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>JavaScript is added to HTML using the &lt;script&gt; tag. You can write code inline between the tags or link an external .js file using the src attribute.</li>
+<li>When a script tag has a src attribute, any code between the opening and closing tags is ignored. Use separate script tags for external and inline code.</li>
+<li>Script placement matters: scripts in the &lt;head&gt; run before the page is built (can cause errors). Scripts before &lt;/body&gt; run after all elements exist.</li>
+<li>The defer attribute lets you place scripts in the &lt;head&gt; while ensuring they run only after the full page is loaded. This is the modern best practice.</li>
+<li>console.log() prints output to the browser&#39;s Developer Console (F12), not to the web page. Use it constantly for testing and debugging.</li>
+<li>console.warn() shows yellow warnings, console.error() shows red errors, and console.table() displays data in a table format.</li>
+<li>alert() shows a popup message. prompt() asks for text input and returns a string (or null). confirm() asks yes/no and returns true or false.</li>
+<li>prompt() always returns a string. Use Number() to convert it when you need a number for calculations.</li>
+<li>document.write() writes to the page during load, but erases everything if called after the page has loaded. Avoid it. Use textContent or innerHTML instead.</li>
+<li>The browser console (F12) is a live JavaScript environment. You can type code, test expressions, and debug errors directly in it.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/introduction-to-javascript" class="related-topic-link">Introduction to JavaScript</a>
+<a href="/resources/javascript/variables-and-data-types" class="related-topic-link">Variables and Data Types</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/introduction-to-javascript" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Introduction to JavaScript</span>
+        </a>
+            <a href="/resources/javascript/variables-and-data-types" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Variables and Data Types</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/javascript-in-the-browser/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

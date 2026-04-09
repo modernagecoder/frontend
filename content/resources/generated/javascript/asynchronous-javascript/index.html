@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchronous JavaScript - Callbacks, Promises, Async/Await - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Understand async code, setTimeout, Promises, .then/.catch, and async/await for handling time-based operations.">
+    <meta name="keywords" content="asynchronous javascript - callbacks, promises, async/await, javascript tutorial, javascript asynchronous javascript - callbacks, promises, async/await, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript">
+    <meta property="og:title" content="Asynchronous JavaScript - Callbacks, Promises, Async/Await - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Understand async code, setTimeout, Promises, .then/.catch, and async/await for handling time-based operations.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript">
+    <meta name="twitter:title" content="Asynchronous JavaScript - Callbacks, Promises, Async/Await - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Understand async code, setTimeout, Promises, .then/.catch, and async/await for handling time-based operations.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Asynchronous JavaScript - Callbacks, Promises, Async/Await",
+    "description": "Understand async code, setTimeout, Promises, .then/.catch, and async/await for handling time-based operations.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Asynchronous JavaScript - Callbacks, Promises, Async/Await",
+        "item": "https://learn.modernagecoders.com/resources/javascript/asynchronous-javascript"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Expecting Async Code to Run in Order",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Async operations complete later. Code after setTimeout runs immediately, before the callback. Use the data inside the callback, or wrap it in a Promise and use await."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting to Return a Promise in .then() Chain",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In a .then chain, you must <code>return</code> the Promise for the next .then to receive its result. Without return, the next .then gets undefined."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using await Outside an async Function",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>await</code> keyword can only be used inside a function declared with <code>async</code>. Or at the top level of a module (<code>&lt;script type=\"module\"&gt;</code>). Regular scripts do not support top-level await."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Handling Promise Rejections",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always add <code>.catch()</code> to Promise chains or use try-catch with async/await. Unhandled rejections are a common source of silent failures that are hard to debug."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Running Async Operations Sequentially When They Could Be Parallel",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If async operations do not depend on each other, use <code>Promise.all</code> to run them in parallel. This can cut loading time dramatically. Only use sequential await when each operation needs the previous result."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Asynchronous JavaScript - Callbacks, Promises, Async/Await</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 19</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Asynchronous JavaScript - Callbacks, Promises, Async/Await</h1>
+            <a href="/resources/javascript/asynchronous-javascript/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Asynchronous JavaScript?</h2><p>Most code you have written so far is <strong>synchronous</strong>: each line runs one after another, and the next line waits for the current one to finish. But some operations take time: loading data from a server, reading a file, or waiting for a user action. If JavaScript waited for each of these, your web page would freeze.</p><p><strong>Asynchronous</strong> code lets JavaScript start a time-consuming operation and continue running other code. When the operation finishes, a callback function runs with the result.</p><pre><code>// Synchronous: each line waits for the previous
+console.log("1");
+console.log("2");
+console.log("3");
+// Output: 1, 2, 3 (in order)
+
+// Asynchronous: setTimeout does not block
+console.log("A");
+setTimeout(function() {
+  console.log("B"); // Runs after 2 seconds
+}, 2000);
+console.log("C");
+// Output: A, C, B (C prints before B!)</code></pre><p>This is one of the most important concepts in JavaScript. Understanding async code is essential for working with APIs, animations, timers, and any real-world web application.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn Asynchronous JavaScript?</h2><h3>1. JavaScript Is Single-Threaded</h3><p>JavaScript has only one thread -- it can do one thing at a time. Without async, a network request taking 3 seconds would freeze the entire page for 3 seconds. No scrolling, no clicking, nothing. Async lets the browser handle the waiting while JavaScript continues running other code.</p><h3>2. Every Real App Is Asynchronous</h3><p>Loading user data from a database, fetching weather from an API, uploading a photo, sending a message -- all of these are async operations. If Aarav builds a weather app, the API request is async. If Priya builds a chat app, every message send and receive is async. You cannot build real apps without understanding async.</p><h3>3. It Explains Confusing Behavior</h3><p>Have you ever seen console.log output in a different order than expected? Or a variable that was <code>undefined</code> even though you assigned it? These are usually async issues. Understanding the event loop explains all of this.</p><h3>4. Promises and Async/Await Are Everywhere</h3><p>Modern JavaScript APIs (fetch, the File API, Web Workers) all return Promises. React, Node.js, and every major framework uses async/await heavily. It is an interview essential.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The Event Loop (How Async Works)</h3><p>JavaScript has a <strong>call stack</strong> (where code runs) and a <strong>task queue</strong> (where async callbacks wait). The <strong>event loop</strong> checks: is the call stack empty? If yes, take the next task from the queue and run it.</p><pre><code>console.log("1");
+
+setTimeout(function() {
+  console.log("2");
+}, 0); // Even with 0ms delay!
+
+console.log("3");
+
+// Output: 1, 3, 2
+// Why? setTimeout's callback goes to the task queue.
+// It runs only AFTER the current code finishes.</code></pre><p>Even with a 0ms delay, the setTimeout callback goes to the task queue and waits until the main code finishes. This is the key insight: <strong>async callbacks never run until the current synchronous code is done</strong>.</p><h3>2. setTimeout and setInterval</h3><pre><code>// setTimeout: run once after a delay
+setTimeout(function() {
+  console.log("This runs after 2 seconds");
+}, 2000);
+
+// setInterval: run repeatedly at intervals
+let count = 0;
+const timer = setInterval(function() {
+  count++;
+  console.log("Count: " + count);
+  if (count >= 5) {
+    clearInterval(timer); // Stop the interval
+  }
+}, 1000);
+
+// clearTimeout cancels a setTimeout
+const timeoutId = setTimeout(function() {
+  console.log("This will NOT run");
+}, 5000);
+clearTimeout(timeoutId); // Cancelled!</code></pre><h3>3. Callbacks</h3><p>A <strong>callback</strong> is a function passed to another function, to be called later when an operation completes:</p><pre><code>function loadData(callback) {
+  console.log("Loading...");
+  setTimeout(function() {
+    const data = { name: "Aarav", score: 95 };
+    callback(data); // Call the callback with the result
+  }, 1000);
+}
+
+loadData(function(result) {
+  console.log("Data loaded:", result);
+});
+console.log("This prints first!");
+
+// Output:
+// Loading...
+// This prints first!
+// Data loaded: { name: "Aarav", score: 95 }</code></pre><h3>4. Callback Hell (Pyramid of Doom)</h3><p>When async operations depend on each other, callbacks get nested deeper and deeper:</p><pre><code>// Callback Hell -- deeply nested, hard to read
+getUser(userId, function(user) {
+  getOrders(user.id, function(orders) {
+    getOrderDetails(orders[0].id, function(details) {
+      getShippingInfo(details.trackingId, function(shipping) {
+        console.log("Shipping:", shipping.status);
+        // And it gets worse...
+      });
+    });
+  });
+});</code></pre><p>This is called the "pyramid of doom" because the code drifts to the right with each level. It is hard to read, hard to debug, and hard to add error handling. Promises solve this problem.</p><h3>5. Promises</h3><p>A <strong>Promise</strong> represents a value that will be available in the future. It can be in three states: <strong>pending</strong> (waiting), <strong>fulfilled</strong> (succeeded), or <strong>rejected</strong> (failed).</p><pre><code>// Creating a Promise
+const myPromise = new Promise(function(resolve, reject) {
+  setTimeout(function() {
+    const success = true;
+    if (success) {
+      resolve("Data loaded!"); // Fulfilled
+    } else {
+      reject("Failed to load"); // Rejected
+    }
+  }, 1000);
+});
+
+// Using a Promise
+myPromise
+  .then(function(result) {
+    console.log("Success:", result);
+  })
+  .catch(function(error) {
+    console.log("Error:", error);
+  });
+
+// Output (after 1 second): Success: Data loaded!</code></pre><h3>6. Promise Chaining (.then)</h3><p>Instead of nesting callbacks, Promises chain with <code>.then()</code>:</p><pre><code>// Callback Hell becomes flat Promise chain
+getUser(userId)
+  .then(function(user) {
+    return getOrders(user.id);
+  })
+  .then(function(orders) {
+    return getOrderDetails(orders[0].id);
+  })
+  .then(function(details) {
+    console.log("Details:", details);
+  })
+  .catch(function(error) {
+    console.log("Error at any step:", error);
+  });
+
+// Each .then returns a new Promise
+// .catch handles errors from ANY step in the chain</code></pre><h3>7. .catch() and .finally()</h3><pre><code>fetchData()
+  .then(function(data) {
+    console.log("Got data:", data);
+  })
+  .catch(function(error) {
+    console.log("Error:", error);
+  })
+  .finally(function() {
+    console.log("Done, success or failure");
+    // Hide loading spinner here
+  });</code></pre><p><code>.catch()</code> handles any rejected Promise in the chain. <code>.finally()</code> runs regardless of success or failure, like the <code>finally</code> block in try-catch.</p><h3>8. Promise.all, Promise.race, Promise.allSettled, Promise.any</h3><pre><code>const p1 = new Promise(resolve => setTimeout(() => resolve("A"), 1000));
+const p2 = new Promise(resolve => setTimeout(() => resolve("B"), 2000));
+const p3 = new Promise(resolve => setTimeout(() => resolve("C"), 1500));
+
+// Promise.all -- wait for ALL to finish (fails if ANY fails)
+Promise.all([p1, p2, p3]).then(function(results) {
+  console.log(results); // ["A", "B", "C"] (after 2 seconds)
+});
+
+// Promise.race -- first one to finish wins
+Promise.race([p1, p2, p3]).then(function(result) {
+  console.log(result); // "A" (fastest, 1 second)
+});
+
+// Promise.allSettled -- wait for ALL, even if some fail
+const p4 = Promise.reject("error!");
+Promise.allSettled([p1, p4]).then(function(results) {
+  console.log(results);
+  // [{ status: "fulfilled", value: "A" },
+  //  { status: "rejected", reason: "error!" }]
+});
+
+// Promise.any -- first one to SUCCEED (ignores failures)
+Promise.any([p4, p1, p2]).then(function(result) {
+  console.log(result); // "A" (first success)
+});</code></pre><h3>9. Async/Await</h3><p><code>async/await</code> is syntactic sugar over Promises. It makes async code look and behave like synchronous code:</p><pre><code>// With .then() chains
+function loadUserData() {
+  return getUser(1)
+    .then(function(user) {
+      return getOrders(user.id);
+    })
+    .then(function(orders) {
+      return orders;
+    });
+}
+
+// With async/await (much cleaner)
+async function loadUserData() {
+  const user = await getUser(1);
+  const orders = await getOrders(user.id);
+  return orders;
+}
+
+// await pauses the function until the Promise resolves
+// The function itself returns a Promise</code></pre><p>Key rules:</p><ul><li><code>await</code> can only be used inside an <code>async</code> function</li><li><code>async</code> functions always return a Promise</li><li><code>await</code> pauses the function (not the entire program) until the Promise resolves</li></ul><h3>10. Error Handling with Async/Await</h3><pre><code>async function fetchUserData(userId) {
+  try {
+    const user = await getUser(userId);
+    const orders = await getOrders(user.id);
+    console.log("Orders:", orders);
+    return orders;
+  } catch (error) {
+    console.log("Failed:", error.message);
+    return [];
+  } finally {
+    console.log("Loading complete");
+  }
+}
+
+fetchUserData(1);</code></pre><p>Use try-catch with async/await just like synchronous code. This is much cleaner than chaining <code>.catch()</code> calls.</p><h3>11. Sequential vs Parallel Async Operations</h3><pre><code>// Sequential -- each waits for the previous (slower)
+async function sequential() {
+  const a = await slowOperation("A"); // waits 1 sec
+  const b = await slowOperation("B"); // waits another 1 sec
+  const c = await slowOperation("C"); // waits another 1 sec
+  return [a, b, c]; // Total: 3 seconds
+}
+
+// Parallel -- all run at the same time (faster)
+async function parallel() {
+  const [a, b, c] = await Promise.all([
+    slowOperation("A"),
+    slowOperation("B"),
+    slowOperation("C")
+  ]);
+  return [a, b, c]; // Total: 1 second (all run simultaneously)
+}</code></pre><p>If operations are independent (they do not need each other's results), run them in parallel with <code>Promise.all</code> for much better performance.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Event Loop in Action</div><pre><code class="language-python">console.log(&quot;1 - Start&quot;);
+
+setTimeout(function() {
+  console.log(&quot;2 - Timeout 0ms&quot;);
+}, 0);
+
+Promise.resolve().then(function() {
+  console.log(&quot;3 - Promise&quot;);
+});
+
+console.log(&quot;4 - End&quot;);
+
+// Output order: 1, 4, 3, 2
+// Why?
+// 1 and 4 are synchronous (run immediately)
+// 3 is a microtask (Promises have higher priority)
+// 2 is a macrotask (setTimeout, runs after microtasks)</code></pre><div class="code-example-explanation">The event loop has two queues: the <strong>microtask queue</strong> (Promises, .then callbacks) and the <strong>macrotask queue</strong> (setTimeout, setInterval). After synchronous code finishes, microtasks run first, then macrotasks. That is why the Promise callback (3) runs before setTimeout (2), even though both are async.</div><div class="code-example-output">1 - Start
+4 - End
+3 - Promise
+2 - Timeout 0ms</div></div>
+<div class="code-example"><div class="code-example-title">Creating and Using Promises</div><pre><code class="language-python">function delay(ms) {
+  return new Promise(function(resolve) {
+    setTimeout(resolve, ms);
+  });
+}
+
+function loadStudent(name) {
+  return new Promise(function(resolve, reject) {
+    console.log(&quot;Loading &quot; + name + &quot;...&quot;);
+    setTimeout(function() {
+      if (name) {
+        resolve({ name: name, score: Math.floor(Math.random() * 100) });
+      } else {
+        reject(new Error(&quot;Name is required&quot;));
+      }
+    }, 1000);
+  });
+}
+
+// Using the Promise
+loadStudent(&quot;Aarav&quot;)
+  .then(function(student) {
+    console.log(&quot;Loaded:&quot;, student.name, &quot;Score:&quot;, student.score);
+    return loadStudent(&quot;Priya&quot;); // Chain another async operation
+  })
+  .then(function(student) {
+    console.log(&quot;Loaded:&quot;, student.name, &quot;Score:&quot;, student.score);
+  })
+  .catch(function(error) {
+    console.log(&quot;Error:&quot;, error.message);
+  });</code></pre><div class="code-example-explanation">A Promise wraps an async operation. <code>resolve</code> is called on success, <code>reject</code> on failure. <code>.then()</code> chains operations sequentially. <code>.catch()</code> handles errors from any step. Returning a Promise from .then creates a chain.</div><div class="code-example-output">Loading Aarav...
+(after 1s) Loaded: Aarav Score: 73
+Loading Priya...
+(after 1s) Loaded: Priya Score: 88</div></div>
+<div class="code-example"><div class="code-example-title">Promise.all for Parallel Operations</div><pre><code class="language-python">function fetchScore(name, delayMs) {
+  return new Promise(function(resolve) {
+    setTimeout(function() {
+      resolve({ name: name, score: Math.floor(Math.random() * 100) });
+    }, delayMs);
+  });
+}
+
+// Sequential: total time = 1000 + 1500 + 800 = 3300ms
+async function sequential() {
+  console.time(&quot;sequential&quot;);
+  const a = await fetchScore(&quot;Aarav&quot;, 1000);
+  const b = await fetchScore(&quot;Priya&quot;, 1500);
+  const c = await fetchScore(&quot;Rohan&quot;, 800);
+  console.timeEnd(&quot;sequential&quot;);
+  console.log([a, b, c]);
+}
+
+// Parallel: total time = max(1000, 1500, 800) = 1500ms
+async function parallel() {
+  console.time(&quot;parallel&quot;);
+  const [a, b, c] = await Promise.all([
+    fetchScore(&quot;Aarav&quot;, 1000),
+    fetchScore(&quot;Priya&quot;, 1500),
+    fetchScore(&quot;Rohan&quot;, 800)
+  ]);
+  console.timeEnd(&quot;parallel&quot;);
+  console.log([a, b, c]);
+}
+
+sequential();
+// parallel(); // Uncomment to compare</code></pre><div class="code-example-explanation">Sequential awaits each operation before starting the next (total: sum of all times). Parallel starts all at once with Promise.all (total: time of the slowest). Use parallel when operations are independent. The results array preserves the order you passed them in.</div><div class="code-example-output">sequential: ~3300ms
+[{name:&#39;Aarav&#39;,...}, {name:&#39;Priya&#39;,...}, {name:&#39;Rohan&#39;,...}]</div></div>
+<div class="code-example"><div class="code-example-title">Async/Await with Error Handling</div><pre><code class="language-python">function fetchData(id) {
+  return new Promise(function(resolve, reject) {
+    setTimeout(function() {
+      if (id &gt; 0) {
+        resolve({ id: id, data: &quot;Item &quot; + id });
+      } else {
+        reject(new Error(&quot;Invalid ID: &quot; + id));
+      }
+    }, 500);
+  });
+}
+
+async function processItems(ids) {
+  const results = [];
+
+  for (const id of ids) {
+    try {
+      const item = await fetchData(id);
+      results.push(item.data);
+      console.log(&quot;Loaded:&quot;, item.data);
+    } catch (error) {
+      results.push(&quot;ERROR: &quot; + error.message);
+      console.log(&quot;Failed:&quot;, error.message);
+    }
+  }
+
+  return results;
+}
+
+async function main() {
+  const results = await processItems([1, 2, -1, 3]);
+  console.log(&quot;Final:&quot;, results);
+}
+
+main();</code></pre><div class="code-example-explanation">try-catch inside a for...of loop handles errors per item without stopping the entire loop. Each failed item logs an error but processing continues with the next item. The final results array contains both successful data and error messages.</div><div class="code-example-output">Loaded: Item 1
+Loaded: Item 2
+Failed: Invalid ID: -1
+Loaded: Item 3
+Final: [&quot;Item 1&quot;, &quot;Item 2&quot;, &quot;ERROR: Invalid ID: -1&quot;, &quot;Item 3&quot;]</div></div>
+<div class="code-example"><div class="code-example-title">Practical: Simulating a Loading Sequence</div><pre><code class="language-python">function simulateLoad(step, duration) {
+  return new Promise(function(resolve) {
+    console.log(step + &quot;...&quot;);
+    setTimeout(function() {
+      console.log(step + &quot; done&quot;);
+      resolve(step);
+    }, duration);
+  });
+}
+
+async function bootApp() {
+  console.log(&quot;=== App Starting ===&quot;);
+
+  // These must be sequential (each depends on the previous)
+  await simulateLoad(&quot;Loading config&quot;, 500);
+  await simulateLoad(&quot;Connecting to database&quot;, 800);
+
+  // These can be parallel (independent of each other)
+  await Promise.all([
+    simulateLoad(&quot;Loading images&quot;, 600),
+    simulateLoad(&quot;Loading fonts&quot;, 400),
+    simulateLoad(&quot;Loading scripts&quot;, 700)
+  ]);
+
+  console.log(&quot;=== App Ready ===&quot;);
+}
+
+bootApp();</code></pre><div class="code-example-explanation">Real apps often have a mix of sequential and parallel operations. Config must load before database connection (sequential). But images, fonts, and scripts are independent (parallel with Promise.all). This pattern is common in app initialization.</div><div class="code-example-output">=== App Starting ===
+Loading config...
+Loading config done
+Connecting to database...
+Connecting to database done
+Loading images...
+Loading fonts...
+Loading scripts...
+Loading fonts done
+Loading images done
+Loading scripts done
+=== App Ready ===</div></div>
+<div class="code-example"><div class="code-example-title">setInterval with Cleanup</div><pre><code class="language-python">function createCountdown(seconds) {
+  return new Promise(function(resolve) {
+    let remaining = seconds;
+    console.log(&quot;Countdown: &quot; + remaining);
+
+    const timer = setInterval(function() {
+      remaining--;
+      if (remaining &gt; 0) {
+        console.log(&quot;Countdown: &quot; + remaining);
+      } else {
+        clearInterval(timer);
+        console.log(&quot;GO!&quot;);
+        resolve(&quot;Countdown complete&quot;);
+      }
+    }, 1000);
+  });
+}
+
+async function startRace() {
+  console.log(&quot;Get ready...&quot;);
+  const result = await createCountdown(3);
+  console.log(result);
+  console.log(&quot;The race has begun!&quot;);
+}
+
+startRace();</code></pre><div class="code-example-explanation">This wraps setInterval in a Promise so it can be used with await. The interval counts down each second. When it reaches 0, it clears itself and resolves the Promise. The async function waits for the countdown to finish before continuing.</div><div class="code-example-output">Get ready...
+Countdown: 3
+Countdown: 2
+Countdown: 1
+GO!
+Countdown complete
+The race has begun!</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Expecting Async Code to Run in Order</h3>
+                <div class="wrong-code"><pre><code class="language-python">let data;
+
+setTimeout(function() {
+  data = &quot;loaded&quot;;
+}, 1000);
+
+console.log(data); // undefined! setTimeout hasn&#39;t run yet</code></pre></div><div class="error-message">data is undefined because the setTimeout callback has not executed yet when console.log runs.</div><div class="correct-code"><pre><code class="language-python">// Option 1: Use the data inside the callback
+setTimeout(function() {
+  const data = &quot;loaded&quot;;
+  console.log(data); // &quot;loaded&quot;
+}, 1000);
+
+// Option 2: Use async/await with a Promise
+async function loadData() {
+  const data = await new Promise(resolve =&gt; {
+    setTimeout(() =&gt; resolve(&quot;loaded&quot;), 1000);
+  });
+  console.log(data); // &quot;loaded&quot;
+}
+loadData();</code></pre></div><div class="mistake-explanation">Async operations complete later. Code after setTimeout runs immediately, before the callback. Use the data inside the callback, or wrap it in a Promise and use await.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting to Return a Promise in .then() Chain</h3>
+                <div class="wrong-code"><pre><code class="language-python">getUser(1)
+  .then(function(user) {
+    getOrders(user.id); // Forgot to return!
+  })
+  .then(function(orders) {
+    console.log(orders); // undefined!
+  });</code></pre></div><div class="error-message">orders is undefined because the previous .then did not return the Promise from getOrders.</div><div class="correct-code"><pre><code class="language-python">getUser(1)
+  .then(function(user) {
+    return getOrders(user.id); // Return the Promise!
+  })
+  .then(function(orders) {
+    console.log(orders); // Now this works
+  });</code></pre></div><div class="mistake-explanation">In a .then chain, you must <code>return</code> the Promise for the next .then to receive its result. Without return, the next .then gets undefined.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using await Outside an async Function</h3>
+                <div class="wrong-code"><pre><code class="language-python">// At the top level of a regular script
+const data = await fetch(&quot;https://api.example.com/data&quot;);
+console.log(data);
+// SyntaxError: await is only valid in async functions</code></pre></div><div class="error-message">SyntaxError: await is only valid in async functions and at the top level of a module.</div><div class="correct-code"><pre><code class="language-python">// Wrap in an async function
+async function loadData() {
+  const response = await fetch(&quot;https://api.example.com/data&quot;);
+  const data = await response.json();
+  console.log(data);
+}
+loadData();
+
+// Or use type=&quot;module&quot; in HTML (allows top-level await)
+// &lt;script type=&quot;module&quot;&gt;
+//   const data = await fetch(&quot;...&quot;);
+// &lt;/script&gt;</code></pre></div><div class="mistake-explanation">The <code>await</code> keyword can only be used inside a function declared with <code>async</code>. Or at the top level of a module (<code>&lt;script type="module"&gt;</code>). Regular scripts do not support top-level await.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Handling Promise Rejections</h3>
+                <div class="wrong-code"><pre><code class="language-python">// No .catch() -- if the Promise rejects, the error is silent
+fetch(&quot;https://bad-url.example.com/data&quot;)
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(data) {
+    console.log(data);
+  });
+// If fetch fails: UnhandledPromiseRejection warning</code></pre></div><div class="error-message">Unhandled promise rejection. The error is silently lost or causes a warning.</div><div class="correct-code"><pre><code class="language-python">fetch(&quot;https://bad-url.example.com/data&quot;)
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(data) {
+    console.log(data);
+  })
+  .catch(function(error) {
+    console.log(&quot;Request failed:&quot;, error.message);
+  });
+
+// Or with async/await:
+async function loadData() {
+  try {
+    const response = await fetch(&quot;https://bad-url.example.com/data&quot;);
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.log(&quot;Failed:&quot;, error.message);
+  }
+}</code></pre></div><div class="mistake-explanation">Always add <code>.catch()</code> to Promise chains or use try-catch with async/await. Unhandled rejections are a common source of silent failures that are hard to debug.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Running Async Operations Sequentially When They Could Be Parallel</h3>
+                <div class="wrong-code"><pre><code class="language-python">async function loadAll() {
+  const a = await fetchUser();    // waits 1s
+  const b = await fetchPosts();   // waits 1s
+  const c = await fetchComments(); // waits 1s
+  // Total: 3 seconds -- unnecessarily slow!
+}</code></pre></div><div class="error-message">Each operation waits for the previous one to finish, even though they are independent.</div><div class="correct-code"><pre><code class="language-python">async function loadAll() {
+  const [a, b, c] = await Promise.all([
+    fetchUser(),
+    fetchPosts(),
+    fetchComments()
+  ]);
+  // Total: ~1 second (all run in parallel)
+}</code></pre></div><div class="mistake-explanation">If async operations do not depend on each other, use <code>Promise.all</code> to run them in parallel. This can cut loading time dramatically. Only use sequential await when each operation needs the previous result.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>JavaScript is single-threaded: it can only do one thing at a time. The event loop manages async operations by placing callbacks in a queue and running them after the current code finishes.</li>
+<li>setTimeout(fn, ms) runs a function after a delay. setInterval(fn, ms) runs repeatedly. clearTimeout and clearInterval cancel them. Even setTimeout with 0ms delay runs AFTER synchronous code.</li>
+<li>Callbacks are functions passed to other functions, called when an async operation completes. Nested callbacks create &#39;callback hell&#39; (pyramid of doom) that is hard to read and maintain.</li>
+<li>A Promise represents a future value. It can be pending, fulfilled (resolved), or rejected. Create with new Promise((resolve, reject) =&gt; { }).</li>
+<li>.then() handles success, .catch() handles errors, .finally() runs regardless. Always return Promises in .then() chains so the next .then receives the result.</li>
+<li>Promise.all waits for ALL promises and returns an array of results. Promise.race returns the first to finish. Promise.allSettled waits for all and reports each status. Promise.any returns the first success.</li>
+<li>async/await is syntactic sugar over Promises. async functions always return a Promise. await pauses the function until a Promise resolves. It makes async code look synchronous.</li>
+<li>Use try-catch with async/await for error handling, just like synchronous code. Always handle errors -- unhandled rejections cause silent failures.</li>
+<li>For independent operations, use Promise.all for parallel execution. Sequential await is only needed when each step depends on the previous step&#39;s result.</li>
+<li>Microtasks (Promise callbacks) run before macrotasks (setTimeout callbacks). This is why Promise.resolve().then(fn) runs before setTimeout(fn, 0).</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/error-handling-and-debugging" class="related-topic-link">Error Handling and Debugging</a>
+<a href="/resources/javascript/fetch-api-and-working-with-apis" class="related-topic-link">Fetch API - Getting Data from the Internet</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/error-handling-and-debugging" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Error Handling and Debugging</span>
+        </a>
+            <a href="/resources/javascript/fetch-api-and-working-with-apis" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Fetch API - Getting Data from the Internet</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/asynchronous-javascript/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

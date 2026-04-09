@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Project: Build a To-Do App with Local Storage | JavaScript | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="37+ practice questions on Project: Build a To-Do App with Local Storage in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="project: build a to-do app with local storage practice, javascript questions, javascript practice problems, project: build a to-do app with local storage exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage/practice">
+    <meta property="og:title" content="Practice Questions - Project: Build a To-Do App with Local Storage | JavaScript | Modern Age Coders">
+    <meta property="og:description" content="37+ practice questions on Project: Build a To-Do App with Local Storage in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage/practice">
+    <meta name="twitter:title" content="Practice Questions - Project: Build a To-Do App with Local Storage | JavaScript | Modern Age Coders">
+    <meta name="twitter:description" content="37+ practice questions on Project: Build a To-Do App with Local Storage in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Project: Build a To-Do App with Local Storage",
+    "description": "37+ practice questions on Project: Build a To-Do App with Local Storage in JavaScript.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Project: Build a To-Do App with Local Storage"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Project: Build a To-Do App with Local Storage",
+        "item": "https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/javascript/project-todo-app-with-storage/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript/project-todo-app-with-storage">Project: Build a To-Do App with Local Storage</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 22</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">37 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Project: Build a To-Do App with Local Storage</h1>
+            <a href="/resources/javascript/project-todo-app-with-storage" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const tasks = [];
+tasks.push({ id: 1, text: "Learn JS", completed: false });
+tasks.push({ id: 2, text: "Build app", completed: false });
+console.log(tasks.length);
+console.log(tasks[0].text);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">push adds items to the array. Access properties with dot notation.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>2</code><br><code>Learn JS</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const tasks = [
+  { id: 1, text: "A", completed: false },
+  { id: 2, text: "B", completed: true },
+  { id: 3, text: "C", completed: false }
+];
+const active = tasks.filter(function(t) { return !t.completed; });
+console.log(active.length);
+console.log(active[0].text);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">filter keeps items where the callback returns true. !false is true.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>2</code><br><code>A</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const task = { id: 1, text: "Learn JS", completed: false };
+task.completed = !task.completed;
+console.log(task.completed);
+task.completed = !task.completed;
+console.log(task.completed);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">!false is true, !true is false.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const tasks = [
+  { id: 1, text: "A" },
+  { id: 2, text: "B" },
+  { id: 3, text: "C" }
+];
+const filtered = tasks.filter(function(t) { return t.id !== 2; });
+console.log(filtered.length);
+filtered.forEach(function(t) { console.log(t.text); });</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">filter keeps items where the condition is true. id !== 2 is true for tasks 1 and 3.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>2</code><br><code>A</code><br><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const tasks = [
+  { id: 1, text: "X", completed: false },
+  { id: 2, text: "Y", completed: true },
+  { id: 3, text: "Z", completed: false }
+];
+const remaining = tasks.filter(function(t) { return !t.completed; }).length;
+console.log(remaining + " item" + (remaining !== 1 ? "s" : "") + " left");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">2 items are not completed. The ternary adds 's' for plural.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>2 items left</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let tasks = [
+  { id: 1, text: "A", completed: false },
+  { id: 2, text: "B", completed: true }
+];
+
+tasks = tasks.map(function(task) {
+  if (task.id === 1) {
+    return { id: task.id, text: task.text, completed: !task.completed };
+  }
+  return task;
+});
+
+console.log(tasks[0].completed);
+console.log(tasks[1].completed);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">map creates a new array. Only task with id 1 is modified.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>true</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const id1 = Date.now();
+const id2 = Date.now();
+console.log(id1 === id2);
+console.log(typeof id1);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Date.now() runs so fast that both calls happen in the same millisecond.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>true</code><br><code>number</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>let tasks = [
+  { id: 1, text: "A", completed: true },
+  { id: 2, text: "B", completed: false },
+  { id: 3, text: "C", completed: true },
+  { id: 4, text: "D", completed: false }
+];
+
+// Clear completed
+tasks = tasks.filter(function(t) { return !t.completed; });
+console.log(tasks.length);
+tasks.forEach(function(t) { console.log(t.text); });</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">filter keeps tasks where completed is false.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>2</code><br><code>B</code><br><code>D</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why do we use Date.now() as the task ID instead of the array index?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Think about what happens when you delete a task or filter the list.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">Array indices change when items are added, removed, or filtered. If you delete the task at index 0, all other indices shift down. But a Date.now() ID stays the same regardless of what happens to the array. It uniquely identifies the task forever.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does the renderTasks function call <code>list.innerHTML = ""</code> before adding task elements?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">What would happen if you did not clear the list?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">Without clearing, each call to renderTasks would <strong>append</strong> new elements to the existing ones. After toggling a task, you would see the original list plus a duplicate list. Clearing first ensures the list always matches the current state of the data.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is CRUD and how does the to-do app implement each operation?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">CRUD stands for Create, Read, Update, Delete.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><strong>C</strong>reate: the addTask function pushes a new task object to the array. <strong>R</strong>ead: the renderTasks function reads the array and displays tasks on screen. <strong>U</strong>pdate: toggleTask and editTask modify task properties (completed, text). <strong>D</strong>elete: deleteTask removes a task using filter. These four operations are the backbone of nearly every web application.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const tasks = [
+  { id: 1, text: "A", completed: false },
+  { id: 2, text: "B", completed: true }
+];
+console.log(JSON.stringify(tasks));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">JSON.stringify converts the array to a string.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>[{"id":1,"text":"A","completed":false},{"id":2,"text":"B","completed":true}]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const ul = document.createElement('ul');
+const li = document.createElement('li');
+li.textContent = 'Task 1';
+ul.appendChild(li);
+console.log(ul.children.length);
+console.log(ul.children[0].textContent);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">appendChild adds the li to the ul. children gives child elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>1</code><br><code>Task 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const tasks = [
+  { id: 1, text: "A", completed: true },
+  { id: 2, text: "B", completed: false },
+  { id: 3, text: "C", completed: true }
+];
+const result = tasks.map(function(t) {
+  if (t.id === 2) return { id: t.id, text: t.text, completed: true };
+  return t;
+});
+console.log(result[1].completed);
+console.log(tasks[1].completed);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">map creates a new array. The original is unchanged.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const el = document.createElement('span');
+el.classList.add('task-text');
+el.classList.add('completed');
+console.log(el.className);
+el.classList.remove('completed');
+console.log(el.className);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">classList.add adds classes, classList.remove removes them.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>task-text completed</code><br><code>task-text</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>let tasks = [
+  { id: 1, text: "A", completed: false },
+  { id: 2, text: "B", completed: true },
+  { id: 3, text: "C", completed: false }
+];
+
+// Toggle task 1
+tasks = tasks.map(function(t) {
+  return t.id === 1 ? { id: t.id, text: t.text, completed: !t.completed } : t;
+});
+
+// Delete task 2
+tasks = tasks.filter(function(t) { return t.id !== 2; });
+
+// Clear completed
+tasks = tasks.filter(function(t) { return !t.completed; });
+
+console.log(tasks.length);
+console.log(tasks[0].text);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Track each operation: toggle makes task 1 completed, delete removes task 2, clear completed removes task 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>1</code><br><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does the to-do app use innerHTML = '' before rendering tasks instead of removing individual elements?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Think about simplicity vs performance.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">Setting <code>innerHTML = ''</code> is the simplest approach -- it clears everything in one step, then the render function rebuilds the list from the data array. Removing individual elements would require tracking which ones changed, which is more complex. For a small to-do list (tens of items), the performance difference is negligible, and simplicity is more important.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const text = "  Learn JavaScript  ";
+console.log(text.trim());
+console.log(text.trim() === "");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">trim() removes whitespace from both ends of a string.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>Learn JavaScript</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const el = document.createElement("li");
+el.classList.add("task-item");
+el.classList.add("completed");
+console.log(el.classList.contains("task-item"));
+console.log(el.classList.contains("active"));
+console.log(el.className);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">classList.add adds classes, contains checks if a class exists.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>true</code><br><code>false</code><br><code>task-item completed</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const tasks = [
+  { id: 1, text: "A", completed: false },
+  { id: 2, text: "B", completed: true },
+  { id: 3, text: "C", completed: false }
+];
+
+const found = tasks.find(function(t) { return t.id === 2; });
+console.log(found.text);
+
+const notFound = tasks.find(function(t) { return t.id === 99; });
+console.log(notFound);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">find returns the first matching element, or undefined if none found.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>B</code><br><code>undefined</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const btn = document.createElement("button");
+btn.dataset.filter = "active";
+console.log(btn.dataset.filter);
+console.log(btn.getAttribute("data-filter"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">dataset accesses data-* attributes. data-filter becomes dataset.filter.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>active</code><br><code>active</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>let tasks = [
+  { id: 1, text: "A", completed: false },
+  { id: 2, text: "B", completed: false }
+];
+
+localStorage.setItem("tasks", JSON.stringify(tasks));
+tasks[0].completed = true;
+
+const saved = JSON.parse(localStorage.getItem("tasks"));
+console.log(saved[0].completed);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Does changing the array in memory automatically update localStorage?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const tasks = [
+  { id: 1, text: "JS", completed: false },
+  { id: 2, text: "CSS", completed: true },
+  { id: 3, text: "HTML", completed: false },
+  { id: 4, text: "React", completed: true }
+];
+
+const activeTexts = tasks
+  .filter(function(t) { return !t.completed; })
+  .map(function(t) { return t.text; });
+
+console.log(activeTexts);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">filter keeps active tasks, then map extracts just the text.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>["JS", "HTML"]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function addTask(tasks, text) {
+  return tasks.concat([{ id: Date.now(), text: text, completed: false }]);
+}
+
+let tasks = [];
+tasks = addTask(tasks, "A");
+tasks = addTask(tasks, "B");
+console.log(tasks.length);
+
+const original = [];
+const updated = addTask(original, "C");
+console.log(original.length);
+console.log(updated.length);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">concat returns a NEW array. It does not modify the original.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>2</code><br><code>0</code><br><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const span = document.createElement("span");
+span.textContent = "Learn JavaScript";
+span.contentEditable = true;
+
+console.log(span.contentEditable);
+console.log(span.isContentEditable);
+
+span.contentEditable = false;
+console.log(span.contentEditable);
+console.log(span.isContentEditable);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">contentEditable is a string attribute. isContentEditable is a boolean.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>true</code><br><code>true</code><br><code>false</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const input = document.createElement('input');
+input.value = '  Learn JavaScript  ';
+console.log(input.value.trim());
+console.log(input.value.trim().length);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">trim() removes whitespace from both ends.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>Learn JavaScript</code><br><code>16</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const checkbox = document.createElement('input');
+checkbox.type = 'checkbox';
+checkbox.checked = false;
+console.log(checkbox.checked);
+checkbox.checked = !checkbox.checked;
+console.log(checkbox.checked);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">The ! operator flips a boolean.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>false</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const tasks = [
+  { id: 1, text: "JS" },
+  { id: 2, text: "CSS" },
+  { id: 3, text: "HTML" }
+];
+const idx = tasks.findIndex(function(t) { return t.id === 2; });
+console.log(idx);
+console.log(tasks[idx].text);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">findIndex returns the index of the first matching element.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>1</code><br><code>CSS</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const el = document.createElement('span');
+el.addEventListener('blur', function() {
+  console.log('blur fired');
+}, { once: true });
+
+// Simulate two blurs
+el.dispatchEvent(new Event('blur'));
+el.dispatchEvent(new Event('blur'));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">{ once: true } removes the listener after it fires once.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>blur fired</code> (printed only once)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>let tasks = [
+  { id: 1, text: "A", completed: false },
+  { id: 2, text: "B", completed: false }
+];
+localStorage.setItem('tasks', JSON.stringify(tasks));
+
+tasks.push({ id: 3, text: "C", completed: false });
+localStorage.setItem('tasks', JSON.stringify(tasks));
+
+const loaded = JSON.parse(localStorage.getItem('tasks'));
+console.log(loaded.length);
+console.log(loaded[2].text);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">The second setItem overwrites the first save.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>3</code><br><code>C</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does CRUD stand for in web development?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Code, Run, Update, Deploy</li><li><span class="mcq-option-label">B.</span> Create, Read, Update, Delete</li><li><span class="mcq-option-label">C.</span> Copy, Remove, Undo, Download</li><li><span class="mcq-option-label">D.</span> Compile, Render, Upload, Debug</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> CRUD stands for Create, Read, Update, Delete. These are the four basic operations for managing data in any application.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which array method is best for deleting a task by its ID?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> splice</li><li><span class="mcq-option-label">B.</span> pop</li><li><span class="mcq-option-label">C.</span> filter</li><li><span class="mcq-option-label">D.</span> shift</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>filter</code> creates a new array excluding the task with the matching ID: <code>tasks.filter(t => t.id !== id)</code>. splice works but requires finding the index first. pop and shift only remove from the end/start.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Why do we use Date.now() for task IDs?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It creates a human-readable date</li><li><span class="mcq-option-label">B.</span> It creates a unique number based on the current time</li><li><span class="mcq-option-label">C.</span> It creates a random string</li><li><span class="mcq-option-label">D.</span> It creates an auto-incrementing counter</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Date.now() returns the current time in milliseconds, which is practically unique for each task creation. It is simple and does not require a counter variable.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What CSS property creates a line through completed task text?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> font-style: strikethrough</li><li><span class="mcq-option-label">B.</span> text-decoration: line-through</li><li><span class="mcq-option-label">C.</span> text-style: crossed</li><li><span class="mcq-option-label">D.</span> display: line-through</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>text-decoration: line-through</code> draws a line through the text. This is applied when the task has the <code>.completed</code> CSS class.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which array method is used to toggle a task's completed status immutably?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> filter - to remove and re-add the task</li><li><span class="mcq-option-label">B.</span> find - to locate and modify the task</li><li><span class="mcq-option-label">C.</span> map - to create a new array with the task flipped</li><li><span class="mcq-option-label">D.</span> forEach - to loop and toggle each task</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>map</code> creates a new array where the matching task has <code>completed: !task.completed</code> and all other tasks are unchanged. This is the immutable approach.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does contentEditable do to an HTML element?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Makes it draggable</li><li><span class="mcq-option-label">B.</span> Makes it invisible</li><li><span class="mcq-option-label">C.</span> Makes its text directly editable by the user</li><li><span class="mcq-option-label">D.</span> Makes it read-only</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> Setting <code>contentEditable = true</code> allows the user to click on the element and type to change its text, like a text input but on any element.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Why do we clear innerHTML before re-rendering the task list?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To free up memory</li><li><span class="mcq-option-label">B.</span> To prevent duplicate elements from appearing</li><li><span class="mcq-option-label">C.</span> To trigger a page refresh</li><li><span class="mcq-option-label">D.</span> To remove event listeners</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> Without clearing, each render call would append new elements after the existing ones, causing duplicates. Clearing first ensures the list matches the current data.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What does the { once: true } option do for addEventListener?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The event fires once per second</li><li><span class="mcq-option-label">B.</span> The listener is automatically removed after it fires once</li><li><span class="mcq-option-label">C.</span> The event is throttled to once per click</li><li><span class="mcq-option-label">D.</span> The listener ignores the first event</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>{ once: true }</code> automatically removes the event listener after it fires once. This is useful for the blur event on editable tasks -- we only want to save once when editing ends.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the data flow pattern used in the to-do app?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> DOM -&gt; Data -&gt; Render</li><li><span class="mcq-option-label">B.</span> Action -&gt; Update Array -&gt; Save to localStorage -&gt; Re-render UI</li><li><span class="mcq-option-label">C.</span> Save -&gt; Load -&gt; Display -&gt; Save</li><li><span class="mcq-option-label">D.</span> HTML -&gt; CSS -&gt; JavaScript -&gt; HTML</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> Every user action triggers: update the tasks array, save to localStorage, re-render the UI from the array. This unidirectional data flow is the same pattern used by React and other modern frameworks.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Why is using array.filter() for deletion better than array.splice()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> filter is faster</li><li><span class="mcq-option-label">B.</span> filter creates a new array, avoiding mutation of the original</li><li><span class="mcq-option-label">C.</span> splice cannot remove elements from arrays</li><li><span class="mcq-option-label">D.</span> filter works with objects, splice does not</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>filter</code> returns a new array, which is the immutable approach. <code>splice</code> modifies the original array in place. While both work, filter is cleaner and aligns with modern functional programming practices.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What happens if two tasks are added in the same millisecond using Date.now() as the ID?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> An error is thrown</li><li><span class="mcq-option-label">B.</span> Both tasks get the same ID, which can cause bugs</li><li><span class="mcq-option-label">C.</span> JavaScript automatically adds 1 to the second ID</li><li><span class="mcq-option-label">D.</span> localStorage rejects the duplicate</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> If Date.now() is called twice in the same millisecond, both return the same value. This is extremely rare in manual user interaction (humans cannot click that fast). For production apps, use crypto.randomUUID() or a library for truly unique IDs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the purpose of the data-filter attribute on the filter buttons?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It applies a CSS filter effect</li><li><span class="mcq-option-label">B.</span> It stores which filter value the button represents</li><li><span class="mcq-option-label">C.</span> It automatically filters the task list</li><li><span class="mcq-option-label">D.</span> It connects the button to an API</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>data-filter</code> attribute stores the filter type ("all", "active", "completed"). When clicked, JavaScript reads <code>btn.dataset.filter</code> to know which filter to apply.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does input.value.trim() do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Removes all spaces from the input</li><li><span class="mcq-option-label">B.</span> Removes leading and trailing whitespace from the input value</li><li><span class="mcq-option-label">C.</span> Converts the input to lowercase</li><li><span class="mcq-option-label">D.</span> Validates the input format</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>trim()</code> removes whitespace from both ends of a string. It does not remove spaces in the middle.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the benefit of using event delegation for the delete buttons?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It makes the buttons look better</li><li><span class="mcq-option-label">B.</span> It allows one listener on the parent to handle clicks on all child buttons, even ones added later</li><li><span class="mcq-option-label">C.</span> It prevents event bubbling</li><li><span class="mcq-option-label">D.</span> It makes the app load faster</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> Event delegation uses one listener on a parent element instead of individual listeners on each child. This handles dynamically created elements automatically.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does the Escape key do during task editing in the to-do app?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Deletes the task</li><li><span class="mcq-option-label">B.</span> Saves the changes</li><li><span class="mcq-option-label">C.</span> Cancels editing and restores the original text</li><li><span class="mcq-option-label">D.</span> Marks the task as completed</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> Pressing Escape restores the original task text and exits edit mode. Enter saves the changes, and Escape cancels them.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Add Due Dates to Tasks</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Modify the to-do app to include a due date for each task. Add a date input next to the task input. Display the due date next to each task. Highlight tasks that are overdue (due date is in the past) with a red border.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Task: &#39;Finish homework&#39;, Due: &#39;2026-04-10&#39;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[ ] Finish homework (Due: Apr 10) [Delete]
+[!] Overdue tasks shown with red border</div>
+                </div><div class="challenge-constraints">Store the due date in the task object. Use new Date() to compare dates.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">// Modified task structure
+// { id: Date.now(), text: &quot;Finish homework&quot;, completed: false, dueDate: &quot;2026-04-10&quot; }
+
+function addTask() {
+  const text = document.getElementById(&quot;taskInput&quot;).value.trim();
+  const dueDate = document.getElementById(&quot;dateInput&quot;).value;
+  if (text === &quot;&quot;) return;
+  tasks.push({ id: Date.now(), text: text, completed: false, dueDate: dueDate || null });
+  saveTasks();
+  renderTasks();
+}
+
+// In renderTasks, check if overdue
+function isOverdue(task) {
+  if (!task.dueDate || task.completed) return false;
+  return new Date(task.dueDate) &lt; new Date();
+}
+
+// Add red border class if overdue
+if (isOverdue(task)) {
+  li.style.borderColor = &quot;#ef4444&quot;;
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Add Task Categories/Tags</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Add a category system to tasks. Users can tag tasks as 'Work', 'Personal', 'Study', or 'Other'. Add a dropdown for category selection when adding tasks. Add filter buttons for each category. Show a colored dot next to each task based on its category.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Task: &#39;Read chapter 23&#39;, Category: &#39;Study&#39;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Categories: [All] [Work] [Personal] [Study]
+[purple dot] Read chapter 23 [Delete]
+[blue dot] Fix bug in code [Delete]</div>
+                </div><div class="challenge-constraints">Store category in the task object. Add color mapping for each category.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">const categoryColors = {
+  work: &quot;#3b82f6&quot;,
+  personal: &quot;#10b981&quot;,
+  study: &quot;#a855f7&quot;,
+  other: &quot;#94a3b8&quot;
+};
+
+function addTask() {
+  const text = document.getElementById(&quot;taskInput&quot;).value.trim();
+  const category = document.getElementById(&quot;categorySelect&quot;).value;
+  if (text === &quot;&quot;) return;
+  tasks.push({ id: Date.now(), text: text, completed: false, category: category });
+  saveTasks();
+  renderTasks();
+}
+
+// In renderTasks, add category dot
+const dot = document.createElement(&quot;span&quot;);
+dot.style.width = &quot;10px&quot;;
+dot.style.height = &quot;10px&quot;;
+dot.style.borderRadius = &quot;50%&quot;;
+dot.style.background = categoryColors[task.category] || &quot;#94a3b8&quot;;
+li.prepend(dot);
+
+// Add category filter
+function filterByCategory(cat) {
+  if (cat === &quot;all&quot;) return tasks;
+  return tasks.filter(function(t) { return t.category === cat; });
+}</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Drag and Drop Reordering</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Add drag-and-drop functionality to reorder tasks. Users should be able to drag a task and drop it at a new position in the list. The new order should be saved to localStorage.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Drag task 3 above task 1</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Tasks reordered:
+1. (was task 3)
+2. (was task 1)
+3. (was task 2)
+Order saved to localStorage.</div>
+                </div><div class="challenge-constraints">Use the HTML Drag and Drop API (draggable, dragstart, dragover, drop events).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">// Make task items draggable
+li.draggable = true;
+li.dataset.id = task.id;
+
+li.addEventListener(&quot;dragstart&quot;, function(e) {
+  e.dataTransfer.setData(&quot;text/plain&quot;, task.id);
+  li.classList.add(&quot;dragging&quot;);
+});
+
+li.addEventListener(&quot;dragend&quot;, function() {
+  li.classList.remove(&quot;dragging&quot;);
+});
+
+// Allow dropping on the task list
+const list = document.getElementById(&quot;taskList&quot;);
+list.addEventListener(&quot;dragover&quot;, function(e) {
+  e.preventDefault();
+  const dragging = document.querySelector(&quot;.dragging&quot;);
+  const siblings = Array.from(list.querySelectorAll(&quot;.task-item:not(.dragging)&quot;));
+  const nextSibling = siblings.find(function(sib) {
+    const box = sib.getBoundingClientRect();
+    return e.clientY &lt; box.top + box.height / 2;
+  });
+  list.insertBefore(dragging, nextSibling || null);
+});
+
+list.addEventListener(&quot;drop&quot;, function(e) {
+  e.preventDefault();
+  // Read new order from DOM
+  const newOrder = Array.from(list.children).map(function(li) {
+    return Number(li.dataset.id);
+  });
+  // Reorder tasks array to match
+  tasks = newOrder.map(function(id) {
+    return tasks.find(function(t) { return t.id === id; });
+  });
+  saveTasks();
+});</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Task Statistics Dashboard</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Add a statistics section that shows: total tasks, completed tasks, completion percentage, most productive day (day with most tasks completed), and a simple bar showing completion progress.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(5 tasks total, 3 completed)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Stats:
+Total: 5 | Completed: 3 | Active: 2
+Completion: 60%
+[====------] 60%</div>
+                </div><div class="challenge-constraints">Calculate stats from the tasks array. Display a visual progress bar using a div with dynamic width.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">function showStats() {
+  const total = tasks.length;
+  const completed = tasks.filter(function(t) { return t.completed; }).length;
+  const active = total - completed;
+  const percentage = total &gt; 0 ? Math.round((completed / total) * 100) : 0;
+
+  const statsEl = document.getElementById(&quot;stats&quot;);
+  statsEl.innerHTML = &#39;&lt;p&gt;Total: &#39; + total + &#39; | Completed: &#39; + completed + &#39; | Active: &#39; + active + &#39;&lt;/p&gt;&#39; +
+    &#39;&lt;p&gt;Completion: &#39; + percentage + &#39;%&lt;/p&gt;&#39; +
+    &#39;&lt;div class=&quot;progress-bar&quot;&gt;&#39; +
+    &#39;&lt;div class=&quot;progress-fill&quot; style=&quot;width: &#39; + percentage + &#39;%&quot;&gt;&lt;/div&gt;&#39; +
+    &#39;&lt;/div&gt;&#39;;
+}
+
+// Call showStats() inside renderTasks()
+// CSS for progress bar:
+// .progress-bar { height: 8px; background: #334155; border-radius: 4px; }
+// .progress-fill { height: 100%; background: #a855f7; border-radius: 4px; transition: width 0.3s; }</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Export and Import Tasks</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Add buttons to export all tasks as a JSON file (download) and import tasks from a JSON file (upload). This lets users back up their tasks or transfer them between devices.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Click &#39;Export&#39; to download tasks.json, or click &#39;Import&#39; to upload a file.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Exported 5 tasks to tasks.json
+Imported 5 tasks from file</div>
+                </div><div class="challenge-constraints">Use Blob and URL.createObjectURL for export. Use FileReader for import.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">// Export tasks as JSON file
+function exportTasks() {
+  const data = JSON.stringify(tasks, null, 2);
+  const blob = new Blob([data], { type: &quot;application/json&quot; });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement(&quot;a&quot;);
+  a.href = url;
+  a.download = &quot;tasks.json&quot;;
+  a.click();
+  URL.revokeObjectURL(url);
+  console.log(&quot;Exported &quot; + tasks.length + &quot; tasks&quot;);
+}
+
+// Import tasks from JSON file
+function importTasks(file) {
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      const imported = JSON.parse(e.target.result);
+      if (Array.isArray(imported)) {
+        tasks = imported;
+        saveTasks();
+        renderTasks();
+        console.log(&quot;Imported &quot; + imported.length + &quot; tasks&quot;);
+      }
+    } catch (err) {
+      console.log(&quot;Invalid file format&quot;);
+    }
+  };
+  reader.readAsText(file);
+}
+
+// File input for import
+document.getElementById(&quot;importInput&quot;).addEventListener(&quot;change&quot;, function(e) {
+  if (e.target.files[0]) importTasks(e.target.files[0]);
+});</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Undo Delete Feature</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Add an undo feature. When a task is deleted, show a toast notification with an 'Undo' button. If the user clicks Undo within 5 seconds, the task is restored. After 5 seconds, the toast disappears and the deletion is final.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Delete task &#39;Learn JavaScript&#39;, click Undo within 5 seconds</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Task deleted. [Undo - 5s]
+(Click Undo)
+Task restored: Learn JavaScript</div>
+                </div><div class="challenge-constraints">Store the deleted task temporarily. Use setTimeout for auto-dismiss.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">let lastDeleted = null;
+let undoTimeout = null;
+
+function deleteTask(id) {
+  const task = tasks.find(function(t) { return t.id === id; });
+  lastDeleted = { task: task, index: tasks.indexOf(task) };
+  tasks = tasks.filter(function(t) { return t.id !== id; });
+  saveTasks();
+  renderTasks();
+  showUndoToast();
+}
+
+function showUndoToast() {
+  const toast = document.getElementById(&quot;undoToast&quot;);
+  toast.textContent = &#39;Task deleted. &#39;;
+  const undoBtn = document.createElement(&quot;button&quot;);
+  undoBtn.textContent = &quot;Undo&quot;;
+  undoBtn.addEventListener(&quot;click&quot;, function() {
+    if (lastDeleted) {
+      tasks.splice(lastDeleted.index, 0, lastDeleted.task);
+      saveTasks();
+      renderTasks();
+      lastDeleted = null;
+    }
+    toast.style.display = &quot;none&quot;;
+    clearTimeout(undoTimeout);
+  });
+  toast.appendChild(undoBtn);
+  toast.style.display = &quot;block&quot;;
+  clearTimeout(undoTimeout);
+  undoTimeout = setTimeout(function() {
+    toast.style.display = &quot;none&quot;;
+    lastDeleted = null;
+  }, 5000);
+}</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/javascript/local-storage-and-session-storage/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Local Storage and Session Storage</span>
+        </a>
+            <a href="/resources/javascript/array-and-object-advanced-patterns/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Advanced Array and Object Patterns</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/javascript/project-todo-app-with-storage" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

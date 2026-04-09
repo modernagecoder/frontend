@@ -1,0 +1,714 @@
+{
+  "title": "JavaScript in the Browser - Script Tags and Console",
+  "slug": "javascript-in-the-browser",
+  "language": "javascript",
+  "chapter": 2,
+  "difficulty": "Beginner",
+  "readingTime": "22 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 54,
+  "seo": {
+    "title": "JavaScript in the Browser - Script Tags, Console, and DevTools | Modern Age Coders",
+    "description": "Learn how to add JavaScript to HTML pages using script tags, use console.log and browser DevTools, and understand script loading with defer. Includes 54 practice questions.",
+    "keywords": "javascript script tag, javascript console, add javascript to html, browser console tutorial, console.log javascript, script defer, browser devtools, javascript alert prompt confirm"
+  },
+  "content": {
+    "what": "<h2>What Are Script Tags and the Browser Console?</h2><p>In the previous chapter, you learned that JavaScript adds interactivity to web pages. But how exactly do you connect JavaScript code to your HTML page? That is where the <code>&lt;script&gt;</code> tag comes in.</p><p>The <code>&lt;script&gt;</code> tag tells the browser: \"Hey, the code inside this tag is JavaScript. Please run it.\" Without this tag, the browser would treat your JavaScript code as plain text and display it on the page instead of executing it.</p><p>The <strong>browser console</strong> is a built-in tool in every modern browser that lets you see JavaScript output, test code snippets, and debug errors. Think of it as a scratchpad where you can experiment with JavaScript in real time. Open it by pressing <strong>F12</strong> (or Ctrl+Shift+J on Chrome) and clicking the <strong>Console</strong> tab.</p>",
+    "why": "<h2>Why Do Script Tags and the Console Matter?</h2><p>Understanding how to properly add JavaScript to HTML and how to use the browser console are foundational skills that everything else builds on.</p><h3>1. Script Placement Affects Whether Your Code Works</h3><p>If you put your script in the wrong place, your JavaScript can fail silently — the page loads fine but nothing happens. Understanding where to place script tags and how script loading works prevents hours of frustration.</p><h3>2. The Console Is Your Debugging Lifeline</h3><p>When something goes wrong in your JavaScript (and it will), the console shows you the error message, the file name, and even the exact line number. Without the console, debugging would be like trying to find a typo in a book with your eyes closed.</p><h3>3. console.log Is Your Best Learning Tool</h3><p>As you learn JavaScript, you will constantly use <code>console.log()</code> to check values, test expressions, and understand what your code is doing at each step. Professional developers use it daily too. Mastering the console early makes every future chapter easier.</p><h3>4. External Scripts Are Industry Standard</h3><p>Real websites never put thousands of lines of JavaScript directly in their HTML files. They use external <code>.js</code> files linked with <code>&lt;script src=\"...\"&gt;</code>. Understanding this pattern is essential for building real projects.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Three Ways to Add JavaScript to HTML</h3><p>There are three methods to include JavaScript in an HTML page:</p><h4>Method 1: Inline Script (Inside the HTML)</h4><p>Write JavaScript directly between <code>&lt;script&gt;</code> and <code>&lt;/script&gt;</code> tags in your HTML file. This is the simplest method and good for small scripts or learning.</p><pre><code>&lt;script&gt;\n  console.log(\"This is inline JavaScript\");\n&lt;/script&gt;</code></pre><h4>Method 2: External Script File</h4><p>Write your JavaScript in a separate <code>.js</code> file and link it using the <code>src</code> attribute. This is the preferred method for real projects because it keeps your HTML clean and your JavaScript organized.</p><pre><code>&lt;!-- In your HTML file --&gt;\n&lt;script src=\"script.js\"&gt;&lt;/script&gt;\n\n&lt;!-- In a file called script.js --&gt;\nconsole.log(\"This is from an external file\");</code></pre><p><strong>Important rule:</strong> When a <code>&lt;script&gt;</code> tag has a <code>src</code> attribute, any code between the opening and closing tags is <strong>ignored</strong>. You cannot mix both methods in one tag.</p><h4>Method 3: Inline Event Handlers</h4><p>Write JavaScript directly in HTML attributes like <code>onclick</code>, <code>onmouseover</code>, etc. This should only be used for very simple one-line actions, not for real projects.</p><pre><code>&lt;button onclick=\"alert('Clicked!')\"&gt;Click Me&lt;/button&gt;</code></pre><h3>2. Where to Place Script Tags</h3><p>The placement of your script tag matters a lot. Here are the three options:</p><h4>Option A: In the &lt;head&gt; (Usually Bad)</h4><p>When the browser encounters a <code>&lt;script&gt;</code> tag in the <code>&lt;head&gt;</code>, it <strong>stops building the page</strong>, downloads and runs the script, and only then continues with the rest of the HTML. If your script tries to access HTML elements that have not been created yet, it will fail.</p><h4>Option B: Before &lt;/body&gt; (Traditional Best Practice)</h4><p>Placing the script just before the closing <code>&lt;/body&gt;</code> tag means all HTML elements are already created when the script runs. This was the standard approach for years.</p><h4>Option C: In &lt;head&gt; with defer (Modern Best Practice)</h4><p>The <code>defer</code> attribute tells the browser: \"Download this script in the background, but do not run it until the entire HTML page is fully loaded.\" This gives you the best of both worlds — the script starts downloading early but runs after the page is ready.</p><pre><code>&lt;head&gt;\n  &lt;script src=\"script.js\" defer&gt;&lt;/script&gt;\n&lt;/head&gt;</code></pre><p>There is also the <code>async</code> attribute, which downloads the script in the background and runs it as soon as the download finishes — even if the page is not fully loaded. Use <code>async</code> for scripts that do not depend on the page content (like analytics). Use <code>defer</code> for scripts that interact with the page.</p><h3>3. Console Methods</h3><p>The <code>console</code> object has many methods beyond just <code>log()</code>. Here are the most useful ones:</p><h4>console.log()</h4><p>The workhorse. Prints any value to the console. You can pass multiple arguments separated by commas, and they will all be printed on the same line.</p><h4>console.warn()</h4><p>Prints a warning message with a yellow background. Use it when something is not an error but might cause problems. Browsers display a warning icon next to these messages.</p><h4>console.error()</h4><p>Prints an error message with a red background. Use it when something has gone wrong. Unlike <code>console.log()</code>, the output includes a stack trace showing where the error came from.</p><h4>console.table()</h4><p>Displays arrays or objects in a neat table format. This is incredibly useful when working with structured data. Pass an array of objects and the console shows a beautiful table with columns.</p><h4>console.clear()</h4><p>Clears all messages from the console. Useful when the console gets cluttered during debugging.</p><h4>console.time() and console.timeEnd()</h4><p>Measures how long a block of code takes to execute. Call <code>console.time(\"label\")</code> before the code and <code>console.timeEnd(\"label\")</code> after. The console will print the elapsed time in milliseconds.</p><h3>4. Browser Dialog Functions</h3><h4>alert()</h4><p><code>alert()</code> shows a popup message box with an OK button. It <strong>blocks the page</strong> — the user cannot interact with anything else until they click OK. Good for learning, bad for real websites.</p><h4>prompt()</h4><p><code>prompt()</code> shows a dialog with a text input field. It returns whatever the user types (as a string), or <code>null</code> if they click Cancel. You can pass a second argument as the default value.</p><h4>confirm()</h4><p><code>confirm()</code> shows a dialog with OK and Cancel buttons. It returns <code>true</code> if the user clicks OK, <code>false</code> if they click Cancel. Useful for asking yes/no questions.</p><h3>5. document.write() (And Why You Should Avoid It)</h3><p><code>document.write()</code> writes text directly into the HTML document. It seems convenient, but it has a dangerous behavior: <strong>if called after the page has fully loaded, it erases the entire page</strong> and replaces it with whatever you pass to it. This makes it unreliable and potentially destructive. Use <code>.textContent</code> or <code>.innerHTML</code> instead.</p><h3>6. Opening the Browser DevTools</h3><p>Every browser has built-in Developer Tools (DevTools). Here is how to open them:</p><ul><li><strong>Chrome/Edge:</strong> Press <code>F12</code> or <code>Ctrl + Shift + J</code> (Windows) / <code>Cmd + Option + J</code> (Mac)</li><li><strong>Firefox:</strong> Press <code>F12</code> or <code>Ctrl + Shift + K</code></li><li><strong>Safari:</strong> Enable Developer menu in Preferences, then press <code>Cmd + Option + C</code></li></ul><p>The Console tab is where you will spend most of your time. You can type JavaScript directly into the console and press Enter to run it. This is perfect for testing small code snippets.</p>",
+    "codeExamples": [
+      {
+        "title": "Inline Script vs External Script",
+        "code": "<!-- Method 1: Inline Script -->\n<!DOCTYPE html>\n<html>\n<body>\n  <h1>Inline Script Example</h1>\n  <script>\n    console.log(\"This runs from an inline script\");\n  </script>\n</body>\n</html>\n\n<!-- Method 2: External Script -->\n<!-- index.html -->\n<!DOCTYPE html>\n<html>\n<body>\n  <h1>External Script Example</h1>\n  <script src=\"app.js\"></script>\n</body>\n</html>\n\n<!-- app.js -->\nconsole.log(\"This runs from an external file\");",
+        "language": "html",
+        "explanation": "Method 1 puts JavaScript directly in the HTML. Method 2 keeps JavaScript in a separate <code>app.js</code> file. Both produce the same result in the console. For real projects, always use external files — it keeps your code organized and allows the browser to cache the JavaScript file separately.",
+        "output": "Console shows: This runs from an inline script\n(or: This runs from an external file)"
+      },
+      {
+        "title": "Script Placement: Head vs Body vs Defer",
+        "code": "<!-- BAD: Script in head without defer -->\n<!DOCTYPE html>\n<html>\n<head>\n  <script>\n    // This will FAIL because #greeting does not exist yet\n    document.getElementById(\"greeting\").textContent = \"Hello!\";\n  </script>\n</head>\n<body>\n  <p id=\"greeting\">Waiting...</p>\n</body>\n</html>\n\n<!-- GOOD: Script at end of body -->\n<!DOCTYPE html>\n<html>\n<head></head>\n<body>\n  <p id=\"greeting\">Waiting...</p>\n  <script>\n    document.getElementById(\"greeting\").textContent = \"Hello!\";\n  </script>\n</body>\n</html>\n\n<!-- BEST: Script in head with defer -->\n<!DOCTYPE html>\n<html>\n<head>\n  <script src=\"app.js\" defer></script>\n</head>\n<body>\n  <p id=\"greeting\">Waiting...</p>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "The first example fails because the script runs before <code>&lt;p id=\"greeting\"&gt;</code> exists. The second example works because the script runs after the element is created. The third example uses <code>defer</code>, which downloads the script early but waits to execute until the full page is ready. The <code>defer</code> approach is the modern standard.",
+        "output": "BAD: TypeError (null reference)\nGOOD: Paragraph shows 'Hello!'\nBEST: Paragraph shows 'Hello!'"
+      },
+      {
+        "title": "All Console Methods",
+        "code": "// Basic logging\nconsole.log(\"Regular message\");\nconsole.log(\"Name:\", \"Aarav\", \"Age:\", 15);\n\n// Warning (yellow background)\nconsole.warn(\"This is a warning!\");\n\n// Error (red background)\nconsole.error(\"Something went wrong!\");\n\n// Table (displays structured data in a table)\nlet students = [\n  { name: \"Aarav\", marks: 92 },\n  { name: \"Priya\", marks: 88 },\n  { name: \"Rohan\", marks: 95 }\n];\nconsole.table(students);\n\n// Timing how long code takes\nconsole.time(\"loop\");\nfor (let i = 0; i < 100000; i++) { /* empty */ }\nconsole.timeEnd(\"loop\");\n\n// Clear the console\n// console.clear();",
+        "language": "javascript",
+        "explanation": "<code>console.log()</code> accepts multiple arguments separated by commas. <code>console.warn()</code> and <code>console.error()</code> display colored messages. <code>console.table()</code> is excellent for viewing arrays of objects in a table format. <code>console.time()</code> and <code>console.timeEnd()</code> measure execution time. Each method serves a different purpose for debugging and development.",
+        "output": "Regular message\nName: Aarav Age: 15\n(warning icon) This is a warning!\n(error icon) Something went wrong!\n(table with name and marks columns)\nloop: 2.345ms"
+      },
+      {
+        "title": "alert, prompt, and confirm in Action",
+        "code": "// alert: Show a message\nalert(\"Welcome to Vikram's website!\");\n\n// prompt: Ask for input (returns a string or null)\nlet name = prompt(\"What is your name?\", \"Guest\");\nconsole.log(\"Hello, \" + name);\n\n// confirm: Ask yes/no (returns true or false)\nlet wantsCoffee = confirm(\"Would you like some coffee?\");\nif (wantsCoffee) {\n  console.log(\"Making coffee...\");\n} else {\n  console.log(\"Maybe later!\");\n}\n\n// prompt always returns a STRING\nlet age = prompt(\"Enter your age:\");\nconsole.log(typeof age);  // \"string\" even if user types a number!",
+        "language": "javascript",
+        "explanation": "These three functions create browser popup dialogs. <code>alert()</code> just shows a message. <code>prompt()</code> returns the typed text as a string (the second argument <code>\"Guest\"</code> is the default value). <code>confirm()</code> returns <code>true</code> for OK, <code>false</code> for Cancel. Critical detail: <code>prompt()</code> always returns a <strong>string</strong>, even if the user types a number like <code>42</code> — you get <code>\"42\"</code> and need to convert it with <code>Number()</code>.",
+        "output": "If user enters 'Priya' for name and clicks OK for coffee:\nHello, Priya\nMaking coffee...\nstring"
+      },
+      {
+        "title": "Why document.write() Is Dangerous",
+        "code": "<!-- This seems to work when the page loads -->\n<!DOCTYPE html>\n<html>\n<body>\n  <h1>My Page</h1>\n  <script>\n    document.write(\"<p>Added by JavaScript</p>\");\n  </script>\n  <p>This paragraph stays.</p>\n</body>\n</html>\n\n<!-- BUT THIS DESTROYS THE PAGE: -->\n<!DOCTYPE html>\n<html>\n<body>\n  <h1>My Page</h1>\n  <p>Important content here</p>\n  <button onclick=\"document.write('Oops!')\">Click Me</button>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "When <code>document.write()</code> runs during page loading (as the browser reads the HTML), it inserts content into the page. But when called <strong>after</strong> the page has loaded (like from a button click), it <strong>erases the entire page</strong> and replaces everything with the new content. In the second example, clicking the button wipes out the heading, paragraph, and button — replacing it all with just \"Oops!\". This is why <code>document.write()</code> should be avoided.",
+        "output": "First example: Page shows heading, 'Added by JavaScript', and paragraph.\nSecond example: Clicking the button erases everything and shows only 'Oops!'"
+      },
+      {
+        "title": "Multiple Script Tags and Execution Order",
+        "code": "<!DOCTYPE html>\n<html>\n<body>\n  <script>\n    console.log(\"Script 1 runs first\");\n    let message = \"Hello\";\n  </script>\n\n  <p>Some HTML content here</p>\n\n  <script>\n    console.log(\"Script 2 runs second\");\n    console.log(message);  // Can access variable from Script 1\n    message = message + \" World\";\n  </script>\n\n  <script>\n    console.log(\"Script 3 runs third\");\n    console.log(message);  // \"Hello World\"\n  </script>\n</body>\n</html>",
+        "language": "html",
+        "explanation": "Multiple script tags on a page execute in order, from top to bottom. They share the same global scope, so a variable declared in Script 1 is accessible in Script 2 and Script 3. This is important to understand: all scripts on a page share the same variable space unless you use modules.",
+        "output": "Script 1 runs first\nScript 2 runs second\nHello\nScript 3 runs third\nHello World"
+      },
+      {
+        "title": "Using the Console as a Calculator and Scratchpad",
+        "code": "// You can type these directly into the browser console (F12)\n\n// Math\n25 * 4          // 100\nMath.sqrt(144)  // 12\nMath.PI         // 3.141592653589793\n\n// String operations\n\"Ananya\".length         // 6\n\"Ananya\".toUpperCase()  // \"ANANYA\"\n\"Hello World\".split(\" \") // [\"Hello\", \"World\"]\n\n// Quick tests\ntypeof 42        // \"number\"\ntypeof null      // \"object\"\n5 > 3            // true\n\"5\" === 5        // false\n\n// Even create elements on the fly\ndocument.title = \"I changed the tab title!\";",
+        "language": "javascript",
+        "explanation": "The browser console is a live JavaScript environment. You can type any expression and immediately see the result. Use it as a calculator, test string methods, check types, or even modify the current page. This is the fastest way to experiment with JavaScript. Every professional developer uses the console daily.",
+        "output": "Each expression returns its result immediately in the console."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Mixing src Attribute with Inline Code",
+        "wrongCode": "<script src=\"app.js\">\n  console.log(\"This will be ignored!\");\n</script>",
+        "error": "No error, but the inline code never runs. Only app.js executes.",
+        "correctCode": "<script src=\"app.js\"></script>\n<script>\n  console.log(\"This runs from a separate inline script\");\n</script>",
+        "explanation": "When a <code>&lt;script&gt;</code> tag has a <code>src</code> attribute, the browser ignores any code between the opening and closing tags. If you need both an external file and inline code, use two separate <code>&lt;script&gt;</code> tags."
+      },
+      {
+        "title": "Forgetting the Closing Script Tag",
+        "wrongCode": "<script src=\"app.js\" />\n<p>This paragraph might not show up</p>",
+        "error": "The paragraph and everything after may be treated as part of the script and hidden.",
+        "correctCode": "<script src=\"app.js\"></script>\n<p>This paragraph shows up correctly</p>",
+        "explanation": "Unlike some HTML tags (like <code>&lt;img /&gt;</code>), the <code>&lt;script&gt;</code> tag is <strong>not self-closing</strong>. You must always write the full closing tag <code>&lt;/script&gt;</code>. Using a self-closing <code>&lt;script /&gt;</code> can cause the browser to treat all subsequent HTML as script content."
+      },
+      {
+        "title": "Using console.log to Display on the Page",
+        "wrongCode": "// Neha wants to show a message on the page\nconsole.log(\"Welcome to my website!\");\n// But nothing appears on the page!",
+        "error": "No error, but the message only appears in the DevTools console, not on the web page.",
+        "correctCode": "// To display text ON the page, use DOM methods:\ndocument.getElementById(\"output\").textContent = \"Welcome to my website!\";\n\n// Or for quick testing, alert works:\nalert(\"Welcome to my website!\");",
+        "explanation": "<code>console.log()</code> prints to the browser's Developer Console (F12), not to the visible web page. To display something on the page, you need to modify an HTML element using <code>.textContent</code>, <code>.innerHTML</code>, or <code>.innerText</code>. This is one of the most common beginner confusions."
+      },
+      {
+        "title": "Using prompt Without Converting the Type",
+        "wrongCode": "let a = prompt(\"Enter first number:\");   // returns \"5\"\nlet b = prompt(\"Enter second number:\");   // returns \"3\"\nlet sum = a + b;\nconsole.log(\"Sum: \" + sum);  // Shows \"Sum: 53\" instead of \"Sum: 8\"",
+        "error": "No error, but the result is '53' (string concatenation) instead of 8 (addition).",
+        "correctCode": "let a = Number(prompt(\"Enter first number:\"));\nlet b = Number(prompt(\"Enter second number:\"));\nlet sum = a + b;\nconsole.log(\"Sum: \" + sum);  // Shows \"Sum: 8\"",
+        "explanation": "<code>prompt()</code> <strong>always returns a string</strong>, even when the user types a number. <code>\"5\" + \"3\"</code> is string concatenation, giving <code>\"53\"</code>. Wrap the prompt in <code>Number()</code> to convert the string to a number first: <code>Number(\"5\") + Number(\"3\") = 8</code>."
+      },
+      {
+        "title": "Calling document.write After Page Load",
+        "wrongCode": "<!DOCTYPE html>\n<html>\n<body>\n  <h1>My Important Page</h1>\n  <button onclick=\"document.write('Hello!')\">Click</button>\n</body>\n</html>",
+        "error": "Clicking the button erases the entire page (heading and button disappear) and shows only 'Hello!'.",
+        "correctCode": "<!DOCTYPE html>\n<html>\n<body>\n  <h1>My Important Page</h1>\n  <p id=\"output\"></p>\n  <button onclick=\"document.getElementById('output').textContent = 'Hello!'\">Click</button>\n</body>\n</html>",
+        "explanation": "When <code>document.write()</code> is called after the page has finished loading (e.g., from a button click), it destroys the entire page content and replaces it. Use <code>.textContent</code> or <code>.innerHTML</code> to update specific elements instead."
+      }
+    ],
+    "summary": [
+      "JavaScript is added to HTML using the <script> tag. You can write code inline between the tags or link an external .js file using the src attribute.",
+      "When a script tag has a src attribute, any code between the opening and closing tags is ignored. Use separate script tags for external and inline code.",
+      "Script placement matters: scripts in the <head> run before the page is built (can cause errors). Scripts before </body> run after all elements exist.",
+      "The defer attribute lets you place scripts in the <head> while ensuring they run only after the full page is loaded. This is the modern best practice.",
+      "console.log() prints output to the browser's Developer Console (F12), not to the web page. Use it constantly for testing and debugging.",
+      "console.warn() shows yellow warnings, console.error() shows red errors, and console.table() displays data in a table format.",
+      "alert() shows a popup message. prompt() asks for text input and returns a string (or null). confirm() asks yes/no and returns true or false.",
+      "prompt() always returns a string. Use Number() to convert it when you need a number for calculations.",
+      "document.write() writes to the page during load, but erases everything if called after the page has loaded. Avoid it. Use textContent or innerHTML instead.",
+      "The browser console (F12) is a live JavaScript environment. You can type code, test expressions, and debug errors directly in it."
+    ]
+  },
+  "relatedTopics": ["introduction-to-javascript", "variables-and-data-types"],
+  "practice": {
+    "totalQuestions": 54,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What appears in the console when this HTML page loads?<br><pre><code>&lt;script&gt;\n  console.log(\"First\");\n&lt;/script&gt;\n&lt;p&gt;Hello&lt;/p&gt;\n&lt;script&gt;\n  console.log(\"Second\");\n&lt;/script&gt;</code></pre>",
+        "hint": "Script tags execute in order as the browser reads the page.",
+        "answer": "<code>First</code><br><code>Second</code>",
+        "explanation": "Script tags execute in document order. The browser reads the first script and logs <code>\"First\"</code>. Then it creates the paragraph. Then it reads the second script and logs <code>\"Second\"</code>. Both messages appear in the console, in order."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(\"A\");\nconsole.log(\"B\");\nconsole.log(\"C\");</code></pre>",
+        "hint": "console.log statements execute in order.",
+        "answer": "<code>A</code><br><code>B</code><br><code>C</code>",
+        "explanation": "Each <code>console.log()</code> statement executes in sequence, printing each value on a new line in the console."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(2, 4, 6, 8);</code></pre>",
+        "hint": "console.log can take multiple arguments separated by commas.",
+        "answer": "<code>2 4 6 8</code>",
+        "explanation": "<code>console.log()</code> accepts multiple arguments separated by commas. It prints them all on the same line, separated by spaces. This is different from using <code>+</code> which would add the numbers."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(\"10\" + 20);\nconsole.log(10 + 20);</code></pre>",
+        "hint": "The first line has a string, the second has two numbers.",
+        "answer": "<code>1020</code><br><code>30</code>",
+        "explanation": "In the first line, <code>\"10\"</code> is a string, so <code>+</code> performs concatenation: <code>\"10\" + 20 = \"1020\"</code>. In the second line, both are numbers, so <code>+</code> performs addition: <code>10 + 20 = 30</code>."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens when this page loads?<br><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n  &lt;script&gt;\n    document.getElementById(\"msg\").textContent = \"Hello!\";\n  &lt;/script&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;p id=\"msg\"&gt;Original&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "hint": "The script runs in the head, before the body elements exist.",
+        "answer": "A <code>TypeError</code> appears in the console: <code>Cannot set properties of null</code>. The paragraph shows \"Original\".",
+        "explanation": "The script in the <code>&lt;head&gt;</code> runs before the <code>&lt;body&gt;</code> is processed. At that point, <code>&lt;p id=\"msg\"&gt;</code> does not exist yet, so <code>getElementById(\"msg\")</code> returns <code>null</code>. Trying to set <code>.textContent</code> on <code>null</code> causes a TypeError. The fix is to move the script before <code>&lt;/body&gt;</code> or add the <code>defer</code> attribute."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let x = prompt(\"Enter a number:\");\nconsole.log(typeof x);</code></pre><p>Assume the user types 42 and clicks OK.</p>",
+        "hint": "What type does prompt() always return?",
+        "answer": "<code>string</code>",
+        "explanation": "<code>prompt()</code> always returns a <strong>string</strong>, regardless of what the user types. Even if the user types <code>42</code>, the returned value is <code>\"42\"</code> (a string). <code>typeof \"42\"</code> is <code>\"string\"</code>."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let result = confirm(\"Are you sure?\");\nconsole.log(result);\nconsole.log(typeof result);</code></pre><p>Assume the user clicks Cancel.</p>",
+        "hint": "confirm() returns a boolean value.",
+        "answer": "<code>false</code><br><code>boolean</code>",
+        "explanation": "When the user clicks Cancel on a <code>confirm()</code> dialog, it returns <code>false</code>. Clicking OK returns <code>true</code>. The return value is always a boolean, so <code>typeof result</code> is <code>\"boolean\"</code>."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let name = prompt(\"Enter name:\");\nconsole.log(name);\nconsole.log(typeof name);</code></pre><p>Assume the user clicks Cancel without typing anything.</p>",
+        "hint": "What does prompt() return when the user cancels?",
+        "answer": "<code>null</code><br><code>object</code>",
+        "explanation": "When the user clicks Cancel, <code>prompt()</code> returns <code>null</code>. And <code>typeof null</code> is <code>\"object\"</code> (the famous JavaScript bug). If the user had clicked OK without typing anything, the result would be <code>\"\"</code> (empty string)."
+      },
+      {
+        "id": "ts-9",
+        "type": "find-the-bug",
+        "difficulty": "Easy",
+        "question": "Aarav wrote this but nothing runs. Find the bug:<br><pre><code>&lt;script src=\"app.js\"&gt;\n  console.log(\"Hello!\");\n&lt;/script&gt;</code></pre>",
+        "hint": "What happens when a script tag has both src and inline code?",
+        "answer": "The inline <code>console.log(\"Hello!\")</code> is ignored because the script tag has a <code>src</code> attribute. When <code>src</code> is present, inline code is not executed.",
+        "explanation": "A script tag with <code>src</code> tells the browser to run the external file. Any code between the tags is ignored. To run both, use two separate script tags: one for the external file and one for the inline code."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>&lt;script&gt;\n  var a = 10;\n&lt;/script&gt;\n&lt;script&gt;\n  console.log(a);\n  var b = 20;\n&lt;/script&gt;\n&lt;script&gt;\n  console.log(a + b);\n&lt;/script&gt;</code></pre>",
+        "hint": "All script tags on a page share the same global scope.",
+        "answer": "<code>10</code><br><code>30</code>",
+        "explanation": "Variables declared with <code>var</code> in any script tag are added to the global scope and accessible from any other script tag. Script 2 logs <code>a</code> (10 from Script 1). Script 3 logs <code>a + b</code> (10 + 20 = 30). All scripts share the same variable space."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write an HTML page that uses console.log to print your name, console.warn to print a warning, and console.error to print an error message.",
+        "hint": "Use three different console methods.",
+        "answer": "<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;body&gt;\n  &lt;script&gt;\n    console.log(\"My name is Rohan\");\n    console.warn(\"This is a warning message\");\n    console.error(\"This is an error message\");\n  &lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "explanation": "Each console method displays messages differently in the DevTools: <code>log</code> shows normal text, <code>warn</code> shows yellow-highlighted text with a warning icon, and <code>error</code> shows red-highlighted text with an error icon and stack trace."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(1);\nsetTimeout(function() {\n  console.log(2);\n}, 0);\nconsole.log(3);</code></pre>",
+        "hint": "setTimeout always runs its callback after the current code finishes, even with 0 delay.",
+        "answer": "<code>1</code><br><code>3</code><br><code>2</code>",
+        "explanation": "Even with a delay of <code>0</code> milliseconds, <code>setTimeout</code> puts the function in a queue and runs it <strong>after</strong> the current code finishes. So <code>1</code> is logged first, then <code>3</code>, and only after both synchronous logs complete does the setTimeout callback run, logging <code>2</code>."
+      },
+      {
+        "id": "ts-13",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Priya wants to add two numbers from prompts, but gets concatenation instead of addition. Fix the bug:<br><pre><code>let a = prompt(\"First number:\");\nlet b = prompt(\"Second number:\");\nconsole.log(\"Sum: \" + (a + b));</code></pre><p>User enters 5 and 3. Output: Sum: 53</p>",
+        "hint": "prompt() returns strings. How do you convert them to numbers?",
+        "answer": "<pre><code>let a = Number(prompt(\"First number:\"));\nlet b = Number(prompt(\"Second number:\"));\nconsole.log(\"Sum: \" + (a + b));</code></pre>\nOutput: Sum: 8",
+        "explanation": "<code>prompt()</code> returns strings, so <code>a</code> is <code>\"5\"</code> and <code>b</code> is <code>\"3\"</code>. The <code>+</code> operator concatenates strings: <code>\"5\" + \"3\" = \"53\"</code>. Wrapping each prompt in <code>Number()</code> converts the strings to actual numbers first."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(typeof alert);\nconsole.log(typeof prompt);\nconsole.log(typeof console);</code></pre>",
+        "hint": "alert and prompt are functions. What about console itself?",
+        "answer": "<code>function</code><br><code>function</code><br><code>object</code>",
+        "explanation": "<code>alert</code> and <code>prompt</code> are functions, so <code>typeof</code> returns <code>\"function\"</code>. <code>console</code> is an object (it contains methods like <code>.log()</code>, <code>.warn()</code>, etc.), so <code>typeof console</code> returns <code>\"object\"</code>."
+      },
+      {
+        "id": "ts-15",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write code that asks the user for their name using prompt, then displays a greeting on the web page (not in the console) inside a paragraph with id 'greeting'.",
+        "hint": "Use prompt() to get the name, then .textContent to display it.",
+        "answer": "<pre><code>&lt;p id=\"greeting\"&gt;&lt;/p&gt;\n&lt;script&gt;\n  let name = prompt(\"What is your name?\");\n  document.getElementById(\"greeting\").textContent = \"Hello, \" + name + \"!\";\n&lt;/script&gt;</code></pre>",
+        "explanation": "<code>prompt()</code> gets the user's name as a string. Then <code>.textContent</code> sets the visible text of the paragraph element. If the user types \"Neha\", the paragraph shows \"Hello, Neha!\"."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(\"Hello\");\n// console.log(\"World\");\nconsole.log(\"JavaScript\");</code></pre>",
+        "hint": "Lines starting with // are comments — they do not execute.",
+        "answer": "<code>Hello</code><br><code>JavaScript</code>",
+        "explanation": "The second line is a comment (starts with <code>//</code>), so it is ignored by JavaScript. Only the first and third <code>console.log()</code> statements execute."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>/* \nconsole.log(\"A\");\nconsole.log(\"B\");\n*/\nconsole.log(\"C\");</code></pre>",
+        "hint": "/* and */ create multi-line comments.",
+        "answer": "<code>C</code>",
+        "explanation": "Everything between <code>/*</code> and <code>*/</code> is a multi-line comment and is not executed. Only the last <code>console.log(\"C\")</code> runs."
+      },
+      {
+        "id": "ts-18",
+        "type": "find-the-bug",
+        "difficulty": "Hard",
+        "question": "Vikram wrote this code. The page loads, the button appears, but clicking it does nothing. No errors in the console either. Find the bug:<br><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;body&gt;\n  &lt;button onclick=\"showMessage\"&gt;Click Me&lt;/button&gt;\n  &lt;p id=\"msg\"&gt;&lt;/p&gt;\n  &lt;script&gt;\n    function showMessage() {\n      document.getElementById(\"msg\").textContent = \"Button clicked!\";\n    }\n  &lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "hint": "Look at the onclick attribute. How do you call a function?",
+        "answer": "The <code>onclick</code> should be <code>onclick=\"showMessage()\"</code> with parentheses. Without <code>()</code>, the function is referenced but never called.",
+        "explanation": "Writing <code>onclick=\"showMessage\"</code> just evaluates the function name (which does nothing). To actually <strong>call</strong> the function, you need the parentheses: <code>onclick=\"showMessage()\"</code>. This is a subtle but common mistake."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output in the console?<br><pre><code>console.log(\"Start\");\nalert(\"Pause!\");\nconsole.log(\"End\");</code></pre>",
+        "hint": "alert() blocks code execution until the user clicks OK.",
+        "answer": "<code>Start</code> appears in the console. Then the alert popup shows. After the user clicks OK, <code>End</code> appears in the console.",
+        "explanation": "<code>alert()</code> is <strong>blocking</strong> — it pauses all JavaScript execution until the user clicks OK. So <code>\"Start\"</code> is logged, then the alert appears and everything freezes. Only after clicking OK does <code>\"End\"</code> get logged. This blocking behavior is why alert should not be used in production websites."
+      },
+      {
+        "id": "ts-20",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write an HTML page with a button. When clicked, use console.time and console.timeEnd to measure how long it takes to concatenate the string 'x' to itself 100000 times, and log the final string length.",
+        "hint": "Use console.time('label') before, console.timeEnd('label') after, and a for loop.",
+        "answer": "<pre><code>&lt;button onclick=\"measure()\"&gt;Run Test&lt;/button&gt;\n&lt;script&gt;\n  function measure() {\n    console.time(\"concat\");\n    let str = \"\";\n    for (let i = 0; i &lt; 100000; i++) {\n      str += \"x\";\n    }\n    console.timeEnd(\"concat\");\n    console.log(\"String length: \" + str.length);\n  }\n&lt;/script&gt;</code></pre>",
+        "explanation": "<code>console.time(\"concat\")</code> starts a timer with the label \"concat\". After the loop, <code>console.timeEnd(\"concat\")</code> stops the timer and prints the elapsed time. The label must match exactly. This is useful for measuring performance."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(\"Hello\" + \" \" + \"Aarav\");</code></pre>",
+        "hint": "The + operator joins strings.",
+        "answer": "<code>Hello Aarav</code>",
+        "explanation": "Three strings are concatenated: <code>\"Hello\"</code> + <code>\" \"</code> + <code>\"Aarav\"</code> = <code>\"Hello Aarav\"</code>."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write code using console.log that prints the numbers 1 through 5, each on a separate line.",
+        "hint": "Use five console.log statements.",
+        "answer": "<pre><code>console.log(1);\nconsole.log(2);\nconsole.log(3);\nconsole.log(4);\nconsole.log(5);</code></pre>",
+        "explanation": "Each <code>console.log()</code> call prints on a new line. You could also pass them as one call <code>console.log(1, 2, 3, 4, 5)</code>, but that prints them on the same line."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this HTML page display on the web page (not the console)?<br><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;body&gt;\n  &lt;p id=\"demo\"&gt;Old Text&lt;/p&gt;\n  &lt;script&gt;\n    console.log(\"New Text\");\n  &lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "hint": "console.log does not change the web page.",
+        "answer": "The web page displays <code>Old Text</code>. The console shows <code>New Text</code>.",
+        "explanation": "<code>console.log()</code> only prints to the browser's Developer Console, not to the web page. To change the paragraph text, you would need <code>document.getElementById(\"demo\").textContent = \"New Text\"</code>."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let a = \"5\";\nlet b = \"10\";\nconsole.log(a + b);\nconsole.log(Number(a) + Number(b));</code></pre>",
+        "hint": "String + string concatenates. Number() converts strings to numbers.",
+        "answer": "<code>510</code><br><code>15</code>",
+        "explanation": "Both <code>a</code> and <code>b</code> are strings. <code>\"5\" + \"10\"</code> concatenates to <code>\"510\"</code>. <code>Number(\"5\") + Number(\"10\")</code> converts them to numbers first: <code>5 + 10 = 15</code>."
+      },
+      {
+        "id": "mx-5",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write an HTML page with an external JavaScript file. The HTML should have a paragraph with id 'output'. The external JS file should set the text to 'Loaded from external file!'.",
+        "hint": "Create two files: an HTML file with a script src tag, and a .js file.",
+        "answer": "<pre><code>&lt;!-- index.html --&gt;\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;body&gt;\n  &lt;p id=\"output\"&gt;&lt;/p&gt;\n  &lt;script src=\"script.js\"&gt;&lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n\n// script.js\ndocument.getElementById(\"output\").textContent = \"Loaded from external file!\";</code></pre>",
+        "explanation": "The HTML file links to <code>script.js</code> using the <code>src</code> attribute. The JavaScript file finds the paragraph and sets its text. The script tag is placed before <code>&lt;/body&gt;</code> so the paragraph exists when the script runs."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>console.log(parseInt(\"42px\"));\nconsole.log(parseInt(\"abc\"));\nconsole.log(Number(\"42px\"));\nconsole.log(Number(\"abc\"));</code></pre>",
+        "hint": "parseInt reads digits until it hits a non-digit. Number requires the entire string to be numeric.",
+        "answer": "<code>42</code><br><code>NaN</code><br><code>NaN</code><br><code>NaN</code>",
+        "explanation": "<code>parseInt(\"42px\")</code> reads digits from the start and stops at 'p', returning <code>42</code>. <code>parseInt(\"abc\")</code> finds no digits at the start, returning <code>NaN</code>. <code>Number(\"42px\")</code> requires the ENTIRE string to be a valid number — since 'px' is not numeric, it returns <code>NaN</code>. <code>Number(\"abc\")</code> is also <code>NaN</code>."
+      },
+      {
+        "id": "mx-7",
+        "type": "find-the-bug",
+        "difficulty": "Medium",
+        "question": "Ananya wrote this HTML file but the browser shows the JavaScript code as text on the page instead of running it. Find the bug:<br><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;body&gt;\n  &lt;p&gt;\n    console.log(\"Hello World\");\n  &lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre>",
+        "hint": "JavaScript code needs a special tag to execute.",
+        "answer": "The code is inside a <code>&lt;p&gt;</code> tag, not a <code>&lt;script&gt;</code> tag. It should be:<br><pre><code>&lt;script&gt;\n  console.log(\"Hello World\");\n&lt;/script&gt;</code></pre>",
+        "explanation": "HTML displays the content of <code>&lt;p&gt;</code> tags as text on the page. JavaScript code must be inside <code>&lt;script&gt;</code> tags for the browser to execute it. Without the script tag, the browser treats JavaScript code as regular text."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>let x = prompt(\"Enter value:\");\n\nif (x === null) {\n  console.log(\"Cancelled\");\n} else if (x === \"\") {\n  console.log(\"Empty\");\n} else {\n  console.log(\"Value: \" + x);\n}</code></pre><p>The user clicks OK without typing anything.</p>",
+        "hint": "When the user clicks OK without typing, prompt returns an empty string, not null.",
+        "answer": "<code>Empty</code>",
+        "explanation": "When the user clicks OK with an empty field, <code>prompt()</code> returns <code>\"\"</code> (empty string). This is different from clicking Cancel, which returns <code>null</code>. The code checks for <code>null</code> first (not the case), then checks for empty string (matches), so it logs <code>\"Empty\"</code>."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(\"A\");\n\nsetTimeout(function() {\n  console.log(\"B\");\n}, 1000);\n\nsetTimeout(function() {\n  console.log(\"C\");\n}, 0);\n\nconsole.log(\"D\");</code></pre>",
+        "hint": "All synchronous code runs first. Then setTimeout callbacks run based on their delay.",
+        "answer": "<code>A</code><br><code>D</code><br><code>C</code><br><code>B</code>",
+        "explanation": "Synchronous code runs first: <code>A</code> then <code>D</code>. Then the event loop processes the queued callbacks. The 0ms timeout callback (C) runs first, then the 1000ms timeout callback (B) runs after 1 second. Even with 0ms delay, setTimeout always defers to after the current code completes."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write an HTML page that uses console.table to display an array of 3 student objects. Each student should have name, age, and grade properties.",
+        "hint": "Create an array of objects and pass it to console.table().",
+        "answer": "<pre><code>&lt;script&gt;\n  let students = [\n    { name: \"Aarav\", age: 14, grade: \"9th\" },\n    { name: \"Priya\", age: 15, grade: \"10th\" },\n    { name: \"Vikram\", age: 16, grade: \"11th\" }\n  ];\n  console.table(students);\n&lt;/script&gt;</code></pre>",
+        "explanation": "<code>console.table()</code> takes an array of objects and displays them in a table format in the console, with columns for each property. This is much easier to read than <code>console.log()</code> for structured data."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(typeof console.log);\nconsole.log(typeof alert);</code></pre>",
+        "hint": "console.log and alert are both built-in functions.",
+        "answer": "<code>function</code><br><code>function</code>",
+        "explanation": "Both <code>console.log</code> and <code>alert</code> are functions provided by the browser. <code>typeof</code> returns <code>\"function\"</code> for both."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write an HTML page with a text input and a button. When clicked, use prompt-like behavior without actually using prompt: read the input value, and if it is empty, show a red error message 'Name cannot be empty!'. If it has a value, show a green success message 'Welcome, [name]!'.",
+        "hint": "Check if the input value is an empty string. Use style.color to change text color.",
+        "answer": "<pre><code>&lt;input type=\"text\" id=\"nameInput\" placeholder=\"Enter name\"&gt;\n&lt;button onclick=\"validate()\"&gt;Submit&lt;/button&gt;\n&lt;p id=\"msg\"&gt;&lt;/p&gt;\n&lt;script&gt;\n  function validate() {\n    let name = document.getElementById(\"nameInput\").value;\n    let msg = document.getElementById(\"msg\");\n    if (name === \"\") {\n      msg.textContent = \"Name cannot be empty!\";\n      msg.style.color = \"red\";\n    } else {\n      msg.textContent = \"Welcome, \" + name + \"!\";\n      msg.style.color = \"green\";\n    }\n  }\n&lt;/script&gt;</code></pre>",
+        "explanation": "Read the input value, check if it is empty using <code>=== \"\"</code>, and display the appropriate message with the correct color. This is a common pattern in form validation."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which tag is used to add JavaScript to an HTML page?",
+        "options": {
+          "A": "<javascript>",
+          "B": "<js>",
+          "C": "<script>",
+          "D": "<code>"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>&lt;script&gt;</code> tag is the standard way to include JavaScript in HTML. The other tags (<code>&lt;javascript&gt;</code>, <code>&lt;js&gt;</code>) do not exist. <code>&lt;code&gt;</code> is for displaying code as text."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What keyboard shortcut opens the browser DevTools in Chrome?",
+        "options": {
+          "A": "Ctrl + D",
+          "B": "F12",
+          "C": "Ctrl + F",
+          "D": "Alt + Tab"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>F12</code> opens DevTools in Chrome, Edge, and Firefox. <code>Ctrl + Shift + J</code> also works in Chrome to open the Console directly. <code>Ctrl + D</code> bookmarks the page, and <code>Ctrl + F</code> opens Find."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does console.log('Hello') do?",
+        "options": {
+          "A": "Displays 'Hello' on the web page",
+          "B": "Shows an alert popup saying 'Hello'",
+          "C": "Prints 'Hello' to the browser's developer console",
+          "D": "Saves 'Hello' to a file"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>console.log()</code> outputs to the Developer Console only (F12), not to the web page (A), not as a popup (B), and not to a file (D)."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does prompt() return when the user clicks Cancel?",
+        "options": {
+          "A": "undefined",
+          "B": "false",
+          "C": "An empty string",
+          "D": "null"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> Clicking Cancel on <code>prompt()</code> returns <code>null</code>. Clicking OK with nothing typed returns an empty string <code>\"\"</code>. This distinction is important for handling user input."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What happens to inline code when a script tag has a src attribute?",
+        "options": {
+          "A": "Both the external file and inline code run",
+          "B": "The inline code runs first, then the external file",
+          "C": "The inline code is ignored",
+          "D": "An error occurs"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> When a <code>&lt;script&gt;</code> tag has a <code>src</code> attribute, any code between the opening and closing tags is completely ignored. To run both, you need two separate script tags."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does the defer attribute do on a script tag?",
+        "options": {
+          "A": "Prevents the script from running",
+          "B": "Runs the script immediately, before the page loads",
+          "C": "Downloads the script in the background and runs it after the page is fully loaded",
+          "D": "Makes the script run twice"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>defer</code> attribute tells the browser to download the script file while continuing to build the page, then execute the script only after the entire HTML has been parsed. This prevents the script from blocking page rendering."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Which console method displays data in a table format?",
+        "options": {
+          "A": "console.log()",
+          "B": "console.table()",
+          "C": "console.grid()",
+          "D": "console.display()"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>console.table()</code> displays arrays and objects in a formatted table in the console. <code>console.grid()</code> and <code>console.display()</code> do not exist."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What happens when document.write() is called after the page has finished loading?",
+        "options": {
+          "A": "It appends text to the end of the page",
+          "B": "It does nothing",
+          "C": "It erases the entire page and replaces it with the new content",
+          "D": "It shows an error"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> When called after the page has loaded (e.g., from a button click), <code>document.write()</code> overwrites the entire page. This destructive behavior is why it should be avoided in modern JavaScript."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the correct way to link an external JavaScript file?",
+        "options": {
+          "A": "<script href='app.js'></script>",
+          "B": "<script src='app.js'></script>",
+          "C": "<script file='app.js'></script>",
+          "D": "<link rel='script' href='app.js'>"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>src</code> attribute on the <code>&lt;script&gt;</code> tag specifies the external JavaScript file. <code>href</code> is used for links and stylesheets, not scripts. There is no <code>file</code> attribute for script tags."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is the output of: console.log(parseInt('42abc'))?",
+        "options": {
+          "A": "NaN",
+          "B": "42abc",
+          "C": "42",
+          "D": "Error"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>parseInt()</code> reads digits from the beginning of the string and stops when it hits a non-digit character. It successfully parses <code>42</code> from <code>'42abc'</code>. If the string started with non-digits (like <code>'abc42'</code>), the result would be <code>NaN</code>."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What does confirm() return?",
+        "options": {
+          "A": "The text the user typed",
+          "B": "'OK' or 'Cancel' as strings",
+          "C": "true or false",
+          "D": "1 or 0"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>confirm()</code> returns <code>true</code> when the user clicks OK and <code>false</code> when they click Cancel. It does not return strings or numbers."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the output of: console.log(1); setTimeout(() => console.log(2), 0); console.log(3);",
+        "options": {
+          "A": "1, 2, 3",
+          "B": "1, 3, 2",
+          "C": "2, 1, 3",
+          "D": "3, 2, 1"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Synchronous code runs first: <code>1</code> then <code>3</code>. The <code>setTimeout</code> callback is placed in the event queue and only runs after all synchronous code completes, even with a 0ms delay. So <code>2</code> prints last."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Why is the <script> tag not self-closing in HTML?",
+        "options": {
+          "A": "It is a void element",
+          "B": "HTML spec requires a closing </script> tag because the tag can contain content",
+          "C": "Self-closing tags are not allowed in HTML",
+          "D": "It depends on the browser"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>&lt;script&gt;</code> tag can contain JavaScript code between its opening and closing tags, so HTML requires the explicit closing <code>&lt;/script&gt;</code>. Self-closing tags like <code>&lt;img /&gt;</code> are only for void elements that cannot have children."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the difference between defer and async on a script tag?",
+        "options": {
+          "A": "defer runs the script immediately; async waits for page load",
+          "B": "defer waits for page load then runs; async runs as soon as it finishes downloading",
+          "C": "They are the same thing",
+          "D": "async only works with inline scripts"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>defer</code> downloads the script in the background and waits until the entire HTML is parsed before executing. <code>async</code> also downloads in the background but executes immediately when the download completes, even if the page is not fully loaded. Use <code>defer</code> for scripts that need the DOM."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What is the output of: console.log(typeof console)?",
+        "options": {
+          "A": "function",
+          "B": "console",
+          "C": "object",
+          "D": "undefined"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>console</code> is an object that contains methods like <code>log()</code>, <code>warn()</code>, <code>error()</code>, etc. <code>typeof console</code> returns <code>\"object\"</code>. Individual methods like <code>console.log</code> are functions, but the <code>console</code> itself is an object."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What type does prompt() always return when the user clicks OK?",
+        "options": {
+          "A": "number",
+          "B": "string",
+          "C": "boolean",
+          "D": "Depends on what the user types"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>prompt()</code> always returns a <strong>string</strong> when the user clicks OK, regardless of what they type. Even if the user types <code>42</code>, the return value is <code>\"42\"</code>. Use <code>Number()</code> to convert it."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "Which of the following is true about multiple script tags on a page?",
+        "options": {
+          "A": "Each script has its own separate scope",
+          "B": "Variables from one script cannot be accessed in another",
+          "C": "All scripts share the same global scope",
+          "D": "Only the last script tag executes"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> All script tags on a page share the same global scope. A variable declared with <code>var</code> or without any keyword in one script is accessible from any other script. <code>let</code> and <code>const</code> at the top level are also global but not added to the <code>window</code> object."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "Which console method shows a message with a yellow warning icon?",
+        "options": {
+          "A": "console.log()",
+          "B": "console.warn()",
+          "C": "console.error()",
+          "D": "console.info()"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>console.warn()</code> displays messages with a yellow background and a warning triangle icon. <code>console.error()</code> shows red, <code>console.log()</code> shows default styling, and <code>console.info()</code> shows with an info icon."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Multi-Method Console Explorer",
+        "difficulty": "Easy",
+        "description": "Write a script that demonstrates all five console methods: log, warn, error, table, and time/timeEnd. Log your name, warn about something, show an error, display a table of 3 fruits with their colors, and time a loop that counts to 10000.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Console shows: name, warning, error, fruit table, and timing result.",
+        "constraints": "Use all five console methods in one script.",
+        "solution": "<script>\n  console.log(\"Name: Rohan\");\n  console.warn(\"Low battery warning!\");\n  console.error(\"404: Page not found\");\n  console.table([\n    { fruit: \"Mango\", color: \"Yellow\" },\n    { fruit: \"Apple\", color: \"Red\" },\n    { fruit: \"Banana\", color: \"Yellow\" }\n  ]);\n  console.time(\"counting\");\n  for (let i = 0; i < 10000; i++) {}\n  console.timeEnd(\"counting\");\n</script>"
+      },
+      {
+        "id": "cc-2",
+        "title": "Input Adder Without prompt",
+        "difficulty": "Easy",
+        "description": "Create an HTML page with two number inputs and a button. When the button is clicked, read both values, add them, and display the sum in a paragraph. Do NOT use prompt or alert.",
+        "sampleInput": "User enters 25 and 17",
+        "sampleOutput": "The sum of 25 and 17 is 42",
+        "constraints": "Use document.getElementById and Number() for conversion.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <input type=\"number\" id=\"a\" placeholder=\"First number\">\n  <input type=\"number\" id=\"b\" placeholder=\"Second number\">\n  <button onclick=\"add()\">Add</button>\n  <p id=\"result\"></p>\n  <script>\n    function add() {\n      let a = Number(document.getElementById(\"a\").value);\n      let b = Number(document.getElementById(\"b\").value);\n      document.getElementById(\"result\").textContent = \"The sum of \" + a + \" and \" + b + \" is \" + (a + b);\n    }\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-3",
+        "title": "Script Loading Order Experiment",
+        "difficulty": "Medium",
+        "description": "Create an HTML page with three script tags at different positions (one in head, one in mid-body, one before closing body). Each logs which script it is and whether a specific paragraph element exists (using getElementById). Predict the output before running it.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Script 1: element is null\nScript 2: element is null\nScript 3: element exists",
+        "constraints": "Place the paragraph between Script 2 and Script 3.",
+        "solution": "<!DOCTYPE html>\n<html>\n<head>\n  <script>\n    console.log(\"Script 1: element is\", document.getElementById(\"target\"));\n  </script>\n</head>\n<body>\n  <script>\n    console.log(\"Script 2: element is\", document.getElementById(\"target\"));\n  </script>\n  <p id=\"target\">Target paragraph</p>\n  <script>\n    console.log(\"Script 3: element is\", document.getElementById(\"target\"));\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-4",
+        "title": "Build a Prompt Replacement",
+        "difficulty": "Medium",
+        "description": "Create an HTML page that works like prompt() but better: show a styled text input with a label, a Submit button, and a Cancel button. When Submit is clicked, show the entered value in green. When Cancel is clicked, show 'Cancelled' in red. Style it to look like a dialog box.",
+        "sampleInput": "User types 'Neha' and clicks Submit",
+        "sampleOutput": "You entered: Neha (shown in green)",
+        "constraints": "Do not use prompt(), alert(), or confirm(). Use pure HTML, CSS, and JS.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <div style=\"border:2px solid #333; padding:20px; width:300px; margin:50px auto; border-radius:8px; font-family:Arial;\">\n    <p><strong>Enter your name:</strong></p>\n    <input type=\"text\" id=\"input\" style=\"width:90%; padding:8px; font-size:16px;\">\n    <br><br>\n    <button onclick=\"submit()\">Submit</button>\n    <button onclick=\"cancel()\">Cancel</button>\n    <p id=\"result\"></p>\n  </div>\n  <script>\n    function submit() {\n      let val = document.getElementById(\"input\").value;\n      let r = document.getElementById(\"result\");\n      r.textContent = \"You entered: \" + val;\n      r.style.color = \"green\";\n    }\n    function cancel() {\n      let r = document.getElementById(\"result\");\n      r.textContent = \"Cancelled\";\n      r.style.color = \"red\";\n    }\n  </script>\n</body>\n</html>"
+      },
+      {
+        "id": "cc-5",
+        "title": "Console-Based Student Report Card",
+        "difficulty": "Hard",
+        "description": "Use console.table to display a student report card. Create an array of 5 subjects with name, marks (out of 100), and grade (A/B/C/D/F based on marks). Calculate the grade programmatically based on marks (90+: A, 80+: B, 70+: C, 60+: D, below: F). Also log the total and percentage.",
+        "sampleInput": "(No input required - use hardcoded marks)",
+        "sampleOutput": "A table showing 5 subjects with their marks and grades, plus total and percentage in console.log.",
+        "constraints": "Calculate grades using conditional logic. Use console.table for the report and console.log for totals.",
+        "solution": "<script>\n  function getGrade(marks) {\n    if (marks >= 90) return \"A\";\n    if (marks >= 80) return \"B\";\n    if (marks >= 70) return \"C\";\n    if (marks >= 60) return \"D\";\n    return \"F\";\n  }\n  let subjects = [\n    { subject: \"Maths\", marks: 92 },\n    { subject: \"Science\", marks: 85 },\n    { subject: \"English\", marks: 78 },\n    { subject: \"Hindi\", marks: 88 },\n    { subject: \"Computer\", marks: 95 }\n  ];\n  subjects.forEach(function(s) { s.grade = getGrade(s.marks); });\n  console.table(subjects);\n  let total = subjects.reduce(function(sum, s) { return sum + s.marks; }, 0);\n  console.log(\"Total: \" + total + \"/500\");\n  console.log(\"Percentage: \" + (total / 5) + \"%\");\n</script>"
+      },
+      {
+        "id": "cc-6",
+        "title": "Live Character Counter with Color Feedback",
+        "difficulty": "Hard",
+        "description": "Build a textarea with a maximum limit of 100 characters. Show a live character count below it. The count text should be green when under 50, yellow when 50-80, and red when above 80. Disable the submit button when the limit is reached.",
+        "sampleInput": "User types in the textarea",
+        "sampleOutput": "Characters: 45/100 (green)\nCharacters: 67/100 (yellow)\nCharacters: 92/100 (red)",
+        "constraints": "Use the oninput event. Use style.color for feedback colors.",
+        "solution": "<!DOCTYPE html>\n<html>\n<body>\n  <textarea id=\"text\" oninput=\"update()\" maxlength=\"100\" rows=\"5\" cols=\"40\" placeholder=\"Type here...\"></textarea>\n  <p id=\"count\">Characters: 0/100</p>\n  <button id=\"btn\">Submit</button>\n  <script>\n    function update() {\n      let len = document.getElementById(\"text\").value.length;\n      let counter = document.getElementById(\"count\");\n      counter.textContent = \"Characters: \" + len + \"/100\";\n      if (len < 50) counter.style.color = \"green\";\n      else if (len <= 80) counter.style.color = \"orange\";\n      else counter.style.color = \"red\";\n      document.getElementById(\"btn\").disabled = (len >= 100);\n    }\n  </script>\n</body>\n</html>"
+      }
+    ]
+  }
+}

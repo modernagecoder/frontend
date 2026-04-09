@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: Build an Interactive Portfolio Website - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Build a complete portfolio site with smooth scroll, dark mode, animated sections, contact form, and responsive design.">
+    <meta name="keywords" content="project: build an interactive portfolio website, javascript tutorial, javascript project: build an interactive portfolio website, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/project-interactive-portfolio">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/project-interactive-portfolio">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/project-interactive-portfolio">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/project-interactive-portfolio">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/project-interactive-portfolio">
+    <meta property="og:title" content="Project: Build an Interactive Portfolio Website - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Build a complete portfolio site with smooth scroll, dark mode, animated sections, contact form, and responsive design.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/project-interactive-portfolio">
+    <meta name="twitter:title" content="Project: Build an Interactive Portfolio Website - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Build a complete portfolio site with smooth scroll, dark mode, animated sections, contact form, and responsive design.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Project: Build an Interactive Portfolio Website",
+    "description": "Build a complete portfolio site with smooth scroll, dark mode, animated sections, contact form, and responsive design.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/project-interactive-portfolio"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/project-interactive-portfolio"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Project: Build an Interactive Portfolio Website",
+        "item": "https://learn.modernagecoders.com/resources/javascript/project-interactive-portfolio"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting e.preventDefault() on Form Submit",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By default, HTML forms refresh the page when submitted. <code>e.preventDefault()</code> stops this default behavior so JavaScript can handle the submission, validate fields, and show feedback without losing the page state."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Unobserving After Scroll Animation",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Call <code>unobserve</code> after adding the visible class so the animation only plays once. Without it, the observer keeps firing every time the element scrolls in and out of view."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Smooth Scroll Not Working Because of href",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Anchor links (<code>&lt;a href=\"#section\"&gt;</code>) have default browser behavior that instantly jumps to the target. You must call <code>e.preventDefault()</code> to stop this, then use <code>scrollIntoView({ behavior: 'smooth' })</code> for smooth scrolling."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hamburger Menu Not Closing After Link Click",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When a nav link is clicked, the menu should close automatically. Add a click listener to each nav link that removes the 'open' class from the menu. This is essential for a good mobile experience."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Project: Build an Interactive Portfolio Website</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 25</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">65 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Project: Build an Interactive Portfolio Website</h1>
+            <a href="/resources/javascript/project-interactive-portfolio/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are We Building?</h2><p>In this final chapter, you will build a complete, interactive portfolio website from scratch. This is the <strong>capstone project</strong> -- it combines everything you have learned across all 25 chapters into one impressive, real-world project.</p><p>The portfolio will include:</p><ul><li>Navigation bar with smooth scroll to sections</li><li>Hero section with a typing effect</li><li>About section with your bio</li><li>Skills section with progress bars</li><li>Projects grid with category filters (All / Web / JavaScript / Design)</li><li>Contact form with validation and submission feedback</li><li>Footer with social links</li><li>Dark/light mode toggle that saves to localStorage</li><li>Scroll animations using Intersection Observer</li><li>Mobile-responsive hamburger menu</li><li>Scroll-to-top button</li><li>Active nav link highlighting on scroll</li></ul><p>By the end, you will have a portfolio you can customize with your own content, deploy on the web, and show to anyone.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Build a Portfolio Website?</h2><h3>1. It Showcases Everything You Have Learned</h3><p>This project uses DOM manipulation, event listeners, CSS manipulation, localStorage, closures, array methods, Intersection Observer, form validation, responsive design, and more. If you can build this, you have proven mastery of frontend web development fundamentals.</p><h3>2. It Is Your Professional Calling Card</h3><p>A portfolio website is the first thing employers and clients look at. Having a custom-built portfolio (not a template) immediately demonstrates your skills. When Aarav applies for an internship and shares a link to his handmade portfolio, it speaks louder than any resume.</p><h3>3. It Uses Modern Web Development Patterns</h3><p>The techniques used here -- Intersection Observer for scroll animations, CSS custom properties for theming, localStorage for persistence, responsive design with mobile-first CSS -- are the same techniques used by professional developers every day.</p><h3>4. It Is Fully Customizable</h3><p>After building the base, you can add your own projects, change the colors, add new sections, and make it truly yours. The skills and patterns you learn here will let you modify and extend any website.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Building the Portfolio Step by Step</h2><h3>Step 1: HTML Structure</h3><p>The HTML has seven main sections: nav, hero, about, skills, projects, contact, and footer.</p><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Aarav | Web Developer&lt;/title&gt;
+  &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;!-- Navigation --&gt;
+  &lt;nav class="navbar"&gt;
+    &lt;div class="nav-brand"&gt;Aarav.dev&lt;/div&gt;
+    &lt;button class="hamburger" id="hamburger"&gt;
+      &lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;ul class="nav-links" id="navLinks"&gt;
+      &lt;li&gt;&lt;a href="#hero" class="nav-link active"&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#about" class="nav-link"&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#skills" class="nav-link"&gt;Skills&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#projects" class="nav-link"&gt;Projects&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#contact" class="nav-link"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;button class="theme-toggle" id="themeToggle"&gt;Dark&lt;/button&gt;
+  &lt;/nav&gt;
+
+  &lt;!-- Hero Section --&gt;
+  &lt;section id="hero" class="hero"&gt;
+    &lt;div class="hero-content"&gt;
+      &lt;p class="hero-greeting"&gt;Hello, I am&lt;/p&gt;
+      &lt;h1 class="hero-name"&gt;Aarav Sharma&lt;/h1&gt;
+      &lt;p class="hero-title"&gt;I build &lt;span id="typingText"&gt;&lt;/span&gt;&lt;span class="cursor"&gt;|&lt;/span&gt;&lt;/p&gt;
+      &lt;div class="hero-buttons"&gt;
+        &lt;a href="#projects" class="btn btn-primary"&gt;View My Work&lt;/a&gt;
+        &lt;a href="#contact" class="btn btn-outline"&gt;Contact Me&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;!-- About Section --&gt;
+  &lt;section id="about" class="section"&gt;
+    &lt;h2 class="section-title"&gt;About Me&lt;/h2&gt;
+    &lt;div class="about-content animate-on-scroll"&gt;
+      &lt;p&gt;I am a 16-year-old web developer from Delhi who loves building interactive websites. I started learning HTML and CSS when I was 14, and now I build full projects with JavaScript.&lt;/p&gt;
+      &lt;p&gt;When I am not coding, I play chess, read sci-fi novels, and practice competitive maths.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;!-- Skills Section --&gt;
+  &lt;section id="skills" class="section"&gt;
+    &lt;h2 class="section-title"&gt;My Skills&lt;/h2&gt;
+    &lt;div class="skills-grid animate-on-scroll"&gt;
+      &lt;div class="skill-item"&gt;
+        &lt;div class="skill-header"&gt;
+          &lt;span&gt;HTML &amp; CSS&lt;/span&gt;&lt;span&gt;90%&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class="skill-bar"&gt;&lt;div class="skill-fill" data-width="90"&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="skill-item"&gt;
+        &lt;div class="skill-header"&gt;
+          &lt;span&gt;JavaScript&lt;/span&gt;&lt;span&gt;85%&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class="skill-bar"&gt;&lt;div class="skill-fill" data-width="85"&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="skill-item"&gt;
+        &lt;div class="skill-header"&gt;
+          &lt;span&gt;React&lt;/span&gt;&lt;span&gt;70%&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class="skill-bar"&gt;&lt;div class="skill-fill" data-width="70"&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="skill-item"&gt;
+        &lt;div class="skill-header"&gt;
+          &lt;span&gt;Python&lt;/span&gt;&lt;span&gt;65%&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class="skill-bar"&gt;&lt;div class="skill-fill" data-width="65"&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;!-- Projects Section --&gt;
+  &lt;section id="projects" class="section"&gt;
+    &lt;h2 class="section-title"&gt;My Projects&lt;/h2&gt;
+    &lt;div class="project-filters"&gt;
+      &lt;button class="filter-btn active" data-category="all"&gt;All&lt;/button&gt;
+      &lt;button class="filter-btn" data-category="web"&gt;Web&lt;/button&gt;
+      &lt;button class="filter-btn" data-category="javascript"&gt;JavaScript&lt;/button&gt;
+      &lt;button class="filter-btn" data-category="design"&gt;Design&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class="projects-grid" id="projectsGrid"&gt;&lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;!-- Contact Section --&gt;
+  &lt;section id="contact" class="section"&gt;
+    &lt;h2 class="section-title"&gt;Contact Me&lt;/h2&gt;
+    &lt;form id="contactForm" class="contact-form animate-on-scroll"&gt;
+      &lt;div class="form-group"&gt;
+        &lt;input type="text" id="nameInput" placeholder="Your Name" required&gt;
+        &lt;span class="error-msg" id="nameError"&gt;&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class="form-group"&gt;
+        &lt;input type="email" id="emailInput" placeholder="Your Email" required&gt;
+        &lt;span class="error-msg" id="emailError"&gt;&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class="form-group"&gt;
+        &lt;textarea id="messageInput" placeholder="Your Message" rows="5" required&gt;&lt;/textarea&gt;
+        &lt;span class="error-msg" id="messageError"&gt;&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;button type="submit" class="btn btn-primary"&gt;Send Message&lt;/button&gt;
+      &lt;p id="formFeedback" class="form-feedback"&gt;&lt;/p&gt;
+    &lt;/form&gt;
+  &lt;/section&gt;
+
+  &lt;!-- Footer --&gt;
+  &lt;footer class="footer"&gt;
+    &lt;p&gt;Built by Aarav Sharma | 2026&lt;/p&gt;
+  &lt;/footer&gt;
+
+  &lt;!-- Scroll to top button --&gt;
+  &lt;button id="scrollTopBtn" class="scroll-top-btn"&gt;Top&lt;/button&gt;
+
+  &lt;script src="portfolio.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><h3>Step 2: CSS Styling</h3><p>The CSS uses custom properties (CSS variables) for easy theming and a dark/light mode toggle:</p><pre><code>:root {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --accent: #a855f7;
+  --accent-hover: #9333ea;
+  --card-bg: #1e293b;
+  --border: #334155;
+}
+
+.light-mode {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --accent: #7c3aed;
+  --accent-hover: #6d28d9;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+}</code></pre><p>The full CSS covers the navigation, hero with gradient text, glassmorphism project cards, responsive grid, skill bars, form styling, transitions, and scroll animations.</p><h3>Step 3: JavaScript Features</h3><p>The JavaScript implements eight interactive features:</p><h4>1. Smooth Scroll Navigation</h4><pre><code>document.querySelectorAll('.nav-link').forEach(function(link) {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    const targetId = this.getAttribute('href');
+    const target = document.querySelector(targetId);
+    target.scrollIntoView({ behavior: 'smooth' });
+    // Close mobile menu if open
+    document.getElementById('navLinks').classList.remove('open');
+  });
+});</code></pre><h4>2. Typing Effect</h4><pre><code>function typeWriter(element, words, speed) {
+  let wordIndex = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+
+  function type() {
+    const currentWord = words[wordIndex];
+    if (isDeleting) {
+      element.textContent = currentWord.substring(0, charIndex - 1);
+      charIndex--;
+    } else {
+      element.textContent = currentWord.substring(0, charIndex + 1);
+      charIndex++;
+    }
+
+    let delay = isDeleting ? speed / 2 : speed;
+
+    if (!isDeleting && charIndex === currentWord.length) {
+      delay = 2000; // Pause at end of word
+      isDeleting = true;
+    } else if (isDeleting && charIndex === 0) {
+      isDeleting = false;
+      wordIndex = (wordIndex + 1) % words.length;
+      delay = 500; // Pause before next word
+    }
+
+    setTimeout(type, delay);
+  }
+
+  type();
+}
+
+typeWriter(
+  document.getElementById('typingText'),
+  ['interactive websites', 'web applications', 'creative projects'],
+  80
+);</code></pre><h4>3. Dark/Light Mode Toggle</h4><pre><code>const themeToggle = document.getElementById('themeToggle');
+const savedTheme = localStorage.getItem('portfolioTheme');
+
+if (savedTheme === 'light') {
+  document.body.classList.add('light-mode');
+  themeToggle.textContent = 'Dark';
+}
+
+themeToggle.addEventListener('click', function() {
+  document.body.classList.toggle('light-mode');
+  const isLight = document.body.classList.contains('light-mode');
+  themeToggle.textContent = isLight ? 'Dark' : 'Light';
+  localStorage.setItem('portfolioTheme', isLight ? 'light' : 'dark');
+});</code></pre><h4>4. Scroll Animations with Intersection Observer</h4><pre><code>const observer = new IntersectionObserver(function(entries) {
+  entries.forEach(function(entry) {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.animate-on-scroll').forEach(function(el) {
+  observer.observe(el);
+});</code></pre><h4>5. Project Filter</h4><pre><code>const projects = [
+  { title: 'Quiz App', category: 'javascript', description: 'Interactive quiz with scoring', tech: ['HTML', 'CSS', 'JS'] },
+  { title: 'Portfolio Site', category: 'web', description: 'Personal portfolio website', tech: ['HTML', 'CSS', 'JS'] },
+  { title: 'To-Do App', category: 'javascript', description: 'Task manager with localStorage', tech: ['HTML', 'CSS', 'JS'] },
+  { title: 'Landing Page', category: 'design', description: 'Modern landing page design', tech: ['HTML', 'CSS'] },
+  { title: 'Weather App', category: 'web', description: 'Weather data from API', tech: ['HTML', 'CSS', 'JS', 'API'] },
+  { title: 'Calculator', category: 'javascript', description: 'Scientific calculator', tech: ['HTML', 'CSS', 'JS'] }
+];
+
+function renderProjects(filter) {
+  const grid = document.getElementById('projectsGrid');
+  grid.innerHTML = '';
+  const filtered = filter === 'all' ? projects : projects.filter(function(p) { return p.category === filter; });
+  filtered.forEach(function(project) {
+    const card = document.createElement('div');
+    card.classList.add('project-card');
+    card.innerHTML = '&lt;h3&gt;' + project.title + '&lt;/h3&gt;' +
+      '&lt;p&gt;' + project.description + '&lt;/p&gt;' +
+      '&lt;div class="tech-tags"&gt;' + project.tech.map(function(t) {
+        return '&lt;span class="tag"&gt;' + t + '&lt;/span&gt;';
+      }).join('') + '&lt;/div&gt;';
+    grid.appendChild(card);
+  });
+}</code></pre><h4>6. Contact Form Validation</h4><pre><code>document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  let valid = true;
+  const name = document.getElementById('nameInput').value.trim();
+  const email = document.getElementById('emailInput').value.trim();
+  const message = document.getElementById('messageInput').value.trim();
+
+  if (name.length < 2) {
+    document.getElementById('nameError').textContent = 'Name must be at least 2 characters';
+    valid = false;
+  } else {
+    document.getElementById('nameError').textContent = '';
+  }
+
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email)) {
+    document.getElementById('emailError').textContent = 'Please enter a valid email';
+    valid = false;
+  } else {
+    document.getElementById('emailError').textContent = '';
+  }
+
+  if (message.length < 10) {
+    document.getElementById('messageError').textContent = 'Message must be at least 10 characters';
+    valid = false;
+  } else {
+    document.getElementById('messageError').textContent = '';
+  }
+
+  if (valid) {
+    document.getElementById('formFeedback').textContent = 'Message sent successfully!';
+    document.getElementById('formFeedback').style.color = '#10b981';
+    this.reset();
+  }
+});</code></pre><h4>7. Mobile Hamburger Menu</h4><pre><code>document.getElementById('hamburger').addEventListener('click', function() {
+  document.getElementById('navLinks').classList.toggle('open');
+  this.classList.toggle('active');
+});</code></pre><h4>8. Scroll-to-Top Button and Active Nav</h4><pre><code>const scrollTopBtn = document.getElementById('scrollTopBtn');
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 500) {
+    scrollTopBtn.classList.add('visible');
+  } else {
+    scrollTopBtn.classList.remove('visible');
+  }
+
+  // Active nav link on scroll
+  const sections = document.querySelectorAll('section');
+  sections.forEach(function(section) {
+    const top = section.offsetTop - 100;
+    const bottom = top + section.offsetHeight;
+    const link = document.querySelector('.nav-link[href="#' + section.id + '"]');
+    if (window.scrollY >= top && window.scrollY < bottom) {
+      document.querySelectorAll('.nav-link').forEach(function(l) { l.classList.remove('active'); });
+      if (link) link.classList.add('active');
+    }
+  });
+});
+
+scrollTopBtn.addEventListener('click', function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Complete Portfolio -- HTML + CSS + JavaScript</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Aarav | Web Developer&lt;/title&gt;
+  &lt;style&gt;
+    :root {
+      --bg-primary: #0f172a; --bg-secondary: #1e293b;
+      --text-primary: #e2e8f0; --text-secondary: #94a3b8;
+      --accent: #a855f7; --accent-hover: #9333ea;
+      --card-bg: #1e293b; --border: #334155;
+    }
+    .light-mode {
+      --bg-primary: #f8fafc; --bg-secondary: #ffffff;
+      --text-primary: #1e293b; --text-secondary: #64748b;
+      --accent: #7c3aed; --accent-hover: #6d28d9;
+      --card-bg: #ffffff; --border: #e2e8f0;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: &#39;Segoe UI&#39;, sans-serif; background: var(--bg-primary); color: var(--text-primary); transition: background 0.3s, color 0.3s; }
+    
+    /* Navigation */
+    .navbar { position: fixed; top: 0; width: 100%; background: var(--bg-secondary); padding: 16px 32px; display: flex; align-items: center; justify-content: space-between; z-index: 100; border-bottom: 1px solid var(--border); }
+    .nav-brand { font-size: 24px; font-weight: 700; color: var(--accent); }
+    .nav-links { list-style: none; display: flex; gap: 24px; }
+    .nav-link { color: var(--text-secondary); text-decoration: none; font-size: 15px; transition: color 0.2s; }
+    .nav-link:hover, .nav-link.active { color: var(--accent); }
+    .hamburger { display: none; background: none; border: none; cursor: pointer; flex-direction: column; gap: 5px; }
+    .hamburger span { display: block; width: 25px; height: 3px; background: var(--text-primary); transition: 0.3s; }
+    .theme-toggle { padding: 8px 16px; background: var(--accent); color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; }
+    
+    /* Hero */
+    .hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 120px 32px 80px; }
+    .hero-greeting { font-size: 18px; color: var(--accent); margin-bottom: 8px; }
+    .hero-name { font-size: 56px; font-weight: 800; margin-bottom: 16px; background: linear-gradient(135deg, var(--accent), #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .hero-title { font-size: 24px; color: var(--text-secondary); margin-bottom: 32px; }
+    .cursor { animation: blink 1s infinite; }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+    .hero-buttons { display: flex; gap: 16px; justify-content: center; }
+    .btn { padding: 14px 32px; border-radius: 10px; font-size: 16px; font-weight: 600; text-decoration: none; transition: 0.2s; cursor: pointer; }
+    .btn-primary { background: var(--accent); color: white; border: none; }
+    .btn-primary:hover { background: var(--accent-hover); }
+    .btn-outline { border: 2px solid var(--accent); color: var(--accent); background: none; }
+    .btn-outline:hover { background: var(--accent); color: white; }
+    
+    /* Sections */
+    .section { padding: 80px 32px; max-width: 900px; margin: 0 auto; }
+    .section-title { font-size: 36px; text-align: center; margin-bottom: 40px; color: var(--accent); }
+    .about-content p { font-size: 17px; line-height: 1.8; color: var(--text-secondary); margin-bottom: 16px; }
+    
+    /* Skills */
+    .skills-grid { display: grid; gap: 20px; }
+    .skill-header { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 15px; }
+    .skill-bar { height: 10px; background: var(--border); border-radius: 5px; overflow: hidden; }
+    .skill-fill { height: 100%; background: linear-gradient(90deg, var(--accent), #06b6d4); border-radius: 5px; width: 0; transition: width 1s ease; }
+    
+    /* Projects */
+    .project-filters { display: flex; justify-content: center; gap: 8px; margin-bottom: 32px; flex-wrap: wrap; }
+    .filter-btn { padding: 8px 20px; background: none; border: 1px solid var(--border); border-radius: 8px; color: var(--text-secondary); cursor: pointer; font-size: 14px; }
+    .filter-btn:hover, .filter-btn.active { border-color: var(--accent); color: var(--accent); }
+    .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+    .project-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; padding: 24px; transition: transform 0.2s, box-shadow 0.2s; }
+    .project-card:hover { transform: translateY(-4px); box-shadow: 0 10px 30px rgba(168, 85, 247, 0.1); }
+    .project-card h3 { margin-bottom: 8px; font-size: 20px; }
+    .project-card p { color: var(--text-secondary); font-size: 15px; margin-bottom: 12px; }
+    .tech-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+    .tag { padding: 4px 10px; background: var(--bg-primary); border-radius: 4px; font-size: 12px; color: var(--accent); }
+    
+    /* Contact */
+    .contact-form { max-width: 500px; margin: 0 auto; }
+    .form-group { margin-bottom: 16px; }
+    .form-group input, .form-group textarea { width: 100%; padding: 14px; font-size: 16px; border: 2px solid var(--border); border-radius: 10px; background: var(--bg-primary); color: var(--text-primary); outline: none; }
+    .form-group input:focus, .form-group textarea:focus { border-color: var(--accent); }
+    .error-msg { color: #ef4444; font-size: 13px; margin-top: 4px; display: block; }
+    .form-feedback { text-align: center; margin-top: 16px; font-weight: 600; }
+    
+    /* Footer */
+    .footer { text-align: center; padding: 32px; color: var(--text-secondary); border-top: 1px solid var(--border); }
+    
+    /* Scroll to top */
+    .scroll-top-btn { position: fixed; bottom: 30px; right: 30px; padding: 12px 16px; background: var(--accent); color: white; border: none; border-radius: 10px; cursor: pointer; font-size: 14px; opacity: 0; transition: opacity 0.3s; pointer-events: none; }
+    .scroll-top-btn.visible { opacity: 1; pointer-events: auto; }
+    
+    /* Animations */
+    .animate-on-scroll { opacity: 0; transform: translateY(30px); transition: opacity 0.6s, transform 0.6s; }
+    .animate-on-scroll.visible { opacity: 1; transform: translateY(0); }
+    
+    /* Mobile */
+    @media (max-width: 768px) {
+      .hamburger { display: flex; }
+      .nav-links { position: fixed; top: 60px; left: 0; right: 0; background: var(--bg-secondary); flex-direction: column; padding: 20px; gap: 16px; transform: translateY(-100%); transition: transform 0.3s; }
+      .nav-links.open { transform: translateY(0); }
+      .hero-name { font-size: 36px; }
+      .hero-title { font-size: 18px; }
+      .hero-buttons { flex-direction: column; align-items: center; }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;nav class=&quot;navbar&quot;&gt;
+    &lt;div class=&quot;nav-brand&quot;&gt;Aarav.dev&lt;/div&gt;
+    &lt;button class=&quot;hamburger&quot; id=&quot;hamburger&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/button&gt;
+    &lt;ul class=&quot;nav-links&quot; id=&quot;navLinks&quot;&gt;
+      &lt;li&gt;&lt;a href=&quot;#hero&quot; class=&quot;nav-link active&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#about&quot; class=&quot;nav-link&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#skills&quot; class=&quot;nav-link&quot;&gt;Skills&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#projects&quot; class=&quot;nav-link&quot;&gt;Projects&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#contact&quot; class=&quot;nav-link&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;button class=&quot;theme-toggle&quot; id=&quot;themeToggle&quot;&gt;Light&lt;/button&gt;
+  &lt;/nav&gt;
+
+  &lt;section id=&quot;hero&quot; class=&quot;hero&quot;&gt;
+    &lt;div class=&quot;hero-content&quot;&gt;
+      &lt;p class=&quot;hero-greeting&quot;&gt;Hello, I am&lt;/p&gt;
+      &lt;h1 class=&quot;hero-name&quot;&gt;Aarav Sharma&lt;/h1&gt;
+      &lt;p class=&quot;hero-title&quot;&gt;I build &lt;span id=&quot;typingText&quot;&gt;&lt;/span&gt;&lt;span class=&quot;cursor&quot;&gt;|&lt;/span&gt;&lt;/p&gt;
+      &lt;div class=&quot;hero-buttons&quot;&gt;
+        &lt;a href=&quot;#projects&quot; class=&quot;btn btn-primary&quot;&gt;View My Work&lt;/a&gt;
+        &lt;a href=&quot;#contact&quot; class=&quot;btn btn-outline&quot;&gt;Contact Me&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section id=&quot;about&quot; class=&quot;section&quot;&gt;
+    &lt;h2 class=&quot;section-title&quot;&gt;About Me&lt;/h2&gt;
+    &lt;div class=&quot;about-content animate-on-scroll&quot;&gt;
+      &lt;p&gt;I am a 16-year-old web developer from Delhi who loves building interactive websites. I started with HTML and CSS, and now I build full projects with JavaScript.&lt;/p&gt;
+      &lt;p&gt;When I am not coding, I play chess, read sci-fi novels, and practice competitive maths.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section id=&quot;skills&quot; class=&quot;section&quot;&gt;
+    &lt;h2 class=&quot;section-title&quot;&gt;My Skills&lt;/h2&gt;
+    &lt;div class=&quot;skills-grid animate-on-scroll&quot;&gt;
+      &lt;div class=&quot;skill-item&quot;&gt;&lt;div class=&quot;skill-header&quot;&gt;&lt;span&gt;HTML and CSS&lt;/span&gt;&lt;span&gt;90%&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;skill-bar&quot;&gt;&lt;div class=&quot;skill-fill&quot; data-width=&quot;90&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div class=&quot;skill-item&quot;&gt;&lt;div class=&quot;skill-header&quot;&gt;&lt;span&gt;JavaScript&lt;/span&gt;&lt;span&gt;85%&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;skill-bar&quot;&gt;&lt;div class=&quot;skill-fill&quot; data-width=&quot;85&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div class=&quot;skill-item&quot;&gt;&lt;div class=&quot;skill-header&quot;&gt;&lt;span&gt;React&lt;/span&gt;&lt;span&gt;70%&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;skill-bar&quot;&gt;&lt;div class=&quot;skill-fill&quot; data-width=&quot;70&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+      &lt;div class=&quot;skill-item&quot;&gt;&lt;div class=&quot;skill-header&quot;&gt;&lt;span&gt;Python&lt;/span&gt;&lt;span&gt;65%&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;skill-bar&quot;&gt;&lt;div class=&quot;skill-fill&quot; data-width=&quot;65&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section id=&quot;projects&quot; class=&quot;section&quot;&gt;
+    &lt;h2 class=&quot;section-title&quot;&gt;My Projects&lt;/h2&gt;
+    &lt;div class=&quot;project-filters&quot;&gt;
+      &lt;button class=&quot;filter-btn active&quot; data-category=&quot;all&quot;&gt;All&lt;/button&gt;
+      &lt;button class=&quot;filter-btn&quot; data-category=&quot;web&quot;&gt;Web&lt;/button&gt;
+      &lt;button class=&quot;filter-btn&quot; data-category=&quot;javascript&quot;&gt;JavaScript&lt;/button&gt;
+      &lt;button class=&quot;filter-btn&quot; data-category=&quot;design&quot;&gt;Design&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;projects-grid&quot; id=&quot;projectsGrid&quot;&gt;&lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section id=&quot;contact&quot; class=&quot;section&quot;&gt;
+    &lt;h2 class=&quot;section-title&quot;&gt;Contact Me&lt;/h2&gt;
+    &lt;form id=&quot;contactForm&quot; class=&quot;contact-form animate-on-scroll&quot;&gt;
+      &lt;div class=&quot;form-group&quot;&gt;&lt;input type=&quot;text&quot; id=&quot;nameInput&quot; placeholder=&quot;Your Name&quot; required&gt;&lt;span class=&quot;error-msg&quot; id=&quot;nameError&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&quot;form-group&quot;&gt;&lt;input type=&quot;email&quot; id=&quot;emailInput&quot; placeholder=&quot;Your Email&quot; required&gt;&lt;span class=&quot;error-msg&quot; id=&quot;emailError&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+      &lt;div class=&quot;form-group&quot;&gt;&lt;textarea id=&quot;messageInput&quot; placeholder=&quot;Your Message&quot; rows=&quot;5&quot; required&gt;&lt;/textarea&gt;&lt;span class=&quot;error-msg&quot; id=&quot;messageError&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+      &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot; style=&quot;width:100%&quot;&gt;Send Message&lt;/button&gt;
+      &lt;p id=&quot;formFeedback&quot; class=&quot;form-feedback&quot;&gt;&lt;/p&gt;
+    &lt;/form&gt;
+  &lt;/section&gt;
+
+  &lt;footer class=&quot;footer&quot;&gt;&lt;p&gt;Built by Aarav Sharma | 2026&lt;/p&gt;&lt;/footer&gt;
+  &lt;button id=&quot;scrollTopBtn&quot; class=&quot;scroll-top-btn&quot;&gt;Top&lt;/button&gt;
+
+  &lt;script&gt;
+    // --- Projects Data ---
+    const projects = [
+      { title: &#39;Quiz App&#39;, category: &#39;javascript&#39;, desc: &#39;Interactive quiz with scoring and timer&#39;, tech: [&#39;HTML&#39;, &#39;CSS&#39;, &#39;JS&#39;] },
+      { title: &#39;Portfolio Site&#39;, category: &#39;web&#39;, desc: &#39;Personal portfolio with dark mode&#39;, tech: [&#39;HTML&#39;, &#39;CSS&#39;, &#39;JS&#39;] },
+      { title: &#39;To-Do App&#39;, category: &#39;javascript&#39;, desc: &#39;Task manager with localStorage&#39;, tech: [&#39;HTML&#39;, &#39;CSS&#39;, &#39;JS&#39;] },
+      { title: &#39;Landing Page&#39;, category: &#39;design&#39;, desc: &#39;Modern business landing page&#39;, tech: [&#39;HTML&#39;, &#39;CSS&#39;] },
+      { title: &#39;Weather App&#39;, category: &#39;web&#39;, desc: &#39;Live weather from API&#39;, tech: [&#39;HTML&#39;, &#39;CSS&#39;, &#39;JS&#39;, &#39;API&#39;] },
+      { title: &#39;Calculator&#39;, category: &#39;javascript&#39;, desc: &#39;Scientific calculator&#39;, tech: [&#39;HTML&#39;, &#39;CSS&#39;, &#39;JS&#39;] }
+    ];
+
+    // --- Render Projects ---
+    function renderProjects(filter) {
+      const grid = document.getElementById(&#39;projectsGrid&#39;);
+      grid.innerHTML = &#39;&#39;;
+      const list = filter === &#39;all&#39; ? projects : projects.filter(function(p) { return p.category === filter; });
+      list.forEach(function(p) {
+        const card = document.createElement(&#39;div&#39;);
+        card.classList.add(&#39;project-card&#39;);
+        card.innerHTML = &#39;&lt;h3&gt;&#39; + p.title + &#39;&lt;/h3&gt;&lt;p&gt;&#39; + p.desc + &#39;&lt;/p&gt;&lt;div class=&quot;tech-tags&quot;&gt;&#39; + p.tech.map(function(t) { return &#39;&lt;span class=&quot;tag&quot;&gt;&#39; + t + &#39;&lt;/span&gt;&#39;; }).join(&#39;&#39;) + &#39;&lt;/div&gt;&#39;;
+        grid.appendChild(card);
+      });
+    }
+
+    // --- Project Filters ---
+    document.querySelectorAll(&#39;.filter-btn&#39;).forEach(function(btn) {
+      btn.addEventListener(&#39;click&#39;, function() {
+        document.querySelector(&#39;.filter-btn.active&#39;).classList.remove(&#39;active&#39;);
+        btn.classList.add(&#39;active&#39;);
+        renderProjects(btn.dataset.category);
+      });
+    });
+
+    // --- Typing Effect ---
+    function typeWriter(element, words, speed) {
+      let wordIdx = 0, charIdx = 0, deleting = false;
+      function tick() {
+        var word = words[wordIdx];
+        element.textContent = deleting ? word.substring(0, charIdx - 1) : word.substring(0, charIdx + 1);
+        charIdx += deleting ? -1 : 1;
+        var delay = deleting ? speed / 2 : speed;
+        if (!deleting &amp;&amp; charIdx === word.length) { delay = 2000; deleting = true; }
+        else if (deleting &amp;&amp; charIdx === 0) { deleting = false; wordIdx = (wordIdx + 1) % words.length; delay = 500; }
+        setTimeout(tick, delay);
+      }
+      tick();
+    }
+    typeWriter(document.getElementById(&#39;typingText&#39;), [&#39;interactive websites&#39;, &#39;web applications&#39;, &#39;creative projects&#39;], 80);
+
+    // --- Dark/Light Mode ---
+    var themeToggle = document.getElementById(&#39;themeToggle&#39;);
+    if (localStorage.getItem(&#39;portfolioTheme&#39;) === &#39;light&#39;) {
+      document.body.classList.add(&#39;light-mode&#39;);
+      themeToggle.textContent = &#39;Dark&#39;;
+    }
+    themeToggle.addEventListener(&#39;click&#39;, function() {
+      document.body.classList.toggle(&#39;light-mode&#39;);
+      var isLight = document.body.classList.contains(&#39;light-mode&#39;);
+      themeToggle.textContent = isLight ? &#39;Dark&#39; : &#39;Light&#39;;
+      localStorage.setItem(&#39;portfolioTheme&#39;, isLight ? &#39;light&#39; : &#39;dark&#39;);
+    });
+
+    // --- Smooth Scroll ---
+    document.querySelectorAll(&#39;.nav-link&#39;).forEach(function(link) {
+      link.addEventListener(&#39;click&#39;, function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute(&#39;href&#39;)).scrollIntoView({ behavior: &#39;smooth&#39; });
+        document.getElementById(&#39;navLinks&#39;).classList.remove(&#39;open&#39;);
+        document.getElementById(&#39;hamburger&#39;).classList.remove(&#39;active&#39;);
+      });
+    });
+
+    // --- Hamburger Menu ---
+    document.getElementById(&#39;hamburger&#39;).addEventListener(&#39;click&#39;, function() {
+      document.getElementById(&#39;navLinks&#39;).classList.toggle(&#39;open&#39;);
+      this.classList.toggle(&#39;active&#39;);
+    });
+
+    // --- Scroll Animations ---
+    var scrollObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add(&#39;visible&#39;);
+          // Animate skill bars when skills section is visible
+          entry.target.querySelectorAll(&#39;.skill-fill&#39;).forEach(function(bar) {
+            bar.style.width = bar.dataset.width + &#39;%&#39;;
+          });
+          scrollObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll(&#39;.animate-on-scroll&#39;).forEach(function(el) { scrollObserver.observe(el); });
+
+    // --- Scroll-to-Top and Active Nav ---
+    var scrollTopBtn = document.getElementById(&#39;scrollTopBtn&#39;);
+    window.addEventListener(&#39;scroll&#39;, function() {
+      scrollTopBtn.classList.toggle(&#39;visible&#39;, window.scrollY &gt; 500);
+      var sections = document.querySelectorAll(&#39;section&#39;);
+      sections.forEach(function(sec) {
+        var top = sec.offsetTop - 100;
+        var link = document.querySelector(&#39;.nav-link[href=&quot;#&#39; + sec.id + &#39;&quot;]&#39;);
+        if (window.scrollY &gt;= top &amp;&amp; window.scrollY &lt; top + sec.offsetHeight) {
+          document.querySelectorAll(&#39;.nav-link&#39;).forEach(function(l) { l.classList.remove(&#39;active&#39;); });
+          if (link) link.classList.add(&#39;active&#39;);
+        }
+      });
+    });
+    scrollTopBtn.addEventListener(&#39;click&#39;, function() { window.scrollTo({ top: 0, behavior: &#39;smooth&#39; }); });
+
+    // --- Contact Form Validation ---
+    document.getElementById(&#39;contactForm&#39;).addEventListener(&#39;submit&#39;, function(e) {
+      e.preventDefault();
+      var valid = true;
+      var name = document.getElementById(&#39;nameInput&#39;).value.trim();
+      var email = document.getElementById(&#39;emailInput&#39;).value.trim();
+      var message = document.getElementById(&#39;messageInput&#39;).value.trim();
+      document.getElementById(&#39;nameError&#39;).textContent = name.length &lt; 2 ? (valid = false, &#39;Name must be at least 2 characters&#39;) : &#39;&#39;;
+      document.getElementById(&#39;emailError&#39;).textContent = !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) ? (valid = false, &#39;Please enter a valid email&#39;) : &#39;&#39;;
+      document.getElementById(&#39;messageError&#39;).textContent = message.length &lt; 10 ? (valid = false, &#39;Message must be at least 10 characters&#39;) : &#39;&#39;;
+      if (valid) {
+        document.getElementById(&#39;formFeedback&#39;).textContent = &#39;Message sent successfully!&#39;;
+        document.getElementById(&#39;formFeedback&#39;).style.color = &#39;#10b981&#39;;
+        this.reset();
+      }
+    });
+
+    // --- Initial Render ---
+    renderProjects(&#39;all&#39;);
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">This is the complete portfolio website in a single file. It combines all 25 chapters of JavaScript knowledge: DOM manipulation for rendering projects, event listeners for interactivity, localStorage for theme persistence, Intersection Observer for scroll animations, closures in the typing effect, array methods for filtering projects, form validation, and responsive design with a hamburger menu.</div><div class="code-example-output">A complete, interactive portfolio website with smooth scroll navigation, typing effect, dark/light mode toggle, project filter, scroll animations, contact form validation, mobile hamburger menu, and scroll-to-top button.</div></div>
+<div class="code-example"><div class="code-example-title">Typing Effect with Closure</div><pre><code class="language-python">function typeWriter(element, words, speed) {
+  let wordIndex = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+
+  function tick() {
+    const currentWord = words[wordIndex];
+
+    if (isDeleting) {
+      element.textContent = currentWord.substring(0, charIndex - 1);
+      charIndex--;
+    } else {
+      element.textContent = currentWord.substring(0, charIndex + 1);
+      charIndex++;
+    }
+
+    let delay = isDeleting ? speed / 2 : speed;
+
+    if (!isDeleting &amp;&amp; charIndex === currentWord.length) {
+      delay = 2000;
+      isDeleting = true;
+    } else if (isDeleting &amp;&amp; charIndex === 0) {
+      isDeleting = false;
+      wordIndex = (wordIndex + 1) % words.length;
+      delay = 500;
+    }
+
+    setTimeout(tick, delay);
+  }
+
+  tick();
+}
+
+// Usage
+const el = document.getElementById(&#39;typingText&#39;);
+typeWriter(el, [&#39;web developer&#39;, &#39;problem solver&#39;, &#39;creative coder&#39;], 80);
+
+// The tick function is a closure that remembers:
+// - wordIndex, charIndex, isDeleting (state)
+// - element, words, speed (configuration)
+// It calls itself recursively via setTimeout</code></pre><div class="code-example-explanation">The typing effect uses a closure to maintain state (which word, which character, whether deleting). The <code>tick</code> function calls itself with setTimeout, creating an animation loop. Typing speed is normal, deleting is faster (speed/2), and there is a pause at the end of each word and between words. The modulo operator cycles through words infinitely.</div><div class="code-example-output">Text types out letter by letter: &#39;w&#39;, &#39;we&#39;, &#39;web&#39;, &#39;web &#39;, &#39;web d&#39;... then deletes, then types the next word.</div></div>
+<div class="code-example"><div class="code-example-title">Intersection Observer for Scroll Animations</div><pre><code class="language-python">// CSS needed:
+// .animate-on-scroll { opacity: 0; transform: translateY(30px); transition: opacity 0.6s, transform 0.6s; }
+// .animate-on-scroll.visible { opacity: 1; transform: translateY(0); }
+
+// JavaScript
+const observer = new IntersectionObserver(
+  function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add(&#39;visible&#39;);
+
+        // Animate skill bars if present
+        entry.target.querySelectorAll(&#39;.skill-fill&#39;).forEach(function(bar) {
+          bar.style.width = bar.dataset.width + &#39;%&#39;;
+        });
+
+        // Stop observing (animate only once)
+        observer.unobserve(entry.target);
+      }
+    });
+  },
+  { threshold: 0.1 }  // Trigger when 10% of element is visible
+);
+
+// Observe all elements with the class
+document.querySelectorAll(&#39;.animate-on-scroll&#39;).forEach(function(el) {
+  observer.observe(el);
+});
+
+console.log(&#39;Observing&#39;, document.querySelectorAll(&#39;.animate-on-scroll&#39;).length, &#39;elements&#39;);</code></pre><div class="code-example-explanation">Intersection Observer watches elements and fires a callback when they enter the viewport. When an element becomes visible (isIntersecting is true), we add the 'visible' class which triggers CSS transitions (fade in and slide up). We also animate skill bar widths at this point. <code>unobserve</code> ensures the animation only plays once.</div><div class="code-example-output">Elements fade in and slide up as the user scrolls down the page. Skill bars animate to their target width when the skills section becomes visible.</div></div>
+<div class="code-example"><div class="code-example-title">Project Filter System</div><pre><code class="language-python">const projects = [
+  { title: &#39;Quiz App&#39;, category: &#39;javascript&#39;, desc: &#39;Interactive quiz with scoring&#39;, tech: [&#39;HTML&#39;, &#39;CSS&#39;, &#39;JS&#39;] },
+  { title: &#39;Portfolio&#39;, category: &#39;web&#39;, desc: &#39;Personal portfolio website&#39;, tech: [&#39;HTML&#39;, &#39;CSS&#39;, &#39;JS&#39;] },
+  { title: &#39;To-Do App&#39;, category: &#39;javascript&#39;, desc: &#39;Task manager with storage&#39;, tech: [&#39;HTML&#39;, &#39;CSS&#39;, &#39;JS&#39;] },
+  { title: &#39;Landing Page&#39;, category: &#39;design&#39;, desc: &#39;Modern landing page&#39;, tech: [&#39;HTML&#39;, &#39;CSS&#39;] },
+  { title: &#39;Weather App&#39;, category: &#39;web&#39;, desc: &#39;Live weather data&#39;, tech: [&#39;JS&#39;, &#39;API&#39;] },
+  { title: &#39;Calculator&#39;, category: &#39;javascript&#39;, desc: &#39;Scientific calculator&#39;, tech: [&#39;HTML&#39;, &#39;CSS&#39;, &#39;JS&#39;] }
+];
+
+function renderProjects(filter) {
+  const grid = document.getElementById(&#39;projectsGrid&#39;);
+  grid.innerHTML = &#39;&#39;;
+
+  const filtered = filter === &#39;all&#39;
+    ? projects
+    : projects.filter(function(p) { return p.category === filter; });
+
+  console.log(&#39;Showing&#39;, filtered.length, &#39;of&#39;, projects.length, &#39;projects&#39;);
+
+  filtered.forEach(function(project) {
+    const card = document.createElement(&#39;div&#39;);
+    card.classList.add(&#39;project-card&#39;);
+    card.innerHTML =
+      &#39;&lt;h3&gt;&#39; + project.title + &#39;&lt;/h3&gt;&#39; +
+      &#39;&lt;p&gt;&#39; + project.desc + &#39;&lt;/p&gt;&#39; +
+      &#39;&lt;div class=&quot;tech-tags&quot;&gt;&#39; +
+        project.tech.map(function(t) {
+          return &#39;&lt;span class=&quot;tag&quot;&gt;&#39; + t + &#39;&lt;/span&gt;&#39;;
+        }).join(&#39;&#39;) +
+      &#39;&lt;/div&gt;&#39;;
+    grid.appendChild(card);
+  });
+}
+
+// Filter button listeners
+document.querySelectorAll(&#39;.filter-btn&#39;).forEach(function(btn) {
+  btn.addEventListener(&#39;click&#39;, function() {
+    document.querySelector(&#39;.filter-btn.active&#39;).classList.remove(&#39;active&#39;);
+    btn.classList.add(&#39;active&#39;);
+    renderProjects(btn.dataset.category);
+  });
+});
+
+// Initial render
+renderProjects(&#39;all&#39;);</code></pre><div class="code-example-explanation">Projects are stored as an array of objects. The <code>renderProjects</code> function filters the array based on the selected category and dynamically creates card elements. Filter buttons use data-category attributes to specify which category to show. This same pattern is used in e-commerce sites for product filtering.</div><div class="code-example-output">Showing 6 of 6 projects
+(Click &#39;JavaScript&#39;)
+Showing 3 of 6 projects
+(Click &#39;Web&#39;)
+Showing 2 of 6 projects</div></div>
+<div class="code-example"><div class="code-example-title">Contact Form Validation</div><pre><code class="language-python">document.getElementById(&#39;contactForm&#39;).addEventListener(&#39;submit&#39;, function(e) {
+  e.preventDefault();
+  let valid = true;
+
+  // Get values
+  const name = document.getElementById(&#39;nameInput&#39;).value.trim();
+  const email = document.getElementById(&#39;emailInput&#39;).value.trim();
+  const message = document.getElementById(&#39;messageInput&#39;).value.trim();
+
+  // Validate name
+  if (name.length &lt; 2) {
+    document.getElementById(&#39;nameError&#39;).textContent = &#39;Name must be at least 2 characters&#39;;
+    valid = false;
+  } else {
+    document.getElementById(&#39;nameError&#39;).textContent = &#39;&#39;;
+  }
+
+  // Validate email with regex
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email)) {
+    document.getElementById(&#39;emailError&#39;).textContent = &#39;Please enter a valid email&#39;;
+    valid = false;
+  } else {
+    document.getElementById(&#39;emailError&#39;).textContent = &#39;&#39;;
+  }
+
+  // Validate message
+  if (message.length &lt; 10) {
+    document.getElementById(&#39;messageError&#39;).textContent = &#39;Message must be at least 10 characters&#39;;
+    valid = false;
+  } else {
+    document.getElementById(&#39;messageError&#39;).textContent = &#39;&#39;;
+  }
+
+  // Submit if valid
+  const feedback = document.getElementById(&#39;formFeedback&#39;);
+  if (valid) {
+    feedback.textContent = &#39;Message sent successfully!&#39;;
+    feedback.style.color = &#39;#10b981&#39;;
+    this.reset();
+    console.log(&#39;Form submitted:&#39;, { name: name, email: email, message: message });
+  } else {
+    feedback.textContent = &#39;Please fix the errors above.&#39;;
+    feedback.style.color = &#39;#ef4444&#39;;
+  }
+});</code></pre><div class="code-example-explanation">The form validation checks three fields: name must be at least 2 characters, email must match a basic regex pattern, and message must be at least 10 characters. Error messages are shown below each field. If all validations pass, a success message is shown and the form is reset. <code>e.preventDefault()</code> stops the form from actually submitting (refreshing the page).</div><div class="code-example-output">(Submit with empty fields)
+Error: Name must be at least 2 characters
+Error: Please enter a valid email
+Error: Message must be at least 10 characters
+
+(Submit with valid data)
+Message sent successfully!</div></div>
+<div class="code-example"><div class="code-example-title">Active Nav Link on Scroll</div><pre><code class="language-python">// Highlight the nav link that corresponds to the currently visible section
+window.addEventListener(&#39;scroll&#39;, function() {
+  const sections = document.querySelectorAll(&#39;section&#39;);
+  const navLinks = document.querySelectorAll(&#39;.nav-link&#39;);
+
+  sections.forEach(function(section) {
+    const sectionTop = section.offsetTop - 100;
+    const sectionBottom = sectionTop + section.offsetHeight;
+
+    if (window.scrollY &gt;= sectionTop &amp;&amp; window.scrollY &lt; sectionBottom) {
+      // Remove active from all links
+      navLinks.forEach(function(link) {
+        link.classList.remove(&#39;active&#39;);
+      });
+
+      // Add active to the matching link
+      const activeLink = document.querySelector(&#39;.nav-link[href=&quot;#&#39; + section.id + &#39;&quot;]&#39;);
+      if (activeLink) {
+        activeLink.classList.add(&#39;active&#39;);
+      }
+    }
+  });
+});
+
+// The nav link for the currently visible section gets highlighted
+// as the user scrolls through the page. The -100 offset accounts
+// for the fixed navbar height.</code></pre><div class="code-example-explanation">On every scroll event, the code checks which section is currently in the viewport by comparing the scroll position with each section's top and bottom boundaries. The nav link whose href matches the visible section gets the 'active' class (highlighted with the accent color). The 100px offset accounts for the fixed navbar.</div><div class="code-example-output">As the user scrolls past the About section, the &#39;About&#39; nav link becomes highlighted. Scrolling to Projects highlights &#39;Projects&#39;, and so on.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting e.preventDefault() on Form Submit</h3>
+                <div class="wrong-code"><pre><code class="language-python">document.getElementById(&#39;contactForm&#39;).addEventListener(&#39;submit&#39;, function(e) {
+  // Missing e.preventDefault()!
+  const name = document.getElementById(&#39;nameInput&#39;).value;
+  console.log(&#39;Name:&#39;, name);
+  // Page refreshes immediately, console.log is lost
+});</code></pre></div><div class="error-message">The page refreshes when the form is submitted, losing all JavaScript state and any feedback messages.</div><div class="correct-code"><pre><code class="language-python">document.getElementById(&#39;contactForm&#39;).addEventListener(&#39;submit&#39;, function(e) {
+  e.preventDefault();  // Stop the page from refreshing
+  const name = document.getElementById(&#39;nameInput&#39;).value;
+  console.log(&#39;Name:&#39;, name);
+  // Now you can validate and show feedback without page refresh
+});</code></pre></div><div class="mistake-explanation">By default, HTML forms refresh the page when submitted. <code>e.preventDefault()</code> stops this default behavior so JavaScript can handle the submission, validate fields, and show feedback without losing the page state.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Unobserving After Scroll Animation</h3>
+                <div class="wrong-code"><pre><code class="language-python">const observer = new IntersectionObserver(function(entries) {
+  entries.forEach(function(entry) {
+    if (entry.isIntersecting) {
+      entry.target.classList.add(&#39;visible&#39;);
+      // Not calling unobserve -- animation triggers every time user scrolls past!
+    }
+  });
+});</code></pre></div><div class="error-message">The animation replays every time the element enters the viewport. Scrolling up and down causes elements to flicker.</div><div class="correct-code"><pre><code class="language-python">const observer = new IntersectionObserver(function(entries) {
+  entries.forEach(function(entry) {
+    if (entry.isIntersecting) {
+      entry.target.classList.add(&#39;visible&#39;);
+      observer.unobserve(entry.target);  // Stop watching after animation
+    }
+  });
+});</code></pre></div><div class="mistake-explanation">Call <code>unobserve</code> after adding the visible class so the animation only plays once. Without it, the observer keeps firing every time the element scrolls in and out of view.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Smooth Scroll Not Working Because of href</h3>
+                <div class="wrong-code"><pre><code class="language-python">// HTML: &lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;
+// Clicking jumps instantly to #about instead of smooth scrolling
+// Because the default anchor behavior takes over</code></pre></div><div class="error-message">The browser&#39;s default anchor link behavior (instant jump) overrides the smooth scroll JavaScript.</div><div class="correct-code"><pre><code class="language-python">document.querySelectorAll(&#39;.nav-link&#39;).forEach(function(link) {
+  link.addEventListener(&#39;click&#39;, function(e) {
+    e.preventDefault();  // Stop default anchor behavior
+    const target = document.querySelector(this.getAttribute(&#39;href&#39;));
+    target.scrollIntoView({ behavior: &#39;smooth&#39; });
+  });
+});</code></pre></div><div class="mistake-explanation">Anchor links (<code>&lt;a href="#section"&gt;</code>) have default browser behavior that instantly jumps to the target. You must call <code>e.preventDefault()</code> to stop this, then use <code>scrollIntoView({ behavior: 'smooth' })</code> for smooth scrolling.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Hamburger Menu Not Closing After Link Click</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Menu opens on hamburger click, but stays open after clicking a nav link
+document.getElementById(&#39;hamburger&#39;).addEventListener(&#39;click&#39;, function() {
+  document.getElementById(&#39;navLinks&#39;).classList.toggle(&#39;open&#39;);
+});
+// Nav links do not close the menu!</code></pre></div><div class="error-message">On mobile, after tapping a nav link, the menu stays open covering the content. The user has to manually close it.</div><div class="correct-code"><pre><code class="language-python">document.getElementById(&#39;hamburger&#39;).addEventListener(&#39;click&#39;, function() {
+  document.getElementById(&#39;navLinks&#39;).classList.toggle(&#39;open&#39;);
+});
+
+// Close menu when a nav link is clicked
+document.querySelectorAll(&#39;.nav-link&#39;).forEach(function(link) {
+  link.addEventListener(&#39;click&#39;, function() {
+    document.getElementById(&#39;navLinks&#39;).classList.remove(&#39;open&#39;);
+    document.getElementById(&#39;hamburger&#39;).classList.remove(&#39;active&#39;);
+  });
+});</code></pre></div><div class="mistake-explanation">When a nav link is clicked, the menu should close automatically. Add a click listener to each nav link that removes the 'open' class from the menu. This is essential for a good mobile experience.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>A portfolio website is the ultimate capstone project that combines all JavaScript concepts: DOM manipulation, event listeners, localStorage, closures, array methods, Intersection Observer, form validation, and responsive design.</li>
+<li>CSS custom properties (variables) enable easy theming. Define colors as --variable-name in :root, override them in .light-mode, and all elements using those variables update automatically.</li>
+<li>Smooth scroll navigation uses e.preventDefault() on anchor links and scrollIntoView({ behavior: &#39;smooth&#39; }) to scroll to the target section.</li>
+<li>The typing effect uses a closure to maintain state (word index, character index, deleting flag) and setTimeout for recursive self-calling. It types, pauses, deletes, and cycles through words infinitely.</li>
+<li>Dark/light mode toggle: toggle a CSS class on the body, save the preference to localStorage, and load it on page start. CSS variables make the color switch automatic.</li>
+<li>Intersection Observer efficiently detects when elements enter the viewport. Use it for scroll animations (fade in, slide up) and skill bar animations. Always unobserve after the animation plays.</li>
+<li>Project filtering uses an array of project objects, filter() to match the selected category, and dynamic DOM creation to render project cards. The filter buttons use data-category attributes.</li>
+<li>Contact form validation checks each field (name length, email regex, message length), shows individual error messages, and displays a success message when all fields pass. e.preventDefault() stops page refresh.</li>
+<li>Mobile hamburger menu: toggle an &#39;open&#39; class on the nav links container. Close the menu when a nav link is clicked. Use CSS transform for the slide-in animation.</li>
+<li>Active nav link highlighting: on scroll, compare window.scrollY with each section&#39;s offsetTop to determine which section is visible, then add the &#39;active&#39; class to the corresponding nav link.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/closures-scope-and-hoisting" class="related-topic-link">Closures, Scope, and Hoisting</a>
+<a href="/resources/javascript/css-manipulation-with-javascript" class="related-topic-link">CSS Manipulation with JavaScript</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/closures-scope-and-hoisting" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Closures, Scope, and Hoisting</span>
+        </a>
+            
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/project-interactive-portfolio/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

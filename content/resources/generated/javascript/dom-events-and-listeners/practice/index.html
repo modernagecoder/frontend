@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - DOM Events and Event Listeners | JavaScript | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="60+ practice questions on DOM Events and Event Listeners in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="dom events and event listeners practice, javascript questions, javascript practice problems, dom events and event listeners exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/dom-events-and-listeners/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/dom-events-and-listeners/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/dom-events-and-listeners/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/dom-events-and-listeners/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/dom-events-and-listeners/practice">
+    <meta property="og:title" content="Practice Questions - DOM Events and Event Listeners | JavaScript | Modern Age Coders">
+    <meta property="og:description" content="60+ practice questions on DOM Events and Event Listeners in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/dom-events-and-listeners/practice">
+    <meta name="twitter:title" content="Practice Questions - DOM Events and Event Listeners | JavaScript | Modern Age Coders">
+    <meta name="twitter:description" content="60+ practice questions on DOM Events and Event Listeners in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - DOM Events and Event Listeners",
+    "description": "60+ practice questions on DOM Events and Event Listeners in JavaScript.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "DOM Events and Event Listeners"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/dom-events-and-listeners/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "DOM Events and Event Listeners",
+        "item": "https://learn.modernagecoders.com/resources/javascript/dom-events-and-listeners"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/javascript/dom-events-and-listeners/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript/dom-events-and-listeners">DOM Events and Event Listeners</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 12</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">60 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; DOM Events and Event Listeners</h1>
+            <a href="/resources/javascript/dom-events-and-listeners" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What happens when the button is clicked?<br><pre><code>&lt;button id="btn"&gt;Click Me&lt;/button&gt;
+&lt;p id="msg"&gt;Waiting...&lt;/p&gt;
+
+&lt;script&gt;
+document.getElementById("btn").addEventListener("click", function() {
+  document.getElementById("msg").textContent = "Button clicked!";
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The click handler changes the paragraph text.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">When the button is clicked, the paragraph text changes from "Waiting..." to "Button clicked!".</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged to the console when the button is clicked?<br><pre><code>&lt;button id="btn"&gt;Hello&lt;/button&gt;
+
+&lt;script&gt;
+document.getElementById("btn").addEventListener("click", function(e) {
+  console.log(e.type);
+  console.log(e.target.textContent);
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">e.type gives the event type. e.target is the clicked element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>click</code><br><code>Hello</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What happens when you type in the input?<br><pre><code>&lt;input type="text" id="name"&gt;
+&lt;p id="output"&gt;&lt;/p&gt;
+
+&lt;script&gt;
+document.getElementById("name").addEventListener("input", function() {
+  document.getElementById("output").textContent = "Hello, " + this.value;
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">The input event fires on every keystroke. 'this' refers to the input element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3">As you type, the paragraph below updates in real time. Typing "Aarav" shows "Hello, Aarav".</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged when the user presses the 'a' key?<br><pre><code>&lt;script&gt;
+document.addEventListener("keydown", function(e) {
+  console.log("Key: " + e.key);
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">e.key gives the name of the key that was pressed.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Key: a</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What happens when the form is submitted?<br><pre><code>&lt;form id="myForm"&gt;
+  &lt;input type="text" value="Aarav"&gt;
+  &lt;button type="submit"&gt;Go&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+document.getElementById("myForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  console.log("Form submitted!");
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">preventDefault stops the page from reloading.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5">The console logs "Form submitted!" and the page does NOT reload.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged when the button inside the div is clicked?<br><pre><code>&lt;div id="outer"&gt;
+  &lt;button id="inner"&gt;Click&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+document.getElementById("outer").addEventListener("click", function() {
+  console.log("Outer");
+});
+document.getElementById("inner").addEventListener("click", function() {
+  console.log("Inner");
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Events bubble from child to parent.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Inner</code><br><code>Outer</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged when the button is clicked?<br><pre><code>&lt;div id="parent"&gt;
+  &lt;button id="child"&gt;Click&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+document.getElementById("parent").addEventListener("click", function() {
+  console.log("Parent");
+});
+document.getElementById("child").addEventListener("click", function(e) {
+  e.stopPropagation();
+  console.log("Child");
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">stopPropagation prevents the event from bubbling up.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Child</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given this HTML, what is logged when 'Banana' is clicked?<br><pre><code>&lt;ul id="fruits"&gt;
+  &lt;li&gt;Apple&lt;/li&gt;
+  &lt;li&gt;Banana&lt;/li&gt;
+  &lt;li&gt;Cherry&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script&gt;
+document.getElementById("fruits").addEventListener("click", function(e) {
+  console.log("Clicked:", e.target.textContent);
+  console.log("Listener on:", e.currentTarget.id);
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">e.target is what was clicked. e.currentTarget is where the listener is attached.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Clicked: Banana</code><br><code>Listener on: fruits</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;button id="btn"&gt;Click&lt;/button&gt;
+
+&lt;script&gt;
+const btn = document.getElementById("btn");
+
+btn.addEventListener("click", function() {
+  console.log("First");
+});
+
+btn.addEventListener("click", function() {
+  console.log("Second");
+});
+
+btn.addEventListener("click", function() {
+  console.log("Third");
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Multiple listeners on the same element run in the order they were added.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>First</code><br><code>Second</code><br><code>Third</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What happens when the button is clicked?<br><pre><code>&lt;button id="btn"&gt;Click Me&lt;/button&gt;
+
+&lt;script&gt;
+function greet() {
+  console.log("Hello!");
+}
+
+const btn = document.getElementById("btn");
+btn.addEventListener("click", greet);
+btn.removeEventListener("click", greet);
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">The listener is added and then immediately removed.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">Nothing happens when the button is clicked. No console output.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged when the button is clicked?<br><pre><code>&lt;button id="btn"&gt;Click&lt;/button&gt;
+
+&lt;script&gt;
+const btn = document.getElementById("btn");
+let count = 0;
+
+function handleClick() {
+  count++;
+  console.log("Count: " + count);
+  if (count >= 3) {
+    btn.removeEventListener("click", handleClick);
+    console.log("Listener removed");
+  }
+}
+
+btn.addEventListener("click", handleClick);
+&lt;/script&gt;</code></pre><p>The button is clicked 5 times.</p></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">After 3 clicks, the listener removes itself.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>Count: 1</code><br><code>Count: 2</code><br><code>Count: 3</code><br><code>Listener removed</code><br>(Clicks 4 and 5 produce no output)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged when 'Enter' is pressed while the input is focused?<br><pre><code>&lt;input type="text" id="search" value="JavaScript"&gt;
+
+&lt;script&gt;
+const input = document.getElementById("search");
+
+input.addEventListener("keydown", function(e) {
+  if (e.key === "Enter") {
+    console.log("Searching for: " + this.value);
+    console.log("Input or Textarea: " + (e.target.tagName));
+  }
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">'this' in a regular function handler refers to the element the listener is on. tagName returns uppercase.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Searching for: JavaScript</code><br><code>Input or Textarea: INPUT</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;div id="container"&gt;
+  &lt;button class="btn" data-action="save"&gt;Save&lt;/button&gt;
+  &lt;button class="btn" data-action="delete"&gt;Delete&lt;/button&gt;
+  &lt;button class="btn" data-action="edit"&gt;Edit&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+document.getElementById("container").addEventListener("click", function(e) {
+  if (e.target.classList.contains("btn")) {
+    const action = e.target.getAttribute("data-action");
+    console.log("Action: " + action);
+  }
+});
+&lt;/script&gt;</code></pre><p>The user clicks the 'Delete' button.</p></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Event delegation with data attributes to determine the action.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>Action: delete</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;input type="text" id="name"&gt;
+
+&lt;script&gt;
+const input = document.getElementById("name");
+
+input.addEventListener("focus", function() {
+  console.log("Focused");
+});
+
+input.addEventListener("blur", function() {
+  console.log("Blurred");
+});
+&lt;/script&gt;</code></pre><p>The user clicks the input, types 'Hi', then clicks outside the input.</p></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">focus fires when the input gains focus, blur when it loses focus.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>Focused</code><br><code>Blurred</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference in output between input and change events?<br><pre><code>&lt;input type="text" id="field"&gt;
+
+&lt;script&gt;
+const field = document.getElementById("field");
+
+field.addEventListener("input", function() {
+  console.log("input: " + field.value);
+});
+
+field.addEventListener("change", function() {
+  console.log("change: " + field.value);
+});
+&lt;/script&gt;</code></pre><p>The user types 'Hi' and then clicks outside the input.</p></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">input fires on every keystroke. change fires when the value changes AND the element loses focus.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>input: H</code><br><code>input: Hi</code><br><code>change: Hi</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;button id="btn"&gt;Click&lt;/button&gt;
+
+&lt;script&gt;
+const btn = document.getElementById("btn");
+
+btn.addEventListener("click", () =&gt; {
+  console.log("this:", this === window);
+});
+
+btn.addEventListener("click", function() {
+  console.log("this:", this === btn);
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Arrow functions do not have their own 'this'. Regular functions get 'this' set to the element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>this: true</code><br><code>this: true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged when the user presses Ctrl+Enter?<br><pre><code>&lt;script&gt;
+document.addEventListener("keydown", function(e) {
+  console.log("key:", e.key);
+  console.log("ctrlKey:", e.ctrlKey);
+  console.log("shiftKey:", e.shiftKey);
+  console.log("altKey:", e.altKey);
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Modifier key properties (ctrlKey, shiftKey, altKey) are booleans.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>key: Enter</code><br><code>ctrlKey: true</code><br><code>shiftKey: false</code><br><code>altKey: false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What happens when this code runs?<br><pre><code>&lt;button id="btn"&gt;Click Me&lt;/button&gt;
+
+&lt;script&gt;
+const btn = document.getElementById("btn");
+btn.addEventListener("click", function() {
+  btn.textContent = "Clicked!";
+  btn.disabled = true;
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Setting disabled to true prevents further clicks.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18">On the first click, the button text changes to "Clicked!" and the button becomes disabled. It cannot be clicked again.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is logged when the button is clicked twice?<br><pre><code>&lt;button id="btn"&gt;Toggle&lt;/button&gt;
+
+&lt;script&gt;
+let isOn = false;
+document.getElementById("btn").addEventListener("click", function() {
+  isOn = !isOn;
+  console.log(isOn);
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">!false is true, !true is false.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this code do?<br><pre><code>&lt;a href="https://google.com" id="link"&gt;Google&lt;/a&gt;
+
+&lt;script&gt;
+document.getElementById("link").addEventListener("click", function(e) {
+  e.preventDefault();
+  console.log("Link click prevented!");
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">preventDefault stops the default link navigation.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">Clicking the link does NOT navigate to Google. Instead, "Link click prevented!" is logged to the console.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged when 'Item 2' is clicked?<br><pre><code>&lt;ul id="list"&gt;
+  &lt;li data-id="1"&gt;Item 1&lt;/li&gt;
+  &lt;li data-id="2"&gt;Item 2&lt;/li&gt;
+  &lt;li data-id="3"&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script&gt;
+document.getElementById("list").addEventListener("click", function(e) {
+  if (e.target.tagName === "LI") {
+    console.log("ID: " + e.target.dataset.id);
+    console.log("Text: " + e.target.textContent);
+  }
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">dataset gives access to data-* attributes. data-id becomes dataset.id.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>ID: 2</code><br><code>Text: Item 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is logged when the button is clicked 3 times?<br><pre><code>&lt;button id="btn"&gt;Click&lt;/button&gt;
+&lt;p id="result"&gt;&lt;/p&gt;
+
+&lt;script&gt;
+let clicks = [];
+document.getElementById("btn").addEventListener("click", function() {
+  const now = new Date();
+  clicks.push(now.getSeconds());
+  document.getElementById("result").textContent = clicks.join(", ");
+  console.log("Clicks so far: " + clicks.length);
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Each click adds the current second to the array.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Clicks so far: 1</code><br><code>Clicks so far: 2</code><br><code>Clicks so far: 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between the <code>input</code> event and the <code>change</code> event on a text input?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">One fires in real time, the other waits.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">The <code>input</code> event fires immediately on every change to the input's value (every keystroke, paste, or deletion). The <code>change</code> event fires only when the value has changed AND the input loses focus (the user clicks or tabs away). Use <code>input</code> for real-time updates and <code>change</code> for final values.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is event delegation and why is it useful?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Think about attaching one listener vs many.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">Event delegation is a pattern where you attach a single event listener to a parent element instead of individual listeners to each child. When a child is clicked, the event bubbles up to the parent, where you use <code>e.target</code> to identify which child triggered it. Benefits: (1) uses less memory (one listener vs many), (2) works for dynamically added elements, (3) less code to write and maintain.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>e.target</code> and <code>e.currentTarget</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">One is what was clicked, the other is where the listener lives.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>e.target</code> is the actual element that was clicked (the most specific element). <code>e.currentTarget</code> is the element the event listener is attached to. In event delegation, e.target is the child that was clicked and e.currentTarget is the parent with the listener.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;div id="outer"&gt;
+  &lt;div id="middle"&gt;
+    &lt;button id="inner"&gt;Click&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+document.getElementById("outer").addEventListener("click", function(e) {
+  console.log("outer - target: " + e.target.id + ", currentTarget: " + e.currentTarget.id);
+});
+document.getElementById("middle").addEventListener("click", function(e) {
+  console.log("middle - target: " + e.target.id + ", currentTarget: " + e.currentTarget.id);
+});
+document.getElementById("inner").addEventListener("click", function(e) {
+  console.log("inner - target: " + e.target.id + ", currentTarget: " + e.currentTarget.id);
+});
+&lt;/script&gt;</code></pre><p>The button is clicked.</p></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">e.target is always the clicked element. e.currentTarget changes as the event bubbles.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>inner - target: inner, currentTarget: inner</code><br><code>middle - target: inner, currentTarget: middle</code><br><code>outer - target: inner, currentTarget: outer</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged? The user types 'AB' into the input.<br><pre><code>&lt;input type="text" id="field"&gt;
+
+&lt;script&gt;
+const field = document.getElementById("field");
+
+field.addEventListener("keydown", function(e) {
+  console.log("keydown: " + e.key + " value: " + field.value);
+});
+
+field.addEventListener("keyup", function(e) {
+  console.log("keyup: " + e.key + " value: " + field.value);
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">keydown fires before the character appears. keyup fires after.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>keydown: A value: </code> (empty)<br><code>keyup: A value: A</code><br><code>keydown: B value: A</code><br><code>keyup: B value: AB</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is logged?<br><pre><code>&lt;button id="btn"&gt;Click&lt;/button&gt;
+
+&lt;script&gt;
+const btn = document.getElementById("btn");
+
+btn.onclick = function() {
+  console.log("First");
+};
+
+btn.onclick = function() {
+  console.log("Second");
+};
+
+btn.addEventListener("click", function() {
+  console.log("Third");
+});
+&lt;/script&gt;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">onclick is a property -- setting it replaces the previous value. addEventListener adds to a list.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>Second</code><br><code>Third</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output of this scroll handler?<br><pre><code>&lt;script&gt;
+let scrollCount = 0;
+
+window.addEventListener("scroll", function() {
+  scrollCount++;
+});
+
+setTimeout(function() {
+  console.log("Scroll events fired: " + scrollCount);
+}, 5000);
+&lt;/script&gt;</code></pre><p>Assume the user scrolls continuously for 5 seconds.</p></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">The scroll event fires many times per second during scrolling.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">A large number, typically in the hundreds (e.g., "Scroll events fired: 200+"). The exact number depends on how fast and how much the user scrolls.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What happens?<br><pre><code>&lt;form id="form"&gt;
+  &lt;input type="text" id="name" required&gt;
+  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+document.getElementById("form").addEventListener("submit", function(e) {
+  e.preventDefault();
+  const name = document.getElementById("name");
+  if (name.value.trim() === "") {
+    name.style.borderColor = "red";
+    name.focus();
+  } else {
+    name.style.borderColor = "green";
+    console.log("Submitted: " + name.value);
+  }
+});
+&lt;/script&gt;</code></pre><p>The user clicks Submit with an empty input, then types 'Aarav' and submits again.</p></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">First submit: empty check triggers. Second submit: name has a value.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">First submit: the input border turns red and the input gains focus. Second submit: the input border turns green and "Submitted: Aarav" is logged.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which method is used to attach an event handler to an element?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> element.onEvent()</li><li><span class="mcq-option-label">B.</span> element.addEventListener()</li><li><span class="mcq-option-label">C.</span> element.attachEvent()</li><li><span class="mcq-option-label">D.</span> element.listenFor()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>addEventListener</code> is the standard method for attaching event handlers. Option C is an old IE-only method. Options A and D do not exist.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which event fires when a user clicks a button?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> press</li><li><span class="mcq-option-label">B.</span> tap</li><li><span class="mcq-option-label">C.</span> click</li><li><span class="mcq-option-label">D.</span> activate</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>click</code> event fires when an element is clicked (mouse or touch). Options A, B, and D are not standard DOM events.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does <code>e.preventDefault()</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Stops all JavaScript on the page</li><li><span class="mcq-option-label">B.</span> Removes the event listener</li><li><span class="mcq-option-label">C.</span> Stops the browser&#39;s default action for that event</li><li><span class="mcq-option-label">D.</span> Prevents the event from being created</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>e.preventDefault()</code> stops default behaviors like form submission page reload, link navigation, or browser shortcuts. It does not stop JavaScript or remove listeners.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which property of the event object tells you which element was clicked?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> e.element</li><li><span class="mcq-option-label">B.</span> e.source</li><li><span class="mcq-option-label">C.</span> e.target</li><li><span class="mcq-option-label">D.</span> e.origin</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>e.target</code> references the element that triggered the event. Options A, B, and D are not properties of DOM events.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which event fires on every keystroke in a text input?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> change</li><li><span class="mcq-option-label">B.</span> input</li><li><span class="mcq-option-label">C.</span> submit</li><li><span class="mcq-option-label">D.</span> keypress</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>input</code> event fires on every change to the value (keystroke, paste, delete). <code>change</code> fires only when the element loses focus. <code>keypress</code> is deprecated.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is event bubbling?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Events fire from parent to child</li><li><span class="mcq-option-label">B.</span> Events fire from child to parent through the DOM tree</li><li><span class="mcq-option-label">C.</span> Events fire only on the clicked element</li><li><span class="mcq-option-label">D.</span> Events fire on all elements simultaneously</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> When an event fires on a child element, it bubbles up through all ancestors (parent, grandparent, etc.). A click on a button inside a div also fires click handlers on the div, body, and document.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Which method stops an event from bubbling to parent elements?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> e.preventDefault()</li><li><span class="mcq-option-label">B.</span> e.stopBubbling()</li><li><span class="mcq-option-label">C.</span> e.stopPropagation()</li><li><span class="mcq-option-label">D.</span> e.cancelBubble()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>e.stopPropagation()</code> prevents the event from bubbling up to parent elements. <code>e.preventDefault()</code> stops the default browser action but does not stop bubbling.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Why can you NOT remove an anonymous function event listener?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Anonymous functions are faster and cannot be stopped</li><li><span class="mcq-option-label">B.</span> Each anonymous function creates a unique object; removeEventListener needs the same reference</li><li><span class="mcq-option-label">C.</span> Anonymous functions do not support removeEventListener</li><li><span class="mcq-option-label">D.</span> You can remove them; there is no issue</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> Two identical-looking anonymous functions are different objects in memory. <code>removeEventListener</code> compares by reference, not by code content. You must store the function in a variable to remove it later.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which keyboard event is deprecated and should NOT be used?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> keydown</li><li><span class="mcq-option-label">B.</span> keyup</li><li><span class="mcq-option-label">C.</span> keypress</li><li><span class="mcq-option-label">D.</span> keyinput</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>keypress</code> is deprecated. It only fires for keys that produce characters and does not fire for Escape, arrow keys, Ctrl, etc. Use <code>keydown</code> or <code>keyup</code> instead.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What does <code>e.target.closest('li')</code> do in event delegation?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Selects the first li on the page</li><li><span class="mcq-option-label">B.</span> Finds the nearest li ancestor of the clicked element</li><li><span class="mcq-option-label">C.</span> Selects the closest sibling li</li><li><span class="mcq-option-label">D.</span> Returns null always</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>closest('li')</code> traverses up the DOM tree from the clicked element and returns the first ancestor (or self) that matches the selector. This is essential for reliable event delegation with nested elements.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the value of <code>this</code> inside an arrow function event handler?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The element the listener is attached to</li><li><span class="mcq-option-label">B.</span> The event object</li><li><span class="mcq-option-label">C.</span> The outer scope&#39;s this (usually window)</li><li><span class="mcq-option-label">D.</span> undefined</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> Arrow functions do not have their own <code>this</code>. They inherit <code>this</code> from the enclosing scope. In a top-level script, that is <code>window</code>. If you need <code>this</code> to be the element, use a regular function.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Which fires first: <code>DOMContentLoaded</code> or <code>load</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> load fires first</li><li><span class="mcq-option-label">B.</span> DOMContentLoaded fires first</li><li><span class="mcq-option-label">C.</span> They fire at the same time</li><li><span class="mcq-option-label">D.</span> It depends on the browser</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>DOMContentLoaded</code> fires when the HTML is fully parsed (DOM tree built). <code>load</code> fires after everything including images, stylesheets, and iframes have finished loading. DOMContentLoaded is always first.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does <code>{ once: true }</code> do as a third argument to addEventListener?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Makes the listener fire only one time, then automatically removes itself</li><li><span class="mcq-option-label">B.</span> Ensures only one listener can be added</li><li><span class="mcq-option-label">C.</span> Fires the event immediately once</li><li><span class="mcq-option-label">D.</span> It is not a valid option</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>element.addEventListener('click', handler, { once: true })</code> runs the handler once and then automatically removes the listener. This is useful for one-time actions like welcome modals or first-click tutorials.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">In the event flow, what are the three phases?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Start, middle, end</li><li><span class="mcq-option-label">B.</span> Capture, target, bubble</li><li><span class="mcq-option-label">C.</span> Create, dispatch, destroy</li><li><span class="mcq-option-label">D.</span> Attach, fire, detach</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> Events travel in three phases: (1) Capture phase (from document down to the target), (2) Target phase (on the target element), (3) Bubble phase (from target back up to document). By default, listeners run during the bubble phase.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does <code>e.key</code> return when the Enter key is pressed?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 13</li><li><span class="mcq-option-label">B.</span> &quot;enter&quot;</li><li><span class="mcq-option-label">C.</span> &quot;Enter&quot;</li><li><span class="mcq-option-label">D.</span> true</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>e.key</code> returns the string "Enter" (capital E). Other examples: "Escape", "ArrowUp", "a", "Shift". The old <code>e.keyCode</code> (which returns 13) is deprecated.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the difference between <code>mouseenter</code> and <code>mouseover</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are identical</li><li><span class="mcq-option-label">B.</span> mouseenter does not bubble; mouseover bubbles to child elements</li><li><span class="mcq-option-label">C.</span> mouseenter is faster</li><li><span class="mcq-option-label">D.</span> mouseover only works on div elements</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>mouseover</code> bubbles, which means it fires again when the mouse moves over child elements. <code>mouseenter</code> does not bubble, so it fires only once when entering the element. mouseenter/mouseleave are usually preferred for hover effects.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What happens if you call <code>addEventListener</code> with the same function on the same event twice?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The handler runs twice per event</li><li><span class="mcq-option-label">B.</span> The second call is ignored (duplicate handlers are not added)</li><li><span class="mcq-option-label">C.</span> An error is thrown</li><li><span class="mcq-option-label">D.</span> The first handler is replaced</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> If you pass the exact same function reference for the same event type on the same element, the browser ignores the duplicate. The handler runs only once per event.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What is the difference between <code>onclick</code> property and <code>addEventListener('click', ...)</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are identical</li><li><span class="mcq-option-label">B.</span> onclick can only have one handler (last one wins); addEventListener can have multiple</li><li><span class="mcq-option-label">C.</span> addEventListener only works for click events</li><li><span class="mcq-option-label">D.</span> onclick is faster</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> Setting <code>element.onclick = fn</code> replaces any previous onclick handler. <code>addEventListener</code> adds handlers to a list, so multiple handlers can coexist for the same event.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">Which event fires when the user selects an option from a <code>&lt;select&gt;</code> dropdown?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> click</li><li><span class="mcq-option-label">B.</span> input</li><li><span class="mcq-option-label">C.</span> change</li><li><span class="mcq-option-label">D.</span> select</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>change</code> event fires when the user selects a different option in a select dropdown. The <code>input</code> event also fires on select elements in modern browsers, but <code>change</code> is the standard and most reliable.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">What does <code>e.target.closest('li')</code> return if the click was on a span inside a div (not inside any li)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The span element</li><li><span class="mcq-option-label">B.</span> The div element</li><li><span class="mcq-option-label">C.</span> null</li><li><span class="mcq-option-label">D.</span> An error is thrown</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>closest('li')</code> traverses up from the clicked element looking for an li ancestor. If none is found (the element is not inside an li), it returns null. Always check for null before using the result.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Live Character Counter for Textarea</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a textarea with a maximum of 150 characters. Show a live counter below it that says 'X / 150 characters'. Change the counter color to red when over 150.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Type in the textarea</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Counter updates: &#39;45 / 150 characters&#39;. Turns red at 151+.</div>
+                </div><div class="challenge-constraints">Use the input event. Use classList.add/remove for the red color, not inline styles.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    .over-limit { color: red; font-weight: bold; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;textarea id=&quot;text&quot; rows=&quot;4&quot; cols=&quot;40&quot;&gt;&lt;/textarea&gt;
+  &lt;p id=&quot;counter&quot;&gt;0 / 150 characters&lt;/p&gt;
+  &lt;script&gt;
+    const text = document.getElementById(&quot;text&quot;);
+    const counter = document.getElementById(&quot;counter&quot;);
+    text.addEventListener(&quot;input&quot;, function() {
+      const len = text.value.length;
+      counter.textContent = len + &quot; / 150 characters&quot;;
+      if (len &gt; 150) {
+        counter.classList.add(&quot;over-limit&quot;);
+      } else {
+        counter.classList.remove(&quot;over-limit&quot;);
+      }
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Keyboard Navigation</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a colored box (div) on the page. Use keydown events to move it: Arrow keys move it 20px in the corresponding direction. Display the current position (x, y) below the box.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Press arrow keys</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">The box moves around the page. Position display: &#39;x: 100, y: 60&#39;.</div>
+                </div><div class="challenge-constraints">Use keydown on the document. Use element.style.left and element.style.top. Use position: absolute on the box.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    #box { width: 50px; height: 50px; background: #a855f7; position: absolute; top: 100px; left: 100px; border-radius: 8px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p id=&quot;pos&quot;&gt;x: 100, y: 100&lt;/p&gt;
+  &lt;div id=&quot;box&quot;&gt;&lt;/div&gt;
+  &lt;script&gt;
+    const box = document.getElementById(&quot;box&quot;);
+    const pos = document.getElementById(&quot;pos&quot;);
+    let x = 100, y = 100;
+    document.addEventListener(&quot;keydown&quot;, function(e) {
+      if (e.key === &quot;ArrowUp&quot;) y -= 20;
+      if (e.key === &quot;ArrowDown&quot;) y += 20;
+      if (e.key === &quot;ArrowLeft&quot;) x -= 20;
+      if (e.key === &quot;ArrowRight&quot;) x += 20;
+      box.style.left = x + &quot;px&quot;;
+      box.style.top = y + &quot;px&quot;;
+      pos.textContent = &quot;x: &quot; + x + &quot;, y: &quot; + y;
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Color Picker with Delegation</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a grid of 9 colored divs (3x3) using different background colors. Use event delegation on the parent container. When any color div is clicked, change the page body background to that color. Show the selected color code in a paragraph.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Click any color square</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Body background changes to the clicked color. Display shows &#39;#a855f7&#39;.</div>
+                </div><div class="challenge-constraints">Use a single event listener on the parent (event delegation). Store colors in data-color attributes.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    .grid { display: grid; grid-template-columns: repeat(3, 80px); gap: 8px; }
+    .color-box { width: 80px; height: 80px; border-radius: 8px; cursor: pointer; border: 3px solid transparent; }
+    .color-box:hover { border-color: #000; }
+    body { transition: background-color 0.3s; padding: 20px; font-family: Arial; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Pick a Color&lt;/h2&gt;
+  &lt;div class=&quot;grid&quot; id=&quot;grid&quot;&gt;
+    &lt;div class=&quot;color-box&quot; data-color=&quot;#a855f7&quot; style=&quot;background:#a855f7&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;color-box&quot; data-color=&quot;#06b6d4&quot; style=&quot;background:#06b6d4&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;color-box&quot; data-color=&quot;#f59e0b&quot; style=&quot;background:#f59e0b&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;color-box&quot; data-color=&quot;#ef4444&quot; style=&quot;background:#ef4444&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;color-box&quot; data-color=&quot;#10b981&quot; style=&quot;background:#10b981&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;color-box&quot; data-color=&quot;#3b82f6&quot; style=&quot;background:#3b82f6&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;color-box&quot; data-color=&quot;#ec4899&quot; style=&quot;background:#ec4899&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;color-box&quot; data-color=&quot;#8b5cf6&quot; style=&quot;background:#8b5cf6&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;color-box&quot; data-color=&quot;#14b8a6&quot; style=&quot;background:#14b8a6&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;p id=&quot;selected&quot;&gt;No color selected&lt;/p&gt;
+  &lt;script&gt;
+    document.getElementById(&quot;grid&quot;).addEventListener(&quot;click&quot;, function(e) {
+      if (e.target.classList.contains(&quot;color-box&quot;)) {
+        const color = e.target.getAttribute(&quot;data-color&quot;);
+        document.body.style.backgroundColor = color;
+        document.getElementById(&quot;selected&quot;).textContent = &quot;Selected: &quot; + color;
+      }
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Interactive Quiz with Score</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a simple quiz with 3 multiple-choice questions. Each question has 4 radio button options. A 'Check Answers' button at the bottom checks all answers, highlights correct ones in green and wrong ones in red, and shows the score (e.g., '2 / 3').</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Select answers and click &#39;Check Answers&#39;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Correct answers highlighted green, wrong ones red. Score: &#39;2 / 3&#39;.</div>
+                </div><div class="challenge-constraints">Use the submit event with preventDefault. Use querySelectorAll to check radio button values. Use classList for green/red highlighting.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    .correct { background: #d1fae5; padding: 8px; border-radius: 4px; }
+    .wrong { background: #fecaca; padding: 8px; border-radius: 4px; }
+    .question { margin: 16px 0; padding: 12px; border: 1px solid #ddd; border-radius: 8px; }
+    button { padding: 10px 20px; background: #a855f7; color: white; border: none; border-radius: 6px; cursor: pointer; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Quick Quiz&lt;/h2&gt;
+  &lt;form id=&quot;quiz&quot;&gt;
+    &lt;div class=&quot;question&quot; id=&quot;q1&quot;&gt;
+      &lt;p&gt;1. What does DOM stand for?&lt;/p&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q1&quot; value=&quot;a&quot;&gt; Document Object Model&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q1&quot; value=&quot;b&quot;&gt; Data Object Method&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q1&quot; value=&quot;c&quot;&gt; Digital Output Machine&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;question&quot; id=&quot;q2&quot;&gt;
+      &lt;p&gt;2. Which event fires on every keystroke?&lt;/p&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q2&quot; value=&quot;a&quot;&gt; change&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q2&quot; value=&quot;b&quot;&gt; input&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q2&quot; value=&quot;c&quot;&gt; submit&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;question&quot; id=&quot;q3&quot;&gt;
+      &lt;p&gt;3. What does e.preventDefault() do?&lt;/p&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q3&quot; value=&quot;a&quot;&gt; Stops JavaScript&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q3&quot; value=&quot;b&quot;&gt; Removes the element&lt;/label&gt;&lt;br&gt;
+      &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q3&quot; value=&quot;c&quot;&gt; Stops the default browser action&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;button type=&quot;submit&quot;&gt;Check Answers&lt;/button&gt;
+  &lt;/form&gt;
+  &lt;p id=&quot;score&quot;&gt;&lt;/p&gt;
+  &lt;script&gt;
+    const answers = { q1: &quot;a&quot;, q2: &quot;b&quot;, q3: &quot;c&quot; };
+    document.getElementById(&quot;quiz&quot;).addEventListener(&quot;submit&quot;, function(e) {
+      e.preventDefault();
+      let score = 0;
+      for (const q in answers) {
+        const div = document.getElementById(q);
+        const selected = document.querySelector(&#39;input[name=&quot;&#39; + q + &#39;&quot;]:checked&#39;);
+        div.classList.remove(&quot;correct&quot;, &quot;wrong&quot;);
+        if (selected &amp;&amp; selected.value === answers[q]) {
+          div.classList.add(&quot;correct&quot;);
+          score++;
+        } else {
+          div.classList.add(&quot;wrong&quot;);
+        }
+      }
+      document.getElementById(&quot;score&quot;).textContent = &quot;Score: &quot; + score + &quot; / 3&quot;;
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Double Click to Edit</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a list of 5 items. When an item is double-clicked, it turns into an editable text input with the current text. When the user presses Enter or clicks outside (blur), the input is replaced back with the updated text. Use event delegation for the double-click.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Double-click &#39;Read a book&#39;, change to &#39;Read two books&#39;, press Enter</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">The list item text changes from &#39;Read a book&#39; to &#39;Read two books&#39;.</div>
+                </div><div class="challenge-constraints">Use event delegation (single listener on the ul). Use dblclick event. Use keydown for Enter detection. Use blur for click-outside.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    li { padding: 10px; cursor: pointer; font-size: 18px; border-bottom: 1px solid #eee; }
+    li:hover { background: #f3f4f6; }
+    input.edit { font-size: 18px; padding: 8px; width: 100%; border: 2px solid #a855f7; border-radius: 4px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Double-Click to Edit&lt;/h2&gt;
+  &lt;ul id=&quot;list&quot;&gt;
+    &lt;li&gt;Complete homework&lt;/li&gt;
+    &lt;li&gt;Practice coding&lt;/li&gt;
+    &lt;li&gt;Read a book&lt;/li&gt;
+    &lt;li&gt;Go for a walk&lt;/li&gt;
+    &lt;li&gt;Call a friend&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;script&gt;
+    document.getElementById(&quot;list&quot;).addEventListener(&quot;dblclick&quot;, function(e) {
+      if (e.target.tagName === &quot;LI&quot;) {
+        const li = e.target;
+        const oldText = li.textContent;
+        const input = document.createElement(&quot;input&quot;);
+        input.className = &quot;edit&quot;;
+        input.value = oldText;
+        li.textContent = &quot;&quot;;
+        li.appendChild(input);
+        input.focus();
+        function save() {
+          li.textContent = input.value || oldText;
+        }
+        input.addEventListener(&quot;blur&quot;, save);
+        input.addEventListener(&quot;keydown&quot;, function(ev) {
+          if (ev.key === &quot;Enter&quot;) { input.blur(); }
+          if (ev.key === &quot;Escape&quot;) { input.value = oldText; input.blur(); }
+        });
+      }
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Keyboard Shortcuts Panel</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a page with a content area and a shortcuts panel. Implement these keyboard shortcuts: Ctrl+B toggles bold on the content, Ctrl+I toggles italic, Ctrl+L toggles a 'large' class (bigger font), Escape hides the shortcuts panel, and 'H' (without Ctrl) toggles the panel visibility. Show which shortcut was last used.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Press Ctrl+B, then Ctrl+I, then Escape</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Content becomes bold, then bold+italic. Panel hides on Escape.</div>
+                </div><div class="challenge-constraints">Use keydown on document. Use e.preventDefault() to override browser shortcuts. Use classList.toggle for all styling.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial; padding: 20px; }
+    #content { padding: 20px; border: 1px solid #ddd; border-radius: 8px; min-height: 100px; }
+    #content.bold { font-weight: bold; }
+    #content.italic { font-style: italic; }
+    #content.large { font-size: 24px; }
+    #panel { margin-top: 16px; padding: 16px; background: #f3f4f6; border-radius: 8px; }
+    #panel.hidden { display: none; }
+    .shortcut { font-family: monospace; background: #e5e7eb; padding: 2px 6px; border-radius: 4px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&quot;content&quot;&gt;This is the editable content area. Use keyboard shortcuts to style it.&lt;/div&gt;
+  &lt;div id=&quot;panel&quot;&gt;
+    &lt;h3&gt;Shortcuts&lt;/h3&gt;
+    &lt;p&gt;&lt;span class=&quot;shortcut&quot;&gt;Ctrl+B&lt;/span&gt; Bold | &lt;span class=&quot;shortcut&quot;&gt;Ctrl+I&lt;/span&gt; Italic | &lt;span class=&quot;shortcut&quot;&gt;Ctrl+L&lt;/span&gt; Large | &lt;span class=&quot;shortcut&quot;&gt;Esc&lt;/span&gt; Hide panel | &lt;span class=&quot;shortcut&quot;&gt;H&lt;/span&gt; Toggle panel&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p id=&quot;last&quot;&gt;Last shortcut: none&lt;/p&gt;
+  &lt;script&gt;
+    const content = document.getElementById(&quot;content&quot;);
+    const panel = document.getElementById(&quot;panel&quot;);
+    const last = document.getElementById(&quot;last&quot;);
+    document.addEventListener(&quot;keydown&quot;, function(e) {
+      if (e.ctrlKey &amp;&amp; e.key === &quot;b&quot;) { e.preventDefault(); content.classList.toggle(&quot;bold&quot;); last.textContent = &quot;Last shortcut: Ctrl+B&quot;; }
+      else if (e.ctrlKey &amp;&amp; e.key === &quot;i&quot;) { e.preventDefault(); content.classList.toggle(&quot;italic&quot;); last.textContent = &quot;Last shortcut: Ctrl+I&quot;; }
+      else if (e.ctrlKey &amp;&amp; e.key === &quot;l&quot;) { e.preventDefault(); content.classList.toggle(&quot;large&quot;); last.textContent = &quot;Last shortcut: Ctrl+L&quot;; }
+      else if (e.key === &quot;Escape&quot;) { panel.classList.add(&quot;hidden&quot;); last.textContent = &quot;Last shortcut: Escape&quot;; }
+      else if (e.key === &quot;h&quot; || e.key === &quot;H&quot;) { if (!e.ctrlKey) { panel.classList.toggle(&quot;hidden&quot;); last.textContent = &quot;Last shortcut: H&quot;; } }
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Stopwatch with Start/Stop/Reset</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a stopwatch with a time display (MM:SS:ms format) and three buttons: Start, Stop, Reset. Start begins counting, Stop pauses it, Reset sets it back to 00:00:00. Also add a Lap button that records the current time and displays it in a list below.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Click Start, wait, click Lap, click Stop, click Reset</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Timer counts up. Lap times are recorded. Stop pauses. Reset clears.</div>
+                </div><div class="challenge-constraints">Use setInterval for the timer. Use click events for buttons. Use createElement to add lap times to a list.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial; padding: 20px; text-align: center; }
+    #display { font-size: 48px; font-family: monospace; margin: 20px; }
+    button { padding: 10px 20px; margin: 4px; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; color: white; }
+    #start { background: #10b981; } #stop { background: #ef4444; }
+    #reset { background: #6b7280; } #lap { background: #a855f7; }
+    #laps { text-align: left; max-width: 300px; margin: 20px auto; }
+    #laps li { padding: 4px 0; font-family: monospace; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Stopwatch&lt;/h2&gt;
+  &lt;div id=&quot;display&quot;&gt;00:00:00&lt;/div&gt;
+  &lt;button id=&quot;start&quot;&gt;Start&lt;/button&gt;
+  &lt;button id=&quot;stop&quot;&gt;Stop&lt;/button&gt;
+  &lt;button id=&quot;reset&quot;&gt;Reset&lt;/button&gt;
+  &lt;button id=&quot;lap&quot;&gt;Lap&lt;/button&gt;
+  &lt;ol id=&quot;laps&quot;&gt;&lt;/ol&gt;
+  &lt;script&gt;
+    let ms = 0, timer = null;
+    const display = document.getElementById(&quot;display&quot;);
+    function format(ms) {
+      const minutes = String(Math.floor(ms / 6000)).padStart(2, &quot;0&quot;);
+      const seconds = String(Math.floor((ms % 6000) / 100)).padStart(2, &quot;0&quot;);
+      const centis = String(ms % 100).padStart(2, &quot;0&quot;);
+      return minutes + &quot;:&quot; + seconds + &quot;:&quot; + centis;
+    }
+    document.getElementById(&quot;start&quot;).addEventListener(&quot;click&quot;, function() {
+      if (!timer) { timer = setInterval(function() { ms++; display.textContent = format(ms); }, 10); }
+    });
+    document.getElementById(&quot;stop&quot;).addEventListener(&quot;click&quot;, function() {
+      clearInterval(timer); timer = null;
+    });
+    document.getElementById(&quot;reset&quot;).addEventListener(&quot;click&quot;, function() {
+      clearInterval(timer); timer = null; ms = 0; display.textContent = format(ms);
+      document.getElementById(&quot;laps&quot;).innerHTML = &quot;&quot;;
+    });
+    document.getElementById(&quot;lap&quot;).addEventListener(&quot;click&quot;, function() {
+      const li = document.createElement(&quot;li&quot;);
+      li.textContent = format(ms);
+      document.getElementById(&quot;laps&quot;).appendChild(li);
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/javascript/dom-selection-and-manipulation/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">DOM Selection and Manipulation</span>
+        </a>
+            <a href="/resources/javascript/creating-and-removing-elements/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Creating and Removing DOM Elements</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/javascript/dom-events-and-listeners" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

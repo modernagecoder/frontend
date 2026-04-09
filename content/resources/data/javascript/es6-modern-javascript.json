@@ -1,0 +1,678 @@
+{
+  "title": "ES6+ Modern JavaScript Features",
+  "slug": "es6-modern-javascript",
+  "language": "javascript",
+  "chapter": 17,
+  "difficulty": "Advanced",
+  "readingTime": "50 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 52,
+  "seo": {
+    "title": "ES6+ Modern JavaScript - Destructuring, Spread, Arrow Functions, Modules | Modern Age Coders",
+    "description": "Master ES6+ JavaScript features including let/const, arrow functions, destructuring, spread/rest operators, default parameters, optional chaining, nullish coalescing, Map, Set, and ES modules. 56+ practice questions with tricky scenarios.",
+    "keywords": "es6 javascript, javascript destructuring, spread operator javascript, arrow functions, javascript modules, optional chaining, nullish coalescing, let const var, javascript map set, rest parameters javascript"
+  },
+  "content": {
+    "what": "<h2>What Is ES6+ JavaScript?</h2><p><strong>ES6</strong> (also called ES2015) was a massive update to JavaScript released in 2015. It added features that make code shorter, cleaner, and more powerful. Since then, new features have been added every year (ES2016, ES2017, etc.). Together, these are called <strong>ES6+</strong> or <strong>modern JavaScript</strong>.</p><p>Before ES6, JavaScript had only <code>var</code> for variables, no arrow functions, no destructuring, and limited ways to work with data. ES6+ changed everything. Today, every professional JavaScript codebase uses these features.</p><pre><code>// Old JavaScript (before ES6)\nvar name = \"Aarav\";\nvar greet = function(person) {\n  return \"Hello, \" + person + \"!\";\n};\n\n// Modern JavaScript (ES6+)\nconst name = \"Aarav\";\nconst greet = (person) => `Hello, ${person}!`;</code></pre><p>Both do the same thing, but the modern version is shorter and more readable.</p>",
+    "why": "<h2>Why Learn ES6+?</h2><h3>1. Every Modern Codebase Uses It</h3><p>If you look at any professional JavaScript project, React component, Node.js server, or open-source library, you will see ES6+ everywhere. Arrow functions, destructuring, and const/let have completely replaced older patterns. You cannot read or contribute to modern code without knowing these features.</p><h3>2. It Makes Code Shorter and Clearer</h3><p>Destructuring pulls values out of objects and arrays in one line. Arrow functions remove boilerplate. Template literals make string building readable. Spread operators replace complex copying patterns. Your code becomes easier to write and easier to read.</p><h3>3. It Prevents Bugs</h3><p><code>let</code> and <code>const</code> have block scoping, which prevents the accidental variable sharing bugs that <code>var</code> caused. Optional chaining prevents the \"Cannot read property of undefined\" error. Nullish coalescing handles default values properly.</p><h3>4. Interview and Job Essential</h3><p>ES6+ questions appear in almost every JavaScript interview. Destructuring, arrow functions, and spread/rest are among the most commonly tested topics. Employers expect candidates to write modern JavaScript.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. let and const (Block Scoping)</h3><p><code>let</code> and <code>const</code> replace <code>var</code>. The key difference is <strong>block scoping</strong>: they exist only inside the block <code>{ }</code> where they are declared.</p><pre><code>// var is function-scoped (leaks out of blocks)\nif (true) {\n  var x = 10;\n}\nconsole.log(x); // 10 -- var leaks out!\n\n// let is block-scoped (stays inside the block)\nif (true) {\n  let y = 20;\n}\n// console.log(y); // ReferenceError: y is not defined\n\n// const is also block-scoped and cannot be reassigned\nconst PI = 3.14159;\n// PI = 3; // TypeError: Assignment to constant variable\n\n// But const objects/arrays CAN be modified\nconst arr = [1, 2, 3];\narr.push(4); // OK! The array itself is modified, not the variable\nconsole.log(arr); // [1, 2, 3, 4]\n\nconst obj = { name: \"Aarav\" };\nobj.age = 16; // OK! Adding a property to the object\nconsole.log(obj); // { name: \"Aarav\", age: 16 }</code></pre><p><strong>Rule of thumb:</strong> Use <code>const</code> by default. Use <code>let</code> only when you need to reassign. Never use <code>var</code>.</p><h3>2. Arrow Functions Deep Dive</h3><p>Arrow functions are a shorter way to write functions. They have some differences from regular functions:</p><pre><code>// Regular function\nfunction add(a, b) {\n  return a + b;\n}\n\n// Arrow function (full form)\nconst add = (a, b) => {\n  return a + b;\n};\n\n// Arrow function (short form -- implicit return)\nconst add = (a, b) => a + b;\n\n// Single parameter -- parentheses optional\nconst double = n => n * 2;\n\n// No parameters -- empty parentheses required\nconst greet = () => \"Hello!\";\n\n// Returning an object literal -- wrap in parentheses\nconst makeUser = (name, age) => ({ name: name, age: age });</code></pre><p>When the function body is a single expression, you can remove the curly braces and the <code>return</code> keyword. The expression's value is returned automatically (implicit return).</p><h3>3. Destructuring</h3><p>Destructuring lets you pull values out of arrays and objects into variables in one step.</p><h4>Array Destructuring</h4><pre><code>// Without destructuring\nconst colors = [\"red\", \"green\", \"blue\"];\nconst first = colors[0];\nconst second = colors[1];\n\n// With destructuring\nconst [first, second, third] = [\"red\", \"green\", \"blue\"];\nconsole.log(first);  // \"red\"\nconsole.log(second); // \"green\"\nconsole.log(third);  // \"blue\"\n\n// Skip elements\nconst [a, , c] = [10, 20, 30];\nconsole.log(a); // 10\nconsole.log(c); // 30\n\n// Default values\nconst [x = 5, y = 10] = [1];\nconsole.log(x); // 1 (provided)\nconsole.log(y); // 10 (default, since not provided)\n\n// Swap variables\nlet p = 1, q = 2;\n[p, q] = [q, p];\nconsole.log(p, q); // 2, 1</code></pre><h4>Object Destructuring</h4><pre><code>const student = { name: \"Priya\", age: 15, city: \"Mumbai\" };\n\n// Without destructuring\nconst name = student.name;\nconst age = student.age;\n\n// With destructuring\nconst { name, age, city } = student;\nconsole.log(name); // \"Priya\"\nconsole.log(age);  // 15\n\n// Renaming variables\nconst { name: studentName, age: studentAge } = student;\nconsole.log(studentName); // \"Priya\"\n\n// Default values\nconst { name, grade = \"10th\" } = student;\nconsole.log(grade); // \"10th\" (default, not in object)\n\n// Nested destructuring\nconst user = {\n  name: \"Rohan\",\n  address: {\n    city: \"Delhi\",\n    pin: 110001\n  }\n};\n\nconst { address: { city, pin } } = user;\nconsole.log(city); // \"Delhi\"\nconsole.log(pin);  // 110001</code></pre><h4>Destructuring in Function Parameters</h4><pre><code>// Without destructuring\nfunction greet(person) {\n  return \"Hello, \" + person.name + \" from \" + person.city;\n}\n\n// With destructuring in the parameter\nfunction greet({ name, city }) {\n  return `Hello, ${name} from ${city}`;\n}\n\nconst result = greet({ name: \"Diya\", city: \"Bangalore\" });\nconsole.log(result); // \"Hello, Diya from Bangalore\"</code></pre><h3>4. Spread Operator (...)</h3><p>The spread operator <code>...</code> expands an array or object into individual elements.</p><pre><code>// Spread with arrays\nconst arr1 = [1, 2, 3];\nconst arr2 = [4, 5, 6];\nconst merged = [...arr1, ...arr2];\nconsole.log(merged); // [1, 2, 3, 4, 5, 6]\n\n// Copy an array (not a reference)\nconst original = [1, 2, 3];\nconst copy = [...original];\ncopy.push(4);\nconsole.log(original); // [1, 2, 3] -- not affected\nconsole.log(copy);     // [1, 2, 3, 4]\n\n// Spread with objects\nconst base = { color: \"red\", size: \"M\" };\nconst extended = { ...base, size: \"L\", weight: 100 };\nconsole.log(extended); // { color: \"red\", size: \"L\", weight: 100 }\n// Notice: size is \"L\" because the later property wins\n\n// Spread in function calls\nconst numbers = [5, 2, 8, 1, 9];\nconsole.log(Math.max(...numbers)); // 9</code></pre><h3>5. Rest Parameters (...)</h3><p>Rest looks like spread but works in reverse -- it collects multiple elements into an array.</p><pre><code>// Rest in function parameters\nfunction sum(...numbers) {\n  let total = 0;\n  for (const n of numbers) {\n    total += n;\n  }\n  return total;\n}\nconsole.log(sum(1, 2, 3));    // 6\nconsole.log(sum(10, 20));     // 30\nconsole.log(sum(5));          // 5\n\n// Rest with regular parameters\nfunction introduce(greeting, ...names) {\n  return greeting + \" \" + names.join(\" and \");\n}\nconsole.log(introduce(\"Hello\", \"Aarav\", \"Priya\", \"Rohan\"));\n// \"Hello Aarav and Priya and Rohan\"\n\n// Rest in destructuring\nconst [first, second, ...remaining] = [1, 2, 3, 4, 5];\nconsole.log(first);     // 1\nconsole.log(second);    // 2\nconsole.log(remaining); // [3, 4, 5]\n\nconst { name, ...rest } = { name: \"Aarav\", age: 16, city: \"Delhi\" };\nconsole.log(name); // \"Aarav\"\nconsole.log(rest); // { age: 16, city: \"Delhi\" }</code></pre><h3>6. Default Parameters</h3><pre><code>// Default parameter values\nfunction greet(name = \"Guest\", greeting = \"Hello\") {\n  return `${greeting}, ${name}!`;\n}\n\nconsole.log(greet(\"Aarav\", \"Hi\")); // \"Hi, Aarav!\"\nconsole.log(greet(\"Priya\"));       // \"Hello, Priya!\"\nconsole.log(greet());              // \"Hello, Guest!\"\n\n// Default using previous parameters\nfunction createUser(name, role = \"student\", id = name.toLowerCase()) {\n  return { name, role, id };\n}\nconsole.log(createUser(\"Aarav\")); // { name: \"Aarav\", role: \"student\", id: \"aarav\" }</code></pre><h3>7. Enhanced Object Literals</h3><pre><code>const name = \"Diya\";\nconst age = 14;\nconst hobby = \"coding\";\n\n// Shorthand properties (key = variable name)\nconst student = { name, age, hobby };\nconsole.log(student); // { name: \"Diya\", age: 14, hobby: \"coding\" }\n\n// Shorthand methods\nconst calculator = {\n  add(a, b) { return a + b; },\n  subtract(a, b) { return a - b; }\n};\nconsole.log(calculator.add(5, 3)); // 8\n\n// Computed property names\nconst key = \"score\";\nconst obj = { [key]: 95, [key + \"Max\"]: 100 };\nconsole.log(obj); // { score: 95, scoreMax: 100 }</code></pre><h3>8. Optional Chaining (?.)</h3><p>Optional chaining lets you safely access deeply nested properties without checking each level:</p><pre><code>const user = {\n  name: \"Aarav\",\n  address: {\n    city: \"Delhi\"\n  }\n};\n\n// Without optional chaining -- crashes if address is undefined\n// console.log(user.phone.number); // TypeError!\n\n// With optional chaining -- returns undefined instead of crashing\nconsole.log(user.phone?.number); // undefined\nconsole.log(user.address?.city); // \"Delhi\"\nconsole.log(user.address?.pin);  // undefined\n\n// Chaining multiple levels\nconst data = { a: { b: { c: 42 } } };\nconsole.log(data.a?.b?.c);  // 42\nconsole.log(data.x?.y?.z);  // undefined\n\n// With methods\nconst arr = [1, 2, 3];\nconsole.log(arr.find?.(x => x > 2)); // 3\nconsole.log(arr.flatten?.());        // undefined (method does not exist)</code></pre><h3>9. Nullish Coalescing (??)</h3><p>The <code>??</code> operator returns the right side only if the left side is <code>null</code> or <code>undefined</code> (not just falsy):</p><pre><code>// Problem with || for defaults\nconst count = 0;\nconsole.log(count || 10); // 10 -- WRONG! 0 is valid but falsy\n\n// ?? only triggers on null/undefined\nconsole.log(count ?? 10); // 0 -- CORRECT! 0 is not null/undefined\n\nconsole.log(null ?? \"default\");      // \"default\"\nconsole.log(undefined ?? \"default\"); // \"default\"\nconsole.log(0 ?? \"default\");         // 0\nconsole.log(\"\" ?? \"default\");        // \"\"\nconsole.log(false ?? \"default\");     // false\n\n// Combine with optional chaining\nconst user = {};\nconst city = user.address?.city ?? \"Unknown\";\nconsole.log(city); // \"Unknown\"</code></pre><h3>10. for...of Loop</h3><pre><code>// for...of iterates over values (arrays, strings, Maps, Sets)\nconst fruits = [\"apple\", \"banana\", \"cherry\"];\n\nfor (const fruit of fruits) {\n  console.log(fruit);\n}\n// \"apple\", \"banana\", \"cherry\"\n\n// Works with strings\nfor (const char of \"Hello\") {\n  console.log(char);\n}\n// \"H\", \"e\", \"l\", \"l\", \"o\"\n\n// for...in iterates over keys (object properties)\nconst student = { name: \"Aarav\", age: 16 };\nfor (const key in student) {\n  console.log(key + \": \" + student[key]);\n}\n// \"name: Aarav\", \"age: 16\"</code></pre><h3>11. Map and Set</h3><pre><code>// Map -- key-value pairs where keys can be ANY type\nconst map = new Map();\nmap.set(\"name\", \"Aarav\");\nmap.set(42, \"the answer\");\nmap.set(true, \"yes\");\n\nconsole.log(map.get(\"name\")); // \"Aarav\"\nconsole.log(map.get(42));     // \"the answer\"\nconsole.log(map.size);        // 3\nconsole.log(map.has(\"name\")); // true\n\nmap.forEach(function(value, key) {\n  console.log(key + \" => \" + value);\n});\n\n// Set -- collection of unique values\nconst set = new Set([1, 2, 3, 2, 1, 4]);\nconsole.log(set); // Set {1, 2, 3, 4} -- duplicates removed\nconsole.log(set.size); // 4\nconsole.log(set.has(3)); // true\n\nset.add(5);\nset.delete(1);\nconsole.log([...set]); // [2, 3, 4, 5] -- convert to array</code></pre><h3>12. Import/Export Modules</h3><pre><code>// math.js -- exporting\nexport const PI = 3.14159;\n\nexport function add(a, b) {\n  return a + b;\n}\n\nexport default function multiply(a, b) {\n  return a * b;\n}\n\n// app.js -- importing\nimport multiply, { PI, add } from \"./math.js\";\n\nconsole.log(PI);           // 3.14159\nconsole.log(add(2, 3));    // 5\nconsole.log(multiply(4, 5)); // 20\n\n// In HTML, use type=\"module\":\n// &lt;script type=\"module\" src=\"app.js\"&gt;&lt;/script&gt;</code></pre><p>Named exports use <code>{ }</code> when importing. Default exports can be imported with any name, without curly braces.</p>"
+  ,
+  "codeExamples": [
+    {
+      "title": "let vs var in Loops (Closure Trap)",
+      "code": "// Problem with var\nfor (var i = 0; i < 3; i++) {\n  setTimeout(function() {\n    console.log(\"var:\", i);\n  }, 100);\n}\n// Output: var: 3, var: 3, var: 3 (all 3!)\n\n// Fixed with let\nfor (let j = 0; j < 3; j++) {\n  setTimeout(function() {\n    console.log(\"let:\", j);\n  }, 100);\n}\n// Output: let: 0, let: 1, let: 2",
+      "language": "javascript",
+      "explanation": "With <code>var</code>, there is only one <code>i</code> shared across all iterations. By the time setTimeout runs, the loop is done and <code>i</code> is 3. With <code>let</code>, each iteration creates a new <code>j</code> in its own scope, so each callback captures a different value.",
+      "output": "var: 3\nvar: 3\nvar: 3\nlet: 0\nlet: 1\nlet: 2"
+    },
+    {
+      "title": "Destructuring with Nested Objects and Defaults",
+      "code": "const apiResponse = {\n  user: {\n    name: \"Kavya\",\n    scores: [85, 92, 78],\n    address: {\n      city: \"Chennai\"\n    }\n  },\n  status: 200\n};\n\n// Nested destructuring with renaming and defaults\nconst {\n  user: {\n    name: userName,\n    scores: [first, ...otherScores],\n    address: { city, state = \"Tamil Nadu\" }\n  },\n  status\n} = apiResponse;\n\nconsole.log(userName);     // \"Kavya\"\nconsole.log(first);        // 85\nconsole.log(otherScores);  // [92, 78]\nconsole.log(city);         // \"Chennai\"\nconsole.log(state);        // \"Tamil Nadu\" (default)\nconsole.log(status);       // 200",
+      "language": "javascript",
+      "explanation": "This example combines nested object destructuring, array destructuring with rest, variable renaming (<code>name: userName</code>), and default values (<code>state = \"Tamil Nadu\"</code>) all in one statement. While powerful, do not go deeper than 2-3 levels or the code becomes hard to read.",
+      "output": "Kavya\n85\n[92, 78]\nChennai\nTamil Nadu\n200"
+    },
+    {
+      "title": "Spread and Rest in Real Scenarios",
+      "code": "// Merge arrays\nconst morning = [\"Maths\", \"Science\"];\nconst afternoon = [\"English\", \"Hindi\"];\nconst schedule = [...morning, \"Lunch\", ...afternoon];\nconsole.log(schedule);\n// [\"Maths\", \"Science\", \"Lunch\", \"English\", \"Hindi\"]\n\n// Merge objects with override\nconst defaults = { theme: \"dark\", fontSize: 14, lang: \"en\" };\nconst userPrefs = { fontSize: 18, lang: \"hi\" };\nconst settings = { ...defaults, ...userPrefs };\nconsole.log(settings);\n// { theme: \"dark\", fontSize: 18, lang: \"hi\" }\n\n// Rest to collect remaining\nfunction logFirst(first, ...rest) {\n  console.log(\"First:\", first);\n  console.log(\"Rest:\", rest);\n}\nlogFirst(\"Aarav\", \"Priya\", \"Rohan\", \"Diya\");\n// First: Aarav\n// Rest: [\"Priya\", \"Rohan\", \"Diya\"]",
+      "language": "javascript",
+      "explanation": "Spread <code>...</code> expands arrays/objects. Rest <code>...</code> collects elements. When merging objects, later properties override earlier ones (fontSize 14 becomes 18). Rest parameters must be the last parameter in a function.",
+      "output": "[\"Maths\", \"Science\", \"Lunch\", \"English\", \"Hindi\"]\n{ theme: \"dark\", fontSize: 18, lang: \"hi\" }\nFirst: Aarav\nRest: [\"Priya\", \"Rohan\", \"Diya\"]"
+    },
+    {
+      "title": "Optional Chaining and Nullish Coalescing Together",
+      "code": "const students = [\n  { name: \"Aarav\", scores: { maths: 90, science: 85 } },\n  { name: \"Priya\", scores: { maths: 78 } },\n  { name: \"Rohan\" }  // no scores at all\n];\n\nstudents.forEach(function(student) {\n  const maths = student.scores?.maths ?? \"N/A\";\n  const science = student.scores?.science ?? \"N/A\";\n  console.log(`${student.name}: Maths=${maths}, Science=${science}`);\n});\n\n// Without ?. and ??, you would need:\n// if (student.scores && student.scores.maths !== undefined) ...",
+      "language": "javascript",
+      "explanation": "Optional chaining (<code>?.</code>) safely accesses nested properties, returning <code>undefined</code> if any part is missing. Nullish coalescing (<code>??</code>) provides a fallback only for <code>null</code>/<code>undefined</code>. Together, they handle missing data cleanly without nested if checks.",
+      "output": "Aarav: Maths=90, Science=85\nPriya: Maths=78, Science=N/A\nRohan: Maths=N/A, Science=N/A"
+    },
+    {
+      "title": "Map and Set Practical Usage",
+      "code": "// Count character frequency with Map\nfunction charCount(str) {\n  const map = new Map();\n  for (const char of str) {\n    map.set(char, (map.get(char) || 0) + 1);\n  }\n  return map;\n}\n\nconst counts = charCount(\"banana\");\ncounts.forEach(function(count, char) {\n  console.log(char + \": \" + count);\n});\n// b: 1, a: 3, n: 2\n\n// Remove duplicates with Set\nconst numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];\nconst unique = [...new Set(numbers)];\nconsole.log(unique); // [3, 1, 4, 5, 9, 2, 6]\n\n// Find common elements between two arrays\nfunction intersection(arr1, arr2) {\n  const set = new Set(arr1);\n  return arr2.filter(item => set.has(item));\n}\nconsole.log(intersection([1, 2, 3, 4], [3, 4, 5, 6])); // [3, 4]",
+      "language": "javascript",
+      "explanation": "Map is perfect for counting because keys can be any type. Set automatically removes duplicates and provides O(1) lookup with <code>has()</code>. Converting a Set to an array with <code>[...set]</code> uses the spread operator.",
+      "output": "b: 1\na: 3\nn: 2\n[3, 1, 4, 5, 9, 2, 6]\n[3, 4]"
+    },
+    {
+      "title": "Arrow Functions vs Regular Functions",
+      "code": "// Arrow functions and 'this'\nconst team = {\n  name: \"Sky Coders\",\n  members: [\"Aarav\", \"Priya\", \"Rohan\"],\n\n  // Regular function -- 'this' depends on how it is called\n  listMembers: function() {\n    // Arrow inside a method -- inherits 'this' from listMembers\n    this.members.forEach(member => {\n      console.log(member + \" is in \" + this.name);\n    });\n  }\n};\n\nteam.listMembers();\n// Aarav is in Sky Coders\n// Priya is in Sky Coders\n// Rohan is in Sky Coders\n\n// Different arrow function forms\nconst square = x => x * x;\nconst add = (a, b) => a + b;\nconst getObj = () => ({ key: \"value\" }); // Object needs parentheses\nconst multiLine = (x) => {\n  const result = x * 2;\n  return result + 1;\n};\n\nconsole.log(square(5));     // 25\nconsole.log(add(3, 4));     // 7\nconsole.log(getObj());      // { key: \"value\" }\nconsole.log(multiLine(10)); // 21",
+      "language": "javascript",
+      "explanation": "Arrow functions do not have their own <code>this</code> -- they inherit it from the enclosing scope. Inside forEach, a regular function would lose <code>this</code>, but an arrow function inherits <code>this</code> from <code>listMembers</code>, so <code>this.name</code> works correctly.",
+      "output": "Aarav is in Sky Coders\nPriya is in Sky Coders\nRohan is in Sky Coders\n25\n7\n{ key: \"value\" }\n21"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Trying to Reassign a const Variable",
+      "wrongCode": "const name = \"Aarav\";\nname = \"Priya\"; // TypeError!",
+      "error": "TypeError: Assignment to constant variable.",
+      "correctCode": "let name = \"Aarav\";\nname = \"Priya\"; // Use let when you need to reassign\n\n// Or with const for objects (modify properties, not the variable)\nconst student = { name: \"Aarav\" };\nstudent.name = \"Priya\"; // OK! Modifying property, not reassigning",
+      "explanation": "<code>const</code> prevents reassigning the variable itself. For primitives (strings, numbers), this means the value cannot change. For objects and arrays, the reference cannot change, but you CAN modify properties or elements."
+    },
+    {
+      "title": "Forgetting Parentheses When Arrow Function Returns an Object",
+      "wrongCode": "const makeUser = (name) => { name: name, age: 16 };\nconsole.log(makeUser(\"Aarav\")); // undefined!",
+      "error": "Returns undefined because JavaScript treats { } as a function body, not an object literal. The 'name: name' is interpreted as a label.",
+      "correctCode": "const makeUser = (name) => ({ name: name, age: 16 });\nconsole.log(makeUser(\"Aarav\")); // { name: \"Aarav\", age: 16 }",
+      "explanation": "When an arrow function returns an object literal, wrap it in parentheses <code>=> ({ ... })</code>. Without them, JavaScript interprets the curly braces as the function body, not an object."
+    },
+    {
+      "title": "Confusing Spread (Copy) with Assignment (Reference)",
+      "wrongCode": "const original = [1, 2, 3];\nconst copy = original; // This is NOT a copy!\ncopy.push(4);\nconsole.log(original); // [1, 2, 3, 4] -- original changed!",
+      "error": "Both variables point to the same array. Modifying one affects the other.",
+      "correctCode": "const original = [1, 2, 3];\nconst copy = [...original]; // Spread creates a real copy\ncopy.push(4);\nconsole.log(original); // [1, 2, 3] -- untouched\nconsole.log(copy);     // [1, 2, 3, 4]",
+      "explanation": "Assignment (<code>=</code>) with arrays and objects copies the <strong>reference</strong>, not the data. Both variables point to the same array. Use spread <code>[...arr]</code> or <code>{...obj}</code> to create a shallow copy."
+    },
+    {
+      "title": "Using ?? When You Mean || (or Vice Versa)",
+      "wrongCode": "// Using || when 0 and '' are valid values\nconst score = 0;\nconst displayScore = score || \"No score\"; // \"No score\" -- WRONG!\n\nconst name = \"\";\nconst displayName = name || \"Anonymous\"; // \"Anonymous\" -- WRONG!",
+      "error": "|| treats 0, \"\", false, NaN as falsy and replaces them. If these are valid values in your program, || gives wrong results.",
+      "correctCode": "const score = 0;\nconst displayScore = score ?? \"No score\"; // 0 -- CORRECT!\n\nconst name = \"\";\nconst displayName = name ?? \"Anonymous\"; // \"\" -- CORRECT!\n\n// Use ?? when null/undefined means 'missing'\n// Use || when any falsy value means 'missing'",
+      "explanation": "<code>||</code> returns the right side for ANY falsy value (0, \"\", false, null, undefined, NaN). <code>??</code> returns the right side ONLY for null and undefined. Use ?? when values like 0 and empty string are legitimate."
+    },
+    {
+      "title": "Destructuring from undefined",
+      "wrongCode": "const user = {};\nconst { address: { city } } = user;\n// TypeError: Cannot destructure property 'city' of undefined",
+      "error": "TypeError: Cannot destructure property 'city' of undefined. user.address is undefined, and you cannot destructure undefined.",
+      "correctCode": "const user = {};\n\n// Option 1: Default value for nested object\nconst { address: { city } = {} } = user;\nconsole.log(city); // undefined (but no error)\n\n// Option 2: Optional chaining\nconst city = user.address?.city;\nconsole.log(city); // undefined (no error)",
+      "explanation": "When destructuring nested objects, if a middle level is undefined, JavaScript cannot read properties from it. Provide a default value <code>= {}</code> for the nested object, or use optional chaining instead."
+    }
+  ],
+  "summary": [
+    "Use const by default, let when you need to reassign, and never use var. const and let are block-scoped (inside { }), while var is function-scoped and leaks out of blocks.",
+    "Arrow functions are shorter: (a, b) => a + b. They have implicit return for single expressions (no curly braces or return keyword needed). They inherit 'this' from the enclosing scope.",
+    "Destructuring extracts values from arrays [a, b] = arr and objects { name, age } = obj in one step. It supports default values, renaming, nested destructuring, and rest patterns.",
+    "The spread operator (...) expands arrays and objects: [...arr1, ...arr2] merges arrays, { ...obj1, ...obj2 } merges objects. Later properties override earlier ones in object spread.",
+    "Rest parameters (...args) collect multiple arguments into an array. Rest in destructuring collects remaining elements: [first, ...rest] = arr.",
+    "Default parameters (name = 'Guest') provide fallback values when arguments are not passed or are undefined.",
+    "Optional chaining (?.) safely accesses nested properties: user.address?.city returns undefined instead of throwing TypeError when address is missing.",
+    "Nullish coalescing (??) provides defaults only for null/undefined: 0 ?? 10 gives 0 (not 10). Use ?? instead of || when 0, '', or false are valid values.",
+    "Map holds key-value pairs with any key type. Set holds unique values and removes duplicates automatically. Both are iterable with for...of and forEach.",
+    "ES modules use export/import to share code between files. Named exports use { }, default exports do not. In HTML, use script type='module'."
+  ]
+  },
+  "relatedTopics": ["project-interactive-quiz-app", "error-handling-and-debugging"],
+  "practice": {
+    "totalQuestions": 52,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const x = 10;\nlet y = 20;\ny = 30;\nconsole.log(x, y);</code></pre>",
+        "hint": "const cannot be reassigned, let can.",
+        "answer": "<code>10 30</code>",
+        "explanation": "x is const and stays 10. y is let and is reassigned to 30."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const double = n => n * 2;\nconsole.log(double(7));</code></pre>",
+        "hint": "Arrow function with single parameter and implicit return.",
+        "answer": "<code>14</code>",
+        "explanation": "The arrow function takes n and returns n * 2. 7 * 2 = 14. Single parameter does not need parentheses, single expression does not need return keyword."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const [a, b, c] = [\"red\", \"green\", \"blue\"];\nconsole.log(b);</code></pre>",
+        "hint": "Array destructuring maps by position.",
+        "answer": "<code>green</code>",
+        "explanation": "Array destructuring assigns by position: a=\"red\", b=\"green\", c=\"blue\". console.log(b) outputs \"green\"."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const { name, age } = { name: \"Kavya\", age: 14, city: \"Pune\" };\nconsole.log(name, age);</code></pre>",
+        "hint": "Object destructuring extracts named properties.",
+        "answer": "<code>Kavya 14</code>",
+        "explanation": "Object destructuring extracts name and age from the object. city is not destructured so it is ignored."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const arr = [1, 2, 3];\nconst merged = [...arr, 4, 5];\nconsole.log(merged);</code></pre>",
+        "hint": "Spread expands the array elements.",
+        "answer": "<code>[1, 2, 3, 4, 5]</code>",
+        "explanation": "The spread operator expands arr into individual elements: 1, 2, 3. Then 4 and 5 are added after."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const [first, , third] = [10, 20, 30, 40];\nconsole.log(first, third);</code></pre>",
+        "hint": "The empty slot (comma with nothing) skips an element.",
+        "answer": "<code>10 30</code>",
+        "explanation": "The empty position (between the two commas) skips the second element (20). first=10, third=30. The 40 is not destructured."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const { name: studentName, grade = \"10th\" } = { name: \"Rohan\" };\nconsole.log(studentName);\nconsole.log(grade);</code></pre>",
+        "hint": "name: studentName renames. grade has a default because it is not in the object.",
+        "answer": "<code>Rohan</code><br><code>10th</code>",
+        "explanation": "<code>name: studentName</code> renames: the value of name goes into studentName. grade is not in the object, so the default \"10th\" is used."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function greet(name = \"Guest\") {\n  return `Hello, ${name}!`;\n}\n\nconsole.log(greet(\"Aarav\"));\nconsole.log(greet());\nconsole.log(greet(undefined));</code></pre>",
+        "hint": "Default is used when no argument or undefined is passed.",
+        "answer": "<code>Hello, Aarav!</code><br><code>Hello, Guest!</code><br><code>Hello, Guest!</code>",
+        "explanation": "\"Aarav\" is provided so it overrides the default. No argument and undefined both trigger the default \"Guest\"."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const base = { a: 1, b: 2 };\nconst extra = { b: 3, c: 4 };\nconst merged = { ...base, ...extra };\nconsole.log(merged);</code></pre>",
+        "hint": "When spreading objects, later properties override earlier ones with the same key.",
+        "answer": "<code>{ a: 1, b: 3, c: 4 }</code>",
+        "explanation": "Spread base gives a:1, b:2. Spread extra gives b:3, c:4. The second b:3 overrides the first b:2. Result: {a:1, b:3, c:4}."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const [first, ...rest] = [10, 20, 30, 40, 50];\nconsole.log(first);\nconsole.log(rest);\nconsole.log(rest.length);</code></pre>",
+        "hint": "Rest collects all remaining elements into an array.",
+        "answer": "<code>10</code><br><code>[20, 30, 40, 50]</code><br><code>4</code>",
+        "explanation": "first gets 10. rest collects the remaining elements [20, 30, 40, 50]. rest.length is 4."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const user = { name: \"Diya\" };\nconsole.log(user.address?.city);\nconsole.log(user.address?.city ?? \"Unknown\");</code></pre>",
+        "hint": "Optional chaining returns undefined when a level is missing.",
+        "answer": "<code>undefined</code><br><code>Unknown</code>",
+        "explanation": "user.address is undefined. Optional chaining returns undefined (no error). Then ?? replaces undefined with \"Unknown\"."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const { a: { b: value } = {} } = { a: { b: 42 } };\nconsole.log(value);\n\nconst { a: { b: value2 } = {} } = {};\nconsole.log(value2);</code></pre>",
+        "hint": "In the first case, a exists. In the second, a is undefined so the default {} is used.",
+        "answer": "<code>42</code><br><code>undefined</code>",
+        "explanation": "First: a exists as {b: 42}, so b is 42. The default = {} is not needed. Second: a does not exist, so the default {} is used. {} has no b property, so value2 is undefined."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(0 ?? \"zero\");\nconsole.log(0 || \"zero\");\nconsole.log(\"\" ?? \"empty\");\nconsole.log(\"\" || \"empty\");\nconsole.log(null ?? \"null\");\nconsole.log(null || \"null\");</code></pre>",
+        "hint": "?? triggers only on null/undefined. || triggers on any falsy value.",
+        "answer": "<code>0</code><br><code>zero</code><br><code></code> (empty string)<br><code>empty</code><br><code>null</code><br><code>null</code>",
+        "explanation": "?? only replaces null and undefined. 0 and \"\" are NOT null/undefined, so ?? keeps them. || replaces any falsy value (0, \"\", null, false). Both give \"null\" for the null case."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function collect(first, ...middle, last) {\n  console.log(first, middle, last);\n}\ncollect(1, 2, 3, 4, 5);</code></pre>",
+        "hint": "Where must rest parameters appear?",
+        "answer": "<code>SyntaxError: Rest parameter must be last formal parameter</code>",
+        "explanation": "Rest parameters must be the LAST parameter in the function. Having <code>last</code> after <code>...middle</code> is a syntax error. JavaScript would not know where \"middle\" ends and \"last\" begins."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const set = new Set([1, 2, 3, 2, 1]);\nset.add(4);\nset.add(2);\nset.delete(1);\nconsole.log([...set]);\nconsole.log(set.size);</code></pre>",
+        "hint": "Set removes duplicates. Adding an existing value does nothing.",
+        "answer": "<code>[2, 3, 4]</code><br><code>3</code>",
+        "explanation": "Initial set: {1, 2, 3} (duplicates removed). Add 4: {1, 2, 3, 4}. Add 2 again: no change (already exists). Delete 1: {2, 3, 4}. Size is 3."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const add = (a, b) => a + b;\nconst result = add(3, 4);\nconsole.log(result);</code></pre>",
+        "hint": "Arrow function with two parameters and implicit return.",
+        "answer": "<code>7</code>",
+        "explanation": "The arrow function adds a and b. 3 + 4 = 7."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const name = \"Ankit\";\nconst age = 16;\nconst student = { name, age };\nconsole.log(student);</code></pre>",
+        "hint": "Shorthand property syntax: { name } is the same as { name: name }.",
+        "answer": "<code>{ name: \"Ankit\", age: 16 }</code>",
+        "explanation": "Shorthand property syntax. When the variable name matches the property name, you write { name } instead of { name: name }."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let a = 5, b = 10;\n[a, b] = [b, a];\nconsole.log(a, b);</code></pre>",
+        "hint": "Array destructuring swaps values without a temporary variable.",
+        "answer": "<code>10 5</code>",
+        "explanation": "The right side creates [10, 5]. Destructuring assigns a=10 and b=5. This is the swap pattern using destructuring."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const key = \"score\";\nconst obj = { [key]: 95, [key + \"Max\"]: 100 };\nconsole.log(obj);</code></pre>",
+        "hint": "Computed property names use [expression] as the key.",
+        "answer": "<code>{ score: 95, scoreMax: 100 }</code>",
+        "explanation": "Computed property names: [key] evaluates to \"score\", [key + \"Max\"] evaluates to \"scoreMax\"."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const map = new Map();\nmap.set(\"a\", 1);\nmap.set(\"b\", 2);\nmap.set(\"a\", 3);\nconsole.log(map.get(\"a\"));\nconsole.log(map.size);</code></pre>",
+        "hint": "Setting the same key again overwrites the value.",
+        "answer": "<code>3</code><br><code>2</code>",
+        "explanation": "The second set(\"a\", 3) overwrites the first set(\"a\", 1). So get(\"a\") returns 3. Size is 2 (keys \"a\" and \"b\")."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>const arr = [1, 2, 3];\nconst copy = [...arr];\ncopy.push(4);\nconsole.log(arr.length);\nconsole.log(copy.length);</code></pre>",
+        "hint": "Spread creates a new array. Changes to copy do not affect original.",
+        "answer": "<code>3</code><br><code>4</code>",
+        "explanation": "Spread creates a shallow copy. Pushing to copy does not affect the original arr. arr stays [1,2,3] (length 3), copy becomes [1,2,3,4] (length 4)."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const fn = () => ({ name: \"test\" });\nconst fn2 = () => { name: \"test\" };\nconsole.log(fn());\nconsole.log(fn2());</code></pre>",
+        "hint": "Pay attention to the parentheses around the object literal.",
+        "answer": "<code>{ name: \"test\" }</code><br><code>undefined</code>",
+        "explanation": "fn wraps the object in parentheses, so it returns the object. fn2 has { } treated as a function body, \"name:\" is treated as a label, and there is no return statement, so it returns undefined."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function test({ a, b = 10, ...rest }) {\n  console.log(a, b, rest);\n}\n\ntest({ a: 1, b: 2, c: 3, d: 4 });\ntest({ a: 5, c: 6 });</code></pre>",
+        "hint": "Destructure the parameter. b has a default. rest collects remaining properties.",
+        "answer": "<code>1 2 { c: 3, d: 4 }</code><br><code>5 10 { c: 6 }</code>",
+        "explanation": "First call: a=1, b=2 (provided), rest={c:3, d:4}. Second call: a=5, b=10 (default since not provided), rest={c:6}."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>if (true) {\n  var a = 1;\n  let b = 2;\n  const c = 3;\n}\nconsole.log(a);\nconsole.log(typeof b);\nconsole.log(typeof c);</code></pre>",
+        "hint": "var escapes the block. let and const do not.",
+        "answer": "<code>1</code><br><code>undefined</code><br><code>undefined</code>",
+        "explanation": "var is function-scoped, so a is accessible outside the block. let and const are block-scoped, so b and c do not exist outside. typeof returns \"undefined\" for undeclared variables."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const nums = [5, 2, 8, 1, 9];\nconsole.log(Math.max(...nums));\nconsole.log(Math.min(...nums));\n\nconst all = [...nums, ...nums];\nconsole.log(all.length);\nconsole.log(new Set(all).size);</code></pre>",
+        "hint": "Spread in function args. Spread in array creation. Set removes duplicates.",
+        "answer": "<code>9</code><br><code>1</code><br><code>10</code><br><code>5</code>",
+        "explanation": "Spread passes array elements as arguments to Math.max (9) and Math.min (1). Merging nums with itself gives 10 elements. Set removes duplicates: 5 unique values."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which keyword should you use by default for declaring variables in modern JavaScript?",
+        "options": {
+          "A": "var",
+          "B": "let",
+          "C": "const",
+          "D": "define"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Use <code>const</code> by default. Only use <code>let</code> when you need to reassign. Never use <code>var</code> in modern code."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the short form of <code>const double = (n) => { return n * 2; };</code>?",
+        "options": {
+          "A": "const double = n -> n * 2;",
+          "B": "const double = n => n * 2;",
+          "C": "const double = (n) >> n * 2;",
+          "D": "const double = function(n) n * 2;"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Single parameter can drop parentheses. Single expression can drop curly braces and return keyword. <code>n => n * 2</code> is the shortest form."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does <code>const [a, b] = [10, 20]</code> do?",
+        "options": {
+          "A": "Creates an array [a, b]",
+          "B": "Assigns a = 10 and b = 20",
+          "C": "Creates two arrays",
+          "D": "Compares a and b with 10 and 20"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> This is array destructuring. It assigns the first element (10) to a and the second (20) to b."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does the spread operator <code>...</code> do with arrays?",
+        "options": {
+          "A": "Deletes the array",
+          "B": "Reverses the array",
+          "C": "Expands array elements into individual values",
+          "D": "Joins array elements into a string"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>...[1,2,3]</code> expands into 1, 2, 3 as individual values. Used in function calls, array creation, and object merging."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is the difference between <code>let</code> and <code>const</code>?",
+        "options": {
+          "A": "let is for strings, const is for numbers",
+          "B": "let can be reassigned, const cannot",
+          "C": "const is faster than let",
+          "D": "There is no difference"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>let</code> allows reassignment (<code>let x = 1; x = 2;</code>). <code>const</code> does not allow reassignment after declaration."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does <code>const { name: n } = { name: \"Aarav\" };</code> do?",
+        "options": {
+          "A": "Creates a variable called name with value 'n'",
+          "B": "Creates a variable called n with value 'Aarav'",
+          "C": "Creates two variables: name and n",
+          "D": "Throws an error"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In destructuring, <code>name: n</code> means 'take the name property and store it in a variable called n'. Only <code>n</code> is created, not <code>name</code>."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does the rest operator (...) do in function parameters?",
+        "options": {
+          "A": "Spreads arguments into the function",
+          "B": "Stops the function",
+          "C": "Collects remaining arguments into an array",
+          "D": "Makes parameters optional"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In function parameters, <code>...args</code> collects all remaining arguments into an array called args. It must be the last parameter."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does <code>user.address?.city</code> return when <code>user.address</code> is undefined?",
+        "options": {
+          "A": "null",
+          "B": "undefined",
+          "C": "An empty string",
+          "D": "TypeError"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Optional chaining <code>?.</code> returns <code>undefined</code> when the chain is broken (when a property does not exist), instead of throwing a TypeError."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the result of <code>0 ?? 'default'</code>?",
+        "options": {
+          "A": "\"default\"",
+          "B": "0",
+          "C": "null",
+          "D": "false"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>??</code> only replaces null and undefined. 0 is neither null nor undefined, so the left side (0) is returned."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which data structure automatically removes duplicates?",
+        "options": {
+          "A": "Array",
+          "B": "Object",
+          "C": "Map",
+          "D": "Set"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> <code>Set</code> only stores unique values. <code>new Set([1,2,2,3,3,3])</code> results in Set {1, 2, 3}."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the difference between <code>for...in</code> and <code>for...of</code>?",
+        "options": {
+          "A": "for...in iterates values, for...of iterates keys",
+          "B": "for...in iterates keys/indices, for...of iterates values",
+          "C": "They are the same",
+          "D": "for...of only works with numbers"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>for...in</code> iterates over property names/keys (for objects) or indices (for arrays). <code>for...of</code> iterates over values (for arrays, strings, Maps, Sets)."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "Why does <code>const arr = [1,2]; arr.push(3);</code> work even though arr is const?",
+        "options": {
+          "A": "It does not work, it throws an error",
+          "B": "const only prevents reassignment of the variable, not modification of the value",
+          "C": "push() ignores const",
+          "D": "Arrays are always mutable regardless of const or let"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>const</code> prevents reassigning the variable (arr = something_else). But the array the variable points to CAN be modified (push, pop, etc.). The reference is constant, not the data."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "How do you import a default export from a module?",
+        "options": {
+          "A": "import { default } from './module.js'",
+          "B": "import * from './module.js'",
+          "C": "import myName from './module.js'",
+          "D": "require('./module.js')"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Default exports are imported without curly braces: <code>import myName from './module.js'</code>. You can use any name you want. Named exports use curly braces: <code>import { name } from ...</code>."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Easy",
+        "question": "What is template literal syntax in JavaScript?",
+        "options": {
+          "A": "Single quotes: 'text'",
+          "B": "Double quotes: \"text\"",
+          "C": "Backticks: `text ${variable}`",
+          "D": "Angle brackets: <text>"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Template literals use backticks (`) and allow embedded expressions with <code>${}</code>. They also support multi-line strings."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "What does <code>const { a, ...rest } = { a: 1, b: 2, c: 3 }</code> give for <code>rest</code>?",
+        "options": {
+          "A": "{ a: 1, b: 2, c: 3 }",
+          "B": "{ b: 2, c: 3 }",
+          "C": "[2, 3]",
+          "D": "undefined"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The rest operator in object destructuring collects all remaining properties. Since <code>a</code> is extracted separately, rest gets <code>{ b: 2, c: 3 }</code>."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "What is the output of <code>typeof NaN</code>?",
+        "options": {
+          "A": "\"NaN\"",
+          "B": "\"undefined\"",
+          "C": "\"number\"",
+          "D": "\"object\""
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Despite standing for 'Not a Number', <code>NaN</code> has type 'number' in JavaScript. Use <code>isNaN()</code> or <code>Number.isNaN()</code> to check for NaN."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Easy",
+        "question": "What does the <code>...</code> operator do in <code>[...arr1, ...arr2]</code>?",
+        "options": {
+          "A": "Compares two arrays",
+          "B": "Merges the two arrays into one new array",
+          "C": "Deletes both arrays",
+          "D": "Sorts the arrays"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The spread operator expands both arrays into individual elements, creating a new merged array containing all elements from both."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "What is the value of <code>x</code> after <code>const [x = 5] = [undefined]</code>?",
+        "options": {
+          "A": "undefined",
+          "B": "null",
+          "C": "5",
+          "D": "Error"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Default values in destructuring are used when the value is <code>undefined</code>. Since the array element is explicitly <code>undefined</code>, the default value 5 is used."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "What is the difference between <code>Map</code> and a regular object for key-value storage?",
+        "options": {
+          "A": "There is no difference",
+          "B": "Map keys can be any type; object keys are always strings or symbols",
+          "C": "Objects are faster than Maps",
+          "D": "Maps cannot be iterated"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Regular object keys are coerced to strings. Map keys can be any type: numbers, booleans, objects, even other Maps. Maps also maintain insertion order and have a <code>size</code> property."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Swap Values Using Destructuring",
+        "difficulty": "Easy",
+        "description": "Given two variables a = 100 and b = 200, swap their values using array destructuring in one line. Do not use a temporary variable.",
+        "sampleInput": "a = 100, b = 200",
+        "sampleOutput": "a = 200, b = 100",
+        "constraints": "Must use destructuring. No temporary variable.",
+        "solution": "let a = 100;\nlet b = 200;\n\n[a, b] = [b, a];\n\nconsole.log(\"a =\", a); // 200\nconsole.log(\"b =\", b); // 100"
+      },
+      {
+        "id": "cc-2",
+        "title": "Remove Duplicates from Array",
+        "difficulty": "Easy",
+        "description": "Write a function removeDuplicates(arr) that returns a new array with all duplicates removed. Use Set and spread.",
+        "sampleInput": "[1, 2, 2, 3, 4, 4, 5]",
+        "sampleOutput": "[1, 2, 3, 4, 5]",
+        "constraints": "Use Set and the spread operator. Return a new array.",
+        "solution": "const removeDuplicates = (arr) => [...new Set(arr)];\n\nconsole.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]));\n// [1, 2, 3, 4, 5]\n\nconsole.log(removeDuplicates([\"a\", \"b\", \"a\", \"c\", \"b\"]));\n// [\"a\", \"b\", \"c\"]"
+      },
+      {
+        "id": "cc-3",
+        "title": "Deep Extract with Destructuring",
+        "difficulty": "Medium",
+        "description": "Given the object below, use a single destructuring statement to extract the city name and the first hobby into separate variables.",
+        "sampleInput": "{ user: { name: \"Aarav\", address: { city: \"Delhi\" }, hobbies: [\"coding\", \"cricket\"] } }",
+        "sampleOutput": "City: Delhi, First hobby: coding",
+        "constraints": "Use one destructuring statement. No dot notation.",
+        "solution": "const data = {\n  user: {\n    name: \"Aarav\",\n    address: { city: \"Delhi\" },\n    hobbies: [\"coding\", \"cricket\"]\n  }\n};\n\nconst { user: { address: { city }, hobbies: [firstHobby] } } = data;\n\nconsole.log(\"City:\", city);           // Delhi\nconsole.log(\"First hobby:\", firstHobby); // coding"
+      },
+      {
+        "id": "cc-4",
+        "title": "Merge Settings with Defaults",
+        "difficulty": "Medium",
+        "description": "Write a function applySettings(userSettings) that merges user settings with defaults. Defaults: { theme: 'dark', fontSize: 14, language: 'en', notifications: true }. User settings should override defaults.",
+        "sampleInput": "{ fontSize: 18, language: 'hi' }",
+        "sampleOutput": "{ theme: 'dark', fontSize: 18, language: 'hi', notifications: true }",
+        "constraints": "Use the spread operator for merging. Return a new object.",
+        "solution": "const applySettings = (userSettings) => {\n  const defaults = { theme: 'dark', fontSize: 14, language: 'en', notifications: true };\n  return { ...defaults, ...userSettings };\n};\n\nconsole.log(applySettings({ fontSize: 18, language: 'hi' }));\n// { theme: 'dark', fontSize: 18, language: 'hi', notifications: true }\n\nconsole.log(applySettings({}));\n// { theme: 'dark', fontSize: 14, language: 'en', notifications: true }"
+      },
+      {
+        "id": "cc-5",
+        "title": "Safe Property Access Function",
+        "difficulty": "Medium",
+        "description": "Write a function safeGet(obj, path, defaultValue) that uses optional chaining logic to safely access nested properties. The path is a dot-separated string like 'user.address.city'.",
+        "sampleInput": "({ user: { name: \"Aarav\" } }, 'user.name', 'N/A')",
+        "sampleOutput": "Aarav",
+        "constraints": "Split the path on dots and traverse. Use nullish coalescing for the default.",
+        "solution": "const safeGet = (obj, path, defaultValue = undefined) => {\n  const result = path.split('.').reduce((current, key) => current?.[key], obj);\n  return result ?? defaultValue;\n};\n\nconst data = { user: { name: \"Aarav\", address: { city: \"Delhi\" } } };\nconsole.log(safeGet(data, 'user.name', 'N/A'));         // \"Aarav\"\nconsole.log(safeGet(data, 'user.address.city', 'N/A')); // \"Delhi\"\nconsole.log(safeGet(data, 'user.phone', 'N/A'));        // \"N/A\"\nconsole.log(safeGet(data, 'x.y.z', 'N/A'));             // \"N/A\""
+      },
+      {
+        "id": "cc-6",
+        "title": "Word Frequency Counter with Map",
+        "difficulty": "Medium",
+        "description": "Write a function wordFrequency(text) that returns a Map with each word (lowercase) as the key and its count as the value. Use a for...of loop.",
+        "sampleInput": "\"the cat sat on the mat the cat\"",
+        "sampleOutput": "Map { 'the' => 3, 'cat' => 2, 'sat' => 1, 'on' => 1, 'mat' => 1 }",
+        "constraints": "Use Map and for...of. Convert to lowercase.",
+        "solution": "const wordFrequency = (text) => {\n  const map = new Map();\n  const words = text.toLowerCase().split(/\\s+/);\n  for (const word of words) {\n    if (word) {\n      map.set(word, (map.get(word) || 0) + 1);\n    }\n  }\n  return map;\n};\n\nconst result = wordFrequency(\"the cat sat on the mat the cat\");\nresult.forEach((count, word) => console.log(`${word}: ${count}`));\n// the: 3, cat: 2, sat: 1, on: 1, mat: 1"
+      },
+      {
+        "id": "cc-7",
+        "title": "Flexible Student Report Function",
+        "difficulty": "Hard",
+        "description": "Write a function generateReport that uses destructuring in parameters, default values, rest, and template literals. It takes a student object { name, age, ...scores } and returns a formatted report string.",
+        "sampleInput": "{ name: \"Priya\", age: 15, maths: 90, science: 85, english: 92 }",
+        "sampleOutput": "Student: Priya (age 15)\nSubjects: maths: 90, science: 85, english: 92\nAverage: 89",
+        "constraints": "Use destructuring in parameters. Use rest to collect subject scores. Use template literals.",
+        "solution": "const generateReport = ({ name, age = \"unknown\", ...scores }) => {\n  const subjects = Object.entries(scores)\n    .map(([subject, score]) => `${subject}: ${score}`)\n    .join(\", \");\n\n  const values = Object.values(scores);\n  const avg = Math.round(values.reduce((sum, v) => sum + v, 0) / values.length);\n\n  return `Student: ${name} (age ${age})\\nSubjects: ${subjects}\\nAverage: ${avg}`;\n};\n\nconsole.log(generateReport({ name: \"Priya\", age: 15, maths: 90, science: 85, english: 92 }));\nconsole.log();\nconsole.log(generateReport({ name: \"Aarav\", maths: 78, science: 82 }));"
+      },
+      {
+        "id": "cc-8",
+        "title": "Array Utility Functions with ES6",
+        "difficulty": "Hard",
+        "description": "Write these utility functions using ES6 features: (1) unique(arr) using Set, (2) chunk(arr, size) using slice and a loop, (3) zip(arr1, arr2) that pairs elements, (4) flatten(arr) using spread and reduce.",
+        "sampleInput": "Various arrays",
+        "sampleOutput": "unique: [1,2,3]\nchunk: [[1,2],[3,4],[5]]\nzip: [[1,'a'],[2,'b']]\nflatten: [1,2,3,4,5,6]",
+        "constraints": "Use arrow functions, spread, destructuring, and Set where appropriate.",
+        "solution": "const unique = arr => [...new Set(arr)];\n\nconst chunk = (arr, size) => {\n  const result = [];\n  for (let i = 0; i < arr.length; i += size) {\n    result.push(arr.slice(i, i + size));\n  }\n  return result;\n};\n\nconst zip = (a, b) => a.map((item, i) => [item, b[i]]);\n\nconst flatten = arr => arr.reduce((acc, item) => \n  [...acc, ...(Array.isArray(item) ? item : [item])], []);\n\nconsole.log(unique([1, 2, 2, 3, 3]));\nconsole.log(chunk([1, 2, 3, 4, 5], 2));\nconsole.log(zip([1, 2, 3], ['a', 'b', 'c']));\nconsole.log(flatten([1, [2, 3], [4, 5], 6]));"
+      }
+    ]
+  }
+}

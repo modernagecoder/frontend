@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions - Regular, Arrow, and Callback - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Write reusable code with functions. Understand parameters, return values, arrow functions, and callbacks.">
+    <meta name="keywords" content="functions - regular, arrow, and callback, javascript tutorial, javascript functions - regular, arrow, and callback, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/functions-in-javascript">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/functions-in-javascript">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/functions-in-javascript">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/functions-in-javascript">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/functions-in-javascript">
+    <meta property="og:title" content="Functions - Regular, Arrow, and Callback - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Write reusable code with functions. Understand parameters, return values, arrow functions, and callbacks.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/functions-in-javascript">
+    <meta name="twitter:title" content="Functions - Regular, Arrow, and Callback - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Write reusable code with functions. Understand parameters, return values, arrow functions, and callbacks.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Functions - Regular, Arrow, and Callback",
+    "description": "Write reusable code with functions. Understand parameters, return values, arrow functions, and callbacks.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/functions-in-javascript"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/functions-in-javascript"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Functions - Regular, Arrow, and Callback",
+        "item": "https://learn.modernagecoders.com/resources/javascript/functions-in-javascript"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Calling a Function Without Parentheses",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Without parentheses, <code>sayHello</code> is just a reference to the function object. You are storing the function itself, not calling it. To actually run the function and get its return value, you need the parentheses: <code>sayHello()</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting the return Statement",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If you calculate something inside a function but do not use <code>return</code>, the result is thrown away. The function returns <code>undefined</code> by default. Always use <code>return</code> to send a value back to the caller."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Arrow Function Returning an Object Literal",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When an arrow function implicitly returns an object literal, you must wrap the object in parentheses. Without them, JavaScript thinks the curly braces are the function body, not an object. The parentheses tell JavaScript: this is an expression (an object), not a block."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using a Function Expression Before It Is Defined",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Function declarations are hoisted (you can call them before they appear in code). But function expressions and arrow functions stored in <code>const</code> or <code>let</code> are NOT hoisted. You must define them before you call them."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Understanding Callback Execution Timing",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Even with a 0ms delay, <code>setTimeout</code> puts the callback in a queue. JavaScript finishes all synchronous code first (A, then C), and then processes the queue (B). This is how the JavaScript event loop works. Callbacks always run after the current code finishes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing Parameters and Arguments",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If you call a function without providing an argument, the parameter becomes <code>undefined</code>. Use default parameters (<code>name = \"friend\"</code>) to handle missing arguments gracefully."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Functions - Regular, Arrow, and Callback</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 7</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">26 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Functions - Regular, Arrow, and Callback</h1>
+            <a href="/resources/javascript/functions-in-javascript/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Functions in JavaScript?</h2><p>A <strong>function</strong> is a reusable block of code that performs a specific task. Instead of writing the same code over and over, you put it inside a function and call that function whenever you need it. Think of a function as a recipe: you define the steps once, and you can follow that recipe any time you want to make the dish.</p><p>Functions are one of the most important building blocks of JavaScript. They let you organize your code, avoid repetition, and build complex programs from small, manageable pieces.</p><p>JavaScript gives you several ways to create functions:</p><p><strong>1. Function Declaration</strong> - The classic way: <code>function greet() { }</code></p><p><strong>2. Function Expression</strong> - Storing a function in a variable: <code>const greet = function() { }</code></p><p><strong>3. Arrow Function</strong> - A shorter syntax introduced in ES6: <code>const greet = () => { }</code></p><p>Each style has its own use cases, and you will see all three in real codebases.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Functions Important?</h2><p>Functions are everywhere in JavaScript. Every interactive feature on a website uses functions. Here is why they matter:</p><h3>1. Code Reusability</h3><p>Instead of copying and pasting the same calculation or logic multiple times, you write it once as a function and call it wherever you need it. If you need to change how it works, you change it in one place.</p><h3>2. Organization</h3><p>Functions break a large program into smaller, named pieces. Instead of one massive block of code, you have functions like <code>validateForm()</code>, <code>calculateTotal()</code>, and <code>displayResults()</code>. Each function has a clear purpose.</p><h3>3. Event Handling</h3><p>Every time a user clicks a button, types in a form, or scrolls the page, a function runs. Functions are the backbone of interactivity on the web. You cannot build interactive websites without them.</p><h3>4. Working with Timers and Async Code</h3><p>Functions are passed to <code>setTimeout</code>, <code>setInterval</code>, and Promises as callbacks. Understanding how functions work is essential for handling time-based operations and asynchronous code.</p><h3>5. Foundation for Everything Else</h3><p>Array methods (<code>map</code>, <code>filter</code>, <code>reduce</code>), event listeners, API calls, and frameworks like React are all built on functions. If you understand functions deeply, everything else becomes easier.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Function Declaration</h3><p>A function declaration uses the <code>function</code> keyword, followed by a name, parentheses for parameters, and curly braces for the body:</p><pre><code>function greet() {
+  console.log("Hello!");
+}
+
+greet(); // Call the function</code></pre><p>You define the function once and call it by writing its name followed by parentheses. You can call it as many times as you want.</p><p>Function declarations are <strong>hoisted</strong>, which means they are moved to the top of their scope before the code runs. You can call a declared function before the line where it is defined:</p><pre><code>sayHi(); // Works! Function is hoisted
+
+function sayHi() {
+  console.log("Hi!");
+}</code></pre><h3>2. Parameters and Arguments</h3><p><strong>Parameters</strong> are the variable names listed in the function definition. <strong>Arguments</strong> are the actual values you pass when calling the function.</p><pre><code>function greetStudent(name, grade) {
+  console.log("Hello, " + name + " from grade " + grade);
+}
+
+greetStudent("Aarav", "10th"); // name = "Aarav", grade = "10th"
+greetStudent("Priya", "9th");  // name = "Priya", grade = "9th"</code></pre><p>The function is defined with two parameters: <code>name</code> and <code>grade</code>. When you call it, you pass the actual values (arguments). The parameters act as local variables inside the function.</p><h3>3. Return Values</h3><p>A function can send a value back to the caller using the <code>return</code> statement. Once <code>return</code> executes, the function stops immediately.</p><pre><code>function add(a, b) {
+  return a + b;
+}
+
+const result = add(5, 3); // result = 8
+console.log(result);</code></pre><p>If a function does not have a <code>return</code> statement, it returns <code>undefined</code> by default.</p><h3>4. Default Parameters</h3><p>You can give parameters default values that are used when no argument is provided:</p><pre><code>function greet(name = "Student") {
+  console.log("Hello, " + name);
+}
+
+greet("Rohan"); // Hello, Rohan
+greet();        // Hello, Student</code></pre><p>The default value <code>"Student"</code> is used only when the argument is not passed or is <code>undefined</code>.</p><h3>5. Rest Parameters (...args)</h3><p>Rest parameters let a function accept any number of arguments as an array:</p><pre><code>function sum(...numbers) {
+  let total = 0;
+  for (const num of numbers) {
+    total += num;
+  }
+  return total;
+}
+
+console.log(sum(1, 2, 3));       // 6
+console.log(sum(10, 20, 30, 40)); // 100</code></pre><p>The three dots (<code>...</code>) before the parameter name collect all remaining arguments into an array. This is useful when you do not know how many arguments will be passed.</p><h3>6. Function Expression</h3><p>A function expression stores a function in a variable. The function itself can be anonymous (no name):</p><pre><code>const multiply = function(a, b) {
+  return a * b;
+};
+
+console.log(multiply(4, 5)); // 20</code></pre><p>Unlike function declarations, function expressions are NOT hoisted. You must define them before you call them.</p><h3>7. Arrow Functions (=>)</h3><p>Arrow functions are a shorter syntax for writing functions, introduced in ES6:</p><pre><code>// Regular function
+const add = function(a, b) {
+  return a + b;
+};
+
+// Arrow function (same thing)
+const addArrow = (a, b) => {
+  return a + b;
+};
+
+// Even shorter: implicit return (one expression)
+const addShort = (a, b) => a + b;
+
+// Single parameter: parentheses optional
+const double = n => n * 2;</code></pre><p>Arrow functions have a few shortcuts: (1) If the body is a single expression, you can omit the curly braces and the <code>return</code> keyword. The expression is automatically returned. (2) If there is only one parameter, you can omit the parentheses.</p><h3>8. Callback Functions</h3><p>A <strong>callback</strong> is a function passed as an argument to another function. The receiving function decides when to call it.</p><pre><code>function processStudent(name, callback) {
+  console.log("Processing: " + name);
+  callback(name);
+}
+
+function celebrate(studentName) {
+  console.log("Congratulations, " + studentName + "!");
+}
+
+processStudent("Meera", celebrate);</code></pre><p>Here, <code>celebrate</code> is passed as a callback to <code>processStudent</code>. The <code>processStudent</code> function calls it when it is ready. Callbacks are fundamental to JavaScript - they are used in event handlers, timers, and asynchronous operations.</p><h3>9. setTimeout and setInterval with Callbacks</h3><p><code>setTimeout</code> calls a function after a delay. <code>setInterval</code> calls a function repeatedly at a fixed interval.</p><pre><code>// Run once after 2 seconds
+setTimeout(function() {
+  console.log("2 seconds passed!");
+}, 2000);
+
+// Run every 1 second
+let count = 0;
+const timer = setInterval(function() {
+  count++;
+  console.log("Tick: " + count);
+  if (count >= 5) {
+    clearInterval(timer); // Stop after 5 ticks
+  }
+}, 1000);</code></pre><p>The first argument to both is a callback function. The second argument is the time in milliseconds (1000ms = 1 second). Use <code>clearTimeout</code> and <code>clearInterval</code> to cancel them.</p><h3>10. IIFE (Immediately Invoked Function Expression)</h3><p>An IIFE is a function that runs immediately after it is defined. It is wrapped in parentheses and called right away:</p><pre><code>(function() {
+  const secret = "hidden value";
+  console.log("IIFE ran!");
+})();
+
+// Arrow function IIFE
+(() => {
+  console.log("Arrow IIFE ran!");
+})();</code></pre><p>IIFEs create a private scope. Variables declared inside do not leak into the global scope. This was very important before <code>let</code> and <code>const</code> existed, and is still useful for encapsulation.</p><h3>11. Functions as Event Handlers</h3><p>In web development, you often attach functions to HTML elements as event handlers. When the user interacts with the element, your function runs:</p><pre><code>// HTML: <button id="myBtn">Click me</button>
+
+const btn = document.getElementById("myBtn");
+
+btn.addEventListener("click", function() {
+  btn.style.backgroundColor = "purple";
+  btn.textContent = "Clicked!";
+});
+
+// Same thing with an arrow function
+btn.addEventListener("click", () => {
+  console.log("Button was clicked");
+});</code></pre><p>The function you pass to <code>addEventListener</code> is a callback. It waits until the event (click, keypress, etc.) happens, and then it runs.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Function Declaration vs Expression vs Arrow</div><pre><code class="language-python">// Function declaration (hoisted)
+function greet(name) {
+  return &quot;Hello, &quot; + name;
+}
+
+// Function expression (not hoisted)
+const greetExpr = function(name) {
+  return &quot;Hi, &quot; + name;
+};
+
+// Arrow function (not hoisted)
+const greetArrow = (name) =&gt; &quot;Hey, &quot; + name;
+
+console.log(greet(&quot;Aarav&quot;));
+console.log(greetExpr(&quot;Priya&quot;));
+console.log(greetArrow(&quot;Rohan&quot;));</code></pre><div class="code-example-explanation">All three create functions that do the same thing. The declaration is hoisted (can be called before it is defined). The expression and arrow function must be defined before use. The arrow function uses implicit return since the body is a single expression.</div><div class="code-example-output">Hello, Aarav
+Hi, Priya
+Hey, Rohan</div></div>
+<div class="code-example"><div class="code-example-title">Parameters, Default Values, and Rest Parameters</div><pre><code class="language-python">// Default parameter
+function enroll(name, course = &quot;JavaScript&quot;) {
+  console.log(name + &quot; enrolled in &quot; + course);
+}
+
+enroll(&quot;Diya&quot;, &quot;Python&quot;);  // Diya enrolled in Python
+enroll(&quot;Vikram&quot;);           // Vikram enrolled in JavaScript
+
+// Rest parameters
+function average(...scores) {
+  let total = 0;
+  for (const score of scores) {
+    total += score;
+  }
+  return total / scores.length;
+}
+
+console.log(average(80, 90, 70));       // 80
+console.log(average(95, 85, 75, 65));   // 80</code></pre><div class="code-example-explanation">Default parameters use a fallback value when no argument is given. Rest parameters (<code>...scores</code>) collect any number of arguments into an array. The <code>average</code> function works with 3 arguments or 4 arguments or any number - it handles them all.</div><div class="code-example-output">Diya enrolled in Python
+Vikram enrolled in JavaScript
+80
+80</div></div>
+<div class="code-example"><div class="code-example-title">Arrow Function Shortcuts</div><pre><code class="language-python">// Full arrow function
+const add = (a, b) =&gt; {
+  return a + b;
+};
+
+// Implicit return (single expression)
+const multiply = (a, b) =&gt; a * b;
+
+// Single parameter - no parentheses needed
+const double = n =&gt; n * 2;
+
+// No parameters - empty parentheses required
+const getRandom = () =&gt; Math.floor(Math.random() * 100);
+
+console.log(add(3, 4));       // 7
+console.log(multiply(5, 6));   // 30
+console.log(double(8));        // 16
+console.log(getRandom());      // random number 0-99</code></pre><div class="code-example-explanation">Arrow functions have shortcuts. If the body is one expression, skip the braces and return keyword. If there is one parameter, skip the parentheses. If there are no parameters, you need empty parentheses <code>()</code>. These shortcuts make code more concise.</div><div class="code-example-output">7
+30
+16
+(random number between 0 and 99)</div></div>
+<div class="code-example"><div class="code-example-title">Callback Functions</div><pre><code class="language-python">// A function that takes a callback
+function processMarks(marks, callback) {
+  for (const mark of marks) {
+    callback(mark);
+  }
+}
+
+// Different callbacks for different behavior
+function printMark(m) {
+  console.log(&quot;Score: &quot; + m);
+}
+
+function checkPass(m) {
+  if (m &gt;= 40) {
+    console.log(m + &quot; - Pass&quot;);
+  } else {
+    console.log(m + &quot; - Fail&quot;);
+  }
+}
+
+const marks = [85, 32, 67, 28, 91];
+console.log(&quot;--- Print ---&quot;);
+processMarks(marks, printMark);
+console.log(&quot;--- Check ---&quot;);
+processMarks(marks, checkPass);</code></pre><div class="code-example-explanation">The <code>processMarks</code> function accepts an array and a callback. It loops through the array and calls the callback for each element. By passing different callbacks (<code>printMark</code> vs <code>checkPass</code>), the same function behaves differently. This is the power of callbacks.</div><div class="code-example-output">--- Print ---
+Score: 85
+Score: 32
+Score: 67
+Score: 28
+Score: 91
+--- Check ---
+85 - Pass
+32 - Fail
+67 - Pass
+28 - Fail
+91 - Pass</div></div>
+<div class="code-example"><div class="code-example-title">setTimeout and setInterval</div><pre><code class="language-python">// setTimeout - runs once after a delay
+console.log(&quot;Starting...&quot;);
+setTimeout(() =&gt; {
+  console.log(&quot;This runs after 1 second&quot;);
+}, 1000);
+
+// setInterval - runs repeatedly
+let ticks = 0;
+const timer = setInterval(() =&gt; {
+  ticks++;
+  console.log(&quot;Tick &quot; + ticks);
+  if (ticks === 3) {
+    clearInterval(timer);
+    console.log(&quot;Timer stopped&quot;);
+  }
+}, 1000);
+
+console.log(&quot;This runs immediately (before timeouts)&quot;);</code></pre><div class="code-example-explanation">Both <code>setTimeout</code> and <code>setInterval</code> take a callback function and a delay in milliseconds. The code after them runs immediately, without waiting. The callbacks run later when the timer fires. Use <code>clearInterval</code> to stop a repeating timer.</div><div class="code-example-output">Starting...
+This runs immediately (before timeouts)
+This runs after 1 second
+Tick 1
+Tick 2
+Tick 3
+Timer stopped</div></div>
+<div class="code-example"><div class="code-example-title">IIFE (Immediately Invoked Function Expression)</div><pre><code class="language-python">// IIFE with regular function
+(function() {
+  const message = &quot;I run immediately!&quot;;
+  console.log(message);
+})();
+
+// IIFE with arrow function
+(() =&gt; {
+  const x = 10;
+  const y = 20;
+  console.log(&quot;Sum:&quot;, x + y);
+})();
+
+// IIFE with a return value
+const result = (() =&gt; {
+  return 42;
+})();
+console.log(&quot;Result:&quot;, result);</code></pre><div class="code-example-explanation">An IIFE is a function wrapped in parentheses that is called immediately with <code>()</code> at the end. Variables inside an IIFE are private and do not leak into the global scope. The third example shows that an IIFE can return a value, which gets stored in the variable.</div><div class="code-example-output">I run immediately!
+Sum: 30
+Result: 42</div></div>
+<div class="code-example"><div class="code-example-title">Functions as Event Handlers (Browser)</div><pre><code class="language-python">// Assume HTML: &lt;button id=&quot;colorBtn&quot;&gt;Change Color&lt;/button&gt;
+
+function changeButtonColor(buttonId) {
+  const btn = document.getElementById(buttonId);
+  const colors = [&quot;#a855f7&quot;, &quot;#06b6d4&quot;, &quot;#f59e0b&quot;, &quot;#ef4444&quot;];
+  let index = 0;
+
+  btn.addEventListener(&quot;click&quot;, () =&gt; {
+    btn.style.backgroundColor = colors[index];
+    btn.style.color = &quot;white&quot;;
+    index = (index + 1) % colors.length;
+  });
+}
+
+changeButtonColor(&quot;colorBtn&quot;);
+// Each click cycles through purple, cyan, amber, red</code></pre><div class="code-example-explanation">This function takes a button's id and adds a click event listener. Each click changes the background color by cycling through an array of colors. The <code>% colors.length</code> makes the index wrap around to 0 after reaching the end. This shows how functions and callbacks work together in real web development.</div><div class="code-example-output">(Button changes color on each click: purple, cyan, amber, red, purple...)</div></div>
+<div class="code-example"><div class="code-example-title">Higher-Order Function Pattern</div><pre><code class="language-python">// A function that returns a function
+function createMultiplier(factor) {
+  return function(number) {
+    return number * factor;
+  };
+}
+
+const double = createMultiplier(2);
+const triple = createMultiplier(3);
+const tenTimes = createMultiplier(10);
+
+console.log(double(5));    // 10
+console.log(triple(5));    // 15
+console.log(tenTimes(5));  // 50</code></pre><div class="code-example-explanation">A <strong>higher-order function</strong> is a function that takes a function as an argument or returns a function. Here, <code>createMultiplier</code> returns a new function that remembers the <code>factor</code>. Each call to <code>createMultiplier</code> creates a specialized multiplier function. This pattern is called a <strong>closure</strong>.</div><div class="code-example-output">10
+15
+50</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Calling a Function Without Parentheses</h3>
+                <div class="wrong-code"><pre><code class="language-python">function sayHello() {
+  return &quot;Hello!&quot;;
+}
+
+const result = sayHello; // Missing ()
+console.log(result); // Prints the function itself, not &quot;Hello!&quot;</code></pre></div><div class="error-message">Prints the function code instead of its return value.</div><div class="correct-code"><pre><code class="language-python">function sayHello() {
+  return &quot;Hello!&quot;;
+}
+
+const result = sayHello(); // With ()
+console.log(result); // &quot;Hello!&quot;</code></pre></div><div class="mistake-explanation">Without parentheses, <code>sayHello</code> is just a reference to the function object. You are storing the function itself, not calling it. To actually run the function and get its return value, you need the parentheses: <code>sayHello()</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting the return Statement</h3>
+                <div class="wrong-code"><pre><code class="language-python">function add(a, b) {
+  a + b; // Calculates but does not return!
+}
+
+const sum = add(3, 4);
+console.log(sum); // undefined</code></pre></div><div class="error-message">The function returns undefined because there is no return statement.</div><div class="correct-code"><pre><code class="language-python">function add(a, b) {
+  return a + b;
+}
+
+const sum = add(3, 4);
+console.log(sum); // 7</code></pre></div><div class="mistake-explanation">If you calculate something inside a function but do not use <code>return</code>, the result is thrown away. The function returns <code>undefined</code> by default. Always use <code>return</code> to send a value back to the caller.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Arrow Function Returning an Object Literal</h3>
+                <div class="wrong-code"><pre><code class="language-python">// Trying to return an object
+const makeStudent = (name) =&gt; { name: name, grade: &quot;10th&quot; };
+// JavaScript thinks the braces are a function body!</code></pre></div><div class="error-message">SyntaxError or returns undefined. JavaScript interprets the braces as a block, not an object.</div><div class="correct-code"><pre><code class="language-python">// Wrap the object in parentheses
+const makeStudent = (name) =&gt; ({ name: name, grade: &quot;10th&quot; });
+console.log(makeStudent(&quot;Aarav&quot;)); // { name: &quot;Aarav&quot;, grade: &quot;10th&quot; }</code></pre></div><div class="mistake-explanation">When an arrow function implicitly returns an object literal, you must wrap the object in parentheses. Without them, JavaScript thinks the curly braces are the function body, not an object. The parentheses tell JavaScript: this is an expression (an object), not a block.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using a Function Expression Before It Is Defined</h3>
+                <div class="wrong-code"><pre><code class="language-python">sayHi(); // TypeError: sayHi is not a function
+
+const sayHi = function() {
+  console.log(&quot;Hi!&quot;);
+};</code></pre></div><div class="error-message">TypeError: sayHi is not a function. Function expressions are NOT hoisted.</div><div class="correct-code"><pre><code class="language-python">const sayHi = function() {
+  console.log(&quot;Hi!&quot;);
+};
+
+sayHi(); // Works! Defined before the call.</code></pre></div><div class="mistake-explanation">Function declarations are hoisted (you can call them before they appear in code). But function expressions and arrow functions stored in <code>const</code> or <code>let</code> are NOT hoisted. You must define them before you call them.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Understanding Callback Execution Timing</h3>
+                <div class="wrong-code"><pre><code class="language-python">console.log(&quot;A&quot;);
+setTimeout(() =&gt; console.log(&quot;B&quot;), 0);
+console.log(&quot;C&quot;);
+// Many students expect: A, B, C
+// Actual output: A, C, B</code></pre></div><div class="error-message">B prints after C, even though the timeout is 0 milliseconds.</div><div class="correct-code"><pre><code class="language-python">// This is correct behavior!
+console.log(&quot;A&quot;);
+setTimeout(() =&gt; console.log(&quot;B&quot;), 0);
+console.log(&quot;C&quot;);
+// Output: A, C, B (this is expected!)</code></pre></div><div class="mistake-explanation">Even with a 0ms delay, <code>setTimeout</code> puts the callback in a queue. JavaScript finishes all synchronous code first (A, then C), and then processes the queue (B). This is how the JavaScript event loop works. Callbacks always run after the current code finishes.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing Parameters and Arguments</h3>
+                <div class="wrong-code"><pre><code class="language-python">function greet(name) {
+  console.log(&quot;Hello, &quot; + name);
+}
+
+// Calling with no argument
+greet(); // Hello, undefined</code></pre></div><div class="error-message">No error, but prints &quot;Hello, undefined&quot; because no argument was passed.</div><div class="correct-code"><pre><code class="language-python">function greet(name = &quot;friend&quot;) {
+  console.log(&quot;Hello, &quot; + name);
+}
+
+greet();        // Hello, friend
+greet(&quot;Kavya&quot;); // Hello, Kavya</code></pre></div><div class="mistake-explanation">If you call a function without providing an argument, the parameter becomes <code>undefined</code>. Use default parameters (<code>name = "friend"</code>) to handle missing arguments gracefully.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>A function is a reusable block of code. Define it once, call it many times. Functions make code organized, readable, and maintainable.</li>
+<li>Function declarations use the function keyword and are hoisted (can be called before they are defined). Function expressions and arrow functions are NOT hoisted.</li>
+<li>Parameters are the variable names in the function definition. Arguments are the actual values passed when calling the function. If fewer arguments are passed, missing parameters become undefined.</li>
+<li>The return statement sends a value back to the caller and stops the function. Without return, a function returns undefined by default.</li>
+<li>Default parameters (name = &quot;value&quot;) provide fallback values when arguments are not passed. Rest parameters (...args) collect any number of arguments into an array.</li>
+<li>Arrow functions (=&gt;) are a shorter syntax for functions. With one expression, you can skip braces and return. With one parameter, you can skip parentheses.</li>
+<li>A callback is a function passed as an argument to another function. The receiving function decides when to call it. Callbacks are used in event handlers, timers, and async operations.</li>
+<li>setTimeout runs a callback once after a delay. setInterval runs a callback repeatedly. Use clearTimeout and clearInterval to cancel them.</li>
+<li>An IIFE (Immediately Invoked Function Expression) runs immediately after it is defined. It creates a private scope where variables do not leak into the global scope.</li>
+<li>Functions are the backbone of event handling. You pass functions to addEventListener to respond to user interactions like clicks, key presses, and form submissions.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/loops-in-javascript" class="related-topic-link">Loops (for, while, for...of, for...in)</a>
+<a href="/resources/javascript/arrays-in-javascript" class="related-topic-link">Arrays and Array Methods</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/loops-in-javascript" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Loops (for, while, for...of, for...in)</span>
+        </a>
+            <a href="/resources/javascript/arrays-in-javascript" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Arrays and Array Methods</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/functions-in-javascript/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Strings and Template Literals | JavaScript | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="55+ practice questions on Strings and Template Literals in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="strings and template literals practice, javascript questions, javascript practice problems, strings and template literals exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/strings-and-template-literals/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/strings-and-template-literals/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/strings-and-template-literals/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/strings-and-template-literals/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/strings-and-template-literals/practice">
+    <meta property="og:title" content="Practice Questions - Strings and Template Literals | JavaScript | Modern Age Coders">
+    <meta property="og:description" content="55+ practice questions on Strings and Template Literals in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/strings-and-template-literals/practice">
+    <meta name="twitter:title" content="Practice Questions - Strings and Template Literals | JavaScript | Modern Age Coders">
+    <meta name="twitter:description" content="55+ practice questions on Strings and Template Literals in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Strings and Template Literals",
+    "description": "55+ practice questions on Strings and Template Literals in JavaScript.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Strings and Template Literals"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/strings-and-template-literals/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Strings and Template Literals",
+        "item": "https://learn.modernagecoders.com/resources/javascript/strings-and-template-literals"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/javascript/strings-and-template-literals/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript/strings-and-template-literals">Strings and Template Literals</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 10</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">55 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Strings and Template Literals</h1>
+            <a href="/resources/javascript/strings-and-template-literals" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>const name = "Aarav";
+console.log(name.length);
+console.log(name[0]);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">length counts characters. Index 0 is the first character.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>5</code><br><code>A</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const str = "Hello World";
+console.log(str.toUpperCase());
+console.log(str);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">toUpperCase returns a new string. The original is unchanged.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>HELLO WORLD</code><br><code>Hello World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const text = "JavaScript";
+console.log(text.includes("Script"));
+console.log(text.includes("script"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">includes is case-sensitive.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const name = "Priya";
+const age = 15;
+console.log(`${name} is ${age} years old.`);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Template literals use ${} for interpolation.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Priya is 15 years old.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const str = "Hello, World!";
+console.log(str.indexOf("World"));
+console.log(str.indexOf("world"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">indexOf returns -1 if not found. It is case-sensitive.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>7</code><br><code>-1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>console.log("Ha".repeat(4));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">repeat(n) repeats the string n times.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>HaHaHaHa</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const text = "JavaScript";
+console.log(text.slice(4, 10));
+console.log(text.slice(-6));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">slice(4, 10) extracts from index 4 to 9. Negative index counts from the end.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Script</code><br><code>Script</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const csv = "Aarav,Priya,Rohan";
+const names = csv.split(",");
+console.log(names);
+console.log(names.join(" - "));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">split breaks at commas. join combines with the given separator.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>["Aarav", "Priya", "Rohan"]</code><br><code>Aarav - Priya - Rohan</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const str = "   hello   ";
+console.log(str.trim());
+console.log(str.trim().length);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">trim removes whitespace from both ends.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>hello</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const text = "hello hello hello";
+console.log(text.replace("hello", "hi"));
+console.log(text.replaceAll("hello", "hi"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">replace changes only the first match. replaceAll changes all.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>hi hello hello</code><br><code>hi hi hi</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const n = 42;
+console.log(String(n).padStart(6, "0"));
+console.log("Hi".padEnd(10, "."));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">padStart pads the beginning. padEnd pads the end.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>000042</code><br><code>Hi........</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const score = 85;
+console.log(`Grade: ${score >= 90 ? "A" : score >= 75 ? "B" : "C"}`);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Ternary operators work inside ${}.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Grade: B</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const str = "abcabc";
+console.log(str.indexOf("c"));
+console.log(str.lastIndexOf("c"));
+console.log(str.indexOf("c", 3));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">indexOf searches from the start. lastIndexOf from the end. The second argument is the start position.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>2</code><br><code>5</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const students = ["Aarav", "Priya", "Rohan"];
+const html = students.map(s => `<li>${s}</li>`).join("\n");
+console.log(html);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">map transforms each name into an li element. join combines with newlines.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>&lt;li&gt;Aarav&lt;/li&gt;</code><br><code>&lt;li&gt;Priya&lt;/li&gt;</code><br><code>&lt;li&gt;Rohan&lt;/li&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const email = "priya.sharma@school.edu.in";
+const parts = email.split(".");
+console.log(parts);
+console.log(parts.length);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">split at every dot character.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>["priya", "sharma@school", "edu", "in"]</code><br><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between single quotes, double quotes, and backticks in JavaScript?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Two of them are the same. One has special powers.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">Single quotes (<code>'</code>) and double quotes (<code>"</code>) are functionally identical - use either one consistently. Backticks (<code>`</code>) create <strong>template literals</strong> which have special features: string interpolation with <code>${expression}</code>, multiline strings (actual line breaks preserved), and tagged templates. Use backticks whenever you need variables in a string or multiline text.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why are strings called immutable in JavaScript? What does that mean practically?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">You cannot change a string after it is created.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">Immutable means strings cannot be changed once created. You cannot modify individual characters: <code>str[0] = "X"</code> does nothing. Every string method (<code>toUpperCase</code>, <code>replace</code>, <code>slice</code>, etc.) returns a <strong>new</strong> string instead of modifying the original. To change a string variable, you must reassign it to a new string.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const words = "  hello   world  ";
+const clean = words.trim().split(/\s+/);
+console.log(clean);
+console.log(clean.join("-"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">trim first, then split on one or more whitespace characters.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>["hello", "world"]</code><br><code>hello-world</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const str = "Hello";
+console.log(str.startsWith("He"));
+console.log(str.endsWith("lo"));
+console.log(str.startsWith("he"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Both methods are case-sensitive.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>true</code><br><code>true</code><br><code>false</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const student = { name: "Diya", score: 95 };
+const card = `<div>
+  <h3>${student.name}</h3>
+  <p>${student.score >= 90 ? "Distinction" : "Pass"}</p>
+</div>`;
+console.log(card);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Template literal with nested ternary and multiline HTML.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>&lt;div&gt;</code><br><code>  &lt;h3&gt;Diya&lt;/h3&gt;</code><br><code>  &lt;p&gt;Distinction&lt;/p&gt;</code><br><code>&lt;/div&gt;</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const word = "Code";
+console.log(word.split(""));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">split with empty string splits into individual characters.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>["C", "o", "d", "e"]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>console.log("5".padStart(3, "0"));
+console.log("42".padStart(3, "0"));
+console.log("123".padStart(3, "0"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">padStart pads to the target length. If already long enough, no padding is added.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>005</code><br><code>042</code><br><code>123</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const email = "aarav@school.com";
+const username = email.slice(0, email.indexOf("@"));
+const domain = email.slice(email.indexOf("@") + 1);
+console.log(username);
+console.log(domain);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Find the @ position, then slice before and after it.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>aarav</code><br><code>school.com</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const str = "JavaScript";
+console.log(str.charAt(0) + str.slice(1).toLowerCase());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Take the first character, then lowercase the rest.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Javascript</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const arr = ["Maths", "Science", "English"];
+const result = arr.map(s => s.toUpperCase()).join(", ");
+console.log(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Map to uppercase, then join with comma-space.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>MATHS, SCIENCE, ENGLISH</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const str = "hello world hello";
+const count = str.split("hello").length - 1;
+console.log(count);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">split at "hello" creates one more segment than there are occurrences.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const words = ["the", "quick", "brown", "fox"];
+const result = words
+  .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+  .join(" ");
+console.log(result);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Capitalize the first letter of each word.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>The Quick Brown Fox</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const str = "racecar";
+const reversed = str.split("").reverse().join("");
+console.log(reversed);
+console.log(str === reversed);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Split into chars, reverse the array, join back. Is racecar a palindrome?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>racecar</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const data = [
+  { name: "Aarav", score: 92 },
+  { name: "Priya", score: 88 }
+];
+
+const html = data.map(s => 
+  `<tr><td>${s.name}</td><td>${s.score}</td></tr>`
+).join("\n");
+
+console.log(`<table>\n${html}\n</table>`);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Build table rows from data, then wrap in a table element.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>&lt;table&gt;</code><br><code>&lt;tr&gt;&lt;td&gt;Aarav&lt;/td&gt;&lt;td&gt;92&lt;/td&gt;&lt;/tr&gt;</code><br><code>&lt;tr&gt;&lt;td&gt;Priya&lt;/td&gt;&lt;td&gt;88&lt;/td&gt;&lt;/tr&gt;</code><br><code>&lt;/table&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>console.log(String.raw`Hello\nWorld`);
+console.log(`Hello\nWorld`);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">String.raw does not process escape sequences.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>Hello\nWorld</code><br><code>Hello</code><br><code>World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between split and join? How do they work together?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">One breaks strings into arrays. The other combines arrays into strings.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>split(separator)</code> breaks a string into an array at each occurrence of the separator. <code>join(separator)</code> combines array elements into a string with the separator between each element. They are inverses of each other. <code>"a-b-c".split("-")</code> gives ["a","b","c"]. <code>["a","b","c"].join("-")</code> gives "a-b-c".</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>const a = 10;
+const b = 20;
+console.log(`Sum: ${a + b}`);
+console.log(`Product: ${a * b}`);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Any expression works inside ${}.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>Sum: 30</code><br><code>Product: 200</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const str = "abcdef";
+console.log(str.slice(2, 5));
+console.log(str.slice(-3));
+console.log(str.slice(1, -1));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Negative indices count from the end. End index is exclusive.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>cde</code><br><code>def</code><br><code>bcde</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does str.length return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The last index of the string</li><li><span class="mcq-option-label">B.</span> The number of characters in the string</li><li><span class="mcq-option-label">C.</span> The number of words in the string</li><li><span class="mcq-option-label">D.</span> The size in bytes</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>length</code> returns the total number of characters. The last index is length - 1 (option A). It counts characters, not words (option C).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which method checks if a string contains a specific substring?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> has()</li><li><span class="mcq-option-label">B.</span> contains()</li><li><span class="mcq-option-label">C.</span> includes()</li><li><span class="mcq-option-label">D.</span> find()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>includes()</code> returns true or false depending on whether the substring is found. <code>has()</code> and <code>contains()</code> are not string methods. <code>find()</code> is an array method.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is the output of "Hello".indexOf("xyz")?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> false</li><li><span class="mcq-option-label">C.</span> -1</li><li><span class="mcq-option-label">D.</span> undefined</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>indexOf</code> returns -1 when the substring is not found. It returns a number, not a boolean (option B) or undefined (option D).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which of these creates a template literal?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;Hello ${name}&quot;</li><li><span class="mcq-option-label">B.</span> &#39;Hello ${name}&#39;</li><li><span class="mcq-option-label">C.</span> `Hello ${name}`</li><li><span class="mcq-option-label">D.</span> (Hello ${name})</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> Template literals use backticks (<code>`</code>). Single and double quotes (options A, B) treat <code>${name}</code> as literal text. Option D is not valid syntax.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does trim() do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Removes all spaces from the string</li><li><span class="mcq-option-label">B.</span> Removes spaces from the beginning and end</li><li><span class="mcq-option-label">C.</span> Removes the first and last characters</li><li><span class="mcq-option-label">D.</span> Shortens the string to 10 characters</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>trim()</code> removes whitespace from both ends of a string. It does NOT remove spaces in the middle (option A) or remove non-whitespace characters (option C).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the difference between replace and replaceAll?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> replace is faster than replaceAll</li><li><span class="mcq-option-label">B.</span> replace changes the first match, replaceAll changes all matches</li><li><span class="mcq-option-label">C.</span> replace changes all matches, replaceAll changes the first</li><li><span class="mcq-option-label">D.</span> There is no difference</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>replace()</code> only replaces the first occurrence of the search string. <code>replaceAll()</code> replaces every occurrence. Both return new strings.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does "Hello".split("") return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [&quot;Hello&quot;]</li><li><span class="mcq-option-label">B.</span> [&quot;H&quot;, &quot;e&quot;, &quot;l&quot;, &quot;l&quot;, &quot;o&quot;]</li><li><span class="mcq-option-label">C.</span> &quot;Hello&quot;</li><li><span class="mcq-option-label">D.</span> 5</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>split("")</code> with an empty string splits at every character boundary, creating an array of individual characters: ["H", "e", "l", "l", "o"].</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is the end index parameter in slice(start, end)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The number of characters to extract</li><li><span class="mcq-option-label">B.</span> The last index to include</li><li><span class="mcq-option-label">C.</span> The first index to exclude</li><li><span class="mcq-option-label">D.</span> The total length of the result</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> In <code>slice(start, end)</code>, the character at the end index is NOT included. It extracts from start up to (but not including) end. <code>"Hello".slice(1, 4)</code> gives "ell" (indices 1, 2, 3).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Why are strings called immutable in JavaScript?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> You cannot assign them to variables</li><li><span class="mcq-option-label">B.</span> They cannot be compared</li><li><span class="mcq-option-label">C.</span> They cannot be changed after creation</li><li><span class="mcq-option-label">D.</span> They can only be used with const</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> Immutable means strings cannot be modified after creation. You cannot change individual characters. Every string method returns a new string. The variable can be reassigned, but the string itself cannot be altered.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What does ${ } do inside a template literal?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Creates a new variable</li><li><span class="mcq-option-label">B.</span> Embeds a JavaScript expression whose result is inserted into the string</li><li><span class="mcq-option-label">C.</span> Adds a comment</li><li><span class="mcq-option-label">D.</span> Escapes special characters</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>${expression}</code> evaluates the JavaScript expression inside and inserts the result into the string. This is called string interpolation. Any valid expression works: variables, math, function calls, ternary operators.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the output of "abc".padStart(2, "0")?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;0abc&quot;</li><li><span class="mcq-option-label">B.</span> &quot;abc&quot;</li><li><span class="mcq-option-label">C.</span> &quot;00abc&quot;</li><li><span class="mcq-option-label">D.</span> &quot;ab&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>padStart(2, "0")</code> pads to a total length of 2. Since "abc" is already 3 characters (longer than 2), no padding is added. The string is returned unchanged.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What does String.raw do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Removes all escape sequences from a string</li><li><span class="mcq-option-label">B.</span> Returns the string without processing escape sequences</li><li><span class="mcq-option-label">C.</span> Converts the string to raw bytes</li><li><span class="mcq-option-label">D.</span> Creates an unformatted string</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>String.raw</code> is a tagged template that returns the raw string content without processing escape sequences like <code>\n</code> or <code>\t</code>. Backslashes are treated as literal characters.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is a tagged template literal?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A template literal with HTML tags</li><li><span class="mcq-option-label">B.</span> A function that processes a template literal&#39;s parts</li><li><span class="mcq-option-label">C.</span> A template literal with a label</li><li><span class="mcq-option-label">D.</span> A template literal stored in a variable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> A tagged template is a function placed before a template literal: <code>myTag`text ${value}`</code>. The function receives the string parts and interpolated values separately, allowing custom processing.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">How do you check if a string is a palindrome?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> str.isPalindrome()</li><li><span class="mcq-option-label">B.</span> str === str.reverse()</li><li><span class="mcq-option-label">C.</span> str === str.split(&quot;&quot;).reverse().join(&quot;&quot;)</li><li><span class="mcq-option-label">D.</span> str.palindrome()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> Strings do not have a <code>reverse()</code> method. You must split into an array, reverse the array, and join back into a string. If the result equals the original, it is a palindrome.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Capitalize First Letter of Each Word</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Aarav has the string "hello world from javascript". Write a function titleCase that capitalizes the first letter of each word.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">&quot;hello world from javascript&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Hello World From Javascript</div>
+                </div><div class="challenge-constraints">Use split, map, and join.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">function titleCase(str) {
+  return str.split(&quot; &quot;)
+    .map(word =&gt; word.charAt(0).toUpperCase() + word.slice(1))
+    .join(&quot; &quot;);
+}
+
+console.log(titleCase(&quot;hello world from javascript&quot;));</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Count Character Frequency</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Priya has the string "programming". Write a program that counts how many times each character appears.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">&quot;programming&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">{ p: 1, r: 2, o: 1, g: 2, a: 1, m: 2, i: 1, n: 1 }</div>
+                </div><div class="challenge-constraints">Use split and reduce.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">const str = &quot;programming&quot;;
+const freq = str.split(&quot;&quot;).reduce((acc, char) =&gt; {
+  acc[char] = (acc[char] || 0) + 1;
+  return acc;
+}, {});
+
+console.log(freq);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Generate an HTML Card from a Student Object</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Use template literals to generate an HTML card from the student object: {name: "Kavya", grade: "10th", score: 94, subjects: ["Maths", "Science", "English"]}. The card should include the name, grade, score with a status (Distinction if >= 90, else Pass), and a list of subjects.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">(An HTML card with student details and a subject list)</div>
+                </div><div class="challenge-constraints">Use template literals with ${} interpolation. Use map and join for the subjects list.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">const student = {
+  name: &quot;Kavya&quot;,
+  grade: &quot;10th&quot;,
+  score: 94,
+  subjects: [&quot;Maths&quot;, &quot;Science&quot;, &quot;English&quot;]
+};
+
+const card = `&lt;div class=&quot;student-card&quot;&gt;
+  &lt;h3&gt;${student.name}&lt;/h3&gt;
+  &lt;p&gt;Grade: ${student.grade} | Score: ${student.score}/100&lt;/p&gt;
+  &lt;p&gt;Status: ${student.score &gt;= 90 ? &quot;Distinction&quot; : &quot;Pass&quot;}&lt;/p&gt;
+  &lt;h4&gt;Subjects:&lt;/h4&gt;
+  &lt;ul&gt;
+    ${student.subjects.map(s =&gt; `&lt;li&gt;${s}&lt;/li&gt;`).join(&quot;\n    &quot;)}
+  &lt;/ul&gt;
+&lt;/div&gt;`;
+
+console.log(card);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Palindrome Checker</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Rohan wants to check if a string is a palindrome (reads the same forwards and backwards). Write a function isPalindrome that ignores spaces and case.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">&quot;Race Car&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">true</div>
+                </div><div class="challenge-constraints">Convert to lowercase and remove spaces before checking.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">function isPalindrome(str) {
+  const clean = str.toLowerCase().replaceAll(&quot; &quot;, &quot;&quot;);
+  const reversed = clean.split(&quot;&quot;).reverse().join(&quot;&quot;);
+  return clean === reversed;
+}
+
+console.log(isPalindrome(&quot;Race Car&quot;));   // true
+console.log(isPalindrome(&quot;Hello&quot;));      // false
+console.log(isPalindrome(&quot;Was It A Car Or A Cat I Saw&quot;)); // true</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Email Validator</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Diya wants to validate email addresses. Write a function isValidEmail that checks if a string has exactly one @, at least one character before @, and at least one dot after @.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">&quot;diya@school.com&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">true</div>
+                </div><div class="challenge-constraints">Use string methods like indexOf, includes, and slice. Do not use regex.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">function isValidEmail(email) {
+  const trimmed = email.trim();
+  const atIndex = trimmed.indexOf(&quot;@&quot;);
+  
+  if (atIndex &lt; 1) return false; // nothing before @
+  if (trimmed.lastIndexOf(&quot;@&quot;) !== atIndex) return false; // multiple @
+  
+  const domain = trimmed.slice(atIndex + 1);
+  if (!domain.includes(&quot;.&quot;)) return false; // no dot in domain
+  if (domain.startsWith(&quot;.&quot;) || domain.endsWith(&quot;.&quot;)) return false;
+  
+  return true;
+}
+
+console.log(isValidEmail(&quot;diya@school.com&quot;));  // true
+console.log(isValidEmail(&quot;@school.com&quot;));      // false
+console.log(isValidEmail(&quot;diya@school&quot;));      // false
+console.log(isValidEmail(&quot;diya@@school.com&quot;)); // false</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: String Compression</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Arjun wants to compress strings by counting consecutive characters. For example, "aaabbbccda" becomes "a3b3c2d1a1". Write a function compress(str).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">&quot;aaabbbccda&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">a3b3c2d1a1</div>
+                </div><div class="challenge-constraints">Use a loop. Handle single characters and edge cases.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">function compress(str) {
+  if (str.length === 0) return &quot;&quot;;
+  
+  let result = &quot;&quot;;
+  let count = 1;
+  
+  for (let i = 1; i &lt;= str.length; i++) {
+    if (i &lt; str.length &amp;&amp; str[i] === str[i - 1]) {
+      count++;
+    } else {
+      result += str[i - 1] + count;
+      count = 1;
+    }
+  }
+  
+  return result;
+}
+
+console.log(compress(&quot;aaabbbccda&quot;));  // a3b3c2d1a1
+console.log(compress(&quot;aabbcc&quot;));      // a2b2c2
+console.log(compress(&quot;abcdef&quot;));      // a1b1c1d1e1f1</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Build a Formatted Table from Data</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Meera has an array of student objects. Write a function that generates a formatted text table using padStart and padEnd for alignment.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">[{name: &quot;Aarav&quot;, maths: 95, science: 88}, {name: &quot;Priya&quot;, maths: 78, science: 92}]</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Name        Maths    Science
+--------------------------
+Aarav          95         88
+Priya          78         92</div>
+                </div><div class="challenge-constraints">Use padStart and padEnd for column alignment.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">const students = [
+  { name: &quot;Aarav&quot;, maths: 95, science: 88 },
+  { name: &quot;Priya&quot;, maths: 78, science: 92 },
+  { name: &quot;Rohan&quot;, maths: 85, science: 76 }
+];
+
+const header = &quot;Name&quot;.padEnd(12) + &quot;Maths&quot;.padStart(8) + &quot;Science&quot;.padStart(10);
+const separator = &quot;-&quot;.repeat(30);
+const rows = students.map(s =&gt; 
+  s.name.padEnd(12) + String(s.maths).padStart(8) + String(s.science).padStart(10)
+);
+
+console.log(header);
+console.log(separator);
+rows.forEach(row =&gt; console.log(row));</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: URL Slug Generator</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Vikram wants to convert blog titles into URL-friendly slugs. Write a function slugify that converts "Hello World! This is Great" to "hello-world-this-is-great" by lowercasing, removing special characters, and replacing spaces with hyphens.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">&quot;Hello World! This is Great&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">hello-world-this-is-great</div>
+                </div><div class="challenge-constraints">Use toLowerCase, replace/replaceAll, and trim. Handle multiple spaces.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">function slugify(title) {
+  return title
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9\s-]/g, &quot;&quot;)  // remove special chars
+    .replace(/\s+/g, &quot;-&quot;)           // spaces to hyphens
+    .replace(/-+/g, &quot;-&quot;)            // collapse multiple hyphens
+    .replace(/^-|-$/g, &quot;&quot;);          // trim hyphens
+}
+
+console.log(slugify(&quot;Hello World! This is Great&quot;));
+console.log(slugify(&quot;  JavaScript: The Good Parts  &quot;));
+console.log(slugify(&quot;10 Tips &amp; Tricks for Coding!&quot;));</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/javascript/objects-in-javascript/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Objects and JSON</span>
+        </a>
+            <a href="/resources/javascript/dom-selection-and-manipulation/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">DOM Selection and Manipulation</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/javascript/strings-and-template-literals" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

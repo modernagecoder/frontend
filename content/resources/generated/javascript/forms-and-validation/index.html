@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Validation - JavaScript Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Handle form submissions, validate user input, show error messages, and build real registration/login forms.">
+    <meta name="keywords" content="forms and input validation, javascript tutorial, javascript forms and input validation, learn javascript">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/forms-and-validation">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/forms-and-validation">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/forms-and-validation">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/forms-and-validation">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/forms-and-validation">
+    <meta property="og:title" content="Forms and Input Validation - JavaScript Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Handle form submissions, validate user input, show error messages, and build real registration/login forms.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/forms-and-validation">
+    <meta name="twitter:title" content="Forms and Input Validation - JavaScript Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Handle form submissions, validate user input, show error messages, and build real registration/login forms.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Forms and Input Validation",
+    "description": "Handle form submissions, validate user input, show error messages, and build real registration/login forms.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-09",
+    "dateModified": "2026-04-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/javascript/forms-and-validation"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/forms-and-validation"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Forms and Input Validation",
+        "item": "https://learn.modernagecoders.com/resources/javascript/forms-and-validation"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting e.preventDefault() on Form Submit",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>submit</code> event's default behavior is to send the form data and reload the page. You must call <code>e.preventDefault()</code> to handle the form with JavaScript instead."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Reading .value of a Non-Existent Element",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If getElementById returns null (element not found), accessing <code>.value</code> on null throws a TypeError. Always check for typos in IDs, or add a null check before accessing properties."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Checking .checked on a Radio Group Without Handling No Selection",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If no radio button is checked, <code>querySelector(':checked')</code> returns null. Always check if the result is not null before accessing .value."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Comparing Input Value as Number Without Conversion",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Input values are always strings. Convert to a number with <code>Number()</code> or <code>parseInt()</code>. Also check for NaN (invalid input) before comparing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Regex Without the test() Method",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use <code>regex.test(string)</code> to check if a string matches the pattern. It returns true or false. You cannot compare a string to a regex with <code>===</code>."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Forms and Input Validation</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 14</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">40 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-09</span>
+            </div>
+            <h1 class="resource-title">Forms and Input Validation</h1>
+            <a href="/resources/javascript/forms-and-validation/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Form Validation?</h2><p><strong>Form validation</strong> is the process of checking that user input meets your requirements before processing it. Does the email have an @ symbol? Is the password at least 8 characters? Is the phone number 10 digits? Did the user fill in all required fields?</p><p>JavaScript can validate forms on the <strong>client side</strong> (in the browser) before data is sent to a server. This gives users instant feedback without waiting for a page reload.</p><pre><code>&lt;form id="loginForm"&gt;
+  &lt;input type="email" id="email" placeholder="Email"&gt;
+  &lt;input type="password" id="password" placeholder="Password"&gt;
+  &lt;button type="submit"&gt;Login&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+document.getElementById("loginForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+
+  if (email === "") {
+    alert("Email is required!");
+    return;
+  }
+  if (password.length &lt; 8) {
+    alert("Password must be at least 8 characters!");
+    return;
+  }
+  console.log("Form is valid. Submitting...");
+});
+&lt;/script&gt;</code></pre>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn Form Validation?</h2><h3>1. Forms Are Everywhere</h3><p>Login, registration, search, checkout, feedback, contact, booking -- nearly every website has forms. If you want to build websites, you will handle forms. A lot.</p><h3>2. User Experience</h3><p>Good validation gives users instant feedback. Instead of submitting a form and waiting for a server error, they see "Password too short" as they type. This is how all modern websites work -- Google, Amazon, Instagram all validate in real-time.</p><h3>3. Security Layer</h3><p>Client-side validation is the first line of defense against bad data. It catches typos, missing fields, and incorrect formats before they reach your server. Note: you should ALWAYS validate on the server too, because client-side validation can be bypassed.</p><h3>4. It Combines Everything You Have Learned</h3><p>Form validation uses DOM selection (getting inputs), events (submit, input, focus, blur), element creation (error messages), and CSS manipulation (red borders, green checkmarks). It is the perfect practice for combining all your DOM skills.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The Form Submit Event</h3><p>When a form is submitted (clicking submit button or pressing Enter in an input), the browser fires a <code>submit</code> event and reloads the page. To handle it with JavaScript, listen for the submit event and call <code>e.preventDefault()</code>:</p><pre><code>&lt;form id="form"&gt;
+  &lt;input type="text" id="name" required&gt;
+  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+document.getElementById("form").addEventListener("submit", function(e) {
+  e.preventDefault(); // Stop page reload
+  const name = document.getElementById("name").value.trim();
+  if (name === "") {
+    console.log("Name is required");
+  } else {
+    console.log("Submitted: " + name);
+  }
+});
+&lt;/script&gt;</code></pre><h3>2. Basic Validation Checks</h3><p>Common validations you need to write:</p><pre><code>const email = document.getElementById("email").value.trim();
+const password = document.getElementById("password").value;
+const age = Number(document.getElementById("age").value);
+
+// Empty check
+if (email === "") { /* Show error */ }
+
+// Minimum length
+if (password.length &lt; 8) { /* Show error */ }
+
+// Maximum length
+if (password.length &gt; 50) { /* Show error */ }
+
+// Number range
+if (age &lt; 13 || age &gt; 120) { /* Show error */ }
+
+// Contains specific character
+if (!email.includes("@")) { /* Show error */ }</code></pre><h3>3. Regular Expressions (Regex) for Validation</h3><p>Regex patterns let you check if a string matches a specific format:</p><pre><code>// Email: basic pattern
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+console.log(emailRegex.test("aarav@gmail.com")); // true
+console.log(emailRegex.test("aarav@")); // false
+console.log(emailRegex.test("aarav")); // false
+
+// Phone: exactly 10 digits
+const phoneRegex = /^\d{10}$/;
+console.log(phoneRegex.test("9876543210")); // true
+console.log(phoneRegex.test("12345")); // false
+
+// Password: at least 8 chars, one uppercase, one lowercase, one number
+const passRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+console.log(passRegex.test("Aarav123")); // true
+console.log(passRegex.test("aarav123")); // false (no uppercase)
+console.log(passRegex.test("AARAV123")); // false (no lowercase)
+
+// Only letters and spaces (for names)
+const nameRegex = /^[A-Za-z\s]+$/;
+console.log(nameRegex.test("Aarav Sharma")); // true
+console.log(nameRegex.test("Aarav123")); // false</code></pre><h3>4. Showing Error Messages Dynamically</h3><p>Instead of using alert(), create error message elements that appear below the input:</p><pre><code>function showError(input, message) {
+  // Remove existing error
+  const existing = input.parentNode.querySelector(".error");
+  if (existing) existing.remove();
+
+  // Create error element
+  const error = document.createElement("div");
+  error.className = "error";
+  error.textContent = message;
+  error.style.color = "red";
+  error.style.fontSize = "13px";
+  error.style.marginTop = "4px";
+
+  // Add after the input
+  input.parentNode.appendChild(error);
+  input.style.borderColor = "red";
+}
+
+function clearError(input) {
+  const existing = input.parentNode.querySelector(".error");
+  if (existing) existing.remove();
+  input.style.borderColor = "green";
+}</code></pre><h3>5. Real-Time Validation (input event)</h3><p>Instead of waiting for form submission, validate as the user types using the <code>input</code> event:</p><pre><code>&lt;input type="email" id="email"&gt;
+&lt;div id="email-error"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+const emailInput = document.getElementById("email");
+const emailError = document.getElementById("email-error");
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+emailInput.addEventListener("input", function() {
+  const value = emailInput.value.trim();
+  if (value === "") {
+    emailError.textContent = "";
+    emailInput.style.borderColor = "";
+  } else if (emailRegex.test(value)) {
+    emailError.textContent = "Valid email";
+    emailError.style.color = "green";
+    emailInput.style.borderColor = "green";
+  } else {
+    emailError.textContent = "Enter a valid email";
+    emailError.style.color = "red";
+    emailInput.style.borderColor = "red";
+  }
+});
+&lt;/script&gt;</code></pre><h3>6. Handling Checkboxes, Radio Buttons, and Select</h3><pre><code>// Checkbox: .checked is a boolean
+const agree = document.getElementById("agree");
+console.log(agree.checked); // true or false
+
+// Radio buttons: find the checked one
+const selectedGender = document.querySelector('input[name="gender"]:checked');
+if (selectedGender) {
+  console.log(selectedGender.value); // "male", "female", etc.
+}
+
+// Select dropdown: .value gives the selected option's value
+const city = document.getElementById("city");
+console.log(city.value); // "delhi", "mumbai", etc.
+
+// Select: get the text of the selected option
+console.log(city.options[city.selectedIndex].text); // "Delhi"</code></pre><h3>7. Password Strength Checker</h3><p>A common feature that rates password strength as the user types:</p><pre><code>function checkStrength(password) {
+  let score = 0;
+  if (password.length &gt;= 8) score++;
+  if (password.length &gt;= 12) score++;
+  if (/[a-z]/.test(password)) score++;
+  if (/[A-Z]/.test(password)) score++;
+  if (/\d/.test(password)) score++;
+  if (/[^A-Za-z0-9]/.test(password)) score++;
+
+  if (score &lt;= 2) return { text: "Weak", color: "red" };
+  if (score &lt;= 4) return { text: "Medium", color: "orange" };
+  return { text: "Strong", color: "green" };
+}</code></pre><h3>8. Enabling/Disabling the Submit Button</h3><p>Disable the submit button until all validations pass:</p><pre><code>const submitBtn = document.getElementById("submit");
+const nameInput = document.getElementById("name");
+const emailInput = document.getElementById("email");
+
+function checkFormValidity() {
+  const nameValid = nameInput.value.trim().length &gt;= 2;
+  const emailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailInput.value);
+  submitBtn.disabled = !(nameValid && emailValid);
+}
+
+nameInput.addEventListener("input", checkFormValidity);
+emailInput.addEventListener("input", checkFormValidity);</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Complete Registration Form with Validation</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    form { max-width: 400px; }
+    .field { margin-bottom: 16px; }
+    label { display: block; font-weight: bold; margin-bottom: 4px; }
+    input, select { width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 6px; font-size: 16px; box-sizing: border-box; }
+    input:focus { outline: none; }
+    .error-msg { color: #ef4444; font-size: 13px; margin-top: 4px; display: none; }
+    .error-msg.show { display: block; }
+    .valid { border-color: #10b981; }
+    .invalid { border-color: #ef4444; }
+    button { padding: 12px 24px; background: #a855f7; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; width: 100%; }
+    button:disabled { background: #d1d5db; cursor: not-allowed; }
+    #success { padding: 16px; background: #d1fae5; border-radius: 8px; display: none; margin-top: 16px; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Student Registration&lt;/h2&gt;
+  &lt;form id=&quot;regForm&quot;&gt;
+    &lt;div class=&quot;field&quot;&gt;
+      &lt;label&gt;Full Name&lt;/label&gt;
+      &lt;input type=&quot;text&quot; id=&quot;name&quot; placeholder=&quot;Aarav Sharma&quot;&gt;
+      &lt;div class=&quot;error-msg&quot; id=&quot;name-error&quot;&gt;Name must be at least 2 characters (letters only)&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;
+      &lt;label&gt;Email&lt;/label&gt;
+      &lt;input type=&quot;text&quot; id=&quot;email&quot; placeholder=&quot;aarav@example.com&quot;&gt;
+      &lt;div class=&quot;error-msg&quot; id=&quot;email-error&quot;&gt;Enter a valid email address&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;
+      &lt;label&gt;Phone (10 digits)&lt;/label&gt;
+      &lt;input type=&quot;text&quot; id=&quot;phone&quot; placeholder=&quot;9876543210&quot; maxlength=&quot;10&quot;&gt;
+      &lt;div class=&quot;error-msg&quot; id=&quot;phone-error&quot;&gt;Phone must be exactly 10 digits&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;
+      &lt;label&gt;Password&lt;/label&gt;
+      &lt;input type=&quot;password&quot; id=&quot;password&quot; placeholder=&quot;Min 8 chars, 1 upper, 1 lower, 1 number&quot;&gt;
+      &lt;div class=&quot;error-msg&quot; id=&quot;password-error&quot;&gt;Min 8 chars with uppercase, lowercase, and number&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;
+      &lt;label&gt;City&lt;/label&gt;
+      &lt;select id=&quot;city&quot;&gt;
+        &lt;option value=&quot;&quot;&gt;Select city&lt;/option&gt;
+        &lt;option value=&quot;Delhi&quot;&gt;Delhi&lt;/option&gt;
+        &lt;option value=&quot;Mumbai&quot;&gt;Mumbai&lt;/option&gt;
+        &lt;option value=&quot;Bangalore&quot;&gt;Bangalore&lt;/option&gt;
+        &lt;option value=&quot;Chennai&quot;&gt;Chennai&lt;/option&gt;
+        &lt;option value=&quot;Pune&quot;&gt;Pune&lt;/option&gt;
+      &lt;/select&gt;
+      &lt;div class=&quot;error-msg&quot; id=&quot;city-error&quot;&gt;Please select a city&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button type=&quot;submit&quot; id=&quot;submitBtn&quot; disabled&gt;Register&lt;/button&gt;
+  &lt;/form&gt;
+  &lt;div id=&quot;success&quot;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    const form = document.getElementById(&quot;regForm&quot;);
+    const fields = {
+      name: { el: document.getElementById(&quot;name&quot;), err: document.getElementById(&quot;name-error&quot;), valid: false },
+      email: { el: document.getElementById(&quot;email&quot;), err: document.getElementById(&quot;email-error&quot;), valid: false },
+      phone: { el: document.getElementById(&quot;phone&quot;), err: document.getElementById(&quot;phone-error&quot;), valid: false },
+      password: { el: document.getElementById(&quot;password&quot;), err: document.getElementById(&quot;password-error&quot;), valid: false },
+      city: { el: document.getElementById(&quot;city&quot;), err: document.getElementById(&quot;city-error&quot;), valid: false }
+    };
+    const submitBtn = document.getElementById(&quot;submitBtn&quot;);
+
+    function validate(name, value) {
+      switch(name) {
+        case &quot;name&quot;: return /^[A-Za-z\s]{2,}$/.test(value);
+        case &quot;email&quot;: return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+        case &quot;phone&quot;: return /^\d{10}$/.test(value);
+        case &quot;password&quot;: return /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/.test(value);
+        case &quot;city&quot;: return value !== &quot;&quot;;
+      }
+    }
+
+    function checkField(name) {
+      const f = fields[name];
+      const value = f.el.value.trim();
+      if (value === &quot;&quot; &amp;&amp; name !== &quot;city&quot;) {
+        f.el.classList.remove(&quot;valid&quot;, &quot;invalid&quot;);
+        f.err.classList.remove(&quot;show&quot;);
+        f.valid = false;
+      } else if (validate(name, value)) {
+        f.el.classList.add(&quot;valid&quot;);
+        f.el.classList.remove(&quot;invalid&quot;);
+        f.err.classList.remove(&quot;show&quot;);
+        f.valid = true;
+      } else {
+        f.el.classList.add(&quot;invalid&quot;);
+        f.el.classList.remove(&quot;valid&quot;);
+        f.err.classList.add(&quot;show&quot;);
+        f.valid = false;
+      }
+      submitBtn.disabled = !Object.values(fields).every(function(f) { return f.valid; });
+    }
+
+    Object.keys(fields).forEach(function(name) {
+      const eventType = name === &quot;city&quot; ? &quot;change&quot; : &quot;input&quot;;
+      fields[name].el.addEventListener(eventType, function() { checkField(name); });
+    });
+
+    form.addEventListener(&quot;submit&quot;, function(e) {
+      e.preventDefault();
+      const success = document.getElementById(&quot;success&quot;);
+      success.style.display = &quot;block&quot;;
+      success.textContent = &quot;Welcome, &quot; + fields.name.el.value + &quot;! Registration successful.&quot;;
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A complete registration form with real-time validation. Each field validates as the user types (input event). The submit button stays disabled until all fields pass validation. On successful submission, a green success message appears. Regex is used for email, phone, and password patterns.</div><div class="code-example-output">A registration form with live validation. Fields turn green/red as you type. Submit is disabled until all fields are valid.</div></div>
+<div class="code-example"><div class="code-example-title">Password Strength Meter</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input { width: 300px; padding: 10px; border: 2px solid #ddd; border-radius: 6px; font-size: 16px; }
+    .meter { width: 300px; height: 8px; background: #e5e7eb; border-radius: 4px; margin-top: 8px; overflow: hidden; }
+    .meter-fill { height: 100%; border-radius: 4px; transition: width 0.3s, background-color 0.3s; width: 0%; }
+    .strength-text { margin-top: 6px; font-size: 14px; font-weight: bold; }
+    .checks { margin-top: 12px; font-size: 14px; }
+    .check { margin: 4px 0; }
+    .pass { color: #10b981; }
+    .fail { color: #9ca3af; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Password Strength Checker&lt;/h2&gt;
+  &lt;input type=&quot;password&quot; id=&quot;password&quot; placeholder=&quot;Enter password&quot;&gt;
+  &lt;div class=&quot;meter&quot;&gt;&lt;div class=&quot;meter-fill&quot; id=&quot;fill&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;div class=&quot;strength-text&quot; id=&quot;strength&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;checks&quot; id=&quot;checks&quot;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    const passwordInput = document.getElementById(&quot;password&quot;);
+    const fill = document.getElementById(&quot;fill&quot;);
+    const strengthText = document.getElementById(&quot;strength&quot;);
+    const checksDiv = document.getElementById(&quot;checks&quot;);
+
+    const criteria = [
+      { label: &quot;At least 8 characters&quot;, test: function(p) { return p.length &gt;= 8; } },
+      { label: &quot;At least 12 characters&quot;, test: function(p) { return p.length &gt;= 12; } },
+      { label: &quot;Contains lowercase letter&quot;, test: function(p) { return /[a-z]/.test(p); } },
+      { label: &quot;Contains uppercase letter&quot;, test: function(p) { return /[A-Z]/.test(p); } },
+      { label: &quot;Contains a number&quot;, test: function(p) { return /\d/.test(p); } },
+      { label: &quot;Contains special character&quot;, test: function(p) { return /[^A-Za-z0-9]/.test(p); } }
+    ];
+
+    passwordInput.addEventListener(&quot;input&quot;, function() {
+      const password = passwordInput.value;
+      let score = 0;
+      let checksHTML = &quot;&quot;;
+
+      criteria.forEach(function(c) {
+        const passed = c.test(password);
+        if (passed) score++;
+        const div = document.createElement(&quot;div&quot;);
+        div.className = &quot;check &quot; + (passed ? &quot;pass&quot; : &quot;fail&quot;);
+        div.textContent = (passed ? &quot;[ok] &quot; : &quot;[  ] &quot;) + c.label;
+        checksHTML += div.outerHTML;
+      });
+
+      checksDiv.innerHTML = checksHTML;
+
+      const percent = (score / criteria.length) * 100;
+      fill.style.width = percent + &quot;%&quot;;
+
+      if (password === &quot;&quot;) {
+        fill.style.width = &quot;0%&quot;;
+        strengthText.textContent = &quot;&quot;;
+      } else if (score &lt;= 2) {
+        fill.style.backgroundColor = &quot;#ef4444&quot;;
+        strengthText.textContent = &quot;Weak&quot;;
+        strengthText.style.color = &quot;#ef4444&quot;;
+      } else if (score &lt;= 4) {
+        fill.style.backgroundColor = &quot;#f59e0b&quot;;
+        strengthText.textContent = &quot;Medium&quot;;
+        strengthText.style.color = &quot;#f59e0b&quot;;
+      } else {
+        fill.style.backgroundColor = &quot;#10b981&quot;;
+        strengthText.textContent = &quot;Strong&quot;;
+        strengthText.style.color = &quot;#10b981&quot;;
+      }
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Each criterion is a function that tests the password. As the user types, we check each criterion and calculate a score. The meter bar fills up based on the score (red for weak, amber for medium, green for strong). Each check is listed with a pass/fail indicator.</div><div class="code-example-output">A password field with a colored progress bar and a checklist that updates in real time as the user types.</div></div>
+<div class="code-example"><div class="code-example-title">Checkbox, Radio, and Select Handling</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .group { margin-bottom: 16px; padding: 12px; border: 1px solid #e5e7eb; border-radius: 8px; }
+    label { display: block; margin: 4px 0; cursor: pointer; }
+    #summary { padding: 16px; background: #f3f4f6; border-radius: 8px; margin-top: 16px; }
+    button { padding: 10px 20px; background: #a855f7; color: white; border: none; border-radius: 6px; cursor: pointer; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Student Preferences&lt;/h2&gt;
+  &lt;div class=&quot;group&quot;&gt;
+    &lt;strong&gt;Subjects (checkboxes - select multiple):&lt;/strong&gt;
+    &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;subject&quot; value=&quot;Maths&quot;&gt; Maths&lt;/label&gt;
+    &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;subject&quot; value=&quot;Science&quot;&gt; Science&lt;/label&gt;
+    &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;subject&quot; value=&quot;English&quot;&gt; English&lt;/label&gt;
+    &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;subject&quot; value=&quot;Computer&quot;&gt; Computer Science&lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;group&quot;&gt;
+    &lt;strong&gt;Batch (radio - select one):&lt;/strong&gt;
+    &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;batch&quot; value=&quot;morning&quot;&gt; Morning (8 AM)&lt;/label&gt;
+    &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;batch&quot; value=&quot;afternoon&quot;&gt; Afternoon (2 PM)&lt;/label&gt;
+    &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;batch&quot; value=&quot;evening&quot;&gt; Evening (6 PM)&lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;group&quot;&gt;
+    &lt;strong&gt;Class (select dropdown):&lt;/strong&gt;
+    &lt;select id=&quot;classSelect&quot;&gt;
+      &lt;option value=&quot;&quot;&gt;Select class&lt;/option&gt;
+      &lt;option value=&quot;8&quot;&gt;Class 8&lt;/option&gt;
+      &lt;option value=&quot;9&quot;&gt;Class 9&lt;/option&gt;
+      &lt;option value=&quot;10&quot;&gt;Class 10&lt;/option&gt;
+      &lt;option value=&quot;11&quot;&gt;Class 11&lt;/option&gt;
+      &lt;option value=&quot;12&quot;&gt;Class 12&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/div&gt;
+  &lt;button id=&quot;showBtn&quot;&gt;Show Summary&lt;/button&gt;
+  &lt;div id=&quot;summary&quot;&gt;&lt;/div&gt;
+
+  &lt;script&gt;
+    document.getElementById(&quot;showBtn&quot;).addEventListener(&quot;click&quot;, function() {
+      // Checkboxes: get all checked values
+      const checkedSubjects = document.querySelectorAll(&#39;input[name=&quot;subject&quot;]:checked&#39;);
+      const subjects = Array.from(checkedSubjects).map(function(cb) { return cb.value; });
+
+      // Radio: get the selected one
+      const selectedBatch = document.querySelector(&#39;input[name=&quot;batch&quot;]:checked&#39;);
+      const batch = selectedBatch ? selectedBatch.value : &quot;None selected&quot;;
+
+      // Select: get value
+      const classSelect = document.getElementById(&quot;classSelect&quot;);
+      const selectedClass = classSelect.value || &quot;None selected&quot;;
+
+      const summary = document.getElementById(&quot;summary&quot;);
+      summary.innerHTML = 
+        &quot;&lt;strong&gt;Subjects:&lt;/strong&gt; &quot; + (subjects.length &gt; 0 ? subjects.join(&quot;, &quot;) : &quot;None&quot;) + &quot;&lt;br&gt;&quot; +
+        &quot;&lt;strong&gt;Batch:&lt;/strong&gt; &quot; + batch + &quot;&lt;br&gt;&quot; +
+        &quot;&lt;strong&gt;Class:&lt;/strong&gt; &quot; + (selectedClass !== &quot;None selected&quot; ? &quot;Class &quot; + selectedClass : selectedClass);
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">Checkboxes: use <code>querySelectorAll(':checked')</code> to get all checked boxes, then map their values. Radio buttons: use <code>querySelector(':checked')</code> to get the single selected option. Select: read <code>.value</code> for the current selection.</div><div class="code-example-output">A form with checkboxes, radio buttons, and a dropdown. Clicking &#39;Show Summary&#39; displays all selected values.</div></div>
+<div class="code-example"><div class="code-example-title">Real-Time Field Validation with Visual Feedback</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .field { margin-bottom: 14px; position: relative; }
+    label { display: block; font-weight: bold; margin-bottom: 4px; }
+    input { width: 300px; padding: 10px 36px 10px 10px; border: 2px solid #ddd; border-radius: 6px; font-size: 16px; box-sizing: border-box; }
+    .icon { position: absolute; right: 10px; top: 34px; font-size: 18px; }
+    .msg { font-size: 13px; margin-top: 2px; }
+    .valid input { border-color: #10b981; }
+    .valid .icon { color: #10b981; }
+    .valid .msg { color: #10b981; }
+    .invalid input { border-color: #ef4444; }
+    .invalid .icon { color: #ef4444; }
+    .invalid .msg { color: #ef4444; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Live Validation&lt;/h2&gt;
+  &lt;div class=&quot;field&quot; id=&quot;name-field&quot;&gt;
+    &lt;label&gt;Name&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;name&quot; placeholder=&quot;At least 2 letters&quot;&gt;
+    &lt;span class=&quot;icon&quot; id=&quot;name-icon&quot;&gt;&lt;/span&gt;
+    &lt;div class=&quot;msg&quot; id=&quot;name-msg&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;field&quot; id=&quot;email-field&quot;&gt;
+    &lt;label&gt;Email&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;email&quot; placeholder=&quot;aarav@example.com&quot;&gt;
+    &lt;span class=&quot;icon&quot; id=&quot;email-icon&quot;&gt;&lt;/span&gt;
+    &lt;div class=&quot;msg&quot; id=&quot;email-msg&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;field&quot; id=&quot;phone-field&quot;&gt;
+    &lt;label&gt;Phone&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;phone&quot; placeholder=&quot;10 digit number&quot; maxlength=&quot;10&quot;&gt;
+    &lt;span class=&quot;icon&quot; id=&quot;phone-icon&quot;&gt;&lt;/span&gt;
+    &lt;div class=&quot;msg&quot; id=&quot;phone-msg&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;script&gt;
+    function setupValidation(id, testFn, validMsg, invalidMsg) {
+      const input = document.getElementById(id);
+      const field = document.getElementById(id + &quot;-field&quot;);
+      const icon = document.getElementById(id + &quot;-icon&quot;);
+      const msg = document.getElementById(id + &quot;-msg&quot;);
+
+      input.addEventListener(&quot;input&quot;, function() {
+        const value = input.value.trim();
+        if (value === &quot;&quot;) {
+          field.classList.remove(&quot;valid&quot;, &quot;invalid&quot;);
+          icon.textContent = &quot;&quot;;
+          msg.textContent = &quot;&quot;;
+        } else if (testFn(value)) {
+          field.classList.add(&quot;valid&quot;);
+          field.classList.remove(&quot;invalid&quot;);
+          icon.textContent = &quot;[ok]&quot;;
+          msg.textContent = validMsg;
+        } else {
+          field.classList.add(&quot;invalid&quot;);
+          field.classList.remove(&quot;valid&quot;);
+          icon.textContent = &quot;[x]&quot;;
+          msg.textContent = invalidMsg;
+        }
+      });
+    }
+
+    setupValidation(&quot;name&quot;,
+      function(v) { return /^[A-Za-z\s]{2,}$/.test(v); },
+      &quot;Looks good!&quot;,
+      &quot;Letters only, at least 2 characters&quot;
+    );
+
+    setupValidation(&quot;email&quot;,
+      function(v) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); },
+      &quot;Valid email!&quot;,
+      &quot;Enter a valid email address&quot;
+    );
+
+    setupValidation(&quot;phone&quot;,
+      function(v) { return /^\d{10}$/.test(v); },
+      &quot;Valid phone number!&quot;,
+      &quot;Must be exactly 10 digits&quot;
+    );
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">A reusable <code>setupValidation</code> function handles the validation logic for any field. It takes the field ID, a test function, and messages for valid/invalid states. Each field validates in real time as the user types, with color-coded borders, icons, and messages.</div><div class="code-example-output">Three input fields that show green check or red X icons and messages as you type. Each validates with a different rule.</div></div>
+<div class="code-example"><div class="code-example-title">Login Form with Error Messages</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 20px; display: flex; justify-content: center; }
+    .login-card { width: 350px; padding: 30px; border: 1px solid #e5e7eb; border-radius: 12px; }
+    h2 { text-align: center; margin-bottom: 24px; }
+    .field { margin-bottom: 16px; }
+    label { display: block; font-size: 14px; font-weight: bold; margin-bottom: 4px; }
+    input { width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 6px; font-size: 16px; box-sizing: border-box; }
+    .error { color: #ef4444; font-size: 13px; margin-top: 4px; min-height: 18px; }
+    button { width: 100%; padding: 12px; background: #a855f7; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; }
+    button:hover { background: #9333ea; }
+    #result { text-align: center; margin-top: 16px; padding: 10px; border-radius: 6px; }
+    .success { background: #d1fae5; color: #065f46; }
+    .failure { background: #fecaca; color: #991b1b; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&quot;login-card&quot;&gt;
+    &lt;h2&gt;Login&lt;/h2&gt;
+    &lt;form id=&quot;loginForm&quot;&gt;
+      &lt;div class=&quot;field&quot;&gt;
+        &lt;label&gt;Email&lt;/label&gt;
+        &lt;input type=&quot;text&quot; id=&quot;email&quot; placeholder=&quot;aarav@example.com&quot;&gt;
+        &lt;div class=&quot;error&quot; id=&quot;email-error&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;field&quot;&gt;
+        &lt;label&gt;Password&lt;/label&gt;
+        &lt;input type=&quot;password&quot; id=&quot;password&quot; placeholder=&quot;Enter password&quot;&gt;
+        &lt;div class=&quot;error&quot; id=&quot;password-error&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;button type=&quot;submit&quot;&gt;Login&lt;/button&gt;
+    &lt;/form&gt;
+    &lt;div id=&quot;result&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;script&gt;
+    document.getElementById(&quot;loginForm&quot;).addEventListener(&quot;submit&quot;, function(e) {
+      e.preventDefault();
+
+      const email = document.getElementById(&quot;email&quot;);
+      const password = document.getElementById(&quot;password&quot;);
+      const emailError = document.getElementById(&quot;email-error&quot;);
+      const passwordError = document.getElementById(&quot;password-error&quot;);
+      const result = document.getElementById(&quot;result&quot;);
+
+      let isValid = true;
+
+      // Email validation
+      emailError.textContent = &quot;&quot;;
+      if (email.value.trim() === &quot;&quot;) {
+        emailError.textContent = &quot;Email is required&quot;;
+        email.style.borderColor = &quot;#ef4444&quot;;
+        isValid = false;
+      } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
+        emailError.textContent = &quot;Enter a valid email&quot;;
+        email.style.borderColor = &quot;#ef4444&quot;;
+        isValid = false;
+      } else {
+        email.style.borderColor = &quot;#10b981&quot;;
+      }
+
+      // Password validation
+      passwordError.textContent = &quot;&quot;;
+      if (password.value === &quot;&quot;) {
+        passwordError.textContent = &quot;Password is required&quot;;
+        password.style.borderColor = &quot;#ef4444&quot;;
+        isValid = false;
+      } else if (password.value.length &lt; 6) {
+        passwordError.textContent = &quot;Password must be at least 6 characters&quot;;
+        password.style.borderColor = &quot;#ef4444&quot;;
+        isValid = false;
+      } else {
+        password.style.borderColor = &quot;#10b981&quot;;
+      }
+
+      // Result
+      result.className = &quot;&quot;;
+      if (isValid) {
+        result.textContent = &quot;Login successful!&quot;;
+        result.classList.add(&quot;success&quot;);
+      }
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">On form submission, each field is validated. If empty or invalid, an error message appears below the input and the border turns red. If valid, the border turns green. Only when all validations pass does the success message appear. This is the basic pattern for any login form.</div><div class="code-example-output">A styled login form. Submitting with empty fields shows red error messages. Valid inputs turn green. Success shows a green banner.</div></div>
+<div class="code-example"><div class="code-example-title">Enable Submit Button Based on Validity</div><pre><code class="language-python">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;style&gt;
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    form { max-width: 350px; }
+    .field { margin-bottom: 12px; }
+    label { display: block; font-weight: bold; margin-bottom: 4px; }
+    input { width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 6px; font-size: 16px; box-sizing: border-box; }
+    button { width: 100%; padding: 12px; background: #a855f7; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; }
+    button:disabled { background: #d1d5db; cursor: not-allowed; }
+    .status { font-size: 13px; margin-top: 2px; }
+    .check { margin-top: 8px; }
+    label.check-label { font-weight: normal; cursor: pointer; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h2&gt;Contact Form&lt;/h2&gt;
+  &lt;form id=&quot;form&quot;&gt;
+    &lt;div class=&quot;field&quot;&gt;
+      &lt;label&gt;Name&lt;/label&gt;
+      &lt;input type=&quot;text&quot; id=&quot;name&quot; placeholder=&quot;Your name&quot;&gt;
+      &lt;div class=&quot;status&quot; id=&quot;name-status&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;
+      &lt;label&gt;Email&lt;/label&gt;
+      &lt;input type=&quot;text&quot; id=&quot;email&quot; placeholder=&quot;you@example.com&quot;&gt;
+      &lt;div class=&quot;status&quot; id=&quot;email-status&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;
+      &lt;label&gt;Message&lt;/label&gt;
+      &lt;input type=&quot;text&quot; id=&quot;message&quot; placeholder=&quot;At least 10 characters&quot;&gt;
+      &lt;div class=&quot;status&quot; id=&quot;message-status&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;check&quot;&gt;
+      &lt;label class=&quot;check-label&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;agree&quot;&gt; I agree to the terms&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;br&gt;
+    &lt;button type=&quot;submit&quot; id=&quot;submit&quot; disabled&gt;Send Message&lt;/button&gt;
+  &lt;/form&gt;
+
+  &lt;script&gt;
+    const nameInput = document.getElementById(&quot;name&quot;);
+    const emailInput = document.getElementById(&quot;email&quot;);
+    const messageInput = document.getElementById(&quot;message&quot;);
+    const agreeCheckbox = document.getElementById(&quot;agree&quot;);
+    const submitBtn = document.getElementById(&quot;submit&quot;);
+
+    function checkAll() {
+      const nameOk = nameInput.value.trim().length &gt;= 2;
+      const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailInput.value.trim());
+      const msgOk = messageInput.value.trim().length &gt;= 10;
+      const agreed = agreeCheckbox.checked;
+
+      document.getElementById(&quot;name-status&quot;).textContent = nameInput.value.trim() ? (nameOk ? &quot;&quot; : &quot;Too short&quot;) : &quot;&quot;;
+      document.getElementById(&quot;name-status&quot;).style.color = nameOk ? &quot;green&quot; : &quot;red&quot;;
+      document.getElementById(&quot;email-status&quot;).textContent = emailInput.value.trim() ? (emailOk ? &quot;&quot; : &quot;Invalid email&quot;) : &quot;&quot;;
+      document.getElementById(&quot;email-status&quot;).style.color = emailOk ? &quot;green&quot; : &quot;red&quot;;
+      document.getElementById(&quot;message-status&quot;).textContent = messageInput.value.trim() ? (msgOk ? &quot;&quot; : (10 - messageInput.value.trim().length) + &quot; more chars needed&quot;) : &quot;&quot;;
+      document.getElementById(&quot;message-status&quot;).style.color = msgOk ? &quot;green&quot; : &quot;red&quot;;
+
+      submitBtn.disabled = !(nameOk &amp;&amp; emailOk &amp;&amp; msgOk &amp;&amp; agreed);
+    }
+
+    nameInput.addEventListener(&quot;input&quot;, checkAll);
+    emailInput.addEventListener(&quot;input&quot;, checkAll);
+    messageInput.addEventListener(&quot;input&quot;, checkAll);
+    agreeCheckbox.addEventListener(&quot;change&quot;, checkAll);
+
+    document.getElementById(&quot;form&quot;).addEventListener(&quot;submit&quot;, function(e) {
+      e.preventDefault();
+      alert(&quot;Message sent! Thank you, &quot; + nameInput.value.trim());
+    });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><div class="code-example-explanation">The submit button is disabled by default. As the user fills in each field, the <code>checkAll</code> function validates all fields and enables the button only when ALL conditions are met: name >= 2 chars, valid email, message >= 10 chars, and checkbox is checked. The message field even shows how many more characters are needed.</div><div class="code-example-output">A contact form with a disabled submit button. It enables only when all fields are valid and the checkbox is checked.</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting e.preventDefault() on Form Submit</h3>
+                <div class="wrong-code"><pre><code class="language-python">document.getElementById(&quot;form&quot;).addEventListener(&quot;submit&quot;, function() {
+  // Forgot e.preventDefault()!
+  console.log(&quot;This logs for a split second, then the page reloads&quot;);
+});</code></pre></div><div class="error-message">The page reloads because the default form submission behavior is not prevented.</div><div class="correct-code"><pre><code class="language-python">document.getElementById(&quot;form&quot;).addEventListener(&quot;submit&quot;, function(e) {
+  e.preventDefault();
+  console.log(&quot;Now this works without page reload&quot;);
+});</code></pre></div><div class="mistake-explanation">The <code>submit</code> event's default behavior is to send the form data and reload the page. You must call <code>e.preventDefault()</code> to handle the form with JavaScript instead.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Reading .value of a Non-Existent Element</h3>
+                <div class="wrong-code"><pre><code class="language-python">const email = document.getElementById(&quot;emial&quot;).value; // Typo in ID!
+// TypeError: Cannot read properties of null (reading &#39;value&#39;)</code></pre></div><div class="error-message">TypeError: Cannot read properties of null (reading &#39;value&#39;). The ID &#39;emial&#39; does not exist (typo for &#39;email&#39;).</div><div class="correct-code"><pre><code class="language-python">const email = document.getElementById(&quot;email&quot;).value; // Correct ID</code></pre></div><div class="mistake-explanation">If getElementById returns null (element not found), accessing <code>.value</code> on null throws a TypeError. Always check for typos in IDs, or add a null check before accessing properties.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Checking .checked on a Radio Group Without Handling No Selection</h3>
+                <div class="wrong-code"><pre><code class="language-python">const selected = document.querySelector(&#39;input[name=&quot;gender&quot;]:checked&#39;);
+console.log(selected.value); // TypeError if nothing is selected!</code></pre></div><div class="error-message">TypeError: Cannot read properties of null (reading &#39;value&#39;). If no radio button is checked, querySelector returns null.</div><div class="correct-code"><pre><code class="language-python">const selected = document.querySelector(&#39;input[name=&quot;gender&quot;]:checked&#39;);
+if (selected) {
+  console.log(selected.value);
+} else {
+  console.log(&quot;No option selected&quot;);
+}</code></pre></div><div class="mistake-explanation">If no radio button is checked, <code>querySelector(':checked')</code> returns null. Always check if the result is not null before accessing .value.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Comparing Input Value as Number Without Conversion</h3>
+                <div class="wrong-code"><pre><code class="language-python">const age = document.getElementById(&quot;age&quot;).value;
+if (age &gt; 18) {
+  console.log(&quot;Adult&quot;);
+}
+// Problem: age is a STRING, not a number
+// &quot;9&quot; &gt; 18 is false (correct by luck), but &quot;9&quot; &gt; &quot;18&quot; is true (string comparison)!</code></pre></div><div class="error-message">The comparison works with numbers by coercion, but can give unexpected results with string comparisons. Also, &quot;&quot; (empty input) &gt; 18 evaluates to false, which might mask an empty field.</div><div class="correct-code"><pre><code class="language-python">const age = Number(document.getElementById(&quot;age&quot;).value);
+if (isNaN(age) || age &lt;= 0) {
+  console.log(&quot;Enter a valid age&quot;);
+} else if (age &gt; 18) {
+  console.log(&quot;Adult&quot;);
+}</code></pre></div><div class="mistake-explanation">Input values are always strings. Convert to a number with <code>Number()</code> or <code>parseInt()</code>. Also check for NaN (invalid input) before comparing.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Regex Without the test() Method</h3>
+                <div class="wrong-code"><pre><code class="language-python">const email = &quot;aarav@gmail.com&quot;;
+const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+if (email === regex) { // Always false! Comparing string to regex object
+  console.log(&quot;Valid&quot;);
+}</code></pre></div><div class="error-message">A string is never equal to a regex object. The comparison is always false.</div><div class="correct-code"><pre><code class="language-python">const email = &quot;aarav@gmail.com&quot;;
+const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+if (regex.test(email)) {
+  console.log(&quot;Valid&quot;);
+}</code></pre></div><div class="mistake-explanation">Use <code>regex.test(string)</code> to check if a string matches the pattern. It returns true or false. You cannot compare a string to a regex with <code>===</code>.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Always use e.preventDefault() in the form submit handler to stop the page from reloading. This lets JavaScript process the form data.</li>
+<li>Read input values with .value (returns a string). For numbers, convert with Number() or parseInt(). For checkboxes, use .checked (boolean).</li>
+<li>Common validations: empty check (value.trim() === &#39;&#39;), minimum length (value.length &lt; n), regex patterns for email, phone, and password.</li>
+<li>Regular expressions: /^[^\s@]+@[^\s@]+\.[^\s@]+$/ for email, /^\d{10}$/ for 10-digit phone, /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/ for strong passwords.</li>
+<li>Show error messages by creating elements or toggling CSS classes. Never use alert() for validation -- it is disruptive to the user experience.</li>
+<li>Use the input event for real-time validation (fires on every keystroke). Use the change event for final-value validation (fires when the field loses focus).</li>
+<li>For checkboxes: querySelectorAll(&#39;:checked&#39;) gets all checked boxes. For radio buttons: querySelector(&#39;:checked&#39;) gets the selected one (null if none).</li>
+<li>For select dropdowns: .value gives the selected option&#39;s value. .selectedIndex gives the index. .options[index].text gives the display text.</li>
+<li>Disable the submit button until all validations pass. Re-check validity on every input event to enable/disable dynamically.</li>
+<li>Always validate on the server too. Client-side validation improves UX but can be bypassed by disabling JavaScript or manipulating the request.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/javascript/creating-and-removing-elements" class="related-topic-link">Creating and Removing DOM Elements</a>
+<a href="/resources/javascript/css-manipulation-with-javascript" class="related-topic-link">CSS Manipulation with JavaScript</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/javascript/creating-and-removing-elements" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Creating and Removing DOM Elements</span>
+        </a>
+            <a href="/resources/javascript/css-manipulation-with-javascript" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">CSS Manipulation with JavaScript</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/javascript/forms-and-validation/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

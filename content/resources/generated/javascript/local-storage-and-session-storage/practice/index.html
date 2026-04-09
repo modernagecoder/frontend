@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Local Storage and Session Storage | JavaScript | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="49+ practice questions on Local Storage and Session Storage in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="local storage and session storage practice, javascript questions, javascript practice problems, local storage and session storage exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/javascript/local-storage-and-session-storage/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/javascript/local-storage-and-session-storage/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/javascript/local-storage-and-session-storage/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/javascript/local-storage-and-session-storage/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/javascript/local-storage-and-session-storage/practice">
+    <meta property="og:title" content="Practice Questions - Local Storage and Session Storage | JavaScript | Modern Age Coders">
+    <meta property="og:description" content="49+ practice questions on Local Storage and Session Storage in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/javascript/local-storage-and-session-storage/practice">
+    <meta name="twitter:title" content="Practice Questions - Local Storage and Session Storage | JavaScript | Modern Age Coders">
+    <meta name="twitter:description" content="49+ practice questions on Local Storage and Session Storage in JavaScript. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Local Storage and Session Storage",
+    "description": "49+ practice questions on Local Storage and Session Storage in JavaScript.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Local Storage and Session Storage"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/javascript/local-storage-and-session-storage/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "JavaScript",
+        "item": "https://learn.modernagecoders.com/resources/javascript"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Local Storage and Session Storage",
+        "item": "https://learn.modernagecoders.com/resources/javascript/local-storage-and-session-storage"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/javascript/local-storage-and-session-storage/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript">JavaScript</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/javascript/local-storage-and-session-storage">Local Storage and Session Storage</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 21</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">49 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Local Storage and Session Storage</h1>
+            <a href="/resources/javascript/local-storage-and-session-storage" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>localStorage.setItem("city", "Delhi");
+console.log(localStorage.getItem("city"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">setItem saves the value, getItem retrieves it.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Delhi</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>localStorage.setItem("score", 95);
+const score = localStorage.getItem("score");
+console.log(typeof score);
+console.log(score);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">localStorage stores everything as strings.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>string</code><br><code>95</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>console.log(localStorage.getItem("nonexistent"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">What does getItem return when the key does not exist?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>null</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>localStorage.setItem("a", "1");
+localStorage.setItem("b", "2");
+localStorage.setItem("c", "3");
+console.log(localStorage.length);
+localStorage.removeItem("b");
+console.log(localStorage.length);
+localStorage.clear();
+console.log(localStorage.length);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">length tells you how many items are stored. removeItem removes one, clear removes all.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>3</code><br><code>2</code><br><code>0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>localStorage.setItem("score", 42);
+const score = localStorage.getItem("score");
+console.log(score + 1);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">score is a string. What happens when you add 1 to a string?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>421</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const arr = [10, 20, 30];
+localStorage.setItem("nums", JSON.stringify(arr));
+const saved = JSON.parse(localStorage.getItem("nums"));
+console.log(saved.length);
+console.log(saved[1]);
+console.log(Array.isArray(saved));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">JSON.stringify converts the array to a string. JSON.parse converts it back.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>3</code><br><code>20</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const user = { name: "Aarav", age: 15 };
+localStorage.setItem("user", user);
+console.log(localStorage.getItem("user"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">What happens when you save an object without JSON.stringify?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>[object Object]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>localStorage.setItem("flag", "true");
+const flag = localStorage.getItem("flag");
+
+if (flag) {
+  console.log("A");
+}
+
+if (flag === true) {
+  console.log("B");
+}
+
+if (flag === "true") {
+  console.log("C");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">flag is the string "true", not the boolean true.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>A</code><br><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>console.log(JSON.parse(null));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">What happens when you pass null to JSON.parse?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>null</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>localStorage.setItem("x", "10");
+localStorage.setItem("x", "20");
+console.log(localStorage.getItem("x"));
+console.log(localStorage.length);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Setting the same key twice overwrites the value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>20</code><br><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const tasks = [
+  { text: "Study", done: false },
+  { text: "Code", done: true }
+];
+localStorage.setItem("tasks", JSON.stringify(tasks));
+
+const loaded = JSON.parse(localStorage.getItem("tasks"));
+loaded.push({ text: "Read", done: false });
+
+console.log(loaded.length);
+console.log(JSON.parse(localStorage.getItem("tasks")).length);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Pushing to the loaded array does not automatically update localStorage.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>3</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const raw = localStorage.getItem("missing");
+const data = raw ? JSON.parse(raw) : [];
+console.log(data);
+console.log(data.length);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">The key 'missing' does not exist. getItem returns null, which is falsy.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>[]</code><br><code>0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the main difference between localStorage and sessionStorage?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Think about when the data disappears.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><strong>localStorage</strong> data persists forever until you explicitly delete it. <strong>sessionStorage</strong> data is cleared when the browser tab is closed. Both have the same API and same ~5MB limit.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why do you need JSON.stringify and JSON.parse when working with localStorage?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">What type of data can localStorage store?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14">localStorage can only store <strong>strings</strong>. Objects and arrays are not strings. <code>JSON.stringify()</code> converts objects/arrays into a JSON string for storage. <code>JSON.parse()</code> converts the JSON string back into a real JavaScript object or array when reading.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">When does the <code>storage</code> event fire, and when does it NOT fire?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Think about which tab triggers the event.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">The <code>storage</code> event fires in <strong>other tabs</strong> of the same origin when localStorage is changed. It does <strong>NOT</strong> fire in the tab that made the change. The event object contains <code>key</code>, <code>oldValue</code>, <code>newValue</code>, and <code>storageArea</code>.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>localStorage.clear();
+localStorage.setItem("color", "purple");
+console.log(localStorage.getItem("color"));
+localStorage.removeItem("color");
+console.log(localStorage.getItem("color"));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">removeItem deletes the key. getItem on a deleted key returns null.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>purple</code><br><code>null</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>localStorage.setItem("name", "Priya");
+const name = localStorage.getItem("name") || "Guest";
+console.log(name);
+
+const missing = localStorage.getItem("email") || "not set";
+console.log(missing);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">The || operator returns the first truthy value.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>Priya</code><br><code>not set</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>const config = { volume: 80, muted: false };
+localStorage.setItem("config", JSON.stringify(config));
+
+const loaded = JSON.parse(localStorage.getItem("config"));
+console.log(loaded.volume);
+console.log(loaded.muted);
+console.log(typeof loaded.muted);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">JSON preserves booleans and numbers correctly.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>80</code><br><code>false</code><br><code>boolean</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>localStorage.setItem("empty", "");
+console.log(localStorage.getItem("empty"));
+console.log(localStorage.getItem("empty") === null);
+console.log(localStorage.getItem("empty") === "");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">An empty string is a valid value, different from null.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code></code> (empty line)<br><code>false</code><br><code>true</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>localStorage.clear();
+for (let i = 0; i < 3; i++) {
+  localStorage.setItem("item" + i, "value" + i);
+}
+console.log(localStorage.length);
+for (let i = 0; i < localStorage.length; i++) {
+  console.log(localStorage.key(i));
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">key(index) returns the key name at that index position.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>3</code><br><code>item0</code><br><code>item1</code><br><code>item2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>function saveScore(name, score) {
+  const raw = localStorage.getItem("scores");
+  const scores = raw ? JSON.parse(raw) : {};
+  scores[name] = score;
+  localStorage.setItem("scores", JSON.stringify(scores));
+}
+
+localStorage.clear();
+saveScore("Aarav", 95);
+saveScore("Priya", 88);
+saveScore("Aarav", 97);
+
+const result = JSON.parse(localStorage.getItem("scores"));
+console.log(Object.keys(result).length);
+console.log(result["Aarav"]);
+console.log(result["Priya"]);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Setting the same key in the object overwrites the previous value.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>2</code><br><code>97</code><br><code>88</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>const original = { a: 1, b: [2, 3] };
+localStorage.setItem("data", JSON.stringify(original));
+
+const copy = JSON.parse(localStorage.getItem("data"));
+copy.b.push(4);
+
+console.log(original.b);
+console.log(copy.b);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">JSON parse creates a completely new object -- it is a deep copy.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>[2, 3]</code><br><code>[2, 3, 4]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>localStorage.clear();
+localStorage.setItem("0", "zero");
+localStorage.setItem("false", "nope");
+localStorage.setItem("null", "nothing");
+
+console.log(localStorage.getItem("0"));
+console.log(localStorage.getItem("false"));
+console.log(localStorage.getItem("null"));
+console.log(localStorage.getItem(0));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Keys are always strings. The number 0 becomes the string "0".</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>zero</code><br><code>nope</code><br><code>nothing</code><br><code>zero</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>try {
+  const result = JSON.parse("not valid json");
+  console.log(result);
+} catch (e) {
+  console.log("Error:", e.constructor.name);
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">What happens when you try to parse invalid JSON?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>Error: SyntaxError</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">A user stores their to-do list in sessionStorage. They close the browser tab. What happens to the data?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Think about the key difference between sessionStorage and localStorage.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">The data is <strong>permanently lost</strong>. sessionStorage is cleared when the tab is closed. The user will have an empty to-do list when they reopen the page. For persistent data like to-do lists, localStorage should be used instead.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why should you NOT store passwords or sensitive tokens in localStorage?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think about who can access localStorage.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">localStorage is accessible to <strong>any JavaScript running on the page</strong>, including third-party scripts, browser extensions, and code injected through XSS (Cross-Site Scripting) attacks. If an attacker can run JavaScript on your page, they can read everything in localStorage. Sensitive data should be stored in httpOnly cookies (which JavaScript cannot access) or handled server-side.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>localStorage.clear();
+localStorage.setItem("a", "1");
+localStorage.setItem("b", "2");
+
+const allKeys = [];
+for (let i = 0; i < localStorage.length; i++) {
+  allKeys.push(localStorage.key(i));
+}
+console.log(allKeys.sort());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">key(index) returns the key name at that position.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>["a", "b"]</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does localStorage.getItem return when the key does not exist?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> undefined</li><li><span class="mcq-option-label">B.</span> &quot;&quot;</li><li><span class="mcq-option-label">C.</span> null</li><li><span class="mcq-option-label">D.</span> false</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>getItem</code> returns <code>null</code> when the key does not exist. It does not return undefined, an empty string, or false.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">How many main methods does localStorage have?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 2 (get and set)</li><li><span class="mcq-option-label">B.</span> 3 (get, set, delete)</li><li><span class="mcq-option-label">C.</span> 4 (setItem, getItem, removeItem, clear)</li><li><span class="mcq-option-label">D.</span> 5 (setItem, getItem, removeItem, clear, update)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> localStorage has 4 methods: <code>setItem</code> (save), <code>getItem</code> (read), <code>removeItem</code> (delete one), and <code>clear</code> (delete all).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What data type does localStorage always store values as?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Number</li><li><span class="mcq-option-label">B.</span> Boolean</li><li><span class="mcq-option-label">C.</span> Object</li><li><span class="mcq-option-label">D.</span> String</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: D</strong><br><strong>D is correct.</strong> localStorage stores all values as strings. Numbers, booleans, and other types are automatically converted to strings.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which storage type persists after the browser is closed?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> sessionStorage only</li><li><span class="mcq-option-label">B.</span> localStorage only</li><li><span class="mcq-option-label">C.</span> Both localStorage and sessionStorage</li><li><span class="mcq-option-label">D.</span> Neither</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> localStorage persists until explicitly deleted. sessionStorage is cleared when the tab (or browser) is closed.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What is the approximate storage limit for localStorage per origin?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 4KB</li><li><span class="mcq-option-label">B.</span> 1MB</li><li><span class="mcq-option-label">C.</span> 5MB</li><li><span class="mcq-option-label">D.</span> 50MB</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> localStorage has a limit of approximately 5MB per origin. This is much more than cookies (4KB) but not enough for large files.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the correct way to store an object in localStorage?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> localStorage.setItem(&quot;data&quot;, myObject)</li><li><span class="mcq-option-label">B.</span> localStorage.setItem(&quot;data&quot;, JSON.stringify(myObject))</li><li><span class="mcq-option-label">C.</span> localStorage.setObject(&quot;data&quot;, myObject)</li><li><span class="mcq-option-label">D.</span> localStorage.store(&quot;data&quot;, myObject)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> You must convert the object to a JSON string using <code>JSON.stringify()</code> before storing it. Without this, the object becomes the useless string "[object Object]".</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does this code print? <code>localStorage.setItem("n", 5); console.log(typeof localStorage.getItem("n"));</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> number</li><li><span class="mcq-option-label">B.</span> string</li><li><span class="mcq-option-label">C.</span> object</li><li><span class="mcq-option-label">D.</span> undefined</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> Even though the number 5 was stored, localStorage converts it to the string "5". <code>typeof</code> returns "string".</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">When does the 'storage' event fire?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> In the same tab that made the change</li><li><span class="mcq-option-label">B.</span> In other tabs of the same origin</li><li><span class="mcq-option-label">C.</span> In all tabs of all websites</li><li><span class="mcq-option-label">D.</span> It does not fire automatically</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> The storage event fires in other tabs of the same origin when localStorage is changed. It does NOT fire in the tab that made the change.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Is sessionStorage shared between two tabs of the same website?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, they share the same data</li><li><span class="mcq-option-label">B.</span> No, each tab has its own sessionStorage</li><li><span class="mcq-option-label">C.</span> Only if the tabs were opened within 5 seconds</li><li><span class="mcq-option-label">D.</span> Only if cookies are enabled</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> Each tab has its own separate sessionStorage. Even if two tabs are on the same website, their sessionStorage data is independent.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What happens when you call localStorage.setItem with a key that already exists?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It throws an error</li><li><span class="mcq-option-label">B.</span> It creates a duplicate entry</li><li><span class="mcq-option-label">C.</span> It overwrites the existing value</li><li><span class="mcq-option-label">D.</span> It does nothing</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> Setting an existing key overwrites the previous value. There are no duplicate keys in localStorage.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Is localStorage data sent to the server with HTTP requests?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, with every request</li><li><span class="mcq-option-label">B.</span> Yes, but only with POST requests</li><li><span class="mcq-option-label">C.</span> No, it stays in the browser only</li><li><span class="mcq-option-label">D.</span> Only if you enable it</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> Unlike cookies, localStorage data is never automatically sent to the server. It stays entirely in the browser. If you need to send it, you must include it in your JavaScript code manually.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What does JSON.parse(localStorage.getItem("noKey")) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> undefined</li><li><span class="mcq-option-label">B.</span> &quot;null&quot;</li><li><span class="mcq-option-label">C.</span> null</li><li><span class="mcq-option-label">D.</span> It throws an error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>getItem("noKey")</code> returns null. <code>JSON.parse(null)</code> returns null. It does not throw an error because null is valid JSON.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the best practice for loading data from localStorage that might not exist?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Just call JSON.parse(localStorage.getItem(key))</li><li><span class="mcq-option-label">B.</span> Check for null first, then parse, and wrap in try-catch</li><li><span class="mcq-option-label">C.</span> Use localStorage.exists(key) to check first</li><li><span class="mcq-option-label">D.</span> Always call localStorage.clear() first</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> Check if getItem returns null (key does not exist), then parse, and use try-catch in case the stored data is corrupt or not valid JSON. This is the safest pattern.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Why should you NOT store sensitive data in localStorage?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> localStorage is too slow for sensitive data</li><li><span class="mcq-option-label">B.</span> localStorage has no encryption and is accessible by any JavaScript on the page</li><li><span class="mcq-option-label">C.</span> localStorage only works on HTTPS</li><li><span class="mcq-option-label">D.</span> Sensitive data exceeds the 5MB limit</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> localStorage has no encryption and any JavaScript running on the page (including malicious scripts from XSS attacks) can read all stored data. Sensitive data should use httpOnly cookies or server-side storage.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the correct way to read an array stored in localStorage?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> localStorage.getArray(&quot;key&quot;)</li><li><span class="mcq-option-label">B.</span> JSON.parse(localStorage.getItem(&quot;key&quot;))</li><li><span class="mcq-option-label">C.</span> localStorage.getItem(&quot;key&quot;).toArray()</li><li><span class="mcq-option-label">D.</span> Array.from(localStorage.getItem(&quot;key&quot;))</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> getItem returns the JSON string. <code>JSON.parse</code> converts it back into a real JavaScript array.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Save and Load Theme Preference</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write JavaScript that saves a user's theme preference ("dark" or "light") to localStorage when a button is clicked. On page load, check if a preference is saved and apply it by adding or removing a 'dark-mode' class on the body.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">User clicks the toggle button</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Theme toggled to: dark
+(Page refresh)
+Theme loaded: dark</div>
+                </div><div class="challenge-constraints">Use localStorage.setItem and getItem. Check for null on load.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">// On page load
+const savedTheme = localStorage.getItem(&quot;theme&quot;);
+if (savedTheme === &quot;dark&quot;) {
+  document.body.classList.add(&quot;dark-mode&quot;);
+  console.log(&quot;Theme loaded: dark&quot;);
+} else {
+  console.log(&quot;Theme loaded: light&quot;);
+}
+
+// Toggle button
+document.getElementById(&quot;themeToggle&quot;).addEventListener(&quot;click&quot;, function() {
+  document.body.classList.toggle(&quot;dark-mode&quot;);
+  const isDark = document.body.classList.contains(&quot;dark-mode&quot;);
+  localStorage.setItem(&quot;theme&quot;, isDark ? &quot;dark&quot; : &quot;light&quot;);
+  console.log(&quot;Theme toggled to:&quot;, isDark ? &quot;dark&quot; : &quot;light&quot;);
+});</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Remember Username</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a form with a username input and a "Remember Me" checkbox. If the checkbox is checked when the form is submitted, save the username to localStorage. On page load, if a username is saved, pre-fill the input field.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Username: Aarav, checkbox checked</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">(Page refresh)
+Username field shows: Aarav</div>
+                </div><div class="challenge-constraints">Use a checkbox to decide whether to save. Clear saved username if checkbox is unchecked.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">const usernameInput = document.getElementById(&quot;username&quot;);
+const rememberCheckbox = document.getElementById(&quot;remember&quot;);
+const form = document.getElementById(&quot;loginForm&quot;);
+
+// Load saved username
+const savedUsername = localStorage.getItem(&quot;rememberedUser&quot;);
+if (savedUsername) {
+  usernameInput.value = savedUsername;
+  rememberCheckbox.checked = true;
+}
+
+form.addEventListener(&quot;submit&quot;, function(e) {
+  e.preventDefault();
+  if (rememberCheckbox.checked) {
+    localStorage.setItem(&quot;rememberedUser&quot;, usernameInput.value);
+    console.log(&quot;Username saved:&quot;, usernameInput.value);
+  } else {
+    localStorage.removeItem(&quot;rememberedUser&quot;);
+    console.log(&quot;Username cleared from storage&quot;);
+  }
+});</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Visit Counter</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write JavaScript that counts how many times the user has visited the page. Store the count in localStorage and display it. The count should increase by 1 every time the page loads.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(First visit, second visit, third visit)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Visit 1
+Visit 2
+Visit 3</div>
+                </div><div class="challenge-constraints">Use Number() to convert the stored string to a number.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">const raw = localStorage.getItem(&quot;visitCount&quot;);
+let count = raw ? Number(raw) : 0;
+count++;
+localStorage.setItem(&quot;visitCount&quot;, count);
+
+console.log(&quot;Visit &quot; + count);
+document.getElementById(&quot;counter&quot;).textContent = &quot;You have visited this page &quot; + count + &quot; time(s).&quot;;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Persistent Notes App</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a notes app where the user can add, delete, and view notes. Store all notes in localStorage as an array of objects with text and timestamp. Notes should persist across page refreshes.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Add: &quot;Learn localStorage&quot;, Add: &quot;Build to-do app&quot;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Notes:
+1. Learn localStorage (2026-04-09)
+2. Build to-do app (2026-04-09)
+2 notes saved.</div>
+                </div><div class="challenge-constraints">Use JSON.stringify/parse. Handle empty storage gracefully. Each note should have text and date.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">function loadNotes() {
+  const raw = localStorage.getItem(&quot;notes&quot;);
+  return raw ? JSON.parse(raw) : [];
+}
+
+function saveNotes(notes) {
+  localStorage.setItem(&quot;notes&quot;, JSON.stringify(notes));
+}
+
+function addNote(text) {
+  const notes = loadNotes();
+  notes.push({ text: text, date: new Date().toISOString().split(&quot;T&quot;)[0] });
+  saveNotes(notes);
+  renderNotes();
+}
+
+function deleteNote(index) {
+  const notes = loadNotes();
+  notes.splice(index, 1);
+  saveNotes(notes);
+  renderNotes();
+}
+
+function renderNotes() {
+  const notes = loadNotes();
+  const list = document.getElementById(&quot;notesList&quot;);
+  list.innerHTML = &quot;&quot;;
+  notes.forEach(function(note, i) {
+    const div = document.createElement(&quot;div&quot;);
+    div.innerHTML = (i + 1) + &quot;. &quot; + note.text + &quot; (&quot; + note.date + &quot;) &quot;;
+    const btn = document.createElement(&quot;button&quot;);
+    btn.textContent = &quot;Delete&quot;;
+    btn.addEventListener(&quot;click&quot;, function() { deleteNote(i); });
+    div.appendChild(btn);
+    list.appendChild(div);
+  });
+  console.log(notes.length + &quot; notes saved.&quot;);
+}
+
+renderNotes();</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Shopping Cart with localStorage</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a simple shopping cart that saves items to localStorage. Each item has a name and quantity. Implement addItem, removeItem, updateQuantity, and getTotal functions. The cart should persist across page refreshes.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Add Notebook x2, Add Pen x5, Update Notebook to x3</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Cart: Notebook (3), Pen (5)
+Total items: 8</div>
+                </div><div class="challenge-constraints">Use an array of objects in localStorage. Handle duplicates by updating quantity.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">function loadCart() {
+  const raw = localStorage.getItem(&quot;cart&quot;);
+  return raw ? JSON.parse(raw) : [];
+}
+
+function saveCart(cart) {
+  localStorage.setItem(&quot;cart&quot;, JSON.stringify(cart));
+}
+
+function addItem(name, qty) {
+  const cart = loadCart();
+  const existing = cart.find(function(item) { return item.name === name; });
+  if (existing) {
+    existing.quantity += qty;
+  } else {
+    cart.push({ name: name, quantity: qty });
+  }
+  saveCart(cart);
+}
+
+function removeItem(name) {
+  let cart = loadCart();
+  cart = cart.filter(function(item) { return item.name !== name; });
+  saveCart(cart);
+}
+
+function getTotal() {
+  const cart = loadCart();
+  return cart.reduce(function(sum, item) { return sum + item.quantity; }, 0);
+}
+
+// Test
+localStorage.clear();
+addItem(&quot;Notebook&quot;, 2);
+addItem(&quot;Pen&quot;, 5);
+addItem(&quot;Notebook&quot;, 1);
+console.log(&quot;Cart:&quot;, loadCart());
+console.log(&quot;Total items:&quot;, getTotal());</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Auto-Save Form with Multiple Fields</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a registration form with name, email, and message fields. Auto-save all field values to localStorage as the user types. Restore all fields on page load. Clear saved data when the form is submitted.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Type in name, email, and message fields</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">(Page refresh)
+All fields restored from saved draft.</div>
+                </div><div class="challenge-constraints">Save all fields as one object in localStorage. Use the input event for auto-save.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">const fields = [&quot;name&quot;, &quot;email&quot;, &quot;message&quot;];
+
+// Load saved draft
+const raw = localStorage.getItem(&quot;formDraft&quot;);
+const draft = raw ? JSON.parse(raw) : {};
+fields.forEach(function(field) {
+  const el = document.getElementById(field);
+  if (draft[field]) el.value = draft[field];
+  
+  el.addEventListener(&quot;input&quot;, function() {
+    const current = raw ? JSON.parse(localStorage.getItem(&quot;formDraft&quot;)) : {};
+    current[field] = el.value;
+    localStorage.setItem(&quot;formDraft&quot;, JSON.stringify(current));
+    console.log(&quot;Draft saved&quot;);
+  });
+});
+
+document.getElementById(&quot;regForm&quot;).addEventListener(&quot;submit&quot;, function(e) {
+  e.preventDefault();
+  localStorage.removeItem(&quot;formDraft&quot;);
+  console.log(&quot;Form submitted, draft cleared.&quot;);
+});</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: High Score Board</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Build a high score board that stores the top 5 scores in localStorage. Each score has a player name, score, and date. When a new score is added, insert it in the correct position and keep only the top 5. Display the leaderboard.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Aarav: 950, Priya: 1200, Rohan: 800, Meera: 1100, Kavya: 1050, Arjun: 1150</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Leaderboard:
+1. Priya - 1200 (2026-04-09)
+2. Arjun - 1150 (2026-04-09)
+3. Meera - 1100 (2026-04-09)
+4. Kavya - 1050 (2026-04-09)
+5. Aarav - 950 (2026-04-09)</div>
+                </div><div class="challenge-constraints">Sort by score descending. Keep only top 5. Use JSON.stringify/parse.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">function loadScores() {
+  const raw = localStorage.getItem(&quot;highScores&quot;);
+  return raw ? JSON.parse(raw) : [];
+}
+
+function addScore(name, score) {
+  const scores = loadScores();
+  scores.push({
+    name: name,
+    score: score,
+    date: new Date().toISOString().split(&quot;T&quot;)[0]
+  });
+  scores.sort(function(a, b) { return b.score - a.score; });
+  const top5 = scores.slice(0, 5);
+  localStorage.setItem(&quot;highScores&quot;, JSON.stringify(top5));
+  return top5;
+}
+
+function displayScores() {
+  const scores = loadScores();
+  console.log(&quot;Leaderboard:&quot;);
+  scores.forEach(function(entry, i) {
+    console.log((i + 1) + &quot;. &quot; + entry.name + &quot; - &quot; + entry.score + &quot; (&quot; + entry.date + &quot;)&quot;);
+  });
+}
+
+localStorage.clear();
+addScore(&quot;Aarav&quot;, 950);
+addScore(&quot;Priya&quot;, 1200);
+addScore(&quot;Rohan&quot;, 800);
+addScore(&quot;Meera&quot;, 1100);
+addScore(&quot;Kavya&quot;, 1050);
+addScore(&quot;Arjun&quot;, 1150);
+displayScores();</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Storage Size Calculator</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a function that calculates how much localStorage space is being used (in KB). Also write a function that estimates how much space is remaining. Display a usage bar showing percentage used.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(Run with some data in localStorage)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Used: 2.45 KB
+Estimated remaining: ~5117.55 KB
+Usage: 0.05%</div>
+                </div><div class="challenge-constraints">Iterate over all keys using localStorage.length and key(). Calculate size based on string length.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">function getStorageUsed() {
+  let total = 0;
+  for (let i = 0; i &lt; localStorage.length; i++) {
+    const key = localStorage.key(i);
+    const value = localStorage.getItem(key);
+    total += key.length + value.length;
+  }
+  return total * 2; // UTF-16 uses 2 bytes per character
+}
+
+function getStorageInfo() {
+  const used = getStorageUsed();
+  const usedKB = (used / 1024).toFixed(2);
+  const limit = 5 * 1024 * 1024; // ~5MB
+  const remainingKB = ((limit - used) / 1024).toFixed(2);
+  const percentage = ((used / limit) * 100).toFixed(2);
+
+  console.log(&quot;Used: &quot; + usedKB + &quot; KB&quot;);
+  console.log(&quot;Estimated remaining: ~&quot; + remainingKB + &quot; KB&quot;);
+  console.log(&quot;Usage: &quot; + percentage + &quot;%&quot;);
+  console.log(&quot;Keys stored: &quot; + localStorage.length);
+  return { usedKB: usedKB, remainingKB: remainingKB, percentage: percentage };
+}
+
+getStorageInfo();</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/javascript/fetch-api-and-working-with-apis/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Fetch API - Getting Data from the Internet</span>
+        </a>
+            <a href="/resources/javascript/project-todo-app-with-storage/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Project: Build a To-Do App with Local Storage</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/javascript/local-storage-and-session-storage" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn web development with a live mentor?</p>
+            <a href="/courses/frontend-development-masterclass-for-teens" class="cta-button-outline">Explore our Frontend Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

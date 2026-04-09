@@ -1,0 +1,650 @@
+{
+  "title": "Closures, Scope, and Hoisting",
+  "slug": "closures-scope-and-hoisting",
+  "language": "javascript",
+  "chapter": 24,
+  "difficulty": "Advanced",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-09",
+  "totalQuestions": 40,
+  "seo": {
+    "title": "Closures, Scope, and Hoisting in JavaScript - Lexical Scope, Closure Patterns, var vs let | Modern Age Coders",
+    "description": "Master JavaScript closures, scope, and hoisting. Learn global/function/block scope, lexical scope, closures (counter factory, private variables, memoization), hoisting (var vs let/const temporal dead zone), IIFE, module pattern, and classic interview closure questions. 56+ practice questions.",
+    "keywords": "javascript closures, javascript scope, javascript hoisting, lexical scope javascript, closure in loop, var vs let hoisting, temporal dead zone, iife javascript, module pattern javascript, javascript closure interview questions, javascript private variables"
+  },
+  "content": {
+    "what": "<h2>What Are Closures, Scope, and Hoisting?</h2><p>These three concepts explain how JavaScript manages variables -- where they are accessible, how long they live, and some surprising behaviors that trip up even experienced developers.</p><ul><li><strong>Scope</strong> determines where a variable can be accessed. If Aarav declares a variable inside a function, it cannot be used outside that function.</li><li><strong>Closures</strong> happen when an inner function remembers the variables from its outer function, even after the outer function has finished running. It is like a function carrying a backpack of variables.</li><li><strong>Hoisting</strong> is JavaScript's behavior of moving variable and function declarations to the top of their scope before execution. It explains why some code works in surprising ways.</li></ul><pre><code>// Closure example -- the inner function remembers 'count'\nfunction createCounter() {\n  let count = 0;          // This variable lives in the outer function\n  return function() {     // This inner function is a closure\n    count++;              // It can access 'count' even after createCounter returns\n    return count;\n  };\n}\n\nconst counter = createCounter();\nconsole.log(counter()); // 1\nconsole.log(counter()); // 2\nconsole.log(counter()); // 3\n// The 'count' variable is private -- no one else can access it</code></pre>",
+    "why": "<h2>Why Are These Concepts Important?</h2><h3>1. Understanding How JavaScript Actually Works</h3><p>If you do not understand scope and closures, you will be confused by bugs that seem impossible. Variables appearing as undefined when you expected a value, loops behaving strangely, and callbacks not having access to data they should -- all of these are scope and closure issues.</p><h3>2. The #1 JavaScript Interview Topic</h3><p>\"Explain closures\" and \"What is the output of this code?\" are the most common JavaScript interview questions. The classic loop-with-closure trap question (var vs let inside a for loop) appears in almost every interview. Understanding these concepts deeply will make you stand out.</p><h3>3. Foundation for Design Patterns</h3><p>Closures enable powerful patterns: private variables (data hiding), factory functions (creating customized functions), memoization (caching expensive computations), and the module pattern (organizing code). React hooks (useState, useEffect) are built on closures.</p><h3>4. Debugging Superpowers</h3><p>When Priya sees a variable that is undefined when it should have a value, understanding scope tells her exactly where to look. When Rohan sees a stale value in a callback, understanding closures tells him why. These concepts turn mysterious bugs into obvious fixes.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Global Scope</h3><p>Variables declared outside any function or block are in the global scope. They are accessible everywhere in your code:</p><pre><code>const appName = \"My App\";  // Global scope\nlet userCount = 0;          // Global scope\n\nfunction greet() {\n  console.log(appName);    // Can access global variables\n  userCount++;\n}\n\ngreet();\nconsole.log(userCount);     // 1\n\n// Global variables are accessible in all functions, if-blocks, loops, etc.\n// But this is usually a BAD practice -- too many globals cause name conflicts</code></pre><h3>2. Function Scope</h3><p>Variables declared inside a function are only accessible inside that function. They do not exist outside:</p><pre><code>function calculateTotal() {\n  const tax = 0.18;        // Function scope -- only exists inside calculateTotal\n  const price = 100;\n  return price + price * tax;\n}\n\nconsole.log(calculateTotal()); // 118\n// console.log(tax);           // ReferenceError: tax is not defined\n// console.log(price);         // ReferenceError: price is not defined</code></pre><p>Each function call creates a NEW scope. Variables from one call do not interfere with another:</p><pre><code>function add(a, b) {\n  const result = a + b;   // Each call has its own 'result'\n  return result;\n}\nadd(1, 2);  // result = 3 (in this call)\nadd(3, 4);  // result = 7 (in this call) -- completely independent</code></pre><h3>3. Block Scope (let and const)</h3><p><code>let</code> and <code>const</code> are block-scoped. A block is anything between <code>{</code> and <code>}</code>:</p><pre><code>if (true) {\n  let x = 10;     // Block scope -- only exists inside this { }\n  const y = 20;   // Block scope\n  var z = 30;     // NOT block-scoped! var ignores blocks!\n}\n\n// console.log(x);  // ReferenceError: x is not defined\n// console.log(y);  // ReferenceError: y is not defined\nconsole.log(z);     // 30 -- var leaks out of blocks!\n\n// This is why you should always use let/const instead of var\nfor (let i = 0; i < 3; i++) {\n  // i only exists inside this loop\n}\n// console.log(i); // ReferenceError: i is not defined</code></pre><h3>4. Lexical Scope</h3><p>Lexical scope means an inner function can access variables from its outer function. The scope is determined by where the function is written in the code, not where it is called:</p><pre><code>function outer() {\n  const message = \"Hello from outer\";\n\n  function inner() {\n    console.log(message);  // inner can access outer's variables\n  }\n\n  inner();\n}\n\nouter(); // \"Hello from outer\"\n\n// Nested three levels deep\nfunction level1() {\n  const a = \"level 1\";\n  function level2() {\n    const b = \"level 2\";\n    function level3() {\n      console.log(a);  // Can access level1's variable\n      console.log(b);  // Can access level2's variable\n    }\n    level3();\n  }\n  level2();\n}\nlevel1();</code></pre><h3>5. What Is a Closure?</h3><p>A closure is created when an inner function retains access to its outer function's variables even after the outer function has returned. The inner function \"closes over\" the variables it needs:</p><pre><code>function createGreeter(greeting) {\n  // 'greeting' is captured by the closure\n  return function(name) {\n    return greeting + \", \" + name + \"!\";\n  };\n}\n\nconst sayHello = createGreeter(\"Hello\");\nconst sayNamaste = createGreeter(\"Namaste\");\n\nconsole.log(sayHello(\"Aarav\"));    // \"Hello, Aarav!\"\nconsole.log(sayNamaste(\"Priya\"));  // \"Namaste, Priya!\"\n\n// createGreeter has already returned, but the inner functions\n// still remember their 'greeting' values</code></pre><p>Each call to <code>createGreeter</code> creates a separate closure with its own <code>greeting</code> variable. sayHello remembers \"Hello\" and sayNamaste remembers \"Namaste\".</p><h3>6. Practical Closure: Counter Factory</h3><pre><code>function createCounter(start) {\n  let count = start || 0;\n\n  return {\n    increment: function() { count++; return count; },\n    decrement: function() { count--; return count; },\n    getCount: function() { return count; },\n    reset: function() { count = start || 0; return count; }\n  };\n}\n\nconst counter1 = createCounter(0);\nconst counter2 = createCounter(100);\n\nconsole.log(counter1.increment()); // 1\nconsole.log(counter1.increment()); // 2\nconsole.log(counter2.increment()); // 101\nconsole.log(counter1.getCount());  // 2\nconsole.log(counter2.getCount());  // 101\n// Each counter has its own private 'count' variable</code></pre><h3>7. Practical Closure: Private Variables</h3><pre><code>function createUser(name, age) {\n  // These are private -- no one can access them directly\n  let _name = name;\n  let _age = age;\n\n  return {\n    getName: function() { return _name; },\n    getAge: function() { return _age; },\n    setAge: function(newAge) {\n      if (newAge > 0 && newAge < 150) {\n        _age = newAge;\n        return true;\n      }\n      return false;\n    },\n    toString: function() {\n      return _name + \" (age \" + _age + \")\";\n    }\n  };\n}\n\nconst user = createUser(\"Aarav\", 15);\nconsole.log(user.getName()); // \"Aarav\"\nconsole.log(user.getAge());  // 15\nuser.setAge(16);\nconsole.log(user.toString()); // \"Aarav (age 16)\"\n// user._name is undefined -- the variable is truly private</code></pre><h3>8. Practical Closure: Memoization</h3><pre><code>function memoize(fn) {\n  const cache = {};   // Closure captures this cache\n  return function(n) {\n    if (cache[n] !== undefined) {\n      console.log(\"  Cache hit for \" + n);\n      return cache[n];\n    }\n    console.log(\"  Computing \" + n);\n    cache[n] = fn(n);\n    return cache[n];\n  };\n}\n\nfunction slowSquare(n) {\n  return n * n;\n}\n\nconst fastSquare = memoize(slowSquare);\nconsole.log(fastSquare(5));  // Computing 5 -> 25\nconsole.log(fastSquare(5));  // Cache hit for 5 -> 25\nconsole.log(fastSquare(3));  // Computing 3 -> 9\nconsole.log(fastSquare(3));  // Cache hit for 3 -> 9</code></pre><h3>9. Hoisting: var Declarations</h3><p>JavaScript hoists <code>var</code> declarations (but not their values) to the top of the function scope:</p><pre><code>console.log(x); // undefined (not ReferenceError!)\nvar x = 10;\nconsole.log(x); // 10\n\n// JavaScript interprets the above as:\nvar x;           // Declaration hoisted to top\nconsole.log(x);  // undefined (declared but not assigned)\nx = 10;          // Assignment stays in place\nconsole.log(x);  // 10</code></pre><h3>10. Hoisting: let and const (Temporal Dead Zone)</h3><p><code>let</code> and <code>const</code> are also hoisted, but they are NOT initialized. Accessing them before declaration throws a ReferenceError. The period between hoisting and declaration is called the Temporal Dead Zone (TDZ):</p><pre><code>// console.log(a); // ReferenceError: Cannot access 'a' before initialization\nlet a = 5;\nconsole.log(a);   // 5\n\n// console.log(b); // ReferenceError: Cannot access 'b' before initialization\nconst b = 10;\nconsole.log(b);   // 10\n\n// var does NOT have a TDZ -- it returns undefined\nconsole.log(c);   // undefined\nvar c = 15;</code></pre><h3>11. Hoisting: Function Declarations vs Expressions</h3><p>Function declarations are fully hoisted (you can call them before they appear). Function expressions are NOT:</p><pre><code>// Function declaration -- fully hoisted\nsayHello();  // Works! \"Hello!\"\nfunction sayHello() {\n  console.log(\"Hello!\");\n}\n\n// Function expression -- NOT hoisted\n// sayBye();  // TypeError: sayBye is not a function\nvar sayBye = function() {\n  console.log(\"Bye!\");\n};\nsayBye();    // Works now\n\n// Arrow function expression -- also NOT hoisted\n// greet();  // ReferenceError: Cannot access 'greet' before initialization\nconst greet = () => console.log(\"Hi!\");\ngreet();     // Works now</code></pre><h3>12. The Classic Closure-in-Loop Trap</h3><p>This is the most famous JavaScript interview question. With <code>var</code>, all iterations share the same variable:</p><pre><code>// THE TRAP -- var in a loop\nfor (var i = 0; i < 3; i++) {\n  setTimeout(function() {\n    console.log(i);  // All print 3!\n  }, 100);\n}\n// Output: 3, 3, 3\n// By the time setTimeout callbacks run, the loop is done and i is 3.\n// All three closures share the SAME 'i' variable.\n\n// THE FIX -- use let\nfor (let i = 0; i < 3; i++) {\n  setTimeout(function() {\n    console.log(i);  // Prints 0, 1, 2\n  }, 100);\n}\n// Output: 0, 1, 2\n// let creates a new 'i' for each iteration. Each closure has its own copy.</code></pre><h3>13. IIFE Pattern (Immediately Invoked Function Expression)</h3><p>An IIFE creates a scope to avoid polluting the global scope:</p><pre><code>(function() {\n  const secret = \"hidden\";\n  console.log(\"IIFE running\");\n  // 'secret' is not accessible outside this function\n})();\n\n// console.log(secret); // ReferenceError\n\n// IIFE with parameters\n(function(name) {\n  console.log(\"Hello, \" + name);\n})(\"Aarav\");\n// Output: \"Hello, Aarav\"</code></pre><h3>14. Module Pattern Using Closures</h3><pre><code>const Calculator = (function() {\n  // Private state\n  let history = [];\n\n  // Private function\n  function record(operation) {\n    history.push(operation);\n  }\n\n  // Public API (returned object)\n  return {\n    add: function(a, b) {\n      const result = a + b;\n      record(a + \" + \" + b + \" = \" + result);\n      return result;\n    },\n    subtract: function(a, b) {\n      const result = a - b;\n      record(a + \" - \" + b + \" = \" + result);\n      return result;\n    },\n    getHistory: function() {\n      return [...history]; // Return a copy\n    }\n  };\n})();\n\nconsole.log(Calculator.add(5, 3));       // 8\nconsole.log(Calculator.subtract(10, 4)); // 6\nconsole.log(Calculator.getHistory());\n// [\"5 + 3 = 8\", \"10 - 4 = 6\"]\n// Calculator.history is undefined -- it is private!</code></pre>"
+  ,
+  "codeExamples": [
+    {
+      "title": "Scope Types: Global, Function, Block",
+      "code": "// --- Global Scope ---\nconst globalVar = \"I am global\";\n\nfunction testScope() {\n  // --- Function Scope ---\n  const funcVar = \"I am in a function\";\n  console.log(globalVar);  // Accessible\n  console.log(funcVar);    // Accessible\n\n  if (true) {\n    // --- Block Scope ---\n    let blockLet = \"let is block-scoped\";\n    const blockConst = \"const is block-scoped\";\n    var blockVar = \"var ignores blocks!\";\n    console.log(blockLet);    // Accessible inside block\n  }\n\n  // console.log(blockLet);   // ReferenceError!\n  // console.log(blockConst); // ReferenceError!\n  console.log(blockVar);      // \"var ignores blocks!\" -- var leaks out\n}\n\ntestScope();\nconsole.log(globalVar);     // Accessible\n// console.log(funcVar);    // ReferenceError -- function scope\n// console.log(blockVar);   // ReferenceError -- function scope (var is function-scoped)\n\n// Key lesson: let/const respect blocks. var only respects functions.",
+      "language": "javascript",
+      "explanation": "Global variables are accessible everywhere. Function variables are only accessible inside the function. <code>let</code> and <code>const</code> are block-scoped (trapped inside { }). <code>var</code> ignores block boundaries but respects function boundaries. This is the main reason to prefer <code>let</code> and <code>const</code> over <code>var</code>.",
+      "output": "I am global\nI am in a function\nlet is block-scoped\nvar ignores blocks!\nI am global"
+    },
+    {
+      "title": "Closures: Functions That Remember",
+      "code": "// --- Basic closure ---\nfunction makeMultiplier(multiplier) {\n  return function(number) {\n    return number * multiplier;  // 'multiplier' is remembered\n  };\n}\n\nconst double = makeMultiplier(2);\nconst triple = makeMultiplier(3);\nconst tenTimes = makeMultiplier(10);\n\nconsole.log(double(5));    // 10\nconsole.log(triple(5));    // 15\nconsole.log(tenTimes(5));  // 50\n\n// --- Counter with closure ---\nfunction createCounter() {\n  let count = 0;\n  return {\n    increment: function() { return ++count; },\n    decrement: function() { return --count; },\n    getCount: function() { return count; }\n  };\n}\n\nconst c1 = createCounter();\nconst c2 = createCounter();  // Separate closure!\n\nconsole.log(c1.increment()); // 1\nconsole.log(c1.increment()); // 2\nconsole.log(c2.increment()); // 1 (independent!)\nconsole.log(c1.getCount());  // 2\nconsole.log(c2.getCount());  // 1",
+      "language": "javascript",
+      "explanation": "Each call to <code>makeMultiplier</code> creates a new closure with its own <code>multiplier</code> value. <code>double</code> remembers 2, <code>triple</code> remembers 3, <code>tenTimes</code> remembers 10. Similarly, each <code>createCounter</code> call creates an independent counter with its own private <code>count</code> variable.",
+      "output": "10\n15\n50\n1\n2\n1\n2\n1"
+    },
+    {
+      "title": "Hoisting: var, let, const, and Functions",
+      "code": "// --- var hoisting ---\nconsole.log(\"a:\", a); // undefined (hoisted, not initialized)\nvar a = 10;\nconsole.log(\"a:\", a); // 10\n\n// --- let/const: Temporal Dead Zone ---\ntry {\n  console.log(b);\n} catch (e) {\n  console.log(\"b error:\", e.message); // Cannot access 'b' before initialization\n}\nlet b = 20;\nconsole.log(\"b:\", b); // 20\n\n// --- Function declaration: fully hoisted ---\nconsole.log(\"sayHi:\", sayHi()); // \"Hi!\"\nfunction sayHi() { return \"Hi!\"; }\n\n// --- Function expression: NOT hoisted ---\ntry {\n  console.log(sayBye());\n} catch (e) {\n  console.log(\"sayBye error:\", e.message); // sayBye is not a function\n}\nvar sayBye = function() { return \"Bye!\"; };\nconsole.log(\"sayBye:\", sayBye()); // \"Bye!\"\n\n// --- Arrow function with const: TDZ ---\ntry {\n  greet();\n} catch (e) {\n  console.log(\"greet error:\", e.message); // Cannot access 'greet' before initialization\n}\nconst greet = () => \"Hello!\";\nconsole.log(\"greet:\", greet()); // \"Hello!\"",
+      "language": "javascript",
+      "explanation": "<code>var</code> declarations are hoisted and initialized to undefined. <code>let</code> and <code>const</code> are hoisted but NOT initialized (Temporal Dead Zone). Function declarations are fully hoisted (name + body). Function expressions and arrow functions follow the rules of their declaration keyword (var/let/const).",
+      "output": "a: undefined\na: 10\nb error: Cannot access 'b' before initialization\nb: 20\nsayHi: Hi!\nsayBye error: sayBye is not a function\nsayBye: Bye!\ngreet error: Cannot access 'greet' before initialization\ngreet: Hello!"
+    },
+    {
+      "title": "The Classic Loop Closure Trap (var vs let)",
+      "code": "// ========== THE TRAP: var in a loop ==========\nconsole.log(\"--- var (broken) ---\");\nvar funcsVar = [];\nfor (var i = 0; i < 3; i++) {\n  funcsVar.push(function() { return i; });\n}\n// All functions return 3 because they share the SAME 'i'\nconsole.log(funcsVar[0]()); // 3\nconsole.log(funcsVar[1]()); // 3\nconsole.log(funcsVar[2]()); // 3\n\n// ========== THE FIX: let in a loop ==========\nconsole.log(\"--- let (correct) ---\");\nvar funcsLet = [];\nfor (let j = 0; j < 3; j++) {\n  funcsLet.push(function() { return j; });\n}\n// Each function has its own 'j' because let is block-scoped\nconsole.log(funcsLet[0]()); // 0\nconsole.log(funcsLet[1]()); // 1\nconsole.log(funcsLet[2]()); // 2\n\n// ========== OLD FIX: IIFE ==========\nconsole.log(\"--- IIFE fix ---\");\nvar funcsIIFE = [];\nfor (var k = 0; k < 3; k++) {\n  (function(captured) {\n    funcsIIFE.push(function() { return captured; });\n  })(k);  // Pass k as argument, creating a new scope\n}\nconsole.log(funcsIIFE[0]()); // 0\nconsole.log(funcsIIFE[1]()); // 1\nconsole.log(funcsIIFE[2]()); // 2",
+      "language": "javascript",
+      "explanation": "With <code>var</code>, all closures share the same variable <code>i</code>. By the time the functions run, the loop is done and <code>i</code> is 3. With <code>let</code>, each iteration creates a new block-scoped variable, so each closure captures its own value. The IIFE fix was the old solution before <code>let</code> existed -- it creates a new function scope to capture each value.",
+      "output": "--- var (broken) ---\n3\n3\n3\n--- let (correct) ---\n0\n1\n2\n--- IIFE fix ---\n0\n1\n2"
+    },
+    {
+      "title": "Module Pattern with Private State",
+      "code": "// Module pattern: IIFE that returns a public API\nconst BankAccount = (function() {\n  // Private variables (not accessible from outside)\n  let balance = 0;\n  const transactions = [];\n\n  // Private function\n  function log(type, amount) {\n    transactions.push({\n      type: type,\n      amount: amount,\n      date: new Date().toISOString().split(\"T\")[0],\n      balance: balance\n    });\n  }\n\n  // Public API\n  return {\n    deposit: function(amount) {\n      if (amount <= 0) return \"Invalid amount\";\n      balance += amount;\n      log(\"deposit\", amount);\n      return \"Deposited Rs \" + amount + \". Balance: Rs \" + balance;\n    },\n    withdraw: function(amount) {\n      if (amount <= 0) return \"Invalid amount\";\n      if (amount > balance) return \"Insufficient balance\";\n      balance -= amount;\n      log(\"withdraw\", amount);\n      return \"Withdrawn Rs \" + amount + \". Balance: Rs \" + balance;\n    },\n    getBalance: function() {\n      return balance;\n    },\n    getTransactions: function() {\n      return [...transactions]; // Return copy, not the original\n    }\n  };\n})();\n\nconsole.log(BankAccount.deposit(1000));\nconsole.log(BankAccount.deposit(500));\nconsole.log(BankAccount.withdraw(200));\nconsole.log(\"Balance:\", BankAccount.getBalance());\nconsole.log(\"Transactions:\", BankAccount.getTransactions().length);\n\n// BankAccount.balance is undefined -- truly private!\nconsole.log(\"Direct access:\", BankAccount.balance);",
+      "language": "javascript",
+      "explanation": "The module pattern uses an IIFE that returns an object with methods. The methods form closures over the private variables (<code>balance</code>, <code>transactions</code>). The private variables cannot be accessed directly from outside -- only through the public methods. This is the JavaScript version of private/public access control.",
+      "output": "Deposited Rs 1000. Balance: Rs 1000\nDeposited Rs 500. Balance: Rs 1500\nWithdrawn Rs 200. Balance: Rs 1300\nBalance: 1300\nTransactions: 3\nDirect access: undefined"
+    },
+    {
+      "title": "Closure Patterns: Function Factory and Memoize",
+      "code": "// --- Function Factory ---\nfunction createValidator(min, max) {\n  return function(value) {\n    return value >= min && value <= max;\n  };\n}\n\nconst isValidAge = createValidator(0, 120);\nconst isValidScore = createValidator(0, 100);\nconst isValidTemperature = createValidator(-50, 60);\n\nconsole.log(isValidAge(25));          // true\nconsole.log(isValidAge(150));         // false\nconsole.log(isValidScore(85));        // true\nconsole.log(isValidTemperature(-10)); // true\n\n// --- Memoize ---\nfunction memoize(fn) {\n  const cache = {};\n  return function() {\n    const key = JSON.stringify(arguments);\n    if (cache[key] !== undefined) return cache[key];\n    cache[key] = fn.apply(this, arguments);\n    return cache[key];\n  };\n}\n\nfunction fibonacci(n) {\n  if (n <= 1) return n;\n  return fibonacci(n - 1) + fibonacci(n - 2);\n}\n\nconst fastFib = memoize(function fib(n) {\n  if (n <= 1) return n;\n  return fastFib(n - 1) + fastFib(n - 2);\n});\n\nconsole.log(fastFib(10));  // 55\nconsole.log(fastFib(20));  // 6765\nconsole.log(fastFib(30));  // 832040 (instant with memoization)",
+      "language": "javascript",
+      "explanation": "Function factories use closures to create specialized functions. <code>createValidator</code> captures <code>min</code> and <code>max</code>, returning a function that validates any value against those bounds. The memoize function uses a closure to maintain a <code>cache</code> object that stores previously computed results, making repeated calls instant.",
+      "output": "true\nfalse\ntrue\ntrue\n55\n6765\n832040"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Using var in a Loop with Closures",
+      "wrongCode": "for (var i = 0; i < 3; i++) {\n  setTimeout(function() {\n    console.log(i); // Prints 3, 3, 3\n  }, 100);\n}",
+      "error": "All callbacks print 3 instead of 0, 1, 2. All closures share the same var i, which is 3 after the loop ends.",
+      "correctCode": "for (let i = 0; i < 3; i++) {\n  setTimeout(function() {\n    console.log(i); // Prints 0, 1, 2\n  }, 100);\n}",
+      "explanation": "<code>var</code> is function-scoped, so there is only one <code>i</code> shared by all iterations. <code>let</code> is block-scoped, creating a new <code>i</code> for each iteration. Always use <code>let</code> in loops."
+    },
+    {
+      "title": "Expecting var to Be Block-Scoped",
+      "wrongCode": "if (true) {\n  var secret = \"hidden\";\n}\nconsole.log(secret); // \"hidden\" -- oops, it leaked!",
+      "error": "var ignores block boundaries. The variable leaks out of the if block.",
+      "correctCode": "if (true) {\n  let secret = \"hidden\";\n}\n// console.log(secret); // ReferenceError: secret is not defined",
+      "explanation": "<code>var</code> is only scoped by functions, not by blocks like if, for, or while. <code>let</code> and <code>const</code> are properly block-scoped. Always use <code>let</code> or <code>const</code> to avoid accidental variable leaking."
+    },
+    {
+      "title": "Using a Variable Before let/const Declaration",
+      "wrongCode": "console.log(name); // ReferenceError!\nlet name = \"Aarav\";",
+      "error": "ReferenceError: Cannot access 'name' before initialization. This is the Temporal Dead Zone (TDZ).",
+      "correctCode": "let name = \"Aarav\";\nconsole.log(name); // \"Aarav\"",
+      "explanation": "<code>let</code> and <code>const</code> are hoisted but not initialized. The time between hoisting and the declaration line is the Temporal Dead Zone, where accessing the variable throws a ReferenceError. Always declare variables before using them."
+    },
+    {
+      "title": "Assuming Closures Copy Values",
+      "wrongCode": "function make() {\n  let x = 1;\n  const fn = function() { return x; };\n  x = 2;  // Change x after creating the closure\n  return fn;\n}\nconsole.log(make()()); // 2 (not 1!)\n// The closure references the variable, not the value at creation time",
+      "error": "Expected 1 but got 2. Closures capture a reference to the variable, not a snapshot of its value.",
+      "correctCode": "// If you need the value at creation time, capture it explicitly\nfunction make() {\n  let x = 1;\n  const captured = x;  // Capture the current value\n  const fn = function() { return captured; };\n  x = 2;\n  return fn;\n}\nconsole.log(make()()); // 1",
+      "explanation": "Closures hold a reference to the variable, not a copy of its value. If the variable changes after the closure is created, the closure sees the updated value. To capture a specific value, assign it to a new variable."
+    },
+    {
+      "title": "Confusing Function Declaration and Expression Hoisting",
+      "wrongCode": "sayHello(); // Works!\nfunction sayHello() { console.log(\"Hello\"); }\n\nsayBye(); // TypeError: sayBye is not a function\nvar sayBye = function() { console.log(\"Bye\"); };",
+      "error": "Function declarations are fully hoisted (name + body). Function expressions assigned to var are only partially hoisted (the variable is undefined until assignment).",
+      "correctCode": "// Put function expressions BEFORE their first use\nvar sayBye = function() { console.log(\"Bye\"); };\nsayBye(); // Works\n\n// Or use function declarations which are fully hoisted\nfunction sayHello() { console.log(\"Hello\"); }\nsayHello(); // Works regardless of position",
+      "explanation": "A function declaration (<code>function name() { }</code>) is fully hoisted -- you can call it before it appears in the code. A function expression (<code>var name = function() { }</code>) follows var hoisting rules: the variable exists but is undefined until the assignment line."
+    }
+  ],
+  "summary": [
+    "Scope determines where variables are accessible. JavaScript has three types: global scope (accessible everywhere), function scope (inside a function only), and block scope (inside { } for let/const only).",
+    "var is function-scoped and ignores blocks. let and const are block-scoped. This is the main reason to always prefer let/const over var.",
+    "Lexical scope means inner functions can access variables from their outer functions. The scope is determined by where the code is written, not where it is called.",
+    "A closure is an inner function that retains access to its outer function's variables even after the outer function returns. The inner function 'closes over' the variables it needs.",
+    "Practical closure patterns: counter factory (private state), function factory (customized functions), private variables (data hiding), and memoization (result caching).",
+    "Hoisting: var declarations are moved to the top and initialized to undefined. let/const are hoisted but NOT initialized (Temporal Dead Zone). Function declarations are fully hoisted (can be called before they appear).",
+    "The Temporal Dead Zone (TDZ) is the period between a let/const variable being hoisted and its actual declaration line. Accessing it during the TDZ throws a ReferenceError.",
+    "Classic loop trap: var in a for loop creates ONE shared variable for all closures. let creates a NEW variable per iteration. Always use let in loops with callbacks or closures.",
+    "IIFE (Immediately Invoked Function Expression) creates a scope to avoid polluting the global namespace. Syntax: (function() { ... })(). Used before let/const existed, still useful for the module pattern.",
+    "The module pattern uses an IIFE that returns an object of public methods, with private variables trapped in the closure. This provides encapsulation -- private state that can only be accessed through the returned API."
+  ]
+  },
+  "relatedTopics": ["array-and-object-advanced-patterns", "project-interactive-portfolio"],
+  "practice": {
+    "totalQuestions": 40,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>let x = 10;\nfunction foo() {\n  console.log(x);\n}\nfoo();</code></pre>",
+        "hint": "Inner functions can access outer (including global) variables.",
+        "answer": "<code>10</code>",
+        "explanation": "The function <code>foo</code> accesses the global variable <code>x</code> through lexical scope."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>function test() {\n  let a = 5;\n  return a;\n}\nconsole.log(test());\n// console.log(a);</code></pre>",
+        "hint": "Variables declared inside a function are not accessible outside.",
+        "answer": "<code>5</code> (and the commented line would throw ReferenceError)",
+        "explanation": "The function returns 5, which is logged. The variable <code>a</code> is function-scoped and does not exist outside the function. Uncommenting the last line would throw ReferenceError."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>console.log(x);\nvar x = 5;\nconsole.log(x);</code></pre>",
+        "hint": "var declarations are hoisted. The value is NOT hoisted.",
+        "answer": "<code>undefined</code><br><code>5</code>",
+        "explanation": "var x is hoisted to the top (initialized to undefined). The first log prints undefined. Then x is assigned 5, so the second log prints 5."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>if (true) {\n  var a = 10;\n  let b = 20;\n}\nconsole.log(a);\n// console.log(b);</code></pre>",
+        "hint": "var ignores block scope. let respects block scope.",
+        "answer": "<code>10</code> (and the commented line would throw ReferenceError)",
+        "explanation": "var ignores the if block, so <code>a</code> is accessible outside. let is block-scoped, so <code>b</code> only exists inside the if block."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function make() {\n  let count = 0;\n  return function() {\n    count++;\n    return count;\n  };\n}\nconst fn = make();\nconsole.log(fn());\nconsole.log(fn());\nconsole.log(fn());</code></pre>",
+        "hint": "The returned function forms a closure over 'count'.",
+        "answer": "<code>1</code><br><code>2</code><br><code>3</code>",
+        "explanation": "Each call to <code>fn()</code> increments and returns the <code>count</code> variable that is trapped in the closure. The variable persists between calls."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function greet(greeting) {\n  return function(name) {\n    return greeting + \", \" + name;\n  };\n}\nconst hi = greet(\"Hi\");\nconst hello = greet(\"Hello\");\nconsole.log(hi(\"Aarav\"));\nconsole.log(hello(\"Priya\"));</code></pre>",
+        "hint": "Each call to greet creates a separate closure with its own 'greeting'.",
+        "answer": "<code>Hi, Aarav</code><br><code>Hello, Priya</code>",
+        "explanation": "<code>hi</code> captures \"Hi\" and <code>hello</code> captures \"Hello\". Each closure has its own independent copy of the greeting variable."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>sayHello();\nfunction sayHello() {\n  console.log(\"Hello!\");\n}\n\ntry { sayBye(); } catch(e) { console.log(e.message); }\nvar sayBye = function() {\n  console.log(\"Bye!\");\n};</code></pre>",
+        "hint": "Function declarations are fully hoisted. Function expressions assigned to var are NOT.",
+        "answer": "<code>Hello!</code><br><code>sayBye is not a function</code>",
+        "explanation": "Function declaration <code>sayHello</code> is fully hoisted and can be called anywhere. The var <code>sayBye</code> is hoisted as undefined, so calling it as a function throws TypeError."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>var funcs = [];\nfor (var i = 0; i < 3; i++) {\n  funcs.push(function() { return i; });\n}\nconsole.log(funcs[0]());\nconsole.log(funcs[1]());\nconsole.log(funcs[2]());</code></pre>",
+        "hint": "This is the classic closure trap with var.",
+        "answer": "<code>3</code><br><code>3</code><br><code>3</code>",
+        "explanation": "All three functions share the same <code>var i</code>. By the time any function is called, the loop has finished and <code>i</code> is 3. All functions return 3."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>var funcs = [];\nfor (let i = 0; i < 3; i++) {\n  funcs.push(function() { return i; });\n}\nconsole.log(funcs[0]());\nconsole.log(funcs[1]());\nconsole.log(funcs[2]());</code></pre>",
+        "hint": "let creates a new variable for each iteration.",
+        "answer": "<code>0</code><br><code>1</code><br><code>2</code>",
+        "explanation": "With <code>let</code>, each iteration of the loop creates a new block-scoped <code>i</code>. Each closure captures its own <code>i</code> with the value from that iteration."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function outer() {\n  let x = 10;\n  function inner() {\n    console.log(x);\n  }\n  x = 20;\n  return inner;\n}\nconst fn = outer();\nfn();</code></pre>",
+        "hint": "Closures capture a reference to the variable, not a snapshot of its value.",
+        "answer": "<code>20</code>",
+        "explanation": "The closure captures a reference to <code>x</code>, not its value at creation time. By the time <code>fn()</code> is called, <code>x</code> has been changed to 20."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>console.log(typeof a);\nconsole.log(typeof b);\nvar a = 1;\nlet b = 2;</code></pre>",
+        "hint": "var is hoisted as undefined. But what happens with let?",
+        "answer": "The first line prints <code>undefined</code>. The second line throws <code>ReferenceError: Cannot access 'b' before initialization</code>.",
+        "explanation": "<code>var a</code> is hoisted and initialized to undefined, so <code>typeof a</code> returns \"undefined\". <code>let b</code> is in the Temporal Dead Zone -- accessing it before its declaration throws ReferenceError. The second console.log never executes."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is a closure in simple terms? Give a one-sentence definition.",
+        "hint": "Think about what the inner function remembers.",
+        "answer": "A closure is a function that retains access to variables from its outer (enclosing) function's scope, even after the outer function has finished executing.",
+        "explanation": "The inner function 'closes over' the variables it references from the outer scope. These variables are kept alive in memory as long as the closure exists."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the Temporal Dead Zone (TDZ) and which variables are affected by it?",
+        "hint": "Think about what happens between hoisting and the declaration line.",
+        "answer": "The Temporal Dead Zone is the period between a <code>let</code> or <code>const</code> variable being hoisted and its actual declaration in the code. During the TDZ, the variable exists (it has been hoisted) but accessing it throws a ReferenceError because it has not been initialized. <code>var</code> does NOT have a TDZ -- it is initialized to <code>undefined</code> during hoisting.",
+        "explanation": "The TDZ is a safety feature. It catches the mistake of using a variable before declaring it, which var silently allows by returning undefined."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>function outer() {\n  let x = 5;\n  function inner() {\n    return x * 2;\n  }\n  return inner();\n}\nconsole.log(outer());</code></pre>",
+        "hint": "inner can access x from outer's scope.",
+        "answer": "<code>10</code>",
+        "explanation": "inner accesses x (5) from outer's scope via lexical scoping and returns 5 * 2 = 10."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>const x = 10;\nif (true) {\n  const x = 20;\n  console.log(x);\n}\nconsole.log(x);</code></pre>",
+        "hint": "const is block-scoped. The inner x shadows the outer x inside the block.",
+        "answer": "<code>20</code><br><code>10</code>",
+        "explanation": "Inside the if block, const x = 20 creates a new block-scoped variable that shadows the outer x. Inside the block, x is 20. Outside, the outer x (10) is still accessible."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function makeAdder(x) {\n  return function(y) { return x + y; };\n}\nconst add5 = makeAdder(5);\nconst add10 = makeAdder(10);\nconsole.log(add5(3) + add10(3));</code></pre>",
+        "hint": "add5 remembers x=5, add10 remembers x=10.",
+        "answer": "<code>21</code>",
+        "explanation": "add5(3) = 5 + 3 = 8. add10(3) = 10 + 3 = 13. 8 + 13 = 21."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for (var i = 0; i < 3; i++) {\n  // just looping\n}\nconsole.log(i);</code></pre>",
+        "hint": "var is not block-scoped. It leaks out of the for loop.",
+        "answer": "<code>3</code>",
+        "explanation": "var is function-scoped, not block-scoped. After the loop ends, i is 3 and is still accessible outside the loop. With let, this would be a ReferenceError."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function makeCounter() {\n  let count = 0;\n  return {\n    inc: function() { return ++count; },\n    get: function() { return count; }\n  };\n}\nconst a = makeCounter();\nconst b = makeCounter();\na.inc(); a.inc(); a.inc();\nb.inc();\nconsole.log(a.get());\nconsole.log(b.get());</code></pre>",
+        "hint": "Each makeCounter call creates a separate closure with its own count.",
+        "answer": "<code>3</code><br><code>1</code>",
+        "explanation": "a and b have independent closures with their own count variables. a.inc() was called 3 times (count = 3). b.inc() was called once (count = 1). They do not share state."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>var a = 1;\nfunction foo() {\n  var a = 2;\n  console.log(a);\n}\nfoo();\nconsole.log(a);</code></pre>",
+        "hint": "Each function has its own scope. The inner 'a' shadows the outer 'a'.",
+        "answer": "<code>2</code><br><code>1</code>",
+        "explanation": "Inside foo, var a creates a new local variable that shadows the global a. foo logs 2. Outside foo, the global a is still 1."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for (let i = 0; i < 3; i++) {\n  // just looping\n}\ntry {\n  console.log(i);\n} catch(e) {\n  console.log(\"Error: i is not defined\");\n}</code></pre>",
+        "hint": "let is block-scoped. The loop body is a block.",
+        "answer": "<code>Error: i is not defined</code>",
+        "explanation": "With <code>let</code>, the variable <code>i</code> only exists inside the for loop block. Accessing it outside throws a ReferenceError."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>(function() {\n  var x = 10;\n  console.log(x);\n})();\ntry {\n  console.log(x);\n} catch(e) {\n  console.log(\"x not defined\");\n}</code></pre>",
+        "hint": "IIFE creates a function scope. Variables inside are not accessible outside.",
+        "answer": "<code>10</code><br><code>x not defined</code>",
+        "explanation": "The IIFE creates its own scope. <code>x</code> is accessible inside (prints 10) but not outside (ReferenceError)."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>function createAdder(x) {\n  return function(y) {\n    return x + y;\n  };\n}\nconst add5 = createAdder(5);\nconst add10 = createAdder(10);\nconsole.log(add5(3));\nconsole.log(add10(3));\nconsole.log(add5(add10(1)));</code></pre>",
+        "hint": "Each closure remembers its own x. The last line nests the calls.",
+        "answer": "<code>8</code><br><code>13</code><br><code>16</code>",
+        "explanation": "add5 remembers x=5, add10 remembers x=10. add5(3)=8, add10(3)=13. add10(1)=11, then add5(11)=16."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>let a = 1;\nfunction foo() {\n  console.log(a);\n  let a = 2;\n  console.log(a);\n}</code></pre>",
+        "hint": "let is hoisted within the function but enters TDZ.",
+        "answer": "ReferenceError: Cannot access 'a' before initialization",
+        "explanation": "The <code>let a = 2</code> inside foo creates a local <code>a</code> that shadows the global <code>a</code>. But accessing it before the declaration line puts us in the TDZ, causing a ReferenceError. The global <code>a</code> is not used because the local <code>a</code> exists (it is just not initialized yet)."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>function createFunctions() {\n  var result = [];\n  for (var i = 0; i < 3; i++) {\n    result.push((function(j) {\n      return function() { return j; };\n    })(i));\n  }\n  return result;\n}\nvar fns = createFunctions();\nconsole.log(fns[0]());\nconsole.log(fns[1]());\nconsole.log(fns[2]());</code></pre>",
+        "hint": "The IIFE captures the current value of i as j in each iteration.",
+        "answer": "<code>0</code><br><code>1</code><br><code>2</code>",
+        "explanation": "The IIFE captures each value of <code>i</code> as the parameter <code>j</code>. Each inner function closes over its own <code>j</code>. This is the pre-let solution to the loop closure trap."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>const counter = (function() {\n  let count = 0;\n  return {\n    up: function() { return ++count; },\n    down: function() { return --count; },\n    value: function() { return count; }\n  };\n})();\n\nconsole.log(counter.up());\nconsole.log(counter.up());\nconsole.log(counter.down());\nconsole.log(counter.value());\nconsole.log(counter.count);</code></pre>",
+        "hint": "This is the module pattern. count is private.",
+        "answer": "<code>1</code><br><code>2</code><br><code>1</code><br><code>1</code><br><code>undefined</code>",
+        "explanation": "up() increments: 1, 2. down() decrements: 1. value() returns current count: 1. counter.count is undefined because count is a private variable inside the closure, not a property of the returned object."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for (var i = 1; i <= 3; i++) {\n  setTimeout(function() {\n    console.log(\"var: \" + i);\n  }, 0);\n}\n\nfor (let j = 1; j <= 3; j++) {\n  setTimeout(function() {\n    console.log(\"let: \" + j);\n  }, 0);\n}</code></pre>",
+        "hint": "setTimeout runs after the loop finishes. var shares one i, let creates a j per iteration.",
+        "answer": "<code>var: 4</code><br><code>var: 4</code><br><code>var: 4</code><br><code>let: 1</code><br><code>let: 2</code><br><code>let: 3</code>",
+        "explanation": "The var loop: by the time setTimeout callbacks run, i is 4 (loop ended). All print \"var: 4\". The let loop: each iteration has its own j. Callbacks print the captured values: 1, 2, 3."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain why the module pattern works for creating private variables in JavaScript.",
+        "hint": "Think about what the IIFE does and what the returned object can access.",
+        "answer": "The module pattern uses an IIFE (Immediately Invoked Function Expression) that declares variables inside its function scope. These variables cannot be accessed from outside the function. The IIFE returns an object with methods that form closures over the private variables. Only these methods can read or modify the private data. Code outside the module can use the methods but cannot directly access the private variables.",
+        "explanation": "This works because: (1) function scope prevents external access to the variables, (2) the returned methods maintain closure references to those variables, and (3) there is no other way to reach the variables. This is JavaScript's way of achieving encapsulation before ES6 classes with # private fields."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is scope in JavaScript?",
+        "options": {
+          "A": "The speed of code execution",
+          "B": "The region of code where a variable is accessible",
+          "C": "The size of a variable",
+          "D": "The type of a variable"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Scope determines where a variable can be accessed. Variables in function scope are only accessible inside that function."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is a closure?",
+        "options": {
+          "A": "A function that closes the browser tab",
+          "B": "A function that has access to its outer function's variables even after the outer function returns",
+          "C": "A function that cannot be called",
+          "D": "A function without parameters"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A closure is a function plus its lexical environment. It retains access to outer variables even after the outer function has finished executing."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does hoisting do to var declarations?",
+        "options": {
+          "A": "Moves the entire line to the top",
+          "B": "Moves the declaration to the top and initializes it to undefined",
+          "C": "Moves the value to the top",
+          "D": "Deletes the variable"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Hoisting moves the <code>var</code> declaration to the top of its scope and initializes it to <code>undefined</code>. The value assignment stays in its original position."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which keyword creates a block-scoped variable?",
+        "options": {
+          "A": "var",
+          "B": "function",
+          "C": "let",
+          "D": "global"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>let</code> (and <code>const</code>) create block-scoped variables that only exist inside the { } block where they are declared."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "What happens when you access a let variable before its declaration?",
+        "options": {
+          "A": "It returns undefined",
+          "B": "It returns null",
+          "C": "It throws a ReferenceError (Temporal Dead Zone)",
+          "D": "It returns the global value"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> let and const have a Temporal Dead Zone. Accessing them before declaration throws ReferenceError. This is different from var, which returns undefined."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "In the classic loop trap, why do all var closures return the same value?",
+        "options": {
+          "A": "Because JavaScript copies the variable each time",
+          "B": "Because all closures share the same var variable",
+          "C": "Because setTimeout always returns the last value",
+          "D": "Because var creates a new variable each iteration"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> var is function-scoped, not block-scoped. There is only ONE i variable shared by all iterations. By the time callbacks run, the loop is done and i has its final value."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is an IIFE?",
+        "options": {
+          "A": "An internal function expression",
+          "B": "An immediately invoked function expression that runs right away",
+          "C": "An infinite function executor",
+          "D": "An interface for function exports"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> An IIFE is a function that is defined and immediately executed: <code>(function() { ... })()</code>. It creates a private scope."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which of these is fully hoisted (both name and body)?",
+        "options": {
+          "A": "var f = function() {}",
+          "B": "const f = () => {}",
+          "C": "function f() {}",
+          "D": "let f = function() {}"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Only function declarations (<code>function name() { }</code>) are fully hoisted. Function expressions and arrow functions follow their variable keyword rules."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Hard",
+        "question": "Do closures capture variables by value or by reference?",
+        "options": {
+          "A": "By value -- they take a snapshot",
+          "B": "By reference -- they see changes made after closure creation",
+          "C": "By value for primitives, by reference for objects",
+          "D": "It depends on the browser"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Closures capture a reference to the variable, not its value. If the variable changes after the closure is created, the closure sees the updated value."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Hard",
+        "question": "What is the module pattern used for?",
+        "options": {
+          "A": "Loading external modules",
+          "B": "Creating objects with private variables using closures",
+          "C": "Splitting code into files",
+          "D": "Importing npm packages"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The module pattern uses an IIFE to create private variables and returns an object with public methods. The methods form closures over the private variables, providing encapsulation."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "Why does let fix the loop closure trap?",
+        "options": {
+          "A": "let is faster than var",
+          "B": "let creates a new variable for each iteration of the loop",
+          "C": "let prevents closures from forming",
+          "D": "let makes setTimeout synchronous"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> let is block-scoped, and each iteration of a for loop is a new block. So each closure captures its own separate variable with the correct value from that iteration."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is lexical scope?",
+        "options": {
+          "A": "Scope determined by where a function is called",
+          "B": "Scope determined by where a function is written in the source code",
+          "C": "Scope determined at runtime by the engine",
+          "D": "Scope that only applies to objects"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Lexical (or static) scope means the scope is determined by the position of the code when it is written, not when it is executed. Inner functions can access variables from their enclosing scope in the source code."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Easy",
+        "question": "What value does a var variable have before it is assigned?",
+        "options": {
+          "A": "null",
+          "B": "0",
+          "C": "undefined",
+          "D": "It throws an error"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> var declarations are hoisted and initialized to undefined. Accessing a var before its assignment line returns undefined."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "What is the main practical use of closures?",
+        "options": {
+          "A": "Making code run faster",
+          "B": "Creating private variables and maintaining state between function calls",
+          "C": "Preventing memory leaks",
+          "D": "Converting functions to strings"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Closures are used to create private variables (that cannot be accessed from outside) and to maintain state between calls (like a counter that remembers its count)."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What is the output of: (function(x) { return x * 2; })(5)?",
+        "options": {
+          "A": "undefined",
+          "B": "function",
+          "C": "10",
+          "D": "SyntaxError"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> This is an IIFE that takes 5 as an argument and returns 5 * 2 = 10. The function is defined and immediately called."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "In the module pattern, how are private variables created?",
+        "options": {
+          "A": "Using the private keyword",
+          "B": "Using variables declared inside an IIFE that are not returned",
+          "C": "Using underscore prefix on variable names",
+          "D": "Using Object.freeze"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Variables declared inside an IIFE are trapped in its function scope. Only the methods returned by the IIFE can access them. Code outside cannot reach them."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is the difference between function scope and block scope?",
+        "options": {
+          "A": "They are the same thing",
+          "B": "Function scope is for var, block scope is for let/const -- blocks include if, for, while curly braces",
+          "C": "Block scope only applies to classes",
+          "D": "Function scope applies to arrow functions only"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> var is function-scoped (only trapped by function boundaries). let/const are block-scoped (trapped by any { } including if, for, while, etc.)."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Counter with Reset",
+        "difficulty": "Easy",
+        "description": "Create a function makeCounter that returns an object with increment, decrement, getCount, and reset methods. The count variable should be private (not accessible directly from outside).",
+        "sampleInput": "counter.increment() x3, counter.decrement() x1, counter.getCount()",
+        "sampleOutput": "1, 2, 3, 2, getCount: 2, reset: 0",
+        "constraints": "The count variable must be private. Only the returned methods should be able to access it.",
+        "solution": "function makeCounter(start) {\n  let count = start || 0;\n  return {\n    increment: function() { return ++count; },\n    decrement: function() { return --count; },\n    getCount: function() { return count; },\n    reset: function() { count = start || 0; return count; }\n  };\n}\n\nconst c = makeCounter(0);\nconsole.log(c.increment()); // 1\nconsole.log(c.increment()); // 2\nconsole.log(c.increment()); // 3\nconsole.log(c.decrement()); // 2\nconsole.log(c.getCount());  // 2\nconsole.log(c.reset());     // 0\nconsole.log(c.count);       // undefined (private!)"
+      },
+      {
+        "id": "cc-2",
+        "title": "Once Function",
+        "difficulty": "Easy",
+        "description": "Write a function called once that takes a function as an argument and returns a new function that can only be called once. Subsequent calls should return the result of the first call without executing the original function again.",
+        "sampleInput": "const add = once((a, b) => a + b); add(2, 3); add(5, 5);",
+        "sampleOutput": "5, 5 (second call returns cached result)",
+        "constraints": "Use a closure to track whether the function has been called.",
+        "solution": "function once(fn) {\n  let called = false;\n  let result;\n  return function() {\n    if (!called) {\n      result = fn.apply(this, arguments);\n      called = true;\n    }\n    return result;\n  };\n}\n\nconst addOnce = once(function(a, b) {\n  console.log(\"Computing...\");\n  return a + b;\n});\nconsole.log(addOnce(2, 3)); // Computing... 5\nconsole.log(addOnce(5, 5)); // 5 (no Computing...)\nconsole.log(addOnce(10, 10)); // 5 (still cached)"
+      },
+      {
+        "id": "cc-3",
+        "title": "Rate Limiter",
+        "difficulty": "Medium",
+        "description": "Write a function called createRateLimiter that takes a function and a time limit in milliseconds. It should return a new function that can only be called once within the time limit. Additional calls within the limit are ignored.",
+        "sampleInput": "const limited = createRateLimiter(fn, 1000); limited(); limited(); (after 1s) limited();",
+        "sampleOutput": "First call: executed. Second call: ignored. After 1s: executed.",
+        "constraints": "Use closure to track the last call time. Use Date.now() for timing.",
+        "solution": "function createRateLimiter(fn, limit) {\n  let lastCalled = 0;\n  return function() {\n    const now = Date.now();\n    if (now - lastCalled >= limit) {\n      lastCalled = now;\n      return fn.apply(this, arguments);\n    }\n    console.log(\"Rate limited, try again later\");\n    return undefined;\n  };\n}\n\nconst limitedLog = createRateLimiter(function(msg) {\n  console.log(\"Logged: \" + msg);\n}, 1000);\n\nlimitedLog(\"hello\");  // Logged: hello\nlimitedLog(\"world\");  // Rate limited\n// After 1 second:\n// limitedLog(\"again\"); // Logged: again"
+      },
+      {
+        "id": "cc-4",
+        "title": "Private Collection",
+        "difficulty": "Medium",
+        "description": "Create a function called createCollection that returns an object with add, remove, has, getAll, and size methods. The internal array should be completely private. getAll should return a copy, not the original.",
+        "sampleInput": "add('Aarav'), add('Priya'), has('Aarav'), remove('Aarav'), size()",
+        "sampleOutput": "add: true, add: true, has: true, remove: true, size: 1",
+        "constraints": "Use closures for privacy. getAll must return a copy. Prevent duplicates.",
+        "solution": "function createCollection() {\n  const items = [];\n  return {\n    add: function(item) {\n      if (!items.includes(item)) {\n        items.push(item);\n        return true;\n      }\n      return false;\n    },\n    remove: function(item) {\n      const idx = items.indexOf(item);\n      if (idx !== -1) {\n        items.splice(idx, 1);\n        return true;\n      }\n      return false;\n    },\n    has: function(item) { return items.includes(item); },\n    getAll: function() { return [...items]; },\n    size: function() { return items.length; }\n  };\n}\n\nconst col = createCollection();\nconsole.log(col.add(\"Aarav\"));   // true\nconsole.log(col.add(\"Priya\"));   // true\nconsole.log(col.add(\"Aarav\"));   // false (duplicate)\nconsole.log(col.has(\"Aarav\"));   // true\nconsole.log(col.remove(\"Aarav\")); // true\nconsole.log(col.size());          // 1"
+      },
+      {
+        "id": "cc-5",
+        "title": "Fix the Loop Closure Bug",
+        "difficulty": "Hard",
+        "description": "The following code has a bug. Each button should log its own index when clicked, but all buttons log 5. Fix it using three different approaches: (1) let, (2) IIFE, (3) closure function.",
+        "sampleInput": "5 buttons created in a loop with var",
+        "sampleOutput": "Click button 0 -> logs 0, click button 1 -> logs 1, etc.",
+        "constraints": "Provide three different solutions.",
+        "solution": "// BUGGY CODE:\n// for (var i = 0; i < 5; i++) {\n//   buttons[i].addEventListener('click', function() { console.log(i); });\n// }\n\n// FIX 1: Use let\nfor (let i = 0; i < 5; i++) {\n  buttons[i].addEventListener('click', function() { console.log(i); });\n}\n\n// FIX 2: IIFE\nfor (var i = 0; i < 5; i++) {\n  (function(j) {\n    buttons[j].addEventListener('click', function() { console.log(j); });\n  })(i);\n}\n\n// FIX 3: Closure function\nfunction createHandler(index) {\n  return function() { console.log(index); };\n}\nfor (var i = 0; i < 5; i++) {\n  buttons[i].addEventListener('click', createHandler(i));\n}"
+      },
+      {
+        "id": "cc-6",
+        "title": "Function Pipeline Builder",
+        "difficulty": "Hard",
+        "description": "Write a function called pipe that takes multiple functions as arguments and returns a new function that applies them left to right. pipe(double, addOne)(5) should return 11 (5*2 = 10, 10+1 = 11).",
+        "sampleInput": "pipe(double, addOne, square)(3)",
+        "sampleOutput": "49 (3*2=6, 6+1=7, 7*7=49)",
+        "constraints": "Use closures and reduce. The piped function should work with any number of functions.",
+        "solution": "function pipe() {\n  const fns = Array.from(arguments);\n  return function(input) {\n    return fns.reduce(function(result, fn) {\n      return fn(result);\n    }, input);\n  };\n}\n\nfunction double(x) { return x * 2; }\nfunction addOne(x) { return x + 1; }\nfunction square(x) { return x * x; }\n\nconst transform = pipe(double, addOne, square);\nconsole.log(transform(3)); // 49 (3*2=6, +1=7, 7^2=49)\nconsole.log(transform(5)); // 121 (5*2=10, +1=11, 11^2=121)\n\nconst simple = pipe(double, double);\nconsole.log(simple(4)); // 16 (4*2=8, 8*2=16)"
+      }
+    ]
+  }
+}
